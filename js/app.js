@@ -1,1 +1,11 @@
-function filterArticles(cat){document.querySelectorAll('.article-card').forEach(c=>{c.style.display=(cat==='all'||c.dataset.category===cat)?'block':'none'});document.querySelectorAll('.category-row button').forEach(b=>b.classList.remove('active'));event.target.classList.add('active')}function searchArticles(){const q=document.getElementById('searchInput').value.toLowerCase();document.querySelectorAll('.article-card').forEach(c=>{c.style.display=c.innerText.toLowerCase().includes(q)?'block':'none'})}
+
+function filterArticles(category){
+  const cards=[...document.querySelectorAll('[data-category]')];
+  const buttons=[...document.querySelectorAll('.category-row button')];
+  buttons.forEach(b=>b.classList.toggle('active', b.textContent.trim()===category || (category==='all' && b.textContent.trim()==='전체')));
+  cards.forEach(card=>{card.style.display=(category==='all'||card.dataset.category===category)?'block':'none';});
+}
+function searchArticles(){
+  const q=(document.getElementById('searchInput')?.value||'').toLowerCase().trim();
+  document.querySelectorAll('[data-category]').forEach(card=>{card.style.display=card.textContent.toLowerCase().includes(q)?'block':'none';});
+}
