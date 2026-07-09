@@ -1,2 +1,3 @@
-const input=document.querySelector('#articleSearch');
-if(input){input.addEventListener('input',()=>{const q=input.value.toLowerCase();document.querySelectorAll('.article-item').forEach(item=>{item.style.display=item.textContent.toLowerCase().includes(q)?'block':'none';});});}
+
+const searchInput=document.querySelector('#articleSearch');
+if(searchInput){searchInput.addEventListener('input',()=>{const q=searchInput.value.toLowerCase();document.querySelectorAll('[data-article]').forEach(el=>{el.style.display=el.textContent.toLowerCase().includes(q)?'block':'none';});});}
