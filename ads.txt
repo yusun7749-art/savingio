@@ -1,2 +1,1 @@
-# Add your Google AdSense publisher ID after approval.
-# Example: google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+# Add your Google AdSense publisher line after approval.
