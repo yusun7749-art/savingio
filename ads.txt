@@ -1,1 +1,1 @@
-# Add your Google AdSense publisher ID after approval.
+# Add your Google AdSense ads.txt line here after approval or when AdSense provides it.
