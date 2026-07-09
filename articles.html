@@ -1,116 +1,17 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Money Guides | Savingio</title>
-  <meta name="description" content="Browse practical Savingio guides about bill savings, refunds, banking fees, taxes, and online income.">
-  <link rel="canonical" href="https://savingio.com/articles.html">
-  <style>
-    :root{--blue:#2563eb;--dark:#0f172a;--text:#1f2937;--muted:#64748b;--bg:#f8fafc;--card:#fff;--line:#e2e8f0;--soft:#eff6ff;--shadow:0 14px 36px rgba(15,23,42,.08)}
-    *{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}.site-header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}.nav{max-width:1120px;margin:0 auto;padding:18px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-size:26px;font-weight:800;color:var(--blue);text-decoration:none}.menu{display:flex;gap:18px;flex-wrap:wrap}.menu a{color:var(--dark);text-decoration:none;font-size:15px}.menu a:hover{color:var(--blue)}.hero{background:linear-gradient(180deg,#eff6ff 0%,#f8fafc 100%)}.wrap{max-width:1120px;margin:0 auto;padding:54px 22px}.eyebrow{color:var(--blue);font-weight:700;letter-spacing:.03em;text-transform:uppercase;font-size:13px}h1{font-size:46px;line-height:1.12;margin:14px 0 18px;color:var(--dark);max-width:850px}p.lead{font-size:18px;color:#334155;max-width:760px}.tools{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.search,.select{height:44px;border:1px solid var(--line);border-radius:12px;background:#fff;padding:0 14px;font-size:15px}.search{min-width:320px}.filter-row{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0 4px}.filter-btn{border:1px solid var(--line);background:#fff;border-radius:999px;padding:9px 14px;cursor:pointer;font-weight:700;color:#334155}.filter-btn.active,.filter-btn:hover{background:var(--blue);border-color:var(--blue);color:#fff}.section-title{font-size:30px;margin:18px 0 18px;color:var(--dark)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.article-card{display:block;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px;text-decoration:none;color:inherit;box-shadow:var(--shadow);transition:.2s transform,.2s box-shadow}.article-card:hover{transform:translateY(-4px);box-shadow:0 18px 42px rgba(15,23,42,.12)}.tag{display:inline-block;font-size:13px;font-weight:800;color:#1d4ed8;background:var(--soft);border-radius:999px;padding:5px 10px;margin-bottom:14px}.article-card h3{font-size:21px;line-height:1.35;margin:0 0 12px;color:var(--dark)}.article-card p{margin:0;color:#475569}.empty{display:none;background:#fff;border:1px dashed var(--line);border-radius:16px;padding:24px;color:var(--muted)}.footer{border-top:1px solid var(--line);background:#fff;margin-top:50px}.footer .wrap{padding-top:26px;padding-bottom:26px;color:var(--muted);font-size:14px}@media(max-width:900px){.grid{grid-template-columns:1fr 1fr}h1{font-size:38px}.nav{align-items:flex-start;flex-direction:column}.search{min-width:100%;width:100%}}@media(max-width:640px){.grid{grid-template-columns:1fr}h1{font-size:32px}.wrap{padding:38px 18px}.menu{gap:12px}.tools{display:block}.select{width:100%;margin-top:10px}}
-  </style>
-</head>
-<body>
-  <header class="site-header">
-    <nav class="nav">
-      <a class="brand" href="/">Savingio</a>
-      <div class="menu">
-        <a href="/articles.html">Articles</a>
-        <a href="/articles.html?category=bill-savings">Bill Savings</a>
-        <a href="/articles.html?category=refunds">Refunds</a>
-        <a href="/articles.html?category=online-income">Online Income</a>
-        <a href="/about.html">About</a>
-        <a href="/contact.html">Contact</a>
-        <a href="/privacy.html">Privacy</a>
-      </div>
-    </nav>
-  </header>
 
-  <section class="hero">
-    <div class="wrap">
-      <div class="eyebrow">Article Library</div>
-      <h1>Money Guides</h1>
-      <p class="lead">Search and filter practical guides for everyday money decisions, including bills, refunds, banking, taxes, and online income.</p>
-      <div class="tools">
-        <input class="search" id="searchInput" type="search" placeholder="Search guides..." aria-label="Search articles">
-        <select class="select" id="categorySelect" aria-label="Filter by category">
-          <option value="all">All categories</option>
-          <option value="bill-savings">Bill Savings</option>
-          <option value="refunds">Refunds</option>
-          <option value="online-income">Online Income</option>
-          <option value="banking">Banking</option>
-          <option value="taxes">Taxes</option>
-        </select>
-      </div>
-      <div class="filter-row" aria-label="Category filters">
-        <button class="filter-btn active" data-category="all">All</button>
-        <button class="filter-btn" data-category="bill-savings">Bill Savings</button>
-        <button class="filter-btn" data-category="refunds">Refunds</button>
-        <button class="filter-btn" data-category="online-income">Online Income</button>
-        <button class="filter-btn" data-category="banking">Banking</button>
-        <button class="filter-btn" data-category="taxes">Taxes</button>
-      </div>
-    </div>
-  </section>
-
-  <main class="wrap">
-    <h2 class="section-title">Latest Practical Guides</h2>
-    <div class="grid" id="articleGrid">
-      <a class="article-card" href="/articles/electricity-bill-savings.html" data-article data-category="bill-savings" data-title="How to Save Money on Your Electricity Bill in 2026">
-        <span class="tag">Bill Savings</span><h3>How to Save Money on Your Electricity Bill in 2026</h3><p>Simple steps to reduce electricity costs without changing your lifestyle.</p>
-      </a>
-      <a class="article-card" href="/articles/phone-bill-savings.html" data-article data-category="bill-savings" data-title="How to Lower Your Phone Bill Without Losing Coverage">
-        <span class="tag">Bill Savings</span><h3>How to Lower Your Phone Bill Without Losing Coverage</h3><p>Check your plan, remove unused extras, and compare lower-cost options.</p>
-      </a>
-      <a class="article-card" href="/articles/cancel-unused-subscriptions.html" data-article data-category="bill-savings" data-title="How to Find and Cancel Unused Subscriptions">
-        <span class="tag">Bill Savings</span><h3>How to Find and Cancel Unused Subscriptions</h3><p>Find recurring charges and stop wasted monthly payments.</p>
-      </a>
-      <a class="article-card" href="/articles/check-hidden-refunds.html" data-article data-category="refunds" data-title="How to Check for Hidden Refunds and Unclaimed Money">
-        <span class="tag">Refunds</span><h3>How to Check for Hidden Refunds and Unclaimed Money</h3><p>Where to look for small refunds, balances, points, and missed support money.</p>
-      </a>
-      <a class="article-card" href="/articles/irs-tax-refund-status.html" data-article data-category="taxes" data-title="How to Check Your IRS Tax Refund Status">
-        <span class="tag">Taxes</span><h3>How to Check Your IRS Tax Refund Status</h3><p>A plain-language guide to tracking a federal refund and avoiding common mistakes.</p>
-      </a>
-      <a class="article-card" href="/articles/bank-fees-to-avoid.html" data-article data-category="banking" data-title="Common Bank Fees to Avoid in 2026">
-        <span class="tag">Banking</span><h3>Common Bank Fees to Avoid in 2026</h3><p>Monthly fees, overdraft costs, ATM charges, and ways to reduce them.</p>
-      </a>
-      <a class="article-card" href="/articles/beginner-ai-side-hustles.html" data-article data-category="online-income" data-title="Beginner AI Side Hustles That Do Not Require Coding">
-        <span class="tag">Online Income</span><h3>Beginner AI Side Hustles That Do Not Require Coding</h3><p>Realistic ideas for using AI tools to save time and create simple digital income streams.</p>
-      </a>
-      <a class="article-card" href="/articles/online-income-ideas-for-beginners.html" data-article data-category="online-income" data-title="Online Income Ideas for Beginners: What to Try First">
-        <span class="tag">Online Income</span><h3>Online Income Ideas for Beginners: What to Try First</h3><p>A practical overview of beginner-friendly online income paths and what to avoid.</p>
-      </a>
-    </div>
-    <div class="empty" id="emptyState">No articles matched your search.</div>
-  </main>
-
-  <footer class="footer"><div class="wrap">© 2026 Savingio. Practical money-saving guides for everyday decisions.</div></footer>
-
-  <script>
-    const searchInput=document.getElementById('searchInput');
-    const categorySelect=document.getElementById('categorySelect');
-    const buttons=[...document.querySelectorAll('.filter-btn')];
-    const cards=[...document.querySelectorAll('[data-article]')];
-    const empty=document.getElementById('emptyState');
-    let selected='all';
-    function applyFilter(){
-      const q=(searchInput.value||'').toLowerCase().trim();
-      let visible=0;
-      cards.forEach(card=>{
-        const title=(card.dataset.title||card.textContent).toLowerCase();
-        const category=card.dataset.category;
-        const matchCategory=selected==='all'||category===selected;
-        const matchSearch=!q||title.includes(q)||card.textContent.toLowerCase().includes(q);
-        const show=matchCategory&&matchSearch;
-        card.style.display=show?'block':'none';
-        if(show) visible++;
-      });
-      empty.style.display=visible?'none':'block';
-    }
-    buttons.forEach(btn=>btn.addEventListener('click',()=>{selected=btn.dataset.category;categorySelect.value=selected;buttons.forEach(b=>b.classList.remove('active'));btn.classList.add('active');applyFilter();}));
-    categorySelect.addEventListener('change',()=>{selected=categorySelect.value;buttons.forEach(b=>b.classList.toggle('active',b.dataset.category===selected));applyFilter();});
-    searchInput.addEventListener('input',applyFilter);
-  </script>
-</body>
-</html>
+const searchInput=document.getElementById('searchInput');
+const categorySelect=document.getElementById('categorySelect');
+const buttons=[...document.querySelectorAll('[data-filter]')];
+const cards=[...document.querySelectorAll('[data-article]')];
+const empty=document.getElementById('emptyState');
+let selected=new URLSearchParams(location.search).get('category')||'all';
+function sync(){ if(categorySelect) categorySelect.value=selected; buttons.forEach(b=>b.classList.toggle('active',b.dataset.filter===selected)); }
+function applyFilter(){
+  const q=(searchInput?.value||'').toLowerCase().trim(); let visible=0;
+  cards.forEach(card=>{ const text=card.textContent.toLowerCase(); const category=card.dataset.category; const show=(selected==='all'||category===selected)&&(!q||text.includes(q)); card.style.display=show?'block':'none'; if(show) visible++; });
+  if(empty) empty.style.display=visible?'none':'block';
+}
+buttons.forEach(btn=>btn.addEventListener('click',()=>{selected=btn.dataset.filter;sync();applyFilter();}));
+categorySelect?.addEventListener('change',()=>{selected=categorySelect.value;sync();applyFilter();});
+searchInput?.addEventListener('input',applyFilter);
+sync();applyFilter();
