@@ -1,0 +1,7 @@
+Part015 1차 콘텐츠 재작성 검증
+
+vat-sales-omission-check-2026: 글자수 3159, 관련글 3, FAQ 5, 고정계산기 True
+hometax-vat-sales-check: 글자수 3078, 관련글 3, FAQ 5, 고정계산기 True
+general-vat-common-mistakes: 글자수 3048, 관련글 3, FAQ 5, 고정계산기 True
+vat-input-tax-deduction-items: 글자수 3043, 관련글 3, FAQ 5, 고정계산기 True
+vat-zero-sales-filing-2026: 글자수 3032, 관련글 3, FAQ 5, 고정계산기 True
