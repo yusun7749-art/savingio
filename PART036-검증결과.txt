@@ -1,0 +1,16 @@
+Savingio Part036 통신·구독 글 5개 검증 결과
+
+수정 파일 수: 5
+- phone-bill-saving.html: 표시 텍스트 7,432자 / 파일 18,790 bytes
+- internet-bill-savings.html: 표시 텍스트 7,046자 / 파일 17,601 bytes
+- cancel-unused-subscriptions.html: 표시 텍스트 7,056자 / 파일 17,586 bytes
+- automatic-payment-saving.html: 표시 텍스트 6,762자 / 파일 17,003 bytes
+- subscription-audit-checklist.html: 표시 텍스트 6,569자 / 파일 16,507 bytes
+
+검증 항목:
+- 각 파일 HTML 존재 및 0 byte 아님
+- A001 카드형 레이아웃 포함
+- 3초 요약·목차·표·체크리스트·FAQ·관련글 포함
+- 공식 사이트 버튼 포함
+- 고정 계산기 버튼 및 drawer 스크립트 포함
+- 환율 계산기 링크 없음
