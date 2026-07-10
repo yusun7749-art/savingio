@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>퍼센트 계산기 | 몇 퍼센트·할인율·증가율 계산 | Savingio</title>
+<meta name="description" content="10만원의 몇 퍼센트, 할인 후 금액, 증가율, 원래 가격 역산, 두 값의 퍼센트 차이를 한 번에 계산하세요.">
+<link rel="canonical" href="https://savingio.com/calculators/percentage.html">
+<link rel="stylesheet" href="../css/style.css?v=5">
+<style>
+.percent-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 22px}
+.percent-tab{border:1px solid #d7dee8;background:#fff;border-radius:999px;padding:10px 14px;font-weight:800;cursor:pointer}
+.percent-tab.active{background:#1769ff;color:#fff;border-color:#1769ff}
+.percent-panel{display:none}
+.percent-panel.active{display:block}
+.example-box{margin-top:20px;padding:18px;border-radius:14px;background:#f7f9fc;border:1px solid #e4eaf2}
+.example-box strong{display:block;margin-bottom:6px}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="header-inner"><a class="logo" href="/">Savingio</a><nav class="nav"><a href="/">홈</a><a href="/articles/">전체 글</a><a href="/calculators/">계산기</a><a href="/about.html">소개</a><a href="/contact.html">문의</a></nav></div></header>
+<main class="calculator-wrap">
+  <div class="calc-card">
+    <h1>퍼센트 계산기</h1>
+    <p class="desc">10만원의 15%, 20% 할인 후 금액, 몇 퍼센트 증가했는지까지 한 번에 계산하세요.</p>
+
+    <div class="percent-tabs">
+      <button class="percent-tab active" data-target="p1">A의 B%</button>
+      <button class="percent-tab" data-target="p2">할인 금액</button>
+      <button class="percent-tab" data-target="p3">증가 금액</button>
+      <button class="percent-tab" data-target="p4">B는 A의 몇 %</button>
+      <button class="percent-tab" data-target="p5">원래 가격 역산</button>
+      <button class="percent-tab" data-target="p6">퍼센트 변화</button>
+    </div>
+
+    <section id="p1" class="percent-panel active">
+      <div class="form-grid">
+        <div class="field"><label>기준 금액 A</label><input id="p1a" inputmode="decimal" placeholder="예: 100000"></div>
+        <div class="field"><label>퍼센트 B(%)</label><input id="p1b" inputmode="decimal" placeholder="예: 15"></div>
+      </div>
+      <div class="calc-actions"><button class="btn primary" onclick="calcP1()">계산하기</button></div>
+    </section>
+
+    <section id="p2" class="percent-panel">
+      <div class="form-grid">
+        <div class="field"><label>원래 금액</label><input id="p2a" inputmode="decimal" placeholder="예: 100000"></div>
+        <div class="field"><label>할인율(%)</label><input id="p2b" inputmode="decimal" placeholder="예: 20"></div>
+      </div>
+      <div class="calc-actions"><button class="btn primary" onclick="calcP2()">계산하기</button></div>
+    </section>
+
+    <section id="p3" class="percent-panel">
+      <div class="form-grid">
+        <div class="field"><label>현재 금액</label><input id="p3a" inputmode="decimal" placeholder="예: 100000"></div>
+        <div class="field"><label>증가율(%)</label><input id="p3b" inputmode="decimal" placeholder="예: 10"></div>
+      </div>
+      <div class="calc-actions"><button class="btn primary" onclick="calcP3()">계산하기</button></div>
+    </section>
+
+    <section id="p4" class="percent-panel">
+      <div class="form-grid">
+        <div class="field"><label>기준값 A</label><input id="p4a" inputmode="decimal" placeholder="예: 100000"></div>
+        <div class="field"><label>비교값 B</label><input id="p4b" inputmode="decimal" placeholder="예: 25000"></div>
+      </div>
+      <div class="calc-actions"><button class="btn primary" onclick="calcP4()">계산하기</button></div>
+    </section>
+
+    <section id="p5" class="percent-panel">
+      <div class="form-grid">
+        <div class="field"><label>할인 후 금액</label><input id="p5a" inputmode="decimal" placeholder="예: 80000"></div>
+        <div class="field"><label>할인율(%)</label><input id="p5b" inputmode="decimal" placeholder="예: 20"></div>
+      </div>
+      <div class="calc-actions"><button class="btn primary" onclick="calcP5()">계산하기</button></div>
+    </section>
+
+    <section id="p6" class="percent-panel">
+      <div class="form-grid">
+        <div class="field"><label>이전 값</label><input id="p6a" inputmode="decimal" placeholder="예: 80000"></div>
+        <div class="field"><label>현재 값</label><input id="p6b" inputmode="decimal" placeholder="예: 100000"></div>
+      </div>
+      <div class="calc-actions"><button class="btn primary" onclick="calcP6()">계산하기</button></div>
+    </section>
+
+    <div id="result" class="result"></div>
+
+    <div class="example-box">
+      <strong>예시</strong>
+      10만원의 15%는 15,000원입니다. 10만원에서 20% 할인하면 80,000원입니다.
+    </div>
+    <div class="notice">소수점 계산은 반올림되어 표시될 수 있습니다.</div>
+  </div>
+</main>
+<footer class="site-footer"><div class="footer-inner"><strong>Savingio</strong><div>생활비 절약과 돈 관리를 돕는 실용 정보 사이트입니다.</div><div class="footer-links"><a href="/about.html">About</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a><a href="/articles/">Articles</a></div></div></footer>
+<script src="../js/app.js?v=5"></script>
+<script>
+document.querySelectorAll('.percent-tab').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.percent-tab').forEach(x=>x.classList.remove('active'));
+    document.querySelectorAll('.percent-panel').forEach(x=>x.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(btn.dataset.target).classList.add('active');
+    const result=document.getElementById('result');
+    result.classList.remove('show'); result.innerHTML='';
+  });
+});
+const n=id=>Number((document.getElementById(id).value||'').replace(/,/g,''))||0;
+const fmt=v=>Number(v).toLocaleString('ko-KR',{maximumFractionDigits:2});
+function result(title, rows){
+  showResult(`<strong>${title}</strong><dl>${rows.map(r=>`<dt>${r[0]}</dt><dd>${r[1]}</dd>`).join('')}</dl>`);
+}
+function calcP1(){
+  const a=n('p1a'), b=n('p1b'); if(!a) return showResult('기준 금액을 입력하세요.');
+  const v=a*b/100; result(fmt(v), [['계산식', `${fmt(a)} × ${fmt(b)}%`], ['결과', fmt(v)]]);
+}
+function calcP2(){
+  const a=n('p2a'), b=n('p2b'); if(!a) return showResult('원래 금액을 입력하세요.');
+  const d=a*b/100, final=a-d; result(fmt(final), [['할인 금액', fmt(d)], ['할인 후 금액', fmt(final)]]);
+}
+function calcP3(){
+  const a=n('p3a'), b=n('p3b'); if(!a) return showResult('현재 금액을 입력하세요.');
+  const inc=a*b/100, final=a+inc; result(fmt(final), [['증가 금액', fmt(inc)], ['증가 후 금액', fmt(final)]]);
+}
+function calcP4(){
+  const a=n('p4a'), b=n('p4b'); if(!a) return showResult('기준값 A를 입력하세요.');
+  const p=b/a*100; result(fmt(p)+'%', [['계산식', `${fmt(b)} ÷ ${fmt(a)} × 100`], ['비율', fmt(p)+'%']]);
+}
+function calcP5(){
+  const after=n('p5a'), rate=n('p5b'); if(!after||rate>=100) return showResult('할인 후 금액과 100 미만 할인율을 입력하세요.');
+  const original=after/(1-rate/100); result(fmt(original), [['할인 전 금액', fmt(original)], ['할인 금액', fmt(original-after)]]);
+}
+function calcP6(){
+  const old=n('p6a'), now=n('p6b'); if(!old) return showResult('이전 값을 입력하세요.');
+  const change=(now-old)/old*100;
+  result((change>=0?'+':'')+fmt(change)+'%', [['차이', fmt(now-old)], ['변화율', (change>=0?'+':'')+fmt(change)+'%']]);
+}
+</script>
+</body>
+</html>

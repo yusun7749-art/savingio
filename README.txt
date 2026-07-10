@@ -1,8 +1,8 @@
-Part003 적용:
-1. 압축을 풉니다.
-2. 안의 모든 파일/폴더를 바탕화면 savingio-live 안에 붙여넣습니다.
-3. sitemap-calculators.xml의 계산기 URL은 기존 sitemap.xml에 합쳐도 됩니다.
-4. 터미널:
+Part005 적용
+1. 압축 해제
+2. 안의 모든 파일과 폴더를 savingio-live에 덮어쓰기
+3. 터미널:
 git add .
-git commit -m "Part003 functional calculator upgrade"
+git commit -m "Part005 add percentage calculator"
 git push
+4. 배포 후 Ctrl+Shift+R
