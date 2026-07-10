@@ -1,0 +1,12 @@
+PART016 실제 수정·검증 결과
+
+전체 HTML 파일 수: 244
+상세 글 파일 수: 190
+내부 깨진 글/계산기 링크 수: 0
+
+수정 파일:
+- self-employed-income-tax-refund-check.html | 본문 3259자 | H2 11개 | FAQ 5개 | 표 1개
+- income-tax-filing-missed-consequences.html | 본문 3021자 | H2 11개 | FAQ 5개 | 표 1개
+- simple-receipt-expense-rules.html | 본문 3314자 | H2 12개 | FAQ 5개 | 표 1개
+- electronic-tax-invoice-penalty.html | 본문 3067자 | H2 12개 | FAQ 5개 | 표 1개
+- tax-invoice-vs-cash-receipt.html | 본문 3086자 | H2 12개 | FAQ 5개 | 표 1개

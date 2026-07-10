@@ -1,0 +1,6 @@
+Part020 정부혜택 5개 실제 수정
+basic-livelihood-discounts.html: 3026자
+near-poverty-certificate.html: 3088자
+energy-voucher-application.html: 3017자
+electricity-discount-card-guide.html: 3010자
+culture-nuri-card-balance.html: 3059자
