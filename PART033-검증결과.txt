@@ -1,0 +1,10 @@
+Savingio Part033 검증결과
+
+생성 파일 수: 5개
+정보센터 index.html 카드·검색어 추가 완료
+
+- education-benefit-eligibility.html: 본문 텍스트 3,182자 / FAQ 5개
+- elementary-school-education-support.html: 본문 텍스트 3,141자 / FAQ 5개
+- lifelong-education-voucher-application.html: 본문 텍스트 3,000자 / FAQ 5개
+- national-scholarship-application.html: 본문 텍스트 3,065자 / FAQ 5개
+- student-loan-repayment-guide.html: 본문 텍스트 3,058자 / FAQ 5개
