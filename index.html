@@ -1,144 +1,44 @@
 <!doctype html>
 <html lang="ko">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>생활비·세금·지원금·계산 서비스 | Savingio</title>
-<meta name="description" content="세금, 지원금, 환급금, 생활비, 급여, 환율 정보를 찾고 필요한 계산까지 한곳에서 해결하세요.">
-<link rel="canonical" href="https://savingio.com/">
-<link rel="stylesheet" href="./css/style.css?v=9">
-<link rel="stylesheet" href="./css/service-portal.css?v=9">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Savingio | 생활 속 돈 문제 해결 플랫폼</title>
+<meta name="description" content="생활비 절약, 정부혜택, 연금, 급여, 세금, 자동차 비용을 한곳에서 확인하고 공식 신청처까지 연결합니다.">
+<link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/service-portal.css">
 </head>
 <body>
-<header class="site-header"><div class="header-inner"><a class="logo" href="/">Savingio</a><nav class="nav"><a href="/">홈</a><a href="/articles/">정보센터</a><a href="/calculators/">계산기</a><a href="/about.html">소개</a><a href="/contact.html">문의</a></nav></div></header>
-<main class="portal-shell">
-  <section class="portal-hero">
-    <div class="portal-hero-top">
-      <div>
-        <span class="portal-kicker">Money Utility Service</span>
-        <h1>돈 문제를<br>빠르게 해결하세요</h1>
-        <p>세금·지원금·환급금·급여·생활비 정보를 찾고, 필요한 계산까지 한 흐름으로 이용할 수 있습니다.</p>
-      </div>
-      <aside class="portal-status">
-        <strong>서비스 현황</strong>
-        <ul>
-          <li><span>생활정보</span><b>189개</b></li>
-          <li><span>계산기</span><b>8개</b></li>
-          <li><span>회원가입</span><b>없음</b></li>
-          <li><span>이용료</span><b>무료</b></li>
-        </ul>
-      </aside>
-    </div>
+<header class="site-header"><div class="header-inner"><a class="logo" href="/">Savingio</a><nav class="nav"><a href="/">홈</a><a href="/guides/">문제 해결</a><a href="/articles/">정보센터</a><a href="/calculators/">계산기</a><a href="/about.html">소개</a></nav></div></header>
+<main>
+<section class="sv-hero"><div class="sv-wrap"><span class="sv-kicker">생활 속 돈 문제, 여기서 끝내세요</span><h1>찾고, 확인하고,<br>바로 행동하는 Savingio</h1><p>복잡한 금융용어 대신 지금 필요한 문제를 선택하세요. 핵심 정보, 계산, 공식 확인처, 다음 행동까지 한 흐름으로 연결합니다.</p><div class="sv-search"><input id="homeSearch" aria-label="검색" placeholder="예: 60세 이상 혜택, 기초생활수급, 범칙금, 실수령액"><button id="homeSearchBtn">찾기</button></div></div></section>
 
-    <div class="portal-search">
-      <input id="portalSearch" type="search" placeholder="재산세, 환급금, 에너지바우처, 환율, 퍼센트 계산">
-      <button type="button" id="portalSearchBtn">검색</button>
-    </div>
-    <div id="portalResult" class="portal-result"></div>
-  </section>
+<section class="sv-section sv-wrap"><div class="sv-title"><div><span>START</span><h2>무엇을 해결하고 싶으세요?</h2></div><a href="/guides/">전체 문제 보기</a></div>
+<div class="sv-action-grid">
+<a class="sv-action" href="/guides/#living"><i>₩</i><strong>생활비 줄이기</strong><p>전기·수도·가스·관리비·통신비</p><b>절약 방법 찾기 →</b></a>
+<a class="sv-action featured" href="/benefits/over-60.html"><i>60+</i><strong>60세 이상 혜택</strong><p>연금·건강·일자리·요금 감면</p><b>혜택 한눈에 보기 →</b></a>
+<a class="sv-action" href="/benefits/basic-livelihood.html"><i>복</i><strong>기초생활수급 확인</strong><p>생계·의료·주거·교육급여</p><b>확인 순서 보기 →</b></a>
+<a class="sv-action" href="https://www.efine.go.kr/" target="_blank" rel="noopener"><i>차</i><strong>범칙금·과태료 조회</strong><p>경찰청 교통민원24 공식 조회</p><b>공식 사이트 열기 →</b></a>
+<a class="sv-action" href="/calculators/salary.html"><i>급</i><strong>급여 확인하기</strong><p>실수령액·공제 항목 확인</p><b>급여 계산기 열기 →</b></a>
+<a class="sv-action" href="/guides/#tax"><i>세</i><strong>세금 처리하기</strong><p>부가세·재산세·자동차세</p><b>세금 문제 찾기 →</b></a>
+<a class="sv-action" href="/guides/#refund"><i>환</i><strong>받을 돈 찾기</strong><p>환급금·장려금·지원금</p><b>놓친 돈 확인하기 →</b></a>
+<a class="sv-action" href="/calculators/"><i>＋</i><strong>바로 계산하기</strong><p>대출·부가세·퇴직금·주휴수당</p><b>계산기 전체 보기 →</b></a>
+</div></section>
 
-  <div class="portal-title">
-    <h2>무엇을 하시나요?</h2>
-    <span>목적을 선택하면 바로 이동합니다.</span>
-  </div>
+<section class="sv-section sv-soft"><div class="sv-wrap"><div class="sv-title"><div><span>POPULAR</span><h2>지금 많이 확인하는 문제</h2></div></div>
+<div class="sv-list-grid">
+<a href="/benefits/over-60.html"><em>부모님·노후</em><strong>60세 이상 받을 수 있는 복지 혜택</strong><small>연령만으로 단정하지 않고 조건별 공식 확인처까지 안내</small></a>
+<a href="/benefits/basic-livelihood.html"><em>정부혜택</em><strong>기초생활수급, 어디서부터 확인할까?</strong><small>급여 종류와 신청 순서를 한 번에 정리</small></a>
+<a href="/articles/energy-voucher-application-2026.html"><em>생활비</em><strong>에너지바우처 신청 방법</strong><small>대상·신청·사용 절차 확인</small></a>
+<a href="/articles/health-insurance-refund.html"><em>환급금</em><strong>건강보험 환급금 확인</strong><small>과오납과 본인부담상한액 확인</small></a>
+<a href="/articles/vat-sales-omission-check-2026.html"><em>사업자 세금</em><strong>부가세 신고 전 매출 누락 확인</strong><small>카드·현금영수증·플랫폼 정산 대조</small></a>
+<a href="/calculators/severance.html"><em>직장인</em><strong>퇴직금 계산기</strong><small>평균임금과 재직기간 기준 예상액 확인</small></a>
+</div></div></section>
 
-  <section class="portal-actions">
-    <a class="portal-action" href="/articles/?category=생활정보"><span class="portal-icon">₩</span><strong>돈 아끼기</strong><span>전기요금·수도요금·관리비·통신비</span><b>절약 정보 →</b></a>
-    <a class="portal-action" href="/articles/?category=지원금"><span class="portal-icon">환</span><strong>받을 돈 찾기</strong><span>환급금·장려금·지원금</span><b>혜택 찾기 →</b></a>
-    <a class="portal-action" href="/articles/?category=세금·환급"><span class="portal-icon">세</span><strong>세금 처리하기</strong><span>부가세·재산세·자동차세</span><b>세금 정보 →</b></a>
-    <a class="portal-action" href="/calculators/salary.html"><span class="portal-icon">급</span><strong>급여 확인하기</strong><span>실수령액·주휴·퇴직금</span><b>급여 정보 →</b></a>
-    <a class="portal-action" href="/calculators/exchange-rate.html"><span class="portal-icon">FX</span><strong>환율 계산하기</strong><span>달러·엔화·유로·위안</span><b>환율 계산 →</b></a>
-    <a class="portal-action" href="/calculators/"><span class="portal-icon">＋</span><strong>바로 계산하기</strong><span>퍼센트·부가세·대출이자</span><b>계산기 열기 →</b></a>
-  </section>
-
-  <div class="portal-workspace">
-    <section class="portal-panel">
-      <div class="portal-panel-head">
-        <h3>지금 처리할 돈 정보</h3>
-        <a href="/articles/">전체 보기 →</a>
-      </div>
-      <div class="portal-list">
-        <a class="portal-row" href="/articles/vat-sales-omission-check-2026.html">
-          <span class="label">세금</span>
-          <div><strong>부가가치세 신고 전 매출 누락 확인</strong><p>카드매출·현금영수증·플랫폼 정산자료 대조</p></div>
-          <span class="go">확인 →</span>
-        </a>
-        <a class="portal-row" href="/articles/property-tax-bill-checklist-2026.html">
-          <span class="label">재산세</span>
-          <div><strong>7월 재산세 고지서 체크리스트</strong><p>납세자·세액·납부기한 확인</p></div>
-          <span class="go">확인 →</span>
-        </a>
-        <a class="portal-row" href="/articles/energy-voucher-application-2026.html">
-          <span class="label">지원금</span>
-          <div><strong>2026년 에너지바우처 신청 방법</strong><p>대상·신청기간·사용방법 확인</p></div>
-          <span class="go">확인 →</span>
-        </a>
-        <a class="portal-row" href="/articles/health-insurance-refund.html">
-          <span class="label">환급</span>
-          <div><strong>건강보험 환급금 확인 방법</strong><p>과오납·본인부담상한액 환급 조회</p></div>
-          <span class="go">확인 →</span>
-        </a>
-        <a class="portal-row" href="/articles/summer-electricity-usage-check-2026.html">
-          <span class="label">생활비</span>
-          <div><strong>여름철 전기요금 사용량 관리</strong><p>누진구간과 냉방기기 사용 점검</p></div>
-          <span class="go">확인 →</span>
-        </a>
-      </div>
-    </section>
-
-    <aside class="portal-side">
-      <section class="portal-panel portal-quick">
-        <h3>빠른 계산</h3>
-        <div class="portal-quick-grid">
-          <a href="/calculators/percentage.html">퍼센트</a>
-          <a href="/calculators/exchange-rate.html">환율</a>
-          <a href="/calculators/salary.html">실수령액</a>
-          <a href="/calculators/weekly-pay.html">주휴수당</a>
-          <a href="/calculators/severance.html">퇴직금</a>
-          <a href="/calculators/annual-leave.html">연차</a>
-          <a href="/calculators/vat.html">부가세</a>
-          <a href="/calculators/loan.html">대출이자</a>
-        </div>
-      </section>
-
-      <section class="portal-panel portal-official">
-        <h3>공식 서비스</h3>
-        <a href="https://www.hometax.go.kr/" target="_blank" rel="noopener"><span>홈택스</span><b>→</b></a>
-        <a href="https://www.gov.kr/" target="_blank" rel="noopener"><span>정부24</span><b>→</b></a>
-        <a href="https://www.bokjiro.go.kr/" target="_blank" rel="noopener"><span>복지로</span><b>→</b></a>
-        <a href="https://www.wetax.go.kr/" target="_blank" rel="noopener"><span>위택스</span><b>→</b></a>
-      </section>
-    </aside>
-  </div>
+<section class="sv-section sv-wrap"><div class="sv-trust"><div><span>Savingio 원칙</span><h2>광고보다 먼저, 실제로 도움이 되는 흐름</h2></div><ol><li><b>1</b>내 상황에 맞는 핵심 정보 확인</li><li><b>2</b>필요한 금액은 계산기로 검토</li><li><b>3</b>정부·공공기관 공식 사이트에서 최종 확인</li><li><b>4</b>함께 받을 수 있는 혜택까지 이어서 점검</li></ol></div></section>
 </main>
-<footer class="site-footer"><div class="footer-inner"><strong>Savingio</strong><div>생활 속 돈 문제를 빠르게 해결하는 실용 서비스입니다.</div><div class="footer-links"><a href="/about.html">소개</a><a href="/contact.html">문의</a><a href="/privacy.html">개인정보처리방침</a></div></div></footer>
-
+<footer class="site-footer"><div class="footer-inner"><strong>Savingio</strong><p>생활 속 돈 문제를 이해하고 해결하도록 돕는 정보 서비스입니다. 최종 신청·납부·자격 판단은 반드시 공식기관에서 확인하세요.</p><div class="footer-links"><a href="/about.html">소개</a><a href="/privacy.html">개인정보처리방침</a><a href="/contact.html">문의</a></div></div></footer>
 <script>
-const portalItems = [
-  ['부가가치세 신고 전 매출 누락 확인','카드매출·현금영수증·플랫폼 정산자료 대조','/articles/vat-sales-omission-check-2026.html'],
-  ['7월 재산세 고지서 체크리스트','납세자·세액·납부기한 확인','/articles/property-tax-bill-checklist-2026.html'],
-  ['에너지바우처 신청 방법','대상·신청기간·사용방법 확인','/articles/energy-voucher-application-2026.html'],
-  ['건강보험 환급금 확인 방법','과오납·본인부담상한액 조회','/articles/health-insurance-refund.html'],
-  ['퍼센트 계산기','몇 %·할인·증가·역산','/calculators/percentage.html'],
-  ['환율 계산기','달러·엔화·유로·위안 환산','/calculators/exchange-rate.html'],
-  ['실수령액 계산기','월급과 공제율 입력','/calculators/salary.html'],
-  ['퇴직금 계산기','평균임금과 재직일수 입력','/calculators/severance.html']
-];
-const searchInput=document.getElementById('portalSearch');
-const searchBtn=document.getElementById('portalSearchBtn');
-const resultBox=document.getElementById('portalResult');
-
-function renderSearch(){
-  const q=searchInput.value.trim().toLowerCase();
-  if(!q){resultBox.classList.remove('show');resultBox.innerHTML='';return;}
-  const found=portalItems.filter(x=>(x[0]+' '+x[1]).toLowerCase().includes(q));
-  resultBox.innerHTML=found.length
-    ? found.map(x=>`<a href="${x[2]}"><strong>${x[0]}</strong><span>${x[1]}</span></a>`).join('')
-    : '<strong>검색 결과가 없습니다.</strong><span>정보센터에서 전체 글을 확인해 보세요.</span>';
-  resultBox.classList.add('show');
-}
-searchInput.addEventListener('input',renderSearch);
-searchBtn.addEventListener('click',renderSearch);
+const routes=[['60세','/benefits/over-60.html'],['65세','/benefits/over-60.html'],['노령','/benefits/over-60.html'],['기초생활','/benefits/basic-livelihood.html'],['수급','/benefits/basic-livelihood.html'],['범칙금','https://www.efine.go.kr/'],['과태료','https://www.efine.go.kr/'],['실수령','/calculators/salary.html'],['급여','/calculators/salary.html'],['퇴직금','/calculators/severance.html'],['주휴','/calculators/weekly-pay.html'],['부가세','/guides/#tax'],['전기','/guides/#living'],['환급','/guides/#refund']];
+function go(){const q=document.getElementById('homeSearch').value.trim();if(!q)return;const hit=routes.find(r=>q.includes(r[0]));location.href=hit?hit[1]:'/articles/?q='+encodeURIComponent(q)}
+document.getElementById('homeSearchBtn').onclick=go;document.getElementById('homeSearch').addEventListener('keydown',e=>{if(e.key==='Enter')go()});
 </script>
-</body>
-</html>
+</body></html>
