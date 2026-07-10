@@ -1,0 +1,9 @@
+Savingio Part010 복구 검증
+- articles 상세 HTML: 189개
+- articles/index.html 카드: 189개
+- 메인 6개 서비스 카드: 각각 목적에 맞는 경로로 분리
+- 급여 확인하기: /calculators/salary.html
+- 계산기 허브 CSS: service-portal.css 연결
+- /articles 및 구형 /articles.html 리디렉션 정리
+- 기존 글 파일은 삭제하지 않음
+주의: 급여·4대보험 계산식은 별도 공식 기준 검증 전까지 추가 수정하지 않았습니다.
