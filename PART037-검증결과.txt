@@ -1,0 +1,15 @@
+Savingio Part037 검증 결과
+
+수정 글 수: 5
+- grocery-bill-savings.html | 본문 텍스트 6,950자 | 파일 17,547 bytes
+- monthly-budget-planner.html | 본문 텍스트 6,685자 | 파일 16,885 bytes
+- impulse-buying-control.html | 본문 텍스트 6,700자 | 파일 16,976 bytes
+- beginner-budget-plan.html | 본문 텍스트 6,329자 | 파일 15,982 bytes
+- budget-app-guide.html | 본문 텍스트 6,490자 | 파일 16,435 bytes
+
+검증 항목:
+- HTML 파일 실제 생성 확인
+- 각 글 본문 텍스트 3,000자 이상 확인
+- A001형 Hero·요약카드·목차·표·체크리스트·FAQ·관련글 적용
+- 고정 계산기 드로어 유지
+- 환율 계산기 링크 없음
