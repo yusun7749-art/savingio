@@ -2,6 +2,7 @@
 (function(){
   const tools = [
     ['퍼센트', '/calculators/percentage.html', '%'],
+    ['환율', '/calculators/exchange-rate.html', 'FX'],
     ['실수령액', '/calculators/salary.html', '₩'],
     ['주휴수당', '/calculators/weekly-pay.html', '시'],
     ['퇴직금', '/calculators/severance.html', '퇴'],
