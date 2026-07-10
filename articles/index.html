@@ -1,537 +1,189 @@
-<!DOCTYPE html>
+﻿<!doctype html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>생활비 절약과 돈 관리 정보 | Savingio</title>
-
-  <meta
-    name="description"
-    content="전기요금, 통신비, 식비, 카드 혜택, 정부 지원금 등 생활비를 줄이는 실용적인 정보를 확인하세요."
-  >
-
-  <link rel="canonical" href="https://savingio.com/articles/">
-
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family:
-        Pretendard,
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        sans-serif;
-      color: #1f2937;
-      background: #f7f9fc;
-      line-height: 1.7;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    header {
-      background: #ffffff;
-      border-bottom: 1px solid #e5e7eb;
-      position: sticky;
-      top: 0;
-      z-index: 10;
-    }
-
-    .header-inner {
-      max-width: 1120px;
-      margin: 0 auto;
-      padding: 18px 24px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 20px;
-    }
-
-    .logo {
-      font-size: 25px;
-      font-weight: 800;
-      color: #1463ff;
-      letter-spacing: -0.5px;
-    }
-
-    nav {
-      display: flex;
-      gap: 22px;
-      font-size: 15px;
-      font-weight: 600;
-      color: #4b5563;
-    }
-
-    nav a:hover {
-      color: #1463ff;
-    }
-
-    .hero {
-      background:
-        linear-gradient(
-          135deg,
-          #eef4ff 0%,
-          #f7faff 55%,
-          #ffffff 100%
-        );
-      border-bottom: 1px solid #e5e7eb;
-    }
-
-    .hero-inner {
-      max-width: 1120px;
-      margin: 0 auto;
-      padding: 72px 24px 64px;
-    }
-
-    .hero-label {
-      display: inline-block;
-      margin-bottom: 14px;
-      padding: 7px 13px;
-      border-radius: 999px;
-      background: #dfeaff;
-      color: #1458d4;
-      font-size: 14px;
-      font-weight: 700;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: clamp(34px, 5vw, 54px);
-      line-height: 1.2;
-      letter-spacing: -1.8px;
-      color: #111827;
-    }
-
-    .hero p {
-      max-width: 720px;
-      margin: 22px 0 0;
-      font-size: 18px;
-      color: #566174;
-    }
-
-    main {
-      max-width: 1120px;
-      margin: 0 auto;
-      padding: 54px 24px 80px;
-    }
-
-    .section-header {
-      margin-bottom: 28px;
-    }
-
-    .section-header h2 {
-      margin: 0 0 8px;
-      font-size: 30px;
-      letter-spacing: -0.8px;
-      color: #111827;
-    }
-
-    .section-header p {
-      margin: 0;
-      color: #6b7280;
-    }
-
-    .article-grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 22px;
-    }
-
-    .article-card {
-      display: flex;
-      flex-direction: column;
-      min-height: 230px;
-      padding: 25px;
-      background: #ffffff;
-      border: 1px solid #e5e7eb;
-      border-radius: 18px;
-      box-shadow: 0 7px 24px rgba(17, 24, 39, 0.04);
-      transition:
-        transform 0.2s ease,
-        border-color 0.2s ease,
-        box-shadow 0.2s ease;
-    }
-
-    .article-card:hover {
-      transform: translateY(-4px);
-      border-color: #a8c3ff;
-      box-shadow: 0 14px 34px rgba(20, 99, 255, 0.11);
-    }
-
-    .category {
-      margin-bottom: 13px;
-      color: #1463ff;
-      font-size: 13px;
-      font-weight: 800;
-    }
-
-    .article-card h3 {
-      margin: 0;
-      font-size: 20px;
-      line-height: 1.45;
-      letter-spacing: -0.4px;
-      color: #172033;
-    }
-
-    .article-card p {
-      margin: 14px 0 20px;
-      color: #667085;
-      font-size: 15px;
-    }
-
-    .read-more {
-      margin-top: auto;
-      color: #1463ff;
-      font-size: 14px;
-      font-weight: 800;
-    }
-
-    footer {
-      background: #111827;
-      color: #d1d5db;
-    }
-
-    .footer-inner {
-      max-width: 1120px;
-      margin: 0 auto;
-      padding: 36px 24px;
-    }
-
-    .footer-logo {
-      margin-bottom: 10px;
-      color: #ffffff;
-      font-size: 20px;
-      font-weight: 800;
-    }
-
-    .footer-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 18px;
-      margin-top: 18px;
-      font-size: 14px;
-    }
-
-    .footer-links a:hover {
-      color: #ffffff;
-    }
-
-    @media (max-width: 900px) {
-      .article-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-    }
-
-    @media (max-width: 640px) {
-      .header-inner {
-        align-items: flex-start;
-        flex-direction: column;
-      }
-
-      nav {
-        width: 100%;
-        overflow-x: auto;
-      }
-
-      .hero-inner {
-        padding-top: 50px;
-        padding-bottom: 48px;
-      }
-
-      .article-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>생활비 절약·세금·지원금 정보 | Savingio</title>
+<meta name="description" content="세금, 정부지원금, 환급금, 생활비 절약 정보를 확인하세요.">
+<link rel="canonical" href="https://savingio.com/articles/">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Pretendard,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f7f9fc;color:#172033}
+a{text-decoration:none;color:inherit}
+header{background:#fff;border-bottom:1px solid #e5e7eb}
+.nav{max-width:1120px;margin:auto;padding:18px 24px;display:flex;justify-content:space-between}
+.logo{font-size:25px;font-weight:800;color:#1463ff}
+.hero{background:linear-gradient(135deg,#eef4ff,#fff)}
+.hero div{max-width:1120px;margin:auto;padding:64px 24px}
+.hero h1{font-size:clamp(34px,5vw,54px);margin:0 0 16px}
+.hero p{font-size:18px;color:#667085}
+main{max-width:1120px;margin:auto;padding:48px 24px 80px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{display:flex;flex-direction:column;background:#fff;border:1px solid #e5e7eb;border-radius:18px;padding:24px;min-height:210px;box-shadow:0 8px 24px rgba(17,24,39,.04)}
+.card:hover{transform:translateY(-3px);border-color:#9dbbff}
+.card h2{font-size:19px;line-height:1.45;margin:0 0 12px}
+.card p{font-size:14px;color:#667085;margin:0 0 18px}
+.more{margin-top:auto;color:#1463ff;font-weight:800}
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.grid{grid-template-columns:1fr}}
+</style>
 </head>
-
 <body>
-
-  <header>
-    <div class="header-inner">
-      <a class="logo" href="/">Savingio</a>
-
-      <nav aria-label="주요 메뉴">
-        <a href="/">홈</a>
-        <a href="/articles/">절약 정보</a>
-        <a href="/about.html">소개</a>
-        <a href="/contact.html">문의</a>
-      </nav>
-    </div>
-  </header>
-
-  <section class="hero">
-    <div class="hero-inner">
-      <span class="hero-label">Savingio 생활비 가이드</span>
-
-      <h1>오늘부터 실천하는<br>생활비 절약 방법</h1>
-
-      <p>
-        전기요금과 통신비부터 카드 혜택, 정부 지원금,
-        식비 관리까지 실제 생활에 적용할 수 있는
-        돈 관리 정보를 정리했습니다.
-      </p>
-    </div>
-  </section>
-
-  <main>
-    <div class="section-header">
-      <h2>전체 절약 가이드</h2>
-      <p>카드를 누르면 해당 상세 글로 이동합니다.</p>
-    </div>
-
-    <div class="article-grid">
-
-      <a class="article-card" href="/articles/electricity-bill-saving.html">
-        <span class="category">공공요금</span>
-        <h3>전기요금 절약 방법</h3>
-        <p>전기 사용 습관을 점검하고 월 전기요금을 줄이는 실천 방법입니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/how-to-save-electricity-bill.html">
-        <span class="category">공공요금</span>
-        <h3>전기요금을 낮추는 생활 습관</h3>
-        <p>가전제품별 전력 사용량과 전기요금 절약 방법을 확인합니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/heating-bill-saving.html">
-        <span class="category">공공요금</span>
-        <h3>겨울철 난방비 절약 방법</h3>
-        <p>실내 온도와 보일러 사용법을 조정해 난방비 부담을 줄입니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/energy-voucher-application.html">
-        <span class="category">정부지원</span>
-        <h3>에너지바우처 신청 방법</h3>
-        <p>지원 대상과 신청 절차, 사용할 수 있는 항목을 정리했습니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/internet-bill-discount.html">
-        <span class="category">통신비</span>
-        <h3>인터넷 요금 할인받는 방법</h3>
-        <p>약정과 결합 할인, 불필요한 부가서비스를 점검합니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/internet-bill-savings.html">
-        <span class="category">통신비</span>
-        <h3>매달 인터넷 비용 줄이기</h3>
-        <p>현재 요금제를 비교하고 통신비를 낮추는 방법을 소개합니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/how-to-lower-phone-bill.html">
-        <span class="category">통신비</span>
-        <h3>휴대전화 요금 낮추는 방법</h3>
-        <p>데이터 사용량과 요금제를 분석해 통신비 낭비를 줄입니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/grocery-bill-savings.html">
-        <span class="category">식비</span>
-        <h3>장보기 비용 절약 방법</h3>
-        <p>식단 계획과 구매 목록을 활용해 불필요한 식비를 줄입니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/grocery-saving-tips.html">
-        <span class="category">식비</span>
-        <h3>생활 속 식비 절약 습관</h3>
-        <p>냉장고 관리부터 묶음 구매까지 현실적인 식비 관리법입니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/cancel-unused-subscriptions.html">
-        <span class="category">고정비</span>
-        <h3>사용하지 않는 구독서비스 정리하기</h3>
-        <p>자동결제 내역을 확인하고 새는 고정비를 찾아 정리합니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/automatic-payment-saving.html">
-        <span class="category">고정비</span>
-        <h3>자동결제 내역으로 생활비 줄이기</h3>
-        <p>정기결제 항목을 한 번에 점검하는 방법을 안내합니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/impulse-buying-control.html">
-        <span class="category">소비습관</span>
-        <h3>충동구매를 줄이는 방법</h3>
-        <p>구매 전 점검 기준과 소비 습관을 바꾸는 실천법입니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/beginner-budget-plan.html">
-        <span class="category">예산관리</span>
-        <h3>초보자를 위한 월간 예산 계획</h3>
-        <p>수입과 고정비를 기준으로 현실적인 예산을 세워봅니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/beginner-money-management.html">
-        <span class="category">예산관리</span>
-        <h3>처음 시작하는 돈 관리</h3>
-        <p>통장 관리와 지출 기록부터 차근차근 시작하는 방법입니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/bank-account-budgeting.html">
-        <span class="category">예산관리</span>
-        <h3>통장 나누기로 예산 관리하기</h3>
-        <p>생활비와 저축, 비상금을 목적별로 관리하는 방법입니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/budget-app-guide.html">
-        <span class="category">예산관리</span>
-        <h3>가계부 앱 활용 가이드</h3>
-        <p>수입과 지출을 편리하게 관리하는 가계부 앱 사용법입니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/emergency-fund-guide.html">
-        <span class="category">저축</span>
-        <h3>비상금 마련 가이드</h3>
-        <p>예상하지 못한 지출에 대비하는 비상금 기준을 설명합니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/bank-fees-to-avoid.html">
-        <span class="category">은행</span>
-        <h3>피할 수 있는 은행 수수료</h3>
-        <p>이체와 출금, 계좌 관리에서 발생하는 수수료를 점검합니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/debit-card-vs-credit-card.html">
-        <span class="category">카드</span>
-        <h3>체크카드와 신용카드 비교</h3>
-        <p>소비 형태에 따라 어떤 카드를 선택해야 하는지 알아봅니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/card-points-cashback-guide.html">
-        <span class="category">카드</span>
-        <h3>카드 포인트와 캐시백 활용법</h3>
-        <p>놓치기 쉬운 카드 혜택과 포인트를 현명하게 사용하는 방법입니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/cash-out-card-points.html">
-        <span class="category">카드</span>
-        <h3>카드 포인트 현금화 방법</h3>
-        <p>남아 있는 카드 포인트를 확인하고 현금으로 바꾸는 절차입니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/cashback-apps-guide.html">
-        <span class="category">카드</span>
-        <h3>캐시백 앱 활용 가이드</h3>
-        <p>캐시백 서비스를 사용할 때 확인해야 할 기준을 정리했습니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/credit-score-habits.html">
-        <span class="category">신용관리</span>
-        <h3>신용점수를 지키는 생활 습관</h3>
-        <p>연체와 카드 사용률 등 신용점수에 영향을 주는 습관을 알아봅니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/credit-score-tips.html">
-        <span class="category">신용관리</span>
-        <h3>신용점수 관리 방법</h3>
-        <p>일상에서 실천할 수 있는 기본적인 신용 관리 원칙입니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/hidden-refund-check.html">
-        <span class="category">환급금</span>
-        <h3>숨은 환급금 확인하기</h3>
-        <p>놓치고 있던 환급금과 미수령 금액을 확인하는 방법입니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/check-hidden-refunds.html">
-        <span class="category">환급금</span>
-        <h3>미수령 환급금 조회 방법</h3>
-        <p>여러 기관에 남아 있을 수 있는 환급금을 조회합니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/how-to-check-hidden-refunds.html">
-        <span class="category">환급금</span>
-        <h3>숨은 돈 찾기 단계별 가이드</h3>
-        <p>환급 가능 항목을 빠짐없이 확인하는 순서를 안내합니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/health-insurance-refund.html">
-        <span class="category">환급금</span>
-        <h3>건강보험 환급금 확인 방법</h3>
-        <p>건강보험료와 본인부담금 환급 대상 여부를 확인합니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/government24-benefit-check.html">
-        <span class="category">정부지원</span>
-        <h3>정부24에서 받을 수 있는 혜택 찾기</h3>
-        <p>나에게 맞는 정부 지원 서비스를 확인하는 방법입니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/government-benefits-warning.html">
-        <span class="category">정부지원</span>
-        <h3>정부지원금 조회 시 주의할 점</h3>
-        <p>지원금 사칭과 개인정보 요구에 안전하게 대응하는 방법입니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/earned-income-tax-credit-korea.html">
-        <span class="category">정부지원</span>
-        <h3>근로장려금 신청 가이드</h3>
-        <p>근로장려금의 기본 조건과 확인해야 할 신청 절차를 정리했습니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-      <a class="article-card" href="/articles/beginner-ai-side-hustles.html">
-        <span class="category">부업</span>
-        <h3>초보자를 위한 AI 활용 부업</h3>
-        <p>큰 비용 없이 시작할 수 있는 AI 활용 부업 아이디어를 살펴봅니다.</p>
-        <span class="read-more">자세히 보기 →</span>
-      </a>
-
-    </div>
-  </main>
-
-  <footer>
-    <div class="footer-inner">
-      <div class="footer-logo">Savingio</div>
-
-      <div>
-        생활비 절약과 현명한 돈 관리를 돕는 실용 정보 사이트입니다.
-      </div>
-
-      <div class="footer-links">
-        <a href="/about.html">About</a>
-        <a href="/contact.html">Contact</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/articles/">Articles</a>
-      </div>
-    </div>
-  </footer>
-
+<header><div class="nav"><a class="logo" href="/">Savingio</a><a href="/about.html">소개</a></div></header>
+<section class="hero"><div><h1>돈이 되는 생활 정보</h1><p>세금·지원금·환급금·생활비 절약 가이드를 한곳에서 확인하세요.</p></div></section>
+<main>
+<h2>전체 글 149개</h2>
+<div class="grid">
+<a class="card" href="/articles/air-conditioner-electricity-saving.html"><h2>여름철 에어컨 전기요금 아끼는 방법, 냉방비 절약 실전 가이드</h2><p>에어컨을 무조건 끄는 대신 효율적으로 사용해 냉방비를 줄이는 방법을 정리했습니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/aircon-dry-mode-electricity.html"><h2>에어컨 제습모드 전기세 차이</h2><p>냉방모드와 제습모드의 차이와 상황별 선택 기준을 설명합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/aircon-filter-cleaning-savings.html"><h2>에어컨 필터 청소로 전기세 줄이기</h2><p>필터 청소 주기와 안전한 관리법을 통해 냉방 효율을 높입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/aircon-optimal-temperature-savings.html"><h2>에어컨 전기요금 줄이는 적정온도 설정</h2><p>냉방 효율과 쾌적함을 함께 고려한 에어컨 온도 설정법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/ai-side-hustles-beginner.html"><h2>AI Side Hustles for Beginners: What Is Realistic?</h2><p>A practical beginner guide to AI side hustles without exaggerated promises.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/apartment-management-fee-summer.html"><h2>아파트 관리비 여름철 절약 체크리스트</h2><p>공용전기&#183;세대전기&#183;수도&#183;냉방 항목을 구분해 관리비를 점검합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/automatic-payment-saving.html"><h2>자동이체 관리만으로 돈 아끼는 방법, 새는 돈 찾기</h2><p>자동이체 내역을 정리해 불필요한 지출을 줄이는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/bank-account-budgeting.html"><h2>통장 쪼개기로 돈 모으는 방법, 초보자도 따라 하는 관리법</h2><p>월급을 목적별로 나눠 지출을 통제하고 저축을 늘리는 통장 관리법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/bank-fees-to-avoid.html"><h2>Common Bank Fees to Avoid in 2026</h2><p>How to identify maintenance fees, overdraft charges, ATM fees, and simple ways to reduce them.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/basic-livelihood-discounts.html"><h2>기초생활수급자 감면 혜택 조회</h2><p>통신&#183;전기&#183;도시가스 등 생활요금 감면을 한 번에 확인합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/beginner-ai-side-hustles.html"><h2>Beginner AI Side Hustles That Are Realistic in 2026</h2><p>Realistic AI-assisted income ideas with low startup cost and clear first steps.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/beginner-budget-plan.html"><h2>A Simple Monthly Budget Plan for Beginners</h2><p>A practical budget plan for people who want clarity without complicated spreadsheets.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/beginner-money-management.html"><h2>사회초년생 재테크 시작하기, 처음부터 지켜야 할 원칙</h2><p>사회초년생이 무리한 투자보다 먼저 준비해야 할 돈 관리 기본 원칙입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/budget-app-guide.html"><h2>가계부 앱 추천보다 중요한 활용법, 꾸준히 쓰는 방법</h2><p>앱 종류보다 중요한 가계부 사용 습관과 관리 루틴을 소개합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/building-land-property-tax.html"><h2>건축물 재산세와 토지 재산세 차이</h2><p>과세 대상별 납부 시기와 고지서 구분법을 정리합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/business-card-hometax-registration.html"><h2>사업용 신용카드 홈택스 등록 방법</h2><p>사업용 신용카드를 홈택스에 등록하고 매입내역을 관리하는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/business-closure-vat-order.html"><h2>사업자 폐업신고와 부가세 신고 순서</h2><p>폐업일 확정부터 폐업 부가세 신고까지 필요한 절차를 정리합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/business-phone-expense-deduction.html"><h2>사업자 통신비 비용처리 기준</h2><p>업무용 통신비를 비용으로 처리할 때 갖춰야 할 증빙을 정리합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/business-vehicle-expense-basics.html"><h2>사업용 차량 비용처리 기본 기준</h2><p>개인사업자가 차량 관련 비용을 기록할 때 확인할 기본 원칙입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/cancel-unused-subscriptions.html"><h2>How to Find and Cancel Unused Subscriptions</h2><p>A practical checklist for finding recurring charges and stopping wasted monthly payments.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/car-aircon-fuel-saving.html"><h2>여름철 자동차 에어컨 연비 절약법</h2><p>차량 내부 열기 배출과 적정 설정으로 연료 소비를 줄이는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/card-points-cashback-guide.html"><h2>Card Points and Cashback: What to Check Before They Expire</h2><p>A simple guide to checking card points, cashback, and expiration dates.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/car-insurance-child-discount.html"><h2>자동차보험 자녀할인 특약 확인</h2><p>자녀 연령&#183;임신 여부 등에 따른 할인 특약을 비교할 때 확인할 점입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/car-insurance-mileage-refund.html"><h2>자동차보험 마일리지 특약 환급</h2><p>연간 주행거리가 짧을 때 마일리지 특약 환급을 받는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/car-insurance-overpayment-refund.html"><h2>자동차보험 과납보험료 환급 확인</h2><p>보험료가 과다 산정된 경우 환급 가능 여부를 확인하는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/cash-advance-vs-card-loan.html"><h2>현금서비스와 카드론 차이</h2><p>금리&#183;한도&#183;신용점수 영향을 중심으로 두 상품의 차이를 비교합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/cashback-apps-guide.html"><h2>How Cashback Apps Work and What to Check First</h2><p>A neutral guide to using cashback apps safely and avoiding unrealistic expectations.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/cash-out-card-points.html"><h2>카드포인트 현금화하는 방법, 소멸 전 확인해야 할 것</h2><p>카드포인트를 현금화하거나 사용하기 전에 확인해야 할 기본 절차와 주의사항입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/check-hidden-refunds.html"><h2>How to Check for Hidden Refunds and Unclaimed Money</h2><p>Where to look for small refunds, points, balances, and support money you may have missed.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/childcare-service-government-support.html"><h2>아이돌봄서비스 정부지원 신청 방법</h2><p>소득유형 판정과 서비스 신청 순서를 단계별로 안내합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/child-tax-credit-status-check.html"><h2>자녀장려금 심사결과 확인 방법</h2><p>자녀장려금 신청 후 심사 결과와 지급 계좌를 확인하는 절차입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/cma-account-types-risk.html"><h2>CMA 통장 종류와 원금손실 가능성</h2><p>RP형&#183;발행어음형 등 CMA 유형과 예금자보호 여부를 설명합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/credit-card-billing-cycle-guide.html"><h2>신용카드 결제일별 이용기간 확인법</h2><p>카드 결제일에 따라 달라지는 이용기간을 확인해 예산을 관리합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/credit-score-habits.html"><h2>신용점수 올리는 생활 습관, 일상에서 피해야 할 행동</h2><p>신용점수 관리에 도움이 되는 기본 습관과 피해야 할 행동을 정리했습니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/credit-score-tips.html"><h2>Credit Score Tips for Beginners</h2><p>Basic habits that can help protect and gradually improve a credit score.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/culture-nuri-card-balance.html"><h2>문화누리카드 잔액과 사용처 확인</h2><p>문화누리카드 잔액 조회, 온라인 사용처, 결제 주의사항을 안내합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/debit-card-vs-credit-card.html"><h2>신용카드보다 체크카드가 유리한 경우, 소비 습관별 선택법</h2><p>소비 통제가 어려운 상황에서 체크카드가 더 유리한 경우와 카드 선택 기준을 정리했습니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/dehumidifier-electricity-saving.html"><h2>제습기 전기요금 계산과 절약법</h2><p>제습기 소비전력으로 예상 전기요금을 계산하고 사용시간을 줄입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/deposit-protection-limit-guide.html"><h2>예금자보호 한도 확인 방법</h2><p>금융회사와 상품별 예금자보호 적용 여부를 확인하는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/deposit-return-guarantee-checklist.html"><h2>전세보증금 반환보증 가입 체크리스트</h2><p>보증 가입 전 주택가격&#183;선순위채권&#183;계약조건을 점검합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/dormant-deposit-insurance-search.html"><h2>휴면예금과 휴면보험금 찾는 방법</h2><p>서민금융진흥원과 관련 조회 서비스를 통해 휴면재산을 찾는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/dryer-summer-electricity-saving.html"><h2>건조기 여름 전기세 절약 방법</h2><p>탈수 강도와 건조 코스를 조정해 전력 사용을 줄이는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/duplicate-indemnity-insurance-check.html"><h2>실손보험 중복가입 확인 방법</h2><p>실손보험 중복 가입 여부를 조회하고 보험료 낭비를 점검합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/earned-income-credit-account-change.html"><h2>근로장려금 지급계좌 변경 방법</h2><p>지급 전 계좌 변경 가능 여부와 홈택스 처리 방법을 알아봅니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/earned-income-credit-status-check.html"><h2>근로장려금 심사진행상황 조회 방법</h2><p>홈택스에서 근로장려금 심사 상태와 지급 결과를 확인하는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/earned-income-tax-credit-korea.html"><h2>근로장려금 신청 자격 총정리, 확인해야 할 핵심 기준</h2><p>근로장려금 신청 전 소득, 가구, 재산 조건을 공식 안내 기준으로 확인하는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/education-benefit-eligibility.html"><h2>교육급여 수급자격과 신청 절차</h2><p>초&#183;중&#183;고 학생 가구가 확인할 교육급여 기준과 신청 절차입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/education-expense-vs-benefit.html"><h2>교육비 지원과 교육급여 차이</h2><p>두 제도의 지원 항목과 신청 창구 차이를 비교합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/electricity-bill-saving.html"><h2>전기요금 절약하는 방법, 누구나 바로 실천할 수 있는 15가지</h2><p>전기요금이 많이 나오는 원인을 점검하고, 오늘부터 실천할 수 있는 절약 습관을 단계별로 정리했습니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/electronic-tax-invoice-penalty.html"><h2>전자세금계산서 미발급 가산세 확인법</h2><p>전자세금계산서 발급기한과 지연&#183;미발급 시 불이익을 확인합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/emergency-fund-guide.html"><h2>비상금을 만드는 현실적인 방법, 월급이 적어도 시작하는 법</h2><p>비상금이 필요한 이유와 작은 금액으로 시작하는 현실적인 방법을 정리했습니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/emergency-medical-support.html"><h2>긴급복지 의료지원 신청 방법</h2><p>갑작스러운 중병이나 부상으로 의료비가 부담될 때 확인할 제도입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/emergency-welfare-living-support.html"><h2>긴급복지 생계지원 신청 조건</h2><p>실직&#183;질병&#183;휴폐업 등 위기상황에서 긴급복지 지원을 신청하는 기준입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/energy-voucher-application.html"><h2>에너지바우처 신청 방법, 대상자 확인과 사용 전 주의사항</h2><p>에너지 비용 부담을 줄이는 제도를 확인할 때 필요한 기본 절차와 주의사항입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/energy-voucher-balance-use.html"><h2>에너지바우처 잔액 조회와 사용 방법</h2><p>바우처 잔액을 확인하고 전기&#183;가스요금 등에 사용하는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/energy-voucher-documents.html"><h2>에너지바우처 주민센터 신청 준비서류</h2><p>행정복지센터 방문 전 챙길 서류와 대리신청 시 유의점을 확인합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/energy-voucher-eligibility-2026.html"><h2>2026 에너지바우처 신청 대상 확인법</h2><p>소득기준과 세대원 특성기준을 중심으로 신청 가능 여부를 점검합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/energy-voucher-online-application.html"><h2>에너지바우처 온라인 신청 방법</h2><p>복지로에서 에너지바우처를 온라인으로 신청하는 순서를 정리합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/fan-aircon-combination-saving.html"><h2>선풍기와 에어컨 함께 쓰는 방법</h2><p>공기 순환을 활용해 설정온도를 높이고도 시원하게 지내는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/fixed-date-online-application.html"><h2>확정일자 온라인 신청 방법</h2><p>전입신고와 확정일자의 차이 및 온라인 신청 방법을 안내합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/fixed-speed-aircon-saving.html"><h2>정속형 에어컨 전기세 절약 방법</h2><p>정속형 에어컨을 사용할 때 전력 낭비를 줄이는 운전 요령입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/general-vat-common-mistakes.html"><h2>일반과세자 부가가치세 신고 실수 10가지</h2><p>가산세로 이어지기 쉬운 신고 오류와 예방 방법을 소개합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/government24-benefit-check.html"><h2>정부24에서 받을 수 있는 지원금 확인하는 방법</h2><p>정부24와 보조금 관련 서비스를 이용해 자신에게 맞는 지원제도를 찾는 기본 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/government-benefit-alert-setup.html"><h2>혜택알리미 맞춤 지원금 설정 방법</h2><p>정부24 혜택알리미에서 가족 상황에 맞는 혜택을 찾는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/government-benefits-warning.html"><h2>정부지원금을 찾을 때 주의할 점, 사칭 사이트 피하는 방법</h2><p>지원금 정보를 찾을 때 광고성 페이지와 사칭 안내를 구분하는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/grocery-bill-savings.html"><h2>How to Lower Your Grocery Bill Without Extreme Couponing</h2><p>Simple shopping habits and planning methods that can reduce grocery spending.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/grocery-saving-tips.html"><h2>장보기 비용 줄이는 현실적인 방법, 식비 절약 체크리스트</h2><p>식비를 줄이기 위한 장보기 전 준비, 냉장고 관리, 충동구매 방지 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/health-insurance-out-of-pocket-refund.html"><h2>건강보험 본인부담상한액 환급 확인</h2><p>연간 의료비가 기준을 넘었을 때 환급 대상 여부를 확인합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/health-insurance-overpayment-refund.html"><h2>건강보험료 과오납 환급 신청</h2><p>보험료 이중납부&#183;착오납부 환급을 신청하는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/health-insurance-refund.html"><h2>건강보험 환급금 확인 방법, 조회 전 알아둘 점</h2><p>건강보험 환급금을 확인할 때 필요한 준비와 사칭 사이트를 피하는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/heating-bill-saving.html"><h2>겨울철 난방비 절약하는 방법, 집에서 바로 점검할 체크리스트</h2><p>겨울철 난방비가 많이 나오는 원인과 집에서 바로 적용할 절약 방법을 소개합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/hidden-refund-check.html"><h2>숨은 환급금 조회하는 방법, 놓치기 쉬운 돈 확인 가이드</h2><p>여러 기관에 흩어진 환급금과 미수령 금액을 확인할 때 주의할 점을 정리했습니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/hometax-vat-sales-check.html"><h2>홈택스 부가가치세 신고 전 매출 누락 확인법</h2><p>카드매출&#183;현금영수증&#183;전자세금계산서를 대조해 매출 누락을 줄이는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/home-water-leak-self-check.html"><h2>수도 누수 자가진단 방법</h2><p>수도계량기로 가정 내 누수 여부를 간단히 점검하는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/housing-benefit-eligibility.html"><h2>주거급여 신청 자격과 조사 절차</h2><p>소득인정액과 임대차 조사 과정을 중심으로 신청 절차를 설명합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/how-to-check-hidden-refunds.html"><h2>How to Check Hidden Refunds and Unclaimed Money</h2><p>A beginner-friendly checklist for finding hidden refunds, card points, and unclaimed money.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/how-to-lower-phone-bill.html"><h2>How to Lower Your Phone Bill Without Losing Coverage</h2><p>A beginner-friendly guide to checking your plan, removing extras, and comparing options.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/how-to-save-electricity-bill.html"><h2>How to Save Money on Your Electricity Bill in 2026</h2><p>Simple steps to reduce electricity costs without changing your lifestyle.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/impulse-buying-control.html"><h2>충동구매를 줄이는 방법, 결제 전 멈추는 습관 만들기</h2><p>충동구매를 줄이기 위한 장바구니 규칙과 결제 전 체크리스트입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/insurance-auto-pay-discount.html"><h2>보험료 자동이체 할인 확인법</h2><p>보험사별 자동이체&#183;전자문서 할인 가능 여부를 점검합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/insurance-surrender-value-check.html"><h2>보험 해지환급금 조회 전 확인사항</h2><p>보험을 해지하기 전 보장 공백과 환급금 손실을 함께 따져보는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/internet-bill-discount.html"><h2>인터넷 요금 할인받는 방법, 약정&#183;결합&#183;재약정 체크 가이드</h2><p>집 인터넷 요금을 낮추기 위해 재약정, 결합, 장비 임대료를 점검하는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/internet-bill-savings.html"><h2>How to Reduce Your Internet Bill</h2><p>What to check before calling your provider and how to compare plans carefully.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/inverter-aircon-saving-guide.html"><h2>인버터 에어컨 전기세 절약 운전법</h2><p>인버터형 에어컨의 특성에 맞는 켜고 끄기와 온도 유지 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/irs-tax-refund-status.html"><h2>How to Check Your IRS Tax Refund Status</h2><p>A plain-language guide to tracking a federal tax refund and avoiding common mistakes.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/loan-prepayment-fee-check.html"><h2>대출 중도상환수수료 확인 방법</h2><p>대출을 조기 상환하기 전 수수료 계산과 면제 조건을 확인합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/local-tax-refund.html"><h2>지방세 환급금 조회 방법, 위택스 이용 전 알아둘 점</h2><p>지방세 환급금이 생기는 경우와 조회 시 확인해야 할 내용을 정리했습니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/local-tax-refund-claim.html"><h2>지방세 환급금 조회와 신청 방법</h2><p>위택스에서 지방세 환급금을 조회하고 계좌로 받는 절차입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/low-income-cooling-support.html"><h2>저소득층 냉방비 지원 확인 방법</h2><p>에너지바우처와 지자체 냉방비 지원을 함께 확인하는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/medical-bill-negotiation.html"><h2>How to Review and Negotiate a Medical Bill</h2><p>A practical first checklist for reviewing medical bills and asking about payment options.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/missing-property-tax-bill.html"><h2>재산세 고지서가 안 왔을 때 확인 방법</h2><p>우편 고지서가 없어도 위택스 등에서 조회하고 납부하는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/money-saving-habits.html"><h2>돈이 모이는 사람들의 공통 습관, 생활비부터 바꾸는 법</h2><p>큰 수입보다 꾸준한 습관이 돈 관리에 더 중요한 이유와 실천법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/monthly-budget-planner.html"><h2>한 달 생활비를 줄이는 가계부 작성법, 초보자용 예산 관리법</h2><p>복잡한 가계부가 아니라 실제 생활비를 줄이는 데 도움이 되는 작성법을 소개합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/monthly-rent-tax-credit-documents.html"><h2>월세 세액공제 준비서류</h2><p>임대차계약서, 이체내역 등 월세 세액공제 증빙을 준비합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/national-employment-support-eligibility.html"><h2>국민취업지원제도 신청 자격</h2><p>구직촉진수당과 취업지원서비스 신청 기준을 확인합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/national-pension-overpayment-refund.html"><h2>국민연금 과오납금 조회 방법</h2><p>국민연금 보험료 과오납 여부를 조회하고 환급받는 절차입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/national-tax-refund.html"><h2>국세 환급금 조회 방법, 홈택스 확인 전 체크리스트</h2><p>국세 환급금을 조회하고 받을 때 확인해야 할 절차와 주의사항을 정리했습니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/national-tax-refund-account.html"><h2>국세환급금 지급계좌 등록 방법</h2><p>홈택스에 환급계좌를 등록해 환급 지연을 줄이는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/near-poverty-certificate.html"><h2>차상위계층 확인서 발급 방법</h2><p>차상위계층 확인서 발급 경로와 사용처를 정리합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/online-income-ideas-for-beginners.html"><h2>Online Income Ideas for Beginners With Low Startup Cost</h2><p>Beginner-friendly online income ideas that focus on skills, consistency, and low risk.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/parking-account-rate-comparison.html"><h2>파킹통장 금리 비교할 때 볼 항목</h2><p>최고금리보다 우대조건&#183;적용한도&#183;이자지급주기를 함께 비교합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/peak-season-hotel-saving.html"><h2>성수기 숙박비 절약 예약 전략</h2><p>취소 가능 요금, 비교 검색, 일정 유연성을 활용해 숙박비를 줄입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/phone-bill-saving.html"><h2>휴대폰 요금 줄이는 가장 쉬운 방법, 요금제부터 부가서비스까지</h2><p>통신비를 줄이기 위해 먼저 확인해야 할 요금제, 약정, 부가서비스 정리법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/property-tax-calculation-structure.html"><h2>재산세 과세표준과 세액 계산 구조</h2><p>공시가격부터 과세표준, 세율까지 계산 흐름을 이해하기 쉽게 설명합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/property-tax-installment-application.html"><h2>재산세 분납 신청 조건과 방법</h2><p>재산세 부담이 클 때 분납 가능 조건과 신청 시점을 확인합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/property-tax-joint-ownership.html"><h2>재산세 공동명의 납부 기준</h2><p>공동명의 주택의 재산세 고지와 납부 기준을 확인합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/property-tax-july-2026.html"><h2>2026년 7월 재산세 납부 대상과 기간</h2><p>7월 재산세 납부 대상, 고지서 확인, 납부 경로를 정리합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/property-tax-july-september-difference.html"><h2>주택분 재산세 7월과 9월 차이</h2><p>주택분 재산세가 나뉘어 부과되는 이유와 확인 포인트를 설명합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/property-tax-objection-guide.html"><h2>재산세 이의신청과 과세전적부심 차이</h2><p>세액이나 과세 대상에 이견이 있을 때 활용할 수 있는 절차를 정리합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/property-tax-payment-certificate.html"><h2>재산세 납부증명서 발급 방법</h2><p>위택스와 주민센터에서 재산세 납부증명서를 발급하는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/reduce-electricity-bill.html"><h2>How to Reduce Your Electricity Bill Without Changing Your Lifestyle</h2><p>Simple practical steps to reduce electricity costs at home.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/refrigerator-summer-electricity-saving.html"><h2>여름철 냉장고 전기세 절약 방법</h2><p>냉장고 온도&#183;적재량&#183;문 여닫기 습관을 점검합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/rental-car-vacation-saving.html"><h2>휴가철 렌터카 비용 절약 체크리스트</h2><p>보험&#183;연료&#183;반납 조건까지 포함해 실제 총비용을 비교합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/rental-contract-reporting-guide.html"><h2>전월세 신고제 신고 방법</h2><p>주택 임대차계약 신고 대상과 온라인 신고 절차를 정리합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/revolving-cancellation-payoff.html"><h2>리볼빙 해지와 잔액 상환 방법</h2><p>일부결제금액이월약정의 비용과 해지 후 상환 계획을 정리합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/salary-management-guide.html"><h2>월급 관리 잘하는 방법, 들어오자마자 나누는 5단계</h2><p>월급을 받은 직후 고정비, 생활비, 저축, 비상금으로 나누는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/savings-maturity-auto-renewal.html"><h2>적금 만기 후 자동재예치 확인법</h2><p>적금 만기 뒤 적용 금리와 자동재예치 설정을 확인하는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/self-employed-income-tax-refund-check.html"><h2>개인사업자 종합소득세 환급 후 확인사항</h2><p>환급 입금 후 신고내용과 지방소득세 환급을 함께 점검합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/simple-receipt-expense-rules.html"><h2>간이영수증 비용처리 한도와 주의점</h2><p>적격증빙이 없을 때 간이영수증 처리와 증빙불비 위험을 설명합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/simplified-vat-checklist.html"><h2>간이과세자 부가가치세 신고 체크리스트</h2><p>간이과세자가 신고 전에 확인해야 할 매출자료와 공제 항목을 정리합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/single-parent-support-benefits.html"><h2>한부모가족 지원금 조회 방법</h2><p>한부모가족이 정부24와 복지로에서 확인할 주요 지원을 정리합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/small-business-closure-support.html"><h2>폐업 소상공인 원스톱 지원 확인</h2><p>사업정리컨설팅&#183;철거비&#183;재취업 지원 등을 확인하는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/small-business-delivery-support.html"><h2>소상공인 배달비 지원사업 찾는 방법</h2><p>중앙정부와 지자체의 배달&#183;택배비 지원 공고를 찾는 요령입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/small-business-electricity-support.html"><h2>소상공인 전기요금 지원 확인법</h2><p>소상공인 대상 전기요금 지원 공고를 확인할 때 필요한 기준입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/small-business-policy-fund-search.html"><h2>소상공인 정책자금 확인 방법</h2><p>공식 정책자금 공고를 찾고 지원 대상과 접수 일정을 확인하는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/spending-habits-change.html"><h2>소비 습관을 바꾸는 10가지 방법, 돈이 새는 패턴 찾기</h2><p>소비 기록을 통해 반복되는 지출 패턴을 찾고 줄이는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/subscription-audit-checklist.html"><h2>Monthly Subscription Audit Checklist</h2><p>A checklist for finding and reducing unnecessary monthly subscriptions.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/subscription-saving.html"><h2>구독 서비스 정리로 월 고정비 줄이는 방법</h2><p>OTT, 음악, 앱, 클라우드 등 매달 빠져나가는 구독비를 정리하는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/subsidy24-benefit-search.html"><h2>보조금24에서 받을 수 있는 지원금 찾기</h2><p>정부 혜택을 조건별로 조회하고 놓친 지원을 확인하는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/summer-electricity-tier-check.html"><h2>폭염 시 전기요금 누진구간 확인법</h2><p>월 사용량과 누진구간을 확인해 예상요금을 관리하는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/summer-gas-bill-hot-water-saving.html"><h2>여름 가스요금 줄이는 온수 사용법</h2><p>샤워와 설거지 온수 사용량을 줄여 가스비를 아끼는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/summer-vacation-budget-plan.html"><h2>여름 휴가비 예산 짜는 방법</h2><p>교통&#183;숙박&#183;식비&#183;입장료를 나눠 휴가 예산을 현실적으로 세웁니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/summer-water-bill-spike-check.html"><h2>여름철 수도요금 급증 원인 점검</h2><p>누수&#183;사용량 증가&#183;검침 오류 가능성을 차례대로 확인합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/tax-credit-late-application.html"><h2>장려금 신청 누락 시 기한후 신청 방법</h2><p>정기신청을 놓쳤을 때 기한후 신청 절차와 유의점을 정리합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/tax-invoice-vs-cash-receipt.html"><h2>개인사업자 세금계산서와 현금영수증 차이</h2><p>증빙 종류별 발급 대상과 비용처리 차이를 쉽게 비교합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/telecom-unclaimed-refund.html"><h2>통신비 미환급금 조회 방법</h2><p>해지&#183;번호이동 후 남은 통신비 미환급금을 확인하는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/travel-insurance-comparison.html"><h2>여행자보험 가입 전 비교 항목</h2><p>해외&#183;국내 여행자보험의 보장 범위와 자기부담금 확인법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/unemployment-benefit-job-search.html"><h2>실업급여 구직활동 인정 기준</h2><p>실업인정일에 인정되는 구직활동과 증빙 방법을 정리합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/vat-final-return-july-2026.html"><h2>2026년 7월 부가가치세 확정신고 대상과 준비서류</h2><p>7월 부가가치세 확정신고를 앞두고 대상자, 준비서류, 신고 순서를 한 번에 확인합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/vat-input-tax-deduction-items.html"><h2>부가가치세 매입세액 공제 가능한 항목 정리</h2><p>사업자가 자주 헷갈리는 매입세액 공제 가능&#183;불가능 항목을 정리합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/vat-payment-extension-guide.html"><h2>부가가치세 신고 후 납부기한 연장 신청 방법</h2><p>일시적 자금난이 있을 때 납부기한 연장 가능 여부와 신청 경로를 확인합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/vat-zero-sales-filing.html"><h2>부가가치세 무실적 신고 방법</h2><p>매출이 없었던 사업자도 확인해야 할 무실적 신고 절차를 설명합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/water-bill-saving.html"><h2>수도요금 줄이는 방법, 가정에서 효과 본 절약 습관 15가지</h2><p>욕실, 주방, 세탁 습관을 바꿔 수도요금을 줄이는 실천형 가이드입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/wetax-electronic-billing.html"><h2>위택스 지방세 전자고지 신청 방법</h2><p>종이 고지서 대신 모바일&#183;전자고지를 신청하는 절차를 안내합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/yellow-umbrella-mutual-aid-guide.html"><h2>노란우산공제 가입 전 확인사항</h2><p>소득공제, 납입 부담, 중도해지 불이익을 가입 전에 점검합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/youth-housing-benefit-separate-payment.html"><h2>청년 주거급여 분리지급 확인 방법</h2><p>부모와 떨어져 사는 청년이 주거급여 분리지급 대상인지 확인합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/youth-leap-account-contribution.html"><h2>청년도약계좌 정부기여금 확인법</h2><p>소득구간에 따른 정부기여금과 유지 조건을 확인하는 방법입니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/youth-savings-account-maintenance.html"><h2>청년내일저축계좌 유지 조건</h2><p>근로활동, 교육 이수, 자금사용계획서 등 유지 요건을 정리합니다.</p><span class="more">자세히 보기 →</span></a>
+<a class="card" href="/articles/youth-support-programs.html"><h2>청년 지원금 종류 한눈에 보기, 신청 전 확인할 기준</h2><p>청년 대상 지원제도는 지역과 조건에 따라 달라지므로 먼저 확인해야 할 기준을 정리했습니다.</p><span class="more">자세히 보기 →</span></a>
+</div>
+</main>
 </body>
 </html>
