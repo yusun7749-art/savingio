@@ -1,0 +1,9 @@
+Part026 직장·급여 5개
+
+salary-slip-check-guide.html: 본문문자 4,146, 검색등록=예, 목록등록=예
+four-major-insurance-deduction-guide.html: 본문문자 3,799, 검색등록=예, 목록등록=예
+weekly-holiday-pay-guide.html: 본문문자 3,731, 검색등록=예, 목록등록=예
+severance-pay-calculation-guide.html: 본문문자 3,652, 검색등록=예, 목록등록=예
+unemployment-benefit-checklist.html: 본문문자 3,618, 검색등록=예, 목록등록=예
+
+기존 메인/CSS/계산기 구조 유지

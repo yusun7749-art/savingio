@@ -1,0 +1,15 @@
+Savingio Part034 검증 결과
+
+수정 파일: 5개
+기존 파일명 유지: 예
+A001 카드형 구조: 적용
+공식사이트 버튼: 적용
+FAQ/표/체크리스트/관련글: 적용
+고정 계산기 버튼: 적용
+
+파일별 공백 제외 텍스트 길이
+- health-insurance-refund-guide.html: 4877자 / 14004 bytes
+- car-insurance-overpayment-refund.html: 4801자 / 13748 bytes
+- national-pension-overpayment-refund.html: 4647자 / 13288 bytes
+- telecom-unclaimed-refund.html: 4633자 / 13163 bytes
+- dormant-deposit-insurance-search.html: 4720자 / 13483 bytes

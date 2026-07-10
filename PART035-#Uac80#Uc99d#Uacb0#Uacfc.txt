@@ -1,0 +1,16 @@
+Savingio Part035 검증 결과
+
+수정 파일: 5개
+빈 파일: 0개
+기존 파일명 유지: 예
+A001 카드형 구조: 적용
+공식사이트 버튼: 적용
+FAQ/표/체크리스트/관련글: 적용
+고정 계산기 버튼: 적용
+
+파일별 공백 제외 텍스트 길이
+- earned-income-credit-status-check.html: 5205자 / 15507 bytes
+- earned-income-credit-payment.html: 5086자 / 15085 bytes
+- child-tax-credit-status-check.html: 4966자 / 14623 bytes
+- subsidy24-benefit-search.html: 5129자 / 15093 bytes
+- local-tax-refund-guide.html: 5001자 / 14766 bytes
