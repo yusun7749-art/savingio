@@ -1,1 +1,11 @@
-<!doctype html><meta charset="utf-8"><title>연차 계산기</title><h1>연차 계산기</h1><p>준비중</p>
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>연차 계산기 | Savingio</title><meta name="description" content="입사일과 기준일을 입력해 근속기간과 예상 연차 일수를 간단히 확인합니다."><link rel="stylesheet" href="/css/style.css"></head><body><header class="site-header"><div class="header-inner"><a class="logo" href="/">Savingio</a><nav class="nav"><a href="/">홈</a><a href="/articles/">전체 글</a><a href="/calculators/">계산기</a><a href="/about.html">소개</a><a href="/contact.html">문의</a></nav></div></header><main class="calculator-wrap"><div class="calc-card"><h1>연차 계산기</h1><p class="desc">입사일과 기준일을 입력해 근속기간과 예상 연차 일수를 간단히 확인합니다.</p><div class="form-grid"><div class="field"><label>입사일</label><input id="start" type="date"></div><div class="field"><label>기준일</label><input id="end" type="date"></div></div><div class="calc-actions"><button class="btn primary" onclick="calculate()">계산하기</button><button class="btn" onclick="resetCalc()">초기화</button></div><div id="result" class="result"></div><div class="notice">이 계산은 일반적인 기준의 단순 예시입니다. 출근율, 회사 규정, 회계연도 기준 등에 따라 실제 연차는 달라질 수 있습니다.</div></div></main><footer class="site-footer"><div class="footer-inner"><strong>Savingio</strong><div>생활비 절약과 돈 관리를 돕는 실용 정보 사이트입니다.</div><div class="footer-links"><a href="/about.html">About</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a><a href="/articles/">Articles</a></div></div></footer><script src="/js/app.js"></script><script>
+function calculate(){
+ const s=new Date(document.getElementById('start').value), e=new Date(document.getElementById('end').value);
+ if(isNaN(s)||isNaN(e)||e<s){return showResult('입사일과 기준일을 정확히 입력하세요.');}
+ const days=Math.floor((e-s)/86400000);
+ const years=days/365;
+ let leave=0;
+ if(years<1){leave=Math.min(11,Math.floor(days/30));}
+ else{leave=Math.min(25,15+Math.floor((Math.floor(years)-1)/2));}
+ showResult(`<strong>${leave}일</strong><dl><dt>근속일수</dt><dd>${days.toLocaleString()}일</dd><dt>근속연수</dt><dd>${years.toFixed(2)}년</dd></dl>`);
+}</script></body></html>
