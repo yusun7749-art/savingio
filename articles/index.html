@@ -26,13 +26,13 @@ main{max-width:1160px;margin:auto;padding:34px 24px 80px}
 .filter.active{background:#1769ff;color:#fff;border-color:#1769ff}
 .summary{display:flex;justify-content:space-between;align-items:center;margin:20px 0;color:#667085}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.card{display:flex;flex-direction:column;background:#fff;border:1px solid #e5e7eb;border-radius:18px;padding:23px;min-height:225px;box-shadow:0 8px 24px rgba(17,24,39,.04);transition:.2s}
-.card:hover{transform:translateY(-3px);border-color:#9dbbff}
-.card.hidden{display:none}
-.badge{align-self:flex-start;background:#edf3ff;color:#1457c9;padding:5px 10px;border-radius:999px;font-size:12px;font-weight:800;margin-bottom:12px}
-.card h2{font-size:19px;line-height:1.45;margin:0 0 10px}
-.card p{font-size:14px;color:#667085;margin:0 0 18px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.more{margin-top:auto;color:#1463ff;font-weight:800}
+.card,.article-card{display:flex;flex-direction:column;background:#fff;border:1px solid #e5e7eb;border-radius:18px;padding:23px;min-height:225px;box-shadow:0 8px 24px rgba(17,24,39,.04);transition:.2s}
+.card:hover,.article-card:hover{transform:translateY(-3px);border-color:#9dbbff}
+.card.hidden,.article-card.hidden{display:none}
+.badge,.category-tag{align-self:flex-start;background:#edf3ff;color:#1457c9;padding:5px 10px;border-radius:999px;font-size:12px;font-weight:800;margin-bottom:12px}
+.card h2,.article-card h2{font-size:19px;line-height:1.45;margin:0 0 10px}
+.card p,.article-card p{font-size:14px;color:#667085;margin:0 0 18px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.more{margin-top:auto;color:#1463ff;font-weight:800}.article-grid{display:contents}
 .pagination{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:34px}
 .page{border:1px solid #d9e0ea;background:#fff;border-radius:10px;padding:9px 13px;cursor:pointer}
 .page.active{background:#1769ff;color:#fff;border-color:#1769ff}
@@ -1696,17 +1696,22 @@ main{max-width:1160px;margin:auto;padding:34px 24px 80px}
 
   <div id="empty" class="empty">검색 결과가 없습니다.</div>
   <div id="pagination" class="pagination"></div>
-<section class="article-grid">
-<article class="article-card" data-category="직장 급여 근로 4대보험 주휴수당 퇴직금 실업급여"><span class="category-tag">직장·급여</span><h2><a href="/articles/salary-slip-check-guide.html">급여명세서 확인 방법, 월급에서 빠진 돈을 항목별로 보는 순서</a></h2><p>기본급·수당·비과세 항목·4대보험·소득세를 나눠 급여명세서와 실제 입금액을 확인하는 방법입니다.</p><a class="more" href="/articles/salary-slip-check-guide.html">자세히 보기 →</a></article>
-<article class="article-card" data-category="직장 급여 근로 4대보험 주휴수당 퇴직금 실업급여"><span class="category-tag">직장·급여</span><h2><a href="/articles/four-major-insurance-deduction-guide.html">4대보험 공제액 확인 방법, 월급에서 얼마가 빠지는지 보는 기준</a></h2><p>국민연금·건강보험·장기요양보험·고용보험의 공제 기준과 급여명세서 확인 순서를 정리했습니다.</p><a class="more" href="/articles/four-major-insurance-deduction-guide.html">자세히 보기 →</a></article>
-<article class="article-card" data-category="직장 급여 근로 4대보험 주휴수당 퇴직금 실업급여"><span class="category-tag">직장·급여</span><h2><a href="/articles/weekly-holiday-pay-guide.html">주휴수당 조건과 계산 방법, 내가 받을 수 있는지 확인하는 순서</a></h2><p>주 소정근로시간, 개근 여부, 시급과 근무표를 기준으로 주휴수당 대상과 계산 방법을 확인합니다.</p><a class="more" href="/articles/weekly-holiday-pay-guide.html">자세히 보기 →</a></article>
-<article class="article-card" data-category="직장 급여 근로 4대보험 주휴수당 퇴직금 실업급여"><span class="category-tag">직장·급여</span><h2><a href="/articles/severance-pay-calculation-guide.html">퇴직금 계산 방법, 평균임금과 재직기간을 확인하는 순서</a></h2><p>퇴직금 대상 여부, 계속근로기간, 평균임금, 상여금과 수당 반영 여부를 확인하는 방법입니다.</p><a class="more" href="/articles/severance-pay-calculation-guide.html">자세히 보기 →</a></article>
-<article class="article-card" data-category="직장 급여 근로 4대보험 주휴수당 퇴직금 실업급여"><span class="category-tag">직장·급여</span><h2><a href="/articles/unemployment-benefit-checklist.html">실업급여 신청 전 확인할 조건과 준비서류 체크리스트</a></h2><p>고용보험 가입기간, 이직 사유, 구직활동, 이직확인서와 신청 절차를 순서대로 확인합니다.</p><a class="more" href="/articles/unemployment-benefit-checklist.html">자세히 보기 →</a></article><a class="article-card" href="/articles/income-tax-filing-missed-consequences.html"><h2>종합소득세 신고 안 하면 어떻게 될까</h2><p>종합소득세 신고기한을 놓쳤을 때 생길 수 있는 불이익과 기한후신고, 납부, 증빙 정리 순서를 안내합니다.</p></a></section></main>
+<section class="article-grid"><a class="article-card" href="/articles/income-tax-filing-missed-consequences.html"><h2>종합소득세 신고 안 하면 어떻게 될까</h2><p>종합소득세 신고기한을 놓쳤을 때 생길 수 있는 불이익과 기한후신고, 납부, 증빙 정리 순서를 안내합니다.</p></a></section></main>
 
 <script>
 (function () {
   const PAGE_SIZE = 12;
-  const cards = Array.from(document.querySelectorAll('.card'));
+  const grid = document.getElementById('grid');
+
+  // 과거에 별도 섹션으로 추가된 카드도 같은 그리드 안으로 합칩니다.
+  document.querySelectorAll('.article-grid .article-card').forEach(function(card) {
+    grid.appendChild(card);
+  });
+  document.querySelectorAll('.article-grid').forEach(function(section) {
+    section.remove();
+  });
+
+  const cards = Array.from(grid.querySelectorAll('.card, .article-card'));
   const search = document.getElementById('search');
   const resultCount = document.getElementById('resultCount');
   const pagination = document.getElementById('pagination');
@@ -1714,11 +1719,26 @@ main{max-width:1160px;margin:auto;padding:34px 24px 80px}
   let activeCategory = '전체';
   let currentPage = 1;
 
+  function normalize(value) {
+    return (value || '')
+      .toLowerCase()
+      .replace(/\s+/g, '')
+      .replace(/[·ㆍ,._\-\/()]/g, '');
+  }
+
+  cards.forEach(function(card) {
+    if (!card.dataset.search) {
+      card.dataset.search = card.textContent || '';
+    }
+  });
+
   function getFilteredCards() {
-    const q = search.value.trim().toLowerCase();
+    const q = normalize(search.value.trim());
     return cards.filter(function(card) {
-      const matchesCategory = activeCategory === '전체' || card.dataset.category === activeCategory;
-      const matchesSearch = !q || card.dataset.search.includes(q);
+      const categoryText = card.dataset.category || '';
+      const matchesCategory = activeCategory === '전체' || categoryText.includes(activeCategory);
+      const searchable = normalize((card.dataset.search || '') + ' ' + (card.textContent || ''));
+      const matchesSearch = !q || searchable.includes(q);
       return matchesCategory && matchesSearch;
     });
   }
@@ -1728,9 +1748,7 @@ main{max-width:1160px;margin:auto;padding:34px 24px 80px}
     const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
     if (currentPage > totalPages) currentPage = totalPages;
 
-    cards.forEach(function(card) {
-      card.classList.add('hidden');
-    });
+    cards.forEach(function(card) { card.classList.add('hidden'); });
 
     const start = (currentPage - 1) * PAGE_SIZE;
     filtered.slice(start, start + PAGE_SIZE).forEach(function(card) {
@@ -1759,9 +1777,7 @@ main{max-width:1160px;margin:auto;padding:34px 24px 80px}
 
   document.querySelectorAll('.filter').forEach(function(button) {
     button.addEventListener('click', function() {
-      document.querySelectorAll('.filter').forEach(function(item) {
-        item.classList.remove('active');
-      });
+      document.querySelectorAll('.filter').forEach(function(item) { item.classList.remove('active'); });
       button.classList.add('active');
       activeCategory = button.dataset.category;
       currentPage = 1;
