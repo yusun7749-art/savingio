@@ -1,8 +1,8 @@
-Part006 적용
 1. 압축을 풉니다.
-2. 안의 index.html, css 폴더, js 폴더를 savingio-live에 덮어쓰기
-3. 터미널:
+2. 안의 모든 파일과 폴더를 savingio-live에 덮어씁니다.
+3. savingio-live 안의 1-Part007-적용.bat를 실행합니다.
+4. 터미널:
 git add .
-git commit -m "Part006 convert homepage to tool dashboard"
+git commit -m "Part007 content first layout and sticky tools"
 git push
-4. Ctrl+Shift+R
+5. 배포 후 Ctrl+Shift+R

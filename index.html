@@ -3,79 +3,95 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>급여·세금·생활비 계산기 모음 | Savingio</title>
-<meta name="description" content="퍼센트, 실수령액, 주휴수당, 퇴직금, 연차, 부가세, 대출이자를 계산하고 세금·지원금·생활비 정보를 확인하세요.">
+<title>생활비 절약·세금·지원금·계산 도구 | Savingio</title>
+<meta name="description" content="생활비 절약, 세금, 환급금, 정부지원금 정보를 읽고 퍼센트·실수령액·퇴직금·연차·부가세를 바로 계산하세요.">
 <link rel="canonical" href="https://savingio.com/">
-<link rel="stylesheet" href="./css/style.css?v=6">
+<link rel="stylesheet" href="./css/style.css?v=7">
+<link rel="stylesheet" href="./css/savingio-content-platform.css?v=7">
 </head>
 <body>
-<header class="site-header"><div class="header-inner"><a class="logo" href="/">Savingio</a><nav class="nav"><a href="/">홈</a><a href="/calculators/">계산기</a><a href="/articles/">정보센터</a><a href="/about.html">소개</a></nav></div></header>
-<main class="dashboard-shell">
-  <section class="dashboard-top">
-    <div class="dashboard-main">
-      <span class="eyebrow">Money Utility Platform</span>
-      <h1>필요한 계산,<br>바로 실행하세요</h1>
-      <p>블로그처럼 글을 찾는 대신, 자주 쓰는 계산기와 돈 정보를 한 화면에서 빠르게 이용할 수 있습니다.</p>
-      <div class="tool-search">
-        <input id="toolSearch" type="search" placeholder="예: 퍼센트, 퇴직금, 부가세, 대출이자">
-        <a class="btn primary" href="/calculators/">전체 계산기</a>
+<header class="site-header"><div class="header-inner"><a class="logo" href="/">Savingio</a><nav class="nav"><a href="/">홈</a><a href="/articles/">정보센터</a><a href="/calculators/">계산기</a><a href="/about.html">소개</a><a href="/contact.html">문의</a></nav></div></header>
+<main class="sg-home">
+  <section class="sg-hero">
+    <div class="sg-hero-main">
+      <span class="sg-kicker">생활 속 돈 정보 플랫폼</span>
+      <h1>돈이 새는 곳은 막고,<br>받을 돈은 찾으세요</h1>
+      <p>세금·지원금·환급금·생활비 절약 정보를 읽고, 필요한 순간에는 계산기를 바로 꺼내 쓸 수 있습니다.</p>
+      <div class="sg-search">
+        <input type="search" placeholder="재산세, 환급금, 에너지바우처, 퍼센트 계산 검색">
+        <a href="/articles/">정보 찾기</a>
       </div>
     </div>
-    <aside class="dashboard-side">
-      <h2>빠른 현황</h2>
-      <div class="stat-grid">
-        <div class="stat"><strong>7개</strong><span>바로 쓰는 계산기</span></div>
-        <div class="stat"><strong>159+</strong><span>생활 정보</span></div>
-        <div class="stat"><strong>무료</strong><span>모든 기능</span></div>
-        <div class="stat"><strong>즉시</strong><span>회원가입 없음</span></div>
+    <aside class="sg-hero-side">
+      <h2>지금 많이 찾는 정보</h2>
+      <div class="sg-now-grid">
+        <a class="sg-now-card" href="/articles/"><strong>부가가치세 신고</strong><span>7월 신고 준비</span></a>
+        <a class="sg-now-card" href="/articles/"><strong>재산세</strong><span>고지서·납부 확인</span></a>
+        <a class="sg-now-card" href="/articles/"><strong>에너지바우처</strong><span>신청·잔액 조회</span></a>
+        <a class="sg-now-card" href="/articles/"><strong>건강보험 환급금</strong><span>숨은 환급 확인</span></a>
       </div>
     </aside>
   </section>
 
-  <section class="tool-section">
-    <div class="tool-section-head"><h2>자주 쓰는 계산기</h2><span>클릭하면 바로 계산</span></div>
-    <div class="tool-grid" id="toolGrid">
-      <a class="tool-tile" data-tool="퍼센트 할인율 증가율 역산" href="/calculators/percentage.html"><div class="icon">%</div><strong>퍼센트 계산기</strong><span>몇 %, 할인, 증가, 원가 역산</span><b>계산하기 →</b></a>
-      <a class="tool-tile" data-tool="월급 실수령액 급여 공제" href="/calculators/salary.html"><div class="icon">₩</div><strong>실수령액 계산기</strong><span>월급과 공제율로 예상 수령액 계산</span><b>계산하기 →</b></a>
-      <a class="tool-tile" data-tool="시급 주휴수당 근로시간" href="/calculators/weekly-pay.html"><div class="icon">⏱</div><strong>주휴수당 계산기</strong><span>시급과 주 근로시간 기준</span><b>계산하기 →</b></a>
-      <a class="tool-tile" data-tool="퇴직금 평균임금 재직일수" href="/calculators/severance.html"><div class="icon">↗</div><strong>퇴직금 계산기</strong><span>평균임금과 근속기간 기준</span><b>계산하기 →</b></a>
-      <a class="tool-tile" data-tool="연차 휴가 입사일" href="/calculators/annual-leave.html"><div class="icon">📅</div><strong>연차 계산기</strong><span>입사일과 기준일로 예상 연차 확인</span><b>계산하기 →</b></a>
-      <a class="tool-tile" data-tool="부가세 공급가액 합계금액" href="/calculators/vat.html"><div class="icon">VAT</div><strong>부가세 계산기</strong><span>포함·별도 금액 변환</span><b>계산하기 →</b></a>
-      <a class="tool-tile" data-tool="대출이자 원금 금리 기간" href="/calculators/loan.html"><div class="icon">%</div><strong>대출이자 계산기</strong><span>원금·금리·기간 기준</span><b>계산하기 →</b></a>
-      <a class="tool-tile" data-tool="계산기 전체 급여 세금 생활비" href="/calculators/"><div class="icon">＋</div><strong>전체 계산기</strong><span>필요한 도구를 한 번에 보기</span><b>전체 보기 →</b></a>
-    </div>
-  </section>
+  <div class="sg-layout">
+    <div class="sg-main-column">
+      <section class="sg-section">
+        <div class="sg-section-head"><div><h2>오늘의 핵심 정보</h2><p>읽고 바로 실행할 수 있는 대표 가이드</p></div></div>
+        <div class="sg-feature">
+          <a class="sg-feature-main" href="/articles/vat-sales-omission-check-2026.html">
+            <span class="tag">세금·환급</span>
+            <h3>부가가치세 신고 전, 매출 누락부터 확인하세요</h3>
+            <p>카드매출·현금영수증·배달앱·오픈마켓 정산자료를 어떻게 대조해야 하는지 순서대로 확인합니다.</p>
+            <span class="more">가이드 읽기 →</span>
+          </a>
+          <div class="sg-feature-list">
+            <a href="/articles/energy-voucher-application-2026.html"><strong>2026년 에너지바우처 신청 방법</strong><span>신청기간과 대상 확인</span></a>
+            <a href="/articles/property-tax-bill-checklist-2026.html"><strong>7월 재산세 고지서 체크리스트</strong><span>납세자·세액·납부기한 확인</span></a>
+            <a href="/articles/health-insurance-refund.html"><strong>건강보험 환급금 확인 방법</strong><span>과오납·본인부담상한액 조회</span></a>
+          </div>
+        </div>
+      </section>
 
-  <section class="tool-section">
-    <div class="tool-section-head"><h2>분야별 바로가기</h2><span>원하는 분야만 빠르게</span></div>
-    <div class="category-grid">
-      <a class="category-card" href="/articles/">세금·환급</a>
-      <a class="category-card" href="/articles/">지원금</a>
-      <a class="category-card" href="/articles/">급여·근로</a>
-      <a class="category-card" href="/articles/">생활비 절약</a>
-      <a class="category-card" href="/articles/">금융</a>
+      <section class="sg-section">
+        <div class="sg-section-head"><div><h2>분야별 생활정보</h2><p>필요한 주제만 골라 확인하세요.</p></div><a href="/articles/">전체 글 →</a></div>
+        <div class="sg-info-grid">
+          <a class="sg-info-card" href="/articles/"><span class="tag">생활비</span><h3>전기요금·통신비·구독비 줄이기</h3><p>매달 빠져나가는 고정비를 현실적으로 줄이는 방법입니다.</p><span class="more">생활비 정보 →</span></a>
+          <a class="sg-info-card" href="/articles/"><span class="tag">세금</span><h3>재산세·부가세·국세 환급 확인</h3><p>납부기한과 신고 전 준비사항을 놓치지 않도록 정리했습니다.</p><span class="more">세금 정보 →</span></a>
+          <a class="sg-info-card" href="/articles/"><span class="tag">지원금</span><h3>근로장려금·에너지바우처·복지 혜택</h3><p>나에게 맞는 지원을 찾고 신청하는 방법을 확인하세요.</p><span class="more">지원금 정보 →</span></a>
+          <a class="sg-info-card" href="/articles/"><span class="tag">금융</span><h3>대출·신용점수·예산 관리</h3><p>금리와 수수료를 비교하고 돈 관리 습관을 만들 수 있습니다.</p><span class="more">금융 정보 →</span></a>
+          <a class="sg-info-card" href="/articles/"><span class="tag">급여·근로</span><h3>실수령액·주휴수당·퇴직금 이해하기</h3><p>계산 결과가 왜 그렇게 나오는지 관련 기준을 함께 확인합니다.</p><span class="more">급여 정보 →</span></a>
+          <a class="sg-info-card" href="/articles/"><span class="tag">환급</span><h3>숨은 돈과 미수령 환급금 찾기</h3><p>국세·지방세·보험·통신비 환급금을 공식 경로에서 조회하세요.</p><span class="more">환급 정보 →</span></a>
+        </div>
+      </section>
     </div>
-  </section>
 
-  <section class="tool-section">
-    <div class="tool-section-head"><h2>실용 정보센터</h2><span>필요할 때만 읽는 정보</span></div>
-    <div class="utility-panel">
-      <a class="utility-box" href="/articles/"><h3>세금 신고 가이드</h3><p>부가가치세, 재산세, 환급금 정보를 확인합니다.</p></a>
-      <a class="utility-box" href="/articles/"><h3>정부지원금 찾기</h3><p>에너지바우처와 각종 지원제도를 확인합니다.</p></a>
-      <a class="utility-box" href="/articles/"><h3>생활비 절약</h3><p>전기요금, 통신비, 구독비를 줄이는 방법입니다.</p></a>
-    </div>
-  </section>
+    <aside class="sg-sidebar">
+      <section class="sg-side-box">
+        <h3>빠른 계산</h3>
+        <div class="sg-tool-list">
+          <a href="/calculators/percentage.html"><span>퍼센트 계산기</span><b>%</b></a>
+          <a href="/calculators/salary.html"><span>실수령액 계산기</span><b>₩</b></a>
+          <a href="/calculators/weekly-pay.html"><span>주휴수당 계산기</span><b>시</b></a>
+          <a href="/calculators/severance.html"><span>퇴직금 계산기</span><b>퇴</b></a>
+          <a href="/calculators/annual-leave.html"><span>연차 계산기</span><b>일</b></a>
+          <a href="/calculators/vat.html"><span>부가세 계산기</span><b>VAT</b></a>
+          <a href="/calculators/loan.html"><span>대출이자 계산기</span><b>%</b></a>
+        </div>
+      </section>
+      <section class="sg-side-box">
+        <h3>공식 서비스</h3>
+        <div class="sg-official-list">
+          <a href="https://www.hometax.go.kr/" target="_blank" rel="noopener">홈택스 →</a>
+          <a href="https://www.gov.kr/" target="_blank" rel="noopener">정부24 →</a>
+          <a href="https://www.bokjiro.go.kr/" target="_blank" rel="noopener">복지로 →</a>
+          <a href="https://www.wetax.go.kr/" target="_blank" rel="noopener">위택스 →</a>
+        </div>
+      </section>
+    </aside>
+  </div>
 </main>
-<footer class="site-footer"><div class="footer-inner"><strong>Savingio</strong><div>생활 속 돈 계산과 정보를 한곳에서 해결하는 실용 사이트입니다.</div><div class="footer-links"><a href="/about.html">소개</a><a href="/contact.html">문의</a><a href="/privacy.html">개인정보처리방침</a></div></div></footer>
-<script src="./js/app.js?v=6"></script>
-<script>
-const toolSearch=document.getElementById('toolSearch');
-toolSearch.addEventListener('input',()=>{
-  const q=toolSearch.value.trim().toLowerCase();
-  document.querySelectorAll('[data-tool]').forEach(card=>{
-    card.style.display=card.dataset.tool.toLowerCase().includes(q)?'flex':'none';
-  });
-});
-</script>
+<footer class="site-footer"><div class="footer-inner"><strong>Savingio</strong><div>돈이 새는 곳을 막고, 받을 수 있는 혜택을 찾도록 돕습니다.</div><div class="footer-links"><a href="/about.html">소개</a><a href="/contact.html">문의</a><a href="/privacy.html">개인정보처리방침</a></div></div></footer>
+<script src="./js/app.js?v=7"></script>
+<script src="./js/savingio-content-platform.js?v=7"></script>
 </body>
 </html>
