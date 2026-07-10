@@ -291,7 +291,7 @@ main{max-width:1160px;margin:auto;padding:34px 24px 80px}
 <a class="card"
    href="/articles/car-insurance-child-discount.html"
    data-category="금융"
-   data-search="자동차보험 자녀할인 특약 확인 자녀 연령&#183;임신 여부 등에 따른 할인 특약을 비교할 때 확인할 점입니다. 금융">
+   data-search="자동차보험 자녀할인 특약 확인 아이 아동 자녀 부모 임신 출산 자녀 연령&#183;임신 여부 등에 따른 할인 특약을 비교할 때 확인할 점입니다. 금융">
   <span class="badge">금융</span>
   <h2>자동차보험 자녀할인 특약 확인</h2>
   <p>자녀 연령&#183;임신 여부 등에 따른 할인 특약을 비교할 때 확인할 점입니다.</p>
@@ -363,7 +363,7 @@ main{max-width:1160px;margin:auto;padding:34px 24px 80px}
 <a class="card"
    href="/articles/childcare-service-government-support.html"
    data-category="지원금"
-   data-search="아이돌봄서비스 정부지원 신청 방법 소득유형 판정과 서비스 신청 순서를 단계별로 안내합니다. 지원금">
+   data-search="아이돌봄서비스 정부지원 신청 방법 아이 아동 어린이 영유아 육아 맞벌이 초등학생 돌봄 소득유형 판정과 서비스 신청 순서를 단계별로 안내합니다. 지원금">
   <span class="badge">지원금</span>
   <h2>아이돌봄서비스 정부지원 신청 방법</h2>
   <p>소득유형 판정과 서비스 신청 순서를 단계별로 안내합니다.</p>
@@ -372,7 +372,7 @@ main{max-width:1160px;margin:auto;padding:34px 24px 80px}
 <a class="card"
    href="/articles/child-tax-credit-status-check.html"
    data-category="세금&#183;환급"
-   data-search="자녀장려금 심사결과 확인 방법 자녀장려금 신청 후 심사 결과와 지급 계좌를 확인하는 절차입니다. 세금&#183;환급">
+   data-search="자녀장려금 심사결과 확인 방법 아이 아동 자녀 부모 가정 자녀장려금 신청 후 심사 결과와 지급 계좌를 확인하는 절차입니다. 세금&#183;환급">
   <span class="badge">세금&#183;환급</span>
   <h2>자녀장려금 심사결과 확인 방법</h2>
   <p>자녀장려금 신청 후 심사 결과와 지급 계좌를 확인하는 절차입니다.</p>
@@ -525,7 +525,7 @@ main{max-width:1160px;margin:auto;padding:34px 24px 80px}
 <a class="card"
    href="/articles/education-benefit-eligibility.html"
    data-category="지원금"
-   data-search="교육급여 수급자격과 신청 절차 초&#183;중&#183;고 학생 가구가 확인할 교육급여 기준과 신청 절차입니다. 지원금">
+   data-search="교육급여 수급자격과 신청 절차 아이 아동 어린이 초등학생 중학생 고등학생 학부모 교육비 초&#183;중&#183;고 학생 가구가 확인할 교육급여 기준과 신청 절차입니다. 지원금">
   <span class="badge">지원금</span>
   <h2>교육급여 수급자격과 신청 절차</h2>
   <p>초&#183;중&#183;고 학생 가구가 확인할 교육급여 기준과 신청 절차입니다.</p>
@@ -534,7 +534,7 @@ main{max-width:1160px;margin:auto;padding:34px 24px 80px}
 <a class="card"
    href="/articles/education-expense-vs-benefit.html"
    data-category="지원금"
-   data-search="교육비 지원과 교육급여 차이 두 제도의 지원 항목과 신청 창구 차이를 비교합니다. 지원금">
+   data-search="교육비 지원과 교육급여 차이 아이 아동 어린이 초등학생 학생 학부모 두 제도의 지원 항목과 신청 창구 차이를 비교합니다. 지원금">
   <span class="badge">지원금</span>
   <h2>교육비 지원과 교육급여 차이</h2>
   <p>두 제도의 지원 항목과 신청 창구 차이를 비교합니다.</p>
@@ -1335,7 +1335,7 @@ main{max-width:1160px;margin:auto;padding:34px 24px 80px}
 <a class="card"
    href="/articles/single-parent-support-benefits.html"
    data-category="지원금"
-   data-search="한부모가족 지원금 조회 방법 한부모가족이 정부24와 복지로에서 확인할 주요 지원을 정리합니다. 지원금">
+   data-search="한부모가족 지원금 조회 방법 아이 아동 자녀 육아 한부모가족이 정부24와 복지로에서 확인할 주요 지원을 정리합니다. 지원금">
   <span class="badge">지원금</span>
   <h2>한부모가족 지원금 조회 방법</h2>
   <p>한부모가족이 정부24와 복지로에서 확인할 주요 지원을 정리합니다.</p>
@@ -1778,13 +1778,54 @@ main{max-width:1160px;margin:auto;padding:34px 24px 80px}
     }
   });
 
+  const intentGroups = {
+    child: ['아이','아동','어린이','영유아','육아','자녀','초등학생','학생','부모급여','아동수당','아이돌봄','첫만남이용권','보육료','교육급여','교육비','한부모','다자녀'],
+    senior: ['노인','어르신','시니어','60세','65세','70세','기초연금','노령연금','노인일자리','장기요양','부모님혜택'],
+    energy: ['전기','전기요금','가스','가스비','난방비','에너지바우처','도시가스','수도','관리비'],
+    car: ['자동차','차량','범칙금','과태료','자동차세','자동차검사','채권환급'],
+    work: ['월급','급여','직장인','실수령액','4대보험','주휴수당','퇴직금','실업급여','연차'],
+    tax: ['세금','종합소득세','부가가치세','부가세','재산세','자동차세','홈택스','위택스'],
+    benefit: ['지원금','정부혜택','복지','바우처','환급금','기초생활수급','차상위','문화누리카드']
+  };
+
+  function cardIntents(card) {
+    const text = normalize((card.dataset.search || '') + ' ' + (card.textContent || ''));
+    const result = new Set();
+    Object.keys(intentGroups).forEach(function(group) {
+      if (intentGroups[group].some(function(keyword) { return text.includes(normalize(keyword)); })) {
+        result.add(group);
+      }
+    });
+    return result;
+  }
+
+  function queryIntent(rawQuery) {
+    const q = normalize(rawQuery);
+    if (!q) return null;
+    for (const group of Object.keys(intentGroups)) {
+      if (intentGroups[group].some(function(keyword) { return q === normalize(keyword); })) return group;
+    }
+    return null;
+  }
+
+  cards.forEach(function(card) {
+    card._savingioIntents = cardIntents(card);
+  });
+
   function getFilteredCards() {
-    const q = normalize(search.value.trim());
+    const raw = search.value.trim();
+    const q = normalize(raw);
+    const intent = queryIntent(raw);
     return cards.filter(function(card) {
       const categoryText = card.dataset.category || '';
       const matchesCategory = activeCategory === '전체' || categoryText.includes(activeCategory);
       const searchable = normalize((card.dataset.search || '') + ' ' + (card.textContent || ''));
-      const matchesSearch = !q || searchable.includes(q);
+      let matchesSearch = !q || searchable.includes(q);
+
+      // 짧은 생활 검색어는 단어 일부(예: '아이디어' 속 '아이')가 아니라
+      // 실제 주제 의도가 일치하는 카드만 보여줍니다.
+      if (q && intent) matchesSearch = card._savingioIntents.has(intent);
+
       return matchesCategory && matchesSearch;
     });
   }
