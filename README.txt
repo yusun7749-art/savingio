@@ -1,8 +1,7 @@
-1. ZIP 압축을 풉니다.
-2. 안의 3개 파일을 바탕화면 savingio-live 폴더 안에 넣습니다.
-3. 1-영문콘텐츠-한국어수정.bat를 더블클릭합니다.
-4. 기존에 넣어둔 1-최종목록복구-실행.bat를 다시 더블클릭합니다.
-5. VS Code 터미널에서:
+1. ZIP을 풉니다.
+2. 안의 모든 파일과 articles 폴더를 바탕화면 savingio-live 안에 붙여넣습니다.
+3. 기존 '1-최종목록복구-실행.bat'를 실행합니다.
+4. VS Code 터미널:
 git add .
-git commit -m "Translate remaining English content"
+git commit -m "Add July official 10 articles"
 git push
