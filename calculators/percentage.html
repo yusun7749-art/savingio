@@ -16,7 +16,7 @@
 .example-box{margin-top:20px;padding:18px;border-radius:14px;background:#f7f9fc;border:1px solid #e4eaf2}
 .example-box strong{display:block;margin-bottom:6px}
 </style>
-</head>
+<link rel="stylesheet" href="/css/calculator-drawer.css?v=18"></head>
 <body>
 <header class="site-header"><div class="header-inner"><a class="logo" href="/">Savingio</a><nav class="nav"><a href="/">홈</a><a href="/articles/">전체 글</a><a href="/calculators/">계산기</a><a href="/about.html">소개</a><a href="/contact.html">문의</a></nav></div></header>
 <main class="calculator-wrap">
@@ -134,5 +134,5 @@ function calcP6(){
   result((change>=0?'+':'')+fmt(change)+'%', [['차이', fmt(now-old)], ['변화율', (change>=0?'+':'')+fmt(change)+'%']]);
 }
 </script>
-<a class="sv-calculator-fab" href="/calculators/" aria-label="생활 계산기 열기"><span>＋</span><span class="sv-fab-label">계산기</span></a></body>
+<button type="button" class="sv-calc-trigger" aria-label="생활 계산기 열기" aria-expanded="false"><span class="sv-calc-trigger-icon">＋</span><span class="sv-calc-trigger-label">계산기</span></button><div class="sv-calc-backdrop" aria-hidden="true"></div><aside class="sv-calc-drawer" aria-hidden="true" aria-label="생활 계산기"><div class="sv-drawer-head"><div><small>QUICK CALCULATOR</small><h2>바로 계산하기</h2></div><button type="button" class="sv-drawer-close" aria-label="닫기">×</button></div><div class="sv-drawer-group"><p class="sv-drawer-group-title">급여·근로</p><div class="sv-drawer-list"><a class="sv-drawer-item" href="/calculators/salary.html"><i>급</i><div><strong>실수령액</strong><span>월급과 공제 항목 확인</span></div></a><a class="sv-drawer-item" href="/calculators/weekly-pay.html"><i>주</i><div><strong>주휴수당</strong><span>시급과 주 근로시간 기준</span></div></a><a class="sv-drawer-item" href="/calculators/severance.html"><i>퇴</i><div><strong>퇴직금</strong><span>임금과 재직기간 기준</span></div></a><a class="sv-drawer-item" href="/calculators/annual-leave.html"><i>일</i><div><strong>연차</strong><span>입사일과 기준일 입력</span></div></a></div></div><div class="sv-drawer-group"><p class="sv-drawer-group-title">금액·세금·대출</p><div class="sv-drawer-list"><a class="sv-drawer-item" href="/calculators/percentage.html"><i>%</i><div><strong>퍼센트</strong><span>비율·할인·증감 계산</span></div></a><a class="sv-drawer-item" href="/calculators/vat.html"><i>세</i><div><strong>부가세</strong><span>공급가액·합계금액 변환</span></div></a><a class="sv-drawer-item" href="/calculators/loan.html"><i>₩</i><div><strong>대출이자</strong><span>상환방식별 금액 비교</span></div></a></div></div><a class="sv-drawer-all" href="/calculators/">계산기 전체 보기 →</a></aside><script src="/js/calculator-drawer.js?v=18"></script></body>
 </html>

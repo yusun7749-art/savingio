@@ -1,0 +1,21 @@
+Savingio Part018 검증 결과
+
+기준: Part016 전체 사이트 + Part017 정상 검색 index.html
+수정 HTML: 244개
+고정 계산기 패널 적용: 240개
+계산기 허브: 카드형 7개 계산기
+환율 계산기 링크 검색 결과: 0개
+필수 계산기 누락: 0개
+고정 버튼 중복/누락: 0개
+
+필수 계산기 경로
+- 실수령액 /calculators/salary.html
+- 주휴수당 /calculators/weekly-pay.html
+- 퇴직금 /calculators/severance.html
+- 연차 /calculators/annual-leave.html
+- 퍼센트 /calculators/percentage.html
+- 부가세 /calculators/vat.html
+- 대출이자 /calculators/loan.html
+
+검색 기능: Part017 index.html 유지
+기존 글/카테고리/본문: 변경하지 않음
