@@ -1,0 +1,10 @@
+Part023 자동차 글 5개 실제 수정
+car-tax-check-payment-guide.html: 3178자 / 내부 깨진 링크 0개
+traffic-fine-check-payment-guide.html: 3084자 / 내부 깨진 링크 0개
+traffic-penalty-check-payment-guide.html: 3042자 / 내부 깨진 링크 0개
+regional-development-bond-refund-guide.html: 3000자 / 내부 깨진 링크 0개
+vehicle-inspection-reservation-guide.html: 3041자 / 내부 깨진 링크 0개
+상세 글 수: 195개
+홈 검색 인덱스 재생성 완료
+사이트맵 5개 URL 추가
+환율 계산기 재추가 없음
