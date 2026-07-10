@@ -6,4 +6,4 @@ function calculate(){
  if(mode==='add'){supply=amount;vat=amount*.1;total=supply+vat;}
  else{total=amount;supply=amount/1.1;vat=total-supply;}
  showResult(`<strong>${money(total)}</strong><dl><dt>공급가액</dt><dd>${money(supply)}</dd><dt>부가세</dt><dd>${money(vat)}</dd><dt>합계</dt><dd>${money(total)}</dd></dl>`);
-}</script></body></html>
+}</script><a class="sv-calculator-fab" href="/calculators/" aria-label="생활 계산기 열기"><span>＋</span><span class="sv-fab-label">계산기</span></a></body></html>
