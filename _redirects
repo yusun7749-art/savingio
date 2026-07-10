@@ -1,1 +1,2 @@
-/articles /articles.html 200
+/articles /articles/ 301
+/articles.html /articles/ 301
