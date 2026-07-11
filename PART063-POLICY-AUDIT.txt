@@ -1,0 +1,10 @@
+PART063 운영정책·푸터 최종 정리
+
+추가/개선
+- terms.html 이용약관 생성
+- cookie-policy.html 쿠키 정책 생성
+- disclaimer.html 면책조항 강화
+- privacy.html 쿠키 정책 연결
+- 전체 HTML 푸터 정책 링크 통일
+- sitemap.xml 재생성: 223개 URL
+- 내부 깨진 링크: 0개
