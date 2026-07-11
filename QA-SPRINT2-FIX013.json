@@ -1,0 +1,17 @@
+{
+  "html_files": 287,
+  "modified_files": [
+    "articles/budget-app-guide.html"
+  ],
+  "checks": {
+    "article_source_missing": 0,
+    "json_ld_errors": 0,
+    "broken_internal_links": 0,
+    "source_section_added": true
+  },
+  "details": {
+    "article_source_missing": [],
+    "json_ld_errors": [],
+    "broken_internal_links": []
+  }
+}
