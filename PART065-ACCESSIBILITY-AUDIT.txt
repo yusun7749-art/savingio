@@ -1,0 +1,16 @@
+PART065 ACCESSIBILITY & ERROR-PAGE AUDIT
+
+Normalized duplicate DOCTYPE files: 205
+HTML files audited: 278
+Indexable HTML pages audited: 223
+Indexable pages without H1: 0
+Indexable pages with multiple H1: 0
+Images without alt: 0
+Broken internal links: 0
+404 page: ADDED
+Cloudflare _headers: ADDED
+
+No-H1 pages:
+
+
+Broken links:
