@@ -1,0 +1,12 @@
+Part044 실제 보강 파일
+
+- air-conditioner-electricity-saving.html: 본문 텍스트 4,927자
+- apartment-management-fee-summer.html: 본문 텍스트 4,762자
+- child-allowance-guide.html: 본문 텍스트 4,904자
+- electricity-bill-saving.html: 본문 텍스트 5,108자
+- emergency-medical-support.html: 본문 텍스트 4,917자
+
+검증
+- 수정 파일 5개
+- 각 파일 3,000자 이상
+- 기존 파일명/URL/디자인/검색/정보센터/계산기/CSS/JS 수정 없음
