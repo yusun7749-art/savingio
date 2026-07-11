@@ -1,0 +1,1508 @@
+{
+  "build": "Savingio MASTER BUILD v6",
+  "fix": "duplicate HTML id cleanup and fragment validation",
+  "html_files_checked": 287,
+  "files_modified": 157,
+  "duplicate_ids_renamed": 222,
+  "remaining_duplicate_id_files": 0,
+  "broken_same_page_fragments": 0,
+  "jsonld_errors": 0,
+  "modified_files": [
+    "articles/ai-side-hustles-beginner.html",
+    "articles/aircon-dry-mode-electricity.html",
+    "articles/aircon-filter-cleaning-savings.html",
+    "articles/aircon-optimal-temperature-savings.html",
+    "articles/bank-account-budgeting.html",
+    "articles/bank-fee-saving.html",
+    "articles/bank-fees-to-avoid.html",
+    "articles/basic-livelihood-discounts.html",
+    "articles/beginner-money-management.html",
+    "articles/benefit-scam-warning-2026.html",
+    "articles/building-land-property-tax.html",
+    "articles/business-card-hometax-registration.html",
+    "articles/business-closure-vat-order.html",
+    "articles/business-phone-expense-deduction.html",
+    "articles/business-vehicle-expense-basics.html",
+    "articles/car-aircon-fuel-saving.html",
+    "articles/car-insurance-child-discount.html",
+    "articles/car-insurance-mileage-refund.html",
+    "articles/car-insurance-overpayment-refund.html",
+    "articles/car-tax-annual-payment.html",
+    "articles/card-points-cashback-guide.html",
+    "articles/cash-advance-vs-card-loan.html",
+    "articles/cash-out-card-points.html",
+    "articles/cashback-apps-guide.html",
+    "articles/check-hidden-refunds.html",
+    "articles/child-tax-credit-status-check.html",
+    "articles/childcare-service-government-support.html",
+    "articles/cma-account-types-risk.html",
+    "articles/credit-card-billing-cycle-guide.html",
+    "articles/credit-score-habits.html",
+    "articles/culture-nuri-card-balance.html",
+    "articles/debit-card-vs-credit-card.html",
+    "articles/dehumidifier-electricity-saving.html",
+    "articles/dormant-deposit-insurance-search.html",
+    "articles/dryer-summer-electricity-saving.html",
+    "articles/duplicate-indemnity-insurance-check.html",
+    "articles/earned-income-credit-account-change.html",
+    "articles/earned-income-credit-payment.html",
+    "articles/earned-income-credit-status-check.html",
+    "articles/earned-income-tax-credit-korea.html",
+    "articles/education-benefit-eligibility.html",
+    "articles/education-expense-vs-benefit.html",
+    "articles/electricity-discount-card-guide.html",
+    "articles/electronic-tax-invoice-penalty.html",
+    "articles/elementary-school-education-support.html",
+    "articles/emergency-welfare-living-support.html",
+    "articles/energy-voucher-2026-application.html",
+    "articles/energy-voucher-application-2026.html",
+    "articles/energy-voucher-application.html",
+    "articles/energy-voucher-balance-check-2026.html",
+    "articles/energy-voucher-balance-use.html",
+    "articles/energy-voucher-documents.html",
+    "articles/energy-voucher-eligibility-2026.html",
+    "articles/energy-voucher-online-application.html",
+    "articles/fan-aircon-combination-saving.html",
+    "articles/fixed-date-online-application.html",
+    "articles/fixed-speed-aircon-saving.html",
+    "articles/four-major-insurance-deduction-guide.html",
+    "articles/general-vat-common-mistakes.html",
+    "articles/government-benefit-alert-2026.html",
+    "articles/government-benefit-alert-setup.html",
+    "articles/government-benefits-warning.html",
+    "articles/government-support-calendar.html",
+    "articles/government24-benefit-check.html",
+    "articles/grocery-saving-tips.html",
+    "articles/health-insurance-refund-guide.html",
+    "articles/heating-bill-saving.html",
+    "articles/hidden-money-search.html",
+    "articles/hidden-refund-check.html",
+    "articles/home-water-leak-self-check.html",
+    "articles/hometax-refund-status.html",
+    "articles/hometax-vat-sales-check.html",
+    "articles/how-to-check-hidden-refunds.html",
+    "articles/how-to-lower-phone-bill.html",
+    "articles/how-to-save-electricity-bill.html",
+    "articles/income-tax-filing-missed-consequences.html",
+    "articles/insurance-auto-pay-discount.html",
+    "articles/insurance-surrender-value-check.html",
+    "articles/internet-bill-discount.html",
+    "articles/inverter-aircon-saving-guide.html",
+    "articles/irs-tax-refund-status.html",
+    "articles/lifelong-education-voucher-application.html",
+    "articles/loan-refinancing-check.html",
+    "articles/local-tax-refund-claim.html",
+    "articles/local-tax-refund-guide.html",
+    "articles/low-income-cooling-support.html",
+    "articles/missing-property-tax-bill.html",
+    "articles/money-saving-habits.html",
+    "articles/national-employment-support-eligibility.html",
+    "articles/national-pension-additional-payment.html",
+    "articles/national-pension-overpayment-refund.html",
+    "articles/national-scholarship-application.html",
+    "articles/national-tax-refund-account.html",
+    "articles/national-tax-refund.html",
+    "articles/near-poverty-certificate.html",
+    "articles/parking-account-rate-comparison.html",
+    "articles/peak-season-hotel-saving.html",
+    "articles/property-tax-bill-checklist-2026.html",
+    "articles/property-tax-calculation-structure.html",
+    "articles/property-tax-deadline.html",
+    "articles/property-tax-electronic-bill-2026.html",
+    "articles/property-tax-installment-application.html",
+    "articles/property-tax-joint-ownership.html",
+    "articles/property-tax-july-2026.html",
+    "articles/property-tax-july-september-difference.html",
+    "articles/property-tax-objection-guide.html",
+    "articles/property-tax-payment-certificate.html",
+    "articles/refrigerator-summer-electricity-saving.html",
+    "articles/rental-car-vacation-saving.html",
+    "articles/revolving-cancellation-payoff.html",
+    "articles/salary-budget-guide.html",
+    "articles/salary-management-guide.html",
+    "articles/salary-slip-check-guide.html",
+    "articles/savings-maturity-auto-renewal.html",
+    "articles/self-employed-income-tax-refund-check.html",
+    "articles/severance-pay-calculation-guide.html",
+    "articles/simple-receipt-expense-rules.html",
+    "articles/simplified-vat-checklist.html",
+    "articles/single-parent-support-benefits.html",
+    "articles/small-business-closure-support.html",
+    "articles/small-business-delivery-support.html",
+    "articles/small-business-electricity-support.html",
+    "articles/small-business-policy-fund-search.html",
+    "articles/small-business-policy-fund.html",
+    "articles/spending-habits-change.html",
+    "articles/student-loan-repayment-guide.html",
+    "articles/subscription-cleanup.html",
+    "articles/subscription-saving.html",
+    "articles/subsidy24-benefit-search.html",
+    "articles/summer-electricity-tier-check-2026.html",
+    "articles/summer-electricity-tier-check.html",
+    "articles/summer-gas-bill-hot-water-saving.html",
+    "articles/summer-vacation-budget-plan.html",
+    "articles/summer-water-bill-spike-check.html",
+    "articles/tax-credit-late-application.html",
+    "articles/tax-invoice-vs-cash-receipt.html",
+    "articles/telecom-discount-guide.html",
+    "articles/telecom-unclaimed-refund.html",
+    "articles/travel-insurance-comparison.html",
+    "articles/unemployment-benefit-checklist.html",
+    "articles/unemployment-benefit-job-search.html",
+    "articles/vat-final-return-2026-july.html",
+    "articles/vat-final-return-july-2026.html",
+    "articles/vat-input-tax-deduction-2026.html",
+    "articles/vat-input-tax-deduction-items.html",
+    "articles/vat-payment-extension-guide.html",
+    "articles/vat-sales-omission-check-2026.html",
+    "articles/vat-zero-sales-filing-2026.html",
+    "articles/vat-zero-sales-filing.html",
+    "articles/water-bill-guide.html",
+    "articles/weekly-holiday-pay-guide.html",
+    "articles/wetax-electronic-billing.html",
+    "articles/wetax-payment-history.html",
+    "articles/yellow-umbrella-mutual-aid-guide.html",
+    "articles/youth-leap-account-contribution.html",
+    "articles/youth-savings-account-maintenance.html",
+    "articles/youth-support-programs.html"
+  ],
+  "renamed_ids": [
+    {
+      "file": "articles/ai-side-hustles-beginner.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/aircon-dry-mode-electricity.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/aircon-filter-cleaning-savings.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/aircon-optimal-temperature-savings.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/bank-account-budgeting.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/bank-fee-saving.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/bank-fees-to-avoid.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/basic-livelihood-discounts.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/beginner-money-management.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/benefit-scam-warning-2026.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/building-land-property-tax.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/business-card-hometax-registration.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/business-closure-vat-order.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/business-phone-expense-deduction.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/business-vehicle-expense-basics.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/car-aircon-fuel-saving.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/car-insurance-child-discount.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/car-insurance-mileage-refund.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/car-insurance-overpayment-refund.html",
+      "old": "s8",
+      "new": "s8--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/car-tax-annual-payment.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/card-points-cashback-guide.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/cash-advance-vs-card-loan.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/cash-out-card-points.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/cashback-apps-guide.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/check-hidden-refunds.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/child-tax-credit-status-check.html",
+      "old": "s1",
+      "new": "s1--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/child-tax-credit-status-check.html",
+      "old": "s2",
+      "new": "s2--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/child-tax-credit-status-check.html",
+      "old": "s3",
+      "new": "s3--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/child-tax-credit-status-check.html",
+      "old": "s4",
+      "new": "s4--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/child-tax-credit-status-check.html",
+      "old": "s5",
+      "new": "s5--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/child-tax-credit-status-check.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/child-tax-credit-status-check.html",
+      "old": "s7",
+      "new": "s7--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/child-tax-credit-status-check.html",
+      "old": "s8",
+      "new": "s8--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/child-tax-credit-status-check.html",
+      "old": "faq",
+      "new": "faq--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/childcare-service-government-support.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/cma-account-types-risk.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/credit-card-billing-cycle-guide.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/credit-score-habits.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/culture-nuri-card-balance.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/debit-card-vs-credit-card.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/dehumidifier-electricity-saving.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/dormant-deposit-insurance-search.html",
+      "old": "s8",
+      "new": "s8--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/dryer-summer-electricity-saving.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/duplicate-indemnity-insurance-check.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/earned-income-credit-account-change.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/earned-income-credit-payment.html",
+      "old": "s1",
+      "new": "s1--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/earned-income-credit-payment.html",
+      "old": "s2",
+      "new": "s2--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/earned-income-credit-payment.html",
+      "old": "s3",
+      "new": "s3--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/earned-income-credit-payment.html",
+      "old": "s4",
+      "new": "s4--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/earned-income-credit-payment.html",
+      "old": "s5",
+      "new": "s5--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/earned-income-credit-payment.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/earned-income-credit-payment.html",
+      "old": "s7",
+      "new": "s7--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/earned-income-credit-payment.html",
+      "old": "s8",
+      "new": "s8--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/earned-income-credit-payment.html",
+      "old": "faq",
+      "new": "faq--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/earned-income-credit-status-check.html",
+      "old": "s1",
+      "new": "s1--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/earned-income-credit-status-check.html",
+      "old": "s2",
+      "new": "s2--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/earned-income-credit-status-check.html",
+      "old": "s3",
+      "new": "s3--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/earned-income-credit-status-check.html",
+      "old": "s4",
+      "new": "s4--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/earned-income-credit-status-check.html",
+      "old": "s5",
+      "new": "s5--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/earned-income-credit-status-check.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/earned-income-credit-status-check.html",
+      "old": "s7",
+      "new": "s7--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/earned-income-credit-status-check.html",
+      "old": "s8",
+      "new": "s8--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/earned-income-credit-status-check.html",
+      "old": "faq",
+      "new": "faq--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/earned-income-tax-credit-korea.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/education-benefit-eligibility.html",
+      "old": "s7",
+      "new": "s7--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/education-expense-vs-benefit.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/electricity-discount-card-guide.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/electronic-tax-invoice-penalty.html",
+      "old": "faq",
+      "new": "faq--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/elementary-school-education-support.html",
+      "old": "s7",
+      "new": "s7--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/emergency-welfare-living-support.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/energy-voucher-2026-application.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/energy-voucher-application-2026.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/energy-voucher-application.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/energy-voucher-balance-check-2026.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/energy-voucher-balance-use.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/energy-voucher-documents.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/energy-voucher-eligibility-2026.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/energy-voucher-online-application.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/fan-aircon-combination-saving.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/fixed-date-online-application.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/fixed-speed-aircon-saving.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/four-major-insurance-deduction-guide.html",
+      "old": "s1",
+      "new": "s1--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/four-major-insurance-deduction-guide.html",
+      "old": "s2",
+      "new": "s2--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/four-major-insurance-deduction-guide.html",
+      "old": "s3",
+      "new": "s3--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/four-major-insurance-deduction-guide.html",
+      "old": "s4",
+      "new": "s4--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/four-major-insurance-deduction-guide.html",
+      "old": "s5",
+      "new": "s5--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/four-major-insurance-deduction-guide.html",
+      "old": "s8",
+      "new": "s8--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/general-vat-common-mistakes.html",
+      "old": "faq",
+      "new": "faq--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/government-benefit-alert-2026.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/government-benefit-alert-setup.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/government-benefits-warning.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/government-support-calendar.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/government24-benefit-check.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/grocery-saving-tips.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/health-insurance-refund-guide.html",
+      "old": "s8",
+      "new": "s8--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/heating-bill-saving.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/hidden-money-search.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/hidden-refund-check.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/home-water-leak-self-check.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/hometax-refund-status.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/hometax-vat-sales-check.html",
+      "old": "faq",
+      "new": "faq--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/how-to-check-hidden-refunds.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/how-to-lower-phone-bill.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/how-to-save-electricity-bill.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/income-tax-filing-missed-consequences.html",
+      "old": "faq",
+      "new": "faq--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/insurance-auto-pay-discount.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/insurance-surrender-value-check.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/internet-bill-discount.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/inverter-aircon-saving-guide.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/irs-tax-refund-status.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/lifelong-education-voucher-application.html",
+      "old": "s7",
+      "new": "s7--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/loan-refinancing-check.html",
+      "old": "s8",
+      "new": "s8--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/local-tax-refund-claim.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/local-tax-refund-guide.html",
+      "old": "s1",
+      "new": "s1--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/local-tax-refund-guide.html",
+      "old": "s2",
+      "new": "s2--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/local-tax-refund-guide.html",
+      "old": "s3",
+      "new": "s3--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/local-tax-refund-guide.html",
+      "old": "s4",
+      "new": "s4--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/local-tax-refund-guide.html",
+      "old": "s5",
+      "new": "s5--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/local-tax-refund-guide.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/local-tax-refund-guide.html",
+      "old": "s7",
+      "new": "s7--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/local-tax-refund-guide.html",
+      "old": "s8",
+      "new": "s8--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/local-tax-refund-guide.html",
+      "old": "faq",
+      "new": "faq--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/low-income-cooling-support.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/missing-property-tax-bill.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/money-saving-habits.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/national-employment-support-eligibility.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/national-pension-additional-payment.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/national-pension-overpayment-refund.html",
+      "old": "s8",
+      "new": "s8--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/national-scholarship-application.html",
+      "old": "s7",
+      "new": "s7--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/national-tax-refund-account.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/national-tax-refund.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/near-poverty-certificate.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/parking-account-rate-comparison.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/peak-season-hotel-saving.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/property-tax-bill-checklist-2026.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/property-tax-calculation-structure.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/property-tax-deadline.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/property-tax-electronic-bill-2026.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/property-tax-installment-application.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/property-tax-joint-ownership.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/property-tax-july-2026.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/property-tax-july-september-difference.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/property-tax-objection-guide.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/property-tax-payment-certificate.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/refrigerator-summer-electricity-saving.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/rental-car-vacation-saving.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/revolving-cancellation-payoff.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/salary-budget-guide.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/salary-management-guide.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/salary-slip-check-guide.html",
+      "old": "s1",
+      "new": "s1--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/salary-slip-check-guide.html",
+      "old": "s2",
+      "new": "s2--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/salary-slip-check-guide.html",
+      "old": "s3",
+      "new": "s3--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/salary-slip-check-guide.html",
+      "old": "s4",
+      "new": "s4--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/salary-slip-check-guide.html",
+      "old": "s5",
+      "new": "s5--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/salary-slip-check-guide.html",
+      "old": "s8",
+      "new": "s8--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/savings-maturity-auto-renewal.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/self-employed-income-tax-refund-check.html",
+      "old": "faq",
+      "new": "faq--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/severance-pay-calculation-guide.html",
+      "old": "s1",
+      "new": "s1--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/severance-pay-calculation-guide.html",
+      "old": "s2",
+      "new": "s2--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/severance-pay-calculation-guide.html",
+      "old": "s3",
+      "new": "s3--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/severance-pay-calculation-guide.html",
+      "old": "s4",
+      "new": "s4--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/severance-pay-calculation-guide.html",
+      "old": "s5",
+      "new": "s5--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/severance-pay-calculation-guide.html",
+      "old": "s8",
+      "new": "s8--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/simple-receipt-expense-rules.html",
+      "old": "faq",
+      "new": "faq--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/simplified-vat-checklist.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/single-parent-support-benefits.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/small-business-closure-support.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/small-business-delivery-support.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/small-business-electricity-support.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/small-business-policy-fund-search.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/small-business-policy-fund.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/spending-habits-change.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/student-loan-repayment-guide.html",
+      "old": "s7",
+      "new": "s7--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/subscription-cleanup.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/subscription-saving.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/subsidy24-benefit-search.html",
+      "old": "s1",
+      "new": "s1--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/subsidy24-benefit-search.html",
+      "old": "s2",
+      "new": "s2--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/subsidy24-benefit-search.html",
+      "old": "s3",
+      "new": "s3--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/subsidy24-benefit-search.html",
+      "old": "s4",
+      "new": "s4--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/subsidy24-benefit-search.html",
+      "old": "s5",
+      "new": "s5--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/subsidy24-benefit-search.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/subsidy24-benefit-search.html",
+      "old": "s7",
+      "new": "s7--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/subsidy24-benefit-search.html",
+      "old": "s8",
+      "new": "s8--2",
+      "tag": "section"
+    },
+    {
+      "file": "articles/subsidy24-benefit-search.html",
+      "old": "faq",
+      "new": "faq--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/summer-electricity-tier-check-2026.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/summer-electricity-tier-check.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/summer-gas-bill-hot-water-saving.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/summer-vacation-budget-plan.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/summer-water-bill-spike-check.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/tax-credit-late-application.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/tax-invoice-vs-cash-receipt.html",
+      "old": "faq",
+      "new": "faq--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/telecom-discount-guide.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/telecom-unclaimed-refund.html",
+      "old": "s8",
+      "new": "s8--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/travel-insurance-comparison.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/unemployment-benefit-checklist.html",
+      "old": "s1",
+      "new": "s1--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/unemployment-benefit-checklist.html",
+      "old": "s2",
+      "new": "s2--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/unemployment-benefit-checklist.html",
+      "old": "s3",
+      "new": "s3--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/unemployment-benefit-checklist.html",
+      "old": "s4",
+      "new": "s4--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/unemployment-benefit-checklist.html",
+      "old": "s5",
+      "new": "s5--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/unemployment-benefit-checklist.html",
+      "old": "s8",
+      "new": "s8--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/unemployment-benefit-job-search.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/vat-final-return-2026-july.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/vat-final-return-july-2026.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/vat-input-tax-deduction-2026.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/vat-input-tax-deduction-items.html",
+      "old": "faq",
+      "new": "faq--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/vat-payment-extension-guide.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/vat-sales-omission-check-2026.html",
+      "old": "faq",
+      "new": "faq--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/vat-zero-sales-filing-2026.html",
+      "old": "faq",
+      "new": "faq--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/vat-zero-sales-filing.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/water-bill-guide.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/weekly-holiday-pay-guide.html",
+      "old": "s1",
+      "new": "s1--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/weekly-holiday-pay-guide.html",
+      "old": "s2",
+      "new": "s2--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/weekly-holiday-pay-guide.html",
+      "old": "s3",
+      "new": "s3--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/weekly-holiday-pay-guide.html",
+      "old": "s4",
+      "new": "s4--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/weekly-holiday-pay-guide.html",
+      "old": "s5",
+      "new": "s5--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/weekly-holiday-pay-guide.html",
+      "old": "s8",
+      "new": "s8--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/wetax-electronic-billing.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/wetax-payment-history.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/youth-leap-account-contribution.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/youth-savings-account-maintenance.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    },
+    {
+      "file": "articles/youth-support-programs.html",
+      "old": "s6",
+      "new": "s6--2",
+      "tag": "h2"
+    }
+  ],
+  "qa_details": {
+    "duplicate_files": [],
+    "fragment_errors": [],
+    "jsonld_errors": []
+  }
+}
