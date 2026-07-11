@@ -1,0 +1,17 @@
+{
+  "html_files": 287,
+  "audited_html_pages": 285,
+  "verification_files": [
+    "google4447f309208060c0.html",
+    "naver6fb8eae061600aa57d340ee168debf7c.html"
+  ],
+  "indexable_urls": 231,
+  "changed_files": 248,
+  "missing_required_meta": [],
+  "broken_local_links": [],
+  "json_ld_errors": [],
+  "duplicate_html_ids": [],
+  "duplicate_indexable_titles": {},
+  "duplicate_indexable_descriptions": {},
+  "status": "PASS"
+}

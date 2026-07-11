@@ -1,0 +1,13 @@
+Savingio FINAL QA
+HTML files: 287
+Audited pages: 285
+Verification files: 2
+Indexable URLs: 231
+Changed files: 248
+Missing meta: 0
+Broken local links: 0
+JSON-LD errors: 0
+Duplicate IDs: 0
+Duplicate indexable titles: 0
+Duplicate indexable descriptions: 0
+STATUS: PASS
