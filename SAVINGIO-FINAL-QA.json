@@ -1,17 +1,25 @@
 {
+  "status": "PASS",
   "html_files": 287,
-  "audited_html_pages": 285,
-  "verification_files": [
-    "google4447f309208060c0.html",
-    "naver6fb8eae061600aa57d340ee168debf7c.html"
-  ],
-  "indexable_urls": 231,
-  "changed_files": 248,
-  "missing_required_meta": [],
-  "broken_local_links": [],
-  "json_ld_errors": [],
-  "duplicate_html_ids": [],
-  "duplicate_indexable_titles": {},
-  "duplicate_indexable_descriptions": {},
-  "status": "PASS"
+  "indexable_pages": 231,
+  "calculator_pages": 12,
+  "article_pages": 215,
+  "issues": {
+    "missing_meta": [],
+    "broken_local_links": [],
+    "json_ld_errors": [],
+    "duplicate_ids": [],
+    "duplicate_titles": {},
+    "duplicate_descriptions": {},
+    "canonical_errors": [],
+    "sitemap_mismatch": {
+      "missing_from_sitemap": [],
+      "extra_in_sitemap": [],
+      "duplicates": 0
+    }
+  },
+  "notes": [
+    "검색엔진 소유권 확인용 HTML 2개는 메타 검사에서 제외했습니다.",
+    "실제 Cloudflare 배포 후 동작과 Google AdSense 승인 여부는 외부 심사이므로 보장할 수 없습니다."
+  ]
 }

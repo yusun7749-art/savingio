@@ -1,13 +1,18 @@
-Savingio FINAL QA
-HTML files: 287
-Audited pages: 285
-Verification files: 2
-Indexable URLs: 231
-Changed files: 248
+Savingio AdSense Ready Final QA
+STATUS: PASS
+HTML: 287
+Indexable pages: 231
+Article pages: 215
+Calculator pages: 12
 Missing meta: 0
 Broken local links: 0
 JSON-LD errors: 0
 Duplicate IDs: 0
-Duplicate indexable titles: 0
-Duplicate indexable descriptions: 0
-STATUS: PASS
+Duplicate titles: 0
+Duplicate descriptions: 0
+Canonical errors: 0
+Sitemap missing: 0
+Sitemap extra: 0
+Sitemap duplicates: 0
+
+주의: 배포 후 실제 사이트 확인과 AdSense 외부 심사는 별도입니다.
