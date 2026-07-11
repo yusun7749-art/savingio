@@ -1,0 +1,14 @@
+{
+  "base": "Savingio-MASTER-BUILD-v2.zip",
+  "html_files": 287,
+  "indexable_articles": 200,
+  "modified_files": [
+    "articles/traffic-fines-difference-guide.html"
+  ],
+  "faq_schema_added": 1,
+  "faq_schema_missing_where_visible_faq": 0,
+  "json_ld_errors": 0,
+  "broken_internal_links": 0,
+  "zip_excludes_git": true,
+  "ignored_dynamic_template_links": 1
+}
