@@ -1,0 +1,16 @@
+Savingio MASTER BUILD QA
+Date: 2026-07-11
+
+Applied fixes:
+- _redirects: removed 14 self loops, 0 duplicate sources; added js/articles redirect
+- js/articles.html: noindex + canonical /articles/
+- _headers: verification files noindex
+- sitemap.xml: regenerated 231 canonical URLs
+
+Validation scope:
+- Cloudflare redirect loops and duplicate sources
+- Sitemap canonical/indexability consistency
+- Search-engine verification file index exclusion
+- Obsolete duplicate listing page exclusion
+
+Note: Live HTTP behavior and AdSense approval remain subject to deployment and Google review.

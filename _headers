@@ -14,3 +14,9 @@
 
 /rss.xml
   Content-Type: application/rss+xml; charset=UTF-8
+
+/google4447f309208060c0.html
+  X-Robots-Tag: noindex, nofollow
+
+/naver6fb8eae061600aa57d340ee168debf7c.html
+  X-Robots-Tag: noindex, nofollow
