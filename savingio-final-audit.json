@@ -1,10 +1,15 @@
 {
-  "status": "PASS",
-  "html_checked": 285,
-  "indexable_pages": 232,
+  "html_files": 287,
+  "indexable_urls": 232,
   "missing_seo": [],
   "broken_internal_links": [],
   "schema_errors": [],
-  "duplicate_indexable_titles": {},
-  "duplicate_indexable_descriptions": {}
+  "duplicate_titles": {},
+  "duplicate_descriptions": {},
+  "root_duplicate_pages_noindexed": [
+    "beginner-ai-side-hustles.html",
+    "health-insurance-refund.html",
+    "local-tax-refund.html",
+    "online-income-ideas-for-beginners.html"
+  ]
 }
