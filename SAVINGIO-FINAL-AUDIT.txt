@@ -1,0 +1,14 @@
+Savingio 최종 수정·검증 결과
+
+- 공식 문의 이메일: info@savingio.com
+- 메인 Hero 문구: 생활 속 돈 문제, 여기서 한 번에 해결하세요
+- sitemap URL 수: 218
+- articles 상세 글 수: 213
+- 텍스트 3,000자 미만 실제 콘텐츠 글 수: 0 (리디렉션 안내 14개 제외)
+- 리디렉션을 제외한 내부 참조 누락 수: 0
+
+변경 파일:
+- contact.html
+- index.html
+- privacy.html
+- sitemap.xml

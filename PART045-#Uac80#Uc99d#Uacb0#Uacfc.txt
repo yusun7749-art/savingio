@@ -1,0 +1,12 @@
+Savingio Part045 실제 수정 검증 결과
+
+수정 파일 수: 5
+
+- gas-bill-checklist.html | 4998자 | 도시가스 요금 절약과 고지서 점검 방법
+- water-bill-saving.html | 4985자 | 수도요금 절약 방법과 누수 확인 순서
+- medical-bill-negotiation.html | 4952자 | 병원비 영수증과 진료비 세부내역 확인 방법
+- health-insurance-overpayment-refund.html | 4868자 | 건강보험료 과오납 환급 신청 방법
+- health-insurance-out-of-pocket-refund.html | 4874자 | 본인부담상한제 환급금 확인 방법
+
+변경 범위: articles 폴더의 위 5개 HTML만
+메인/검색/정보센터/계산기/CSS/JS 변경 없음

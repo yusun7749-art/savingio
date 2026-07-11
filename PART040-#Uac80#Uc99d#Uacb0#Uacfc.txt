@@ -1,0 +1,9 @@
+Savingio Part040 실제 수정 검증
+변경 범위: articles 내 상세 글 5개만
+검색·정보센터·메인·계산기 파일 변경 없음
+
+credit-score-management.html: 본문 3154자 / 관련글 4개 / FAQ 5개
+deposit-protection-limit-guide.html: 본문 3364자 / 관련글 4개 / FAQ 5개
+emergency-fund-guide.html: 본문 3330자 / 관련글 4개 / FAQ 5개
+loan-prepayment-fee-check.html: 본문 3165자 / 관련글 4개 / FAQ 5개
+overdraft-account-guide.html: 본문 3005자 / 관련글 4개 / FAQ 5개

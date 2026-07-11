@@ -1,0 +1,8 @@
+Part042 보강 파일 5개
+monthly-budget-planner.html	8481자	FAQ 5개	관련카드 6개
+bank-account-budgeting.html	9204자	FAQ 5개	관련카드 6개
+automatic-payment-saving.html	8469자	FAQ 5개	관련카드 6개
+impulse-buying-control.html	8328자	FAQ 5개	관련카드 6개
+cancel-unused-subscriptions.html	8222자	FAQ 5개	관련카드 6개
+
+변경 범위: articles 폴더의 위 5개 HTML만

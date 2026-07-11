@@ -1,0 +1,11 @@
+Savingio Part046 검증 결과
+
+수정 파일 수: 5
+- 전세보증금 반환보증 가입 전 체크리스트 | articles/deposit-return-guarantee-checklist.html | 본문 텍스트 3475자
+- 주거급여 신청 자격과 조사 절차 | articles/housing-benefit-eligibility.html | 본문 텍스트 3386자
+- 월세 세액공제 준비서류와 확인 순서 | articles/monthly-rent-tax-credit-documents.html | 본문 텍스트 3266자
+- 전월세 신고제 신고 방법과 준비서류 | articles/rental-contract-reporting-guide.html | 본문 텍스트 3270자
+- 청년 주거급여 분리지급 확인 방법 | articles/youth-housing-benefit-separate-payment.html | 본문 텍스트 3392자
+
+수정 범위: articles 폴더의 위 5개 HTML만
+메인·정보센터·검색·계산기·CSS·JS 변경 없음

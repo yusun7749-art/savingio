@@ -1,0 +1,13 @@
+Part043 실제 수정 파일
+
+- hidden-refund-check.html: 본문 텍스트 6,266자
+- health-insurance-refund.html: 본문 텍스트 6,280자
+- local-tax-refund.html: 본문 텍스트 6,113자
+- national-tax-refund.html: 본문 텍스트 6,136자
+- government24-benefit-check.html: 본문 텍스트 6,239자
+
+검증
+- 수정 파일 5개
+- 각 파일 텍스트 3,000자 이상
+- A001 카드/목차/표/단계/체크리스트/FAQ/관련글 포함
+- 메인, 검색, 정보센터, 계산기, CSS/JS 수정 없음

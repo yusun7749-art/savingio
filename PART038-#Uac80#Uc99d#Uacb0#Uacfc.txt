@@ -1,0 +1,278 @@
+{
+  "total_detail_articles": 213,
+  "changed_to_A001": 176,
+  "already_A001": 37,
+  "failed": [],
+  "A001_after": 213,
+  "under_3000_after": [
+    {
+      "file": "automatic-payment-saving.html",
+      "chars": 2696
+    },
+    {
+      "file": "beginner-budget-plan.html",
+      "chars": 2352
+    },
+    {
+      "file": "budget-app-guide.html",
+      "chars": 2475
+    },
+    {
+      "file": "cancel-unused-subscriptions.html",
+      "chars": 2875
+    },
+    {
+      "file": "deposit-return-guarantee-checklist.html",
+      "chars": 2241
+    },
+    {
+      "file": "grocery-bill-savings.html",
+      "chars": 2813
+    },
+    {
+      "file": "housing-benefit-eligibility.html",
+      "chars": 2238
+    },
+    {
+      "file": "impulse-buying-control.html",
+      "chars": 2626
+    },
+    {
+      "file": "internet-bill-savings.html",
+      "chars": 2892
+    },
+    {
+      "file": "monthly-budget-planner.html",
+      "chars": 2640
+    },
+    {
+      "file": "monthly-rent-tax-credit-documents.html",
+      "chars": 2272
+    },
+    {
+      "file": "rental-contract-reporting-guide.html",
+      "chars": 2231
+    },
+    {
+      "file": "subscription-audit-checklist.html",
+      "chars": 2545
+    },
+    {
+      "file": "youth-housing-benefit-separate-payment.html",
+      "chars": 2212
+    }
+  ]
+}
+
+변경 파일:
+ai-side-hustles-beginner.html
+aircon-dry-mode-electricity.html
+aircon-filter-cleaning-savings.html
+aircon-optimal-temperature-savings.html
+bank-account-budgeting.html
+bank-fee-saving.html
+bank-fees-to-avoid.html
+basic-livelihood-discounts.html
+beginner-ai-side-hustles.html
+beginner-money-management.html
+benefit-scam-warning-2026.html
+building-land-property-tax.html
+business-card-hometax-registration.html
+business-closure-vat-order.html
+business-phone-expense-deduction.html
+business-vehicle-expense-basics.html
+car-aircon-fuel-saving.html
+car-insurance-child-discount.html
+car-insurance-mileage-refund.html
+car-insurance-overpayment-refund.html
+car-tax-annual-payment.html
+card-points-cashback-guide.html
+cash-advance-vs-card-loan.html
+cash-out-card-points.html
+cashback-apps-guide.html
+check-hidden-refunds.html
+child-tax-credit-status-check.html
+childcare-service-government-support.html
+cma-account-types-risk.html
+credit-card-billing-cycle-guide.html
+credit-score-habits.html
+credit-score-management.html
+credit-score-tips.html
+culture-nuri-card-balance.html
+debit-card-vs-credit-card.html
+dehumidifier-electricity-saving.html
+deposit-protection-limit-guide.html
+dormant-deposit-insurance-search.html
+dryer-summer-electricity-saving.html
+duplicate-indemnity-insurance-check.html
+earned-income-credit-account-change.html
+earned-income-credit-payment.html
+earned-income-credit-status-check.html
+earned-income-tax-credit-korea.html
+education-benefit-eligibility.html
+education-expense-vs-benefit.html
+electricity-discount-card-guide.html
+electronic-tax-invoice-penalty.html
+elementary-school-education-support.html
+emergency-fund-guide.html
+emergency-welfare-living-support.html
+energy-voucher-2026-application.html
+energy-voucher-application-2026.html
+energy-voucher-application.html
+energy-voucher-balance-check-2026.html
+energy-voucher-balance-use-2026.html
+energy-voucher-balance-use.html
+energy-voucher-documents.html
+energy-voucher-eligibility-2026.html
+energy-voucher-online-application.html
+fan-aircon-combination-saving.html
+fixed-date-online-application.html
+fixed-speed-aircon-saving.html
+four-major-insurance-deduction-guide.html
+general-vat-common-mistakes.html
+government-benefit-alert-2026.html
+government-benefit-alert-guide-2026.html
+government-benefit-alert-setup.html
+government-benefits-warning.html
+government-support-calendar.html
+government-support-scam-warning-2026.html
+government24-benefit-check.html
+grocery-saving-tips.html
+health-insurance-refund-guide.html
+health-insurance-refund.html
+heating-bill-saving.html
+hidden-money-search.html
+hidden-refund-check.html
+home-water-leak-self-check.html
+hometax-refund-status.html
+hometax-vat-sales-check.html
+how-to-check-hidden-refunds.html
+how-to-lower-phone-bill.html
+how-to-save-electricity-bill.html
+income-tax-filing-missed-consequences.html
+insurance-auto-pay-discount.html
+insurance-surrender-value-check.html
+internet-bill-discount.html
+inverter-aircon-saving-guide.html
+irs-tax-refund-status.html
+lifelong-education-voucher-application.html
+loan-prepayment-fee-check.html
+loan-refinancing-check.html
+local-tax-refund-claim.html
+local-tax-refund-guide.html
+local-tax-refund.html
+low-income-cooling-support.html
+missing-property-tax-bill.html
+money-saving-habits.html
+national-employment-support-eligibility.html
+national-pension-additional-payment.html
+national-pension-overpayment-refund.html
+national-scholarship-application.html
+national-tax-refund-account.html
+national-tax-refund.html
+near-poverty-certificate.html
+online-income-ideas-for-beginners.html
+overdraft-account-guide.html
+parking-account-rate-comparison.html
+peak-season-hotel-saving.html
+property-tax-bill-checklist-2026.html
+property-tax-calculation-structure.html
+property-tax-deadline.html
+property-tax-electronic-bill-2026.html
+property-tax-electronic-notice-2026.html
+property-tax-installment-application.html
+property-tax-joint-ownership.html
+property-tax-july-2026.html
+property-tax-july-checklist-2026.html
+property-tax-july-september-difference.html
+property-tax-objection-guide.html
+property-tax-payment-certificate.html
+reduce-electricity-bill.html
+refrigerator-summer-electricity-saving.html
+rental-car-vacation-saving.html
+revolving-cancellation-payoff.html
+salary-budget-guide.html
+salary-management-guide.html
+salary-slip-check-guide.html
+savings-maturity-auto-renewal.html
+self-employed-income-tax-refund-check.html
+severance-pay-calculation-guide.html
+simple-receipt-expense-rules.html
+simplified-vat-checklist.html
+single-parent-support-benefits.html
+small-business-closure-support.html
+small-business-delivery-support.html
+small-business-electricity-support.html
+small-business-policy-fund-search.html
+small-business-policy-fund.html
+spending-habits-change.html
+student-loan-repayment-guide.html
+subscription-cleanup.html
+subscription-saving.html
+subsidy24-benefit-search.html
+summer-electricity-tier-check-2026.html
+summer-electricity-tier-check.html
+summer-electricity-usage-check-2026.html
+summer-gas-bill-hot-water-saving.html
+summer-vacation-budget-plan.html
+summer-water-bill-spike-check.html
+tax-credit-late-application.html
+tax-invoice-vs-cash-receipt.html
+telecom-discount-guide.html
+telecom-unclaimed-refund.html
+travel-insurance-comparison.html
+unemployment-benefit-checklist.html
+unemployment-benefit-job-search.html
+vat-final-return-2026-july.html
+vat-final-return-deadline-2026.html
+vat-final-return-july-2026.html
+vat-input-tax-deduction-2026.html
+vat-input-tax-deduction-guide-2026.html
+vat-input-tax-deduction-items.html
+vat-payment-extension-guide.html
+vat-sales-omission-check-2026.html
+vat-zero-sales-filing-2026.html
+vat-zero-sales-filing.html
+water-bill-guide.html
+weekly-holiday-pay-guide.html
+wetax-electronic-billing.html
+wetax-payment-history.html
+yellow-umbrella-mutual-aid-guide.html
+youth-leap-account-contribution.html
+youth-savings-account-maintenance.html
+youth-support-programs.html
+
+3,000자 보강 파일:
+automatic-payment-saving.html
+beginner-budget-plan.html
+budget-app-guide.html
+cancel-unused-subscriptions.html
+grocery-bill-savings.html
+impulse-buying-control.html
+internet-bill-savings.html
+monthly-budget-planner.html
+subscription-audit-checklist.html
+
+3,000자 미만 잔여:
+[
+  [
+    "deposit-return-guarantee-checklist.html",
+    2241
+  ],
+  [
+    "housing-benefit-eligibility.html",
+    2238
+  ],
+  [
+    "monthly-rent-tax-credit-documents.html",
+    2272
+  ],
+  [
+    "rental-contract-reporting-guide.html",
+    2231
+  ],
+  [
+    "youth-housing-benefit-separate-payment.html",
+    2212
+  ]
+]
