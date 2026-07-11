@@ -1,0 +1,11 @@
+{
+  "html_pages": 273,
+  "indexable_articles": 200,
+  "articles_under_3000_chars": [],
+  "sitemap_urls": 220,
+  "missing_internal_links": [],
+  "missing_internal_link_count": 0,
+  "old_email_occurrences": [],
+  "brand_homepage": true,
+  "contact_mailto": true
+}
