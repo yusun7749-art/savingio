@@ -1,0 +1,50 @@
+{
+  "generated": "2026-07-11",
+  "html_files": 287,
+  "indexable_urls": 234,
+  "changed_html": 285,
+  "missing_seo": [
+    "/google4447f309208060c0.html",
+    "/naver6fb8eae061600aa57d340ee168debf7c.html"
+  ],
+  "broken_internal_links": [],
+  "empty_links": [],
+  "schema_errors": [],
+  "duplicate_titles": {
+    "beginner ai side hustles | 세이빙이오(Savingio)": [
+      "/beginner-ai-side-hustles.html",
+      "/articles/beginner-ai-side-hustles.html"
+    ],
+    "health insurance refund | 세이빙이오(Savingio)": [
+      "/health-insurance-refund.html",
+      "/articles/health-insurance-refund.html"
+    ],
+    "local tax refund | 세이빙이오(Savingio)": [
+      "/local-tax-refund.html",
+      "/articles/local-tax-refund.html"
+    ],
+    "online income ideas for beginners | 세이빙이오(Savingio)": [
+      "/online-income-ideas-for-beginners.html",
+      "/articles/online-income-ideas-for-beginners.html"
+    ]
+  },
+  "duplicate_descriptions": {
+    "beginner ai side hustles에 필요한 핵심 정보와 확인 순서를 세이빙이오에서 정리했습니다.": [
+      "/beginner-ai-side-hustles.html",
+      "/articles/beginner-ai-side-hustles.html"
+    ],
+    "health insurance refund에 필요한 핵심 정보와 확인 순서를 세이빙이오에서 정리했습니다.": [
+      "/health-insurance-refund.html",
+      "/articles/health-insurance-refund.html"
+    ],
+    "local tax refund에 필요한 핵심 정보와 확인 순서를 세이빙이오에서 정리했습니다.": [
+      "/local-tax-refund.html",
+      "/articles/local-tax-refund.html"
+    ],
+    "online income ideas for beginners에 필요한 핵심 정보와 확인 순서를 세이빙이오에서 정리했습니다.": [
+      "/online-income-ideas-for-beginners.html",
+      "/articles/online-income-ideas-for-beginners.html"
+    ]
+  },
+  "removed_generic_quality_sections": true
+}
