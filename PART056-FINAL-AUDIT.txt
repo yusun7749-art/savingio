@@ -1,0 +1,45 @@
+Savingio Part056 애드센스 최종 전수검수 보고서
+==================================================
+검수일: 2026-07-11T08:31:48.201696+00:00
+html_total: 273
+indexable_pages: 221
+missing_title: 0
+missing_description: 0
+missing_canonical: 0
+missing_h1: 52
+missing_viewport: 0
+images_missing_alt: 0
+article_pages: 214
+article_under_3000_chars: 14
+jsonld_parse_errors: 0
+sitemap URLs: 220
+broken internal links: 0
+changed files: 273
+removed deployment-only files: 44
+
+[3,000자 미만 상세 글]
+- beginner-ai-side-hustles.html: 46자
+- credit-score-tips.html: 46자
+- energy-voucher-balance-use-2026.html: 46자
+- government-benefit-alert-guide-2026.html: 46자
+- government-support-scam-warning-2026.html: 46자
+- health-insurance-refund.html: 46자
+- local-tax-refund.html: 46자
+- online-income-ideas-for-beginners.html: 46자
+- property-tax-electronic-notice-2026.html: 46자
+- property-tax-july-checklist-2026.html: 46자
+- reduce-electricity-bill.html: 46자
+- summer-electricity-usage-check-2026.html: 46자
+- vat-final-return-deadline-2026.html: 46자
+- vat-input-tax-deduction-guide-2026.html: 46자
+
+[수정 요약]
+- 세이빙이오(Savingio) 브랜드 중복 표기 정리
+- 문의 이메일 info@savingio.com 통일 및 mailto 연결
+- title/description/canonical/Open Graph/Twitter 메타 보완
+- 홈페이지 Organization/WebSite/SearchAction 구조화 데이터 정리
+- 이미지 alt/loading/decoding 보완
+- 외부 새창 링크 보안 속성 보완
+- sitemap.xml, robots.txt, rss.xml 재생성
+- 배포 불필요 BAT/PowerShell/과거 Part 보고서 제거
+- 내부 링크 전수 검사
