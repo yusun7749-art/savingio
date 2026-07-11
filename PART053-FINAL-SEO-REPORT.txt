@@ -1,0 +1,8 @@
+Savingio Part053 FINAL SEO
+
+- rss.xml 생성: RSS 2.0 / 최신 글 50개
+- RSS self link: https://savingio.com/rss.xml
+- 핵심 페이지에 RSS autodiscovery 링크 추가
+- robots.txt 확인: User-agent 전체 허용 + sitemap 연결
+- sitemap.xml 유지
+- 기존 메인/검색/계산기/상세 글 내용 미변경
