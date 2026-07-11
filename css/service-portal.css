@@ -66,3 +66,14 @@
 .portal-result span{display:block;color:var(--portal-muted);font-size:12px;margin-top:3px}
 @media(max-width:1040px){.portal-actions{grid-template-columns:repeat(3,1fr)}.portal-workspace{grid-template-columns:1fr}.portal-side{position:static;grid-template-columns:1fr 1fr}}
 @media(max-width:700px){.portal-shell{padding:18px 14px 60px}.portal-hero-top{flex-direction:column}.portal-status{width:100%}.portal-actions{grid-template-columns:1fr 1fr}.portal-row{grid-template-columns:1fr}.portal-row .go{justify-self:start}.portal-side{grid-template-columns:1fr}.portal-search{grid-template-columns:1fr}.portal-search button{padding:13px}}
+
+
+/* Part054: popular information cards */
+.portal-popular-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.portal-popular-card{display:flex;flex-direction:column;gap:7px;min-height:142px;padding:20px;border:1px solid var(--portal-line);border-radius:18px;background:#fff;box-shadow:var(--portal-shadow);color:var(--portal-ink);text-decoration:none;transition:.18s ease}
+.portal-popular-card:hover{transform:translateY(-2px);border-color:#9db9ff;box-shadow:0 14px 34px rgba(17,24,39,.09)}
+.portal-popular-card em{align-self:flex-start;font-style:normal;font-size:12px;font-weight:800;color:#1457c9;background:#edf3ff;border-radius:999px;padding:5px 9px}
+.portal-popular-card strong{font-size:17px;letter-spacing:-.3px}
+.portal-popular-card span{color:var(--portal-muted);font-size:13px;line-height:1.55}
+@media(max-width:900px){.portal-popular-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.portal-popular-grid{grid-template-columns:1fr}}
