@@ -1,0 +1,7 @@
+Savingio Sprint 2 Fix #003
+Articles checked: 215
+Article schema added: 15
+Breadcrumb schema added: 1
+FAQ schema added: 0
+Organization schema added: 0
+WebSite schema added: 0
