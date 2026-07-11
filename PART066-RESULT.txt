@@ -1,0 +1,4 @@
+Part066 canonical redirect cleanup
+- Converted 14 thin HTML redirect pages to Cloudflare 301 redirects
+- Removed duplicate redirect HTML files
+- Replaced internal alias links with canonical URLs

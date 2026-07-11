@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://savingio.com/</loc></url>
-<url><loc>https://savingio.com/articles/</loc></url>
-<url><loc>https://savingio.com/calculators/</loc></url>
-<url><loc>https://savingio.com/calculators/salary.html</loc></url>
-<url><loc>https://savingio.com/calculators/weekly-pay.html</loc></url>
-<url><loc>https://savingio.com/calculators/severance.html</loc></url>
-<url><loc>https://savingio.com/calculators/annual-leave.html</loc></url>
-<url><loc>https://savingio.com/calculators/vat.html</loc></url>
-<url><loc>https://savingio.com/calculators/loan.html</loc></url>
+  <url><loc>https://savingio.com/</loc></url>
+  <url><loc>https://savingio.com/articles/</loc></url>
+  <url><loc>https://savingio.com/calculators/</loc></url>
+  <url><loc>https://savingio.com/calculators/salary.html</loc></url>
+  <url><loc>https://savingio.com/calculators/weekly-pay.html</loc></url>
+  <url><loc>https://savingio.com/calculators/severance.html</loc></url>
+  <url><loc>https://savingio.com/calculators/annual-leave.html</loc></url>
+  <url><loc>https://savingio.com/calculators/vat.html</loc></url>
+  <url><loc>https://savingio.com/calculators/loan.html</loc></url>
 </urlset>

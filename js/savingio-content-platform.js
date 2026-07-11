@@ -37,7 +37,7 @@
   const relatedMap = {
     'percentage.html': [
       ['할인율 계산이 필요한 순간 6가지','/articles/impulse-buying-control.html'],
-      ['부가세 포함·별도 금액 이해하기','/articles/vat-input-tax-deduction-guide-2026.html'],
+      ['부가세 포함·별도 금액 이해하기','/articles/vat-input-tax-deduction-2026.html'],
       ['카드 포인트와 캐시백 활용법','/articles/card-points-cashback-guide.html']
     ],
     'salary.html': [
@@ -62,11 +62,11 @@
     ],
     'vat.html': [
       ['부가가치세 신고 전 매출 누락 확인 방법','/articles/vat-sales-omission-check-2026.html'],
-      ['매입세액 공제와 불공제 항목','/articles/vat-input-tax-deduction-guide-2026.html'],
+      ['매입세액 공제와 불공제 항목','/articles/vat-input-tax-deduction-2026.html'],
       ['부가가치세 무실적 신고 방법','/articles/vat-zero-sales-filing-2026.html']
     ],
     'loan.html': [
-      ['신용점수 관리 방법','/articles/credit-score-tips.html'],
+      ['신용점수 관리 방법','/articles/credit-score-management.html'],
       ['리볼빙 해지와 잔액 상환 방법','/articles/revolving-cancellation-payoff.html'],
       ['대출 중도상환수수료 확인 방법','/articles/loan-prepayment-fee-check.html']
     ]
