@@ -1,2 +1,1 @@
-# Google AdSense 승인 후 계정의 pub-ID로 아래 형식의 한 줄을 교체하세요.
-# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+google.com, pub-1993439759222559, DIRECT, f08c47fec0942fa0
