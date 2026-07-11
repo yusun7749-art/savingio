@@ -1,9 +1,19 @@
 Savingio AdSense Ready Final QA
 
-Status: PASS
-HTML files: 287
-Indexable URLs: 231
-Changed HTML files: 206
-
-외부 사이트 응답과 배포 후 브라우저 동작은 Cloudflare 배포 후 최종 확인이 필요합니다.
-애드센스 승인은 Google 심사 결과이며 승인 자체를 보장하지 않습니다.
+source: savingio-live(9).zip
+html_files: 286
+indexable_pages: 230
+noindex_or_verification_pages: 56
+sitemap_urls: 230
+missing_required_meta: {'title': 0, 'description': 0, 'canonical': 0, 'lang': 0, 'viewport': 0}
+broken_internal_assets_or_links: 0
+json_ld_errors: 0
+duplicate_html_id_pages: 0
+duplicate_indexable_titles: 0
+duplicate_indexable_descriptions: 0
+redirect_rules: 56
+redirect_errors: 0
+removed_development_artifacts: True
+zip_integrity: PASS
+result: PASS
+zip_entries: 307
