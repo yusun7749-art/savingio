@@ -1,27 +1,63 @@
 (() => {
   if (document.querySelector('[data-site-explorer]') || document.querySelector('.sv-brain-sidebar')) return;
+
+  const NAV_TREE = {"생활비":{"공과금":[{"label":"전기요금 계산기","url":"/calculators/electricity.html","type":"calculator"},{"label":"전기요금 절약","url":"/articles/electricity-bill-saving.html","type":"article"},{"label":"에어컨 전기요금","url":"/articles/air-conditioner-electricity-saving.html","type":"article"},{"label":"수도요금 절약","url":"/articles/water-bill-saving.html","type":"article"},{"label":"난방비 절약","url":"/articles/heating-bill-saving.html","type":"article"}],"통신·구독":[{"label":"통신비 절약","url":"/articles/phone-bill-saving.html","type":"article"},{"label":"인터넷 요금 할인","url":"/articles/internet-bill-discount.html","type":"article"},{"label":"구독서비스 정리","url":"/articles/cancel-unused-subscriptions.html","type":"article"}],"생활비 관리":[{"label":"월 예산 세우기","url":"/articles/monthly-budget-planner.html","type":"article"},{"label":"식비 절약","url":"/articles/grocery-saving-tips.html","type":"article"},{"label":"생활비 전체 보기","url":"/categories/living-bills.html","type":"category"}]},"직장인":{"급여":[{"label":"실수령액 계산기","url":"/calculators/salary.html","type":"calculator"},{"label":"급여 실수령액 이해","url":"/articles/salary-take-home-easy-calculator-guide.html","type":"article"},{"label":"주휴수당 계산기","url":"/calculators/weekly-pay.html","type":"calculator"},{"label":"시급 계산기","url":"/calculators/hourly.html","type":"calculator"}],"퇴직·연차":[{"label":"퇴직금 계산기","url":"/calculators/severance.html","type":"calculator"},{"label":"퇴직금 확인 가이드","url":"/articles/severance-pay-easy-calculator-guide.html","type":"article"},{"label":"연차 계산기","url":"/calculators/annual-leave.html","type":"calculator"},{"label":"직장인 정보 전체 보기","url":"/categories/work-salary.html","type":"category"}],"프리랜서":[{"label":"3.3%·초과수당 계산","url":"/calculators/percentage.html","type":"calculator"},{"label":"부가세 계산기","url":"/calculators/vat.html","type":"calculator"}]},"세금·환급":{"세금 계산":[{"label":"부가세 계산기","url":"/calculators/vat.html","type":"calculator"},{"label":"원가율 계산기","url":"/calculators/cost-rate.html","type":"calculator"},{"label":"마진율 계산기","url":"/calculators/margin.html","type":"calculator"}],"환급 찾기":[{"label":"국세 환급금","url":"/articles/national-tax-refund.html","type":"article"},{"label":"지방세 환급","url":"/articles/local-tax-refund.html","type":"article"},{"label":"건강보험 환급","url":"/articles/health-insurance-refund.html","type":"article"},{"label":"숨은 환급금 찾기","url":"/articles/hidden-refund-check.html","type":"article"},{"label":"세금·환급 전체 보기","url":"/categories/tax-refund.html","type":"category"}]},"지원금":{"가구·생활":[{"label":"정부24 혜택 확인","url":"/articles/government24-benefit-check.html","type":"article"},{"label":"에너지바우처","url":"/articles/energy-voucher-application.html","type":"article"},{"label":"근로장려금","url":"/articles/earned-income-tax-credit-korea.html","type":"article"}],"청년·가족":[{"label":"청년 지원사업","url":"/articles/youth-support-programs.html","type":"article"},{"label":"지원금 전체 보기","url":"/categories/government-support.html","type":"category"}]},"금융·신용":{"대출·이자":[{"label":"대출 상환 계산기","url":"/calculators/loan.html","type":"calculator"},{"label":"예산 관리 시작","url":"/articles/beginner-money-management.html","type":"article"}],"신용·카드":[{"label":"신용점수 관리","url":"/articles/credit-score-habits.html","type":"article"},{"label":"체크카드와 신용카드","url":"/articles/debit-card-vs-credit-card.html","type":"article"},{"label":"카드포인트 현금화","url":"/articles/cash-out-card-points.html","type":"article"},{"label":"금융·신용 전체 보기","url":"/categories/finance-credit.html","type":"category"}]},"주거·자동차":{"주거":[{"label":"아파트 관리비","url":"/articles/apartment-management-fee-summer.html","type":"article"},{"label":"주거 정보 전체 보기","url":"/categories/housing.html","type":"category"}],"자동차":[{"label":"연비 계산기","url":"/calculators/fuel-efficiency.html","type":"calculator"},{"label":"자동차세 연납","url":"/articles/car-tax-annual-payment.html","type":"article"},{"label":"자동차 정보 전체 보기","url":"/categories/car-transport.html","type":"category"}]},"건강·생활도구":{"건강":[{"label":"BMI 계산기","url":"/calculators/bmi.html","type":"calculator"},{"label":"배란일 계산기","url":"/calculators/ovulation.html","type":"calculator"}],"간편 계산":[{"label":"디데이 계산기","url":"/calculators/dday.html","type":"calculator"},{"label":"단위 변환","url":"/calculators/unit-converter.html","type":"calculator"},{"label":"할인가 계산기","url":"/calculators/discount.html","type":"calculator"},{"label":"환율 계산기","url":"/calculators/exchange-rate.html","type":"calculator"},{"label":"계산기 전체 보기","url":"/calculators/","type":"category"}]}};
   const current = location.pathname.replace(/\/$/, '') || '/';
   const sidebar = document.createElement('aside');
   sidebar.className = 'sv-brain-sidebar';
   sidebar.setAttribute('aria-label','Savingio 주제 탐색');
-  sidebar.innerHTML = `<div class="sv-brain-head"><div><strong>주제 탐색</strong><small>검색어를 몰라도 직접 찾아보세요</small></div><button class="sv-brain-close" type="button" aria-label="주제 탐색 닫기">×</button></div><nav class="sv-brain-tree" aria-label="대분류 중분류 소분류"><div class="sv-brain-error">목차를 불러오는 중입니다.</div></nav>`;
-  const backdrop = document.createElement('div'); backdrop.className='sv-brain-backdrop';
-  document.body.prepend(backdrop); document.body.prepend(sidebar); document.body.classList.add('sv-brain-enabled');
+  sidebar.innerHTML = `<div class="sv-brain-head"><div><strong>주제 탐색</strong><small>검색어를 몰라도 직접 찾아보세요</small></div><button class="sv-brain-close" type="button" aria-label="주제 탐색 닫기">×</button></div><nav class="sv-brain-tree" aria-label="대분류 중분류 소분류"></nav>`;
+
+  const backdrop = document.createElement('div');
+  backdrop.className='sv-brain-backdrop';
+  document.body.prepend(backdrop);
+  document.body.prepend(sidebar);
+  document.body.classList.add('sv-brain-enabled');
+
   const nav = document.querySelector('header .nav, header nav, header');
   if (nav) {
-    const button=document.createElement('button'); button.type='button'; button.className='sv-brain-toggle'; button.innerHTML='☰ <span>주제 탐색</span>'; button.setAttribute('aria-expanded','false');
-    const links=nav.querySelector('.navlinks'); nav.insertBefore(button, links || nav.lastChild);
+    const button=document.createElement('button');
+    button.type='button';
+    button.className='sv-brain-toggle';
+    button.innerHTML='☰ <span>주제 탐색</span>';
+    button.setAttribute('aria-expanded','false');
+    const links=nav.querySelector('.navlinks');
+    nav.insertBefore(button, links || nav.lastChild);
     button.addEventListener('click',()=>toggle(true));
   }
-  function toggle(open){document.body.classList.toggle('sv-brain-open',open);const b=document.querySelector('.sv-brain-toggle');if(b)b.setAttribute('aria-expanded',String(open));}
-  sidebar.querySelector('.sv-brain-close').addEventListener('click',()=>toggle(false)); backdrop.addEventListener('click',()=>toggle(false));
-  document.addEventListener('keydown',e=>{if(e.key==='Escape')toggle(false)});
-  fetch('/data/brain-navigation.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error();return r.json()}).then(tree=>{
+
+  function toggle(open){
+    document.body.classList.toggle('sv-brain-open',open);
+    const b=document.querySelector('.sv-brain-toggle');
+    if(b)b.setAttribute('aria-expanded',String(open));
+  }
+
+  function normalize(url) {
+    try {
+      const parsed = new URL(url, location.href);
+      return parsed.pathname.replace(/\/$/, '') || '/';
+    } catch (_) {
+      return String(url || '').replace(/\/$/, '') || '/';
+    }
+  }
+
+  function render(tree) {
     const html=Object.entries(tree).map(([major,middles],idx)=>{
-      const hasCurrent=Object.values(middles).flat().some(item=>(item.url.replace(/\/$/,'')||'/')===current);
-      return `<details class="sv-brain-major" ${(hasCurrent||idx===0)?'open':''}><summary>${major}</summary>${Object.entries(middles).map(([middle,items])=>`<div class="sv-brain-middle"><span class="sv-brain-middle-title">${middle}</span><ul class="sv-brain-list">${items.map(item=>{const u=item.url.replace(/\/$/,'')||'/';const icon=item.type==='calculator'?'계':item.type==='category'?'분':'글';return `<li><a href="${item.url}" data-kind="${item.type||'article'}" ${u===current?'aria-current="page"':''}><span class="sv-brain-kind">${icon}</span><span>${item.label}</span></a></li>`}).join('')}</ul></div>`).join('')}</details>`
+      const allItems = Object.values(middles).flat();
+      const hasCurrent=allItems.some(item=>normalize(item.url)===current);
+      return `<details class="sv-brain-major" ${(hasCurrent||idx===0)?'open':''}><summary>${major}</summary>${Object.entries(middles).map(([middle,items])=>`<div class="sv-brain-middle"><span class="sv-brain-middle-title">${middle}</span><ul class="sv-brain-list">${items.map(item=>{
+        const active=normalize(item.url)===current;
+        const icon=item.type==='calculator'?'계':item.type==='category'?'분':'글';
+        return `<li><a href="${item.url}" data-kind="${item.type||'article'}" ${active?'aria-current="page"':''}><span class="sv-brain-kind">${icon}</span><span>${item.label}</span></a></li>`;
+      }).join('')}</ul></div>`).join('')}</details>`;
     }).join('');
     sidebar.querySelector('.sv-brain-tree').innerHTML=html;
-    const active=sidebar.querySelector('[aria-current="page"]'); if(active) active.scrollIntoView({block:'center'});
-  }).catch(()=>{sidebar.querySelector('.sv-brain-tree').innerHTML='<p class="sv-brain-error">주제 탐색을 불러오지 못했습니다.</p>'});
+    const active=sidebar.querySelector('[aria-current="page"]');
+    if(active) active.scrollIntoView({block:'center'});
+  }
+
+  sidebar.querySelector('.sv-brain-close').addEventListener('click',()=>toggle(false));
+  backdrop.addEventListener('click',()=>toggle(false));
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')toggle(false)});
+  render(NAV_TREE);
 })();
