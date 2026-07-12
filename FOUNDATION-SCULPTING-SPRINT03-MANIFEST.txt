@@ -1,0 +1,8 @@
+Savingio Foundation Sculpting Sprint 03
+- Article DNA V2.2
+- HTML template separated from content
+- JSON schema contract added
+- Type-specific QA enforced
+- Quick-answer depth and deep-information checks added
+- Table consistency checks added
+- Existing full article library not modified

@@ -1,0 +1,26 @@
+Savingio Foundation Sculpting Sprint 02
+
+Purpose: Article DNA only. Existing full article library was not rewritten.
+
+Added/strengthened:
+- Six article-type branches
+- Search-intent and reader-state inputs
+- Explicit next-question curiosity chain
+- Decision-point density checks
+- FAQ and curiosity-question duplicate QA
+- Cross-article intro duplicate QA
+- Internal-link existence QA
+- Active Site Explorer path
+- Approval checklist and automation contract
+
+Primary files:
+- ARTICLE-DNA-V2.1-SPEC.md
+- ARTICLE-AUTOMATION-CONTRACT-V2.1.md
+- ARTICLE-ENGINE-V2-APPROVAL-CHECKLIST.md
+- data/article-type-rules.json
+- data/article-configs-v2.json
+- data/site-navigation-v2.json
+- tools/build-articles-v2.py
+- tools/test-article-dna-v2.py
+- ARTICLE-ENGINE-V2-QA.json
+- ARTICLE-DNA-V2.1-TEST.json

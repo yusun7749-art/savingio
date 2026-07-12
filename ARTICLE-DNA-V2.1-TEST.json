@@ -1,0 +1,14 @@
+{
+  "version": "2.2",
+  "status": "PASS",
+  "registered_article_types": [
+    "application",
+    "calculator",
+    "comparison",
+    "health_safety",
+    "savings",
+    "troubleshooting"
+  ],
+  "sample_count": 3,
+  "errors": []
+}

@@ -1,0 +1,142 @@
+{
+  "calculator": {
+    "label": "계산·결과형",
+    "required_blocks": [
+      "calculator",
+      "result_interpretation",
+      "cases",
+      "actions",
+      "official"
+    ],
+    "flow": [
+      "문제 인식",
+      "3초 답",
+      "입력 준비",
+      "계산",
+      "결과 해석",
+      "상황별 차이",
+      "실제 행동",
+      "공식 확인",
+      "다음 계산"
+    ],
+    "qa": {
+      "min_cases": 4,
+      "min_actions": 4,
+      "min_decision_points": 3
+    }
+  },
+  "application": {
+    "label": "자격·신청형",
+    "required_blocks": [
+      "eligibility",
+      "documents",
+      "steps",
+      "deadline",
+      "official"
+    ],
+    "flow": [
+      "내가 대상인지",
+      "핵심 자격",
+      "준비서류",
+      "신청 순서",
+      "탈락·보완 사유",
+      "공식 확인",
+      "다음 지원"
+    ],
+    "qa": {
+      "min_cases": 3,
+      "min_actions": 5,
+      "min_decision_points": 3
+    }
+  },
+  "savings": {
+    "label": "절약·실천형",
+    "required_blocks": [
+      "baseline",
+      "priority_actions",
+      "estimated_effect",
+      "checklist"
+    ],
+    "flow": [
+      "지출 원인",
+      "바로 줄일 항목",
+      "효과 비교",
+      "상황별 실천",
+      "점검표",
+      "다음 절약"
+    ],
+    "qa": {
+      "min_cases": 3,
+      "min_actions": 5,
+      "min_decision_points": 3
+    }
+  },
+  "comparison": {
+    "label": "비교·선택형",
+    "required_blocks": [
+      "criteria",
+      "comparison_table",
+      "recommendation_by_case",
+      "risks"
+    ],
+    "flow": [
+      "선택 고민",
+      "판단 기준",
+      "표 비교",
+      "상황별 추천",
+      "주의점",
+      "다음 선택"
+    ],
+    "qa": {
+      "min_cases": 4,
+      "min_actions": 3,
+      "min_decision_points": 4
+    }
+  },
+  "troubleshooting": {
+    "label": "문제 해결형",
+    "required_blocks": [
+      "symptom",
+      "causes",
+      "diagnosis_steps",
+      "fix_steps",
+      "escalation"
+    ],
+    "flow": [
+      "문제 증상",
+      "가능 원인",
+      "자가 확인",
+      "해결 순서",
+      "전문기관 문의",
+      "재발 방지"
+    ],
+    "qa": {
+      "min_cases": 3,
+      "min_actions": 5,
+      "min_decision_points": 3
+    }
+  },
+  "health_safety": {
+    "label": "건강·안전 안내형",
+    "required_blocks": [
+      "risk_signs",
+      "self_check",
+      "safe_actions",
+      "when_to_seek_help",
+      "official"
+    ],
+    "flow": [
+      "현재 걱정",
+      "위험 신호",
+      "안전한 확인",
+      "즉시 행동",
+      "전문가 도움",
+      "다음 예방"
+    ],
+    "qa": {
+      "min_cases": 3,
+      "min_actions": 4,
+      "min_decision_points": 3
+    }
+  }
+}
