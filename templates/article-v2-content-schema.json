@@ -1,0 +1,21 @@
+{
+  "slug": "required",
+  "category": "required",
+  "title": "required",
+  "description": "required",
+  "calculator": "required",
+  "calculator_name": "required",
+  "calculator_cta": "required",
+  "summary": "minimum 4 [title, text]",
+  "quick": "required",
+  "sections": "minimum 6 [heading, body]",
+  "cases": "minimum 4 [title, text]",
+  "table": "header row + body rows",
+  "checklist": "minimum 7",
+  "faq": "minimum 5 [question, answer]",
+  "actions": "minimum 3",
+  "related_calcs": "minimum 2 [title, description, url]",
+  "related_articles": "minimum 2 [title, description, url]",
+  "notice": "required",
+  "official": "minimum 1 [name, url]"
+}

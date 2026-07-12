@@ -1,23 +1,32 @@
 [
   {
     "slug": "severance-pay-easy-calculator-guide",
-    "visible_chars_no_space": 2916,
-    "h2": 14,
+    "visible_chars_no_space": 3276,
+    "h2": 15,
     "faq": 5,
-    "toc_horizontal": true
+    "horizontal_toc": true,
+    "site_explorer": true,
+    "curiosity_bridges": 5,
+    "errors": []
   },
   {
     "slug": "salary-take-home-easy-calculator-guide",
-    "visible_chars_no_space": 2651,
-    "h2": 14,
+    "visible_chars_no_space": 3008,
+    "h2": 15,
     "faq": 5,
-    "toc_horizontal": true
+    "horizontal_toc": true,
+    "site_explorer": true,
+    "curiosity_bridges": 5,
+    "errors": []
   },
   {
     "slug": "electricity-bill-easy-calculator-guide",
-    "visible_chars_no_space": 2670,
-    "h2": 14,
+    "visible_chars_no_space": 3029,
+    "h2": 15,
     "faq": 5,
-    "toc_horizontal": true
+    "horizontal_toc": true,
+    "site_explorer": true,
+    "curiosity_bridges": 5,
+    "errors": []
   }
 ]

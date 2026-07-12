@@ -1,0 +1,55 @@
+{
+  "직장·급여": {
+    "급여": [
+      ["급여 실수령액", "/calculators/salary.html"],
+      ["급여명세서 읽기", "/articles/salary-slip-check-guide.html"],
+      ["연봉과 월급 환산", "/articles/salary-management-guide.html"]
+    ],
+    "퇴직·휴가": [
+      ["퇴직금", "/calculators/severance.html"],
+      ["연차", "/calculators/annual-leave.html"],
+      ["실업급여", "/articles/unemployment-benefit-checklist.html"]
+    ],
+    "아르바이트·프리랜서": [
+      ["주휴수당", "/calculators/weekly-pay.html"],
+      ["3.3%·초과수당", "/calculators/percent.html"]
+    ]
+  },
+  "생활비": {
+    "공과금": [
+      ["전기요금", "/calculators/electricity.html"],
+      ["전기요금 절약", "/articles/electricity-bill-saving.html"],
+      ["수도요금 절약", "/articles/water-bill-saving.html"],
+      ["난방비 절약", "/articles/heating-bill-saving.html"]
+    ],
+    "통신·구독": [
+      ["통신비 절약", "/articles/phone-bill-saving.html"],
+      ["인터넷 요금 할인", "/articles/internet-bill-discount.html"],
+      ["구독 정리", "/articles/cancel-unused-subscriptions.html"]
+    ]
+  },
+  "세금·환급": {
+    "세금 계산": [
+      ["부가세", "/calculators/vat.html"],
+      ["원가율", "/calculators/cost-rate.html"],
+      ["마진율", "/calculators/margin.html"]
+    ],
+    "환급 찾기": [
+      ["국세 환급", "/articles/national-tax-refund.html"],
+      ["지방세 환급", "/articles/local-tax-refund.html"],
+      ["숨은 환급금", "/articles/hidden-refund-check.html"]
+    ]
+  },
+  "건강·생활": {
+    "건강 계산": [
+      ["BMI", "/calculators/bmi.html"],
+      ["배란일", "/calculators/ovulation.html"]
+    ],
+    "생활 계산": [
+      ["단위변환", "/calculators/unit-converter.html"],
+      ["디데이", "/calculators/dday.html"],
+      ["연비", "/calculators/fuel-efficiency.html"],
+      ["할인가격", "/calculators/discount.html"]
+    ]
+  }
+}

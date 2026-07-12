@@ -1,109 +1,97 @@
+from __future__ import annotations
 from pathlib import Path
-import json, html, re, shutil, zipfile
-root=Path(__file__).resolve().parents[1]
-(root/'css').mkdir(exist_ok=True)
-(root/'data').mkdir(exist_ok=True)
-(root/'tools').mkdir(exist_ok=True)
+import html, json, re, sys
 
-css='''
-:root{--brand:#1769ff;--ink:#172033;--muted:#667085;--line:#e5eaf1;--soft:#f6f8fc;--soft2:#eef4ff;--warn:#fff8e6;--ok:#0f9f6e}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Pretendard,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);line-height:1.82;background:#fff}a{color:var(--brand)}header{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.nav{max-width:1080px;margin:auto;padding:17px 22px;display:flex;align-items:center;justify-content:space-between}.logo{text-decoration:none;font-weight:900;font-size:24px}.navlinks a{margin-left:18px;text-decoration:none;color:#475467;font-weight:700}.breadcrumb{max-width:920px;margin:auto;padding:14px 22px 0;font-size:13px;color:var(--muted)}.hero{background:linear-gradient(135deg,#eef4ff 0%,#fff 78%);border-bottom:1px solid var(--line)}.heroin{max-width:920px;margin:auto;padding:54px 22px 46px}.badge{display:inline-flex;padding:6px 12px;border-radius:999px;background:#dce8ff;color:#1457c9;font-size:14px;font-weight:800}h1{font-size:clamp(34px,5vw,52px);line-height:1.18;letter-spacing:-1.5px;margin:18px 0}.lead{font-size:19px;color:var(--muted);max-width:790px}.meta{font-size:14px;color:#64748b}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.btn{display:inline-flex;justify-content:center;align-items:center;text-decoration:none;font-weight:850;border-radius:12px;padding:13px 18px;border:1px solid var(--line);background:#fff;color:#25324b}.btn.primary{background:var(--brand);border-color:var(--brand);color:#fff}main{max-width:920px;margin:auto;padding:34px 22px 84px}article{font-size:17px}h2{font-size:30px;line-height:1.35;letter-spacing:-.8px;margin:54px 0 17px}h3{font-size:22px;margin:30px 0 10px}p{margin:0 0 18px}.summary-grid,.related-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.card,.quick-answer,.notice,.action-card,.case-card{border:1px solid var(--line);border-radius:18px;padding:22px;background:var(--soft)}.card strong{display:block;font-size:18px;margin-bottom:5px}.toc{position:sticky;top:67px;z-index:20;margin:28px 0 38px;padding:12px 14px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.96);box-shadow:0 8px 26px rgba(23,32,51,.06)}.toc-inner{display:flex;align-items:center;gap:10px;overflow-x:auto;white-space:nowrap;scrollbar-width:thin}.toc-title{flex:none;font-weight:900;color:#334155;padding:8px 4px}.toc a{flex:none;text-decoration:none;color:#475467;background:#f8fafc;border:1px solid var(--line);border-radius:999px;padding:8px 12px;font-size:14px;font-weight:750}.toc a:hover,.toc a:focus{background:var(--soft2);color:var(--brand)}.quick-answer{border-left:5px solid var(--brand);background:#f8fbff;font-size:18px}.calc-box{border:1px solid var(--line);border-radius:20px;padding:16px;background:#fff;box-shadow:0 12px 34px rgba(23,105,255,.08)}.calc-box iframe{width:100%;height:720px;border:0;border-radius:14px}.case-card{background:#fff}.case-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.action-card{background:#f7fbff;border-color:#cfe0ff}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;margin:18px 0}th,td{border:1px solid var(--line);padding:13px 14px;text-align:left;vertical-align:top}th{background:#f8fafc}.checklist{display:grid;gap:10px}.checklist label{display:flex;align-items:flex-start;gap:10px;padding:13px 14px;border:1px solid var(--line);border-radius:12px;background:#fff}.faq details{border-top:1px solid var(--line);padding:16px 0}.faq summary{font-weight:850;cursor:pointer}.related-card{display:block;text-decoration:none;color:var(--ink);border:1px solid var(--line);border-radius:16px;padding:18px;background:#fff}.related-card span{display:block;font-size:14px;color:var(--muted);margin-top:4px}.notice{background:var(--warn);border-left:5px solid #d69e2e}.source-list{font-size:14px;color:var(--muted)}footer{background:#111827;color:#d1d5db;padding:34px 22px}.foot{max-width:920px;margin:auto}.foot a{color:#dbeafe}@media(max-width:700px){.navlinks{display:none}.summary-grid,.related-grid,.case-grid{grid-template-columns:1fr}h2{font-size:26px}.hero-actions .btn{width:100%}.toc{top:63px;margin-left:-8px;margin-right:-8px;border-radius:14px}.calc-box{padding:8px}.calc-box iframe{height:790px}article{font-size:16px}}
-'''
-(root/'css/article-engine.css').write_text(css,encoding='utf-8')
+ROOT = Path(__file__).resolve().parents[1]
+CONFIG = ROOT / 'data' / 'article-configs-v2.json'
+ARTICLES = ROOT / 'articles'
+REQUIRED = ['slug','category','title','description','calculator','calculator_name','calculator_cta','summary','quick','sections','cases','table','checklist','faq','actions','related_calcs','related_articles','notice','official']
 
-articles=[
-{
-"slug":"severance-pay-easy-calculator-guide","category":"직장·급여","title":"퇴직금, 입사일과 월급만으로 빠르게 확인하는 방법","description":"퇴직을 앞두고 회사가 알려준 금액이 맞는지 궁금할 때, 입사일·퇴사일·세전 월급만으로 예상 퇴직금을 확인하고 결과를 검토하는 방법입니다.","calculator":"/calculators/severance.html","calculator_name":"퇴직금 계산기","calculator_cta":"입사일과 월급으로 계산하기",
-"summary":[["내가 아는 값만 입력","입사일·퇴사일·세전 월급만 준비합니다."],["기간은 자동 산정","재직일수와 1년 충족 여부를 자동으로 계산합니다."],["결과는 예상 금액","상여금·수당·휴직기간에 따라 실제 지급액은 달라질 수 있습니다."],["계산 후 해야 할 일","회사 산정내역과 최근 급여명세서를 함께 비교합니다."]],
-"quick":"퇴직금은 사용자가 평균임금이나 재직일수를 먼저 계산할 필요가 없습니다. 입사일, 퇴사일, 세전 월급을 입력하면 현재 기준 예상 퇴직금과 재직기간을 빠르게 확인할 수 있습니다. 다만 계산 결과는 확정액이 아니라 비교를 위한 기준값이므로, 최근 3개월 급여에 포함된 수당·상여금과 회사의 산정내역을 함께 확인해야 합니다.",
-"sections":[
-["내가 왜 이 글을 찾았을까","퇴사를 앞두면 가장 먼저 드는 생각은 ‘회사에서 알려준 퇴직금이 맞을까’입니다. 월급과 비슷한 금액이 나온다고 들었지만 실제로는 입사일, 퇴사일, 최근 임금 구성에 따라 결과가 달라질 수 있습니다. 인터넷에서 평균임금 계산법을 찾다 보면 최근 3개월 임금총액, 총일수, 수당과 상여금까지 직접 나눠야 해서 오히려 더 혼란스러워집니다. 그래서 먼저 필요한 것은 복잡한 공식을 외우는 일이 아니라, 내가 이미 알고 있는 사실을 넣고 예상 범위를 확인하는 것입니다."],
-["계산 전에 준비할 것은 세 가지","첫째, 근로계약서나 인사 시스템에서 입사일을 확인합니다. 둘째, 실제 퇴사했다면 마지막 근무일 또는 회사가 정한 퇴사일을 확인하고, 아직 재직 중이라면 오늘 날짜로 예상할 수 있습니다. 셋째, 통장에 들어온 세후 금액이 아니라 급여명세서의 세전 월급을 준비합니다. 최근 3개월 동안 연장근로수당이나 정기상여금이 크게 달랐다면 빠른 계산 결과와 실제 평균임금 사이에 차이가 날 수 있으므로 별도로 표시해 둡니다."],
-["계산 결과는 이렇게 읽습니다","결과가 나오면 가장 먼저 1년 이상 계속 근무했는지 확인합니다. 다음으로 입사일과 퇴사일이 실제 기록과 같은지, 재직일수 계산에 빠진 기간이 없는지 봅니다. 마지막으로 예상 퇴직금이 회사가 제시한 금액과 어느 정도 차이가 나는지 비교합니다. 차이가 작다면 급여 구성이나 반올림 차이일 수 있지만, 차이가 크다면 최근 3개월의 수당·상여금, 무급휴직, 급여 변동을 다시 확인할 필요가 있습니다."],
-["내 상황에서는 무엇이 달라질까","월급이 매달 일정한 직장인은 세전 월급만으로도 빠른 비교가 가능합니다. 반면 교대근무나 영업직처럼 수당이 월마다 달라지는 경우에는 최근 급여명세서 세 장을 함께 봐야 합니다. 육아휴직·무급휴직·휴업기간이 있었다면 단순 재직일수 계산만으로는 실제 산정방식을 모두 반영하기 어렵습니다. 계약직이나 아르바이트도 실제 근로관계와 계속근로기간에 따라 판단해야 하므로, 계약서 제목만 보고 대상 여부를 단정하지 않는 것이 좋습니다."],
-["회사 금액과 다를 때 실제로 할 일","먼저 회사에 퇴직금 산정내역을 요청합니다. 입사일, 퇴사일, 최근 3개월 임금총액, 포함된 수당과 상여금, 적용한 일수를 항목별로 비교합니다. 계산기 값과 차이가 나는 이유가 설명되면 그대로 기록해 두고, 설명되지 않는 큰 차이가 남는다면 급여 담당자에게 재확인을 요청합니다. 중요한 것은 ‘계산기가 맞고 회사가 틀렸다’고 바로 결론내리는 것이 아니라, 계산기를 이상 여부를 찾는 첫 검토 도구로 사용하는 것입니다."],
-["놓치기 쉬운 부분","퇴직금만 확인하고 남은 연차수당이나 실업급여 가능성을 놓치는 경우가 많습니다. 퇴사 전에는 미사용 연차 정산 여부, 마지막 급여 지급일, 퇴직금 지급 예정일, 원천징수영수증과 경력증명서 발급 방법까지 함께 확인해야 합니다. 퇴사 후에는 실업급여 대상 여부와 건강보험·국민연금 처리도 이어서 확인하면 불필요한 공백을 줄일 수 있습니다."]],
-"cases":[["월급이 일정한 경우","입사일과 퇴사일, 세전 월급을 입력한 뒤 예상액을 회사 산정내역과 비교합니다. 차이가 크지 않다면 최근 3개월 임금 구성만 한 번 더 확인합니다."],["수당이 매달 다른 경우","최근 3개월 급여명세서를 펼쳐 연장·야간·휴일수당과 정기상여금이 포함됐는지 확인합니다. 빠른 계산은 기준값으로만 사용합니다."],["아직 퇴사 전인 경우","퇴사일을 오늘로 두어 현재 예상액을 확인한 뒤, 예정 퇴사일을 넣어 금액 변화도 비교합니다."],["휴직기간이 있었던 경우","단순 월급 기준과 실제 평균임금 산정이 다를 수 있으므로 회사 산정내역과 공식 상담을 함께 확인합니다."]],
-"table":[["확인 순서","내가 준비할 값","Savingio가 계산","내가 다시 확인할 것"],["1","입사일·퇴사일","재직일수·1년 충족 여부","휴직·퇴직일 처리"],["2","세전 월급","예상 평균임금·퇴직금","최근 3개월 수당·상여금"],["3","회사 제시액","차이 비교의 기준","산정내역 항목별 검토"]],
-"checklist":["근로계약서 또는 인사 시스템에서 입사일을 확인했습니다.","퇴사일 또는 오늘 날짜를 정확히 선택했습니다.","통장 입금액이 아닌 세전 월급을 입력했습니다.","최근 3개월 급여명세서에서 수당과 상여금을 확인했습니다.","휴직·휴업기간이 있었는지 확인했습니다.","회사에 퇴직금 산정내역을 요청했습니다.","남은 연차수당과 실업급여도 함께 확인했습니다."],
-"faq":[["1년을 채우지 못하면 퇴직금이 없나요?","일반적으로 계속근로기간이 1년 미만이면 법정 퇴직금 대상이 아닐 수 있습니다. 다만 실제 근로관계와 별도 약정, 근무기간 산정 방식은 확인해야 합니다."],["월급만 넣어도 정확한가요?","월급이 최근 3개월 동안 일정하다면 빠른 예상에 유용합니다. 상여금·수당·휴직기간이 있다면 실제 금액과 차이가 날 수 있습니다."],["퇴직 전에도 계산할 수 있나요?","퇴사일을 오늘 또는 예정 퇴사일로 두면 현재와 미래 기준 예상액을 비교할 수 있습니다."],["회사 계산과 다르면 무엇을 요청해야 하나요?","입사일, 퇴사일, 최근 3개월 임금총액, 평균임금과 적용 일수가 표시된 산정내역을 요청해 비교하세요."],["퇴직금 외에 함께 확인할 것은 무엇인가요?","미사용 연차수당, 마지막 급여, 실업급여, 원천징수영수증과 경력증명서 발급을 함께 확인하는 것이 좋습니다."]],
-"actions":["계산기로 현재 예상액을 확인합니다.","최근 3개월 급여명세서와 회사 산정내역을 비교합니다.","차이가 크면 급여 담당자에게 계산 근거를 요청합니다.","연차수당과 실업급여 계산기로 다음 항목을 이어서 확인합니다."],
-"related_calcs":[["급여 실수령액","월급 공제 내역 확인","/calculators/salary.html"],["연차 계산기","입사일 기준 예상 연차","/calculators/annual-leave.html"],["주휴수당 계산기","시급과 근무시간으로 확인","/calculators/weekly-pay.html"]],
-"related_articles":[["급여명세서 확인 방법","지급과 공제 항목을 읽는 순서","/articles/salary-slip-check-guide.html"],["실업급여 신청 전 체크","퇴직 후 필요한 절차를 확인합니다.","/articles/unemployment-benefit-checklist.html"]],
-"notice":"이 계산 결과는 입력값을 기준으로 한 예상 금액입니다. 평균임금 산정, 상여금, 각종 수당, 휴직기간과 회사 규정에 따라 실제 금액이 달라질 수 있으므로 회사 산정내역과 공식기관 기준을 함께 확인하세요.","official":[["고용노동부","https://www.moel.go.kr/"]]
-},
-{
-"slug":"salary-take-home-easy-calculator-guide","category":"직장·급여","title":"세전 월급만 입력해 예상 실수령액 확인하는 방법","description":"월급이 생각보다 적게 들어왔을 때 세전 월급만으로 예상 실수령액과 공제 항목을 확인하고 급여명세서를 비교하는 방법입니다.","calculator":"/calculators/salary.html","calculator_name":"급여 실수령액 계산기","calculator_cta":"세전 월급으로 실수령액 확인하기",
-"summary":[["기본 입력은 한 개","세전 월급만으로 빠르게 예상합니다."],["공제는 자동 분류","4대보험과 세금을 항목별로 보여줍니다."],["상세 설정은 선택","비과세·부양가족·자녀 수는 필요할 때만 입력합니다."],["마지막 기준은 명세서","실제 지급액은 회사 급여명세서와 비교합니다."]],
-"quick":"통장에 들어온 금액이 예상보다 적다면 먼저 세전 월급을 기준으로 실수령액을 계산해 보세요. Savingio는 주요 보험료와 세금을 자동으로 나눠 보여주므로, 사용자는 공제율을 직접 찾을 필요가 없습니다. 계산 후에는 결과 금액 하나만 보지 말고 실제 급여명세서의 지급·공제 항목을 순서대로 비교해야 합니다.",
-"sections":[["내 월급은 왜 생각보다 적게 들어왔을까","근로계약서에는 월급 300만 원이라고 적혀 있는데 통장에는 그보다 적은 금액이 들어옵니다. 그 차이는 국민연금, 건강보험, 장기요양보험, 고용보험, 소득세와 지방소득세 등 여러 공제 항목에서 생깁니다. 여기에 식대 같은 비과세 항목, 연장근로수당, 상여금, 결근이나 중도 입사 정산까지 더해지면 매달 금액이 달라질 수 있습니다. 그래서 ‘공제율이 몇 퍼센트인지’부터 외우기보다, 세전 월급을 넣고 예상 공제 구조를 먼저 보는 것이 빠릅니다."],["세전 월급은 어디서 찾을까","통장 입금액은 이미 공제가 끝난 실수령액이므로 입력값으로 쓰면 안 됩니다. 근로계약서의 월 급여 또는 급여명세서의 지급총액을 확인하세요. 기본급과 고정수당이 따로 적혀 있다면 둘을 합친 세전 지급액을 기준으로 봅니다. 식대·차량유지비 등 비과세 항목이 별도로 표시되어 있다면 상세 설정에 넣어 예상치를 조정할 수 있습니다."],["결과표는 이 순서로 읽습니다","첫째, 가장 위에 표시된 예상 실수령액을 확인합니다. 둘째, 총 공제액이 세전 월급에서 어느 정도 비중을 차지하는지 봅니다. 셋째, 국민연금·건강보험·장기요양보험·고용보험·소득세·지방소득세를 실제 명세서와 하나씩 비교합니다. 특정 항목만 다르다면 회사의 비과세 처리, 보험료 상·하한, 간이세액 적용 또는 월중 입·퇴사 정산 때문일 수 있습니다."],["내 상황에서는 무엇이 달라질까","매달 같은 월급을 받는 직장인은 기본 계산만으로도 비교가 쉽습니다. 반면 상여금이나 성과급을 받는 달, 초과근무가 많은 달, 중도 입사한 달에는 지급총액 자체가 달라집니다. 부양가족이나 자녀 수가 달라지면 세금 예상에도 차이가 생길 수 있습니다. 프리랜서로 3.3%를 공제받는 경우라면 일반 근로자 급여 계산기보다 3.3%·초과수당 계산기를 이용하는 편이 맞습니다."],["실제 급여명세서와 다를 때 할 일","먼저 세전 지급총액이 같은지 확인합니다. 다음으로 비과세 항목과 공제 항목을 구분하고, 계산기에 입력하지 않은 상여금·수당·결근 공제가 있는지 봅니다. 차이가 설명되지 않으면 급여 담당자에게 국민연금 기준소득, 건강보험 보수월액, 비과세 처리와 소득세 산정 기준을 문의하세요. 계산기는 문제를 발견하는 도구이고, 확정 급여는 회사의 급여명세서와 공식 기준이 결정합니다."],["실수령액을 확인한 다음 할 일","월급을 받은 뒤에는 실수령액을 기준으로 고정비, 생활비, 저축액을 나누는 것이 현실적입니다. 퇴직금이나 연차수당처럼 세전 월급을 기준으로 계산하는 항목도 함께 확인해 두면 이직이나 퇴사를 준비할 때 도움이 됩니다. 공제액이 갑자기 크게 달라졌다면 연말정산·보험료 정산·상여금 지급 여부부터 확인하세요."]],
-"cases":[["월급이 매달 같은 직장인","세전 월급만 입력한 뒤 실제 명세서의 공제 항목과 비교합니다."],["상여금이 있는 달","기본 월급만 계산한 값과 상여금을 포함한 지급총액을 구분해 봅니다."],["중도 입사·퇴사한 달","근무일수와 회사 정산 방식 때문에 일반 월 계산과 차이가 날 수 있습니다."],["3.3%를 공제받는 프리랜서","급여 실수령액 계산기보다 3.3% 계산기를 사용해 원천징수액과 수령액을 확인합니다."]],
-"table":[["확인 순서","계산기 입력","결과에서 볼 것","명세서에서 비교할 것"],["1","세전 월급","예상 실수령액","지급총액"],["2","상세 설정 선택","보험료·세금","비과세·부양가족"],["3","계산 결과","총 공제액","회사별 추가 공제·정산"]],
-"checklist":["통장 입금액이 아닌 세전 월급을 입력했습니다.","급여명세서의 지급총액과 기본급을 구분했습니다.","비과세 항목이 있는지 확인했습니다.","부양가족 수에 본인을 포함해 입력했습니다.","보험료와 세금을 항목별로 비교했습니다.","상여금·연장수당·결근 공제 여부를 확인했습니다.","차이가 크면 회사 급여 담당자에게 산정 기준을 요청했습니다."],
-"faq":[["세전 월급과 기본급은 같은가요?","항상 같지는 않습니다. 기본급 외 고정수당과 변동수당이 지급총액에 포함될 수 있으므로 급여명세서의 지급 항목을 확인하세요."],["비과세 금액을 모르면 어떻게 하나요?","기본값으로 빠르게 계산한 뒤 급여명세서에서 식대 등 비과세 항목을 확인해 다시 계산하면 됩니다."],["실수령액이 매달 달라질 수 있나요?","상여금, 초과근무수당, 결근, 중도 입사, 연말정산과 보험료 정산 등에 따라 달라질 수 있습니다."],["계산 결과를 확정 급여로 봐도 되나요?","아닙니다. 일반 기준을 적용한 예상치이므로 실제 급여명세서가 최종 기준입니다."],["3.3%를 떼는 사람도 이 계산기를 쓰나요?","프리랜서 원천징수라면 별도의 3.3% 계산기를 사용하는 것이 더 적합합니다."]],
-"actions":["세전 월급으로 예상 실수령액을 계산합니다.","실제 급여명세서와 지급총액·공제 항목을 비교합니다.","차이가 큰 항목은 회사 급여 담당자에게 기준을 확인합니다.","실수령액을 기준으로 월 예산을 다시 정리합니다."],
-"related_calcs":[["퇴직금 계산기","재직기간과 예상 퇴직금","/calculators/severance.html"],["주휴수당 계산기","시급 근로자의 예상 수당","/calculators/weekly-pay.html"],["3.3%·초과수당","프리랜서 공제와 추가근무 금액","/calculators/percentage.html"]],
-"related_articles":[["급여명세서 확인 방법","지급·공제 항목을 읽는 순서","/articles/salary-slip-check-guide.html"],["월급 관리 가이드","실수령액 기준으로 예산 세우기","/articles/salary-management-guide.html"]],
-"notice":"예상 실수령액은 일반적인 보험료와 세액 기준을 적용한 참고 금액입니다. 비과세 항목, 부양가족, 보험료 기준소득 상·하한과 회사 정산 방식에 따라 실제 급여명세서와 차이가 날 수 있습니다.","official":[["국민건강보험공단","https://www.nhis.or.kr/"],["국세청 홈택스","https://www.hometax.go.kr/"]]
-},
-{
-"slug":"electricity-bill-easy-calculator-guide","category":"생활요금","title":"전기 사용량만으로 이번 달 예상 전기요금 확인하는 방법","description":"고지서가 나오기 전에 월 사용량을 입력해 예상 전기요금을 확인하고, 사용량 증가 원인과 줄일 부분을 찾는 방법입니다.","calculator":"/calculators/electricity.html","calculator_name":"전기요금 계산기","calculator_cta":"월 사용량으로 예상 요금 확인하기",
-"summary":[["입력은 사용량 하나","월 사용량 kWh만 넣어 빠르게 계산합니다."],["구간은 자동 적용","누진 구간과 기본 계산을 Savingio가 처리합니다."],["월말 전에도 확인","현재 사용량으로 월말 예상치를 비교할 수 있습니다."],["실제 고지서는 별도 확인","할인·조정요금·세금과 기금 때문에 차이가 날 수 있습니다."]],
-"quick":"전기요금을 확인하기 위해 사용자가 누진 구간별 단가를 직접 계산할 필요는 없습니다. 이번 달 사용량 또는 예상 사용량을 입력하면 Savingio가 예상 금액을 보여줍니다. 계산 후에는 금액만 보지 말고 전월·전년 같은 달 사용량, 냉난방 기기 사용시간, 할인 적용 여부를 함께 비교해야 실제 증가 원인을 찾을 수 있습니다.",
-"sections":[["왜 갑자기 전기요금이 늘었을까","전기요금이 많이 나온 달에는 단순히 ‘단가가 올랐다’고 생각하기 쉽지만, 실제로는 사용량 증가가 가장 먼저 확인해야 할 항목입니다. 에어컨, 전기히터, 건조기, 제습기, 온수기처럼 소비전력이 큰 기기를 오래 사용하면 월 사용량이 빠르게 늘어납니다. 검침일수가 길어졌거나 할인 적용이 끝난 경우에도 고지서 금액이 달라질 수 있습니다. 그래서 금액부터 비교하기보다 kWh 사용량부터 확인하는 것이 정확합니다."],["사용량은 어디서 확인할까","가장 쉬운 방법은 최근 전기요금 고지서나 한전ON에서 월 사용량을 확인하는 것입니다. 월말 전이라면 계량기 또는 앱의 현재 사용량을 보고, 지난 일수로 나눈 하루 평균 사용량을 남은 날짜에 적용해 예상치를 만들 수 있습니다. 정확한 예측이 아니어도 현재 흐름이 지난달보다 빠른지 확인하는 데 충분히 도움이 됩니다."],["계산 결과는 이렇게 읽습니다","예상 요금이 나오면 같은 사용량에서 금액만 보는 것이 아니라, 이전 달과 몇 kWh 차이가 나는지 확인합니다. 사용량이 늘었는데 요금 증가폭이 더 크다면 누진 구간 또는 조정요금 영향이 있을 수 있습니다. 반대로 사용량이 비슷한데 금액만 달라졌다면 계약종별, 할인, 검침일수, 조정요금과 세금·기금 항목을 고지서에서 확인해야 합니다."],["내 상황에서는 무엇이 달라질까","아파트는 관리비에 전기요금이 포함되거나 세대별·공용 전력이 나뉘어 표시될 수 있습니다. 주택은 계약종별과 계절 구간에 따라 계산 방식이 달라질 수 있습니다. 복지할인, 대가족·다자녀 할인, 에너지바우처 등을 적용받는 가구라면 계산기 예상액보다 실제 청구액이 낮아질 수 있습니다. 태양광이나 별도 계약이 있다면 일반 예상 계산과 차이가 더 커질 수 있습니다."],["금액을 줄이려면 무엇부터 할까","가장 먼저 소비전력이 큰 기기의 사용시간을 확인합니다. 에어컨은 필터 상태와 설정온도, 건조기는 사용 횟수와 건조량, 제습기는 연속 운전시간을 봅니다. 대기전력을 모두 끄는 것도 도움이 되지만, 월 사용량을 크게 바꾸는 것은 보통 냉난방·건조·온수처럼 오래 작동하는 기기입니다. 계산기에 예상 사용량을 조금씩 낮춰 넣어 어느 정도 줄여야 목표 금액에 가까워지는지 비교해 보세요."],["놓치기 쉬운 고지서 항목","고지서에는 사용량에 따른 기본 전력량요금 외에도 기후환경요금, 연료비조정액, 부가가치세, 전력산업기반기금, 할인과 이전 정산분 등이 포함될 수 있습니다. 따라서 계산기 금액이 실제 고지서와 다르다고 해서 바로 오류로 보기는 어렵습니다. 계산기는 사용량 변화와 대략적인 비용을 확인하는 도구로 사용하고, 최종 금액은 실제 고지서를 기준으로 확인합니다."]],
-"cases":[["에어컨을 많이 쓴 달","전년 같은 달 사용량과 비교하고, 설정온도·가동시간·필터 상태를 함께 점검합니다."],["사용량은 비슷한데 요금만 증가","검침일수, 할인 종료, 조정요금과 세금·기금 항목을 고지서에서 확인합니다."],["월말 전 예상하고 싶은 경우","현재까지 사용량을 지난 일수로 나눈 뒤 남은 날짜를 더해 예상 사용량을 계산기에 넣습니다."],["아파트 관리비에 포함된 경우","세대 전기와 공용 전력 항목을 구분해 비교합니다."]],
-"table":[["확인 순서","확인할 값","계산기 활용","실제 고지서 확인"],["1","월 사용량 kWh","예상 요금 계산","검침일수"],["2","전월·전년 사용량","증감 비교","할인·계약종별"],["3","주요 가전 사용시간","목표 사용량 재계산","조정요금·세금·기금"]],
-"checklist":["고지서 또는 한전ON에서 사용량 kWh를 확인했습니다.","금액이 아닌 사용량을 계산기에 입력했습니다.","전월과 전년 같은 달 사용량을 비교했습니다.","검침일수가 평소와 같은지 확인했습니다.","에어컨·건조기·제습기 등 큰 가전의 사용시간을 확인했습니다.","할인 적용 또는 종료 여부를 확인했습니다.","계산기 결과와 실제 고지서의 추가 항목을 구분했습니다."],
-"faq":[["고지서 금액만 입력해도 되나요?","아닙니다. 예상 계산에는 월 사용량 kWh가 필요합니다."],["계산기 결과와 실제 금액이 다른 이유는 무엇인가요?","계약종별, 계절, 조정요금, 세금·기금, 할인과 이전 정산분 등이 실제 고지서에 반영되기 때문입니다."],["월말 전 사용량은 어떻게 예상하나요?","현재까지 사용량을 지난 일수로 나누어 하루 평균을 구한 뒤 남은 날짜를 곱해 더하면 대략적인 월 사용량을 예상할 수 있습니다."],["전기요금이 갑자기 늘면 무엇부터 보나요?","전년 같은 달 사용량, 검침일수, 냉난방·건조기 사용 변화와 할인 종료 여부를 먼저 확인하세요."],["대기전력을 끄면 큰 폭으로 줄어드나요?","도움은 되지만 큰 변화는 냉난방·건조·온수처럼 소비전력이 크고 오래 사용하는 기기에서 발생하는 경우가 많습니다."]],
-"actions":["이번 달 또는 예상 사용량을 계산기에 입력합니다.","전월·전년 같은 달 사용량과 비교합니다.","사용량이 큰 가전의 운전시간을 줄여 목표 사용량을 다시 계산합니다.","실제 고지서에서 할인·조정요금·세금과 기금을 확인합니다."],
-"related_calcs":[["단위변환 계산기","생활 단위를 빠르게 변환","/calculators/unit-converter.html"],["할인 가격 계산기","절약 전후 금액 비교","/calculators/discount.html"],["대출 상환 계산기","월 고정지출 점검","/calculators/loan.html"]],
-"related_articles":[["전기요금 절약 방법","사용량을 줄이는 우선순위","/articles/electricity-bill-saving.html"],["에어컨 전기요금 줄이기","여름 냉방비 점검","/articles/air-conditioner-electricity-saving.html"]],
-"notice":"전기요금은 계약종별, 계절, 조정요금, 세금·기금과 할인 적용에 따라 달라집니다. 계산 결과는 사용량을 기준으로 한 예상 금액이며 실제 청구액은 고지서와 한전 공식 정보를 확인해야 합니다.","official":[["한전ON","https://online.kepco.co.kr/"]]
-}
-]
-(root/'data/article-configs-v2.json').write_text(json.dumps(articles,ensure_ascii=False,indent=2),encoding='utf-8')
 
-def esc(x):return html.escape(str(x))
-def cards(items):return ''.join(f'<div class="card"><strong>{esc(a)}</strong><span>{esc(b)}</span></div>' for a,b in items)
-def related(items):return ''.join(f'<a class="related-card" href="{esc(u)}"><strong>{esc(a)}</strong><span>{esc(b)}</span></a>' for a,b,u in items)
-def schemas(a,url,date):
+def esc(value: object) -> str:
+    return html.escape(str(value), quote=True)
+
+
+def cards(items):
+    return ''.join(f'<div class="card"><strong>{esc(a)}</strong><span>{esc(b)}</span></div>' for a,b in items)
+
+
+def related(items):
+    return ''.join(f'<a class="related-card" href="{esc(url)}"><strong>{esc(title)}</strong><span>{esc(desc)}</span></a>' for title,desc,url in items)
+
+
+def schema_scripts(a, url, date='2026-07-13'):
     article={"@context":"https://schema.org","@type":"Article","headline":a['title'],"description":a['description'],"mainEntityOfPage":{"@type":"WebPage","@id":url},"datePublished":date,"dateModified":date,"inLanguage":"ko-KR","author":{"@type":"Organization","name":"세이빙이오 편집팀","url":"https://savingio.com/about.html"},"publisher":{"@type":"Organization","name":"세이빙이오(Savingio)","url":"https://savingio.com/"}}
-    faq={"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":ans}} for q,ans in a['faq']]}
-    crumb={"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://savingio.com/"},{"@type":"ListItem","position":2,"name":"정보센터","item":"https://savingio.com/articles/"},{"@type":"ListItem","position":3,"name":a['title'],"item":url}]}
-    return ''.join(f'<script type="application/ld+json">{json.dumps(s,ensure_ascii=False,separators=(",",":"))}</script>' for s in (article,faq,crumb))
+    faq={"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":answer}} for q,answer in a['faq']]}
+    breadcrumb={"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://savingio.com/"},{"@type":"ListItem","position":2,"name":"정보센터","item":"https://savingio.com/articles/"},{"@type":"ListItem","position":3,"name":a['title'],"item":url}]}
+    return ''.join(f'<script type="application/ld+json">{json.dumps(obj,ensure_ascii=False,separators=(",",":"))}</script>' for obj in (article,faq,breadcrumb))
+
+
+def validate(a):
+    errors=[]
+    for key in REQUIRED:
+        if key not in a or a[key] in ('',None,[]): errors.append(f'missing:{key}')
+    if len(a.get('summary',[])) < 4: errors.append('summary<4')
+    if len(a.get('sections',[])) < 6: errors.append('sections<6')
+    if len(a.get('cases',[])) < 4: errors.append('cases<4')
+    if len(a.get('checklist',[])) < 7: errors.append('checklist<7')
+    if len(a.get('faq',[])) < 5: errors.append('faq<5')
+    if len(a.get('related_calcs',[])) < 2: errors.append('related_calcs<2')
+    if len(a.get('related_articles',[])) < 2: errors.append('related_articles<2')
+    return errors
+
 
 def render(a):
-    date='2026-07-13';url='https://savingio.com/articles/'+a['slug']+'.html'
-    nav=[('problem','내 문제'),('answer','3초 답'),('calculator','계산'),('understand','결과 이해'),('cases','내 상황'),('action','실제 행동'),('miss','놓치기 쉬운 것'),('official','공식 확인'),('next','다음 행동'),('faq','FAQ')]
-    toc=''.join(f'<a href="#{i}">{n}</a>' for i,n in nav)
+    url=f"https://savingio.com/articles/{a['slug']}.html"
+    toc=[('problem','내 문제'),('answer','3초 답'),('calculator','계산'),('understand','결과 이해'),('cases','내 상황'),('action','실제 행동'),('miss','놓치기'),('official','공식 확인'),('next','다음 행동'),('faq','FAQ')]
+    toc_html=''.join(f'<a href="#{sid}">{label}</a>' for sid,label in toc)
     secs=a['sections']
-    section_html=f'''<section id="problem"><h2>{esc(secs[0][0])}</h2><p>{esc(secs[0][1])}</p></section>
-<section><h2>{esc(secs[1][0])}</h2><p>{esc(secs[1][1])}</p></section>
-<section id="understand"><h2>{esc(secs[2][0])}</h2><p>{esc(secs[2][1])}</p></section>
-<section id="cases"><h2>{esc(secs[3][0])}</h2><p>{esc(secs[3][1])}</p><div class="case-grid">{cards(a['cases'])}</div></section>
-<section id="action"><h2>{esc(secs[4][0])}</h2><p>{esc(secs[4][1])}</p></section>
-<section id="miss"><h2>{esc(secs[5][0])}</h2><p>{esc(secs[5][1])}</p></section>'''
-    heads=''.join(f'<th>{esc(x)}</th>' for x in a['table'][0]);rows=''.join('<tr>'+''.join(f'<td>{esc(x)}</td>' for x in r)+'</tr>' for r in a['table'][1:])
-    checks=''.join(f'<label><input type="checkbox"> {esc(x)}</label>' for x in a['checklist'])
-    faqs=''.join(f'<details><summary>{esc(q)}</summary><p>{esc(ans)}</p></details>' for q,ans in a['faq'])
-    actions=''.join(f'<li>{esc(x)}</li>' for x in a['actions'])
-    officials=' · '.join(f'<a href="{esc(u)}" rel="noopener noreferrer">{esc(n)}</a>' for n,u in a['official'])
-    return f'''<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(a['title'])} | 세이빙이오(Savingio)</title><meta name="description" content="{esc(a['description'])}"><link rel="canonical" href="{url}"><meta name="robots" content="index,follow"><meta property="og:type" content="article"><meta property="og:title" content="{esc(a['title'])}"><meta property="og:description" content="{esc(a['description'])}"><meta property="og:url" content="{url}"><link rel="stylesheet" href="/css/article-engine.css?v=2">{schemas(a,url,date)}</head><body><header><div class="nav"><a class="logo" href="/">세이빙이오(Savingio)</a><div class="navlinks"><a href="/articles/">전체 글</a><a href="/calculators/">계산기</a><a href="/about.html">소개</a><a href="/contact.html">문의</a></div></div></header><div class="breadcrumb"><a href="/">홈</a> › <a href="/articles/">정보센터</a> › {esc(a['category'])}</div><section class="hero"><div class="heroin"><span class="badge">{esc(a['category'])}</span><h1>{esc(a['title'])}</h1><p class="lead">{esc(a['description'])}</p><p class="meta">최종 업데이트 2026년 7월 13일 · Savingio 편집팀</p><div class="hero-actions"><a class="btn primary" href="{esc(a['calculator'])}">{esc(a['calculator_cta'])}</a><a class="btn" href="#answer">3초 답부터 보기</a></div></div></section><main><article><section><h2>먼저 핵심만 확인하세요</h2><div class="summary-grid">{cards(a['summary'])}</div></section><nav class="toc" aria-label="글 목차"><div class="toc-inner"><span class="toc-title">목차</span>{toc}</div></nav><section id="answer"><h2>가장 궁금한 답</h2><div class="quick-answer">{esc(a['quick'])}</div></section>{section_html}<section id="calculator"><h2>{esc(a['calculator_name'])}로 직접 확인</h2><p>사용자가 이미 알고 있는 값만 입력하면 됩니다. 복잡한 기간·공제·구간 계산은 Savingio가 처리합니다.</p><div class="calc-box"><iframe title="{esc(a['calculator_name'])}" src="{esc(a['calculator'])}" loading="lazy"></iframe><p><a class="btn primary" href="{esc(a['calculator'])}">계산기 전체 화면으로 열기</a></p></div></section><section><h2>한눈에 비교</h2><div class="table-wrap"><table><thead><tr>{heads}</tr></thead><tbody>{rows}</tbody></table></div></section><section><h2>확인 체크리스트</h2><div class="checklist">{checks}</div></section><section id="next"><h2>지금부터 할 일</h2><div class="action-card"><ol>{actions}</ol></div><h3>함께 볼 계산기</h3><div class="related-grid">{related(a['related_calcs'])}</div><h3>관련 정보글</h3><div class="related-grid">{related(a['related_articles'])}</div></section><section class="faq" id="faq"><h2>자주 묻는 질문</h2>{faqs}</section><section id="official"><h2>공식기관 확인</h2><p class="source-list">{officials}</p><div class="notice"><strong>마지막 확인</strong><p>{esc(a['notice'])}</p></div></section></article></main><footer><div class="foot"><strong>세이빙이오(Savingio)</strong><p>복잡한 계산은 Savingio가 하고, 사용자는 결과를 빠르게 확인합니다.</p><p><a href="/about.html">소개</a> · <a href="/editorial-policy.html">콘텐츠 운영 원칙</a> · <a href="/privacy.html">개인정보처리방침</a></p></div></footer></body></html>'''
+    bridges=[
+        '그렇다면 계산하기 전에 무엇을 준비해야 할까요?',
+        '값을 넣었다면 이제 결과를 어떻게 읽어야 할까요?',
+        '같은 결과라도 내 상황에 따라 달라지는 부분이 있습니다.',
+        '차이가 보였다면 실제로 무엇부터 확인해야 할까요?',
+        '마지막으로 함께 확인하지 않으면 놓치기 쉬운 항목이 있습니다.'
+    ]
+    section_blocks=[]
+    ids=['problem','','understand','cases','action','miss']
+    for i,(title,body) in enumerate(secs[:6]):
+        extra=''
+        if i==3: extra=f'<div class="case-grid">{cards(a["cases"])}</div>'
+        bridge=f'<p class="curiosity-bridge">{esc(bridges[i])}</p>' if i < len(bridges) else ''
+        sid=f' id="{ids[i]}"' if ids[i] else ''
+        section_blocks.append(f'<section{sid}><h2>{esc(title)}</h2><p>{esc(body)}</p>{extra}{bridge}</section>')
+    heads=''.join(f'<th>{esc(x)}</th>' for x in a['table'][0])
+    rows=''.join('<tr>'+''.join(f'<td>{esc(x)}</td>' for x in row)+'</tr>' for row in a['table'][1:])
+    checks=''.join(f'<label><input type="checkbox"> {esc(item)}</label>' for item in a['checklist'])
+    faqs=''.join(f'<details><summary>{esc(q)}</summary><p>{esc(answer)}</p></details>' for q,answer in a['faq'])
+    actions=''.join(f'<li>{esc(item)}</li>' for item in a['actions'])
+    officials=' · '.join(f'<a href="{esc(url)}" rel="noopener noreferrer">{esc(name)}</a>' for name,url in a['official'])
+    return f'''<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(a['title'])} | 세이빙이오(Savingio)</title><meta name="description" content="{esc(a['description'])}"><link rel="canonical" href="{url}"><meta name="robots" content="index,follow"><meta property="og:type" content="article"><meta property="og:title" content="{esc(a['title'])}"><meta property="og:description" content="{esc(a['description'])}"><meta property="og:url" content="{url}"><link rel="stylesheet" href="/css/article-engine.css?v=3">{schema_scripts(a,url)}</head><body><header><div class="nav"><a class="logo" href="/">세이빙이오(Savingio)</a><button class="explorer-toggle" data-explorer-toggle aria-label="주제 탐색 열기">주제 탐색</button><div class="navlinks"><a href="/articles/">전체 글</a><a href="/calculators/">계산기</a><a href="/about.html">소개</a><a href="/contact.html">문의</a></div></div></header><div class="breadcrumb"><a href="/">홈</a> › <a href="/articles/">정보센터</a> › {esc(a['category'])}</div><section class="hero"><div class="heroin"><span class="badge">{esc(a['category'])}</span><h1>{esc(a['title'])}</h1><p class="lead">{esc(a['description'])}</p><p class="meta">최종 업데이트 2026년 7월 13일 · Savingio 편집팀</p><div class="hero-actions"><a class="btn primary" href="{esc(a['calculator'])}">{esc(a['calculator_cta'])}</a><a class="btn" href="#answer">3초 답부터 보기</a></div></div></section><div class="explorer-backdrop" data-explorer-close></div><div class="site-layout"><aside class="site-explorer" aria-label="Savingio 주제 탐색"><div class="explorer-head"><strong>주제별로 찾아보기</strong><button class="explorer-close" data-explorer-close aria-label="닫기">×</button></div><div data-site-explorer></div></aside><main class="article-main"><article><section><h2>먼저 핵심만 확인하세요</h2><div class="summary-grid">{cards(a['summary'])}</div></section><nav class="toc" aria-label="글 목차"><div class="toc-inner"><span class="toc-title">목차</span>{toc_html}</div></nav><section id="answer"><h2>가장 궁금한 답</h2><div class="quick-answer">{esc(a['quick'])}</div></section>{''.join(section_blocks)}<section id="calculator"><h2>{esc(a['calculator_name'])}로 직접 확인</h2><p>사용자가 이미 알고 있는 값만 입력하면 됩니다. 복잡한 기간·공제·구간 계산은 Savingio가 처리합니다.</p><div class="calc-box"><iframe title="{esc(a['calculator_name'])}" src="{esc(a['calculator'])}" loading="lazy"></iframe><p><a class="btn primary" href="{esc(a['calculator'])}">계산기 전체 화면으로 열기</a></p></div></section><section><h2>한눈에 비교</h2><div class="table-wrap"><table><thead><tr>{heads}</tr></thead><tbody>{rows}</tbody></table></div></section><section><h2>확인 체크리스트</h2><div class="checklist">{checks}</div></section><section id="next"><h2>지금부터 할 일</h2><div class="action-card"><ol>{actions}</ol></div><h3>함께 볼 계산기</h3><div class="related-grid">{related(a['related_calcs'])}</div><h3>관련 정보글</h3><div class="related-grid">{related(a['related_articles'])}</div></section><section class="faq" id="faq"><h2>자주 묻는 질문</h2>{faqs}</section><section><h2>결과를 확정하기 전에</h2><p>{esc(a['notice'])} 계산기 결과는 빠르게 이상 여부를 찾고 다음 확인 순서를 정하는 기준입니다. 실제 금액·자격·적용 여부를 확정할 때는 입력값과 증빙자료를 다시 대조하고, 차이가 남으면 담당기관 또는 회사의 산정 근거를 확인하세요.</p></section><section id="official"><h2>공식기관 확인</h2><p class="source-list">{officials}</p><div class="notice"><strong>마지막 확인</strong><p>{esc(a['notice'])}</p></div></section></article></main><aside class="context-rail" aria-label="다음 탐색"><div class="context-card"><strong>함께 계산하기</strong>{''.join(f'<a href="{esc(u)}">{esc(t)}</a>' for t,_,u in a['related_calcs'][:3])}</div><div class="context-card"><strong>다음으로 읽기</strong>{''.join(f'<a href="{esc(u)}">{esc(t)}</a>' for t,_,u in a['related_articles'][:3])}</div></aside></div><footer><div class="foot"><strong>세이빙이오(Savingio)</strong><p>복잡한 계산은 Savingio가 하고, 사용자는 결과를 빠르게 확인합니다.</p><p><a href="/about.html">소개</a> · <a href="/editorial-policy.html">콘텐츠 운영 원칙</a> · <a href="/privacy.html">개인정보처리방침</a></p></div></footer><script src="/js/article-navigation.js?v=1" defer></script></body></html>'''
 
-for a in articles:
-    (root/'articles'/f"{a['slug']}.html").write_text(render(a),encoding='utf-8')
 
-# Reproducible builder in repo
-builder=Path('/mnt/data/build_article_engine_v2.py').read_text(encoding='utf-8')
-(root/'tools/build-articles-v2.py').write_text(builder.replace("root=Path(__file__).resolve().parents[1]","root=Path(__file__).resolve().parents[1]"),encoding='utf-8')
-(root/'ARTICLE-ENGINE-V2.md').write_text('''# Savingio Article Engine V2\n\n## LOCK\n내 문제 → 가장 궁금한 답 → 계산 → 결과 이해 → 내 상황 → 실제 행동 → 놓치기 쉬운 것 → 공식 기준 → 다음 행동 → FAQ.\n\n## UI LOCK\n목차는 세로 목록이 아니라 한 줄 가로 스크롤 내비게이션입니다. PC와 모바일 모두 같은 구조를 사용합니다.\n\n## CONTENT 기준\n각 글은 요약 카드 4개, 본문 핵심 섹션 6개, 상황별 사례 4개, 비교표, 체크리스트 7개 이상, FAQ 5개 이상, 다음 행동과 관련 계산기를 포함합니다. 짧은 계산기 소개문 수준의 글은 생성하지 않습니다.\n\n## 운영\n`data/article-configs-v2.json`의 콘텐츠만 교체하고 HTML 구조는 변경하지 않습니다. 새 글은 기존 페이지를 복사하지 않고 V2 빌더로 생성합니다.\n''',encoding='utf-8')
+def visible_count(source):
+    text=re.sub(r'<script.*?</script>|<style.*?</style>|<[^>]+>',' ',source,flags=re.S)
+    return len(re.sub(r'\s','',html.unescape(text)))
 
-# QA report
-report=[]
-for a in articles:
-    p=root/'articles'/f"{a['slug']}.html";txt=p.read_text(encoding='utf-8')
-    visible=re.sub(r'<script.*?</script>|<style.*?</style>|<[^>]+>',' ',txt,flags=re.S)
-    visible=html.unescape(re.sub(r'\s+',' ',visible))
-    korean_len=len(re.sub(r'\s','',visible))
-    report.append({'slug':a['slug'],'visible_chars_no_space':korean_len,'h2':txt.count('<h2>'),'faq':txt.count('<details>'),'toc_horizontal':'toc-inner' in txt})
-(root/'ARTICLE-ENGINE-V2-QA.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
-print(json.dumps(report,ensure_ascii=False,indent=2))
+
+def main():
+    configs=json.loads(CONFIG.read_text(encoding='utf-8'))
+    ARTICLES.mkdir(exist_ok=True)
+    qa=[]
+    failed=False
+    for a in configs:
+        errors=validate(a)
+        source=render(a)
+        count=visible_count(source)
+        if count < 3000: errors.append(f'visible_chars<3000:{count}')
+        path=ARTICLES/f"{a['slug']}.html"
+        path.write_text(source,encoding='utf-8')
+        qa.append({'slug':a['slug'],'visible_chars_no_space':count,'h2':source.count('<h2>'),'faq':source.count('<details>'),'horizontal_toc':'toc-inner' in source,'site_explorer':'data-site-explorer' in source,'curiosity_bridges':source.count('curiosity-bridge'),'errors':errors})
+        failed = failed or bool(errors)
+    (ROOT/'ARTICLE-ENGINE-V2-QA.json').write_text(json.dumps(qa,ensure_ascii=False,indent=2),encoding='utf-8')
+    print(json.dumps(qa,ensure_ascii=False,indent=2))
+    return 1 if failed else 0
+
+if __name__=='__main__':
+    sys.exit(main())
