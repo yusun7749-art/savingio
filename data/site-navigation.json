@@ -1,17 +1,53 @@
 {
+  "직장·급여": {
+    "급여": [
+      [
+        "급여 실수령액",
+        "/calculators/salary.html"
+      ],
+      [
+        "급여명세서 읽기",
+        "/articles/salary-slip-check-guide.html"
+      ],
+      [
+        "연봉과 월급 환산",
+        "/articles/salary-management-guide.html"
+      ]
+    ],
+    "퇴직·휴가": [
+      [
+        "퇴직금",
+        "/calculators/severance.html"
+      ],
+      [
+        "연차",
+        "/calculators/annual-leave.html"
+      ],
+      [
+        "실업급여",
+        "/articles/unemployment-benefit-checklist.html"
+      ]
+    ],
+    "아르바이트·프리랜서": [
+      [
+        "주휴수당",
+        "/calculators/weekly-pay.html"
+      ],
+      [
+        "3.3%·초과수당",
+        "/calculators/percentage.html"
+      ]
+    ]
+  },
   "생활비": {
     "공과금": [
       [
-        "전기요금 계산기",
+        "전기요금",
         "/calculators/electricity.html"
       ],
       [
         "전기요금 절약",
         "/articles/electricity-bill-saving.html"
-      ],
-      [
-        "에어컨 전기요금",
-        "/articles/air-conditioner-electricity-saving.html"
       ],
       [
         "수도요금 절약",
@@ -32,91 +68,29 @@
         "/articles/internet-bill-discount.html"
       ],
       [
-        "구독서비스 정리",
+        "구독 정리",
         "/articles/cancel-unused-subscriptions.html"
-      ]
-    ],
-    "생활비 관리": [
-      [
-        "월 예산 세우기",
-        "/articles/monthly-budget-planner.html"
-      ],
-      [
-        "식비 절약",
-        "/articles/grocery-saving-tips.html"
-      ],
-      [
-        "생활비 전체 보기",
-        "/categories/living-bills.html"
-      ]
-    ]
-  },
-  "직장인": {
-    "급여": [
-      [
-        "실수령액 계산기",
-        "/calculators/salary.html"
-      ],
-      [
-        "급여 실수령액 이해",
-        "/articles/salary-take-home-easy-calculator-guide.html"
-      ],
-      [
-        "주휴수당 계산기",
-        "/calculators/weekly-pay.html"
-      ],
-      [
-        "시급 계산기",
-        "/calculators/hourly.html"
-      ]
-    ],
-    "퇴직·연차": [
-      [
-        "퇴직금 계산기",
-        "/calculators/severance.html"
-      ],
-      [
-        "퇴직금 확인 가이드",
-        "/articles/severance-pay-easy-calculator-guide.html"
-      ],
-      [
-        "연차 계산기",
-        "/calculators/annual-leave.html"
-      ],
-      [
-        "직장인 정보 전체 보기",
-        "/categories/work-salary.html"
-      ]
-    ],
-    "프리랜서": [
-      [
-        "3.3%·초과수당 계산",
-        "/calculators/percentage.html"
-      ],
-      [
-        "부가세 계산기",
-        "/calculators/vat.html"
       ]
     ]
   },
   "세금·환급": {
     "세금 계산": [
       [
-        "부가세 계산기",
+        "부가세",
         "/calculators/vat.html"
       ],
       [
-        "원가율 계산기",
+        "원가율",
         "/calculators/cost-rate.html"
       ],
       [
-        "마진율 계산기",
+        "마진율",
         "/calculators/margin.html"
       ]
     ],
     "환급 찾기": [
       [
-        "국세 환급금",
+        "국세 환급",
         "/articles/national-tax-refund.html"
       ],
       [
@@ -124,132 +98,38 @@
         "/articles/local-tax-refund.html"
       ],
       [
-        "건강보험 환급",
-        "/articles/health-insurance-refund.html"
-      ],
-      [
-        "숨은 환급금 찾기",
+        "숨은 환급금",
         "/articles/hidden-refund-check.html"
-      ],
-      [
-        "세금·환급 전체 보기",
-        "/categories/tax-refund.html"
       ]
     ]
   },
-  "지원금": {
-    "가구·생활": [
+  "건강·생활": {
+    "건강 계산": [
       [
-        "정부24 혜택 확인",
-        "/articles/government24-benefit-check.html"
-      ],
-      [
-        "에너지바우처",
-        "/articles/energy-voucher-application.html"
-      ],
-      [
-        "근로장려금",
-        "/articles/earned-income-tax-credit-korea.html"
-      ]
-    ],
-    "청년·가족": [
-      [
-        "청년 지원사업",
-        "/articles/youth-support-programs.html"
-      ],
-      [
-        "지원금 전체 보기",
-        "/categories/government-support.html"
-      ]
-    ]
-  },
-  "금융·신용": {
-    "대출·이자": [
-      [
-        "대출 상환 계산기",
-        "/calculators/loan.html"
-      ],
-      [
-        "예산 관리 시작",
-        "/articles/beginner-money-management.html"
-      ]
-    ],
-    "신용·카드": [
-      [
-        "신용점수 관리",
-        "/articles/credit-score-habits.html"
-      ],
-      [
-        "체크카드와 신용카드",
-        "/articles/debit-card-vs-credit-card.html"
-      ],
-      [
-        "카드포인트 현금화",
-        "/articles/cash-out-card-points.html"
-      ],
-      [
-        "금융·신용 전체 보기",
-        "/categories/finance-credit.html"
-      ]
-    ]
-  },
-  "주거·자동차": {
-    "주거": [
-      [
-        "아파트 관리비",
-        "/articles/apartment-management-fee-summer.html"
-      ],
-      [
-        "주거 정보 전체 보기",
-        "/categories/housing.html"
-      ]
-    ],
-    "자동차": [
-      [
-        "연비 계산기",
-        "/calculators/fuel-efficiency.html"
-      ],
-      [
-        "자동차세 연납",
-        "/articles/car-tax-annual-payment.html"
-      ],
-      [
-        "자동차 정보 전체 보기",
-        "/categories/car-transport.html"
-      ]
-    ]
-  },
-  "건강·생활도구": {
-    "건강": [
-      [
-        "BMI 계산기",
+        "BMI",
         "/calculators/bmi.html"
       ],
       [
-        "배란일 계산기",
+        "배란일",
         "/calculators/ovulation.html"
       ]
     ],
-    "간편 계산": [
+    "생활 계산": [
       [
-        "디데이 계산기",
-        "/calculators/dday.html"
-      ],
-      [
-        "단위 변환",
+        "단위변환",
         "/calculators/unit-converter.html"
       ],
       [
-        "할인가 계산기",
+        "디데이",
+        "/calculators/dday.html"
+      ],
+      [
+        "연비",
+        "/calculators/fuel-efficiency.html"
+      ],
+      [
+        "할인가격",
         "/calculators/discount.html"
-      ],
-      [
-        "환율 계산기",
-        "/calculators/exchange-rate.html"
-      ],
-      [
-        "계산기 전체 보기",
-        "/calculators/"
       ]
     ]
   }
