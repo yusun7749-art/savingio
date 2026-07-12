@@ -1,0 +1,45 @@
+{
+  "engine_version": "2.3",
+  "status": "PASS",
+  "verify_only": true,
+  "generated_articles": [
+    {
+      "path": "articles/electricity-bill-easy-calculator-guide.html",
+      "sha256": "dd5d6dfeca04f513a15d756ad336de50643cf2b90706363594127d83dc49ee80"
+    },
+    {
+      "path": "articles/salary-take-home-easy-calculator-guide.html",
+      "sha256": "886222c8baf69c088495e2255002800f7de81f25c0d7aa356eb3950f0e70ce04"
+    },
+    {
+      "path": "articles/severance-pay-easy-calculator-guide.html",
+      "sha256": "fdf0634e85feab3dca2fa4aa148a3496713f1c362d3ac9c8aba27d7b58409ddb"
+    }
+  ],
+  "engine_files": [
+    {
+      "path": "templates/article-v2.html",
+      "sha256": "cd0a5233e637e43286e75bc8da512e8df90568eb58cd0c902e76f2e18a74bb19"
+    },
+    {
+      "path": "data/article-configs-v2.json",
+      "sha256": "85b1e8748d943634fb1c1818a4f7b4613469b5abed233834bcb0fcf5a3e4819d"
+    },
+    {
+      "path": "data/article-type-rules.json",
+      "sha256": "f918351473f3a93866374286436cafe05db9ba748c9282f3300c825e61eb7aa5"
+    },
+    {
+      "path": "data/site-navigation.json",
+      "sha256": "e940c536b7d7aceea25ea199a96e183b67fa936c0a96d31caaa65bf108bc97f2"
+    },
+    {
+      "path": "tools/build-articles-v2.py",
+      "sha256": "679bab1758a345634ef36851392ab74884dd769bc55dafcd1bbf2ee063473e8b"
+    },
+    {
+      "path": "tests/article-type-fixtures.json",
+      "sha256": "8ecfee28d8bd86ea81598c977004447adb8291232c32cbf0131c0b157d9e6cbe"
+    }
+  ]
+}

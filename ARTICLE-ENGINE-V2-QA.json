@@ -1,38 +1,69 @@
-[
-  {
-    "slug": "severance-pay-easy-calculator-guide",
-    "article_type": "calculator",
-    "visible_chars_no_space": 3477,
-    "h2": 16,
-    "faq": 5,
-    "horizontal_toc": true,
-    "site_explorer": true,
-    "curiosity_bridges": 5,
-    "decision_points": 4,
-    "errors": []
-  },
-  {
-    "slug": "salary-take-home-easy-calculator-guide",
-    "article_type": "calculator",
-    "visible_chars_no_space": 3200,
-    "h2": 16,
-    "faq": 5,
-    "horizontal_toc": true,
-    "site_explorer": true,
-    "curiosity_bridges": 5,
-    "decision_points": 4,
-    "errors": []
-  },
-  {
-    "slug": "electricity-bill-easy-calculator-guide",
-    "article_type": "calculator",
-    "visible_chars_no_space": 3230,
-    "h2": 16,
-    "faq": 5,
-    "horizontal_toc": true,
-    "site_explorer": true,
-    "curiosity_bridges": 5,
-    "decision_points": 4,
-    "errors": []
-  }
-]
+{
+  "engine_version": "2.3",
+  "status": "PASS",
+  "articles": [
+    {
+      "slug": "severance-pay-easy-calculator-guide",
+      "article_type": "calculator",
+      "visible_chars_no_space": 3477,
+      "h2": 16,
+      "faq": 5,
+      "horizontal_toc": true,
+      "site_explorer": true,
+      "curiosity_bridges": 5,
+      "decision_points": 4,
+      "errors": []
+    },
+    {
+      "slug": "salary-take-home-easy-calculator-guide",
+      "article_type": "calculator",
+      "visible_chars_no_space": 3200,
+      "h2": 16,
+      "faq": 5,
+      "horizontal_toc": true,
+      "site_explorer": true,
+      "curiosity_bridges": 5,
+      "decision_points": 4,
+      "errors": []
+    },
+    {
+      "slug": "electricity-bill-easy-calculator-guide",
+      "article_type": "calculator",
+      "visible_chars_no_space": 3230,
+      "h2": 16,
+      "faq": 5,
+      "horizontal_toc": true,
+      "site_explorer": true,
+      "curiosity_bridges": 5,
+      "decision_points": 4,
+      "errors": []
+    }
+  ],
+  "type_fixtures": [
+    {
+      "article_type": "calculator",
+      "errors": []
+    },
+    {
+      "article_type": "application",
+      "errors": []
+    },
+    {
+      "article_type": "savings",
+      "errors": []
+    },
+    {
+      "article_type": "comparison",
+      "errors": []
+    },
+    {
+      "article_type": "troubleshooting",
+      "errors": []
+    },
+    {
+      "article_type": "health_safety",
+      "errors": []
+    }
+  ],
+  "navigation_errors": []
+}
