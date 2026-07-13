@@ -1,0 +1,17 @@
+{
+  "part": "Part092",
+  "name": "Savingio Article Layout V3",
+  "goal": "Use one stable article canvas beside the global Brain Explorer and prevent narrow-column collapse from stale or conflicting layout rules.",
+  "rules": {
+    "global_explorer": "Only the fixed Problem-Solving Explorer remains on the left.",
+    "article_canvas": "The article body uses one flexible main column.",
+    "context_rail": "A 170px action rail is shown only when desktop width permits.",
+    "responsive": "The action rail is removed below 1180px and summary cards become one column below 860px.",
+    "cache_version": "article-engine.css?v=7"
+  },
+  "verification": {
+    "article_engine_pages": 5,
+    "duplicate_article_explorer": 0,
+    "layout_css_version": 7
+  }
+}
