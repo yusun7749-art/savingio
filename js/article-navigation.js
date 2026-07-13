@@ -36,7 +36,6 @@
       link.classList.toggle('is-active', isActive);
       if (isActive) {
         link.setAttribute('aria-current', 'location');
-        link.scrollIntoView({block:'nearest', inline:'nearest'});
       } else link.removeAttribute('aria-current');
     });
   }
