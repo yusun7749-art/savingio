@@ -1,0 +1,37 @@
+{
+  "part": "Part093",
+  "master_article": "articles/electricity-bill-saving.html",
+  "status": "PASS",
+  "article_text_chars_with_spaces": 6574,
+  "article_text_chars_without_spaces": 4991,
+  "h2_sections": 16,
+  "tables": 4,
+  "faq_items": 5,
+  "checklist_items": 9,
+  "internal_links": 7,
+  "missing_internal_links": [],
+  "required_sections": {
+    "summary": true,
+    "reader": true,
+    "answer": true,
+    "cause": true,
+    "bill-reading": true,
+    "branch": true,
+    "steps": true,
+    "example": true,
+    "calculator": true,
+    "priority": true,
+    "mistakes": true,
+    "faq": true,
+    "record": true,
+    "next": true,
+    "complete": true,
+    "trust": true
+  },
+  "notes": [
+    "약 5,000자 기준 Master Article",
+    "공식 확인처 연결",
+    "금액보다 사용량·검침기간 우선 비교",
+    "구체 요금 단가는 변동 가능성 때문에 공식 계산기로 확인"
+  ]
+}
