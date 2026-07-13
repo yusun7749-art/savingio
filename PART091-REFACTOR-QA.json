@@ -1,0 +1,55 @@
+{
+  "removed_duplicate_related_sections": [
+    "articles/car-insurance-overpayment-refund.html",
+    "articles/child-tax-credit-status-check.html",
+    "articles/dormant-deposit-insurance-search.html",
+    "articles/earned-income-credit-payment.html",
+    "articles/earned-income-credit-status-check.html",
+    "articles/education-benefit-eligibility.html",
+    "articles/elementary-school-education-support.html",
+    "articles/four-major-insurance-deduction-guide.html",
+    "articles/health-insurance-refund-guide.html",
+    "articles/lifelong-education-voucher-application.html",
+    "articles/loan-refinancing-check.html",
+    "articles/local-tax-refund-guide.html",
+    "articles/national-pension-overpayment-refund.html",
+    "articles/national-scholarship-application.html",
+    "articles/salary-slip-check-guide.html",
+    "articles/severance-pay-calculation-guide.html",
+    "articles/student-loan-repayment-guide.html",
+    "articles/subsidy24-benefit-search.html",
+    "articles/telecom-unclaimed-refund.html",
+    "articles/unemployment-benefit-checklist.html",
+    "articles/weekly-holiday-pay-guide.html"
+  ],
+  "unwrapped_nested_faq": [
+    "articles/loan-refinancing-check.html"
+  ],
+  "removed_duplicate_toc": [
+    "articles/loan-refinancing-check.html"
+  ],
+  "changed_files": [
+    "articles/car-insurance-overpayment-refund.html",
+    "articles/child-tax-credit-status-check.html",
+    "articles/dormant-deposit-insurance-search.html",
+    "articles/earned-income-credit-payment.html",
+    "articles/earned-income-credit-status-check.html",
+    "articles/education-benefit-eligibility.html",
+    "articles/elementary-school-education-support.html",
+    "articles/four-major-insurance-deduction-guide.html",
+    "articles/health-insurance-refund-guide.html",
+    "articles/lifelong-education-voucher-application.html",
+    "articles/loan-refinancing-check.html",
+    "articles/local-tax-refund-guide.html",
+    "articles/national-pension-overpayment-refund.html",
+    "articles/national-scholarship-application.html",
+    "articles/salary-slip-check-guide.html",
+    "articles/severance-pay-calculation-guide.html",
+    "articles/student-loan-repayment-guide.html",
+    "articles/subsidy24-benefit-search.html",
+    "articles/telecom-unclaimed-refund.html",
+    "articles/unemployment-benefit-checklist.html",
+    "articles/weekly-holiday-pay-guide.html"
+  ],
+  "changed_file_count": 21
+}
