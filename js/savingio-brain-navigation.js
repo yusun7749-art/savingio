@@ -104,7 +104,12 @@
 
     const currentLink=tree.querySelector('[aria-current="page"]');
     if(currentLink){
-      requestAnimationFrame(()=>currentLink.scrollIntoView({block:'center'}));
+      requestAnimationFrame(()=>{
+        const treeRect=tree.getBoundingClientRect();
+        const linkRect=currentLink.getBoundingClientRect();
+        const target=tree.scrollTop+(linkRect.top-treeRect.top)-((tree.clientHeight-linkRect.height)/2);
+        tree.scrollTo({top:Math.max(0,target),behavior:'auto'});
+      });
     }
   }
 

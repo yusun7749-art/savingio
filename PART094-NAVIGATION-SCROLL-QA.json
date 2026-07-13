@@ -1,0 +1,15 @@
+{
+  "part": "Part094",
+  "task": "Prevent Brain Explorer current-item focus from scrolling the document",
+  "result": "PASS",
+  "changes": [
+    "Removed Element.scrollIntoView from global Brain Navigation",
+    "Scroll only .sbn-tree using calculated internal scrollTop",
+    "Updated navigation JS cache version from v7 to v8 across HTML pages"
+  ],
+  "checks": {
+    "javascript_syntax": "PASS",
+    "scrollIntoView_remaining": 0,
+    "html_cache_version_updated": 299
+  }
+}
