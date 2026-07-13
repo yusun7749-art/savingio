@@ -1,72 +1,144 @@
-(() => {
-  const DATA_URL = '/data/site-navigation.json';
-  const current = decodeURI(location.pathname.replace(/\/+$/, '') || '/');
-  const normalize = value => decodeURI(String(value || '').replace(/https?:\/\/[^/]+/i, '').replace(/\/+$/, '') || '/');
+(()=>{
+  'use strict';
 
-  function ensureExplorerShell() {
-    let shell = document.querySelector('[data-savingio-explorer-shell]');
-    if (shell) return shell;
-    shell = document.createElement('aside');
-    shell.className = 'savingio-site-explorer';
-    shell.setAttribute('data-savingio-explorer-shell','');
-    shell.innerHTML = `<div class="savingio-explorer-head"><div><strong>주제 탐색</strong><small>검색어를 몰라도 직접 찾아보세요</small></div><button type="button" data-savingio-explorer-close aria-label="닫기">×</button></div><nav data-site-explorer aria-label="Savingio 주제 탐색"><p class="savingio-explorer-loading">목차를 불러오는 중입니다.</p></nav>`;
-    document.body.insertAdjacentElement('afterbegin', shell);
-    const backdrop=document.createElement('button');
-    backdrop.type='button'; backdrop.className='savingio-explorer-backdrop'; backdrop.setAttribute('data-savingio-explorer-close',''); backdrop.setAttribute('aria-label','탐색 메뉴 닫기');
-    document.body.insertAdjacentElement('afterbegin',backdrop);
-    if (!document.querySelector('[data-savingio-explorer-toggle]')) {
-      const toggle=document.createElement('button');
-      toggle.type='button'; toggle.className='savingio-explorer-fab'; toggle.setAttribute('data-savingio-explorer-toggle',''); toggle.textContent='☰ 주제 탐색';
-      document.body.append(toggle);
+  const DATA=window.SAVINGIO_BRAIN_DATA;
+  if(!DATA||!DATA.tree||typeof DATA.tree!=='object')return;
+
+  const normalizePath=(value)=>{
+    let path=value||'/';
+    try{path=decodeURI(path)}catch(_error){}
+    path=path.split('?')[0].split('#')[0];
+    path=path.replace(/\/index\.html$/,'/').replace(/\.html$/,'').replace(/\/$/,'');
+    return path||'/';
+  };
+
+  const current=normalizePath(location.pathname);
+  const isCurrent=(item)=>item&&normalizePath(item.href)===current;
+  const esc=(value)=>String(value??'').replace(/[&<>"']/g,(char)=>({
+    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+  })[char]);
+
+  const nav=document.createElement('aside');
+  nav.id='savingio-brain-nav';
+  nav.setAttribute('aria-label','Savingio 주제 탐색');
+  nav.innerHTML=`
+    <button class="sbn-close" type="button" aria-label="주제 탐색 닫기">×</button>
+    <div class="sbn-head">
+      <strong>주제 탐색</strong>
+      <small>대분류부터 필요한 정보와 계산기를 찾아보세요.</small>
+    </div>
+    <div class="sbn-search">
+      <input type="search" placeholder="주제 안에서 찾기" aria-label="주제 탐색 검색" autocomplete="off">
+    </div>
+    <div class="sbn-tree"></div>`;
+
+  const tree=nav.querySelector('.sbn-tree');
+  const search=nav.querySelector('input');
+
+  function validItems(items){
+    return Array.isArray(items)
+      ? items.filter((item)=>item&&typeof item.title==='string'&&typeof item.href==='string')
+      : [];
+  }
+
+  function render(query=''){
+    const q=String(query).trim().toLowerCase();
+    let html='';
+
+    Object.entries(DATA.tree).forEach(([large,middles])=>{
+      if(!middles||typeof middles!=='object')return;
+      let middleHtml='';
+      let largeHasMatch=false;
+      let largeIsCurrent=false;
+
+      Object.entries(middles).forEach(([middle,smalls])=>{
+        if(!smalls||typeof smalls!=='object')return;
+        let smallHtml='';
+        let middleHasMatch=false;
+        let middleIsCurrent=false;
+
+        Object.entries(smalls).forEach(([small,rawItems])=>{
+          const items=validItems(rawItems);
+          const filtered=items.filter((item)=>{
+            if(!q)return true;
+            return `${item.title} ${large} ${middle} ${small}`.toLowerCase().includes(q);
+          });
+          if(!filtered.length)return;
+
+          const smallIsCurrent=items.some(isCurrent);
+          largeHasMatch=middleHasMatch=true;
+          if(smallIsCurrent)largeIsCurrent=middleIsCurrent=true;
+
+          const links=filtered.map((item)=>{
+            const currentAttr=isCurrent(item)?' aria-current="page"':'';
+            const isCalculator=item.type==='calculator';
+            return `<li><a href="${esc(item.href)}"${currentAttr}><span class="sbn-type${isCalculator?' calc':''}">${isCalculator?'계':'글'}</span><span>${esc(item.title)}</span></a></li>`;
+          }).join('');
+
+          smallHtml+=`<details class="sbn-small"${(smallIsCurrent||q)?' open':''}><summary>${esc(small)}<span class="sbn-count">${filtered.length}</span></summary><ul class="sbn-items">${links}</ul></details>`;
+        });
+
+        if(middleHasMatch){
+          middleHtml+=`<details class="sbn-middle"${(middleIsCurrent||q)?' open':''}><summary>${esc(middle)}</summary>${smallHtml}</details>`;
+        }
+      });
+
+      if(largeHasMatch){
+        html+=`<details class="sbn-large"${(largeIsCurrent||q)?' open':''}><summary>${esc(large)}</summary>${middleHtml}</details>`;
+      }
+    });
+
+    tree.innerHTML=html||'<div class="sbn-empty">일치하는 주제가 없습니다.</div>';
+
+    if(!q){
+      tree.querySelectorAll('.sbn-large').forEach((details)=>{
+        details.addEventListener('toggle',()=>{
+          if(!details.open)return;
+          tree.querySelectorAll('.sbn-large[open]').forEach((other)=>{
+            if(other!==details&&!other.querySelector('[aria-current="page"]'))other.open=false;
+          });
+        });
+      });
     }
-    document.body.classList.add('has-savingio-explorer');
-    return shell;
-  }
 
-  function isItemArray(value){ return Array.isArray(value) && value.every(item => Array.isArray(item) && item.length >= 2); }
-  function branchContains(node){
-    if (isItemArray(node)) return node.some(([,url]) => normalize(url) === current);
-    if (node && typeof node === 'object') return Object.values(node).some(branchContains);
-    return false;
-  }
-  function renderItems(items){
-    return `<ul class="savingio-explorer-items">${items.map(([label,url])=>{const active=normalize(url)===current;return `<li><a href="${url}" ${active?'aria-current="page" class="is-current"':''}>${label}</a></li>`}).join('')}</ul>`;
-  }
-  function renderTree(tree){
-    const entries=Object.entries(tree || {});
-    return entries.map(([large,middles],li)=>{
-      const largeOpen=branchContains(middles) || li===0;
-      return `<details class="savingio-explorer-large" ${largeOpen?'open':''}><summary>${large}</summary><div class="savingio-explorer-large-body">${Object.entries(middles).map(([middle,smalls])=>{
-        const middleOpen=branchContains(smalls);
-        return `<details class="savingio-explorer-middle" ${middleOpen?'open':''}><summary>${middle}</summary><div class="savingio-explorer-middle-body">${Object.entries(smalls).map(([small,items])=>{
-          const smallOpen=branchContains(items);
-          return `<details class="savingio-explorer-small" ${smallOpen?'open':''}><summary>${small}</summary>${renderItems(items)}</details>`;
-        }).join('')}</div></details>`;
-      }).join('')}</div></details>`;
-    }).join('');
-  }
-
-  async function loadExplorer(){
-    const shell=ensureExplorerShell();
-    const explorer=shell.querySelector('[data-site-explorer]');
-    try{
-      const res=await fetch(DATA_URL,{cache:'no-store'});
-      if(!res.ok) throw new Error(`HTTP ${res.status}`);
-      const data=await res.json();
-      const tree=data.tree || data;
-      explorer.innerHTML=renderTree(tree);
-      const active=explorer.querySelector('[aria-current="page"]');
-      if(active) setTimeout(()=>active.scrollIntoView({block:'center'}),0);
-    }catch(err){
-      explorer.innerHTML='<p class="savingio-explorer-error">주제 탐색을 불러오지 못했습니다.</p>';
-      console.error('[Savingio Explorer]',err);
+    const currentLink=tree.querySelector('[aria-current="page"]');
+    if(currentLink){
+      requestAnimationFrame(()=>currentLink.scrollIntoView({block:'center'}));
     }
   }
 
-  document.addEventListener('click',event=>{
-    if(event.target.closest('[data-savingio-explorer-toggle]')) document.body.classList.add('savingio-explorer-open');
-    if(event.target.closest('[data-savingio-explorer-close]')) document.body.classList.remove('savingio-explorer-open');
+  document.body.prepend(nav);
+  document.documentElement.classList.add('savingio-brain-ready');
+  render();
+
+  search.addEventListener('input',(event)=>render(event.target.value));
+
+  const button=document.createElement('button');
+  button.className='sbn-mobile-btn';
+  button.type='button';
+  button.textContent='주제 탐색';
+  button.setAttribute('aria-label','주제 탐색 열기');
+  document.body.append(button);
+
+  const backdrop=document.createElement('div');
+  backdrop.className='sbn-backdrop';
+  document.body.append(backdrop);
+
+  const close=()=>{
+    document.body.classList.remove('sbn-open');
+    button.setAttribute('aria-expanded','false');
+  };
+  const open=()=>{
+    document.body.classList.add('sbn-open');
+    button.setAttribute('aria-expanded','true');
+  };
+
+  button.setAttribute('aria-expanded','false');
+  button.addEventListener('click',open);
+  nav.querySelector('.sbn-close').addEventListener('click',close);
+  backdrop.addEventListener('click',close);
+  document.addEventListener('keydown',(event)=>{if(event.key==='Escape')close()});
+  nav.addEventListener('click',(event)=>{
+    if(event.target.closest('a')&&matchMedia('(max-width:1180px)').matches)close();
   });
-  document.addEventListener('keydown',event=>{if(event.key==='Escape') document.body.classList.remove('savingio-explorer-open')});
-  loadExplorer();
 })();

@@ -1,0 +1,21 @@
+{
+  "sprint": "Savingio Navigation Sprint Part083",
+  "html_pages": 300,
+  "navigation_connected_pages": 298,
+  "navigation_version": "v5",
+  "desktop_width_px": 238,
+  "mobile_breakpoint_px": 1180,
+  "syntax_checks": {
+    "navigation_js": "PASS",
+    "brain_data_js": "PASS"
+  },
+  "old_v3_v4_refs": 0,
+  "missing_core_files": [],
+  "behavior": [
+    "current path only auto-opens",
+    "large categories collapsed by default",
+    "search expands matching branches",
+    "current page highlighted",
+    "mobile drawer closes by backdrop, close button, link, and Escape"
+  ]
+}
