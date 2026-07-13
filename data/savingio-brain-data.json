@@ -1,7 +1,7 @@
 {
-  "version": "6.0",
-  "model": "action-centered user-intent taxonomy",
-  "principle": "problem -> understand -> check -> calculate -> act -> follow-up",
+  "version": "7.0",
+  "model": "action-centered topic-stage knowledge graph",
+  "principle": "problem -> understand -> calculate -> act -> verify -> next question",
   "article_count": 204,
   "calculator_count": 16,
   "largeMeta": {
@@ -32,23 +32,37 @@
   },
   "tree": {
     "돈 아끼기": {
-      "공과금": {
-        "전기요금": [
+      "전기요금": {
+        "처음 확인하기": [
           {
-            "title": "건조기 여름 전기세 절약 방법",
-            "href": "/articles/dryer-summer-electricity-saving.html",
+            "title": "전기요금 문제 해결 가이드",
+            "href": "/topics/electricity.html",
+            "type": "hub"
+          },
+          {
+            "title": "전기요금 절약하는 가장 효과적인 방법",
+            "href": "/articles/electricity-bill-saving.html",
             "type": "article"
           },
           {
-            "title": "선풍기와 에어컨 함께 쓰는 방법",
-            "href": "/articles/fan-aircon-combination-saving.html",
+            "title": "전기 사용량만으로 이번 달 예상 전기요금 확인하는 방법",
+            "href": "/articles/electricity-bill-easy-calculator-guide.html",
+            "type": "article"
+          }
+        ],
+        "요금 구조·누진제 이해": [
+          {
+            "title": "여름철 전기요금 누진구간 확인과 사용량 관리 방법",
+            "href": "/articles/summer-electricity-tier-check-2026.html",
             "type": "article"
           },
           {
-            "title": "소상공인 전기요금 지원 확인법",
-            "href": "/articles/small-business-electricity-support.html",
+            "title": "폭염 시 전기요금 누진구간 확인법",
+            "href": "/articles/summer-electricity-tier-check.html",
             "type": "article"
-          },
+          }
+        ],
+        "에어컨 전기세 줄이기": [
           {
             "title": "에어컨 전기요금 줄이는 실전 방법",
             "href": "/articles/air-conditioner-electricity-saving.html",
@@ -70,38 +84,8 @@
             "type": "article"
           },
           {
-            "title": "여름철 냉장고 전기세 절약 방법",
-            "href": "/articles/refrigerator-summer-electricity-saving.html",
-            "type": "article"
-          },
-          {
-            "title": "여름철 전기요금 누진구간 확인과 사용량 관리 방법",
-            "href": "/articles/summer-electricity-tier-check-2026.html",
-            "type": "article"
-          },
-          {
             "title": "인버터 에어컨 전기세 절약 운전법",
             "href": "/articles/inverter-aircon-saving-guide.html",
-            "type": "article"
-          },
-          {
-            "title": "전기 사용량만으로 이번 달 예상 전기요금 확인하는 방법",
-            "href": "/articles/electricity-bill-easy-calculator-guide.html",
-            "type": "article"
-          },
-          {
-            "title": "전기요금 절약하는 가장 효과적인 방법",
-            "href": "/articles/electricity-bill-saving.html",
-            "type": "article"
-          },
-          {
-            "title": "전기요금 할인카드 제대로 고르는 방법",
-            "href": "/articles/electricity-discount-card-guide.html",
-            "type": "article"
-          },
-          {
-            "title": "전기요금을 낮추는 생활 습관",
-            "href": "/articles/how-to-save-electricity-bill.html",
             "type": "article"
           },
           {
@@ -110,16 +94,56 @@
             "type": "article"
           },
           {
-            "title": "제습기 전기요금 계산과 절약법",
-            "href": "/articles/dehumidifier-electricity-saving.html",
-            "type": "article"
-          },
-          {
-            "title": "폭염 시 전기요금 누진구간 확인법",
-            "href": "/articles/summer-electricity-tier-check.html",
+            "title": "선풍기와 에어컨 함께 쓰는 방법",
+            "href": "/articles/fan-aircon-combination-saving.html",
             "type": "article"
           }
         ],
+        "가전별 절약 방법": [
+          {
+            "title": "건조기 여름 전기세 절약 방법",
+            "href": "/articles/dryer-summer-electricity-saving.html",
+            "type": "article"
+          },
+          {
+            "title": "여름철 냉장고 전기세 절약 방법",
+            "href": "/articles/refrigerator-summer-electricity-saving.html",
+            "type": "article"
+          },
+          {
+            "title": "제습기 전기요금 계산과 절약법",
+            "href": "/articles/dehumidifier-electricity-saving.html",
+            "type": "article"
+          }
+        ],
+        "할인·지원 확인": [
+          {
+            "title": "전기요금 할인카드 제대로 고르는 방법",
+            "href": "/articles/electricity-discount-card-guide.html",
+            "type": "article"
+          },
+          {
+            "title": "소상공인 전기요금 지원 확인법",
+            "href": "/articles/small-business-electricity-support.html",
+            "type": "article"
+          }
+        ],
+        "바로 계산하기": [
+          {
+            "title": "전기요금 계산기",
+            "href": "/calculators/electricity.html",
+            "type": "calculator"
+          }
+        ],
+        "더 알아보기": [
+          {
+            "title": "전기요금을 낮추는 생활 습관",
+            "href": "/articles/how-to-save-electricity-bill.html",
+            "type": "article"
+          }
+        ]
+      },
+      "공과금": {
         "관리비": [
           {
             "title": "아파트 관리비 줄이는 방법과 항목별 점검표",

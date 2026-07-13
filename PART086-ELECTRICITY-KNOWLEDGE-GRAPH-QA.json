@@ -1,0 +1,12 @@
+{
+  "part": "Part086",
+  "status": "PASS",
+  "topic": "전기요금",
+  "hub_created": "topics/electricity.html",
+  "navigation_version": "7.0",
+  "knowledge_graph": "data/electricity-knowledge-graph.json",
+  "article_components_applied": 19,
+  "calculator_component_applied": true,
+  "stage_count": 7,
+  "orphan_electricity_items": 1
+}

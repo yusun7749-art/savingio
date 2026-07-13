@@ -1,0 +1,76 @@
+{
+  "version": "1.0",
+  "topic": "전기요금",
+  "hub": "/topics/electricity.html",
+  "journey": [
+    "처음 확인",
+    "요금 구조 이해",
+    "내 사용량 계산",
+    "기기별 절약",
+    "할인·지원 확인",
+    "다음 달 검증"
+  ],
+  "stages": [
+    {
+      "id": "start",
+      "title": "처음 확인하기",
+      "goal": "현재 사용량과 최근 고지서를 확인합니다.",
+      "links": [
+        "/topics/electricity.html",
+        "/articles/electricity-bill-saving.html",
+        "/articles/electricity-bill-easy-calculator-guide.html"
+      ]
+    },
+    {
+      "id": "understand",
+      "title": "요금 구조 이해",
+      "goal": "누진구간과 계절별 차이를 이해합니다.",
+      "links": [
+        "/articles/summer-electricity-tier-check-2026.html",
+        "/articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "id": "calculate",
+      "title": "예상 요금 계산",
+      "goal": "사용량으로 이번 달 예상 금액을 확인합니다.",
+      "links": [
+        "/calculators/electricity.html"
+      ]
+    },
+    {
+      "id": "act",
+      "title": "기기별 절약 실행",
+      "goal": "에어컨과 주요 가전의 사용법을 바꿉니다.",
+      "links": [
+        "/articles/air-conditioner-electricity-saving.html",
+        "/articles/aircon-optimal-temperature-savings.html",
+        "/articles/aircon-dry-mode-electricity.html",
+        "/articles/aircon-filter-cleaning-savings.html",
+        "/articles/inverter-aircon-saving-guide.html",
+        "/articles/fixed-speed-aircon-saving.html",
+        "/articles/fan-aircon-combination-saving.html",
+        "/articles/dryer-summer-electricity-saving.html",
+        "/articles/refrigerator-summer-electricity-saving.html",
+        "/articles/dehumidifier-electricity-saving.html"
+      ]
+    },
+    {
+      "id": "benefit",
+      "title": "할인·지원 확인",
+      "goal": "카드 할인과 지원 대상 여부를 확인합니다.",
+      "links": [
+        "/articles/electricity-discount-card-guide.html",
+        "/articles/small-business-electricity-support.html"
+      ]
+    },
+    {
+      "id": "verify",
+      "title": "다음 달 검증",
+      "goal": "절약 전후 사용량과 청구액을 비교합니다.",
+      "links": [
+        "/articles/electricity-bill-saving.html"
+      ]
+    }
+  ]
+}
