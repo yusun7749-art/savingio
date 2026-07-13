@@ -1,0 +1,23 @@
+{
+  "part": "Part089",
+  "scope": "생활비 대분류 1차 - 수도요금 대표 글",
+  "article": "articles/water-bill-saving.html",
+  "characters_without_spaces": 4003,
+  "required_sections": [
+    "summary",
+    "reader",
+    "answer",
+    "cause",
+    "branch",
+    "steps",
+    "example",
+    "mistakes",
+    "faq",
+    "next",
+    "complete",
+    "trust"
+  ],
+  "faq_count": 5,
+  "status": "PASS",
+  "length_band": "약 4,000자 + 구조·FAQ·표 포함"
+}
