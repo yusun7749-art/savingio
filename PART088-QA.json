@@ -1,0 +1,22 @@
+{
+  "part": "Part088",
+  "representative_article": "articles/electricity-bill-saving.html",
+  "visible_chars": 4616,
+  "target_range": [
+    4500,
+    6500
+  ],
+  "files_added": [
+    "MASTER-ARTICLE-DNA-V3.md",
+    "ARTICLE-TYPES-V3.json",
+    "ARTICLE-QA-CHECKLIST-V3.json",
+    "PUBLISHING-ENGINE-V3.md",
+    "templates/article-master-v3.html"
+  ],
+  "checks": {
+    "required_sections": true,
+    "faq_count": 5,
+    "internal_links": 23,
+    "placeholder_tokens": false
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "version": "3.0",
+  "target_chars": {
+    "min": 4500,
+    "target": 5000,
+    "max": 6500,
+    "count": "visible text excluding navigation/footer"
+  },
+  "common_sections": [
+    "hero",
+    "three_second_summary",
+    "reader_check",
+    "answer_first",
+    "cause",
+    "branch",
+    "steps",
+    "case_table",
+    "mistakes",
+    "faq",
+    "next_action",
+    "completion_check",
+    "trust"
+  ],
+  "types": {
+    "calculation": {
+      "label": "계산형",
+      "required": [
+        "formula_or_calculator",
+        "input_definition",
+        "result_interpretation",
+        "worked_example",
+        "rounding_and_exceptions"
+      ]
+    },
+    "procedure": {
+      "label": "절차형",
+      "required": [
+        "eligibility_or_prerequisite",
+        "documents",
+        "step_by_step",
+        "deadline",
+        "completion_proof"
+      ]
+    },
+    "comparison": {
+      "label": "비교형",
+      "required": [
+        "comparison_table",
+        "selection_rules",
+        "scenario_branches",
+        "total_cost_or_effect",
+        "recommendation_by_case"
+      ]
+    },
+    "eligibility": {
+      "label": "자격확인형",
+      "required": [
+        "target",
+        "exclusion",
+        "income_or_age_or_status_rule",
+        "evidence",
+        "official_check_path"
+      ]
+    },
+    "saving": {
+      "label": "절약형",
+      "required": [
+        "baseline",
+        "largest_cost_driver",
+        "priority_actions",
+        "before_after_example",
+        "verification_period"
+      ]
+    },
+    "problem_solving": {
+      "label": "문제해결형",
+      "required": [
+        "symptom",
+        "likely_causes",
+        "diagnostic_order",
+        "fix_order",
+        "escalation_path"
+      ]
+    },
+    "explanation": {
+      "label": "설명형",
+      "required": [
+        "definition",
+        "mechanism",
+        "misconception",
+        "example",
+        "when_it_matters"
+      ]
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "version": "3.0",
+  "pass_score": 90,
+  "checks": [
+    {
+      "id": "Q01",
+      "name": "질문 직접 답변",
+      "weight": 12,
+      "pass": "첫 25% 안에 제목 질문의 직접 답이 있다"
+    },
+    {
+      "id": "Q02",
+      "name": "독자 상황 분기",
+      "weight": 10,
+      "pass": "최소 2개 이상의 조건 분기가 있다"
+    },
+    {
+      "id": "Q03",
+      "name": "실행 순서",
+      "weight": 12,
+      "pass": "행동 단계가 순서와 완료 기준을 가진다"
+    },
+    {
+      "id": "Q04",
+      "name": "정보 밀도",
+      "weight": 12,
+      "pass": "공통 일반론이 아니라 주제별 숫자·조건·사례가 있다"
+    },
+    {
+      "id": "Q05",
+      "name": "사례와 표",
+      "weight": 8,
+      "pass": "실제 적용 가능한 사례와 비교표가 있다"
+    },
+    {
+      "id": "Q06",
+      "name": "예외·주의",
+      "weight": 8,
+      "pass": "결과가 달라지는 조건과 주의가 있다"
+    },
+    {
+      "id": "Q07",
+      "name": "FAQ 품질",
+      "weight": 8,
+      "pass": "FAQ가 본문 반복 없이 후속 질문을 해결한다"
+    },
+    {
+      "id": "Q08",
+      "name": "다음 행동",
+      "weight": 10,
+      "pass": "계산기·관련 글·공식 확인이 역할별로 연결된다"
+    },
+    {
+      "id": "Q09",
+      "name": "신뢰",
+      "weight": 10,
+      "pass": "업데이트·작성·검수·공식 확인 원칙이 있다"
+    },
+    {
+      "id": "Q10",
+      "name": "문제 해결 완결성",
+      "weight": 10,
+      "pass": "읽은 뒤 다시 검색해야 할 핵심 공백이 없다"
+    }
+  ],
+  "automatic_fail": [
+    "broken_internal_link",
+    "placeholder_token",
+    "unrelated_calculator",
+    "duplicate_faq",
+    "visible_chars_below_3500"
+  ]
+}
