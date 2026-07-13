@@ -1,0 +1,62 @@
+{
+  "part": "090",
+  "goal": "remove duplicate legacy article explorer",
+  "files_checked": [
+    "articles/electricity-bill-saving.html",
+    "articles/electricity-bill-easy-calculator-guide.html",
+    "articles/salary-take-home-easy-calculator-guide.html",
+    "articles/severance-pay-easy-calculator-guide.html",
+    "templates/article-v2.html"
+  ],
+  "checks": {
+    "articles/electricity-bill-saving.html": {
+      "legacy_site_explorer_absent": true,
+      "legacy_data_mount_absent": true,
+      "legacy_toggle_absent": true,
+      "single_layout_present": true,
+      "article_main_present": true,
+      "context_rail_present": true,
+      "global_brain_script_present": true
+    },
+    "articles/electricity-bill-easy-calculator-guide.html": {
+      "legacy_site_explorer_absent": true,
+      "legacy_data_mount_absent": true,
+      "legacy_toggle_absent": true,
+      "single_layout_present": true,
+      "article_main_present": true,
+      "context_rail_present": true,
+      "global_brain_script_present": true
+    },
+    "articles/salary-take-home-easy-calculator-guide.html": {
+      "legacy_site_explorer_absent": true,
+      "legacy_data_mount_absent": true,
+      "legacy_toggle_absent": true,
+      "single_layout_present": true,
+      "article_main_present": true,
+      "context_rail_present": true,
+      "global_brain_script_present": true
+    },
+    "articles/severance-pay-easy-calculator-guide.html": {
+      "legacy_site_explorer_absent": true,
+      "legacy_data_mount_absent": true,
+      "legacy_toggle_absent": true,
+      "single_layout_present": true,
+      "article_main_present": true,
+      "context_rail_present": true,
+      "global_brain_script_present": true
+    },
+    "templates/article-v2.html": {
+      "legacy_site_explorer_absent": true,
+      "legacy_data_mount_absent": true,
+      "legacy_toggle_absent": true,
+      "single_layout_present": true,
+      "article_main_present": true,
+      "context_rail_present": true,
+      "global_brain_script_present": true
+    }
+  },
+  "css": {
+    "single_layout_rule_present": true,
+    "responsive_rule_present": true
+  }
+}
