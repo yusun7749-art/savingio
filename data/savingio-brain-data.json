@@ -1,79 +1,39 @@
 {
-  "version": "4.0",
-  "model": "human-designed large-middle-small taxonomy",
+  "version": "6.0",
+  "model": "action-centered user-intent taxonomy",
+  "principle": "problem -> understand -> check -> calculate -> act -> follow-up",
   "article_count": 204,
   "calculator_count": 16,
-  "tree": {
-    "사업·부업": {
-      "부업": {
-        "AI·온라인 수입": [
-          {
-            "title": "초보자를 위한 AI 부업 시작 방법",
-            "href": "/articles/ai-side-hustles-beginner.html",
-            "type": "article"
-          }
-        ]
-      },
-      "사업 운영": {
-        "비용처리·영수증": [
-          {
-            "title": "사업용 신용카드 홈택스 등록 방법",
-            "href": "/articles/business-card-hometax-registration.html",
-            "type": "article"
-          },
-          {
-            "title": "사업용 차량 비용처리 기본 기준",
-            "href": "/articles/business-vehicle-expense-basics.html",
-            "type": "article"
-          },
-          {
-            "title": "사업자 비용처리 가능한 항목 총정리",
-            "href": "/articles/simple-receipt-expense-rules.html",
-            "type": "article"
-          },
-          {
-            "title": "사업자 통신비 비용처리 기준",
-            "href": "/articles/business-phone-expense-deduction.html",
-            "type": "article"
-          },
-          {
-            "title": "소상공인 배달비 지원사업 찾는 방법",
-            "href": "/articles/small-business-delivery-support.html",
-            "type": "article"
-          },
-          {
-            "title": "소상공인 정책자금 신청 순서",
-            "href": "/articles/small-business-policy-fund.html",
-            "type": "article"
-          },
-          {
-            "title": "소상공인 정책자금 확인 방법",
-            "href": "/articles/small-business-policy-fund-search.html",
-            "type": "article"
-          },
-          {
-            "title": "폐업 소상공인 원스톱 지원 확인",
-            "href": "/articles/small-business-closure-support.html",
-            "type": "article"
-          }
-        ],
-        "소상공인 지원": [
-          {
-            "title": "노란우산공제 가입 전 확인사항",
-            "href": "/articles/yellow-umbrella-mutual-aid-guide.html",
-            "type": "article"
-          }
-        ]
-      }
+  "largeMeta": {
+    "돈 아끼기": {
+      "description": "생활비와 고정비를 줄이는 방법",
+      "order": 1
     },
-    "생활비": {
+    "받을 돈 찾기": {
+      "description": "지원금·환급금·연금·혜택 확인",
+      "order": 2
+    },
+    "세금 처리하기": {
+      "description": "신고·납부·증명·사업 세금 해결",
+      "order": 3
+    },
+    "급여·일 처리하기": {
+      "description": "월급·퇴직·실업·부업 문제 해결",
+      "order": 4
+    },
+    "생활 문제 해결": {
+      "description": "건강·주거·자동차·교육 실무 안내",
+      "order": 5
+    },
+    "바로 계산하기": {
+      "description": "숫자를 입력해 예상 결과 확인",
+      "order": 6
+    }
+  },
+  "tree": {
+    "돈 아끼기": {
       "공과금": {
         "전기요금": [
-          {
-            "title": "전기요금 계산기",
-            "href": "/calculators/electricity.html",
-            "type": "calculator"
-          },
           {
             "title": "건조기 여름 전기세 절약 방법",
             "href": "/articles/dryer-summer-electricity-saving.html",
@@ -339,9 +299,7 @@
             "type": "article"
           }
         ]
-      }
-    },
-    "금융·신용": {
+      },
       "은행·카드": {
         "은행 수수료·계좌": [
           {
@@ -395,11 +353,6 @@
       },
       "대출": {
         "대출 상환·수수료": [
-          {
-            "title": "대출 상환 계산기",
-            "href": "/calculators/loan.html",
-            "type": "calculator"
-          },
           {
             "title": "대출 갈아타기 전 확인할 것, 금리보다 중요한 총비용 계산법",
             "href": "/articles/loan-refinancing-check.html",
@@ -467,91 +420,30 @@
             "type": "article"
           }
         ]
-      }
-    },
-    "건강·생활": {
-      "생활 계산": {
-        "할인·비율": [
-          {
-            "title": "마진율 계산기",
-            "href": "/calculators/margin.html",
-            "type": "calculator"
-          },
-          {
-            "title": "원가율 계산기",
-            "href": "/calculators/cost-rate.html",
-            "type": "calculator"
-          },
-          {
-            "title": "할인가격 계산기",
-            "href": "/calculators/discount.html",
-            "type": "calculator"
-          },
-          {
-            "title": "기초생활수급자 감면 혜택 조회",
-            "href": "/articles/basic-livelihood-discounts.html",
-            "type": "article"
-          },
-          {
-            "title": "보험료 자동이체 할인 확인법",
-            "href": "/articles/insurance-auto-pay-discount.html",
-            "type": "article"
-          }
-        ]
       },
-      "의료비": {
-        "건강보험·병원비": [
+      "자동차 비용": {
+        "연비·유류비": [
           {
-            "title": "긴급복지 의료지원 신청 방법",
-            "href": "/articles/emergency-medical-support.html",
+            "title": "여름철 자동차 에어컨 연비 절약법",
+            "href": "/articles/car-aircon-fuel-saving.html",
             "type": "article"
-          },
-          {
-            "title": "병원비 영수증과 진료비 세부내역 확인 방법",
-            "href": "/articles/medical-bill-negotiation.html",
-            "type": "article"
-          },
-          {
-            "title": "본인부담상한제 환급금 확인 방법",
-            "href": "/articles/health-insurance-out-of-pocket-refund.html",
-            "type": "article"
-          }
-        ]
-      },
-      "건강 계산": {
-        "BMI·체중": [
-          {
-            "title": "BMI 계산기",
-            "href": "/calculators/bmi.html",
-            "type": "calculator"
           }
         ],
-        "배란일": [
+        "보험·렌터카": [
           {
-            "title": "배란일 계산기",
-            "href": "/calculators/ovulation.html",
-            "type": "calculator"
-          }
-        ]
-      },
-      "날짜·단위": {
-        "디데이": [
+            "title": "자동차보험 마일리지 특약 환급",
+            "href": "/articles/car-insurance-mileage-refund.html",
+            "type": "article"
+          },
           {
-            "title": "디데이 계산기",
-            "href": "/calculators/dday.html",
-            "type": "calculator"
-          }
-        ],
-        "단위변환": [
-          {
-            "title": "단위변환 계산기",
-            "href": "/calculators/unit-converter.html",
-            "type": "calculator"
+            "title": "자동차보험 자녀할인 특약 확인",
+            "href": "/articles/car-insurance-child-discount.html",
+            "type": "article"
           }
         ]
       }
     },
-    "연금·노후": {
+    "받을 돈 찾기": {
       "연금": {
         "국민연금": [
           {
@@ -589,34 +481,12 @@
             "type": "article"
           }
         ]
-      }
-    },
-    "기타 생활정보": {
-      "생활 문제 해결": {
+      },
+      "숨은 돈·혜택": {
         "기타 정보": [
           {
             "title": "2026 정부지원금 신청 일정 모음",
             "href": "/articles/government-support-calendar.html",
-            "type": "article"
-          },
-          {
-            "title": "국민취업지원제도 신청 자격",
-            "href": "/articles/national-employment-support-eligibility.html",
-            "type": "article"
-          },
-          {
-            "title": "돈이 되는 생활 정보",
-            "href": "/articles/index.html",
-            "type": "article"
-          },
-          {
-            "title": "리볼빙 해지와 잔액 상환 방법",
-            "href": "/articles/revolving-cancellation-payoff.html",
-            "type": "article"
-          },
-          {
-            "title": "문화누리카드 잔액과 사용처 확인",
-            "href": "/articles/culture-nuri-card-balance.html",
             "type": "article"
           },
           {
@@ -630,38 +500,8 @@
             "type": "article"
           },
           {
-            "title": "비상금 마련 가이드",
-            "href": "/articles/emergency-fund-guide.html",
-            "type": "article"
-          },
-          {
             "title": "숨은 돈 찾는 방법",
             "href": "/articles/hidden-money-search.html",
-            "type": "article"
-          },
-          {
-            "title": "실손보험 중복가입 확인 방법",
-            "href": "/articles/duplicate-indemnity-insurance-check.html",
-            "type": "article"
-          },
-          {
-            "title": "여행자보험 가입 전 비교 항목",
-            "href": "/articles/travel-insurance-comparison.html",
-            "type": "article"
-          },
-          {
-            "title": "월세 세액공제 준비서류와 확인 순서",
-            "href": "/articles/monthly-rent-tax-credit-documents.html",
-            "type": "article"
-          },
-          {
-            "title": "위택스 납부내역 확인 방법",
-            "href": "/articles/wetax-payment-history.html",
-            "type": "article"
-          },
-          {
-            "title": "위택스 지방세 전자고지 신청 방법",
-            "href": "/articles/wetax-electronic-billing.html",
             "type": "article"
           },
           {
@@ -680,193 +520,8 @@
             "type": "article"
           },
           {
-            "title": "저소득층 냉방비 지원 확인 방법",
-            "href": "/articles/low-income-cooling-support.html",
-            "type": "article"
-          },
-          {
             "title": "지원금 문자 사기 구별 방법, 신청 전 반드시 확인하세요",
             "href": "/articles/benefit-scam-warning-2026.html",
-            "type": "article"
-          },
-          {
-            "title": "차상위계층 확인서 발급 방법",
-            "href": "/articles/near-poverty-certificate.html",
-            "type": "article"
-          }
-        ]
-      }
-    },
-    "세금·환급": {
-      "세금 신고": {
-        "재산·자동차세": [
-          {
-            "title": "2026년 7월 재산세 고지서 확인 체크리스트",
-            "href": "/articles/property-tax-bill-checklist-2026.html",
-            "type": "article"
-          },
-          {
-            "title": "2026년 7월 재산세 납부 대상과 기간",
-            "href": "/articles/property-tax-july-2026.html",
-            "type": "article"
-          },
-          {
-            "title": "건축물 재산세와 토지 재산세 차이",
-            "href": "/articles/building-land-property-tax.html",
-            "type": "article"
-          },
-          {
-            "title": "위택스 재산세 전자고지 신청 방법",
-            "href": "/articles/property-tax-electronic-bill-2026.html",
-            "type": "article"
-          },
-          {
-            "title": "자동차세 연납 할인 총정리",
-            "href": "/articles/car-tax-annual-payment.html",
-            "type": "article"
-          },
-          {
-            "title": "자동차세 조회·납부 방법, 고지서가 없어도 확인하는 순서",
-            "href": "/articles/car-tax-check-payment-guide.html",
-            "type": "article"
-          },
-          {
-            "title": "재산세 고지서가 안 왔을 때 확인 방법",
-            "href": "/articles/missing-property-tax-bill.html",
-            "type": "article"
-          },
-          {
-            "title": "재산세 공동명의 납부 기준",
-            "href": "/articles/property-tax-joint-ownership.html",
-            "type": "article"
-          },
-          {
-            "title": "재산세 과세표준과 세액 계산 구조",
-            "href": "/articles/property-tax-calculation-structure.html",
-            "type": "article"
-          },
-          {
-            "title": "재산세 납부기한과 감면 대상",
-            "href": "/articles/property-tax-deadline.html",
-            "type": "article"
-          },
-          {
-            "title": "재산세 납부증명서 발급 방법",
-            "href": "/articles/property-tax-payment-certificate.html",
-            "type": "article"
-          },
-          {
-            "title": "재산세 분납 신청 조건과 방법",
-            "href": "/articles/property-tax-installment-application.html",
-            "type": "article"
-          },
-          {
-            "title": "재산세 이의신청과 과세전적부심 차이",
-            "href": "/articles/property-tax-objection-guide.html",
-            "type": "article"
-          },
-          {
-            "title": "주택분 재산세 7월과 9월 차이",
-            "href": "/articles/property-tax-july-september-difference.html",
-            "type": "article"
-          }
-        ],
-        "부가세·사업세금": [
-          {
-            "title": "부가세 계산기",
-            "href": "/calculators/vat.html",
-            "type": "calculator"
-          },
-          {
-            "title": "2026년 7월 부가가치세 확정신고 대상과 준비서류",
-            "href": "/articles/vat-final-return-july-2026.html",
-            "type": "article"
-          },
-          {
-            "title": "2026년 부가가치세 확정신고 방법과 공식 기한 확인",
-            "href": "/articles/vat-final-return-2026-july.html",
-            "type": "article"
-          },
-          {
-            "title": "간이과세자 부가가치세 신고 체크리스트",
-            "href": "/articles/simplified-vat-checklist.html",
-            "type": "article"
-          },
-          {
-            "title": "매출이 없어도 부가가치세 신고해야 할까? 무실적 신고 방법",
-            "href": "/articles/vat-zero-sales-filing-2026.html",
-            "type": "article"
-          },
-          {
-            "title": "부가가치세 매입세액 공제 가능한 항목과 불공제 항목 정리",
-            "href": "/articles/vat-input-tax-deduction-2026.html",
-            "type": "article"
-          },
-          {
-            "title": "부가가치세 매입세액 공제 항목과 불공제 구분법",
-            "href": "/articles/vat-input-tax-deduction-items.html",
-            "type": "article"
-          },
-          {
-            "title": "부가가치세 무실적 신고 방법",
-            "href": "/articles/vat-zero-sales-filing.html",
-            "type": "article"
-          },
-          {
-            "title": "부가가치세 신고 전 매출 누락 확인 방법",
-            "href": "/articles/vat-sales-omission-check-2026.html",
-            "type": "article"
-          },
-          {
-            "title": "부가가치세 신고 후 납부기한 연장 신청 방법",
-            "href": "/articles/vat-payment-extension-guide.html",
-            "type": "article"
-          },
-          {
-            "title": "사업자 폐업신고와 부가세 신고 순서",
-            "href": "/articles/business-closure-vat-order.html",
-            "type": "article"
-          },
-          {
-            "title": "일반과세자 부가가치세 신고에서 자주 하는 실수 12가지",
-            "href": "/articles/general-vat-common-mistakes.html",
-            "type": "article"
-          },
-          {
-            "title": "자동차 검사 예약·검사기간 확인 방법, 과태료 전에 준비할 순서",
-            "href": "/articles/vehicle-inspection-reservation-guide.html",
-            "type": "article"
-          },
-          {
-            "title": "전자세금계산서 발급과 조회 방법",
-            "href": "/articles/electronic-tax-invoice-penalty.html",
-            "type": "article"
-          },
-          {
-            "title": "현금영수증 매출 조회 방법",
-            "href": "/articles/tax-invoice-vs-cash-receipt.html",
-            "type": "article"
-          },
-          {
-            "title": "홈택스에서 부가가치세 매출자료 확인하는 순서",
-            "href": "/articles/hometax-vat-sales-check.html",
-            "type": "article"
-          }
-        ],
-        "종합소득세": [
-          {
-            "title": "근로장려금 신청 가이드",
-            "href": "/articles/earned-income-tax-credit-korea.html",
-            "type": "article"
-          },
-          {
-            "title": "종합소득세 신고 대상 확인 방법",
-            "href": "/articles/self-employed-income-tax-refund-check.html",
-            "type": "article"
-          },
-          {
-            "title": "종합소득세 신고 안 하면 어떻게 될까",
-            "href": "/articles/income-tax-filing-missed-consequences.html",
             "type": "article"
           }
         ]
@@ -941,56 +596,7 @@
             "type": "article"
           }
         ]
-      }
-    },
-    "자동차·교통": {
-      "자동차 유지": {
-        "연비·유류비": [
-          {
-            "title": "연비 계산기",
-            "href": "/calculators/fuel-efficiency.html",
-            "type": "calculator"
-          },
-          {
-            "title": "여름철 자동차 에어컨 연비 절약법",
-            "href": "/articles/car-aircon-fuel-saving.html",
-            "type": "article"
-          }
-        ],
-        "보험·렌터카": [
-          {
-            "title": "자동차보험 마일리지 특약 환급",
-            "href": "/articles/car-insurance-mileage-refund.html",
-            "type": "article"
-          },
-          {
-            "title": "자동차보험 자녀할인 특약 확인",
-            "href": "/articles/car-insurance-child-discount.html",
-            "type": "article"
-          }
-        ]
       },
-      "교통법규": {
-        "범칙금·과태료": [
-          {
-            "title": "교통과태료 조회·납부 방법, 미납 과태료와 사전통지 확인 순서",
-            "href": "/articles/traffic-penalty-check-payment-guide.html",
-            "type": "article"
-          },
-          {
-            "title": "교통벌금·범칙금·과태료 차이, 고지서를 받았을 때 확인 순서",
-            "href": "/articles/traffic-fines-difference-guide.html",
-            "type": "article"
-          },
-          {
-            "title": "교통범칙금 조회·납부 방법, 경찰청 교통민원24에서 확인하는 순서",
-            "href": "/articles/traffic-fine-check-payment-guide.html",
-            "type": "article"
-          }
-        ]
-      }
-    },
-    "정부지원": {
       "가족·교육 지원": {
         "아동·부모 지원": [
           {
@@ -1165,41 +771,258 @@
         ]
       }
     },
-    "아이·교육": {
-      "교육": {
-        "학교·교육비": [
+    "세금 처리하기": {
+      "사업 운영": {
+        "비용처리·영수증": [
           {
-            "title": "초등학생 교육비 지원 총정리",
-            "href": "/articles/elementary-school-education-support.html",
-            "type": "article"
-          }
-        ]
-      }
-    },
-    "주거": {
-      "임대차": {
-        "전세·월세": [
-          {
-            "title": "전월세 신고제 신고 방법과 준비서류",
-            "href": "/articles/rental-contract-reporting-guide.html",
+            "title": "사업용 신용카드 홈택스 등록 방법",
+            "href": "/articles/business-card-hometax-registration.html",
             "type": "article"
           },
           {
-            "title": "확정일자 온라인 신청 방법",
-            "href": "/articles/fixed-date-online-application.html",
+            "title": "사업용 차량 비용처리 기본 기준",
+            "href": "/articles/business-vehicle-expense-basics.html",
+            "type": "article"
+          },
+          {
+            "title": "사업자 비용처리 가능한 항목 총정리",
+            "href": "/articles/simple-receipt-expense-rules.html",
+            "type": "article"
+          },
+          {
+            "title": "사업자 통신비 비용처리 기준",
+            "href": "/articles/business-phone-expense-deduction.html",
+            "type": "article"
+          },
+          {
+            "title": "소상공인 배달비 지원사업 찾는 방법",
+            "href": "/articles/small-business-delivery-support.html",
+            "type": "article"
+          },
+          {
+            "title": "소상공인 정책자금 신청 순서",
+            "href": "/articles/small-business-policy-fund.html",
+            "type": "article"
+          },
+          {
+            "title": "소상공인 정책자금 확인 방법",
+            "href": "/articles/small-business-policy-fund-search.html",
+            "type": "article"
+          },
+          {
+            "title": "폐업 소상공인 원스톱 지원 확인",
+            "href": "/articles/small-business-closure-support.html",
+            "type": "article"
+          }
+        ],
+        "소상공인 지원": [
+          {
+            "title": "노란우산공제 가입 전 확인사항",
+            "href": "/articles/yellow-umbrella-mutual-aid-guide.html",
+            "type": "article"
+          }
+        ]
+      },
+      "세금 확인": {
+        "기타 정보": [
+          {
+            "title": "월세 세액공제 준비서류와 확인 순서",
+            "href": "/articles/monthly-rent-tax-credit-documents.html",
+            "type": "article"
+          },
+          {
+            "title": "위택스 납부내역 확인 방법",
+            "href": "/articles/wetax-payment-history.html",
+            "type": "article"
+          },
+          {
+            "title": "위택스 지방세 전자고지 신청 방법",
+            "href": "/articles/wetax-electronic-billing.html",
+            "type": "article"
+          }
+        ]
+      },
+      "세금 신고": {
+        "재산·자동차세": [
+          {
+            "title": "2026년 7월 재산세 고지서 확인 체크리스트",
+            "href": "/articles/property-tax-bill-checklist-2026.html",
+            "type": "article"
+          },
+          {
+            "title": "2026년 7월 재산세 납부 대상과 기간",
+            "href": "/articles/property-tax-july-2026.html",
+            "type": "article"
+          },
+          {
+            "title": "건축물 재산세와 토지 재산세 차이",
+            "href": "/articles/building-land-property-tax.html",
+            "type": "article"
+          },
+          {
+            "title": "위택스 재산세 전자고지 신청 방법",
+            "href": "/articles/property-tax-electronic-bill-2026.html",
+            "type": "article"
+          },
+          {
+            "title": "자동차세 연납 할인 총정리",
+            "href": "/articles/car-tax-annual-payment.html",
+            "type": "article"
+          },
+          {
+            "title": "자동차세 조회·납부 방법, 고지서가 없어도 확인하는 순서",
+            "href": "/articles/car-tax-check-payment-guide.html",
+            "type": "article"
+          },
+          {
+            "title": "재산세 고지서가 안 왔을 때 확인 방법",
+            "href": "/articles/missing-property-tax-bill.html",
+            "type": "article"
+          },
+          {
+            "title": "재산세 공동명의 납부 기준",
+            "href": "/articles/property-tax-joint-ownership.html",
+            "type": "article"
+          },
+          {
+            "title": "재산세 과세표준과 세액 계산 구조",
+            "href": "/articles/property-tax-calculation-structure.html",
+            "type": "article"
+          },
+          {
+            "title": "재산세 납부기한과 감면 대상",
+            "href": "/articles/property-tax-deadline.html",
+            "type": "article"
+          },
+          {
+            "title": "재산세 납부증명서 발급 방법",
+            "href": "/articles/property-tax-payment-certificate.html",
+            "type": "article"
+          },
+          {
+            "title": "재산세 분납 신청 조건과 방법",
+            "href": "/articles/property-tax-installment-application.html",
+            "type": "article"
+          },
+          {
+            "title": "재산세 이의신청과 과세전적부심 차이",
+            "href": "/articles/property-tax-objection-guide.html",
+            "type": "article"
+          },
+          {
+            "title": "주택분 재산세 7월과 9월 차이",
+            "href": "/articles/property-tax-july-september-difference.html",
+            "type": "article"
+          }
+        ],
+        "부가세·사업세금": [
+          {
+            "title": "2026년 7월 부가가치세 확정신고 대상과 준비서류",
+            "href": "/articles/vat-final-return-july-2026.html",
+            "type": "article"
+          },
+          {
+            "title": "2026년 부가가치세 확정신고 방법과 공식 기한 확인",
+            "href": "/articles/vat-final-return-2026-july.html",
+            "type": "article"
+          },
+          {
+            "title": "간이과세자 부가가치세 신고 체크리스트",
+            "href": "/articles/simplified-vat-checklist.html",
+            "type": "article"
+          },
+          {
+            "title": "매출이 없어도 부가가치세 신고해야 할까? 무실적 신고 방법",
+            "href": "/articles/vat-zero-sales-filing-2026.html",
+            "type": "article"
+          },
+          {
+            "title": "부가가치세 매입세액 공제 가능한 항목과 불공제 항목 정리",
+            "href": "/articles/vat-input-tax-deduction-2026.html",
+            "type": "article"
+          },
+          {
+            "title": "부가가치세 매입세액 공제 항목과 불공제 구분법",
+            "href": "/articles/vat-input-tax-deduction-items.html",
+            "type": "article"
+          },
+          {
+            "title": "부가가치세 무실적 신고 방법",
+            "href": "/articles/vat-zero-sales-filing.html",
+            "type": "article"
+          },
+          {
+            "title": "부가가치세 신고 전 매출 누락 확인 방법",
+            "href": "/articles/vat-sales-omission-check-2026.html",
+            "type": "article"
+          },
+          {
+            "title": "부가가치세 신고 후 납부기한 연장 신청 방법",
+            "href": "/articles/vat-payment-extension-guide.html",
+            "type": "article"
+          },
+          {
+            "title": "사업자 폐업신고와 부가세 신고 순서",
+            "href": "/articles/business-closure-vat-order.html",
+            "type": "article"
+          },
+          {
+            "title": "일반과세자 부가가치세 신고에서 자주 하는 실수 12가지",
+            "href": "/articles/general-vat-common-mistakes.html",
+            "type": "article"
+          },
+          {
+            "title": "자동차 검사 예약·검사기간 확인 방법, 과태료 전에 준비할 순서",
+            "href": "/articles/vehicle-inspection-reservation-guide.html",
+            "type": "article"
+          },
+          {
+            "title": "전자세금계산서 발급과 조회 방법",
+            "href": "/articles/electronic-tax-invoice-penalty.html",
+            "type": "article"
+          },
+          {
+            "title": "현금영수증 매출 조회 방법",
+            "href": "/articles/tax-invoice-vs-cash-receipt.html",
+            "type": "article"
+          },
+          {
+            "title": "홈택스에서 부가가치세 매출자료 확인하는 순서",
+            "href": "/articles/hometax-vat-sales-check.html",
+            "type": "article"
+          }
+        ],
+        "종합소득세": [
+          {
+            "title": "근로장려금 신청 가이드",
+            "href": "/articles/earned-income-tax-credit-korea.html",
+            "type": "article"
+          },
+          {
+            "title": "종합소득세 신고 대상 확인 방법",
+            "href": "/articles/self-employed-income-tax-refund-check.html",
+            "type": "article"
+          },
+          {
+            "title": "종합소득세 신고 안 하면 어떻게 될까",
+            "href": "/articles/income-tax-filing-missed-consequences.html",
             "type": "article"
           }
         ]
       }
     },
-    "직장인": {
+    "급여·일 처리하기": {
+      "부업·추가수입": {
+        "AI·온라인 수입": [
+          {
+            "title": "초보자를 위한 AI 부업 시작 방법",
+            "href": "/articles/ai-side-hustles-beginner.html",
+            "type": "article"
+          }
+        ]
+      },
       "급여": {
         "실수령액·급여명세서": [
-          {
-            "title": "급여 실수령액 계산기",
-            "href": "/calculators/salary.html",
-            "type": "calculator"
-          },
           {
             "title": "4대보험 공제액 확인 방법, 월급에서 얼마가 빠지는지 보는 기준",
             "href": "/articles/four-major-insurance-deduction-guide.html",
@@ -1223,11 +1046,6 @@
         ],
         "주휴·시급": [
           {
-            "title": "주휴수당 계산기",
-            "href": "/calculators/weekly-pay.html",
-            "type": "calculator"
-          },
-          {
             "title": "주휴수당 조건과 계산 방법, 내가 받을 수 있는지 확인하는 순서",
             "href": "/articles/weekly-holiday-pay-guide.html",
             "type": "article"
@@ -1236,16 +1054,6 @@
       },
       "퇴직·실업": {
         "퇴직금·연차": [
-          {
-            "title": "연차수당 계산기",
-            "href": "/calculators/annual-leave.html",
-            "type": "calculator"
-          },
-          {
-            "title": "퇴직금 계산기",
-            "href": "/calculators/severance.html",
-            "type": "calculator"
-          },
           {
             "title": "퇴직금 계산 방법, 평균임금과 재직기간을 확인하는 순서",
             "href": "/articles/severance-pay-calculation-guide.html",
@@ -1269,8 +1077,237 @@
             "type": "article"
           }
         ]
+      }
+    },
+    "생활 문제 해결": {
+      "건강·생활": {
+        "생활 계산 · 할인·비율": [
+          {
+            "title": "기초생활수급자 감면 혜택 조회",
+            "href": "/articles/basic-livelihood-discounts.html",
+            "type": "article"
+          },
+          {
+            "title": "보험료 자동이체 할인 확인법",
+            "href": "/articles/insurance-auto-pay-discount.html",
+            "type": "article"
+          }
+        ],
+        "의료비 · 건강보험·병원비": [
+          {
+            "title": "긴급복지 의료지원 신청 방법",
+            "href": "/articles/emergency-medical-support.html",
+            "type": "article"
+          },
+          {
+            "title": "병원비 영수증과 진료비 세부내역 확인 방법",
+            "href": "/articles/medical-bill-negotiation.html",
+            "type": "article"
+          },
+          {
+            "title": "본인부담상한제 환급금 확인 방법",
+            "href": "/articles/health-insurance-out-of-pocket-refund.html",
+            "type": "article"
+          }
+        ]
       },
-      "프리랜서·아르바이트": {
+      "생활 문제 해결": {
+        "기타 정보": [
+          {
+            "title": "국민취업지원제도 신청 자격",
+            "href": "/articles/national-employment-support-eligibility.html",
+            "type": "article"
+          },
+          {
+            "title": "돈이 되는 생활 정보",
+            "href": "/articles/index.html",
+            "type": "article"
+          },
+          {
+            "title": "리볼빙 해지와 잔액 상환 방법",
+            "href": "/articles/revolving-cancellation-payoff.html",
+            "type": "article"
+          },
+          {
+            "title": "문화누리카드 잔액과 사용처 확인",
+            "href": "/articles/culture-nuri-card-balance.html",
+            "type": "article"
+          },
+          {
+            "title": "비상금 마련 가이드",
+            "href": "/articles/emergency-fund-guide.html",
+            "type": "article"
+          },
+          {
+            "title": "실손보험 중복가입 확인 방법",
+            "href": "/articles/duplicate-indemnity-insurance-check.html",
+            "type": "article"
+          },
+          {
+            "title": "여행자보험 가입 전 비교 항목",
+            "href": "/articles/travel-insurance-comparison.html",
+            "type": "article"
+          },
+          {
+            "title": "저소득층 냉방비 지원 확인 방법",
+            "href": "/articles/low-income-cooling-support.html",
+            "type": "article"
+          },
+          {
+            "title": "차상위계층 확인서 발급 방법",
+            "href": "/articles/near-poverty-certificate.html",
+            "type": "article"
+          }
+        ]
+      },
+      "자동차·교통": {
+        "교통법규 · 범칙금·과태료": [
+          {
+            "title": "교통과태료 조회·납부 방법, 미납 과태료와 사전통지 확인 순서",
+            "href": "/articles/traffic-penalty-check-payment-guide.html",
+            "type": "article"
+          },
+          {
+            "title": "교통벌금·범칙금·과태료 차이, 고지서를 받았을 때 확인 순서",
+            "href": "/articles/traffic-fines-difference-guide.html",
+            "type": "article"
+          },
+          {
+            "title": "교통범칙금 조회·납부 방법, 경찰청 교통민원24에서 확인하는 순서",
+            "href": "/articles/traffic-fine-check-payment-guide.html",
+            "type": "article"
+          }
+        ]
+      },
+      "아이·교육": {
+        "교육 · 학교·교육비": [
+          {
+            "title": "초등학생 교육비 지원 총정리",
+            "href": "/articles/elementary-school-education-support.html",
+            "type": "article"
+          }
+        ]
+      },
+      "주거": {
+        "임대차 · 전세·월세": [
+          {
+            "title": "전월세 신고제 신고 방법과 준비서류",
+            "href": "/articles/rental-contract-reporting-guide.html",
+            "type": "article"
+          },
+          {
+            "title": "확정일자 온라인 신청 방법",
+            "href": "/articles/fixed-date-online-application.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    "바로 계산하기": {
+      "돈·세금 계산": {
+        "전기요금": [
+          {
+            "title": "전기요금 계산기",
+            "href": "/calculators/electricity.html",
+            "type": "calculator"
+          }
+        ],
+        "대출 상환·수수료": [
+          {
+            "title": "대출 상환 계산기",
+            "href": "/calculators/loan.html",
+            "type": "calculator"
+          }
+        ],
+        "할인·비율": [
+          {
+            "title": "마진율 계산기",
+            "href": "/calculators/margin.html",
+            "type": "calculator"
+          },
+          {
+            "title": "원가율 계산기",
+            "href": "/calculators/cost-rate.html",
+            "type": "calculator"
+          },
+          {
+            "title": "할인가격 계산기",
+            "href": "/calculators/discount.html",
+            "type": "calculator"
+          }
+        ],
+        "부가세·사업세금": [
+          {
+            "title": "부가세 계산기",
+            "href": "/calculators/vat.html",
+            "type": "calculator"
+          }
+        ],
+        "연비·유류비": [
+          {
+            "title": "연비 계산기",
+            "href": "/calculators/fuel-efficiency.html",
+            "type": "calculator"
+          }
+        ]
+      },
+      "생활 계산": {
+        "BMI·체중": [
+          {
+            "title": "BMI 계산기",
+            "href": "/calculators/bmi.html",
+            "type": "calculator"
+          }
+        ],
+        "배란일": [
+          {
+            "title": "배란일 계산기",
+            "href": "/calculators/ovulation.html",
+            "type": "calculator"
+          }
+        ],
+        "디데이": [
+          {
+            "title": "디데이 계산기",
+            "href": "/calculators/dday.html",
+            "type": "calculator"
+          }
+        ],
+        "단위변환": [
+          {
+            "title": "단위변환 계산기",
+            "href": "/calculators/unit-converter.html",
+            "type": "calculator"
+          }
+        ]
+      },
+      "급여·근로 계산": {
+        "실수령액·급여명세서": [
+          {
+            "title": "급여 실수령액 계산기",
+            "href": "/calculators/salary.html",
+            "type": "calculator"
+          }
+        ],
+        "주휴·시급": [
+          {
+            "title": "주휴수당 계산기",
+            "href": "/calculators/weekly-pay.html",
+            "type": "calculator"
+          }
+        ],
+        "퇴직금·연차": [
+          {
+            "title": "연차수당 계산기",
+            "href": "/calculators/annual-leave.html",
+            "type": "calculator"
+          },
+          {
+            "title": "퇴직금 계산기",
+            "href": "/calculators/severance.html",
+            "type": "calculator"
+          }
+        ],
         "3.3%·소득신고": [
           {
             "title": "3.3%·일당·초과수당 계산기",

@@ -1,0 +1,54 @@
+{
+  "part": "Part085",
+  "engine": "Savingio Brain OS v6",
+  "status": "PASS",
+  "taxonomy": "action-centered",
+  "groups": [
+    {
+      "goal": "돈 아끼기",
+      "items": 72,
+      "middle_groups": 8
+    },
+    {
+      "goal": "받을 돈 찾기",
+      "items": 58,
+      "middle_groups": 7
+    },
+    {
+      "goal": "세금 처리하기",
+      "items": 44,
+      "middle_groups": 3
+    },
+    {
+      "goal": "급여·일 처리하기",
+      "items": 10,
+      "middle_groups": 3
+    },
+    {
+      "goal": "생활 문제 해결",
+      "items": 20,
+      "middle_groups": 5
+    },
+    {
+      "goal": "바로 계산하기",
+      "items": 16,
+      "middle_groups": 3
+    }
+  ],
+  "unique_links": 220,
+  "duplicate_links": 0,
+  "html_files_scanned": 300,
+  "v6_references": {
+    "css": 298,
+    "data": 298,
+    "js": 298
+  },
+  "checks": {
+    "data_json_valid": true,
+    "navigation_js_syntax": true,
+    "data_js_syntax": true,
+    "current_path_highlight_preserved": true,
+    "search_preserved": true,
+    "desktop_mobile_behavior_preserved": true
+  }
+}

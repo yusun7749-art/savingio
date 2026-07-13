@@ -36,3 +36,13 @@
 ## 6. Site Explorer
 - 현재 Sprint: Navigation DNA와 UI 성형
 - 완료 조건: 전체 페이지 공통 적용, 현재 위치 강조, 본문 비침범, 모바일 정상, 링크 QA
+
+## Part084 — Article Type + Density QA Foundation
+- 글 유형 DNA 확정: 계산형·절차형·비교형·자격형·절약형·문제해결형·일반 가이드
+- 유형별 필수 섹션과 금지 패턴 정의
+- Site Flow 8단계와 Curiosity 6종 링크 역할 정의
+- 전체 articles 자동 점검 보고서 생성
+- 현재 기준 결과: PASS 5 / REVIEW 73 / FAIL 140
+- 깨진 내부 링크가 있는 글: 0
+- 공통 일반론 패턴이 감지된 글: 126
+- 다음 Sprint: FAIL 글을 유형별 대표 템플릿으로 재성형하고 대표 1개씩 승인 후 일괄 적용

@@ -24,11 +24,11 @@
   nav.innerHTML=`
     <button class="sbn-close" type="button" aria-label="주제 탐색 닫기">×</button>
     <div class="sbn-head">
-      <strong>주제 탐색</strong>
-      <small>대분류부터 필요한 정보와 계산기를 찾아보세요.</small>
+      <strong>문제 해결 탐색</strong>
+      <small>지금 하려는 일부터 선택하세요.</small>
     </div>
     <div class="sbn-search">
-      <input type="search" placeholder="주제 안에서 찾기" aria-label="주제 탐색 검색" autocomplete="off">
+      <input type="search" placeholder="예: 전기세, 환급금, 퇴직금" aria-label="Savingio 문제 해결 검색" autocomplete="off">
     </div>
     <div class="sbn-tree"></div>`;
 
@@ -46,6 +46,7 @@
     let html='';
 
     Object.entries(DATA.tree).forEach(([large,middles])=>{
+      const largeMeta=(DATA.largeMeta&&DATA.largeMeta[large])||{};
       if(!middles||typeof middles!=='object')return;
       let middleHtml='';
       let largeHasMatch=false;
@@ -84,7 +85,7 @@
       });
 
       if(largeHasMatch){
-        html+=`<details class="sbn-large"${(largeIsCurrent||q)?' open':''}><summary>${esc(large)}</summary>${middleHtml}</details>`;
+        html+=`<details class="sbn-large"${(largeIsCurrent||q)?' open':''}><summary><span class="sbn-large-title">${esc(large)}</span>${largeMeta.description?`<span class="sbn-large-desc">${esc(largeMeta.description)}</span>`:''}</summary>${middleHtml}</details>`;
       }
     });
 
