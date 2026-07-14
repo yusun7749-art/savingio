@@ -1,8 +1,13 @@
 {
-  "generated_at": "2026-07-14T15:34:56+00:00",
-  "article_count": 218,
-  "pass_count": 4,
-  "duplicate_canonicals": {},
+  "generated_at": "2026-07-14T15:49:55+00:00",
+  "article_count": 219,
+  "pass_count": 5,
+  "duplicate_canonicals": {
+    "https://savingio.com/articles/전기요금-절약-c861d77ba6.html": [
+      "#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
+      "전기요금-절약-c861d77ba6.html"
+    ]
+  },
   "articles": [
     {
       "path": "articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
@@ -3904,6 +3909,19 @@
         "canonical_savingio",
         "canonical_matches_file"
       ]
+    },
+    {
+      "path": "articles/전기요금-절약-c861d77ba6.html",
+      "canonical": "https://savingio.com/articles/전기요금-절약-c861d77ba6.html",
+      "pass": true,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": true,
+        "canonical_https": true,
+        "canonical_savingio": true,
+        "canonical_matches_file": true
+      },
+      "issues": []
     }
   ],
   "pass": false

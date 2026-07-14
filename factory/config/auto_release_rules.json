@@ -1,0 +1,13 @@
+{
+  "version": "V2.045",
+  "allowed_branch": "main",
+  "remote": "origin",
+  "base_url": "https://savingio.com",
+  "publisher_id": "pub-7605193583747751",
+  "adsense_client": "ca-pub-7605193583747751",
+  "live_verify_attempts": 12,
+  "live_verify_interval_seconds": 10,
+  "block_on_diverged_branch": true,
+  "create_backup_branch_before_release": true,
+  "abort_rebase_on_conflict": true
+}

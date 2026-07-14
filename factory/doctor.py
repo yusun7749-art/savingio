@@ -6,6 +6,7 @@ from .adsense_manager import run_adsense_lock
 
 REQUIRED = [
   "adsense_manager.py",
+  "auto_release.py",
   "planner.py",
   "researcher.py",
   "writer.py",
@@ -166,7 +167,8 @@ CONFIGS = [
   "operations_monitoring_rules.json",
   "external_verification_rules.json",
   "calculator_registry.json",
-  "calculator_hq_rules.json"
+  "calculator_hq_rules.json",
+  "auto_release_rules.json"
 ]
 
 def run_doctor(project_root: Path, include_publisher_lock: bool=True):

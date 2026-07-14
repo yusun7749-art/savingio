@@ -1,0 +1,1264 @@
+{
+  "pass": true,
+  "status": "pass",
+  "version": "2.045",
+  "release_pipeline": [
+    "factory_cleaner",
+    "publisher_lock",
+    "doctor",
+    "deployment_integrity",
+    "version_freeze",
+    "factory_manifest",
+    "zip_optimizer",
+    "zip_verification",
+    "one_click_release_ready"
+  ],
+  "cleaner": {
+    "pass": true,
+    "status": "clean",
+    "removed_directory_count": 1,
+    "removed_file_count": 147,
+    "removed_directories": [
+      "factory/__pycache__"
+    ],
+    "removed_files": [
+      "factory/__pycache__/adsense_manager.cpython-313.pyc",
+      "factory/__pycache__/auto_release.cpython-313.pyc",
+      "factory/__pycache__/planner.cpython-313.pyc",
+      "factory/__pycache__/researcher.cpython-313.pyc",
+      "factory/__pycache__/writer.cpython-313.pyc",
+      "factory/__pycache__/seo.cpython-313.pyc",
+      "factory/__pycache__/qa.cpython-313.pyc",
+      "factory/__pycache__/cms.cpython-313.pyc",
+      "factory/__pycache__/git_engine.cpython-313.pyc",
+      "factory/__pycache__/deploy.cpython-313.pyc",
+      "factory/__pycache__/pipeline.cpython-313.pyc",
+      "factory/__pycache__/orchestrator.cpython-313.pyc",
+      "factory/__pycache__/state_db.cpython-313.pyc",
+      "factory/__pycache__/scheduler.cpython-313.pyc",
+      "factory/__pycache__/incremental.cpython-313.pyc",
+      "factory/__pycache__/dna_versioning.cpython-313.pyc",
+      "factory/__pycache__/run.cpython-313.pyc",
+      "factory/__pycache__/registry.cpython-313.pyc",
+      "factory/__pycache__/dedupe.cpython-313.pyc",
+      "factory/__pycache__/link_graph.cpython-313.pyc",
+      "factory/__pycache__/publication.cpython-313.pyc",
+      "factory/__pycache__/release.cpython-313.pyc",
+      "factory/__pycache__/adsense_audit.cpython-313.pyc",
+      "factory/__pycache__/eeat.cpython-313.pyc",
+      "factory/__pycache__/indexability.cpython-313.pyc",
+      "factory/__pycache__/source_registry.cpython-313.pyc",
+      "factory/__pycache__/research_collector.cpython-313.pyc",
+      "factory/__pycache__/research_qa.cpython-313.pyc",
+      "factory/__pycache__/research_report.cpython-313.pyc",
+      "factory/__pycache__/research_department.cpython-313.pyc",
+      "factory/__pycache__/web_connector.cpython-313.pyc",
+      "factory/__pycache__/openapi_connector.cpython-313.pyc",
+      "factory/__pycache__/research_cache.cpython-313.pyc",
+      "factory/__pycache__/research_web_runner.cpython-313.pyc",
+      "factory/__pycache__/image_queue.cpython-313.pyc",
+      "factory/__pycache__/image_adapters.cpython-313.pyc",
+      "factory/__pycache__/deployment_gate.cpython-313.pyc",
+      "factory/__pycache__/search_evidence.cpython-313.pyc",
+      "factory/__pycache__/evidence_merge.cpython-313.pyc",
+      "factory/__pycache__/image_result_linker.cpython-313.pyc",
+      "factory/__pycache__/git_executor.cpython-313.pyc",
+      "factory/__pycache__/cloudflare_deploy.cpython-313.pyc",
+      "factory/__pycache__/publish_executor.cpython-313.pyc",
+      "factory/__pycache__/wordpress_connector.cpython-313.pyc",
+      "factory/__pycache__/publish_package.cpython-313.pyc",
+      "factory/__pycache__/wordpress_publisher.cpython-313.pyc",
+      "factory/__pycache__/cloudflare_pages_client.cpython-313.pyc",
+      "factory/__pycache__/cloudflare_deploy_verify.cpython-313.pyc",
+      "factory/__pycache__/service_readiness.cpython-313.pyc",
+      "factory/__pycache__/deployment_receipt.cpython-313.pyc",
+      "factory/__pycache__/git_release_executor.cpython-313.pyc",
+      "factory/__pycache__/cloudflare_deployment_monitor.cpython-313.pyc",
+      "factory/__pycache__/release_coordinator.cpython-313.pyc",
+      "factory/__pycache__/wordpress_taxonomy.cpython-313.pyc",
+      "factory/__pycache__/wordpress_upsert.cpython-313.pyc",
+      "factory/__pycache__/runtime_config.cpython-313.pyc",
+      "factory/__pycache__/wordpress_release_plan.cpython-313.pyc",
+      "factory/__pycache__/cloudflare_health_check.cpython-313.pyc",
+      "factory/__pycache__/government_api_adapters.cpython-313.pyc",
+      "factory/__pycache__/research_ingestion_pipeline.cpython-313.pyc",
+      "factory/__pycache__/image_provider_result.cpython-313.pyc",
+      "factory/__pycache__/google_service_auth.cpython-313.pyc",
+      "factory/__pycache__/search_console_engine.cpython-313.pyc",
+      "factory/__pycache__/ga4_engine.cpython-313.pyc",
+      "factory/__pycache__/analytics_dashboard.cpython-313.pyc",
+      "factory/__pycache__/content_performance_optimizer.cpython-313.pyc",
+      "factory/__pycache__/google_jwt_auth.cpython-313.pyc",
+      "factory/__pycache__/search_console_api.cpython-313.pyc",
+      "factory/__pycache__/ga4_api.cpython-313.pyc",
+      "factory/__pycache__/analytics_scheduler.cpython-313.pyc",
+      "factory/__pycache__/keyword_rank_tracker.cpython-313.pyc",
+      "factory/__pycache__/analytics_rework_bridge.cpython-313.pyc",
+      "factory/__pycache__/google_token_exchange.cpython-313.pyc",
+      "factory/__pycache__/google_access_token.cpython-313.pyc",
+      "factory/__pycache__/article_optimization_executor.cpython-313.pyc",
+      "factory/__pycache__/scheduler_installer.cpython-313.pyc",
+      "factory/__pycache__/department_handoff.cpython-313.pyc",
+      "factory/__pycache__/department_gate.cpython-313.pyc",
+      "factory/__pycache__/automation_cycle.cpython-313.pyc",
+      "factory/__pycache__/auto_rework_engine.cpython-313.pyc",
+      "factory/__pycache__/cycle_dashboard.cpython-313.pyc",
+      "factory/__pycache__/revenue_import.cpython-313.pyc",
+      "factory/__pycache__/revenue_dashboard.cpython-313.pyc",
+      "factory/__pycache__/revenue_ai.cpython-313.pyc",
+      "factory/__pycache__/revenue_task_router.cpython-313.pyc",
+      "factory/__pycache__/revenue_core.cpython-313.pyc",
+      "factory/__pycache__/revenue_html_rewriter.cpython-313.pyc",
+      "factory/__pycache__/revenue_qa_recheck.cpython-313.pyc",
+      "factory/__pycache__/revenue_cms_update.cpython-313.pyc",
+      "factory/__pycache__/revenue_rework_pipeline.cpython-313.pyc",
+      "factory/__pycache__/approved_release_gate.cpython-313.pyc",
+      "factory/__pycache__/cloudflare_new_deployment.cpython-313.pyc",
+      "factory/__pycache__/release_journal.cpython-313.pyc",
+      "factory/__pycache__/post_deploy_verifier.cpython-313.pyc",
+      "factory/__pycache__/approved_republish.cpython-313.pyc",
+      "factory/__pycache__/end_to_end_audit.cpython-313.pyc",
+      "factory/__pycache__/regression_manifest.cpython-313.pyc",
+      "factory/__pycache__/final_release_manifest.cpython-313.pyc",
+      "factory/__pycache__/final_release_coordinator.cpython-313.pyc",
+      "factory/__pycache__/master_checklist.cpython-313.pyc",
+      "factory/__pycache__/external_integration_registry.cpython-313.pyc",
+      "factory/__pycache__/integration_preflight.cpython-313.pyc",
+      "factory/__pycache__/live_verification_plan.cpython-313.pyc",
+      "factory/__pycache__/adsense_report_import.cpython-313.pyc",
+      "factory/__pycache__/adsense_revenue_bridge.cpython-313.pyc",
+      "factory/__pycache__/production_readiness_board.cpython-313.pyc",
+      "factory/__pycache__/operations_snapshot.cpython-313.pyc",
+      "factory/__pycache__/incident_detector.cpython-313.pyc",
+      "factory/__pycache__/recovery_planner.cpython-313.pyc",
+      "factory/__pycache__/retry_policy.cpython-313.pyc",
+      "factory/__pycache__/operations_center.cpython-313.pyc",
+      "factory/__pycache__/credential_onboarding.cpython-313.pyc",
+      "factory/__pycache__/connector_verification_runner.cpython-313.pyc",
+      "factory/__pycache__/connector_verification_receipt.cpython-313.pyc",
+      "factory/__pycache__/production_activation_gate.cpython-313.pyc",
+      "factory/__pycache__/external_verification_center.cpython-313.pyc",
+      "factory/__pycache__/calculator_registry.cpython-313.pyc",
+      "factory/__pycache__/calculator_intent_engine.cpython-313.pyc",
+      "factory/__pycache__/calculator_matcher.cpython-313.pyc",
+      "factory/__pycache__/calculator_generation_request.cpython-313.pyc",
+      "factory/__pycache__/calculator_solution_package.cpython-313.pyc",
+      "factory/__pycache__/calculator_cms_registry.cpython-313.pyc",
+      "factory/__pycache__/calculator_qa.cpython-313.pyc",
+      "factory/__pycache__/calculator_analytics.cpython-313.pyc",
+      "factory/__pycache__/calculator_hq.cpython-313.pyc",
+      "factory/__pycache__/deployment_integrity.cpython-313.pyc",
+      "factory/__pycache__/__init__.cpython-313.pyc",
+      "factory/__pycache__/utils.cpython-313.pyc",
+      "factory/__pycache__/evidence.cpython-313.pyc",
+      "factory/__pycache__/doctor.cpython-313.pyc",
+      "factory/__pycache__/catalog.cpython-313.pyc",
+      "factory/__pycache__/history.cpython-313.pyc",
+      "factory/__pycache__/full_automation.cpython-313.pyc",
+      "factory/__pycache__/image_engine.cpython-313.pyc",
+      "factory/__pycache__/supervisor.cpython-313.pyc",
+      "factory/__pycache__/contracts.cpython-313.pyc",
+      "factory/__pycache__/approval_center.cpython-313.pyc",
+      "factory/__pycache__/task_dispatcher.cpython-313.pyc",
+      "factory/__pycache__/message_bus.cpython-313.pyc",
+      "factory/__pycache__/workflow_state.cpython-313.pyc",
+      "factory/__pycache__/event_log.cpython-313.pyc",
+      "factory/__pycache__/rework_manager.cpython-313.pyc",
+      "factory/__pycache__/approval_checklist.cpython-313.pyc",
+      "factory/__pycache__/operation_board.cpython-313.pyc",
+      "factory/__pycache__/department_board.cpython-313.pyc",
+      "factory/__pycache__/factory_cleaner.cpython-313.pyc",
+      "factory/__pycache__/release_packager.cpython-313.pyc"
+    ],
+    "git_preserved": true,
+    "cleaned_at": "2026-07-14T15:50:17+00:00"
+  },
+  "deployment_integrity": {
+    "pass": true,
+    "status": "pass",
+    "checks": {
+      "publisher_lock_pass": true,
+      "doctor_pass": true,
+      "critical_files_present": true,
+      "ads_txt_exact": true
+    },
+    "blockers": [],
+    "missing": [],
+    "critical_files": [
+      {
+        "path": "ads.txt",
+        "size": 58,
+        "sha256": "161feb2efb7ff2e90c47e6724bfd8dd822e16f1e1e26a9ba855ef840722cdd06"
+      },
+      {
+        "path": "index.html",
+        "size": 106483,
+        "sha256": "1cd5c3aec90989643f3e71041a0ae80d1630c79d6f27093a4fdd4dfd331d4954"
+      },
+      {
+        "path": "factory/config/adsense_identity.json",
+        "size": 488,
+        "sha256": "0916fdb1f3abf6e3007970344dc06b442f940b24bf53cf2438ce218cb6909bea"
+      },
+      {
+        "path": "factory/adsense_manager.py",
+        "size": 5451,
+        "sha256": "1bea76139ef01243b834263496d7a4564397606e7dac99a513a43f4745bc0b06"
+      },
+      {
+        "path": "factory/pipeline.py",
+        "size": 7756,
+        "sha256": "c9831bd22cb78c061aadc99d5c1765dbe00c8ecf80dcdaca00ce30efc5180fdf"
+      },
+      {
+        "path": "factory/publication.py",
+        "size": 4035,
+        "sha256": "ebf6a43edfbdfddd2dd0e8b51f6434b5e46868c8ce548818cb7a071839b4bf44"
+      },
+      {
+        "path": "factory/deployment_gate.py",
+        "size": 2069,
+        "sha256": "c35075f083fd9831945f910068c0d683ea3a64a6a96ba221156a80296bf3ecd8"
+      },
+      {
+        "path": "factory/deploy.py",
+        "size": 926,
+        "sha256": "7e148edb3a5b07206f69c65a3f03527f131d5be479c7709fa4fafcfe230b25de"
+      }
+    ],
+    "publisher_lock": {
+      "pass": true,
+      "blockers": [],
+      "repair": {
+        "changed_count": 0,
+        "changed": [],
+        "checked_at": "2026-07-14T15:50:17+00:00"
+      },
+      "ads_txt": {
+        "path": "ads.txt",
+        "exists": true,
+        "valid": true,
+        "executed": true,
+        "checked_at": "2026-07-14T15:50:17+00:00"
+      },
+      "index": {
+        "pass": true,
+        "ids": [
+          "ca-pub-7605193583747751"
+        ],
+        "changed": false,
+        "executed": false,
+        "checked_at": "2026-07-14T15:50:17+00:00"
+      },
+      "scan": {
+        "pass": true,
+        "official_publisher_id": "pub-7605193583747751",
+        "official_client": "ca-pub-7605193583747751",
+        "files_with_ids": [
+          {
+            "path": "ads.txt",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory_manifest.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "index.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "VERSION.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/MASTER_ROADMAP_V2_044.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/QA_V2_042.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/QA_V2_043.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/README_FACTORY.md",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/auto_release.py",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/MASTER_ROADMAP_V2_045.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/config/adsense_identity.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/config/auto_release_rules.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/deployment_gate_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/deployment_integrity_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/deployment_report_v2_044.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/auto_release_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/tests/test_v2043_deployment_integrity.py",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/tests/test_v2044.py",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/tests/test_v2045.py",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/adsense/adsense_lock_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/adsense/index_report.json",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/adsense/publisher_scan.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          }
+        ],
+        "invalid_count": 0,
+        "invalid": [],
+        "checked_at": "2026-07-14T15:50:17+00:00"
+      },
+      "status": "pass",
+      "checked_at": "2026-07-14T15:50:17+00:00"
+    },
+    "doctor": {
+      "pass": true,
+      "checks": [
+        {
+          "name": "module:adsense_manager.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:auto_release.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:planner.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:researcher.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:writer.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:seo.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:qa.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cms.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:git_engine.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:deploy.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:pipeline.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:orchestrator.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:state_db.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:scheduler.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:incremental.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:dna_versioning.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:run.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:registry.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:dedupe.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:link_graph.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:publication.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:release.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:adsense_audit.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:eeat.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:indexability.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:source_registry.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:research_collector.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:research_qa.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:research_report.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:research_department.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:web_connector.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:openapi_connector.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:research_cache.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:research_web_runner.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:image_queue.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:image_adapters.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:deployment_gate.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:search_evidence.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:evidence_merge.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:image_result_linker.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:git_executor.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cloudflare_deploy.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:publish_executor.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:wordpress_connector.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:publish_package.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:wordpress_publisher.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cloudflare_pages_client.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cloudflare_deploy_verify.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:service_readiness.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:deployment_receipt.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:git_release_executor.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cloudflare_deployment_monitor.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:release_coordinator.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:wordpress_taxonomy.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:wordpress_upsert.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:runtime_config.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:wordpress_release_plan.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cloudflare_health_check.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:government_api_adapters.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:research_ingestion_pipeline.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:image_provider_result.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:google_service_auth.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:search_console_engine.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:ga4_engine.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:analytics_dashboard.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:content_performance_optimizer.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:google_jwt_auth.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:search_console_api.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:ga4_api.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:analytics_scheduler.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:keyword_rank_tracker.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:analytics_rework_bridge.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:google_token_exchange.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:google_access_token.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:article_optimization_executor.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:scheduler_installer.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:department_handoff.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:department_gate.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:automation_cycle.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:auto_rework_engine.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cycle_dashboard.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_import.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_dashboard.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_ai.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_task_router.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_core.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_html_rewriter.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_qa_recheck.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_cms_update.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_rework_pipeline.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:approved_release_gate.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cloudflare_new_deployment.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:release_journal.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:post_deploy_verifier.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:approved_republish.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:end_to_end_audit.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:regression_manifest.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:final_release_manifest.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:final_release_coordinator.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:master_checklist.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:external_integration_registry.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:integration_preflight.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:live_verification_plan.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:adsense_report_import.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:adsense_revenue_bridge.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:production_readiness_board.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:operations_snapshot.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:incident_detector.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:recovery_planner.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:retry_policy.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:operations_center.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:credential_onboarding.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:connector_verification_runner.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:connector_verification_receipt.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:production_activation_gate.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:external_verification_center.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_registry.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_intent_engine.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_matcher.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_generation_request.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_solution_package.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_cms_registry.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_qa.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_analytics.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_hq.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:deployment_integrity.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "config:adsense_identity.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:article_dna.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:article_types.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:qa_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:research_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:seo_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:factory_manifest.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:orchestrator_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:publication_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:adsense_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:source_registry.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:research_quality_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:web_connector_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:openapi_sources.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:search_evidence_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:deployment_execution_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:external_services.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:release_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:wordpress_publish_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:government_api_services.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:site_health_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:analytics_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:analytics_schedule_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:automation_execution_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:department_gate_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:revenue_ai_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:revenue_rework_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:approved_republish_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:final_release_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:external_integration_registry.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:production_readiness_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:operations_monitoring_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:external_verification_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:calculator_registry.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:calculator_hq_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:auto_release_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "sqlite-schema",
+          "pass": true,
+          "detail": "tables=['approvals', 'content_registry', 'dead_letter', 'dna_versions', 'queue', 'runs', 'sqlite_sequence']"
+        },
+        {
+          "name": "internal-link-scan",
+          "pass": true,
+          "detail": "nodes=219 broken=3 orphans=31"
+        }
+      ],
+      "module_count": 126,
+      "config_count": 36,
+      "adsense_lock": null,
+      "link_graph_summary": {
+        "nodes": 219,
+        "edges": 7113,
+        "broken": 3,
+        "orphans": 31
+      }
+    },
+    "official_publisher_id": "pub-7605193583747751",
+    "checked_at": "2026-07-14T15:50:18+00:00"
+  },
+  "publisher_id": "pub-7605193583747751",
+  "forbidden_archive_content": [
+    ".DS_Store",
+    ".git",
+    ".mypy_cache",
+    ".pyc",
+    ".pyo",
+    ".pytest_cache",
+    ".ruff_cache",
+    ".temp",
+    ".tmp",
+    "Thumbs.db",
+    "__pycache__"
+  ],
+  "created_at": "2026-07-14T15:50:18+00:00"
+}

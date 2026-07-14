@@ -57,14 +57,14 @@
     "repair": {
       "changed_count": 0,
       "changed": [],
-      "checked_at": "2026-07-14T15:35:03+00:00"
+      "checked_at": "2026-07-14T15:50:17+00:00"
     },
     "ads_txt": {
       "path": "ads.txt",
       "exists": true,
       "valid": true,
       "executed": true,
-      "checked_at": "2026-07-14T15:35:03+00:00"
+      "checked_at": "2026-07-14T15:50:17+00:00"
     },
     "index": {
       "pass": true,
@@ -73,7 +73,7 @@
       ],
       "changed": false,
       "executed": false,
-      "checked_at": "2026-07-14T15:35:03+00:00"
+      "checked_at": "2026-07-14T15:50:17+00:00"
     },
     "scan": {
       "pass": true,
@@ -83,6 +83,13 @@
         {
           "path": "ads.txt",
           "ids": [
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory_manifest.json",
+          "ids": [
+            "ca-pub-7605193583747751",
             "pub-7605193583747751"
           ]
         },
@@ -99,9 +106,8 @@
           ]
         },
         {
-          "path": "factory_manifest.json",
+          "path": "factory/MASTER_ROADMAP_V2_044.json",
           "ids": [
-            "ca-pub-7605193583747751",
             "pub-7605193583747751"
           ]
         },
@@ -125,7 +131,14 @@
           ]
         },
         {
-          "path": "factory/MASTER_ROADMAP_V2_044.json",
+          "path": "factory/auto_release.py",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/MASTER_ROADMAP_V2_045.json",
           "ids": [
             "pub-7605193583747751"
           ]
@@ -138,7 +151,7 @@
           ]
         },
         {
-          "path": "factory/output/deployment_integrity_report.json",
+          "path": "factory/config/auto_release_rules.json",
           "ids": [
             "ca-pub-7605193583747751",
             "pub-7605193583747751"
@@ -152,7 +165,21 @@
           ]
         },
         {
+          "path": "factory/output/deployment_integrity_report.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
           "path": "factory/output/deployment_report_v2_044.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/auto_release_report.json",
           "ids": [
             "ca-pub-7605193583747751",
             "pub-7605193583747751"
@@ -167,6 +194,13 @@
         },
         {
           "path": "factory/tests/test_v2044.py",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/tests/test_v2045.py",
           "ids": [
             "ca-pub-7605193583747751",
             "pub-7605193583747751"
@@ -195,16 +229,21 @@
       ],
       "invalid_count": 0,
       "invalid": [],
-      "checked_at": "2026-07-14T15:35:03+00:00"
+      "checked_at": "2026-07-14T15:50:17+00:00"
     },
     "status": "pass",
-    "checked_at": "2026-07-14T15:35:03+00:00"
+    "checked_at": "2026-07-14T15:50:17+00:00"
   },
   "doctor": {
     "pass": true,
     "checks": [
       {
         "name": "module:adsense_manager.py",
+        "pass": true,
+        "detail": "compiled"
+      },
+      {
+        "name": "module:auto_release.py",
         "pass": true,
         "detail": "compiled"
       },
@@ -1004,6 +1043,11 @@
         "detail": "valid json"
       },
       {
+        "name": "config:auto_release_rules.json",
+        "pass": true,
+        "detail": "valid json"
+      },
+      {
         "name": "sqlite-schema",
         "pass": true,
         "detail": "tables=['approvals', 'content_registry', 'dead_letter', 'dna_versions', 'queue', 'runs', 'sqlite_sequence']"
@@ -1011,19 +1055,19 @@
       {
         "name": "internal-link-scan",
         "pass": true,
-        "detail": "nodes=218 broken=3 orphans=30"
+        "detail": "nodes=219 broken=3 orphans=31"
       }
     ],
-    "module_count": 125,
-    "config_count": 35,
+    "module_count": 126,
+    "config_count": 36,
     "adsense_lock": null,
     "link_graph_summary": {
-      "nodes": 218,
-      "edges": 7111,
+      "nodes": 219,
+      "edges": 7113,
       "broken": 3,
-      "orphans": 30
+      "orphans": 31
     }
   },
   "official_publisher_id": "pub-7605193583747751",
-  "checked_at": "2026-07-14T15:35:04+00:00"
+  "checked_at": "2026-07-14T15:50:18+00:00"
 }

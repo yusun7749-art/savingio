@@ -92,6 +92,7 @@ if __package__ in (None, ""):
     from factory.release_packager import build_release_package
     from factory.research_department import run_research_department
     from factory.planner import build_plan
+    from factory.auto_release import run_auto_release
 else:
     from .pipeline import execute
     from .orchestrator import Orchestrator
@@ -182,9 +183,10 @@ else:
     from .release_packager import build_release_package
     from .research_department import run_research_department
     from .planner import build_plan
+    from .auto_release import run_auto_release
 
 def main():
-    p=argparse.ArgumentParser(description="Savingio Factory V2.044")
+    p=argparse.ArgumentParser(description="Savingio Factory V2.045")
     sub=p.add_subparsers(dest="cmd")
 
     g=sub.add_parser("generate")
@@ -410,7 +412,13 @@ def main():
     sub.add_parser("deployment-gate")
     sub.add_parser("factory-clean")
     package=sub.add_parser("release-package")
-    package.add_argument("--output", default="savingio-live_v2_044_FACTORY_RELEASE_LOCK.zip")
+    package.add_argument("--output", default="savingio-live_v2_045_ONE_CLICK_RELEASE.zip")
+    auto=sub.add_parser("auto-release")
+    auto.add_argument("--execute",action="store_true")
+    auto.add_argument("--version",default="V2.045")
+    auto.add_argument("--message",default=None)
+    auto.add_argument("--base-url",default="https://savingio.com")
+    auto.add_argument("--no-live-verify",action="store_true")
     research_run=sub.add_parser("research-run")
     research_run.add_argument("topic")
     research_run.add_argument("--evidence",action="append",default=[])
@@ -491,6 +499,8 @@ def main():
         result=clean_factory(root)
     elif args.cmd=="release-package":
         result=build_release_package(root, root.parent / args.output)
+    elif args.cmd=="auto-release":
+        result=run_auto_release(root,version=args.version,message=args.message,execute=args.execute,verify_live=not args.no_live_verify,base_url=args.base_url)
     elif args.cmd=="search-to-evidence":
         result=convert_search_file(Path(args.input),root/"factory"/"config",root/args.output)
     elif args.cmd=="merge-evidence":

@@ -10,6 +10,13 @@
       ]
     },
     {
+      "path": "factory_manifest.json",
+      "ids": [
+        "ca-pub-7605193583747751",
+        "pub-7605193583747751"
+      ]
+    },
+    {
       "path": "index.html",
       "ids": [
         "ca-pub-7605193583747751"
@@ -22,9 +29,8 @@
       ]
     },
     {
-      "path": "factory_manifest.json",
+      "path": "factory/MASTER_ROADMAP_V2_044.json",
       "ids": [
-        "ca-pub-7605193583747751",
         "pub-7605193583747751"
       ]
     },
@@ -48,7 +54,14 @@
       ]
     },
     {
-      "path": "factory/MASTER_ROADMAP_V2_044.json",
+      "path": "factory/auto_release.py",
+      "ids": [
+        "ca-pub-7605193583747751",
+        "pub-7605193583747751"
+      ]
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_045.json",
       "ids": [
         "pub-7605193583747751"
       ]
@@ -61,7 +74,7 @@
       ]
     },
     {
-      "path": "factory/output/deployment_integrity_report.json",
+      "path": "factory/config/auto_release_rules.json",
       "ids": [
         "ca-pub-7605193583747751",
         "pub-7605193583747751"
@@ -75,7 +88,21 @@
       ]
     },
     {
+      "path": "factory/output/deployment_integrity_report.json",
+      "ids": [
+        "ca-pub-7605193583747751",
+        "pub-7605193583747751"
+      ]
+    },
+    {
       "path": "factory/output/deployment_report_v2_044.json",
+      "ids": [
+        "ca-pub-7605193583747751",
+        "pub-7605193583747751"
+      ]
+    },
+    {
+      "path": "factory/output/auto_release_report.json",
       "ids": [
         "ca-pub-7605193583747751",
         "pub-7605193583747751"
@@ -90,6 +117,13 @@
     },
     {
       "path": "factory/tests/test_v2044.py",
+      "ids": [
+        "ca-pub-7605193583747751",
+        "pub-7605193583747751"
+      ]
+    },
+    {
+      "path": "factory/tests/test_v2045.py",
       "ids": [
         "ca-pub-7605193583747751",
         "pub-7605193583747751"
@@ -118,5 +152,5 @@
   ],
   "invalid_count": 0,
   "invalid": [],
-  "checked_at": "2026-07-14T15:35:03+00:00"
+  "checked_at": "2026-07-14T15:50:17+00:00"
 }

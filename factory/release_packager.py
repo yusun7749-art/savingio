@@ -12,8 +12,8 @@ from .deployment_integrity import verify_deployment_integrity
 from .factory_cleaner import clean_factory
 from .utils import now_iso, save_json
 
-VERSION = "2.044"
-VERSION_LABEL = "V2.044"
+VERSION = "2.045"
+VERSION_LABEL = "V2.045"
 EXCLUDED_DIRS = {".git", "__pycache__", ".pytest_cache", ".mypy_cache", ".ruff_cache"}
 EXCLUDED_SUFFIXES = {".pyc", ".pyo", ".tmp", ".temp"}
 EXCLUDED_NAMES = {"Thumbs.db", ".DS_Store"}
@@ -88,7 +88,7 @@ def build_release_package(project_root: Path, output_zip: Path) -> dict:
     }
     save_json(root / "factory_manifest.json", manifest)
 
-    report_path = root / "factory" / "output" / "deployment_report_v2_044.json"
+    report_path = root / "factory" / "output" / "deployment_report_v2_045.json"
     internal_report = {
         "pass": True,
         "status": "pass",
@@ -96,7 +96,7 @@ def build_release_package(project_root: Path, output_zip: Path) -> dict:
         "release_pipeline": [
             "factory_cleaner", "publisher_lock", "doctor",
             "deployment_integrity", "version_freeze",
-            "factory_manifest", "zip_optimizer", "zip_verification"
+            "factory_manifest", "zip_optimizer", "zip_verification", "one_click_release_ready"
         ],
         "cleaner": cleaner,
         "deployment_integrity": integrity,

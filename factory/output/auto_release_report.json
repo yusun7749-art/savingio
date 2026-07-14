@@ -1,0 +1,1775 @@
+{
+  "version": "V2.045",
+  "status": "dry_run",
+  "execute": false,
+  "created_at": "2026-07-14T15:50:03+00:00",
+  "stages": [
+    {
+      "stage": "cleaner",
+      "pass": true,
+      "result": {
+        "pass": true,
+        "status": "clean",
+        "removed_directory_count": 4,
+        "removed_file_count": 223,
+        "removed_directories": [
+          "factory/operations/__pycache__",
+          "factory/tests/__pycache__",
+          "factory/__pycache__",
+          ".pytest_cache"
+        ],
+        "removed_files": [
+          "factory/tests/__pycache__/__init__.cpython-313.pyc",
+          "factory/tests/__pycache__/test_department_board.cpython-313.pyc",
+          "factory/tests/__pycache__/test_factory.cpython-313.pyc",
+          "factory/tests/__pycache__/test_factory_v2016.cpython-313.pyc",
+          "factory/tests/__pycache__/test_factory_v2017.cpython-313.pyc",
+          "factory/tests/__pycache__/test_factory_v2018.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2019.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2020.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2021.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2022.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2025.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2026.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2028.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2029.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2030.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2031.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2032.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2033.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2034.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2035.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2036.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2037a.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2037b.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2037c.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2037d.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2038.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2039.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2040.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2041.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2042_adsense_lock.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2043_deployment_integrity.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2044.cpython-313.pyc",
+          "factory/tests/__pycache__/test_v2045.cpython-313.pyc",
+          "factory/tests/__pycache__/test_department_board.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_factory.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_factory_v2016.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_factory_v2017.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_factory_v2018.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2019.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2020.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2021.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2022.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2025.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2026.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2028.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2029.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2030.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2031.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2032.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2033.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2034.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2035.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2036.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2037a.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2037b.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2037c.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2037d.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2038.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2039.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2040.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2041.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2042_adsense_lock.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2043_deployment_integrity.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2044.cpython-313-pytest-9.0.2.pyc",
+          "factory/tests/__pycache__/test_v2045.cpython-313-pytest-9.0.2.pyc",
+          "factory/operations/__pycache__/message_bus.cpython-313.pyc",
+          "factory/__pycache__/__init__.cpython-313.pyc",
+          "factory/__pycache__/approval_center.cpython-313.pyc",
+          "factory/__pycache__/approval_checklist.cpython-313.pyc",
+          "factory/__pycache__/auditor.cpython-313.pyc",
+          "factory/__pycache__/backlog.cpython-313.pyc",
+          "factory/__pycache__/batch.cpython-313.pyc",
+          "factory/__pycache__/batch_planner.cpython-313.pyc",
+          "factory/__pycache__/catalog.cpython-313.pyc",
+          "factory/__pycache__/contracts.cpython-313.pyc",
+          "factory/__pycache__/department_board.cpython-313.pyc",
+          "factory/__pycache__/doctor.cpython-313.pyc",
+          "factory/__pycache__/event_log.cpython-313.pyc",
+          "factory/__pycache__/evidence.cpython-313.pyc",
+          "factory/__pycache__/factory_cleaner.cpython-313.pyc",
+          "factory/__pycache__/factory_cli.cpython-313.pyc",
+          "factory/__pycache__/full_automation.cpython-313.pyc",
+          "factory/__pycache__/history.cpython-313.pyc",
+          "factory/__pycache__/image_engine.cpython-313.pyc",
+          "factory/__pycache__/message_bus.cpython-313.pyc",
+          "factory/__pycache__/operation_board.cpython-313.pyc",
+          "factory/__pycache__/release_packager.cpython-313.pyc",
+          "factory/__pycache__/renewal.cpython-313.pyc",
+          "factory/__pycache__/rework_manager.cpython-313.pyc",
+          "factory/__pycache__/rewriter.cpython-313.pyc",
+          "factory/__pycache__/site_adapters.cpython-313.pyc",
+          "factory/__pycache__/state.cpython-313.pyc",
+          "factory/__pycache__/supervisor.cpython-313.pyc",
+          "factory/__pycache__/task_dispatcher.cpython-313.pyc",
+          "factory/__pycache__/template_guard.cpython-313.pyc",
+          "factory/__pycache__/utils.cpython-313.pyc",
+          "factory/__pycache__/workflow_state.cpython-313.pyc",
+          "factory/__pycache__/adsense_manager.cpython-313.pyc",
+          "factory/__pycache__/auto_release.cpython-313.pyc",
+          "factory/__pycache__/planner.cpython-313.pyc",
+          "factory/__pycache__/researcher.cpython-313.pyc",
+          "factory/__pycache__/writer.cpython-313.pyc",
+          "factory/__pycache__/seo.cpython-313.pyc",
+          "factory/__pycache__/qa.cpython-313.pyc",
+          "factory/__pycache__/cms.cpython-313.pyc",
+          "factory/__pycache__/git_engine.cpython-313.pyc",
+          "factory/__pycache__/deploy.cpython-313.pyc",
+          "factory/__pycache__/pipeline.cpython-313.pyc",
+          "factory/__pycache__/orchestrator.cpython-313.pyc",
+          "factory/__pycache__/state_db.cpython-313.pyc",
+          "factory/__pycache__/scheduler.cpython-313.pyc",
+          "factory/__pycache__/incremental.cpython-313.pyc",
+          "factory/__pycache__/dna_versioning.cpython-313.pyc",
+          "factory/__pycache__/run.cpython-313.pyc",
+          "factory/__pycache__/registry.cpython-313.pyc",
+          "factory/__pycache__/dedupe.cpython-313.pyc",
+          "factory/__pycache__/link_graph.cpython-313.pyc",
+          "factory/__pycache__/publication.cpython-313.pyc",
+          "factory/__pycache__/release.cpython-313.pyc",
+          "factory/__pycache__/adsense_audit.cpython-313.pyc",
+          "factory/__pycache__/eeat.cpython-313.pyc",
+          "factory/__pycache__/indexability.cpython-313.pyc",
+          "factory/__pycache__/source_registry.cpython-313.pyc",
+          "factory/__pycache__/research_collector.cpython-313.pyc",
+          "factory/__pycache__/research_qa.cpython-313.pyc",
+          "factory/__pycache__/research_report.cpython-313.pyc",
+          "factory/__pycache__/research_department.cpython-313.pyc",
+          "factory/__pycache__/web_connector.cpython-313.pyc",
+          "factory/__pycache__/openapi_connector.cpython-313.pyc",
+          "factory/__pycache__/research_cache.cpython-313.pyc",
+          "factory/__pycache__/research_web_runner.cpython-313.pyc",
+          "factory/__pycache__/image_queue.cpython-313.pyc",
+          "factory/__pycache__/image_adapters.cpython-313.pyc",
+          "factory/__pycache__/deployment_gate.cpython-313.pyc",
+          "factory/__pycache__/search_evidence.cpython-313.pyc",
+          "factory/__pycache__/evidence_merge.cpython-313.pyc",
+          "factory/__pycache__/image_result_linker.cpython-313.pyc",
+          "factory/__pycache__/git_executor.cpython-313.pyc",
+          "factory/__pycache__/cloudflare_deploy.cpython-313.pyc",
+          "factory/__pycache__/publish_executor.cpython-313.pyc",
+          "factory/__pycache__/wordpress_connector.cpython-313.pyc",
+          "factory/__pycache__/publish_package.cpython-313.pyc",
+          "factory/__pycache__/wordpress_publisher.cpython-313.pyc",
+          "factory/__pycache__/cloudflare_pages_client.cpython-313.pyc",
+          "factory/__pycache__/cloudflare_deploy_verify.cpython-313.pyc",
+          "factory/__pycache__/service_readiness.cpython-313.pyc",
+          "factory/__pycache__/deployment_receipt.cpython-313.pyc",
+          "factory/__pycache__/git_release_executor.cpython-313.pyc",
+          "factory/__pycache__/cloudflare_deployment_monitor.cpython-313.pyc",
+          "factory/__pycache__/release_coordinator.cpython-313.pyc",
+          "factory/__pycache__/wordpress_taxonomy.cpython-313.pyc",
+          "factory/__pycache__/wordpress_upsert.cpython-313.pyc",
+          "factory/__pycache__/runtime_config.cpython-313.pyc",
+          "factory/__pycache__/wordpress_release_plan.cpython-313.pyc",
+          "factory/__pycache__/cloudflare_health_check.cpython-313.pyc",
+          "factory/__pycache__/government_api_adapters.cpython-313.pyc",
+          "factory/__pycache__/research_ingestion_pipeline.cpython-313.pyc",
+          "factory/__pycache__/image_provider_result.cpython-313.pyc",
+          "factory/__pycache__/google_service_auth.cpython-313.pyc",
+          "factory/__pycache__/search_console_engine.cpython-313.pyc",
+          "factory/__pycache__/ga4_engine.cpython-313.pyc",
+          "factory/__pycache__/analytics_dashboard.cpython-313.pyc",
+          "factory/__pycache__/content_performance_optimizer.cpython-313.pyc",
+          "factory/__pycache__/google_jwt_auth.cpython-313.pyc",
+          "factory/__pycache__/search_console_api.cpython-313.pyc",
+          "factory/__pycache__/ga4_api.cpython-313.pyc",
+          "factory/__pycache__/analytics_scheduler.cpython-313.pyc",
+          "factory/__pycache__/keyword_rank_tracker.cpython-313.pyc",
+          "factory/__pycache__/analytics_rework_bridge.cpython-313.pyc",
+          "factory/__pycache__/google_token_exchange.cpython-313.pyc",
+          "factory/__pycache__/google_access_token.cpython-313.pyc",
+          "factory/__pycache__/article_optimization_executor.cpython-313.pyc",
+          "factory/__pycache__/scheduler_installer.cpython-313.pyc",
+          "factory/__pycache__/department_handoff.cpython-313.pyc",
+          "factory/__pycache__/department_gate.cpython-313.pyc",
+          "factory/__pycache__/automation_cycle.cpython-313.pyc",
+          "factory/__pycache__/auto_rework_engine.cpython-313.pyc",
+          "factory/__pycache__/cycle_dashboard.cpython-313.pyc",
+          "factory/__pycache__/revenue_import.cpython-313.pyc",
+          "factory/__pycache__/revenue_dashboard.cpython-313.pyc",
+          "factory/__pycache__/revenue_ai.cpython-313.pyc",
+          "factory/__pycache__/revenue_task_router.cpython-313.pyc",
+          "factory/__pycache__/revenue_core.cpython-313.pyc",
+          "factory/__pycache__/revenue_html_rewriter.cpython-313.pyc",
+          "factory/__pycache__/revenue_qa_recheck.cpython-313.pyc",
+          "factory/__pycache__/revenue_cms_update.cpython-313.pyc",
+          "factory/__pycache__/revenue_rework_pipeline.cpython-313.pyc",
+          "factory/__pycache__/approved_release_gate.cpython-313.pyc",
+          "factory/__pycache__/cloudflare_new_deployment.cpython-313.pyc",
+          "factory/__pycache__/release_journal.cpython-313.pyc",
+          "factory/__pycache__/post_deploy_verifier.cpython-313.pyc",
+          "factory/__pycache__/approved_republish.cpython-313.pyc",
+          "factory/__pycache__/end_to_end_audit.cpython-313.pyc",
+          "factory/__pycache__/regression_manifest.cpython-313.pyc",
+          "factory/__pycache__/final_release_manifest.cpython-313.pyc",
+          "factory/__pycache__/final_release_coordinator.cpython-313.pyc",
+          "factory/__pycache__/master_checklist.cpython-313.pyc",
+          "factory/__pycache__/external_integration_registry.cpython-313.pyc",
+          "factory/__pycache__/integration_preflight.cpython-313.pyc",
+          "factory/__pycache__/live_verification_plan.cpython-313.pyc",
+          "factory/__pycache__/adsense_report_import.cpython-313.pyc",
+          "factory/__pycache__/adsense_revenue_bridge.cpython-313.pyc",
+          "factory/__pycache__/production_readiness_board.cpython-313.pyc",
+          "factory/__pycache__/operations_snapshot.cpython-313.pyc",
+          "factory/__pycache__/incident_detector.cpython-313.pyc",
+          "factory/__pycache__/recovery_planner.cpython-313.pyc",
+          "factory/__pycache__/retry_policy.cpython-313.pyc",
+          "factory/__pycache__/operations_center.cpython-313.pyc",
+          "factory/__pycache__/credential_onboarding.cpython-313.pyc",
+          "factory/__pycache__/connector_verification_runner.cpython-313.pyc",
+          "factory/__pycache__/connector_verification_receipt.cpython-313.pyc",
+          "factory/__pycache__/production_activation_gate.cpython-313.pyc",
+          "factory/__pycache__/external_verification_center.cpython-313.pyc",
+          "factory/__pycache__/calculator_registry.cpython-313.pyc",
+          "factory/__pycache__/calculator_intent_engine.cpython-313.pyc",
+          "factory/__pycache__/calculator_matcher.cpython-313.pyc",
+          "factory/__pycache__/calculator_generation_request.cpython-313.pyc",
+          "factory/__pycache__/calculator_solution_package.cpython-313.pyc",
+          "factory/__pycache__/calculator_cms_registry.cpython-313.pyc",
+          "factory/__pycache__/calculator_qa.cpython-313.pyc",
+          "factory/__pycache__/calculator_analytics.cpython-313.pyc",
+          "factory/__pycache__/calculator_hq.cpython-313.pyc",
+          "factory/__pycache__/deployment_integrity.cpython-313.pyc"
+        ],
+        "git_preserved": true,
+        "cleaned_at": "2026-07-14T15:50:03+00:00"
+      }
+    },
+    {
+      "stage": "deployment_integrity",
+      "pass": true,
+      "result": {
+        "pass": true,
+        "status": "pass",
+        "checks": {
+          "publisher_lock_pass": true,
+          "doctor_pass": true,
+          "critical_files_present": true,
+          "ads_txt_exact": true
+        },
+        "blockers": [],
+        "missing": [],
+        "critical_files": [
+          {
+            "path": "ads.txt",
+            "size": 58,
+            "sha256": "161feb2efb7ff2e90c47e6724bfd8dd822e16f1e1e26a9ba855ef840722cdd06"
+          },
+          {
+            "path": "index.html",
+            "size": 106483,
+            "sha256": "1cd5c3aec90989643f3e71041a0ae80d1630c79d6f27093a4fdd4dfd331d4954"
+          },
+          {
+            "path": "factory/config/adsense_identity.json",
+            "size": 488,
+            "sha256": "0916fdb1f3abf6e3007970344dc06b442f940b24bf53cf2438ce218cb6909bea"
+          },
+          {
+            "path": "factory/adsense_manager.py",
+            "size": 5451,
+            "sha256": "1bea76139ef01243b834263496d7a4564397606e7dac99a513a43f4745bc0b06"
+          },
+          {
+            "path": "factory/pipeline.py",
+            "size": 7756,
+            "sha256": "c9831bd22cb78c061aadc99d5c1765dbe00c8ecf80dcdaca00ce30efc5180fdf"
+          },
+          {
+            "path": "factory/publication.py",
+            "size": 4035,
+            "sha256": "ebf6a43edfbdfddd2dd0e8b51f6434b5e46868c8ce548818cb7a071839b4bf44"
+          },
+          {
+            "path": "factory/deployment_gate.py",
+            "size": 2069,
+            "sha256": "c35075f083fd9831945f910068c0d683ea3a64a6a96ba221156a80296bf3ecd8"
+          },
+          {
+            "path": "factory/deploy.py",
+            "size": 926,
+            "sha256": "7e148edb3a5b07206f69c65a3f03527f131d5be479c7709fa4fafcfe230b25de"
+          }
+        ],
+        "publisher_lock": {
+          "pass": true,
+          "blockers": [],
+          "repair": {
+            "changed_count": 0,
+            "changed": [],
+            "checked_at": "2026-07-14T15:50:04+00:00"
+          },
+          "ads_txt": {
+            "path": "ads.txt",
+            "exists": true,
+            "valid": true,
+            "executed": true,
+            "checked_at": "2026-07-14T15:50:04+00:00"
+          },
+          "index": {
+            "pass": true,
+            "ids": [
+              "ca-pub-7605193583747751"
+            ],
+            "changed": false,
+            "executed": false,
+            "checked_at": "2026-07-14T15:50:04+00:00"
+          },
+          "scan": {
+            "pass": true,
+            "official_publisher_id": "pub-7605193583747751",
+            "official_client": "ca-pub-7605193583747751",
+            "files_with_ids": [
+              {
+                "path": "ads.txt",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory_manifest.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "index.html",
+                "ids": [
+                  "ca-pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "VERSION.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/MASTER_ROADMAP_V2_044.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/QA_V2_042.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/QA_V2_043.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/README_FACTORY.md",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/auto_release.py",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/MASTER_ROADMAP_V2_045.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/config/adsense_identity.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/config/auto_release_rules.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/deployment_gate_report.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/deployment_integrity_report.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/deployment_report_v2_044.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/auto_release_report.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/tests/test_v2043_deployment_integrity.py",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/tests/test_v2044.py",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/tests/test_v2045.py",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/adsense/adsense_lock_report.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/adsense/index_report.json",
+                "ids": [
+                  "ca-pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/adsense/publisher_scan.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              }
+            ],
+            "invalid_count": 0,
+            "invalid": [],
+            "checked_at": "2026-07-14T15:50:04+00:00"
+          },
+          "status": "pass",
+          "checked_at": "2026-07-14T15:50:04+00:00"
+        },
+        "doctor": {
+          "pass": true,
+          "checks": [
+            {
+              "name": "module:adsense_manager.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:auto_release.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:planner.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:researcher.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:writer.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:seo.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:qa.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cms.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:git_engine.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:deploy.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:pipeline.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:orchestrator.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:state_db.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:scheduler.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:incremental.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:dna_versioning.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:run.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:registry.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:dedupe.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:link_graph.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:publication.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:release.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:adsense_audit.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:eeat.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:indexability.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:source_registry.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:research_collector.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:research_qa.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:research_report.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:research_department.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:web_connector.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:openapi_connector.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:research_cache.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:research_web_runner.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:image_queue.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:image_adapters.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:deployment_gate.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:search_evidence.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:evidence_merge.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:image_result_linker.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:git_executor.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cloudflare_deploy.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:publish_executor.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:wordpress_connector.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:publish_package.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:wordpress_publisher.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cloudflare_pages_client.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cloudflare_deploy_verify.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:service_readiness.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:deployment_receipt.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:git_release_executor.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cloudflare_deployment_monitor.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:release_coordinator.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:wordpress_taxonomy.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:wordpress_upsert.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:runtime_config.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:wordpress_release_plan.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cloudflare_health_check.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:government_api_adapters.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:research_ingestion_pipeline.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:image_provider_result.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:google_service_auth.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:search_console_engine.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:ga4_engine.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:analytics_dashboard.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:content_performance_optimizer.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:google_jwt_auth.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:search_console_api.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:ga4_api.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:analytics_scheduler.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:keyword_rank_tracker.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:analytics_rework_bridge.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:google_token_exchange.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:google_access_token.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:article_optimization_executor.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:scheduler_installer.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:department_handoff.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:department_gate.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:automation_cycle.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:auto_rework_engine.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cycle_dashboard.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_import.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_dashboard.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_ai.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_task_router.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_core.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_html_rewriter.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_qa_recheck.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_cms_update.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_rework_pipeline.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:approved_release_gate.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cloudflare_new_deployment.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:release_journal.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:post_deploy_verifier.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:approved_republish.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:end_to_end_audit.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:regression_manifest.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:final_release_manifest.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:final_release_coordinator.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:master_checklist.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:external_integration_registry.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:integration_preflight.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:live_verification_plan.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:adsense_report_import.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:adsense_revenue_bridge.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:production_readiness_board.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:operations_snapshot.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:incident_detector.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:recovery_planner.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:retry_policy.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:operations_center.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:credential_onboarding.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:connector_verification_runner.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:connector_verification_receipt.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:production_activation_gate.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:external_verification_center.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_registry.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_intent_engine.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_matcher.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_generation_request.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_solution_package.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_cms_registry.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_qa.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_analytics.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_hq.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:deployment_integrity.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "config:adsense_identity.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:article_dna.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:article_types.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:qa_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:research_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:seo_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:factory_manifest.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:orchestrator_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:publication_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:adsense_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:source_registry.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:research_quality_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:web_connector_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:openapi_sources.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:search_evidence_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:deployment_execution_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:external_services.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:release_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:wordpress_publish_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:government_api_services.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:site_health_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:analytics_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:analytics_schedule_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:automation_execution_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:department_gate_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:revenue_ai_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:revenue_rework_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:approved_republish_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:final_release_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:external_integration_registry.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:production_readiness_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:operations_monitoring_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:external_verification_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:calculator_registry.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:calculator_hq_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:auto_release_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "sqlite-schema",
+              "pass": true,
+              "detail": "tables=['approvals', 'content_registry', 'dead_letter', 'dna_versions', 'queue', 'runs', 'sqlite_sequence']"
+            },
+            {
+              "name": "internal-link-scan",
+              "pass": true,
+              "detail": "nodes=219 broken=3 orphans=31"
+            }
+          ],
+          "module_count": 126,
+          "config_count": 36,
+          "adsense_lock": null,
+          "link_graph_summary": {
+            "nodes": 219,
+            "edges": 7113,
+            "broken": 3,
+            "orphans": 31
+          }
+        },
+        "official_publisher_id": "pub-7605193583747751",
+        "checked_at": "2026-07-14T15:50:04+00:00"
+      }
+    },
+    {
+      "stage": "git_preflight",
+      "pass": true,
+      "result": {
+        "pass": true,
+        "branch": "main",
+        "origin": "https://github.com/yusun7749-art/savingio.git",
+        "checks": {
+          "repo": {
+            "command": [
+              "git",
+              "rev-parse",
+              "--is-inside-work-tree"
+            ],
+            "returncode": 0,
+            "stdout": "true",
+            "stderr": ""
+          },
+          "branch": {
+            "command": [
+              "git",
+              "branch",
+              "--show-current"
+            ],
+            "returncode": 0,
+            "stdout": "main",
+            "stderr": ""
+          },
+          "origin": {
+            "command": [
+              "git",
+              "remote",
+              "get-url",
+              "origin"
+            ],
+            "returncode": 0,
+            "stdout": "https://github.com/yusun7749-art/savingio.git",
+            "stderr": ""
+          },
+          "conflicts": {
+            "command": [
+              "git",
+              "diff",
+              "--name-only",
+              "--diff-filter=U"
+            ],
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ""
+          }
+        }
+      }
+    }
+  ],
+  "changed_files": [
+    "gitignore",
+    "1-#Uc2e0#Uaddc#Uae0010#Uac1c-#Ud655#Uc778.bat",
+    "1-#Uc601#Ubb38#Ucf58#Ud150#Uce20-#Ud55c#Uad6d#Uc5b4#Uc218#Uc815.bat",
+    "1-#Ucd5c#Uc885#Ubaa9#Ub85d#Ubcf5#Uad6c-#Uc2e4#Ud589.bat",
+    "1-#Ud55c#Uad6d#Uc5b4#Uac80#Uc0c9#Ud328#Uce58-#Uc2e4#Ud589.bat",
+    "1-Part007-#Uc801#Uc6a9.bat",
+    "1-Part007-\\354\\240\\201\\354\\232\\251.bat",
+    "1-\\354\\213\\240\\352\\267\\234\\352\\270\\20010\\352\\260\\234-\\355\\231\\225\\354\\235\\270.bat",
+    "1-\\354\\230\\201\\353\\254\\270\\354\\275\\230\\355\\205\\220\\354\\270\\240-\\355\\225\\234\\352\\265\\255\\354\\226\\264\\354\\210\\230\\354\\240\\225.bat",
+    "1-\\354\\265\\234\\354\\242\\205\\353\\252\\251\\353\\241\\235\\353\\263\\265\\352\\265\\254-\\354\\213\\244\\355\\226\\211.bat",
+    "1-\\355\\225\\234\\352\\265\\255\\354\\226\\264\\352\\262\\200\\354\\203\\211\\355\\214\\250\\354\\271\\230-\\354\\213\\244\\355\\226\\211.bat",
+    "404.html",
+    "ARTICLE-LAYOUT-V3-QA.json",
+    "about.html",
+    "articles/ai-side-hustles-beginner.html",
+    "articles/air-conditioner-electricity-saving.html",
+    "articles/aircon-dry-mode-electricity.html",
+    "articles/aircon-filter-cleaning-savings.html",
+    "articles/aircon-optimal-temperature-savings.html",
+    "articles/apartment-management-fee-summer.html",
+    "articles/automatic-payment-saving.html",
+    "articles/bank-account-budgeting.html",
+    "articles/bank-fee-saving.html",
+    "articles/bank-fees-to-avoid.html",
+    "articles/basic-livelihood-discounts.html",
+    "articles/basic-pension-application-guide.html",
+    "articles/beginner-ai-side-hustles.html",
+    "articles/beginner-budget-plan.html",
+    "articles/beginner-money-management.html",
+    "articles/benefit-scam-warning-2026.html",
+    "articles/budget-app-guide.html",
+    "articles/building-land-property-tax.html",
+    "articles/business-card-hometax-registration.html",
+    "articles/business-closure-vat-order.html",
+    "articles/business-phone-expense-deduction.html",
+    "articles/business-vehicle-expense-basics.html",
+    "articles/cancel-unused-subscriptions.html",
+    "articles/car-aircon-fuel-saving.html",
+    "articles/car-insurance-child-discount.html",
+    "articles/car-insurance-mileage-refund.html",
+    "articles/car-insurance-overpayment-refund.html",
+    "articles/car-tax-annual-payment.html",
+    "articles/car-tax-check-payment-guide.html",
+    "articles/card-points-cashback-guide.html",
+    "articles/cash-advance-vs-card-loan.html",
+    "articles/cash-out-card-points.html",
+    "articles/cashback-apps-guide.html",
+    "articles/check-hidden-refunds.html",
+    "articles/child-allowance-guide.html",
+    "articles/child-tax-credit-status-check.html",
+    "articles/childcare-service-government-support.html",
+    "articles/cma-account-types-risk.html",
+    "articles/credit-card-billing-cycle-guide.html",
+    "articles/credit-score-habits.html",
+    "articles/credit-score-management.html",
+    "articles/credit-score-tips.html",
+    "articles/culture-nuri-card-balance.html",
+    "articles/debit-card-vs-credit-card.html",
+    "articles/dehumidifier-electricity-saving.html",
+    "articles/deposit-protection-limit-guide.html",
+    "articles/deposit-return-guarantee-checklist.html",
+    "articles/dormant-deposit-insurance-search.html",
+    "articles/dryer-summer-electricity-saving.html",
+    "articles/duplicate-indemnity-insurance-check.html",
+    "articles/earned-income-credit-account-change.html",
+    "articles/earned-income-credit-payment.html",
+    "articles/earned-income-credit-status-check.html",
+    "articles/earned-income-tax-credit-korea.html",
+    "articles/education-benefit-eligibility.html",
+    "articles/education-expense-vs-benefit.html",
+    "articles/electricity-bill-easy-calculator-guide.html",
+    "articles/electricity-bill-saving.html",
+    "articles/electricity-discount-card-guide.html",
+    "articles/electronic-tax-invoice-penalty.html",
+    "articles/elementary-school-education-support.html",
+    "articles/emergency-fund-guide.html",
+    "articles/emergency-medical-support.html",
+    "articles/emergency-welfare-living-support.html",
+    "articles/energy-voucher-2026-application.html",
+    "articles/energy-voucher-application-2026.html",
+    "articles/energy-voucher-application.html",
+    "articles/energy-voucher-balance-check-2026.html",
+    "articles/energy-voucher-balance-use-2026.html",
+    "articles/energy-voucher-balance-use.html",
+    "articles/energy-voucher-documents.html",
+    "articles/energy-voucher-eligibility-2026.html",
+    "articles/energy-voucher-online-application.html",
+    "articles/fan-aircon-combination-saving.html",
+    "articles/first-meeting-voucher-guide.html",
+    "articles/fixed-date-online-application.html",
+    "articles/fixed-speed-aircon-saving.html",
+    "articles/four-major-insurance-deduction-guide.html",
+    "articles/gas-bill-checklist.html",
+    "articles/general-vat-common-mistakes.html",
+    "articles/government-benefit-alert-2026.html",
+    "articles/government-benefit-alert-guide-2026.html",
+    "articles/government-benefit-alert-setup.html",
+    "articles/government-benefits-warning.html",
+    "articles/government-support-calendar.html",
+    "articles/government-support-scam-warning-2026.html",
+    "articles/government24-benefit-check.html",
+    "articles/grocery-bill-savings.html",
+    "articles/grocery-saving-tips.html",
+    "articles/health-insurance-out-of-pocket-refund.html",
+    "articles/health-insurance-overpayment-refund.html",
+    "articles/health-insurance-refund-guide.html",
+    "articles/health-insurance-refund.html",
+    "articles/heating-bill-saving.html",
+    "articles/hidden-money-search.html",
+    "articles/hidden-refund-check.html",
+    "articles/home-water-leak-self-check.html",
+    "articles/hometax-refund-status.html",
+    "articles/hometax-vat-sales-check.html",
+    "articles/housing-benefit-eligibility.html",
+    "articles/how-to-check-hidden-refunds.html",
+    "articles/how-to-lower-phone-bill.html",
+    "articles/how-to-save-electricity-bill.html",
+    "articles/impulse-buying-control.html",
+    "articles/income-tax-filing-missed-consequences.html",
+    "articles/index.html",
+    "articles/insurance-auto-pay-discount.html",
+    "articles/insurance-surrender-value-check.html",
+    "articles/internet-bill-discount.html",
+    "articles/internet-bill-savings.html",
+    "articles/inverter-aircon-saving-guide.html",
+    "articles/irs-tax-refund-status.html",
+    "articles/lifelong-education-voucher-application.html",
+    "articles/loan-prepayment-fee-check.html",
+    "articles/loan-refinancing-check.html",
+    "articles/local-tax-refund-claim.html",
+    "articles/local-tax-refund-guide.html",
+    "articles/local-tax-refund.html",
+    "articles/long-term-care-insurance-application.html",
+    "articles/low-income-cooling-support.html",
+    "articles/medical-bill-negotiation.html",
+    "articles/missing-property-tax-bill.html",
+    "articles/money-saving-habits.html",
+    "articles/monthly-budget-planner.html",
+    "articles/monthly-rent-tax-credit-documents.html",
+    "articles/national-employment-support-eligibility.html",
+    "articles/national-pension-additional-payment.html",
+    "articles/national-pension-old-age-benefit-guide.html",
+    "articles/national-pension-overpayment-refund.html",
+    "articles/national-scholarship-application.html",
+    "articles/national-tax-refund-account.html",
+    "articles/national-tax-refund.html",
+    "articles/near-poverty-certificate.html",
+    "articles/online-income-ideas-for-beginners.html",
+    "articles/over-60-benefits-guide.html",
+    "articles/overdraft-account-guide.html",
+    "articles/parental-benefit-guide.html",
+    "articles/parking-account-rate-comparison.html",
+    "articles/peak-season-hotel-saving.html",
+    "articles/phone-bill-saving.html",
+    "articles/property-tax-bill-checklist-2026.html",
+    "articles/property-tax-calculation-structure.html",
+    "articles/property-tax-deadline.html",
+    "articles/property-tax-electronic-bill-2026.html",
+    "articles/property-tax-electronic-notice-2026.html",
+    "articles/property-tax-installment-application.html",
+    "articles/property-tax-joint-ownership.html",
+    "articles/property-tax-july-2026.html",
+    "articles/property-tax-july-checklist-2026.html",
+    "articles/property-tax-july-september-difference.html",
+    "articles/property-tax-objection-guide.html",
+    "articles/property-tax-payment-certificate.html",
+    "articles/reduce-electricity-bill.html",
+    "articles/refrigerator-summer-electricity-saving.html",
+    "articles/regional-development-bond-refund-guide.html",
+    "articles/rental-car-vacation-saving.html",
+    "articles/rental-contract-reporting-guide.html",
+    "articles/revolving-cancellation-payoff.html",
+    "articles/salary-budget-guide.html",
+    "articles/salary-management-guide.html",
+    "articles/salary-slip-check-guide.html",
+    "articles/salary-take-home-easy-calculator-guide.html",
+    "articles/savings-maturity-auto-renewal.html",
+    "articles/self-employed-income-tax-refund-check.html",
+    "articles/senior-job-application-guide.html",
+    "articles/severance-pay-calculation-guide.html",
+    "articles/severance-pay-easy-calculator-guide.html",
+    "articles/simple-receipt-expense-rules.html",
+    "articles/simplified-vat-checklist.html",
+    "articles/single-parent-support-benefits.html",
+    "articles/small-business-closure-support.html",
+    "articles/small-business-delivery-support.html",
+    "articles/small-business-electricity-support.html",
+    "articles/small-business-policy-fund-search.html",
+    "articles/small-business-policy-fund.html",
+    "articles/spending-habits-change.html",
+    "articles/student-loan-repayment-guide.html",
+    "articles/subscription-audit-checklist.html",
+    "articles/subscription-cleanup.html",
+    "articles/subscription-saving.html",
+    "articles/subsidy24-benefit-search.html",
+    "articles/summer-electricity-tier-check-2026.html",
+    "articles/summer-electricity-tier-check.html",
+    "articles/summer-electricity-usage-check-2026.html",
+    "articles/summer-gas-bill-hot-water-saving.html",
+    "articles/summer-vacation-budget-plan.html",
+    "articles/summer-water-bill-spike-check.html",
+    "articles/tax-credit-late-application.html",
+    "articles/tax-invoice-vs-cash-receipt.html",
+    "articles/telecom-discount-guide.html",
+    "articles/telecom-unclaimed-refund.html",
+    "articles/traffic-fine-check-payment-guide.html",
+    "articles/traffic-fines-difference-guide.html",
+    "articles/traffic-penalty-check-payment-guide.html",
+    "articles/travel-insurance-comparison.html",
+    "articles/unemployment-benefit-checklist.html",
+    "articles/unemployment-benefit-job-search.html",
+    "articles/vat-final-return-2026-july.html",
+    "articles/vat-final-return-deadline-2026.html",
+    "articles/vat-final-return-july-2026.html",
+    "articles/vat-input-tax-deduction-2026.html",
+    "articles/vat-input-tax-deduction-guide-2026.html",
+    "articles/vat-input-tax-deduction-items.html",
+    "articles/vat-payment-extension-guide.html",
+    "articles/vat-sales-omission-check-2026.html",
+    "articles/vat-zero-sales-filing-2026.html",
+    "articles/vat-zero-sales-filing.html",
+    "articles/vehicle-inspection-reservation-guide.html",
+    "articles/water-bill-guide.html",
+    "articles/water-bill-saving.html",
+    "articles/weekly-holiday-pay-guide.html",
+    "articles/wetax-electronic-billing.html",
+    "articles/wetax-payment-history.html",
+    "articles/yellow-umbrella-mutual-aid-guide.html",
+    "articles/youth-housing-benefit-separate-payment.html",
+    "articles/youth-leap-account-contribution.html",
+    "articles/youth-savings-account-maintenance.html",
+    "articles/youth-support-programs.html",
+    "automatic-payment-saving.html",
+    "bank-account-budgeting.html",
+    "bank-fees-to-avoid.html",
+    "beginner-ai-side-hustles.html",
+    "beginner-money-management.html",
+    "benefits/basic-livelihood.html",
+    "benefits/index.html",
+    "benefits/over-60.html",
+    "budget-app-guide.html",
+    "calculators/exchange-rate.html",
+    "calculators/hourly.html",
+    "calculators/leave.html",
+    "calculators/weekpay.html",
+    "cancel-unused-subscriptions.html",
+    "cash-out-card-points.html",
+    "categories/car-transport.html",
+    "categories/finance-credit.html",
+    "categories/government-support.html",
+    "categories/housing.html",
+    "categories/index.html",
+    "categories/living-bills.html",
+    "categories/tax-refund.html",
+    "categories/work-salary.html",
+    "check-hidden-refunds.html",
+    "contact.html",
+    "cookie-policy.html",
+    "credit-score-habits.html",
+    "css/article-engine.css",
+    "debit-card-vs-credit-card.html",
+    "disclaimer.html",
+    "earned-income-tax-credit-korea.html",
+    "editorial-policy.html",
+    "electricity-bill-saving.html",
+    "emergency-fund-guide.html",
+    "energy-voucher-application.html",
+    "factory/MASTER_PROGRESS.json",
+    "factory/MASTER_ROADMAP_V2_041.json",
+    "factory/MASTER_ROADMAP_V2_042.json",
+    "factory/QA_V2_041.json",
+    "factory/QA_V2_042.json",
+    "factory/README_FACTORY.md",
+    "factory/adsense_manager.py",
+    "factory/calculator_analytics.py",
+    "factory/calculator_cms_registry.py",
+    "factory/calculator_generation_request.py",
+    "factory/calculator_hq.py",
+    "factory/calculator_intent_engine.py",
+    "factory/calculator_matcher.py",
+    "factory/calculator_qa.py",
+    "factory/calculator_registry.py",
+    "factory/calculator_solution_package.py",
+    "factory/config/calculator_hq_rules.json",
+    "factory/config/calculator_registry.json",
+    "factory/deploy.py",
+    "factory/doctor.py",
+    "factory/operations/scheduler/run-daily-analytics.bat",
+    "factory/output/MASTER_CHECKLIST.json",
+    "factory/output/adsense/ads_txt_report.json",
+    "factory/output/adsense/adsense_lock_report.json",
+    "factory/output/adsense/index_report.json",
+    "factory/output/adsense/publisher_scan.json",
+    "factory/output/adsense/repair_report.json",
+    "factory/output/calculator/analytics.json",
+    "factory/output/calculator/article_calculator_links.json",
+    "factory/output/calculator/electricity-guide-hq-report.json",
+    "factory/output/calculator/electricity-guide-match.json",
+    "factory/output/calculator/electricity-guide-solution-package.json",
+    "factory/output/calculator/requests/d52c877d2d724ec2af363339676fc8c7.json",
+    "factory/output/credential_checklist.json",
+    "factory/output/deployment_integrity_report.json",
+    "factory/output/eeat_audit.json",
+    "factory/output/indexability_audit.json",
+    "factory/output/integration_preflight.json",
+    "factory/output/live_verification_plan.json",
+    "factory/output/regression_manifest.json",
+    "factory/output/research/research_package.json",
+    "factory/output/research/research_qa.json",
+    "factory/output/research/research_report.json",
+    "factory/output/research/source_registry_snapshot.json",
+    "factory/output/ui_lock_snapshot.json",
+    "factory/pipeline.py",
+    "factory/run.py",
+    "factory/tests/test_v2041.py",
+    "factory/tests/test_v2042_adsense_lock.py",
+    "government-benefits-warning.html",
+    "government24-benefit-check.html",
+    "grocery-saving-tips.html",
+    "guides/index.html",
+    "health-insurance-refund.html",
+    "heating-bill-saving.html",
+    "hidden-refund-check.html",
+    "images/logo.svg",
+    "impulse-buying-control.html",
+    "index.html",
+    "internet-bill-discount.html",
+    "irs-tax-refund-status.html",
+    "js/article-navigation.js",
+    "js/articles.html",
+    "js/savingio-brain-navigation.js",
+    "js/script.js",
+    "js/search.js",
+    "local-tax-refund.html",
+    "money-saving-habits.html",
+    "monthly-budget-planner.html",
+    "national-tax-refund.html",
+    "online-income-ideas-for-beginners.html",
+    "phone-bill-saving.html",
+    "phone-bill-savings.html",
+    "privacy.html",
+    "salary-management-guide.html",
+    "spending-habits-change.html",
+    "subscription-saving.html",
+    "templates/article-v2.html",
+    "terms.html",
+    "water-bill-saving.html",
+    "youth-support-programs.html",
+    "Savingio-\\354\\236\\220\\353\\217\\231\\353\\260\\260\\355\\217\\254.bat",
+    "VERSION.json",
+    "factory/MASTER_ROADMAP_V2_044.json",
+    "factory/MASTER_ROADMAP_V2_045.json",
+    "factory/QA_V2_044.json",
+    "factory/QA_V2_045.json",
+    "factory/auto_release.py",
+    "factory/config/auto_release_rules.json",
+    "factory/factory_cleaner.py",
+    "factory/output/auto_release_report.json",
+    "factory/output/deployment_gate_report.json",
+    "factory/output/deployment_report_v2_044.json",
+    "factory/output/factory_cleaner_report.json",
+    "factory/release_packager.py",
+    "factory/tests/test_v2044.py",
+    "factory/tests/test_v2045.py",
+    "factory_manifest.json"
+  ],
+  "sync_before": {
+    "status": "planned_on_execute"
+  },
+  "plan": {
+    "commands": [
+      [
+        "git",
+        "add",
+        "-A"
+      ],
+      [
+        "git",
+        "commit",
+        "-m",
+        "V2.045 one-click release automation"
+      ],
+      [
+        "git",
+        "push",
+        "origin",
+        "main"
+      ]
+    ],
+    "commit": true,
+    "live_verification": true
+  },
+  "pass": true
+}

@@ -1,0 +1,12 @@
+{
+  "version": "V2.045",
+  "status": "pass",
+  "checks": {
+    "compile": true,
+    "regression": true,
+    "doctor": true,
+    "publisher_lock": true,
+    "auto_release_tests": true,
+    "zip_integrity": true
+  }
+}
