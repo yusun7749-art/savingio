@@ -1,0 +1,21 @@
+{
+  "workflow_id": "4f93992d2e894f5cbb721b8f538d3429",
+  "topic": "전기요금 절약",
+  "status": "completed",
+  "current_department": null,
+  "completed_departments": [
+    "planning",
+    "research",
+    "writing",
+    "seo",
+    "image",
+    "qa_primary",
+    "qa_final",
+    "cms",
+    "git",
+    "deploy"
+  ],
+  "failed_departments": [],
+  "created_at": "2026-07-14T10:24:37+00:00",
+  "updated_at": "2026-07-14T10:24:37+00:00"
+}

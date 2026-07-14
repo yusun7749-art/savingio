@@ -1,0 +1,11 @@
+{
+  "version": "2.037-C",
+  "allowed_branch": "main",
+  "dry_run_default": true,
+  "require_user_approval": true,
+  "require_rework_qa_pass": true,
+  "require_deployment_gate": true,
+  "verify_new_cloudflare_deployment": true,
+  "verify_public_site_after_deploy": true,
+  "default_site_url": "https://savingio.com"
+}

@@ -1,0 +1,92 @@
+{
+  "status": "completed",
+  "imported": {
+    "source": "/mnt/data/savingio_v2037a_real_work/savingio-live/factory/input/sample_revenue.csv",
+    "row_count": 1,
+    "rows": [
+      {
+        "date": "2026-07-14",
+        "page": "/articles/sample.html",
+        "earnings": 0.5,
+        "ad_impressions": 1000.0,
+        "ad_clicks": 1.0,
+        "page_views": 1000.0,
+        "ad_ctr": 0.001,
+        "page_rpm": 0.5,
+        "impression_rpm": 0.5,
+        "cpc": 0.5
+      }
+    ],
+    "totals": {
+      "earnings": 0.5,
+      "ad_impressions": 1000.0,
+      "ad_clicks": 1.0,
+      "page_views": 1000.0,
+      "ad_ctr": 0.001,
+      "page_rpm": 0.5
+    },
+    "created_at": "2026-07-14T13:00:48+00:00"
+  },
+  "dashboard_totals": {
+    "earnings": 0.5,
+    "page_views": 1100.0,
+    "ad_impressions": 1000.0,
+    "ad_clicks": 1.0,
+    "search_impressions": 200.0,
+    "search_clicks": 2.0,
+    "page_rpm": 0.4545,
+    "ad_ctr": 0.001
+  },
+  "analysis_summary": {
+    "seo_actions": 1,
+    "revenue_actions": 4,
+    "critical_actions": 1
+  },
+  "routed": {
+    "routed_count": 5,
+    "items": [
+      {
+        "workflow_id": "c65ee90ba79d4feba1db36e7d893650e",
+        "page": "https://savingio.com/articles/sample",
+        "department": "revenue",
+        "action": "check_adsense_coverage",
+        "priority": 90,
+        "task_status": "rework_required"
+      },
+      {
+        "workflow_id": "d19ac997477e4b2a9e96a97a863159e2",
+        "page": "https://savingio.com/articles/sample",
+        "department": "seo",
+        "action": "rewrite_title_meta",
+        "priority": 75,
+        "task_status": "rework_required"
+      },
+      {
+        "workflow_id": "43dffd42f9014335aa6df2d136a51d7a",
+        "page": "/articles/sample.html",
+        "department": "revenue",
+        "action": "review_ad_layout_and_intent",
+        "priority": 67,
+        "task_status": "rework_required"
+      },
+      {
+        "workflow_id": "7381ed72f35743c2ba319674500a359a",
+        "page": "https://savingio.com/articles/sample",
+        "department": "revenue",
+        "action": "review_ad_layout_and_intent",
+        "priority": 65,
+        "task_status": "rework_required"
+      },
+      {
+        "workflow_id": "dbd13878a9ae42259b6385ca8b4e7c3c",
+        "page": "/articles/sample.html",
+        "department": "revenue",
+        "action": "review_ad_visibility",
+        "priority": 61,
+        "task_status": "rework_required"
+      }
+    ],
+    "created_at": "2026-07-14T13:00:48+00:00"
+  },
+  "created_at": "2026-07-14T13:00:48+00:00"
+}

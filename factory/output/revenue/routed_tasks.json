@@ -1,0 +1,46 @@
+{
+  "routed_count": 5,
+  "items": [
+    {
+      "workflow_id": "c65ee90ba79d4feba1db36e7d893650e",
+      "page": "https://savingio.com/articles/sample",
+      "department": "revenue",
+      "action": "check_adsense_coverage",
+      "priority": 90,
+      "task_status": "rework_required"
+    },
+    {
+      "workflow_id": "d19ac997477e4b2a9e96a97a863159e2",
+      "page": "https://savingio.com/articles/sample",
+      "department": "seo",
+      "action": "rewrite_title_meta",
+      "priority": 75,
+      "task_status": "rework_required"
+    },
+    {
+      "workflow_id": "43dffd42f9014335aa6df2d136a51d7a",
+      "page": "/articles/sample.html",
+      "department": "revenue",
+      "action": "review_ad_layout_and_intent",
+      "priority": 67,
+      "task_status": "rework_required"
+    },
+    {
+      "workflow_id": "7381ed72f35743c2ba319674500a359a",
+      "page": "https://savingio.com/articles/sample",
+      "department": "revenue",
+      "action": "review_ad_layout_and_intent",
+      "priority": 65,
+      "task_status": "rework_required"
+    },
+    {
+      "workflow_id": "dbd13878a9ae42259b6385ca8b4e7c3c",
+      "page": "/articles/sample.html",
+      "department": "revenue",
+      "action": "review_ad_visibility",
+      "priority": 61,
+      "task_status": "rework_required"
+    }
+  ],
+  "created_at": "2026-07-14T13:00:48+00:00"
+}

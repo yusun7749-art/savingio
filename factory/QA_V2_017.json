@@ -1,0 +1,31 @@
+{
+  "version": "2.017",
+  "compile_pass": true,
+  "tests_pass": true,
+  "tests_total": 16,
+  "doctor_pass": true,
+  "create_pipeline_pass": true,
+  "create_qa_score": 100,
+  "evidence_check_pass": true,
+  "evidence_score": 50,
+  "batch_total": 3,
+  "batch_passed": 3,
+  "batch_failed": 0,
+  "audit_scanned": 25,
+  "ui_files_modified": false,
+  "locked_areas": [
+    "UI",
+    "Navigation",
+    "Explorer",
+    "Layout",
+    "Home"
+  ],
+  "new_features": [
+    "automatic QA repair loop",
+    "evidence validation",
+    "batch topic execution",
+    "batch report",
+    "evidence-check CLI"
+  ],
+  "test_output": "test_article_and_qa (test_factory.FactoryTests.test_article_and_qa) ... ok\ntest_plan (test_factory.FactoryTests.test_plan) ... ok\ntest_selective_git (test_factory.FactoryTests.test_selective_git) ... ok\ntest_article_qa (test_factory_v2016.Tests.test_article_qa) ... ok\ntest_audit (test_factory_v2016.Tests.test_audit) ... ok\ntest_catalog (test_factory_v2016.Tests.test_catalog) ... ok\ntest_doctor (test_factory_v2016.Tests.test_doctor) ... ok\ntest_git_safe (test_factory_v2016.Tests.test_git_safe) ... ok\ntest_plan_types (test_factory_v2016.Tests.test_plan_types) ... ok\ntest_research_candidates (test_factory_v2016.Tests.test_research_candidates) ... ok\ntest_seo (test_factory_v2016.Tests.test_seo) ... ok\ntest_batch_topic_loader (test_factory_v2017.FactoryV2017Tests.test_batch_topic_loader) ... ok\ntest_evidence_validation (test_factory_v2017.FactoryV2017Tests.test_evidence_validation) ... ok\ntest_invalid_evidence (test_factory_v2017.FactoryV2017Tests.test_invalid_evidence) ... ok\ntest_repair_loop (test_factory_v2017.FactoryV2017Tests.test_repair_loop) ... ok\ntest_writer_type_and_qa (test_factory_v2017.FactoryV2017Tests.test_writer_type_and_qa) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.071s\n\nOK\n"
+}

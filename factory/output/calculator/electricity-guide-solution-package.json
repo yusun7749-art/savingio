@@ -1,0 +1,24 @@
+{
+  "topic": "전기요금 계산",
+  "slug": "electricity-guide",
+  "article_url": "/articles/electricity-guide.html",
+  "calculators": [],
+  "generation_request": {
+    "request_id": "d52c877d2d724ec2af363339676fc8c7",
+    "topic": "전기요금 계산",
+    "article_slug": "electricity-guide",
+    "category": "utility",
+    "reason": "missing_calculator",
+    "status": "requested",
+    "requirements": {
+      "must_link_to_article": true,
+      "must_return_related_articles": true,
+      "must_include_next_action": true,
+      "must_include_formula_explanation": true,
+      "must_pass_calculator_qa": true
+    },
+    "created_at": "2026-07-14T14:44:29+00:00"
+  },
+  "status": "requested",
+  "created_at": "2026-07-14T14:44:29+00:00"
+}

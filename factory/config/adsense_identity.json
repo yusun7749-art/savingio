@@ -1,0 +1,11 @@
+{
+  "version": "2.042",
+  "publisher_id": "pub-7605193583747751",
+  "adsense_client": "ca-pub-7605193583747751",
+  "ads_txt_line": "google.com, pub-7605193583747751, DIRECT, f08c47fec0942fa0",
+  "inject_in_generated_html": true,
+  "lock_mode": "repair_then_block",
+  "allowed_literal_files": [
+    "factory/config/adsense_identity.json"
+  ]
+}

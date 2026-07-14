@@ -1,0 +1,11 @@
+{
+  "audit_pass_score": 80,
+  "auto_apply": false,
+  "backup_required": true,
+  "max_batch_size": 25,
+  "protected_paths": [
+    "index.html",
+    "css",
+    "js"
+  ]
+}

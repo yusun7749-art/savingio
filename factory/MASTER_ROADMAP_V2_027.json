@@ -1,0 +1,14 @@
+{
+  "version": "2.027",
+  "focus": "research+image",
+  "completed": [
+    "Research cache scaffold",
+    "Image queue scaffold",
+    "Deployment gate"
+  ],
+  "remaining": [
+    "Web connector",
+    "OpenAPI",
+    "Image generation connector"
+  ]
+}

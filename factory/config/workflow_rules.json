@@ -1,0 +1,19 @@
+{
+  "version": "2.025",
+  "department_order": [
+    "planning",
+    "research",
+    "writing",
+    "seo",
+    "image",
+    "qa_primary",
+    "qa_final",
+    "cms",
+    "git",
+    "deploy"
+  ],
+  "max_rework_attempts": 2,
+  "require_final_approval_checklist": true,
+  "message_bus_backend": "filesystem",
+  "event_log": "factory/history/department_events.jsonl"
+}

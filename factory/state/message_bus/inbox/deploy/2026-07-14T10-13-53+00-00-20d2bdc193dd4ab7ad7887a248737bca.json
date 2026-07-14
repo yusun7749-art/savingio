@@ -1,0 +1,13 @@
+{
+  "id": "20d2bdc193dd4ab7ad7887a248737bca",
+  "sender": "git",
+  "receiver": "deploy",
+  "event": "task.handoff",
+  "payload": {
+    "ready": true,
+    "selected_files_only": true
+  },
+  "correlation_id": "cfb642d57a25493c80167f4a670d080c",
+  "created_at": "2026-07-14T10:13:53+00:00",
+  "status": "queued"
+}

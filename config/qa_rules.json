@@ -1,0 +1,1 @@
+{"version":"1.1","minimum_chars":3500,"target_chars":5000,"pass_score":90,"weights":{"has_h1":8,"min_density":18,"has_summary":8,"has_steps":8,"has_mistakes":7,"has_faq":8,"has_next_action":8,"no_placeholders":15,"no_generic_reuse":7,"has_meta":5,"has_canonical":4,"no_duplicate_ids":4},"hard_fail":["no_placeholders","has_h1","no_duplicate_ids"]}

@@ -1,0 +1,37 @@
+{
+  "version": "2.025",
+  "factory_progress_percent": 39,
+  "adsense_readiness_percent": 58,
+  "department_progress": {
+    "operations": 45,
+    "planning": 28,
+    "research": 25,
+    "writing": 32,
+    "seo": 28,
+    "image": 12,
+    "qa_primary": 38,
+    "qa_final": 32,
+    "cms": 34,
+    "deploy": 18,
+    "analytics": 5,
+    "revenue": 5
+  },
+  "completed_now": [
+    "Department Message Bus 실제 구현",
+    "Task Dispatcher 실제 구현",
+    "QA 이슈별 Rework Manager",
+    "Department Event Log",
+    "Workflow State Manager",
+    "Central Operation Board",
+    "Final Approval Checklist Generator",
+    "Full Automation 파이프라인 통합"
+  ],
+  "remaining_priority": [
+    "조사본부 실제 웹/공식자료 수집 연결",
+    "이미지본부 실제 생성 API 연결",
+    "승인 후 실제 배포 실행",
+    "WordPress/Naver 연결",
+    "Search Console/GA4 연동",
+    "기존 글 자동 리뉴얼 대량 실행"
+  ]
+}

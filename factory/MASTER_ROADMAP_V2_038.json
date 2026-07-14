@@ -1,0 +1,19 @@
+{
+  "version": "2.038",
+  "focus": "External integration control and production readiness",
+  "completed": [
+    "Integration Registry",
+    "Secret-safe Preflight",
+    "Live Verification Plan",
+    "AdSense Report Import",
+    "Revenue Bridge",
+    "Production Readiness Board"
+  ],
+  "remaining": [
+    "Live credential verification for Cloudflare",
+    "Live Search Console and GA4 requests",
+    "Live image provider request",
+    "Optional WordPress live publish",
+    "Naver automatic publishing"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "version": "2.028",
+  "timeout_seconds": 15,
+  "max_response_bytes": 2000000,
+  "cache_ttl_seconds": 86400,
+  "user_agent": "SavingioFactory/2.028 (+https://savingio.com)",
+  "respect_domain_allowlist": true
+}

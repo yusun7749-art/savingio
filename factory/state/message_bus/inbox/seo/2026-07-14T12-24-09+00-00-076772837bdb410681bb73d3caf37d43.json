@@ -1,0 +1,15 @@
+{
+  "id": "076772837bdb410681bb73d3caf37d43",
+  "sender": "qa_final",
+  "receiver": "seo",
+  "event": "task.rework",
+  "payload": {
+    "issues": [
+      "rewrite_title_meta",
+      "high_impressions_low_ctr:200.0/0.01"
+    ]
+  },
+  "correlation_id": "c983a1fb93e54935bde7c331b704f02c",
+  "created_at": "2026-07-14T12:24:09+00:00",
+  "status": "queued"
+}

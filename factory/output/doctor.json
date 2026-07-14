@@ -1,0 +1,36 @@
+{
+  "python": "3.13.5",
+  "paths": {
+    "articles": true,
+    "factory": true,
+    "factory/config": true,
+    "factory/output": true
+  },
+  "configs": {
+    "article_dna.json": "PASS",
+    "article_types.json": "PASS",
+    "factory_manifest.json": "PASS",
+    "qa_rules.json": "PASS",
+    "research_rules.json": "PASS",
+    "seo_rules.json": "PASS",
+    "renewal_rules.json": "PASS",
+    "workflow_rules.json": "PASS"
+  },
+  "modules": {
+    "planner": "PASS",
+    "researcher": "PASS",
+    "writer": "PASS",
+    "seo": "PASS",
+    "qa": "PASS",
+    "cms": "PASS",
+    "git_engine": "PASS",
+    "deploy": "PASS",
+    "pipeline": "PASS",
+    "renewal": "PASS",
+    "state": "PASS",
+    "template_guard": "PASS"
+  },
+  "git_connected": true,
+  "article_count": 219,
+  "pass": true
+}

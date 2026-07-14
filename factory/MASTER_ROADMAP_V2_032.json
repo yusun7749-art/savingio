@@ -1,0 +1,31 @@
+{
+  "version": "2.032",
+  "focus": [
+    "wordpress",
+    "cloudflare",
+    "research",
+    "image"
+  ],
+  "completed": [
+    "WordPress Release Plan",
+    "WordPress Category and Tag Resolution",
+    "WordPress Featured Image Release",
+    "Site Health Verification",
+    "Government OpenAPI Adapter Registry",
+    "Research Ingestion Pipeline",
+    "Image Provider Result Registration"
+  ],
+  "requires_user_configuration": [
+    "WORDPRESS_URL",
+    "WORDPRESS_USER",
+    "WORDPRESS_APP_PASSWORD",
+    "DATA_GO_KR_API_KEY"
+  ],
+  "remaining": [
+    "실제 WordPress 계정으로 발행 검증",
+    "실제 Cloudflare 배포 URL 상태 검증",
+    "구체적인 정부 API 엔드포인트 등록",
+    "실제 이미지 생성 Provider 실행",
+    "Naver 자동 발행"
+  ]
+}

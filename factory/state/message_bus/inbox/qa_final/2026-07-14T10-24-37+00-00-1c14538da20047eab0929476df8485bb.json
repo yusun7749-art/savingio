@@ -1,0 +1,139 @@
+{
+  "id": "1c14538da20047eab0929476df8485bb",
+  "sender": "qa_primary",
+  "receiver": "qa_final",
+  "event": "task.handoff",
+  "payload": {
+    "score": 100,
+    "pass": true,
+    "minimum": 95,
+    "checks": [
+      {
+        "name": "doctype",
+        "passed": true,
+        "penalty": 0,
+        "critical": true,
+        "detail": ""
+      },
+      {
+        "name": "lang_ko",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "h1_once",
+        "passed": true,
+        "penalty": 0,
+        "critical": true,
+        "detail": ""
+      },
+      {
+        "name": "title_length",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "description_length",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "canonical",
+        "passed": true,
+        "penalty": 0,
+        "critical": true,
+        "detail": ""
+      },
+      {
+        "name": "robots",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "schema",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "required_sections",
+        "passed": true,
+        "penalty": 0,
+        "critical": true,
+        "detail": ""
+      },
+      {
+        "name": "faq_count",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "table",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "internal_links",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "forbidden_placeholders",
+        "passed": true,
+        "penalty": 0,
+        "critical": true,
+        "detail": ""
+      },
+      {
+        "name": "text_length",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "evidence_safety",
+        "passed": true,
+        "penalty": 0,
+        "critical": true,
+        "detail": ""
+      },
+      {
+        "name": "single_canonical",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "no_empty_href",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      }
+    ],
+    "issues": [],
+    "critical_failures": [],
+    "text_chars": 2919,
+    "checked_at": "2026-07-14T10:24:37+00:00"
+  },
+  "correlation_id": "4f93992d2e894f5cbb721b8f538d3429",
+  "created_at": "2026-07-14T10:24:37+00:00",
+  "status": "queued"
+}

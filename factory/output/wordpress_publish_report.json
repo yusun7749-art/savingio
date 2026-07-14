@@ -1,0 +1,22 @@
+{
+  "status": "blocked",
+  "reason": "deployment_gate_failed",
+  "gate": {
+    "pass": false,
+    "checks": {
+      "required_reports_present": true,
+      "qa_pass": true,
+      "research_pass": false,
+      "user_approved": false,
+      "image_ready": false
+    },
+    "missing_reports": [],
+    "blockers": [
+      "research_pass",
+      "user_approved",
+      "image_ready"
+    ],
+    "checked_at": "2026-07-14T14:26:33+00:00"
+  },
+  "created_at": "2026-07-14T14:26:33+00:00"
+}

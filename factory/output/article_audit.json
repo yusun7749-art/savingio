@@ -1,0 +1,682 @@
+{
+  "generated_at": "2026-07-13T15:00:46+00:00",
+  "total": 25,
+  "pass": 24,
+  "fail": 1,
+  "average": 87.6,
+  "high_risk": 1,
+  "results": [
+    {
+      "file": "#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
+      "score": 88,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": true,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": false,
+        "robots": false,
+        "toc": true,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "schema",
+        "robots"
+      ],
+      "risk": "low",
+      "text_chars": 1976,
+      "status": "PASS"
+    },
+    {
+      "file": "ai-side-hustles-beginner.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/ai-side-hustles-beginner.html",
+      "score": 88,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": false,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "table",
+        "toc"
+      ],
+      "risk": "low",
+      "text_chars": 10420,
+      "status": "PASS"
+    },
+    {
+      "file": "air-conditioner-electricity-saving.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/air-conditioner-electricity-saving.html",
+      "score": 96,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": true,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "toc"
+      ],
+      "risk": "low",
+      "text_chars": 10228,
+      "status": "PASS"
+    },
+    {
+      "file": "aircon-dry-mode-electricity.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/aircon-dry-mode-electricity.html",
+      "score": 88,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": false,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "table",
+        "toc"
+      ],
+      "risk": "low",
+      "text_chars": 10490,
+      "status": "PASS"
+    },
+    {
+      "file": "aircon-filter-cleaning-savings.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/aircon-filter-cleaning-savings.html",
+      "score": 88,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": false,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "table",
+        "toc"
+      ],
+      "risk": "low",
+      "text_chars": 10524,
+      "status": "PASS"
+    },
+    {
+      "file": "aircon-optimal-temperature-savings.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/aircon-optimal-temperature-savings.html",
+      "score": 88,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": false,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "table",
+        "toc"
+      ],
+      "risk": "low",
+      "text_chars": 10623,
+      "status": "PASS"
+    },
+    {
+      "file": "apartment-management-fee-summer.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/apartment-management-fee-summer.html",
+      "score": 96,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": true,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "toc"
+      ],
+      "risk": "low",
+      "text_chars": 9927,
+      "status": "PASS"
+    },
+    {
+      "file": "automatic-payment-saving.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/automatic-payment-saving.html",
+      "score": 96,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": true,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "toc"
+      ],
+      "risk": "low",
+      "text_chars": 10427,
+      "status": "PASS"
+    },
+    {
+      "file": "bank-account-budgeting.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/bank-account-budgeting.html",
+      "score": 88,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": false,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "table",
+        "toc"
+      ],
+      "risk": "low",
+      "text_chars": 10321,
+      "status": "PASS"
+    },
+    {
+      "file": "bank-fee-saving.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/bank-fee-saving.html",
+      "score": 88,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": false,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "table",
+        "toc"
+      ],
+      "risk": "low",
+      "text_chars": 10233,
+      "status": "PASS"
+    },
+    {
+      "file": "bank-fees-to-avoid.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/bank-fees-to-avoid.html",
+      "score": 88,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": false,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "table",
+        "toc"
+      ],
+      "risk": "low",
+      "text_chars": 10794,
+      "status": "PASS"
+    },
+    {
+      "file": "basic-livelihood-discounts.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/basic-livelihood-discounts.html",
+      "score": 88,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": false,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "table",
+        "toc"
+      ],
+      "risk": "low",
+      "text_chars": 10500,
+      "status": "PASS"
+    },
+    {
+      "file": "basic-pension-application-guide.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/basic-pension-application-guide.html",
+      "score": 96,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": true,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "toc"
+      ],
+      "risk": "low",
+      "text_chars": 9322,
+      "status": "PASS"
+    },
+    {
+      "file": "beginner-ai-side-hustles.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/beginner-ai-side-hustles.html",
+      "score": 22,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": false,
+        "faq": false,
+        "table": false,
+        "internal_links": true,
+        "min_chars": false,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": false,
+        "noindex": true
+      },
+      "missing": [
+        "h1_once",
+        "faq",
+        "table",
+        "min_chars",
+        "toc",
+        "updated"
+      ],
+      "risk": "high",
+      "text_chars": 1004,
+      "status": "FAIL"
+    },
+    {
+      "file": "beginner-budget-plan.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/beginner-budget-plan.html",
+      "score": 96,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": true,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "toc"
+      ],
+      "risk": "low",
+      "text_chars": 10384,
+      "status": "PASS"
+    },
+    {
+      "file": "beginner-money-management.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/beginner-money-management.html",
+      "score": 88,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": false,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "table",
+        "toc"
+      ],
+      "risk": "low",
+      "text_chars": 10170,
+      "status": "PASS"
+    },
+    {
+      "file": "benefit-scam-warning-2026.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/benefit-scam-warning-2026.html",
+      "score": 88,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": false,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "table",
+        "toc"
+      ],
+      "risk": "low",
+      "text_chars": 10716,
+      "status": "PASS"
+    },
+    {
+      "file": "budget-app-guide.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/budget-app-guide.html",
+      "score": 96,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": true,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "toc"
+      ],
+      "risk": "low",
+      "text_chars": 10812,
+      "status": "PASS"
+    },
+    {
+      "file": "building-land-property-tax.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/building-land-property-tax.html",
+      "score": 88,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": false,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "table",
+        "toc"
+      ],
+      "risk": "low",
+      "text_chars": 10445,
+      "status": "PASS"
+    },
+    {
+      "file": "business-card-hometax-registration.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/business-card-hometax-registration.html",
+      "score": 88,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": false,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "table",
+        "toc"
+      ],
+      "risk": "low",
+      "text_chars": 10451,
+      "status": "PASS"
+    },
+    {
+      "file": "business-closure-vat-order.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/business-closure-vat-order.html",
+      "score": 88,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": false,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "table",
+        "toc"
+      ],
+      "risk": "low",
+      "text_chars": 10520,
+      "status": "PASS"
+    },
+    {
+      "file": "business-phone-expense-deduction.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/business-phone-expense-deduction.html",
+      "score": 88,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": false,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "table",
+        "toc"
+      ],
+      "risk": "low",
+      "text_chars": 10418,
+      "status": "PASS"
+    },
+    {
+      "file": "business-vehicle-expense-basics.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/business-vehicle-expense-basics.html",
+      "score": 88,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": false,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "table",
+        "toc"
+      ],
+      "risk": "low",
+      "text_chars": 10472,
+      "status": "PASS"
+    },
+    {
+      "file": "cancel-unused-subscriptions.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/cancel-unused-subscriptions.html",
+      "score": 96,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": true,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "toc"
+      ],
+      "risk": "low",
+      "text_chars": 10235,
+      "status": "PASS"
+    },
+    {
+      "file": "car-aircon-fuel-saving.html",
+      "path": "/mnt/data/v2018work/savingio-live/articles/car-aircon-fuel-saving.html",
+      "score": 88,
+      "checks": {
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "h1_once": true,
+        "faq": true,
+        "table": false,
+        "internal_links": true,
+        "min_chars": true,
+        "schema": true,
+        "robots": true,
+        "toc": false,
+        "updated": true,
+        "noindex": false
+      },
+      "missing": [
+        "table",
+        "toc"
+      ],
+      "risk": "low",
+      "text_chars": 10298,
+      "status": "PASS"
+    }
+  ]
+}

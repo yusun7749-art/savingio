@@ -1,0 +1,96 @@
+{
+  "plan_count": 6,
+  "ready_to_verify_count": 1,
+  "plans": [
+    {
+      "integration": "cloudflare_pages",
+      "ready": false,
+      "missing_required_env": [
+        "CLOUDFLARE_ACCOUNT_ID",
+        "CLOUDFLARE_API_TOKEN",
+        "CLOUDFLARE_PAGES_PROJECT"
+      ],
+      "steps": [
+        "Read latest deployment ID",
+        "Push an approved selected-file release",
+        "Wait for a new deployment ID",
+        "Verify deployment success",
+        "Verify public home, articles, robots, sitemap and changed article"
+      ],
+      "status": "configuration_required"
+    },
+    {
+      "integration": "google_search_console",
+      "ready": false,
+      "missing_required_env": [
+        "GOOGLE_SERVICE_ACCOUNT_JSON",
+        "SEARCH_CONSOLE_SITE_URL"
+      ],
+      "steps": [
+        "Issue OAuth access token from service account",
+        "Request Search Analytics data",
+        "Normalize clicks, impressions, CTR and position",
+        "Persist the raw response and normalized output"
+      ],
+      "status": "configuration_required"
+    },
+    {
+      "integration": "google_analytics_4",
+      "ready": false,
+      "missing_required_env": [
+        "GOOGLE_SERVICE_ACCOUNT_JSON",
+        "GA4_PROPERTY_ID"
+      ],
+      "steps": [
+        "Issue OAuth access token from service account",
+        "Request GA4 runReport",
+        "Normalize page views, users and sessions",
+        "Persist the raw response and normalized output"
+      ],
+      "status": "configuration_required"
+    },
+    {
+      "integration": "adsense_reporting",
+      "ready": true,
+      "missing_required_env": [],
+      "steps": [
+        "Import a downloaded AdSense CSV or JSON report",
+        "Normalize earnings, clicks, impressions and RPM",
+        "Merge revenue metrics with analytics pages",
+        "Generate Revenue AI actions"
+      ],
+      "status": "ready_to_verify"
+    },
+    {
+      "integration": "wordpress",
+      "ready": false,
+      "missing_required_env": [
+        "WORDPRESS_URL",
+        "WORDPRESS_USER",
+        "WORDPRESS_APP_PASSWORD"
+      ],
+      "steps": [
+        "Authenticate with application password",
+        "Create or update a draft by slug",
+        "Upload and connect the featured image",
+        "Verify returned post ID and status"
+      ],
+      "status": "configuration_required"
+    },
+    {
+      "integration": "image_provider",
+      "ready": false,
+      "missing_required_env": [
+        "OPENAI_API_KEY"
+      ],
+      "steps": [
+        "Check provider credential",
+        "Queue a hero and infographic request",
+        "Register returned files",
+        "Verify article image manifest readiness"
+      ],
+      "status": "configuration_required"
+    }
+  ],
+  "created_at": "2026-07-14T14:44:05+00:00"
+}

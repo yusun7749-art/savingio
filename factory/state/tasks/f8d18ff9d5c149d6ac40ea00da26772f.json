@@ -1,0 +1,16 @@
+{
+  "workflow_id": "f8d18ff9d5c149d6ac40ea00da26772f",
+  "topic": "revenue:https://savingio.com/articles/sample",
+  "status": "rework_required",
+  "current_department": "revenue",
+  "completed_departments": [],
+  "failed_departments": [
+    "revenue"
+  ],
+  "created_at": "2026-07-14T12:59:33+00:00",
+  "updated_at": "2026-07-14T12:59:33+00:00",
+  "last_issues": [
+    "check_adsense_coverage",
+    "traffic_without_revenue"
+  ]
+}

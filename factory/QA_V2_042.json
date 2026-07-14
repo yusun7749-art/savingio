@@ -1,0 +1,46 @@
+{
+  "version": "2.042",
+  "status": "PASS",
+  "official_publisher_id": "pub-7605193583747751",
+  "official_client": "ca-pub-7605193583747751",
+  "publisher_lock": {
+    "pass": true,
+    "invalid_count": 0,
+    "blockers": []
+  },
+  "whole_project_raw_scan": {
+    "pass": true,
+    "wrong_ids": {},
+    "files_with_official_ids": 6
+  },
+  "compile": "PASS",
+  "unit_tests": {
+    "pass": true,
+    "count": 6
+  },
+  "doctor": {
+    "pass": true,
+    "publisher_lock": {
+      "name": "publisher-lock",
+      "pass": true,
+      "detail": "status=pass invalid=0 blockers=[]"
+    }
+  },
+  "deployment": {
+    "safe_to_deploy": true
+  },
+  "deployment_gate": {
+    "publisher_lock_pass": true,
+    "overall_pass": false,
+    "other_blockers": [
+      "research_pass",
+      "user_approved",
+      "image_ready"
+    ]
+  },
+  "pipeline_integration": {
+    "pre_generation_repair_gate": true,
+    "generated_html_auto_injection": true,
+    "post_generation_gate": true
+  }
+}

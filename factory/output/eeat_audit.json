@@ -1,0 +1,3768 @@
+{
+  "generated_at": "2026-07-14T14:44:00+00:00",
+  "article_count": 219,
+  "average_score": 90,
+  "pass": true,
+  "minimum_score": 70,
+  "articles": [
+    {
+      "path": "articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
+      "score": 50,
+      "pass": false,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": false,
+        "editorial_path": false,
+        "about_path": false,
+        "disclaimer_path": false,
+        "practical_content": true
+      },
+      "issues": [
+        "contact_path",
+        "editorial_path",
+        "about_path",
+        "disclaimer_path"
+      ]
+    },
+    {
+      "path": "articles/ai-side-hustles-beginner.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/air-conditioner-electricity-saving.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/aircon-dry-mode-electricity.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/aircon-filter-cleaning-savings.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/aircon-optimal-temperature-savings.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/apartment-management-fee-summer.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/automatic-payment-saving.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/bank-account-budgeting.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/bank-fee-saving.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/bank-fees-to-avoid.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/basic-livelihood-discounts.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/basic-pension-application-guide.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/beginner-ai-side-hustles.html",
+      "score": 12,
+      "pass": false,
+      "checks": {
+        "clear_title": false,
+        "updated_date": false,
+        "source_signal": false,
+        "contact_path": false,
+        "editorial_path": false,
+        "about_path": true,
+        "disclaimer_path": false,
+        "practical_content": false
+      },
+      "issues": [
+        "clear_title",
+        "updated_date",
+        "source_signal",
+        "contact_path",
+        "editorial_path",
+        "disclaimer_path",
+        "practical_content"
+      ]
+    },
+    {
+      "path": "articles/beginner-budget-plan.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/beginner-money-management.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/benefit-scam-warning-2026.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/budget-app-guide.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/building-land-property-tax.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/business-card-hometax-registration.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/business-closure-vat-order.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/business-phone-expense-deduction.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/business-vehicle-expense-basics.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/cancel-unused-subscriptions.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/car-aircon-fuel-saving.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/car-insurance-child-discount.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/car-insurance-mileage-refund.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/car-insurance-overpayment-refund.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/car-tax-annual-payment.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/car-tax-check-payment-guide.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/card-points-cashback-guide.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/cash-advance-vs-card-loan.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/cash-out-card-points.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/cashback-apps-guide.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/check-hidden-refunds.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/child-allowance-guide.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/child-tax-credit-status-check.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/childcare-service-government-support.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/cma-account-types-risk.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/credit-card-billing-cycle-guide.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/credit-score-habits.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/credit-score-management.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/credit-score-tips.html",
+      "score": 12,
+      "pass": false,
+      "checks": {
+        "clear_title": false,
+        "updated_date": false,
+        "source_signal": false,
+        "contact_path": false,
+        "editorial_path": false,
+        "about_path": true,
+        "disclaimer_path": false,
+        "practical_content": false
+      },
+      "issues": [
+        "clear_title",
+        "updated_date",
+        "source_signal",
+        "contact_path",
+        "editorial_path",
+        "disclaimer_path",
+        "practical_content"
+      ]
+    },
+    {
+      "path": "articles/culture-nuri-card-balance.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/debit-card-vs-credit-card.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/dehumidifier-electricity-saving.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/deposit-protection-limit-guide.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/deposit-return-guarantee-checklist.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/dormant-deposit-insurance-search.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/dryer-summer-electricity-saving.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/duplicate-indemnity-insurance-check.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/earned-income-credit-account-change.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/earned-income-credit-payment.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/earned-income-credit-status-check.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/earned-income-tax-credit-korea.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/education-benefit-eligibility.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/education-expense-vs-benefit.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/electricity-bill-easy-calculator-guide.html",
+      "score": 75,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": false,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal",
+        "disclaimer_path"
+      ]
+    },
+    {
+      "path": "articles/electricity-bill-saving.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": false,
+        "practical_content": true
+      },
+      "issues": [
+        "disclaimer_path"
+      ]
+    },
+    {
+      "path": "articles/electricity-discount-card-guide.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/electronic-tax-invoice-penalty.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/elementary-school-education-support.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/emergency-fund-guide.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/emergency-medical-support.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/emergency-welfare-living-support.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/energy-voucher-2026-application.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/energy-voucher-application-2026.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/energy-voucher-application.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/energy-voucher-balance-check-2026.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/energy-voucher-balance-use-2026.html",
+      "score": 12,
+      "pass": false,
+      "checks": {
+        "clear_title": false,
+        "updated_date": false,
+        "source_signal": false,
+        "contact_path": false,
+        "editorial_path": false,
+        "about_path": true,
+        "disclaimer_path": false,
+        "practical_content": false
+      },
+      "issues": [
+        "clear_title",
+        "updated_date",
+        "source_signal",
+        "contact_path",
+        "editorial_path",
+        "disclaimer_path",
+        "practical_content"
+      ]
+    },
+    {
+      "path": "articles/energy-voucher-balance-use.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/energy-voucher-documents.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/energy-voucher-eligibility-2026.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/energy-voucher-online-application.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/fan-aircon-combination-saving.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/first-meeting-voucher-guide.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/fixed-date-online-application.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/fixed-speed-aircon-saving.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/four-major-insurance-deduction-guide.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/gas-bill-checklist.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/general-vat-common-mistakes.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/government-benefit-alert-2026.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/government-benefit-alert-guide-2026.html",
+      "score": 12,
+      "pass": false,
+      "checks": {
+        "clear_title": false,
+        "updated_date": false,
+        "source_signal": false,
+        "contact_path": false,
+        "editorial_path": false,
+        "about_path": true,
+        "disclaimer_path": false,
+        "practical_content": false
+      },
+      "issues": [
+        "clear_title",
+        "updated_date",
+        "source_signal",
+        "contact_path",
+        "editorial_path",
+        "disclaimer_path",
+        "practical_content"
+      ]
+    },
+    {
+      "path": "articles/government-benefit-alert-setup.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/government-benefits-warning.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/government-support-calendar.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/government-support-scam-warning-2026.html",
+      "score": 12,
+      "pass": false,
+      "checks": {
+        "clear_title": false,
+        "updated_date": false,
+        "source_signal": false,
+        "contact_path": false,
+        "editorial_path": false,
+        "about_path": true,
+        "disclaimer_path": false,
+        "practical_content": false
+      },
+      "issues": [
+        "clear_title",
+        "updated_date",
+        "source_signal",
+        "contact_path",
+        "editorial_path",
+        "disclaimer_path",
+        "practical_content"
+      ]
+    },
+    {
+      "path": "articles/government24-benefit-check.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/grocery-bill-savings.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/grocery-saving-tips.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/health-insurance-out-of-pocket-refund.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/health-insurance-overpayment-refund.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/health-insurance-refund-guide.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/health-insurance-refund.html",
+      "score": 12,
+      "pass": false,
+      "checks": {
+        "clear_title": false,
+        "updated_date": false,
+        "source_signal": false,
+        "contact_path": false,
+        "editorial_path": false,
+        "about_path": true,
+        "disclaimer_path": false,
+        "practical_content": false
+      },
+      "issues": [
+        "clear_title",
+        "updated_date",
+        "source_signal",
+        "contact_path",
+        "editorial_path",
+        "disclaimer_path",
+        "practical_content"
+      ]
+    },
+    {
+      "path": "articles/heating-bill-saving.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/hidden-money-search.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/hidden-refund-check.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/home-water-leak-self-check.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/hometax-refund-status.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/hometax-vat-sales-check.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/housing-benefit-eligibility.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/how-to-check-hidden-refunds.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/how-to-lower-phone-bill.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/how-to-save-electricity-bill.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/impulse-buying-control.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/income-tax-filing-missed-consequences.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/insurance-auto-pay-discount.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/insurance-surrender-value-check.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/internet-bill-discount.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/internet-bill-savings.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/inverter-aircon-saving-guide.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/irs-tax-refund-status.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/lifelong-education-voucher-application.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/loan-prepayment-fee-check.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/loan-refinancing-check.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/local-tax-refund-claim.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/local-tax-refund-guide.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/local-tax-refund.html",
+      "score": 12,
+      "pass": false,
+      "checks": {
+        "clear_title": false,
+        "updated_date": false,
+        "source_signal": false,
+        "contact_path": false,
+        "editorial_path": false,
+        "about_path": true,
+        "disclaimer_path": false,
+        "practical_content": false
+      },
+      "issues": [
+        "clear_title",
+        "updated_date",
+        "source_signal",
+        "contact_path",
+        "editorial_path",
+        "disclaimer_path",
+        "practical_content"
+      ]
+    },
+    {
+      "path": "articles/long-term-care-insurance-application.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/low-income-cooling-support.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/medical-bill-negotiation.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/missing-property-tax-bill.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/money-saving-habits.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/monthly-budget-planner.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/monthly-rent-tax-credit-documents.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/national-employment-support-eligibility.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/national-pension-additional-payment.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/national-pension-old-age-benefit-guide.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/national-pension-overpayment-refund.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/national-scholarship-application.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/national-tax-refund-account.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/national-tax-refund.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/near-poverty-certificate.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/online-income-ideas-for-beginners.html",
+      "score": 12,
+      "pass": false,
+      "checks": {
+        "clear_title": false,
+        "updated_date": false,
+        "source_signal": false,
+        "contact_path": false,
+        "editorial_path": false,
+        "about_path": true,
+        "disclaimer_path": false,
+        "practical_content": false
+      },
+      "issues": [
+        "clear_title",
+        "updated_date",
+        "source_signal",
+        "contact_path",
+        "editorial_path",
+        "disclaimer_path",
+        "practical_content"
+      ]
+    },
+    {
+      "path": "articles/over-60-benefits-guide.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/overdraft-account-guide.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/parental-benefit-guide.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/parking-account-rate-comparison.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/peak-season-hotel-saving.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/phone-bill-saving.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/property-tax-bill-checklist-2026.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/property-tax-calculation-structure.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/property-tax-deadline.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/property-tax-electronic-bill-2026.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/property-tax-electronic-notice-2026.html",
+      "score": 12,
+      "pass": false,
+      "checks": {
+        "clear_title": false,
+        "updated_date": false,
+        "source_signal": false,
+        "contact_path": false,
+        "editorial_path": false,
+        "about_path": true,
+        "disclaimer_path": false,
+        "practical_content": false
+      },
+      "issues": [
+        "clear_title",
+        "updated_date",
+        "source_signal",
+        "contact_path",
+        "editorial_path",
+        "disclaimer_path",
+        "practical_content"
+      ]
+    },
+    {
+      "path": "articles/property-tax-installment-application.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/property-tax-joint-ownership.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/property-tax-july-2026.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/property-tax-july-checklist-2026.html",
+      "score": 12,
+      "pass": false,
+      "checks": {
+        "clear_title": false,
+        "updated_date": false,
+        "source_signal": false,
+        "contact_path": false,
+        "editorial_path": false,
+        "about_path": true,
+        "disclaimer_path": false,
+        "practical_content": false
+      },
+      "issues": [
+        "clear_title",
+        "updated_date",
+        "source_signal",
+        "contact_path",
+        "editorial_path",
+        "disclaimer_path",
+        "practical_content"
+      ]
+    },
+    {
+      "path": "articles/property-tax-july-september-difference.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/property-tax-objection-guide.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/property-tax-payment-certificate.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/reduce-electricity-bill.html",
+      "score": 12,
+      "pass": false,
+      "checks": {
+        "clear_title": false,
+        "updated_date": false,
+        "source_signal": false,
+        "contact_path": false,
+        "editorial_path": false,
+        "about_path": true,
+        "disclaimer_path": false,
+        "practical_content": false
+      },
+      "issues": [
+        "clear_title",
+        "updated_date",
+        "source_signal",
+        "contact_path",
+        "editorial_path",
+        "disclaimer_path",
+        "practical_content"
+      ]
+    },
+    {
+      "path": "articles/refrigerator-summer-electricity-saving.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/regional-development-bond-refund-guide.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/rental-car-vacation-saving.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/rental-contract-reporting-guide.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/revolving-cancellation-payoff.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/salary-budget-guide.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/salary-management-guide.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/salary-slip-check-guide.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/salary-take-home-easy-calculator-guide.html",
+      "score": 75,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": false,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal",
+        "disclaimer_path"
+      ]
+    },
+    {
+      "path": "articles/savings-maturity-auto-renewal.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/self-employed-income-tax-refund-check.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/senior-job-application-guide.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/severance-pay-calculation-guide.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/severance-pay-easy-calculator-guide.html",
+      "score": 75,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": false,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal",
+        "disclaimer_path"
+      ]
+    },
+    {
+      "path": "articles/simple-receipt-expense-rules.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/simplified-vat-checklist.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/single-parent-support-benefits.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/small-business-closure-support.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/small-business-delivery-support.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/small-business-electricity-support.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/small-business-policy-fund-search.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/small-business-policy-fund.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/spending-habits-change.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/student-loan-repayment-guide.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/subscription-audit-checklist.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/subscription-cleanup.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/subscription-saving.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/subsidy24-benefit-search.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/summer-electricity-tier-check-2026.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/summer-electricity-tier-check.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/summer-electricity-usage-check-2026.html",
+      "score": 12,
+      "pass": false,
+      "checks": {
+        "clear_title": false,
+        "updated_date": false,
+        "source_signal": false,
+        "contact_path": false,
+        "editorial_path": false,
+        "about_path": true,
+        "disclaimer_path": false,
+        "practical_content": false
+      },
+      "issues": [
+        "clear_title",
+        "updated_date",
+        "source_signal",
+        "contact_path",
+        "editorial_path",
+        "disclaimer_path",
+        "practical_content"
+      ]
+    },
+    {
+      "path": "articles/summer-gas-bill-hot-water-saving.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/summer-vacation-budget-plan.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/summer-water-bill-spike-check.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/tax-credit-late-application.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/tax-invoice-vs-cash-receipt.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/telecom-discount-guide.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/telecom-unclaimed-refund.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/traffic-fine-check-payment-guide.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/traffic-fines-difference-guide.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/traffic-penalty-check-payment-guide.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/travel-insurance-comparison.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/unemployment-benefit-checklist.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/unemployment-benefit-job-search.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/vat-final-return-2026-july.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/vat-final-return-deadline-2026.html",
+      "score": 12,
+      "pass": false,
+      "checks": {
+        "clear_title": false,
+        "updated_date": false,
+        "source_signal": false,
+        "contact_path": false,
+        "editorial_path": false,
+        "about_path": true,
+        "disclaimer_path": false,
+        "practical_content": false
+      },
+      "issues": [
+        "clear_title",
+        "updated_date",
+        "source_signal",
+        "contact_path",
+        "editorial_path",
+        "disclaimer_path",
+        "practical_content"
+      ]
+    },
+    {
+      "path": "articles/vat-final-return-july-2026.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/vat-input-tax-deduction-2026.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/vat-input-tax-deduction-guide-2026.html",
+      "score": 12,
+      "pass": false,
+      "checks": {
+        "clear_title": false,
+        "updated_date": false,
+        "source_signal": false,
+        "contact_path": false,
+        "editorial_path": false,
+        "about_path": true,
+        "disclaimer_path": false,
+        "practical_content": false
+      },
+      "issues": [
+        "clear_title",
+        "updated_date",
+        "source_signal",
+        "contact_path",
+        "editorial_path",
+        "disclaimer_path",
+        "practical_content"
+      ]
+    },
+    {
+      "path": "articles/vat-input-tax-deduction-items.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/vat-payment-extension-guide.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/vat-sales-omission-check-2026.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/vat-zero-sales-filing-2026.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/vat-zero-sales-filing.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/vehicle-inspection-reservation-guide.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/water-bill-guide.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/water-bill-saving.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/weekly-holiday-pay-guide.html",
+      "score": 88,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": false,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": [
+        "source_signal"
+      ]
+    },
+    {
+      "path": "articles/wetax-electronic-billing.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/wetax-payment-history.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/youth-housing-benefit-separate-payment.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/youth-leap-account-contribution.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/youth-savings-account-maintenance.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/youth-support-programs.html",
+      "score": 100,
+      "pass": true,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": true,
+        "editorial_path": true,
+        "about_path": true,
+        "disclaimer_path": true,
+        "practical_content": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/전기요금-절약-c861d77ba6.html",
+      "score": 50,
+      "pass": false,
+      "checks": {
+        "clear_title": true,
+        "updated_date": true,
+        "source_signal": true,
+        "contact_path": false,
+        "editorial_path": false,
+        "about_path": false,
+        "disclaimer_path": false,
+        "practical_content": true
+      },
+      "issues": [
+        "contact_path",
+        "editorial_path",
+        "about_path",
+        "disclaimer_path"
+      ]
+    }
+  ]
+}

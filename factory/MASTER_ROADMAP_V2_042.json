@@ -1,0 +1,18 @@
+{
+  "current_version": "2.042",
+  "factory_progress_percent": 97,
+  "adsense_readiness_percent": 92,
+  "completed": [
+    "Publisher single config",
+    "Publisher scan",
+    "Publisher repair",
+    "ads.txt verify",
+    "index verify",
+    "Pipeline pre/post lock",
+    "Deployment gate",
+    "Doctor lock",
+    "compile/tests/integrity scan"
+  ],
+  "next_version": "2.043",
+  "next_target": "Factory 전체 생성기/템플릿 AdSense 주입 경로 회귀 테스트 강화"
+}

@@ -1,0 +1,19 @@
+{
+  "adsense_readiness_score": 55,
+  "ready_to_apply": false,
+  "article_count": 218,
+  "passed_article_count": 77,
+  "failed_article_count": 141,
+  "thin_content_count": 14,
+  "policy_risk_count": 0,
+  "noindex_count": 0,
+  "blockers": [
+    "thin_content",
+    "duplicate_titles",
+    "article_quality_ratio"
+  ],
+  "outputs": [
+    "factory/output/adsense_audit.json",
+    "factory/output/adsense_fix_queue.json"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "keyword_count": 1,
+  "keywords": [
+    {
+      "query": "전기요금 절약",
+      "clicks": 2.0,
+      "impressions": 200.0,
+      "position": 8.5,
+      "pages": [
+        "https://savingio.com/articles/sample"
+      ]
+    }
+  ],
+  "created_at": "2026-07-14T12:24:03+00:00"
+}

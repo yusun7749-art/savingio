@@ -1,0 +1,28 @@
+{
+  "topic": "전기요금 절약",
+  "slug": "전기요금-절약-c861d77b",
+  "required": [
+    {
+      "filename": "전기요금-절약-c861d77b-hero.webp",
+      "alt": "전기요금 절약 핵심 안내 이미지",
+      "aspect_ratio": "16:9",
+      "prompt": "전기요금 절약을 설명하는 신뢰감 있는 한국형 생활정보 웹사이트 대표 이미지, 텍스트 최소화"
+    },
+    {
+      "filename": "전기요금-절약-c861d77b-og.webp",
+      "alt": "전기요금 절약 OG 이미지",
+      "aspect_ratio": "1200:630",
+      "prompt": "Savingio 브랜드용 전기요금 절약 OG 이미지, 정보형, 깔끔한 카드 스타일"
+    },
+    {
+      "filename": "전기요금-절약-c861d77b-summary.webp",
+      "alt": "전기요금 절약 요약 인포그래픽",
+      "aspect_ratio": "4:5",
+      "prompt": "전기요금 절약 핵심 조건과 실행 순서를 요약한 인포그래픽"
+    }
+  ],
+  "generated_files": [],
+  "ready": false,
+  "requires_external_image_generation": true,
+  "created_at": "2026-07-14T10:25:51+00:00"
+}

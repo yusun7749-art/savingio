@@ -1,0 +1,19 @@
+{
+  "id": "b9f4416000194f09939ca8e790c16daf",
+  "sender": "operations",
+  "receiver": "planning",
+  "event": "task.assigned",
+  "payload": {
+    "workflow_id": "43dffd42f9014335aa6df2d136a51d7a",
+    "topic": "revenue:/articles/sample.html",
+    "status": "created",
+    "current_department": "planning",
+    "completed_departments": [],
+    "failed_departments": [],
+    "created_at": "2026-07-14T13:00:48+00:00",
+    "updated_at": "2026-07-14T13:00:48+00:00"
+  },
+  "correlation_id": "43dffd42f9014335aa6df2d136a51d7a",
+  "created_at": "2026-07-14T13:00:48+00:00",
+  "status": "queued"
+}

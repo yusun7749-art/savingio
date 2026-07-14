@@ -1,0 +1,44 @@
+{
+  "dimensionHeaders": [
+    {
+      "name": "date"
+    },
+    {
+      "name": "pagePath"
+    }
+  ],
+  "metricHeaders": [
+    {
+      "name": "screenPageViews"
+    },
+    {
+      "name": "activeUsers"
+    },
+    {
+      "name": "sessions"
+    }
+  ],
+  "rows": [
+    {
+      "dimensionValues": [
+        {
+          "value": "20260701"
+        },
+        {
+          "value": "https://savingio.com/articles/sample"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "100"
+        },
+        {
+          "value": "40"
+        },
+        {
+          "value": "50"
+        }
+      ]
+    }
+  ]
+}

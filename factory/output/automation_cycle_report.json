@@ -1,0 +1,925 @@
+{
+  "workflow_id": "6168ceb7e30b4587a9fc0f6fed808af7",
+  "topic": "전기요금 절약",
+  "status": "blocked",
+  "handoff_count": 2,
+  "handoffs": [
+    {
+      "handoff_id": "d6ec0914d8ad4aff844b9cf69565fbb4",
+      "workflow_id": "6168ceb7e30b4587a9fc0f6fed808af7",
+      "sender": "planning",
+      "receiver": "research",
+      "status": "ready",
+      "blockers": [],
+      "payload": {
+        "topic": "전기요금 절약",
+        "slug": "전기요금-절약-c861d77b",
+        "article_type": "guide",
+        "category": "공과금",
+        "search_intent": "문제 해결",
+        "audience": "생활비 절약 정보를 찾는 사용자",
+        "required_sections": [
+          "Hero",
+          "3초요약",
+          "상황선택",
+          "결론",
+          "원인",
+          "조건분기",
+          "해결순서",
+          "사례",
+          "표",
+          "FAQ",
+          "다음행동",
+          "내부링크",
+          "정부근거",
+          "업데이트"
+        ],
+        "target_chars": 5000,
+        "research_questions": [
+          "전기요금 절약의 핵심 조건은 무엇인가?",
+          "전기요금 절약의 실행 순서는 무엇인가?"
+        ],
+        "matched_keywords": [
+          "절약"
+        ],
+        "risk_level": "medium",
+        "created_at": "2026-07-14T12:49:46+00:00",
+        "status": "planned"
+      },
+      "created_at": "2026-07-14T12:49:46+00:00",
+      "gate": {
+        "department": "planning",
+        "pass": true,
+        "blockers": [],
+        "checked_at": "2026-07-14T12:49:46+00:00"
+      },
+      "path": "factory/output/handoffs/6168ceb7e30b4587a9fc0f6fed808af7/planning-to-research.json"
+    },
+    {
+      "handoff_id": "e66044ef096e43d49908b00403435a79",
+      "workflow_id": "6168ceb7e30b4587a9fc0f6fed808af7",
+      "sender": "research",
+      "receiver": "writing",
+      "status": "blocked",
+      "blockers": [
+        "ready_for_publish",
+        "research_qa_score<80"
+      ],
+      "payload": {
+        "topic": "전기요금 절약",
+        "article_type": "guide",
+        "research_questions": [
+          "전기요금 절약의 적용 대상과 제외 대상은 무엇인가?",
+          "전기요금 절약의 기준일과 최신 변경사항은 무엇인가?",
+          "전기요금 절약의 공식 신청·변경·해지 절차는 무엇인가?",
+          "전기요금 절약에서 필요한 서류와 보관해야 할 증빙은 무엇인가?",
+          "전기요금 절약의 비용, 요율, 한도, 계산 기준은 무엇인가?",
+          "전기요금 절약의 예외·주의사항·불이익은 무엇인가?",
+          "전기요금 절약 관련 공식 문의처와 이의신청 절차는 무엇인가?"
+        ],
+        "official_source_candidates": [
+          {
+            "name": "한국전력",
+            "domain": "kepco.co.kr",
+            "category": "utility",
+            "trust_score": 96,
+            "priority": 1,
+            "matched_keywords": [
+              "전기",
+              "전기요금"
+            ],
+            "query_templates": [],
+            "score": 115
+          },
+          {
+            "name": "국가법령정보센터",
+            "domain": "law.go.kr",
+            "category": "law",
+            "trust_score": 100,
+            "priority": 1,
+            "matched_keywords": [],
+            "query_templates": [
+              "site:{domain} \"{topic}\"",
+              "site:{domain} \"{topic}\" 시행령"
+            ],
+            "score": 99
+          },
+          {
+            "name": "통계청",
+            "domain": "kostat.go.kr",
+            "category": "statistics",
+            "trust_score": 96,
+            "priority": 2,
+            "matched_keywords": [],
+            "query_templates": [],
+            "score": 94
+          }
+        ],
+        "query_plan": [
+          {
+            "source_name": "한국전력",
+            "domain": "kepco.co.kr",
+            "query": "site:kepco.co.kr \"전기요금 절약\"",
+            "priority": 1,
+            "trust_score": 96
+          },
+          {
+            "source_name": "한국전력",
+            "domain": "kepco.co.kr",
+            "query": "site:kepco.co.kr \"전기요금 절약\" 조건",
+            "priority": 1,
+            "trust_score": 96
+          },
+          {
+            "source_name": "한국전력",
+            "domain": "kepco.co.kr",
+            "query": "site:kepco.co.kr \"전기요금 절약\" 신청",
+            "priority": 1,
+            "trust_score": 96
+          },
+          {
+            "source_name": "국가법령정보센터",
+            "domain": "law.go.kr",
+            "query": "site:law.go.kr \"전기요금 절약\"",
+            "priority": 1,
+            "trust_score": 100
+          },
+          {
+            "source_name": "국가법령정보센터",
+            "domain": "law.go.kr",
+            "query": "site:law.go.kr \"전기요금 절약\" 시행령",
+            "priority": 1,
+            "trust_score": 100
+          },
+          {
+            "source_name": "통계청",
+            "domain": "kostat.go.kr",
+            "query": "site:kostat.go.kr \"전기요금 절약\"",
+            "priority": 2,
+            "trust_score": 96
+          },
+          {
+            "source_name": "통계청",
+            "domain": "kostat.go.kr",
+            "query": "site:kostat.go.kr \"전기요금 절약\" 조건",
+            "priority": 2,
+            "trust_score": 96
+          },
+          {
+            "source_name": "통계청",
+            "domain": "kostat.go.kr",
+            "query": "site:kostat.go.kr \"전기요금 절약\" 신청",
+            "priority": 2,
+            "trust_score": 96
+          }
+        ],
+        "evidence": [],
+        "verified_evidence_count": 0,
+        "official_evidence_count": 0,
+        "fresh_evidence_count": 0,
+        "duplicate_evidence_count": 0,
+        "evidence_score": 0,
+        "research_status": "research_rework_required",
+        "ready_for_writer": true,
+        "ready_for_publish": false,
+        "safety_notice": "검증되지 않은 수치·법령·지원금액은 확정 표현을 금지합니다.",
+        "created_at": "2026-07-14T12:49:46+00:00",
+        "research_qa_score": 15,
+        "qa": {
+          "score": 15,
+          "pass": false,
+          "minimum": 80,
+          "checks": [
+            {
+              "name": "verified_evidence",
+              "passed": false,
+              "weight": 25,
+              "earned": 0,
+              "detail": "0/2"
+            },
+            {
+              "name": "official_evidence",
+              "passed": false,
+              "weight": 20,
+              "earned": 0,
+              "detail": "0/2"
+            },
+            {
+              "name": "domain_diversity",
+              "passed": false,
+              "weight": 15,
+              "earned": 0,
+              "detail": "0/2"
+            },
+            {
+              "name": "claim_coverage",
+              "passed": false,
+              "weight": 15,
+              "earned": 0,
+              "detail": "0/2"
+            },
+            {
+              "name": "freshness",
+              "passed": false,
+              "weight": 10,
+              "earned": 0,
+              "detail": "0/1"
+            },
+            {
+              "name": "questions",
+              "passed": true,
+              "weight": 10,
+              "earned": 10,
+              "detail": "7/6"
+            },
+            {
+              "name": "query_plan",
+              "passed": true,
+              "weight": 5,
+              "earned": 5,
+              "detail": "8/4"
+            }
+          ],
+          "issues": [
+            "verified_evidence",
+            "official_evidence",
+            "domain_diversity",
+            "claim_coverage",
+            "freshness"
+          ],
+          "critical_failures": [
+            "verified_evidence",
+            "official_evidence",
+            "domain_diversity"
+          ],
+          "checked_at": "2026-07-14T12:49:46+00:00"
+        },
+        "report": {
+          "topic": "전기요금 절약",
+          "article_type": "guide",
+          "category": "공과금",
+          "status": "research_rework_required",
+          "research_qa": {
+            "score": 15,
+            "pass": false,
+            "minimum": 80,
+            "checks": [
+              {
+                "name": "verified_evidence",
+                "passed": false,
+                "weight": 25,
+                "earned": 0,
+                "detail": "0/2"
+              },
+              {
+                "name": "official_evidence",
+                "passed": false,
+                "weight": 20,
+                "earned": 0,
+                "detail": "0/2"
+              },
+              {
+                "name": "domain_diversity",
+                "passed": false,
+                "weight": 15,
+                "earned": 0,
+                "detail": "0/2"
+              },
+              {
+                "name": "claim_coverage",
+                "passed": false,
+                "weight": 15,
+                "earned": 0,
+                "detail": "0/2"
+              },
+              {
+                "name": "freshness",
+                "passed": false,
+                "weight": 10,
+                "earned": 0,
+                "detail": "0/1"
+              },
+              {
+                "name": "questions",
+                "passed": true,
+                "weight": 10,
+                "earned": 10,
+                "detail": "7/6"
+              },
+              {
+                "name": "query_plan",
+                "passed": true,
+                "weight": 5,
+                "earned": 5,
+                "detail": "8/4"
+              }
+            ],
+            "issues": [
+              "verified_evidence",
+              "official_evidence",
+              "domain_diversity",
+              "claim_coverage",
+              "freshness"
+            ],
+            "critical_failures": [
+              "verified_evidence",
+              "official_evidence",
+              "domain_diversity"
+            ],
+            "checked_at": "2026-07-14T12:49:46+00:00"
+          },
+          "key_claims": [],
+          "official_sources": [
+            {
+              "name": "한국전력",
+              "domain": "kepco.co.kr",
+              "category": "utility",
+              "trust_score": 96,
+              "priority": 1,
+              "matched_keywords": [
+                "전기",
+                "전기요금"
+              ],
+              "query_templates": [],
+              "score": 115
+            },
+            {
+              "name": "국가법령정보센터",
+              "domain": "law.go.kr",
+              "category": "law",
+              "trust_score": 100,
+              "priority": 1,
+              "matched_keywords": [],
+              "query_templates": [
+                "site:{domain} \"{topic}\"",
+                "site:{domain} \"{topic}\" 시행령"
+              ],
+              "score": 99
+            },
+            {
+              "name": "통계청",
+              "domain": "kostat.go.kr",
+              "category": "statistics",
+              "trust_score": 96,
+              "priority": 2,
+              "matched_keywords": [],
+              "query_templates": [],
+              "score": 94
+            }
+          ],
+          "research_questions": [
+            "전기요금 절약의 적용 대상과 제외 대상은 무엇인가?",
+            "전기요금 절약의 기준일과 최신 변경사항은 무엇인가?",
+            "전기요금 절약의 공식 신청·변경·해지 절차는 무엇인가?",
+            "전기요금 절약에서 필요한 서류와 보관해야 할 증빙은 무엇인가?",
+            "전기요금 절약의 비용, 요율, 한도, 계산 기준은 무엇인가?",
+            "전기요금 절약의 예외·주의사항·불이익은 무엇인가?",
+            "전기요금 절약 관련 공식 문의처와 이의신청 절차는 무엇인가?"
+          ],
+          "query_plan": [
+            {
+              "source_name": "한국전력",
+              "domain": "kepco.co.kr",
+              "query": "site:kepco.co.kr \"전기요금 절약\"",
+              "priority": 1,
+              "trust_score": 96
+            },
+            {
+              "source_name": "한국전력",
+              "domain": "kepco.co.kr",
+              "query": "site:kepco.co.kr \"전기요금 절약\" 조건",
+              "priority": 1,
+              "trust_score": 96
+            },
+            {
+              "source_name": "한국전력",
+              "domain": "kepco.co.kr",
+              "query": "site:kepco.co.kr \"전기요금 절약\" 신청",
+              "priority": 1,
+              "trust_score": 96
+            },
+            {
+              "source_name": "국가법령정보센터",
+              "domain": "law.go.kr",
+              "query": "site:law.go.kr \"전기요금 절약\"",
+              "priority": 1,
+              "trust_score": 100
+            },
+            {
+              "source_name": "국가법령정보센터",
+              "domain": "law.go.kr",
+              "query": "site:law.go.kr \"전기요금 절약\" 시행령",
+              "priority": 1,
+              "trust_score": 100
+            },
+            {
+              "source_name": "통계청",
+              "domain": "kostat.go.kr",
+              "query": "site:kostat.go.kr \"전기요금 절약\"",
+              "priority": 2,
+              "trust_score": 96
+            },
+            {
+              "source_name": "통계청",
+              "domain": "kostat.go.kr",
+              "query": "site:kostat.go.kr \"전기요금 절약\" 조건",
+              "priority": 2,
+              "trust_score": 96
+            },
+            {
+              "source_name": "통계청",
+              "domain": "kostat.go.kr",
+              "query": "site:kostat.go.kr \"전기요금 절약\" 신청",
+              "priority": 2,
+              "trust_score": 96
+            }
+          ],
+          "safety_rules": [
+            "검증되지 않은 수치·법령·지원금액은 확정적으로 쓰지 않습니다.",
+            "기준일이 없는 정보는 최신 정보로 단정하지 않습니다.",
+            "원문 출처 URL을 글의 공식 근거 섹션에 유지합니다."
+          ],
+          "writer_instructions": {
+            "must_cite_verified_claims": true,
+            "may_use_unverified_claims": false,
+            "required_sections": [
+              "Hero",
+              "3초요약",
+              "상황선택",
+              "결론",
+              "원인",
+              "조건분기",
+              "해결순서",
+              "사례",
+              "표",
+              "FAQ",
+              "다음행동",
+              "내부링크",
+              "정부근거",
+              "업데이트"
+            ],
+            "target_chars": 5000
+          },
+          "created_at": "2026-07-14T12:49:46+00:00"
+        },
+        "output_files": {
+          "package": "factory/output/research/research_package.json",
+          "qa": "factory/output/research/research_qa.json",
+          "report": "factory/output/research/research_report.json"
+        }
+      },
+      "created_at": "2026-07-14T12:49:46+00:00",
+      "gate": {
+        "department": "research",
+        "pass": false,
+        "blockers": [
+          "ready_for_publish",
+          "research_qa_score<80"
+        ],
+        "checked_at": "2026-07-14T12:49:46+00:00"
+      },
+      "path": "factory/output/handoffs/6168ceb7e30b4587a9fc0f6fed808af7/research-to-writing.json"
+    }
+  ],
+  "packets": {
+    "planning": {
+      "topic": "전기요금 절약",
+      "slug": "전기요금-절약-c861d77b",
+      "article_type": "guide",
+      "category": "공과금",
+      "search_intent": "문제 해결",
+      "audience": "생활비 절약 정보를 찾는 사용자",
+      "required_sections": [
+        "Hero",
+        "3초요약",
+        "상황선택",
+        "결론",
+        "원인",
+        "조건분기",
+        "해결순서",
+        "사례",
+        "표",
+        "FAQ",
+        "다음행동",
+        "내부링크",
+        "정부근거",
+        "업데이트"
+      ],
+      "target_chars": 5000,
+      "research_questions": [
+        "전기요금 절약의 핵심 조건은 무엇인가?",
+        "전기요금 절약의 실행 순서는 무엇인가?"
+      ],
+      "matched_keywords": [
+        "절약"
+      ],
+      "risk_level": "medium",
+      "created_at": "2026-07-14T12:49:46+00:00",
+      "status": "planned"
+    },
+    "research": {
+      "topic": "전기요금 절약",
+      "article_type": "guide",
+      "research_questions": [
+        "전기요금 절약의 적용 대상과 제외 대상은 무엇인가?",
+        "전기요금 절약의 기준일과 최신 변경사항은 무엇인가?",
+        "전기요금 절약의 공식 신청·변경·해지 절차는 무엇인가?",
+        "전기요금 절약에서 필요한 서류와 보관해야 할 증빙은 무엇인가?",
+        "전기요금 절약의 비용, 요율, 한도, 계산 기준은 무엇인가?",
+        "전기요금 절약의 예외·주의사항·불이익은 무엇인가?",
+        "전기요금 절약 관련 공식 문의처와 이의신청 절차는 무엇인가?"
+      ],
+      "official_source_candidates": [
+        {
+          "name": "한국전력",
+          "domain": "kepco.co.kr",
+          "category": "utility",
+          "trust_score": 96,
+          "priority": 1,
+          "matched_keywords": [
+            "전기",
+            "전기요금"
+          ],
+          "query_templates": [],
+          "score": 115
+        },
+        {
+          "name": "국가법령정보센터",
+          "domain": "law.go.kr",
+          "category": "law",
+          "trust_score": 100,
+          "priority": 1,
+          "matched_keywords": [],
+          "query_templates": [
+            "site:{domain} \"{topic}\"",
+            "site:{domain} \"{topic}\" 시행령"
+          ],
+          "score": 99
+        },
+        {
+          "name": "통계청",
+          "domain": "kostat.go.kr",
+          "category": "statistics",
+          "trust_score": 96,
+          "priority": 2,
+          "matched_keywords": [],
+          "query_templates": [],
+          "score": 94
+        }
+      ],
+      "query_plan": [
+        {
+          "source_name": "한국전력",
+          "domain": "kepco.co.kr",
+          "query": "site:kepco.co.kr \"전기요금 절약\"",
+          "priority": 1,
+          "trust_score": 96
+        },
+        {
+          "source_name": "한국전력",
+          "domain": "kepco.co.kr",
+          "query": "site:kepco.co.kr \"전기요금 절약\" 조건",
+          "priority": 1,
+          "trust_score": 96
+        },
+        {
+          "source_name": "한국전력",
+          "domain": "kepco.co.kr",
+          "query": "site:kepco.co.kr \"전기요금 절약\" 신청",
+          "priority": 1,
+          "trust_score": 96
+        },
+        {
+          "source_name": "국가법령정보센터",
+          "domain": "law.go.kr",
+          "query": "site:law.go.kr \"전기요금 절약\"",
+          "priority": 1,
+          "trust_score": 100
+        },
+        {
+          "source_name": "국가법령정보센터",
+          "domain": "law.go.kr",
+          "query": "site:law.go.kr \"전기요금 절약\" 시행령",
+          "priority": 1,
+          "trust_score": 100
+        },
+        {
+          "source_name": "통계청",
+          "domain": "kostat.go.kr",
+          "query": "site:kostat.go.kr \"전기요금 절약\"",
+          "priority": 2,
+          "trust_score": 96
+        },
+        {
+          "source_name": "통계청",
+          "domain": "kostat.go.kr",
+          "query": "site:kostat.go.kr \"전기요금 절약\" 조건",
+          "priority": 2,
+          "trust_score": 96
+        },
+        {
+          "source_name": "통계청",
+          "domain": "kostat.go.kr",
+          "query": "site:kostat.go.kr \"전기요금 절약\" 신청",
+          "priority": 2,
+          "trust_score": 96
+        }
+      ],
+      "evidence": [],
+      "verified_evidence_count": 0,
+      "official_evidence_count": 0,
+      "fresh_evidence_count": 0,
+      "duplicate_evidence_count": 0,
+      "evidence_score": 0,
+      "research_status": "research_rework_required",
+      "ready_for_writer": true,
+      "ready_for_publish": false,
+      "safety_notice": "검증되지 않은 수치·법령·지원금액은 확정 표현을 금지합니다.",
+      "created_at": "2026-07-14T12:49:46+00:00",
+      "research_qa_score": 15,
+      "qa": {
+        "score": 15,
+        "pass": false,
+        "minimum": 80,
+        "checks": [
+          {
+            "name": "verified_evidence",
+            "passed": false,
+            "weight": 25,
+            "earned": 0,
+            "detail": "0/2"
+          },
+          {
+            "name": "official_evidence",
+            "passed": false,
+            "weight": 20,
+            "earned": 0,
+            "detail": "0/2"
+          },
+          {
+            "name": "domain_diversity",
+            "passed": false,
+            "weight": 15,
+            "earned": 0,
+            "detail": "0/2"
+          },
+          {
+            "name": "claim_coverage",
+            "passed": false,
+            "weight": 15,
+            "earned": 0,
+            "detail": "0/2"
+          },
+          {
+            "name": "freshness",
+            "passed": false,
+            "weight": 10,
+            "earned": 0,
+            "detail": "0/1"
+          },
+          {
+            "name": "questions",
+            "passed": true,
+            "weight": 10,
+            "earned": 10,
+            "detail": "7/6"
+          },
+          {
+            "name": "query_plan",
+            "passed": true,
+            "weight": 5,
+            "earned": 5,
+            "detail": "8/4"
+          }
+        ],
+        "issues": [
+          "verified_evidence",
+          "official_evidence",
+          "domain_diversity",
+          "claim_coverage",
+          "freshness"
+        ],
+        "critical_failures": [
+          "verified_evidence",
+          "official_evidence",
+          "domain_diversity"
+        ],
+        "checked_at": "2026-07-14T12:49:46+00:00"
+      },
+      "report": {
+        "topic": "전기요금 절약",
+        "article_type": "guide",
+        "category": "공과금",
+        "status": "research_rework_required",
+        "research_qa": {
+          "score": 15,
+          "pass": false,
+          "minimum": 80,
+          "checks": [
+            {
+              "name": "verified_evidence",
+              "passed": false,
+              "weight": 25,
+              "earned": 0,
+              "detail": "0/2"
+            },
+            {
+              "name": "official_evidence",
+              "passed": false,
+              "weight": 20,
+              "earned": 0,
+              "detail": "0/2"
+            },
+            {
+              "name": "domain_diversity",
+              "passed": false,
+              "weight": 15,
+              "earned": 0,
+              "detail": "0/2"
+            },
+            {
+              "name": "claim_coverage",
+              "passed": false,
+              "weight": 15,
+              "earned": 0,
+              "detail": "0/2"
+            },
+            {
+              "name": "freshness",
+              "passed": false,
+              "weight": 10,
+              "earned": 0,
+              "detail": "0/1"
+            },
+            {
+              "name": "questions",
+              "passed": true,
+              "weight": 10,
+              "earned": 10,
+              "detail": "7/6"
+            },
+            {
+              "name": "query_plan",
+              "passed": true,
+              "weight": 5,
+              "earned": 5,
+              "detail": "8/4"
+            }
+          ],
+          "issues": [
+            "verified_evidence",
+            "official_evidence",
+            "domain_diversity",
+            "claim_coverage",
+            "freshness"
+          ],
+          "critical_failures": [
+            "verified_evidence",
+            "official_evidence",
+            "domain_diversity"
+          ],
+          "checked_at": "2026-07-14T12:49:46+00:00"
+        },
+        "key_claims": [],
+        "official_sources": [
+          {
+            "name": "한국전력",
+            "domain": "kepco.co.kr",
+            "category": "utility",
+            "trust_score": 96,
+            "priority": 1,
+            "matched_keywords": [
+              "전기",
+              "전기요금"
+            ],
+            "query_templates": [],
+            "score": 115
+          },
+          {
+            "name": "국가법령정보센터",
+            "domain": "law.go.kr",
+            "category": "law",
+            "trust_score": 100,
+            "priority": 1,
+            "matched_keywords": [],
+            "query_templates": [
+              "site:{domain} \"{topic}\"",
+              "site:{domain} \"{topic}\" 시행령"
+            ],
+            "score": 99
+          },
+          {
+            "name": "통계청",
+            "domain": "kostat.go.kr",
+            "category": "statistics",
+            "trust_score": 96,
+            "priority": 2,
+            "matched_keywords": [],
+            "query_templates": [],
+            "score": 94
+          }
+        ],
+        "research_questions": [
+          "전기요금 절약의 적용 대상과 제외 대상은 무엇인가?",
+          "전기요금 절약의 기준일과 최신 변경사항은 무엇인가?",
+          "전기요금 절약의 공식 신청·변경·해지 절차는 무엇인가?",
+          "전기요금 절약에서 필요한 서류와 보관해야 할 증빙은 무엇인가?",
+          "전기요금 절약의 비용, 요율, 한도, 계산 기준은 무엇인가?",
+          "전기요금 절약의 예외·주의사항·불이익은 무엇인가?",
+          "전기요금 절약 관련 공식 문의처와 이의신청 절차는 무엇인가?"
+        ],
+        "query_plan": [
+          {
+            "source_name": "한국전력",
+            "domain": "kepco.co.kr",
+            "query": "site:kepco.co.kr \"전기요금 절약\"",
+            "priority": 1,
+            "trust_score": 96
+          },
+          {
+            "source_name": "한국전력",
+            "domain": "kepco.co.kr",
+            "query": "site:kepco.co.kr \"전기요금 절약\" 조건",
+            "priority": 1,
+            "trust_score": 96
+          },
+          {
+            "source_name": "한국전력",
+            "domain": "kepco.co.kr",
+            "query": "site:kepco.co.kr \"전기요금 절약\" 신청",
+            "priority": 1,
+            "trust_score": 96
+          },
+          {
+            "source_name": "국가법령정보센터",
+            "domain": "law.go.kr",
+            "query": "site:law.go.kr \"전기요금 절약\"",
+            "priority": 1,
+            "trust_score": 100
+          },
+          {
+            "source_name": "국가법령정보센터",
+            "domain": "law.go.kr",
+            "query": "site:law.go.kr \"전기요금 절약\" 시행령",
+            "priority": 1,
+            "trust_score": 100
+          },
+          {
+            "source_name": "통계청",
+            "domain": "kostat.go.kr",
+            "query": "site:kostat.go.kr \"전기요금 절약\"",
+            "priority": 2,
+            "trust_score": 96
+          },
+          {
+            "source_name": "통계청",
+            "domain": "kostat.go.kr",
+            "query": "site:kostat.go.kr \"전기요금 절약\" 조건",
+            "priority": 2,
+            "trust_score": 96
+          },
+          {
+            "source_name": "통계청",
+            "domain": "kostat.go.kr",
+            "query": "site:kostat.go.kr \"전기요금 절약\" 신청",
+            "priority": 2,
+            "trust_score": 96
+          }
+        ],
+        "safety_rules": [
+          "검증되지 않은 수치·법령·지원금액은 확정적으로 쓰지 않습니다.",
+          "기준일이 없는 정보는 최신 정보로 단정하지 않습니다.",
+          "원문 출처 URL을 글의 공식 근거 섹션에 유지합니다."
+        ],
+        "writer_instructions": {
+          "must_cite_verified_claims": true,
+          "may_use_unverified_claims": false,
+          "required_sections": [
+            "Hero",
+            "3초요약",
+            "상황선택",
+            "결론",
+            "원인",
+            "조건분기",
+            "해결순서",
+            "사례",
+            "표",
+            "FAQ",
+            "다음행동",
+            "내부링크",
+            "정부근거",
+            "업데이트"
+          ],
+          "target_chars": 5000
+        },
+        "created_at": "2026-07-14T12:49:46+00:00"
+      },
+      "output_files": {
+        "package": "factory/output/research/research_package.json",
+        "qa": "factory/output/research/research_qa.json",
+        "report": "factory/output/research/research_report.json"
+      }
+    }
+  },
+  "created_at": "2026-07-14T12:49:46+00:00"
+}

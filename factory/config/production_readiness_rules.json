@@ -1,0 +1,8 @@
+{
+  "version": "2.038",
+  "require_factory_modules": true,
+  "require_end_to_end_audit": true,
+  "require_git_repository": true,
+  "require_adsense_audit": true,
+  "require_live_external_verification_before_production": true
+}

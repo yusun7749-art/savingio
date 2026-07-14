@@ -1,0 +1,42 @@
+{
+  "version": "2.016",
+  "runs": [
+    {
+      "command": "/opt/pyvenv/bin/python -m compileall -q factory",
+      "returncode": 0,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "command": "/opt/pyvenv/bin/python -m unittest factory.tests.test_factory_v2016 -v",
+      "returncode": 0,
+      "stdout_tail": "",
+      "stderr_tail": "test_article_qa (factory.tests.test_factory_v2016.Tests.test_article_qa) ... ok\ntest_audit (factory.tests.test_factory_v2016.Tests.test_audit) ... ok\ntest_catalog (factory.tests.test_factory_v2016.Tests.test_catalog) ... ok\ntest_doctor (factory.tests.test_factory_v2016.Tests.test_doctor) ... ok\ntest_git_safe (factory.tests.test_factory_v2016.Tests.test_git_safe) ... ok\ntest_plan_types (factory.tests.test_factory_v2016.Tests.test_plan_types) ... ok\ntest_research_candidates (factory.tests.test_factory_v2016.Tests.test_research_candidates) ... ok\ntest_seo (factory.tests.test_factory_v2016.Tests.test_seo) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.067s\n\nOK\n"
+    },
+    {
+      "command": "/opt/pyvenv/bin/python factory/run.py doctor",
+      "returncode": 0,
+      "stdout_tail": "{\n  \"python\": \"3.13.5\",\n  \"paths\": {\n    \"articles\": true,\n    \"factory\": true,\n    \"factory/config\": true,\n    \"factory/output\": true\n  },\n  \"configs\": {\n    \"article_dna.json\": \"PASS\",\n    \"article_types.json\": \"PASS\",\n    \"factory_manifest.json\": \"PASS\",\n    \"qa_rules.json\": \"PASS\",\n    \"research_rules.json\": \"PASS\",\n    \"seo_rules.json\": \"PASS\"\n  },\n  \"pass\": true\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": "/opt/pyvenv/bin/python factory/run.py create 전기요금 절약",
+      "returncode": 0,
+      "stdout_tail": "html\",\n        \"heating-bill-saving.html\",\n        \"hidden-refund-check.html\",\n        \"images/logo.svg\",\n        \"impulse-buying-control.html\",\n        \"index.html\",\n        \"internet-bill-discount.html\",\n        \"irs-tax-refund-status.html\",\n        \"js/article-navigation.js\",\n        \"js/articles.html\",\n        \"js/savingio-brain-navigation.js\",\n        \"js/script.js\",\n        \"js/search.js\",\n        \"local-tax-refund.html\",\n        \"money-saving-habits.html\",\n        \"monthly-budget-planner.html\",\n        \"national-tax-refund.html\",\n        \"online-income-ideas-for-beginners.html\",\n        \"phone-bill-saving.html\",\n        \"phone-bill-savings.html\",\n        \"privacy.html\",\n        \"salary-management-guide.html\",\n        \"spending-habits-change.html\",\n        \"subscription-saving.html\",\n        \"templates/article-v2.html\",\n        \"terms.html\",\n        \"water-bill-saving.html\",\n        \"youth-support-programs.html\",\n        \"FACTORY-QUICKSTART.md\",\n        \"articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html\",\n        \"config/\",\n        \"factory-output/\",\n        \"factory/\",\n        \"run_factory.bat\",\n        \"tests/test_factory.py\"\n      ]\n    }\n  },\n  \"deploy\": {\n    \"provider\": \"Cloudflare Pages\",\n    \"mode\": \"git_push_auto_deploy\",\n    \"git_connected\": true,\n    \"manual_deploy_required\": false,\n    \"safe_to_deploy\": true,\n    \"instruction\": \"Factory가 생성한 선택 커밋 스크립트를 검토한 뒤 실행하면 Cloudflare Pages가 자동 배포합니다.\"\n  },\n  \"completed_at\": \"2026-07-13T14:45:58+00:00\"\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": "/opt/pyvenv/bin/python factory/run.py audit --limit 5",
+      "returncode": 0,
+      "stdout_tail": "checks\": {\n        \"title\": true,\n        \"description\": true,\n        \"canonical\": true,\n        \"h1_once\": true,\n        \"faq\": true,\n        \"table\": false,\n        \"internal_links\": true,\n        \"min_chars\": true,\n        \"noindex\": false\n      },\n      \"text_chars\": 10420,\n      \"status\": \"FAIL\"\n    },\n    {\n      \"file\": \"air-conditioner-electricity-saving.html\",\n      \"score\": 80,\n      \"checks\": {\n        \"title\": true,\n        \"description\": true,\n        \"canonical\": true,\n        \"h1_once\": true,\n        \"faq\": true,\n        \"table\": true,\n        \"internal_links\": true,\n        \"min_chars\": true,\n        \"noindex\": false\n      },\n      \"text_chars\": 10228,\n      \"status\": \"PASS\"\n    },\n    {\n      \"file\": \"aircon-dry-mode-electricity.html\",\n      \"score\": 70,\n      \"checks\": {\n        \"title\": true,\n        \"description\": true,\n        \"canonical\": true,\n        \"h1_once\": true,\n        \"faq\": true,\n        \"table\": false,\n        \"internal_links\": true,\n        \"min_chars\": true,\n        \"noindex\": false\n      },\n      \"text_chars\": 10490,\n      \"status\": \"FAIL\"\n    },\n    {\n      \"file\": \"aircon-filter-cleaning-savings.html\",\n      \"score\": 70,\n      \"checks\": {\n        \"title\": true,\n        \"description\": true,\n        \"canonical\": true,\n        \"h1_once\": true,\n        \"faq\": true,\n        \"table\": false,\n        \"internal_links\": true,\n        \"min_chars\": true,\n        \"noindex\": false\n      },\n      \"text_chars\": 10524,\n      \"status\": \"FAIL\"\n    }\n  ]\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": "/opt/pyvenv/bin/python factory/run.py backlog",
+      "returncode": 0,
+      "stdout_tail": "\n        \"noindex\"\n      ]\n    },\n    {\n      \"rank\": 134,\n      \"file\": \"bank-fees-to-avoid.html\",\n      \"score\": 70,\n      \"missing\": [\n        \"table\",\n        \"noindex\"\n      ]\n    },\n    {\n      \"rank\": 135,\n      \"file\": \"vat-input-tax-deduction-2026.html\",\n      \"score\": 70,\n      \"missing\": [\n        \"table\",\n        \"noindex\"\n      ]\n    },\n    {\n      \"rank\": 136,\n      \"file\": \"vat-final-return-2026-july.html\",\n      \"score\": 70,\n      \"missing\": [\n        \"table\",\n        \"noindex\"\n      ]\n    },\n    {\n      \"rank\": 137,\n      \"file\": \"check-hidden-refunds.html\",\n      \"score\": 70,\n      \"missing\": [\n        \"table\",\n        \"noindex\"\n      ]\n    },\n    {\n      \"rank\": 138,\n      \"file\": \"property-tax-bill-checklist-2026.html\",\n      \"score\": 70,\n      \"missing\": [\n        \"table\",\n        \"noindex\"\n      ]\n    },\n    {\n      \"rank\": 139,\n      \"file\": \"irs-tax-refund-status.html\",\n      \"score\": 70,\n      \"missing\": [\n        \"table\",\n        \"noindex\"\n      ]\n    },\n    {\n      \"rank\": 140,\n      \"file\": \"how-to-save-electricity-bill.html\",\n      \"score\": 70,\n      \"missing\": [\n        \"table\",\n        \"noindex\"\n      ]\n    },\n    {\n      \"rank\": 141,\n      \"file\": \"energy-voucher-application-2026.html\",\n      \"score\": 70,\n      \"missing\": [\n        \"table\",\n        \"noindex\"\n      ]\n    },\n    {\n      \"rank\": 142,\n      \"file\": \"energy-voucher-balance-check-2026.html\",\n      \"score\": 70,\n      \"missing\": [\n        \"table\",\n        \"noindex\"\n      ]\n    }\n  ]\n}\n",
+      "stderr_tail": ""
+    }
+  ],
+  "pass": true
+}

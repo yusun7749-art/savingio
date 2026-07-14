@@ -1,0 +1,21 @@
+{
+  "version": "2.025",
+  "compile_pass": true,
+  "tests_pass": true,
+  "test_count": 49,
+  "doctor_pass": true,
+  "full_automation_pass": true,
+  "operation_board_pass": true,
+  "message_bus_pass": true,
+  "department_tasks_pass": true,
+  "full_run_qa_score": 100,
+  "approval_checklist_pass": false,
+  "approval_blocking_items": [
+    "evidence",
+    "image"
+  ],
+  "ui_navigation_explorer_layout_home_modified": false,
+  "notes": [
+    "공식 근거와 실제 이미지 파일이 없으므로 사용자 승인 전 차단되는 것이 정상입니다."
+  ]
+}

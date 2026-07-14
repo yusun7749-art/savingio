@@ -1,0 +1,23 @@
+{
+  "version": "2.035",
+  "completed": [
+    "Google JWT RS256 Signing",
+    "OAuth Token Exchange",
+    "Access Token Cache",
+    "Automatic Search Console/GA4 Token Provider",
+    "Analytics Apply Engine",
+    "Automatic Backup Before Edit",
+    "Scheduler Installer Files"
+  ],
+  "requires_user_configuration": [
+    "GOOGLE_SERVICE_ACCOUNT_JSON",
+    "SEARCH_CONSOLE_SITE_URL",
+    "GA4_PROPERTY_ID"
+  ],
+  "remaining": [
+    "Live Google API validation with user credentials",
+    "AdSense Management API connector",
+    "Naver automatic publishing",
+    "Real image generation provider"
+  ]
+}

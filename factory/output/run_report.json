@@ -1,0 +1,374 @@
+{
+  "factory_version": "2.020",
+  "topic": "전기요금 절약",
+  "plan": {
+    "topic": "전기요금 절약",
+    "slug": "전기요금-절약-c861d77b",
+    "article_type": "guide",
+    "category": "공과금",
+    "search_intent": "문제 해결",
+    "audience": "생활비 절약 정보를 찾는 사용자",
+    "required_sections": [
+      "Hero",
+      "3초요약",
+      "상황선택",
+      "결론",
+      "원인",
+      "조건분기",
+      "해결순서",
+      "사례",
+      "표",
+      "FAQ",
+      "다음행동",
+      "내부링크",
+      "정부근거",
+      "업데이트"
+    ],
+    "target_chars": 5000,
+    "research_questions": [
+      "전기요금 절약의 핵심 조건은 무엇인가?",
+      "전기요금 절약의 실행 순서는 무엇인가?"
+    ],
+    "matched_keywords": [
+      "절약"
+    ],
+    "risk_level": "medium",
+    "created_at": "2026-07-14T09:15:32+00:00",
+    "status": "planned"
+  },
+  "research": {
+    "topic": "전기요금 절약",
+    "questions": [
+      "전기요금 절약의 핵심 조건은 무엇인가?",
+      "전기요금 절약의 실행 순서는 무엇인가?",
+      "전기요금 절약의 대상·제외 조건은 무엇인가?",
+      "전기요금 절약의 기준일과 최신 변경사항은 무엇인가?",
+      "전기요금 절약의 신청·변경·해지 순서는 무엇인가?",
+      "전기요금 절약에서 반드시 보관할 증빙은 무엇인가?",
+      "전기요금 절약의 공식 문의처와 이의 절차는 무엇인가?"
+    ],
+    "official_source_candidates": [
+      {
+        "name": "한국전력",
+        "domain": "kepco.co.kr",
+        "priority": 1,
+        "matched_keywords": [
+          "전기",
+          "전기요금"
+        ],
+        "status": "needs_verification",
+        "url": "",
+        "claim": ""
+      }
+    ],
+    "evidence": [],
+    "verified_evidence_count": 0,
+    "official_evidence_count": 0,
+    "evidence_issues": [],
+    "evidence_score": 0,
+    "minimum_score": 40,
+    "ready_for_writer": true,
+    "ready_for_publish": false,
+    "research_status": "verification_required",
+    "safety_notice": "검증되지 않은 수치·법령·지원금액은 확정 표현을 금지합니다.",
+    "created_at": "2026-07-14T09:15:32+00:00"
+  },
+  "seo": {
+    "title": "전기요금 절약",
+    "description": "전기요금 절약의 조건, 적용 대상, 확인 순서, 사례, FAQ와 공식 근거 확인 방법을 정리했습니다.",
+    "slug": "전기요금-절약-c861d77b",
+    "canonical": "https://savingio.com/articles/전기요금-절약-c861d77b.html",
+    "keywords": [
+      "전기요금 절약",
+      "공과금",
+      "guide",
+      "생활비 절약",
+      "Savingio"
+    ],
+    "robots": "index,follow",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "전기요금 절약",
+      "description": "전기요금 절약의 조건, 적용 대상, 확인 순서, 사례, FAQ와 공식 근거 확인 방법을 정리했습니다.",
+      "mainEntityOfPage": "https://savingio.com/articles/전기요금-절약-c861d77b.html",
+      "inLanguage": "ko-KR",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Savingio",
+        "url": "https://savingio.com"
+      }
+    }
+  },
+  "qa": {
+    "score": 100,
+    "pass": true,
+    "minimum": 95,
+    "checks": [
+      {
+        "name": "doctype",
+        "passed": true,
+        "penalty": 0,
+        "critical": true,
+        "detail": ""
+      },
+      {
+        "name": "lang_ko",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "h1_once",
+        "passed": true,
+        "penalty": 0,
+        "critical": true,
+        "detail": ""
+      },
+      {
+        "name": "title_length",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "description_length",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "canonical",
+        "passed": true,
+        "penalty": 0,
+        "critical": true,
+        "detail": ""
+      },
+      {
+        "name": "robots",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "schema",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "required_sections",
+        "passed": true,
+        "penalty": 0,
+        "critical": true,
+        "detail": ""
+      },
+      {
+        "name": "faq_count",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "table",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "internal_links",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "forbidden_placeholders",
+        "passed": true,
+        "penalty": 0,
+        "critical": true,
+        "detail": ""
+      },
+      {
+        "name": "text_length",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "evidence_safety",
+        "passed": true,
+        "penalty": 0,
+        "critical": true,
+        "detail": ""
+      },
+      {
+        "name": "single_canonical",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "no_empty_href",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      }
+    ],
+    "issues": [],
+    "critical_failures": [],
+    "text_chars": 2925,
+    "checked_at": "2026-07-14T09:15:32+00:00"
+  },
+  "duplicate": {
+    "duplicate": true,
+    "matches": [
+      {
+        "slug": "#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6",
+        "title": "전기요금 절약",
+        "path": "articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
+        "title_similarity": 1.0,
+        "body_similarity": 0.0534,
+        "blocking": true
+      }
+    ],
+    "thresholds": {
+      "title": 0.92,
+      "body": 0.94
+    }
+  },
+  "related": [
+    {
+      "slug": "#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6",
+      "title": "전기요금 절약",
+      "path": "articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
+      "url": "/articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html"
+    },
+    {
+      "slug": "electricity-bill-saving",
+      "title": "전기요금 절약 방법, 고지서부터 가전 사용량까지 확인하는 순서",
+      "path": "articles/electricity-bill-saving.html",
+      "url": "/articles/electricity-bill-saving.html"
+    },
+    {
+      "slug": "dryer-summer-electricity-saving",
+      "title": "건조기 여름 전기세 절약 방법",
+      "path": "articles/dryer-summer-electricity-saving.html",
+      "url": "/articles/dryer-summer-electricity-saving.html"
+    },
+    {
+      "slug": "heating-bill-saving",
+      "title": "겨울철 난방비 절약 방법",
+      "path": "articles/heating-bill-saving.html",
+      "url": "/articles/heating-bill-saving.html"
+    },
+    {
+      "slug": "grocery-saving-tips",
+      "title": "생활 속 식비 절약 습관",
+      "path": "articles/grocery-saving-tips.html",
+      "url": "/articles/grocery-saving-tips.html"
+    }
+  ],
+  "cms": {
+    "article_path": "factory/output/drafts/전기요금-절약-c861d77b.html",
+    "canonical": "https://savingio.com/articles/전기요금-절약-c861d77b.html",
+    "qa_score": 100,
+    "evidence_score": 0,
+    "published": false,
+    "saved_at": "2026-07-14T09:15:32+00:00"
+  },
+  "staging": null,
+  "rewrite_attempts": [],
+  "release_manifest": {
+    "version": "2.020",
+    "created_at": "2026-07-14T09:15:32+00:00",
+    "file_count": 12,
+    "files": [
+      {
+        "path": "factory/output/plan.json",
+        "bytes": 804,
+        "sha256": "970ca38ebd20052f0f66e58c00d4a2319da0f282dfa2a8f65a492cead153d692"
+      },
+      {
+        "path": "factory/output/research.json",
+        "bytes": 1257,
+        "sha256": "eaf331e7c0ab5f4642edb844fac288e683eeacc407999d03e5ff0c3a50bc94b8"
+      },
+      {
+        "path": "factory/output/seo.json",
+        "bytes": 957,
+        "sha256": "7b87ebb7e1a8b17aae74a31d25d30c843960fc4387a66dcc5421513d277af056"
+      },
+      {
+        "path": "factory/output/qa_report.json",
+        "bytes": 2356,
+        "sha256": "5b0ff82b3e0f0101b52e4ec6fc08f46061c0e154bf95893b31231dd368adbc17"
+      },
+      {
+        "path": "factory/output/rewrite_attempts.json",
+        "bytes": 20,
+        "sha256": "a3bbf4eff799d82fd95ba14585d9f283a3dc047ee0de584211d27a37c633882d"
+      },
+      {
+        "path": "factory/output/duplicate_report.json",
+        "bytes": 385,
+        "sha256": "c53a3c87356497c7397cfdd5c2c26f415f9d86ebe2cefb34f8df4e1b3b590b0e"
+      },
+      {
+        "path": "factory/output/related_links.json",
+        "bytes": 1213,
+        "sha256": "7717fb6171e414cb9505059f4bb46b0e7343221b08778761d0824551a336fdf1"
+      },
+      {
+        "path": "factory/output/draft.html",
+        "bytes": 9541,
+        "sha256": "b9f2aef6c18d01ae4e79d0151f9bcd98b912bff1359c36889ded8684c7975b66"
+      },
+      {
+        "path": "factory/output/article_catalog.json",
+        "bytes": 53679,
+        "sha256": "00b0ab049a30faae2788f62917cc98d20d50a5054916aa947a39aaf6f5bc0f7c"
+      },
+      {
+        "path": "factory/output/drafts/전기요금-절약-c861d77b.html",
+        "bytes": 9541,
+        "sha256": "b9f2aef6c18d01ae4e79d0151f9bcd98b912bff1359c36889ded8684c7975b66"
+      },
+      {
+        "path": "factory/output/cms_manifest.json",
+        "bytes": 268,
+        "sha256": "700db76a34f3e974eb088e26a65decadb3b1879efc00fcf002f5ea24c77a5147"
+      },
+      {
+        "path": "factory/output/commit-전기요금-절약-c861d77b.cmd",
+        "bytes": 481,
+        "sha256": "c70ee6e2eb449737c1034bfc1313570b972a452fa87b5c3829463690d45b5218"
+      }
+    ]
+  },
+  "git_commands": [
+    "git add -- \"factory/output/plan.json\" \"factory/output/research.json\" \"factory/output/seo.json\" \"factory/output/qa_report.json\" \"factory/output/rewrite_attempts.json\" \"factory/output/duplicate_report.json\" \"factory/output/related_links.json\" \"factory/output/draft.html\" \"factory/output/article_catalog.json\" \"factory/output/drafts/전기요금-절약-c861d77b.html\" \"factory/output/cms_manifest.json\"",
+    "git commit -m \"Factory article: 전기요금-절약-c861d77b\"",
+    "git push"
+  ],
+  "git_script": "factory/output/commit-전기요금-절약-c861d77b.cmd",
+  "deploy": {
+    "provider": "Cloudflare Pages",
+    "mode": "git_push_auto_deploy",
+    "git_connected": true,
+    "manual_deploy_required": false,
+    "safe_to_deploy": true,
+    "instruction": "Factory가 생성한 선택 커밋 스크립트를 검토한 뒤 실행하면 Cloudflare Pages가 자동 배포합니다."
+  },
+  "completed_at": "2026-07-14T09:15:32+00:00"
+}

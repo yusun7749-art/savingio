@@ -1,0 +1,189 @@
+{
+  "factory_progress": 36,
+  "adsense": 58,
+  "completed": [
+    "Department Message Bus skeleton",
+    "Operation Board spec"
+  ],
+  "version": "2.041",
+  "factory_progress_percent": 96,
+  "adsense_readiness_percent": 87,
+  "departments": {
+    "operations": 100,
+    "planning": 54,
+    "research": 84,
+    "writing": 72,
+    "seo": 80,
+    "image": 68,
+    "qa_primary": 90,
+    "qa_final": 92,
+    "cms": 93,
+    "deploy": 96,
+    "analytics": 90,
+    "revenue": 86,
+    "calculator": 48
+  },
+  "completed_in_v2026": [
+    "공식 출처 레지스트리",
+    "주제별 공식기관 자동 매칭",
+    "공식기관 검색 쿼리 계획",
+    "근거 파일 다중 입력",
+    "근거 정규화·중복 제거",
+    "도메인 신뢰도·최신성 점수",
+    "조사 QA 7개 기준",
+    "작가본부 전달용 조사보고서",
+    "full-run 조사본부 실제 연결",
+    "research-run CLI"
+  ],
+  "completed_in_v2027": [
+    "Research cache scaffold",
+    "Image queue scaffold",
+    "Deployment gate update"
+  ],
+  "completed_in_v2028": [
+    "도메인 허용목록 기반 실제 HTTP fetch",
+    "HTML 제목·본문 추출",
+    "응답 크기·시간 제한",
+    "실제 OpenAPI 요청 엔진",
+    "API 키 환경변수 게이트",
+    "Research Cache",
+    "Web Research Runner",
+    "Image Queue 실제 상태 전이",
+    "이미지 어댑터 인터페이스",
+    "Deployment Gate"
+  ],
+  "completed_in_v2029": [
+    "검색결과→Evidence 변환",
+    "공식 출처 자동 필터",
+    "Evidence 병합·중복 제거",
+    "이미지 결과 등록",
+    "HTML 이미지 삽입",
+    "선택 파일 Git 실행기",
+    "Cloudflare 배포 준비도 검사",
+    "승인 게이트 연동 발행 실행기"
+  ],
+  "completed_in_v2030": [
+    "WordPress REST 인증",
+    "WordPress 글 발행",
+    "WordPress 미디어 업로드",
+    "Cloudflare Pages 배포 조회",
+    "Cloudflare 배포 상태 폴링",
+    "외부 서비스 준비도 점검"
+  ],
+  "completed_in_v2031": [
+    "Git release executor with branch/remote safeguards",
+    "Deployment receipt with SHA-256",
+    "Cloudflare deployment parser and polling",
+    "End-to-end release coordinator",
+    "WordPress post upsert by slug",
+    "WordPress taxonomy resolver",
+    "Runtime .env template generator"
+  ],
+  "completed_in_v2032": [
+    "WordPress category/tag/hero upsert release",
+    "Public site health checker",
+    "Government OpenAPI service registry and runner",
+    "Search result ingestion into research QA",
+    "External image result registration"
+  ],
+  "completed_in_v2033": [
+    "Google service credential gate",
+    "Search Console export importer",
+    "GA4 export importer",
+    "Unified analytics dashboard",
+    "Content performance optimizer"
+  ],
+  "completed_in_v2034": [
+    "Google JWT readiness",
+    "Search Console API client",
+    "GA4 API client",
+    "Daily analytics scheduler",
+    "Keyword ranking tracker",
+    "Analytics-to-rework dispatcher"
+  ],
+  "completed_in_v2035": [
+    "Google service-account JWT signing",
+    "OAuth access-token exchange",
+    "Automatic token cache/provider",
+    "Search Console and GA4 automatic token usage",
+    "Analytics-driven article edit executor",
+    "Pre-edit article backup",
+    "Windows Task Scheduler and cron file generator"
+  ],
+  "completed_in_v2036": [
+    "Department handoff packets",
+    "Department completion gates",
+    "End-to-end automation cycle",
+    "Automatic blocker routing",
+    "Cycle dashboard"
+  ],
+  "completed_in_v2037a": [
+    "Revenue CSV/JSON importer",
+    "Page-level RPM/CTR/CPC calculation",
+    "Analytics and revenue merged dashboard",
+    "Revenue AI prioritization",
+    "SEO and revenue task routing",
+    "Revenue core orchestrator"
+  ],
+  "completed_in_v2037b": [
+    "Revenue action HTML rewriter",
+    "Idempotent revenue markers",
+    "Pre-change backup",
+    "Article QA recheck",
+    "QA-failure rollback",
+    "CMS rework manifest",
+    "Revenue rework history",
+    "Revenue rework pipeline"
+  ],
+  "completed_in_v2037c": [
+    "Approved release gate",
+    "Safe selected-file release",
+    "New Cloudflare deployment detection",
+    "Post-deployment public site verification",
+    "Tamper-evident release journal",
+    "Approved republish orchestrator"
+  ],
+  "completed_in_v2037d": [
+    "End-to-end audit",
+    "Locked UI regression manifest",
+    "Final release manifest",
+    "Final release coordinator",
+    "Master checklist"
+  ],
+  "completed_in_v2038": [
+    "External integration registry",
+    "Secret-safe integration preflight",
+    "Live verification plan",
+    "AdSense report import",
+    "AdSense-to-Revenue AI bridge",
+    "Production readiness board"
+  ],
+  "completed_in_v2039": [
+    "Unified operations snapshot",
+    "Incident detector",
+    "Recovery planner",
+    "Retry policy engine",
+    "Operations center orchestrator"
+  ],
+  "completed_in_v2040": [
+    "Credential onboarding checklist",
+    "Production env template",
+    "Connector verification runner",
+    "Tamper-evident verification history",
+    "Production activation gate",
+    "External verification center"
+  ],
+  "completed_in_v2041": [
+    "Calculator HQ",
+    "10 calculator categories",
+    "Calculator Registry",
+    "Calculator Intent Engine",
+    "Article Calculator Matcher",
+    "Calculator Generation Requests",
+    "Article Solution Packages",
+    "CMS Calculator Link Registry",
+    "Calculator QA",
+    "Calculator Analytics",
+    "Pipeline auto-connection"
+  ]
+}

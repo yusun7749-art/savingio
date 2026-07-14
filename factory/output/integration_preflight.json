@@ -1,0 +1,218 @@
+{
+  "integrations": [
+    {
+      "name": "cloudflare_pages",
+      "purpose": "Git push deployment and deployment verification",
+      "required_env": [
+        "CLOUDFLARE_ACCOUNT_ID",
+        "CLOUDFLARE_API_TOKEN",
+        "CLOUDFLARE_PAGES_PROJECT"
+      ],
+      "optional_env": [
+        "SAVINGIO_SITE_URL"
+      ],
+      "execution_mode": "explicit_execute",
+      "live_verification_required": true,
+      "ready": false,
+      "missing_required_env": [
+        "CLOUDFLARE_ACCOUNT_ID",
+        "CLOUDFLARE_API_TOKEN",
+        "CLOUDFLARE_PAGES_PROJECT"
+      ],
+      "required_env_state": [
+        {
+          "name": "CLOUDFLARE_ACCOUNT_ID",
+          "configured": false,
+          "length": 0,
+          "fingerprint": ""
+        },
+        {
+          "name": "CLOUDFLARE_API_TOKEN",
+          "configured": false,
+          "length": 0,
+          "fingerprint": ""
+        },
+        {
+          "name": "CLOUDFLARE_PAGES_PROJECT",
+          "configured": false,
+          "length": 0,
+          "fingerprint": ""
+        }
+      ],
+      "optional_env_state": [
+        {
+          "name": "SAVINGIO_SITE_URL",
+          "configured": false,
+          "length": 0,
+          "fingerprint": ""
+        }
+      ]
+    },
+    {
+      "name": "google_search_console",
+      "purpose": "Search performance collection",
+      "required_env": [
+        "GOOGLE_SERVICE_ACCOUNT_JSON",
+        "SEARCH_CONSOLE_SITE_URL"
+      ],
+      "optional_env": [
+        "GOOGLE_ACCESS_TOKEN"
+      ],
+      "execution_mode": "explicit_execute",
+      "live_verification_required": true,
+      "ready": false,
+      "missing_required_env": [
+        "GOOGLE_SERVICE_ACCOUNT_JSON",
+        "SEARCH_CONSOLE_SITE_URL"
+      ],
+      "required_env_state": [
+        {
+          "name": "GOOGLE_SERVICE_ACCOUNT_JSON",
+          "configured": false,
+          "length": 0,
+          "fingerprint": ""
+        },
+        {
+          "name": "SEARCH_CONSOLE_SITE_URL",
+          "configured": false,
+          "length": 0,
+          "fingerprint": ""
+        }
+      ],
+      "optional_env_state": [
+        {
+          "name": "GOOGLE_ACCESS_TOKEN",
+          "configured": false,
+          "length": 0,
+          "fingerprint": ""
+        }
+      ]
+    },
+    {
+      "name": "google_analytics_4",
+      "purpose": "Traffic and engagement collection",
+      "required_env": [
+        "GOOGLE_SERVICE_ACCOUNT_JSON",
+        "GA4_PROPERTY_ID"
+      ],
+      "optional_env": [
+        "GOOGLE_ACCESS_TOKEN"
+      ],
+      "execution_mode": "explicit_execute",
+      "live_verification_required": true,
+      "ready": false,
+      "missing_required_env": [
+        "GOOGLE_SERVICE_ACCOUNT_JSON",
+        "GA4_PROPERTY_ID"
+      ],
+      "required_env_state": [
+        {
+          "name": "GOOGLE_SERVICE_ACCOUNT_JSON",
+          "configured": false,
+          "length": 0,
+          "fingerprint": ""
+        },
+        {
+          "name": "GA4_PROPERTY_ID",
+          "configured": false,
+          "length": 0,
+          "fingerprint": ""
+        }
+      ],
+      "optional_env_state": [
+        {
+          "name": "GOOGLE_ACCESS_TOKEN",
+          "configured": false,
+          "length": 0,
+          "fingerprint": ""
+        }
+      ]
+    },
+    {
+      "name": "adsense_reporting",
+      "purpose": "Revenue report import and Revenue AI",
+      "required_env": [],
+      "optional_env": [
+        "ADSENSE_ACCOUNT_ID"
+      ],
+      "execution_mode": "report_import",
+      "live_verification_required": false,
+      "ready": true,
+      "missing_required_env": [],
+      "required_env_state": [],
+      "optional_env_state": [
+        {
+          "name": "ADSENSE_ACCOUNT_ID",
+          "configured": false,
+          "length": 0,
+          "fingerprint": ""
+        }
+      ]
+    },
+    {
+      "name": "wordpress",
+      "purpose": "Optional WordPress publishing",
+      "required_env": [
+        "WORDPRESS_URL",
+        "WORDPRESS_USER",
+        "WORDPRESS_APP_PASSWORD"
+      ],
+      "optional_env": [],
+      "execution_mode": "explicit_execute",
+      "live_verification_required": true,
+      "ready": false,
+      "missing_required_env": [
+        "WORDPRESS_URL",
+        "WORDPRESS_USER",
+        "WORDPRESS_APP_PASSWORD"
+      ],
+      "required_env_state": [
+        {
+          "name": "WORDPRESS_URL",
+          "configured": false,
+          "length": 0,
+          "fingerprint": ""
+        },
+        {
+          "name": "WORDPRESS_USER",
+          "configured": false,
+          "length": 0,
+          "fingerprint": ""
+        },
+        {
+          "name": "WORDPRESS_APP_PASSWORD",
+          "configured": false,
+          "length": 0,
+          "fingerprint": ""
+        }
+      ],
+      "optional_env_state": []
+    },
+    {
+      "name": "image_provider",
+      "purpose": "Hero and infographic generation",
+      "required_env": [
+        "OPENAI_API_KEY"
+      ],
+      "optional_env": [],
+      "execution_mode": "external_provider",
+      "live_verification_required": true,
+      "ready": true,
+      "missing_required_env": [],
+      "required_env_state": [
+        {
+          "name": "OPENAI_API_KEY",
+          "configured": true,
+          "length": 12,
+          "fingerprint": "2523579955"
+        }
+      ],
+      "optional_env_state": []
+    }
+  ],
+  "ready_count": 2,
+  "total_count": 6,
+  "git_repository_ready": true,
+  "all_required_integrations_ready": false,
+  "checked_at": "2026-07-14T14:44:05+00:00"
+}

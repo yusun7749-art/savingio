@@ -1,0 +1,44 @@
+{
+  "id": "11ff4eb7489145f4abd859cdf0f812d3",
+  "sender": "planning",
+  "receiver": "research",
+  "event": "task.handoff",
+  "payload": {
+    "topic": "전기요금 절약",
+    "slug": "전기요금-절약-c861d77b",
+    "article_type": "guide",
+    "category": "공과금",
+    "search_intent": "문제 해결",
+    "audience": "생활비 절약 정보를 찾는 사용자",
+    "required_sections": [
+      "Hero",
+      "3초요약",
+      "상황선택",
+      "결론",
+      "원인",
+      "조건분기",
+      "해결순서",
+      "사례",
+      "표",
+      "FAQ",
+      "다음행동",
+      "내부링크",
+      "정부근거",
+      "업데이트"
+    ],
+    "target_chars": 5000,
+    "research_questions": [
+      "전기요금 절약의 핵심 조건은 무엇인가?",
+      "전기요금 절약의 실행 순서는 무엇인가?"
+    ],
+    "matched_keywords": [
+      "절약"
+    ],
+    "risk_level": "medium",
+    "created_at": "2026-07-14T10:24:37+00:00",
+    "status": "planned"
+  },
+  "correlation_id": "4f93992d2e894f5cbb721b8f538d3429",
+  "created_at": "2026-07-14T10:24:37+00:00",
+  "status": "queued"
+}

@@ -1,0 +1,27 @@
+{
+  "version": "2.033",
+  "focus": [
+    "analytics",
+    "seo",
+    "revenue"
+  ],
+  "completed": [
+    "Google Credential Gate",
+    "Search Console Import",
+    "GA4 Import",
+    "Analytics Dashboard",
+    "Performance Optimization Actions"
+  ],
+  "requires_user_configuration": [
+    "GOOGLE_SERVICE_ACCOUNT_JSON",
+    "SEARCH_CONSOLE_SITE_URL",
+    "GA4_PROPERTY_ID"
+  ],
+  "remaining": [
+    "실제 Google API 호출",
+    "일일 자동 수집 스케줄",
+    "키워드 순위 추적",
+    "수익 데이터 연동",
+    "자동 수정 실행"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "2.019",
+  "queue": {
+    "default_priority": 50,
+    "max_attempts": 3,
+    "batch_limit": 100
+  },
+  "runs": {
+    "history_enabled": true,
+    "snapshot_enabled": true
+  },
+  "state_db": "factory/state/factory.sqlite3"
+}

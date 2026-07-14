@@ -1,0 +1,10 @@
+{
+  "version": "2.041",
+  "principles": [
+    "Every calculator must link to at least one article",
+    "Every calculator result must return to related content and a next action",
+    "Missing calculators create HQ requests instead of silent failure"
+  ],
+  "inject_before_section": "next-action",
+  "default_execute": false
+}

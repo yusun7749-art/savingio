@@ -1,0 +1,8 @@
+{
+  "version": "2.020",
+  "require_qa_pass": true,
+  "require_evidence_ready": true,
+  "require_approval_token": true,
+  "block_duplicate_candidates": true,
+  "allow_overwrite_only_with_flag": true
+}

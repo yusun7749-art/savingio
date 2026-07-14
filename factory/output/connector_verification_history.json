@@ -1,0 +1,33 @@
+[
+  {
+    "sequence": 1,
+    "execute": false,
+    "passed_count": 0,
+    "total_count": 5,
+    "statuses": [
+      {
+        "name": "search_console",
+        "status": "blocked"
+      },
+      {
+        "name": "ga4",
+        "status": "blocked"
+      },
+      {
+        "name": "cloudflare",
+        "status": "blocked"
+      },
+      {
+        "name": "wordpress",
+        "status": "blocked"
+      },
+      {
+        "name": "image_provider",
+        "status": "blocked"
+      }
+    ],
+    "previous_hash": "",
+    "created_at": "2026-07-14T14:26:33+00:00",
+    "receipt_hash": "8fc2a7b3f51deceff8008cd30c88a7783ed9fd1ae54105e3547908ee9be3e04f"
+  }
+]

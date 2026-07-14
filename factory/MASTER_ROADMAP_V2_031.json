@@ -1,0 +1,33 @@
+{
+  "version": "2.031",
+  "focus": [
+    "deploy",
+    "wordpress",
+    "operations"
+  ],
+  "completed": [
+    "Safe Git Release Executor",
+    "Branch Allowlist",
+    "Origin Validation",
+    "Deployment Receipt",
+    "Cloudflare Status Parser",
+    "Cloudflare Polling Monitor",
+    "Release Coordinator",
+    "WordPress Upsert",
+    "WordPress Taxonomy Resolver",
+    "Runtime Configuration Template"
+  ],
+  "requires_user_configuration": [
+    "WORDPRESS_URL",
+    "WORDPRESS_USER",
+    "WORDPRESS_APP_PASSWORD",
+    "CLOUDFLARE_ACCOUNT_ID",
+    "CLOUDFLARE_API_TOKEN",
+    "CLOUDFLARE_PAGES_PROJECT"
+  ],
+  "not_claimed_complete": [
+    "No real external publish was executed without credentials and explicit --execute.",
+    "Naver automatic publishing is not implemented.",
+    "Image generation still requires an external provider/tool."
+  ]
+}

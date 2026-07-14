@@ -1,0 +1,77 @@
+{
+  "pass": true,
+  "failed_departments": [],
+  "reports": {
+    "planning": {
+      "department": "planning",
+      "pass": true,
+      "missing": [],
+      "rework_required": false,
+      "reviewed_at": "2026-07-14T10:25:51+00:00"
+    },
+    "research": {
+      "department": "research",
+      "pass": true,
+      "missing": [],
+      "rework_required": false,
+      "reviewed_at": "2026-07-14T10:25:51+00:00"
+    },
+    "writing": {
+      "department": "writing",
+      "pass": true,
+      "missing": [],
+      "rework_required": false,
+      "reviewed_at": "2026-07-14T10:25:51+00:00"
+    },
+    "seo": {
+      "department": "seo",
+      "pass": true,
+      "missing": [],
+      "rework_required": false,
+      "reviewed_at": "2026-07-14T10:25:51+00:00"
+    },
+    "image": {
+      "department": "image",
+      "pass": true,
+      "missing": [],
+      "rework_required": false,
+      "reviewed_at": "2026-07-14T10:25:51+00:00"
+    },
+    "qa_primary": {
+      "department": "qa_primary",
+      "pass": true,
+      "missing": [],
+      "rework_required": false,
+      "reviewed_at": "2026-07-14T10:25:51+00:00"
+    },
+    "qa_final": {
+      "department": "qa_final",
+      "pass": true,
+      "missing": [],
+      "rework_required": false,
+      "reviewed_at": "2026-07-14T10:25:51+00:00"
+    },
+    "cms": {
+      "department": "cms",
+      "pass": true,
+      "missing": [],
+      "rework_required": false,
+      "reviewed_at": "2026-07-14T10:25:51+00:00"
+    },
+    "git": {
+      "department": "git",
+      "pass": true,
+      "missing": [],
+      "rework_required": false,
+      "reviewed_at": "2026-07-14T10:25:51+00:00"
+    },
+    "deploy": {
+      "department": "deploy",
+      "pass": true,
+      "missing": [],
+      "rework_required": false,
+      "reviewed_at": "2026-07-14T10:25:51+00:00"
+    }
+  },
+  "checked_at": "2026-07-14T10:25:51+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "version": "2.026",
+  "pass_score": 80,
+  "minimum_verified_evidence": 2,
+  "minimum_official_evidence": 2,
+  "minimum_unique_domains": 2,
+  "minimum_claims": 2,
+  "minimum_fresh_evidence": 1,
+  "minimum_questions": 6,
+  "minimum_queries": 4,
+  "critical_checks": [
+    "verified_evidence",
+    "official_evidence",
+    "domain_diversity"
+  ]
+}

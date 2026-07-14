@@ -1,0 +1,67 @@
+{
+  "status": "completed",
+  "action_count": 5,
+  "actions": [
+    {
+      "page": "https://savingio.com/articles/sample",
+      "department": "revenue",
+      "action": "check_adsense_coverage",
+      "priority": 90,
+      "reason": "traffic_without_revenue",
+      "metrics": {
+        "page_views": 100.0,
+        "earnings": 0.0
+      }
+    },
+    {
+      "page": "https://savingio.com/articles/sample",
+      "department": "seo",
+      "action": "rewrite_title_meta",
+      "priority": 75,
+      "reason": "high_search_impressions_low_ctr",
+      "metrics": {
+        "impressions": 200.0,
+        "search_ctr": 0.01
+      }
+    },
+    {
+      "page": "/articles/sample.html",
+      "department": "revenue",
+      "action": "review_ad_layout_and_intent",
+      "priority": 67,
+      "reason": "traffic_with_low_page_rpm",
+      "metrics": {
+        "page_views": 1000.0,
+        "page_rpm": 0.5
+      }
+    },
+    {
+      "page": "https://savingio.com/articles/sample",
+      "department": "revenue",
+      "action": "review_ad_layout_and_intent",
+      "priority": 65,
+      "reason": "traffic_with_low_page_rpm",
+      "metrics": {
+        "page_views": 100.0,
+        "page_rpm": 0.0
+      }
+    },
+    {
+      "page": "/articles/sample.html",
+      "department": "revenue",
+      "action": "review_ad_visibility",
+      "priority": 61,
+      "reason": "high_ad_impressions_low_ad_ctr",
+      "metrics": {
+        "ad_impressions": 1000.0,
+        "ad_ctr": 0.001
+      }
+    }
+  ],
+  "summary": {
+    "seo_actions": 1,
+    "revenue_actions": 4,
+    "critical_actions": 1
+  },
+  "created_at": "2026-07-14T13:58:33+00:00"
+}

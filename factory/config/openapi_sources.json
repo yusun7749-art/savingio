@@ -1,0 +1,13 @@
+{
+  "version": "2.028",
+  "sources": [
+    {
+      "name": "공공데이터포털",
+      "base_url": "https://apis.data.go.kr/",
+      "domain": "apis.data.go.kr",
+      "api_key_env": "DATA_GO_KR_API_KEY",
+      "enabled": false,
+      "note": "Enable per service after registering an API key and exact endpoint."
+    }
+  ]
+}

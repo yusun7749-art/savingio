@@ -1,0 +1,5265 @@
+{
+  "generated_at": "2026-07-13T13:31:19+00:00",
+  "total": 218,
+  "pass": 72,
+  "fail": 146,
+  "average_score": 77.0,
+  "results": [
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3450,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/ai-side-hustles-beginner.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 3350,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/air-conditioner-electricity-saving.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3517,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/aircon-dry-mode-electricity.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3529,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/aircon-filter-cleaning-savings.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3600,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/aircon-optimal-temperature-savings.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 3170,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/apartment-management-fee-summer.html"
+    },
+    {
+      "score": 92,
+      "status": "PASS",
+      "characters_no_space": 3591,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_next_action"
+      ],
+      "file": "articles/automatic-payment-saving.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3408,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/bank-account-budgeting.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3363,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/bank-fee-saving.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3349,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/bank-fees-to-avoid.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3538,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/basic-livelihood-discounts.html"
+    },
+    {
+      "score": 59,
+      "status": "FAIL",
+      "characters_no_space": 3337,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": false,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ],
+      "file": "articles/basic-pension-application-guide.html"
+    },
+    {
+      "score": 35,
+      "status": "FAIL",
+      "characters_no_space": 38,
+      "checks": {
+        "has_h1": false,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": false,
+        "has_mistakes": false,
+        "has_faq": false,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ],
+      "file": "articles/beginner-ai-side-hustles.html"
+    },
+    {
+      "score": 92,
+      "status": "PASS",
+      "characters_no_space": 3541,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_next_action"
+      ],
+      "file": "articles/beginner-budget-plan.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3269,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/beginner-money-management.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3645,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/benefit-scam-warning-2026.html"
+    },
+    {
+      "score": 92,
+      "status": "PASS",
+      "characters_no_space": 3785,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_next_action"
+      ],
+      "file": "articles/budget-app-guide.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3489,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/building-land-property-tax.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3482,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/business-card-hometax-registration.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3542,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/business-closure-vat-order.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3462,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/business-phone-expense-deduction.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3500,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/business-vehicle-expense-basics.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 3448,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/cancel-unused-subscriptions.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3377,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/car-aircon-fuel-saving.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3387,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/car-insurance-child-discount.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3513,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/car-insurance-mileage-refund.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 2568,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/car-insurance-overpayment-refund.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3430,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/car-tax-annual-payment.html"
+    },
+    {
+      "score": 59,
+      "status": "FAIL",
+      "characters_no_space": 3300,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": false,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ],
+      "file": "articles/car-tax-check-payment-guide.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3369,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/card-points-cashback-guide.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3394,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/cash-advance-vs-card-loan.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3361,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/cash-out-card-points.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3203,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/cashback-apps-guide.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3480,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/check-hidden-refunds.html"
+    },
+    {
+      "score": 66,
+      "status": "FAIL",
+      "characters_no_space": 3178,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_summary",
+        "has_next_action"
+      ],
+      "file": "articles/child-allowance-guide.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 2759,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": false,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_steps"
+      ],
+      "file": "articles/child-tax-credit-status-check.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3514,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/childcare-service-government-support.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3391,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/cma-account-types-risk.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3388,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/credit-card-billing-cycle-guide.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3358,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/credit-score-habits.html"
+    },
+    {
+      "score": 66,
+      "status": "FAIL",
+      "characters_no_space": 2893,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": false,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_steps",
+        "has_next_action"
+      ],
+      "file": "articles/credit-score-management.html"
+    },
+    {
+      "score": 35,
+      "status": "FAIL",
+      "characters_no_space": 38,
+      "checks": {
+        "has_h1": false,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": false,
+        "has_mistakes": false,
+        "has_faq": false,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ],
+      "file": "articles/credit-score-tips.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3600,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/culture-nuri-card-balance.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3361,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/debit-card-vs-credit-card.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3585,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/dehumidifier-electricity-saving.html"
+    },
+    {
+      "score": 66,
+      "status": "FAIL",
+      "characters_no_space": 3060,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": false,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_steps",
+        "has_next_action"
+      ],
+      "file": "articles/deposit-protection-limit-guide.html"
+    },
+    {
+      "score": 92,
+      "status": "PASS",
+      "characters_no_space": 3724,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_summary"
+      ],
+      "file": "articles/deposit-return-guarantee-checklist.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 2475,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/dormant-deposit-insurance-search.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3510,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/dryer-summer-electricity-saving.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3364,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/duplicate-indemnity-insurance-check.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3531,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/earned-income-credit-account-change.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 2879,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/earned-income-credit-payment.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 2991,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/earned-income-credit-status-check.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3516,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/earned-income-tax-credit-korea.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 2854,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/education-benefit-eligibility.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3455,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/education-expense-vs-benefit.html"
+    },
+    {
+      "score": 67,
+      "status": "FAIL",
+      "characters_no_space": 3338,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": false,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_summary",
+        "has_mistakes"
+      ],
+      "file": "articles/electricity-bill-easy-calculator-guide.html"
+    },
+    {
+      "score": 100,
+      "status": "PASS",
+      "characters_no_space": 5377,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [],
+      "file": "articles/electricity-bill-saving.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3601,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/electricity-discount-card-guide.html"
+    },
+    {
+      "score": 85,
+      "status": "FAIL",
+      "characters_no_space": 4106,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": false,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_placeholders"
+      ],
+      "file": "articles/electronic-tax-invoice-penalty.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 2788,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/elementary-school-education-support.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 3016,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/emergency-fund-guide.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 3177,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_summary"
+      ],
+      "file": "articles/emergency-medical-support.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3508,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/emergency-welfare-living-support.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3697,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/energy-voucher-2026-application.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3649,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/energy-voucher-application-2026.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3529,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/energy-voucher-application.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3662,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/energy-voucher-balance-check-2026.html"
+    },
+    {
+      "score": 35,
+      "status": "FAIL",
+      "characters_no_space": 38,
+      "checks": {
+        "has_h1": false,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": false,
+        "has_mistakes": false,
+        "has_faq": false,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ],
+      "file": "articles/energy-voucher-balance-use-2026.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3576,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/energy-voucher-balance-use.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3536,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/energy-voucher-documents.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3622,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/energy-voucher-eligibility-2026.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3545,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/energy-voucher-online-application.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3526,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/fan-aircon-combination-saving.html"
+    },
+    {
+      "score": 59,
+      "status": "FAIL",
+      "characters_no_space": 3123,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": false,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ],
+      "file": "articles/first-meeting-voucher-guide.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3183,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/fixed-date-online-application.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3526,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/fixed-speed-aircon-saving.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 2672,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/four-major-insurance-deduction-guide.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 3177,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/gas-bill-checklist.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 3290,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/general-vat-common-mistakes.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3637,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/government-benefit-alert-2026.html"
+    },
+    {
+      "score": 35,
+      "status": "FAIL",
+      "characters_no_space": 38,
+      "checks": {
+        "has_h1": false,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": false,
+        "has_mistakes": false,
+        "has_faq": false,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ],
+      "file": "articles/government-benefit-alert-guide-2026.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3594,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/government-benefit-alert-setup.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3492,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/government-benefits-warning.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3550,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/government-support-calendar.html"
+    },
+    {
+      "score": 35,
+      "status": "FAIL",
+      "characters_no_space": 38,
+      "checks": {
+        "has_h1": false,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": false,
+        "has_mistakes": false,
+        "has_faq": false,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ],
+      "file": "articles/government-support-scam-warning-2026.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3593,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/government24-benefit-check.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 3388,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/grocery-bill-savings.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3384,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/grocery-saving-tips.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 3148,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_summary"
+      ],
+      "file": "articles/health-insurance-out-of-pocket-refund.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 3141,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_summary"
+      ],
+      "file": "articles/health-insurance-overpayment-refund.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 2632,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/health-insurance-refund-guide.html"
+    },
+    {
+      "score": 35,
+      "status": "FAIL",
+      "characters_no_space": 38,
+      "checks": {
+        "has_h1": false,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": false,
+        "has_mistakes": false,
+        "has_faq": false,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ],
+      "file": "articles/health-insurance-refund.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3354,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/heating-bill-saving.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3193,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/hidden-money-search.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3475,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/hidden-refund-check.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3371,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/home-water-leak-self-check.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3496,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/hometax-refund-status.html"
+    },
+    {
+      "score": 66,
+      "status": "FAIL",
+      "characters_no_space": 3318,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": false,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_steps",
+        "has_next_action"
+      ],
+      "file": "articles/hometax-vat-sales-check.html"
+    },
+    {
+      "score": 92,
+      "status": "PASS",
+      "characters_no_space": 3681,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_summary"
+      ],
+      "file": "articles/housing-benefit-eligibility.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3195,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/how-to-check-hidden-refunds.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3282,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/how-to-lower-phone-bill.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3525,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/how-to-save-electricity-bill.html"
+    },
+    {
+      "score": 92,
+      "status": "PASS",
+      "characters_no_space": 3522,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_next_action"
+      ],
+      "file": "articles/impulse-buying-control.html"
+    },
+    {
+      "score": 92,
+      "status": "PASS",
+      "characters_no_space": 4051,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_next_action"
+      ],
+      "file": "articles/income-tax-filing-missed-consequences.html"
+    },
+    {
+      "score": 76,
+      "status": "FAIL",
+      "characters_no_space": 13026,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": false,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_summary",
+        "has_faq",
+        "has_next_action"
+      ],
+      "file": "articles/index.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3349,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/insurance-auto-pay-discount.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3533,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/insurance-surrender-value-check.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3509,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/internet-bill-discount.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 3455,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/internet-bill-savings.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3532,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/inverter-aircon-saving-guide.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3517,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/irs-tax-refund-status.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 2662,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/lifelong-education-voucher-application.html"
+    },
+    {
+      "score": 66,
+      "status": "FAIL",
+      "characters_no_space": 2978,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": false,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_steps",
+        "has_next_action"
+      ],
+      "file": "articles/loan-prepayment-fee-check.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 2891,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/loan-refinancing-check.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3506,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/local-tax-refund-claim.html"
+    },
+    {
+      "score": 66,
+      "status": "FAIL",
+      "characters_no_space": 2803,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": false,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_steps",
+        "has_next_action"
+      ],
+      "file": "articles/local-tax-refund-guide.html"
+    },
+    {
+      "score": 35,
+      "status": "FAIL",
+      "characters_no_space": 38,
+      "checks": {
+        "has_h1": false,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": false,
+        "has_mistakes": false,
+        "has_faq": false,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ],
+      "file": "articles/local-tax-refund.html"
+    },
+    {
+      "score": 59,
+      "status": "FAIL",
+      "characters_no_space": 3219,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": false,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ],
+      "file": "articles/long-term-care-insurance-application.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3230,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/low-income-cooling-support.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 3137,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_summary"
+      ],
+      "file": "articles/medical-bill-negotiation.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3505,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/missing-property-tax-bill.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3192,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/money-saving-habits.html"
+    },
+    {
+      "score": 92,
+      "status": "PASS",
+      "characters_no_space": 3592,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_next_action"
+      ],
+      "file": "articles/monthly-budget-planner.html"
+    },
+    {
+      "score": 92,
+      "status": "PASS",
+      "characters_no_space": 3733,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_summary"
+      ],
+      "file": "articles/monthly-rent-tax-credit-documents.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3183,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/national-employment-support-eligibility.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3547,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/national-pension-additional-payment.html"
+    },
+    {
+      "score": 59,
+      "status": "FAIL",
+      "characters_no_space": 3214,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": false,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ],
+      "file": "articles/national-pension-old-age-benefit-guide.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 2407,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/national-pension-overpayment-refund.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 2711,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/national-scholarship-application.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3498,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/national-tax-refund-account.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3474,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/national-tax-refund.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3499,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/near-poverty-certificate.html"
+    },
+    {
+      "score": 35,
+      "status": "FAIL",
+      "characters_no_space": 38,
+      "checks": {
+        "has_h1": false,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": false,
+        "has_mistakes": false,
+        "has_faq": false,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ],
+      "file": "articles/online-income-ideas-for-beginners.html"
+    },
+    {
+      "score": 59,
+      "status": "FAIL",
+      "characters_no_space": 3263,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": false,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ],
+      "file": "articles/over-60-benefits-guide.html"
+    },
+    {
+      "score": 66,
+      "status": "FAIL",
+      "characters_no_space": 2777,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": false,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_steps",
+        "has_next_action"
+      ],
+      "file": "articles/overdraft-account-guide.html"
+    },
+    {
+      "score": 59,
+      "status": "FAIL",
+      "characters_no_space": 3363,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": false,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ],
+      "file": "articles/parental-benefit-guide.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3297,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/parking-account-rate-comparison.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3429,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/peak-season-hotel-saving.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 3401,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/phone-bill-saving.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3569,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/property-tax-bill-checklist-2026.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3456,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/property-tax-calculation-structure.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3427,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/property-tax-deadline.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3501,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/property-tax-electronic-bill-2026.html"
+    },
+    {
+      "score": 35,
+      "status": "FAIL",
+      "characters_no_space": 38,
+      "checks": {
+        "has_h1": false,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": false,
+        "has_mistakes": false,
+        "has_faq": false,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ],
+      "file": "articles/property-tax-electronic-notice-2026.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3487,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/property-tax-installment-application.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3429,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/property-tax-joint-ownership.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3542,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/property-tax-july-2026.html"
+    },
+    {
+      "score": 35,
+      "status": "FAIL",
+      "characters_no_space": 38,
+      "checks": {
+        "has_h1": false,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": false,
+        "has_mistakes": false,
+        "has_faq": false,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ],
+      "file": "articles/property-tax-july-checklist-2026.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3495,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/property-tax-july-september-difference.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3465,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/property-tax-objection-guide.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3450,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/property-tax-payment-certificate.html"
+    },
+    {
+      "score": 35,
+      "status": "FAIL",
+      "characters_no_space": 38,
+      "checks": {
+        "has_h1": false,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": false,
+        "has_mistakes": false,
+        "has_faq": false,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ],
+      "file": "articles/reduce-electricity-bill.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3542,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/refrigerator-summer-electricity-saving.html"
+    },
+    {
+      "score": 59,
+      "status": "FAIL",
+      "characters_no_space": 3122,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": false,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ],
+      "file": "articles/regional-development-bond-refund-guide.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3429,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/rental-car-vacation-saving.html"
+    },
+    {
+      "score": 92,
+      "status": "PASS",
+      "characters_no_space": 3716,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_summary"
+      ],
+      "file": "articles/rental-contract-reporting-guide.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3341,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/revolving-cancellation-payoff.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3434,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/salary-budget-guide.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3417,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/salary-management-guide.html"
+    },
+    {
+      "score": 82,
+      "status": "FAIL",
+      "characters_no_space": 2947,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density"
+      ],
+      "file": "articles/salary-slip-check-guide.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 3187,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_summary"
+      ],
+      "file": "articles/salary-take-home-easy-calculator-guide.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3366,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/savings-maturity-auto-renewal.html"
+    },
+    {
+      "score": 100,
+      "status": "PASS",
+      "characters_no_space": 4252,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [],
+      "file": "articles/self-employed-income-tax-refund-check.html"
+    },
+    {
+      "score": 59,
+      "status": "FAIL",
+      "characters_no_space": 3137,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": false,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ],
+      "file": "articles/senior-job-application-guide.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 2557,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/severance-pay-calculation-guide.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 3464,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_summary"
+      ],
+      "file": "articles/severance-pay-easy-calculator-guide.html"
+    },
+    {
+      "score": 92,
+      "status": "PASS",
+      "characters_no_space": 4274,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_next_action"
+      ],
+      "file": "articles/simple-receipt-expense-rules.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3624,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/simplified-vat-checklist.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3576,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/single-parent-support-benefits.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3199,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/small-business-closure-support.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3184,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/small-business-delivery-support.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3553,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/small-business-electricity-support.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3196,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/small-business-policy-fund-search.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3196,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/small-business-policy-fund.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3192,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/spending-habits-change.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 2742,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/student-loan-repayment-guide.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 3437,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/subscription-audit-checklist.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3464,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/subscription-cleanup.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3360,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/subscription-saving.html"
+    },
+    {
+      "score": 66,
+      "status": "FAIL",
+      "characters_no_space": 2909,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": false,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_steps",
+        "has_next_action"
+      ],
+      "file": "articles/subsidy24-benefit-search.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3626,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/summer-electricity-tier-check-2026.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3591,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/summer-electricity-tier-check.html"
+    },
+    {
+      "score": 35,
+      "status": "FAIL",
+      "characters_no_space": 38,
+      "checks": {
+        "has_h1": false,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": false,
+        "has_mistakes": false,
+        "has_faq": false,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ],
+      "file": "articles/summer-electricity-usage-check-2026.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3466,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/summer-gas-bill-hot-water-saving.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3399,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/summer-vacation-budget-plan.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3442,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/summer-water-bill-spike-check.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3551,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/tax-credit-late-application.html"
+    },
+    {
+      "score": 100,
+      "status": "PASS",
+      "characters_no_space": 4090,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [],
+      "file": "articles/tax-invoice-vs-cash-receipt.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3340,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/telecom-discount-guide.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 2403,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/telecom-unclaimed-refund.html"
+    },
+    {
+      "score": 59,
+      "status": "FAIL",
+      "characters_no_space": 3242,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": false,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ],
+      "file": "articles/traffic-fine-check-payment-guide.html"
+    },
+    {
+      "score": 59,
+      "status": "FAIL",
+      "characters_no_space": 3100,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": false,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ],
+      "file": "articles/traffic-fines-difference-guide.html"
+    },
+    {
+      "score": 59,
+      "status": "FAIL",
+      "characters_no_space": 3200,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": false,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ],
+      "file": "articles/traffic-penalty-check-payment-guide.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3416,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/travel-insurance-comparison.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 2540,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/unemployment-benefit-checklist.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3468,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/unemployment-benefit-job-search.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3764,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/vat-final-return-2026-july.html"
+    },
+    {
+      "score": 35,
+      "status": "FAIL",
+      "characters_no_space": 38,
+      "checks": {
+        "has_h1": false,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": false,
+        "has_mistakes": false,
+        "has_faq": false,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ],
+      "file": "articles/vat-final-return-deadline-2026.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3708,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/vat-final-return-july-2026.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3701,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/vat-input-tax-deduction-2026.html"
+    },
+    {
+      "score": 35,
+      "status": "FAIL",
+      "characters_no_space": 38,
+      "checks": {
+        "has_h1": false,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": false,
+        "has_mistakes": false,
+        "has_faq": false,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ],
+      "file": "articles/vat-input-tax-deduction-guide-2026.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 3298,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/vat-input-tax-deduction-items.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3630,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/vat-payment-extension-guide.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 3315,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/vat-sales-omission-check-2026.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 3215,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/vat-zero-sales-filing-2026.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3594,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/vat-zero-sales-filing.html"
+    },
+    {
+      "score": 59,
+      "status": "FAIL",
+      "characters_no_space": 3162,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": false,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ],
+      "file": "articles/vehicle-inspection-reservation-guide.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3444,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/water-bill-guide.html"
+    },
+    {
+      "score": 100,
+      "status": "PASS",
+      "characters_no_space": 4003,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [],
+      "file": "articles/water-bill-saving.html"
+    },
+    {
+      "score": 74,
+      "status": "FAIL",
+      "characters_no_space": 2639,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": false,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "has_next_action"
+      ],
+      "file": "articles/weekly-holiday-pay-guide.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3239,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/wetax-electronic-billing.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3224,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/wetax-payment-history.html"
+    },
+    {
+      "score": 75,
+      "status": "FAIL",
+      "characters_no_space": 3259,
+      "checks": {
+        "has_h1": true,
+        "min_density": false,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "min_density",
+        "no_generic_reuse"
+      ],
+      "file": "articles/yellow-umbrella-mutual-aid-guide.html"
+    },
+    {
+      "score": 92,
+      "status": "PASS",
+      "characters_no_space": 3705,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": false,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "has_summary"
+      ],
+      "file": "articles/youth-housing-benefit-separate-payment.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3518,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/youth-leap-account-contribution.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3502,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/youth-savings-account-maintenance.html"
+    },
+    {
+      "score": 93,
+      "status": "PASS",
+      "characters_no_space": 3633,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": false,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [
+        "no_generic_reuse"
+      ],
+      "file": "articles/youth-support-programs.html"
+    }
+  ]
+}

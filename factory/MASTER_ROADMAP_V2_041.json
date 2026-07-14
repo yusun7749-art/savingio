@@ -1,0 +1,22 @@
+{
+  "version": "2.041",
+  "focus": "Article-completing Calculator HQ",
+  "completed": [
+    "Calculator HQ",
+    "Intent Engine",
+    "Registry",
+    "Matcher",
+    "Generation Request",
+    "Solution Package",
+    "CMS Link Registry",
+    "Calculator QA",
+    "Calculator Analytics",
+    "Pipeline Integration"
+  ],
+  "remaining": [
+    "Implement active calculator pages",
+    "Connect real calculator result events",
+    "Calculator creation generator",
+    "Live article-to-calculator link validation"
+  ]
+}

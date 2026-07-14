@@ -1,0 +1,25 @@
+{
+  "version": "2.026",
+  "department_focus": "research",
+  "completed": [
+    "Source Registry",
+    "Source Matcher",
+    "Query Plan",
+    "Evidence Intake",
+    "Evidence Normalization",
+    "Evidence Deduplication",
+    "Trust Score",
+    "Freshness Check",
+    "Research QA",
+    "Research Report",
+    "Writer Handoff"
+  ],
+  "remaining": [
+    "실제 웹 검색 커넥터",
+    "정부 Open API 커넥터",
+    "본문 자동 추출",
+    "법령 변경 감지",
+    "뉴스 최신성 감시",
+    "통계 데이터 자동 수집"
+  ]
+}

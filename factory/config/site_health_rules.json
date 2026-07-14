@@ -1,0 +1,10 @@
+{
+  "version": "2.032",
+  "default_paths": [
+    "/",
+    "/articles/",
+    "/robots.txt",
+    "/sitemap.xml"
+  ],
+  "timeout_seconds": 20
+}

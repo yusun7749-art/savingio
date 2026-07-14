@@ -1,0 +1,15 @@
+{
+  "execute": false,
+  "result_count": 1,
+  "completed": 0,
+  "dry_run": 0,
+  "blocked": 1,
+  "results": [
+    {
+      "status": "blocked",
+      "reason": "page_not_found",
+      "page": "https://savingio.com/articles/sample"
+    }
+  ],
+  "created_at": "2026-07-14T12:36:10+00:00"
+}

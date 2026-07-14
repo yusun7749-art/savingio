@@ -1,0 +1,191 @@
+{
+  "created_at": "2026-07-14T14:44:00+00:00",
+  "version": "2.026",
+  "freshness_days": 730,
+  "sources": [
+    {
+      "name": "정부24",
+      "domain": "gov.kr",
+      "category": "government",
+      "priority": 1,
+      "trust_score": 98,
+      "keywords": [
+        "지원",
+        "신청",
+        "민원",
+        "혜택",
+        "증명서",
+        "정부"
+      ],
+      "query_templates": [
+        "site:{domain} \"{topic}\"",
+        "site:{domain} \"{topic}\" 신청 조건"
+      ]
+    },
+    {
+      "name": "국가법령정보센터",
+      "domain": "law.go.kr",
+      "category": "law",
+      "priority": 1,
+      "trust_score": 100,
+      "keywords": [
+        "법",
+        "법령",
+        "시행령",
+        "규정",
+        "세금",
+        "근로",
+        "복지"
+      ],
+      "always_include": true,
+      "query_templates": [
+        "site:{domain} \"{topic}\"",
+        "site:{domain} \"{topic}\" 시행령"
+      ]
+    },
+    {
+      "name": "국세청",
+      "domain": "nts.go.kr",
+      "category": "tax",
+      "priority": 1,
+      "trust_score": 99,
+      "keywords": [
+        "세금",
+        "부가세",
+        "소득세",
+        "사업자",
+        "원천징수",
+        "연말정산"
+      ]
+    },
+    {
+      "name": "기획재정부",
+      "domain": "moef.go.kr",
+      "category": "economy",
+      "priority": 2,
+      "trust_score": 96,
+      "keywords": [
+        "세제",
+        "경제",
+        "지원",
+        "예산",
+        "물가"
+      ]
+    },
+    {
+      "name": "한국전력",
+      "domain": "kepco.co.kr",
+      "category": "utility",
+      "priority": 1,
+      "trust_score": 96,
+      "keywords": [
+        "전기",
+        "전기요금",
+        "에어컨",
+        "누진제",
+        "전력"
+      ]
+    },
+    {
+      "name": "복지로",
+      "domain": "bokjiro.go.kr",
+      "category": "welfare",
+      "priority": 1,
+      "trust_score": 98,
+      "keywords": [
+        "복지",
+        "지원금",
+        "감면",
+        "기초생활",
+        "연금"
+      ]
+    },
+    {
+      "name": "금융감독원",
+      "domain": "fss.or.kr",
+      "category": "finance",
+      "priority": 1,
+      "trust_score": 98,
+      "keywords": [
+        "금융",
+        "대출",
+        "카드",
+        "은행",
+        "보험",
+        "이자"
+      ]
+    },
+    {
+      "name": "고용노동부",
+      "domain": "moel.go.kr",
+      "category": "labor",
+      "priority": 1,
+      "trust_score": 98,
+      "keywords": [
+        "급여",
+        "임금",
+        "근로",
+        "퇴직금",
+        "연차",
+        "주휴수당"
+      ]
+    },
+    {
+      "name": "국민건강보험공단",
+      "domain": "nhis.or.kr",
+      "category": "health-insurance",
+      "priority": 1,
+      "trust_score": 98,
+      "keywords": [
+        "건강보험",
+        "보험료",
+        "의료비",
+        "장기요양"
+      ]
+    },
+    {
+      "name": "통계청",
+      "domain": "kostat.go.kr",
+      "category": "statistics",
+      "priority": 2,
+      "trust_score": 96,
+      "keywords": [
+        "통계",
+        "가구",
+        "소득",
+        "물가",
+        "인구"
+      ],
+      "always_include": true
+    },
+    {
+      "name": "한국소비자원",
+      "domain": "kca.go.kr",
+      "category": "consumer",
+      "priority": 2,
+      "trust_score": 94,
+      "keywords": [
+        "소비자",
+        "환불",
+        "피해",
+        "계약",
+        "분쟁"
+      ]
+    },
+    {
+      "name": "국토교통부",
+      "domain": "molit.go.kr",
+      "category": "housing",
+      "priority": 1,
+      "trust_score": 98,
+      "keywords": [
+        "주택",
+        "아파트",
+        "부동산",
+        "관리비",
+        "전세",
+        "월세"
+      ]
+    }
+  ]
+}

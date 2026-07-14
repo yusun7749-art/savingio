@@ -1,0 +1,229 @@
+{
+  "version": "2.041",
+  "hq_categories": [
+    {
+      "id": "salary",
+      "name": "Salary Calculator"
+    },
+    {
+      "id": "tax",
+      "name": "Tax Calculator"
+    },
+    {
+      "id": "utility",
+      "name": "Utility Calculator"
+    },
+    {
+      "id": "finance",
+      "name": "Finance Calculator"
+    },
+    {
+      "id": "loan",
+      "name": "Loan Calculator"
+    },
+    {
+      "id": "savings",
+      "name": "Savings Calculator"
+    },
+    {
+      "id": "insurance",
+      "name": "Insurance Calculator"
+    },
+    {
+      "id": "business",
+      "name": "Business Calculator"
+    },
+    {
+      "id": "health",
+      "name": "Health Calculator"
+    },
+    {
+      "id": "life",
+      "name": "Life Calculator"
+    }
+  ],
+  "calculators": [
+    {
+      "id": "salary-net-pay",
+      "title": "연봉·월급 실수령액 계산기",
+      "category": "salary",
+      "keywords": [
+        "연봉",
+        "월급",
+        "급여",
+        "실수령액",
+        "세후"
+      ],
+      "article_topics": [
+        "실수령액",
+        "연봉",
+        "월급"
+      ],
+      "url": "/calculators/salary-net-pay.html",
+      "status": "planned",
+      "input_fields": [
+        "연봉 또는 월급",
+        "부양가족 수",
+        "비과세액"
+      ],
+      "result_fields": [
+        "예상 실수령액",
+        "예상 공제액"
+      ],
+      "next_actions": [
+        "급여명세서 확인",
+        "관련 실수령액 글 보기"
+      ]
+    },
+    {
+      "id": "hourly-to-monthly",
+      "title": "시급 월급 환산 계산기",
+      "category": "salary",
+      "keywords": [
+        "시급",
+        "월급 환산",
+        "주휴수당"
+      ],
+      "article_topics": [
+        "시급",
+        "아르바이트 월급"
+      ],
+      "url": "/calculators/hourly-to-monthly.html",
+      "status": "planned",
+      "input_fields": [
+        "시급",
+        "근무시간",
+        "근무일수"
+      ],
+      "result_fields": [
+        "예상 월급",
+        "주휴수당 포함 금액"
+      ],
+      "next_actions": [
+        "근로계약서 확인",
+        "최저임금 글 보기"
+      ]
+    },
+    {
+      "id": "electricity-cost",
+      "title": "전기요금·절약금액 계산기",
+      "category": "utility",
+      "keywords": [
+        "전기요금",
+        "사용량",
+        "kwh",
+        "절약 금액"
+      ],
+      "article_topics": [
+        "전기요금",
+        "에어컨 전기세"
+      ],
+      "url": "/calculators/electricity-cost.html",
+      "status": "planned",
+      "input_fields": [
+        "월 사용량",
+        "요금 단가",
+        "절약 목표"
+      ],
+      "result_fields": [
+        "예상 전기요금",
+        "예상 절약액"
+      ],
+      "next_actions": [
+        "사용량 점검",
+        "전기요금 절약 글 보기"
+      ]
+    },
+    {
+      "id": "severance-pay",
+      "title": "퇴직금 예상 계산기",
+      "category": "salary",
+      "keywords": [
+        "퇴직금",
+        "평균임금",
+        "근속기간",
+        "세후 수령액"
+      ],
+      "article_topics": [
+        "퇴직금"
+      ],
+      "url": "/calculators/severance-pay.html",
+      "status": "planned",
+      "input_fields": [
+        "평균임금",
+        "근속기간"
+      ],
+      "result_fields": [
+        "예상 퇴직금",
+        "세전 예상액"
+      ],
+      "next_actions": [
+        "근속기간 확인",
+        "퇴직금 기준 글 보기"
+      ]
+    },
+    {
+      "id": "vat",
+      "title": "부가세·공급가·합계 계산기",
+      "category": "business",
+      "keywords": [
+        "부가세",
+        "vat",
+        "공급가",
+        "합계"
+      ],
+      "article_topics": [
+        "부가세",
+        "사업자 세금"
+      ],
+      "url": "/calculators/vat.html",
+      "status": "planned",
+      "input_fields": [
+        "공급가 또는 합계",
+        "세율"
+      ],
+      "result_fields": [
+        "부가세",
+        "공급가",
+        "합계"
+      ],
+      "next_actions": [
+        "세금계산서 확인",
+        "부가세 신고 글 보기"
+      ]
+    },
+    {
+      "id": "loan-payment",
+      "title": "대출 원리금·이자 비교 계산기",
+      "category": "loan",
+      "keywords": [
+        "대출",
+        "원리금",
+        "상환",
+        "이자 비교",
+        "중도상환"
+      ],
+      "article_topics": [
+        "대출 상환",
+        "대출 이자"
+      ],
+      "url": "/calculators/loan-payment.html",
+      "status": "planned",
+      "input_fields": [
+        "대출원금",
+        "금리",
+        "기간",
+        "상환방식"
+      ],
+      "result_fields": [
+        "월 상환액",
+        "총이자",
+        "상환방식 비교"
+      ],
+      "next_actions": [
+        "대출조건 확인",
+        "대출 비교 글 보기"
+      ]
+    }
+  ]
+}

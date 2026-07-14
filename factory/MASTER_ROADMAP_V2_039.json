@@ -1,0 +1,17 @@
+{
+  "version": "2.039",
+  "focus": "Operations monitoring and recovery",
+  "completed": [
+    "Operations Snapshot",
+    "Incident Detection",
+    "Recovery Planning",
+    "Retry Policy",
+    "Operations Center"
+  ],
+  "remaining": [
+    "Live external credential verification",
+    "Live production deployment verification",
+    "Live image generation provider",
+    "Naver automatic publishing"
+  ]
+}

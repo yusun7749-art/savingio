@@ -1,0 +1,10 @@
+{
+  "version": "2.029",
+  "reject_unregistered_domains": true,
+  "minimum_claim_chars": 10,
+  "sort": [
+    "official",
+    "evidence_score",
+    "search_rank"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "2.030",
+  "services": {
+    "wordpress": {
+      "required_env": [
+        "WORDPRESS_URL",
+        "WORDPRESS_USER",
+        "WORDPRESS_APP_PASSWORD"
+      ]
+    },
+    "cloudflare_pages": {
+      "required_env": [
+        "CLOUDFLARE_ACCOUNT_ID",
+        "CLOUDFLARE_API_TOKEN",
+        "CLOUDFLARE_PAGES_PROJECT"
+      ]
+    },
+    "image_provider": {
+      "required_env": [
+        "OPENAI_API_KEY"
+      ]
+    }
+  }
+}

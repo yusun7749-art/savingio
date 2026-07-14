@@ -1,0 +1,16 @@
+{
+  "workflow_id": "dbd13878a9ae42259b6385ca8b4e7c3c",
+  "topic": "revenue:/articles/sample.html",
+  "status": "rework_required",
+  "current_department": "revenue",
+  "completed_departments": [],
+  "failed_departments": [
+    "revenue"
+  ],
+  "created_at": "2026-07-14T13:00:48+00:00",
+  "updated_at": "2026-07-14T13:00:48+00:00",
+  "last_issues": [
+    "review_ad_visibility",
+    "high_ad_impressions_low_ad_ctr"
+  ]
+}

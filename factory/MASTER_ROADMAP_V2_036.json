@@ -1,0 +1,17 @@
+{
+  "version": "2.036",
+  "completed": [
+    "Department Handoff Contract",
+    "Department Gate Engine",
+    "Planning-to-Revenue Automation Cycle",
+    "Automatic Rework Routing",
+    "Cycle Dashboard"
+  ],
+  "remaining": [
+    "Real image generation",
+    "Live Google API validation",
+    "User-approved automatic deploy",
+    "Naver publishing",
+    "AdSense revenue API"
+  ]
+}

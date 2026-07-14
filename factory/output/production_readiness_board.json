@@ -1,0 +1,105 @@
+{
+  "pass": false,
+  "checks": {
+    "factory_modules_complete": true,
+    "end_to_end_audit_pass": true,
+    "final_release_report_present": true,
+    "git_repository_ready": true,
+    "all_external_integrations_ready": false,
+    "adsense_audit_present": true,
+    "adsense_ready_to_apply": false
+  },
+  "blockers": [
+    "all_external_integrations_ready",
+    "adsense_ready_to_apply"
+  ],
+  "integration_ready_count": 1,
+  "integration_total_count": 6,
+  "checklist": {
+    "completed_count": 12,
+    "total_count": 12,
+    "items": [
+      {
+        "key": "planning_engine",
+        "module": "planner.py",
+        "completed": true
+      },
+      {
+        "key": "research_engine",
+        "module": "research_department.py",
+        "completed": true
+      },
+      {
+        "key": "writer_engine",
+        "module": "writer.py",
+        "completed": true
+      },
+      {
+        "key": "seo_engine",
+        "module": "seo.py",
+        "completed": true
+      },
+      {
+        "key": "image_engine",
+        "module": "image_engine.py",
+        "completed": true
+      },
+      {
+        "key": "qa_engine",
+        "module": "qa.py",
+        "completed": true
+      },
+      {
+        "key": "cms_engine",
+        "module": "cms.py",
+        "completed": true
+      },
+      {
+        "key": "deploy_engine",
+        "module": "approved_republish.py",
+        "completed": true
+      },
+      {
+        "key": "analytics_engine",
+        "module": "analytics_dashboard.py",
+        "completed": true
+      },
+      {
+        "key": "revenue_engine",
+        "module": "revenue_ai.py",
+        "completed": true
+      },
+      {
+        "key": "rework_engine",
+        "module": "revenue_rework_pipeline.py",
+        "completed": true
+      },
+      {
+        "key": "release_audit",
+        "module": "final_release_coordinator.py",
+        "completed": true
+      }
+    ],
+    "created_at": "2026-07-14T13:58:39+00:00"
+  },
+  "adsense": {
+    "adsense_readiness_score": 55,
+    "ready_to_apply": false,
+    "article_count": 218,
+    "passed_article_count": 77,
+    "failed_article_count": 141,
+    "thin_content_count": 14,
+    "policy_risk_count": 0,
+    "noindex_count": 0,
+    "blockers": [
+      "thin_content",
+      "duplicate_titles",
+      "article_quality_ratio"
+    ],
+    "outputs": [
+      "factory/output/adsense_audit.json",
+      "factory/output/adsense_fix_queue.json"
+    ]
+  },
+  "created_at": "2026-07-14T13:58:39+00:00"
+}

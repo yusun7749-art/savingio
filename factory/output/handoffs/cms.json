@@ -1,0 +1,17 @@
+{
+  "packet": {
+    "article_path": "factory/output/drafts/전기요금-절약-c861d77b.html",
+    "canonical": "https://savingio.com/articles/전기요금-절약-c861d77b.html",
+    "qa_score": 100,
+    "evidence_score": 0,
+    "published": false,
+    "saved_at": "2026-07-14T10:25:51+00:00"
+  },
+  "review": {
+    "department": "cms",
+    "pass": true,
+    "missing": [],
+    "rework_required": false,
+    "reviewed_at": "2026-07-14T10:25:51+00:00"
+  }
+}

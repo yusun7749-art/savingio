@@ -1,0 +1,75 @@
+{
+  "pass": true,
+  "blockers": [],
+  "repair": {
+    "changed_count": 0,
+    "changed": []
+  },
+  "ads_txt": {
+    "path": "ads.txt",
+    "exists": true,
+    "valid": true,
+    "executed": false,
+    "checked_at": "2026-07-14T15:09:50+00:00"
+  },
+  "index": {
+    "pass": true,
+    "ids": [
+      "ca-pub-7605193583747751"
+    ],
+    "changed": false,
+    "executed": false,
+    "checked_at": "2026-07-14T15:09:50+00:00"
+  },
+  "scan": {
+    "pass": true,
+    "official_publisher_id": "pub-7605193583747751",
+    "official_client": "ca-pub-7605193583747751",
+    "files_with_ids": [
+      {
+        "path": "ads.txt",
+        "ids": [
+          "pub-7605193583747751"
+        ]
+      },
+      {
+        "path": "index.html",
+        "ids": [
+          "ca-pub-7605193583747751"
+        ]
+      },
+      {
+        "path": "factory/config/adsense_identity.json",
+        "ids": [
+          "ca-pub-7605193583747751",
+          "pub-7605193583747751"
+        ]
+      },
+      {
+        "path": "factory/output/adsense/index_report.json",
+        "ids": [
+          "ca-pub-7605193583747751"
+        ]
+      },
+      {
+        "path": "factory/output/adsense/publisher_scan.json",
+        "ids": [
+          "ca-pub-7605193583747751",
+          "pub-7605193583747751"
+        ]
+      },
+      {
+        "path": "factory/output/adsense/adsense_lock_report.json",
+        "ids": [
+          "ca-pub-7605193583747751",
+          "pub-7605193583747751"
+        ]
+      }
+    ],
+    "invalid_count": 0,
+    "invalid": [],
+    "checked_at": "2026-07-14T15:09:50+00:00"
+  },
+  "status": "pass",
+  "checked_at": "2026-07-14T15:09:50+00:00"
+}

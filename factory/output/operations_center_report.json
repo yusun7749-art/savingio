@@ -1,0 +1,86 @@
+{
+  "status": "completed",
+  "overall_status": "attention",
+  "snapshot": {
+    "healthy_count": 3,
+    "attention_count": 1,
+    "missing_count": 2,
+    "unknown_count": 2,
+    "sources": [
+      {
+        "source": "integration_preflight",
+        "state": "unknown",
+        "status": null
+      },
+      {
+        "source": "production_readiness",
+        "state": "attention",
+        "status": null
+      },
+      {
+        "source": "final_release",
+        "state": "healthy",
+        "status": null
+      },
+      {
+        "source": "approved_republish",
+        "state": "unknown",
+        "status": "not_executed"
+      },
+      {
+        "source": "cloudflare_monitor",
+        "state": "missing",
+        "status": null
+      },
+      {
+        "source": "analytics_daily",
+        "state": "healthy",
+        "status": "completed"
+      },
+      {
+        "source": "revenue_core",
+        "state": "healthy",
+        "status": "completed"
+      },
+      {
+        "source": "doctor",
+        "state": "missing",
+        "status": null
+      }
+    ],
+    "overall_status": "attention",
+    "created_at": "2026-07-14T14:11:22+00:00"
+  },
+  "incidents": {
+    "incident_count": 1,
+    "critical_count": 0,
+    "high_count": 1,
+    "incidents": [
+      {
+        "incident_id": "33a65c603e8dbde5",
+        "source": "production_readiness",
+        "severity": "high",
+        "score": 80,
+        "issue": "attention_required",
+        "action": "inspect_and_recover"
+      }
+    ],
+    "created_at": "2026-07-14T14:11:22+00:00"
+  },
+  "recovery": {
+    "plan_count": 1,
+    "plans": [
+      {
+        "incident_id": "33a65c603e8dbde5",
+        "source": "production_readiness",
+        "severity": "high",
+        "steps": [
+          "Run production-readiness"
+        ],
+        "automatic_execution": false
+      }
+    ],
+    "created_at": "2026-07-14T14:11:22+00:00"
+  },
+  "created_at": "2026-07-14T14:11:22+00:00"
+}
