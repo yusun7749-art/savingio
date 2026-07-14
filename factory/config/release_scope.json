@@ -1,0 +1,12 @@
+{
+  "version": "V2.049",
+  "commit_message": "V2.049 add safe release scope automation",
+  "files": [
+    "factory/one_click_release.py",
+    "factory/config/release_scope.json",
+    "factory/tests/test_v2049_release_scope.py",
+    "FACTORY-ONE-CLICK.bat",
+    "VERSION.json",
+    "V2.049-RELEASE-NOTE.md"
+  ]
+}
