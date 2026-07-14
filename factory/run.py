@@ -88,6 +88,8 @@ if __package__ in (None, ""):
     from factory.research_web_runner import run_web_research
     from factory.image_queue import ImageQueue
     from factory.deployment_gate import evaluate_deployment_gate
+    from factory.factory_cleaner import clean_factory
+    from factory.release_packager import build_release_package
     from factory.research_department import run_research_department
     from factory.planner import build_plan
 else:
@@ -176,11 +178,13 @@ else:
     from .research_web_runner import run_web_research
     from .image_queue import ImageQueue
     from .deployment_gate import evaluate_deployment_gate
+    from .factory_cleaner import clean_factory
+    from .release_packager import build_release_package
     from .research_department import run_research_department
     from .planner import build_plan
 
 def main():
-    p=argparse.ArgumentParser(description="Savingio Factory V2.041")
+    p=argparse.ArgumentParser(description="Savingio Factory V2.044")
     sub=p.add_subparsers(dest="cmd")
 
     g=sub.add_parser("generate")
@@ -404,6 +408,9 @@ def main():
 
     sub.add_parser("image-queue")
     sub.add_parser("deployment-gate")
+    sub.add_parser("factory-clean")
+    package=sub.add_parser("release-package")
+    package.add_argument("--output", default="savingio-live_v2_044_FACTORY_RELEASE_LOCK.zip")
     research_run=sub.add_parser("research-run")
     research_run.add_argument("topic")
     research_run.add_argument("--evidence",action="append",default=[])
@@ -480,6 +487,10 @@ def main():
         result=ImageQueue(root).summary()
     elif args.cmd=="deployment-gate":
         result=evaluate_deployment_gate(root)
+    elif args.cmd=="factory-clean":
+        result=clean_factory(root)
+    elif args.cmd=="release-package":
+        result=build_release_package(root, root.parent / args.output)
     elif args.cmd=="search-to-evidence":
         result=convert_search_file(Path(args.input),root/"factory"/"config",root/args.output)
     elif args.cmd=="merge-evidence":

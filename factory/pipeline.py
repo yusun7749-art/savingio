@@ -136,10 +136,10 @@ def execute(topic: str, project_root: Path, publish: bool=False, overwrite: bool
     deployment_integrity = verify_deployment_integrity(project_root, repair=True)
     if not deployment_integrity["pass"]:
         raise RuntimeError(f"Deployment integrity failed after generation: {deployment_integrity['blockers']}")
-    release_manifest = build_release_manifest(project_root, changed, "2.043")
+    release_manifest = build_release_manifest(project_root, changed, "2.044")
 
     result = {
-        "factory_version":"2.043","topic":topic,"plan":plan,"research":research,
+        "factory_version":"2.044","topic":topic,"plan":plan,"research":research,
         "seo":seo,"qa":qa_report,"duplicate":duplicate_report,"related":related,
         "calculator_package":calculator_package,"calculator_cms":calculator_cms,
         "cms":cms_manifest,"staging":stage_manifest,"rewrite_attempts":attempts,

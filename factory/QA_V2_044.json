@@ -1,0 +1,19 @@
+{
+  "version": "2.044",
+  "title": "Factory Release Packaging Lock QA",
+  "status": "pass",
+  "checks": {
+    "python_compile": true,
+    "regression_tests": {
+      "pass": true,
+      "count": 155
+    },
+    "doctor": true,
+    "publisher_lock": true,
+    "wrong_publisher_ids": 0,
+    "deployment_integrity": true,
+    "release_zip_integrity": true,
+    "git_excluded": true,
+    "python_cache_excluded": true
+  }
+}

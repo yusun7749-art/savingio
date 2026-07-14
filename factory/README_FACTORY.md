@@ -222,3 +222,18 @@ python factory/run.py calculator-analytics
 - Pipeline 완료 후 Deployment Integrity가 실패하면 Release Manifest와 배포를 차단합니다.
 - 공식 Publisher ID는 `factory/config/adsense_identity.json` 단일 설정에서만 읽습니다.
 - 공식 값은 `pub-7605193583747751`이며 변경할 수 없습니다.
+
+## V2.044 Factory Release Packaging LOCK
+
+Release order is fixed as:
+
+Factory Cleaner → Publisher LOCK repair/verify → Doctor → Deployment Integrity → Version Freeze → Factory Manifest → optimized ZIP → ZIP integrity verification → Deployment Report.
+
+The working repository keeps `.git`, but release ZIP files must never contain `.git`, `__pycache__`, `.pytest_cache`, `.pyc`, `.pyo`, or temporary files.
+
+Commands:
+
+```bash
+python -m factory.run factory-clean
+python -m factory.run release-package
+```

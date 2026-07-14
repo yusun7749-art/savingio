@@ -16,8 +16,8 @@ def deployment_status(project_root: Path) -> dict:
         "doctor": integrity.get("doctor"),
         "integrity": integrity,
         "instruction": (
-            "V2.043 Deployment Integrity PASS. 선택 커밋 후 Cloudflare Pages 자동 배포."
+            "V2.044 Deployment Release Integrity PASS. 선택 커밋 후 Cloudflare Pages 자동 배포."
             if safe else
-            "V2.043 Deployment Integrity FAIL. Git push와 배포가 차단되었습니다."
+            "V2.044 Deployment Release Integrity FAIL. Git push와 배포가 차단되었습니다."
         ),
     }

@@ -33,7 +33,7 @@
     {
       "path": "factory/pipeline.py",
       "size": 7756,
-      "sha256": "485363a80d7f79a36a1cd3a8275658a735e6c09c316b08961635874dec936fbb"
+      "sha256": "c9831bd22cb78c061aadc99d5c1765dbe00c8ecf80dcdaca00ce30efc5180fdf"
     },
     {
       "path": "factory/publication.py",
@@ -47,8 +47,8 @@
     },
     {
       "path": "factory/deploy.py",
-      "size": 910,
-      "sha256": "34ce6b0c00d79dcf85ac7f120a2254b80f306d76d6c44a3dfe07a3f6290ef5cb"
+      "size": 926,
+      "sha256": "7e148edb3a5b07206f69c65a3f03527f131d5be479c7709fa4fafcfe230b25de"
     }
   ],
   "publisher_lock": {
@@ -57,14 +57,14 @@
     "repair": {
       "changed_count": 0,
       "changed": [],
-      "checked_at": "2026-07-14T15:24:24+00:00"
+      "checked_at": "2026-07-14T15:35:03+00:00"
     },
     "ads_txt": {
       "path": "ads.txt",
       "exists": true,
       "valid": true,
       "executed": true,
-      "checked_at": "2026-07-14T15:24:24+00:00"
+      "checked_at": "2026-07-14T15:35:03+00:00"
     },
     "index": {
       "pass": true,
@@ -73,7 +73,7 @@
       ],
       "changed": false,
       "executed": false,
-      "checked_at": "2026-07-14T15:24:24+00:00"
+      "checked_at": "2026-07-14T15:35:03+00:00"
     },
     "scan": {
       "pass": true,
@@ -93,6 +93,19 @@
           ]
         },
         {
+          "path": "VERSION.json",
+          "ids": [
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory_manifest.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
           "path": "factory/QA_V2_042.json",
           "ids": [
             "ca-pub-7605193583747751",
@@ -100,7 +113,19 @@
           ]
         },
         {
+          "path": "factory/QA_V2_043.json",
+          "ids": [
+            "pub-7605193583747751"
+          ]
+        },
+        {
           "path": "factory/README_FACTORY.md",
+          "ids": [
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/MASTER_ROADMAP_V2_044.json",
           "ids": [
             "pub-7605193583747751"
           ]
@@ -120,7 +145,28 @@
           ]
         },
         {
+          "path": "factory/output/deployment_gate_report.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/deployment_report_v2_044.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
           "path": "factory/tests/test_v2043_deployment_integrity.py",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/tests/test_v2044.py",
           "ids": [
             "ca-pub-7605193583747751",
             "pub-7605193583747751"
@@ -149,10 +195,10 @@
       ],
       "invalid_count": 0,
       "invalid": [],
-      "checked_at": "2026-07-14T15:24:25+00:00"
+      "checked_at": "2026-07-14T15:35:03+00:00"
     },
     "status": "pass",
-    "checked_at": "2026-07-14T15:24:25+00:00"
+    "checked_at": "2026-07-14T15:35:03+00:00"
   },
   "doctor": {
     "pass": true,
@@ -979,5 +1025,5 @@
     }
   },
   "official_publisher_id": "pub-7605193583747751",
-  "checked_at": "2026-07-14T15:24:25+00:00"
+  "checked_at": "2026-07-14T15:35:04+00:00"
 }

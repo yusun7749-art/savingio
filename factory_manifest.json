@@ -1,0 +1,4941 @@
+{
+  "project": "Savingio Factory",
+  "version": "2.044",
+  "publisher_id": "pub-7605193583747751",
+  "official_adsense_client": "ca-pub-7605193583747751",
+  "doctor": "PASS",
+  "publisher_lock": "PASS",
+  "deployment_integrity": "PASS",
+  "file_count": 983,
+  "excluded": [
+    ".DS_Store",
+    ".git",
+    ".mypy_cache",
+    ".pyc",
+    ".pyo",
+    ".pytest_cache",
+    ".ruff_cache",
+    ".temp",
+    ".tmp",
+    "Thumbs.db",
+    "__pycache__"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 101,
+      "sha256": "119399363b0e2223df2eb6c8bc4f3e1ca956861a45a796295f9288f7d1397657"
+    },
+    {
+      "path": "1-#Uc2e0#Uaddc#Uae0010#Uac1c-#Ud655#Uc778.bat",
+      "size": 94,
+      "sha256": "c5be92ee25aea97532fce8dbc9cd248e29bc931fbabdbecad79987f8e7a9bec4"
+    },
+    {
+      "path": "1-#Uc5c5#Ub370#Uc774#Ud2b8-#Uc801#Uc6a9.bat",
+      "size": 95,
+      "sha256": "73b4cd9bcd7bda0d9a41ede8d7d1b7fe1ad338b2e65aeeb1156839132ed8ea8a"
+    },
+    {
+      "path": "1-#Uc601#Ubb38#Ucf58#Ud150#Uce20-#Ud55c#Uad6d#Uc5b4#Uc218#Uc815.bat",
+      "size": 100,
+      "sha256": "59a12c991eceabb10c2e61b7d87e9eba193d1df4c0b52683816572f59563826b"
+    },
+    {
+      "path": "1-#Ucd5c#Uc885#Ubaa9#Ub85d#Ubcf5#Uad6c-#Uc2e4#Ud589.bat",
+      "size": 97,
+      "sha256": "9a67389ef260b7c241d413ed5391016373674f70104cbcb2173de1f3518163f5"
+    },
+    {
+      "path": "1-#Ud55c#Uad6d#Uc5b4#Uac80#Uc0c9#Ud328#Uce58-#Uc2e4#Ud589.bat",
+      "size": 95,
+      "sha256": "f4011cae7f04eab4f16f42fc0a969615f61bf8ce276f031d029cbca61a33db54"
+    },
+    {
+      "path": "1-Part007-#Uc801#Uc6a9.bat",
+      "size": 89,
+      "sha256": "7cdd89e8edbd965a8b0cc39352a9e809b62a035c4e448112d43da611a8b0743e"
+    },
+    {
+      "path": "404.html",
+      "size": 3642,
+      "sha256": "5822af824e4b3f6b63c25b0604a6b35c029a0381215d86eb934f34e321b7bad2"
+    },
+    {
+      "path": "ADSENSE_FINAL_QA.txt",
+      "size": 774,
+      "sha256": "e2da9d82163bbbcbc251648eb9ae0b25c789d8fb2e24bab163496c20d35498a6"
+    },
+    {
+      "path": "APPLY-FINAL-INDEX-FIX.ps1",
+      "size": 9967,
+      "sha256": "a62f6a236006da333b1c8fa2fe4bf219fc3c08da3be91302cfaab2f7aee711aa"
+    },
+    {
+      "path": "APPLY-KOREAN-CONTENT-FIX.ps1",
+      "size": 10052,
+      "sha256": "f814b96a9aff8d68a64a7373ac292a0db70442a426fd50da7f7c422d9168bbc7"
+    },
+    {
+      "path": "APPLY-KOREAN-SEARCH.ps1",
+      "size": 12530,
+      "sha256": "ba7d4349f0536cee8e605b67f8279e732e7552591b15fba43914c46fa7b858d4"
+    },
+    {
+      "path": "APPLY-PART007.ps1",
+      "size": 1588,
+      "sha256": "b21a2e1831a69125f959f30bf912a4374089b03d00a1409ce9038d79e10615aa"
+    },
+    {
+      "path": "APPLY-SAVINGIO-UPDATE.ps1",
+      "size": 4738,
+      "sha256": "7431abc1d47e41064b7a7b199f933ba703a2fa66fbf2f5ef6d91d8b62e76327f"
+    },
+    {
+      "path": "ARTICLE-AUTOMATION-CONTRACT-V2.1.md",
+      "size": 951,
+      "sha256": "ee91775b67e05fd8688a798c82bc0a44918936d2b2490580b79c72d42a8669cd"
+    },
+    {
+      "path": "ARTICLE-DENSITY-QA.json",
+      "size": 148971,
+      "sha256": "ac336848332f79ce6f17e747c3efb8069d6e18132e700d42d2afaa8971428ad4"
+    },
+    {
+      "path": "ARTICLE-DNA-V2.1-SPEC.md",
+      "size": 2236,
+      "sha256": "a20ae76aaadca12e9e64f0f833c6f686dfdadacb2f71e6ccef3dd46cfc7e0de5"
+    },
+    {
+      "path": "ARTICLE-DNA-V2.1-TEST.json",
+      "size": 229,
+      "sha256": "b7d729e444717eaa9afda106e09566851134b3d7a15ebf7a426b8e5c2d68c811"
+    },
+    {
+      "path": "ARTICLE-DNA-V2.2.md",
+      "size": 1771,
+      "sha256": "65c77ec468ffc1709e33df2ffa3452d8ddcf6c14a70433b044d3285021893193"
+    },
+    {
+      "path": "ARTICLE-ENGINE-TYPE-DNA.json",
+      "size": 2302,
+      "sha256": "ff583969afe57c2c8dda3c7f3bf769b91588067b84938b3da432506481354cdc"
+    },
+    {
+      "path": "ARTICLE-ENGINE-V2-APPROVAL-CHECKLIST.md",
+      "size": 1739,
+      "sha256": "41cd16d3f09a92ed01d2c67c96a85530ebd7b83e09850f0a6475a494b4f3fee2"
+    },
+    {
+      "path": "ARTICLE-ENGINE-V2-BUILD-MANIFEST.json",
+      "size": 1470,
+      "sha256": "2889d04c6a95351b7c88b55a58bb4f8653c0e5e218886135045f94469089a3b6"
+    },
+    {
+      "path": "ARTICLE-ENGINE-V2-QA-SUMMARY.md",
+      "size": 612,
+      "sha256": "ac0df19dd36c39efdec67db1cd74ea2985a462cd1e289fad880eb351f1c57c13"
+    },
+    {
+      "path": "ARTICLE-ENGINE-V2-QA.json",
+      "size": 1466,
+      "sha256": "00138962b29ac0291848de69c5ada6edc2095e3d2db2caa86b5a08b0627447e8"
+    },
+    {
+      "path": "ARTICLE-ENGINE-V2.md",
+      "size": 3706,
+      "sha256": "91ac117946d3ba90453b15e96159baf1fd7cb038504067136525d6616fac1dcf"
+    },
+    {
+      "path": "ARTICLE-ENGINE.md",
+      "size": 487,
+      "sha256": "e603658a6bace1a39a1d66beb621eeabe2aebbf4e789fbfa834fb18153e7ba08"
+    },
+    {
+      "path": "ARTICLE-LAYOUT-V3-QA.json",
+      "size": 772,
+      "sha256": "a17abf793658e3e7c6bfb9118b2dc6f0b963f9dcaf6e33c0427de91e259ba0bc"
+    },
+    {
+      "path": "ARTICLE-QA-CHECKLIST-V3.json",
+      "size": 1796,
+      "sha256": "da3e795b27c009188945fc2839023c68a4fead619fc2d4ad03645901ea880417"
+    },
+    {
+      "path": "ARTICLE-TYPES-V3.json",
+      "size": 1954,
+      "sha256": "534b12648cdb63b5bdb8b69c6dd9be9ea6260fe03f629c529cd711dcb3d87676"
+    },
+    {
+      "path": "BRAIN-OS-V6-QA.json",
+      "size": 1073,
+      "sha256": "3609622744a460d1b92a3e3f653a967ce12d868c38299ca8546db88c0834ddac"
+    },
+    {
+      "path": "CALCULATOR-V2-RESULT.txt",
+      "size": 334,
+      "sha256": "e8abdb1a78a657e252a0530a617f586b6be7f00138afc34cd0dfeb3d1cff97e9"
+    },
+    {
+      "path": "CALCULATOR-V3-RESULT.txt",
+      "size": 392,
+      "sha256": "801cebbd284b019975d23d7f3e9bf9fbbd8f04dc6c9819a9a8d7e3f3a3d73772"
+    },
+    {
+      "path": "CALCULATOR_ENGINE_README.md",
+      "size": 423,
+      "sha256": "e125e8c76f3393e48f5d42e4afe799d61ce0ea4934553649748636e563e0be04"
+    },
+    {
+      "path": "CHECK-NEW-ARTICLES.ps1",
+      "size": 698,
+      "sha256": "3ef2cccb8daa868972f93bd538ffaad7498aaa6e6095178eb19b7b87df15de20"
+    },
+    {
+      "path": "CSS-FIX-README.txt",
+      "size": 268,
+      "sha256": "6da024d0cb7c352f9deabdb6a4ab4cd2d41761269c04a7d5e693b166f6d50567"
+    },
+    {
+      "path": "FACTORY-QUICKSTART.md",
+      "size": 492,
+      "sha256": "9cd1e0e4edc5abc9be120842f9ce1dd089892454a05703c4c6ce279dd7a302e6"
+    },
+    {
+      "path": "FINAL-AUDIT-REPORT.txt",
+      "size": 261,
+      "sha256": "ca424c2d99ebdd9ac4a5e525b16b7cb1bfc051a8e73655f2725f1e66f353bd6f"
+    },
+    {
+      "path": "FINAL-QA-REPORT.json",
+      "size": 970,
+      "sha256": "c5dbd20f61f600e32dadeceaeaea3718efdb27cf06862334c43c2b6dda2cda5a"
+    },
+    {
+      "path": "FINAL-QA-REPORT.txt",
+      "size": 517,
+      "sha256": "e24bf8dc7008e89d1a8afc6a9b632c63baf1737d5d5480a0d036f594322ab518"
+    },
+    {
+      "path": "FOUNDATION-SCULPTING-SPRINT02-MANIFEST.txt",
+      "size": 791,
+      "sha256": "5aa4a3ad2516126c6ba03dce9b4b159f2dd339c4b28473042170e0a4604c3164"
+    },
+    {
+      "path": "FOUNDATION-SCULPTING-SPRINT03-MANIFEST.txt",
+      "size": 288,
+      "sha256": "4c190296b0fa8a49252bd77f453f16462a633e75afbf035e09d35c8a48fdb84e"
+    },
+    {
+      "path": "LIVING-COST-ARTICLE-ROLLout.md",
+      "size": 402,
+      "sha256": "b9c2dd4c4f549400c81fbacde76f50a0d2a4fed85e5cccb3a999ab8987338b1c"
+    },
+    {
+      "path": "MASTER-ARTICLE-DNA-V3.md",
+      "size": 1441,
+      "sha256": "0404d4e17e597da397d1b6273b8a9ab601582266e3fc18ee1b184b8d4039670d"
+    },
+    {
+      "path": "MASTER-BUILD-v3-QA.json",
+      "size": 362,
+      "sha256": "72952c97f3dec28486b812f681cde7628a42ebeb624019d50729e025db526614"
+    },
+    {
+      "path": "MASTER_BUILD_QA.json",
+      "size": 1896,
+      "sha256": "636e277866078b5b9e50f4c26255b2187469bbad75c84e2eda40ee9b48449492"
+    },
+    {
+      "path": "NAVIGATION-BRAIN-QA.json",
+      "size": 578,
+      "sha256": "92af6e9d534563061f1f53c6162531f5b00bc02235c72de35d7f0c535ef1237c"
+    },
+    {
+      "path": "NAVIGATION-ENGINE-V3-REPORT.json",
+      "size": 194,
+      "sha256": "07eae40abef092427d5f78d400033a8c1b526b71e4ea932cae1d81f98cc8bdbb"
+    },
+    {
+      "path": "NAVIGATION-ENGINE-V4-QA.json",
+      "size": 247,
+      "sha256": "f197c4bc248ac290cbedd52e971cb48ea4abe5a4299879eb2c118743f5dcc2e7"
+    },
+    {
+      "path": "NAVIGATION-ENGINE.md",
+      "size": 390,
+      "sha256": "ff0404d1a9646ceda468d2b587323ea68acc1d0d2a9b82231324bd9429187689"
+    },
+    {
+      "path": "PART010-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 486,
+      "sha256": "3901de76f5b7baeb81fd0da08fba9ba93eb8416acb0badd844ee464b915c7408"
+    },
+    {
+      "path": "PART011-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 1921,
+      "sha256": "bdb013bc28c514f6008f39ea3aeac533a147950db032d5bf3a2d9da12a167059"
+    },
+    {
+      "path": "PART012-README.txt",
+      "size": 633,
+      "sha256": "2059dba933f9fa7119afaa0ed3d4fd604bbe51f3531074ad9e8fc6e402d68e32"
+    },
+    {
+      "path": "PART012-RESULT.txt",
+      "size": 287,
+      "sha256": "26b27845c2b37d24c972f8363169523d76dc1146cd3af7cbce1be29a426e2273"
+    },
+    {
+      "path": "PART014-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 227,
+      "sha256": "dc46753015669186a38b5a015f83041b45721abb16d1363de17285f69753832b"
+    },
+    {
+      "path": "PART015-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 469,
+      "sha256": "7261a8fe27785d7cd9cb9b91cd16fa679e6bf9e6175109e10d50ae5937b49f0f"
+    },
+    {
+      "path": "PART016-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 599,
+      "sha256": "fd42d4f622384d6eb63ac6263fbca2f916237b2ff843f010b8183e20efe46be7"
+    },
+    {
+      "path": "PART017-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 1694,
+      "sha256": "0f59c3a496e002bc0495fa53d5d22b3a3fd2d5861310ebc3059108ebdda8951e"
+    },
+    {
+      "path": "PART018-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 706,
+      "sha256": "0afe6b05250b72d2062aee5ab9afd9aabd6d60d5d6996d2b132053aabd0adc00"
+    },
+    {
+      "path": "PART020-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 246,
+      "sha256": "b2c28cae54aa4c976a776d21e4ff069a8f990279a5f49956f69b9ede6cbb5424"
+    },
+    {
+      "path": "PART021-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 357,
+      "sha256": "c9dbfdc5919c4c26e0f90047a140a1f908c4cf3758d43d380b7b288f3f588710"
+    },
+    {
+      "path": "PART022-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 539,
+      "sha256": "0e379c6c653d606ad5a220fd8ed57722c199dd56f501319f357cf48a67c6337a"
+    },
+    {
+      "path": "PART023-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 547,
+      "sha256": "6ac52fe885f9fcbb7c4732953dd3f2d994bd0ae23ed961f8bb2c705e82d4917a"
+    },
+    {
+      "path": "PART024-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 1265,
+      "sha256": "ef1e441a0f0d1f9db35ff6cfe164f28a05762080bce06f60fc32a77fcf602a48"
+    },
+    {
+      "path": "PART026-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 526,
+      "sha256": "2f0667ba95c1eb0f8b213665d89b4e80fc9528073825cd0e4665b6c95734854c"
+    },
+    {
+      "path": "PART027-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 426,
+      "sha256": "35a5004917b13c8bb0509ca0659344a9ba86598abadc582b4beca6263832fdde"
+    },
+    {
+      "path": "PART029-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 388,
+      "sha256": "8d6754df8ee0280cd03ab769940b0d97a3cec9e934b136561194b33e570c011c"
+    },
+    {
+      "path": "PART033-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 503,
+      "sha256": "4477d71e689fd023b744e55d0923529b0400b65b1cf7e0eb41bdebaa4f74bac1"
+    },
+    {
+      "path": "PART034-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 564,
+      "sha256": "235d7b1f9b854c3beb082cac9ba359f159150bf78976dd686b5f59fb50f4d4f0"
+    },
+    {
+      "path": "PART035-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 565,
+      "sha256": "d03eb5f2d89aa81cc53fc951cb0781c8d49b8c8f0d1f51501c8e3564fdd581d4"
+    },
+    {
+      "path": "PART036-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 764,
+      "sha256": "fea0a2d3618a6c0b48c5b5292b28dd486edaca01cf494d492ab5ef0c9c232068"
+    },
+    {
+      "path": "PART037-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 691,
+      "sha256": "932aa7dd629db2a2dd5efa383864f0b8d5e3f1fb52eec7fa566930d512b8275e"
+    },
+    {
+      "path": "PART038-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 7821,
+      "sha256": "014178b70cb3df745acfd46fe2f7ec6455e4aab8efaccebe4fd0ce2ac9c03de7"
+    },
+    {
+      "path": "PART040-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 517,
+      "sha256": "9b7500a4356f518d5a932bf15718df0eb88cb449c8a986c1d700e7d2b656350e"
+    },
+    {
+      "path": "PART042-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 401,
+      "sha256": "6fe965bd1ac5422847fd262a534bce7979d5541e838fa2114102a2d47abb5ad2"
+    },
+    {
+      "path": "PART043-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 509,
+      "sha256": "759a83c86ed2bac0763fb0ded64a520371a76dd1c08f92967007387a5e49d42f"
+    },
+    {
+      "path": "PART044-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 481,
+      "sha256": "0bf47bfc8b2f507e52221520126aca31f0c29ac26b9ce334a15e954e377a88d3"
+    },
+    {
+      "path": "PART045-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 666,
+      "sha256": "8057857c461d9841a72ea319460bf6383cd6de2ee55c7bae82efb92604959b0a"
+    },
+    {
+      "path": "PART046-#Uac80#Uc99d#Uacb0#Uacfc.txt",
+      "size": 807,
+      "sha256": "a8e231ef1a8169d9000ca042172e057a1cb65c36f6fd094711ae473b8a595cb4"
+    },
+    {
+      "path": "PART053-FINAL-SEO-REPORT.txt",
+      "size": 318,
+      "sha256": "ca03ebe0f01d3d631f3bee3c459ef78c319a0e83195ca37617fd9136b1d83647"
+    },
+    {
+      "path": "PART055-FINAL-AUDIT.txt",
+      "size": 532,
+      "sha256": "dc010c24eba6a58a8b0f25752bc0c75ba2fe424a2dec4a0ccd76605b398dd079"
+    },
+    {
+      "path": "PART056-FINAL-AUDIT.txt",
+      "size": 1620,
+      "sha256": "4f808858c568b0d682e1426d528c7244664a02dec25eee422c8baae5c2286473"
+    },
+    {
+      "path": "PART057-CONTACT-FORM.txt",
+      "size": 481,
+      "sha256": "12eba9b6e4e06d94c82c7e1e0ebc9db89b1e63cadfeefb6a7b773b23441c97d7"
+    },
+    {
+      "path": "PART063-POLICY-AUDIT.txt",
+      "size": 314,
+      "sha256": "94893118a1e638499f74b84cd6d4b55b7ca7c52fa192dc9e46f7025d866b7ab9"
+    },
+    {
+      "path": "PART064-SEO-META-AUDIT.txt",
+      "size": 531,
+      "sha256": "e169482a1b4f005aa3e4ccff02bffcd7cfc7a273e652b4e1effb1d913ea0662a"
+    },
+    {
+      "path": "PART065-ACCESSIBILITY-AUDIT.txt",
+      "size": 326,
+      "sha256": "c85db88dbdab4b7fc0dada4077457209179ff97d660b0dbe35e8b96d5b7d2d7a"
+    },
+    {
+      "path": "PART066-RESULT.txt",
+      "size": 195,
+      "sha256": "f3d1c3c2f0546d8ed634fdfb0a2747d4989440b48b9302ebe481731515fdcec2"
+    },
+    {
+      "path": "PART086-ELECTRICITY-KNOWLEDGE-GRAPH-QA.json",
+      "size": 336,
+      "sha256": "f203e5b737a0736dfc5647d66c68902a3a79ce034a9c692c60f3582e5395ab1d"
+    },
+    {
+      "path": "PART088-QA.json",
+      "size": 480,
+      "sha256": "9ae785a5ba5fd56020f881cfb99f42173b6bbb578c7c2623b7c36ed75a2dfd0f"
+    },
+    {
+      "path": "PART089-LIVING-COST-QA.json",
+      "size": 465,
+      "sha256": "b3e3b667ea81eb30546dc392bad7bdf845e7e81567b6ebf35d2cb090ae700031"
+    },
+    {
+      "path": "PART090-DUPLICATE-EXPLORER-QA.json",
+      "size": 2113,
+      "sha256": "8522eacca44d5f99ec921348f24975db046d1fb1e97e4177d6c3bf5bc04819b5"
+    },
+    {
+      "path": "PART091-AUDIT-SUMMARY.json",
+      "size": 201,
+      "sha256": "16c0d52dcc0a06edc97b404feb92cf52f3df4e4c7cabe4a6958765bf2e2f479e"
+    },
+    {
+      "path": "PART091-REFACTOR-QA.json",
+      "size": 2410,
+      "sha256": "8860b73f32e6c5a69b67f0287a22955e87b70643e06da26e473195301c9e19a3"
+    },
+    {
+      "path": "PART093-MASTER-ARTICLE-QA.json",
+      "size": 916,
+      "sha256": "6393f40f6a547a4e14fe5668a9381f2f3cae40dab6f0b112b60cd5a019892c79"
+    },
+    {
+      "path": "PART094-NAVIGATION-SCROLL-QA.json",
+      "size": 477,
+      "sha256": "331e5a929126663a372039cc58126ba2ff7e92209183dcc5e80e2c05e3bac35c"
+    },
+    {
+      "path": "PUBLISHING-ENGINE-V3.md",
+      "size": 629,
+      "sha256": "afc6e0e565aa10ca1cd7d057b7fd7d77730b05c37ef555719f95cbc1c5013cc6"
+    },
+    {
+      "path": "QA-DENSITY-CHECKLIST.md",
+      "size": 1543,
+      "sha256": "c1edb68488dd3560a7eaab07f0dad744895d3702ec4b95ab3c94d8cb851bffa7"
+    },
+    {
+      "path": "QA-MASTER-BUILD-v6.json",
+      "size": 37623,
+      "sha256": "f55f8e7cd949a22b5f1532d8604d86b8d1c3b91d4b77790aa21c09bdf770366e"
+    },
+    {
+      "path": "QA-REDIRECT-CANONICAL-FIX.txt",
+      "size": 1880,
+      "sha256": "ef8cc2194f9c639c7d7370ce46956d0e9599c47604025cbb204af3f2abed88f2"
+    },
+    {
+      "path": "QA-REDIRECT-CANONICAL-VALIDATION.json",
+      "size": 69,
+      "sha256": "64c9bff6dd1261f5562182afe66f69d7f6138631ef14bee77b87a446dab544ad"
+    },
+    {
+      "path": "QA-SPRINT2-FIX013.json",
+      "size": 341,
+      "sha256": "1116a698e5eb794d99809de5046c105f04fabcfe1f0fdae9f03f341effbf062a"
+    },
+    {
+      "path": "QA-SPRINT2-FIX014-VALIDATION.json",
+      "size": 189,
+      "sha256": "c11925cfab09bc02fe274feaf9d4cc54cfa4eecc163a4b1e45861106b5ddf056"
+    },
+    {
+      "path": "QA-SPRINT2-FIX014.json",
+      "size": 9502,
+      "sha256": "dd3db9f8913f77aea62f3bf2c179e12cb80e46d76b09c4fecf1c82b01878928b"
+    },
+    {
+      "path": "README-#Uba3c#Uc800#Uc77d#Uae30.txt",
+      "size": 445,
+      "sha256": "4ee3e6fdd673fa8cb136affb3616540761540db1b0bc63bdf6e6715d4f818a13"
+    },
+    {
+      "path": "README.md",
+      "size": 10,
+      "sha256": "9caa52bf6643903adf145ba37cf3e49af787cc41611ac37b31a052158f26536b"
+    },
+    {
+      "path": "README.txt",
+      "size": 217,
+      "sha256": "702b6d97bb34bcc86fdea237a69734f0b627d12d7ffb759c5a8d1625917e378a"
+    },
+    {
+      "path": "SAVINGIO-BRAIN-OS-V6.md",
+      "size": 850,
+      "sha256": "ee2232940ceca359982f56eb23a0fe9615ae2197a338497fbb4e69076dd23a51"
+    },
+    {
+      "path": "SAVINGIO-ELECTRICITY-TOPIC-DNA.md",
+      "size": 503,
+      "sha256": "2cbdca2e05fa10b4f06fe7b0b099236ec4a18977e24b3f6dcdba5603d35f6649"
+    },
+    {
+      "path": "SAVINGIO-ENGINE-DNA.md",
+      "size": 2224,
+      "sha256": "ea0cb4bef96e65ddc119b238003f9afe273e1c38a2f6bdcc42c64052e9fd91d9"
+    },
+    {
+      "path": "SAVINGIO-FINAL-AUDIT.txt",
+      "size": 440,
+      "sha256": "f2edbf1816ff0b64a4d625f00f3faed1fb6bfeecc099eb398b18176b27769b94"
+    },
+    {
+      "path": "SAVINGIO-FINAL-CHECK.txt",
+      "size": 626,
+      "sha256": "7e9e8e5401349a434d189a327585ea985ae3327458a5181d34c17100fe5fdccc"
+    },
+    {
+      "path": "SAVINGIO-FINAL-QA.json",
+      "size": 690,
+      "sha256": "31831fe27603561605ffdfcc19c2bc469e2602405a862bb7c7de2c620184182c"
+    },
+    {
+      "path": "SAVINGIO-FINAL-QA.txt",
+      "size": 402,
+      "sha256": "7079d9bc6d46a916247601292c72d66b3eb1eb8aec95cf01f429443f351f0d72"
+    },
+    {
+      "path": "SAVINGIO-MASTER-QA.txt",
+      "size": 582,
+      "sha256": "12a03ce516c5e4080ea3b89b374bd75fe97074660f851c74cc823511d2a97d2f"
+    },
+    {
+      "path": "SITE-FLOW-CURIOSITY-DNA.json",
+      "size": 1561,
+      "sha256": "ff821052faa52950fb35d38ea8d81b8c1ee2c97846dd5727944705da2dfec686"
+    },
+    {
+      "path": "SPRINT04-VERIFICATION.md",
+      "size": 1115,
+      "sha256": "0574253687bdade5d43574327c2689a9239fdda6e730d3d9f3efb1c54353191f"
+    },
+    {
+      "path": "SPRINT2-FIX001-REPORT.json",
+      "size": 117,
+      "sha256": "a6b8ed381a240ba655f92b9e1f037c5a9c740c7b5e97b23fc697b817134fa549"
+    },
+    {
+      "path": "SPRINT2-FIX002-REPORT.txt",
+      "size": 189,
+      "sha256": "ee0a333ff564a4313e4d583f0e6fc11d7c689fdd8dce7c5262bc2b09e6b85665"
+    },
+    {
+      "path": "SPRINT2-FIX003-RESULT.txt",
+      "size": 174,
+      "sha256": "72f55f70694e02b6d73d4d561b0d6311d7ffbdfe87f4ad6a44604cef673aa7ca"
+    },
+    {
+      "path": "SPRINT2-FIX011-REPORT.json",
+      "size": 6577,
+      "sha256": "0421669c26223b758cccf1820b3215bb1e730fbd9b61ff698bc06a16b2c1d745"
+    },
+    {
+      "path": "VERIFY-SAVINGIO.ps1",
+      "size": 1357,
+      "sha256": "fac6cd42816d0be8607c837aa8c37bcaa91ed02237e8af067b7254dd098536c5"
+    },
+    {
+      "path": "VERSION.json",
+      "size": 227,
+      "sha256": "ef13cc6fb5667a5c5382a034ba692e7913453073f1154a6f35ac26ead4a6d5fa"
+    },
+    {
+      "path": "_headers",
+      "size": 903,
+      "sha256": "4991d1bd5967bea285dc817e271b3bced9059a63d1f97edd7468721ce015530f"
+    },
+    {
+      "path": "_redirects",
+      "size": 4061,
+      "sha256": "91395c67b45406a17284874384a4132c2e9e2eb4644c666e1adc21fd213c0c1f"
+    },
+    {
+      "path": "about.html",
+      "size": 6473,
+      "sha256": "8529677c0e7d5c6f0f43830c18ad6a736c7c66384c49fa3e0a7c1bfabd67ea3f"
+    },
+    {
+      "path": "ads.txt",
+      "size": 58,
+      "sha256": "161feb2efb7ff2e90c47e6724bfd8dd822e16f1e1e26a9ba855ef840722cdd06"
+    },
+    {
+      "path": "app.js",
+      "size": 811,
+      "sha256": "610f2770f3d4cba31abd30bc272be044f9a5fd345514d6b3619119d985771f9e"
+    },
+    {
+      "path": "articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
+      "size": 6804,
+      "sha256": "e3b29f560056e03e995ff81804fa4c31c1f5d489c6184b0dc2380ac03b81c0b8"
+    },
+    {
+      "path": "articles/ai-side-hustles-beginner.html",
+      "size": 24422,
+      "sha256": "81c68caa4c78f51dd5bdd8d28c3f7faa0e599d23dcd0bc773f3ec15048fc6aa3"
+    },
+    {
+      "path": "articles/air-conditioner-electricity-saving.html",
+      "size": 25143,
+      "sha256": "87190b9d2bfc80f0d3d980be05b7d63410103cfa238e427ab0bd0e75b85bfd9e"
+    },
+    {
+      "path": "articles/aircon-dry-mode-electricity.html",
+      "size": 25334,
+      "sha256": "c5e4f8a4b57df1a2fea5dff752b9bfc4f189b1e078952a443f203b2ffe4c924e"
+    },
+    {
+      "path": "articles/aircon-filter-cleaning-savings.html",
+      "size": 25416,
+      "sha256": "914449412a029f52411024460d27aa7f24b4ef196db8c4a820e6f534949f1cc5"
+    },
+    {
+      "path": "articles/aircon-optimal-temperature-savings.html",
+      "size": 25689,
+      "sha256": "95a2f10d33a4f26010ad8f7254bf0f4d0791acdb48ee1920533c5cdbff073105"
+    },
+    {
+      "path": "articles/apartment-management-fee-summer.html",
+      "size": 23752,
+      "sha256": "ba9e507f669fe261a905d90ba053d67861e94267524cdcfe5419b3ae5ecf5ded"
+    },
+    {
+      "path": "articles/automatic-payment-saving.html",
+      "size": 24992,
+      "sha256": "3bfe54710bbcb176f91c6907f6b4610d90e6dba58d0c8ec7875c70a319868f5d"
+    },
+    {
+      "path": "articles/bank-account-budgeting.html",
+      "size": 24178,
+      "sha256": "dd1a776779b4161b1f919b7130f75dfc80f0b8c8d4f6e096c35ab203d2a4141c"
+    },
+    {
+      "path": "articles/bank-fee-saving.html",
+      "size": 23696,
+      "sha256": "08e2e4e7258d31b4ecbe8df009d1d7485ba297a758054114f66f2f1aa2f39ec6"
+    },
+    {
+      "path": "articles/bank-fees-to-avoid.html",
+      "size": 24684,
+      "sha256": "057ac0ef8d32e107e54b3fff0b407ad6c6a8cd4049e3ee2e806b81b9bc59724f"
+    },
+    {
+      "path": "articles/basic-livelihood-discounts.html",
+      "size": 24573,
+      "sha256": "ac8a23c5231ab3b3fc2a138ac12bb8f8f9847124901f45f18f48bebd4b48b481"
+    },
+    {
+      "path": "articles/basic-pension-application-guide.html",
+      "size": 20867,
+      "sha256": "8cb8801b46da8667e29ff31b843b76ccf4a247d2493051763880968c5702c40a"
+    },
+    {
+      "path": "articles/beginner-ai-side-hustles.html",
+      "size": 2698,
+      "sha256": "fa79b9649f783fdc77af79370e8c1277cea3ac0d30d6961d7f695b5f0487e208"
+    },
+    {
+      "path": "articles/beginner-budget-plan.html",
+      "size": 24945,
+      "sha256": "c04ad2d0bf9d9f2fec749ac18c0942854fb87958a67c1028cf65f9129fcc4743"
+    },
+    {
+      "path": "articles/beginner-money-management.html",
+      "size": 23806,
+      "sha256": "9f50e5ac0c000350b046e340942519aee04993efab18a3b8e3bd48c61da47381"
+    },
+    {
+      "path": "articles/benefit-scam-warning-2026.html",
+      "size": 25329,
+      "sha256": "31e2de8df96248bef05fcb1c3ce8a86c888c32319ff9e2e0645fdd5c635ff03a"
+    },
+    {
+      "path": "articles/budget-app-guide.html",
+      "size": 26229,
+      "sha256": "47f537aa5955142447805faa88ea68b757560e1b3a58877fbb22074c38f60010"
+    },
+    {
+      "path": "articles/building-land-property-tax.html",
+      "size": 24425,
+      "sha256": "987a8e502d7a62829ce86f6b58c92ff46291931950cec0e7442bdbcbe14525d7"
+    },
+    {
+      "path": "articles/business-card-hometax-registration.html",
+      "size": 24556,
+      "sha256": "f47cbe8a35d66314b0e06e11544f74478b61ad7e23650b2e350f421c6e50bc56"
+    },
+    {
+      "path": "articles/business-closure-vat-order.html",
+      "size": 24946,
+      "sha256": "f38c04ac29c9b69db868691c9b20b743cbe5d19cf427044db35ed1ff6deb6a84"
+    },
+    {
+      "path": "articles/business-phone-expense-deduction.html",
+      "size": 24414,
+      "sha256": "7c7ae9bc162d51b03f049ea5f18c5982094a174dae7f02cc182abe9780649206"
+    },
+    {
+      "path": "articles/business-vehicle-expense-basics.html",
+      "size": 24570,
+      "sha256": "abe250e943cd27048deebf71005a1670b8e8b09744e1e8a1fc97555e207e0b2d"
+    },
+    {
+      "path": "articles/cancel-unused-subscriptions.html",
+      "size": 24458,
+      "sha256": "3b69c76fe9254a9aa967c50236ba579aad7a9da528572761ce8282525103755a"
+    },
+    {
+      "path": "articles/car-aircon-fuel-saving.html",
+      "size": 24154,
+      "sha256": "20f70c1bff3931196c88d0f64144e42988db05b9775a69bb015924ec9fc637af"
+    },
+    {
+      "path": "articles/car-insurance-child-discount.html",
+      "size": 24195,
+      "sha256": "694ce5a2abccb49ba4d24732d9aa561a03bdd296855719750ec9e9b3af8c990e"
+    },
+    {
+      "path": "articles/car-insurance-mileage-refund.html",
+      "size": 24557,
+      "sha256": "2549822971ed3695a151e5d7e7124bfa8f8821f511c8b60573cf34ce39967870"
+    },
+    {
+      "path": "articles/car-insurance-overpayment-refund.html",
+      "size": 21242,
+      "sha256": "a10d5b7a4f702f650c87c52777346efc658965e0f5056f63d8dfa5a2b40cccef"
+    },
+    {
+      "path": "articles/car-tax-annual-payment.html",
+      "size": 24043,
+      "sha256": "6acf31a4c6dc02c980ce551d72bdbf413e35192dfcfbf3a150f5526aa62cdcf5"
+    },
+    {
+      "path": "articles/car-tax-check-payment-guide.html",
+      "size": 20766,
+      "sha256": "67bc0812af11eecaa9474175600f1e662b90a0665d5e31b4571d2c68dfbb5fba"
+    },
+    {
+      "path": "articles/card-points-cashback-guide.html",
+      "size": 24132,
+      "sha256": "a97626644aaed0f8f5365644f3264167c47345b8e14692684b40c257b918d459"
+    },
+    {
+      "path": "articles/cash-advance-vs-card-loan.html",
+      "size": 24420,
+      "sha256": "d2adba04438cd1f5e1655b925cacded88242b9919fa50ccb4ac6a0feb2ea5cc5"
+    },
+    {
+      "path": "articles/cash-out-card-points.html",
+      "size": 24061,
+      "sha256": "b96989933191d12f1ca87b385effb45a229a194e89b8e7cedb76aab236df58a3"
+    },
+    {
+      "path": "articles/cashback-apps-guide.html",
+      "size": 24149,
+      "sha256": "8283bc950a645f247ed14f19a5cfe80e1debc6ef8065b6ff574e27fb03ea279f"
+    },
+    {
+      "path": "articles/check-hidden-refunds.html",
+      "size": 24995,
+      "sha256": "efeef06bee866b8c8575913630be24a1b5a407ce15af4ce5bc0293eb23d60e67"
+    },
+    {
+      "path": "articles/child-allowance-guide.html",
+      "size": 20319,
+      "sha256": "93ee3cc10464f1fb0fb2c0dbb6a1002a76fa8f77e1ef10674035d1bc3952de71"
+    },
+    {
+      "path": "articles/child-tax-credit-status-check.html",
+      "size": 21957,
+      "sha256": "bcf25a4c09a04b36fd1e1993efdd80ad79050ff37ae64acdbe9dd8f75197a52c"
+    },
+    {
+      "path": "articles/childcare-service-government-support.html",
+      "size": 24570,
+      "sha256": "7464e400289f36e3169894fc92abd68336774d214a511f57aef8f342282e0e77"
+    },
+    {
+      "path": "articles/cma-account-types-risk.html",
+      "size": 24073,
+      "sha256": "6111c65e0c4c0cb528c47d5387f625d98e867ae3e0072bc48a84f4e8fb3c0816"
+    },
+    {
+      "path": "articles/credit-card-billing-cycle-guide.html",
+      "size": 24239,
+      "sha256": "1015901e07e41ab23cfd5836a838b7f2b30d89611f5c5c524436db063ca2fd79"
+    },
+    {
+      "path": "articles/credit-score-habits.html",
+      "size": 24053,
+      "sha256": "951f5b50a724c1f720e47e9fd7de4f0688025c53ddc6f923da02d2794c928fa6"
+    },
+    {
+      "path": "articles/credit-score-management.html",
+      "size": 23345,
+      "sha256": "279f0821693963b5074440b964e8aa7c821dd3e716fa1f98d059ecdfa04e2a83"
+    },
+    {
+      "path": "articles/credit-score-tips.html",
+      "size": 2660,
+      "sha256": "59d3b52f92af6186b3ee87a16ded6b3a9a379cb9e8ba6687f1c5018f01264795"
+    },
+    {
+      "path": "articles/culture-nuri-card-balance.html",
+      "size": 24856,
+      "sha256": "1ead4c3b6e7f1e48dce8362822f5da79a4d0ce86a3a01e62b5417b8d9375a93e"
+    },
+    {
+      "path": "articles/debit-card-vs-credit-card.html",
+      "size": 24111,
+      "sha256": "2273e71d7d28e63e23bc75902fc68741ef3618cd3a2faec0f799c35b7112bf34"
+    },
+    {
+      "path": "articles/dehumidifier-electricity-saving.html",
+      "size": 25629,
+      "sha256": "43430fbd60628af392867977bc397ecfa094a89a8ba6a6a022f6dbbd32bd1d1c"
+    },
+    {
+      "path": "articles/deposit-protection-limit-guide.html",
+      "size": 23437,
+      "sha256": "e7c8bdc337441422fd7ba743ff99fe299e7349a976f1450c11655f2b4804d151"
+    },
+    {
+      "path": "articles/deposit-return-guarantee-checklist.html",
+      "size": 23455,
+      "sha256": "9140791532cf97fb0fc337664253bd4c60fc645e8f5086d56cd2028bc4b664a4"
+    },
+    {
+      "path": "articles/dormant-deposit-insurance-search.html",
+      "size": 20829,
+      "sha256": "d4e43d5b7b2eba21a8dcfbe9cf4762b2e7d718f61b69871d3d8f94de46de4b51"
+    },
+    {
+      "path": "articles/dryer-summer-electricity-saving.html",
+      "size": 25344,
+      "sha256": "79ef961a1e41b92e8797cd34c1e0eb89f077bbbffe152c7c1f6ab312956fbda9"
+    },
+    {
+      "path": "articles/duplicate-indemnity-insurance-check.html",
+      "size": 24074,
+      "sha256": "7cc5d3545dd64a4af9804d9a90eccca5beb4e86ea0d45c1ab72eaac3b7d6480c"
+    },
+    {
+      "path": "articles/earned-income-credit-account-change.html",
+      "size": 24653,
+      "sha256": "6d4427ee56dfb27a87acf5f55b81765b5504f0daf905d7f307c2032dfedb729d"
+    },
+    {
+      "path": "articles/earned-income-credit-payment.html",
+      "size": 22507,
+      "sha256": "311a8de4fe8f2a1cf8d01723c8c971ed51cc8f1a7b0486a858899b825dce3dbc"
+    },
+    {
+      "path": "articles/earned-income-credit-status-check.html",
+      "size": 23107,
+      "sha256": "a8359e744b36820a7a0a0d75771af440b54ba6f190e5ebbeeb35da21c32804db"
+    },
+    {
+      "path": "articles/earned-income-tax-credit-korea.html",
+      "size": 24603,
+      "sha256": "7c79ab81307298c027c6ef02bebd72935ef78853695af80c4aba64e3da070cdb"
+    },
+    {
+      "path": "articles/education-benefit-eligibility.html",
+      "size": 22469,
+      "sha256": "2c2b5078d56f4d1d8b35d64d7f1dadbcc9b8f9f7edacc453bbea70c8d661bfa5"
+    },
+    {
+      "path": "articles/education-expense-vs-benefit.html",
+      "size": 24565,
+      "sha256": "8434fe8ae20500330760a8024f0ae417d9e343bd22d75503502d4e0fa7e1419d"
+    },
+    {
+      "path": "articles/electricity-bill-easy-calculator-guide.html",
+      "size": 20107,
+      "sha256": "5f66107f1fd9d80c25a960a30a52467cc28af401274c1c82c34f3645afe0c71a"
+    },
+    {
+      "path": "articles/electricity-bill-saving.html",
+      "size": 25223,
+      "sha256": "3a02b195dc89a14c78946a090c25702d8bb7e015809c1ed352cab271f005e5b4"
+    },
+    {
+      "path": "articles/electricity-discount-card-guide.html",
+      "size": 25582,
+      "sha256": "dd6fd3f9fe3ac61c7972af6bd95375dd8d765a2226f02fa49739b96ad3e11138"
+    },
+    {
+      "path": "articles/electronic-tax-invoice-penalty.html",
+      "size": 28040,
+      "sha256": "aa1abf3caa60104f3db0cc926011b2d3bee573895d5582c2ca9cd070ad501a7a"
+    },
+    {
+      "path": "articles/elementary-school-education-support.html",
+      "size": 21825,
+      "sha256": "8027f247bc980d3174c79fd11d4f06425881a9e5af5dd41d637e0e1bf4d2e6e0"
+    },
+    {
+      "path": "articles/emergency-fund-guide.html",
+      "size": 23499,
+      "sha256": "5a7a0de5d5193484af8ce1b0a6905adc80ac9cb516b1f961e756f534af7c16b7"
+    },
+    {
+      "path": "articles/emergency-medical-support.html",
+      "size": 21682,
+      "sha256": "ab1af07cdbc04ae8f3c0e9eba5a641ac9492fb852566cfeec09aa23c1b1316ab"
+    },
+    {
+      "path": "articles/emergency-welfare-living-support.html",
+      "size": 24599,
+      "sha256": "f67957d034daae3db61af78c92441e0313fdc37ee3e86b47179374ccd02c9a00"
+    },
+    {
+      "path": "articles/energy-voucher-2026-application.html",
+      "size": 25396,
+      "sha256": "af0221ece6f46f1145a43718a013d4ef2c4dd00ac9bfb9d03bb1079acb2c6024"
+    },
+    {
+      "path": "articles/energy-voucher-application-2026.html",
+      "size": 25887,
+      "sha256": "c7175e7d23d79e169363ccd2ac9daf5d796782c450512140e66632db9b2d26f4"
+    },
+    {
+      "path": "articles/energy-voucher-application.html",
+      "size": 24555,
+      "sha256": "ef36592996b762385d500303ce70a7af3aa1e6264c052441fcaade7dd5d0c35a"
+    },
+    {
+      "path": "articles/energy-voucher-balance-check-2026.html",
+      "size": 26024,
+      "sha256": "bd8c1d0f2f2b023199d6dffcf981214c713aec6c54923342f95f02d4e70c2be5"
+    },
+    {
+      "path": "articles/energy-voucher-balance-use-2026.html",
+      "size": 2760,
+      "sha256": "d64547673a41e9f1b9a17404477662d5d21745924705d843f13edf63642fc8eb"
+    },
+    {
+      "path": "articles/energy-voucher-balance-use.html",
+      "size": 24801,
+      "sha256": "ffd67c9b43a3676f0db63a675f44c84000c31311de15518c39ef2baa4338c8f7"
+    },
+    {
+      "path": "articles/energy-voucher-documents.html",
+      "size": 24684,
+      "sha256": "f199ea3b5d2bcf602fa02546c0daec7b6eb406a12d15873df734742ab477aa92"
+    },
+    {
+      "path": "articles/energy-voucher-eligibility-2026.html",
+      "size": 24902,
+      "sha256": "21feba46858d9bbcf4b11a28503130a31e45c39dca98e3059d60164d388efc96"
+    },
+    {
+      "path": "articles/energy-voucher-online-application.html",
+      "size": 24687,
+      "sha256": "0180bf09000b4435be040e330b57e438c56e27022215ed8336d122dfb78141e4"
+    },
+    {
+      "path": "articles/fan-aircon-combination-saving.html",
+      "size": 25431,
+      "sha256": "1142648503bd23ed37cdbdc3eb17273099e9416627ccb47292aab19212930dbc"
+    },
+    {
+      "path": "articles/first-meeting-voucher-guide.html",
+      "size": 20153,
+      "sha256": "d197048cea0678d0624ec4e1724d3989b9eb223d8447b0006a6a5d0047d03c36"
+    },
+    {
+      "path": "articles/fixed-date-online-application.html",
+      "size": 23493,
+      "sha256": "6b16eec18067d5df9bfad0aa8f04985df3ad3796fb47c78466ca8d1c5be6a3a9"
+    },
+    {
+      "path": "articles/fixed-speed-aircon-saving.html",
+      "size": 25385,
+      "sha256": "fdbd126559b2e0ad5940f2df32f0c63739b5993e3fd4746453f418d71e01c9e4"
+    },
+    {
+      "path": "articles/four-major-insurance-deduction-guide.html",
+      "size": 21913,
+      "sha256": "10d13da84ee1b3f7dadeea54c532794c3322b4ec26db7c4e4b04fd7faa3eaafc"
+    },
+    {
+      "path": "articles/gas-bill-checklist.html",
+      "size": 23663,
+      "sha256": "1c094558e3215346026a55dad94c7fc1fe394e73a737d1ba6f55842ac2470d6a"
+    },
+    {
+      "path": "articles/general-vat-common-mistakes.html",
+      "size": 24843,
+      "sha256": "233949c31b1efca0b663b8b602295f8d4757d1f0c7d781fb24ad6e64d70c03f5"
+    },
+    {
+      "path": "articles/government-benefit-alert-2026.html",
+      "size": 25287,
+      "sha256": "fdf00feb8ea7d9769cfc061e167897be28a0909c33c96607eb7e2fa2bb2c64b1"
+    },
+    {
+      "path": "articles/government-benefit-alert-guide-2026.html",
+      "size": 2768,
+      "sha256": "8c62661de6ed035a9234543414f0f7a6f0e37c58f20e48f15cc62402208a3bf1"
+    },
+    {
+      "path": "articles/government-benefit-alert-setup.html",
+      "size": 24832,
+      "sha256": "c525d21388af9b4338e346c25ed4d1c0f8bf7357641b67535c0760b5c45eb854"
+    },
+    {
+      "path": "articles/government-benefits-warning.html",
+      "size": 24565,
+      "sha256": "f4a792ff00f12e9aded645cd0dacaa79f3f7fd3161ee331738b5c6260ca44b58"
+    },
+    {
+      "path": "articles/government-support-calendar.html",
+      "size": 24405,
+      "sha256": "6fd61176149066efd0fee2e32bb22c0100499c6e0c313d3efd1a9b32a5acd3de"
+    },
+    {
+      "path": "articles/government-support-scam-warning-2026.html",
+      "size": 2761,
+      "sha256": "55edde3d634264ae5565bb5ff8d8c36b72d98828d4df0ba2738b738e64caf6f1"
+    },
+    {
+      "path": "articles/government24-benefit-check.html",
+      "size": 24811,
+      "sha256": "6f35548507621ae70ff92b02a3376af78d7c0636c847a9fff05e1e12f159cbba"
+    },
+    {
+      "path": "articles/grocery-bill-savings.html",
+      "size": 24819,
+      "sha256": "08945cf88d1249ea45662dc910d13a96d74d058ba499329e8a27f71133232809"
+    },
+    {
+      "path": "articles/grocery-saving-tips.html",
+      "size": 24063,
+      "sha256": "385e137b198f2a2611613516470beb9b7da82051b5dea28c31e0f9f2869183bd"
+    },
+    {
+      "path": "articles/health-insurance-out-of-pocket-refund.html",
+      "size": 21578,
+      "sha256": "e3217bf43034253b0df65a417a3758e87c51a21600f51ea67e07b8699919233b"
+    },
+    {
+      "path": "articles/health-insurance-overpayment-refund.html",
+      "size": 21522,
+      "sha256": "f420388557aac2a611988ebc3a3a2302c7a0744e5ef2169b9407ed6101f7258f"
+    },
+    {
+      "path": "articles/health-insurance-refund-guide.html",
+      "size": 21366,
+      "sha256": "89f03fdc694476449de8a1478f60d7442b57d0c1bf29d875aa7d7a5e6b1677a1"
+    },
+    {
+      "path": "articles/health-insurance-refund.html",
+      "size": 2708,
+      "sha256": "11f821baafcfa1094d6fdae487db0f36d0874af2cd721578657d7f75c59fcc69"
+    },
+    {
+      "path": "articles/heating-bill-saving.html",
+      "size": 23999,
+      "sha256": "f4e3955264f5332ac33abe0fd77e8e55076d177dff7b97aa7a35418bbb5fd016"
+    },
+    {
+      "path": "articles/hidden-money-search.html",
+      "size": 23168,
+      "sha256": "f5b43fd367dfaf4403f74c4fae256813c8f9d1e7668a1585de1c6cb2b7a8f55d"
+    },
+    {
+      "path": "articles/hidden-refund-check.html",
+      "size": 24371,
+      "sha256": "f3153737a7847a1b8a86fd9454410f462590d58895993847e17109dda56bff41"
+    },
+    {
+      "path": "articles/home-water-leak-self-check.html",
+      "size": 24002,
+      "sha256": "9d41e11e917b5d65d8de3745510b3fed713fda59b94f96228979fd21f8937c25"
+    },
+    {
+      "path": "articles/hometax-refund-status.html",
+      "size": 24250,
+      "sha256": "5122e0445c88bdac4a97cad23c17144cd39f5049a92306355587a14fc0b1fd20"
+    },
+    {
+      "path": "articles/hometax-vat-sales-check.html",
+      "size": 25014,
+      "sha256": "c01505fb4fb2055df475c723774601e501bcc836c54d92b5448505323d2a22e0"
+    },
+    {
+      "path": "articles/housing-benefit-eligibility.html",
+      "size": 23400,
+      "sha256": "583234530020f68c142da7f18cb7719e0c35d0e4e7175ec1ec746aaacf72380b"
+    },
+    {
+      "path": "articles/how-to-check-hidden-refunds.html",
+      "size": 23509,
+      "sha256": "817554b996979b3d613e6c5edf2dcc006cea230b2b945e9249227982d20e2a56"
+    },
+    {
+      "path": "articles/how-to-lower-phone-bill.html",
+      "size": 24405,
+      "sha256": "c6d75089d2a480ea34959c1726af6a5641e05f7a7e8b224f73d4e76648dca29e"
+    },
+    {
+      "path": "articles/how-to-save-electricity-bill.html",
+      "size": 25970,
+      "sha256": "b98f1c805fe0b38cfbf406a8cc2cd9b71e5aeba49a2ccd6c17ef76b20550ca7a"
+    },
+    {
+      "path": "articles/impulse-buying-control.html",
+      "size": 25146,
+      "sha256": "57e28b3bc621e33ea1dd6987e1218dcaea8f8f41010d6deef51a023d72c95076"
+    },
+    {
+      "path": "articles/income-tax-filing-missed-consequences.html",
+      "size": 27633,
+      "sha256": "4b4e53654244a399efdde1642ace3cbc99da93e522fdc74538499cd7926799bf"
+    },
+    {
+      "path": "articles/index.html",
+      "size": 132060,
+      "sha256": "bc6fafcc51d14cbf1b919d353b82107a4454a01eb37bb622dbf0f2c550c69c60"
+    },
+    {
+      "path": "articles/insurance-auto-pay-discount.html",
+      "size": 23984,
+      "sha256": "1c9015c3b2e28366bf18896db3bcf4c8edc83c0ff2c85f2b09da6785f5117601"
+    },
+    {
+      "path": "articles/insurance-surrender-value-check.html",
+      "size": 24718,
+      "sha256": "7b0817d4586e0dfc7aeb0de1819bc32a575b7a27da231445dc91b0e8f2388374"
+    },
+    {
+      "path": "articles/internet-bill-discount.html",
+      "size": 24456,
+      "sha256": "2adc4e228dd98da5d54c82dd7ce96fcde07023a87dfcea2ec6b007827d5469d3"
+    },
+    {
+      "path": "articles/internet-bill-savings.html",
+      "size": 24428,
+      "sha256": "d7032ec6f0c02e80f9088d03579fbad1a3e6379506db4820dbc8c870dc3de338"
+    },
+    {
+      "path": "articles/inverter-aircon-saving-guide.html",
+      "size": 25439,
+      "sha256": "509045af8217b4b54b9793844e4ed7685b91875323a56a69a11921d494dfda39"
+    },
+    {
+      "path": "articles/irs-tax-refund-status.html",
+      "size": 25196,
+      "sha256": "b6abe6d9943fd927d4ba5b6a94c6cdf939a8a98eb415df4c8579b8f2cdd5ac42"
+    },
+    {
+      "path": "articles/lifelong-education-voucher-application.html",
+      "size": 21326,
+      "sha256": "6b8d17a2cc449e0f018351c1640732e6342949babef2331893b5342a67cf931c"
+    },
+    {
+      "path": "articles/loan-prepayment-fee-check.html",
+      "size": 23362,
+      "sha256": "32b363345fb033ef25152a61410551634fc97d580f9cca5849e2a725894f1d61"
+    },
+    {
+      "path": "articles/loan-refinancing-check.html",
+      "size": 22847,
+      "sha256": "241c1675a9e797becd19d90accd09a4346513ebd8516273baced7c342ef84462"
+    },
+    {
+      "path": "articles/local-tax-refund-claim.html",
+      "size": 24501,
+      "sha256": "c0d5b9fd792916648c485d8df2d83c3830520784a31913fc8e03db1eefd0846a"
+    },
+    {
+      "path": "articles/local-tax-refund-guide.html",
+      "size": 22124,
+      "sha256": "d047e26580cb09c0432f38c168a4c568ead6f5fc60088ecbd493aa6fea842ae6"
+    },
+    {
+      "path": "articles/local-tax-refund.html",
+      "size": 2652,
+      "sha256": "a7823e521fb13d3da74c18a96e676e8fdafd589e593e6e4e74adf869e046f85a"
+    },
+    {
+      "path": "articles/long-term-care-insurance-application.html",
+      "size": 20415,
+      "sha256": "e20393790f4a2d8c573abebec28a9b4b31432db41d06bc1cec8f6fc4c10dfb83"
+    },
+    {
+      "path": "articles/low-income-cooling-support.html",
+      "size": 23702,
+      "sha256": "d0438646d75cf5e01b60ef18434299be856860290b39fe995f013b72213b4368"
+    },
+    {
+      "path": "articles/medical-bill-negotiation.html",
+      "size": 21556,
+      "sha256": "ac77ab4133fe1c16aeffd76115b758bf3fe3dbede89a03d39ceed6a7760b9fad"
+    },
+    {
+      "path": "articles/missing-property-tax-bill.html",
+      "size": 24637,
+      "sha256": "f85b939a52bd429a58172fd3bb090444d585883f0f6ef3bedfefae5e7b01b068"
+    },
+    {
+      "path": "articles/money-saving-habits.html",
+      "size": 23511,
+      "sha256": "da3bd60871c5e7440b15188098ad30a2968a780db2929f53c92d7a46a44acb00"
+    },
+    {
+      "path": "articles/monthly-budget-planner.html",
+      "size": 25546,
+      "sha256": "c4cb8c55928505ce42a9ec08a9bebd4d2f86ca6a2f7f8b20283270396109167d"
+    },
+    {
+      "path": "articles/monthly-rent-tax-credit-documents.html",
+      "size": 23614,
+      "sha256": "306a869e179d24452d2557cc83d4f914085fd20cb92eac929865f6e8183921c1"
+    },
+    {
+      "path": "articles/national-employment-support-eligibility.html",
+      "size": 23507,
+      "sha256": "416c65cd9b3bf59f208a17e84e38bdc2453992af7ecadcdb1a641a441ea8f1bd"
+    },
+    {
+      "path": "articles/national-pension-additional-payment.html",
+      "size": 24571,
+      "sha256": "e16fd9cf5d1331c677c323926615d58fd85db23b8e9dfbd7b85e50f0215f195c"
+    },
+    {
+      "path": "articles/national-pension-old-age-benefit-guide.html",
+      "size": 20426,
+      "sha256": "b9fa027cc3934ae87821021c6c2a2ab117a32d1f37358801eda3f7c45804ed5c"
+    },
+    {
+      "path": "articles/national-pension-overpayment-refund.html",
+      "size": 20684,
+      "sha256": "91dc26aa1f970cd6ace1ea483dfb7f030836ab470ab57b7d9bece25b0339c3fc"
+    },
+    {
+      "path": "articles/national-scholarship-application.html",
+      "size": 21645,
+      "sha256": "4276abbdd045eb5e3be85642036e13090d60fe3f749bf679c15c566b41bc4dcf"
+    },
+    {
+      "path": "articles/national-tax-refund-account.html",
+      "size": 24496,
+      "sha256": "3b7e785ab4ce2311115822079a31864a4c6a282ad0378ff44600dffe56083034"
+    },
+    {
+      "path": "articles/national-tax-refund.html",
+      "size": 24326,
+      "sha256": "1f293de51e111913bfe4d6103b48d66b22108a2633218adf39c691b301c3cf46"
+    },
+    {
+      "path": "articles/near-poverty-certificate.html",
+      "size": 24435,
+      "sha256": "b6b1f2bb68fb31419352bdbc372468948f2406a9d079015cbf6b59402a4aad6a"
+    },
+    {
+      "path": "articles/online-income-ideas-for-beginners.html",
+      "size": 2743,
+      "sha256": "b5745314752f7fefe7242b5b2c273dac30e637bef51475a8ca6c251093206ab9"
+    },
+    {
+      "path": "articles/over-60-benefits-guide.html",
+      "size": 20448,
+      "sha256": "2911be52a91b9d112c45aecd9a3041afef5b7ebc443de40657d06678460d554b"
+    },
+    {
+      "path": "articles/overdraft-account-guide.html",
+      "size": 22633,
+      "sha256": "c209909d399e8b5c18873513211562efa28ed53e6d99ad076261319d4970ff68"
+    },
+    {
+      "path": "articles/parental-benefit-guide.html",
+      "size": 21140,
+      "sha256": "b51c823617f7b773827c5c7ff177f538c57d79d594a183b41f6ba8edc1e3c6e6"
+    },
+    {
+      "path": "articles/parking-account-rate-comparison.html",
+      "size": 23946,
+      "sha256": "ba366b15d9a28614ca889c6049641cafc5b3ac9ac38e09f9cbe47601fcfdf0e8"
+    },
+    {
+      "path": "articles/peak-season-hotel-saving.html",
+      "size": 24263,
+      "sha256": "e50e62faa777032eb228abd6bd5fa5a8c1ef998e53c8ce46578b6d30e2024e02"
+    },
+    {
+      "path": "articles/phone-bill-saving.html",
+      "size": 24535,
+      "sha256": "751b5f2d24b83f278ef3756caf25a55f204728f94bd155ca4fd5984120bcca4a"
+    },
+    {
+      "path": "articles/property-tax-bill-checklist-2026.html",
+      "size": 25472,
+      "sha256": "d4c752b8ced2622a7c6472361296cee47f467691aa22f569047875b785353c2e"
+    },
+    {
+      "path": "articles/property-tax-calculation-structure.html",
+      "size": 24485,
+      "sha256": "cdc8731efb3f1ae5ffae593167ef1686ef0180a10db21d4302bf04ab98e43d2b"
+    },
+    {
+      "path": "articles/property-tax-deadline.html",
+      "size": 24070,
+      "sha256": "34b289a759117817d4ea6781a22b8233cd7eb582827433b5c4b70c63ab5b70f4"
+    },
+    {
+      "path": "articles/property-tax-electronic-bill-2026.html",
+      "size": 24801,
+      "sha256": "dc74512288eecfa19150e28125a12e55b5150e6c2ff778b3df7f281b31289349"
+    },
+    {
+      "path": "articles/property-tax-electronic-notice-2026.html",
+      "size": 2780,
+      "sha256": "deb242e24c078e2a100d54d1dd56b32d19adb2d21ef80f4c9181094f1d88807d"
+    },
+    {
+      "path": "articles/property-tax-installment-application.html",
+      "size": 24521,
+      "sha256": "10113c3911d074da7a16c3cbcbe5f803d67b55ff797114766eadc27c737a603a"
+    },
+    {
+      "path": "articles/property-tax-joint-ownership.html",
+      "size": 24206,
+      "sha256": "45b37eeb6c8db71b2351f6461ca1c49643b16da5cafc50b11b742320d3e90550"
+    },
+    {
+      "path": "articles/property-tax-july-2026.html",
+      "size": 24517,
+      "sha256": "03183e08230569e2de176574ba30ad95ce33f13da9eb2b300fa04647906b013e"
+    },
+    {
+      "path": "articles/property-tax-july-checklist-2026.html",
+      "size": 2762,
+      "sha256": "5e5becfa4841b2caf673169440cd9db5c24cbcb4d44521487042893a344361e9"
+    },
+    {
+      "path": "articles/property-tax-july-september-difference.html",
+      "size": 24545,
+      "sha256": "e81b144bf9037917e858d0b0f4dd7c5154ab009c2da5acd89371c16f5be775e2"
+    },
+    {
+      "path": "articles/property-tax-objection-guide.html",
+      "size": 24518,
+      "sha256": "8977fe7de095b5a0f65d73345765e6eb1042016f2287cf834eeb51164905a991"
+    },
+    {
+      "path": "articles/property-tax-payment-certificate.html",
+      "size": 24389,
+      "sha256": "9e03a9cb3a8e0c1238bb7857d704fb11c1b985c32bc752902b5ac71b09866f77"
+    },
+    {
+      "path": "articles/reduce-electricity-bill.html",
+      "size": 2690,
+      "sha256": "4486088d80c8344222ed15967974c1eee65ade063d4e209a5359d86114af3234"
+    },
+    {
+      "path": "articles/refrigerator-summer-electricity-saving.html",
+      "size": 25421,
+      "sha256": "81055279409ab62228c0643cd35f145e84ea13aa8d2f62ad8766863cf3de3c1e"
+    },
+    {
+      "path": "articles/regional-development-bond-refund-guide.html",
+      "size": 20266,
+      "sha256": "b36526766867fa335fe958cd1909ef8d215ffb564815251b5b7b8c7fbf9147b6"
+    },
+    {
+      "path": "articles/rental-car-vacation-saving.html",
+      "size": 24250,
+      "sha256": "401ea5f9f2eccd712d3f1661306f717f3c75ae5deac2440e47d8d116dcc0bd8c"
+    },
+    {
+      "path": "articles/rental-contract-reporting-guide.html",
+      "size": 23492,
+      "sha256": "6a9d81720ef4f19c1450d7635a9df584079a64b3f98eae0fdc912872e2d565ad"
+    },
+    {
+      "path": "articles/revolving-cancellation-payoff.html",
+      "size": 24280,
+      "sha256": "7e926c916fde1057efb581da74c4014e504125fbf872c61559d34a704a0e79ba"
+    },
+    {
+      "path": "articles/salary-budget-guide.html",
+      "size": 24192,
+      "sha256": "ba7ce408db244c894c262afdddc5b920eea9649d22a874325fb22086fbbe142b"
+    },
+    {
+      "path": "articles/salary-management-guide.html",
+      "size": 24400,
+      "sha256": "692475ee9cc4c461b910cebfc0e929ec95eb00017a8a6c3d3953b5cf7278c449"
+    },
+    {
+      "path": "articles/salary-slip-check-guide.html",
+      "size": 22818,
+      "sha256": "c5238a5a7b54cbeb4db59a1eb6613c4bcb2259c3d53218b26b32b200f436f0d1"
+    },
+    {
+      "path": "articles/salary-take-home-easy-calculator-guide.html",
+      "size": 18797,
+      "sha256": "ad2292d51da483050b68535f605bf05060b09cdaaa2d2b70b4c2fdbbb4d99351"
+    },
+    {
+      "path": "articles/savings-maturity-auto-renewal.html",
+      "size": 24138,
+      "sha256": "edc428b7251a74826b195b3ae691f9188eae0b0194d3c8e760bd53171652a51a"
+    },
+    {
+      "path": "articles/self-employed-income-tax-refund-check.html",
+      "size": 28587,
+      "sha256": "5bac5e696ecee466eb0d466d7babc33a1ce0892bc7e1fc52b52c13b663dd58b6"
+    },
+    {
+      "path": "articles/senior-job-application-guide.html",
+      "size": 20093,
+      "sha256": "3c0e602b08d990b4feccce79be28cff0d400c53058ffc953a446ad98620f5386"
+    },
+    {
+      "path": "articles/severance-pay-calculation-guide.html",
+      "size": 21280,
+      "sha256": "0899e072ae0cccbd26a47b65fdf4a106c091bc763d6b859ef4c77707fa7f7794"
+    },
+    {
+      "path": "articles/severance-pay-easy-calculator-guide.html",
+      "size": 19894,
+      "sha256": "bc2340b2ddb8e2baf5c8837292d163bc4304d04316df1c879485734aafac608d"
+    },
+    {
+      "path": "articles/simple-receipt-expense-rules.html",
+      "size": 28519,
+      "sha256": "4771fdb25ec57db731cde25e5e85e4045427f958f08acc2c11f7b3cf215d9526"
+    },
+    {
+      "path": "articles/simplified-vat-checklist.html",
+      "size": 25251,
+      "sha256": "7721feedef610ee488869bb5b09776348875951fe8aac08aca69c59aa62b9bbf"
+    },
+    {
+      "path": "articles/single-parent-support-benefits.html",
+      "size": 24734,
+      "sha256": "a9c5f3bec2bcca852d7420a580f95f0af01ac3a5d4843b0b8b4aeab8e06b080e"
+    },
+    {
+      "path": "articles/small-business-closure-support.html",
+      "size": 23618,
+      "sha256": "9176bf3af72358dd986fc9c2111c2b5a13b1069f99a25d69772cf3f8b4c7b331"
+    },
+    {
+      "path": "articles/small-business-delivery-support.html",
+      "size": 23588,
+      "sha256": "22a358df5d160e4c8deda189e6837a71633a5f725e8aa959e77c97d8b98d96ff"
+    },
+    {
+      "path": "articles/small-business-electricity-support.html",
+      "size": 25517,
+      "sha256": "80710f9d7ca2218edf9477b85c3f0c2b6295954b08c2acb394d05dd2195225a1"
+    },
+    {
+      "path": "articles/small-business-policy-fund-search.html",
+      "size": 23637,
+      "sha256": "c2ab723fa2bf36f05583999ccac5e939464a8104c7fcdfd576b8c3864c9efce9"
+    },
+    {
+      "path": "articles/small-business-policy-fund.html",
+      "size": 23388,
+      "sha256": "05f55435a98c0cebb7380b1d54f9cab94cb76e9a8768dd669cfc18b11d4ebd15"
+    },
+    {
+      "path": "articles/spending-habits-change.html",
+      "size": 23508,
+      "sha256": "6e986245c0717651101f17dda73fcbb5e183237a089ff5211ff828474cf36697"
+    },
+    {
+      "path": "articles/student-loan-repayment-guide.html",
+      "size": 21992,
+      "sha256": "bc253e34d435f4c14394710991917dfc5ef50bfecbcae2316a6e5d574e74ab25"
+    },
+    {
+      "path": "articles/subscription-audit-checklist.html",
+      "size": 24411,
+      "sha256": "97221448d86d379c21f3183d15a103538f9ef50b7c0b425577e759383bbdc470"
+    },
+    {
+      "path": "articles/subscription-cleanup.html",
+      "size": 24169,
+      "sha256": "7368a8ad7a6152e4fd693b9e85b9e58b4d887b39f0e66855808be749845186ea"
+    },
+    {
+      "path": "articles/subscription-saving.html",
+      "size": 23974,
+      "sha256": "582d4349117949495e916deff448c73d22901dfd0e45f7090f9d0990be4f87dc"
+    },
+    {
+      "path": "articles/subsidy24-benefit-search.html",
+      "size": 22544,
+      "sha256": "83d82b803f432ee52e71ac89f47890f6056d68cfbb0aed6414b29a674331fff3"
+    },
+    {
+      "path": "articles/summer-electricity-tier-check-2026.html",
+      "size": 26118,
+      "sha256": "316e71a599e875b88eec7a3510f84ee0228e718446097538982221e2f1bba45b"
+    },
+    {
+      "path": "articles/summer-electricity-tier-check.html",
+      "size": 25643,
+      "sha256": "7ee7522f51de73e5bb16a3d9ab2d96e9bd6522ff3cbece96786cce188c8170ae"
+    },
+    {
+      "path": "articles/summer-electricity-usage-check-2026.html",
+      "size": 2783,
+      "sha256": "a06284cfbe6da8622f5a3bf881b2e2e20c26c6391ae446eff0b401dd38df4264"
+    },
+    {
+      "path": "articles/summer-gas-bill-hot-water-saving.html",
+      "size": 24456,
+      "sha256": "5d3a3355e3e85b333a533d63f216e6c39c90a3c1f994a66e6524e0ff4ad8a7e7"
+    },
+    {
+      "path": "articles/summer-vacation-budget-plan.html",
+      "size": 24193,
+      "sha256": "6bb2cc0a869cbab8a5b131780c55d1af9f9348cc768ae318dde54ce1630de93b"
+    },
+    {
+      "path": "articles/summer-water-bill-spike-check.html",
+      "size": 24330,
+      "sha256": "e2a89f1977fd19046f007215fd3d4602b396dd6237caf0a03e034f9aa7b8a832"
+    },
+    {
+      "path": "articles/tax-credit-late-application.html",
+      "size": 24747,
+      "sha256": "263a68a746e44096162b613c7070b7eb00e81860fe44909d3175ad46d560164c"
+    },
+    {
+      "path": "articles/tax-invoice-vs-cash-receipt.html",
+      "size": 27604,
+      "sha256": "8decc8326d858a4c59d5b980b133249ed5784dc4bee4ccf3d095ee539e9de28f"
+    },
+    {
+      "path": "articles/telecom-discount-guide.html",
+      "size": 23626,
+      "sha256": "b88edfc702c8d63501b2586b8cf11645c19ba247d55f637a3c687c7503838041"
+    },
+    {
+      "path": "articles/telecom-unclaimed-refund.html",
+      "size": 20469,
+      "sha256": "8aa40ee09031665067ae5a8e826e3b4ab99b640364b2ae80f5f9c57770dc53f6"
+    },
+    {
+      "path": "articles/traffic-fine-check-payment-guide.html",
+      "size": 20642,
+      "sha256": "1c71cd86a4cfebf4bd2cfb8b2a11407bd1e48aa66de6cc3e7cb9607e4070f48c"
+    },
+    {
+      "path": "articles/traffic-fines-difference-guide.html",
+      "size": 19824,
+      "sha256": "38edfeaa23a31d2248523ec7a193b341652a793bc8dd61d1515bfc7d7d0a29e5"
+    },
+    {
+      "path": "articles/traffic-penalty-check-payment-guide.html",
+      "size": 20457,
+      "sha256": "fc56894286cec38514003af291d0b7b4e763414a8e9d1ff860ac54382f58ab12"
+    },
+    {
+      "path": "articles/travel-insurance-comparison.html",
+      "size": 24229,
+      "sha256": "a8800b1612f95206d8c6dd1947dd4467f9dc8d4afe0a49e3926c8790d785c22c"
+    },
+    {
+      "path": "articles/unemployment-benefit-checklist.html",
+      "size": 21163,
+      "sha256": "394e82891e276f27417b0cadea96b1a52aaee27af33df20dd5eadd8618d3d773"
+    },
+    {
+      "path": "articles/unemployment-benefit-job-search.html",
+      "size": 24636,
+      "sha256": "b797fac2701d7131873146acc32351db70fa87039e6c0ac9d7122c4525aa29ec"
+    },
+    {
+      "path": "articles/vat-final-return-2026-july.html",
+      "size": 25809,
+      "sha256": "08fff6974881d58103ec875e10a38ad704ad1f6d05badf3126cb68888e76e8f6"
+    },
+    {
+      "path": "articles/vat-final-return-deadline-2026.html",
+      "size": 2734,
+      "sha256": "092f1e06cae4283cfc8a35194a9902c7ddc2ba29e91f1bd71568a6505706d91c"
+    },
+    {
+      "path": "articles/vat-final-return-july-2026.html",
+      "size": 25481,
+      "sha256": "40a75775b73be60c3366235324704a4a6312a3d8b4f4313e39c6c8ce5e50d648"
+    },
+    {
+      "path": "articles/vat-input-tax-deduction-2026.html",
+      "size": 25858,
+      "sha256": "247447c48b66beb31085811227d9fb1685a2f48512e854bc6f8030cf85ffc2a8"
+    },
+    {
+      "path": "articles/vat-input-tax-deduction-guide-2026.html",
+      "size": 2760,
+      "sha256": "6c23d6a6892478a365dc4482c6d7b930eb4e2a3f6d3066f5c5ef0cb582bebe01"
+    },
+    {
+      "path": "articles/vat-input-tax-deduction-items.html",
+      "size": 24873,
+      "sha256": "72f75c4a0c37fbef75440ed634184afcc364c065c34ad9a7a73b01ca09b392cb"
+    },
+    {
+      "path": "articles/vat-payment-extension-guide.html",
+      "size": 25346,
+      "sha256": "e494adf4ffdf828faa32a55d4f7fd883d6af21849045989568420dae81fc2146"
+    },
+    {
+      "path": "articles/vat-sales-omission-check-2026.html",
+      "size": 25110,
+      "sha256": "6fbe582665c432700ae82a894c86b12e813f496ed99a9f3dc317ee0f2d52185c"
+    },
+    {
+      "path": "articles/vat-zero-sales-filing-2026.html",
+      "size": 24683,
+      "sha256": "5240edb2bb2f1fd2aff41e6a0195145c0d00ea63847f91ef266e6c2383b49216"
+    },
+    {
+      "path": "articles/vat-zero-sales-filing.html",
+      "size": 25053,
+      "sha256": "508fb85759e41e32c438c28a25b4b9f3d245c2e07d85c6a24f7ee4c48d37cd06"
+    },
+    {
+      "path": "articles/vehicle-inspection-reservation-guide.html",
+      "size": 20272,
+      "sha256": "9fe71f9a329ddd2f0ab3ffc67a6a2caab1188b6c6200d93b082a6e98b8c95d67"
+    },
+    {
+      "path": "articles/water-bill-guide.html",
+      "size": 24109,
+      "sha256": "e0a8a4ac9a61ff7ff2d9a0d7bd073c58ace176716efe38ff07f5bf6351e3f931"
+    },
+    {
+      "path": "articles/water-bill-saving.html",
+      "size": 28101,
+      "sha256": "a3e2cac3cfeb089570d82011dc41b3f4927a216ea4a76a2c56ae2afb713f98a2"
+    },
+    {
+      "path": "articles/weekly-holiday-pay-guide.html",
+      "size": 21726,
+      "sha256": "f97f86614bd6aea0a0f5ba97d095270ade914b6bc957fdc5592c051135fc61ae"
+    },
+    {
+      "path": "articles/wetax-electronic-billing.html",
+      "size": 23724,
+      "sha256": "10d9ffcb413ae85b8ae94b5ada26403313fe2a66b330f051fc0a06940ebbf638"
+    },
+    {
+      "path": "articles/wetax-payment-history.html",
+      "size": 23393,
+      "sha256": "92f870d2139962e01de90f2bc768ec76a7586b8b0b32ad7d557f054ef5079f7b"
+    },
+    {
+      "path": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "size": 23782,
+      "sha256": "61560df4bb0c40aa741ffce13c1ffca222392fe8c97da8fa1dd095fb35c1fa75"
+    },
+    {
+      "path": "articles/youth-housing-benefit-separate-payment.html",
+      "size": 23452,
+      "sha256": "eb1d0204410a0c2cfffff23a2e4b4b5bd7e305c546339a20f20581e536ccdfdf"
+    },
+    {
+      "path": "articles/youth-leap-account-contribution.html",
+      "size": 24608,
+      "sha256": "62b6cdff8450e118939d70f391d753036fd370953bbc3464462e1e6251d25045"
+    },
+    {
+      "path": "articles/youth-savings-account-maintenance.html",
+      "size": 24536,
+      "sha256": "fa65d15931941fae316d12b494587d2f9edd4a57eef38e4bdedaefbd13d2c5cc"
+    },
+    {
+      "path": "articles/youth-support-programs.html",
+      "size": 25198,
+      "sha256": "1301727b4bbf0c2d898d146de0d470683d35d6ece4b61872ee67b156ec8ce26a"
+    },
+    {
+      "path": "automatic-payment-saving.html",
+      "size": 1560,
+      "sha256": "fdc7c314a9bd1e58f7ba1a6ff106b667f03debca8f99f1ff6f2195ab9633a0a2"
+    },
+    {
+      "path": "bank-account-budgeting.html",
+      "size": 1552,
+      "sha256": "8fa306c4b6dadefb0e5d0042e49bdbe7d33760405601141f23313222dbd4aa3c"
+    },
+    {
+      "path": "bank-fees-to-avoid.html",
+      "size": 1536,
+      "sha256": "f7bbf0a8edf8aec180c84b578a7d0b7bd11ebd74f814496c3a74ac0c76140c20"
+    },
+    {
+      "path": "beginner-ai-side-hustles.html",
+      "size": 1560,
+      "sha256": "0e65a949d2739cfe125ecbee9d1ed6fd88b25407b361f6f230a109a1cde43b59"
+    },
+    {
+      "path": "beginner-money-management.html",
+      "size": 1564,
+      "sha256": "4f9f728b175bcc4bb2578cf2de510f9d530697d70aa34bc0062f0649bce74f49"
+    },
+    {
+      "path": "benefits/basic-livelihood.html",
+      "size": 5362,
+      "sha256": "6313ede6e6dcb2899090df655c6c65e954665484fdc824ebd63275d9bf085b55"
+    },
+    {
+      "path": "benefits/index.html",
+      "size": 8151,
+      "sha256": "b69311101a28f5260494a1e20b02c10fa73d301b56518aeb2c22f14c81c7d9b1"
+    },
+    {
+      "path": "benefits/over-60.html",
+      "size": 6080,
+      "sha256": "3877126bfa639233973f183da36760bf4fad45765ea2e8b1155ef123294c46ab"
+    },
+    {
+      "path": "budget-app-guide.html",
+      "size": 1528,
+      "sha256": "fcbaa6c0e1971fafcb5727ceb8c78ad08b2d566479055895141753e024f42e55"
+    },
+    {
+      "path": "calculators/annual-leave.html",
+      "size": 2885,
+      "sha256": "5534ddc027e4c7df1532901c9ebd264f2f068bf22774ed54dda95a5341a5992b"
+    },
+    {
+      "path": "calculators/bmi.html",
+      "size": 2874,
+      "sha256": "1ea9cb606891aa24fc0c825abf7da789dba33e4fb6c91352fe8c7584ed239940"
+    },
+    {
+      "path": "calculators/cost-rate.html",
+      "size": 2885,
+      "sha256": "869639fb9597e6f56bfd6ebc80f35374fda878fd0e881b2c720d97494bf9336c"
+    },
+    {
+      "path": "calculators/dday.html",
+      "size": 2876,
+      "sha256": "c64a2a51d32d53534bde5107b9f45a9cee9e5b00a68ef2938e68172dc80f8cbf"
+    },
+    {
+      "path": "calculators/discount.html",
+      "size": 2884,
+      "sha256": "314c54a7b23d01dc7aceb3ae2f73f66bb345fe762737a8a675db5941b19a5009"
+    },
+    {
+      "path": "calculators/electricity.html",
+      "size": 4061,
+      "sha256": "6508dbac0b03b4642ba4adbebb99aa9ae3617a89dfd5d68a1f5b924da7756be9"
+    },
+    {
+      "path": "calculators/exchange-rate.html",
+      "size": 1461,
+      "sha256": "eeda981a03dafe62be1a71cc1a3e3298004c89544ec6e8806e7dd519736e6577"
+    },
+    {
+      "path": "calculators/fuel-efficiency.html",
+      "size": 2887,
+      "sha256": "b7ab76350cb118e3441fb1a2abcee5a3512f0b53c7c6549643909ee4de714853"
+    },
+    {
+      "path": "calculators/hourly.html",
+      "size": 1457,
+      "sha256": "26dd016b3a1797d2c398ddc25797cde1496685de9b0a7fb1d09e1bad2abda92b"
+    },
+    {
+      "path": "calculators/index.html",
+      "size": 4502,
+      "sha256": "dc985e5b59fe9c678c86066b3a657a7937dc23bcaf0dbde593d0613b74ae8fa4"
+    },
+    {
+      "path": "calculators/leave.html",
+      "size": 1459,
+      "sha256": "acaf5d3b1b8ea7a68dc8d647006fff4f3dc246763a8c7bf54d5169fccc665776"
+    },
+    {
+      "path": "calculators/loan.html",
+      "size": 2876,
+      "sha256": "387a74e7ed84e51f25c106cf73dc8f1e93f337ff4e338b019cb821fe182cedcc"
+    },
+    {
+      "path": "calculators/margin.html",
+      "size": 2880,
+      "sha256": "73c11d1fa6fb7f1eadf351f931b51153e864f229db5c8bacb22504e11d15c98f"
+    },
+    {
+      "path": "calculators/ovulation.html",
+      "size": 2886,
+      "sha256": "532aa693a380087f7c12ab298abb2a281b024424815b54ef80bdc74475d2052f"
+    },
+    {
+      "path": "calculators/percentage.html",
+      "size": 2888,
+      "sha256": "7dbc65eb960de0721e6b0bc67f736d8d332888d8d3de0e44644a12cb87924c82"
+    },
+    {
+      "path": "calculators/salary.html",
+      "size": 2880,
+      "sha256": "81811b787ea054824ee2d642c5ab201b96ee5fd4b559177871af24a611e92890"
+    },
+    {
+      "path": "calculators/severance.html",
+      "size": 2886,
+      "sha256": "bbea665b8a207e35199206df3cfde706daeef6a9bd1f37f002eee1cdeb2aec7b"
+    },
+    {
+      "path": "calculators/unit-converter.html",
+      "size": 2886,
+      "sha256": "d26ee7bd61bd6706b1c3380f29394c26736b0dd4d3fa28857f5c98eff0257ec3"
+    },
+    {
+      "path": "calculators/vat.html",
+      "size": 2874,
+      "sha256": "928d9de834d248fecd74c54ee1fa4f2c818645eddaa895dd2d6497bf43aab3f2"
+    },
+    {
+      "path": "calculators/weekly-pay.html",
+      "size": 2884,
+      "sha256": "4da963544ba6d7df9d9af750e8dd8a0feebed1bdd81dd48e8d4a67eb8af4bf27"
+    },
+    {
+      "path": "calculators/weekpay.html",
+      "size": 1459,
+      "sha256": "755000ab5ec45c9442186dc6b73b34d00b392644ac4b8cdcefcef8dcf04f9490"
+    },
+    {
+      "path": "cancel-unused-subscriptions.html",
+      "size": 1572,
+      "sha256": "26b99e410e183b7ba4b1adf2d5fd0d1c65333f6403c894b6ea701e1b38ca6802"
+    },
+    {
+      "path": "cash-out-card-points.html",
+      "size": 1544,
+      "sha256": "aff0d20dff6171651e1b6e341e2ddd62ce296c079f7d776084a8deda7809deef"
+    },
+    {
+      "path": "categories/car-transport.html",
+      "size": 13343,
+      "sha256": "35aca26adf4226d8bd07e433cfab67886978fbf1ad9a049c3f3106b3b90928e9"
+    },
+    {
+      "path": "categories/finance-credit.html",
+      "size": 13821,
+      "sha256": "f25f47da9b02f42cefa1e281e1afe4d661e2c00445473f41989815178851040d"
+    },
+    {
+      "path": "categories/government-support.html",
+      "size": 19256,
+      "sha256": "247f74e91a25bb79c6ca21f44db22d8f2eb51fb995638b82da3349c72dd2115e"
+    },
+    {
+      "path": "categories/housing.html",
+      "size": 11871,
+      "sha256": "8fffc786f63c3511232bc7ab71aca60a08da30487895f1720b1d434ae3062e2f"
+    },
+    {
+      "path": "categories/index.html",
+      "size": 5405,
+      "sha256": "e7122d7d27d90089e7ff9de05de9d7a65a35428676e40b5c7e6e6a0702a08187"
+    },
+    {
+      "path": "categories/living-bills.html",
+      "size": 12503,
+      "sha256": "fc2165a37f81c618d10151c5af9418a8bcfc3caca0390035217cf5a9e53468d9"
+    },
+    {
+      "path": "categories/tax-refund.html",
+      "size": 12547,
+      "sha256": "c6ffc618a6a319e597f83b9156511ab9ca16cae5047f2775cb2ba98892cdd109"
+    },
+    {
+      "path": "categories/work-salary.html",
+      "size": 7204,
+      "sha256": "0ed878323d3333139e5438fc2ab1835de3667c2934a603499e20c4a489de797b"
+    },
+    {
+      "path": "check-hidden-refunds.html",
+      "size": 9490,
+      "sha256": "028bcc7b93902335a18a81c968ccb6eec7776dabb96538084e45765740840fab"
+    },
+    {
+      "path": "config/article_dna.json",
+      "size": 1190,
+      "sha256": "e1d151a8f0a92581bdcf73e31e3a8bb41904b973b1bfe1d62b984147ccd43dac"
+    },
+    {
+      "path": "config/article_types.json",
+      "size": 4008,
+      "sha256": "895119d69edf801f3159ec339a7fb47d993e67cc136feb3679477a5a4ffbb7b0"
+    },
+    {
+      "path": "config/qa_rules.json",
+      "size": 348,
+      "sha256": "aaf8109ad58362bbb2e0c642a92f211fe0a24f0ff61a1dcd475c6ea3f2fb4128"
+    },
+    {
+      "path": "contact.html",
+      "size": 7972,
+      "sha256": "5c07fbf21beedfbeaec1308cfd6d60ff96c4c3f05046159bf7c71e14b6682e8b"
+    },
+    {
+      "path": "cookie-policy.html",
+      "size": 5456,
+      "sha256": "d85ca737a4761e099990791e79fa3d414b7653ef5f40e4d610d0fb521bf48e5f"
+    },
+    {
+      "path": "credit-score-habits.html",
+      "size": 1540,
+      "sha256": "028225a3a21b103debf87abfb167ea4be836eddb556ddb18164ab1035b6df15b"
+    },
+    {
+      "path": "css/article-engine.css",
+      "size": 9723,
+      "sha256": "2ffcd0a296408e1e9dd964c766de76becc45099012a353e7a6b6e009b2bd067e"
+    },
+    {
+      "path": "css/brain-navigation.css",
+      "size": 3043,
+      "sha256": "a5a921f64b0501596a4a2bad117df7bcbeb5d056be81ad0caf6a6e5c8cdc4e2a"
+    },
+    {
+      "path": "css/calculator-drawer.css",
+      "size": 5677,
+      "sha256": "d15779b5e32de7dfaed073ecbaa33f25445fb4ed6cdd2da7abae8c9d0cd63174"
+    },
+    {
+      "path": "css/calculator-v2.css",
+      "size": 5866,
+      "sha256": "ff80f08a30c1ec0c89954f7e65ad78b99511a450f55d63875023d0d8b043356b"
+    },
+    {
+      "path": "css/electricity-topic.css",
+      "size": 1705,
+      "sha256": "c280c26c47d293c40465f7f4b3569781ce73b2c45823a7c511f796f69964d9c5"
+    },
+    {
+      "path": "css/savingio-brain-navigation.css",
+      "size": 5246,
+      "sha256": "e40eb7ea84f066eda0efd78565216c35dbf9c3b2b2f47f9f1a9d827929ed6fa1"
+    },
+    {
+      "path": "css/savingio-content-platform.css",
+      "size": 9320,
+      "sha256": "fa59034fad07c5b1c7b69fd39325cf3f84217e5b3b483f66150ecb1d352d836e"
+    },
+    {
+      "path": "css/service-portal.css",
+      "size": 6357,
+      "sha256": "5cb02ace983fc740ed54628765549804ce85db36aa92667c942e3a3bb10dad08"
+    },
+    {
+      "path": "css/style.css",
+      "size": 6247,
+      "sha256": "31e9e4cf6de1fafe5efabd34eb88316d2b6eb4824370f00443dee20b0dac4e14"
+    },
+    {
+      "path": "data/article-configs-v2.json",
+      "size": 32596,
+      "sha256": "85b1e8748d943634fb1c1818a4f7b4613469b5abed233834bcb0fcf5a3e4819d"
+    },
+    {
+      "path": "data/article-configs.json",
+      "size": 15982,
+      "sha256": "eaca29ebce8d3ef3249131b6e4401a9f34ff85b4f744e817048ecda580f5c774"
+    },
+    {
+      "path": "data/article-dna-schema.json",
+      "size": 2049,
+      "sha256": "9328277d0a3590c36bb2a92b789aba78fec43477b243db966c5acbfd9157819d"
+    },
+    {
+      "path": "data/article-type-rules.json",
+      "size": 2746,
+      "sha256": "f918351473f3a93866374286436cafe05db9ba748c9282f3300c825e61eb7aa5"
+    },
+    {
+      "path": "data/brain-navigation.json",
+      "size": 7755,
+      "sha256": "829c349f7cd22f85081d311e62e76f1649dd71e5f1e85b8a89cef2e00b16bf1a"
+    },
+    {
+      "path": "data/electricity-knowledge-graph.json",
+      "size": 2370,
+      "sha256": "f9e9be299f954a7e658fec52df0dad70f8fe51ad0fb0d3467c21a280f813e32f"
+    },
+    {
+      "path": "data/savingio-brain-data.js",
+      "size": 31733,
+      "sha256": "15fc9477d0f1b25fb58de96294bb780004a841762afbece0327f86b15c405542"
+    },
+    {
+      "path": "data/savingio-brain-data.json",
+      "size": 47841,
+      "sha256": "cf5bbf55ad9e3ed7337c72e79b8e0eb056aef7493cbc9b23113e2daea0aa78e5"
+    },
+    {
+      "path": "data/site-navigation-v2.json",
+      "size": 3399,
+      "sha256": "06c3cd941f113e97285f1228ac88510edb01c7f9a3b8a528bc34fc3c6fadefef"
+    },
+    {
+      "path": "data/site-navigation.json",
+      "size": 2646,
+      "sha256": "e940c536b7d7aceea25ea199a96e183b67fa936c0a96d31caaa65bf108bc97f2"
+    },
+    {
+      "path": "debit-card-vs-credit-card.html",
+      "size": 1564,
+      "sha256": "6ffdef5bc246885c831e04c5231971b6a080903b0561601f63fb8a6b6c1c9ac6"
+    },
+    {
+      "path": "disclaimer.html",
+      "size": 5262,
+      "sha256": "66ee43975eb93848905324ba9e99205447615768ff79bc10240b27e89ba9974e"
+    },
+    {
+      "path": "earned-income-tax-credit-korea.html",
+      "size": 1584,
+      "sha256": "1661efbfe2330b09092254e4b700b1134af8f1c6acbd85d2e015daaadba429a7"
+    },
+    {
+      "path": "editorial-policy.html",
+      "size": 5896,
+      "sha256": "775290949debb324b2085925b77a82e9178475568206e4665f159e1db24af029"
+    },
+    {
+      "path": "electricity-bill-saving.html",
+      "size": 1556,
+      "sha256": "91506059873055e5d89ace130269381aca407b49df93071ddf393cfdfe3b7188"
+    },
+    {
+      "path": "emergency-fund-guide.html",
+      "size": 1544,
+      "sha256": "f65c80efe8b155b36924783c32ec85d20033bc81af5d4120cbfda9c6c23c0721"
+    },
+    {
+      "path": "energy-voucher-application.html",
+      "size": 1568,
+      "sha256": "c26276efe881fb0aecb01acb85ca2cf7df851a4ba1f816413a4c7d1c1e85e0c7"
+    },
+    {
+      "path": "factory/.env.example",
+      "size": 203,
+      "sha256": "b593aee09a0cc628a7822d504a08ecafa30a10199d3cd8679e0996e123068cf4"
+    },
+    {
+      "path": "factory/.env.production.example",
+      "size": 365,
+      "sha256": "e78904aeda4d4d0314fa0cc26bf437f6b79ec31887caf54136f082f7bbd035e1"
+    },
+    {
+      "path": "factory/MASTER_PROGRESS.json",
+      "size": 5684,
+      "sha256": "fcc3a667569557d68467da509d52f3ad605cf54115cf03b5b54446b083c89efa"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_021.md",
+      "size": 1419,
+      "sha256": "6c24ccbf175194271c9057f216a986ee146bf69c5947a6bb4bb56b625bc75195"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_022.json",
+      "size": 777,
+      "sha256": "63560bd35d0470530cad255d5da464a6d599690eea424a1511233ff86f8ce2ed"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_025.json",
+      "size": 955,
+      "sha256": "d0da11da4442ddd3eaea9acd9abfcf2e773988ccf4ec1dff4c25077d7a025614"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_026.json",
+      "size": 545,
+      "sha256": "1dd61c18dea7b44e14c930ec7fc56ca0772f7141e550e684053d9e594a39b588"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_027.json",
+      "size": 247,
+      "sha256": "4cc9c3a4676ee1912c7a238b80b42423d7694aa59eec2393f9fffca5a8977fd8"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_028.json",
+      "size": 854,
+      "sha256": "32a888d215bc608baf93993d9fcfe951ff812f70f49edcf9dd4d270b04eb1523"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_029.json",
+      "size": 475,
+      "sha256": "6919be54f5e84ad6fc301ab573ccfe486001b40af973a09e712e1650210ebe32"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_030.json",
+      "size": 469,
+      "sha256": "171ff2e3bf663129ccc7adaa0bbfefd173d16118ac6d7f13b7b6b1060303bb6b"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_031.json",
+      "size": 851,
+      "sha256": "e35b59bed3c09c0da5d518313937b89937981cb2aa7d28522148b2497ea0e6aa"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_032.json",
+      "size": 781,
+      "sha256": "882a50681b9e834ae4a68fd4d42bd08c215480af1d8e2216b47b9a20dec86528"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_033.json",
+      "size": 558,
+      "sha256": "1fba62e646ca157a83c10724c8ff7dd6f95bde460ef8b3d8b8f4c5761c4ec65e"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_034.json",
+      "size": 641,
+      "sha256": "d7d7610bfa620848ad97376e8193cc0ba070d79480c0a271f3981de02e1c03c3"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_035.json",
+      "size": 598,
+      "sha256": "cf9f612d7da59d0d4ca9db1e372c058615388f97dca004e074d5bd51214e374d"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_036.json",
+      "size": 382,
+      "sha256": "de47d91655635416bfab1cff7c9f74c6a174cead660b31b69b25afedc353cde9"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_037A.json",
+      "size": 433,
+      "sha256": "1c13a60e0b511777c95ad5e9315b841d26c7493d18d351e9a9e9c5083e1c5b20"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_037B.json",
+      "size": 392,
+      "sha256": "8156f9baa32ee77f1b6fb6d5f5071fbf41358a0afc28590a5d9f2e4f260572a9"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_037C.json",
+      "size": 452,
+      "sha256": "1914005e3549284ec2a4650f122de8448964fc1a7798ca7379140ce2c2c5c17e"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_038.json",
+      "size": 509,
+      "sha256": "6cf302381c077cb1f31373c1b0604bffdd4fe6fb3c2ca29af38527baaec15c77"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_039.json",
+      "size": 402,
+      "sha256": "f311ea34b9381a1561be613eefe46d1150a00e3d2a47263c6f99066e21a19431"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_040.json",
+      "size": 509,
+      "sha256": "7638f1a5e5c35c29a4f14aa8744e64822c68f665cca55b0151e748c9e39a40fe"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_041.json",
+      "size": 532,
+      "sha256": "007b58513fd58256e92ba7793091ea68d90b85e14eabcbd0d905eac17920f816"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_042.json",
+      "size": 494,
+      "sha256": "ca7cdf686cd1554eae004a67b5f5a06fdaba59c79f85be3c1842b5e68cf66c01"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_043.json",
+      "size": 761,
+      "sha256": "a7683f0471915223a7f9d5c7a01d94a8f131ba6c3e84e455f96f9f26633d496e"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_044.json",
+      "size": 617,
+      "sha256": "fb67f3f0c64e2b9ef993e5b909141c62c3693b30bf873a34729d6afc6e6b4868"
+    },
+    {
+      "path": "factory/QA_CHECKLIST.md",
+      "size": 82,
+      "sha256": "9eb27778c5629da458c302dcb0aac850f6c167d1156d3cdf5405926fcac316ac"
+    },
+    {
+      "path": "factory/QA_REPORT_TEMPLATE.json",
+      "size": 49,
+      "sha256": "8fe817c8cf000b410e53c5504f15cac654c04141c671927a20a52e0df3c6bb91"
+    },
+    {
+      "path": "factory/QA_V2_015.json",
+      "size": 2682,
+      "sha256": "cc12a5dee8556018df9c19f326d3c1317cdc1ea21f2c2454816fbe36bb4b19a5"
+    },
+    {
+      "path": "factory/QA_V2_016.json",
+      "size": 7277,
+      "sha256": "7e34615c38ce7ca149864378ff3e1ac4c5fa5c6101fb11d628bbd349127bd63c"
+    },
+    {
+      "path": "factory/QA_V2_017.json",
+      "size": 1896,
+      "sha256": "1de0bf245f4a9b7c31bef3d9e171058f7009ca0c7e50f9b6092b8879701a03a3"
+    },
+    {
+      "path": "factory/QA_V2_018.json",
+      "size": 17570,
+      "sha256": "2faed3f042395d26e0f742087e3224252a0b7e9dea06e6d11d1c2568a14c07fb"
+    },
+    {
+      "path": "factory/QA_V2_019.json",
+      "size": 8046,
+      "sha256": "2c9c03462a764f4383fdf8874921012767c9f15d682a43fa7a47e56b0c17b48a"
+    },
+    {
+      "path": "factory/QA_V2_020.json",
+      "size": 16997,
+      "sha256": "91266bcc5ded37ac9161dd2c3611f563a935e16e77a206e8b71e9dd4585d2338"
+    },
+    {
+      "path": "factory/QA_V2_021.json",
+      "size": 868,
+      "sha256": "b822ca818507af33b4b8447bc1c0ba20c9952d697991f4366b2ccf796f4c7e1e"
+    },
+    {
+      "path": "factory/QA_V2_022.json",
+      "size": 19328,
+      "sha256": "dcd1b9be1087760f29d2eee11aaf6389db93a951672e91bcbf9ae65b36089ca2"
+    },
+    {
+      "path": "factory/QA_V2_023.json",
+      "size": 48,
+      "sha256": "8889e66adcaa7b9602194943d8f8ed702a4cfba18d269f0ec82881d526509bf9"
+    },
+    {
+      "path": "factory/QA_V2_025.json",
+      "size": 561,
+      "sha256": "1c7272123bd9b2b06a57d36db75939362d52d84cdbfd98e53502ed0867c458c2"
+    },
+    {
+      "path": "factory/QA_V2_026.json",
+      "size": 22084,
+      "sha256": "4951d75c35d1a8b1ecb5839c2393a14b0813b8f65cebc5199f53b9805a8321f3"
+    },
+    {
+      "path": "factory/QA_V2_028.json",
+      "size": 24975,
+      "sha256": "f31ffdf942bd1111e7de52a6cab6c6eb2da124083f6857cb6d77d2c5ad1e4aed"
+    },
+    {
+      "path": "factory/QA_V2_029.json",
+      "size": 25025,
+      "sha256": "92116391f4e1b8a243875ecfe099d0687ccd605ec58f6b6c4978b8f496dd1455"
+    },
+    {
+      "path": "factory/QA_V2_030.json",
+      "size": 7771,
+      "sha256": "9efebbd87a18c01d15368ef2b97db5cb9b102a2b1dc64ff576302a1f1cc6cfa4"
+    },
+    {
+      "path": "factory/QA_V2_031.json",
+      "size": 28157,
+      "sha256": "82bf4981de9d65db12a19ffb54d7cbdf80cd8a6c7466f57c2730516c54cec08f"
+    },
+    {
+      "path": "factory/QA_V2_032.json",
+      "size": 28517,
+      "sha256": "3622a6346a6457fba50ffc0c0e859d1b6cbfeafe8161c8e51946a03305e6da7a"
+    },
+    {
+      "path": "factory/QA_V2_033.json",
+      "size": 31723,
+      "sha256": "03cf1dc04025d97ef9fb74e4312a220b4e026600b20f4232226ebb708fb09cb6"
+    },
+    {
+      "path": "factory/QA_V2_034.json",
+      "size": 36399,
+      "sha256": "1004dd6efc4f06c13cb2778eac5f3b94d77eaa14a21ba6139d708ff34d6cc222"
+    },
+    {
+      "path": "factory/QA_V2_035.json",
+      "size": 13564,
+      "sha256": "4927fe0d22169e47500164c471ff86cebfb152e51be32e0fafa7ae8a8e0c4b48"
+    },
+    {
+      "path": "factory/QA_V2_036.json",
+      "size": 13419,
+      "sha256": "a480db3890ff9388f5e58555e5d1a146a805a00c26ea8c4d11306c00f924f2d4"
+    },
+    {
+      "path": "factory/QA_V2_037A.json",
+      "size": 36895,
+      "sha256": "9ac5e14734b7abcbedef70a1b455cdc4aac61feb4596ad944b09be94b8b1ca49"
+    },
+    {
+      "path": "factory/QA_V2_037B.json",
+      "size": 21720,
+      "sha256": "d78f1f8d6f20f74d0eafa4ac063cdadaa26af5c98b9f2afc99e9a5c870a6ea4d"
+    },
+    {
+      "path": "factory/QA_V2_037C.json",
+      "size": 32392,
+      "sha256": "39c15a55731dcf1eb807542456f8b67ed90c6748f54f8103ab25e490d67c6447"
+    },
+    {
+      "path": "factory/QA_V2_037D.json",
+      "size": 8865,
+      "sha256": "dcf55f716b78bf67c705b8406c58b6bbc409581a64853dc5c2fffd6a706aa048"
+    },
+    {
+      "path": "factory/QA_V2_038.json",
+      "size": 26356,
+      "sha256": "34d51951ca8f24a56974d1b7abaef7832df39658f55ee70865bb659a47403b2f"
+    },
+    {
+      "path": "factory/QA_V2_039.json",
+      "size": 9729,
+      "sha256": "d0b62a0d07b898ff017567092003f7d46013b7aa5f03709a233bcef374d28a79"
+    },
+    {
+      "path": "factory/QA_V2_040.json",
+      "size": 13190,
+      "sha256": "10a885d222035ad1f17a1418613b6ad3cb8de4e7d58da9a836a90a219b76dc87"
+    },
+    {
+      "path": "factory/QA_V2_041.json",
+      "size": 12041,
+      "sha256": "47f13baca3c779c51f3cc159e4e7748579c593c1762f6a93a8ecc9298bed33d9"
+    },
+    {
+      "path": "factory/QA_V2_042.json",
+      "size": 1014,
+      "sha256": "801c332b2940bd86c12f3b7bb005c93a3b7b521f468c820e8f8c59f63755d6a1"
+    },
+    {
+      "path": "factory/QA_V2_043.json",
+      "size": 2687,
+      "sha256": "ef172363bafa540828920c815386f18de015b9b040a82aa22adf07ebded971d3"
+    },
+    {
+      "path": "factory/QA_V2_044.json",
+      "size": 419,
+      "sha256": "ed92221d9a2626e7b6bbb8d5d7600ce779eb204d1728b8ad900d729d3060e20b"
+    },
+    {
+      "path": "factory/README.md",
+      "size": 783,
+      "sha256": "749fd1a90fa832b0ba2d14efc2cefda6ebdea91ff7c310e39690486b3a6ead6a"
+    },
+    {
+      "path": "factory/README_FACTORY.md",
+      "size": 8281,
+      "sha256": "f3889def6a80b37fbea037a4967a42daaf1471d2f82a01946ce648ae9c6caaf8"
+    },
+    {
+      "path": "factory/VERSION_V2_004.txt",
+      "size": 31,
+      "sha256": "8abba908cd242f1b8946d813c21ccc7522daaea094387b82dbbaa01a0bb44767"
+    },
+    {
+      "path": "factory/VERSION_V2_005.txt",
+      "size": 15,
+      "sha256": "f51daf470074ffc317ec4dd35f14711524777923cdda5e43d421044c46722a59"
+    },
+    {
+      "path": "factory/VERSION_V2_006.txt",
+      "size": 24,
+      "sha256": "21d37dc46e24e7c270971ffafc8da66e4166e226269fcb40b3f2e47aa49dae88"
+    },
+    {
+      "path": "factory/VERSION_V2_007.txt",
+      "size": 15,
+      "sha256": "1967fea1cd3aeab13b1d7e353f55e2a847ab658d61fd632f98f565c958850535"
+    },
+    {
+      "path": "factory/__init__.py",
+      "size": 65,
+      "sha256": "696e6ea8056bfc228e7ca9a4fcfe9badc5f29cffd1ad86a960f65c6a47f4f0f7"
+    },
+    {
+      "path": "factory/adsense_audit.py",
+      "size": 7992,
+      "sha256": "95a625642c9f1efbd1ccb2c14427528312da510feb92cb0414e3df549e1c5614"
+    },
+    {
+      "path": "factory/adsense_manager.py",
+      "size": 5451,
+      "sha256": "1bea76139ef01243b834263496d7a4564397606e7dac99a513a43f4745bc0b06"
+    },
+    {
+      "path": "factory/adsense_report_import.py",
+      "size": 3646,
+      "sha256": "a39b3345dfb6116dd8349a61a66dc37d1077a2dd6859504a5e5ba408039fcbbd"
+    },
+    {
+      "path": "factory/adsense_revenue_bridge.py",
+      "size": 1226,
+      "sha256": "3c544030ef1a30fde5a26d7dcb9057b7a0cb24ff46123ddb108c74d7dd7bd373"
+    },
+    {
+      "path": "factory/analytics_dashboard.py",
+      "size": 2081,
+      "sha256": "9178fdf282e674e738a0ceedfd2f629d237839024fb15a50efbaa2cb206b0854"
+    },
+    {
+      "path": "factory/analytics_rework_bridge.py",
+      "size": 1318,
+      "sha256": "dc746dc9fd0337c8a9afd13f1d9d4c76ca5935c235dda2674d822062b7fc811c"
+    },
+    {
+      "path": "factory/analytics_scheduler.py",
+      "size": 1181,
+      "sha256": "7505873760301366567bf96c049232e370fc46a21d066acc9f9a4ec68492fa36"
+    },
+    {
+      "path": "factory/approval_center.py",
+      "size": 1821,
+      "sha256": "e1e4bb8b4c3be0b2201dd2a9d1b1b088de86585b4f1875f1432a65260ff888ac"
+    },
+    {
+      "path": "factory/approval_checklist.py",
+      "size": 1654,
+      "sha256": "4df8fbc0b50890e6129453a65406049440e93cb445e36ac2321bbebdf9d9461a"
+    },
+    {
+      "path": "factory/approved_release_gate.py",
+      "size": 1893,
+      "sha256": "0aeebe9c71c84a5412479842f9b1cce486335dd2a5d60ee91cbdb188b5030cd2"
+    },
+    {
+      "path": "factory/approved_republish.py",
+      "size": 4655,
+      "sha256": "f3560ca211bbdf583e95fe7b960189f50ef9109db91cf216c0e4872270a63499"
+    },
+    {
+      "path": "factory/article_optimization_executor.py",
+      "size": 2826,
+      "sha256": "20044ddcebdbe52213fc0d138c05741bc7f937ce590861bb3b238de5ba8ecfcc"
+    },
+    {
+      "path": "factory/auditor.py",
+      "size": 1973,
+      "sha256": "ca86167a1694f670ff848f4975315a8af2a71abc3c95e6f7eefd4230be985d5f"
+    },
+    {
+      "path": "factory/auto_rework_engine.py",
+      "size": 1254,
+      "sha256": "a9f1a269520a3ebd15735cdbf35692566c41b2a6e719acc5d8f971e399d43c84"
+    },
+    {
+      "path": "factory/automation_cycle.py",
+      "size": 3191,
+      "sha256": "fae676e8d42876c86b35bca2e82622f324dfa6bcca1cf83212ead0938b4843b0"
+    },
+    {
+      "path": "factory/backlog.py",
+      "size": 1024,
+      "sha256": "4893b2e3058a7e547975bfaa522b7329ec272c762995512a653685de1d006798"
+    },
+    {
+      "path": "factory/batch.py",
+      "size": 1207,
+      "sha256": "d42213ecf6ad74e2c2da2b977d41caa54b4e16a60a82a52764f498c6bdd62474"
+    },
+    {
+      "path": "factory/batch_planner.py",
+      "size": 1610,
+      "sha256": "1383a3826e181a9e4860fc3f5767eba5d9a001c3c9275a432218d5d6b876758a"
+    },
+    {
+      "path": "factory/calculator_analytics.py",
+      "size": 1530,
+      "sha256": "e2dd0d2dc012e963981219c866e978781ec226d7045f5e03e7ead270b5154b21"
+    },
+    {
+      "path": "factory/calculator_cms_registry.py",
+      "size": 1048,
+      "sha256": "268819af6b7e3e13d5e9d8c6c88cf3cc18e8d20c5e47fc797d613769a439f453"
+    },
+    {
+      "path": "factory/calculator_generation_request.py",
+      "size": 1801,
+      "sha256": "2e44b1de7771c0223d86952837f9cc7a422651e31401a7d7eb26cea756a0805b"
+    },
+    {
+      "path": "factory/calculator_hq.py",
+      "size": 1470,
+      "sha256": "f3c40256f1b17cb7408f9d3a1ed1016936d0c4c496c2f7d170d300b486aab7a9"
+    },
+    {
+      "path": "factory/calculator_intent_engine.py",
+      "size": 1584,
+      "sha256": "4d1f8972c76c6b3a63402bcd4c953bf2b6443e4df3a8055b17a4716d8f4e7baf"
+    },
+    {
+      "path": "factory/calculator_matcher.py",
+      "size": 901,
+      "sha256": "c0983f94e97827fdd533cdc0b3319c40c3f12528bee0f09a899c897386f3af4a"
+    },
+    {
+      "path": "factory/calculator_qa.py",
+      "size": 1703,
+      "sha256": "ad57a59d727e7c6248fb5ed88c5307256319456383884de91ef697fc58f57d55"
+    },
+    {
+      "path": "factory/calculator_registry.py",
+      "size": 2017,
+      "sha256": "55e55e0b25e441117b268a556640c5edaacc5542c077c90849a064807be492cc"
+    },
+    {
+      "path": "factory/calculator_solution_package.py",
+      "size": 2436,
+      "sha256": "009539107e81022403cd3f97c3126d900cdfbc1ab00d2a784cd3caaefd134574"
+    },
+    {
+      "path": "factory/catalog.py",
+      "size": 1426,
+      "sha256": "4d8aba181d43e4fdd7928b718ae77672179b39d9435649bb54a1b8bb5a92dab2"
+    },
+    {
+      "path": "factory/cloudflare_deploy.py",
+      "size": 1396,
+      "sha256": "ba329e283cd608a0a684009ba67f6c2c08997d506d6c54505fcc12bc0b6749b7"
+    },
+    {
+      "path": "factory/cloudflare_deploy_verify.py",
+      "size": 848,
+      "sha256": "b205d8b34e7d657c988482633ece71e7a3743d3323926d182a3b3ae11207ddc6"
+    },
+    {
+      "path": "factory/cloudflare_deployment_monitor.py",
+      "size": 2104,
+      "sha256": "8c6a3c69d47cefea193447e56f744c889c04c04b183e2e059659bbc91484b4b8"
+    },
+    {
+      "path": "factory/cloudflare_health_check.py",
+      "size": 1618,
+      "sha256": "45338d53739ffb651e58f0b7a9be1c4f1154a1cde818a4decd45c2d518b8ed3f"
+    },
+    {
+      "path": "factory/cloudflare_new_deployment.py",
+      "size": 2066,
+      "sha256": "173747c609a253f88aa2b929d8718055c524f58e6ef5a6c30857ad766072cb76"
+    },
+    {
+      "path": "factory/cloudflare_pages_client.py",
+      "size": 2485,
+      "sha256": "0c0b63e86ca8e06671e83261f55d982c4e89ebc4f447eec765db6138ed2f1df5"
+    },
+    {
+      "path": "factory/cms.py",
+      "size": 1022,
+      "sha256": "fb2dc74e09c784e488e98301b6788ec6a18a8ecd5e22056b871ca0831ebee93b"
+    },
+    {
+      "path": "factory/config/adsense_identity.json",
+      "size": 488,
+      "sha256": "0916fdb1f3abf6e3007970344dc06b442f940b24bf53cf2438ce218cb6909bea"
+    },
+    {
+      "path": "factory/config/adsense_rules.json",
+      "size": 320,
+      "sha256": "c0fd7ccca710d14dc928619666b31fd3dc3320f0f7fe8c29dbf1f43880e92529"
+    },
+    {
+      "path": "factory/config/analytics_rules.json",
+      "size": 426,
+      "sha256": "a4909a7987c880d7abb3ba0363dde0baafdcd2065aad74bd486e1c2901449efd"
+    },
+    {
+      "path": "factory/config/analytics_schedule_rules.json",
+      "size": 185,
+      "sha256": "a7f1597fbfea17dd33e2495ab2794077242e13a06bbd2099647bc1d33dea2551"
+    },
+    {
+      "path": "factory/config/approved_republish_rules.json",
+      "size": 316,
+      "sha256": "312c5ff623f5490699219c0026d7433da30c879dc3b0521e73cd3b6592f8743a"
+    },
+    {
+      "path": "factory/config/article_dna.json",
+      "size": 311,
+      "sha256": "baa5d7917293da5fd8ef96c13c7e09cb8f151d1a5ca7115bbe18bb60a550f551"
+    },
+    {
+      "path": "factory/config/article_types.json",
+      "size": 2095,
+      "sha256": "f6c4fa7d0c203ce9c89381c24b1415563181e8ec6ccc087c4a2cc1eb07374447"
+    },
+    {
+      "path": "factory/config/automation_execution_rules.json",
+      "size": 182,
+      "sha256": "d610061a5f1cdfd86c9364bb4cd85df012d73af911244516321b2fb5f8d4e0c4"
+    },
+    {
+      "path": "factory/config/automation_rules.json",
+      "size": 289,
+      "sha256": "5359bf40aea062a02f38c1046c020b1deedd3c622827a1b223354b5da1dbd111"
+    },
+    {
+      "path": "factory/config/calculator_hq_rules.json",
+      "size": 335,
+      "sha256": "fa3b8a481bb6c611cf4bc99bd60cb7d05ed0d0564e72a413d3843f73579acdd6"
+    },
+    {
+      "path": "factory/config/calculator_registry.json",
+      "size": 5149,
+      "sha256": "76fbb1330ee6628b67179abbcba58b4389d9f893b5fb1073b38d3f88424d0132"
+    },
+    {
+      "path": "factory/config/department_board.json",
+      "size": 44,
+      "sha256": "f0be742beb9a788bca55b37540608fe45a9c50a4fb0d58224da262ba4bf392d6"
+    },
+    {
+      "path": "factory/config/department_contracts.json",
+      "size": 1470,
+      "sha256": "fe4aaedc35b4fb983af0a7ca98a80b3eb9e37625b6a7e1de38059719caee7533"
+    },
+    {
+      "path": "factory/config/department_gate_rules.json",
+      "size": 1900,
+      "sha256": "97dbb00a1c22ebeb4bdc91780169a1fdf7a7fb414b23b5a9c53d9dc56864ce19"
+    },
+    {
+      "path": "factory/config/deployment_execution_rules.json",
+      "size": 288,
+      "sha256": "b8cc1fde947d99ced0118004c6ca5f8d4e9365ca843a84c22632b016b276befc"
+    },
+    {
+      "path": "factory/config/external_integration_registry.json",
+      "size": 2008,
+      "sha256": "3cf4aae82242116bc513d3ac14e8ae0272a64de6a011c45a655ca6ef14835f0c"
+    },
+    {
+      "path": "factory/config/external_services.json",
+      "size": 439,
+      "sha256": "82f80c4efe412f7574ecb33e29e30383536f3f2af0314db80bd71e6d1b9d4e2f"
+    },
+    {
+      "path": "factory/config/external_verification_rules.json",
+      "size": 266,
+      "sha256": "43f6dad4a274a3b6cb74104ac1115e874cb8216f1225cc642d49cca8f534a78a"
+    },
+    {
+      "path": "factory/config/factory_manifest.json",
+      "size": 1588,
+      "sha256": "29124040d7a498a8e7d31af6fd7a9917d24bdf02115e846ae2d75a59671b2f42"
+    },
+    {
+      "path": "factory/config/final_release_rules.json",
+      "size": 188,
+      "sha256": "24027c4a3f8fbce45087f376ebed1a1857c44b5d62cb367bf1fb9e187e6ae8b5"
+    },
+    {
+      "path": "factory/config/government_api_services.json",
+      "size": 365,
+      "sha256": "383a1e057bc2950b27ba908fc5942818cabfc7560244a0f5ac5aadacb2662996"
+    },
+    {
+      "path": "factory/config/openapi_sources.json",
+      "size": 327,
+      "sha256": "d8508447f297aa90759afa58409661e1f3cfbe95d7c9c8b47f58e34c04a6a1f6"
+    },
+    {
+      "path": "factory/config/operations_monitoring_rules.json",
+      "size": 306,
+      "sha256": "dbb55b5eae092813b1661e21f1025e76f12a867bf809fe1f48739ea24a50cbeb"
+    },
+    {
+      "path": "factory/config/orchestrator_rules.json",
+      "size": 238,
+      "sha256": "d50d3c3e9d04175fd4dd9afd24709e987712e0a8426091eea53702d8b68d322a"
+    },
+    {
+      "path": "factory/config/production_readiness_rules.json",
+      "size": 226,
+      "sha256": "3e445cbff8bfe632f3aaa6b9062a679e12361bfb07b017b54447e86b3df34f23"
+    },
+    {
+      "path": "factory/config/publication_rules.json",
+      "size": 199,
+      "sha256": "a2546263fb27569a5dfd7591998d248810195f263d7253eb128932f6ec08c403"
+    },
+    {
+      "path": "factory/config/qa_rules.json",
+      "size": 568,
+      "sha256": "6f83c78ba337d75ea05070210d570243f30fe6f513a01fa184e8a3128a062048"
+    },
+    {
+      "path": "factory/config/release_rules.json",
+      "size": 269,
+      "sha256": "45571c10da299738ed9e1b2bc270da18cc8f1dbf6e2bdf5e0af1d2a12d096478"
+    },
+    {
+      "path": "factory/config/renewal_rules.json",
+      "size": 168,
+      "sha256": "53cd3de0d6a10f116c06db03d22bee2c5dd6362fe0b93b49154d8bb61bc39e47"
+    },
+    {
+      "path": "factory/config/research_quality_rules.json",
+      "size": 348,
+      "sha256": "be868ee2af9c6ef9d48a453007e224934a3052da209c20cc2dddbb1b092b67f4"
+    },
+    {
+      "path": "factory/config/research_rules.json",
+      "size": 1131,
+      "sha256": "2857664b34cdbd25299c6d7528f3523c243dc35b1968dd6a80739a1733a0094b"
+    },
+    {
+      "path": "factory/config/revenue_ai_rules.json",
+      "size": 183,
+      "sha256": "116f798de60e9cffb1cd8ff91b36a836f740a25a138c8f1133b3f30a97a20733"
+    },
+    {
+      "path": "factory/config/revenue_rework_rules.json",
+      "size": 289,
+      "sha256": "6552b3122c7479326511a4f06e89f459daeb65a1d33b808e40be3d96ee1380f8"
+    },
+    {
+      "path": "factory/config/search_evidence_rules.json",
+      "size": 165,
+      "sha256": "d3bb8d66d9da7765476d16cd270a346ae99a8ee0e38366a6a979d31ea93996a2"
+    },
+    {
+      "path": "factory/config/seo_rules.json",
+      "size": 132,
+      "sha256": "64bbc75b2e726a01f74037c81ded5e4735ef03b4e9ba08643d48f951b6e2ed0b"
+    },
+    {
+      "path": "factory/config/site_health_rules.json",
+      "size": 140,
+      "sha256": "d796d61d2d4a1aeeb310c4db7a73521f2a3172d989fd76406c5d00ce9bf08ff1"
+    },
+    {
+      "path": "factory/config/source_registry.json",
+      "size": 3777,
+      "sha256": "02b88521f3463cd90398a27b6edda70a0db737329dd4a59b72b3c21a08226bd8"
+    },
+    {
+      "path": "factory/config/web_connector_rules.json",
+      "size": 213,
+      "sha256": "ae35e9f2dfd8fa9745ee4800b0ba44f08e585262dffcf08fc884a481d0b188c6"
+    },
+    {
+      "path": "factory/config/wordpress_publish_rules.json",
+      "size": 180,
+      "sha256": "066a7461c047546a7afd767d71b8fc0b810105de06e9e31bfe1dbbd3859b4aaf"
+    },
+    {
+      "path": "factory/config/workflow_rules.json",
+      "size": 362,
+      "sha256": "2a01b0590951fa7a81d8b184be63418c2263b64fbe02064d0a533c480c63f777"
+    },
+    {
+      "path": "factory/connector_verification_receipt.py",
+      "size": 1939,
+      "sha256": "7d44bc63afcb0ac7b48f1cc97b150862d7d0c35bcfa9019d656cbbc5215fb63c"
+    },
+    {
+      "path": "factory/connector_verification_runner.py",
+      "size": 1830,
+      "sha256": "e5cfe78bd13f8520d6048aca24286c78069f65779b809cf6310e56d0fe856852"
+    },
+    {
+      "path": "factory/content_performance_optimizer.py",
+      "size": 1543,
+      "sha256": "6e4117117c0a61ed12a45649007f3f5c65e2fbf7ca28a3fe89c77dfdd0b05232"
+    },
+    {
+      "path": "factory/contracts.py",
+      "size": 1041,
+      "sha256": "c105d495fbaf9f7ea014d6d4a1857a5be161262d793c7924f618e994d78c4ae2"
+    },
+    {
+      "path": "factory/credential_onboarding.py",
+      "size": 2751,
+      "sha256": "4ef8e9e7dc6341b453df473bcc4603ecb0f9320fae44374b774d62a97140f046"
+    },
+    {
+      "path": "factory/cycle_dashboard.py",
+      "size": 829,
+      "sha256": "f9527df5024806be437b25cd9b626381910ba3c7cc15ff7dfbfc70afb5635e58"
+    },
+    {
+      "path": "factory/dedupe.py",
+      "size": 1869,
+      "sha256": "5ef14ef1ec99a61d6d1fd7dda50f1fe2938514d6e3aa8cae689008148ff3230d"
+    },
+    {
+      "path": "factory/department_board.py",
+      "size": 311,
+      "sha256": "d22ea998a5b68686152db4ea2bb42dd597b348237ea8ee26ae9641503e969e39"
+    },
+    {
+      "path": "factory/department_gate.py",
+      "size": 625,
+      "sha256": "142c373b1aa859bc6dfd14caeb8e884f83589f29b3e58a79a94d6fe9e6d30c91"
+    },
+    {
+      "path": "factory/department_handoff.py",
+      "size": 946,
+      "sha256": "050f8542cafc4d33391f65850a442ec034b8e4fcb718f409fcf4aea1cf94ada8"
+    },
+    {
+      "path": "factory/deploy.py",
+      "size": 926,
+      "sha256": "7e148edb3a5b07206f69c65a3f03527f131d5be479c7709fa4fafcfe230b25de"
+    },
+    {
+      "path": "factory/deployment_gate.py",
+      "size": 2069,
+      "sha256": "c35075f083fd9831945f910068c0d683ea3a64a6a96ba221156a80296bf3ecd8"
+    },
+    {
+      "path": "factory/deployment_integrity.py",
+      "size": 3783,
+      "sha256": "9e55d04e3441644be1237d8a5dc2459b0c7f49f67fd694b397888e13d626b99c"
+    },
+    {
+      "path": "factory/deployment_receipt.py",
+      "size": 1032,
+      "sha256": "a1679c733e213d0329db9fc627d689ea2ecbd0d687dc544877a3e547c78ee934"
+    },
+    {
+      "path": "factory/dna_versioning.py",
+      "size": 1120,
+      "sha256": "3641c9ca52159abd76ee5684e5741efc7f2b1b25f6c1466955122ace3ade960c"
+    },
+    {
+      "path": "factory/doctor.py",
+      "size": 7167,
+      "sha256": "418a5871c8b76417ea2350e5a346c9ae82e71f9309a8d6b556dc718fd9518717"
+    },
+    {
+      "path": "factory/eeat.py",
+      "size": 1811,
+      "sha256": "ad82494fdc4bd1a83b0e28123a0a89414d3f88c10b4936568278a7b91fbe0d2e"
+    },
+    {
+      "path": "factory/end_to_end_audit.py",
+      "size": 1175,
+      "sha256": "6f70e4624d092999d396265e1bc212c74451893471af044df51577338cf2f441"
+    },
+    {
+      "path": "factory/event_log.py",
+      "size": 1103,
+      "sha256": "482d4d81b7d54503fb274286009e64ee0d23dc928e2e44e3672f895e34dc94af"
+    },
+    {
+      "path": "factory/evidence.py",
+      "size": 1388,
+      "sha256": "9e8757235d1c7567b4dc8cc17044b1a450bafdefed30c5e613026348d493b62e"
+    },
+    {
+      "path": "factory/evidence_merge.py",
+      "size": 2165,
+      "sha256": "6d6614e35c18f3a5ca354af1f50ea2a394fb7c2998facdbf3e38c36be8dac140"
+    },
+    {
+      "path": "factory/external_integration_registry.py",
+      "size": 890,
+      "sha256": "59d28e2f508af98d8b831209704313329392d55625938812d158926859a97655"
+    },
+    {
+      "path": "factory/external_verification_center.py",
+      "size": 1187,
+      "sha256": "4f0aa4e9cd4a448512531710c6a878a6083f26052688692b63a4d428c6766235"
+    },
+    {
+      "path": "factory/factory_cleaner.py",
+      "size": 1693,
+      "sha256": "c23fb908f4d6b4c7063265e3b78348ee4241b2cf5748d0847a3e07aa9da3ef3c"
+    },
+    {
+      "path": "factory/factory_cli.py",
+      "size": 237,
+      "sha256": "9896cbd9a78609684944df49f021468801b15b01b414ee44f640c97e942e3e77"
+    },
+    {
+      "path": "factory/final_release_coordinator.py",
+      "size": 981,
+      "sha256": "57bce9303defe3b6af768a7bb3cb0e1b090f6d3475ba259b9a6161b6f5e174fd"
+    },
+    {
+      "path": "factory/final_release_manifest.py",
+      "size": 785,
+      "sha256": "fdc6840216ed0d13e0f34cebee906909b441742a37452e6452a4c2cc2d584560"
+    },
+    {
+      "path": "factory/full_automation.py",
+      "size": 5970,
+      "sha256": "b13bb0f4cc8361ce2d3229cab0ca1f0326e2345217e603e8d3fe1e65c083218b"
+    },
+    {
+      "path": "factory/ga4_api.py",
+      "size": 2280,
+      "sha256": "737c9b5712f2c910a0e18e6643abfe26624fded4c766f7d519b4b33e02c1befc"
+    },
+    {
+      "path": "factory/ga4_engine.py",
+      "size": 2223,
+      "sha256": "e7bc57a073d1e385f49b6e5a23fe526141d8bcb9da007ed7d73ff7dd957fd51e"
+    },
+    {
+      "path": "factory/git_engine.py",
+      "size": 933,
+      "sha256": "c7a4e9198aad180712faeb92c8505e9be328d4fed64a9c3ec8485683978b42e9"
+    },
+    {
+      "path": "factory/git_executor.py",
+      "size": 1914,
+      "sha256": "e41647e32f7a790417eeee757915f30f2fcf6ac972949ef3240ba0674dcf9060"
+    },
+    {
+      "path": "factory/git_release_executor.py",
+      "size": 3427,
+      "sha256": "9e42b710a35478f48532582a60308051244c0be5e0e2e74aeaeefc8eee6cbd0e"
+    },
+    {
+      "path": "factory/google_access_token.py",
+      "size": 771,
+      "sha256": "9fa51f55bae92d5e92e077f9fce08dcc8e34b3a65c31ec0be955bce414d508a4"
+    },
+    {
+      "path": "factory/google_jwt_auth.py",
+      "size": 2475,
+      "sha256": "4ffa99f5727fac40e622675f58bb4ecf1f9ffadd99ea16f1fde4c9b5543a6102"
+    },
+    {
+      "path": "factory/google_service_auth.py",
+      "size": 1459,
+      "sha256": "aaceedaec4d175f6866a23a81fc69b47b36fba1f2095007ae5c8ff0e26a549c6"
+    },
+    {
+      "path": "factory/google_token_exchange.py",
+      "size": 2726,
+      "sha256": "98f9b129db1998006555939052185cc57a30ea4f16ded6844131e8681aa923f7"
+    },
+    {
+      "path": "factory/government_api_adapters.py",
+      "size": 1609,
+      "sha256": "1df730e25a0eadef95d95e3e96719206367d9a526a4ab4903a1ef5b40c20a79b"
+    },
+    {
+      "path": "factory/history/#Uad00#Ub9ac#Ube44-#Uc808#Uc57d-8e9b7c5b.json",
+      "size": 6730,
+      "sha256": "12bd70fda7e84f577b070512663f2fe86891b8eac3d142c5dd9df64e70d0c718"
+    },
+    {
+      "path": "factory/history/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77b.json",
+      "size": 12661,
+      "sha256": "520fb30f2c34ae9bb99ddbe0843ad5b354b88eee573a349935652ac0ddc727a2"
+    },
+    {
+      "path": "factory/history/department_events.jsonl",
+      "size": 4863,
+      "sha256": "770331e7f93ca813edf69d47ad5fd3da9cd502e48235297a1d2d6b2be03a9518"
+    },
+    {
+      "path": "factory/history/events.jsonl",
+      "size": 860,
+      "sha256": "dd16bfc360b33da06bb2dadaf18611a199b138b6bb9e6799a00eaacfd66bf7d0"
+    },
+    {
+      "path": "factory/history.py",
+      "size": 820,
+      "sha256": "338072e2c9c7666797dd369873354194647d1c298bb55c060fd0dce0d31c439d"
+    },
+    {
+      "path": "factory/image_adapters.py",
+      "size": 1504,
+      "sha256": "eea3efbd9158b3982e9630ad2f79fb096f19ffdde56b473572c2ebbe8adff8c0"
+    },
+    {
+      "path": "factory/image_engine.py",
+      "size": 1867,
+      "sha256": "67d7ce62d6aba15100e2b01fb8e10f134f3b49d01726b870f30b4b1eb84e37c4"
+    },
+    {
+      "path": "factory/image_provider_result.py",
+      "size": 814,
+      "sha256": "2626480809b7383318b316c30ac1cc54519405c896897cd6cb3827c30c2a2964"
+    },
+    {
+      "path": "factory/image_queue.py",
+      "size": 2180,
+      "sha256": "a536f7e67b73c9da673ca0b9249576a5dede3406e868f3b82f5f156d29a6b10c"
+    },
+    {
+      "path": "factory/image_result_linker.py",
+      "size": 2359,
+      "sha256": "b816b062e4d3779099f5328db15523913d6b9adb0981b502eaf89f0d76a191fe"
+    },
+    {
+      "path": "factory/incident_detector.py",
+      "size": 2048,
+      "sha256": "a7b17d690463719dcaf81729c70113eab7a17f03ec4215b4433ce21e66c3a864"
+    },
+    {
+      "path": "factory/incremental.py",
+      "size": 1366,
+      "sha256": "b0773b041613ecbd9fd112a72b0bc398e90adc1b759cdc60b6d3e8cd01672b84"
+    },
+    {
+      "path": "factory/indexability.py",
+      "size": 1813,
+      "sha256": "3adab4558a08cdcb2f31346b53882912aa0ab598130a37bd3435ebb1a0b34599"
+    },
+    {
+      "path": "factory/input/evidence.example.json",
+      "size": 232,
+      "sha256": "0a1a64fc68fcb5952db9a3467469b32a99a31a753f5b0466aacbc41e216274a9"
+    },
+    {
+      "path": "factory/input/evidence.qa.json",
+      "size": 330,
+      "sha256": "0e2bfdcdbbea44432cb969ce497d45fc1d747f00a9c3b24221379f5531eede0f"
+    },
+    {
+      "path": "factory/input/sample_adsense_report.csv",
+      "size": 109,
+      "sha256": "e08cc75883f47a324b2e4ce2e978c03ed17762ee3aab4048945dab730cb8de8d"
+    },
+    {
+      "path": "factory/input/sample_ga4.json",
+      "size": 612,
+      "sha256": "c2e47054fafdd0fcf9e33abbf89fbb83620272042965eba37902d08457edbf5b"
+    },
+    {
+      "path": "factory/input/sample_revenue.csv",
+      "size": 99,
+      "sha256": "8e7bc69c2037f34b6bd58e8a76fa0d171fa2d2d384b6937ec3cf3b6361dc35d5"
+    },
+    {
+      "path": "factory/input/sample_search_console.json",
+      "size": 242,
+      "sha256": "8aad8666777f2414cc1920e407b6ec0330e3004bc25a72d114b5b7e0141c4701"
+    },
+    {
+      "path": "factory/input/topics.example.txt",
+      "size": 87,
+      "sha256": "c28174191dac0fd6278f1beb73a19910470fe95477c5b401baff218fb557b02e"
+    },
+    {
+      "path": "factory/integration_preflight.py",
+      "size": 1503,
+      "sha256": "8324c4c981d281cfa3bdc5d9c8a9736485864834f216cecd10289fe5f7fa0ae6"
+    },
+    {
+      "path": "factory/keyword_rank_tracker.py",
+      "size": 1523,
+      "sha256": "60dca40cc259302dbbfae47a6abc847e049f1b053ebaa3baf3a4b36d01e6ad4b"
+    },
+    {
+      "path": "factory/link_graph.py",
+      "size": 2203,
+      "sha256": "2acbec1866b87ee1ea4c7105093ea70f4c4a015ffb9abaaa3bcd9d4e59598330"
+    },
+    {
+      "path": "factory/live_verification_plan.py",
+      "size": 2478,
+      "sha256": "bcb798a64602e9d0e25f0f09adc6e1e9d305f732bdb1e729ddb9f3fe55911ccd"
+    },
+    {
+      "path": "factory/master_checklist.py",
+      "size": 831,
+      "sha256": "508cccc1a711274944f22ace651c2e05bc5091f496f71fb4ba0a1ef0665ce8bd"
+    },
+    {
+      "path": "factory/message_bus.py",
+      "size": 3404,
+      "sha256": "62cf0af8412efd5d87773919660e70a68e7e22f08576613688236b9c0c655e18"
+    },
+    {
+      "path": "factory/openapi_connector.py",
+      "size": 2824,
+      "sha256": "1ba4892728aa17db40174ec661e3a296d57fcb46d8b9329b980eef9b5042a7da"
+    },
+    {
+      "path": "factory/operation_board.py",
+      "size": 1034,
+      "sha256": "d27905746dbee7b6fc105cce9f08456345aaa242a4ad2668e003f5179d831124"
+    },
+    {
+      "path": "factory/operations/README_V2024.md",
+      "size": 116,
+      "sha256": "83cbd27cb402d842f0bf8cf985cf4cd395a7af81329aead8e924f7eb20dc0aa4"
+    },
+    {
+      "path": "factory/operations/message_bus.py",
+      "size": 379,
+      "sha256": "837423d5063bb23e893279d531b52ed979a5c9d1a3f8f9901b6683ac7dcb843e"
+    },
+    {
+      "path": "factory/operations/scheduler/cron.example",
+      "size": 123,
+      "sha256": "27567c3cd3dbaeb2074ba10103e028d715a20b6811a397b202fcddb56c3e620e"
+    },
+    {
+      "path": "factory/operations/scheduler/install-windows-task.ps1",
+      "size": 383,
+      "sha256": "6bb562c2c378094a7b0a2f1e7db7e4efaf01f463a16a789c3b00205cbc486e1c"
+    },
+    {
+      "path": "factory/operations/scheduler/run-daily-analytics.bat",
+      "size": 178,
+      "sha256": "616afff7ce6ba685291d85cfa3528a3e48869fffdc05c715e0dbb8262b67b732"
+    },
+    {
+      "path": "factory/operations_center.py",
+      "size": 791,
+      "sha256": "a473b5ddcb8b2150475e11c96af3f06af431b6c5d4aa5f8e384193001f6418b6"
+    },
+    {
+      "path": "factory/operations_snapshot.py",
+      "size": 2452,
+      "sha256": "cef6aadf5737b3202af41d89b34d554b89fceb52a62c85971b658271b9c5399f"
+    },
+    {
+      "path": "factory/orchestrator.py",
+      "size": 2719,
+      "sha256": "d0930fdd6043bb94830a54ef4d2afc41ee9a171c8cc19f41f14c46d006912b92"
+    },
+    {
+      "path": "factory/output/MASTER_CHECKLIST.json",
+      "size": 1334,
+      "sha256": "57f6f95c7573cead2bb1ba0b53ec1e9688e4454a4c62d58f6fd78bfaf668c7a8"
+    },
+    {
+      "path": "factory/output/adsense/ads_txt_report.json",
+      "size": 123,
+      "sha256": "a8dc09f09664f0da386ac28674144853116a91f60f4ffd642708d8965d9abf0b"
+    },
+    {
+      "path": "factory/output/adsense/adsense_lock_report.json",
+      "size": 3346,
+      "sha256": "753a84ab5a53860b081e6029fcd1b3f26ee3d3456411d144c2254efca30e346b"
+    },
+    {
+      "path": "factory/output/adsense/index_report.json",
+      "size": 150,
+      "sha256": "ab5e6c741fea745675170ede98e814462b61726a3117934566b88146fcdbd141"
+    },
+    {
+      "path": "factory/output/adsense/publisher_scan.json",
+      "size": 2554,
+      "sha256": "6d01fa630056cfefd6319dde71e1a11c90ea4bde7173eb19a607391dbac867d7"
+    },
+    {
+      "path": "factory/output/adsense/repair_report.json",
+      "size": 86,
+      "sha256": "1433ea1f1970491907217525f83edf150a2421791ef00a9140197aaf34b23abb"
+    },
+    {
+      "path": "factory/output/adsense_audit.json",
+      "size": 181219,
+      "sha256": "2b7fe94bc38f07aff58e259e0443781ab1ddc91eb65f33385c5a0da66069d03b"
+    },
+    {
+      "path": "factory/output/adsense_fix_queue.json",
+      "size": 27737,
+      "sha256": "a2353ce29d44fe29286714afd4e4e741ea353f5aad2ffcc7663696d59cb0a828"
+    },
+    {
+      "path": "factory/output/adsense_summary.json",
+      "size": 421,
+      "sha256": "7ce0df41c56b089e7d805aa347a17ce6b7b224a75baa681c9d000d4cc68b8951"
+    },
+    {
+      "path": "factory/output/analytics/daily_run.json",
+      "size": 1142,
+      "sha256": "0369b0b3b7dfb6944424d3c3416743890b5633ab974e4962b45a860fcab8bb1b"
+    },
+    {
+      "path": "factory/output/analytics/dashboard.json",
+      "size": 488,
+      "sha256": "03bdac761ffdd65c975789aca1fc878db792f691f23895b1427e6d9ab9cfea20"
+    },
+    {
+      "path": "factory/output/analytics/ga4.json",
+      "size": 482,
+      "sha256": "ad924aedb066c77104e03db6560ce3414699aefd61cd8e81f5396c5c0cce2aa1"
+    },
+    {
+      "path": "factory/output/analytics/keyword_rankings.json",
+      "size": 284,
+      "sha256": "c34737b42dbddde5cdb5bdff433ec927f5f6dd940ae5a849591a7a834d8fd2f2"
+    },
+    {
+      "path": "factory/output/analytics/optimization_actions.json",
+      "size": 268,
+      "sha256": "55f3ec7bccabd11ee56b12a390fab375e8651529f7a4c358a22b29540b447383"
+    },
+    {
+      "path": "factory/output/analytics/optimization_execution.json",
+      "size": 284,
+      "sha256": "1f9f6248ad8965cbb0c429bfa885504ff90b882adfef5858377c97b0b457ad0c"
+    },
+    {
+      "path": "factory/output/analytics/rework_dispatch.json",
+      "size": 277,
+      "sha256": "7acbeb2711e06e0f797bb5a14954cdef909f5f837a8f9ecfaa43f9f1e1f36dae"
+    },
+    {
+      "path": "factory/output/analytics/search_console.json",
+      "size": 367,
+      "sha256": "13efb9ce39a088bb1978cd93b5ce9c4d022392469f99fdb5f41fdb082c308b39"
+    },
+    {
+      "path": "factory/output/approval_request.json",
+      "size": 372,
+      "sha256": "e888d7c896efa91714fb1b4dad3f30fe90e095852a23016c90071f9f2f7c4d95"
+    },
+    {
+      "path": "factory/output/approved_republish_report.json",
+      "size": 30,
+      "sha256": "9946273e4a3115c4a1bc890d0bcfe6526fdd084298ace4066a637b4f9aaf2617"
+    },
+    {
+      "path": "factory/output/article_audit.json",
+      "size": 16593,
+      "sha256": "bb1d7097c1c7142cc788e61e30170175572e43d65d4528b53c1aae66d90460df"
+    },
+    {
+      "path": "factory/output/article_catalog.json",
+      "size": 53901,
+      "sha256": "22a203efa3a5d59fb94833043d3691648d3c34fe4a5f6f2d3e50b8980a83bf0b"
+    },
+    {
+      "path": "factory/output/auto_rework_route.json",
+      "size": 324,
+      "sha256": "4b6c93c1cb510e86bc5612a1be51a39a1b4fa3d3b635580678748041fe48d10b"
+    },
+    {
+      "path": "factory/output/automation_cycle_report.json",
+      "size": 29283,
+      "sha256": "6721864efdc2d6427b7f91d3320c477b7a827d07a66417f4c457b11cfa13a44d"
+    },
+    {
+      "path": "factory/output/batch_report.json",
+      "size": 694,
+      "sha256": "931268f4b819418e24c2ab7a820bc2d8f3db68b8173365f5139b65f797d863ea"
+    },
+    {
+      "path": "factory/output/calculator/analytics.json",
+      "size": 122,
+      "sha256": "1bbab7433df9ebd5ed2ef7813ffae44bba05076809a41bc32ad249362589410f"
+    },
+    {
+      "path": "factory/output/calculator/article_calculator_links.json",
+      "size": 242,
+      "sha256": "97225975fe8b978e33e0720437fe05e979b26f951bc97935f9d97c4451413a29"
+    },
+    {
+      "path": "factory/output/calculator/electricity-guide-hq-report.json",
+      "size": 2268,
+      "sha256": "567560019d2b5556415b44dd0bb10270a3a6e85d36416ea03b7257b23f1e0f5c"
+    },
+    {
+      "path": "factory/output/calculator/electricity-guide-match.json",
+      "size": 519,
+      "sha256": "c312f2aa5ceaf3255442cdc2ec03c0900bd99c72d52a050c8536349ae2072156"
+    },
+    {
+      "path": "factory/output/calculator/electricity-guide-solution-package.json",
+      "size": 767,
+      "sha256": "3df5fd8449101d1918925abe793a311dc35ce29ea81eda5cc9fe98f741e25e80"
+    },
+    {
+      "path": "factory/output/calculator/requests/d52c877d2d724ec2af363339676fc8c7.json",
+      "size": 492,
+      "sha256": "5fe4e4fd949f892585c9a8a7f5d4e86855391d317f6f01e45fdc8f3067c88526"
+    },
+    {
+      "path": "factory/output/cloudflare_verify_report.json",
+      "size": 318,
+      "sha256": "7326262465f2726bf727ded943e4405c105349f6fb7588c63ff44cd6f85ae701"
+    },
+    {
+      "path": "factory/output/cms_manifest.json",
+      "size": 268,
+      "sha256": "9bd60496998109d19c1ebc85d92a1b275ffff4c73656cc622904f2e9eccd1f72"
+    },
+    {
+      "path": "factory/output/commit-#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77b.cmd",
+      "size": 624,
+      "sha256": "4d15a672cf9366ada62d7f2dcceafa965a7ebdae03e70bb89c27c6913f871da8"
+    },
+    {
+      "path": "factory/output/connector_verification_history.json",
+      "size": 655,
+      "sha256": "c829db74839dfd38d9231d76a667da74d2c1c5be9153418957e15942d035f49e"
+    },
+    {
+      "path": "factory/output/connector_verification_report.json",
+      "size": 8360,
+      "sha256": "675c7e3e5feecc0b280d3fe00f3743ef216ed87517556f64605747d89dbf6c21"
+    },
+    {
+      "path": "factory/output/credential_checklist.json",
+      "size": 2002,
+      "sha256": "aedac7cf84ec896f7e40d16df06dc34a3298055443bab129da2fb8238b9d31b4"
+    },
+    {
+      "path": "factory/output/cycle_dashboard.json",
+      "size": 557,
+      "sha256": "1735d1857172c5fbc9772f037948f16ca592be7e4050578931d137303977b011"
+    },
+    {
+      "path": "factory/output/deployment_gate_report.json",
+      "size": 48263,
+      "sha256": "d049abb812012e3e79b56194b6b76010dbecd3a4a71efbb28d1145022982e5b1"
+    },
+    {
+      "path": "factory/output/deployment_integrity_report.json",
+      "size": 24404,
+      "sha256": "58754b959e4a42e2c77155885433e012466902c1f8dad19d7f81c03e478e070c"
+    },
+    {
+      "path": "factory/output/deployment_log.json",
+      "size": 1067,
+      "sha256": "2a598e4e4e6f7d1eb36c8f38c88d73cbfdda09da403636e777feb471ed0fe597"
+    },
+    {
+      "path": "factory/output/deployment_report_v2_044.json",
+      "size": 41125,
+      "sha256": "91b0378880dbd21bec9471f733976fa2acc970cac11ab6660dd7e02dbf10bc67"
+    },
+    {
+      "path": "factory/output/doctor.json",
+      "size": 782,
+      "sha256": "b541ae111a1bf99791ef6cc8c150d402e91a8ba76da1da1772b2b16db20926b5"
+    },
+    {
+      "path": "factory/output/draft.html",
+      "size": 9541,
+      "sha256": "b9f2aef6c18d01ae4e79d0151f9bcd98b912bff1359c36889ded8684c7975b66"
+    },
+    {
+      "path": "factory/output/drafts/#Uad00#Ub9ac#Ube44-#Uc808#Uc57d-8e9b7c5b.html",
+      "size": 8946,
+      "sha256": "b8af71571d8c333bbe370b3d4a6bc2fc511029831a65d8f92cf0359223f05a33"
+    },
+    {
+      "path": "factory/output/drafts/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77b-factory.html",
+      "size": 9540,
+      "sha256": "b10390ba163c39174f3ad1c36ef6ac1487e7e8b11e03611c4f116b9b34803770"
+    },
+    {
+      "path": "factory/output/drafts/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77b.html",
+      "size": 9540,
+      "sha256": "81f06d478b6916312c34d4fa046407787ef54e831867bbb1c980e1b53ffa26b0"
+    },
+    {
+      "path": "factory/output/duplicate_report.json",
+      "size": 385,
+      "sha256": "c53a3c87356497c7397cfdd5c2c26f415f9d86ebe2cefb34f8df4e1b3b590b0e"
+    },
+    {
+      "path": "factory/output/eeat_audit.json",
+      "size": 93479,
+      "sha256": "24d37ff8e9abefc526ea386eefdff7b1a439563023d236e651df0120364613d4"
+    },
+    {
+      "path": "factory/output/end_to_end_audit.json",
+      "size": 1475,
+      "sha256": "70e1686e08fb000eecc72cb5e19e927f9e31c10f27900a05e19ea96f96739585"
+    },
+    {
+      "path": "factory/output/external_verification_center.json",
+      "size": 15291,
+      "sha256": "c305fafca1c367ac8e7f34e1ac506db41602ff668e1a967c302c30a627bf152e"
+    },
+    {
+      "path": "factory/output/factory-commit.cmd",
+      "size": 367,
+      "sha256": "5a44cd9bb6794a7c9019a3defaceff4ea668db0ac969e6c665abdee964d604b9"
+    },
+    {
+      "path": "factory/output/factory_cleaner_report.json",
+      "size": 14061,
+      "sha256": "8f16bcb32fa8dd37592f8ed9911d5b41d8c44d22069d3cabd7e6210cb5bcfdc0"
+    },
+    {
+      "path": "factory/output/factory_state.json",
+      "size": 2397,
+      "sha256": "98bcca42da3e506ad549e588eda9f826e9df535e500e3cb4fccb796ac973085c"
+    },
+    {
+      "path": "factory/output/final_approval_checklist.json",
+      "size": 942,
+      "sha256": "c9c5a753a9a15e31ec1a1904c6ba4ffb6748feeb3c9b1ebf8825da7a2d839f9f"
+    },
+    {
+      "path": "factory/output/final_release_manifest.json",
+      "size": 24862,
+      "sha256": "9141cb9ce3f96cdf03117f10fcd4dcb47d44f061b8313a0688b5fc87430015ea"
+    },
+    {
+      "path": "factory/output/final_release_report.json",
+      "size": 33327,
+      "sha256": "8f4d1905125e13935e56240482d170758f0cf595fd25bded0cd6c1c706f9fe86"
+    },
+    {
+      "path": "factory/output/full_automation_report.json",
+      "size": 36134,
+      "sha256": "65d00d21b59fd7890ea75854db8e1d8d71e53a37fee3dba048aa7ab80b399f10"
+    },
+    {
+      "path": "factory/output/handoffs/6168ceb7e30b4587a9fc0f6fed808af7/planning-to-research.json",
+      "size": 1259,
+      "sha256": "8f0b089aff44c4b84f33bd05ffb7a2bfcb5ff2c3bd965acb4e0a46e70d91b179"
+    },
+    {
+      "path": "factory/output/handoffs/6168ceb7e30b4587a9fc0f6fed808af7/research-to-writing.json",
+      "size": 12216,
+      "sha256": "152bf516eeb36f3a0e413fe0044b0be334aaccf00d6e765f3e08ccad8ae8d524"
+    },
+    {
+      "path": "factory/output/handoffs/b99f83940fb24a5d8293199d0397bf75/planning-to-research.json",
+      "size": 1259,
+      "sha256": "f779738572442df9d8805eb56bb25389d3dd32438515bc569ff778ed267e7760"
+    },
+    {
+      "path": "factory/output/handoffs/b99f83940fb24a5d8293199d0397bf75/research-to-writing.json",
+      "size": 12216,
+      "sha256": "3b83410f514fe20690250a0d81976a4e51bdf094ede42d1516955fd16cec20d7"
+    },
+    {
+      "path": "factory/output/handoffs/cms.json",
+      "size": 456,
+      "sha256": "5efef89b3fd4999b2c5c57e672d954d57807a95cd916931b1ba30e1acb6bb702"
+    },
+    {
+      "path": "factory/output/handoffs/deploy.json",
+      "size": 236,
+      "sha256": "81e9dd790cb9b44ef16087c1ede683fd6772f1e834e119a70fedd4b2eb4c5a44"
+    },
+    {
+      "path": "factory/output/handoffs/git.json",
+      "size": 230,
+      "sha256": "41dd69cfa06139663fe596a11cf6eed1796cb80514a435872c7694fe3207c764"
+    },
+    {
+      "path": "factory/output/handoffs/image.json",
+      "size": 1298,
+      "sha256": "161f0f0387f02cd8c32e9aab0ce66ef29f7cc50f581c971bcf62a222776ee475"
+    },
+    {
+      "path": "factory/output/handoffs/planning.json",
+      "size": 1051,
+      "sha256": "17dd540df7be81c5f9843a3697d080757aecbaaf6075ba04d918af5687194d09"
+    },
+    {
+      "path": "factory/output/handoffs/qa_final.json",
+      "size": 2793,
+      "sha256": "d2a2636d7580e4679f92a5de00b4fc206977941786efec08a5e894e20449053a"
+    },
+    {
+      "path": "factory/output/handoffs/qa_primary.json",
+      "size": 2795,
+      "sha256": "8f0dc7245ca501ba72b8a0f002d4d222a0d4072d821e80d3dbc1fd9476c31e6f"
+    },
+    {
+      "path": "factory/output/handoffs/research.json",
+      "size": 11890,
+      "sha256": "42765a35154ee072944f7a4abce310f147e7b82a29cb18c8714b0bbacb57108d"
+    },
+    {
+      "path": "factory/output/handoffs/seo.json",
+      "size": 1183,
+      "sha256": "3abc0d64cb20f507fca21c222dbd4025ff721e8a2aeb23158fe85fa4a4a2931f"
+    },
+    {
+      "path": "factory/output/handoffs/writing.json",
+      "size": 9928,
+      "sha256": "d84118ac9ae85c021476761e61a8c539032a1afd79ffa1dda27e60e263dc4bb2"
+    },
+    {
+      "path": "factory/output/image_manifest.json",
+      "size": 1068,
+      "sha256": "4d19cabea35c1842fdc8aa61edb5d8af60f5467f5d6ac98b77557c25d4a91bef"
+    },
+    {
+      "path": "factory/output/incidents.json",
+      "size": 347,
+      "sha256": "09bfaf83456acaf6630bdd749cc563aec328be92696fc8e21eebd1eac062a80d"
+    },
+    {
+      "path": "factory/output/indexability_audit.json",
+      "size": 101187,
+      "sha256": "eb278ee2d2b8ea2eee167a42f71669de94e97f36a8b1a25205771057b700d035"
+    },
+    {
+      "path": "factory/output/integration_preflight.json",
+      "size": 5447,
+      "sha256": "598c8c25ebb331e6d869a0ca1e5f0b24829e414238de85edd22f128a844a5bbd"
+    },
+    {
+      "path": "factory/output/link_graph.json",
+      "size": 887634,
+      "sha256": "15cdc3e79088d697b779709438bfdeb324e16ff7e0dc2c4f114435be44265c35"
+    },
+    {
+      "path": "factory/output/live_verification_plan.json",
+      "size": 2768,
+      "sha256": "a2f7e2024329465a6f6ed18af8d2064c526483f4369d556b95edb5b69f85bb99"
+    },
+    {
+      "path": "factory/output/operation_board.json",
+      "size": 11173,
+      "sha256": "c6018905f4ea26d4294a00574362852a7fa6bb1bfccc1c35ff05bb69dfe37514"
+    },
+    {
+      "path": "factory/output/operations_center_report.json",
+      "size": 1934,
+      "sha256": "f8048cb2a4bd42d4e239e84f02608bb5a65e41ec3d646eb4a7f70c999fc5b04e"
+    },
+    {
+      "path": "factory/output/operations_snapshot.json",
+      "size": 978,
+      "sha256": "7b86690cf01b06a19c91036b5de258c5a7b4dfaa67edb255d8636992e6256c27"
+    },
+    {
+      "path": "factory/output/plan.json",
+      "size": 804,
+      "sha256": "970ca38ebd20052f0f66e58c00d4a2319da0f282dfa2a8f65a492cead153d692"
+    },
+    {
+      "path": "factory/output/production_activation_gate.json",
+      "size": 2894,
+      "sha256": "db6c827ed03ef617e6d663484fd0a96ead775d7d8200011252c254b1fd30a580"
+    },
+    {
+      "path": "factory/output/production_readiness_board.json",
+      "size": 2457,
+      "sha256": "cddd0dcd8e2cc762648ee64eea440d0fcfd2c8cb15786dd10dedbfb0bfb72cb8"
+    },
+    {
+      "path": "factory/output/qa_report.json",
+      "size": 2356,
+      "sha256": "5b0ff82b3e0f0101b52e4ec6fc08f46061c0e154bf95893b31231dd368adbc17"
+    },
+    {
+      "path": "factory/output/recovery_plan.json",
+      "size": 299,
+      "sha256": "4bbcf090d9a34afdcd6c1c7c633cab8c1820c5854f824e64481ca875f47682bf"
+    },
+    {
+      "path": "factory/output/regression_manifest.json",
+      "size": 4720,
+      "sha256": "c4a4e39e24a383d97bdc46ee3274b2a9ca9e48896da1a656b04fc119b17f3e65"
+    },
+    {
+      "path": "factory/output/related_links.json",
+      "size": 1213,
+      "sha256": "7717fb6171e414cb9505059f4bb46b0e7343221b08778761d0824551a336fdf1"
+    },
+    {
+      "path": "factory/output/release_coordinator_report.json",
+      "size": 481,
+      "sha256": "e1ed9bfd0f8d05de65464db90206f69ad1d2e24484813e1fc0b2118666b8ec79"
+    },
+    {
+      "path": "factory/output/release_journal.json",
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "factory/output/release_manifest.json",
+      "size": 2130,
+      "sha256": "0cf4c7c11e959775aa7747d89352b8ce3ced8cb5a07a8b9683f3cea80609635a"
+    },
+    {
+      "path": "factory/output/renewal_backlog.json",
+      "size": 5171,
+      "sha256": "d4ba159e05dda97166b830fa813346a7ae89c67734611224b3bae3375c6d0ccb"
+    },
+    {
+      "path": "factory/output/research/research_package.json",
+      "size": 3556,
+      "sha256": "96ba3d96e779276603fbce957587baba8532f6f3ac0ed148011d97eec3d1bf07"
+    },
+    {
+      "path": "factory/output/research/research_qa.json",
+      "size": 1243,
+      "sha256": "dbaa9056462e8216e9aa41f244688f8ac46dcea14cfb9136e60986782b8edaa9"
+    },
+    {
+      "path": "factory/output/research/research_report.json",
+      "size": 5330,
+      "sha256": "2b5efa3737a8d93afc70ca8929a32ae59e0ae90ab7a47bc62709aaa808592580"
+    },
+    {
+      "path": "factory/output/research/search_evidence.json",
+      "size": 1013,
+      "sha256": "b7c7f295626acacfc2de25419aa5713ae17585df75d88c3f5eb509bc67885282"
+    },
+    {
+      "path": "factory/output/research/source_registry_snapshot.json",
+      "size": 3822,
+      "sha256": "d6fc4dd45a503a6f971edfa83938a03c3a09a2c3547a83394633dca4b4ac4645"
+    },
+    {
+      "path": "factory/output/research/web_research_report.json",
+      "size": 2937,
+      "sha256": "08c4a30dadfa8da3c2b5ce85abd0ddd8ff87d143aae5e2cab0c808bd7d364b8f"
+    },
+    {
+      "path": "factory/output/research.json",
+      "size": 1257,
+      "sha256": "eaf331e7c0ab5f4642edb844fac288e683eeacc407999d03e5ff0c3a50bc94b8"
+    },
+    {
+      "path": "factory/output/revenue/adsense_bridge_report.json",
+      "size": 427,
+      "sha256": "acab3cae30bd21d25054ff0ab7300ff903c9c801974621c7acf18043283ed8e8"
+    },
+    {
+      "path": "factory/output/revenue/adsense_report.json",
+      "size": 594,
+      "sha256": "1f2898622c2da6d9b69c1e3c5a19be4aed97fe9f4fa1ded8a57a202e6c184017"
+    },
+    {
+      "path": "factory/output/revenue/cms_rework_manifest.json",
+      "size": 71,
+      "sha256": "0dd26e80ae9e53d3902c8b75705892b49e58b5781a0e204b4eeb966475019973"
+    },
+    {
+      "path": "factory/output/revenue/core_run.json",
+      "size": 2540,
+      "sha256": "af6093319c21bbde2716dd912c974a40a49f0064bddc5b15bb88d4300dea720f"
+    },
+    {
+      "path": "factory/output/revenue/dashboard.json",
+      "size": 1005,
+      "sha256": "abbb1d64d93532533058bf55030076520c3244749d1349ebe2c5142224b7e8b4"
+    },
+    {
+      "path": "factory/output/revenue/revenue_ai_actions.json",
+      "size": 1630,
+      "sha256": "a1e1c3d30b5b86bfb1f79575598b44a6bee92b577c84485be3bfc095035fb642"
+    },
+    {
+      "path": "factory/output/revenue/revenue_data.json",
+      "size": 520,
+      "sha256": "f89189610750137986923a87c760ebd5e49b68980dc998fef5f99461e80dc3b3"
+    },
+    {
+      "path": "factory/output/revenue/rework_history.json",
+      "size": 4350,
+      "sha256": "4b8db0b2ebbf8cc4515940b4f5ab554ac80a087b4e20f03d201acc1ef21fe5a5"
+    },
+    {
+      "path": "factory/output/revenue/rework_pipeline_report.json",
+      "size": 2559,
+      "sha256": "7720dd982ec343e8d8da9ea51f6af981275a02548a1330f7a7807adfdd7d5b2e"
+    },
+    {
+      "path": "factory/output/revenue/routed_tasks.json",
+      "size": 1345,
+      "sha256": "6aa7f49b0d594390263cb6e49b277e676872b80f8319ed587179d76002a48262"
+    },
+    {
+      "path": "factory/output/rewrite_attempts.json",
+      "size": 20,
+      "sha256": "a3bbf4eff799d82fd95ba14585d9f283a3dc047ee0de584211d27a37c633882d"
+    },
+    {
+      "path": "factory/output/run_report.json",
+      "size": 11197,
+      "sha256": "f040feb0c61f5dc697e05ec9d1726f830b9eba572617cd0b7d4efe97e4eb789f"
+    },
+    {
+      "path": "factory/output/seo.json",
+      "size": 957,
+      "sha256": "7b87ebb7e1a8b17aae74a31d25d30c843960fc4387a66dcc5421513d277af056"
+    },
+    {
+      "path": "factory/output/staging/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77b/article.html",
+      "size": 9540,
+      "sha256": "b10390ba163c39174f3ad1c36ef6ac1487e7e8b11e03611c4f116b9b34803770"
+    },
+    {
+      "path": "factory/output/staging/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77b/manifest.json",
+      "size": 574,
+      "sha256": "edcfeeed457f2e0297108f5754666295ec73e3436d916031f502495974d41100"
+    },
+    {
+      "path": "factory/output/supervisor_report.json",
+      "size": 1862,
+      "sha256": "450363a191e582a149c88841040a22a6c3f47b01e6f22d458e69e81495fe84bb"
+    },
+    {
+      "path": "factory/output/ui_lock_snapshot.json",
+      "size": 208,
+      "sha256": "5e8149813ffcf290e9c58ef70635a4a6baf3dff68a14993923069b0442b2ad89"
+    },
+    {
+      "path": "factory/output/wordpress_publish_report.json",
+      "size": 481,
+      "sha256": "eb55ce6aef61bbc60bc019dfdc9017fb934836f886702ae540a24f8be5cbc623"
+    },
+    {
+      "path": "factory/output/wordpress_release_report.json",
+      "size": 481,
+      "sha256": "e7fc5a43241723d9d9d980cc476ca5e9052dd18492dd48da9c2d052b5e09afc1"
+    },
+    {
+      "path": "factory/pipeline.py",
+      "size": 7756,
+      "sha256": "c9831bd22cb78c061aadc99d5c1765dbe00c8ecf80dcdaca00ce30efc5180fdf"
+    },
+    {
+      "path": "factory/planner.py",
+      "size": 1435,
+      "sha256": "f4ca7df5784bfaacef3900e1c3579362bca145ac518bf8bb0c27da970a1ea5ce"
+    },
+    {
+      "path": "factory/post_deploy_verifier.py",
+      "size": 769,
+      "sha256": "131784d15b177d9313baedef6e32f4e08176fb4409dad1a21f88d1ab0e5ee3fc"
+    },
+    {
+      "path": "factory/production_activation_gate.py",
+      "size": 1856,
+      "sha256": "f1f533e87825e84d06c331bf1c7355d160523f21d7f8de744f87c5ebc0af35e3"
+    },
+    {
+      "path": "factory/production_readiness_board.py",
+      "size": 1824,
+      "sha256": "dd54a1e326be86e44e695bb8ad1061a081d50e7fd5ab86a5f84f0441e8772756"
+    },
+    {
+      "path": "factory/publication.py",
+      "size": 4035,
+      "sha256": "ebf6a43edfbdfddd2dd0e8b51f6434b5e46868c8ce548818cb7a071839b4bf44"
+    },
+    {
+      "path": "factory/publish_executor.py",
+      "size": 1226,
+      "sha256": "831c0a5a040d1c6f3f5a8a7f5bc5c102f7b37916d806d39e500869b26485372f"
+    },
+    {
+      "path": "factory/publish_package.py",
+      "size": 1242,
+      "sha256": "a39a51db36cbbe16ea4a2db3583d5e4e793382d1a5b92fb635b6841d8fdf0d8c"
+    },
+    {
+      "path": "factory/qa.py",
+      "size": 2171,
+      "sha256": "cec412feef485d643578f89f107ed24c9011090f0d0c163a4e84676c98855145"
+    },
+    {
+      "path": "factory/recovery_planner.py",
+      "size": 1978,
+      "sha256": "e785ed7e9cc5777e1e3196ae6232f843e3748aa9a9ace6229ae9de5b12c2a68a"
+    },
+    {
+      "path": "factory/registry.py",
+      "size": 2791,
+      "sha256": "fa8e8647a494c53663b9e5242b0ec9b2874ea8f4caaa7472efdc77f10093eb73"
+    },
+    {
+      "path": "factory/regression_manifest.py",
+      "size": 1432,
+      "sha256": "2680c8cb7a2ed5dc9593ddf0bb252facb55e97e1377e4d0c718fa905a51c5ffc"
+    },
+    {
+      "path": "factory/release.py",
+      "size": 952,
+      "sha256": "ca6ce233514f060dbc427fb2c50569e3697dee2bc803ed715b7fd53c9aafed1f"
+    },
+    {
+      "path": "factory/release_coordinator.py",
+      "size": 2814,
+      "sha256": "610e82f0952abbc076e405ba255bccd610b69cc214d3dbd4f13413f10b34c778"
+    },
+    {
+      "path": "factory/release_journal.py",
+      "size": 1821,
+      "sha256": "db0f3d5f73876d6d184448b59ed200c5a51b4a77c627c778e732075dbf510531"
+    },
+    {
+      "path": "factory/release_packager.py",
+      "size": 5022,
+      "sha256": "9d481e0c2b503e059c442f687c822607a1672ec1ae6afe12087238690ef18f91"
+    },
+    {
+      "path": "factory/renewal.py",
+      "size": 2279,
+      "sha256": "10eae21bfa442a5fd184257d72e6ac3c09937116059ec5d8de120b712899ae5a"
+    },
+    {
+      "path": "factory/research_cache.py",
+      "size": 1605,
+      "sha256": "d94bd2e88855f7b764a6ab8e37a4063bcfc41607d5cbc8e42c7500a9baaf86c2"
+    },
+    {
+      "path": "factory/research_collector.py",
+      "size": 4368,
+      "sha256": "72f3812c907708ee3c760479afb6f00b0fad8266b7d5ddd2682e596fa55aeea5"
+    },
+    {
+      "path": "factory/research_department.py",
+      "size": 3875,
+      "sha256": "74d9a18e678c4a116b371778a8fcf227c2344439929439e765f4a153bc442ed4"
+    },
+    {
+      "path": "factory/research_ingestion_pipeline.py",
+      "size": 2106,
+      "sha256": "feb58d8cfb9e480e441954f303ca3c77d75853cba43da35eb10b900037414540"
+    },
+    {
+      "path": "factory/research_qa.py",
+      "size": 2441,
+      "sha256": "3f3c66138ac55760fa5d71fc661c5456f04054b14e71755c92a8d66835844023"
+    },
+    {
+      "path": "factory/research_report.py",
+      "size": 2137,
+      "sha256": "500b4df203c639e5ba45ab3f30b3aec25c137b4ff076f76648a66d392f586866"
+    },
+    {
+      "path": "factory/research_web_runner.py",
+      "size": 1891,
+      "sha256": "4e4837e21cf4601c17507901b97f636feb2579414892fc30b5df516b949e78a1"
+    },
+    {
+      "path": "factory/researcher.py",
+      "size": 2094,
+      "sha256": "168b6c5404bc5436901d9dbecb3ee9b3dbd1982051a510a22a6a7e35778b8ce0"
+    },
+    {
+      "path": "factory/retry_policy.py",
+      "size": 832,
+      "sha256": "4917a668607ce6335e812f32b2461a55ab4521b42c9e50468a1296c28452eb86"
+    },
+    {
+      "path": "factory/revenue_ai.py",
+      "size": 3621,
+      "sha256": "ee9446a07401a3229b331adef039f4041de9bdc4cc70ab6286980a45b74c8bea"
+    },
+    {
+      "path": "factory/revenue_cms_update.py",
+      "size": 1470,
+      "sha256": "a4af0d1ab55e1dd86232ce355faacb40b635a8bfd5ce9846974eaf5755f24445"
+    },
+    {
+      "path": "factory/revenue_core.py",
+      "size": 1010,
+      "sha256": "3f7270dded3c2344312d339a4cc0780b5366982b54a7abf9948bbb85ad83f809"
+    },
+    {
+      "path": "factory/revenue_dashboard.py",
+      "size": 3180,
+      "sha256": "5ff9702c9765974dc7cac8ef107aafe0f88dc54837d71034ea561e72afa5a533"
+    },
+    {
+      "path": "factory/revenue_html_rewriter.py",
+      "size": 4476,
+      "sha256": "b9b4b12e4716c65a3d19f71e36969fa22d78dbe4011f194bbe4e4a6a867e5826"
+    },
+    {
+      "path": "factory/revenue_import.py",
+      "size": 3917,
+      "sha256": "feefe53719de914845b6ba9edf4ceeefcfd52c6038ced76e54ce5377aa770399"
+    },
+    {
+      "path": "factory/revenue_qa_recheck.py",
+      "size": 1989,
+      "sha256": "f9c937d90fa9c8fe421df885231d7017677523cf06e1de05be941c0c8b5038b0"
+    },
+    {
+      "path": "factory/revenue_rework_pipeline.py",
+      "size": 1661,
+      "sha256": "03e1b27db1c850952081f7968c9b84cec700d5709cdc3d6ef8539a3f07c04eb7"
+    },
+    {
+      "path": "factory/revenue_task_router.py",
+      "size": 1256,
+      "sha256": "d75ef73b72596889670a27bd8c0acceb057fba5be908658a3e1c9889a6aac0fa"
+    },
+    {
+      "path": "factory/rework_manager.py",
+      "size": 2094,
+      "sha256": "85e384ffd9e3bd1ae80e7d497cb6baa717941c6f31ff1e540369c388e5f81dd5"
+    },
+    {
+      "path": "factory/rewriter.py",
+      "size": 1738,
+      "sha256": "6938caa14a1d9182f7ce767cf68f6a436ba2c0a9746ebd5300f6b62b7dcba37e"
+    },
+    {
+      "path": "factory/run.py",
+      "size": 31275,
+      "sha256": "e91496137ca3e8499e40dc159469e1a6f68daf545495a9d78c3e8d7d3e752795"
+    },
+    {
+      "path": "factory/runtime_config.py",
+      "size": 775,
+      "sha256": "a9e3528cc1364e738865c381cc1032ea6558ac36bd14b49f51e8e9db43d30905"
+    },
+    {
+      "path": "factory/scheduler.py",
+      "size": 583,
+      "sha256": "34ec177e2513f9908e64a5e282d19c6c852094ccb131b4b5e45f5c05d4f10c10"
+    },
+    {
+      "path": "factory/scheduler_installer.py",
+      "size": 1287,
+      "sha256": "f29bfd0cc8b8364a34d0dad6c4e5cd932790e11c26560ec717781b86939cf265"
+    },
+    {
+      "path": "factory/search_console_api.py",
+      "size": 2678,
+      "sha256": "b6877a8abaf721de0e50db859826cfdaa540f5e36dfb14e6b1f5d0750d9acd81"
+    },
+    {
+      "path": "factory/search_console_engine.py",
+      "size": 2381,
+      "sha256": "e7b48c194c49b54851fd0f2d6d8d967a40370fc286fb183a975952964e84a46b"
+    },
+    {
+      "path": "factory/search_evidence.py",
+      "size": 3521,
+      "sha256": "5fe59361fd295dc54328f5d6d351592c5ce28d5cef7665923fa851ee5b1769a0"
+    },
+    {
+      "path": "factory/seo.py",
+      "size": 1033,
+      "sha256": "ae056ddaf07fbf22ab82102bd7dc2de90e254888b2d3f95d8fc35330eb7eb574"
+    },
+    {
+      "path": "factory/service_readiness.py",
+      "size": 917,
+      "sha256": "2276df7b4ae977209e5dc846c2ba0677105169a5153c049eed8ccaee856414b6"
+    },
+    {
+      "path": "factory/site_adapters.py",
+      "size": 1734,
+      "sha256": "1ce505782bfb8df39de29cf1d588ce6ff2c98c12d71b7c2c3ee391c46d8b9bfd"
+    },
+    {
+      "path": "factory/source_registry.py",
+      "size": 3511,
+      "sha256": "bf9883adc54debbffdb86c9d2185b82f0ff7b0952f4f091272334854f89f65d2"
+    },
+    {
+      "path": "factory/state/article_catalog.json",
+      "size": 50612,
+      "sha256": "3ae7ff3e6b2af3d82efb189ae0dc12fc54f8bbbbfc2747c674ef20b100042f63"
+    },
+    {
+      "path": "factory/state/factory.sqlite3",
+      "size": 65536,
+      "sha256": "6ec66527f594c09ee111baee96d4fc6ec23dcb4bfa7ecdebc941d35f70079c05"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/cms/2026-07-14T10-13-53+00-00-045ad112d5204fe39cdb41c10cc328a8.json",
+      "size": 2870,
+      "sha256": "fe3aa8531c13521d53a4a6db3c1e03846bc5d9270f0d5535dc58fcaec842033f"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/cms/2026-07-14T10-24-37+00-00-8762633f31b9466290678f57024e9d63.json",
+      "size": 2870,
+      "sha256": "c61a576807aaf1b3c7ab4129aed220b3b2cd55a3e84f10c129d857174069dc10"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/cms/2026-07-14T10-25-51+00-00-b6a3bee9ab6144fb8a7927752aa5ff3a.json",
+      "size": 2870,
+      "sha256": "cda8054938a7fbcde9bd787976b73370366b2d636852f137bcc7ee55f026bb81"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/deploy/2026-07-14T10-13-53+00-00-20d2bdc193dd4ab7ad7887a248737bca.json",
+      "size": 310,
+      "sha256": "1ca7aed7fd0a5da15094e39521c26484ae2c2e47d2d501783ba4bd05226ea663"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/deploy/2026-07-14T10-24-37+00-00-6ad54f15a084421b8e1f01bd4d914fa6.json",
+      "size": 310,
+      "sha256": "5016c992217c75d5c9563b42d6ed43e5798b21cb6ad82dc53bef4459ffbb419c"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/deploy/2026-07-14T10-25-51+00-00-83f1925c84f64d34bf1279b1fbda6efc.json",
+      "size": 310,
+      "sha256": "0348a210fc29a5ce5396b0504a45aeb88d084d2becf4c39c69faf93ef6ad796a"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/git/2026-07-14T10-13-53+00-00-614debb2bea64b11b84af085d5b961ae.json",
+      "size": 533,
+      "sha256": "ac97a91551b5374bcbb3eda9c0a435d92fa0a1a08540ce753c6967b01c6f38aa"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/git/2026-07-14T10-24-37+00-00-65232ae9d0014072853861ff5f9882ad.json",
+      "size": 533,
+      "sha256": "5b4a5a8d66f365d9cff97f71384c4b60d511917005d907e4c8f4bac63aac50f2"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/git/2026-07-14T10-25-51+00-00-fb15b1df2a2d4aa991d9a1fe18355b93.json",
+      "size": 533,
+      "sha256": "7cce6a1ceb45c19e451329175714ab44478719cfdd55e8b25faaae50629878f6"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/image/2026-07-14T10-13-53+00-00-6a50d66477f6467abf451c120cd7af8b.json",
+      "size": 1262,
+      "sha256": "a886e650f06f8ff72fb5e0bf22f982b1ef4cc31d6ee487084c46b13fa35ab357"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/image/2026-07-14T10-24-37+00-00-d50613a006f644d39ed533828597c549.json",
+      "size": 1262,
+      "sha256": "d794a632e46c7f7185aef5ed98b2987f3646b602579c3d29ec39db3fe7a7f167"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/image/2026-07-14T10-25-51+00-00-9e3bb32153b54aad9cd332db0d10c9b3.json",
+      "size": 1262,
+      "sha256": "7954c7ccd6599a0a465fb3c7509a9ef329344b9eaa8d1fd35a7cd3f8a12f7546"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/planning/2026-07-14T10-13-53+00-00-7d129d25b4644333b2c52512d99a180c.json",
+      "size": 579,
+      "sha256": "36dc0a1a550513fb73c63c7d6d2f710d9d5661d57008df98bb773bb0e09d6861"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/planning/2026-07-14T10-24-37+00-00-94c17ae6e6eb435bad1971216ca4e617.json",
+      "size": 579,
+      "sha256": "da90e360dbd77a91c7273171612c360415787c5eff22a060b136a71729379422"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/planning/2026-07-14T10-25-51+00-00-da5ff881457d44a5b81e4ac32abcd814.json",
+      "size": 579,
+      "sha256": "48b1e793b7818e6031fe78b2f8eacea18a6fd985c84f35fe0bbb57b833b0eee6"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/planning/2026-07-14T12-24-09+00-00-516afcfe53ef4b6c9f99b61d77ab0f61.json",
+      "size": 606,
+      "sha256": "ccd970e0c7564c3db29a0e6c8f08e4330a39bacc24af3244bcb7c31afe36e858"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/planning/2026-07-14T12-59-33+00-00-1e788bea009043eea41a23a850ff10f8.json",
+      "size": 589,
+      "sha256": "729742ee97c519b84452dedc6813e7d5a869ee168331584892e9e757ea0e7986"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/planning/2026-07-14T12-59-33+00-00-2910c007e2314bab951ea0fa1a8e514a.json",
+      "size": 604,
+      "sha256": "591e5bbfb69f444c670f928a5215426fd8e794e9235cf8acb02f17a9a9fbc7bc"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/planning/2026-07-14T12-59-33+00-00-a7a53296ef82468c999c70ba0575488f.json",
+      "size": 604,
+      "sha256": "06ac0a8430dcb0a92fad46464b49382c6558b096c6f1ec8a4697dccaea833048"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/planning/2026-07-14T12-59-33+00-00-c1112824d7444d30833f8f80250a0d27.json",
+      "size": 589,
+      "sha256": "20b9f2169ba166137ae3cd3d75d4d23f8e0731cab9878b2189039fcd67a69e65"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/planning/2026-07-14T12-59-33+00-00-edb6a776f0bc4a64b8accae244148a8c.json",
+      "size": 604,
+      "sha256": "25007e097e5400bc9d9359fc42b3c000201530658ff1ab9033d0dcba19a6db43"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/planning/2026-07-14T13-00-48+00-00-4560a1db1f3a416193d188f79904d05e.json",
+      "size": 604,
+      "sha256": "f7218384216586d37ea7ed8214c1f826afcdb6ccfe273f1490db1f43a4d9046f"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/planning/2026-07-14T13-00-48+00-00-495b3bc583554fb7985a3a1346cb12de.json",
+      "size": 604,
+      "sha256": "911f8f6e986e9db16dfa6a5cbd6ab0c5481ce27407444e902e1f7fc1c3ff4ecf"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/planning/2026-07-14T13-00-48+00-00-5716b04740c848d188a7a03e642c89c0.json",
+      "size": 589,
+      "sha256": "1bcd70f86c6f0481e3d2959b4909165b0e9d60236b4325de08a75e9027650921"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/planning/2026-07-14T13-00-48+00-00-b9f4416000194f09939ca8e790c16daf.json",
+      "size": 589,
+      "sha256": "d39fb2b1fb9b3150d89296493f97623ab6eefd1db71c57dc03fc7183ee349190"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/planning/2026-07-14T13-00-48+00-00-bd63f344abfb4b05b8320111893e15d4.json",
+      "size": 604,
+      "sha256": "c90b4fa47c15e9abf42d5d2acce386eb888c8a4a7cfa20ff3bd7dca655635baf"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/qa_final/2026-07-14T10-13-53+00-00-343eafcdd5e742848ddfd84e3a7cce8c.json",
+      "size": 2877,
+      "sha256": "98588f03817bce3a3dde1fefb12a310e875e3a96dbcc080a501990245e1c7a2d"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/qa_final/2026-07-14T10-24-37+00-00-1c14538da20047eab0929476df8485bb.json",
+      "size": 2877,
+      "sha256": "a8c99708c73d85c3b0488da802d2e94496c884c9f950fcb10abcd77799a785b9"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/qa_final/2026-07-14T10-25-51+00-00-c25ba09bbbd94483a98f321f722101a3.json",
+      "size": 2877,
+      "sha256": "fa0190e6b55b4a13e789c3c69edf29c826de87e4fb789b3bf8d6dd9a6bc91f5d"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/qa_primary/2026-07-14T10-13-53+00-00-2e3322c403d445d7876c482aa1962aa4.json",
+      "size": 291,
+      "sha256": "26f2772da19f7839d424c4f472f122a49d4629a1b3552c2c5a5ad780679af430"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/qa_primary/2026-07-14T10-24-37+00-00-00d2187ef49042b69c84a59f76a035e6.json",
+      "size": 291,
+      "sha256": "18c734c628af840ed959e4898d79beae69e613cc32d1e05125e254a6d2fe18f4"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/qa_primary/2026-07-14T10-25-51+00-00-ac6d3ec02ec0487b91af5a04aade10b4.json",
+      "size": 291,
+      "sha256": "65554844cc0d3151bb62a8755cf2fb57f6868100aff533b9bb62f2a553126234"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/research/2026-07-14T10-13-53+00-00-e8eaad98833d4eddb8b8d20a8579f220.json",
+      "size": 1133,
+      "sha256": "f699b243f115e9ff10780c80d64be3673b44078c7ed50c3352d063dc9e4956f2"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/research/2026-07-14T10-24-37+00-00-11ff4eb7489145f4abd859cdf0f812d3.json",
+      "size": 1133,
+      "sha256": "c09aacc00f21f036a1079d711de3a6ae9ebe0d6181925b03ed3268d641419f3d"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/research/2026-07-14T10-25-51+00-00-dd34b2266aae4cc5a1ce17e3577e3da4.json",
+      "size": 1133,
+      "sha256": "1373b0ee29552515bc4049117af89b6f7faff6de36a6211993f18dbff6cd8cb3"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/revenue/2026-07-14T12-59-33+00-00-043b4583d34c4b028c81c44527cffc17.json",
+      "size": 357,
+      "sha256": "3a1648fc98dc46704894e509ca7297a7d91a8be7115552cfd54d65ecc64668c0"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/revenue/2026-07-14T12-59-33+00-00-5eae2a9c376f4336867d68ca598ddd99.json",
+      "size": 350,
+      "sha256": "3e19b2e4476fc69106350feac1e56995d58c1b26380d3383b75ff59a3cebffbc"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/revenue/2026-07-14T12-59-33+00-00-7ebb1d58e5b641f2b7c0db98d292da47.json",
+      "size": 355,
+      "sha256": "4f448e5a47e568889cd4b274173dde79b72ccf0a2bfa562dc96818e32012f55b"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/revenue/2026-07-14T12-59-33+00-00-ec5efe51412d4e0a99760b6a9a0b911a.json",
+      "size": 357,
+      "sha256": "6a5f8df4ee61dae9e0b583581527bd92e595651b8bcf42fb5a862683521e3a42"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/revenue/2026-07-14T13-00-48+00-00-01815df8052a45bd86facf87faf526dd.json",
+      "size": 350,
+      "sha256": "e30d824bfd1b8d56b2ad77c1ea57228bafe4aa59ee0e239adc24d8d9cc5b9e2d"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/revenue/2026-07-14T13-00-48+00-00-31f8a40cda92423ebfe434c2c3f7f121.json",
+      "size": 355,
+      "sha256": "89c17891f977b450fe162ad36c2ff799e2582250b62130009187a6ad727e83b0"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/revenue/2026-07-14T13-00-48+00-00-81ebb1adc72e4d21aec1b37da4552109.json",
+      "size": 357,
+      "sha256": "e6ee51fa8b5c92ad63472943c03ac00cb37737f946c04b08f9c80d54a332b9e2"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/revenue/2026-07-14T13-00-48+00-00-8d21a7a42baa44c4aa25c8391bc68321.json",
+      "size": 357,
+      "sha256": "5da4b2486505fc8e998df116bdf89797c3039539fa0b588affd727b5e646beb8"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/seo/2026-07-14T10-13-53+00-00-d5fa5abceeb4436192835ff05346996d.json",
+      "size": 302,
+      "sha256": "466920cce9fb3c4c59f76fbf44637aad9819d9c8e17fd1b22c9d5949cd1ec994"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/seo/2026-07-14T10-24-37+00-00-fce03116affd4fc5ad14256235be06c3.json",
+      "size": 302,
+      "sha256": "9e7022d76b6ba1c5d56fb70d9d037bae3d6a67642c08509d38888b254a545620"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/seo/2026-07-14T10-25-51+00-00-75ca22b7f65e4ed3b0a0ce57f2146c68.json",
+      "size": 302,
+      "sha256": "bee6af97d52455865aa0b96703d4d1184a1c4adce89a9d57c9af5909e001ae86"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/seo/2026-07-14T12-24-09+00-00-076772837bdb410681bb73d3caf37d43.json",
+      "size": 354,
+      "sha256": "27060de3f52bd40fd60e1d8a0cf14394d3feacff166915ecb11946e0001531cd"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/seo/2026-07-14T12-49-48+00-00-2c2160b3a45b4eb887b922d46c36e263.json",
+      "size": 284,
+      "sha256": "1aaa9630dbed705c1851d7de186f516add4c0c7546babfe7c685506fce43f50f"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/seo/2026-07-14T12-59-33+00-00-c6a980ab45f64cba88d1dfaab734023e.json",
+      "size": 350,
+      "sha256": "20eb0ee1093dfc23961b9b6017defcd4e6ab4cb87c9c7528ca2471cb9fb2c413"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/seo/2026-07-14T13-00-48+00-00-fb6bf20dccc44401ad3970427820cad3.json",
+      "size": 350,
+      "sha256": "ca8cbfc7990160ed96087801401f500e222a4de58c5bc4ba825e3c92bd774ea8"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/writing/2026-07-14T10-13-53+00-00-8a27e559f2cf4cb2b2af910a8f437da5.json",
+      "size": 1589,
+      "sha256": "2a32afa57d233627cc804b453d17b8ac9e2024972602ea25663dc6354821911d"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/writing/2026-07-14T10-24-37+00-00-9e3470e7f07b44aab4cbc46217c5cbfc.json",
+      "size": 11971,
+      "sha256": "4b1fa202406f1a91fd4887cc9f3101d83cce971cbc58eb0a9afb5bd6daff79fc"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/writing/2026-07-14T10-25-51+00-00-db7453615e9c478ea4a0ee1423288d69.json",
+      "size": 11971,
+      "sha256": "05e3bcc8c883378dae8e4c127b39e0506d818172bf83f0c407f650be076540b7"
+    },
+    {
+      "path": "factory/state/message_bus/inbox/writing/2026-07-14T12-49-48+00-00-0cd2cdf852e74fe89d2e9ebb3e389f0e.json",
+      "size": 287,
+      "sha256": "eec9859b9d4468c4b811e2d0ff5833e69ec86af2ea9e959956ab41546a502997"
+    },
+    {
+      "path": "factory/state/tasks/2e2956e7fb054bbdb6740936120c8ae6.json",
+      "size": 426,
+      "sha256": "d398edc2f4472aa106160ea7682a6cecbb0adf940ee625ceb9a4ed7a70933d61"
+    },
+    {
+      "path": "factory/state/tasks/3067d98f6b5e43b2aee8987b54b69fb0.json",
+      "size": 422,
+      "sha256": "d19e5cebbf5ebd2a4bc0a1aacfd4fbc379eb785c07f39963d494850e55cb2699"
+    },
+    {
+      "path": "factory/state/tasks/3d161f2c6c8b477e8d288a263a019960.json",
+      "size": 436,
+      "sha256": "3880a0645d700eff1eece1b60bd1b4c120053c41c1fa5bccf416a28623a5d368"
+    },
+    {
+      "path": "factory/state/tasks/43dffd42f9014335aa6df2d136a51d7a.json",
+      "size": 422,
+      "sha256": "f4268f7d98e9c36f23c58f23ed871381d2068073ea8b65224c4a0236460c9d6a"
+    },
+    {
+      "path": "factory/state/tasks/4f93992d2e894f5cbb721b8f538d3429.json",
+      "size": 436,
+      "sha256": "d28e16a2f0e9e8ae1276ac88d5caf8a04acb7a5c8a3bace03a2b046abcce6f58"
+    },
+    {
+      "path": "factory/state/tasks/7381ed72f35743c2ba319674500a359a.json",
+      "size": 437,
+      "sha256": "5b97b567ee36e7b9631c1523aa0adec7c32ecfddcf822d581b92c032dc83c0ea"
+    },
+    {
+      "path": "factory/state/tasks/a8c94f318194420c94af5c9ae325a542.json",
+      "size": 420,
+      "sha256": "6dcb44e2baecc1506cc33cff239f765230ac7a14c67bf8b83274e90aa1bcd533"
+    },
+    {
+      "path": "factory/state/tasks/c65ee90ba79d4feba1db36e7d893650e.json",
+      "size": 430,
+      "sha256": "e5680d64c87986776fea84604e65fc2f3989fa7c122798cbbb9ec25a5ebd78be"
+    },
+    {
+      "path": "factory/state/tasks/c983a1fb93e54935bde7c331b704f02c.json",
+      "size": 432,
+      "sha256": "21dbcb70316d482aef38f601eaafad9f4d9fa3357101c0e851c20eabc6b2e327"
+    },
+    {
+      "path": "factory/state/tasks/cfb642d57a25493c80167f4a670d080c.json",
+      "size": 436,
+      "sha256": "ef8f0e5aec5c2c01b1798e698cefefe25b73153e7fb3b82549a71d9b7ca7726f"
+    },
+    {
+      "path": "factory/state/tasks/d19ac997477e4b2a9e96a97a863159e2.json",
+      "size": 426,
+      "sha256": "db51ed54296046644493535ee735d930481c3a9eade4938b29c1b8db69e0b98d"
+    },
+    {
+      "path": "factory/state/tasks/dbd13878a9ae42259b6385ca8b4e7c3c.json",
+      "size": 420,
+      "sha256": "3ce2e29745fcacd921b7180ebcbe2a74220485dae07aa8c755f88447afb950b2"
+    },
+    {
+      "path": "factory/state/tasks/f77b4f677be141ae8ecdb595731edd30.json",
+      "size": 437,
+      "sha256": "523e33f2d1bf1c939a3fdad0045fa408cdbe37732505fcbd8e2f8468e0b3576e"
+    },
+    {
+      "path": "factory/state/tasks/f8d18ff9d5c149d6ac40ea00da26772f.json",
+      "size": 430,
+      "sha256": "0c7ea8c8c1d2c278d39105f820873ffd5d152084941191325b2d83c7cabb129e"
+    },
+    {
+      "path": "factory/state/workflows/3d161f2c6c8b477e8d288a263a019960.json",
+      "size": 609,
+      "sha256": "dbe92b7137d7f08af48a1ff2ca5a14490d617fb8a0ed35f4669de02b5d531c64"
+    },
+    {
+      "path": "factory/state/workflows/4f93992d2e894f5cbb721b8f538d3429.json",
+      "size": 609,
+      "sha256": "2cc105f02d9940f123243995cd5b5b05deaea576a84cc7706296e591dcabf493"
+    },
+    {
+      "path": "factory/state/workflows/cfb642d57a25493c80167f4a670d080c.json",
+      "size": 609,
+      "sha256": "4038d9a0eb444df29247e22c88f6c5d01e8afa09d27c9d30be4cfeda1693402d"
+    },
+    {
+      "path": "factory/state.py",
+      "size": 1411,
+      "sha256": "1f28c04cb92e79df0111d4d9b54029c4414721d3bf7a3ac6a7ec308c721f05a8"
+    },
+    {
+      "path": "factory/state_db.py",
+      "size": 4469,
+      "sha256": "afc6bde6d0590ba15d207dd399c5ec8b96877d805e384be40db9e50378a76cb2"
+    },
+    {
+      "path": "factory/supervisor.py",
+      "size": 1526,
+      "sha256": "c744c3973378d4daf7e0b0a88cd30146c779f0b651ef5d1dfc4e4c0836708e2f"
+    },
+    {
+      "path": "factory/task_dispatcher.py",
+      "size": 3413,
+      "sha256": "396d0fdc38319040cf74c35017d3d76bb60971ca95d0fdd82435b7cf05a5debe"
+    },
+    {
+      "path": "factory/template_guard.py",
+      "size": 1233,
+      "sha256": "13e7ee3f226350200c383c782098271b0e7e937b2159c81f6e7158e7e4a7db6a"
+    },
+    {
+      "path": "factory/tests/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "factory/tests/test_department_board.py",
+      "size": 158,
+      "sha256": "f75121940b9729e2e03827056d00ce74dbf2e84f4be654419d87ac6167927954"
+    },
+    {
+      "path": "factory/tests/test_factory.py",
+      "size": 1408,
+      "sha256": "6eb6fd874f74f037dc4f1df23183cac46083f13bef37cb24c24af72338583ee1"
+    },
+    {
+      "path": "factory/tests/test_factory_v2016.py",
+      "size": 1879,
+      "sha256": "2602c58e9c6dc0a1d3c0264237045f5ea430c6471fda4c90a58f1e5c8100f24c"
+    },
+    {
+      "path": "factory/tests/test_factory_v2017.py",
+      "size": 2153,
+      "sha256": "13689a1a0eddcc2ffefb3c8751d07b28e36fc4f8a4e3a5373829e5d44e8e029c"
+    },
+    {
+      "path": "factory/tests/test_factory_v2018.py",
+      "size": 1571,
+      "sha256": "d6e834b6e24d8f053df3e67392b55a99ed40cfb6407affd4fe391467453a7c86"
+    },
+    {
+      "path": "factory/tests/test_v2019.py",
+      "size": 1711,
+      "sha256": "3c049dba1d30e5eaf2373131d46367b8f516efbcf340e80a00b18369c28cf599"
+    },
+    {
+      "path": "factory/tests/test_v2020.py",
+      "size": 2435,
+      "sha256": "615fbe419e2d2070bc77ad2326df1772a441ea50fa6ebf6a8fc1e6ee556a0a01"
+    },
+    {
+      "path": "factory/tests/test_v2021.py",
+      "size": 3128,
+      "sha256": "6782ccb010d1e2d64cfff55a95737ce1ccd7f8bdaf00824ec59a5395d08e92ed"
+    },
+    {
+      "path": "factory/tests/test_v2022.py",
+      "size": 2149,
+      "sha256": "12e34fa7d08cdefabd5f39ed5bcf54dcec19fd1c0f4da06fc2454e1c2a7f7e94"
+    },
+    {
+      "path": "factory/tests/test_v2025.py",
+      "size": 2960,
+      "sha256": "7f8ed1c3bf8389cac331a8309a9a24e830cf1784f6ab82ef9e1b15c8228190da"
+    },
+    {
+      "path": "factory/tests/test_v2026.py",
+      "size": 4204,
+      "sha256": "3008b5bb9197b580315b0615e4925b370a3430c3b6ed3050ed1e2dc10b8ee449"
+    },
+    {
+      "path": "factory/tests/test_v2028.py",
+      "size": 2656,
+      "sha256": "a5d8249eeeb4166f07f65fa86f78add3c644b0414c6efad3adda2c1f27e8395f"
+    },
+    {
+      "path": "factory/tests/test_v2029.py",
+      "size": 3181,
+      "sha256": "dfe5cab987970a34c4764279874e9311c2b8985ea89c7cb27d6400632b94640c"
+    },
+    {
+      "path": "factory/tests/test_v2030.py",
+      "size": 1688,
+      "sha256": "0437e43c7b87044a703dda5e43ffc334d5fcb267926f6cf464837499cbe10abe"
+    },
+    {
+      "path": "factory/tests/test_v2031.py",
+      "size": 4066,
+      "sha256": "6b123fefb9d5592c30679cc82295cb7937b5b0e044b874ca0cb277213a3446fb"
+    },
+    {
+      "path": "factory/tests/test_v2032.py",
+      "size": 2615,
+      "sha256": "34ae594acaaf683d5c91549abb1e6285ad1db78187ce4ea9487d2fcb3e3740a2"
+    },
+    {
+      "path": "factory/tests/test_v2033.py",
+      "size": 2934,
+      "sha256": "f975a57ed47f6e1d325ae4a2debaf4f2adc5dfaf4d998710f5be23feb500dd39"
+    },
+    {
+      "path": "factory/tests/test_v2034.py",
+      "size": 2799,
+      "sha256": "da55290421108a8449baef69fbe17112f9021e90c36cd2576e1b1150fc9bac5f"
+    },
+    {
+      "path": "factory/tests/test_v2035.py",
+      "size": 2432,
+      "sha256": "ff04f448f261d350e6d5c94d4693b3839f9e65687933871bf8de6a0bbba3fc59"
+    },
+    {
+      "path": "factory/tests/test_v2036.py",
+      "size": 1529,
+      "sha256": "fd9c53900261b2333c73cd99d75e1126c2d4ae754313de08cf63527107f639f4"
+    },
+    {
+      "path": "factory/tests/test_v2037a.py",
+      "size": 3505,
+      "sha256": "63cb122555d0d643fc58e29e9dda0fb7977e997cbfb2ea60089698fc0c30204b"
+    },
+    {
+      "path": "factory/tests/test_v2037b.py",
+      "size": 3972,
+      "sha256": "1e762ac755506089f905321fa7b43457ef66eb8457cba07e24cd0b1de6d5377f"
+    },
+    {
+      "path": "factory/tests/test_v2037c.py",
+      "size": 4510,
+      "sha256": "c0c756eca8f4d0fd5529486e1b48790ee76b3750dceedc535523d90cf2dffcc8"
+    },
+    {
+      "path": "factory/tests/test_v2037d.py",
+      "size": 1114,
+      "sha256": "152737d53bb8c28e89acc6663aa2e0f0a14b9742a8d1f2d8e1cda808ba843efd"
+    },
+    {
+      "path": "factory/tests/test_v2038.py",
+      "size": 3041,
+      "sha256": "94d7f03a5c4bdd35bec495539e02e4eebed25e1561f8820c3664295063f278c5"
+    },
+    {
+      "path": "factory/tests/test_v2039.py",
+      "size": 2180,
+      "sha256": "89359e224a81c1518d7b52f547f9081d0c272be3cd651847a0c7e0e2cf7e649c"
+    },
+    {
+      "path": "factory/tests/test_v2040.py",
+      "size": 2921,
+      "sha256": "73171c6f189f6e44ee49c812d8664292c93d440e8f76541cd2f36f40c75f5bfb"
+    },
+    {
+      "path": "factory/tests/test_v2041.py",
+      "size": 3247,
+      "sha256": "f730780852b4eea93233989892961d3d1c83871fc8ae882546bfb1f21f2c3a45"
+    },
+    {
+      "path": "factory/tests/test_v2042_adsense_lock.py",
+      "size": 2558,
+      "sha256": "f932ee1b59b936c9db658d42cdbbe28adbc04ec05bd796225473c47120837849"
+    },
+    {
+      "path": "factory/tests/test_v2043_deployment_integrity.py",
+      "size": 4690,
+      "sha256": "6e375ba1ce7fcbb891a0e1c95690214958f18e52c9ba28f6ea80902fa38920bd"
+    },
+    {
+      "path": "factory/tests/test_v2044.py",
+      "size": 1780,
+      "sha256": "2791c0f1941a4697a2402ee754f82c8608042cf7802fb2b7928b9ac40104dcb6"
+    },
+    {
+      "path": "factory/utils.py",
+      "size": 1393,
+      "sha256": "f8fb7a77ef301895a3c2e0dc6d2b4afa99f9cfd4c1ea987522f85d323bcd4d17"
+    },
+    {
+      "path": "factory/web_connector.py",
+      "size": 3819,
+      "sha256": "8c3e8ed754d63474333a2783b0dc2d9a66e06137064efad348b6ea0a6255b0bf"
+    },
+    {
+      "path": "factory/wordpress_connector.py",
+      "size": 3311,
+      "sha256": "9fc7a5fb2639f7d60a5a232917d61133c842a5d2a3d9fcb6503ad7098a14b13e"
+    },
+    {
+      "path": "factory/wordpress_publisher.py",
+      "size": 1586,
+      "sha256": "8e04087d7e55db531e442b94b9e5203569b5324ec0a1a007893ce2c8e9ab2faa"
+    },
+    {
+      "path": "factory/wordpress_release_plan.py",
+      "size": 3514,
+      "sha256": "a6947133c30143ed6224288dd560613b92fe0b7fdba6d689d5a89dd82058a8e1"
+    },
+    {
+      "path": "factory/wordpress_taxonomy.py",
+      "size": 1265,
+      "sha256": "370ce5cfdc24a97acae82228c0424397cbbfd1ff93e2afc2408d7bef5585aac5"
+    },
+    {
+      "path": "factory/wordpress_upsert.py",
+      "size": 1521,
+      "sha256": "e696f7f9fc15fae9af105ccb4d4f14dbd57f93e90ebadbdb05c32b9d3ec5b57e"
+    },
+    {
+      "path": "factory/workflow_state.py",
+      "size": 2303,
+      "sha256": "f3d2d442a6844184430fc506b0ea9bb2d54bfa72b76dda96a200349a56edb215"
+    },
+    {
+      "path": "factory/writer.py",
+      "size": 6206,
+      "sha256": "e80047c99ab2472b1754592714582f306d76392791332eec22b3254d11d3d7e3"
+    },
+    {
+      "path": "factory-output/article-audit.json",
+      "size": 133759,
+      "sha256": "7c2d5afb17d3e33f31bad29c510062631b3dccd0a910614467dd213db5993003"
+    },
+    {
+      "path": "factory-output/audit-one.json",
+      "size": 684,
+      "sha256": "f2d8527ae2b5fc90b15202b1c2b30fbffd2ac4fe95b03b503e81f7e75bc01eb1"
+    },
+    {
+      "path": "factory-output/backlog-console.json",
+      "size": 46244,
+      "sha256": "809c30224a05c2a1a90cc5e6d5c613053e1c74b46c7de99f3926fad5734d48df"
+    },
+    {
+      "path": "factory-output/doctor.json",
+      "size": 306,
+      "sha256": "0645464b0b2c19f21524b3c32c7602a461eeb06c2028542bfb733c3edc130a8a"
+    },
+    {
+      "path": "factory-output/renewal-backlog.json",
+      "size": 46244,
+      "sha256": "809c30224a05c2a1a90cc5e6d5c613053e1c74b46c7de99f3926fad5734d48df"
+    },
+    {
+      "path": "factory_manifest.json",
+      "size": 168506,
+      "sha256": "8b31d33f73845af11c5bc3441d37f7e1e3220696f4493f92b068a7c3ce23e56b"
+    },
+    {
+      "path": "google4447f309208060c0.html",
+      "size": 53,
+      "sha256": "7fc67989fc3e7b52701e31a16f1f9f50eccb24ae81e1ecf5f2602051d88ce5d8"
+    },
+    {
+      "path": "government-benefits-warning.html",
+      "size": 1572,
+      "sha256": "fcbebc1b84fa420f1cdb8f100e79b8e2475aa5a21576ccbfbed882d2ac09d923"
+    },
+    {
+      "path": "government24-benefit-check.html",
+      "size": 1568,
+      "sha256": "c7c4221dc81c451f599cd7d5c891f2a304b9ccafe57f409b8b67ccf5d504d611"
+    },
+    {
+      "path": "grocery-saving-tips.html",
+      "size": 1540,
+      "sha256": "f164f1edf2e4170a6a986967e77aa6eb710a56053377081630a4646bb92643e6"
+    },
+    {
+      "path": "guides/index.html",
+      "size": 9465,
+      "sha256": "6bd75b57b4be837625d7fedb6cc0c8bd31ffffa58f18597e3db2a1515bbdf698"
+    },
+    {
+      "path": "health-insurance-refund.html",
+      "size": 1580,
+      "sha256": "9655d701a109d1f67ef2076ca187d17cef01a26afe419b251139c08e70eb541d"
+    },
+    {
+      "path": "heating-bill-saving.html",
+      "size": 1540,
+      "sha256": "e1e32ccec3cff08941bea6ee969e9f83ca8bd9e0cee9eedd05604c94785c1eef"
+    },
+    {
+      "path": "hidden-refund-check.html",
+      "size": 1540,
+      "sha256": "fd9cf017fe40f86f640b8ee90e7b5868a93438e35ba64a36e6b3485981528689"
+    },
+    {
+      "path": "images/logo.svg",
+      "size": 416,
+      "sha256": "3e2fd97179fba7d0b6082ca6196d8fcfa550c07d44496ee872d7baf54b499546"
+    },
+    {
+      "path": "impulse-buying-control.html",
+      "size": 1552,
+      "sha256": "739fc776625ac0e09e994799dba3f00ba5bd371d740f1252e4a5e6d8024128bb"
+    },
+    {
+      "path": "index.html",
+      "size": 106483,
+      "sha256": "1cd5c3aec90989643f3e71041a0ae80d1630c79d6f27093a4fdd4dfd331d4954"
+    },
+    {
+      "path": "internet-bill-discount.html",
+      "size": 1552,
+      "sha256": "92a27050b0b2b76244e14d3514bd1b1b0760ef831bb393d4d27c6f444dedcc55"
+    },
+    {
+      "path": "irs-tax-refund-status.html",
+      "size": 1548,
+      "sha256": "e62e546368de49939b219da6201f4b2cc5c9852eaf04b9a3fc68cb0f5e032b42"
+    },
+    {
+      "path": "js/app.js",
+      "size": 811,
+      "sha256": "610f2770f3d4cba31abd30bc272be044f9a5fd345514d6b3619119d985771f9e"
+    },
+    {
+      "path": "js/article-navigation.js",
+      "size": 2441,
+      "sha256": "16becd8907647e551d27d263c6483914154a5e29c78b2fee479402ad9d86fd85"
+    },
+    {
+      "path": "js/articles.html",
+      "size": 8230,
+      "sha256": "f1a17e54d96ec191867d9ada10a8c763c8c6f801cf6b907ccf727032aa19ba4e"
+    },
+    {
+      "path": "js/brain-navigation.js",
+      "size": 8381,
+      "sha256": "fd218569cd214b7092c535febf9e0d933d407eb14fd46520b8ead631cd21e3f0"
+    },
+    {
+      "path": "js/calculator-configs.js",
+      "size": 29602,
+      "sha256": "32c927b87af9adc2eeecee5b06dd26f725ea7bc7bf98b9aa3dd6a10db3d2b15b"
+    },
+    {
+      "path": "js/calculator-drawer.js",
+      "size": 888,
+      "sha256": "771de16db1be56bd678c2a64e7d44ac0381987d5be279aaf00fe2632bfd3a894"
+    },
+    {
+      "path": "js/calculator-engine.js",
+      "size": 5091,
+      "sha256": "9643fa5fd49f7cca223152f04b327e146b2ecf5dcca571d93d3f94eaf332d5b5"
+    },
+    {
+      "path": "js/calculator-v2.js",
+      "size": 4633,
+      "sha256": "6503b7c297f029d539fb14f4397cdf04275bfe4a0392c5b4b35ad66785139466"
+    },
+    {
+      "path": "js/savingio-brain-navigation.js",
+      "size": 5940,
+      "sha256": "ca13279adc685f3b039936f76fa4b100ba5f8575277c9f1fd0c40619b7bfcb61"
+    },
+    {
+      "path": "js/savingio-content-platform.js",
+      "size": 4511,
+      "sha256": "7d1d183ce6b169ebb961a7db47eb2ea0112131449eb9f8a6ac37c968f8c40f48"
+    },
+    {
+      "path": "js/script.js",
+      "size": 148,
+      "sha256": "e264f8a959e8026fed8ca5752d7ddfa55f1397502e31eec9dbf2d26b43103874"
+    },
+    {
+      "path": "js/search.js",
+      "size": 1510,
+      "sha256": "c1186cf3b569752a8572e81eca0e756e590f9b9a527ab5c148fde62320a2389d"
+    },
+    {
+      "path": "local-tax-refund.html",
+      "size": 1552,
+      "sha256": "8751573b6adc6286236820cb7408595b1b90f887ffd9092ad3fee26daae8adbd"
+    },
+    {
+      "path": "money-saving-habits.html",
+      "size": 1540,
+      "sha256": "df1477f807242ef640cdf47d739ae569eaf4fb770671ed894d75ff1f9d2f29bd"
+    },
+    {
+      "path": "monthly-budget-planner.html",
+      "size": 1552,
+      "sha256": "518642122ab37fb5d52e1a7450cb7cb7af40926c0d9450c7afbe5a1676bdb54d"
+    },
+    {
+      "path": "national-tax-refund.html",
+      "size": 1540,
+      "sha256": "7066a1c253b850da5c58acd0ea6274cc124e88e2e819cb317276e77f263c25f5"
+    },
+    {
+      "path": "naver6fb8eae061600aa57d340ee168debf7c.html",
+      "size": 67,
+      "sha256": "67c055f6dd2eb991a117dc4c02a9bdc32c0b4ce2ad49c65b810a7a2d20189469"
+    },
+    {
+      "path": "online-income-ideas-for-beginners.html",
+      "size": 1560,
+      "sha256": "0e65a949d2739cfe125ecbee9d1ed6fd88b25407b361f6f230a109a1cde43b59"
+    },
+    {
+      "path": "phone-bill-saving.html",
+      "size": 1532,
+      "sha256": "5aecb55ca73a93ab95d6a6986c7cd6d5cc443603f3d4c2d9cf24ac3993aa9218"
+    },
+    {
+      "path": "phone-bill-savings.html",
+      "size": 10149,
+      "sha256": "5fb3c4a0339d005302576db5f99c9bf4096d1f4285373b7aeedb2aa572cf320f"
+    },
+    {
+      "path": "privacy.html",
+      "size": 5608,
+      "sha256": "042701e03b0c48ed9d9870dbd9ea81bf710658fa4d3b82bce52babd43b1a54c3"
+    },
+    {
+      "path": "robots.txt",
+      "size": 66,
+      "sha256": "156aed5776a8f338e9078aea6f3ea374726371e6a3f96a28589307cd51381ba8"
+    },
+    {
+      "path": "rss.xml",
+      "size": 20424,
+      "sha256": "74016bdd614c55cb0d0615968abffce2fffdf8a3cff70c3ca98e14481126ae98"
+    },
+    {
+      "path": "run_factory.bat",
+      "size": 107,
+      "sha256": "fb86cd31483f26a2ed0031b10d9cfd14f822151836764d374d738f480f0915d1"
+    },
+    {
+      "path": "salary-management-guide.html",
+      "size": 1556,
+      "sha256": "2a009ebbc697847ca293007f631904299b9d3d4efa250c49c383f3a838d8cccf"
+    },
+    {
+      "path": "savingio-final-audit.json",
+      "size": 371,
+      "sha256": "c765532d29ada5979d7877ed77c68b69f34c524e733f5bfd1f45cd83667919dd"
+    },
+    {
+      "path": "sitemap-calculators.xml",
+      "size": 762,
+      "sha256": "0f15d0044b0738d65bba730af7c3e63f96fa1a52ccc88b728a189f3077799368"
+    },
+    {
+      "path": "sitemap.xml",
+      "size": 20641,
+      "sha256": "dbc4a7082b53b651186a7a27ad336a4c7ef93ca3043dc1708adfbc0d164af0c9"
+    },
+    {
+      "path": "spending-habits-change.html",
+      "size": 1552,
+      "sha256": "8a3c87755e229b70e651f16343daa72735981cfd4110da1ffa4535533742ba55"
+    },
+    {
+      "path": "style.css",
+      "size": 5477,
+      "sha256": "4e8eaa516af61380b1209af57a1a5a969d5e8f991a9fe3bd601865467e4db159"
+    },
+    {
+      "path": "subscription-saving.html",
+      "size": 1540,
+      "sha256": "c9e3293ef907d7bd8dbf28dba7a6276ab00ed1f2caf6e6ec639265c1e9808cea"
+    },
+    {
+      "path": "templates/article-master-v3.html",
+      "size": 1200,
+      "sha256": "0317b939be028dad1443f2bd731ae0a733cecc3c6a656aad64cac41539ec30a8"
+    },
+    {
+      "path": "templates/article-v2-content-schema.json",
+      "size": 654,
+      "sha256": "36cf0a6f193eb49305c018abf1c2cb50b698b7092c8d82c25b032d2744529065"
+    },
+    {
+      "path": "templates/article-v2.html",
+      "size": 4539,
+      "sha256": "ebaa3f83cad236932919fb39badc1558e3080e4b41c6b130e0002880a69b6ecf"
+    },
+    {
+      "path": "terms.html",
+      "size": 5574,
+      "sha256": "05fbe4d31452db604a4d5c698d6dc9edc44af510e0989c01c858d5bf46138aa1"
+    },
+    {
+      "path": "tests/article-type-fixtures.json",
+      "size": 49503,
+      "sha256": "8ecfee28d8bd86ea81598c977004447adb8291232c32cbf0131c0b157d9e6cbe"
+    },
+    {
+      "path": "tests/test_factory.py",
+      "size": 879,
+      "sha256": "40a2451f35f2176819efc2e988ad96706721fb7bb7f27aafe60aceccb1daaca3"
+    },
+    {
+      "path": "tools/audit_site.py",
+      "size": 1409,
+      "sha256": "f3c660b195484ca0147d9df465b20c24de6ce14f2b8519913d38017a6493190d"
+    },
+    {
+      "path": "tools/build-articles-v2.py",
+      "size": 16948,
+      "sha256": "679bab1758a345634ef36851392ab74884dd769bc55dafcd1bbf2ee063473e8b"
+    },
+    {
+      "path": "tools/build-articles.py",
+      "size": 422,
+      "sha256": "34fc9427537405085db5993d6d75cddc7863204a4b46c1cb7c6e1126c7f4ba9e"
+    },
+    {
+      "path": "tools/savingio_article_qa.py",
+      "size": 5395,
+      "sha256": "6012d0c1eeecfb96e6fc712e5614ff6195f0798e84cf1b9f4512321426ec3183"
+    },
+    {
+      "path": "tools/test-article-dna-v2.py",
+      "size": 2331,
+      "sha256": "07d80233109e008f698d1c7ced818afb45fc6c9065346f980c3bb63a064fb1e2"
+    },
+    {
+      "path": "tools/verify-article-dna-v2.py",
+      "size": 1331,
+      "sha256": "9c5b135b40b46120024036bd69ecf6d6bf49166debba2dff252a363be727dcec"
+    },
+    {
+      "path": "topics/electricity.html",
+      "size": 7697,
+      "sha256": "50f149fc2196298b68777ef6645ebe409fe483f0250d53d17743076e31f5ec6f"
+    },
+    {
+      "path": "water-bill-saving.html",
+      "size": 1532,
+      "sha256": "9837a954e3dfe3a95b06d4839f21970b276013632df43b90de97facd90114c80"
+    },
+    {
+      "path": "youth-support-programs.html",
+      "size": 1552,
+      "sha256": "25bde7f93278d3c4032827aed33e8bdef86c0c315c63f84968a3ddc118094564"
+    }
+  ],
+  "created_at": "2026-07-14T15:35:04+00:00"
+}
