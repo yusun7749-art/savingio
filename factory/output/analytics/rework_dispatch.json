@@ -1,0 +1,12 @@
+{
+  "dispatched_count": 1,
+  "items": [
+    {
+      "workflow_id": "c983a1fb93e54935bde7c331b704f02c",
+      "department": "seo",
+      "page": "https://savingio.com/articles/sample",
+      "action": "rewrite_title_meta"
+    }
+  ],
+  "created_at": "2026-07-14T12:24:09+00:00"
+}

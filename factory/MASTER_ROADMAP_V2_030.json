@@ -1,0 +1,20 @@
+{
+  "version": "2.030",
+  "phase": "external_connectors",
+  "completed": [
+    "WordPress REST Connector",
+    "WordPress Publisher",
+    "Cloudflare Pages API Client",
+    "Cloudflare Deployment Verifier",
+    "Service Readiness Dashboard"
+  ],
+  "requires_user_configuration": [
+    "WORDPRESS_URL",
+    "WORDPRESS_USER",
+    "WORDPRESS_APP_PASSWORD",
+    "CLOUDFLARE_ACCOUNT_ID",
+    "CLOUDFLARE_API_TOKEN",
+    "CLOUDFLARE_PAGES_PROJECT",
+    "OPENAI_API_KEY"
+  ]
+}

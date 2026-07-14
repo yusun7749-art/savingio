@@ -1,0 +1,6 @@
+{"time": "2026-07-13T15:09:34+00:00", "event": "pipeline_completed", "payload": {"topic": "전기요금 절약", "qa": 95}}
+{"time": "2026-07-13T15:09:47+00:00", "event": "pipeline_completed", "payload": {"topic": "전기요금 절약", "qa": 95}}
+{"time": "2026-07-13T15:09:47+00:00", "event": "pipeline_completed", "payload": {"topic": "관리비 절약", "qa": 95}}
+{"time": "2026-07-13T15:33:01+00:00", "event": "pipeline_completed", "payload": {"topic": "전기요금 절약", "qa": 100, "status": "staged", "duplicate": true}}
+{"time": "2026-07-13T15:34:01+00:00", "event": "pipeline_completed", "payload": {"topic": "전기요금 절약", "qa": 100, "status": "staged", "duplicate": true}}
+{"time": "2026-07-14T09:15:32+00:00", "event": "pipeline_completed", "payload": {"topic": "전기요금 절약", "qa": 100, "status": "draft", "duplicate": true}}

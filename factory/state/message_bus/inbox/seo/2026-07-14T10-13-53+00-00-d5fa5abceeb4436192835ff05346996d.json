@@ -1,0 +1,13 @@
+{
+  "id": "d5fa5abceeb4436192835ff05346996d",
+  "sender": "writing",
+  "receiver": "seo",
+  "event": "task.handoff",
+  "payload": {
+    "html_ready": true,
+    "chars": 5799
+  },
+  "correlation_id": "cfb642d57a25493c80167f4a670d080c",
+  "created_at": "2026-07-14T10:13:53+00:00",
+  "status": "queued"
+}

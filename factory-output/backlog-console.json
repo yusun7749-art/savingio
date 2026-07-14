@@ -1,0 +1,2224 @@
+{
+  "generated_at": "2026-07-13T13:31:19+00:00",
+  "summary": {
+    "articles": 218,
+    "average_score": 77.0,
+    "failure_counts": {
+      "has_h1": 14,
+      "min_density": 144,
+      "has_summary": 41,
+      "has_steps": 22,
+      "has_mistakes": 28,
+      "has_faq": 15,
+      "has_next_action": 73,
+      "no_generic_reuse": 126,
+      "no_placeholders": 1
+    }
+  },
+  "priority": [
+    {
+      "rank": 1,
+      "file": "articles/beginner-ai-side-hustles.html",
+      "score": 35,
+      "characters": 38,
+      "fix": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 2,
+      "file": "articles/credit-score-tips.html",
+      "score": 35,
+      "characters": 38,
+      "fix": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 3,
+      "file": "articles/energy-voucher-balance-use-2026.html",
+      "score": 35,
+      "characters": 38,
+      "fix": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 4,
+      "file": "articles/government-benefit-alert-guide-2026.html",
+      "score": 35,
+      "characters": 38,
+      "fix": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 5,
+      "file": "articles/government-support-scam-warning-2026.html",
+      "score": 35,
+      "characters": 38,
+      "fix": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 6,
+      "file": "articles/health-insurance-refund.html",
+      "score": 35,
+      "characters": 38,
+      "fix": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 7,
+      "file": "articles/local-tax-refund.html",
+      "score": 35,
+      "characters": 38,
+      "fix": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 8,
+      "file": "articles/online-income-ideas-for-beginners.html",
+      "score": 35,
+      "characters": 38,
+      "fix": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 9,
+      "file": "articles/property-tax-electronic-notice-2026.html",
+      "score": 35,
+      "characters": 38,
+      "fix": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 10,
+      "file": "articles/property-tax-july-checklist-2026.html",
+      "score": 35,
+      "characters": 38,
+      "fix": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 11,
+      "file": "articles/reduce-electricity-bill.html",
+      "score": 35,
+      "characters": 38,
+      "fix": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 12,
+      "file": "articles/summer-electricity-usage-check-2026.html",
+      "score": 35,
+      "characters": 38,
+      "fix": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 13,
+      "file": "articles/vat-final-return-deadline-2026.html",
+      "score": 35,
+      "characters": 38,
+      "fix": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 14,
+      "file": "articles/vat-input-tax-deduction-guide-2026.html",
+      "score": 35,
+      "characters": 38,
+      "fix": [
+        "has_h1",
+        "min_density",
+        "has_summary",
+        "has_steps",
+        "has_mistakes",
+        "has_faq",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 15,
+      "file": "articles/traffic-fines-difference-guide.html",
+      "score": 59,
+      "characters": 3100,
+      "fix": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 16,
+      "file": "articles/regional-development-bond-refund-guide.html",
+      "score": 59,
+      "characters": 3122,
+      "fix": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 17,
+      "file": "articles/first-meeting-voucher-guide.html",
+      "score": 59,
+      "characters": 3123,
+      "fix": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 18,
+      "file": "articles/senior-job-application-guide.html",
+      "score": 59,
+      "characters": 3137,
+      "fix": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 19,
+      "file": "articles/vehicle-inspection-reservation-guide.html",
+      "score": 59,
+      "characters": 3162,
+      "fix": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 20,
+      "file": "articles/traffic-penalty-check-payment-guide.html",
+      "score": 59,
+      "characters": 3200,
+      "fix": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 21,
+      "file": "articles/national-pension-old-age-benefit-guide.html",
+      "score": 59,
+      "characters": 3214,
+      "fix": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 22,
+      "file": "articles/long-term-care-insurance-application.html",
+      "score": 59,
+      "characters": 3219,
+      "fix": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 23,
+      "file": "articles/traffic-fine-check-payment-guide.html",
+      "score": 59,
+      "characters": 3242,
+      "fix": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 24,
+      "file": "articles/over-60-benefits-guide.html",
+      "score": 59,
+      "characters": 3263,
+      "fix": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 25,
+      "file": "articles/car-tax-check-payment-guide.html",
+      "score": 59,
+      "characters": 3300,
+      "fix": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 26,
+      "file": "articles/basic-pension-application-guide.html",
+      "score": 59,
+      "characters": 3337,
+      "fix": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 27,
+      "file": "articles/parental-benefit-guide.html",
+      "score": 59,
+      "characters": 3363,
+      "fix": [
+        "min_density",
+        "has_summary",
+        "has_mistakes",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 28,
+      "file": "articles/overdraft-account-guide.html",
+      "score": 66,
+      "characters": 2777,
+      "fix": [
+        "min_density",
+        "has_steps",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 29,
+      "file": "articles/local-tax-refund-guide.html",
+      "score": 66,
+      "characters": 2803,
+      "fix": [
+        "min_density",
+        "has_steps",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 30,
+      "file": "articles/credit-score-management.html",
+      "score": 66,
+      "characters": 2893,
+      "fix": [
+        "min_density",
+        "has_steps",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 31,
+      "file": "articles/subsidy24-benefit-search.html",
+      "score": 66,
+      "characters": 2909,
+      "fix": [
+        "min_density",
+        "has_steps",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 32,
+      "file": "articles/loan-prepayment-fee-check.html",
+      "score": 66,
+      "characters": 2978,
+      "fix": [
+        "min_density",
+        "has_steps",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 33,
+      "file": "articles/deposit-protection-limit-guide.html",
+      "score": 66,
+      "characters": 3060,
+      "fix": [
+        "min_density",
+        "has_steps",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 34,
+      "file": "articles/child-allowance-guide.html",
+      "score": 66,
+      "characters": 3178,
+      "fix": [
+        "min_density",
+        "has_summary",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 35,
+      "file": "articles/hometax-vat-sales-check.html",
+      "score": 66,
+      "characters": 3318,
+      "fix": [
+        "min_density",
+        "has_steps",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 36,
+      "file": "articles/electricity-bill-easy-calculator-guide.html",
+      "score": 67,
+      "characters": 3338,
+      "fix": [
+        "min_density",
+        "has_summary",
+        "has_mistakes"
+      ]
+    },
+    {
+      "rank": 37,
+      "file": "articles/telecom-unclaimed-refund.html",
+      "score": 74,
+      "characters": 2403,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 38,
+      "file": "articles/national-pension-overpayment-refund.html",
+      "score": 74,
+      "characters": 2407,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 39,
+      "file": "articles/dormant-deposit-insurance-search.html",
+      "score": 74,
+      "characters": 2475,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 40,
+      "file": "articles/unemployment-benefit-checklist.html",
+      "score": 74,
+      "characters": 2540,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 41,
+      "file": "articles/severance-pay-calculation-guide.html",
+      "score": 74,
+      "characters": 2557,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 42,
+      "file": "articles/car-insurance-overpayment-refund.html",
+      "score": 74,
+      "characters": 2568,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 43,
+      "file": "articles/health-insurance-refund-guide.html",
+      "score": 74,
+      "characters": 2632,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 44,
+      "file": "articles/weekly-holiday-pay-guide.html",
+      "score": 74,
+      "characters": 2639,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 45,
+      "file": "articles/lifelong-education-voucher-application.html",
+      "score": 74,
+      "characters": 2662,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 46,
+      "file": "articles/four-major-insurance-deduction-guide.html",
+      "score": 74,
+      "characters": 2672,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 47,
+      "file": "articles/national-scholarship-application.html",
+      "score": 74,
+      "characters": 2711,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 48,
+      "file": "articles/student-loan-repayment-guide.html",
+      "score": 74,
+      "characters": 2742,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 49,
+      "file": "articles/child-tax-credit-status-check.html",
+      "score": 74,
+      "characters": 2759,
+      "fix": [
+        "min_density",
+        "has_steps"
+      ]
+    },
+    {
+      "rank": 50,
+      "file": "articles/elementary-school-education-support.html",
+      "score": 74,
+      "characters": 2788,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 51,
+      "file": "articles/education-benefit-eligibility.html",
+      "score": 74,
+      "characters": 2854,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 52,
+      "file": "articles/earned-income-credit-payment.html",
+      "score": 74,
+      "characters": 2879,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 53,
+      "file": "articles/loan-refinancing-check.html",
+      "score": 74,
+      "characters": 2891,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 54,
+      "file": "articles/earned-income-credit-status-check.html",
+      "score": 74,
+      "characters": 2991,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 55,
+      "file": "articles/emergency-fund-guide.html",
+      "score": 74,
+      "characters": 3016,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 56,
+      "file": "articles/medical-bill-negotiation.html",
+      "score": 74,
+      "characters": 3137,
+      "fix": [
+        "min_density",
+        "has_summary"
+      ]
+    },
+    {
+      "rank": 57,
+      "file": "articles/health-insurance-overpayment-refund.html",
+      "score": 74,
+      "characters": 3141,
+      "fix": [
+        "min_density",
+        "has_summary"
+      ]
+    },
+    {
+      "rank": 58,
+      "file": "articles/health-insurance-out-of-pocket-refund.html",
+      "score": 74,
+      "characters": 3148,
+      "fix": [
+        "min_density",
+        "has_summary"
+      ]
+    },
+    {
+      "rank": 59,
+      "file": "articles/apartment-management-fee-summer.html",
+      "score": 74,
+      "characters": 3170,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 60,
+      "file": "articles/emergency-medical-support.html",
+      "score": 74,
+      "characters": 3177,
+      "fix": [
+        "min_density",
+        "has_summary"
+      ]
+    },
+    {
+      "rank": 61,
+      "file": "articles/gas-bill-checklist.html",
+      "score": 74,
+      "characters": 3177,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 62,
+      "file": "articles/salary-take-home-easy-calculator-guide.html",
+      "score": 74,
+      "characters": 3187,
+      "fix": [
+        "min_density",
+        "has_summary"
+      ]
+    },
+    {
+      "rank": 63,
+      "file": "articles/vat-zero-sales-filing-2026.html",
+      "score": 74,
+      "characters": 3215,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 64,
+      "file": "articles/general-vat-common-mistakes.html",
+      "score": 74,
+      "characters": 3290,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 65,
+      "file": "articles/vat-input-tax-deduction-items.html",
+      "score": 74,
+      "characters": 3298,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 66,
+      "file": "articles/vat-sales-omission-check-2026.html",
+      "score": 74,
+      "characters": 3315,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 67,
+      "file": "articles/air-conditioner-electricity-saving.html",
+      "score": 74,
+      "characters": 3350,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 68,
+      "file": "articles/grocery-bill-savings.html",
+      "score": 74,
+      "characters": 3388,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 69,
+      "file": "articles/phone-bill-saving.html",
+      "score": 74,
+      "characters": 3401,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 70,
+      "file": "articles/subscription-audit-checklist.html",
+      "score": 74,
+      "characters": 3437,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 71,
+      "file": "articles/cancel-unused-subscriptions.html",
+      "score": 74,
+      "characters": 3448,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 72,
+      "file": "articles/internet-bill-savings.html",
+      "score": 74,
+      "characters": 3455,
+      "fix": [
+        "min_density",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 73,
+      "file": "articles/severance-pay-easy-calculator-guide.html",
+      "score": 74,
+      "characters": 3464,
+      "fix": [
+        "min_density",
+        "has_summary"
+      ]
+    },
+    {
+      "rank": 74,
+      "file": "articles/fixed-date-online-application.html",
+      "score": 75,
+      "characters": 3183,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 75,
+      "file": "articles/national-employment-support-eligibility.html",
+      "score": 75,
+      "characters": 3183,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 76,
+      "file": "articles/small-business-delivery-support.html",
+      "score": 75,
+      "characters": 3184,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 77,
+      "file": "articles/money-saving-habits.html",
+      "score": 75,
+      "characters": 3192,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 78,
+      "file": "articles/spending-habits-change.html",
+      "score": 75,
+      "characters": 3192,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 79,
+      "file": "articles/hidden-money-search.html",
+      "score": 75,
+      "characters": 3193,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 80,
+      "file": "articles/how-to-check-hidden-refunds.html",
+      "score": 75,
+      "characters": 3195,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 81,
+      "file": "articles/small-business-policy-fund-search.html",
+      "score": 75,
+      "characters": 3196,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 82,
+      "file": "articles/small-business-policy-fund.html",
+      "score": 75,
+      "characters": 3196,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 83,
+      "file": "articles/small-business-closure-support.html",
+      "score": 75,
+      "characters": 3199,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 84,
+      "file": "articles/cashback-apps-guide.html",
+      "score": 75,
+      "characters": 3203,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 85,
+      "file": "articles/wetax-payment-history.html",
+      "score": 75,
+      "characters": 3224,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 86,
+      "file": "articles/low-income-cooling-support.html",
+      "score": 75,
+      "characters": 3230,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 87,
+      "file": "articles/wetax-electronic-billing.html",
+      "score": 75,
+      "characters": 3239,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 88,
+      "file": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "score": 75,
+      "characters": 3259,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 89,
+      "file": "articles/beginner-money-management.html",
+      "score": 75,
+      "characters": 3269,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 90,
+      "file": "articles/how-to-lower-phone-bill.html",
+      "score": 75,
+      "characters": 3282,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 91,
+      "file": "articles/parking-account-rate-comparison.html",
+      "score": 75,
+      "characters": 3297,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 92,
+      "file": "articles/telecom-discount-guide.html",
+      "score": 75,
+      "characters": 3340,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 93,
+      "file": "articles/revolving-cancellation-payoff.html",
+      "score": 75,
+      "characters": 3341,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 94,
+      "file": "articles/bank-fees-to-avoid.html",
+      "score": 75,
+      "characters": 3349,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 95,
+      "file": "articles/insurance-auto-pay-discount.html",
+      "score": 75,
+      "characters": 3349,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 96,
+      "file": "articles/heating-bill-saving.html",
+      "score": 75,
+      "characters": 3354,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 97,
+      "file": "articles/credit-score-habits.html",
+      "score": 75,
+      "characters": 3358,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 98,
+      "file": "articles/subscription-saving.html",
+      "score": 75,
+      "characters": 3360,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 99,
+      "file": "articles/cash-out-card-points.html",
+      "score": 75,
+      "characters": 3361,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 100,
+      "file": "articles/debit-card-vs-credit-card.html",
+      "score": 75,
+      "characters": 3361,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 101,
+      "file": "articles/bank-fee-saving.html",
+      "score": 75,
+      "characters": 3363,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 102,
+      "file": "articles/duplicate-indemnity-insurance-check.html",
+      "score": 75,
+      "characters": 3364,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 103,
+      "file": "articles/savings-maturity-auto-renewal.html",
+      "score": 75,
+      "characters": 3366,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 104,
+      "file": "articles/card-points-cashback-guide.html",
+      "score": 75,
+      "characters": 3369,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 105,
+      "file": "articles/home-water-leak-self-check.html",
+      "score": 75,
+      "characters": 3371,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 106,
+      "file": "articles/car-aircon-fuel-saving.html",
+      "score": 75,
+      "characters": 3377,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 107,
+      "file": "articles/grocery-saving-tips.html",
+      "score": 75,
+      "characters": 3384,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 108,
+      "file": "articles/car-insurance-child-discount.html",
+      "score": 75,
+      "characters": 3387,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 109,
+      "file": "articles/credit-card-billing-cycle-guide.html",
+      "score": 75,
+      "characters": 3388,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 110,
+      "file": "articles/cma-account-types-risk.html",
+      "score": 75,
+      "characters": 3391,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 111,
+      "file": "articles/cash-advance-vs-card-loan.html",
+      "score": 75,
+      "characters": 3394,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 112,
+      "file": "articles/summer-vacation-budget-plan.html",
+      "score": 75,
+      "characters": 3399,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 113,
+      "file": "articles/bank-account-budgeting.html",
+      "score": 75,
+      "characters": 3408,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 114,
+      "file": "articles/travel-insurance-comparison.html",
+      "score": 75,
+      "characters": 3416,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 115,
+      "file": "articles/salary-management-guide.html",
+      "score": 75,
+      "characters": 3417,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 116,
+      "file": "articles/property-tax-deadline.html",
+      "score": 75,
+      "characters": 3427,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 117,
+      "file": "articles/peak-season-hotel-saving.html",
+      "score": 75,
+      "characters": 3429,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 118,
+      "file": "articles/property-tax-joint-ownership.html",
+      "score": 75,
+      "characters": 3429,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 119,
+      "file": "articles/rental-car-vacation-saving.html",
+      "score": 75,
+      "characters": 3429,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 120,
+      "file": "articles/car-tax-annual-payment.html",
+      "score": 75,
+      "characters": 3430,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 121,
+      "file": "articles/salary-budget-guide.html",
+      "score": 75,
+      "characters": 3434,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 122,
+      "file": "articles/summer-water-bill-spike-check.html",
+      "score": 75,
+      "characters": 3442,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 123,
+      "file": "articles/water-bill-guide.html",
+      "score": 75,
+      "characters": 3444,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 124,
+      "file": "articles/ai-side-hustles-beginner.html",
+      "score": 75,
+      "characters": 3450,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 125,
+      "file": "articles/property-tax-payment-certificate.html",
+      "score": 75,
+      "characters": 3450,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 126,
+      "file": "articles/education-expense-vs-benefit.html",
+      "score": 75,
+      "characters": 3455,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 127,
+      "file": "articles/property-tax-calculation-structure.html",
+      "score": 75,
+      "characters": 3456,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 128,
+      "file": "articles/business-phone-expense-deduction.html",
+      "score": 75,
+      "characters": 3462,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 129,
+      "file": "articles/subscription-cleanup.html",
+      "score": 75,
+      "characters": 3464,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 130,
+      "file": "articles/property-tax-objection-guide.html",
+      "score": 75,
+      "characters": 3465,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 131,
+      "file": "articles/summer-gas-bill-hot-water-saving.html",
+      "score": 75,
+      "characters": 3466,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 132,
+      "file": "articles/unemployment-benefit-job-search.html",
+      "score": 75,
+      "characters": 3468,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 133,
+      "file": "articles/national-tax-refund.html",
+      "score": 75,
+      "characters": 3474,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 134,
+      "file": "articles/hidden-refund-check.html",
+      "score": 75,
+      "characters": 3475,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 135,
+      "file": "articles/check-hidden-refunds.html",
+      "score": 75,
+      "characters": 3480,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 136,
+      "file": "articles/business-card-hometax-registration.html",
+      "score": 75,
+      "characters": 3482,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 137,
+      "file": "articles/property-tax-installment-application.html",
+      "score": 75,
+      "characters": 3487,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 138,
+      "file": "articles/building-land-property-tax.html",
+      "score": 75,
+      "characters": 3489,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 139,
+      "file": "articles/government-benefits-warning.html",
+      "score": 75,
+      "characters": 3492,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 140,
+      "file": "articles/property-tax-july-september-difference.html",
+      "score": 75,
+      "characters": 3495,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 141,
+      "file": "articles/hometax-refund-status.html",
+      "score": 75,
+      "characters": 3496,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 142,
+      "file": "articles/national-tax-refund-account.html",
+      "score": 75,
+      "characters": 3498,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 143,
+      "file": "articles/near-poverty-certificate.html",
+      "score": 75,
+      "characters": 3499,
+      "fix": [
+        "min_density",
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 144,
+      "file": "articles/index.html",
+      "score": 76,
+      "characters": 13026,
+      "fix": [
+        "has_summary",
+        "has_faq",
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 145,
+      "file": "articles/salary-slip-check-guide.html",
+      "score": 82,
+      "characters": 2947,
+      "fix": [
+        "min_density"
+      ]
+    },
+    {
+      "rank": 146,
+      "file": "articles/electronic-tax-invoice-penalty.html",
+      "score": 85,
+      "characters": 4106,
+      "fix": [
+        "no_placeholders"
+      ]
+    },
+    {
+      "rank": 147,
+      "file": "articles/impulse-buying-control.html",
+      "score": 92,
+      "characters": 3522,
+      "fix": [
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 148,
+      "file": "articles/beginner-budget-plan.html",
+      "score": 92,
+      "characters": 3541,
+      "fix": [
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 149,
+      "file": "articles/automatic-payment-saving.html",
+      "score": 92,
+      "characters": 3591,
+      "fix": [
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 150,
+      "file": "articles/monthly-budget-planner.html",
+      "score": 92,
+      "characters": 3592,
+      "fix": [
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 151,
+      "file": "articles/housing-benefit-eligibility.html",
+      "score": 92,
+      "characters": 3681,
+      "fix": [
+        "has_summary"
+      ]
+    },
+    {
+      "rank": 152,
+      "file": "articles/youth-housing-benefit-separate-payment.html",
+      "score": 92,
+      "characters": 3705,
+      "fix": [
+        "has_summary"
+      ]
+    },
+    {
+      "rank": 153,
+      "file": "articles/rental-contract-reporting-guide.html",
+      "score": 92,
+      "characters": 3716,
+      "fix": [
+        "has_summary"
+      ]
+    },
+    {
+      "rank": 154,
+      "file": "articles/deposit-return-guarantee-checklist.html",
+      "score": 92,
+      "characters": 3724,
+      "fix": [
+        "has_summary"
+      ]
+    },
+    {
+      "rank": 155,
+      "file": "articles/monthly-rent-tax-credit-documents.html",
+      "score": 92,
+      "characters": 3733,
+      "fix": [
+        "has_summary"
+      ]
+    },
+    {
+      "rank": 156,
+      "file": "articles/budget-app-guide.html",
+      "score": 92,
+      "characters": 3785,
+      "fix": [
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 157,
+      "file": "articles/income-tax-filing-missed-consequences.html",
+      "score": 92,
+      "characters": 4051,
+      "fix": [
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 158,
+      "file": "articles/simple-receipt-expense-rules.html",
+      "score": 92,
+      "characters": 4274,
+      "fix": [
+        "has_next_action"
+      ]
+    },
+    {
+      "rank": 159,
+      "file": "articles/business-vehicle-expense-basics.html",
+      "score": 93,
+      "characters": 3500,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 160,
+      "file": "articles/property-tax-electronic-bill-2026.html",
+      "score": 93,
+      "characters": 3501,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 161,
+      "file": "articles/youth-savings-account-maintenance.html",
+      "score": 93,
+      "characters": 3502,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 162,
+      "file": "articles/missing-property-tax-bill.html",
+      "score": 93,
+      "characters": 3505,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 163,
+      "file": "articles/local-tax-refund-claim.html",
+      "score": 93,
+      "characters": 3506,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 164,
+      "file": "articles/emergency-welfare-living-support.html",
+      "score": 93,
+      "characters": 3508,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 165,
+      "file": "articles/internet-bill-discount.html",
+      "score": 93,
+      "characters": 3509,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 166,
+      "file": "articles/dryer-summer-electricity-saving.html",
+      "score": 93,
+      "characters": 3510,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 167,
+      "file": "articles/car-insurance-mileage-refund.html",
+      "score": 93,
+      "characters": 3513,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 168,
+      "file": "articles/childcare-service-government-support.html",
+      "score": 93,
+      "characters": 3514,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 169,
+      "file": "articles/earned-income-tax-credit-korea.html",
+      "score": 93,
+      "characters": 3516,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 170,
+      "file": "articles/aircon-dry-mode-electricity.html",
+      "score": 93,
+      "characters": 3517,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 171,
+      "file": "articles/irs-tax-refund-status.html",
+      "score": 93,
+      "characters": 3517,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 172,
+      "file": "articles/youth-leap-account-contribution.html",
+      "score": 93,
+      "characters": 3518,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 173,
+      "file": "articles/how-to-save-electricity-bill.html",
+      "score": 93,
+      "characters": 3525,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 174,
+      "file": "articles/fan-aircon-combination-saving.html",
+      "score": 93,
+      "characters": 3526,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 175,
+      "file": "articles/fixed-speed-aircon-saving.html",
+      "score": 93,
+      "characters": 3526,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 176,
+      "file": "articles/aircon-filter-cleaning-savings.html",
+      "score": 93,
+      "characters": 3529,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 177,
+      "file": "articles/energy-voucher-application.html",
+      "score": 93,
+      "characters": 3529,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 178,
+      "file": "articles/earned-income-credit-account-change.html",
+      "score": 93,
+      "characters": 3531,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 179,
+      "file": "articles/inverter-aircon-saving-guide.html",
+      "score": 93,
+      "characters": 3532,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 180,
+      "file": "articles/insurance-surrender-value-check.html",
+      "score": 93,
+      "characters": 3533,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 181,
+      "file": "articles/energy-voucher-documents.html",
+      "score": 93,
+      "characters": 3536,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 182,
+      "file": "articles/basic-livelihood-discounts.html",
+      "score": 93,
+      "characters": 3538,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 183,
+      "file": "articles/business-closure-vat-order.html",
+      "score": 93,
+      "characters": 3542,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 184,
+      "file": "articles/property-tax-july-2026.html",
+      "score": 93,
+      "characters": 3542,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 185,
+      "file": "articles/refrigerator-summer-electricity-saving.html",
+      "score": 93,
+      "characters": 3542,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 186,
+      "file": "articles/energy-voucher-online-application.html",
+      "score": 93,
+      "characters": 3545,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 187,
+      "file": "articles/national-pension-additional-payment.html",
+      "score": 93,
+      "characters": 3547,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 188,
+      "file": "articles/government-support-calendar.html",
+      "score": 93,
+      "characters": 3550,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 189,
+      "file": "articles/tax-credit-late-application.html",
+      "score": 93,
+      "characters": 3551,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 190,
+      "file": "articles/small-business-electricity-support.html",
+      "score": 93,
+      "characters": 3553,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 191,
+      "file": "articles/property-tax-bill-checklist-2026.html",
+      "score": 93,
+      "characters": 3569,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 192,
+      "file": "articles/energy-voucher-balance-use.html",
+      "score": 93,
+      "characters": 3576,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 193,
+      "file": "articles/single-parent-support-benefits.html",
+      "score": 93,
+      "characters": 3576,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 194,
+      "file": "articles/dehumidifier-electricity-saving.html",
+      "score": 93,
+      "characters": 3585,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 195,
+      "file": "articles/summer-electricity-tier-check.html",
+      "score": 93,
+      "characters": 3591,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 196,
+      "file": "articles/government24-benefit-check.html",
+      "score": 93,
+      "characters": 3593,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 197,
+      "file": "articles/government-benefit-alert-setup.html",
+      "score": 93,
+      "characters": 3594,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 198,
+      "file": "articles/vat-zero-sales-filing.html",
+      "score": 93,
+      "characters": 3594,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 199,
+      "file": "articles/aircon-optimal-temperature-savings.html",
+      "score": 93,
+      "characters": 3600,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 200,
+      "file": "articles/culture-nuri-card-balance.html",
+      "score": 93,
+      "characters": 3600,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 201,
+      "file": "articles/electricity-discount-card-guide.html",
+      "score": 93,
+      "characters": 3601,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 202,
+      "file": "articles/energy-voucher-eligibility-2026.html",
+      "score": 93,
+      "characters": 3622,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 203,
+      "file": "articles/simplified-vat-checklist.html",
+      "score": 93,
+      "characters": 3624,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 204,
+      "file": "articles/summer-electricity-tier-check-2026.html",
+      "score": 93,
+      "characters": 3626,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 205,
+      "file": "articles/vat-payment-extension-guide.html",
+      "score": 93,
+      "characters": 3630,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 206,
+      "file": "articles/youth-support-programs.html",
+      "score": 93,
+      "characters": 3633,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 207,
+      "file": "articles/government-benefit-alert-2026.html",
+      "score": 93,
+      "characters": 3637,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 208,
+      "file": "articles/benefit-scam-warning-2026.html",
+      "score": 93,
+      "characters": 3645,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 209,
+      "file": "articles/energy-voucher-application-2026.html",
+      "score": 93,
+      "characters": 3649,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 210,
+      "file": "articles/energy-voucher-balance-check-2026.html",
+      "score": 93,
+      "characters": 3662,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 211,
+      "file": "articles/energy-voucher-2026-application.html",
+      "score": 93,
+      "characters": 3697,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 212,
+      "file": "articles/vat-input-tax-deduction-2026.html",
+      "score": 93,
+      "characters": 3701,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 213,
+      "file": "articles/vat-final-return-july-2026.html",
+      "score": 93,
+      "characters": 3708,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 214,
+      "file": "articles/vat-final-return-2026-july.html",
+      "score": 93,
+      "characters": 3764,
+      "fix": [
+        "no_generic_reuse"
+      ]
+    },
+    {
+      "rank": 215,
+      "file": "articles/water-bill-saving.html",
+      "score": 100,
+      "characters": 4003,
+      "fix": []
+    },
+    {
+      "rank": 216,
+      "file": "articles/tax-invoice-vs-cash-receipt.html",
+      "score": 100,
+      "characters": 4090,
+      "fix": []
+    },
+    {
+      "rank": 217,
+      "file": "articles/self-employed-income-tax-refund-check.html",
+      "score": 100,
+      "characters": 4252,
+      "fix": []
+    },
+    {
+      "rank": 218,
+      "file": "articles/electricity-bill-saving.html",
+      "score": 100,
+      "characters": 5377,
+      "fix": []
+    }
+  ]
+}

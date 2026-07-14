@@ -1,0 +1,17 @@
+{
+  "version": "2.032",
+  "services": [
+    {
+      "name": "data-go-kr-generic",
+      "base_url": "https://apis.data.go.kr/",
+      "domain": "apis.data.go.kr",
+      "api_key_env": "DATA_GO_KR_API_KEY",
+      "api_key_param": "serviceKey",
+      "timeout_seconds": 20,
+      "enabled": false,
+      "default_params": {
+        "_type": "json"
+      }
+    }
+  ]
+}

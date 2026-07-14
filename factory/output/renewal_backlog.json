@@ -1,0 +1,256 @@
+{
+  "generated_at": "2026-07-13T15:00:48+00:00",
+  "summary": {
+    "total_candidates": 15,
+    "failure_counts": {
+      "h1_once": 14,
+      "faq": 15,
+      "table": 15,
+      "min_chars": 14,
+      "toc": 15,
+      "updated": 14,
+      "robots": 1
+    },
+    "high_priority": 14
+  },
+  "priority": [
+    {
+      "rank": 1,
+      "file": "local-tax-refund.html",
+      "score": 22,
+      "risk": "high",
+      "priority_score": 120,
+      "missing": [
+        "h1_once",
+        "faq",
+        "table",
+        "min_chars",
+        "toc",
+        "updated"
+      ],
+      "recommended_action": "full_renewal"
+    },
+    {
+      "rank": 2,
+      "file": "credit-score-tips.html",
+      "score": 22,
+      "risk": "high",
+      "priority_score": 120,
+      "missing": [
+        "h1_once",
+        "faq",
+        "table",
+        "min_chars",
+        "toc",
+        "updated"
+      ],
+      "recommended_action": "full_renewal"
+    },
+    {
+      "rank": 3,
+      "file": "reduce-electricity-bill.html",
+      "score": 22,
+      "risk": "high",
+      "priority_score": 120,
+      "missing": [
+        "h1_once",
+        "faq",
+        "table",
+        "min_chars",
+        "toc",
+        "updated"
+      ],
+      "recommended_action": "full_renewal"
+    },
+    {
+      "rank": 4,
+      "file": "beginner-ai-side-hustles.html",
+      "score": 22,
+      "risk": "high",
+      "priority_score": 120,
+      "missing": [
+        "h1_once",
+        "faq",
+        "table",
+        "min_chars",
+        "toc",
+        "updated"
+      ],
+      "recommended_action": "full_renewal"
+    },
+    {
+      "rank": 5,
+      "file": "health-insurance-refund.html",
+      "score": 22,
+      "risk": "high",
+      "priority_score": 120,
+      "missing": [
+        "h1_once",
+        "faq",
+        "table",
+        "min_chars",
+        "toc",
+        "updated"
+      ],
+      "recommended_action": "full_renewal"
+    },
+    {
+      "rank": 6,
+      "file": "vat-final-return-deadline-2026.html",
+      "score": 22,
+      "risk": "high",
+      "priority_score": 120,
+      "missing": [
+        "h1_once",
+        "faq",
+        "table",
+        "min_chars",
+        "toc",
+        "updated"
+      ],
+      "recommended_action": "full_renewal"
+    },
+    {
+      "rank": 7,
+      "file": "online-income-ideas-for-beginners.html",
+      "score": 22,
+      "risk": "high",
+      "priority_score": 120,
+      "missing": [
+        "h1_once",
+        "faq",
+        "table",
+        "min_chars",
+        "toc",
+        "updated"
+      ],
+      "recommended_action": "full_renewal"
+    },
+    {
+      "rank": 8,
+      "file": "energy-voucher-balance-use-2026.html",
+      "score": 22,
+      "risk": "high",
+      "priority_score": 120,
+      "missing": [
+        "h1_once",
+        "faq",
+        "table",
+        "min_chars",
+        "toc",
+        "updated"
+      ],
+      "recommended_action": "full_renewal"
+    },
+    {
+      "rank": 9,
+      "file": "property-tax-july-checklist-2026.html",
+      "score": 22,
+      "risk": "high",
+      "priority_score": 120,
+      "missing": [
+        "h1_once",
+        "faq",
+        "table",
+        "min_chars",
+        "toc",
+        "updated"
+      ],
+      "recommended_action": "full_renewal"
+    },
+    {
+      "rank": 10,
+      "file": "vat-input-tax-deduction-guide-2026.html",
+      "score": 22,
+      "risk": "high",
+      "priority_score": 120,
+      "missing": [
+        "h1_once",
+        "faq",
+        "table",
+        "min_chars",
+        "toc",
+        "updated"
+      ],
+      "recommended_action": "full_renewal"
+    },
+    {
+      "rank": 11,
+      "file": "government-support-scam-warning-2026.html",
+      "score": 22,
+      "risk": "high",
+      "priority_score": 120,
+      "missing": [
+        "h1_once",
+        "faq",
+        "table",
+        "min_chars",
+        "toc",
+        "updated"
+      ],
+      "recommended_action": "full_renewal"
+    },
+    {
+      "rank": 12,
+      "file": "government-benefit-alert-guide-2026.html",
+      "score": 22,
+      "risk": "high",
+      "priority_score": 120,
+      "missing": [
+        "h1_once",
+        "faq",
+        "table",
+        "min_chars",
+        "toc",
+        "updated"
+      ],
+      "recommended_action": "full_renewal"
+    },
+    {
+      "rank": 13,
+      "file": "property-tax-electronic-notice-2026.html",
+      "score": 22,
+      "risk": "high",
+      "priority_score": 120,
+      "missing": [
+        "h1_once",
+        "faq",
+        "table",
+        "min_chars",
+        "toc",
+        "updated"
+      ],
+      "recommended_action": "full_renewal"
+    },
+    {
+      "rank": 14,
+      "file": "summer-electricity-usage-check-2026.html",
+      "score": 22,
+      "risk": "high",
+      "priority_score": 120,
+      "missing": [
+        "h1_once",
+        "faq",
+        "table",
+        "min_chars",
+        "toc",
+        "updated"
+      ],
+      "recommended_action": "full_renewal"
+    },
+    {
+      "rank": 15,
+      "file": "index.html",
+      "score": 73,
+      "risk": "medium",
+      "priority_score": 45,
+      "missing": [
+        "faq",
+        "table",
+        "robots",
+        "toc"
+      ],
+      "recommended_action": "targeted_repair"
+    }
+  ]
+}

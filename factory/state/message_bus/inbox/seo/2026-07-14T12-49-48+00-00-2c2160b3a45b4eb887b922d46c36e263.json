@@ -1,0 +1,14 @@
+{
+  "id": "2c2160b3a45b4eb887b922d46c36e263",
+  "sender": "qa_final",
+  "receiver": "seo",
+  "event": "task.rework",
+  "payload": {
+    "issues": [
+      "title_length"
+    ]
+  },
+  "correlation_id": "workflow-demo",
+  "created_at": "2026-07-14T12:49:48+00:00",
+  "status": "queued"
+}

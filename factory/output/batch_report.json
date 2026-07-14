@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-13T14:52:48+00:00",
+  "total": 3,
+  "passed": 3,
+  "failed": 0,
+  "results": [
+    {
+      "topic": "전기요금 절약 방법",
+      "pass": true,
+      "qa_score": 100,
+      "article_path": "factory/output/drafts/전기요금-절약-방법-ec4180c6-factory.html"
+    },
+    {
+      "topic": "수도요금 줄이는 방법",
+      "pass": true,
+      "qa_score": 100,
+      "article_path": "factory/output/drafts/수도요금-줄이는-방법-ee68772f.html"
+    },
+    {
+      "topic": "관리비 자동이체 할인",
+      "pass": true,
+      "qa_score": 100,
+      "article_path": "factory/output/drafts/관리비-자동이체-할인-d6294297.html"
+    }
+  ]
+}

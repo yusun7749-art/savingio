@@ -1,0 +1,113 @@
+{
+  "version": "2.036",
+  "departments": {
+    "planning": {
+      "required_fields": [
+        "topic",
+        "slug",
+        "article_type",
+        "category",
+        "required_sections"
+      ]
+    },
+    "research": {
+      "required_fields": [
+        "topic",
+        "research_status",
+        "evidence_score",
+        "ready_for_publish"
+      ],
+      "truthy_fields": [
+        "ready_for_publish"
+      ],
+      "minimums": {
+        "research_qa_score": 80
+      }
+    },
+    "writing": {
+      "required_fields": [
+        "html",
+        "text_chars"
+      ],
+      "minimums": {
+        "text_chars": 1000
+      }
+    },
+    "seo": {
+      "required_fields": [
+        "title",
+        "description",
+        "slug",
+        "canonical",
+        "schema"
+      ]
+    },
+    "image": {
+      "required_fields": [
+        "slug",
+        "required",
+        "generated_files",
+        "ready"
+      ],
+      "truthy_fields": [
+        "ready"
+      ]
+    },
+    "qa_primary": {
+      "required_fields": [
+        "score",
+        "pass",
+        "issues"
+      ],
+      "truthy_fields": [
+        "pass"
+      ],
+      "minimums": {
+        "score": 80
+      }
+    },
+    "qa_final": {
+      "required_fields": [
+        "score",
+        "pass",
+        "issues"
+      ],
+      "truthy_fields": [
+        "pass"
+      ],
+      "minimums": {
+        "score": 85
+      }
+    },
+    "cms": {
+      "required_fields": [
+        "article_path",
+        "qa_score",
+        "evidence_score",
+        "published"
+      ]
+    },
+    "deploy": {
+      "required_fields": [
+        "pass",
+        "checks",
+        "blockers"
+      ],
+      "truthy_fields": [
+        "pass"
+      ]
+    },
+    "analytics": {
+      "required_fields": [
+        "summary",
+        "pages"
+      ]
+    },
+    "revenue": {
+      "required_fields": [
+        "action_count",
+        "actions"
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "version": "2.037-B",
+  "focus": "Revenue AI to HTML/CMS/QA",
+  "completed": [
+    "Revenue HTML Rewriter",
+    "Backup Before Change",
+    "QA Recheck",
+    "Rollback on QA Failure",
+    "CMS Rework Manifest",
+    "Rework History"
+  ],
+  "remaining_for_v2037": [
+    "C: approved republish and deployment loop",
+    "D: end-to-end integration QA",
+    "Live AdSense API connection"
+  ]
+}

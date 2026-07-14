@@ -1,0 +1,30 @@
+{
+  "pass_score": 95,
+  "minimum_text_chars": 1800,
+  "title_max": 60,
+  "description_min": 50,
+  "description_max": 155,
+  "faq_min": 3,
+  "internal_link_min": 2,
+  "required_section_ids": [
+    "three-second-summary",
+    "situation-choice",
+    "conclusion",
+    "causes",
+    "condition-branches",
+    "action-steps",
+    "case",
+    "comparison-table",
+    "faq",
+    "next-action",
+    "internal-links",
+    "official-evidence",
+    "updated"
+  ],
+  "forbidden_placeholders": [
+    "TODO",
+    "Lorem ipsum",
+    "쿠팡 단축 URL",
+    "여기에 입력"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": "2.029",
+  "completed": [
+    "Search Result Evidence Converter",
+    "Evidence Merge Engine",
+    "Image Result Linker",
+    "HTML Image Injector",
+    "Safe Selective Git Executor",
+    "Cloudflare Readiness Monitor",
+    "Publication Executor"
+  ],
+  "remaining": [
+    "실제 검색 API 커넥터 자격증명",
+    "실제 이미지 생성 API 호출",
+    "실제 사용자 승인 후 push 실행",
+    "WordPress/Naver 발행 어댑터 실연결"
+  ]
+}

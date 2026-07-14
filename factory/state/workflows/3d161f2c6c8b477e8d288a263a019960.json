@@ -1,0 +1,30 @@
+{
+  "workflow_id": "3d161f2c6c8b477e8d288a263a019960",
+  "topic": "전기요금 절약",
+  "status": "rework_required",
+  "history": [
+    {
+      "from": null,
+      "to": "created",
+      "at": "2026-07-14T10:25:51+00:00"
+    },
+    {
+      "from": "created",
+      "to": "running",
+      "detail": {},
+      "at": "2026-07-14T10:25:51+00:00"
+    },
+    {
+      "from": "running",
+      "to": "rework_required",
+      "detail": {
+        "blocking": [
+          "evidence",
+          "image"
+        ]
+      },
+      "at": "2026-07-14T10:25:51+00:00"
+    }
+  ],
+  "updated_at": "2026-07-14T10:25:51+00:00"
+}

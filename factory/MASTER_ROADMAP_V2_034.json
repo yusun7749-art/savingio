@@ -1,0 +1,29 @@
+{
+  "version": "2.034",
+  "focus": [
+    "analytics",
+    "seo",
+    "operations"
+  ],
+  "completed": [
+    "Google JWT Auth Readiness",
+    "Search Console API Client",
+    "GA4 API Client",
+    "Daily Analytics Scheduler",
+    "Keyword Rank Tracker",
+    "Analytics Rework Bridge"
+  ],
+  "requires_user_configuration": [
+    "GOOGLE_SERVICE_ACCOUNT_JSON",
+    "GOOGLE_ACCESS_TOKEN",
+    "SEARCH_CONSOLE_SITE_URL",
+    "GA4_PROPERTY_ID"
+  ],
+  "remaining": [
+    "실제 OAuth 토큰 자동 발급",
+    "실제 Search Console API 검증",
+    "실제 GA4 API 검증",
+    "운영 스케줄러 등록",
+    "AdSense 수익 API 연동"
+  ]
+}

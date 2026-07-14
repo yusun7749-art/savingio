@@ -1,0 +1,12 @@
+{
+  "version": "2.031",
+  "allowed_branches": [
+    "main"
+  ],
+  "git_add_dot_forbidden": true,
+  "dry_run_default": true,
+  "require_deployment_gate": true,
+  "verify_cloudflare_after_push": true,
+  "cloudflare_timeout_seconds": 180,
+  "cloudflare_poll_seconds": 10
+}

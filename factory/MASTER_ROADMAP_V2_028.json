@@ -1,0 +1,31 @@
+{
+  "version": "2.028",
+  "focus": [
+    "research",
+    "image",
+    "deploy"
+  ],
+  "completed": [
+    "HTTP Web Connector",
+    "HTML Extractor",
+    "Domain Allowlist",
+    "OpenAPI Connector",
+    "API Key Gate",
+    "Research Cache",
+    "Web Research Runner",
+    "Image Queue",
+    "Image Adapter Interface",
+    "Deployment Gate"
+  ],
+  "not_claimed_complete": [
+    "실제 외부 웹사이트 성공 호출은 환경·네트워크·사이트 정책에 따라 달라짐",
+    "실제 이미지 생성은 아직 외부 생성 도구/API 연결 필요",
+    "실제 발행은 승인·근거·이미지 조건 충족 전 차단"
+  ],
+  "next": [
+    "실제 정부 API 서비스별 어댑터",
+    "검색 결과를 evidence로 자동 변환",
+    "이미지 생성 API 실행 어댑터",
+    "승인 후 Git/Cloudflare 실제 배포 실행"
+  ]
+}

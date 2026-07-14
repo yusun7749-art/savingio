@@ -1,0 +1,17 @@
+{
+  "version": "2.037-C",
+  "focus": "Approved republish and deployment verification",
+  "completed": [
+    "Approval Gate",
+    "Rework QA Gate",
+    "Selected File Git Release",
+    "New Cloudflare Deployment Tracker",
+    "Public Site Health Verification",
+    "Release Journal"
+  ],
+  "remaining_for_v2037": [
+    "D: end-to-end integration and regression QA",
+    "Live Cloudflare credentials verification",
+    "Live AdSense API connection"
+  ]
+}

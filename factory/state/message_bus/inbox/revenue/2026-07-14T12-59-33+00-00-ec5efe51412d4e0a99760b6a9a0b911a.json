@@ -1,0 +1,15 @@
+{
+  "id": "ec5efe51412d4e0a99760b6a9a0b911a",
+  "sender": "qa_final",
+  "receiver": "revenue",
+  "event": "task.rework",
+  "payload": {
+    "issues": [
+      "review_ad_layout_and_intent",
+      "traffic_with_low_page_rpm"
+    ]
+  },
+  "correlation_id": "f77b4f677be141ae8ecdb595731edd30",
+  "created_at": "2026-07-14T12:59:33+00:00",
+  "status": "queued"
+}

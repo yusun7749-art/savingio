@@ -1,0 +1,9 @@
+{
+  "version": "2.037A",
+  "min_search_impressions": 100,
+  "low_search_ctr": 0.02,
+  "min_page_views": 50,
+  "low_page_rpm": 1.0,
+  "min_ad_impressions": 100,
+  "low_ad_ctr": 0.003
+}

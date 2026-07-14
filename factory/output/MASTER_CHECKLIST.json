@@ -1,0 +1,67 @@
+{
+  "completed_count": 12,
+  "total_count": 12,
+  "items": [
+    {
+      "key": "planning_engine",
+      "module": "planner.py",
+      "completed": true
+    },
+    {
+      "key": "research_engine",
+      "module": "research_department.py",
+      "completed": true
+    },
+    {
+      "key": "writer_engine",
+      "module": "writer.py",
+      "completed": true
+    },
+    {
+      "key": "seo_engine",
+      "module": "seo.py",
+      "completed": true
+    },
+    {
+      "key": "image_engine",
+      "module": "image_engine.py",
+      "completed": true
+    },
+    {
+      "key": "qa_engine",
+      "module": "qa.py",
+      "completed": true
+    },
+    {
+      "key": "cms_engine",
+      "module": "cms.py",
+      "completed": true
+    },
+    {
+      "key": "deploy_engine",
+      "module": "approved_republish.py",
+      "completed": true
+    },
+    {
+      "key": "analytics_engine",
+      "module": "analytics_dashboard.py",
+      "completed": true
+    },
+    {
+      "key": "revenue_engine",
+      "module": "revenue_ai.py",
+      "completed": true
+    },
+    {
+      "key": "rework_engine",
+      "module": "revenue_rework_pipeline.py",
+      "completed": true
+    },
+    {
+      "key": "release_audit",
+      "module": "final_release_coordinator.py",
+      "completed": true
+    }
+  ],
+  "created_at": "2026-07-14T14:26:10+00:00"
+}

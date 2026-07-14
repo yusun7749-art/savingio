@@ -1,0 +1,97 @@
+{
+  "default_type": "guide",
+  "types": {
+    "guide": {
+      "keywords": [
+        "방법",
+        "절약",
+        "가이드",
+        "신청"
+      ],
+      "search_intent": "문제 해결",
+      "audience": "생활비 절약 정보를 찾는 사용자",
+      "risk_level": "medium",
+      "research_questions": [
+        "{topic}의 핵심 조건은 무엇인가?",
+        "{topic}의 실행 순서는 무엇인가?"
+      ]
+    },
+    "calculator": {
+      "keywords": [
+        "계산",
+        "계산기",
+        "예상"
+      ],
+      "search_intent": "계산",
+      "audience": "금액을 계산하려는 사용자",
+      "risk_level": "high",
+      "research_questions": [
+        "{topic} 계산식의 공식 근거는 무엇인가?",
+        "입력값과 예외 조건은 무엇인가?"
+      ]
+    },
+    "benefit": {
+      "keywords": [
+        "지원금",
+        "혜택",
+        "감면",
+        "할인"
+      ],
+      "search_intent": "자격 확인",
+      "audience": "지원 자격을 확인하려는 사용자",
+      "risk_level": "high",
+      "research_questions": [
+        "{topic} 대상과 제외 대상은?",
+        "신청기한과 서류는?"
+      ]
+    },
+    "tax": {
+      "keywords": [
+        "세금",
+        "부가세",
+        "소득세",
+        "재산세"
+      ],
+      "search_intent": "세금 이해",
+      "audience": "세금 정보를 찾는 사용자",
+      "risk_level": "high",
+      "research_questions": [
+        "{topic}의 과세 기준과 기준일은?",
+        "신고·납부 예외는?"
+      ]
+    }
+  },
+  "categories": {
+    "공과금": [
+      "전기",
+      "수도",
+      "가스",
+      "관리비",
+      "에어컨"
+    ],
+    "세금": [
+      "세금",
+      "부가세",
+      "소득세",
+      "재산세"
+    ],
+    "금융": [
+      "은행",
+      "대출",
+      "카드",
+      "이자",
+      "계좌"
+    ],
+    "지원제도": [
+      "지원금",
+      "혜택",
+      "감면",
+      "복지"
+    ],
+    "부업": [
+      "부업",
+      "애드센스",
+      "수익"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "version": "2.040",
+  "default_execute": false,
+  "require_all_credentials_for_activation": true,
+  "require_google_service_account_validation": true,
+  "require_connector_verification_history_integrity": true,
+  "require_explicit_execute_for_live_calls": true
+}

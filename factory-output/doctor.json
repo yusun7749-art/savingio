@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": {
+    "python_3_10_plus": true,
+    "root_exists": true,
+    "articles_exists": true,
+    "config_exists": true,
+    "git_available": true,
+    "article_dna_exists": true,
+    "qa_rules_exists": true
+  },
+  "python": "3.13.5",
+  "root": "/mnt/data/svnext/savingio-live"
+}

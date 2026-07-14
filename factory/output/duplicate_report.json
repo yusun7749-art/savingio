@@ -1,0 +1,17 @@
+{
+  "duplicate": true,
+  "matches": [
+    {
+      "slug": "#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6",
+      "title": "전기요금 절약",
+      "path": "articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
+      "title_similarity": 1.0,
+      "body_similarity": 0.0534,
+      "blocking": true
+    }
+  ],
+  "thresholds": {
+    "title": 0.92,
+    "body": 0.94
+  }
+}

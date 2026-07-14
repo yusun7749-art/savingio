@@ -1,0 +1,67 @@
+{
+  "version": "2.020",
+  "created_at": "2026-07-14T09:15:32+00:00",
+  "file_count": 12,
+  "files": [
+    {
+      "path": "factory/output/plan.json",
+      "bytes": 804,
+      "sha256": "970ca38ebd20052f0f66e58c00d4a2319da0f282dfa2a8f65a492cead153d692"
+    },
+    {
+      "path": "factory/output/research.json",
+      "bytes": 1257,
+      "sha256": "eaf331e7c0ab5f4642edb844fac288e683eeacc407999d03e5ff0c3a50bc94b8"
+    },
+    {
+      "path": "factory/output/seo.json",
+      "bytes": 957,
+      "sha256": "7b87ebb7e1a8b17aae74a31d25d30c843960fc4387a66dcc5421513d277af056"
+    },
+    {
+      "path": "factory/output/qa_report.json",
+      "bytes": 2356,
+      "sha256": "5b0ff82b3e0f0101b52e4ec6fc08f46061c0e154bf95893b31231dd368adbc17"
+    },
+    {
+      "path": "factory/output/rewrite_attempts.json",
+      "bytes": 20,
+      "sha256": "a3bbf4eff799d82fd95ba14585d9f283a3dc047ee0de584211d27a37c633882d"
+    },
+    {
+      "path": "factory/output/duplicate_report.json",
+      "bytes": 385,
+      "sha256": "c53a3c87356497c7397cfdd5c2c26f415f9d86ebe2cefb34f8df4e1b3b590b0e"
+    },
+    {
+      "path": "factory/output/related_links.json",
+      "bytes": 1213,
+      "sha256": "7717fb6171e414cb9505059f4bb46b0e7343221b08778761d0824551a336fdf1"
+    },
+    {
+      "path": "factory/output/draft.html",
+      "bytes": 9541,
+      "sha256": "b9f2aef6c18d01ae4e79d0151f9bcd98b912bff1359c36889ded8684c7975b66"
+    },
+    {
+      "path": "factory/output/article_catalog.json",
+      "bytes": 53679,
+      "sha256": "00b0ab049a30faae2788f62917cc98d20d50a5054916aa947a39aaf6f5bc0f7c"
+    },
+    {
+      "path": "factory/output/drafts/전기요금-절약-c861d77b.html",
+      "bytes": 9541,
+      "sha256": "b9f2aef6c18d01ae4e79d0151f9bcd98b912bff1359c36889ded8684c7975b66"
+    },
+    {
+      "path": "factory/output/cms_manifest.json",
+      "bytes": 268,
+      "sha256": "700db76a34f3e974eb088e26a65decadb3b1879efc00fcf002f5ea24c77a5147"
+    },
+    {
+      "path": "factory/output/commit-전기요금-절약-c861d77b.cmd",
+      "bytes": 481,
+      "sha256": "c70ee6e2eb449737c1034bfc1313570b972a452fa87b5c3829463690d45b5218"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "00d2187ef49042b69c84a59f76a035e6",
+  "sender": "image",
+  "receiver": "qa_primary",
+  "event": "task.handoff",
+  "payload": {
+    "brief_pending": true
+  },
+  "correlation_id": "4f93992d2e894f5cbb721b8f538d3429",
+  "created_at": "2026-07-14T10:24:37+00:00",
+  "status": "queued"
+}

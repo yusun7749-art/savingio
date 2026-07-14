@@ -1,0 +1,51 @@
+{
+  "pass": false,
+  "blocking_items": [
+    "evidence",
+    "image"
+  ],
+  "items": [
+    {
+      "id": "planning",
+      "label": "기획 패킷 완료",
+      "pass": true
+    },
+    {
+      "id": "research",
+      "label": "조사 패킷 완료",
+      "pass": true
+    },
+    {
+      "id": "evidence",
+      "label": "공식 근거 발행 기준 충족",
+      "pass": false
+    },
+    {
+      "id": "qa",
+      "label": "최종 QA 95점 이상",
+      "pass": true
+    },
+    {
+      "id": "image",
+      "label": "이미지 생성 완료",
+      "pass": false
+    },
+    {
+      "id": "supervisor",
+      "label": "리나 통합검수 통과",
+      "pass": true
+    },
+    {
+      "id": "cms",
+      "label": "CMS 초안 저장",
+      "pass": true
+    },
+    {
+      "id": "deploy",
+      "label": "배포 대상 준비",
+      "pass": true
+    }
+  ],
+  "ready_for_user_approval": false,
+  "created_at": "2026-07-14T10:25:51+00:00"
+}

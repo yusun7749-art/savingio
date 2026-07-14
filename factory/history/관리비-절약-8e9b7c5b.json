@@ -1,0 +1,245 @@
+{
+  "factory_version": "2.019",
+  "topic": "관리비 절약",
+  "plan": {
+    "topic": "관리비 절약",
+    "slug": "관리비-절약-8e9b7c5b",
+    "article_type": "guide",
+    "category": "공과금",
+    "search_intent": "문제 해결",
+    "audience": "생활비 절약 정보를 찾는 사용자",
+    "required_sections": [
+      "Hero",
+      "3초요약",
+      "상황선택",
+      "결론",
+      "원인",
+      "조건분기",
+      "해결순서",
+      "사례",
+      "표",
+      "FAQ",
+      "다음행동",
+      "내부링크",
+      "정부근거",
+      "업데이트"
+    ],
+    "target_chars": 5000,
+    "research_questions": [
+      "관리비 절약의 핵심 조건은 무엇인가?",
+      "관리비 절약의 실행 순서는 무엇인가?"
+    ],
+    "matched_keywords": [
+      "절약"
+    ],
+    "risk_level": "medium",
+    "created_at": "2026-07-13T15:09:47+00:00",
+    "status": "planned"
+  },
+  "research": {
+    "topic": "관리비 절약",
+    "questions": [
+      "관리비 절약의 핵심 조건은 무엇인가?",
+      "관리비 절약의 실행 순서는 무엇인가?",
+      "관리비 절약의 대상·제외 조건은 무엇인가?",
+      "관리비 절약의 기준일과 최신 변경사항은 무엇인가?",
+      "관리비 절약의 신청·변경·해지 순서는 무엇인가?",
+      "관리비 절약에서 반드시 보관할 증빙은 무엇인가?",
+      "관리비 절약의 공식 문의처와 이의 절차는 무엇인가?"
+    ],
+    "official_source_candidates": [],
+    "evidence": [],
+    "verified_evidence_count": 0,
+    "official_evidence_count": 0,
+    "evidence_issues": [],
+    "evidence_score": 0,
+    "minimum_score": 40,
+    "ready_for_writer": true,
+    "ready_for_publish": false,
+    "research_status": "verification_required",
+    "safety_notice": "검증되지 않은 수치·법령·지원금액은 확정 표현을 금지합니다.",
+    "created_at": "2026-07-13T15:09:47+00:00"
+  },
+  "seo": {
+    "title": "관리비 절약",
+    "description": "관리비 절약의 조건, 적용 대상, 확인 순서, 사례, FAQ와 공식 근거 확인 방법을 정리했습니다.",
+    "slug": "관리비-절약-8e9b7c5b",
+    "canonical": "https://savingio.com/articles/관리비-절약-8e9b7c5b.html",
+    "keywords": [
+      "관리비 절약",
+      "공과금",
+      "guide",
+      "생활비 절약",
+      "Savingio"
+    ],
+    "robots": "index,follow",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "관리비 절약",
+      "description": "관리비 절약의 조건, 적용 대상, 확인 순서, 사례, FAQ와 공식 근거 확인 방법을 정리했습니다.",
+      "mainEntityOfPage": "https://savingio.com/articles/관리비-절약-8e9b7c5b.html",
+      "inLanguage": "ko-KR",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Savingio",
+        "url": "https://savingio.com"
+      }
+    }
+  },
+  "qa": {
+    "score": 95,
+    "pass": true,
+    "minimum": 95,
+    "checks": [
+      {
+        "name": "doctype",
+        "passed": true,
+        "penalty": 0,
+        "critical": true,
+        "detail": ""
+      },
+      {
+        "name": "lang_ko",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "h1_once",
+        "passed": true,
+        "penalty": 0,
+        "critical": true,
+        "detail": ""
+      },
+      {
+        "name": "title_length",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "description_length",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "canonical",
+        "passed": true,
+        "penalty": 0,
+        "critical": true,
+        "detail": ""
+      },
+      {
+        "name": "robots",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "schema",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "required_sections",
+        "passed": true,
+        "penalty": 0,
+        "critical": true,
+        "detail": ""
+      },
+      {
+        "name": "faq_count",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "table",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "internal_links",
+        "passed": false,
+        "penalty": 5,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "forbidden_placeholders",
+        "passed": true,
+        "penalty": 0,
+        "critical": true,
+        "detail": ""
+      },
+      {
+        "name": "text_length",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "evidence_safety",
+        "passed": true,
+        "penalty": 0,
+        "critical": true,
+        "detail": ""
+      },
+      {
+        "name": "single_canonical",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      },
+      {
+        "name": "no_empty_href",
+        "passed": true,
+        "penalty": 0,
+        "critical": false,
+        "detail": ""
+      }
+    ],
+    "issues": [
+      "internal_links"
+    ],
+    "critical_failures": [],
+    "text_chars": 2822,
+    "checked_at": "2026-07-13T15:09:47+00:00"
+  },
+  "cms": {
+    "article_path": "factory/output/drafts/관리비-절약-8e9b7c5b.html",
+    "canonical": "https://savingio.com/articles/관리비-절약-8e9b7c5b.html",
+    "qa_score": 95,
+    "evidence_score": 0,
+    "published": false,
+    "saved_at": "2026-07-13T15:09:47+00:00"
+  },
+  "rewrite_attempts": [],
+  "git_commands": [
+    "git add -- \"factory/output/plan.json\" \"factory/output/research.json\" \"factory/output/seo.json\" \"factory/output/qa_report.json\" \"factory/output/rewrite_attempts.json\" \"factory/output/draft.html\" \"factory/output/drafts/관리비-절약-8e9b7c5b.html\" \"factory/output/cms_manifest.json\"",
+    "git commit -m \"Factory article: 관리비-절약-8e9b7c5b\"",
+    "git push"
+  ],
+  "deploy": {
+    "provider": "Cloudflare Pages",
+    "mode": "git_push_auto_deploy",
+    "git_connected": true,
+    "manual_deploy_required": false,
+    "safe_to_deploy": true,
+    "instruction": "Factory가 생성한 선택 커밋 스크립트를 검토한 뒤 실행하면 Cloudflare Pages가 자동 배포합니다."
+  },
+  "completed_at": "2026-07-13T15:09:47+00:00"
+}

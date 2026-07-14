@@ -1,0 +1,583 @@
+{
+  "status": "completed",
+  "execute": false,
+  "credentials": {
+    "required_count": 10,
+    "optional_count": 3,
+    "configured_required_count": 0,
+    "missing_required": [
+      "CLOUDFLARE_ACCOUNT_ID",
+      "CLOUDFLARE_API_TOKEN",
+      "CLOUDFLARE_PAGES_PROJECT",
+      "GOOGLE_SERVICE_ACCOUNT_JSON",
+      "SEARCH_CONSOLE_SITE_URL",
+      "GA4_PROPERTY_ID",
+      "WORDPRESS_URL",
+      "WORDPRESS_USER",
+      "WORDPRESS_APP_PASSWORD",
+      "OPENAI_API_KEY"
+    ],
+    "credentials": [
+      {
+        "name": "CLOUDFLARE_ACCOUNT_ID",
+        "required": true,
+        "configured": false,
+        "length": 0
+      },
+      {
+        "name": "CLOUDFLARE_API_TOKEN",
+        "required": true,
+        "configured": false,
+        "length": 0
+      },
+      {
+        "name": "CLOUDFLARE_PAGES_PROJECT",
+        "required": true,
+        "configured": false,
+        "length": 0
+      },
+      {
+        "name": "GOOGLE_SERVICE_ACCOUNT_JSON",
+        "required": true,
+        "configured": false,
+        "length": 0
+      },
+      {
+        "name": "SEARCH_CONSOLE_SITE_URL",
+        "required": true,
+        "configured": false,
+        "length": 0
+      },
+      {
+        "name": "GA4_PROPERTY_ID",
+        "required": true,
+        "configured": false,
+        "length": 0
+      },
+      {
+        "name": "WORDPRESS_URL",
+        "required": true,
+        "configured": false,
+        "length": 0
+      },
+      {
+        "name": "WORDPRESS_USER",
+        "required": true,
+        "configured": false,
+        "length": 0
+      },
+      {
+        "name": "WORDPRESS_APP_PASSWORD",
+        "required": true,
+        "configured": false,
+        "length": 0
+      },
+      {
+        "name": "OPENAI_API_KEY",
+        "required": true,
+        "configured": false,
+        "length": 0
+      },
+      {
+        "name": "SAVINGIO_SITE_URL",
+        "required": false,
+        "configured": false,
+        "length": 0
+      },
+      {
+        "name": "GOOGLE_ACCESS_TOKEN",
+        "required": false,
+        "configured": false,
+        "length": 0
+      },
+      {
+        "name": "ADSENSE_ACCOUNT_ID",
+        "required": false,
+        "configured": false,
+        "length": 0
+      }
+    ],
+    "created_at": "2026-07-14T14:26:33+00:00"
+  },
+  "env_template": {
+    "path": "factory/.env.production.example",
+    "variable_count": 13,
+    "created_at": "2026-07-14T14:26:33+00:00"
+  },
+  "verification": {
+    "execute": false,
+    "preflight": {
+      "integrations": [
+        {
+          "name": "cloudflare_pages",
+          "purpose": "Git push deployment and deployment verification",
+          "required_env": [
+            "CLOUDFLARE_ACCOUNT_ID",
+            "CLOUDFLARE_API_TOKEN",
+            "CLOUDFLARE_PAGES_PROJECT"
+          ],
+          "optional_env": [
+            "SAVINGIO_SITE_URL"
+          ],
+          "execution_mode": "explicit_execute",
+          "live_verification_required": true,
+          "ready": false,
+          "missing_required_env": [
+            "CLOUDFLARE_ACCOUNT_ID",
+            "CLOUDFLARE_API_TOKEN",
+            "CLOUDFLARE_PAGES_PROJECT"
+          ],
+          "required_env_state": [
+            {
+              "name": "CLOUDFLARE_ACCOUNT_ID",
+              "configured": false,
+              "length": 0,
+              "fingerprint": ""
+            },
+            {
+              "name": "CLOUDFLARE_API_TOKEN",
+              "configured": false,
+              "length": 0,
+              "fingerprint": ""
+            },
+            {
+              "name": "CLOUDFLARE_PAGES_PROJECT",
+              "configured": false,
+              "length": 0,
+              "fingerprint": ""
+            }
+          ],
+          "optional_env_state": [
+            {
+              "name": "SAVINGIO_SITE_URL",
+              "configured": false,
+              "length": 0,
+              "fingerprint": ""
+            }
+          ]
+        },
+        {
+          "name": "google_search_console",
+          "purpose": "Search performance collection",
+          "required_env": [
+            "GOOGLE_SERVICE_ACCOUNT_JSON",
+            "SEARCH_CONSOLE_SITE_URL"
+          ],
+          "optional_env": [
+            "GOOGLE_ACCESS_TOKEN"
+          ],
+          "execution_mode": "explicit_execute",
+          "live_verification_required": true,
+          "ready": false,
+          "missing_required_env": [
+            "GOOGLE_SERVICE_ACCOUNT_JSON",
+            "SEARCH_CONSOLE_SITE_URL"
+          ],
+          "required_env_state": [
+            {
+              "name": "GOOGLE_SERVICE_ACCOUNT_JSON",
+              "configured": false,
+              "length": 0,
+              "fingerprint": ""
+            },
+            {
+              "name": "SEARCH_CONSOLE_SITE_URL",
+              "configured": false,
+              "length": 0,
+              "fingerprint": ""
+            }
+          ],
+          "optional_env_state": [
+            {
+              "name": "GOOGLE_ACCESS_TOKEN",
+              "configured": false,
+              "length": 0,
+              "fingerprint": ""
+            }
+          ]
+        },
+        {
+          "name": "google_analytics_4",
+          "purpose": "Traffic and engagement collection",
+          "required_env": [
+            "GOOGLE_SERVICE_ACCOUNT_JSON",
+            "GA4_PROPERTY_ID"
+          ],
+          "optional_env": [
+            "GOOGLE_ACCESS_TOKEN"
+          ],
+          "execution_mode": "explicit_execute",
+          "live_verification_required": true,
+          "ready": false,
+          "missing_required_env": [
+            "GOOGLE_SERVICE_ACCOUNT_JSON",
+            "GA4_PROPERTY_ID"
+          ],
+          "required_env_state": [
+            {
+              "name": "GOOGLE_SERVICE_ACCOUNT_JSON",
+              "configured": false,
+              "length": 0,
+              "fingerprint": ""
+            },
+            {
+              "name": "GA4_PROPERTY_ID",
+              "configured": false,
+              "length": 0,
+              "fingerprint": ""
+            }
+          ],
+          "optional_env_state": [
+            {
+              "name": "GOOGLE_ACCESS_TOKEN",
+              "configured": false,
+              "length": 0,
+              "fingerprint": ""
+            }
+          ]
+        },
+        {
+          "name": "adsense_reporting",
+          "purpose": "Revenue report import and Revenue AI",
+          "required_env": [],
+          "optional_env": [
+            "ADSENSE_ACCOUNT_ID"
+          ],
+          "execution_mode": "report_import",
+          "live_verification_required": false,
+          "ready": true,
+          "missing_required_env": [],
+          "required_env_state": [],
+          "optional_env_state": [
+            {
+              "name": "ADSENSE_ACCOUNT_ID",
+              "configured": false,
+              "length": 0,
+              "fingerprint": ""
+            }
+          ]
+        },
+        {
+          "name": "wordpress",
+          "purpose": "Optional WordPress publishing",
+          "required_env": [
+            "WORDPRESS_URL",
+            "WORDPRESS_USER",
+            "WORDPRESS_APP_PASSWORD"
+          ],
+          "optional_env": [],
+          "execution_mode": "explicit_execute",
+          "live_verification_required": true,
+          "ready": false,
+          "missing_required_env": [
+            "WORDPRESS_URL",
+            "WORDPRESS_USER",
+            "WORDPRESS_APP_PASSWORD"
+          ],
+          "required_env_state": [
+            {
+              "name": "WORDPRESS_URL",
+              "configured": false,
+              "length": 0,
+              "fingerprint": ""
+            },
+            {
+              "name": "WORDPRESS_USER",
+              "configured": false,
+              "length": 0,
+              "fingerprint": ""
+            },
+            {
+              "name": "WORDPRESS_APP_PASSWORD",
+              "configured": false,
+              "length": 0,
+              "fingerprint": ""
+            }
+          ],
+          "optional_env_state": []
+        },
+        {
+          "name": "image_provider",
+          "purpose": "Hero and infographic generation",
+          "required_env": [
+            "OPENAI_API_KEY"
+          ],
+          "optional_env": [],
+          "execution_mode": "external_provider",
+          "live_verification_required": true,
+          "ready": false,
+          "missing_required_env": [
+            "OPENAI_API_KEY"
+          ],
+          "required_env_state": [
+            {
+              "name": "OPENAI_API_KEY",
+              "configured": false,
+              "length": 0,
+              "fingerprint": ""
+            }
+          ],
+          "optional_env_state": []
+        }
+      ],
+      "ready_count": 1,
+      "total_count": 6,
+      "git_repository_ready": true,
+      "all_required_integrations_ready": false,
+      "checked_at": "2026-07-14T14:26:33+00:00"
+    },
+    "results": {
+      "search_console": {
+        "status": "blocked",
+        "reason": "search_console_not_configured",
+        "readiness": {
+          "ready": false,
+          "missing_env": [
+            "SEARCH_CONSOLE_SITE_URL"
+          ],
+          "site_url": "",
+          "scope": "https://www.googleapis.com/auth/webmasters.readonly",
+          "created_at": "2026-07-14T14:26:33+00:00"
+        },
+        "created_at": "2026-07-14T14:26:33+00:00"
+      },
+      "ga4": {
+        "status": "blocked",
+        "reason": "ga4_not_configured",
+        "readiness": {
+          "ready": false,
+          "missing_env": [
+            "GA4_PROPERTY_ID"
+          ],
+          "property_id": "",
+          "scope": "https://www.googleapis.com/auth/analytics.readonly",
+          "created_at": "2026-07-14T14:26:33+00:00"
+        },
+        "created_at": "2026-07-14T14:26:33+00:00"
+      },
+      "cloudflare": {
+        "status": "blocked",
+        "reason": "cloudflare_not_configured",
+        "error": "missing_env:CLOUDFLARE_ACCOUNT_ID,CLOUDFLARE_API_TOKEN,CLOUDFLARE_PAGES_PROJECT",
+        "required_env": [
+          "CLOUDFLARE_ACCOUNT_ID",
+          "CLOUDFLARE_API_TOKEN",
+          "CLOUDFLARE_PAGES_PROJECT"
+        ],
+        "created_at": "2026-07-14T14:26:33+00:00"
+      },
+      "wordpress": {
+        "status": "blocked",
+        "reason": "deployment_gate_failed",
+        "gate": {
+          "pass": false,
+          "checks": {
+            "required_reports_present": true,
+            "qa_pass": true,
+            "research_pass": false,
+            "user_approved": false,
+            "image_ready": false
+          },
+          "missing_reports": [],
+          "blockers": [
+            "research_pass",
+            "user_approved",
+            "image_ready"
+          ],
+          "checked_at": "2026-07-14T14:26:33+00:00"
+        },
+        "created_at": "2026-07-14T14:26:33+00:00"
+      },
+      "image_provider": {
+        "status": "blocked",
+        "ready": false,
+        "provider": "openai",
+        "required_env": [
+          "OPENAI_API_KEY"
+        ]
+      }
+    },
+    "statuses": [
+      {
+        "name": "search_console",
+        "status": "blocked"
+      },
+      {
+        "name": "ga4",
+        "status": "blocked"
+      },
+      {
+        "name": "cloudflare",
+        "status": "blocked"
+      },
+      {
+        "name": "wordpress",
+        "status": "blocked"
+      },
+      {
+        "name": "image_provider",
+        "status": "blocked"
+      }
+    ],
+    "passed_count": 0,
+    "total_count": 5,
+    "created_at": "2026-07-14T14:26:33+00:00"
+  },
+  "receipt": {
+    "sequence": 1,
+    "execute": false,
+    "passed_count": 0,
+    "total_count": 5,
+    "statuses": [
+      {
+        "name": "search_console",
+        "status": "blocked"
+      },
+      {
+        "name": "ga4",
+        "status": "blocked"
+      },
+      {
+        "name": "cloudflare",
+        "status": "blocked"
+      },
+      {
+        "name": "wordpress",
+        "status": "blocked"
+      },
+      {
+        "name": "image_provider",
+        "status": "blocked"
+      }
+    ],
+    "previous_hash": "",
+    "created_at": "2026-07-14T14:26:33+00:00",
+    "receipt_hash": "8fc2a7b3f51deceff8008cd30c88a7783ed9fd1ae54105e3547908ee9be3e04f"
+  },
+  "activation": {
+    "pass": false,
+    "checks": {
+      "required_credentials_configured": false,
+      "connector_verification_report_present": true,
+      "connector_verification_all_passed": false,
+      "production_readiness_present": true,
+      "verification_history_integrity": true,
+      "google_service_account_valid": false
+    },
+    "blockers": [
+      "required_credentials_configured",
+      "connector_verification_all_passed",
+      "google_service_account_valid"
+    ],
+    "credential_summary": {
+      "required_count": 10,
+      "optional_count": 3,
+      "configured_required_count": 0,
+      "missing_required": [
+        "CLOUDFLARE_ACCOUNT_ID",
+        "CLOUDFLARE_API_TOKEN",
+        "CLOUDFLARE_PAGES_PROJECT",
+        "GOOGLE_SERVICE_ACCOUNT_JSON",
+        "SEARCH_CONSOLE_SITE_URL",
+        "GA4_PROPERTY_ID",
+        "WORDPRESS_URL",
+        "WORDPRESS_USER",
+        "WORDPRESS_APP_PASSWORD",
+        "OPENAI_API_KEY"
+      ],
+      "credentials": [
+        {
+          "name": "CLOUDFLARE_ACCOUNT_ID",
+          "required": true,
+          "configured": false,
+          "length": 0
+        },
+        {
+          "name": "CLOUDFLARE_API_TOKEN",
+          "required": true,
+          "configured": false,
+          "length": 0
+        },
+        {
+          "name": "CLOUDFLARE_PAGES_PROJECT",
+          "required": true,
+          "configured": false,
+          "length": 0
+        },
+        {
+          "name": "GOOGLE_SERVICE_ACCOUNT_JSON",
+          "required": true,
+          "configured": false,
+          "length": 0
+        },
+        {
+          "name": "SEARCH_CONSOLE_SITE_URL",
+          "required": true,
+          "configured": false,
+          "length": 0
+        },
+        {
+          "name": "GA4_PROPERTY_ID",
+          "required": true,
+          "configured": false,
+          "length": 0
+        },
+        {
+          "name": "WORDPRESS_URL",
+          "required": true,
+          "configured": false,
+          "length": 0
+        },
+        {
+          "name": "WORDPRESS_USER",
+          "required": true,
+          "configured": false,
+          "length": 0
+        },
+        {
+          "name": "WORDPRESS_APP_PASSWORD",
+          "required": true,
+          "configured": false,
+          "length": 0
+        },
+        {
+          "name": "OPENAI_API_KEY",
+          "required": true,
+          "configured": false,
+          "length": 0
+        },
+        {
+          "name": "SAVINGIO_SITE_URL",
+          "required": false,
+          "configured": false,
+          "length": 0
+        },
+        {
+          "name": "GOOGLE_ACCESS_TOKEN",
+          "required": false,
+          "configured": false,
+          "length": 0
+        },
+        {
+          "name": "ADSENSE_ACCOUNT_ID",
+          "required": false,
+          "configured": false,
+          "length": 0
+        }
+      ],
+      "created_at": "2026-07-14T14:26:33+00:00"
+    },
+    "verification_history": {
+      "pass": true,
+      "count": 1,
+      "issues": []
+    },
+    "service_account": {
+      "configured": false,
+      "valid": false,
+      "error": "missing"
+    },
+    "created_at": "2026-07-14T14:26:33+00:00"
+  },
+  "created_at": "2026-07-14T14:26:33+00:00"
+}

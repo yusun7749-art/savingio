@@ -1,0 +1,19 @@
+{
+  "id": "7d129d25b4644333b2c52512d99a180c",
+  "sender": "operations",
+  "receiver": "planning",
+  "event": "task.assigned",
+  "payload": {
+    "workflow_id": "cfb642d57a25493c80167f4a670d080c",
+    "topic": "전기요금 절약",
+    "status": "created",
+    "current_department": "planning",
+    "completed_departments": [],
+    "failed_departments": [],
+    "created_at": "2026-07-14T10:13:53+00:00",
+    "updated_at": "2026-07-14T10:13:53+00:00"
+  },
+  "correlation_id": "cfb642d57a25493c80167f4a670d080c",
+  "created_at": "2026-07-14T10:13:53+00:00",
+  "status": "queued"
+}

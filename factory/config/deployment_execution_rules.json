@@ -1,0 +1,12 @@
+{
+  "version": "2.029",
+  "dry_run_default": true,
+  "git_add_dot_forbidden": true,
+  "require_deployment_gate": true,
+  "cloudflare_mode": "git_push_auto_deploy",
+  "required_for_direct_api": [
+    "CLOUDFLARE_ACCOUNT_ID",
+    "CLOUDFLARE_API_TOKEN",
+    "CLOUDFLARE_PAGES_PROJECT"
+  ]
+}

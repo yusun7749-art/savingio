@@ -1,0 +1,3928 @@
+{
+  "generated_at": "2026-07-14T14:26:05+00:00",
+  "article_count": 219,
+  "pass_count": 5,
+  "duplicate_canonicals": {
+    "https://savingio.com/articles/전기요금-절약-c861d77ba6.html": [
+      "#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
+      "전기요금-절약-c861d77ba6.html"
+    ]
+  },
+  "articles": [
+    {
+      "path": "articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
+      "canonical": "https://savingio.com/articles/전기요금-절약-c861d77ba6.html",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": true,
+        "canonical_https": true,
+        "canonical_savingio": true,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/ai-side-hustles-beginner.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/air-conditioner-electricity-saving.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/aircon-dry-mode-electricity.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/aircon-filter-cleaning-savings.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/aircon-optimal-temperature-savings.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/apartment-management-fee-summer.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/automatic-payment-saving.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/bank-account-budgeting.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/bank-fee-saving.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/bank-fees-to-avoid.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/basic-livelihood-discounts.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/basic-pension-application-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/beginner-ai-side-hustles.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/beginner-budget-plan.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/beginner-money-management.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/benefit-scam-warning-2026.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/budget-app-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/building-land-property-tax.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/business-card-hometax-registration.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/business-closure-vat-order.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/business-phone-expense-deduction.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/business-vehicle-expense-basics.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/cancel-unused-subscriptions.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/car-aircon-fuel-saving.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/car-insurance-child-discount.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/car-insurance-mileage-refund.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/car-insurance-overpayment-refund.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/car-tax-annual-payment.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/car-tax-check-payment-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/card-points-cashback-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/cash-advance-vs-card-loan.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/cash-out-card-points.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/cashback-apps-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/check-hidden-refunds.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/child-allowance-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/child-tax-credit-status-check.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/childcare-service-government-support.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/cma-account-types-risk.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/credit-card-billing-cycle-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/credit-score-habits.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/credit-score-management.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/credit-score-tips.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/culture-nuri-card-balance.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/debit-card-vs-credit-card.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/dehumidifier-electricity-saving.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/deposit-protection-limit-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/deposit-return-guarantee-checklist.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/dormant-deposit-insurance-search.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/dryer-summer-electricity-saving.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/duplicate-indemnity-insurance-check.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/earned-income-credit-account-change.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/earned-income-credit-payment.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/earned-income-credit-status-check.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/earned-income-tax-credit-korea.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/education-benefit-eligibility.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/education-expense-vs-benefit.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/electricity-bill-easy-calculator-guide.html",
+      "canonical": "https://savingio.com/articles/electricity-bill-easy-calculator-guide.html",
+      "pass": true,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": true,
+        "canonical_https": true,
+        "canonical_savingio": true,
+        "canonical_matches_file": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/electricity-bill-saving.html",
+      "canonical": "https://savingio.com/articles/electricity-bill-saving.html",
+      "pass": true,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": true,
+        "canonical_https": true,
+        "canonical_savingio": true,
+        "canonical_matches_file": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/electricity-discount-card-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/electronic-tax-invoice-penalty.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/elementary-school-education-support.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/emergency-fund-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/emergency-medical-support.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/emergency-welfare-living-support.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/energy-voucher-2026-application.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/energy-voucher-application-2026.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/energy-voucher-application.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/energy-voucher-balance-check-2026.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/energy-voucher-balance-use-2026.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/energy-voucher-balance-use.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/energy-voucher-documents.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/energy-voucher-eligibility-2026.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/energy-voucher-online-application.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/fan-aircon-combination-saving.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/first-meeting-voucher-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/fixed-date-online-application.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/fixed-speed-aircon-saving.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/four-major-insurance-deduction-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/gas-bill-checklist.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/general-vat-common-mistakes.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/government-benefit-alert-2026.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/government-benefit-alert-guide-2026.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/government-benefit-alert-setup.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/government-benefits-warning.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/government-support-calendar.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/government-support-scam-warning-2026.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/government24-benefit-check.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/grocery-bill-savings.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/grocery-saving-tips.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/health-insurance-out-of-pocket-refund.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/health-insurance-overpayment-refund.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/health-insurance-refund-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/health-insurance-refund.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/heating-bill-saving.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/hidden-money-search.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/hidden-refund-check.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/home-water-leak-self-check.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/hometax-refund-status.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/hometax-vat-sales-check.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/housing-benefit-eligibility.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/how-to-check-hidden-refunds.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/how-to-lower-phone-bill.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/how-to-save-electricity-bill.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/impulse-buying-control.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/income-tax-filing-missed-consequences.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/insurance-auto-pay-discount.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/insurance-surrender-value-check.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/internet-bill-discount.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/internet-bill-savings.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/inverter-aircon-saving-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/irs-tax-refund-status.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/lifelong-education-voucher-application.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/loan-prepayment-fee-check.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/loan-refinancing-check.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/local-tax-refund-claim.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/local-tax-refund-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/local-tax-refund.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/long-term-care-insurance-application.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/low-income-cooling-support.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/medical-bill-negotiation.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/missing-property-tax-bill.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/money-saving-habits.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/monthly-budget-planner.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/monthly-rent-tax-credit-documents.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/national-employment-support-eligibility.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/national-pension-additional-payment.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/national-pension-old-age-benefit-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/national-pension-overpayment-refund.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/national-scholarship-application.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/national-tax-refund-account.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/national-tax-refund.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/near-poverty-certificate.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/online-income-ideas-for-beginners.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/over-60-benefits-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/overdraft-account-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/parental-benefit-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/parking-account-rate-comparison.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/peak-season-hotel-saving.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/phone-bill-saving.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/property-tax-bill-checklist-2026.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/property-tax-calculation-structure.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/property-tax-deadline.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/property-tax-electronic-bill-2026.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/property-tax-electronic-notice-2026.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/property-tax-installment-application.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/property-tax-joint-ownership.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/property-tax-july-2026.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/property-tax-july-checklist-2026.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/property-tax-july-september-difference.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/property-tax-objection-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/property-tax-payment-certificate.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/reduce-electricity-bill.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/refrigerator-summer-electricity-saving.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/regional-development-bond-refund-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/rental-car-vacation-saving.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/rental-contract-reporting-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/revolving-cancellation-payoff.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/salary-budget-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/salary-management-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/salary-slip-check-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/salary-take-home-easy-calculator-guide.html",
+      "canonical": "https://savingio.com/articles/salary-take-home-easy-calculator-guide.html",
+      "pass": true,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": true,
+        "canonical_https": true,
+        "canonical_savingio": true,
+        "canonical_matches_file": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/savings-maturity-auto-renewal.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/self-employed-income-tax-refund-check.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/senior-job-application-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/severance-pay-calculation-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/severance-pay-easy-calculator-guide.html",
+      "canonical": "https://savingio.com/articles/severance-pay-easy-calculator-guide.html",
+      "pass": true,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": true,
+        "canonical_https": true,
+        "canonical_savingio": true,
+        "canonical_matches_file": true
+      },
+      "issues": []
+    },
+    {
+      "path": "articles/simple-receipt-expense-rules.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/simplified-vat-checklist.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/single-parent-support-benefits.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/small-business-closure-support.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/small-business-delivery-support.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/small-business-electricity-support.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/small-business-policy-fund-search.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/small-business-policy-fund.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/spending-habits-change.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/student-loan-repayment-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/subscription-audit-checklist.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/subscription-cleanup.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/subscription-saving.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/subsidy24-benefit-search.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/summer-electricity-tier-check-2026.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/summer-electricity-tier-check.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/summer-electricity-usage-check-2026.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/summer-gas-bill-hot-water-saving.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/summer-vacation-budget-plan.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/summer-water-bill-spike-check.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/tax-credit-late-application.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/tax-invoice-vs-cash-receipt.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/telecom-discount-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/telecom-unclaimed-refund.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/traffic-fine-check-payment-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/traffic-fines-difference-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/traffic-penalty-check-payment-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/travel-insurance-comparison.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/unemployment-benefit-checklist.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/unemployment-benefit-job-search.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/vat-final-return-2026-july.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/vat-final-return-deadline-2026.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/vat-final-return-july-2026.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/vat-input-tax-deduction-2026.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/vat-input-tax-deduction-guide-2026.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/vat-input-tax-deduction-items.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/vat-payment-extension-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/vat-sales-omission-check-2026.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/vat-zero-sales-filing-2026.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/vat-zero-sales-filing.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/vehicle-inspection-reservation-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/water-bill-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/water-bill-saving.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/weekly-holiday-pay-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/wetax-electronic-billing.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/wetax-payment-history.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/youth-housing-benefit-separate-payment.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/youth-leap-account-contribution.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/youth-savings-account-maintenance.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/youth-support-programs.html",
+      "canonical": "",
+      "pass": false,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": false,
+        "canonical_https": false,
+        "canonical_savingio": false,
+        "canonical_matches_file": false
+      },
+      "issues": [
+        "canonical_present",
+        "canonical_https",
+        "canonical_savingio",
+        "canonical_matches_file"
+      ]
+    },
+    {
+      "path": "articles/전기요금-절약-c861d77ba6.html",
+      "canonical": "https://savingio.com/articles/전기요금-절약-c861d77ba6.html",
+      "pass": true,
+      "checks": {
+        "not_noindex": true,
+        "canonical_present": true,
+        "canonical_https": true,
+        "canonical_savingio": true,
+        "canonical_matches_file": true
+      },
+      "issues": []
+    }
+  ],
+  "pass": false
+}

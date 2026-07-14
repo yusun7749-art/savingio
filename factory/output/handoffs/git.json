@@ -1,0 +1,13 @@
+{
+  "packet": {
+    "ready": true,
+    "selected_files_only": true
+  },
+  "review": {
+    "department": "git",
+    "pass": true,
+    "missing": [],
+    "rework_required": false,
+    "reviewed_at": "2026-07-14T10:25:51+00:00"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": "2.021",
+  "minimum_article_chars": 1800,
+  "minimum_internal_links": 3,
+  "article_pass_score": 80,
+  "minimum_article_pass_ratio": 0.9,
+  "site_pass_score": 90,
+  "forbidden_placeholders": [
+    "TODO",
+    "Lorem ipsum",
+    "여기에 입력",
+    "쿠팡 단축 URL",
+    "준비 중입니다"
+  ]
+}

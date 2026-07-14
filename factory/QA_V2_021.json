@@ -1,0 +1,34 @@
+{
+  "version": "2.021",
+  "source_zip": "savingio-live(29).zip",
+  "compile_pass": true,
+  "tests_pass": true,
+  "test_count": 38,
+  "doctor_pass": true,
+  "doctor_modules": 23,
+  "doctor_configs": 9,
+  "pipeline_regression_pass": true,
+  "adsense_audit_pass": true,
+  "eeat_audit_pass": true,
+  "indexability_audit_execution_pass": true,
+  "local_source_findings": {
+    "adsense_readiness_score": 55,
+    "ready_to_apply": false,
+    "article_count": 218,
+    "failed_article_count": 141,
+    "thin_content_count": 14,
+    "policy_risk_count": 0,
+    "eeat_average": 90,
+    "indexability_pass_count": 4,
+    "indexability_total": 218,
+    "broken_internal_links": 3,
+    "orphan_articles": 30
+  },
+  "locks": {
+    "ui_unchanged": true,
+    "navigation_unchanged": true,
+    "explorer_unchanged": true,
+    "layout_unchanged": true,
+    "home_unchanged": true
+  }
+}

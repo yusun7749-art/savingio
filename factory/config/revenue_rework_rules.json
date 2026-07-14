@@ -1,0 +1,13 @@
+{
+  "version": "2.037-B",
+  "default_execute": false,
+  "default_limit": 20,
+  "backup_before_change": true,
+  "rollback_on_qa_failure": true,
+  "allowed_actions": [
+    "rewrite_title_meta",
+    "review_ad_layout_and_intent",
+    "review_ad_visibility",
+    "check_adsense_coverage"
+  ]
+}

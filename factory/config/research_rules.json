@@ -1,0 +1,66 @@
+{
+  "minimum_evidence_score": 40,
+  "trusted_domains": [
+    "gov.kr",
+    "go.kr",
+    "nts.go.kr",
+    "kepco.co.kr",
+    "bokjiro.go.kr",
+    "fss.or.kr"
+  ],
+  "official_sources": [
+    {
+      "name": "정부24",
+      "domain": "gov.kr",
+      "priority": 1,
+      "keywords": [
+        "지원",
+        "신청",
+        "민원",
+        "혜택"
+      ]
+    },
+    {
+      "name": "국세청",
+      "domain": "nts.go.kr",
+      "priority": 1,
+      "keywords": [
+        "세금",
+        "부가세",
+        "소득세",
+        "사업자"
+      ]
+    },
+    {
+      "name": "한국전력",
+      "domain": "kepco.co.kr",
+      "priority": 1,
+      "keywords": [
+        "전기",
+        "전기요금",
+        "에어컨"
+      ]
+    },
+    {
+      "name": "복지로",
+      "domain": "bokjiro.go.kr",
+      "priority": 1,
+      "keywords": [
+        "복지",
+        "지원금",
+        "감면"
+      ]
+    },
+    {
+      "name": "금융감독원",
+      "domain": "fss.or.kr",
+      "priority": 1,
+      "keywords": [
+        "금융",
+        "대출",
+        "카드",
+        "은행"
+      ]
+    }
+  ]
+}

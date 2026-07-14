@@ -1,0 +1,69 @@
+{
+  "score": 15,
+  "pass": false,
+  "minimum": 80,
+  "checks": [
+    {
+      "name": "verified_evidence",
+      "passed": false,
+      "weight": 25,
+      "earned": 0,
+      "detail": "0/2"
+    },
+    {
+      "name": "official_evidence",
+      "passed": false,
+      "weight": 20,
+      "earned": 0,
+      "detail": "0/2"
+    },
+    {
+      "name": "domain_diversity",
+      "passed": false,
+      "weight": 15,
+      "earned": 0,
+      "detail": "0/2"
+    },
+    {
+      "name": "claim_coverage",
+      "passed": false,
+      "weight": 15,
+      "earned": 0,
+      "detail": "0/2"
+    },
+    {
+      "name": "freshness",
+      "passed": false,
+      "weight": 10,
+      "earned": 0,
+      "detail": "0/1"
+    },
+    {
+      "name": "questions",
+      "passed": true,
+      "weight": 10,
+      "earned": 10,
+      "detail": "7/6"
+    },
+    {
+      "name": "query_plan",
+      "passed": true,
+      "weight": 5,
+      "earned": 5,
+      "detail": "8/4"
+    }
+  ],
+  "issues": [
+    "verified_evidence",
+    "official_evidence",
+    "domain_diversity",
+    "claim_coverage",
+    "freshness"
+  ],
+  "critical_failures": [
+    "verified_evidence",
+    "official_evidence",
+    "domain_diversity"
+  ],
+  "checked_at": "2026-07-14T14:26:05+00:00"
+}

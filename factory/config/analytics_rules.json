@@ -1,0 +1,27 @@
+{
+  "version": "2.033",
+  "search_console": {
+    "default_days": 28,
+    "dimensions": [
+      "date",
+      "page",
+      "query"
+    ],
+    "row_limit": 25000
+  },
+  "ga4": {
+    "dimensions": [
+      "date",
+      "pagePath"
+    ],
+    "metrics": [
+      "screenPageViews",
+      "activeUsers",
+      "sessions"
+    ]
+  },
+  "optimizer": {
+    "minimum_impressions_for_ctr_review": 100,
+    "low_ctr_threshold": 0.02
+  }
+}

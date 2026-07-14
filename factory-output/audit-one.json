@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-07-13T13:31:17+00:00",
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "average_score": 100.0,
+  "results": [
+    {
+      "score": 100,
+      "status": "PASS",
+      "characters_no_space": 5377,
+      "checks": {
+        "has_h1": true,
+        "min_density": true,
+        "has_summary": true,
+        "has_steps": true,
+        "has_mistakes": true,
+        "has_faq": true,
+        "has_next_action": true,
+        "no_placeholders": true,
+        "no_generic_reuse": true,
+        "has_meta": true,
+        "has_canonical": true,
+        "no_duplicate_ids": true
+      },
+      "failures": [],
+      "file": "articles/electricity-bill-saving.html"
+    }
+  ]
+}

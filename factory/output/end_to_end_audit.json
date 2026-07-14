@@ -1,0 +1,76 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "module:planner.py",
+      "pass": true
+    },
+    {
+      "name": "module:research_department.py",
+      "pass": true
+    },
+    {
+      "name": "module:writer.py",
+      "pass": true
+    },
+    {
+      "name": "module:seo.py",
+      "pass": true
+    },
+    {
+      "name": "module:image_engine.py",
+      "pass": true
+    },
+    {
+      "name": "module:qa.py",
+      "pass": true
+    },
+    {
+      "name": "module:cms.py",
+      "pass": true
+    },
+    {
+      "name": "module:deployment_gate.py",
+      "pass": true
+    },
+    {
+      "name": "module:analytics_dashboard.py",
+      "pass": true
+    },
+    {
+      "name": "module:revenue_ai.py",
+      "pass": true
+    },
+    {
+      "name": "module:revenue_rework_pipeline.py",
+      "pass": true
+    },
+    {
+      "name": "module:approved_republish.py",
+      "pass": true
+    },
+    {
+      "name": "output:factory/output/approval_request.json",
+      "pass": true
+    },
+    {
+      "name": "output:factory/output/revenue/revenue_ai_actions.json",
+      "pass": true
+    },
+    {
+      "name": "output:factory/output/revenue/cms_rework_manifest.json",
+      "pass": true
+    },
+    {
+      "name": "output:factory/output/approved_republish_report.json",
+      "pass": true
+    },
+    {
+      "name": "output:factory/output/release_journal.json",
+      "pass": true
+    }
+  ],
+  "passed_count": 17,
+  "failed_count": 0,
+  "checked_at": "2026-07-14T13:58:39+00:00"
+}

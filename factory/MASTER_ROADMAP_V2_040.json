@@ -1,0 +1,19 @@
+{
+  "version": "2.040",
+  "focus": "Credential onboarding and live verification control",
+  "completed": [
+    "Credential Checklist",
+    "Production Env Template",
+    "Connector Verification",
+    "Verification Receipts",
+    "Production Activation Gate",
+    "External Verification Center"
+  ],
+  "remaining": [
+    "User-supplied credentials",
+    "Live Cloudflare verification",
+    "Live Search Console and GA4 verification",
+    "Live image provider generation",
+    "Naver automatic publishing"
+  ]
+}

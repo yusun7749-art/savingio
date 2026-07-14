@@ -1,0 +1,163 @@
+{
+  "entry_count": 26,
+  "missing_count": 0,
+  "entries": [
+    {
+      "path": "index.html",
+      "type": "file",
+      "sha256": "15d4d65d7f95921dfa3d9b5a9a5074f582cc38c4f1777cbf1c6266adf43d3c82",
+      "bytes": 106489
+    },
+    {
+      "path": "about.html",
+      "type": "file",
+      "sha256": "8529677c0e7d5c6f0f43830c18ad6a736c7c66384c49fa3e0a7c1bfabd67ea3f",
+      "bytes": 6473
+    },
+    {
+      "path": "contact.html",
+      "type": "file",
+      "sha256": "5c07fbf21beedfbeaec1308cfd6d60ff96c4c3f05046159bf7c71e14b6682e8b",
+      "bytes": 7972
+    },
+    {
+      "path": "privacy.html",
+      "type": "file",
+      "sha256": "042701e03b0c48ed9d9870dbd9ea81bf710658fa4d3b82bce52babd43b1a54c3",
+      "bytes": 5608
+    },
+    {
+      "path": "css/article-engine.css",
+      "type": "file",
+      "sha256": "2ffcd0a296408e1e9dd964c766de76becc45099012a353e7a6b6e009b2bd067e",
+      "bytes": 9723
+    },
+    {
+      "path": "css/brain-navigation.css",
+      "type": "file",
+      "sha256": "a5a921f64b0501596a4a2bad117df7bcbeb5d056be81ad0caf6a6e5c8cdc4e2a",
+      "bytes": 3043
+    },
+    {
+      "path": "css/calculator-drawer.css",
+      "type": "file",
+      "sha256": "d15779b5e32de7dfaed073ecbaa33f25445fb4ed6cdd2da7abae8c9d0cd63174",
+      "bytes": 5677
+    },
+    {
+      "path": "css/calculator-v2.css",
+      "type": "file",
+      "sha256": "ff80f08a30c1ec0c89954f7e65ad78b99511a450f55d63875023d0d8b043356b",
+      "bytes": 5866
+    },
+    {
+      "path": "css/electricity-topic.css",
+      "type": "file",
+      "sha256": "c280c26c47d293c40465f7f4b3569781ce73b2c45823a7c511f796f69964d9c5",
+      "bytes": 1705
+    },
+    {
+      "path": "css/savingio-brain-navigation.css",
+      "type": "file",
+      "sha256": "e40eb7ea84f066eda0efd78565216c35dbf9c3b2b2f47f9f1a9d827929ed6fa1",
+      "bytes": 5246
+    },
+    {
+      "path": "css/savingio-content-platform.css",
+      "type": "file",
+      "sha256": "fa59034fad07c5b1c7b69fd39325cf3f84217e5b3b483f66150ecb1d352d836e",
+      "bytes": 9320
+    },
+    {
+      "path": "css/service-portal.css",
+      "type": "file",
+      "sha256": "5cb02ace983fc740ed54628765549804ce85db36aa92667c942e3a3bb10dad08",
+      "bytes": 6357
+    },
+    {
+      "path": "css/style.css",
+      "type": "file",
+      "sha256": "31e9e4cf6de1fafe5efabd34eb88316d2b6eb4824370f00443dee20b0dac4e14",
+      "bytes": 6247
+    },
+    {
+      "path": "js/app.js",
+      "type": "file",
+      "sha256": "610f2770f3d4cba31abd30bc272be044f9a5fd345514d6b3619119d985771f9e",
+      "bytes": 811
+    },
+    {
+      "path": "js/article-navigation.js",
+      "type": "file",
+      "sha256": "16becd8907647e551d27d263c6483914154a5e29c78b2fee479402ad9d86fd85",
+      "bytes": 2441
+    },
+    {
+      "path": "js/articles.html",
+      "type": "file",
+      "sha256": "f1a17e54d96ec191867d9ada10a8c763c8c6f801cf6b907ccf727032aa19ba4e",
+      "bytes": 8230
+    },
+    {
+      "path": "js/brain-navigation.js",
+      "type": "file",
+      "sha256": "fd218569cd214b7092c535febf9e0d933d407eb14fd46520b8ead631cd21e3f0",
+      "bytes": 8381
+    },
+    {
+      "path": "js/calculator-configs.js",
+      "type": "file",
+      "sha256": "32c927b87af9adc2eeecee5b06dd26f725ea7bc7bf98b9aa3dd6a10db3d2b15b",
+      "bytes": 29602
+    },
+    {
+      "path": "js/calculator-drawer.js",
+      "type": "file",
+      "sha256": "771de16db1be56bd678c2a64e7d44ac0381987d5be279aaf00fe2632bfd3a894",
+      "bytes": 888
+    },
+    {
+      "path": "js/calculator-engine.js",
+      "type": "file",
+      "sha256": "9643fa5fd49f7cca223152f04b327e146b2ecf5dcca571d93d3f94eaf332d5b5",
+      "bytes": 5091
+    },
+    {
+      "path": "js/calculator-v2.js",
+      "type": "file",
+      "sha256": "6503b7c297f029d539fb14f4397cdf04275bfe4a0392c5b4b35ad66785139466",
+      "bytes": 4633
+    },
+    {
+      "path": "js/savingio-brain-navigation.js",
+      "type": "file",
+      "sha256": "ca13279adc685f3b039936f76fa4b100ba5f8575277c9f1fd0c40619b7bfcb61",
+      "bytes": 5940
+    },
+    {
+      "path": "js/savingio-content-platform.js",
+      "type": "file",
+      "sha256": "7d1d183ce6b169ebb961a7db47eb2ea0112131449eb9f8a6ac37c968f8c40f48",
+      "bytes": 4511
+    },
+    {
+      "path": "js/script.js",
+      "type": "file",
+      "sha256": "e264f8a959e8026fed8ca5752d7ddfa55f1397502e31eec9dbf2d26b43103874",
+      "bytes": 148
+    },
+    {
+      "path": "js/search.js",
+      "type": "file",
+      "sha256": "c1186cf3b569752a8572e81eca0e756e590f9b9a527ab5c148fde62320a2389d",
+      "bytes": 1510
+    },
+    {
+      "path": "articles/index.html",
+      "type": "file",
+      "sha256": "bc6fafcc51d14cbf1b919d353b82107a4454a01eb37bb622dbf0f2c550c69c60",
+      "bytes": 132060
+    }
+  ],
+  "created_at": "2026-07-14T14:26:10+00:00"
+}

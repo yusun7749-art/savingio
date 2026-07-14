@@ -1,0 +1,119 @@
+{
+  "topic": "전기요금 절약",
+  "query_plan": [
+    {
+      "source_name": "한국전력",
+      "domain": "kepco.co.kr",
+      "query": "site:kepco.co.kr \"전기요금 절약\"",
+      "priority": 1,
+      "trust_score": 96
+    },
+    {
+      "source_name": "한국전력",
+      "domain": "kepco.co.kr",
+      "query": "site:kepco.co.kr \"전기요금 절약\" 조건",
+      "priority": 1,
+      "trust_score": 96
+    },
+    {
+      "source_name": "한국전력",
+      "domain": "kepco.co.kr",
+      "query": "site:kepco.co.kr \"전기요금 절약\" 신청",
+      "priority": 1,
+      "trust_score": 96
+    },
+    {
+      "source_name": "국가법령정보센터",
+      "domain": "law.go.kr",
+      "query": "site:law.go.kr \"전기요금 절약\"",
+      "priority": 1,
+      "trust_score": 100
+    },
+    {
+      "source_name": "국가법령정보센터",
+      "domain": "law.go.kr",
+      "query": "site:law.go.kr \"전기요금 절약\" 시행령",
+      "priority": 1,
+      "trust_score": 100
+    },
+    {
+      "source_name": "통계청",
+      "domain": "kostat.go.kr",
+      "query": "site:kostat.go.kr \"전기요금 절약\"",
+      "priority": 2,
+      "trust_score": 96
+    },
+    {
+      "source_name": "통계청",
+      "domain": "kostat.go.kr",
+      "query": "site:kostat.go.kr \"전기요금 절약\" 조건",
+      "priority": 2,
+      "trust_score": 96
+    },
+    {
+      "source_name": "통계청",
+      "domain": "kostat.go.kr",
+      "query": "site:kostat.go.kr \"전기요금 절약\" 신청",
+      "priority": 2,
+      "trust_score": 96
+    }
+  ],
+  "source_candidates": [
+    {
+      "name": "한국전력",
+      "domain": "kepco.co.kr",
+      "category": "utility",
+      "trust_score": 96,
+      "priority": 1,
+      "matched_keywords": [
+        "전기",
+        "전기요금"
+      ],
+      "query_templates": [],
+      "score": 115
+    },
+    {
+      "name": "국가법령정보센터",
+      "domain": "law.go.kr",
+      "category": "law",
+      "trust_score": 100,
+      "priority": 1,
+      "matched_keywords": [],
+      "query_templates": [
+        "site:{domain} \"{topic}\"",
+        "site:{domain} \"{topic}\" 시행령"
+      ],
+      "score": 99
+    },
+    {
+      "name": "통계청",
+      "domain": "kostat.go.kr",
+      "category": "statistics",
+      "trust_score": 96,
+      "priority": 2,
+      "matched_keywords": [],
+      "query_templates": [],
+      "score": 94
+    }
+  ],
+  "requested_urls": 1,
+  "cache_hits": 0,
+  "successful_fetches": 0,
+  "blocked_domains": 1,
+  "failed_fetches": 0,
+  "results": [
+    {
+      "url": "https://example.com/test",
+      "status": "blocked_domain",
+      "http_status": null,
+      "content_type": "",
+      "title": "",
+      "text": "",
+      "error": "domain_not_allowed",
+      "fetched_at": "2026-07-14T10:42:53+00:00",
+      "elapsed_ms": 0,
+      "cache_hit": false
+    }
+  ],
+  "created_at": "2026-07-14T10:42:53+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "bd63f344abfb4b05b8320111893e15d4",
+  "sender": "operations",
+  "receiver": "planning",
+  "event": "task.assigned",
+  "payload": {
+    "workflow_id": "7381ed72f35743c2ba319674500a359a",
+    "topic": "revenue:https://savingio.com/articles/sample",
+    "status": "created",
+    "current_department": "planning",
+    "completed_departments": [],
+    "failed_departments": [],
+    "created_at": "2026-07-14T13:00:48+00:00",
+    "updated_at": "2026-07-14T13:00:48+00:00"
+  },
+  "correlation_id": "7381ed72f35743c2ba319674500a359a",
+  "created_at": "2026-07-14T13:00:48+00:00",
+  "status": "queued"
+}

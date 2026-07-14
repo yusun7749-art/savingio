@@ -1,0 +1,13 @@
+{
+  "version": "2.022",
+  "max_rework_attempts": 2,
+  "require_primary_qa": true,
+  "require_final_qa": true,
+  "require_user_approval_before_publish": true,
+  "image_minimum_generated_files": 2,
+  "allowed_publish_targets": [
+    "savingio-static",
+    "wordpress",
+    "naver-blog"
+  ]
+}

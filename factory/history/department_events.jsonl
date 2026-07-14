@@ -1,0 +1,24 @@
+{"department": "operations", "event": "workflow.started", "workflow_id": "cfb642d57a25493c80167f4a670d080c", "payload": {"topic": "전기요금 절약"}, "created_at": "2026-07-14T10:13:53+00:00"}
+{"department": "planning", "event": "department.completed", "workflow_id": "cfb642d57a25493c80167f4a670d080c", "payload": {"slug": "전기요금-절약-c861d77b"}, "created_at": "2026-07-14T10:13:53+00:00"}
+{"department": "research", "event": "department.completed", "workflow_id": "cfb642d57a25493c80167f4a670d080c", "payload": {"evidence_score": 0}, "created_at": "2026-07-14T10:13:53+00:00"}
+{"department": "writing", "event": "department.completed", "workflow_id": "cfb642d57a25493c80167f4a670d080c", "payload": {"html_chars": 5799}, "created_at": "2026-07-14T10:13:53+00:00"}
+{"department": "seo", "event": "department.completed", "workflow_id": "cfb642d57a25493c80167f4a670d080c", "payload": {"canonical": "https://savingio.com/articles/전기요금-절약-c861d77b.html"}, "created_at": "2026-07-14T10:13:53+00:00"}
+{"department": "qa_primary", "event": "department.completed", "workflow_id": "cfb642d57a25493c80167f4a670d080c", "payload": {"score": 100}, "created_at": "2026-07-14T10:13:53+00:00"}
+{"department": "qa_final", "event": "department.completed", "workflow_id": "cfb642d57a25493c80167f4a670d080c", "payload": {"score": 100}, "created_at": "2026-07-14T10:13:53+00:00"}
+{"department": "cms", "event": "department.completed", "workflow_id": "cfb642d57a25493c80167f4a670d080c", "payload": {"article_path": "factory/output/drafts/전기요금-절약-c861d77b.html"}, "created_at": "2026-07-14T10:13:53+00:00"}
+{"department": "operations", "event": "workflow.started", "workflow_id": "4f93992d2e894f5cbb721b8f538d3429", "payload": {"topic": "전기요금 절약"}, "created_at": "2026-07-14T10:24:37+00:00"}
+{"department": "planning", "event": "department.completed", "workflow_id": "4f93992d2e894f5cbb721b8f538d3429", "payload": {"slug": "전기요금-절약-c861d77b"}, "created_at": "2026-07-14T10:24:37+00:00"}
+{"department": "research", "event": "department.completed", "workflow_id": "4f93992d2e894f5cbb721b8f538d3429", "payload": {"evidence_score": 0}, "created_at": "2026-07-14T10:24:37+00:00"}
+{"department": "writing", "event": "department.completed", "workflow_id": "4f93992d2e894f5cbb721b8f538d3429", "payload": {"html_chars": 5792}, "created_at": "2026-07-14T10:24:37+00:00"}
+{"department": "seo", "event": "department.completed", "workflow_id": "4f93992d2e894f5cbb721b8f538d3429", "payload": {"canonical": "https://savingio.com/articles/전기요금-절약-c861d77b.html"}, "created_at": "2026-07-14T10:24:37+00:00"}
+{"department": "qa_primary", "event": "department.completed", "workflow_id": "4f93992d2e894f5cbb721b8f538d3429", "payload": {"score": 100}, "created_at": "2026-07-14T10:24:37+00:00"}
+{"department": "qa_final", "event": "department.completed", "workflow_id": "4f93992d2e894f5cbb721b8f538d3429", "payload": {"score": 100}, "created_at": "2026-07-14T10:24:37+00:00"}
+{"department": "cms", "event": "department.completed", "workflow_id": "4f93992d2e894f5cbb721b8f538d3429", "payload": {"article_path": "factory/output/drafts/전기요금-절약-c861d77b.html"}, "created_at": "2026-07-14T10:24:37+00:00"}
+{"department": "operations", "event": "workflow.started", "workflow_id": "3d161f2c6c8b477e8d288a263a019960", "payload": {"topic": "전기요금 절약"}, "created_at": "2026-07-14T10:25:51+00:00"}
+{"department": "planning", "event": "department.completed", "workflow_id": "3d161f2c6c8b477e8d288a263a019960", "payload": {"slug": "전기요금-절약-c861d77b"}, "created_at": "2026-07-14T10:25:51+00:00"}
+{"department": "research", "event": "department.completed", "workflow_id": "3d161f2c6c8b477e8d288a263a019960", "payload": {"evidence_score": 0}, "created_at": "2026-07-14T10:25:51+00:00"}
+{"department": "writing", "event": "department.completed", "workflow_id": "3d161f2c6c8b477e8d288a263a019960", "payload": {"html_chars": 5792}, "created_at": "2026-07-14T10:25:51+00:00"}
+{"department": "seo", "event": "department.completed", "workflow_id": "3d161f2c6c8b477e8d288a263a019960", "payload": {"canonical": "https://savingio.com/articles/전기요금-절약-c861d77b.html"}, "created_at": "2026-07-14T10:25:51+00:00"}
+{"department": "qa_primary", "event": "department.completed", "workflow_id": "3d161f2c6c8b477e8d288a263a019960", "payload": {"score": 100}, "created_at": "2026-07-14T10:25:51+00:00"}
+{"department": "qa_final", "event": "department.completed", "workflow_id": "3d161f2c6c8b477e8d288a263a019960", "payload": {"score": 100}, "created_at": "2026-07-14T10:25:51+00:00"}
+{"department": "cms", "event": "department.completed", "workflow_id": "3d161f2c6c8b477e8d288a263a019960", "payload": {"article_path": "factory/output/drafts/전기요금-절약-c861d77b.html"}, "created_at": "2026-07-14T10:25:51+00:00"}

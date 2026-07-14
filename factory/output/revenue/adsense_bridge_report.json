@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "revenue_rows": 1,
+  "dashboard_totals": {
+    "earnings": 0.5,
+    "page_views": 1100.0,
+    "ad_impressions": 1000.0,
+    "ad_clicks": 1.0,
+    "search_impressions": 200.0,
+    "search_clicks": 2.0,
+    "page_rpm": 0.4545,
+    "ad_ctr": 0.001
+  },
+  "analysis_summary": {
+    "seo_actions": 1,
+    "revenue_actions": 4,
+    "critical_actions": 1
+  },
+  "created_at": "2026-07-14T13:58:33+00:00"
+}

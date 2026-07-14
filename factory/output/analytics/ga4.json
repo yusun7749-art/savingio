@@ -1,0 +1,27 @@
+{
+  "row_count": 1,
+  "dimensions": [
+    "date",
+    "pagePath"
+  ],
+  "metrics": [
+    "screenPageViews",
+    "activeUsers",
+    "sessions"
+  ],
+  "rows": [
+    {
+      "date": "20260701",
+      "pagePath": "https://savingio.com/articles/sample",
+      "screenPageViews": 100.0,
+      "activeUsers": 40.0,
+      "sessions": 50.0
+    }
+  ],
+  "totals": {
+    "screenPageViews": 100.0,
+    "activeUsers": 40.0,
+    "sessions": 50.0
+  },
+  "created_at": "2026-07-14T12:16:26+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "5eae2a9c376f4336867d68ca598ddd99",
+  "sender": "qa_final",
+  "receiver": "revenue",
+  "event": "task.rework",
+  "payload": {
+    "issues": [
+      "check_adsense_coverage",
+      "traffic_without_revenue"
+    ]
+  },
+  "correlation_id": "f8d18ff9d5c149d6ac40ea00da26772f",
+  "created_at": "2026-07-14T12:59:33+00:00",
+  "status": "queued"
+}

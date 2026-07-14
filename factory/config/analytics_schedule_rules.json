@@ -1,0 +1,8 @@
+{
+  "version": "2.034",
+  "daily_run_time": "04:30",
+  "timezone": "Asia/Seoul",
+  "execute_external_default": false,
+  "search_console_days": 28,
+  "dispatch_optimizer_actions": true
+}

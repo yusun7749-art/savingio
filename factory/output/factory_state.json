@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "queue": [
+    {
+      "key": "local-tax-refund.html",
+      "type": "renewal",
+      "priority": 120,
+      "status": "queued"
+    },
+    {
+      "key": "credit-score-tips.html",
+      "type": "renewal",
+      "priority": 120,
+      "status": "queued"
+    },
+    {
+      "key": "reduce-electricity-bill.html",
+      "type": "renewal",
+      "priority": 120,
+      "status": "queued"
+    },
+    {
+      "key": "beginner-ai-side-hustles.html",
+      "type": "renewal",
+      "priority": 120,
+      "status": "queued"
+    },
+    {
+      "key": "health-insurance-refund.html",
+      "type": "renewal",
+      "priority": 120,
+      "status": "queued"
+    },
+    {
+      "key": "vat-final-return-deadline-2026.html",
+      "type": "renewal",
+      "priority": 120,
+      "status": "queued"
+    },
+    {
+      "key": "online-income-ideas-for-beginners.html",
+      "type": "renewal",
+      "priority": 120,
+      "status": "queued"
+    },
+    {
+      "key": "energy-voucher-balance-use-2026.html",
+      "type": "renewal",
+      "priority": 120,
+      "status": "queued"
+    },
+    {
+      "key": "property-tax-july-checklist-2026.html",
+      "type": "renewal",
+      "priority": 120,
+      "status": "queued"
+    },
+    {
+      "key": "vat-input-tax-deduction-guide-2026.html",
+      "type": "renewal",
+      "priority": 120,
+      "status": "queued"
+    },
+    {
+      "key": "government-support-scam-warning-2026.html",
+      "type": "renewal",
+      "priority": 120,
+      "status": "queued"
+    },
+    {
+      "key": "government-benefit-alert-guide-2026.html",
+      "type": "renewal",
+      "priority": 120,
+      "status": "queued"
+    },
+    {
+      "key": "property-tax-electronic-notice-2026.html",
+      "type": "renewal",
+      "priority": 120,
+      "status": "queued"
+    },
+    {
+      "key": "summer-electricity-usage-check-2026.html",
+      "type": "renewal",
+      "priority": 120,
+      "status": "queued"
+    },
+    {
+      "key": "index.html",
+      "type": "renewal",
+      "priority": 45,
+      "status": "queued"
+    }
+  ],
+  "runs": [
+    {
+      "topic": "전기요금 절약",
+      "qa_score": 100,
+      "qa_pass": true,
+      "published": false,
+      "article_path": "factory/output/drafts/전기요금-절약-c861d77b.html",
+      "completed_at": "2026-07-13T15:00:44+00:00"
+    }
+  ],
+  "approvals": {},
+  "updated_at": "2026-07-13T15:00:49+00:00"
+}

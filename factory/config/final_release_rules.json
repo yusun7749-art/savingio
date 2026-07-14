@@ -1,0 +1,7 @@
+{
+  "version": "2.037-D",
+  "require_end_to_end_audit": true,
+  "require_release_journal_integrity": true,
+  "require_locked_paths_present": true,
+  "require_full_regression_tests": true
+}

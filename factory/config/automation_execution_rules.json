@@ -1,0 +1,8 @@
+{
+  "version": "2.035",
+  "analytics_apply_default": "dry_run",
+  "analytics_apply_limit": 20,
+  "backup_before_edit": true,
+  "scheduler_time": "04:30",
+  "timezone": "Asia/Seoul"
+}

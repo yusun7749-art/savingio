@@ -1,0 +1,77 @@
+{
+  "version": "2.038",
+  "integrations": [
+    {
+      "name": "cloudflare_pages",
+      "purpose": "Git push deployment and deployment verification",
+      "required_env": [
+        "CLOUDFLARE_ACCOUNT_ID",
+        "CLOUDFLARE_API_TOKEN",
+        "CLOUDFLARE_PAGES_PROJECT"
+      ],
+      "optional_env": [
+        "SAVINGIO_SITE_URL"
+      ],
+      "execution_mode": "explicit_execute",
+      "live_verification_required": true
+    },
+    {
+      "name": "google_search_console",
+      "purpose": "Search performance collection",
+      "required_env": [
+        "GOOGLE_SERVICE_ACCOUNT_JSON",
+        "SEARCH_CONSOLE_SITE_URL"
+      ],
+      "optional_env": [
+        "GOOGLE_ACCESS_TOKEN"
+      ],
+      "execution_mode": "explicit_execute",
+      "live_verification_required": true
+    },
+    {
+      "name": "google_analytics_4",
+      "purpose": "Traffic and engagement collection",
+      "required_env": [
+        "GOOGLE_SERVICE_ACCOUNT_JSON",
+        "GA4_PROPERTY_ID"
+      ],
+      "optional_env": [
+        "GOOGLE_ACCESS_TOKEN"
+      ],
+      "execution_mode": "explicit_execute",
+      "live_verification_required": true
+    },
+    {
+      "name": "adsense_reporting",
+      "purpose": "Revenue report import and Revenue AI",
+      "required_env": [],
+      "optional_env": [
+        "ADSENSE_ACCOUNT_ID"
+      ],
+      "execution_mode": "report_import",
+      "live_verification_required": false
+    },
+    {
+      "name": "wordpress",
+      "purpose": "Optional WordPress publishing",
+      "required_env": [
+        "WORDPRESS_URL",
+        "WORDPRESS_USER",
+        "WORDPRESS_APP_PASSWORD"
+      ],
+      "optional_env": [],
+      "execution_mode": "explicit_execute",
+      "live_verification_required": true
+    },
+    {
+      "name": "image_provider",
+      "purpose": "Hero and infographic generation",
+      "required_env": [
+        "OPENAI_API_KEY"
+      ],
+      "optional_env": [],
+      "execution_mode": "external_provider",
+      "live_verification_required": true
+    }
+  ]
+}

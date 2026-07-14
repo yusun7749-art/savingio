@@ -1,0 +1,24 @@
+{
+  "version": "2.022",
+  "factory_progress_percent": 31,
+  "adsense_readiness_percent": 55,
+  "completed_now": [
+    "부서별 입출력 계약",
+    "부서별 인수인계 패킷",
+    "리나 통합 Supervisor",
+    "1차 QA → 자동 재작업 → 최종 QA",
+    "이미지 부서 브리프/매니페스트",
+    "사용자 승인 요청/승인/거절",
+    "Savingio/WordPress/Naver 배포 어댑터 준비",
+    "Full Automation 실행 명령"
+  ],
+  "remaining_priority": [
+    "실제 이미지 생성 연결",
+    "실제 외부 조사 API 연결",
+    "WordPress 자격증명 연결",
+    "Naver 브라우저 자동화 또는 커넥터",
+    "승인 후 자동 배포 실행",
+    "Search Console/GA4 연결",
+    "기존 글 자동 리뉴얼 대량 실행"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": "2.039",
+  "required_reports": [
+    "integration_preflight",
+    "production_readiness",
+    "final_release"
+  ],
+  "critical_sources": [
+    "approved_republish",
+    "final_release"
+  ],
+  "max_retry_attempts": 3,
+  "base_retry_delay_seconds": 5,
+  "automatic_recovery_execution": false
+}

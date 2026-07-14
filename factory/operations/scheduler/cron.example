@@ -1,0 +1,1 @@
+30 4 * * * cd /mnt/data/savingio_v2035_real_work/savingio-live && python factory/run.py analytics-daily --execute-external

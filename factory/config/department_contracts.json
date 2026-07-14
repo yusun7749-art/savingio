@@ -1,0 +1,83 @@
+{
+  "version": "2.026",
+  "departments": {
+    "planning": {
+      "required_output_fields": [
+        "topic",
+        "slug",
+        "article_type",
+        "category",
+        "required_sections"
+      ]
+    },
+    "research": {
+      "required_output_fields": [
+        "topic",
+        "research_status",
+        "evidence_score",
+        "ready_for_publish",
+        "research_qa_score",
+        "query_plan",
+        "report"
+      ]
+    },
+    "writing": {
+      "required_output_fields": [
+        "html",
+        "text_chars"
+      ]
+    },
+    "seo": {
+      "required_output_fields": [
+        "title",
+        "description",
+        "slug",
+        "canonical",
+        "schema"
+      ]
+    },
+    "image": {
+      "required_output_fields": [
+        "topic",
+        "slug",
+        "required",
+        "generated_files",
+        "ready"
+      ]
+    },
+    "qa_primary": {
+      "required_output_fields": [
+        "score",
+        "pass",
+        "issues"
+      ]
+    },
+    "qa_final": {
+      "required_output_fields": [
+        "score",
+        "pass",
+        "issues"
+      ]
+    },
+    "cms": {
+      "required_output_fields": [
+        "article_path",
+        "qa_score",
+        "evidence_score",
+        "published"
+      ]
+    },
+    "git": {
+      "required_output_fields": [
+        "ready",
+        "selected_files_only"
+      ]
+    },
+    "deploy": {
+      "required_output_fields": [
+        "provider",
+        "ready"
+      ]
+    }
+  }
+}
