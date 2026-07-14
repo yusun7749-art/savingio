@@ -1,0 +1,36 @@
+{
+  "version": "2.043",
+  "pass": true,
+  "compile": {
+    "pass": true,
+    "stderr": ""
+  },
+  "tests": {
+    "pass": true,
+    "count": 153,
+    "summary": " DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  return {d:{\"status\":\"ready\",\"updated\":datetime.utcnow().isoformat()} for d in DEPTS}\n.......................<frozen posixpath>:82: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7ea46afe3c40>\nResourceWarning: Enable tracemalloc to get the object allocation traceback\n<frozen posixpath>:82: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7ea46afe3a60>\nResourceWarning: Enable tracemalloc to get the object allocation traceback\n......<frozen posixpath>:82: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7ea46afe3880>\nResourceWarning: Enable tracemalloc to get the object allocation traceback\n<frozen posixpath>:82: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7ea46afe3d30>\nResourceWarning: Enable tracemalloc to get the object allocation traceback\n<frozen posixpath>:82: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7ea46a17c310>\nResourceWarning: Enable tracemalloc to get the object allocation traceback\n<frozen posixpath>:82: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7ea46b49ee30>\nResourceWarning: Enable tracemalloc to get the object allocation traceback\n<frozen posixpath>:82: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7ea46b49ec50>\nResourceWarning: Enable tracemalloc to get the object allocation traceback\n<frozen posixpath>:82: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7ea46a17c4f0>\nResourceWarning: Enable tracemalloc to get the object allocation traceback\n............................................................................................................................\n----------------------------------------------------------------------\nRan 153 tests in 6.618s\n\nOK\n"
+  },
+  "publisher_lock": {
+    "pass": true,
+    "invalid_count": 0,
+    "blockers": []
+  },
+  "doctor": {
+    "pass": true,
+    "module_count": 125,
+    "config_count": 35,
+    "failed": []
+  },
+  "deployment_integrity": {
+    "pass": true,
+    "blockers": [],
+    "checks": {
+      "publisher_lock_pass": true,
+      "doctor_pass": true,
+      "critical_files_present": true,
+      "ads_txt_exact": true
+    }
+  },
+  "official_publisher_id": "pub-7605193583747751",
+  "next_version": "2.044"
+}

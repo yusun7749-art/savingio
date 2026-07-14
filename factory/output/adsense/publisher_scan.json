@@ -16,7 +16,41 @@
       ]
     },
     {
+      "path": "factory/QA_V2_042.json",
+      "ids": [
+        "ca-pub-7605193583747751",
+        "pub-7605193583747751"
+      ]
+    },
+    {
+      "path": "factory/README_FACTORY.md",
+      "ids": [
+        "pub-7605193583747751"
+      ]
+    },
+    {
       "path": "factory/config/adsense_identity.json",
+      "ids": [
+        "ca-pub-7605193583747751",
+        "pub-7605193583747751"
+      ]
+    },
+    {
+      "path": "factory/output/deployment_integrity_report.json",
+      "ids": [
+        "ca-pub-7605193583747751",
+        "pub-7605193583747751"
+      ]
+    },
+    {
+      "path": "factory/tests/test_v2043_deployment_integrity.py",
+      "ids": [
+        "ca-pub-7605193583747751",
+        "pub-7605193583747751"
+      ]
+    },
+    {
+      "path": "factory/output/adsense/adsense_lock_report.json",
       "ids": [
         "ca-pub-7605193583747751",
         "pub-7605193583747751"
@@ -34,16 +68,9 @@
         "ca-pub-7605193583747751",
         "pub-7605193583747751"
       ]
-    },
-    {
-      "path": "factory/output/adsense/adsense_lock_report.json",
-      "ids": [
-        "ca-pub-7605193583747751",
-        "pub-7605193583747751"
-      ]
     }
   ],
   "invalid_count": 0,
   "invalid": [],
-  "checked_at": "2026-07-14T15:09:50+00:00"
+  "checked_at": "2026-07-14T15:24:25+00:00"
 }

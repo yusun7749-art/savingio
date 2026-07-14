@@ -3,6 +3,7 @@ from pathlib import Path
 import hashlib, json, secrets, shutil
 from datetime import datetime, timezone
 from .utils import atomic_write, save_json, now_iso, relative_posix
+from .adsense_manager import load_identity, ensure_html_adsense_identity, run_adsense_lock
 
 def _hash(text: str):
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
@@ -59,7 +60,16 @@ def publish_approved(project_root: Path, slug: str, token: str, overwrite: bool=
     target.parent.mkdir(parents=True, exist_ok=True)
     if target.exists() and not overwrite:
         raise FileExistsError(target)
-    atomic_write(target, src.read_text(encoding="utf-8"))
+    pre_lock = run_adsense_lock(project_root, execute_repair=True, block_on_error=True)
+    if not pre_lock.get("pass"):
+        raise RuntimeError(f"Publisher LOCK failed before publish: {pre_lock.get('blockers', [])}")
+    identity = load_identity(project_root)
+    html = ensure_html_adsense_identity(src.read_text(encoding="utf-8"), identity)
+    atomic_write(target, html)
+    post_lock = run_adsense_lock(project_root, execute_repair=True, block_on_error=True)
+    if not post_lock.get("pass"):
+        raise RuntimeError(f"Publisher LOCK failed after publish: {post_lock.get('blockers', [])}")
+    manifest["publisher_lock"] = {"pre": pre_lock, "post": post_lock}
     manifest["status"] = "published"
     manifest["published_at"] = now_iso()
     manifest["published_path"] = relative_posix(target, project_root)

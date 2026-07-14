@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-14T14:44:00+00:00",
-  "article_count": 219,
+  "generated_at": "2026-07-14T15:24:18+00:00",
+  "article_count": 218,
   "average_score": 90,
   "pass": true,
   "minimum_score": 70,
@@ -3742,27 +3742,6 @@
         "practical_content": true
       },
       "issues": []
-    },
-    {
-      "path": "articles/전기요금-절약-c861d77ba6.html",
-      "score": 50,
-      "pass": false,
-      "checks": {
-        "clear_title": true,
-        "updated_date": true,
-        "source_signal": true,
-        "contact_path": false,
-        "editorial_path": false,
-        "about_path": false,
-        "disclaimer_path": false,
-        "practical_content": true
-      },
-      "issues": [
-        "contact_path",
-        "editorial_path",
-        "about_path",
-        "disclaimer_path"
-      ]
     }
   ]
 }

@@ -212,3 +212,13 @@ python factory/run.py calculator-analytics
 ```
 
 계산기는 독립 도구가 아니라 글을 완성하는 해결 패키지로만 생성·연결됩니다.
+
+
+## V2.043 Deployment Integrity LOCK
+
+- 모든 Deploy 직전에 Factory Doctor를 자동 실행합니다.
+- `ads.txt`, `index.html`, Publisher 설정과 핵심 배포 모듈의 존재 여부 및 SHA-256을 검사합니다.
+- 승인된 글 발행 전후에 공식 Publisher ID를 강제 주입하고 재검사합니다.
+- Pipeline 완료 후 Deployment Integrity가 실패하면 Release Manifest와 배포를 차단합니다.
+- 공식 Publisher ID는 `factory/config/adsense_identity.json` 단일 설정에서만 읽습니다.
+- 공식 값은 `pub-7605193583747751`이며 변경할 수 없습니다.

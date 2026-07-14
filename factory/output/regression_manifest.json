@@ -5,8 +5,8 @@
     {
       "path": "index.html",
       "type": "file",
-      "sha256": "15d4d65d7f95921dfa3d9b5a9a5074f582cc38c4f1777cbf1c6266adf43d3c82",
-      "bytes": 106489
+      "sha256": "1cd5c3aec90989643f3e71041a0ae80d1630c79d6f27093a4fdd4dfd331d4954",
+      "bytes": 106483
     },
     {
       "path": "about.html",
@@ -159,5 +159,5 @@
       "bytes": 132060
     }
   ],
-  "created_at": "2026-07-14T14:44:05+00:00"
+  "created_at": "2026-07-14T15:24:22+00:00"
 }

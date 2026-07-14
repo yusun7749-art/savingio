@@ -20,6 +20,7 @@ from .registry import upsert_content
 from .calculator_solution_package import build_solution_package, inject_calculators
 from .calculator_cms_registry import register_article_calculators
 from .adsense_manager import load_identity, ensure_html_adsense_identity, run_adsense_lock
+from .deployment_integrity import verify_deployment_integrity
 
 def execute(topic: str, project_root: Path, publish: bool=False, overwrite: bool=False,
             evidence_file: Path|None=None, stage: bool=True):
@@ -132,16 +133,20 @@ def execute(topic: str, project_root: Path, publish: bool=False, overwrite: bool
         "ads.txt", "factory/config/adsense_identity.json",
         "factory/output/adsense/adsense_lock_report.json",
     ]
-    release_manifest = build_release_manifest(project_root, changed, "2.042")
+    deployment_integrity = verify_deployment_integrity(project_root, repair=True)
+    if not deployment_integrity["pass"]:
+        raise RuntimeError(f"Deployment integrity failed after generation: {deployment_integrity['blockers']}")
+    release_manifest = build_release_manifest(project_root, changed, "2.043")
 
     result = {
-        "factory_version":"2.042","topic":topic,"plan":plan,"research":research,
+        "factory_version":"2.043","topic":topic,"plan":plan,"research":research,
         "seo":seo,"qa":qa_report,"duplicate":duplicate_report,"related":related,
         "calculator_package":calculator_package,"calculator_cms":calculator_cms,
         "cms":cms_manifest,"staging":stage_manifest,"rewrite_attempts":attempts,
         "release_manifest":release_manifest,
         "git_commands":git_commands,"git_script":commit_script,
         "adsense_lock":{"pre":pre_adsense_lock,"post":post_adsense_lock},
+        "deployment_integrity":deployment_integrity,
         "deploy":deployment_status(project_root),"completed_at":now_iso(),
     }
     save_json(output_dir/"run_report.json", result)

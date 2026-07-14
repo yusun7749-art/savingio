@@ -1,5 +1,5 @@
 {
-  "version": "2.042",
+  "version": "2.043",
   "publisher_id": "pub-7605193583747751",
   "adsense_client": "ca-pub-7605193583747751",
   "ads_txt_line": "google.com, pub-7605193583747751, DIRECT, f08c47fec0942fa0",
@@ -7,5 +7,9 @@
   "lock_mode": "repair_then_block",
   "allowed_literal_files": [
     "factory/config/adsense_identity.json"
-  ]
+  ],
+  "deployment_gate_required": true,
+  "doctor_required_before_deploy": true,
+  "repair_before_generation": true,
+  "verify_after_publish": true
 }

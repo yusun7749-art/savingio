@@ -128,7 +128,8 @@ REQUIRED = [
   "calculator_cms_registry.py",
   "calculator_qa.py",
   "calculator_analytics.py",
-  "calculator_hq.py"
+  "calculator_hq.py",
+  "deployment_integrity.py"
 ]
 CONFIGS = [
   "adsense_identity.json",
@@ -168,7 +169,7 @@ CONFIGS = [
   "calculator_hq_rules.json"
 ]
 
-def run_doctor(project_root: Path):
+def run_doctor(project_root: Path, include_publisher_lock: bool=True):
     factory, config = project_root/"factory", project_root/"factory"/"config"
     checks = []
 
@@ -204,12 +205,14 @@ def run_doctor(project_root: Path):
     except Exception as exc:
         checks.append({"name":"sqlite-schema","pass":False,"detail":str(exc)})
 
-    adsense_lock = run_adsense_lock(project_root, execute_repair=False, block_on_error=True)
-    checks.append({
-        "name":"publisher-lock",
-        "pass":bool(adsense_lock.get("pass")),
-        "detail":f"status={adsense_lock.get('status')} invalid={adsense_lock.get('scan',{}).get('invalid_count')} blockers={adsense_lock.get('blockers',[])}"
-    })
+    adsense_lock = None
+    if include_publisher_lock:
+        adsense_lock = run_adsense_lock(project_root, execute_repair=False, block_on_error=True)
+        checks.append({
+            "name":"publisher-lock",
+            "pass":bool(adsense_lock.get("pass")),
+            "detail":f"status={adsense_lock.get('status')} invalid={adsense_lock.get('scan',{}).get('invalid_count')} blockers={adsense_lock.get('blockers',[])}"
+        })
 
     graph = build_link_graph(project_root)
     checks.append({
