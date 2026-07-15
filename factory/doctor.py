@@ -3,6 +3,7 @@ from pathlib import Path
 import json, py_compile, sqlite3
 from .link_graph import build_link_graph
 from .adsense_manager import run_adsense_lock
+from .deprecated_api_scan import scan_deprecated_apis
 
 REQUIRED = [
   "adsense_manager.py",
@@ -216,6 +217,13 @@ def run_doctor(project_root: Path, include_publisher_lock: bool=True):
             "detail":f"status={adsense_lock.get('status')} invalid={adsense_lock.get('scan',{}).get('invalid_count')} blockers={adsense_lock.get('blockers',[])}"
         })
 
+    deprecated_api_scan = scan_deprecated_apis(project_root)
+    checks.append({
+        "name": "deprecated-api-scan",
+        "pass": bool(deprecated_api_scan["pass"]),
+        "detail": f"findings={deprecated_api_scan['finding_count']}",
+    })
+
     graph = build_link_graph(project_root)
     checks.append({
         "name":"internal-link-scan",
@@ -229,6 +237,7 @@ def run_doctor(project_root: Path, include_publisher_lock: bool=True):
         "module_count":sum(1 for check in checks if check["name"].startswith("module:")),
         "config_count":sum(1 for check in checks if check["name"].startswith("config:")),
         "adsense_lock":adsense_lock,
+        "deprecated_api_scan": deprecated_api_scan,
         "link_graph_summary":{
             "nodes":graph["node_count"],
             "edges":graph["edge_count"],

@@ -1,12 +1,15 @@
 {
-  "version": "V2.051",
-  "commit_message": "V2.051 fix Cloudflare verification fallback",
+  "version": "V2.052",
+  "commit_message": "V2.052 remove Python deprecation warnings and add Doctor gate",
   "files": [
-    "factory/cloudflare_deploy_verify.py",
+    "factory/department_board.py",
+    "factory/deprecated_api_scan.py",
+    "factory/doctor.py",
+    "factory/tests/test_v2052.py",
     "factory/config/release_scope.json",
-    "factory/tests/test_v2051.py",
-    "FACTORY-RELEASE-V2.051.bat",
-    "V2.051-RELEASE-NOTE.md",
+    "FACTORY-RELEASE-V2.052.bat",
+    "factory/QA_V2_052.json",
+    "V2.052-RELEASE-NOTE.md",
     "VERSION.json"
   ]
 }

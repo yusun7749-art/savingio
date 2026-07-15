@@ -1,0 +1,17 @@
+{
+  "version": "V2.052",
+  "regression": {
+    "passed": 184,
+    "failed": 0,
+    "warnings": 0
+  },
+  "doctor_pass": true,
+  "deprecated_api_scan": {
+    "pass": true,
+    "finding_count": 0,
+    "findings": [],
+    "scanned_root": "factory"
+  },
+  "publisher_lock_pass": true,
+  "publisher_id": "pub-7605193583747751"
+}

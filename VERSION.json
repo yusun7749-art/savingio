@@ -1,7 +1,7 @@
 {
   "project": "Savingio Factory",
-  "version": "2.051",
-  "label": "V2.051",
+  "version": "2.052",
+  "label": "V2.052",
   "publisher_id": "pub-7605193583747751",
   "publisher_lock": "PASS",
   "deployment_integrity": "PASS",
@@ -11,7 +11,7 @@
   "calculator_analytics": "PASS",
   "baseline_house": true,
   "baseline_status": "PASS",
-  "regression_tests": "181 PASS",
+  "regression_tests": "184 PASS / 0 FAIL / 0 WARNING",
   "broken_links": 0,
   "automation_integration": "PASS",
   "one_click_release": "PASS",
@@ -24,5 +24,9 @@
   "git_add_dot_forbidden": "PASS",
   "cloudflare_api_fallback": "PASS",
   "live_site_verification": "PASS",
-  "cloudflare_false_negative_fix": "PASS"
+  "cloudflare_false_negative_fix": "PASS",
+  "python_313_deprecation_warning_fix": "PASS",
+  "deprecated_api_doctor_gate": "PASS",
+  "warning_free_test_target": "PASS",
+  "doctor": "PASS"
 }
