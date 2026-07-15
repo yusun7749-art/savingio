@@ -10,11 +10,10 @@ import urllib.request
 import urllib.error
 
 from .deployment_integrity import verify_deployment_integrity
+from .adsense_manager import load_identity
 from .factory_cleaner import clean_factory
 from .utils import now_iso, save_json
 
-OFFICIAL_PUBLISHER = "pub-7605193583747751"
-OFFICIAL_CLIENT = "ca-pub-7605193583747751"
 DEFAULT_SITE = "https://savingio.com"
 
 
@@ -82,7 +81,7 @@ def _backup_branch(root: Path, version: str) -> dict:
 
 
 def _http_text(url: str, timeout: int = 20) -> dict:
-    request = urllib.request.Request(url, headers={"User-Agent": "SavingioFactory/2.045"})
+    request = urllib.request.Request(url, headers={"User-Agent": "SavingioFactory/2.046"})
     try:
         with urllib.request.urlopen(request, timeout=timeout) as response:
             body = response.read().decode("utf-8", errors="replace")
@@ -93,14 +92,17 @@ def _http_text(url: str, timeout: int = 20) -> dict:
 
 def verify_live_site(base_url: str = DEFAULT_SITE, attempts: int = 12, interval: int = 10) -> dict:
     base = base_url.rstrip("/")
+    identity = load_identity(Path(__file__).resolve().parent.parent)
+    official_publisher = identity["publisher_id"]
+    official_client = identity["adsense_client"]
     history = []
     for attempt in range(1, attempts + 1):
         ads = _http_text(f"{base}/ads.txt")
         home = _http_text(f"{base}/")
         robots = _http_text(f"{base}/robots.txt")
         sitemap = _http_text(f"{base}/sitemap.xml")
-        ads_ok = ads["pass"] and ads["body"].strip() == f"google.com, {OFFICIAL_PUBLISHER}, DIRECT, f08c47fec0942fa0"
-        home_ok = home["pass"] and OFFICIAL_CLIENT in home["body"] and "1993439759222559" not in home["body"]
+        ads_ok = ads["pass"] and ads["body"].strip() == identity["ads_txt_line"]
+        home_ok = home["pass"] and official_client in home["body"] and "1993439759222559" not in home["body"]
         result = {
             "attempt": attempt,
             "pass": ads_ok and home_ok and robots["pass"] and sitemap["pass"],
@@ -120,7 +122,7 @@ def verify_live_site(base_url: str = DEFAULT_SITE, attempts: int = 12, interval:
 def run_auto_release(
     root: Path,
     *,
-    version: str = "V2.045",
+    version: str = "V2.046",
     message: str | None = None,
     execute: bool = False,
     verify_live: bool = True,

@@ -26,6 +26,8 @@ if __package__ in (None, ""):
     from factory.calculator_registry import load_registry, discover_existing_calculators
     from factory.calculator_intent_engine import analyze_calculator_intent
     from factory.calculator_hq import run_calculator_hq
+    from factory.calculator_generation_engine import generate_calculator, generate_all_calculators, validate_all_generated
+    from factory.calculator_action_engine import build_action_catalog, select_action
     from factory.external_verification_center import run_external_verification_center
     from factory.production_activation_gate import evaluate_production_activation
     from factory.connector_verification_receipt import verify_history
@@ -117,6 +119,8 @@ else:
     from .calculator_registry import load_registry, discover_existing_calculators
     from .calculator_intent_engine import analyze_calculator_intent
     from .calculator_hq import run_calculator_hq
+    from .calculator_generation_engine import generate_calculator, generate_all_calculators, validate_all_generated
+    from .calculator_action_engine import build_action_catalog, select_action
     from .external_verification_center import run_external_verification_center
     from .production_activation_gate import evaluate_production_activation
     from .connector_verification_receipt import verify_history
@@ -186,7 +190,7 @@ else:
     from .auto_release import run_auto_release
 
 def main():
-    p=argparse.ArgumentParser(description="Savingio Factory V2.045")
+    p=argparse.ArgumentParser(description="Savingio Factory V2.046")
     sub=p.add_subparsers(dest="cmd")
 
     g=sub.add_parser("generate")
@@ -251,6 +255,16 @@ def main():
     sub.add_parser("calculator-discover")
     sub.add_parser("calculator-qa")
     sub.add_parser("calculator-analytics")
+    cg=sub.add_parser("calculator-generate")
+    cg.add_argument("calculator_id")
+    cg.add_argument("--overwrite",action="store_true")
+    cga=sub.add_parser("calculator-generate-all")
+    cga.add_argument("--overwrite",action="store_true")
+    sub.add_parser("calculator-generation-qa")
+    sub.add_parser("calculator-action-catalog")
+    ca=sub.add_parser("calculator-action-test")
+    ca.add_argument("calculator_id")
+    ca.add_argument("value",type=float)
     sub.add_parser("credential-checklist")
     sub.add_parser("write-production-env-template")
 
@@ -412,10 +426,10 @@ def main():
     sub.add_parser("deployment-gate")
     sub.add_parser("factory-clean")
     package=sub.add_parser("release-package")
-    package.add_argument("--output", default="savingio-live_v2_045_ONE_CLICK_RELEASE.zip")
+    package.add_argument("--output", default="savingio-live_v2_046_ONE_CLICK_RELEASE.zip")
     auto=sub.add_parser("auto-release")
     auto.add_argument("--execute",action="store_true")
-    auto.add_argument("--version",default="V2.045")
+    auto.add_argument("--version",default="V2.046")
     auto.add_argument("--message",default=None)
     auto.add_argument("--base-url",default="https://savingio.com")
     auto.add_argument("--no-live-verify",action="store_true")
@@ -654,6 +668,16 @@ def main():
         result=validate_registry(load_registry(root/"factory"/"config").get("calculators",[]),root)
     elif args.cmd=="calculator-analytics":
         result=build_calculator_analytics(root)
+    elif args.cmd=="calculator-generate":
+        result=generate_calculator(root,args.calculator_id,overwrite=args.overwrite)
+    elif args.cmd=="calculator-generate-all":
+        result=generate_all_calculators(root,overwrite=args.overwrite)
+    elif args.cmd=="calculator-generation-qa":
+        result=validate_all_generated(root)
+    elif args.cmd=="calculator-action-catalog":
+        result=build_action_catalog(root)
+    elif args.cmd=="calculator-action-test":
+        result=select_action(args.calculator_id,args.value,root/"factory"/"config")
     elif args.cmd=="department-tasks":
         result={"tasks":TaskDispatcher(root).list_tasks()}
     else:

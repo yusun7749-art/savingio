@@ -1,0 +1,12 @@
+Savingio Factory SQLite Windows Lock Fix
+
+1. Copy the factory folder into the existing savingio-live folder.
+2. Choose Replace the file in the destination.
+3. Run: python -m pytest -q
+
+Changed file:
+- factory/state_db.py
+
+Purpose:
+- Always close SQLite connections on Windows.
+- Fix WinError 32 in test_v2019 and test_v2020.

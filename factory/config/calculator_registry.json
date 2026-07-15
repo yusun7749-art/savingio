@@ -1,5 +1,5 @@
 {
-  "version": "2.041",
+  "version": "2.047",
   "hq_categories": [
     {
       "id": "salary",
@@ -60,7 +60,7 @@
         "월급"
       ],
       "url": "/calculators/salary-net-pay.html",
-      "status": "planned",
+      "status": "active",
       "input_fields": [
         "연봉 또는 월급",
         "부양가족 수",
@@ -73,7 +73,9 @@
       "next_actions": [
         "급여명세서 확인",
         "관련 실수령액 글 보기"
-      ]
+      ],
+      "formula_version": "2.047",
+      "generated_at": "2026-07-15T09:33:19+09:00"
     },
     {
       "id": "hourly-to-monthly",
@@ -89,7 +91,7 @@
         "아르바이트 월급"
       ],
       "url": "/calculators/hourly-to-monthly.html",
-      "status": "planned",
+      "status": "active",
       "input_fields": [
         "시급",
         "근무시간",
@@ -102,7 +104,9 @@
       "next_actions": [
         "근로계약서 확인",
         "최저임금 글 보기"
-      ]
+      ],
+      "formula_version": "2.047",
+      "generated_at": "2026-07-14T16:08:32+00:00"
     },
     {
       "id": "electricity-cost",
@@ -119,7 +123,7 @@
         "에어컨 전기세"
       ],
       "url": "/calculators/electricity-cost.html",
-      "status": "planned",
+      "status": "active",
       "input_fields": [
         "월 사용량",
         "요금 단가",
@@ -132,7 +136,9 @@
       "next_actions": [
         "사용량 점검",
         "전기요금 절약 글 보기"
-      ]
+      ],
+      "formula_version": "2.047",
+      "generated_at": "2026-07-14T16:08:32+00:00"
     },
     {
       "id": "severance-pay",
@@ -148,7 +154,7 @@
         "퇴직금"
       ],
       "url": "/calculators/severance-pay.html",
-      "status": "planned",
+      "status": "active",
       "input_fields": [
         "평균임금",
         "근속기간"
@@ -160,7 +166,9 @@
       "next_actions": [
         "근속기간 확인",
         "퇴직금 기준 글 보기"
-      ]
+      ],
+      "formula_version": "2.047",
+      "generated_at": "2026-07-14T16:08:32+00:00"
     },
     {
       "id": "vat",
@@ -177,7 +185,7 @@
         "사업자 세금"
       ],
       "url": "/calculators/vat.html",
-      "status": "planned",
+      "status": "active",
       "input_fields": [
         "공급가 또는 합계",
         "세율"
@@ -190,7 +198,9 @@
       "next_actions": [
         "세금계산서 확인",
         "부가세 신고 글 보기"
-      ]
+      ],
+      "formula_version": "2.047",
+      "generated_at": "2026-07-14T16:08:32+00:00"
     },
     {
       "id": "loan-payment",
@@ -208,7 +218,7 @@
         "대출 이자"
       ],
       "url": "/calculators/loan-payment.html",
-      "status": "planned",
+      "status": "active",
       "input_fields": [
         "대출원금",
         "금리",
@@ -223,7 +233,10 @@
       "next_actions": [
         "대출조건 확인",
         "대출 비교 글 보기"
-      ]
+      ],
+      "formula_version": "2.047",
+      "generated_at": "2026-07-14T16:08:32+00:00"
     }
-  ]
+  ],
+  "updated_at": "2026-07-15T09:33:19+09:00"
 }

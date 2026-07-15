@@ -2,6 +2,6 @@
   "path": "ads.txt",
   "exists": true,
   "valid": true,
-  "executed": true,
-  "checked_at": "2026-07-14T15:50:17+00:00"
+  "executed": false,
+  "checked_at": "2026-07-15T09:33:20+09:00"
 }

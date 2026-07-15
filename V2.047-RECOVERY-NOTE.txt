@@ -1,0 +1,15 @@
+Savingio Factory V2.047 Recovery
+
+목적
+- V2.048 기준 집 작업 이전의 안정된 V2.047 상태로 복구
+- Python __pycache__ / *.pyc / .pytest_cache Git 추적 제거
+- 잘못 생성된 V2.048 기준 집 문서와 깨진 이름의 임시 BAT 제거
+- 기존 기사, 계산기, Factory 소스 및 V2.046~V2.047 결과 유지
+- 테스트 통과 후에만 커밋 및 GitHub PUSH
+
+공식 Publisher ID
+pub-7605193583747751
+
+검증
+169 PASS
+Publisher LOCK 유지

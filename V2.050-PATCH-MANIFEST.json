@@ -1,0 +1,53 @@
+{
+  "version": "V2.050",
+  "type": "PATCH",
+  "files": [
+    {
+      "path": "factory/release_scope_manager.py",
+      "size": 4109,
+      "sha256": "6a43dae446f4e3454db6d0cd43c7d2cb4595c8483288763d18bc58823d7457d6"
+    },
+    {
+      "path": "factory/release_pipeline.py",
+      "size": 4013,
+      "sha256": "aad5b26f534767dbd5e03888ee06f61c67d4f07f20c1b53e10059f20417e4fae"
+    },
+    {
+      "path": "factory/config/release_scope.json",
+      "size": 472,
+      "sha256": "6b63014b91afb95fc9d3e78eea420a41ceac8e0256219338a53aeeb344341dcb"
+    },
+    {
+      "path": "factory/tests/test_v2050_release_pipeline.py",
+      "size": 2439,
+      "sha256": "4a71091c6b7f46c8bca7651a00d6322814e2fb9ebfd85a8e90a433206abe9056"
+    },
+    {
+      "path": "factory/QA_V2_050.json",
+      "size": 673,
+      "sha256": "169a45c61b2876bf573dfef6951a1c44222408da06fba31c6244442b089b52b3"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_050.json",
+      "size": 341,
+      "sha256": "ed1539e27c9dfe2e1b6897694b8abd08637697906618013078b8ad470ffdf494"
+    },
+    {
+      "path": "FACTORY-RELEASE-V2.050.bat",
+      "size": 84,
+      "sha256": "63c696e15889cf23e6da9dc60a8a0e9e55017e0d07c589e659db251c3a756b14"
+    },
+    {
+      "path": "VERSION.json",
+      "size": 927,
+      "sha256": "5b0107025dc58e807521a81b8e99e8e28e246a541019a23c48c5203bd5ab4df7"
+    },
+    {
+      "path": "V2.050-RELEASE-NOTE.md",
+      "size": 630,
+      "sha256": "ef5c274bd7c9dfb6a6fc628d6d8b98da666b22a20827eff8de4f8db64a66e06c"
+    }
+  ],
+  "tests": "181 passed",
+  "publisher_id": "pub-7605193583747751"
+}

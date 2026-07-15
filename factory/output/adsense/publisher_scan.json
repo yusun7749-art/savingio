@@ -23,6 +23,24 @@
       ]
     },
     {
+      "path": "V2.047-RECOVERY-NOTE.txt",
+      "ids": [
+        "pub-7605193583747751"
+      ]
+    },
+    {
+      "path": "V2.048-BASELINE-HOUSE.md",
+      "ids": [
+        "pub-7605193583747751"
+      ]
+    },
+    {
+      "path": "V2.050-PATCH-MANIFEST.json",
+      "ids": [
+        "pub-7605193583747751"
+      ]
+    },
+    {
       "path": "VERSION.json",
       "ids": [
         "pub-7605193583747751"
@@ -30,6 +48,18 @@
     },
     {
       "path": "factory/MASTER_ROADMAP_V2_044.json",
+      "ids": [
+        "pub-7605193583747751"
+      ]
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_045.json",
+      "ids": [
+        "pub-7605193583747751"
+      ]
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_046.json",
       "ids": [
         "pub-7605193583747751"
       ]
@@ -48,20 +78,13 @@
       ]
     },
     {
+      "path": "factory/QA_V2_050.json",
+      "ids": [
+        "pub-7605193583747751"
+      ]
+    },
+    {
       "path": "factory/README_FACTORY.md",
-      "ids": [
-        "pub-7605193583747751"
-      ]
-    },
-    {
-      "path": "factory/auto_release.py",
-      "ids": [
-        "ca-pub-7605193583747751",
-        "pub-7605193583747751"
-      ]
-    },
-    {
-      "path": "factory/MASTER_ROADMAP_V2_045.json",
       "ids": [
         "pub-7605193583747751"
       ]
@@ -75,6 +98,13 @@
     },
     {
       "path": "factory/config/auto_release_rules.json",
+      "ids": [
+        "ca-pub-7605193583747751",
+        "pub-7605193583747751"
+      ]
+    },
+    {
+      "path": "factory/output/auto_release_report.json",
       "ids": [
         "ca-pub-7605193583747751",
         "pub-7605193583747751"
@@ -102,9 +132,29 @@
       ]
     },
     {
-      "path": "factory/output/auto_release_report.json",
+      "path": "factory/output/deployment_report_v2_045.json",
       "ids": [
         "ca-pub-7605193583747751",
+        "pub-7605193583747751"
+      ]
+    },
+    {
+      "path": "factory/output/deployment_report_v2_046.json",
+      "ids": [
+        "ca-pub-7605193583747751",
+        "pub-7605193583747751"
+      ]
+    },
+    {
+      "path": "factory/output/one_click_release_report.json",
+      "ids": [
+        "ca-pub-7605193583747751",
+        "pub-7605193583747751"
+      ]
+    },
+    {
+      "path": "factory/output/V2.047_RELEASE_REPORT.md",
+      "ids": [
         "pub-7605193583747751"
       ]
     },
@@ -152,5 +202,5 @@
   ],
   "invalid_count": 0,
   "invalid": [],
-  "checked_at": "2026-07-14T15:50:17+00:00"
+  "checked_at": "2026-07-15T09:33:21+09:00"
 }

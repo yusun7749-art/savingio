@@ -5,9 +5,9 @@
     "Department Message Bus skeleton",
     "Operation Board spec"
   ],
-  "version": "2.041",
+  "version": "2.047",
   "factory_progress_percent": 98,
-  "adsense_readiness_percent": 95,
+  "adsense_readiness_percent": 96,
   "departments": {
     "operations": 100,
     "planning": 54,
@@ -15,13 +15,13 @@
     "writing": 72,
     "seo": 80,
     "image": 68,
-    "qa_primary": 90,
-    "qa_final": 92,
+    "qa_primary": 96,
+    "qa_final": 97,
     "cms": 93,
-    "deploy": 96,
-    "analytics": 90,
-    "revenue": 86,
-    "calculator": 48
+    "deploy": 100,
+    "analytics": 93,
+    "revenue": 90,
+    "calculator": 82
   },
   "completed_in_v2026": [
     "공식 출처 레지스트리",
@@ -186,8 +186,28 @@
     "Calculator Analytics",
     "Pipeline auto-connection"
   ],
-  "current_version": "2.044",
-  "last_completed": "V2.044 Factory Release Packaging LOCK",
-  "next_version": "2.044",
-  "next_target": "V2.045 Calculator Page Automatic Generation Engine"
+  "current_version": "2.046",
+  "last_completed": "V2.046 Calculator Page Automatic Generation Engine",
+  "next_version": "2.047",
+  "next_target": "V2.047 Calculator Result Personalization and Live Event Collection",
+  "completed_in_v2046": [
+    "Calculator Page Generation Engine",
+    "Formula DNA",
+    "Input and Result UI DNA",
+    "Six active calculator pages",
+    "Registry activation",
+    "Article-to-calculator auto generation",
+    "Calculator generation QA",
+    "Calculator completion event"
+  ],
+  "completed_in_v2047": [
+    "계산 결과 구간별 맞춤 행동 추천 엔진",
+    "결과별 관련 글 자동 연결",
+    "Cloudflare Pages 계산기 이벤트 API",
+    "GA4 dataLayer 및 브라우저 이벤트 큐",
+    "계산기 조회·시작·완료·행동 클릭 수집",
+    "완료율·행동 클릭률·Revenue Flow 점수",
+    "Calculator Action Catalog",
+    "실제 계산기 6개 V2.047 재생성"
+  ]
 }

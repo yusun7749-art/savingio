@@ -1,6 +1,7 @@
 from __future__ import annotations
 from pathlib import Path
 import json, sqlite3
+from contextlib import contextmanager
 from datetime import datetime, timezone
 
 SCHEMA = """
@@ -53,12 +54,24 @@ CREATE TABLE IF NOT EXISTS dna_versions(
 def _now():
     return datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds")
 
+@contextmanager
 def connect(db_path: Path):
+    """Open a SQLite connection and always close the file handle.
+
+    sqlite3.Connection's built-in context manager commits or rolls back, but it
+    does not close the connection. On Windows that leaves the database file
+    locked and prevents TemporaryDirectory cleanup. This wrapper preserves the
+    transaction behavior and guarantees close() in every path.
+    """
     db_path.parent.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
-    conn.executescript(SCHEMA)
-    return conn
+    try:
+        conn.executescript(SCHEMA)
+        with conn:
+            yield conn
+    finally:
+        conn.close()
 
 def add_queue_item(db_path: Path, topic: str, priority: int = 50):
     now = _now()

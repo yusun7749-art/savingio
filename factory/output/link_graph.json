@@ -1,8 +1,8 @@
 {
-  "node_count": 219,
-  "edge_count": 7113,
-  "broken_count": 3,
-  "orphan_count": 31,
+  "node_count": 218,
+  "edge_count": 7111,
+  "broken_count": 0,
+  "orphan_count": 30,
   "nodes": [
     {
       "id": "/articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
@@ -1093,11 +1093,6 @@
       "id": "/articles/youth-support-programs.html",
       "title": "청년 지원금 종류 한눈에 보기, 신청 전 확인할 기준",
       "path": "articles/youth-support-programs.html"
-    },
-    {
-      "id": "/articles/전기요금-절약-c861d77ba6.html",
-      "title": "전기요금 절약",
-      "path": "articles/전기요금-절약-c861d77ba6.html"
     }
   ],
   "edges": [
@@ -16407,15 +16402,15 @@
     },
     {
       "source": "/articles/loan-refinancing-check.html",
-      "target": "../calculators/loan.html"
+      "target": "/calculators/loan.html"
     },
     {
       "source": "/articles/loan-refinancing-check.html",
-      "target": "loan-prepayment-fee-check.html"
+      "target": "/articles/loan-prepayment-fee-check.html"
     },
     {
       "source": "/articles/loan-refinancing-check.html",
-      "target": "credit-score-management.html"
+      "target": "/articles/credit-score-management.html"
     },
     {
       "source": "/articles/loan-refinancing-check.html",
@@ -29544,30 +29539,9 @@
     {
       "source": "/articles/youth-support-programs.html",
       "target": "/calculators/"
-    },
-    {
-      "source": "/articles/전기요금-절약-c861d77ba6.html",
-      "target": "/articles/"
-    },
-    {
-      "source": "/articles/전기요금-절약-c861d77ba6.html",
-      "target": "/"
     }
   ],
-  "broken": [
-    {
-      "source": "/articles/loan-refinancing-check.html",
-      "target": "../calculators/loan.html"
-    },
-    {
-      "source": "/articles/loan-refinancing-check.html",
-      "target": "loan-prepayment-fee-check.html"
-    },
-    {
-      "source": "/articles/loan-refinancing-check.html",
-      "target": "credit-score-management.html"
-    }
-  ],
+  "broken": [],
   "orphans": [
     {
       "id": "/articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
@@ -29718,16 +29692,11 @@
       "id": "/articles/vat-input-tax-deduction-guide-2026.html",
       "title": "페이지 이동 | 세이빙이오(Savingio)",
       "path": "articles/vat-input-tax-deduction-guide-2026.html"
-    },
-    {
-      "id": "/articles/전기요금-절약-c861d77ba6.html",
-      "title": "전기요금 절약",
-      "path": "articles/전기요금-절약-c861d77ba6.html"
     }
   ],
   "inbound": {
-    "/articles/": 565,
-    "/": 431,
+    "/articles/": 564,
+    "/": 430,
     "/css/calculator-drawer.css": 198,
     "/images/logo.svg": 213,
     "/css/savingio-brain-navigation.css": 217,
@@ -29750,7 +29719,7 @@
     "/calculators/annual-leave.html": 163,
     "/calculators/percentage.html": 184,
     "/calculators/vat.html": 193,
-    "/calculators/loan.html": 193,
+    "/calculators/loan.html": 194,
     "/css/electricity-topic.css": 16,
     "/categories/living-bills.html": 27,
     "/articles/electricity-bill-saving.html": 23,
@@ -29780,7 +29749,7 @@
     "/articles/subscription-saving.html": 5,
     "/articles/dryer-summer-electricity-saving.html": 8,
     "/articles/cash-out-card-points.html": 3,
-    "/articles/credit-score-management.html": 11,
+    "/articles/credit-score-management.html": 12,
     "/categories/government-support.html": 49,
     "/articles/government24-benefit-check.html": 4,
     "/articles/property-tax-deadline.html": 5,
@@ -29853,7 +29822,7 @@
     "/articles/grocery-saving-tips.html": 5,
     "/articles/loan-refinancing-check.html": 7,
     "/articles/overdraft-account-guide.html": 2,
-    "/articles/loan-prepayment-fee-check.html": 2,
+    "/articles/loan-prepayment-fee-check.html": 3,
     "/articles/energy-voucher-balance-check-2026.html": 12,
     "/articles/lifelong-education-voucher-application.html": 1,
     "/articles/energy-voucher-balance-use.html": 6,
@@ -29918,9 +29887,6 @@
     "/articles/yellow-umbrella-mutual-aid-guide.html": 2,
     "/articles/national-scholarship-application.html": 4,
     "/articles/apartment-management-fee-summer.html": 2,
-    "../calculators/loan.html": 1,
-    "loan-prepayment-fee-check.html": 1,
-    "credit-score-management.html": 1,
     "/articles/basic-pension-application-guide.html": 5,
     "/articles/small-business-closure-support.html": 5,
     "/articles/property-tax-electronic-bill-2026.html": 13,
@@ -30171,7 +30137,6 @@
     "/articles/youth-housing-benefit-separate-payment.html": 28,
     "/articles/youth-leap-account-contribution.html": 36,
     "/articles/youth-savings-account-maintenance.html": 36,
-    "/articles/youth-support-programs.html": 36,
-    "/articles/전기요금-절약-c861d77ba6.html": 2
+    "/articles/youth-support-programs.html": 36
   }
 }

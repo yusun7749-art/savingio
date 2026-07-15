@@ -1,0 +1,298 @@
+{
+  "version": "2.047",
+  "ui_dna": {
+    "layout": [
+      "hero",
+      "input_card",
+      "result_card",
+      "breakdown",
+      "next_actions",
+      "related_articles",
+      "notice"
+    ],
+    "requirements": [
+      "mobile_first",
+      "accessible_labels",
+      "input_validation",
+      "no_false_precision",
+      "result_explanation",
+      "next_action_required"
+    ]
+  },
+  "calculators": {
+    "salary-net-pay": {
+      "title": "연봉·월급 실수령액 계산기",
+      "description": "연봉 또는 월급과 비과세액을 입력해 예상 월 실수령액을 간단히 확인합니다. 실제 공제액은 개인 조건에 따라 달라질 수 있습니다.",
+      "mode": "salary",
+      "inputs": [
+        {
+          "id": "annualSalary",
+          "label": "연봉",
+          "type": "number",
+          "min": 0,
+          "step": 10000,
+          "unit": "원",
+          "default": 36000000
+        },
+        {
+          "id": "taxFree",
+          "label": "월 비과세액",
+          "type": "number",
+          "min": 0,
+          "step": 10000,
+          "unit": "원",
+          "default": 200000
+        },
+        {
+          "id": "dependents",
+          "label": "부양가족 수",
+          "type": "number",
+          "min": 1,
+          "max": 20,
+          "step": 1,
+          "unit": "명",
+          "default": 1
+        }
+      ],
+      "related": [
+        [
+          "/articles/salary-take-home-easy-calculator-guide.html",
+          "실수령액 계산 기준 읽기"
+        ],
+        [
+          "/articles/salary-slip-check-guide.html",
+          "급여명세서 확인하기"
+        ]
+      ],
+      "notice": "국민연금·건강보험·고용보험과 근로소득세를 단순 추정한 값입니다. 실제 지급액은 회사 정산과 개인 공제 조건에 따라 달라집니다."
+    },
+    "hourly-to-monthly": {
+      "title": "시급 월급 환산 계산기",
+      "description": "시급, 주당 근무시간, 월 근무주 수를 기준으로 예상 월급을 계산합니다.",
+      "mode": "hourly",
+      "inputs": [
+        {
+          "id": "hourlyWage",
+          "label": "시급",
+          "type": "number",
+          "min": 0,
+          "step": 10,
+          "unit": "원",
+          "default": 10320
+        },
+        {
+          "id": "weeklyHours",
+          "label": "주당 근무시간",
+          "type": "number",
+          "min": 0,
+          "max": 168,
+          "step": 0.5,
+          "unit": "시간",
+          "default": 40
+        },
+        {
+          "id": "weeks",
+          "label": "월 환산 주 수",
+          "type": "number",
+          "min": 1,
+          "max": 6,
+          "step": 0.01,
+          "unit": "주",
+          "default": 4.345
+        }
+      ],
+      "related": [
+        [
+          "/articles/salary-budget-guide.html",
+          "월급 관리 방법 보기"
+        ],
+        [
+          "/articles/salary-slip-check-guide.html",
+          "급여명세서 확인하기"
+        ]
+      ],
+      "notice": "주휴수당과 실제 근로일수는 근로계약 및 법정 요건에 따라 달라질 수 있습니다."
+    },
+    "electricity-cost": {
+      "title": "전기요금·절약금액 계산기",
+      "description": "월 사용량과 평균 단가를 입력해 예상 요금과 절약 목표 달성 시 금액을 확인합니다.",
+      "mode": "electricity",
+      "inputs": [
+        {
+          "id": "usage",
+          "label": "월 사용량",
+          "type": "number",
+          "min": 0,
+          "step": 1,
+          "unit": "kWh",
+          "default": 350
+        },
+        {
+          "id": "unitPrice",
+          "label": "평균 단가",
+          "type": "number",
+          "min": 0,
+          "step": 1,
+          "unit": "원/kWh",
+          "default": 180
+        },
+        {
+          "id": "savingPercent",
+          "label": "절약 목표",
+          "type": "number",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "default": 10
+        }
+      ],
+      "related": [
+        [
+          "/articles/electricity-bill-saving.html",
+          "전기요금 절약 방법"
+        ],
+        [
+          "/articles/summer-electricity-tier-check-2026.html",
+          "여름 누진구간 확인"
+        ]
+      ],
+      "notice": "실제 전기요금은 기본요금, 누진구간, 기후환경요금, 연료비조정액, 부가세 등에 따라 달라집니다."
+    },
+    "severance-pay": {
+      "title": "퇴직금 예상 계산기",
+      "description": "최근 3개월 평균 월급과 재직기간을 기준으로 예상 퇴직금을 계산합니다.",
+      "mode": "severance",
+      "inputs": [
+        {
+          "id": "monthlyAverage",
+          "label": "최근 3개월 평균 월급",
+          "type": "number",
+          "min": 0,
+          "step": 10000,
+          "unit": "원",
+          "default": 3000000
+        },
+        {
+          "id": "serviceYears",
+          "label": "재직기간",
+          "type": "number",
+          "min": 0,
+          "step": 0.01,
+          "unit": "년",
+          "default": 3
+        }
+      ],
+      "related": [
+        [
+          "/articles/severance-pay-calculation-guide.html",
+          "퇴직금 기준 확인"
+        ],
+        [
+          "/articles/severance-pay-easy-calculator-guide.html",
+          "퇴직금 계산 설명"
+        ]
+      ],
+      "notice": "간편 추정값이며 정확한 평균임금은 퇴직 전 3개월 임금 총액과 총일수, 상여금·연차수당 반영 여부에 따라 달라집니다."
+    },
+    "vat": {
+      "title": "부가세·공급가·합계 계산기",
+      "description": "공급가액 또는 합계금액을 기준으로 부가세를 빠르게 나눠 계산합니다.",
+      "mode": "vat",
+      "inputs": [
+        {
+          "id": "amount",
+          "label": "입력 금액",
+          "type": "number",
+          "min": 0,
+          "step": 1,
+          "unit": "원",
+          "default": 110000
+        },
+        {
+          "id": "amountType",
+          "label": "금액 기준",
+          "type": "select",
+          "options": [
+            {
+              "value": "total",
+              "label": "부가세 포함 합계"
+            },
+            {
+              "value": "supply",
+              "label": "공급가액"
+            }
+          ]
+        },
+        {
+          "id": "vatRate",
+          "label": "부가세율",
+          "type": "number",
+          "min": 0,
+          "max": 100,
+          "step": 0.1,
+          "unit": "%",
+          "default": 10
+        }
+      ],
+      "related": [
+        [
+          "/articles/tax-invoice-vs-cash-receipt.html",
+          "증빙 종류 확인"
+        ],
+        [
+          "/articles/general-vat-common-mistakes.html",
+          "부가세 실수 방지"
+        ]
+      ],
+      "notice": "일반적인 세율 계산 도구입니다. 영세율·면세·간이과세 등은 별도 기준을 확인하세요."
+    },
+    "loan-payment": {
+      "title": "대출 원리금·이자 비교 계산기",
+      "description": "대출원금, 연이율, 기간을 입력해 원리금균등 방식의 월 상환액과 총이자를 계산합니다.",
+      "mode": "loan",
+      "inputs": [
+        {
+          "id": "principal",
+          "label": "대출원금",
+          "type": "number",
+          "min": 0,
+          "step": 10000,
+          "unit": "원",
+          "default": 100000000
+        },
+        {
+          "id": "annualRate",
+          "label": "연이율",
+          "type": "number",
+          "min": 0,
+          "max": 100,
+          "step": 0.01,
+          "unit": "%",
+          "default": 4.5
+        },
+        {
+          "id": "months",
+          "label": "상환기간",
+          "type": "number",
+          "min": 1,
+          "max": 600,
+          "step": 1,
+          "unit": "개월",
+          "default": 120
+        }
+      ],
+      "related": [
+        [
+          "/articles/loan-refinancing-check.html",
+          "대환 가능성 점검"
+        ],
+        [
+          "/articles/loan-prepayment-fee-check.html",
+          "중도상환수수료 확인"
+        ]
+      ],
+      "notice": "원리금균등 상환을 기준으로 한 추정값이며 실제 대출은 실행일, 금리변동, 수수료, 거치기간 등에 따라 달라집니다."
+    }
+  }
+}

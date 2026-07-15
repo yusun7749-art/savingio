@@ -1,0 +1,7 @@
+{
+  "version": "2.047",
+  "calculator_count": 6,
+  "rule_count": 15,
+  "event_endpoint": "/api/calculator-events",
+  "created_at": "2026-07-15T09:33:19+09:00"
+}

@@ -4,10 +4,16 @@ from .calculator_registry import load_registry
 from .calculator_solution_package import build_solution_package, inject_calculators
 from .calculator_cms_registry import register_article_calculators
 from .calculator_qa import validate_registry
+from .calculator_generation_engine import generate_calculator
 from .utils import save_json, now_iso
 
 def run_calculator_hq(topic: str, slug: str, project_root: Path, html_path: Path | None=None, execute: bool=False) -> dict:
     package=build_solution_package(topic,slug,project_root)
+    generation=None
+    for matched in package.get("calculators", []):
+        cid=(matched.get("calculator_id") or matched.get("id")) if isinstance(matched,dict) else None
+        if cid:
+            generation=generate_calculator(project_root,cid,overwrite=False)
     cms=register_article_calculators(project_root,package)
     registry=load_registry(project_root/"factory"/"config")
     qa=validate_registry(registry.get("calculators",[]),project_root)
@@ -24,6 +30,7 @@ def run_calculator_hq(topic: str, slug: str, project_root: Path, html_path: Path
         "topic":topic,
         "slug":slug,
         "package":package,
+        "generation":generation,
         "cms":cms,
         "registry_qa":qa,
         "html":html_result,

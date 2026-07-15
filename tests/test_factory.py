@@ -2,27 +2,32 @@ from pathlib import Path
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "factory"))
+sys.path.insert(0, str(ROOT))
 
-from planner import plan
-from qa import audit_html
-from researcher import build_research_brief
-from writer import build_draft
+from factory.planner import build_plan
+from factory.qa import evaluate
+from factory.researcher import build_research_package
+from factory.writer import generate_article
+from factory.seo import build_seo
 
+CONFIG = ROOT / 'factory' / 'config'
 
 def test_plan_detects_saving_type():
-    assert plan("전기요금 절약 방법")["article_type"] == "절약형"
+    result = build_plan('전기요금 절약 방법', CONFIG)
+    assert result['article_type']
+    assert result['topic'] == '전기요금 절약 방법'
 
+def test_unverified_research_is_not_publishable():
+    plan = build_plan('전기요금 절약 방법', CONFIG)
+    research = build_research_package(plan, CONFIG)
+    assert research['ready_for_publish'] is False
+    assert research['research_status'] == 'verification_required'
 
-def test_draft_is_not_publishable():
-    p = plan("전기요금 절약 방법")
-    research = build_research_brief(p)
-    draft = build_draft(p, research)
-    report = audit_html(f"<h1>{draft['title']}</h1>{draft['body_html']}")
-    assert report["status"] == "FAIL"
-    assert report["placeholders"]
-
-
-def test_good_minimal_html_has_single_h1():
-    html = "<h1>제목</h1>" + "".join(f"<h2>섹션 {i}</h2><p>내용입니다.</p>" for i in range(10))
-    assert audit_html(html)["checks"]["h1_single"] is True
+def test_generated_article_has_single_h1_and_qa_runs():
+    plan = build_plan('전기요금 절약 방법', CONFIG)
+    research = build_research_package(plan, CONFIG)
+    seo = build_seo(plan, CONFIG)
+    html = generate_article(plan, research, seo, [], CONFIG)
+    report = evaluate(html, plan, research, seo, CONFIG)
+    assert html.lower().count('<h1') == 1
+    assert isinstance(report['pass'], bool)

@@ -1,12 +1,12 @@
 {
   "project": "Savingio Factory",
-  "version": "2.045",
+  "version": "2.046",
   "publisher_id": "pub-7605193583747751",
   "official_adsense_client": "ca-pub-7605193583747751",
   "doctor": "PASS",
   "publisher_lock": "PASS",
   "deployment_integrity": "PASS",
-  "file_count": 1033,
+  "file_count": 1008,
   "excluded": [
     ".DS_Store",
     ".git",
@@ -55,36 +55,6 @@
       "path": "1-Part007-#Uc801#Uc6a9.bat",
       "size": 89,
       "sha256": "7cdd89e8edbd965a8b0cc39352a9e809b62a035c4e448112d43da611a8b0743e"
-    },
-    {
-      "path": "1-Part007-적용.bat",
-      "size": 89,
-      "sha256": "7cdd89e8edbd965a8b0cc39352a9e809b62a035c4e448112d43da611a8b0743e"
-    },
-    {
-      "path": "1-신규글10개-확인.bat",
-      "size": 94,
-      "sha256": "c5be92ee25aea97532fce8dbc9cd248e29bc931fbabdbecad79987f8e7a9bec4"
-    },
-    {
-      "path": "1-업데이트-적용.bat",
-      "size": 95,
-      "sha256": "73b4cd9bcd7bda0d9a41ede8d7d1b7fe1ad338b2e65aeeb1156839132ed8ea8a"
-    },
-    {
-      "path": "1-영문콘텐츠-한국어수정.bat",
-      "size": 100,
-      "sha256": "59a12c991eceabb10c2e61b7d87e9eba193d1df4c0b52683816572f59563826b"
-    },
-    {
-      "path": "1-최종목록복구-실행.bat",
-      "size": 97,
-      "sha256": "9a67389ef260b7c241d413ed5391016373674f70104cbcb2173de1f3518163f5"
-    },
-    {
-      "path": "1-한국어검색패치-실행.bat",
-      "size": 95,
-      "sha256": "f4011cae7f04eab4f16f42fc0a969615f61bf8ce276f031d029cbca61a33db54"
     },
     {
       "path": "404.html",
@@ -302,17 +272,7 @@
       "sha256": "3901de76f5b7baeb81fd0da08fba9ba93eb8416acb0badd844ee464b915c7408"
     },
     {
-      "path": "PART010-검증결과.txt",
-      "size": 486,
-      "sha256": "3901de76f5b7baeb81fd0da08fba9ba93eb8416acb0badd844ee464b915c7408"
-    },
-    {
       "path": "PART011-#Uac80#Uc99d#Uacb0#Uacfc.txt",
-      "size": 1921,
-      "sha256": "bdb013bc28c514f6008f39ea3aeac533a147950db032d5bf3a2d9da12a167059"
-    },
-    {
-      "path": "PART011-검증결과.txt",
       "size": 1921,
       "sha256": "bdb013bc28c514f6008f39ea3aeac533a147950db032d5bf3a2d9da12a167059"
     },
@@ -332,17 +292,7 @@
       "sha256": "dc46753015669186a38b5a015f83041b45721abb16d1363de17285f69753832b"
     },
     {
-      "path": "PART014-검증결과.txt",
-      "size": 227,
-      "sha256": "dc46753015669186a38b5a015f83041b45721abb16d1363de17285f69753832b"
-    },
-    {
       "path": "PART015-#Uac80#Uc99d#Uacb0#Uacfc.txt",
-      "size": 469,
-      "sha256": "7261a8fe27785d7cd9cb9b91cd16fa679e6bf9e6175109e10d50ae5937b49f0f"
-    },
-    {
-      "path": "PART015-검증결과.txt",
       "size": 469,
       "sha256": "7261a8fe27785d7cd9cb9b91cd16fa679e6bf9e6175109e10d50ae5937b49f0f"
     },
@@ -352,17 +302,7 @@
       "sha256": "fd42d4f622384d6eb63ac6263fbca2f916237b2ff843f010b8183e20efe46be7"
     },
     {
-      "path": "PART016-검증결과.txt",
-      "size": 599,
-      "sha256": "fd42d4f622384d6eb63ac6263fbca2f916237b2ff843f010b8183e20efe46be7"
-    },
-    {
       "path": "PART017-#Uac80#Uc99d#Uacb0#Uacfc.txt",
-      "size": 1694,
-      "sha256": "0f59c3a496e002bc0495fa53d5d22b3a3fd2d5861310ebc3059108ebdda8951e"
-    },
-    {
-      "path": "PART017-검증결과.txt",
       "size": 1694,
       "sha256": "0f59c3a496e002bc0495fa53d5d22b3a3fd2d5861310ebc3059108ebdda8951e"
     },
@@ -372,17 +312,7 @@
       "sha256": "0afe6b05250b72d2062aee5ab9afd9aabd6d60d5d6996d2b132053aabd0adc00"
     },
     {
-      "path": "PART018-검증결과.txt",
-      "size": 706,
-      "sha256": "0afe6b05250b72d2062aee5ab9afd9aabd6d60d5d6996d2b132053aabd0adc00"
-    },
-    {
       "path": "PART020-#Uac80#Uc99d#Uacb0#Uacfc.txt",
-      "size": 246,
-      "sha256": "b2c28cae54aa4c976a776d21e4ff069a8f990279a5f49956f69b9ede6cbb5424"
-    },
-    {
-      "path": "PART020-검증결과.txt",
       "size": 246,
       "sha256": "b2c28cae54aa4c976a776d21e4ff069a8f990279a5f49956f69b9ede6cbb5424"
     },
@@ -392,17 +322,7 @@
       "sha256": "c9dbfdc5919c4c26e0f90047a140a1f908c4cf3758d43d380b7b288f3f588710"
     },
     {
-      "path": "PART021-검증결과.txt",
-      "size": 357,
-      "sha256": "c9dbfdc5919c4c26e0f90047a140a1f908c4cf3758d43d380b7b288f3f588710"
-    },
-    {
       "path": "PART022-#Uac80#Uc99d#Uacb0#Uacfc.txt",
-      "size": 539,
-      "sha256": "0e379c6c653d606ad5a220fd8ed57722c199dd56f501319f357cf48a67c6337a"
-    },
-    {
-      "path": "PART022-검증결과.txt",
       "size": 539,
       "sha256": "0e379c6c653d606ad5a220fd8ed57722c199dd56f501319f357cf48a67c6337a"
     },
@@ -412,17 +332,7 @@
       "sha256": "6ac52fe885f9fcbb7c4732953dd3f2d994bd0ae23ed961f8bb2c705e82d4917a"
     },
     {
-      "path": "PART023-검증결과.txt",
-      "size": 547,
-      "sha256": "6ac52fe885f9fcbb7c4732953dd3f2d994bd0ae23ed961f8bb2c705e82d4917a"
-    },
-    {
       "path": "PART024-#Uac80#Uc99d#Uacb0#Uacfc.txt",
-      "size": 1265,
-      "sha256": "ef1e441a0f0d1f9db35ff6cfe164f28a05762080bce06f60fc32a77fcf602a48"
-    },
-    {
-      "path": "PART024-검증결과.txt",
       "size": 1265,
       "sha256": "ef1e441a0f0d1f9db35ff6cfe164f28a05762080bce06f60fc32a77fcf602a48"
     },
@@ -432,17 +342,7 @@
       "sha256": "2f0667ba95c1eb0f8b213665d89b4e80fc9528073825cd0e4665b6c95734854c"
     },
     {
-      "path": "PART026-검증결과.txt",
-      "size": 526,
-      "sha256": "2f0667ba95c1eb0f8b213665d89b4e80fc9528073825cd0e4665b6c95734854c"
-    },
-    {
       "path": "PART027-#Uac80#Uc99d#Uacb0#Uacfc.txt",
-      "size": 426,
-      "sha256": "35a5004917b13c8bb0509ca0659344a9ba86598abadc582b4beca6263832fdde"
-    },
-    {
-      "path": "PART027-검증결과.txt",
       "size": 426,
       "sha256": "35a5004917b13c8bb0509ca0659344a9ba86598abadc582b4beca6263832fdde"
     },
@@ -452,17 +352,7 @@
       "sha256": "8d6754df8ee0280cd03ab769940b0d97a3cec9e934b136561194b33e570c011c"
     },
     {
-      "path": "PART029-검증결과.txt",
-      "size": 388,
-      "sha256": "8d6754df8ee0280cd03ab769940b0d97a3cec9e934b136561194b33e570c011c"
-    },
-    {
       "path": "PART033-#Uac80#Uc99d#Uacb0#Uacfc.txt",
-      "size": 503,
-      "sha256": "4477d71e689fd023b744e55d0923529b0400b65b1cf7e0eb41bdebaa4f74bac1"
-    },
-    {
-      "path": "PART033-검증결과.txt",
       "size": 503,
       "sha256": "4477d71e689fd023b744e55d0923529b0400b65b1cf7e0eb41bdebaa4f74bac1"
     },
@@ -472,17 +362,7 @@
       "sha256": "235d7b1f9b854c3beb082cac9ba359f159150bf78976dd686b5f59fb50f4d4f0"
     },
     {
-      "path": "PART034-검증결과.txt",
-      "size": 564,
-      "sha256": "235d7b1f9b854c3beb082cac9ba359f159150bf78976dd686b5f59fb50f4d4f0"
-    },
-    {
       "path": "PART035-#Uac80#Uc99d#Uacb0#Uacfc.txt",
-      "size": 565,
-      "sha256": "d03eb5f2d89aa81cc53fc951cb0781c8d49b8c8f0d1f51501c8e3564fdd581d4"
-    },
-    {
-      "path": "PART035-검증결과.txt",
       "size": 565,
       "sha256": "d03eb5f2d89aa81cc53fc951cb0781c8d49b8c8f0d1f51501c8e3564fdd581d4"
     },
@@ -492,17 +372,7 @@
       "sha256": "fea0a2d3618a6c0b48c5b5292b28dd486edaca01cf494d492ab5ef0c9c232068"
     },
     {
-      "path": "PART036-검증결과.txt",
-      "size": 764,
-      "sha256": "fea0a2d3618a6c0b48c5b5292b28dd486edaca01cf494d492ab5ef0c9c232068"
-    },
-    {
       "path": "PART037-#Uac80#Uc99d#Uacb0#Uacfc.txt",
-      "size": 691,
-      "sha256": "932aa7dd629db2a2dd5efa383864f0b8d5e3f1fb52eec7fa566930d512b8275e"
-    },
-    {
-      "path": "PART037-검증결과.txt",
       "size": 691,
       "sha256": "932aa7dd629db2a2dd5efa383864f0b8d5e3f1fb52eec7fa566930d512b8275e"
     },
@@ -512,17 +382,7 @@
       "sha256": "014178b70cb3df745acfd46fe2f7ec6455e4aab8efaccebe4fd0ce2ac9c03de7"
     },
     {
-      "path": "PART038-검증결과.txt",
-      "size": 7821,
-      "sha256": "014178b70cb3df745acfd46fe2f7ec6455e4aab8efaccebe4fd0ce2ac9c03de7"
-    },
-    {
       "path": "PART040-#Uac80#Uc99d#Uacb0#Uacfc.txt",
-      "size": 517,
-      "sha256": "9b7500a4356f518d5a932bf15718df0eb88cb449c8a986c1d700e7d2b656350e"
-    },
-    {
-      "path": "PART040-검증결과.txt",
       "size": 517,
       "sha256": "9b7500a4356f518d5a932bf15718df0eb88cb449c8a986c1d700e7d2b656350e"
     },
@@ -532,17 +392,7 @@
       "sha256": "6fe965bd1ac5422847fd262a534bce7979d5541e838fa2114102a2d47abb5ad2"
     },
     {
-      "path": "PART042-검증결과.txt",
-      "size": 401,
-      "sha256": "6fe965bd1ac5422847fd262a534bce7979d5541e838fa2114102a2d47abb5ad2"
-    },
-    {
       "path": "PART043-#Uac80#Uc99d#Uacb0#Uacfc.txt",
-      "size": 509,
-      "sha256": "759a83c86ed2bac0763fb0ded64a520371a76dd1c08f92967007387a5e49d42f"
-    },
-    {
-      "path": "PART043-검증결과.txt",
       "size": 509,
       "sha256": "759a83c86ed2bac0763fb0ded64a520371a76dd1c08f92967007387a5e49d42f"
     },
@@ -552,27 +402,12 @@
       "sha256": "0bf47bfc8b2f507e52221520126aca31f0c29ac26b9ce334a15e954e377a88d3"
     },
     {
-      "path": "PART044-검증결과.txt",
-      "size": 481,
-      "sha256": "0bf47bfc8b2f507e52221520126aca31f0c29ac26b9ce334a15e954e377a88d3"
-    },
-    {
       "path": "PART045-#Uac80#Uc99d#Uacb0#Uacfc.txt",
       "size": 666,
       "sha256": "8057857c461d9841a72ea319460bf6383cd6de2ee55c7bae82efb92604959b0a"
     },
     {
-      "path": "PART045-검증결과.txt",
-      "size": 666,
-      "sha256": "8057857c461d9841a72ea319460bf6383cd6de2ee55c7bae82efb92604959b0a"
-    },
-    {
       "path": "PART046-#Uac80#Uc99d#Uacb0#Uacfc.txt",
-      "size": 807,
-      "sha256": "a8e231ef1a8169d9000ca042172e057a1cb65c36f6fd094711ae473b8a595cb4"
-    },
-    {
-      "path": "PART046-검증결과.txt",
       "size": 807,
       "sha256": "a8e231ef1a8169d9000ca042172e057a1cb65c36f6fd094711ae473b8a595cb4"
     },
@@ -702,11 +537,6 @@
       "sha256": "4ee3e6fdd673fa8cb136affb3616540761540db1b0bc63bdf6e6715d4f818a13"
     },
     {
-      "path": "README-먼저읽기.txt",
-      "size": 445,
-      "sha256": "4ee3e6fdd673fa8cb136affb3616540761540db1b0bc63bdf6e6715d4f818a13"
-    },
-    {
       "path": "README.md",
       "size": 10,
       "sha256": "9caa52bf6643903adf145ba37cf3e49af787cc41611ac37b31a052158f26536b"
@@ -787,7 +617,7 @@
       "sha256": "0421669c26223b758cccf1820b3215bb1e730fbd9b61ff698bc06a16b2c1d745"
     },
     {
-      "path": "Savingio-자동배포.bat",
+      "path": "Savingio-#Uc790#Ub3d9#Ubc30#Ud3ec.bat",
       "size": 512,
       "sha256": "91f51d386ede0dfab966e96e91c5d3d087b5cfa03a60c116b26a90048ff4a0e7"
     },
@@ -799,7 +629,7 @@
     {
       "path": "VERSION.json",
       "size": 227,
-      "sha256": "901540dc8c83872abdffd08f50c59ccb1ffc2456a872a4debb9c00388f6a4fe0"
+      "sha256": "1bfb3ec2a15333622b43044c911d9908107e3efd793c47decd9d8c9c99a25258"
     },
     {
       "path": "_headers",
@@ -1922,11 +1752,6 @@
       "sha256": "1301727b4bbf0c2d898d146de0d470683d35d6ece4b61872ee67b156ec8ce26a"
     },
     {
-      "path": "articles/전기요금-절약-c861d77ba6.html",
-      "size": 6804,
-      "sha256": "e3b29f560056e03e995ff81804fa4c31c1f5d489c6184b0dc2380ac03b81c0b8"
-    },
-    {
       "path": "automatic-payment-saving.html",
       "size": 1560,
       "sha256": "fdc7c314a9bd1e58f7ba1a6ff106b667f03debca8f99f1ff6f2195ab9633a0a2"
@@ -1997,6 +1822,11 @@
       "sha256": "314c54a7b23d01dc7aceb3ae2f73f66bb345fe762737a8a675db5941b19a5009"
     },
     {
+      "path": "calculators/electricity-cost.html",
+      "size": 4197,
+      "sha256": "9f572b2820d53afb480ff143a781429d3e7f20f8ab0c5d5f49f149cd5f9709ca"
+    },
+    {
       "path": "calculators/electricity.html",
       "size": 4061,
       "sha256": "6508dbac0b03b4642ba4adbebb99aa9ae3617a89dfd5d68a1f5b924da7756be9"
@@ -2012,6 +1842,11 @@
       "sha256": "b7ab76350cb118e3441fb1a2abcee5a3512f0b53c7c6549643909ee4de714853"
     },
     {
+      "path": "calculators/hourly-to-monthly.html",
+      "size": 4144,
+      "sha256": "d0aa696a54a4ebb4e3d54c10b4fcf3d3b691e1db46abf5499928a3749ff4dbaf"
+    },
+    {
       "path": "calculators/hourly.html",
       "size": 1457,
       "sha256": "26dd016b3a1797d2c398ddc25797cde1496685de9b0a7fb1d09e1bad2abda92b"
@@ -2025,6 +1860,11 @@
       "path": "calculators/leave.html",
       "size": 1459,
       "sha256": "acaf5d3b1b8ea7a68dc8d647006fff4f3dc246763a8c7bf54d5169fccc665776"
+    },
+    {
+      "path": "calculators/loan-payment.html",
+      "size": 4230,
+      "sha256": "38c5998de46ca39c4745962c05f6c3e05d1cb9041eed73ed79d590d522d4a68f"
     },
     {
       "path": "calculators/loan.html",
@@ -2047,9 +1887,19 @@
       "sha256": "7dbc65eb960de0721e6b0bc67f736d8d332888d8d3de0e44644a12cb87924c82"
     },
     {
+      "path": "calculators/salary-net-pay.html",
+      "size": 4659,
+      "sha256": "4756e724d04dec7907b1207c9513af9bdcba3f56b13026e6d561ba6360abb0bd"
+    },
+    {
       "path": "calculators/salary.html",
       "size": 2880,
       "sha256": "81811b787ea054824ee2d642c5ab201b96ee5fd4b559177871af24a611e92890"
+    },
+    {
+      "path": "calculators/severance-pay.html",
+      "size": 3912,
+      "sha256": "f1e37a794e42e95914902f282858690ed0a03309c7350c0cf4d8eb643d0f962d"
     },
     {
       "path": "calculators/severance.html",
@@ -2063,8 +1913,8 @@
     },
     {
       "path": "calculators/vat.html",
-      "size": 2874,
-      "sha256": "928d9de834d248fecd74c54ee1fa4f2c818645eddaa895dd2d6497bf43aab3f2"
+      "size": 4140,
+      "sha256": "d0a206d5cef000328f523c55184ca4614a68df56462896238dfd0af1ba2bb933"
     },
     {
       "path": "calculators/weekly-pay.html",
@@ -2175,6 +2025,11 @@
       "path": "css/calculator-drawer.css",
       "size": 5677,
       "sha256": "d15779b5e32de7dfaed073ecbaa33f25445fb4ed6cdd2da7abae8c9d0cd63174"
+    },
+    {
+      "path": "css/calculator-generation-v2046.css",
+      "size": 2166,
+      "sha256": "8ce8c130a6606410aba8dbe64da2b2130ee02645676a9583e843732d48f8b507"
     },
     {
       "path": "css/calculator-v2.css",
@@ -2303,8 +2158,8 @@
     },
     {
       "path": "factory/MASTER_PROGRESS.json",
-      "size": 5684,
-      "sha256": "fcc3a667569557d68467da509d52f3ad605cf54115cf03b5b54446b083c89efa"
+      "size": 6007,
+      "sha256": "93b7fa5b43cbf7ad8cda70240d7ade1eedf5a37fb3fdbf4d4e11464410285f90"
     },
     {
       "path": "factory/MASTER_ROADMAP_V2_021.md",
@@ -2430,6 +2285,11 @@
       "path": "factory/MASTER_ROADMAP_V2_045.json",
       "size": 930,
       "sha256": "e9d1557bf3fc23df0308c31c4ed87c4bd898ce539e26990bbb52efa2ac602f04"
+    },
+    {
+      "path": "factory/MASTER_ROADMAP_V2_046.json",
+      "size": 494,
+      "sha256": "b283af349cffae9e128d211d15321a97475545778b358473bce41e431b7a4f72"
     },
     {
       "path": "factory/QA_CHECKLIST.md",
@@ -2602,6 +2462,11 @@
       "sha256": "9a8cd04235aca05dd0a2609b093c22123a6bef931572e69e996ba458129e9866"
     },
     {
+      "path": "factory/QA_V2_046.json",
+      "size": 266,
+      "sha256": "090bf9de35158fe71ced854a293673c57d66c84654e892b82ad22a16f237a24a"
+    },
+    {
       "path": "factory/README.md",
       "size": 783,
       "sha256": "749fd1a90fa832b0ba2d14efc2cefda6ebdea91ff7c310e39690486b3a6ead6a"
@@ -2704,7 +2569,7 @@
     {
       "path": "factory/auto_release.py",
       "size": 9761,
-      "sha256": "226ff906839050697f0e2ec326bc40d2324afb15e00f72cb85f5ab44f173c971"
+      "sha256": "3a19e041a7fc087f257844cad0a1c8a282c7431bb088ebc4019ebeaa025eca12"
     },
     {
       "path": "factory/auto_rework_engine.py",
@@ -2742,14 +2607,19 @@
       "sha256": "268819af6b7e3e13d5e9d8c6c88cf3cc18e8d20c5e47fc797d613769a439f453"
     },
     {
+      "path": "factory/calculator_generation_engine.py",
+      "size": 10333,
+      "sha256": "f279db889a5f7ed16a9672167e69957684ca1cdff4970a5cedd68945c6a1e44d"
+    },
+    {
       "path": "factory/calculator_generation_request.py",
       "size": 1801,
       "sha256": "2e44b1de7771c0223d86952837f9cc7a422651e31401a7d7eb26cea756a0805b"
     },
     {
       "path": "factory/calculator_hq.py",
-      "size": 1470,
-      "sha256": "f3c40256f1b17cb7408f9d3a1ed1016936d0c4c496c2f7d170d300b486aab7a9"
+      "size": 1798,
+      "sha256": "39ddedab6c09dc5b578c0ef261c0af919af52837b5e5abbaf6f34f6fcaa255bc"
     },
     {
       "path": "factory/calculator_intent_engine.py",
@@ -2758,8 +2628,8 @@
     },
     {
       "path": "factory/calculator_matcher.py",
-      "size": 901,
-      "sha256": "c0983f94e97827fdd533cdc0b3319c40c3f12528bee0f09a899c897386f3af4a"
+      "size": 942,
+      "sha256": "acc1869bed391e8bd433550cdb63e380f138bdb4a9ccf17196439fc71916448a"
     },
     {
       "path": "factory/calculator_qa.py",
@@ -2867,14 +2737,19 @@
       "sha256": "5359bf40aea062a02f38c1046c020b1deedd3c622827a1b223354b5da1dbd111"
     },
     {
+      "path": "factory/config/calculator_formula_dna.json",
+      "size": 8426,
+      "sha256": "383721d6da300b657546df3427ff7a19f1bff6cfad64c92262bb1265ac822343"
+    },
+    {
       "path": "factory/config/calculator_hq_rules.json",
       "size": 335,
       "sha256": "fa3b8a481bb6c611cf4bc99bd60cb7d05ed0d0564e72a413d3843f73579acdd6"
     },
     {
       "path": "factory/config/calculator_registry.json",
-      "size": 5149,
-      "sha256": "76fbb1330ee6628b67179abbcba58b4389d9f893b5fb1073b38d3f88424d0132"
+      "size": 5470,
+      "sha256": "129c1c550f5c2e0e04cccc9af7a677e89f261c8c0c5007820788ec101fd3aa72"
     },
     {
       "path": "factory/config/department_board.json",
@@ -3232,16 +3107,6 @@
       "sha256": "dd16bfc360b33da06bb2dadaf18611a199b138b6bb9e6799a00eaacfd66bf7d0"
     },
     {
-      "path": "factory/history/관리비-절약-8e9b7c5b.json",
-      "size": 6730,
-      "sha256": "12bd70fda7e84f577b070512663f2fe86891b8eac3d142c5dd9df64e70d0c718"
-    },
-    {
-      "path": "factory/history/전기요금-절약-c861d77b.json",
-      "size": 12661,
-      "sha256": "520fb30f2c34ae9bb99ddbe0843ad5b354b88eee573a349935652ac0ddc727a2"
-    },
-    {
       "path": "factory/history.py",
       "size": 820,
       "sha256": "338072e2c9c7666797dd369873354194647d1c298bb55c060fd0dce0d31c439d"
@@ -3404,32 +3269,32 @@
     {
       "path": "factory/output/MASTER_CHECKLIST.json",
       "size": 1334,
-      "sha256": "cd87dfd3583ff57195503dcf02f473b46a698859df7b5b495d420eea570ce698"
+      "sha256": "a1482267df9ff04fcc743f23a2f276da53e5de2a56e45faa9d2b7e510f7cadcc"
     },
     {
       "path": "factory/output/adsense/ads_txt_report.json",
       "size": 123,
-      "sha256": "182425da6c9f51eb91dc486273710ec406444a93fd0409eb94b9e826478b1657"
+      "sha256": "aa0bd3716b0db8cfacc60e5f78f924f36317d35207320b2c7d1e0a3b46e3d8af"
     },
     {
       "path": "factory/output/adsense/adsense_lock_report.json",
-      "size": 4140,
-      "sha256": "dbe6ae5f14c919ee9771034a658d40d43194d176af53e394d1641ebd14ca27f5"
+      "size": 4449,
+      "sha256": "a232bf42a8eef3e0a8046d7a6b166230a42b041fc12488db7bad57594c9bfe3b"
     },
     {
       "path": "factory/output/adsense/index_report.json",
       "size": 150,
-      "sha256": "f0d3793d0d043319d74284e592c96fd48bcc7edd16fca6e33c46a8cfc3862fa5"
+      "sha256": "1e1bf2d6cb0a0e8bdb55d8d073c9c4b06674e8b9176925777b9fa4d32a5d161e"
     },
     {
       "path": "factory/output/adsense/publisher_scan.json",
-      "size": 3280,
-      "sha256": "cc12a2f65e3ce3066c3ce7ed13acf9c222053cb730cc982e1cc7f2057e65c1f0"
+      "size": 3563,
+      "sha256": "86948da9d7557f0a3652d1422308774b27940d14ec39c0afefb6e06f909cbd68"
     },
     {
       "path": "factory/output/adsense/repair_report.json",
       "size": 86,
-      "sha256": "2911e518f55681f5082b17f9e1d95ff6d3c78fbece83bd4018c10331ae4c3af0"
+      "sha256": "1a13095cf5938943257c2b472beb1100e09e4bd86cbaf206c85a061496ec702b"
     },
     {
       "path": "factory/output/adsense_audit.json",
@@ -3537,6 +3402,11 @@
       "sha256": "97225975fe8b978e33e0720437fe05e979b26f951bc97935f9d97c4451413a29"
     },
     {
+      "path": "factory/output/calculator/electricity-cost-generation.json",
+      "size": 237,
+      "sha256": "77edc4adbae00017aa9f515626072dad0ef130e24fff401977832eae148615d1"
+    },
+    {
       "path": "factory/output/calculator/electricity-guide-hq-report.json",
       "size": 2268,
       "sha256": "567560019d2b5556415b44dd0bb10270a3a6e85d36416ea03b7257b23f1e0f5c"
@@ -3552,9 +3422,34 @@
       "sha256": "3df5fd8449101d1918925abe793a311dc35ce29ea81eda5cc9fe98f741e25e80"
     },
     {
+      "path": "factory/output/calculator/hourly-to-monthly-generation.json",
+      "size": 240,
+      "sha256": "6d35f86a7bc1d89aaeed40df0bbc6465d41c0d95ca7058904bec3686d246e952"
+    },
+    {
+      "path": "factory/output/calculator/loan-payment-generation.json",
+      "size": 225,
+      "sha256": "617465cd0261cd921fe1fec204fb8403ad07a75a4e08713e417ab41e11701dac"
+    },
+    {
       "path": "factory/output/calculator/requests/d52c877d2d724ec2af363339676fc8c7.json",
       "size": 492,
       "sha256": "5fe4e4fd949f892585c9a8a7f5d4e86855391d317f6f01e45fdc8f3067c88526"
+    },
+    {
+      "path": "factory/output/calculator/salary-net-pay-generation.json",
+      "size": 231,
+      "sha256": "e66bd7e110d5a8b2f519aeabc2bbc0414350c9c832ce8392a9488bea43d6a608"
+    },
+    {
+      "path": "factory/output/calculator/severance-pay-generation.json",
+      "size": 228,
+      "sha256": "c8cadaf21b83926c66f4696621be7d763381267403cb2c76e153accc43d27e08"
+    },
+    {
+      "path": "factory/output/calculator/vat-generation.json",
+      "size": 198,
+      "sha256": "fa195614a430cd01c651bb282b226e10cd72820560e2188160175178cb667742"
     },
     {
       "path": "factory/output/cloudflare_verify_report.json",
@@ -3572,11 +3467,6 @@
       "sha256": "4d15a672cf9366ada62d7f2dcceafa965a7ebdae03e70bb89c27c6913f871da8"
     },
     {
-      "path": "factory/output/commit-전기요금-절약-c861d77b.cmd",
-      "size": 624,
-      "sha256": "4d15a672cf9366ada62d7f2dcceafa965a7ebdae03e70bb89c27c6913f871da8"
-    },
-    {
       "path": "factory/output/connector_verification_history.json",
       "size": 655,
       "sha256": "c829db74839dfd38d9231d76a667da74d2c1c5be9153418957e15942d035f49e"
@@ -3589,7 +3479,7 @@
     {
       "path": "factory/output/credential_checklist.json",
       "size": 2002,
-      "sha256": "631275d006ba0cb6e6d12318f97a41fd4e774cab3596f55ae4c1ae5d4b219000"
+      "sha256": "bc6d923fa7f84451b53ed77ab0ae0e17b5e029ce8c4d61061929500a14e996a4"
     },
     {
       "path": "factory/output/cycle_dashboard.json",
@@ -3603,8 +3493,8 @@
     },
     {
       "path": "factory/output/deployment_integrity_report.json",
-      "size": 25496,
-      "sha256": "8addfbf74361062b2d24824f55d83bc9237fab7d34a1a4f6a1ae01c5d69e17ab"
+      "size": 25831,
+      "sha256": "dee5760a2f6e2dcb0e098cb2e72be97c9396e7a124e9d429c955d676130f4f23"
     },
     {
       "path": "factory/output/deployment_log.json",
@@ -3615,6 +3505,11 @@
       "path": "factory/output/deployment_report_v2_044.json",
       "size": 41597,
       "sha256": "0ddf86e258ee771b124cb1d082465f44ada4818cecc0050e19f32a8c1d5923da"
+    },
+    {
+      "path": "factory/output/deployment_report_v2_045.json",
+      "size": 37693,
+      "sha256": "4947e476411c46cf8bd7e0f13afa864969a22dee267839e57be160c92802b092"
     },
     {
       "path": "factory/output/doctor.json",
@@ -3642,29 +3537,14 @@
       "sha256": "81f06d478b6916312c34d4fa046407787ef54e831867bbb1c980e1b53ffa26b0"
     },
     {
-      "path": "factory/output/drafts/관리비-절약-8e9b7c5b.html",
-      "size": 8946,
-      "sha256": "b8af71571d8c333bbe370b3d4a6bc2fc511029831a65d8f92cf0359223f05a33"
-    },
-    {
-      "path": "factory/output/drafts/전기요금-절약-c861d77b-factory.html",
-      "size": 9540,
-      "sha256": "b10390ba163c39174f3ad1c36ef6ac1487e7e8b11e03611c4f116b9b34803770"
-    },
-    {
-      "path": "factory/output/drafts/전기요금-절약-c861d77b.html",
-      "size": 9540,
-      "sha256": "81f06d478b6916312c34d4fa046407787ef54e831867bbb1c980e1b53ffa26b0"
-    },
-    {
       "path": "factory/output/duplicate_report.json",
       "size": 385,
       "sha256": "c53a3c87356497c7397cfdd5c2c26f415f9d86ebe2cefb34f8df4e1b3b590b0e"
     },
     {
       "path": "factory/output/eeat_audit.json",
-      "size": 93996,
-      "sha256": "72fd9d5722abbbb6037e1b81d7a7c2ad8f28d508dd40b6f19cc38ae1115d9393"
+      "size": 93479,
+      "sha256": "a9e4df9c187ac090a0882cbff62749ad8ebd0277cec1986b5be14f401b7b599d"
     },
     {
       "path": "factory/output/end_to_end_audit.json",
@@ -3683,8 +3563,8 @@
     },
     {
       "path": "factory/output/factory_cleaner_report.json",
-      "size": 9098,
-      "sha256": "989f0e1cf59cbb314538f28a22c646ee9fa6c2b05cd3dcfcfa2f3921582b5a97"
+      "size": 14539,
+      "sha256": "7b23ed141596ec8018a38bf64ac07c548ee6708c8f73f604eb9f43552334f31b"
     },
     {
       "path": "factory/output/factory_state.json",
@@ -3793,13 +3673,13 @@
     },
     {
       "path": "factory/output/indexability_audit.json",
-      "size": 101779,
-      "sha256": "16b42fd3d883aeec9092ef76ab9504222b3c1f6f8698d2f0417c00dfafede633"
+      "size": 101187,
+      "sha256": "ed30a1e62bd5f5dc48fffa2d99cc2d42fa645d7f1a58cb457d303176250777df"
     },
     {
       "path": "factory/output/integration_preflight.json",
       "size": 5447,
-      "sha256": "ac51f80bce15106fd8f7432306ad8210a40d34c94684d00174b902b86c3d10ca"
+      "sha256": "5c880eb04d76e9a3e0fb16716aab86b29598585e0d543339e9c4bf91d38fc28b"
     },
     {
       "path": "factory/output/link_graph.json",
@@ -3809,7 +3689,7 @@
     {
       "path": "factory/output/live_verification_plan.json",
       "size": 2768,
-      "sha256": "f954b9c3cff2d837ee533fd1652d2e9c82e5344b3cdb0fe9ac52339f199bb7cf"
+      "sha256": "b668c9426cdc83fc2178af8ff5c73c14240a233fe2f5935b885377e720e4cec4"
     },
     {
       "path": "factory/output/operation_board.json",
@@ -3853,8 +3733,8 @@
     },
     {
       "path": "factory/output/regression_manifest.json",
-      "size": 4720,
-      "sha256": "29a9b4b2467412545312a3a6995940ba437e2eabb486cec2ace1be01d9f127b9"
+      "size": 4912,
+      "sha256": "2e6e192f43f401d5f0ad78cb9003a0541833a572efbb25c10418ea25febcf111"
     },
     {
       "path": "factory/output/related_links.json",
@@ -3884,17 +3764,17 @@
     {
       "path": "factory/output/research/research_package.json",
       "size": 3556,
-      "sha256": "c8576a2e4018a15b442ffaec1cf1e0c9a2150563bcd8981f853ad5808e74a0ab"
+      "sha256": "5db08701b89ebf664d17b6997cd4682b57cbe10fe877b59bab038938718f19c6"
     },
     {
       "path": "factory/output/research/research_qa.json",
       "size": 1243,
-      "sha256": "9257880c1439b5f0a2b67565ab871df9d2253102af96a2349bfd5e067c560690"
+      "sha256": "9f03c0af965a70fe928adbed0a758926036a0f1c2af75a919d4c6c5aabefb447"
     },
     {
       "path": "factory/output/research/research_report.json",
       "size": 5330,
-      "sha256": "dc4044ac86839d378a2b3080e6ee1ad39a7adaac1b16a9f4969a4432b2ff8ff5"
+      "sha256": "cb2a5c8cba978153b681e10a287b5d35347052e9c6ccd304f84f223bca2a7e84"
     },
     {
       "path": "factory/output/research/search_evidence.json",
@@ -3904,7 +3784,7 @@
     {
       "path": "factory/output/research/source_registry_snapshot.json",
       "size": 3822,
-      "sha256": "1eb7be4ea7dffd3f693564d9bcd0d047778c3d98b3148cc4a3ebf65afced4b93"
+      "sha256": "7706f8ee1b1f41425056f00142f3103480204f9c849f3026cc89419729d75eab"
     },
     {
       "path": "factory/output/research/web_research_report.json",
@@ -3992,16 +3872,6 @@
       "sha256": "edcfeeed457f2e0297108f5754666295ec73e3436d916031f502495974d41100"
     },
     {
-      "path": "factory/output/staging/전기요금-절약-c861d77b/article.html",
-      "size": 9540,
-      "sha256": "b10390ba163c39174f3ad1c36ef6ac1487e7e8b11e03611c4f116b9b34803770"
-    },
-    {
-      "path": "factory/output/staging/전기요금-절약-c861d77b/manifest.json",
-      "size": 574,
-      "sha256": "edcfeeed457f2e0297108f5754666295ec73e3436d916031f502495974d41100"
-    },
-    {
       "path": "factory/output/supervisor_report.json",
       "size": 1862,
       "sha256": "450363a191e582a149c88841040a22a6c3f47b01e6f22d458e69e81495fe84bb"
@@ -4009,7 +3879,7 @@
     {
       "path": "factory/output/ui_lock_snapshot.json",
       "size": 208,
-      "sha256": "4bdde17d2c50394a452d8459a06166e15d202da22580e73366a36c2be055e00e"
+      "sha256": "d77a99c6a2f561605b218421db42a8e0c4f3e0213df9ddffc27df30372832381"
     },
     {
       "path": "factory/output/wordpress_publish_report.json",
@@ -4099,7 +3969,7 @@
     {
       "path": "factory/release_packager.py",
       "size": 5049,
-      "sha256": "4f2e7ed417c1c78931bae9bc85abd58ce617ed13752fc5e8cbc744675dc20bd4"
+      "sha256": "3b8b2a0e85c6e8b4deb5d07056771e9f1ef27e601b210d6f44f9ab3be9ef7c37"
     },
     {
       "path": "factory/renewal.py",
@@ -4208,8 +4078,8 @@
     },
     {
       "path": "factory/run.py",
-      "size": 31892,
-      "sha256": "b0a9bbdc0abe6b3612d9deb66ed1dd720bd61436ac8efaaa4fa00bb4a4ebb304"
+      "size": 32756,
+      "sha256": "531df163841bec0bb7e6516ee6b0fda4414d7c96040cad3fec19cddcf0193749"
     },
     {
       "path": "factory/runtime_config.py",
@@ -4817,6 +4687,11 @@
       "sha256": "db53f1fb4aa9b345cb3a63ca683d47aca5888871e9caa1dfefac70ab966488c1"
     },
     {
+      "path": "factory/tests/test_v2046.py",
+      "size": 1423,
+      "sha256": "ed81789eed4ace855d76df4dd58f21affb06c37d95e8afb72b37f5e0305bd43f"
+    },
+    {
       "path": "factory/utils.py",
       "size": 1393,
       "sha256": "f8fb7a77ef301895a3c2e0dc6d2b4afa99f9cfd4c1ea987522f85d323bcd4d17"
@@ -4888,8 +4763,8 @@
     },
     {
       "path": "factory_manifest.json",
-      "size": 168842,
-      "sha256": "ab8cedf8b1d4284b0eca150649f8ddf94f257d4172ca1e234a65b8b41ba77832"
+      "size": 177048,
+      "sha256": "ffef47a6d30ed06b4f42a3e17228e8961febb7544736b7d07e28489022e17de3"
     },
     {
       "path": "google4447f309208060c0.html",
@@ -5187,5 +5062,5 @@
       "sha256": "25bde7f93278d3c4032827aed33e8bdef86c0c315c63f84968a3ddc118094564"
     }
   ],
-  "created_at": "2026-07-14T15:50:18+00:00"
+  "created_at": "2026-07-14T16:02:11+00:00"
 }
