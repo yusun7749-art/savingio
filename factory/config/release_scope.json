@@ -1,15 +1,14 @@
 {
-  "version": "V2.052",
-  "commit_message": "V2.052 remove Python deprecation warnings and add Doctor gate",
+  "version": "V2.053",
+  "commit_message": "V2.053 single START Factory release center",
   "files": [
-    "factory/department_board.py",
-    "factory/deprecated_api_scan.py",
-    "factory/doctor.py",
-    "factory/tests/test_v2052.py",
+    "00-START-FACTORY.bat",
+    "factory/start_factory.py",
+    "factory/tests/test_v2053.py",
     "factory/config/release_scope.json",
-    "FACTORY-RELEASE-V2.052.bat",
-    "factory/QA_V2_052.json",
-    "V2.052-RELEASE-NOTE.md",
+    "factory/QA_V2_053.json",
+    "factory/MASTER_ROADMAP_V2_053.json",
+    "V2.053-RELEASE-NOTE.md",
     "VERSION.json"
   ]
 }
