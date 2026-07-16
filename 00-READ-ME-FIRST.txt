@@ -1,0 +1,7 @@
+Savingio Factory V2.054
+
+1. ZIP contents overwrite into the current savingio-live folder.
+2. Run 01-FACTORY-BRAIN-V2.054.bat to enter one article topic.
+3. After the Factory Brain completes, run the existing 00-START-FACTORY.bat to release the scoped files.
+
+Publisher ID remains pub-7605193583747751.

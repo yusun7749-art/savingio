@@ -6,6 +6,7 @@ def build_plan(topic: str, config_dir: Path) -> dict:
     if not topic: raise ValueError('주제가 비어 있습니다.')
     types=load_json(config_dir/'article_types.json')
     dna=load_json(config_dir/'article_dna.json')
+    brand=load_json(config_dir/'brand_dna.json') if (config_dir/'brand_dna.json').is_file() else {}
     low=topic.lower(); matches=[]
     for name,cfg in types['types'].items():
         hits=[k for k in cfg.get('keywords',[]) if k.lower() in low]
@@ -23,5 +24,7 @@ def build_plan(topic: str, config_dir: Path) -> dict:
       'search_intent':cfg['search_intent'],'audience':cfg['audience'],
       'required_sections':dna['required_sections'],'target_chars':dna['target_chars'],
       'research_questions':questions,'matched_keywords':matches[0][2] if matches else [],
-      'risk_level':cfg.get('risk_level','medium'),'created_at':now_iso(),'status':'planned'
+      'risk_level':cfg.get('risk_level','medium'),'brand_headline':brand.get('headline',''),
+      'article_flow':brand.get('article_flow',[]),'language_rules':brand.get('language_rules',{}),
+      'created_at':now_iso(),'status':'planned'
     }

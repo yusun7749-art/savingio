@@ -1,0 +1,13 @@
+{
+  "version": "V2.055",
+  "status": "PASS",
+  "pytest": "199 passed, 0 failed",
+  "focused_tests": "7 passed",
+  "publisher_id": "pub-7605193583747751",
+  "features": [
+    "batch scheduler",
+    "resume checkpoint",
+    "blocked topic tracking",
+    "20-topic default batch"
+  ]
+}

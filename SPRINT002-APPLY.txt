@@ -1,0 +1,5 @@
+Savingio Factory Sprint002 - Planning HQ
+
+적용: ZIP 내용을 기존 savingio-live 폴더에 그대로 덮어쓰기
+실행: 이번 패치는 단독 실행하지 않음
+추가: 기획본부 계획 파일과 조사본부 전달 큐 생성 엔진

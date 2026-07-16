@@ -1,0 +1,9 @@
+V3.001 Content / Release Separation
+
+PASS: full regression 208 passed / 0 failed
+PASS: actual one-topic content generation completed
+PASS: visible progress 1/8 through 8/8
+PASS: content generation skipped project-wide Publisher scan
+PASS: content generation skipped Git and deployment verification
+PASS: stable launcher remains 00-START-FACTORY.bat
+Publisher ID was not changed.

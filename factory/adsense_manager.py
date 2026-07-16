@@ -15,8 +15,17 @@ def load_identity(project_root:Path)->dict:
 
 def _files(root:Path):
     ignored={".git","__pycache__",".pytest_cache","node_modules"}
+    ignored_prefixes={("factory","tests"),("factory","output","adsense"),("factory","backups","adsense-lock")}
     for p in root.rglob("*"):
-        if p.is_file() and not any(part in ignored for part in p.parts) and (p.suffix.lower() in TEXT_SUFFIXES or p.name in {"ads.txt",".env"}):
+        if not p.is_file() or any(part in ignored for part in p.parts):
+            continue
+        try:
+            rel_parts=p.relative_to(root).parts
+        except ValueError:
+            continue
+        if any(rel_parts[:len(prefix)]==prefix for prefix in ignored_prefixes):
+            continue
+        if p.suffix.lower() in TEXT_SUFFIXES or p.name in {"ads.txt",".env"}:
             yield p
 
 def scan_publisher_ids(root:Path)->dict:

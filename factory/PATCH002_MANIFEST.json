@@ -1,0 +1,7 @@
+{
+  "version": "patch002",
+  "implemented": [
+    "factory_manifest"
+  ],
+  "note": "Tracks factory patch history."
+}

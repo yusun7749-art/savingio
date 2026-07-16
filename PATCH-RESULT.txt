@@ -1,0 +1,16 @@
+실제 확인 결과
+1. 사용자가 본 factory-output\drafts는 레거시 폴더이며 비어 있습니다.
+2. 실제 Factory 초안 폴더는 factory\output\drafts이며 업로드 ZIP 안에 45개 초안이 있습니다.
+3. 글이 사이트에 올라가지 않은 직접 원인은 publish 요청 시 공식 근거 점수가 부족하면 cms.py가 예외를 발생시켜 배치 전체를 중단했기 때문입니다.
+4. 수정 후에는 초안을 항상 보존하고, QA와 공식 근거를 모두 통과한 글만 articles에 발행합니다.
+5. 10-생활돈주제-글생성-자동배포.bat를 실제로 포함했습니다.
+6. BAT 파일은 start/explorer/browser 명령을 사용하지 않으므로 새 창을 열지 않습니다.
+
+검증
+- Python compile PASS
+- 단일 주제 생성 PASS
+- QA 100 PASS
+- 초안 저장 PASS
+- Publisher LOCK PASS
+- Deployment Integrity PASS
+- 공식 근거 미충족 시 안전하게 검토 대기 처리 PASS

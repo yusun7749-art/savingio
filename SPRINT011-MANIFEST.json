@@ -1,0 +1,54 @@
+{
+  "patch": "Savingio-Factory-SPRINT011-CORE-AUTO-CHAIN-REAL-PATCH.zip",
+  "master_source": "savingio-live (5).zip",
+  "master_sha256": "ac37fa11a98ebc9636e556cdd702b31864d61f74e779add12a4bf2d669c060f6",
+  "files": [
+    {
+      "path": "factory/calculator_hq_batch.py",
+      "sha256": "67ce423c6631b4eee012a12d71879cb6da6b6fd4a0190cedc66867ae4562bf56",
+      "size": 5145
+    },
+    {
+      "path": "factory/core_completion.py",
+      "sha256": "90ce4bbc02a49e684cf4b69557bf5c4678786bcb3d065f5016189f7e7546b9fe",
+      "size": 2227
+    },
+    {
+      "path": "factory/pm_console.py",
+      "sha256": "b5d8c8d433cc2ee9688ecf0a2b82cea1c34e07eba7c7b4a348135db6744c1017",
+      "size": 14596
+    },
+    {
+      "path": "factory/tests/test_sprint005_department_pipeline.py",
+      "sha256": "025ae2b21596bc52f30c9d06943518a3c9e5d82faa0851d14057184ec2ddf97b",
+      "size": 4258
+    },
+    {
+      "path": "factory/tests/test_sprint011_core_completion.py",
+      "sha256": "ab20c53e4bab6cc5eec9e3c57df711dcfe5595b0071d7136f4ca82e437efa647",
+      "size": 2512
+    },
+    {
+      "path": "factory/tests/test_v3001_content_release_separation.py",
+      "sha256": "5a20a364196016bf7e43c0c114ae6a441af6b11b8b30106fa7f6a177d2e42920",
+      "size": 839
+    },
+    {
+      "path": "factory/tests/test_v3002_output_verification.py",
+      "sha256": "fe57767fa9cbc5735c034d4ec1fa7fd6fbff1af5b55750cb21ecac419af71460",
+      "size": 2018
+    },
+    {
+      "path": "SPRINT011-APPLY.txt",
+      "sha256": "998de023381408ba45856cc999862924cfd1a5ebdb1114226ed5c15abec0b641",
+      "size": 779
+    }
+  ],
+  "verification": {
+    "full_pytest": "242 passed, 0 failed",
+    "focused_pytest": "12 passed, 0 failed",
+    "py_compile": "passed",
+    "core_contract_audit": "9/9 passed"
+  },
+  "publisher_id_modified": false
+}

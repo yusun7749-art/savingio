@@ -1,0 +1,12 @@
+Savingio Factory Sprint008 — QA2 + CMS HQ
+
+적용 방법
+1. 이 ZIP의 내용을 현재 savingio-live 폴더에 그대로 덮어씁니다.
+2. 별도 실행은 필요 없습니다.
+3. 다음 콘텐츠 생성 실행부터 QA1 → QA2 → CMS → Release Queue가 연결됩니다.
+
+중요
+- 글 생성 단계에서는 Git, Publisher, Cloudflare 검사를 실행하지 않습니다.
+- QA2를 통과한 글만 articles/에 등록됩니다.
+- 이미지가 아직 없으면 content_ready_image_pending 상태로 기록합니다.
+- 공식 Publisher ID는 변경하지 않았습니다.

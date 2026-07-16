@@ -1,0 +1,22 @@
+[GREEN / ACTUAL PATCH]
+
+MASTER SOURCE
+- savingio-live (5).zip
+
+APPLY
+1. Open this ZIP.
+2. Copy the factory folder into the existing savingio-live folder.
+3. Choose Replace files in the destination.
+4. Do not replace or delete the whole savingio-live house.
+
+WHAT CHANGED
+- Automatic core chain now includes Calculator HQ.
+- Order: Planning -> Research -> Writer -> SEO -> Calculator HQ -> Image -> QA1 -> QA2 -> CMS -> Verification.
+- Calculator links are injected before image and QA stages.
+- Core department contract audit writes factory/output/core_completion_report.json.
+- Content generation remains separated from Publisher, Git, Cloudflare, and Release.
+
+VERIFIED
+- Full pytest: 242 passed, 0 failed.
+- Focused tests: 12 passed, 0 failed.
+- Python compile check: passed.

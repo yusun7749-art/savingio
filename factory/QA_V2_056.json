@@ -1,0 +1,11 @@
+{
+  "version": "V2.056",
+  "feature": "Interactive Content Factory and Draft Persistence",
+  "tests": {
+    "pytest": "200 passed",
+    "topic_input": "PASS",
+    "draft_html_persistence": "PASS",
+    "draft_folder_auto_open": "PASS",
+    "publisher_lock_changed": false
+  }
+}

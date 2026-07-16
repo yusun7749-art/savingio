@@ -95,6 +95,10 @@ if __package__ in (None, ""):
     from factory.research_department import run_research_department
     from factory.planner import build_plan
     from factory.auto_release import run_auto_release
+    from factory.factory_brain import run_factory_brain, read_topics_file
+    from factory.brain_scheduler import run_brain_scheduler
+    from factory.automation_completion import run_automation_completion
+    from factory.house_integrity import audit_house, repair_nested_houses
 else:
     from .pipeline import execute
     from .orchestrator import Orchestrator
@@ -188,6 +192,10 @@ else:
     from .research_department import run_research_department
     from .planner import build_plan
     from .auto_release import run_auto_release
+    from .factory_brain import run_factory_brain, read_topics_file
+    from .brain_scheduler import run_brain_scheduler
+    from .automation_completion import run_automation_completion
+    from .house_integrity import audit_house, repair_nested_houses
 
 def main():
     p=argparse.ArgumentParser(description="Savingio Factory V2.046")
@@ -322,6 +330,18 @@ def main():
     rc=sub.add_parser("revenue-core")
     rc.add_argument("--input")
     rc.add_argument("--route-tasks",action="store_true")
+    fb=sub.add_parser("factory-brain")
+    fb.add_argument("topics", nargs="*")
+    fb.add_argument("--topics-file")
+    fb.add_argument("--evidence", action="append", default=[])
+    fb.add_argument("--continue-on-block", action="store_true")
+    bs=sub.add_parser("brain-scheduler")
+    bs.add_argument("topics", nargs="*")
+    bs.add_argument("--topics-file")
+    bs.add_argument("--topics-csv")
+    bs.add_argument("--batch-size", type=int, default=20)
+    bs.add_argument("--stop-on-block", action="store_true")
+    bs.add_argument("--reset", action="store_true")
     ac=sub.add_parser("automation-cycle")
     ac.add_argument("topic")
     ac.add_argument("--evidence",action="append",default=[])
@@ -433,6 +453,13 @@ def main():
     auto.add_argument("--message",default=None)
     auto.add_argument("--base-url",default="https://savingio.com")
     auto.add_argument("--no-live-verify",action="store_true")
+    sub.add_parser("house-integrity")
+    sub.add_parser("house-repair")
+    completion=sub.add_parser("automation-completion")
+    completion.add_argument("topics", nargs="*")
+    completion.add_argument("--publish", action="store_true")
+    completion.add_argument("--limit", type=int, default=100)
+
     research_run=sub.add_parser("research-run")
     research_run.add_argument("topic")
     research_run.add_argument("--evidence",action="append",default=[])
@@ -442,7 +469,13 @@ def main():
     root=Path(__file__).resolve().parent.parent
     db=root/"factory"/"state"/"factory.sqlite3"
 
-    if args.cmd=="generate":
+    if args.cmd=="house-integrity":
+        result=audit_house(root)
+    elif args.cmd=="house-repair":
+        result=repair_nested_houses(root)
+    elif args.cmd=="automation-completion":
+        result=run_automation_completion(root,args.topics,publish=args.publish,limit=args.limit)
+    elif args.cmd=="generate":
         result=execute(
             args.topic,root,publish=args.publish,overwrite=args.overwrite,
             evidence_file=Path(args.evidence) if args.evidence else None,
@@ -583,6 +616,24 @@ def main():
         result=execute_actions(root,execute=args.execute,limit=args.limit)
     elif args.cmd=="scheduler-files":
         result=generate_scheduler_files(root,args.hour,args.minute)
+    elif args.cmd=="factory-brain":
+        topics=list(args.topics)
+        if args.topics_file:
+            topics.extend(read_topics_file(Path(args.topics_file)))
+        result=run_factory_brain(root,topics,[Path(x) for x in args.evidence],stop_on_block=not args.continue_on_block)
+    elif args.cmd=="brain-scheduler":
+        topics=list(args.topics)
+        if args.topics_csv:
+            topics.extend(part.strip() for part in args.topics_csv.split(","))
+        if args.topics_file:
+            topics.extend(read_topics_file(Path(args.topics_file)))
+        result=run_brain_scheduler(
+            root,
+            topics,
+            batch_size=args.batch_size,
+            continue_on_block=not args.stop_on_block,
+            reset=args.reset,
+        )
     elif args.cmd=="automation-cycle":
         result=run_automation_cycle(args.topic,root,[Path(x) for x in args.evidence])
     elif args.cmd=="cycle-dashboard":

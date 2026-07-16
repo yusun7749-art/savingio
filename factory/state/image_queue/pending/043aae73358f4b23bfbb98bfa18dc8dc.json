@@ -1,0 +1,33 @@
+{
+  "job_id": "043aae73358f4b23bfbb98bfa18dc8dc",
+  "status": "pending",
+  "attempts": 0,
+  "brief": {
+    "status": "brief_ready",
+    "topic": "factory runner integration",
+    "slug": "factory-runner-integration",
+    "hero": {
+      "filename": "factory-runner-integration-hero.webp",
+      "alt": "factory runner integration 핵심 안내 이미지",
+      "aspect_ratio": "16:9",
+      "prompt": "factory runner integration을 설명하는 신뢰감 있는 한국형 생활정보 웹사이트 대표 이미지, 텍스트 최소화"
+    },
+    "og": {
+      "filename": "factory-runner-integration-og.webp",
+      "alt": "factory runner integration OG 이미지",
+      "aspect_ratio": "1200:630",
+      "prompt": "Savingio 브랜드용 factory runner integration OG 이미지, 정보형, 깔끔한 카드 스타일"
+    },
+    "infographic": {
+      "filename": "factory-runner-integration-summary.webp",
+      "alt": "factory runner integration 요약 인포그래픽",
+      "aspect_ratio": "4:5",
+      "prompt": "factory runner integration 핵심 조건과 실행 순서를 요약한 인포그래픽"
+    },
+    "generated_files": [],
+    "requires_external_image_generation": true,
+    "created_at": "2026-07-16T01:18:43+09:00"
+  },
+  "created_at": "2026-07-16T01:18:43+09:00",
+  "updated_at": "2026-07-16T01:18:43+09:00"
+}

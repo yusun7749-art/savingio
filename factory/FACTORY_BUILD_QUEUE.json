@@ -1,0 +1,15 @@
+{
+  "version": "0.1",
+  "departments": [
+    "planning",
+    "research",
+    "writer",
+    "seo",
+    "image",
+    "calculator",
+    "cms",
+    "qa",
+    "release"
+  ],
+  "status": "initialized"
+}

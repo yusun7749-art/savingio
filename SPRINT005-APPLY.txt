@@ -1,0 +1,15 @@
+[REAL PATCH - APPLY TO CURRENT savingio-live]
+
+1. Extract this ZIP.
+2. Copy all contents into the current savingio-live folder.
+3. Allow overwrite when Windows asks.
+4. No separate execution is required for this sprint.
+
+Implemented:
+- Operations Controller now calls Planning HQ -> Research HQ -> Writer HQ -> SEO HQ.
+- Department status/progress/report files are written by the existing Controller.
+- Content generation remains separate from Publisher/Git/Cloudflare release work.
+- Final PASS requires the requested draft HTML files to exist and be non-empty.
+- Existing isolated content-pipeline compatibility is preserved.
+
+Verified test result: 225 passed, 0 failed.

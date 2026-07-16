@@ -1,0 +1,9 @@
+{
+  "version": "V2.057",
+  "checks": [
+    "draft_always_saved",
+    "gate_based_article_promotion",
+    "cms_release_queue",
+    "blocked_content_review_report"
+  ]
+}

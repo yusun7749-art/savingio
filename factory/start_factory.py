@@ -113,9 +113,14 @@ def run_start_factory(root: Path, *, execute: bool = True, push: bool = True) ->
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Savingio Factory stable single-click launcher")
     parser.add_argument("--root", default=".")
+    parser.add_argument("--release", action="store_true", help="run release center instead of the PM menu")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--no-push", action="store_true")
     args = parser.parse_args(argv)
+
+    if not args.release:
+        from .pm_console import interactive
+        return interactive(Path(args.root).resolve())
 
     report = run_start_factory(Path(args.root), execute=not args.dry_run, push=not args.no_push)
     print(f"VERSION: {report.get('version')}")

@@ -1,0 +1,18 @@
+{
+  "schema_version": 2,
+  "manager": "factory.factory_core_runner",
+  "executor": "factory.core_factory_runner",
+  "runner": "core_factory_runner.py",
+  "engines": [
+    {"name": "planning", "module": "factory.planning_hq", "entrypoint": "create_plan"},
+    {"name": "research", "module": "factory.research_hq", "entrypoint": "run_research_queue"},
+    {"name": "writer", "module": "factory.writer_hq", "entrypoint": "run_writer_queue", "aliases": ["writing"]},
+    {"name": "seo", "module": "factory.seo_hq", "entrypoint": "run_seo_queue"},
+    {"name": "calculator", "module": "factory.calculator_hq_batch", "entrypoint": "run_calculator_batch", "aliases": ["calculator_hq"]},
+    {"name": "image", "module": "factory.image_hq", "entrypoint": "run_image_queue"},
+    {"name": "qa1", "module": "factory.qa1_hq", "entrypoint": "run_qa1_queue", "aliases": ["qa_primary"]},
+    {"name": "qa2", "module": "factory.qa2_hq", "entrypoint": "run_qa2_queue", "aliases": ["qa_final"]},
+    {"name": "cms", "module": "factory.cms_hq", "entrypoint": "run_cms_queue"}
+  ],
+  "post_core": ["doctor", "layout_dna", "link_regression", "calculator_regression", "release_gate"]
+}

@@ -1,0 +1,14 @@
+[GREEN] 실제 적용 가능 패치
+
+적용 방법:
+1. 이 ZIP의 내용을 현재 savingio-live 폴더에 그대로 덮어씁니다.
+2. 이번 Sprint는 작가본부 엔진 추가 단계이므로 별도 실행은 하지 않아도 됩니다.
+3. 기존 savingio-live 폴더를 삭제하거나 새 집으로 교체하지 마세요.
+
+추가 파일:
+- factory/writer_hq.py
+- factory/tests/test_sprint004_writer_hq.py
+
+검증:
+- Sprint002~004 통합 테스트 8 PASS / 0 FAIL
+- 실제 HTML 초안 생성 및 SEO 큐 전달 PASS

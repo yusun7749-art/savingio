@@ -85,10 +85,21 @@ def execute(topic: str, project_root: Path, publish: bool=False, overwrite: bool
     save_json(output_dir/"related_links.json", {"items":related})
     (output_dir/"draft.html").write_text(html, encoding="utf-8")
 
-    cms_manifest = save_article(
+    # Always preserve a generated draft. Promotion to /articles is allowed only
+    # when both QA and official-evidence gates pass. A blocked publication must
+    # never discard the draft or crash the whole batch.
+    draft_manifest = save_article(
         project_root, seo, html, qa_report, research,
-        publish=publish, overwrite=overwrite
-    ) if (qa_report["pass"] or not publish) else None
+        publish=False, overwrite=True
+    )
+    publish_ready = bool(qa_report.get("pass") and research.get("ready_for_publish"))
+    published_manifest = None
+    if publish and publish_ready:
+        published_manifest = save_article(
+            project_root, seo, html, qa_report, research,
+            publish=True, overwrite=overwrite
+        )
+    cms_manifest = published_manifest or draft_manifest
 
     stage_manifest = None
     if stage and qa_report["pass"]:
@@ -98,7 +109,12 @@ def execute(topic: str, project_root: Path, publish: bool=False, overwrite: bool
         )
 
     article_path = (cms_manifest or {}).get("article_path")
-    status = "published" if publish and cms_manifest else ("staged" if stage_manifest else "draft")
+    status = (
+        "published" if published_manifest
+        else "draft_review_required" if publish and not publish_ready
+        else "staged" if stage_manifest
+        else "draft"
+    )
     content_hash = hashlib.sha256(html.encode("utf-8")).hexdigest()
     with connect(state_db) as conn:
         upsert_content(conn, {
@@ -142,7 +158,9 @@ def execute(topic: str, project_root: Path, publish: bool=False, overwrite: bool
         "factory_version":"2.044","topic":topic,"plan":plan,"research":research,
         "seo":seo,"qa":qa_report,"duplicate":duplicate_report,"related":related,
         "calculator_package":calculator_package,"calculator_cms":calculator_cms,
-        "cms":cms_manifest,"staging":stage_manifest,"rewrite_attempts":attempts,
+        "cms":cms_manifest,"draft":draft_manifest,"published":published_manifest,
+        "publish_requested":publish,"publish_ready":publish_ready,
+        "staging":stage_manifest,"rewrite_attempts":attempts,
         "release_manifest":release_manifest,
         "git_commands":git_commands,"git_script":commit_script,
         "adsense_lock":{"pre":pre_adsense_lock,"post":post_adsense_lock},

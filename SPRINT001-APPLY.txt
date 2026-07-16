@@ -1,0 +1,10 @@
+Savingio Factory Sprint001 운영본부 Controller 패치
+
+1. ZIP 내부 파일을 기존 savingio-live 폴더에 덮어씁니다.
+2. 00-START-FACTORY.bat을 실행합니다.
+3. 1번 글 자동 만들기를 선택하면 운영본부 상태/로그가 자동 저장됩니다.
+
+생성 증빙:
+- factory/output/controller_status.json
+- factory/output/controller.log
+- factory/output/controller_report.json

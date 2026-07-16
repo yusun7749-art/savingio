@@ -4,3 +4,10 @@
 {"time": "2026-07-13T15:33:01+00:00", "event": "pipeline_completed", "payload": {"topic": "전기요금 절약", "qa": 100, "status": "staged", "duplicate": true}}
 {"time": "2026-07-13T15:34:01+00:00", "event": "pipeline_completed", "payload": {"topic": "전기요금 절약", "qa": 100, "status": "staged", "duplicate": true}}
 {"time": "2026-07-14T09:15:32+00:00", "event": "pipeline_completed", "payload": {"topic": "전기요금 절약", "qa": 100, "status": "draft", "duplicate": true}}
+{"time": "2026-07-15T12:05:10+09:00", "event": "pipeline_completed", "payload": {"topic": "장기수선충당금 반환받는 방법", "qa": 100, "status": "staged", "duplicate": false}}
+{"time": "2026-07-15T12:05:23+09:00", "event": "pipeline_completed", "payload": {"topic": "아파트 관리비 항목별 확인 방법", "qa": 100, "status": "staged", "duplicate": false}}
+{"time": "2026-07-15T12:05:39+09:00", "event": "pipeline_completed", "payload": {"topic": "전기요금 누진제 계산과 절약 방법", "qa": 100, "status": "staged", "duplicate": false}}
+{"time": "2026-07-15T12:05:54+09:00", "event": "pipeline_completed", "payload": {"topic": "수도요금이 갑자기 늘었을 때 확인할 것", "qa": 100, "status": "staged", "duplicate": false}}
+{"time": "2026-07-15T12:06:06+09:00", "event": "pipeline_completed", "payload": {"topic": "도시가스 요금 절약과 검침 확인 방법", "qa": 100, "status": "staged", "duplicate": false}}
+{"time": "2026-07-15T12:06:19+09:00", "event": "pipeline_completed", "payload": {"topic": "휴면예금과 숨은 보험금 찾는 방법", "qa": 100, "status": "staged", "duplicate": false}}
+{"time": "2026-07-15T12:06:35+09:00", "event": "pipeline_completed", "payload": {"topic": "자동이체 할인과 납부일 관리 방법", "qa": 100, "status": "staged", "duplicate": false}}

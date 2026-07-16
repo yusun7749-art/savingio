@@ -1,0 +1,6 @@
+Savingio Factory Sprint010 Release Queue HQ
+
+적용: 현재 savingio-live 폴더에 경로 그대로 덮어쓰기
+실행: 별도 실행 없음. 00-START-FACTORY.bat 메뉴 4번에서 사용
+기능: CMS Release Queue 검증 -> Scope Release -> Analytics Queue -> Revenue Queue 연결
+안전: 글 생성 메뉴에서는 Publisher/Git/Cloudflare를 실행하지 않음

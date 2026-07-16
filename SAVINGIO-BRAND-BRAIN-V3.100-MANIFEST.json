@@ -1,0 +1,19 @@
+{
+  "version": "V3.100",
+  "name": "Savingio Life Money Brain",
+  "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요.",
+  "implemented": [
+    "Savingio 브랜드 헌법과 쉬운 언어 규칙 고정",
+    "대분류에서 상황과 다음 질문으로 자동 확장되는 Life Money Taxonomy",
+    "104개 초기 주제 자동 생성",
+    "주제 간 next_question 연결 그래프 생성",
+    "Factory CLI brain-expand 명령 추가",
+    "09-BUILD-LIFE-MONEY-BRAIN.bat 원클릭 실행 추가",
+    "Planner에 브랜드 문구·글 흐름·언어 규칙 전달"
+  ],
+  "verification": {
+    "python_compile": "PASS",
+    "factory_tests": "287 passed",
+    "brain_expansion": "7 categories / 20 situations / 104 topics / PASS"
+  }
+}

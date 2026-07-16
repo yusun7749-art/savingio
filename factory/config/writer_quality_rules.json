@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "min_plaintext_chars": 3000,
+  "max_plaintext_chars": 5500,
+  "required_section_ids": [
+    "three-second-summary",
+    "situation-choice",
+    "conclusion",
+    "condition-branches",
+    "action-steps",
+    "case",
+    "comparison-table",
+    "faq",
+    "next-action",
+    "internal-links",
+    "official-evidence",
+    "updated"
+  ],
+  "minimums": {
+    "summary_cards": 4,
+    "cases": 3,
+    "comparison_rows": 3,
+    "checklist_items": 7,
+    "faq_items": 5,
+    "next_questions": 5,
+    "related_links": 2
+  },
+  "forbidden_tokens": ["{{", "}}", "TODO", "TBD", "undefined"]
+}

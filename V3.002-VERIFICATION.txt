@@ -1,0 +1,17 @@
+Savingio Factory V3.002
+
+PASS
+- 실제 생성 파일 경로 검증
+- 파일이 존재하고 크기가 0보다 클 때만 PASS
+- 요청 수와 검증 파일 수가 같을 때만 PASS
+- 누락 파일은 CHECK REQUIRED 처리
+- Windows 결과 폴더를 절대경로로 자동 열기
+- 생성 파일 목록을 화면에 표시
+
+TEST
+- Full regression: 212 passed / 0 failed
+- Real content generation: 1 article generated
+- File verified: 1/1
+- Verified file size: 10,173 bytes
+
+Publisher ID 변경 없음.

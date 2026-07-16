@@ -1,0 +1,13 @@
+{
+  "version": "V2.055",
+  "current": "Brain Scheduler",
+  "completed": [
+    "V2.053 Single Start",
+    "V2.054 Factory Brain",
+    "V2.055 Brain Scheduler"
+  ],
+  "next": [
+    "V2.056 Approval Queue Automation",
+    "V2.057 CMS Publish Automation"
+  ]
+}

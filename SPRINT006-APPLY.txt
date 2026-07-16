@@ -1,0 +1,14 @@
+Savingio Factory Sprint006 — 이미지본부 통합
+
+적용 방식
+- 이 ZIP의 factory 폴더와 SPRINT006-APPLY.txt를 현재 savingio-live 폴더에 덮어씁니다.
+- 새 집으로 교체하지 않습니다.
+- 별도 실행은 필요하지 않습니다.
+
+변경 내용
+- SEO본부 image_queue를 실제로 소비하는 Image HQ 추가
+- 글별 hero/OG/인포그래픽 이미지 브리프 저장
+- 외부 이미지 생성이 필요한 상태를 명확히 기록
+- ImageQueue 작업 등록
+- QA1본부 전달 큐 생성
+- 운영본부 파이프라인에 이미지본부 단계 연결

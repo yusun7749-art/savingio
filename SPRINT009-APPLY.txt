@@ -1,0 +1,15 @@
+Savingio Factory Sprint009 QA2-CMS-Release Queue Patch
+
+적용 대상: 현재 savingio-live 폴더
+적용 방법: ZIP 내부 경로 그대로 덮어쓰기
+별도 실행: 없음
+다음 콘텐츠 생성부터 적용
+
+추가 연결:
+QA1 -> QA2 -> CMS -> Release Queue
+                    -> Analytics Queue
+                    -> Revenue Queue
+
+중요:
+글 생성 과정에서는 Git, Publisher, Cloudflare 배포를 실행하지 않습니다.
+외부 이미지가 실제 생성되지 않은 글은 QA2에서 release_ready로 처리하지 않습니다.

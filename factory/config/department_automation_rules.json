@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "resume": true,
+  "checkpoint_after_each_stage": true,
+  "verify_artifacts_before_skip": true,
+  "stop_on_stage_failure": true,
+  "stages": [
+    "planning",
+    "research",
+    "writing",
+    "seo",
+    "calculator_hq",
+    "image",
+    "qa1",
+    "qa2",
+    "cms"
+  ]
+}

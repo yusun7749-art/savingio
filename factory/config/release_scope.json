@@ -1,14 +1,12 @@
 {
-  "version": "V2.053",
-  "commit_message": "V2.053 single START Factory release center",
+  "version": "V3.000",
+  "commit_message": "V3.000 add PM one-click factory console",
   "files": [
     "00-START-FACTORY.bat",
-    "factory/start_factory.py",
-    "factory/tests/test_v2053.py",
+    "factory/pm_console.py",
+    "factory/config/auto_topic_pool.json",
     "factory/config/release_scope.json",
-    "factory/QA_V2_053.json",
-    "factory/MASTER_ROADMAP_V2_053.json",
-    "V2.053-RELEASE-NOTE.md",
-    "VERSION.json"
+    "factory/tests/test_v3000_pm_console.py",
+    "V3.000-RELEASE-NOTE.md"
   ]
 }

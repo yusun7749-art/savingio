@@ -1,22 +1,24 @@
 @echo off
-setlocal
+setlocal EnableExtensions
 cd /d "%~dp0"
-title Savingio Factory - ONE CLICK START
+title Savingio Factory
+chcp 65001 >nul
 
-echo ============================================================
-echo Savingio Factory - ONE CLICK START
-echo Always run this same file for every version.
-echo ============================================================
+where python >nul 2>nul
+if errorlevel 1 (
+  echo Python not found.
+  pause
+  exit /b 1
+)
 
-python -m factory.start_factory --root .
+python -X utf8 -m factory.start_factory
 set "EXIT_CODE=%ERRORLEVEL%"
 
-echo ============================================================
+echo.
 if "%EXIT_CODE%"=="0" (
-  echo [PASS] Factory release, Git push, and live verification completed.
+  echo [PASS] Savingio Factory completed.
 ) else (
-  echo [FAIL] Factory stopped safely. Check factory\output\start_factory_report.json
+  echo [CHECK] Open factory\output\pm_factory_report.json
 )
-echo ============================================================
 pause
 exit /b %EXIT_CODE%

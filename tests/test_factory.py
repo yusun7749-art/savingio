@@ -31,3 +31,48 @@ def test_generated_article_has_single_h1_and_qa_runs():
     report = evaluate(html, plan, research, seo, CONFIG)
     assert html.lower().count('<h1') == 1
     assert isinstance(report['pass'], bool)
+
+from factory.department_contract_validator import validate_department_packet
+from factory.house_integrity import audit_house
+from factory.automation_completion import _clean_topics
+
+
+def test_department_contract_rejects_missing_fields():
+    report = validate_department_packet("planning", {"topic": "테스트"}, CONFIG)
+    assert report["pass"] is False
+    assert "slug" in report["missing_fields"]
+
+
+def test_clean_topics_deduplicates_and_normalizes():
+    assert _clean_topics(["  전기요금   절약 ", "전기요금 절약", "", "수도요금"]) == [
+        "전기요금 절약", "수도요금"
+    ]
+
+
+def test_house_integrity_detects_nested_house(tmp_path):
+    for name in ("factory", "articles", "calculators", "css", "js"):
+        (tmp_path / name).mkdir(parents=True, exist_ok=True)
+    (tmp_path / "index.html").write_text("ok", encoding="utf-8")
+    nested = tmp_path / "savingio-live"
+    (nested / "factory").mkdir(parents=True)
+    (nested / "articles").mkdir()
+    report = audit_house(tmp_path, write_report=False)
+    assert report["pass"] is False
+    assert "savingio-live" in report["nested_houses"]
+
+from factory.house_integrity import repair_nested_houses
+
+
+def test_house_repair_moves_nested_house_without_deleting(tmp_path):
+    for name in ("factory", "articles", "calculators", "css", "js"):
+        (tmp_path / name).mkdir(parents=True, exist_ok=True)
+    (tmp_path / "index.html").write_text("ok", encoding="utf-8")
+    nested = tmp_path / "savingio-live"
+    (nested / "factory").mkdir(parents=True)
+    (nested / "articles").mkdir()
+    (nested / "marker.txt").write_text("preserve", encoding="utf-8")
+    result = repair_nested_houses(tmp_path)
+    assert result["pass"] is True
+    assert not nested.exists()
+    target = tmp_path / result["moved"][0]["target"]
+    assert (target / "marker.txt").read_text(encoding="utf-8") == "preserve"
