@@ -1,0 +1,23 @@
+{
+  "handoff_id": "62166094ccbd43dd95e395c57d62ada8",
+  "workflow_id": "0ca48204fa6d412f844403ab65278bfa",
+  "sender": "cms",
+  "receiver": "deploy",
+  "status": "ready",
+  "blockers": [],
+  "payload": {
+    "article_path": "factory/output/drafts/장기수선충당금-298a523e.html",
+    "canonical": "https://savingio.com/articles/장기수선충당금-298a523e.html",
+    "qa_score": 100,
+    "evidence_score": 0,
+    "published": false,
+    "saved_at": "2026-07-15T11:51:16+09:00"
+  },
+  "created_at": "2026-07-15T11:51:16+09:00",
+  "gate": {
+    "department": "cms",
+    "pass": true,
+    "blockers": [],
+    "checked_at": "2026-07-15T11:51:16+09:00"
+  }
+}

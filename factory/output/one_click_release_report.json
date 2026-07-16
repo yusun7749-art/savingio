@@ -1,7 +1,7 @@
 {
   "version": "V2.049",
   "mode": "execute",
-  "created_at": "2026-07-15T03:00:28+09:00",
+  "created_at": "2026-07-15T10:05:15+09:00",
   "stages": [
     {
       "name": "git_preflight",
@@ -52,7 +52,7 @@
             ],
             "returncode": 0,
             "stdout": "",
-            "stderr": "warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'VERSION.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'articles/loan-refinancing-check.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'calculators/vat.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'factory/MASTER_PROGRESS.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'factory/auto_release.py', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'factory/calculator_analytics.py', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'factory/calculator_hq.py', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'factory/calculator_matcher.py', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'factory/output/adsense/repair_report.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'factory/output/calculator/analytics.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'factory/output/factory_cleaner_report.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'factory/output/link_graph.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'factory/release_packager.py', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'factory/run.py', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'factory/state_db.py', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'factory_manifest.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'tests/test_factory.py', LF will be replaced by CRLF the next time Git touches it"
+            "stderr": "warning: in the working copy of 'VERSION.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'factory/config/release_scope.json', LF will be replaced by CRLF the next time Git touches it"
           },
           "staged": {
             "command": [
@@ -81,7 +81,7 @@
             "-q"
           ],
           "returncode": 0,
-          "stdout": "........................................................................ [ 40%]\n........................................................................ [ 81%]\n.................................                                        [100%]\n============================== warnings summary ===============================\nfactory/tests/test_department_board.py: 8 warnings\nfactory/tests/test_v2025.py: 8 warnings\n  C:\\Users\\VIEW LIFE\\Desktop\\savingio-live\\factory\\department_board.py:7: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n    return {d:{\"status\":\"ready\",\"updated\":datetime.utcnow().isoformat()} for d in DEPTS}\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n177 passed, 16 warnings in 25.66s",
+          "stdout": "........................................................................ [ 37%]\n........................................................................ [ 75%]\n................................................                         [100%]\n192 passed in 28.03s",
           "stderr": ""
         }
       }
@@ -154,7 +154,7 @@
             "exists": true,
             "valid": true,
             "executed": false,
-            "checked_at": "2026-07-15T03:00:55+09:00"
+            "checked_at": "2026-07-15T10:05:45+09:00"
           },
           "index": {
             "pass": true,
@@ -163,7 +163,7 @@
             ],
             "changed": false,
             "executed": false,
-            "checked_at": "2026-07-15T03:00:55+09:00"
+            "checked_at": "2026-07-15T10:05:45+09:00"
           },
           "scan": {
             "pass": true,
@@ -202,6 +202,30 @@
                 ]
               },
               {
+                "path": "V2.050-PATCH-MANIFEST.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "V2.052-RELEASE-NOTE.md",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "V2.053-PATCH-MANIFEST.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "V2.053-RELEASE-NOTE.md",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
                 "path": "VERSION.json",
                 "ids": [
                   "pub-7605193583747751"
@@ -234,6 +258,18 @@
               },
               {
                 "path": "factory/QA_V2_043.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/QA_V2_050.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/QA_V2_052.json",
                 "ids": [
                   "pub-7605193583747751"
                 ]
@@ -308,6 +344,13 @@
                 ]
               },
               {
+                "path": "factory/output/release_pipeline_report.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
                 "path": "factory/output/V2.047_RELEASE_REPORT.md",
                 "ids": [
                   "pub-7605193583747751"
@@ -357,10 +400,10 @@
             ],
             "invalid_count": 0,
             "invalid": [],
-            "checked_at": "2026-07-15T03:00:58+09:00"
+            "checked_at": "2026-07-15T10:05:47+09:00"
           },
           "status": "pass",
-          "checked_at": "2026-07-15T03:00:58+09:00"
+          "checked_at": "2026-07-15T10:05:47+09:00"
         },
         "doctor": {
           "pass": true,
@@ -1181,6 +1224,11 @@
               "detail": "tables=['approvals', 'content_registry', 'dead_letter', 'dna_versions', 'queue', 'runs', 'sqlite_sequence']"
             },
             {
+              "name": "deprecated-api-scan",
+              "pass": true,
+              "detail": "findings=0"
+            },
+            {
               "name": "internal-link-scan",
               "pass": true,
               "detail": "nodes=219 broken=0 orphans=31"
@@ -1189,6 +1237,12 @@
           "module_count": 126,
           "config_count": 36,
           "adsense_lock": null,
+          "deprecated_api_scan": {
+            "pass": true,
+            "finding_count": 0,
+            "findings": [],
+            "scanned_root": "factory"
+          },
           "link_graph_summary": {
             "nodes": 219,
             "edges": 7113,
@@ -1197,7 +1251,7 @@
           }
         },
         "official_publisher_id": "pub-7605193583747751",
-        "checked_at": "2026-07-15T03:01:00+09:00"
+        "checked_at": "2026-07-15T10:05:49+09:00"
       }
     },
     {
@@ -1206,12 +1260,14 @@
       "result": {
         "pass": true,
         "paths": [
-          "factory/one_click_release.py",
+          "00-START-FACTORY.bat",
+          "factory/start_factory.py",
+          "factory/tests/test_v2053.py",
           "factory/config/release_scope.json",
-          "factory/tests/test_v2049_release_scope.py",
-          "FACTORY-ONE-CLICK.bat",
-          "VERSION.json",
-          "V2.049-RELEASE-NOTE.md"
+          "factory/QA_V2_053.json",
+          "factory/MASTER_ROADMAP_V2_053.json",
+          "V2.053-RELEASE-NOTE.md",
+          "VERSION.json"
         ],
         "results": [
           {
@@ -1219,16 +1275,18 @@
               "git",
               "add",
               "--",
-              "factory/one_click_release.py",
+              "00-START-FACTORY.bat",
+              "factory/start_factory.py",
+              "factory/tests/test_v2053.py",
               "factory/config/release_scope.json",
-              "factory/tests/test_v2049_release_scope.py",
-              "FACTORY-ONE-CLICK.bat",
-              "VERSION.json",
-              "V2.049-RELEASE-NOTE.md"
+              "factory/QA_V2_053.json",
+              "factory/MASTER_ROADMAP_V2_053.json",
+              "V2.053-RELEASE-NOTE.md",
+              "VERSION.json"
             ],
             "returncode": 0,
             "stdout": "",
-            "stderr": "warning: in the working copy of 'VERSION.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'FACTORY-ONE-CLICK.bat', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'V2.049-RELEASE-NOTE.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'factory/config/release_scope.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'factory/one_click_release.py', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'factory/tests/test_v2049_release_scope.py', LF will be replaced by CRLF the next time Git touches it"
+            "stderr": "warning: in the working copy of 'VERSION.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'factory/config/release_scope.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'V2.053-RELEASE-NOTE.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'factory/MASTER_ROADMAP_V2_053.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'factory/QA_V2_053.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'factory/start_factory.py', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'factory/tests/test_v2053.py', LF will be replaced by CRLF the next time Git touches it"
           }
         ]
       }
@@ -1241,10 +1299,10 @@
           "git",
           "commit",
           "-m",
-          "V2.049 add safe release scope automation"
+          "V2.053 single START Factory release center"
         ],
         "returncode": 0,
-        "stdout": "[main 208eb00] V2.049 add safe release scope automation\n 6 files changed, 519 insertions(+), 4 deletions(-)\n create mode 100644 FACTORY-ONE-CLICK.bat\n create mode 100644 V2.049-RELEASE-NOTE.md\n create mode 100644 factory/config/release_scope.json\n create mode 100644 factory/one_click_release.py\n create mode 100644 factory/tests/test_v2049_release_scope.py",
+        "stdout": "[main 94b7b7d] V2.053 single START Factory release center\n 8 files changed, 239 insertions(+), 13 deletions(-)\n create mode 100644 00-START-FACTORY.bat\n create mode 100644 V2.053-RELEASE-NOTE.md\n create mode 100644 factory/MASTER_ROADMAP_V2_053.json\n create mode 100644 factory/QA_V2_053.json\n create mode 100644 factory/start_factory.py\n create mode 100644 factory/tests/test_v2053.py",
         "stderr": ""
       }
     },
@@ -1260,112 +1318,77 @@
         ],
         "returncode": 0,
         "stdout": "",
-        "stderr": "To https://github.com/yusun7749-art/savingio.git\n   e50459e..208eb00  main -> main"
+        "stderr": "To https://github.com/yusun7749-art/savingio.git\n   b642cc9..94b7b7d  main -> main"
       }
     }
   ],
   "publisher_id": "pub-7605193583747751",
   "release_scope": {
-    "version": "V2.049",
-    "commit_message": "V2.049 add safe release scope automation",
+    "version": "V2.053",
+    "commit_message": "V2.053 single START Factory release center",
     "files": [
-      "factory/one_click_release.py",
+      "00-START-FACTORY.bat",
+      "factory/start_factory.py",
+      "factory/tests/test_v2053.py",
       "factory/config/release_scope.json",
-      "factory/tests/test_v2049_release_scope.py",
-      "FACTORY-ONE-CLICK.bat",
-      "VERSION.json",
-      "V2.049-RELEASE-NOTE.md"
+      "factory/QA_V2_053.json",
+      "factory/MASTER_ROADMAP_V2_053.json",
+      "V2.053-RELEASE-NOTE.md",
+      "VERSION.json"
     ]
   },
   "selected_files": [
-    "factory/one_click_release.py",
+    "00-START-FACTORY.bat",
+    "factory/start_factory.py",
+    "factory/tests/test_v2053.py",
     "factory/config/release_scope.json",
-    "factory/tests/test_v2049_release_scope.py",
-    "FACTORY-ONE-CLICK.bat",
-    "VERSION.json",
-    "V2.049-RELEASE-NOTE.md"
+    "factory/QA_V2_053.json",
+    "factory/MASTER_ROADMAP_V2_053.json",
+    "V2.053-RELEASE-NOTE.md",
+    "VERSION.json"
   ],
   "unrelated_changes": [
-    ".gitignore",
-    "articles/loan-refinancing-check.html",
-    "calculators/vat.html",
-    "factory/MASTER_PROGRESS.json",
-    "factory/auto_release.py",
-    "factory/calculator_analytics.py",
-    "factory/calculator_hq.py",
-    "factory/calculator_matcher.py",
     "factory/config/calculator_registry.json",
     "factory/output/MASTER_CHECKLIST.json",
     "factory/output/adsense/ads_txt_report.json",
     "factory/output/adsense/adsense_lock_report.json",
     "factory/output/adsense/index_report.json",
     "factory/output/adsense/publisher_scan.json",
-    "factory/output/adsense/repair_report.json",
-    "factory/output/calculator/analytics.json",
+    "factory/output/calculator/action_catalog.json",
+    "factory/output/calculator/salary-net-pay-generation.json",
+    "factory/output/cloudflare_verify_report.json",
     "factory/output/credential_checklist.json",
     "factory/output/deployment_integrity_report.json",
     "factory/output/eeat_audit.json",
-    "factory/output/factory_cleaner_report.json",
     "factory/output/indexability_audit.json",
     "factory/output/integration_preflight.json",
-    "factory/output/link_graph.json",
     "factory/output/live_verification_plan.json",
+    "factory/output/one_click_release_report.json",
     "factory/output/regression_manifest.json",
     "factory/output/research/research_package.json",
     "factory/output/research/research_qa.json",
     "factory/output/research/research_report.json",
     "factory/output/research/source_registry_snapshot.json",
     "factory/output/ui_lock_snapshot.json",
-    "factory/release_packager.py",
-    "factory/run.py",
-    "factory/state_db.py",
-    "factory_manifest.json",
-    "tests/test_factory.py",
-    "PATCH-INSTALL.txt",
-    "RECOVER-SAVINGIO-V2047.bat",
-    "Savingio-#Uc790#Ub3d9#Ubc30#Ud3ec.bat",
-    "V2.047-RECOVERY-NOTE.txt",
-    "V2.048-BASELINE-HOUSE.md",
-    "calculators/electricity-cost.html",
-    "calculators/hourly-to-monthly.html",
-    "calculators/loan-payment.html",
-    "calculators/salary-net-pay.html",
-    "calculators/severance-pay.html",
-    "css/calculator-generation-v2046.css",
-    "factory/MASTER_ROADMAP_V2_046.json",
-    "factory/QA_V2_046.json",
-    "factory/calculator_action_engine.py",
-    "factory/calculator_generation_engine.py",
-    "factory/config/calculator_action_rules.json",
-    "factory/config/calculator_formula_dna.json",
-    "factory/output/V2.047_RELEASE_REPORT.md",
-    "factory/output/calculator/action_catalog.json",
-    "factory/output/calculator/electricity-cost-generation.json",
-    "factory/output/calculator/hourly-to-monthly-generation.json",
-    "factory/output/calculator/loan-payment-generation.json",
-    "factory/output/calculator/salary-net-pay-generation.json",
-    "factory/output/calculator/severance-pay-generation.json",
-    "factory/output/calculator/vat-generation.json",
-    "factory/output/deployment_report_v2_046.json",
-    "factory/output/one_click_release_report.json",
-    "factory/tests/test_v2046.py",
-    "factory/tests/test_v2047.py",
-    "factory/tests/test_v2048_one_click_release.py",
-    "functions/api/calculator-events.js"
+    "V2.053-PATCH-MANIFEST.json",
+    "factory/output/release_pipeline_report.json",
+    "factory/output/release_scope_preview.json"
   ],
   "unchanged_scope_files": [],
   "skipped_deletions": [],
   "staged_files": [
-    "FACTORY-ONE-CLICK.bat",
-    "V2.049-RELEASE-NOTE.md",
+    "00-START-FACTORY.bat",
+    "V2.053-RELEASE-NOTE.md",
     "VERSION.json",
+    "factory/MASTER_ROADMAP_V2_053.json",
+    "factory/QA_V2_053.json",
     "factory/config/release_scope.json",
-    "factory/one_click_release.py",
-    "factory/tests/test_v2049_release_scope.py"
+    "factory/start_factory.py",
+    "factory/tests/test_v2053.py"
   ],
   "unexpected_staged_files": [],
   "status": "completed",
-  "completed_at": "2026-07-15T03:01:04+09:00",
+  "completed_at": "2026-07-15T10:05:53+09:00",
   "pass_": true,
   "pass": true
 }

@@ -1,0 +1,27 @@
+{
+  "handoff_id": "ee09fccc768a4273acd0f1da3306ced2",
+  "workflow_id": "0ca48204fa6d412f844403ab65278bfa",
+  "sender": "revenue",
+  "receiver": null,
+  "status": "ready",
+  "blockers": [],
+  "payload": {
+    "action_count": 1,
+    "actions": [
+      {
+        "page": "https://savingio.com/articles/sample",
+        "priority": 90,
+        "action": "rewrite_title_meta",
+        "reason": "high_impressions_low_ctr:200.0/0.01"
+      }
+    ],
+    "created_at": "2026-07-15T11:51:20+09:00"
+  },
+  "created_at": "2026-07-15T11:51:20+09:00",
+  "gate": {
+    "department": "revenue",
+    "pass": true,
+    "blockers": [],
+    "checked_at": "2026-07-15T11:51:20+09:00"
+  }
+}

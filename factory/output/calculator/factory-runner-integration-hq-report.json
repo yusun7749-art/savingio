@@ -1,0 +1,71 @@
+{
+  "status": "completed",
+  "topic": "factory runner integration",
+  "slug": "factory-runner-integration",
+  "package": {
+    "topic": "factory runner integration",
+    "slug": "factory-runner-integration",
+    "article_url": "/articles/factory-runner-integration.html",
+    "calculators": [],
+    "generation_request": null,
+    "status": "not_required",
+    "created_at": "2026-07-16T01:18:43+09:00"
+  },
+  "generation": null,
+  "cms": {
+    "registered": true,
+    "link_count": 0,
+    "path": "factory/output/calculator/article_calculator_links.json"
+  },
+  "registry_qa": {
+    "pass": true,
+    "calculator_count": 6,
+    "passed_count": 6,
+    "failed_count": 0,
+    "results": [
+      {
+        "pass": true,
+        "issues": [],
+        "calculator_id": "salary-net-pay",
+        "checked_at": "2026-07-16T01:18:43+09:00"
+      },
+      {
+        "pass": true,
+        "issues": [],
+        "calculator_id": "hourly-to-monthly",
+        "checked_at": "2026-07-16T01:18:43+09:00"
+      },
+      {
+        "pass": true,
+        "issues": [],
+        "calculator_id": "electricity-cost",
+        "checked_at": "2026-07-16T01:18:43+09:00"
+      },
+      {
+        "pass": true,
+        "issues": [],
+        "calculator_id": "severance-pay",
+        "checked_at": "2026-07-16T01:18:43+09:00"
+      },
+      {
+        "pass": true,
+        "issues": [],
+        "calculator_id": "vat",
+        "checked_at": "2026-07-16T01:18:43+09:00"
+      },
+      {
+        "pass": true,
+        "issues": [],
+        "calculator_id": "loan-payment",
+        "checked_at": "2026-07-16T01:18:43+09:00"
+      }
+    ],
+    "checked_at": "2026-07-16T01:18:43+09:00"
+  },
+  "html": {
+    "path": "C:\\Users\\VIEW LIFE\\Desktop\\savingio-live\\factory\\output\\drafts\\factory-runner-integration.html",
+    "changed": false,
+    "executed": false
+  },
+  "created_at": "2026-07-16T01:18:43+09:00"
+}

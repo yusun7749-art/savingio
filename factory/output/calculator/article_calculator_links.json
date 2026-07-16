@@ -6,5 +6,189 @@
     "calculator_urls": [],
     "status": "requested",
     "updated_at": "2026-07-14T14:44:29+00:00"
+  },
+  {
+    "article_slug": "장기수선충당금-반환받는-방법-8ea93de8",
+    "article_url": "/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
+    "calculator_ids": [],
+    "calculator_urls": [],
+    "status": "not_required",
+    "updated_at": "2026-07-15T12:24:01+09:00"
+  },
+  {
+    "article_slug": "아파트-관리비-항목별-확인-방법-c9789557",
+    "article_url": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
+    "calculator_ids": [],
+    "calculator_urls": [],
+    "status": "not_required",
+    "updated_at": "2026-07-15T12:24:01+09:00"
+  },
+  {
+    "article_slug": "전기요금-누진제-계산과-절약-방법-cfa9a817",
+    "article_url": "/articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+    "calculator_ids": [
+      "electricity-cost"
+    ],
+    "calculator_urls": [
+      "/calculators/electricity-cost.html"
+    ],
+    "status": "linked",
+    "updated_at": "2026-07-15T12:24:01+09:00"
+  },
+  {
+    "article_slug": "수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc",
+    "article_url": "/articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+    "calculator_ids": [],
+    "calculator_urls": [],
+    "status": "requested",
+    "updated_at": "2026-07-15T12:24:02+09:00"
+  },
+  {
+    "article_slug": "도시가스-요금-절약과-검침-확인-방법-da52d01c",
+    "article_url": "/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+    "calculator_ids": [],
+    "calculator_urls": [],
+    "status": "requested",
+    "updated_at": "2026-07-15T12:24:02+09:00"
+  },
+  {
+    "article_slug": "휴면예금과-숨은-보험금-찾는-방법-1e05d025",
+    "article_url": "/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+    "calculator_ids": [],
+    "calculator_urls": [],
+    "status": "not_required",
+    "updated_at": "2026-07-15T12:24:02+09:00"
+  },
+  {
+    "article_slug": "자동이체-할인과-납부일-관리-방법-c93c4d41",
+    "article_url": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+    "calculator_ids": [],
+    "calculator_urls": [],
+    "status": "not_required",
+    "updated_at": "2026-07-15T12:24:03+09:00"
+  },
+  {
+    "article_slug": "통신비-선택약정-할인-확인-방법-f3a6ecd2",
+    "article_url": "/articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html",
+    "calculator_ids": [],
+    "calculator_urls": [],
+    "status": "not_required",
+    "updated_at": "2026-07-15T12:24:03+09:00"
+  },
+  {
+    "article_slug": "신용카드-포인트-현금화-방법-1c5c3966",
+    "article_url": "/articles/신용카드-포인트-현금화-방법-1c5c3966.html",
+    "calculator_ids": [],
+    "calculator_urls": [],
+    "status": "not_required",
+    "updated_at": "2026-07-15T12:24:03+09:00"
+  },
+  {
+    "article_slug": "건강보험료-환급금-조회-방법-eab36122",
+    "article_url": "/articles/건강보험료-환급금-조회-방법-eab36122.html",
+    "calculator_ids": [],
+    "calculator_urls": [],
+    "status": "not_required",
+    "updated_at": "2026-07-15T12:24:03+09:00"
+  },
+  {
+    "article_slug": "국세-환급금-조회와-수령-방법-52402287",
+    "article_url": "/articles/국세-환급금-조회와-수령-방법-52402287.html",
+    "calculator_ids": [],
+    "calculator_urls": [],
+    "status": "not_required",
+    "updated_at": "2026-07-15T12:24:04+09:00"
+  },
+  {
+    "article_slug": "지방세-환급금-조회-방법-f570e7b4",
+    "article_url": "/articles/지방세-환급금-조회-방법-f570e7b4.html",
+    "calculator_ids": [],
+    "calculator_urls": [],
+    "status": "not_required",
+    "updated_at": "2026-07-15T12:24:05+09:00"
+  },
+  {
+    "article_slug": "에너지바우처-신청-대상과-방법-503ef955",
+    "article_url": "/articles/에너지바우처-신청-대상과-방법-503ef955.html",
+    "calculator_ids": [],
+    "calculator_urls": [],
+    "status": "not_required",
+    "updated_at": "2026-07-15T12:24:06+09:00"
+  },
+  {
+    "article_slug": "근로장려금-신청-조건과-지급-일정-7f9a0dee",
+    "article_url": "/articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html",
+    "calculator_ids": [],
+    "calculator_urls": [],
+    "status": "not_required",
+    "updated_at": "2026-07-15T12:24:07+09:00"
+  },
+  {
+    "article_slug": "자녀장려금-신청-조건과-준비-서류-b64950f4",
+    "article_url": "/articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html",
+    "calculator_ids": [],
+    "calculator_urls": [],
+    "status": "not_required",
+    "updated_at": "2026-07-15T12:24:07+09:00"
+  },
+  {
+    "article_slug": "기초연금-신청-조건과-예상-금액-4aeed037",
+    "article_url": "/articles/기초연금-신청-조건과-예상-금액-4aeed037.html",
+    "calculator_ids": [],
+    "calculator_urls": [],
+    "status": "requested",
+    "updated_at": "2026-07-15T12:24:08+09:00"
+  },
+  {
+    "article_slug": "퇴직금-계산과-지급-기준-b30bc4f9",
+    "article_url": "/articles/퇴직금-계산과-지급-기준-b30bc4f9.html",
+    "calculator_ids": [
+      "severance-pay"
+    ],
+    "calculator_urls": [
+      "/calculators/severance-pay.html"
+    ],
+    "status": "linked",
+    "updated_at": "2026-07-15T12:24:08+09:00"
+  },
+  {
+    "article_slug": "연차수당-계산과-지급-기준-9e610a82",
+    "article_url": "/articles/연차수당-계산과-지급-기준-9e610a82.html",
+    "calculator_ids": [],
+    "calculator_urls": [],
+    "status": "requested",
+    "updated_at": "2026-07-15T12:24:08+09:00"
+  },
+  {
+    "article_slug": "실업급여-신청-조건과-절차-d8a12400",
+    "article_url": "/articles/실업급여-신청-조건과-절차-d8a12400.html",
+    "calculator_ids": [
+      "salary-net-pay"
+    ],
+    "calculator_urls": [
+      "/calculators/salary-net-pay.html"
+    ],
+    "status": "linked",
+    "updated_at": "2026-07-15T12:24:08+09:00"
+  },
+  {
+    "article_slug": "월급-실수령액-계산-방법-305d9058",
+    "article_url": "/articles/월급-실수령액-계산-방법-305d9058.html",
+    "calculator_ids": [
+      "salary-net-pay"
+    ],
+    "calculator_urls": [
+      "/calculators/salary-net-pay.html"
+    ],
+    "status": "linked",
+    "updated_at": "2026-07-15T12:24:09+09:00"
+  },
+  {
+    "article_slug": "factory-runner-integration",
+    "article_url": "/articles/factory-runner-integration.html",
+    "calculator_ids": [],
+    "calculator_urls": [],
+    "status": "not_required",
+    "updated_at": "2026-07-16T01:18:43+09:00"
   }
 ]

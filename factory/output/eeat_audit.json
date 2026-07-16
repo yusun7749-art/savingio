@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-15T09:33:06+09:00",
+  "generated_at": "2026-07-17T00:13:52+09:00",
   "article_count": 219,
-  "average_score": 90,
+  "average_score": 91,
   "pass": true,
   "minimum_score": 70,
   "articles": [
@@ -228,10 +228,10 @@
     },
     {
       "path": "articles/beginner-ai-side-hustles.html",
-      "score": 12,
+      "score": 25,
       "pass": false,
       "checks": {
-        "clear_title": false,
+        "clear_title": true,
         "updated_date": false,
         "source_signal": false,
         "contact_path": false,
@@ -241,7 +241,6 @@
         "practical_content": false
       },
       "issues": [
-        "clear_title",
         "updated_date",
         "source_signal",
         "contact_path",
@@ -716,10 +715,10 @@
     },
     {
       "path": "articles/credit-score-tips.html",
-      "score": 12,
+      "score": 25,
       "pass": false,
       "checks": {
-        "clear_title": false,
+        "clear_title": true,
         "updated_date": false,
         "source_signal": false,
         "contact_path": false,
@@ -729,7 +728,6 @@
         "practical_content": false
       },
       "issues": [
-        "clear_title",
         "updated_date",
         "source_signal",
         "contact_path",
@@ -1177,10 +1175,10 @@
     },
     {
       "path": "articles/energy-voucher-balance-use-2026.html",
-      "score": 12,
+      "score": 25,
       "pass": false,
       "checks": {
-        "clear_title": false,
+        "clear_title": true,
         "updated_date": false,
         "source_signal": false,
         "contact_path": false,
@@ -1190,7 +1188,6 @@
         "practical_content": false
       },
       "issues": [
-        "clear_title",
         "updated_date",
         "source_signal",
         "contact_path",
@@ -1399,10 +1396,10 @@
     },
     {
       "path": "articles/government-benefit-alert-guide-2026.html",
-      "score": 12,
+      "score": 25,
       "pass": false,
       "checks": {
-        "clear_title": false,
+        "clear_title": true,
         "updated_date": false,
         "source_signal": false,
         "contact_path": false,
@@ -1412,7 +1409,6 @@
         "practical_content": false
       },
       "issues": [
-        "clear_title",
         "updated_date",
         "source_signal",
         "contact_path",
@@ -1471,10 +1467,10 @@
     },
     {
       "path": "articles/government-support-scam-warning-2026.html",
-      "score": 12,
+      "score": 25,
       "pass": false,
       "checks": {
-        "clear_title": false,
+        "clear_title": true,
         "updated_date": false,
         "source_signal": false,
         "contact_path": false,
@@ -1484,7 +1480,6 @@
         "practical_content": false
       },
       "issues": [
-        "clear_title",
         "updated_date",
         "source_signal",
         "contact_path",
@@ -1597,10 +1592,10 @@
     },
     {
       "path": "articles/health-insurance-refund.html",
-      "score": 12,
+      "score": 25,
       "pass": false,
       "checks": {
-        "clear_title": false,
+        "clear_title": true,
         "updated_date": false,
         "source_signal": false,
         "contact_path": false,
@@ -1610,7 +1605,6 @@
         "practical_content": false
       },
       "issues": [
-        "clear_title",
         "updated_date",
         "source_signal",
         "contact_path",
@@ -2003,10 +1997,10 @@
     },
     {
       "path": "articles/local-tax-refund.html",
-      "score": 12,
+      "score": 25,
       "pass": false,
       "checks": {
-        "clear_title": false,
+        "clear_title": true,
         "updated_date": false,
         "source_signal": false,
         "contact_path": false,
@@ -2016,7 +2010,6 @@
         "practical_content": false
       },
       "issues": [
-        "clear_title",
         "updated_date",
         "source_signal",
         "contact_path",
@@ -2279,10 +2272,10 @@
     },
     {
       "path": "articles/online-income-ideas-for-beginners.html",
-      "score": 12,
+      "score": 25,
       "pass": false,
       "checks": {
-        "clear_title": false,
+        "clear_title": true,
         "updated_date": false,
         "source_signal": false,
         "contact_path": false,
@@ -2292,7 +2285,6 @@
         "practical_content": false
       },
       "issues": [
-        "clear_title",
         "updated_date",
         "source_signal",
         "contact_path",
@@ -2469,10 +2461,10 @@
     },
     {
       "path": "articles/property-tax-electronic-notice-2026.html",
-      "score": 12,
+      "score": 25,
       "pass": false,
       "checks": {
-        "clear_title": false,
+        "clear_title": true,
         "updated_date": false,
         "source_signal": false,
         "contact_path": false,
@@ -2482,7 +2474,6 @@
         "practical_content": false
       },
       "issues": [
-        "clear_title",
         "updated_date",
         "source_signal",
         "contact_path",
@@ -2541,10 +2532,10 @@
     },
     {
       "path": "articles/property-tax-july-checklist-2026.html",
-      "score": 12,
+      "score": 25,
       "pass": false,
       "checks": {
-        "clear_title": false,
+        "clear_title": true,
         "updated_date": false,
         "source_signal": false,
         "contact_path": false,
@@ -2554,7 +2545,6 @@
         "practical_content": false
       },
       "issues": [
-        "clear_title",
         "updated_date",
         "source_signal",
         "contact_path",
@@ -2613,10 +2603,10 @@
     },
     {
       "path": "articles/reduce-electricity-bill.html",
-      "score": 12,
+      "score": 25,
       "pass": false,
       "checks": {
-        "clear_title": false,
+        "clear_title": true,
         "updated_date": false,
         "source_signal": false,
         "contact_path": false,
@@ -2626,7 +2616,6 @@
         "practical_content": false
       },
       "issues": [
-        "clear_title",
         "updated_date",
         "source_signal",
         "contact_path",
@@ -3141,10 +3130,10 @@
     },
     {
       "path": "articles/summer-electricity-usage-check-2026.html",
-      "score": 12,
+      "score": 25,
       "pass": false,
       "checks": {
-        "clear_title": false,
+        "clear_title": true,
         "updated_date": false,
         "source_signal": false,
         "contact_path": false,
@@ -3154,7 +3143,6 @@
         "practical_content": false
       },
       "issues": [
-        "clear_title",
         "updated_date",
         "source_signal",
         "contact_path",
@@ -3399,10 +3387,10 @@
     },
     {
       "path": "articles/vat-final-return-deadline-2026.html",
-      "score": 12,
+      "score": 25,
       "pass": false,
       "checks": {
-        "clear_title": false,
+        "clear_title": true,
         "updated_date": false,
         "source_signal": false,
         "contact_path": false,
@@ -3412,7 +3400,6 @@
         "practical_content": false
       },
       "issues": [
-        "clear_title",
         "updated_date",
         "source_signal",
         "contact_path",
@@ -3455,10 +3442,10 @@
     },
     {
       "path": "articles/vat-input-tax-deduction-guide-2026.html",
-      "score": 12,
+      "score": 25,
       "pass": false,
       "checks": {
-        "clear_title": false,
+        "clear_title": true,
         "updated_date": false,
         "source_signal": false,
         "contact_path": false,
@@ -3468,7 +3455,6 @@
         "practical_content": false
       },
       "issues": [
-        "clear_title",
         "updated_date",
         "source_signal",
         "contact_path",

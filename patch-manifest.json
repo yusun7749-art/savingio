@@ -1,0 +1,8 @@
+{
+  "version": "V1.2",
+  "title": "Unify Factory Inbox output paths",
+  "files": [
+    "factory/factory_inbox_runner.py",
+    "16-RESTART-FACTORY-INBOX-V1.2.bat"
+  ]
+}

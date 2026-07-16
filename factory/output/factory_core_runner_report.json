@@ -1,0 +1,23 @@
+{
+  "status": "failed",
+  "mode": "manager_executor",
+  "count": 1,
+  "topics": [
+    "factory runner integration"
+  ],
+  "completed_stages": [
+    "planning",
+    "research",
+    "writer",
+    "seo",
+    "calculator",
+    "image",
+    "qa1",
+    "qa2"
+  ],
+  "failed_stage": "qa2",
+  "executor_report": "factory/output/core_factory_run.json",
+  "article_paths": [],
+  "finished_at": "2026-07-16T01:18:43+09:00",
+  "pass": false
+}

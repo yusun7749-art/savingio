@@ -1,67 +1,92 @@
 {
-  "version": "2.020",
-  "created_at": "2026-07-14T09:15:32+00:00",
-  "file_count": 12,
+  "version": "2.044",
+  "created_at": "2026-07-15T12:06:32+09:00",
+  "file_count": 17,
   "files": [
     {
       "path": "factory/output/plan.json",
-      "bytes": 804,
-      "sha256": "970ca38ebd20052f0f66e58c00d4a2319da0f282dfa2a8f65a492cead153d692"
+      "bytes": 953,
+      "sha256": "3acafa872cba6b393a83f856420b01c7802b997a2c76090394f764aa5d1dc2b6"
     },
     {
       "path": "factory/output/research.json",
-      "bytes": 1257,
-      "sha256": "eaf331e7c0ab5f4642edb844fac288e683eeacc407999d03e5ff0c3a50bc94b8"
+      "bytes": 1248,
+      "sha256": "8cbe7ebb0b01acfff8a4082cfb991c938b38aedba25f2b635f277ebc6b304734"
     },
     {
       "path": "factory/output/seo.json",
-      "bytes": 957,
-      "sha256": "7b87ebb7e1a8b17aae74a31d25d30c843960fc4387a66dcc5421513d277af056"
+      "bytes": 1181,
+      "sha256": "bd7925ba58270d32c1d6d4cf731e2e78143c7bbd9772d4e86980120bb14e77fc"
     },
     {
       "path": "factory/output/qa_report.json",
-      "bytes": 2356,
-      "sha256": "5b0ff82b3e0f0101b52e4ec6fc08f46061c0e154bf95893b31231dd368adbc17"
+      "bytes": 2485,
+      "sha256": "16d1e98009598d3094e874485f18d615a246f6a7f3310cdcdb87e0b63c79ca39"
     },
     {
       "path": "factory/output/rewrite_attempts.json",
-      "bytes": 20,
-      "sha256": "a3bbf4eff799d82fd95ba14585d9f283a3dc047ee0de584211d27a37c633882d"
+      "bytes": 22,
+      "sha256": "d9fa9bd61b267ae643c4be83e0ecfac8f182d1dc5376e507207c01102d44d78e"
     },
     {
       "path": "factory/output/duplicate_report.json",
-      "bytes": 385,
-      "sha256": "c53a3c87356497c7397cfdd5c2c26f415f9d86ebe2cefb34f8df4e1b3b590b0e"
+      "bytes": 107,
+      "sha256": "1cc7d3ba99cd1164de23de016a4df83f9fd5377f86543d1060390d58fb72b566"
     },
     {
       "path": "factory/output/related_links.json",
-      "bytes": 1213,
-      "sha256": "7717fb6171e414cb9505059f4bb46b0e7343221b08778761d0824551a336fdf1"
+      "bytes": 1314,
+      "sha256": "881d28e7be542cbdc419648c045401dcc77626b3fdd52470e3455a17b3e9e8dd"
     },
     {
       "path": "factory/output/draft.html",
-      "bytes": 9541,
-      "sha256": "b9f2aef6c18d01ae4e79d0151f9bcd98b912bff1359c36889ded8684c7975b66"
+      "bytes": 10234,
+      "sha256": "687998c288c0b7c9049358f6ec7e86bf00efeec77f9fc691ef7c93081caadf0c"
     },
     {
       "path": "factory/output/article_catalog.json",
-      "bytes": 53679,
-      "sha256": "00b0ab049a30faae2788f62917cc98d20d50a5054916aa947a39aaf6f5bc0f7c"
+      "bytes": 55219,
+      "sha256": "e6dcba66636193e16c8e8b88b04fe5355f344ca6c68a37c1faf939720384409f"
     },
     {
-      "path": "factory/output/drafts/전기요금-절약-c861d77b.html",
-      "bytes": 9541,
-      "sha256": "b9f2aef6c18d01ae4e79d0151f9bcd98b912bff1359c36889ded8684c7975b66"
+      "path": "factory/output/drafts/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "bytes": 10234,
+      "sha256": "687998c288c0b7c9049358f6ec7e86bf00efeec77f9fc691ef7c93081caadf0c"
     },
     {
       "path": "factory/output/cms_manifest.json",
-      "bytes": 268,
-      "sha256": "700db76a34f3e974eb088e26a65decadb3b1879efc00fcf002f5ea24c77a5147"
+      "bytes": 329,
+      "sha256": "ce10c965105726c23e4693cfadbac09f5e8ab05e3ddc53ecb8649de9ecd4085b"
     },
     {
-      "path": "factory/output/commit-전기요금-절약-c861d77b.cmd",
-      "bytes": 481,
-      "sha256": "c70ee6e2eb449737c1034bfc1313570b972a452fa87b5c3829463690d45b5218"
+      "path": "factory/output/staging/자동이체-할인과-납부일-관리-방법-c93c4d41/article.html",
+      "bytes": 10234,
+      "sha256": "687998c288c0b7c9049358f6ec7e86bf00efeec77f9fc691ef7c93081caadf0c"
+    },
+    {
+      "path": "factory/output/staging/자동이체-할인과-납부일-관리-방법-c93c4d41/manifest.json",
+      "bytes": 697,
+      "sha256": "dbe7e73d69b74570408764bff898e812895a922ce2226edb47a5f0a7d3a88ead"
+    },
+    {
+      "path": "factory/output/commit-자동이체-할인과-납부일-관리-방법-c93c4d41.cmd",
+      "bytes": 728,
+      "sha256": "7bd64529fad277581678399cd69bd17ec09ac3fbe9570ac2583b4ff25b0f5c9c"
+    },
+    {
+      "path": "ads.txt",
+      "bytes": 58,
+      "sha256": "161feb2efb7ff2e90c47e6724bfd8dd822e16f1e1e26a9ba855ef840722cdd06"
+    },
+    {
+      "path": "factory/config/adsense_identity.json",
+      "bytes": 488,
+      "sha256": "0916fdb1f3abf6e3007970344dc06b442f940b24bf53cf2438ce218cb6909bea"
+    },
+    {
+      "path": "factory/output/adsense/adsense_lock_report.json",
+      "bytes": 11331,
+      "sha256": "ccd4ef40d804c54f98b23ef1b3eacdaca77f172b22359e4bfedc56700f2b7d71"
     }
   ]
 }

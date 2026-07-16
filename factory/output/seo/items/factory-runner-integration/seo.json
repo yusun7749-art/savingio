@@ -1,0 +1,26 @@
+{
+  "title": "factory runner integration",
+  "description": "factory runner integration의 조건, 적용 대상, 확인 순서, 사례, FAQ와 공식 근거 확인 방법을 정리했습니다.",
+  "slug": "factory-runner-integration",
+  "canonical": "https://savingio.com/articles/factory-runner-integration.html",
+  "keywords": [
+    "factory runner integration",
+    "생활비 절약",
+    "guide",
+    "Savingio"
+  ],
+  "robots": "index,follow",
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "factory runner integration",
+    "description": "factory runner integration의 조건, 적용 대상, 확인 순서, 사례, FAQ와 공식 근거 확인 방법을 정리했습니다.",
+    "mainEntityOfPage": "https://savingio.com/articles/factory-runner-integration.html",
+    "inLanguage": "ko-KR",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Savingio",
+      "url": "https://savingio.com"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "topic": "도시가스 요금 절약과 검침 확인 방법",
+  "slug": "도시가스-요금-절약과-검침-확인-방법-da52d01c",
+  "article_url": "/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+  "calculators": [],
+  "generation_request": {
+    "request_id": "1671bb7f054a437bb48468a82c9297aa",
+    "topic": "도시가스 요금 절약과 검침 확인 방법",
+    "article_slug": "도시가스-요금-절약과-검침-확인-방법-da52d01c",
+    "category": "utility",
+    "reason": "missing_calculator",
+    "status": "requested",
+    "requirements": {
+      "must_link_to_article": true,
+      "must_return_related_articles": true,
+      "must_include_next_action": true,
+      "must_include_formula_explanation": true,
+      "must_pass_calculator_qa": true
+    },
+    "created_at": "2026-07-15T12:24:02+09:00"
+  },
+  "status": "requested",
+  "created_at": "2026-07-15T12:24:02+09:00"
+}

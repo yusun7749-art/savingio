@@ -1,0 +1,96 @@
+{
+  "version": "1.1.0",
+  "patch": "PATCH-V2.057-HOMEPAGE-BRAND.zip",
+  "started_at": "2026-07-17T00:12:56+09:00",
+  "status": "deployed",
+  "pass": true,
+  "changed_files": [
+    "index.html"
+  ],
+  "steps": [
+    {
+      "command": [
+        "C:\\Users\\VIEW LIFE\\AppData\\Local\\Programs\\Python\\Python313\\pythonw.exe",
+        "-m",
+        "compileall",
+        "-q",
+        "factory"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "name": "python_compile",
+      "pass": true
+    },
+    {
+      "command": [
+        "C:\\Users\\VIEW LIFE\\AppData\\Local\\Programs\\Python\\Python313\\pythonw.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "factory/tests"
+      ],
+      "returncode": 0,
+      "stdout": "........................................................................ [ 24%]\n........................................................................ [ 49%]\n........................................................................ [ 74%]\n........................................................................ [ 99%]\n..                                                                       [100%]\n290 passed in 100.96s (0:01:40)",
+      "stderr": "",
+      "name": "factory_tests",
+      "pass": true
+    },
+    {
+      "command": [
+        "git",
+        "add",
+        "--",
+        "index.html"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it",
+      "name": "git_stage",
+      "pass": true
+    },
+    {
+      "command": [
+        "git",
+        "commit",
+        "-m",
+        "Factory Inbox: Savingio homepage brand message"
+      ],
+      "returncode": 0,
+      "stdout": "[main 59ddfec] Factory Inbox: Savingio homepage brand message\n 1 file changed, 3 insertions(+), 3 deletions(-)",
+      "stderr": "",
+      "name": "git_commit",
+      "pass": true
+    },
+    {
+      "command": [
+        "git",
+        "push",
+        "origin",
+        "main"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "To https://github.com/yusun7749-art/savingio.git\n   290ce30..59ddfec  main -> main",
+      "name": "git_push",
+      "pass": true
+    }
+  ],
+  "manifest": {
+    "version": "V2.057",
+    "title": "Savingio homepage brand message",
+    "files": [
+      "index.html"
+    ],
+    "expected_url": "https://savingio.com/",
+    "verification_text": [
+      "생활 속 돈 문제,",
+      "돈이 나가는 순간도, 돈을 아낄 수 있는 순간도, 받을 수 있는 지원금도.",
+      "Savingio는 어려운 용어보다 지금 내 상황부터 해결해 드립니다."
+    ],
+    "sha256": {
+      "index.html": "e0cdeae302ee90ee34a1f047df4e62d2b2376689e13be85923a34a8929bf1d4e"
+    }
+  },
+  "finished_at": "2026-07-17T00:14:42+09:00"
+}

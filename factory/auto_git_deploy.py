@@ -47,6 +47,7 @@ class Change:
 
 def _run(root: Path, args: list[str], timeout: int = 900) -> dict:
     try:
+        creationflags = subprocess.CREATE_NO_WINDOW if os.name == "nt" else 0
         proc = subprocess.run(
             args,
             cwd=root,
@@ -56,6 +57,7 @@ def _run(root: Path, args: list[str], timeout: int = 900) -> dict:
             errors="replace",
             check=False,
             timeout=timeout,
+            creationflags=creationflags,
         )
         return {
             "command": args,
@@ -90,11 +92,13 @@ def _parse_porcelain_z(raw: bytes) -> list[Change]:
 
 
 def git_changes(root: Path) -> list[Change]:
+    creationflags = subprocess.CREATE_NO_WINDOW if os.name == "nt" else 0
     proc = subprocess.run(
         ["git", "status", "--porcelain=v1", "-z", "--untracked-files=all"],
         cwd=root,
         capture_output=True,
         check=False,
+        creationflags=creationflags,
     )
     if proc.returncode != 0:
         raise RuntimeError(proc.stderr.decode("utf-8", errors="replace") or "git_status_failed")
@@ -121,8 +125,10 @@ def select_release_changes(
     *,
     include_deletions: bool = False,
     extra_excludes: Iterable[str] = (),
+    include_paths: Iterable[str] = (),
 ) -> tuple[list[Change], list[Change], list[Change]]:
     excludes = set(DEFAULT_EXCLUDES) | {value.replace("\\", "/").strip("/") for value in extra_excludes if value}
+    includes = {value.replace("\\", "/").strip("/") for value in include_paths if value}
     selected: list[Change] = []
     excluded: list[Change] = []
     blocked: list[Change] = []
@@ -130,6 +136,9 @@ def select_release_changes(
         path = change.path.replace("\\", "/").strip("/")
         if is_blocked_secret(path):
             blocked.append(change)
+            continue
+        if includes and not any(_matches_prefix(path, prefix) for prefix in includes):
+            excluded.append(change)
             continue
         if any(_matches_prefix(path, prefix) for prefix in excludes):
             excluded.append(change)
@@ -204,6 +213,7 @@ def auto_git_deploy(
     verify: bool = True,
     include_deletions: bool = False,
     message: str | None = None,
+    include_paths: Iterable[str] = (),
 ) -> dict:
     root = root.resolve()
     report: dict = {
@@ -232,7 +242,9 @@ def auto_git_deploy(
         return report
 
     selected, excluded, blocked = select_release_changes(
-        git_changes(root), include_deletions=include_deletions
+        git_changes(root),
+        include_deletions=include_deletions,
+        include_paths=include_paths,
     )
     report["selected_files"] = [change.path for change in selected]
     report["excluded_files"] = [change.path for change in excluded]
@@ -306,6 +318,12 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--no-verify", action="store_true")
     parser.add_argument("--include-deletions", action="store_true")
     parser.add_argument("--message", default=None)
+    parser.add_argument(
+        "--include-path",
+        action="append",
+        default=[],
+        help="Stage only this path or directory prefix. May be repeated.",
+    )
     args = parser.parse_args(argv)
     result = auto_git_deploy(
         Path(args.root),
@@ -314,6 +332,7 @@ def main(argv: list[str] | None = None) -> int:
         verify=not args.no_verify,
         include_deletions=args.include_deletions,
         message=args.message,
+        include_paths=args.include_path,
     )
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 0 if result.get("pass") else 1

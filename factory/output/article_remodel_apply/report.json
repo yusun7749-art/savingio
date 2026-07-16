@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "mode": "live_article_remodel_apply",
+  "status": "passed",
+  "pass": true,
+  "source_count": 219,
+  "applied_article_count": 0,
+  "unchanged_article_count": 219,
+  "changed_file_count": 0,
+  "changed_files": [],
+  "backup_path": "factory/backups/article_remodel/20260716-102343-794984",
+  "strict_test_report": "factory/output/article_remodel_test/report.json",
+  "post_apply_verified_count": 219,
+  "broken_internal_link_count": 0,
+  "sitemap_regeneration_required": false,
+  "sitemap_reason": "article filenames and URLs were unchanged",
+  "finished_at": "2026-07-16T10:24:09+09:00"
+}

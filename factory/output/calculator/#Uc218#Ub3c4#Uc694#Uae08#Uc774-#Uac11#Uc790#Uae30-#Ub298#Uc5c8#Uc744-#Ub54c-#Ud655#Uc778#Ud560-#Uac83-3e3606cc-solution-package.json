@@ -1,0 +1,24 @@
+{
+  "topic": "수도요금이 갑자기 늘었을 때 확인할 것",
+  "slug": "수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc",
+  "article_url": "/articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+  "calculators": [],
+  "generation_request": {
+    "request_id": "f4ad9ec5d49e451f83ecbf021dd2b3f7",
+    "topic": "수도요금이 갑자기 늘었을 때 확인할 것",
+    "article_slug": "수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc",
+    "category": "utility",
+    "reason": "missing_calculator",
+    "status": "requested",
+    "requirements": {
+      "must_link_to_article": true,
+      "must_return_related_articles": true,
+      "must_include_next_action": true,
+      "must_include_formula_explanation": true,
+      "must_pass_calculator_qa": true
+    },
+    "created_at": "2026-07-15T12:24:02+09:00"
+  },
+  "status": "requested",
+  "created_at": "2026-07-15T12:24:02+09:00"
+}

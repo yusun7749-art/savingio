@@ -204,7 +204,7 @@
           "name": "OPENAI_API_KEY",
           "configured": true,
           "length": 12,
-          "fingerprint": "6863878384"
+          "fingerprint": "1949108368"
         }
       ],
       "optional_env_state": []
@@ -214,5 +214,5 @@
   "total_count": 6,
   "git_repository_ready": true,
   "all_required_integrations_ready": false,
-  "checked_at": "2026-07-15T09:33:17+09:00"
+  "checked_at": "2026-07-17T00:14:25+09:00"
 }

@@ -1,0 +1,19 @@
+{
+  "version": "V3.003",
+  "feature": "Command Factory V3",
+  "implemented": [
+    "command.json engine",
+    "factory-command inbox watcher",
+    "replace_text",
+    "write_file",
+    "delete_file",
+    "copy_file",
+    "mkdir",
+    "automatic backup",
+    "success/failed classification",
+    "JSON reports",
+    "Python compile gate"
+  ],
+  "publisher_id_changed": false,
+  "publisher_id": "pub-7605193583747751"
+}

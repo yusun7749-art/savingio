@@ -1,0 +1,7 @@
+Savingio Factory Inbox
+
+1. Copy this patch into the root of savingio-live.
+2. Run 12-INSTALL-FACTORY-INBOX.bat once.
+3. After installation, put future patch ZIP files into savingio-live\factory-inbox.
+4. The Factory automatically applies only manifest-listed files, creates backups, runs compile/tests, commits, pushes, and moves the patch to processed or failed.
+5. Reports are saved under factory\output\inbox.

@@ -1,0 +1,41 @@
+{
+  "handoff_id": "6555965051144fadb092fe896c4beb31",
+  "workflow_id": "0ca48204fa6d412f844403ab65278bfa",
+  "sender": "seo",
+  "receiver": "image",
+  "status": "ready",
+  "blockers": [],
+  "payload": {
+    "title": "장기수선충당금",
+    "description": "장기수선충당금의 조건, 적용 대상, 확인 순서, 사례, FAQ와 공식 근거 확인 방법을 정리했습니다.",
+    "slug": "장기수선충당금-298a523e",
+    "canonical": "https://savingio.com/articles/장기수선충당금-298a523e.html",
+    "keywords": [
+      "장기수선충당금",
+      "생활비 절약",
+      "guide",
+      "Savingio"
+    ],
+    "robots": "index,follow",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "장기수선충당금",
+      "description": "장기수선충당금의 조건, 적용 대상, 확인 순서, 사례, FAQ와 공식 근거 확인 방법을 정리했습니다.",
+      "mainEntityOfPage": "https://savingio.com/articles/장기수선충당금-298a523e.html",
+      "inLanguage": "ko-KR",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Savingio",
+        "url": "https://savingio.com"
+      }
+    }
+  },
+  "created_at": "2026-07-15T11:51:16+09:00",
+  "gate": {
+    "department": "seo",
+    "pass": true,
+    "blockers": [],
+    "checked_at": "2026-07-15T11:51:16+09:00"
+  }
+}

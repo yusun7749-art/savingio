@@ -1,11 +1,11 @@
 {
-  "factory_version": "2.020",
-  "topic": "전기요금 절약",
+  "factory_version": "2.044",
+  "topic": "자동이체 할인과 납부일 관리 방법",
   "plan": {
-    "topic": "전기요금 절약",
-    "slug": "전기요금-절약-c861d77b",
+    "topic": "자동이체 할인과 납부일 관리 방법",
+    "slug": "자동이체-할인과-납부일-관리-방법-c93c4d41",
     "article_type": "guide",
-    "category": "공과금",
+    "category": "생활비 절약",
     "search_intent": "문제 해결",
     "audience": "생활비 절약 정보를 찾는 사용자",
     "required_sections": [
@@ -26,41 +26,28 @@
     ],
     "target_chars": 5000,
     "research_questions": [
-      "전기요금 절약의 핵심 조건은 무엇인가?",
-      "전기요금 절약의 실행 순서는 무엇인가?"
+      "자동이체 할인과 납부일 관리 방법의 핵심 조건은 무엇인가?",
+      "자동이체 할인과 납부일 관리 방법의 실행 순서는 무엇인가?"
     ],
     "matched_keywords": [
-      "절약"
+      "방법"
     ],
     "risk_level": "medium",
-    "created_at": "2026-07-14T09:15:32+00:00",
+    "created_at": "2026-07-15T12:06:24+09:00",
     "status": "planned"
   },
   "research": {
-    "topic": "전기요금 절약",
+    "topic": "자동이체 할인과 납부일 관리 방법",
     "questions": [
-      "전기요금 절약의 핵심 조건은 무엇인가?",
-      "전기요금 절약의 실행 순서는 무엇인가?",
-      "전기요금 절약의 대상·제외 조건은 무엇인가?",
-      "전기요금 절약의 기준일과 최신 변경사항은 무엇인가?",
-      "전기요금 절약의 신청·변경·해지 순서는 무엇인가?",
-      "전기요금 절약에서 반드시 보관할 증빙은 무엇인가?",
-      "전기요금 절약의 공식 문의처와 이의 절차는 무엇인가?"
+      "자동이체 할인과 납부일 관리 방법의 핵심 조건은 무엇인가?",
+      "자동이체 할인과 납부일 관리 방법의 실행 순서는 무엇인가?",
+      "자동이체 할인과 납부일 관리 방법의 대상·제외 조건은 무엇인가?",
+      "자동이체 할인과 납부일 관리 방법의 기준일과 최신 변경사항은 무엇인가?",
+      "자동이체 할인과 납부일 관리 방법의 신청·변경·해지 순서는 무엇인가?",
+      "자동이체 할인과 납부일 관리 방법에서 반드시 보관할 증빙은 무엇인가?",
+      "자동이체 할인과 납부일 관리 방법의 공식 문의처와 이의 절차는 무엇인가?"
     ],
-    "official_source_candidates": [
-      {
-        "name": "한국전력",
-        "domain": "kepco.co.kr",
-        "priority": 1,
-        "matched_keywords": [
-          "전기",
-          "전기요금"
-        ],
-        "status": "needs_verification",
-        "url": "",
-        "claim": ""
-      }
-    ],
+    "official_source_candidates": [],
     "evidence": [],
     "verified_evidence_count": 0,
     "official_evidence_count": 0,
@@ -71,27 +58,26 @@
     "ready_for_publish": false,
     "research_status": "verification_required",
     "safety_notice": "검증되지 않은 수치·법령·지원금액은 확정 표현을 금지합니다.",
-    "created_at": "2026-07-14T09:15:32+00:00"
+    "created_at": "2026-07-15T12:06:24+09:00"
   },
   "seo": {
-    "title": "전기요금 절약",
-    "description": "전기요금 절약의 조건, 적용 대상, 확인 순서, 사례, FAQ와 공식 근거 확인 방법을 정리했습니다.",
-    "slug": "전기요금-절약-c861d77b",
-    "canonical": "https://savingio.com/articles/전기요금-절약-c861d77b.html",
+    "title": "자동이체 할인과 납부일 관리 방법",
+    "description": "자동이체 할인과 납부일 관리 방법의 조건, 적용 대상, 확인 순서, 사례, FAQ와 공식 근거 확인 방법을 정리했습니다.",
+    "slug": "자동이체-할인과-납부일-관리-방법-c93c4d41",
+    "canonical": "https://savingio.com/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
     "keywords": [
-      "전기요금 절약",
-      "공과금",
-      "guide",
+      "자동이체 할인과 납부일 관리 방법",
       "생활비 절약",
+      "guide",
       "Savingio"
     ],
     "robots": "index,follow",
     "schema": {
       "@context": "https://schema.org",
       "@type": "Article",
-      "headline": "전기요금 절약",
-      "description": "전기요금 절약의 조건, 적용 대상, 확인 순서, 사례, FAQ와 공식 근거 확인 방법을 정리했습니다.",
-      "mainEntityOfPage": "https://savingio.com/articles/전기요금-절약-c861d77b.html",
+      "headline": "자동이체 할인과 납부일 관리 방법",
+      "description": "자동이체 할인과 납부일 관리 방법의 조건, 적용 대상, 확인 순서, 사례, FAQ와 공식 근거 확인 방법을 정리했습니다.",
+      "mainEntityOfPage": "https://savingio.com/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
       "inLanguage": "ko-KR",
       "publisher": {
         "@type": "Organization",
@@ -227,21 +213,12 @@
     ],
     "issues": [],
     "critical_failures": [],
-    "text_chars": 2925,
-    "checked_at": "2026-07-14T09:15:32+00:00"
+    "text_chars": 3123,
+    "checked_at": "2026-07-15T12:06:24+09:00"
   },
   "duplicate": {
-    "duplicate": true,
-    "matches": [
-      {
-        "slug": "#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6",
-        "title": "전기요금 절약",
-        "path": "articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
-        "title_similarity": 1.0,
-        "body_similarity": 0.0534,
-        "blocking": true
-      }
-    ],
+    "duplicate": false,
+    "matches": [],
     "thresholds": {
       "title": 0.92,
       "body": 0.94
@@ -249,126 +226,4994 @@
   },
   "related": [
     {
-      "slug": "#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6",
-      "title": "전기요금 절약",
-      "path": "articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
-      "url": "/articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html"
+      "slug": "credit-score-management",
+      "title": "신용점수 관리 방법",
+      "path": "articles/credit-score-management.html",
+      "url": "/articles/credit-score-management.html"
     },
     {
-      "slug": "electricity-bill-saving",
-      "title": "전기요금 절약 방법, 고지서부터 가전 사용량까지 확인하는 순서",
-      "path": "articles/electricity-bill-saving.html",
-      "url": "/articles/electricity-bill-saving.html"
+      "slug": "summer-electricity-tier-check-2026",
+      "title": "여름철 전기요금 누진구간 확인과 사용량 관리 방법",
+      "path": "articles/summer-electricity-tier-check-2026.html",
+      "url": "/articles/summer-electricity-tier-check-2026.html"
     },
     {
-      "slug": "dryer-summer-electricity-saving",
-      "title": "건조기 여름 전기세 절약 방법",
-      "path": "articles/dryer-summer-electricity-saving.html",
-      "url": "/articles/dryer-summer-electricity-saving.html"
+      "slug": "automatic-payment-saving",
+      "title": "자동이체·자동결제 정리하는 방법, 매달 빠져나가는 돈 찾기",
+      "path": "articles/automatic-payment-saving.html",
+      "url": "/articles/automatic-payment-saving.html"
     },
     {
-      "slug": "heating-bill-saving",
-      "title": "겨울철 난방비 절약 방법",
-      "path": "articles/heating-bill-saving.html",
-      "url": "/articles/heating-bill-saving.html"
+      "slug": "beginner-money-management",
+      "title": "처음 시작하는 돈 관리 방법",
+      "path": "articles/beginner-money-management.html",
+      "url": "/articles/beginner-money-management.html"
     },
     {
-      "slug": "grocery-saving-tips",
-      "title": "생활 속 식비 절약 습관",
-      "path": "articles/grocery-saving-tips.html",
-      "url": "/articles/grocery-saving-tips.html"
+      "slug": "energy-voucher-balance-check-2026",
+      "title": "2026년 에너지바우처 잔액 조회와 사용처 확인 방법",
+      "path": "articles/energy-voucher-balance-check-2026.html",
+      "url": "/articles/energy-voucher-balance-check-2026.html"
     }
   ],
+  "calculator_package": {
+    "topic": "자동이체 할인과 납부일 관리 방법",
+    "slug": "자동이체-할인과-납부일-관리-방법-c93c4d41",
+    "article_url": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+    "calculators": [],
+    "generation_request": null,
+    "status": "not_required",
+    "created_at": "2026-07-15T12:06:24+09:00"
+  },
+  "calculator_cms": {
+    "registered": true,
+    "link_count": 0,
+    "path": "factory/output/calculator/article_calculator_links.json"
+  },
   "cms": {
-    "article_path": "factory/output/drafts/전기요금-절약-c861d77b.html",
-    "canonical": "https://savingio.com/articles/전기요금-절약-c861d77b.html",
+    "article_path": "factory/output/drafts/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+    "canonical": "https://savingio.com/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
     "qa_score": 100,
     "evidence_score": 0,
     "published": false,
-    "saved_at": "2026-07-14T09:15:32+00:00"
+    "saved_at": "2026-07-15T12:06:24+09:00"
   },
-  "staging": null,
+  "staging": {
+    "slug": "자동이체-할인과-납부일-관리-방법-c93c4d41",
+    "title": "자동이체 할인과 납부일 관리 방법",
+    "canonical": "https://savingio.com/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+    "qa_score": 100,
+    "evidence_score": 0,
+    "ready_for_publish": false,
+    "duplicate_blocked": false,
+    "content_hash": "35e3a9c676ed07e3b3020cb16e7a4121d986a8826b9009742d3f5aa5c889820a",
+    "dna_version": "2.016",
+    "approval_token": "GQH71z2E5WftOb9ufZKdfKFn",
+    "status": "staged",
+    "created_at": "2026-07-15T12:06:24+09:00",
+    "article_path": "factory/output/staging/자동이체-할인과-납부일-관리-방법-c93c4d41/article.html"
+  },
   "rewrite_attempts": [],
   "release_manifest": {
-    "version": "2.020",
-    "created_at": "2026-07-14T09:15:32+00:00",
-    "file_count": 12,
+    "version": "2.044",
+    "created_at": "2026-07-15T12:06:32+09:00",
+    "file_count": 17,
     "files": [
       {
         "path": "factory/output/plan.json",
-        "bytes": 804,
-        "sha256": "970ca38ebd20052f0f66e58c00d4a2319da0f282dfa2a8f65a492cead153d692"
+        "bytes": 953,
+        "sha256": "3acafa872cba6b393a83f856420b01c7802b997a2c76090394f764aa5d1dc2b6"
       },
       {
         "path": "factory/output/research.json",
-        "bytes": 1257,
-        "sha256": "eaf331e7c0ab5f4642edb844fac288e683eeacc407999d03e5ff0c3a50bc94b8"
+        "bytes": 1248,
+        "sha256": "8cbe7ebb0b01acfff8a4082cfb991c938b38aedba25f2b635f277ebc6b304734"
       },
       {
         "path": "factory/output/seo.json",
-        "bytes": 957,
-        "sha256": "7b87ebb7e1a8b17aae74a31d25d30c843960fc4387a66dcc5421513d277af056"
+        "bytes": 1181,
+        "sha256": "bd7925ba58270d32c1d6d4cf731e2e78143c7bbd9772d4e86980120bb14e77fc"
       },
       {
         "path": "factory/output/qa_report.json",
-        "bytes": 2356,
-        "sha256": "5b0ff82b3e0f0101b52e4ec6fc08f46061c0e154bf95893b31231dd368adbc17"
+        "bytes": 2485,
+        "sha256": "16d1e98009598d3094e874485f18d615a246f6a7f3310cdcdb87e0b63c79ca39"
       },
       {
         "path": "factory/output/rewrite_attempts.json",
-        "bytes": 20,
-        "sha256": "a3bbf4eff799d82fd95ba14585d9f283a3dc047ee0de584211d27a37c633882d"
+        "bytes": 22,
+        "sha256": "d9fa9bd61b267ae643c4be83e0ecfac8f182d1dc5376e507207c01102d44d78e"
       },
       {
         "path": "factory/output/duplicate_report.json",
-        "bytes": 385,
-        "sha256": "c53a3c87356497c7397cfdd5c2c26f415f9d86ebe2cefb34f8df4e1b3b590b0e"
+        "bytes": 107,
+        "sha256": "1cc7d3ba99cd1164de23de016a4df83f9fd5377f86543d1060390d58fb72b566"
       },
       {
         "path": "factory/output/related_links.json",
-        "bytes": 1213,
-        "sha256": "7717fb6171e414cb9505059f4bb46b0e7343221b08778761d0824551a336fdf1"
+        "bytes": 1314,
+        "sha256": "881d28e7be542cbdc419648c045401dcc77626b3fdd52470e3455a17b3e9e8dd"
       },
       {
         "path": "factory/output/draft.html",
-        "bytes": 9541,
-        "sha256": "b9f2aef6c18d01ae4e79d0151f9bcd98b912bff1359c36889ded8684c7975b66"
+        "bytes": 10234,
+        "sha256": "687998c288c0b7c9049358f6ec7e86bf00efeec77f9fc691ef7c93081caadf0c"
       },
       {
         "path": "factory/output/article_catalog.json",
-        "bytes": 53679,
-        "sha256": "00b0ab049a30faae2788f62917cc98d20d50a5054916aa947a39aaf6f5bc0f7c"
+        "bytes": 55219,
+        "sha256": "e6dcba66636193e16c8e8b88b04fe5355f344ca6c68a37c1faf939720384409f"
       },
       {
-        "path": "factory/output/drafts/전기요금-절약-c861d77b.html",
-        "bytes": 9541,
-        "sha256": "b9f2aef6c18d01ae4e79d0151f9bcd98b912bff1359c36889ded8684c7975b66"
+        "path": "factory/output/drafts/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+        "bytes": 10234,
+        "sha256": "687998c288c0b7c9049358f6ec7e86bf00efeec77f9fc691ef7c93081caadf0c"
       },
       {
         "path": "factory/output/cms_manifest.json",
-        "bytes": 268,
-        "sha256": "700db76a34f3e974eb088e26a65decadb3b1879efc00fcf002f5ea24c77a5147"
+        "bytes": 329,
+        "sha256": "ce10c965105726c23e4693cfadbac09f5e8ab05e3ddc53ecb8649de9ecd4085b"
       },
       {
-        "path": "factory/output/commit-전기요금-절약-c861d77b.cmd",
-        "bytes": 481,
-        "sha256": "c70ee6e2eb449737c1034bfc1313570b972a452fa87b5c3829463690d45b5218"
+        "path": "factory/output/staging/자동이체-할인과-납부일-관리-방법-c93c4d41/article.html",
+        "bytes": 10234,
+        "sha256": "687998c288c0b7c9049358f6ec7e86bf00efeec77f9fc691ef7c93081caadf0c"
+      },
+      {
+        "path": "factory/output/staging/자동이체-할인과-납부일-관리-방법-c93c4d41/manifest.json",
+        "bytes": 697,
+        "sha256": "dbe7e73d69b74570408764bff898e812895a922ce2226edb47a5f0a7d3a88ead"
+      },
+      {
+        "path": "factory/output/commit-자동이체-할인과-납부일-관리-방법-c93c4d41.cmd",
+        "bytes": 728,
+        "sha256": "7bd64529fad277581678399cd69bd17ec09ac3fbe9570ac2583b4ff25b0f5c9c"
+      },
+      {
+        "path": "ads.txt",
+        "bytes": 58,
+        "sha256": "161feb2efb7ff2e90c47e6724bfd8dd822e16f1e1e26a9ba855ef840722cdd06"
+      },
+      {
+        "path": "factory/config/adsense_identity.json",
+        "bytes": 488,
+        "sha256": "0916fdb1f3abf6e3007970344dc06b442f940b24bf53cf2438ce218cb6909bea"
+      },
+      {
+        "path": "factory/output/adsense/adsense_lock_report.json",
+        "bytes": 11331,
+        "sha256": "ccd4ef40d804c54f98b23ef1b3eacdaca77f172b22359e4bfedc56700f2b7d71"
       }
     ]
   },
   "git_commands": [
-    "git add -- \"factory/output/plan.json\" \"factory/output/research.json\" \"factory/output/seo.json\" \"factory/output/qa_report.json\" \"factory/output/rewrite_attempts.json\" \"factory/output/duplicate_report.json\" \"factory/output/related_links.json\" \"factory/output/draft.html\" \"factory/output/article_catalog.json\" \"factory/output/drafts/전기요금-절약-c861d77b.html\" \"factory/output/cms_manifest.json\"",
-    "git commit -m \"Factory article: 전기요금-절약-c861d77b\"",
+    "git add -- \"factory/output/plan.json\" \"factory/output/research.json\" \"factory/output/seo.json\" \"factory/output/qa_report.json\" \"factory/output/rewrite_attempts.json\" \"factory/output/duplicate_report.json\" \"factory/output/related_links.json\" \"factory/output/draft.html\" \"factory/output/article_catalog.json\" \"factory/output/drafts/자동이체-할인과-납부일-관리-방법-c93c4d41.html\" \"factory/output/cms_manifest.json\" \"factory/output/staging/자동이체-할인과-납부일-관리-방법-c93c4d41/article.html\" \"factory/output/staging/자동이체-할인과-납부일-관리-방법-c93c4d41/manifest.json\"",
+    "git commit -m \"Factory article: 자동이체-할인과-납부일-관리-방법-c93c4d41\"",
     "git push"
   ],
-  "git_script": "factory/output/commit-전기요금-절약-c861d77b.cmd",
+  "git_script": "factory/output/commit-자동이체-할인과-납부일-관리-방법-c93c4d41.cmd",
+  "adsense_lock": {
+    "pre": {
+      "pass": true,
+      "blockers": [],
+      "repair": {
+        "changed_count": 0,
+        "changed": [],
+        "checked_at": "2026-07-15T12:06:22+09:00"
+      },
+      "ads_txt": {
+        "path": "ads.txt",
+        "exists": true,
+        "valid": true,
+        "executed": true,
+        "checked_at": "2026-07-15T12:06:22+09:00"
+      },
+      "index": {
+        "pass": true,
+        "ids": [
+          "ca-pub-7605193583747751"
+        ],
+        "changed": false,
+        "executed": false,
+        "checked_at": "2026-07-15T12:06:22+09:00"
+      },
+      "scan": {
+        "pass": true,
+        "official_publisher_id": "pub-7605193583747751",
+        "official_client": "ca-pub-7605193583747751",
+        "files_with_ids": [
+          {
+            "path": "00-READ-ME-FIRST.txt",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "ads.txt",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory_manifest.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "index.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.047-RECOVERY-NOTE.txt",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.048-BASELINE-HOUSE.md",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.050-PATCH-MANIFEST.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.052-RELEASE-NOTE.md",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.053-PATCH-MANIFEST.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.053-RELEASE-NOTE.md",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "VERSION.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/MASTER_ROADMAP_V2_044.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/MASTER_ROADMAP_V2_045.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/MASTER_ROADMAP_V2_046.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/QA_V2_042.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/QA_V2_043.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/QA_V2_050.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/QA_V2_052.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/QA_V2_055.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/README_FACTORY.md",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/config/adsense_identity.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/config/auto_release_rules.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/도시가스-요금-절약과-검침-확인-방법-da52d01c.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/아파트-관리비-항목별-확인-방법-c9789557.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/장기수선충당금-반환받는-방법-8ea93de8.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/전기요금-누진제-계산과-절약-방법-cfa9a817.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/휴면예금과-숨은-보험금-찾는-방법-1e05d025.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/automation_cycle_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/auto_release_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/deployment_gate_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/deployment_integrity_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/deployment_report_v2_044.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/deployment_report_v2_045.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/deployment_report_v2_046.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/draft.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/one_click_release_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/release_pipeline_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/run_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/start_factory_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/V2.047_RELEASE_REPORT.md",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/tests/test_v2043_deployment_integrity.py",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/tests/test_v2044.py",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/tests/test_v2045.py",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/adsense/adsense_lock_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/adsense/index_report.json",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/adsense/publisher_scan.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/아파트-관리비-항목별-확인-방법-c9789557.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/장기수선충당금-반환받는-방법-8ea93de8.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/도시가스-요금-절약과-검침-확인-방법-da52d01c/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/아파트-관리비-항목별-확인-방법-c9789557/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/장기수선충당금-반환받는-방법-8ea93de8/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/전기요금-누진제-계산과-절약-방법-cfa9a817/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/휴면예금과-숨은-보험금-찾는-방법-1e05d025/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/deploy-to-analytics.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          }
+        ],
+        "invalid_count": 0,
+        "invalid": [],
+        "checked_at": "2026-07-15T12:06:24+09:00"
+      },
+      "status": "pass",
+      "checked_at": "2026-07-15T12:06:24+09:00"
+    },
+    "post": {
+      "pass": true,
+      "blockers": [],
+      "repair": {
+        "changed_count": 0,
+        "changed": [],
+        "checked_at": "2026-07-15T12:06:27+09:00"
+      },
+      "ads_txt": {
+        "path": "ads.txt",
+        "exists": true,
+        "valid": true,
+        "executed": true,
+        "checked_at": "2026-07-15T12:06:27+09:00"
+      },
+      "index": {
+        "pass": true,
+        "ids": [
+          "ca-pub-7605193583747751"
+        ],
+        "changed": false,
+        "executed": false,
+        "checked_at": "2026-07-15T12:06:27+09:00"
+      },
+      "scan": {
+        "pass": true,
+        "official_publisher_id": "pub-7605193583747751",
+        "official_client": "ca-pub-7605193583747751",
+        "files_with_ids": [
+          {
+            "path": "00-READ-ME-FIRST.txt",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "ads.txt",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory_manifest.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "index.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.047-RECOVERY-NOTE.txt",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.048-BASELINE-HOUSE.md",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.050-PATCH-MANIFEST.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.052-RELEASE-NOTE.md",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.053-PATCH-MANIFEST.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.053-RELEASE-NOTE.md",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "VERSION.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/MASTER_ROADMAP_V2_044.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/MASTER_ROADMAP_V2_045.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/MASTER_ROADMAP_V2_046.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/QA_V2_042.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/QA_V2_043.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/QA_V2_050.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/QA_V2_052.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/QA_V2_055.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/README_FACTORY.md",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/config/adsense_identity.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/config/auto_release_rules.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/도시가스-요금-절약과-검침-확인-방법-da52d01c.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/아파트-관리비-항목별-확인-방법-c9789557.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/장기수선충당금-반환받는-방법-8ea93de8.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/전기요금-누진제-계산과-절약-방법-cfa9a817.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/휴면예금과-숨은-보험금-찾는-방법-1e05d025.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/automation_cycle_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/auto_release_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/deployment_gate_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/deployment_integrity_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/deployment_report_v2_044.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/deployment_report_v2_045.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/deployment_report_v2_046.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/draft.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/one_click_release_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/release_pipeline_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/run_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/start_factory_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/V2.047_RELEASE_REPORT.md",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/tests/test_v2043_deployment_integrity.py",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/tests/test_v2044.py",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/tests/test_v2045.py",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/adsense/adsense_lock_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/adsense/index_report.json",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/adsense/publisher_scan.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/아파트-관리비-항목별-확인-방법-c9789557.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/장기수선충당금-반환받는-방법-8ea93de8.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/도시가스-요금-절약과-검침-확인-방법-da52d01c/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/아파트-관리비-항목별-확인-방법-c9789557/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/자동이체-할인과-납부일-관리-방법-c93c4d41/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/장기수선충당금-반환받는-방법-8ea93de8/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/전기요금-누진제-계산과-절약-방법-cfa9a817/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/휴면예금과-숨은-보험금-찾는-방법-1e05d025/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/deploy-to-analytics.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          }
+        ],
+        "invalid_count": 0,
+        "invalid": [],
+        "checked_at": "2026-07-15T12:06:28+09:00"
+      },
+      "status": "pass",
+      "checked_at": "2026-07-15T12:06:28+09:00"
+    }
+  },
+  "deployment_integrity": {
+    "pass": true,
+    "status": "pass",
+    "checks": {
+      "publisher_lock_pass": true,
+      "doctor_pass": true,
+      "critical_files_present": true,
+      "ads_txt_exact": true
+    },
+    "blockers": [],
+    "missing": [],
+    "critical_files": [
+      {
+        "path": "ads.txt",
+        "size": 58,
+        "sha256": "161feb2efb7ff2e90c47e6724bfd8dd822e16f1e1e26a9ba855ef840722cdd06"
+      },
+      {
+        "path": "index.html",
+        "size": 106483,
+        "sha256": "1cd5c3aec90989643f3e71041a0ae80d1630c79d6f27093a4fdd4dfd331d4954"
+      },
+      {
+        "path": "factory/config/adsense_identity.json",
+        "size": 488,
+        "sha256": "0916fdb1f3abf6e3007970344dc06b442f940b24bf53cf2438ce218cb6909bea"
+      },
+      {
+        "path": "factory/adsense_manager.py",
+        "size": 5451,
+        "sha256": "1bea76139ef01243b834263496d7a4564397606e7dac99a513a43f4745bc0b06"
+      },
+      {
+        "path": "factory/pipeline.py",
+        "size": 7756,
+        "sha256": "c9831bd22cb78c061aadc99d5c1765dbe00c8ecf80dcdaca00ce30efc5180fdf"
+      },
+      {
+        "path": "factory/publication.py",
+        "size": 4035,
+        "sha256": "ebf6a43edfbdfddd2dd0e8b51f6434b5e46868c8ce548818cb7a071839b4bf44"
+      },
+      {
+        "path": "factory/deployment_gate.py",
+        "size": 2069,
+        "sha256": "c35075f083fd9831945f910068c0d683ea3a64a6a96ba221156a80296bf3ecd8"
+      },
+      {
+        "path": "factory/deploy.py",
+        "size": 926,
+        "sha256": "7e148edb3a5b07206f69c65a3f03527f131d5be479c7709fa4fafcfe230b25de"
+      }
+    ],
+    "publisher_lock": {
+      "pass": true,
+      "blockers": [],
+      "repair": {
+        "changed_count": 0,
+        "changed": [],
+        "checked_at": "2026-07-15T12:06:30+09:00"
+      },
+      "ads_txt": {
+        "path": "ads.txt",
+        "exists": true,
+        "valid": true,
+        "executed": true,
+        "checked_at": "2026-07-15T12:06:30+09:00"
+      },
+      "index": {
+        "pass": true,
+        "ids": [
+          "ca-pub-7605193583747751"
+        ],
+        "changed": false,
+        "executed": false,
+        "checked_at": "2026-07-15T12:06:30+09:00"
+      },
+      "scan": {
+        "pass": true,
+        "official_publisher_id": "pub-7605193583747751",
+        "official_client": "ca-pub-7605193583747751",
+        "files_with_ids": [
+          {
+            "path": "00-READ-ME-FIRST.txt",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "ads.txt",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory_manifest.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "index.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.047-RECOVERY-NOTE.txt",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.048-BASELINE-HOUSE.md",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.050-PATCH-MANIFEST.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.052-RELEASE-NOTE.md",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.053-PATCH-MANIFEST.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.053-RELEASE-NOTE.md",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "VERSION.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/MASTER_ROADMAP_V2_044.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/MASTER_ROADMAP_V2_045.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/MASTER_ROADMAP_V2_046.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/QA_V2_042.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/QA_V2_043.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/QA_V2_050.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/QA_V2_052.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/QA_V2_055.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/README_FACTORY.md",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/config/adsense_identity.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/config/auto_release_rules.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/도시가스-요금-절약과-검침-확인-방법-da52d01c.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/아파트-관리비-항목별-확인-방법-c9789557.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/장기수선충당금-반환받는-방법-8ea93de8.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/전기요금-누진제-계산과-절약-방법-cfa9a817.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/휴면예금과-숨은-보험금-찾는-방법-1e05d025.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/automation_cycle_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/auto_release_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/deployment_gate_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/deployment_integrity_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/deployment_report_v2_044.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/deployment_report_v2_045.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/deployment_report_v2_046.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/draft.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/one_click_release_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/release_pipeline_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/run_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/start_factory_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/V2.047_RELEASE_REPORT.md",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/tests/test_v2043_deployment_integrity.py",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/tests/test_v2044.py",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/tests/test_v2045.py",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/adsense/adsense_lock_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/adsense/index_report.json",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/adsense/publisher_scan.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/아파트-관리비-항목별-확인-방법-c9789557.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/장기수선충당금-반환받는-방법-8ea93de8.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/도시가스-요금-절약과-검침-확인-방법-da52d01c/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/아파트-관리비-항목별-확인-방법-c9789557/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/자동이체-할인과-납부일-관리-방법-c93c4d41/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/장기수선충당금-반환받는-방법-8ea93de8/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/전기요금-누진제-계산과-절약-방법-cfa9a817/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/휴면예금과-숨은-보험금-찾는-방법-1e05d025/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/deploy-to-analytics.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          }
+        ],
+        "invalid_count": 0,
+        "invalid": [],
+        "checked_at": "2026-07-15T12:06:31+09:00"
+      },
+      "status": "pass",
+      "checked_at": "2026-07-15T12:06:31+09:00"
+    },
+    "doctor": {
+      "pass": true,
+      "checks": [
+        {
+          "name": "module:adsense_manager.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:auto_release.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:planner.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:researcher.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:writer.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:seo.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:qa.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cms.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:git_engine.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:deploy.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:pipeline.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:orchestrator.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:state_db.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:scheduler.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:incremental.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:dna_versioning.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:run.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:registry.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:dedupe.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:link_graph.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:publication.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:release.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:adsense_audit.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:eeat.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:indexability.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:source_registry.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:research_collector.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:research_qa.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:research_report.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:research_department.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:web_connector.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:openapi_connector.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:research_cache.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:research_web_runner.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:image_queue.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:image_adapters.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:deployment_gate.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:search_evidence.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:evidence_merge.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:image_result_linker.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:git_executor.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cloudflare_deploy.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:publish_executor.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:wordpress_connector.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:publish_package.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:wordpress_publisher.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cloudflare_pages_client.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cloudflare_deploy_verify.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:service_readiness.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:deployment_receipt.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:git_release_executor.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cloudflare_deployment_monitor.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:release_coordinator.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:wordpress_taxonomy.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:wordpress_upsert.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:runtime_config.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:wordpress_release_plan.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cloudflare_health_check.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:government_api_adapters.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:research_ingestion_pipeline.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:image_provider_result.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:google_service_auth.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:search_console_engine.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:ga4_engine.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:analytics_dashboard.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:content_performance_optimizer.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:google_jwt_auth.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:search_console_api.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:ga4_api.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:analytics_scheduler.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:keyword_rank_tracker.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:analytics_rework_bridge.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:google_token_exchange.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:google_access_token.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:article_optimization_executor.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:scheduler_installer.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:department_handoff.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:department_gate.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:automation_cycle.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:auto_rework_engine.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cycle_dashboard.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_import.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_dashboard.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_ai.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_task_router.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_core.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_html_rewriter.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_qa_recheck.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_cms_update.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_rework_pipeline.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:approved_release_gate.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cloudflare_new_deployment.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:release_journal.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:post_deploy_verifier.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:approved_republish.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:end_to_end_audit.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:regression_manifest.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:final_release_manifest.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:final_release_coordinator.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:master_checklist.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:external_integration_registry.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:integration_preflight.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:live_verification_plan.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:adsense_report_import.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:adsense_revenue_bridge.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:production_readiness_board.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:operations_snapshot.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:incident_detector.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:recovery_planner.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:retry_policy.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:operations_center.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:credential_onboarding.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:connector_verification_runner.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:connector_verification_receipt.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:production_activation_gate.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:external_verification_center.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_registry.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_intent_engine.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_matcher.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_generation_request.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_solution_package.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_cms_registry.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_qa.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_analytics.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_hq.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:deployment_integrity.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "config:adsense_identity.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:article_dna.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:article_types.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:qa_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:research_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:seo_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:factory_manifest.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:orchestrator_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:publication_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:adsense_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:source_registry.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:research_quality_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:web_connector_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:openapi_sources.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:search_evidence_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:deployment_execution_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:external_services.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:release_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:wordpress_publish_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:government_api_services.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:site_health_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:analytics_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:analytics_schedule_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:automation_execution_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:department_gate_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:revenue_ai_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:revenue_rework_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:approved_republish_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:final_release_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:external_integration_registry.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:production_readiness_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:operations_monitoring_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:external_verification_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:calculator_registry.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:calculator_hq_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:auto_release_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "sqlite-schema",
+          "pass": true,
+          "detail": "tables=['approvals', 'content_registry', 'dead_letter', 'dna_versions', 'queue', 'runs', 'sqlite_sequence']"
+        },
+        {
+          "name": "deprecated-api-scan",
+          "pass": true,
+          "detail": "findings=0"
+        },
+        {
+          "name": "internal-link-scan",
+          "pass": true,
+          "detail": "nodes=219 broken=0 orphans=31"
+        }
+      ],
+      "module_count": 126,
+      "config_count": 36,
+      "adsense_lock": null,
+      "deprecated_api_scan": {
+        "pass": true,
+        "finding_count": 0,
+        "findings": [],
+        "scanned_root": "factory"
+      },
+      "link_graph_summary": {
+        "nodes": 219,
+        "edges": 7113,
+        "broken": 0,
+        "orphans": 31
+      }
+    },
+    "official_publisher_id": "pub-7605193583747751",
+    "checked_at": "2026-07-15T12:06:32+09:00"
+  },
   "deploy": {
     "provider": "Cloudflare Pages",
     "mode": "git_push_auto_deploy",
     "git_connected": true,
     "manual_deploy_required": false,
     "safe_to_deploy": true,
-    "instruction": "Factory가 생성한 선택 커밋 스크립트를 검토한 뒤 실행하면 Cloudflare Pages가 자동 배포합니다."
+    "publisher_lock": {
+      "pass": true,
+      "blockers": [],
+      "repair": {
+        "changed_count": 0,
+        "changed": []
+      },
+      "ads_txt": {
+        "path": "ads.txt",
+        "exists": true,
+        "valid": true,
+        "executed": false,
+        "checked_at": "2026-07-15T12:06:32+09:00"
+      },
+      "index": {
+        "pass": true,
+        "ids": [
+          "ca-pub-7605193583747751"
+        ],
+        "changed": false,
+        "executed": false,
+        "checked_at": "2026-07-15T12:06:32+09:00"
+      },
+      "scan": {
+        "pass": true,
+        "official_publisher_id": "pub-7605193583747751",
+        "official_client": "ca-pub-7605193583747751",
+        "files_with_ids": [
+          {
+            "path": "00-READ-ME-FIRST.txt",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "ads.txt",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory_manifest.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "index.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.047-RECOVERY-NOTE.txt",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.048-BASELINE-HOUSE.md",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.050-PATCH-MANIFEST.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.052-RELEASE-NOTE.md",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.053-PATCH-MANIFEST.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "V2.053-RELEASE-NOTE.md",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "VERSION.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/MASTER_ROADMAP_V2_044.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/MASTER_ROADMAP_V2_045.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/MASTER_ROADMAP_V2_046.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/QA_V2_042.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/QA_V2_043.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/QA_V2_050.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/QA_V2_052.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/QA_V2_055.json",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/README_FACTORY.md",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/config/adsense_identity.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/config/auto_release_rules.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/도시가스-요금-절약과-검침-확인-방법-da52d01c.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/아파트-관리비-항목별-확인-방법-c9789557.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/장기수선충당금-반환받는-방법-8ea93de8.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/전기요금-누진제-계산과-절약-방법-cfa9a817.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/history/휴면예금과-숨은-보험금-찾는-방법-1e05d025.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/automation_cycle_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/auto_release_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/deployment_gate_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/deployment_integrity_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/deployment_report_v2_044.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/deployment_report_v2_045.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/deployment_report_v2_046.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/draft.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/one_click_release_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/release_pipeline_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/run_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/start_factory_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/V2.047_RELEASE_REPORT.md",
+            "ids": [
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/tests/test_v2043_deployment_integrity.py",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/tests/test_v2044.py",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/tests/test_v2045.py",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/adsense/adsense_lock_report.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/adsense/index_report.json",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/adsense/publisher_scan.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/아파트-관리비-항목별-확인-방법-c9789557.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/장기수선충당금-반환받는-방법-8ea93de8.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/drafts/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/도시가스-요금-절약과-검침-확인-방법-da52d01c/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/아파트-관리비-항목별-확인-방법-c9789557/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/자동이체-할인과-납부일-관리-방법-c93c4d41/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/장기수선충당금-반환받는-방법-8ea93de8/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/전기요금-누진제-계산과-절약-방법-cfa9a817/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/staging/휴면예금과-숨은-보험금-찾는-방법-1e05d025/article.html",
+            "ids": [
+              "ca-pub-7605193583747751"
+            ]
+          },
+          {
+            "path": "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/deploy-to-analytics.json",
+            "ids": [
+              "ca-pub-7605193583747751",
+              "pub-7605193583747751"
+            ]
+          }
+        ],
+        "invalid_count": 0,
+        "invalid": [],
+        "checked_at": "2026-07-15T12:06:33+09:00"
+      },
+      "status": "pass",
+      "checked_at": "2026-07-15T12:06:33+09:00"
+    },
+    "doctor": {
+      "pass": true,
+      "checks": [
+        {
+          "name": "module:adsense_manager.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:auto_release.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:planner.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:researcher.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:writer.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:seo.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:qa.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cms.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:git_engine.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:deploy.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:pipeline.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:orchestrator.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:state_db.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:scheduler.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:incremental.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:dna_versioning.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:run.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:registry.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:dedupe.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:link_graph.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:publication.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:release.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:adsense_audit.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:eeat.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:indexability.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:source_registry.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:research_collector.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:research_qa.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:research_report.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:research_department.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:web_connector.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:openapi_connector.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:research_cache.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:research_web_runner.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:image_queue.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:image_adapters.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:deployment_gate.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:search_evidence.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:evidence_merge.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:image_result_linker.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:git_executor.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cloudflare_deploy.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:publish_executor.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:wordpress_connector.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:publish_package.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:wordpress_publisher.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cloudflare_pages_client.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cloudflare_deploy_verify.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:service_readiness.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:deployment_receipt.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:git_release_executor.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cloudflare_deployment_monitor.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:release_coordinator.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:wordpress_taxonomy.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:wordpress_upsert.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:runtime_config.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:wordpress_release_plan.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cloudflare_health_check.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:government_api_adapters.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:research_ingestion_pipeline.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:image_provider_result.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:google_service_auth.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:search_console_engine.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:ga4_engine.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:analytics_dashboard.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:content_performance_optimizer.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:google_jwt_auth.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:search_console_api.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:ga4_api.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:analytics_scheduler.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:keyword_rank_tracker.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:analytics_rework_bridge.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:google_token_exchange.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:google_access_token.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:article_optimization_executor.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:scheduler_installer.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:department_handoff.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:department_gate.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:automation_cycle.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:auto_rework_engine.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cycle_dashboard.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_import.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_dashboard.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_ai.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_task_router.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_core.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_html_rewriter.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_qa_recheck.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_cms_update.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:revenue_rework_pipeline.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:approved_release_gate.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:cloudflare_new_deployment.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:release_journal.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:post_deploy_verifier.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:approved_republish.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:end_to_end_audit.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:regression_manifest.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:final_release_manifest.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:final_release_coordinator.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:master_checklist.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:external_integration_registry.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:integration_preflight.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:live_verification_plan.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:adsense_report_import.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:adsense_revenue_bridge.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:production_readiness_board.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:operations_snapshot.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:incident_detector.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:recovery_planner.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:retry_policy.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:operations_center.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:credential_onboarding.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:connector_verification_runner.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:connector_verification_receipt.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:production_activation_gate.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:external_verification_center.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_registry.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_intent_engine.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_matcher.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_generation_request.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_solution_package.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_cms_registry.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_qa.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_analytics.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:calculator_hq.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "module:deployment_integrity.py",
+          "pass": true,
+          "detail": "compiled"
+        },
+        {
+          "name": "config:adsense_identity.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:article_dna.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:article_types.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:qa_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:research_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:seo_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:factory_manifest.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:orchestrator_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:publication_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:adsense_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:source_registry.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:research_quality_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:web_connector_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:openapi_sources.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:search_evidence_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:deployment_execution_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:external_services.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:release_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:wordpress_publish_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:government_api_services.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:site_health_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:analytics_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:analytics_schedule_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:automation_execution_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:department_gate_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:revenue_ai_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:revenue_rework_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:approved_republish_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:final_release_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:external_integration_registry.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:production_readiness_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:operations_monitoring_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:external_verification_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:calculator_registry.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:calculator_hq_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "config:auto_release_rules.json",
+          "pass": true,
+          "detail": "valid json"
+        },
+        {
+          "name": "sqlite-schema",
+          "pass": true,
+          "detail": "tables=['approvals', 'content_registry', 'dead_letter', 'dna_versions', 'queue', 'runs', 'sqlite_sequence']"
+        },
+        {
+          "name": "deprecated-api-scan",
+          "pass": true,
+          "detail": "findings=0"
+        },
+        {
+          "name": "internal-link-scan",
+          "pass": true,
+          "detail": "nodes=219 broken=0 orphans=31"
+        }
+      ],
+      "module_count": 126,
+      "config_count": 36,
+      "adsense_lock": null,
+      "deprecated_api_scan": {
+        "pass": true,
+        "finding_count": 0,
+        "findings": [],
+        "scanned_root": "factory"
+      },
+      "link_graph_summary": {
+        "nodes": 219,
+        "edges": 7113,
+        "broken": 0,
+        "orphans": 31
+      }
+    },
+    "integrity": {
+      "pass": true,
+      "status": "pass",
+      "checks": {
+        "publisher_lock_pass": true,
+        "doctor_pass": true,
+        "critical_files_present": true,
+        "ads_txt_exact": true
+      },
+      "blockers": [],
+      "missing": [],
+      "critical_files": [
+        {
+          "path": "ads.txt",
+          "size": 58,
+          "sha256": "161feb2efb7ff2e90c47e6724bfd8dd822e16f1e1e26a9ba855ef840722cdd06"
+        },
+        {
+          "path": "index.html",
+          "size": 106483,
+          "sha256": "1cd5c3aec90989643f3e71041a0ae80d1630c79d6f27093a4fdd4dfd331d4954"
+        },
+        {
+          "path": "factory/config/adsense_identity.json",
+          "size": 488,
+          "sha256": "0916fdb1f3abf6e3007970344dc06b442f940b24bf53cf2438ce218cb6909bea"
+        },
+        {
+          "path": "factory/adsense_manager.py",
+          "size": 5451,
+          "sha256": "1bea76139ef01243b834263496d7a4564397606e7dac99a513a43f4745bc0b06"
+        },
+        {
+          "path": "factory/pipeline.py",
+          "size": 7756,
+          "sha256": "c9831bd22cb78c061aadc99d5c1765dbe00c8ecf80dcdaca00ce30efc5180fdf"
+        },
+        {
+          "path": "factory/publication.py",
+          "size": 4035,
+          "sha256": "ebf6a43edfbdfddd2dd0e8b51f6434b5e46868c8ce548818cb7a071839b4bf44"
+        },
+        {
+          "path": "factory/deployment_gate.py",
+          "size": 2069,
+          "sha256": "c35075f083fd9831945f910068c0d683ea3a64a6a96ba221156a80296bf3ecd8"
+        },
+        {
+          "path": "factory/deploy.py",
+          "size": 926,
+          "sha256": "7e148edb3a5b07206f69c65a3f03527f131d5be479c7709fa4fafcfe230b25de"
+        }
+      ],
+      "publisher_lock": {
+        "pass": true,
+        "blockers": [],
+        "repair": {
+          "changed_count": 0,
+          "changed": []
+        },
+        "ads_txt": {
+          "path": "ads.txt",
+          "exists": true,
+          "valid": true,
+          "executed": false,
+          "checked_at": "2026-07-15T12:06:32+09:00"
+        },
+        "index": {
+          "pass": true,
+          "ids": [
+            "ca-pub-7605193583747751"
+          ],
+          "changed": false,
+          "executed": false,
+          "checked_at": "2026-07-15T12:06:32+09:00"
+        },
+        "scan": {
+          "pass": true,
+          "official_publisher_id": "pub-7605193583747751",
+          "official_client": "ca-pub-7605193583747751",
+          "files_with_ids": [
+            {
+              "path": "00-READ-ME-FIRST.txt",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "ads.txt",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory_manifest.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "index.html",
+              "ids": [
+                "ca-pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "V2.047-RECOVERY-NOTE.txt",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "V2.048-BASELINE-HOUSE.md",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "V2.050-PATCH-MANIFEST.json",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "V2.052-RELEASE-NOTE.md",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "V2.053-PATCH-MANIFEST.json",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "V2.053-RELEASE-NOTE.md",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "VERSION.json",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/MASTER_ROADMAP_V2_044.json",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/MASTER_ROADMAP_V2_045.json",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/MASTER_ROADMAP_V2_046.json",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/QA_V2_042.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/QA_V2_043.json",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/QA_V2_050.json",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/QA_V2_052.json",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/QA_V2_055.json",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/README_FACTORY.md",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/config/adsense_identity.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/config/auto_release_rules.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/history/도시가스-요금-절약과-검침-확인-방법-da52d01c.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/history/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/history/아파트-관리비-항목별-확인-방법-c9789557.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/history/장기수선충당금-반환받는-방법-8ea93de8.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/history/전기요금-누진제-계산과-절약-방법-cfa9a817.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/history/휴면예금과-숨은-보험금-찾는-방법-1e05d025.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/automation_cycle_report.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/auto_release_report.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/deployment_gate_report.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/deployment_integrity_report.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/deployment_report_v2_044.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/deployment_report_v2_045.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/deployment_report_v2_046.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/draft.html",
+              "ids": [
+                "ca-pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/one_click_release_report.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/release_pipeline_report.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/run_report.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/start_factory_report.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/V2.047_RELEASE_REPORT.md",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/tests/test_v2043_deployment_integrity.py",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/tests/test_v2044.py",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/tests/test_v2045.py",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/adsense/adsense_lock_report.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/adsense/index_report.json",
+              "ids": [
+                "ca-pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/adsense/publisher_scan.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/drafts/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+              "ids": [
+                "ca-pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/drafts/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+              "ids": [
+                "ca-pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/drafts/아파트-관리비-항목별-확인-방법-c9789557.html",
+              "ids": [
+                "ca-pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/drafts/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+              "ids": [
+                "ca-pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/drafts/장기수선충당금-반환받는-방법-8ea93de8.html",
+              "ids": [
+                "ca-pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/drafts/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+              "ids": [
+                "ca-pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/drafts/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+              "ids": [
+                "ca-pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/staging/도시가스-요금-절약과-검침-확인-방법-da52d01c/article.html",
+              "ids": [
+                "ca-pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/staging/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc/article.html",
+              "ids": [
+                "ca-pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/staging/아파트-관리비-항목별-확인-방법-c9789557/article.html",
+              "ids": [
+                "ca-pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/staging/자동이체-할인과-납부일-관리-방법-c93c4d41/article.html",
+              "ids": [
+                "ca-pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/staging/장기수선충당금-반환받는-방법-8ea93de8/article.html",
+              "ids": [
+                "ca-pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/staging/전기요금-누진제-계산과-절약-방법-cfa9a817/article.html",
+              "ids": [
+                "ca-pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/staging/휴면예금과-숨은-보험금-찾는-방법-1e05d025/article.html",
+              "ids": [
+                "ca-pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/deploy-to-analytics.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            }
+          ],
+          "invalid_count": 0,
+          "invalid": [],
+          "checked_at": "2026-07-15T12:06:33+09:00"
+        },
+        "status": "pass",
+        "checked_at": "2026-07-15T12:06:33+09:00"
+      },
+      "doctor": {
+        "pass": true,
+        "checks": [
+          {
+            "name": "module:adsense_manager.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:auto_release.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:planner.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:researcher.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:writer.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:seo.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:qa.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:cms.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:git_engine.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:deploy.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:pipeline.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:orchestrator.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:state_db.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:scheduler.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:incremental.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:dna_versioning.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:run.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:registry.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:dedupe.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:link_graph.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:publication.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:release.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:adsense_audit.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:eeat.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:indexability.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:source_registry.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:research_collector.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:research_qa.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:research_report.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:research_department.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:web_connector.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:openapi_connector.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:research_cache.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:research_web_runner.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:image_queue.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:image_adapters.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:deployment_gate.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:search_evidence.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:evidence_merge.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:image_result_linker.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:git_executor.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:cloudflare_deploy.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:publish_executor.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:wordpress_connector.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:publish_package.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:wordpress_publisher.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:cloudflare_pages_client.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:cloudflare_deploy_verify.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:service_readiness.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:deployment_receipt.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:git_release_executor.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:cloudflare_deployment_monitor.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:release_coordinator.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:wordpress_taxonomy.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:wordpress_upsert.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:runtime_config.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:wordpress_release_plan.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:cloudflare_health_check.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:government_api_adapters.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:research_ingestion_pipeline.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:image_provider_result.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:google_service_auth.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:search_console_engine.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:ga4_engine.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:analytics_dashboard.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:content_performance_optimizer.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:google_jwt_auth.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:search_console_api.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:ga4_api.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:analytics_scheduler.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:keyword_rank_tracker.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:analytics_rework_bridge.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:google_token_exchange.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:google_access_token.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:article_optimization_executor.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:scheduler_installer.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:department_handoff.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:department_gate.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:automation_cycle.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:auto_rework_engine.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:cycle_dashboard.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:revenue_import.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:revenue_dashboard.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:revenue_ai.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:revenue_task_router.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:revenue_core.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:revenue_html_rewriter.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:revenue_qa_recheck.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:revenue_cms_update.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:revenue_rework_pipeline.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:approved_release_gate.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:cloudflare_new_deployment.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:release_journal.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:post_deploy_verifier.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:approved_republish.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:end_to_end_audit.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:regression_manifest.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:final_release_manifest.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:final_release_coordinator.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:master_checklist.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:external_integration_registry.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:integration_preflight.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:live_verification_plan.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:adsense_report_import.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:adsense_revenue_bridge.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:production_readiness_board.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:operations_snapshot.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:incident_detector.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:recovery_planner.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:retry_policy.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:operations_center.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:credential_onboarding.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:connector_verification_runner.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:connector_verification_receipt.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:production_activation_gate.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:external_verification_center.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:calculator_registry.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:calculator_intent_engine.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:calculator_matcher.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:calculator_generation_request.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:calculator_solution_package.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:calculator_cms_registry.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:calculator_qa.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:calculator_analytics.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:calculator_hq.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:deployment_integrity.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "config:adsense_identity.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:article_dna.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:article_types.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:qa_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:research_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:seo_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:factory_manifest.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:orchestrator_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:publication_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:adsense_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:source_registry.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:research_quality_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:web_connector_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:openapi_sources.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:search_evidence_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:deployment_execution_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:external_services.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:release_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:wordpress_publish_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:government_api_services.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:site_health_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:analytics_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:analytics_schedule_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:automation_execution_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:department_gate_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:revenue_ai_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:revenue_rework_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:approved_republish_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:final_release_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:external_integration_registry.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:production_readiness_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:operations_monitoring_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:external_verification_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:calculator_registry.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:calculator_hq_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:auto_release_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "sqlite-schema",
+            "pass": true,
+            "detail": "tables=['approvals', 'content_registry', 'dead_letter', 'dna_versions', 'queue', 'runs', 'sqlite_sequence']"
+          },
+          {
+            "name": "deprecated-api-scan",
+            "pass": true,
+            "detail": "findings=0"
+          },
+          {
+            "name": "internal-link-scan",
+            "pass": true,
+            "detail": "nodes=219 broken=0 orphans=31"
+          }
+        ],
+        "module_count": 126,
+        "config_count": 36,
+        "adsense_lock": null,
+        "deprecated_api_scan": {
+          "pass": true,
+          "finding_count": 0,
+          "findings": [],
+          "scanned_root": "factory"
+        },
+        "link_graph_summary": {
+          "nodes": 219,
+          "edges": 7113,
+          "broken": 0,
+          "orphans": 31
+        }
+      },
+      "official_publisher_id": "pub-7605193583747751",
+      "checked_at": "2026-07-15T12:06:35+09:00"
+    },
+    "instruction": "V2.044 Deployment Release Integrity PASS. 선택 커밋 후 Cloudflare Pages 자동 배포."
   },
-  "completed_at": "2026-07-14T09:15:32+00:00"
+  "completed_at": "2026-07-15T12:06:35+09:00"
 }

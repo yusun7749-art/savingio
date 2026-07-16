@@ -1,0 +1,26 @@
+SAVINGIO COMMAND FACTORY V3
+
+1. Extract this ZIP.
+2. Copy every file and folder into the root of savingio-live.
+3. Allow overwrite if Windows asks.
+4. Double-click: 00-START-COMMAND-FACTORY-V3.bat
+
+COMMAND FOLDER
+factory-command\inbox
+
+RESULT FOLDERS
+Success: factory-command\processed
+Failure: factory-command\failed
+Reports: factory-command\reports
+Backups: factory-command\backups
+
+SUPPORTED ACTIONS
+replace_text / write_file / delete_file / copy_file / mkdir
+
+TEST
+python -m pytest factory/tests/test_command_factory_v3.py -q
+
+GIT
+git add .
+git commit -m "V3.003 add Command Factory V3 engine"
+git push

@@ -1,0 +1,24 @@
+{
+  "topic": "연차수당 계산과 지급 기준",
+  "slug": "연차수당-계산과-지급-기준-9e610a82",
+  "article_url": "/articles/연차수당-계산과-지급-기준-9e610a82.html",
+  "calculators": [],
+  "generation_request": {
+    "request_id": "7d4ccd3b8ee449b4b215f59569025c77",
+    "topic": "연차수당 계산과 지급 기준",
+    "article_slug": "연차수당-계산과-지급-기준-9e610a82",
+    "category": "life",
+    "reason": "missing_calculator",
+    "status": "requested",
+    "requirements": {
+      "must_link_to_article": true,
+      "must_return_related_articles": true,
+      "must_include_next_action": true,
+      "must_include_formula_explanation": true,
+      "must_pass_calculator_qa": true
+    },
+    "created_at": "2026-07-15T12:24:08+09:00"
+  },
+  "status": "requested",
+  "created_at": "2026-07-15T12:24:08+09:00"
+}

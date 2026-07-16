@@ -1,21 +1,21 @@
 {
-  "workflow_id": "6168ceb7e30b4587a9fc0f6fed808af7",
-  "topic": "전기요금 절약",
+  "workflow_id": "0ca48204fa6d412f844403ab65278bfa",
+  "topic": "장기수선충당금",
   "status": "blocked",
-  "handoff_count": 2,
+  "handoff_count": 11,
   "handoffs": [
     {
-      "handoff_id": "d6ec0914d8ad4aff844b9cf69565fbb4",
-      "workflow_id": "6168ceb7e30b4587a9fc0f6fed808af7",
+      "handoff_id": "fcfe65db467344969afae3ffd671b17a",
+      "workflow_id": "0ca48204fa6d412f844403ab65278bfa",
       "sender": "planning",
       "receiver": "research",
       "status": "ready",
       "blockers": [],
       "payload": {
-        "topic": "전기요금 절약",
-        "slug": "전기요금-절약-c861d77b",
+        "topic": "장기수선충당금",
+        "slug": "장기수선충당금-298a523e",
         "article_type": "guide",
-        "category": "공과금",
+        "category": "생활비 절약",
         "search_intent": "문제 해결",
         "audience": "생활비 절약 정보를 찾는 사용자",
         "required_sections": [
@@ -36,28 +36,26 @@
         ],
         "target_chars": 5000,
         "research_questions": [
-          "전기요금 절약의 핵심 조건은 무엇인가?",
-          "전기요금 절약의 실행 순서는 무엇인가?"
+          "장기수선충당금의 핵심 조건은 무엇인가?",
+          "장기수선충당금의 실행 순서는 무엇인가?"
         ],
-        "matched_keywords": [
-          "절약"
-        ],
+        "matched_keywords": [],
         "risk_level": "medium",
-        "created_at": "2026-07-14T12:49:46+00:00",
+        "created_at": "2026-07-15T11:51:16+09:00",
         "status": "planned"
       },
-      "created_at": "2026-07-14T12:49:46+00:00",
+      "created_at": "2026-07-15T11:51:16+09:00",
       "gate": {
         "department": "planning",
         "pass": true,
         "blockers": [],
-        "checked_at": "2026-07-14T12:49:46+00:00"
+        "checked_at": "2026-07-15T11:51:16+09:00"
       },
-      "path": "factory/output/handoffs/6168ceb7e30b4587a9fc0f6fed808af7/planning-to-research.json"
+      "path": "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/planning-to-research.json"
     },
     {
-      "handoff_id": "e66044ef096e43d49908b00403435a79",
-      "workflow_id": "6168ceb7e30b4587a9fc0f6fed808af7",
+      "handoff_id": "7d80fb604f2f47bc925a5da41670ba50",
+      "workflow_id": "0ca48204fa6d412f844403ab65278bfa",
       "sender": "research",
       "receiver": "writing",
       "status": "blocked",
@@ -66,31 +64,18 @@
         "research_qa_score<80"
       ],
       "payload": {
-        "topic": "전기요금 절약",
+        "topic": "장기수선충당금",
         "article_type": "guide",
         "research_questions": [
-          "전기요금 절약의 적용 대상과 제외 대상은 무엇인가?",
-          "전기요금 절약의 기준일과 최신 변경사항은 무엇인가?",
-          "전기요금 절약의 공식 신청·변경·해지 절차는 무엇인가?",
-          "전기요금 절약에서 필요한 서류와 보관해야 할 증빙은 무엇인가?",
-          "전기요금 절약의 비용, 요율, 한도, 계산 기준은 무엇인가?",
-          "전기요금 절약의 예외·주의사항·불이익은 무엇인가?",
-          "전기요금 절약 관련 공식 문의처와 이의신청 절차는 무엇인가?"
+          "장기수선충당금의 적용 대상과 제외 대상은 무엇인가?",
+          "장기수선충당금의 기준일과 최신 변경사항은 무엇인가?",
+          "장기수선충당금의 공식 신청·변경·해지 절차는 무엇인가?",
+          "장기수선충당금에서 필요한 서류와 보관해야 할 증빙은 무엇인가?",
+          "장기수선충당금의 비용, 요율, 한도, 계산 기준은 무엇인가?",
+          "장기수선충당금의 예외·주의사항·불이익은 무엇인가?",
+          "장기수선충당금 관련 공식 문의처와 이의신청 절차는 무엇인가?"
         ],
         "official_source_candidates": [
-          {
-            "name": "한국전력",
-            "domain": "kepco.co.kr",
-            "category": "utility",
-            "trust_score": 96,
-            "priority": 1,
-            "matched_keywords": [
-              "전기",
-              "전기요금"
-            ],
-            "query_templates": [],
-            "score": 115
-          },
           {
             "name": "국가법령정보센터",
             "domain": "law.go.kr",
@@ -117,58 +102,37 @@
         ],
         "query_plan": [
           {
-            "source_name": "한국전력",
-            "domain": "kepco.co.kr",
-            "query": "site:kepco.co.kr \"전기요금 절약\"",
-            "priority": 1,
-            "trust_score": 96
-          },
-          {
-            "source_name": "한국전력",
-            "domain": "kepco.co.kr",
-            "query": "site:kepco.co.kr \"전기요금 절약\" 조건",
-            "priority": 1,
-            "trust_score": 96
-          },
-          {
-            "source_name": "한국전력",
-            "domain": "kepco.co.kr",
-            "query": "site:kepco.co.kr \"전기요금 절약\" 신청",
-            "priority": 1,
-            "trust_score": 96
-          },
-          {
             "source_name": "국가법령정보센터",
             "domain": "law.go.kr",
-            "query": "site:law.go.kr \"전기요금 절약\"",
+            "query": "site:law.go.kr \"장기수선충당금\"",
             "priority": 1,
             "trust_score": 100
           },
           {
             "source_name": "국가법령정보센터",
             "domain": "law.go.kr",
-            "query": "site:law.go.kr \"전기요금 절약\" 시행령",
+            "query": "site:law.go.kr \"장기수선충당금\" 시행령",
             "priority": 1,
             "trust_score": 100
           },
           {
             "source_name": "통계청",
             "domain": "kostat.go.kr",
-            "query": "site:kostat.go.kr \"전기요금 절약\"",
+            "query": "site:kostat.go.kr \"장기수선충당금\"",
             "priority": 2,
             "trust_score": 96
           },
           {
             "source_name": "통계청",
             "domain": "kostat.go.kr",
-            "query": "site:kostat.go.kr \"전기요금 절약\" 조건",
+            "query": "site:kostat.go.kr \"장기수선충당금\" 조건",
             "priority": 2,
             "trust_score": 96
           },
           {
             "source_name": "통계청",
             "domain": "kostat.go.kr",
-            "query": "site:kostat.go.kr \"전기요금 절약\" 신청",
+            "query": "site:kostat.go.kr \"장기수선충당금\" 신청",
             "priority": 2,
             "trust_score": 96
           }
@@ -183,7 +147,7 @@
         "ready_for_writer": true,
         "ready_for_publish": false,
         "safety_notice": "검증되지 않은 수치·법령·지원금액은 확정 표현을 금지합니다.",
-        "created_at": "2026-07-14T12:49:46+00:00",
+        "created_at": "2026-07-15T11:51:16+09:00",
         "research_qa_score": 15,
         "qa": {
           "score": 15,
@@ -237,7 +201,7 @@
               "passed": true,
               "weight": 5,
               "earned": 5,
-              "detail": "8/4"
+              "detail": "5/4"
             }
           ],
           "issues": [
@@ -252,12 +216,12 @@
             "official_evidence",
             "domain_diversity"
           ],
-          "checked_at": "2026-07-14T12:49:46+00:00"
+          "checked_at": "2026-07-15T11:51:16+09:00"
         },
         "report": {
-          "topic": "전기요금 절약",
+          "topic": "장기수선충당금",
           "article_type": "guide",
-          "category": "공과금",
+          "category": "생활비 절약",
           "status": "research_rework_required",
           "research_qa": {
             "score": 15,
@@ -311,7 +275,7 @@
                 "passed": true,
                 "weight": 5,
                 "earned": 5,
-                "detail": "8/4"
+                "detail": "5/4"
               }
             ],
             "issues": [
@@ -326,23 +290,10 @@
               "official_evidence",
               "domain_diversity"
             ],
-            "checked_at": "2026-07-14T12:49:46+00:00"
+            "checked_at": "2026-07-15T11:51:16+09:00"
           },
           "key_claims": [],
           "official_sources": [
-            {
-              "name": "한국전력",
-              "domain": "kepco.co.kr",
-              "category": "utility",
-              "trust_score": 96,
-              "priority": 1,
-              "matched_keywords": [
-                "전기",
-                "전기요금"
-              ],
-              "query_templates": [],
-              "score": 115
-            },
             {
               "name": "국가법령정보센터",
               "domain": "law.go.kr",
@@ -368,68 +319,47 @@
             }
           ],
           "research_questions": [
-            "전기요금 절약의 적용 대상과 제외 대상은 무엇인가?",
-            "전기요금 절약의 기준일과 최신 변경사항은 무엇인가?",
-            "전기요금 절약의 공식 신청·변경·해지 절차는 무엇인가?",
-            "전기요금 절약에서 필요한 서류와 보관해야 할 증빙은 무엇인가?",
-            "전기요금 절약의 비용, 요율, 한도, 계산 기준은 무엇인가?",
-            "전기요금 절약의 예외·주의사항·불이익은 무엇인가?",
-            "전기요금 절약 관련 공식 문의처와 이의신청 절차는 무엇인가?"
+            "장기수선충당금의 적용 대상과 제외 대상은 무엇인가?",
+            "장기수선충당금의 기준일과 최신 변경사항은 무엇인가?",
+            "장기수선충당금의 공식 신청·변경·해지 절차는 무엇인가?",
+            "장기수선충당금에서 필요한 서류와 보관해야 할 증빙은 무엇인가?",
+            "장기수선충당금의 비용, 요율, 한도, 계산 기준은 무엇인가?",
+            "장기수선충당금의 예외·주의사항·불이익은 무엇인가?",
+            "장기수선충당금 관련 공식 문의처와 이의신청 절차는 무엇인가?"
           ],
           "query_plan": [
             {
-              "source_name": "한국전력",
-              "domain": "kepco.co.kr",
-              "query": "site:kepco.co.kr \"전기요금 절약\"",
-              "priority": 1,
-              "trust_score": 96
-            },
-            {
-              "source_name": "한국전력",
-              "domain": "kepco.co.kr",
-              "query": "site:kepco.co.kr \"전기요금 절약\" 조건",
-              "priority": 1,
-              "trust_score": 96
-            },
-            {
-              "source_name": "한국전력",
-              "domain": "kepco.co.kr",
-              "query": "site:kepco.co.kr \"전기요금 절약\" 신청",
-              "priority": 1,
-              "trust_score": 96
-            },
-            {
               "source_name": "국가법령정보센터",
               "domain": "law.go.kr",
-              "query": "site:law.go.kr \"전기요금 절약\"",
+              "query": "site:law.go.kr \"장기수선충당금\"",
               "priority": 1,
               "trust_score": 100
             },
             {
               "source_name": "국가법령정보센터",
               "domain": "law.go.kr",
-              "query": "site:law.go.kr \"전기요금 절약\" 시행령",
+              "query": "site:law.go.kr \"장기수선충당금\" 시행령",
               "priority": 1,
               "trust_score": 100
             },
             {
               "source_name": "통계청",
               "domain": "kostat.go.kr",
-              "query": "site:kostat.go.kr \"전기요금 절약\"",
+              "query": "site:kostat.go.kr \"장기수선충당금\"",
               "priority": 2,
               "trust_score": 96
             },
             {
               "source_name": "통계청",
               "domain": "kostat.go.kr",
-              "query": "site:kostat.go.kr \"전기요금 절약\" 조건",
+              "query": "site:kostat.go.kr \"장기수선충당금\" 조건",
               "priority": 2,
               "trust_score": 96
             },
             {
               "source_name": "통계청",
               "domain": "kostat.go.kr",
-              "query": "site:kostat.go.kr \"전기요금 절약\" 신청",
+              "query": "site:kostat.go.kr \"장기수선충당금\" 신청",
               "priority": 2,
               "trust_score": 96
             }
@@ -460,7 +390,7 @@
             ],
             "target_chars": 5000
           },
-          "created_at": "2026-07-14T12:49:46+00:00"
+          "created_at": "2026-07-15T11:51:16+09:00"
         },
         "output_files": {
           "package": "factory/output/research/research_package.json",
@@ -468,7 +398,7 @@
           "report": "factory/output/research/research_report.json"
         }
       },
-      "created_at": "2026-07-14T12:49:46+00:00",
+      "created_at": "2026-07-15T11:51:16+09:00",
       "gate": {
         "department": "research",
         "pass": false,
@@ -476,17 +406,2862 @@
           "ready_for_publish",
           "research_qa_score<80"
         ],
-        "checked_at": "2026-07-14T12:49:46+00:00"
+        "checked_at": "2026-07-15T11:51:16+09:00"
       },
-      "path": "factory/output/handoffs/6168ceb7e30b4587a9fc0f6fed808af7/research-to-writing.json"
+      "path": "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/research-to-writing.json"
+    },
+    {
+      "handoff_id": "9c7371979890449a9a85e78055a8ca03",
+      "workflow_id": "0ca48204fa6d412f844403ab65278bfa",
+      "sender": "writing",
+      "receiver": "seo",
+      "status": "ready",
+      "blockers": [],
+      "payload": {
+        "html": "<!doctype html><html lang=\"ko\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>장기수선충당금</title><meta name=\"description\" content=\"장기수선충당금의 조건, 적용 대상, 확인 순서, 사례, FAQ와 공식 근거 확인 방법을 정리했습니다.\"><meta name=\"robots\" content=\"index,follow\">\n<link rel=\"canonical\" href=\"https://savingio.com/articles/장기수선충당금-298a523e.html\"><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"장기수선충당금\", \"description\": \"장기수선충당금의 조건, 적용 대상, 확인 순서, 사례, FAQ와 공식 근거 확인 방법을 정리했습니다.\", \"mainEntityOfPage\": \"https://savingio.com/articles/장기수선충당금-298a523e.html\", \"inLanguage\": \"ko-KR\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"Savingio\", \"url\": \"https://savingio.com\"}}</script></head><body>\n<main class=\"article-shell\" data-factory-version=\"2.017\"><header class=\"article-hero\"><p class=\"eyebrow\">생활비 절약</p><h1>장기수선충당금</h1><p>장기수선충당금의 조건, 적용 대상, 확인 순서, 사례, FAQ와 공식 근거 확인 방법을 정리했습니다.</p></header>\n<nav class=\"article-toc\" aria-label=\"목차\"><a href=\"#three-second-summary\">3초 요약</a><a href=\"#situation-choice\">상황 선택</a><a href=\"#action-steps\">해결 순서</a><a href=\"#faq\">FAQ</a></nav><section id=\"three-second-summary\" class=\"article-section\"><h2>3초 요약</h2><ul><li>장기수선충당금은 대상 조건부터 확인합니다.</li><li>공식 근거 없는 수치는 확정하지 않습니다.</li><li>확인→비교→실행→점검 순서로 진행합니다.</li></ul></section><section id=\"situation-choice\" class=\"article-section\"><h2>내 상황부터 선택하세요</h2><div class=\"choice-grid\"><article><h3>처음 확인</h3><p>대상과 준비자료부터 확인합니다.</p></article><article><h3>이미 이용 중</h3><p>현재 조건과 변경 가능 항목을 비교합니다.</p></article><article><h3>문제가 생김</h3><p>증빙과 공식 문의처를 확인합니다.</p></article></div></section><section id=\"conclusion\" class=\"article-section\"><h2>먼저 결론부터</h2><p>조건을 확인한 뒤 실행 순서를 따라가는 안내형 글입니다.</p><p>장기수선충당금은 한 가지 숫자나 요령만으로 판단하기 어렵습니다. 대상, 계약 형태, 지역, 사용량, 신청 시점과 예외 조건이 결과를 바꿀 수 있기 때문입니다. 현재 상태를 먼저 적고 공식 안내의 대상 조건과 제외 조건을 차례로 대조해야 합니다. 확인되지 않은 금액과 비율은 확정적으로 쓰지 않습니다.</p></section><section id=\"causes\" class=\"article-section\"><h2>왜 결과가 달라질까요?</h2><p>장기수선충당금은 한 가지 숫자나 요령만으로 판단하기 어렵습니다. 대상, 계약 형태, 지역, 사용량, 신청 시점과 예외 조건이 결과를 바꿀 수 있기 때문입니다. 현재 상태를 먼저 적고 공식 안내의 대상 조건과 제외 조건을 차례로 대조해야 합니다. 확인되지 않은 금액과 비율은 확정적으로 쓰지 않습니다.</p><p>장기수선충당금은 한 가지 숫자나 요령만으로 판단하기 어렵습니다. 대상, 계약 형태, 지역, 사용량, 신청 시점과 예외 조건이 결과를 바꿀 수 있기 때문입니다. 현재 상태를 먼저 적고 공식 안내의 대상 조건과 제외 조건을 차례로 대조해야 합니다. 확인되지 않은 금액과 비율은 확정적으로 쓰지 않습니다.</p><p>장기수선충당금은 한 가지 숫자나 요령만으로 판단하기 어렵습니다. 대상, 계약 형태, 지역, 사용량, 신청 시점과 예외 조건이 결과를 바꿀 수 있기 때문입니다. 현재 상태를 먼저 적고 공식 안내의 대상 조건과 제외 조건을 차례로 대조해야 합니다. 확인되지 않은 금액과 비율은 확정적으로 쓰지 않습니다.</p></section><section id=\"condition-branches\" class=\"article-section\"><h2>조건별로 판단하세요</h2><div class=\"table-wrap\"><table><thead><tr><th>상황</th><th>먼저 확인</th><th>다음 행동</th></tr></thead><tbody>\n<tr><td>처음 알아보는 경우</td><td>대상·기간·필수조건</td><td>공식 안내와 내 조건 대조</td></tr>\n<tr><td>이미 이용 중인 경우</td><td>현재 계약·사용 내역</td><td>변경 전후 비용 비교</td></tr>\n<tr><td>오류나 분쟁이 있는 경우</td><td>증빙·처리기한·문의처</td><td>공식 문의와 이의 절차 확인</td></tr></tbody></table></div><p>장기수선충당금은 한 가지 숫자나 요령만으로 판단하기 어렵습니다. 대상, 계약 형태, 지역, 사용량, 신청 시점과 예외 조건이 결과를 바꿀 수 있기 때문입니다. 현재 상태를 먼저 적고 공식 안내의 대상 조건과 제외 조건을 차례로 대조해야 합니다. 확인되지 않은 금액과 비율은 확정적으로 쓰지 않습니다.</p></section><section id=\"action-steps\" class=\"article-section\"><h2>해결 순서</h2><ol class=\"action-list\"><li>현재 상황과 목표를 한 문장으로 정리합니다.</li><li>적용 대상과 제외 조건을 나눠 적습니다.</li><li>공식기관·사업자 자료에서 기준일을 확인합니다.</li><li>비용, 절감 가능액, 불이익을 함께 비교합니다.</li><li>신청·설정 후 결과 화면과 증빙을 보관합니다.</li></ol><p>장기수선충당금은 한 가지 숫자나 요령만으로 판단하기 어렵습니다. 대상, 계약 형태, 지역, 사용량, 신청 시점과 예외 조건이 결과를 바꿀 수 있기 때문입니다. 현재 상태를 먼저 적고 공식 안내의 대상 조건과 제외 조건을 차례로 대조해야 합니다. 확인되지 않은 금액과 비율은 확정적으로 쓰지 않습니다.</p></section><section id=\"case\" class=\"article-section\"><h2>실제 적용 사례</h2><p>예를 들어 장기수선충당금을 바로 신청하거나 변경하면 조건 누락으로 다시 확인해야 할 수 있습니다. 대상 여부와 필요한 증빙을 먼저 정리한 뒤 진행하면 재작업을 줄일 수 있습니다.</p><p>장기수선충당금은 한 가지 숫자나 요령만으로 판단하기 어렵습니다. 대상, 계약 형태, 지역, 사용량, 신청 시점과 예외 조건이 결과를 바꿀 수 있기 때문입니다. 현재 상태를 먼저 적고 공식 안내의 대상 조건과 제외 조건을 차례로 대조해야 합니다. 확인되지 않은 금액과 비율은 확정적으로 쓰지 않습니다.</p></section><section id=\"comparison-table\" class=\"article-section\"><h2>한눈에 보는 비교표</h2><div class=\"table-wrap\"><table><thead><tr><th>상황</th><th>먼저 확인</th><th>다음 행동</th></tr></thead><tbody>\n<tr><td>처음 알아보는 경우</td><td>대상·기간·필수조건</td><td>공식 안내와 내 조건 대조</td></tr>\n<tr><td>이미 이용 중인 경우</td><td>현재 계약·사용 내역</td><td>변경 전후 비용 비교</td></tr>\n<tr><td>오류나 분쟁이 있는 경우</td><td>증빙·처리기한·문의처</td><td>공식 문의와 이의 절차 확인</td></tr></tbody></table></div></section><section id=\"faq\" class=\"article-section\"><h2>자주 묻는 질문</h2><div class=\"faq\"><h3>누구에게나 같은 결과가 나오나요?</h3><p>아닙니다. 계약, 지역, 대상 조건과 기준일에 따라 달라집니다.</p><h3>공식 근거가 없으면 어떻게 하나요?</h3><p>수치와 혜택을 확정하지 않고 조사 대기 상태로 둡니다.</p><h3>가장 먼저 할 일은 무엇인가요?</h3><p>현재 상태를 적고 공식 안내의 조건을 대조하는 것입니다.</p><h3>신청 후 무엇을 보관해야 하나요?</h3><p>접수번호, 결과 화면, 영수증과 안내문을 보관합니다.</p></div></section><section id=\"next-action\" class=\"article-section\"><h2>지금 할 일</h2><ol class=\"action-list\"><li>현재 상황과 목표를 한 문장으로 정리합니다.</li><li>적용 대상과 제외 조건을 나눠 적습니다.</li><li>공식기관·사업자 자료에서 기준일을 확인합니다.</li><li>비용, 절감 가능액, 불이익을 함께 비교합니다.</li><li>신청·설정 후 결과 화면과 증빙을 보관합니다.</li></ol></section><section id=\"internal-links\" class=\"article-section\"><h2>함께 보면 좋은 글</h2><ul><li><a href=\"/articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html\">전기요금 절약</a></li><li><a href=\"/articles/ai-side-hustles-beginner.html\">초보자를 위한 AI 부업 시작 방법</a></li><li><a href=\"/articles/air-conditioner-electricity-saving.html\">에어컨 전기요금 줄이는 실전 방법</a></li><li><a href=\"/articles/aircon-dry-mode-electricity.html\">에어컨 제습모드 전기세 차이</a></li><li><a href=\"/articles/aircon-filter-cleaning-savings.html\">에어컨 필터 청소로 전기세 줄이기</a></li></ul></section><section id=\"official-evidence\" class=\"article-section\"><h2>공식 근거</h2><div class=\"notice-card\"><strong>공식 근거 입력 대기</strong><p>Factory Research Package에 검증된 URL과 근거 문장을 추가한 뒤 발행합니다.</p></div></section><section id=\"updated\" class=\"article-section\"><h2>업데이트</h2><p>최종 업데이트: 2026-07-15T11:51:16+09:00</p></section></main></body></html>",
+        "text_chars": 5819
+      },
+      "created_at": "2026-07-15T11:51:16+09:00",
+      "gate": {
+        "department": "writing",
+        "pass": true,
+        "blockers": [],
+        "checked_at": "2026-07-15T11:51:16+09:00"
+      },
+      "path": "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/writing-to-seo.json"
+    },
+    {
+      "handoff_id": "6555965051144fadb092fe896c4beb31",
+      "workflow_id": "0ca48204fa6d412f844403ab65278bfa",
+      "sender": "seo",
+      "receiver": "image",
+      "status": "ready",
+      "blockers": [],
+      "payload": {
+        "title": "장기수선충당금",
+        "description": "장기수선충당금의 조건, 적용 대상, 확인 순서, 사례, FAQ와 공식 근거 확인 방법을 정리했습니다.",
+        "slug": "장기수선충당금-298a523e",
+        "canonical": "https://savingio.com/articles/장기수선충당금-298a523e.html",
+        "keywords": [
+          "장기수선충당금",
+          "생활비 절약",
+          "guide",
+          "Savingio"
+        ],
+        "robots": "index,follow",
+        "schema": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "장기수선충당금",
+          "description": "장기수선충당금의 조건, 적용 대상, 확인 순서, 사례, FAQ와 공식 근거 확인 방법을 정리했습니다.",
+          "mainEntityOfPage": "https://savingio.com/articles/장기수선충당금-298a523e.html",
+          "inLanguage": "ko-KR",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Savingio",
+            "url": "https://savingio.com"
+          }
+        }
+      },
+      "created_at": "2026-07-15T11:51:16+09:00",
+      "gate": {
+        "department": "seo",
+        "pass": true,
+        "blockers": [],
+        "checked_at": "2026-07-15T11:51:16+09:00"
+      },
+      "path": "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/seo-to-image.json"
+    },
+    {
+      "handoff_id": "f4cd8f7411ad4648bdd104b7f2fd81f8",
+      "workflow_id": "0ca48204fa6d412f844403ab65278bfa",
+      "sender": "image",
+      "receiver": "qa_primary",
+      "status": "blocked",
+      "blockers": [
+        "ready"
+      ],
+      "payload": {
+        "topic": "장기수선충당금",
+        "slug": "장기수선충당금-298a523e",
+        "required": [
+          {
+            "filename": "장기수선충당금-298a523e-hero.webp",
+            "alt": "장기수선충당금 핵심 안내 이미지",
+            "aspect_ratio": "16:9",
+            "prompt": "장기수선충당금을 설명하는 신뢰감 있는 한국형 생활정보 웹사이트 대표 이미지, 텍스트 최소화"
+          },
+          {
+            "filename": "장기수선충당금-298a523e-og.webp",
+            "alt": "장기수선충당금 OG 이미지",
+            "aspect_ratio": "1200:630",
+            "prompt": "Savingio 브랜드용 장기수선충당금 OG 이미지, 정보형, 깔끔한 카드 스타일"
+          },
+          {
+            "filename": "장기수선충당금-298a523e-summary.webp",
+            "alt": "장기수선충당금 요약 인포그래픽",
+            "aspect_ratio": "4:5",
+            "prompt": "장기수선충당금 핵심 조건과 실행 순서를 요약한 인포그래픽"
+          }
+        ],
+        "generated_files": [],
+        "ready": false,
+        "requires_external_image_generation": true,
+        "created_at": "2026-07-15T11:51:16+09:00"
+      },
+      "created_at": "2026-07-15T11:51:16+09:00",
+      "gate": {
+        "department": "image",
+        "pass": false,
+        "blockers": [
+          "ready"
+        ],
+        "checked_at": "2026-07-15T11:51:16+09:00"
+      },
+      "path": "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/image-to-qa_primary.json"
+    },
+    {
+      "handoff_id": "e35a29c42a4642d7aaa3f817b6017a3a",
+      "workflow_id": "0ca48204fa6d412f844403ab65278bfa",
+      "sender": "qa_primary",
+      "receiver": "qa_final",
+      "status": "ready",
+      "blockers": [],
+      "payload": {
+        "score": 100,
+        "pass": true,
+        "minimum": 95,
+        "checks": [
+          {
+            "name": "doctype",
+            "passed": true,
+            "penalty": 0,
+            "critical": true,
+            "detail": ""
+          },
+          {
+            "name": "lang_ko",
+            "passed": true,
+            "penalty": 0,
+            "critical": false,
+            "detail": ""
+          },
+          {
+            "name": "h1_once",
+            "passed": true,
+            "penalty": 0,
+            "critical": true,
+            "detail": ""
+          },
+          {
+            "name": "title_length",
+            "passed": true,
+            "penalty": 0,
+            "critical": false,
+            "detail": ""
+          },
+          {
+            "name": "description_length",
+            "passed": true,
+            "penalty": 0,
+            "critical": false,
+            "detail": ""
+          },
+          {
+            "name": "canonical",
+            "passed": true,
+            "penalty": 0,
+            "critical": true,
+            "detail": ""
+          },
+          {
+            "name": "robots",
+            "passed": true,
+            "penalty": 0,
+            "critical": false,
+            "detail": ""
+          },
+          {
+            "name": "schema",
+            "passed": true,
+            "penalty": 0,
+            "critical": false,
+            "detail": ""
+          },
+          {
+            "name": "required_sections",
+            "passed": true,
+            "penalty": 0,
+            "critical": true,
+            "detail": ""
+          },
+          {
+            "name": "faq_count",
+            "passed": true,
+            "penalty": 0,
+            "critical": false,
+            "detail": ""
+          },
+          {
+            "name": "table",
+            "passed": true,
+            "penalty": 0,
+            "critical": false,
+            "detail": ""
+          },
+          {
+            "name": "internal_links",
+            "passed": true,
+            "penalty": 0,
+            "critical": false,
+            "detail": ""
+          },
+          {
+            "name": "forbidden_placeholders",
+            "passed": true,
+            "penalty": 0,
+            "critical": true,
+            "detail": ""
+          },
+          {
+            "name": "text_length",
+            "passed": true,
+            "penalty": 0,
+            "critical": false,
+            "detail": ""
+          },
+          {
+            "name": "evidence_safety",
+            "passed": true,
+            "penalty": 0,
+            "critical": true,
+            "detail": ""
+          },
+          {
+            "name": "single_canonical",
+            "passed": true,
+            "penalty": 0,
+            "critical": false,
+            "detail": ""
+          },
+          {
+            "name": "no_empty_href",
+            "passed": true,
+            "penalty": 0,
+            "critical": false,
+            "detail": ""
+          }
+        ],
+        "issues": [],
+        "critical_failures": [],
+        "text_chars": 2922,
+        "checked_at": "2026-07-15T11:51:16+09:00"
+      },
+      "created_at": "2026-07-15T11:51:16+09:00",
+      "gate": {
+        "department": "qa_primary",
+        "pass": true,
+        "blockers": [],
+        "checked_at": "2026-07-15T11:51:16+09:00"
+      },
+      "path": "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/qa_primary-to-qa_final.json"
+    },
+    {
+      "handoff_id": "9ef348e6632f4e709c8ea1a19cdfad6b",
+      "workflow_id": "0ca48204fa6d412f844403ab65278bfa",
+      "sender": "qa_final",
+      "receiver": "cms",
+      "status": "ready",
+      "blockers": [],
+      "payload": {
+        "score": 100,
+        "pass": true,
+        "minimum": 95,
+        "checks": [
+          {
+            "name": "doctype",
+            "passed": true,
+            "penalty": 0,
+            "critical": true,
+            "detail": ""
+          },
+          {
+            "name": "lang_ko",
+            "passed": true,
+            "penalty": 0,
+            "critical": false,
+            "detail": ""
+          },
+          {
+            "name": "h1_once",
+            "passed": true,
+            "penalty": 0,
+            "critical": true,
+            "detail": ""
+          },
+          {
+            "name": "title_length",
+            "passed": true,
+            "penalty": 0,
+            "critical": false,
+            "detail": ""
+          },
+          {
+            "name": "description_length",
+            "passed": true,
+            "penalty": 0,
+            "critical": false,
+            "detail": ""
+          },
+          {
+            "name": "canonical",
+            "passed": true,
+            "penalty": 0,
+            "critical": true,
+            "detail": ""
+          },
+          {
+            "name": "robots",
+            "passed": true,
+            "penalty": 0,
+            "critical": false,
+            "detail": ""
+          },
+          {
+            "name": "schema",
+            "passed": true,
+            "penalty": 0,
+            "critical": false,
+            "detail": ""
+          },
+          {
+            "name": "required_sections",
+            "passed": true,
+            "penalty": 0,
+            "critical": true,
+            "detail": ""
+          },
+          {
+            "name": "faq_count",
+            "passed": true,
+            "penalty": 0,
+            "critical": false,
+            "detail": ""
+          },
+          {
+            "name": "table",
+            "passed": true,
+            "penalty": 0,
+            "critical": false,
+            "detail": ""
+          },
+          {
+            "name": "internal_links",
+            "passed": true,
+            "penalty": 0,
+            "critical": false,
+            "detail": ""
+          },
+          {
+            "name": "forbidden_placeholders",
+            "passed": true,
+            "penalty": 0,
+            "critical": true,
+            "detail": ""
+          },
+          {
+            "name": "text_length",
+            "passed": true,
+            "penalty": 0,
+            "critical": false,
+            "detail": ""
+          },
+          {
+            "name": "evidence_safety",
+            "passed": true,
+            "penalty": 0,
+            "critical": true,
+            "detail": ""
+          },
+          {
+            "name": "single_canonical",
+            "passed": true,
+            "penalty": 0,
+            "critical": false,
+            "detail": ""
+          },
+          {
+            "name": "no_empty_href",
+            "passed": true,
+            "penalty": 0,
+            "critical": false,
+            "detail": ""
+          }
+        ],
+        "issues": [],
+        "critical_failures": [],
+        "text_chars": 2922,
+        "checked_at": "2026-07-15T11:51:16+09:00"
+      },
+      "created_at": "2026-07-15T11:51:16+09:00",
+      "gate": {
+        "department": "qa_final",
+        "pass": true,
+        "blockers": [],
+        "checked_at": "2026-07-15T11:51:16+09:00"
+      },
+      "path": "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/qa_final-to-cms.json"
+    },
+    {
+      "handoff_id": "62166094ccbd43dd95e395c57d62ada8",
+      "workflow_id": "0ca48204fa6d412f844403ab65278bfa",
+      "sender": "cms",
+      "receiver": "deploy",
+      "status": "ready",
+      "blockers": [],
+      "payload": {
+        "article_path": "factory/output/drafts/장기수선충당금-298a523e.html",
+        "canonical": "https://savingio.com/articles/장기수선충당금-298a523e.html",
+        "qa_score": 100,
+        "evidence_score": 0,
+        "published": false,
+        "saved_at": "2026-07-15T11:51:16+09:00"
+      },
+      "created_at": "2026-07-15T11:51:16+09:00",
+      "gate": {
+        "department": "cms",
+        "pass": true,
+        "blockers": [],
+        "checked_at": "2026-07-15T11:51:16+09:00"
+      },
+      "path": "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/cms-to-deploy.json"
+    },
+    {
+      "handoff_id": "c8a392b7cd744005ac2817d4efbf2256",
+      "workflow_id": "0ca48204fa6d412f844403ab65278bfa",
+      "sender": "deploy",
+      "receiver": "analytics",
+      "status": "blocked",
+      "blockers": [
+        "pass"
+      ],
+      "payload": {
+        "pass": false,
+        "status": "blocked",
+        "checks": {
+          "deployment_integrity_pass": true,
+          "doctor_pass": true,
+          "adsense_lock_pass": true,
+          "required_reports_present": true,
+          "qa_pass": true,
+          "research_pass": false,
+          "user_approved": false,
+          "image_ready": false
+        },
+        "missing_reports": [],
+        "blockers": [
+          "research_pass",
+          "user_approved",
+          "image_ready"
+        ],
+        "integrity": {
+          "pass": true,
+          "status": "pass",
+          "checks": {
+            "publisher_lock_pass": true,
+            "doctor_pass": true,
+            "critical_files_present": true,
+            "ads_txt_exact": true
+          },
+          "blockers": [],
+          "missing": [],
+          "critical_files": [
+            {
+              "path": "ads.txt",
+              "size": 58,
+              "sha256": "161feb2efb7ff2e90c47e6724bfd8dd822e16f1e1e26a9ba855ef840722cdd06"
+            },
+            {
+              "path": "index.html",
+              "size": 106483,
+              "sha256": "1cd5c3aec90989643f3e71041a0ae80d1630c79d6f27093a4fdd4dfd331d4954"
+            },
+            {
+              "path": "factory/config/adsense_identity.json",
+              "size": 488,
+              "sha256": "0916fdb1f3abf6e3007970344dc06b442f940b24bf53cf2438ce218cb6909bea"
+            },
+            {
+              "path": "factory/adsense_manager.py",
+              "size": 5451,
+              "sha256": "1bea76139ef01243b834263496d7a4564397606e7dac99a513a43f4745bc0b06"
+            },
+            {
+              "path": "factory/pipeline.py",
+              "size": 7756,
+              "sha256": "c9831bd22cb78c061aadc99d5c1765dbe00c8ecf80dcdaca00ce30efc5180fdf"
+            },
+            {
+              "path": "factory/publication.py",
+              "size": 4035,
+              "sha256": "ebf6a43edfbdfddd2dd0e8b51f6434b5e46868c8ce548818cb7a071839b4bf44"
+            },
+            {
+              "path": "factory/deployment_gate.py",
+              "size": 2069,
+              "sha256": "c35075f083fd9831945f910068c0d683ea3a64a6a96ba221156a80296bf3ecd8"
+            },
+            {
+              "path": "factory/deploy.py",
+              "size": 926,
+              "sha256": "7e148edb3a5b07206f69c65a3f03527f131d5be479c7709fa4fafcfe230b25de"
+            }
+          ],
+          "publisher_lock": {
+            "pass": true,
+            "blockers": [],
+            "repair": {
+              "changed_count": 0,
+              "changed": []
+            },
+            "ads_txt": {
+              "path": "ads.txt",
+              "exists": true,
+              "valid": true,
+              "executed": false,
+              "checked_at": "2026-07-15T11:51:16+09:00"
+            },
+            "index": {
+              "pass": true,
+              "ids": [
+                "ca-pub-7605193583747751"
+              ],
+              "changed": false,
+              "executed": false,
+              "checked_at": "2026-07-15T11:51:16+09:00"
+            },
+            "scan": {
+              "pass": true,
+              "official_publisher_id": "pub-7605193583747751",
+              "official_client": "ca-pub-7605193583747751",
+              "files_with_ids": [
+                {
+                  "path": "00-READ-ME-FIRST.txt",
+                  "ids": [
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "ads.txt",
+                  "ids": [
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory_manifest.json",
+                  "ids": [
+                    "ca-pub-7605193583747751",
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "index.html",
+                  "ids": [
+                    "ca-pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "V2.047-RECOVERY-NOTE.txt",
+                  "ids": [
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "V2.048-BASELINE-HOUSE.md",
+                  "ids": [
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "V2.050-PATCH-MANIFEST.json",
+                  "ids": [
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "V2.052-RELEASE-NOTE.md",
+                  "ids": [
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "V2.053-PATCH-MANIFEST.json",
+                  "ids": [
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "V2.053-RELEASE-NOTE.md",
+                  "ids": [
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "VERSION.json",
+                  "ids": [
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/MASTER_ROADMAP_V2_044.json",
+                  "ids": [
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/MASTER_ROADMAP_V2_045.json",
+                  "ids": [
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/MASTER_ROADMAP_V2_046.json",
+                  "ids": [
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/QA_V2_042.json",
+                  "ids": [
+                    "ca-pub-7605193583747751",
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/QA_V2_043.json",
+                  "ids": [
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/QA_V2_050.json",
+                  "ids": [
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/QA_V2_052.json",
+                  "ids": [
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/QA_V2_055.json",
+                  "ids": [
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/README_FACTORY.md",
+                  "ids": [
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/config/adsense_identity.json",
+                  "ids": [
+                    "ca-pub-7605193583747751",
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/config/auto_release_rules.json",
+                  "ids": [
+                    "ca-pub-7605193583747751",
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/output/auto_release_report.json",
+                  "ids": [
+                    "ca-pub-7605193583747751",
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/output/deployment_gate_report.json",
+                  "ids": [
+                    "ca-pub-7605193583747751",
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/output/deployment_integrity_report.json",
+                  "ids": [
+                    "ca-pub-7605193583747751",
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/output/deployment_report_v2_044.json",
+                  "ids": [
+                    "ca-pub-7605193583747751",
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/output/deployment_report_v2_045.json",
+                  "ids": [
+                    "ca-pub-7605193583747751",
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/output/deployment_report_v2_046.json",
+                  "ids": [
+                    "ca-pub-7605193583747751",
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/output/one_click_release_report.json",
+                  "ids": [
+                    "ca-pub-7605193583747751",
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/output/release_pipeline_report.json",
+                  "ids": [
+                    "ca-pub-7605193583747751",
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/output/start_factory_report.json",
+                  "ids": [
+                    "ca-pub-7605193583747751",
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/output/V2.047_RELEASE_REPORT.md",
+                  "ids": [
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/tests/test_v2043_deployment_integrity.py",
+                  "ids": [
+                    "ca-pub-7605193583747751",
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/tests/test_v2044.py",
+                  "ids": [
+                    "ca-pub-7605193583747751",
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/tests/test_v2045.py",
+                  "ids": [
+                    "ca-pub-7605193583747751",
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/output/adsense/adsense_lock_report.json",
+                  "ids": [
+                    "ca-pub-7605193583747751",
+                    "pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/output/adsense/index_report.json",
+                  "ids": [
+                    "ca-pub-7605193583747751"
+                  ]
+                },
+                {
+                  "path": "factory/output/adsense/publisher_scan.json",
+                  "ids": [
+                    "ca-pub-7605193583747751",
+                    "pub-7605193583747751"
+                  ]
+                }
+              ],
+              "invalid_count": 0,
+              "invalid": [],
+              "checked_at": "2026-07-15T11:51:18+09:00"
+            },
+            "status": "pass",
+            "checked_at": "2026-07-15T11:51:18+09:00"
+          },
+          "doctor": {
+            "pass": true,
+            "checks": [
+              {
+                "name": "module:adsense_manager.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:auto_release.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:planner.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:researcher.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:writer.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:seo.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:qa.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:cms.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:git_engine.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:deploy.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:pipeline.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:orchestrator.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:state_db.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:scheduler.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:incremental.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:dna_versioning.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:run.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:registry.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:dedupe.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:link_graph.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:publication.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:release.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:adsense_audit.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:eeat.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:indexability.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:source_registry.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:research_collector.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:research_qa.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:research_report.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:research_department.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:web_connector.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:openapi_connector.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:research_cache.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:research_web_runner.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:image_queue.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:image_adapters.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:deployment_gate.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:search_evidence.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:evidence_merge.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:image_result_linker.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:git_executor.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:cloudflare_deploy.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:publish_executor.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:wordpress_connector.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:publish_package.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:wordpress_publisher.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:cloudflare_pages_client.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:cloudflare_deploy_verify.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:service_readiness.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:deployment_receipt.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:git_release_executor.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:cloudflare_deployment_monitor.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:release_coordinator.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:wordpress_taxonomy.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:wordpress_upsert.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:runtime_config.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:wordpress_release_plan.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:cloudflare_health_check.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:government_api_adapters.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:research_ingestion_pipeline.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:image_provider_result.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:google_service_auth.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:search_console_engine.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:ga4_engine.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:analytics_dashboard.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:content_performance_optimizer.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:google_jwt_auth.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:search_console_api.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:ga4_api.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:analytics_scheduler.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:keyword_rank_tracker.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:analytics_rework_bridge.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:google_token_exchange.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:google_access_token.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:article_optimization_executor.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:scheduler_installer.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:department_handoff.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:department_gate.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:automation_cycle.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:auto_rework_engine.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:cycle_dashboard.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:revenue_import.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:revenue_dashboard.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:revenue_ai.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:revenue_task_router.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:revenue_core.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:revenue_html_rewriter.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:revenue_qa_recheck.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:revenue_cms_update.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:revenue_rework_pipeline.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:approved_release_gate.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:cloudflare_new_deployment.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:release_journal.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:post_deploy_verifier.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:approved_republish.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:end_to_end_audit.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:regression_manifest.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:final_release_manifest.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:final_release_coordinator.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:master_checklist.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:external_integration_registry.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:integration_preflight.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:live_verification_plan.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:adsense_report_import.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:adsense_revenue_bridge.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:production_readiness_board.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:operations_snapshot.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:incident_detector.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:recovery_planner.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:retry_policy.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:operations_center.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:credential_onboarding.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:connector_verification_runner.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:connector_verification_receipt.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:production_activation_gate.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:external_verification_center.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:calculator_registry.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:calculator_intent_engine.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:calculator_matcher.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:calculator_generation_request.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:calculator_solution_package.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:calculator_cms_registry.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:calculator_qa.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:calculator_analytics.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:calculator_hq.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "module:deployment_integrity.py",
+                "pass": true,
+                "detail": "compiled"
+              },
+              {
+                "name": "config:adsense_identity.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:article_dna.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:article_types.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:qa_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:research_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:seo_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:factory_manifest.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:orchestrator_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:publication_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:adsense_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:source_registry.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:research_quality_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:web_connector_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:openapi_sources.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:search_evidence_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:deployment_execution_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:external_services.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:release_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:wordpress_publish_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:government_api_services.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:site_health_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:analytics_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:analytics_schedule_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:automation_execution_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:department_gate_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:revenue_ai_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:revenue_rework_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:approved_republish_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:final_release_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:external_integration_registry.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:production_readiness_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:operations_monitoring_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:external_verification_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:calculator_registry.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:calculator_hq_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "config:auto_release_rules.json",
+                "pass": true,
+                "detail": "valid json"
+              },
+              {
+                "name": "sqlite-schema",
+                "pass": true,
+                "detail": "tables=['approvals', 'content_registry', 'dead_letter', 'dna_versions', 'queue', 'runs', 'sqlite_sequence']"
+              },
+              {
+                "name": "deprecated-api-scan",
+                "pass": true,
+                "detail": "findings=0"
+              },
+              {
+                "name": "internal-link-scan",
+                "pass": true,
+                "detail": "nodes=219 broken=0 orphans=31"
+              }
+            ],
+            "module_count": 126,
+            "config_count": 36,
+            "adsense_lock": null,
+            "deprecated_api_scan": {
+              "pass": true,
+              "finding_count": 0,
+              "findings": [],
+              "scanned_root": "factory"
+            },
+            "link_graph_summary": {
+              "nodes": 219,
+              "edges": 7113,
+              "broken": 0,
+              "orphans": 31
+            }
+          },
+          "official_publisher_id": "pub-7605193583747751",
+          "checked_at": "2026-07-15T11:51:20+09:00"
+        },
+        "adsense_lock": {
+          "pass": true,
+          "blockers": [],
+          "repair": {
+            "changed_count": 0,
+            "changed": []
+          },
+          "ads_txt": {
+            "path": "ads.txt",
+            "exists": true,
+            "valid": true,
+            "executed": false,
+            "checked_at": "2026-07-15T11:51:16+09:00"
+          },
+          "index": {
+            "pass": true,
+            "ids": [
+              "ca-pub-7605193583747751"
+            ],
+            "changed": false,
+            "executed": false,
+            "checked_at": "2026-07-15T11:51:16+09:00"
+          },
+          "scan": {
+            "pass": true,
+            "official_publisher_id": "pub-7605193583747751",
+            "official_client": "ca-pub-7605193583747751",
+            "files_with_ids": [
+              {
+                "path": "00-READ-ME-FIRST.txt",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "ads.txt",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory_manifest.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "index.html",
+                "ids": [
+                  "ca-pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "V2.047-RECOVERY-NOTE.txt",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "V2.048-BASELINE-HOUSE.md",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "V2.050-PATCH-MANIFEST.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "V2.052-RELEASE-NOTE.md",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "V2.053-PATCH-MANIFEST.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "V2.053-RELEASE-NOTE.md",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "VERSION.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/MASTER_ROADMAP_V2_044.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/MASTER_ROADMAP_V2_045.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/MASTER_ROADMAP_V2_046.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/QA_V2_042.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/QA_V2_043.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/QA_V2_050.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/QA_V2_052.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/QA_V2_055.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/README_FACTORY.md",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/config/adsense_identity.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/config/auto_release_rules.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/auto_release_report.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/deployment_gate_report.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/deployment_integrity_report.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/deployment_report_v2_044.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/deployment_report_v2_045.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/deployment_report_v2_046.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/one_click_release_report.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/release_pipeline_report.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/start_factory_report.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/V2.047_RELEASE_REPORT.md",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/tests/test_v2043_deployment_integrity.py",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/tests/test_v2044.py",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/tests/test_v2045.py",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/adsense/adsense_lock_report.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/adsense/index_report.json",
+                "ids": [
+                  "ca-pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/adsense/publisher_scan.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              }
+            ],
+            "invalid_count": 0,
+            "invalid": [],
+            "checked_at": "2026-07-15T11:51:18+09:00"
+          },
+          "status": "pass",
+          "checked_at": "2026-07-15T11:51:18+09:00"
+        },
+        "doctor": {
+          "pass": true,
+          "checks": [
+            {
+              "name": "module:adsense_manager.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:auto_release.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:planner.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:researcher.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:writer.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:seo.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:qa.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cms.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:git_engine.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:deploy.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:pipeline.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:orchestrator.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:state_db.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:scheduler.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:incremental.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:dna_versioning.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:run.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:registry.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:dedupe.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:link_graph.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:publication.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:release.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:adsense_audit.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:eeat.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:indexability.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:source_registry.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:research_collector.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:research_qa.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:research_report.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:research_department.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:web_connector.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:openapi_connector.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:research_cache.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:research_web_runner.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:image_queue.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:image_adapters.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:deployment_gate.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:search_evidence.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:evidence_merge.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:image_result_linker.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:git_executor.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cloudflare_deploy.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:publish_executor.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:wordpress_connector.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:publish_package.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:wordpress_publisher.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cloudflare_pages_client.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cloudflare_deploy_verify.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:service_readiness.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:deployment_receipt.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:git_release_executor.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cloudflare_deployment_monitor.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:release_coordinator.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:wordpress_taxonomy.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:wordpress_upsert.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:runtime_config.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:wordpress_release_plan.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cloudflare_health_check.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:government_api_adapters.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:research_ingestion_pipeline.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:image_provider_result.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:google_service_auth.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:search_console_engine.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:ga4_engine.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:analytics_dashboard.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:content_performance_optimizer.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:google_jwt_auth.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:search_console_api.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:ga4_api.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:analytics_scheduler.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:keyword_rank_tracker.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:analytics_rework_bridge.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:google_token_exchange.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:google_access_token.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:article_optimization_executor.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:scheduler_installer.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:department_handoff.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:department_gate.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:automation_cycle.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:auto_rework_engine.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cycle_dashboard.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_import.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_dashboard.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_ai.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_task_router.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_core.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_html_rewriter.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_qa_recheck.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_cms_update.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_rework_pipeline.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:approved_release_gate.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cloudflare_new_deployment.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:release_journal.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:post_deploy_verifier.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:approved_republish.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:end_to_end_audit.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:regression_manifest.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:final_release_manifest.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:final_release_coordinator.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:master_checklist.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:external_integration_registry.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:integration_preflight.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:live_verification_plan.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:adsense_report_import.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:adsense_revenue_bridge.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:production_readiness_board.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:operations_snapshot.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:incident_detector.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:recovery_planner.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:retry_policy.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:operations_center.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:credential_onboarding.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:connector_verification_runner.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:connector_verification_receipt.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:production_activation_gate.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:external_verification_center.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_registry.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_intent_engine.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_matcher.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_generation_request.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_solution_package.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_cms_registry.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_qa.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_analytics.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_hq.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:deployment_integrity.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "config:adsense_identity.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:article_dna.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:article_types.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:qa_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:research_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:seo_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:factory_manifest.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:orchestrator_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:publication_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:adsense_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:source_registry.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:research_quality_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:web_connector_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:openapi_sources.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:search_evidence_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:deployment_execution_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:external_services.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:release_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:wordpress_publish_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:government_api_services.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:site_health_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:analytics_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:analytics_schedule_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:automation_execution_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:department_gate_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:revenue_ai_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:revenue_rework_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:approved_republish_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:final_release_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:external_integration_registry.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:production_readiness_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:operations_monitoring_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:external_verification_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:calculator_registry.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:calculator_hq_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:auto_release_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "sqlite-schema",
+              "pass": true,
+              "detail": "tables=['approvals', 'content_registry', 'dead_letter', 'dna_versions', 'queue', 'runs', 'sqlite_sequence']"
+            },
+            {
+              "name": "deprecated-api-scan",
+              "pass": true,
+              "detail": "findings=0"
+            },
+            {
+              "name": "internal-link-scan",
+              "pass": true,
+              "detail": "nodes=219 broken=0 orphans=31"
+            }
+          ],
+          "module_count": 126,
+          "config_count": 36,
+          "adsense_lock": null,
+          "deprecated_api_scan": {
+            "pass": true,
+            "finding_count": 0,
+            "findings": [],
+            "scanned_root": "factory"
+          },
+          "link_graph_summary": {
+            "nodes": 219,
+            "edges": 7113,
+            "broken": 0,
+            "orphans": 31
+          }
+        },
+        "checked_at": "2026-07-15T11:51:20+09:00"
+      },
+      "created_at": "2026-07-15T11:51:20+09:00",
+      "gate": {
+        "department": "deploy",
+        "pass": false,
+        "blockers": [
+          "pass"
+        ],
+        "checked_at": "2026-07-15T11:51:20+09:00"
+      },
+      "path": "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/deploy-to-analytics.json"
+    },
+    {
+      "handoff_id": "2f219938c6e2403c955fccdddc5c8ae0",
+      "workflow_id": "0ca48204fa6d412f844403ab65278bfa",
+      "sender": "analytics",
+      "receiver": "revenue",
+      "status": "ready",
+      "blockers": [],
+      "payload": {
+        "search_console_loaded": true,
+        "ga4_loaded": true,
+        "page_count": 1,
+        "pages": [
+          {
+            "page": "https://savingio.com/articles/sample",
+            "clicks": 2.0,
+            "impressions": 200.0,
+            "page_views": 100.0,
+            "active_users": 40.0,
+            "sessions": 50.0,
+            "ctr": 0.01
+          }
+        ],
+        "summary": {
+          "clicks": 2.0,
+          "impressions": 200.0,
+          "page_views": 100.0,
+          "active_users": 40.0,
+          "sessions": 50.0
+        },
+        "created_at": "2026-07-15T11:51:20+09:00"
+      },
+      "created_at": "2026-07-15T11:51:20+09:00",
+      "gate": {
+        "department": "analytics",
+        "pass": true,
+        "blockers": [],
+        "checked_at": "2026-07-15T11:51:20+09:00"
+      },
+      "path": "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/analytics-to-revenue.json"
+    },
+    {
+      "handoff_id": "ee09fccc768a4273acd0f1da3306ced2",
+      "workflow_id": "0ca48204fa6d412f844403ab65278bfa",
+      "sender": "revenue",
+      "receiver": null,
+      "status": "ready",
+      "blockers": [],
+      "payload": {
+        "action_count": 1,
+        "actions": [
+          {
+            "page": "https://savingio.com/articles/sample",
+            "priority": 90,
+            "action": "rewrite_title_meta",
+            "reason": "high_impressions_low_ctr:200.0/0.01"
+          }
+        ],
+        "created_at": "2026-07-15T11:51:20+09:00"
+      },
+      "created_at": "2026-07-15T11:51:20+09:00",
+      "gate": {
+        "department": "revenue",
+        "pass": true,
+        "blockers": [],
+        "checked_at": "2026-07-15T11:51:20+09:00"
+      },
+      "path": "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/revenue-to-end.json"
     }
   ],
   "packets": {
     "planning": {
-      "topic": "전기요금 절약",
-      "slug": "전기요금-절약-c861d77b",
+      "topic": "장기수선충당금",
+      "slug": "장기수선충당금-298a523e",
       "article_type": "guide",
-      "category": "공과금",
+      "category": "생활비 절약",
       "search_intent": "문제 해결",
       "audience": "생활비 절약 정보를 찾는 사용자",
       "required_sections": [
@@ -507,42 +3282,27 @@
       ],
       "target_chars": 5000,
       "research_questions": [
-        "전기요금 절약의 핵심 조건은 무엇인가?",
-        "전기요금 절약의 실행 순서는 무엇인가?"
+        "장기수선충당금의 핵심 조건은 무엇인가?",
+        "장기수선충당금의 실행 순서는 무엇인가?"
       ],
-      "matched_keywords": [
-        "절약"
-      ],
+      "matched_keywords": [],
       "risk_level": "medium",
-      "created_at": "2026-07-14T12:49:46+00:00",
+      "created_at": "2026-07-15T11:51:16+09:00",
       "status": "planned"
     },
     "research": {
-      "topic": "전기요금 절약",
+      "topic": "장기수선충당금",
       "article_type": "guide",
       "research_questions": [
-        "전기요금 절약의 적용 대상과 제외 대상은 무엇인가?",
-        "전기요금 절약의 기준일과 최신 변경사항은 무엇인가?",
-        "전기요금 절약의 공식 신청·변경·해지 절차는 무엇인가?",
-        "전기요금 절약에서 필요한 서류와 보관해야 할 증빙은 무엇인가?",
-        "전기요금 절약의 비용, 요율, 한도, 계산 기준은 무엇인가?",
-        "전기요금 절약의 예외·주의사항·불이익은 무엇인가?",
-        "전기요금 절약 관련 공식 문의처와 이의신청 절차는 무엇인가?"
+        "장기수선충당금의 적용 대상과 제외 대상은 무엇인가?",
+        "장기수선충당금의 기준일과 최신 변경사항은 무엇인가?",
+        "장기수선충당금의 공식 신청·변경·해지 절차는 무엇인가?",
+        "장기수선충당금에서 필요한 서류와 보관해야 할 증빙은 무엇인가?",
+        "장기수선충당금의 비용, 요율, 한도, 계산 기준은 무엇인가?",
+        "장기수선충당금의 예외·주의사항·불이익은 무엇인가?",
+        "장기수선충당금 관련 공식 문의처와 이의신청 절차는 무엇인가?"
       ],
       "official_source_candidates": [
-        {
-          "name": "한국전력",
-          "domain": "kepco.co.kr",
-          "category": "utility",
-          "trust_score": 96,
-          "priority": 1,
-          "matched_keywords": [
-            "전기",
-            "전기요금"
-          ],
-          "query_templates": [],
-          "score": 115
-        },
         {
           "name": "국가법령정보센터",
           "domain": "law.go.kr",
@@ -569,58 +3329,37 @@
       ],
       "query_plan": [
         {
-          "source_name": "한국전력",
-          "domain": "kepco.co.kr",
-          "query": "site:kepco.co.kr \"전기요금 절약\"",
-          "priority": 1,
-          "trust_score": 96
-        },
-        {
-          "source_name": "한국전력",
-          "domain": "kepco.co.kr",
-          "query": "site:kepco.co.kr \"전기요금 절약\" 조건",
-          "priority": 1,
-          "trust_score": 96
-        },
-        {
-          "source_name": "한국전력",
-          "domain": "kepco.co.kr",
-          "query": "site:kepco.co.kr \"전기요금 절약\" 신청",
-          "priority": 1,
-          "trust_score": 96
-        },
-        {
           "source_name": "국가법령정보센터",
           "domain": "law.go.kr",
-          "query": "site:law.go.kr \"전기요금 절약\"",
+          "query": "site:law.go.kr \"장기수선충당금\"",
           "priority": 1,
           "trust_score": 100
         },
         {
           "source_name": "국가법령정보센터",
           "domain": "law.go.kr",
-          "query": "site:law.go.kr \"전기요금 절약\" 시행령",
+          "query": "site:law.go.kr \"장기수선충당금\" 시행령",
           "priority": 1,
           "trust_score": 100
         },
         {
           "source_name": "통계청",
           "domain": "kostat.go.kr",
-          "query": "site:kostat.go.kr \"전기요금 절약\"",
+          "query": "site:kostat.go.kr \"장기수선충당금\"",
           "priority": 2,
           "trust_score": 96
         },
         {
           "source_name": "통계청",
           "domain": "kostat.go.kr",
-          "query": "site:kostat.go.kr \"전기요금 절약\" 조건",
+          "query": "site:kostat.go.kr \"장기수선충당금\" 조건",
           "priority": 2,
           "trust_score": 96
         },
         {
           "source_name": "통계청",
           "domain": "kostat.go.kr",
-          "query": "site:kostat.go.kr \"전기요금 절약\" 신청",
+          "query": "site:kostat.go.kr \"장기수선충당금\" 신청",
           "priority": 2,
           "trust_score": 96
         }
@@ -635,7 +3374,7 @@
       "ready_for_writer": true,
       "ready_for_publish": false,
       "safety_notice": "검증되지 않은 수치·법령·지원금액은 확정 표현을 금지합니다.",
-      "created_at": "2026-07-14T12:49:46+00:00",
+      "created_at": "2026-07-15T11:51:16+09:00",
       "research_qa_score": 15,
       "qa": {
         "score": 15,
@@ -689,7 +3428,7 @@
             "passed": true,
             "weight": 5,
             "earned": 5,
-            "detail": "8/4"
+            "detail": "5/4"
           }
         ],
         "issues": [
@@ -704,12 +3443,12 @@
           "official_evidence",
           "domain_diversity"
         ],
-        "checked_at": "2026-07-14T12:49:46+00:00"
+        "checked_at": "2026-07-15T11:51:16+09:00"
       },
       "report": {
-        "topic": "전기요금 절약",
+        "topic": "장기수선충당금",
         "article_type": "guide",
-        "category": "공과금",
+        "category": "생활비 절약",
         "status": "research_rework_required",
         "research_qa": {
           "score": 15,
@@ -763,7 +3502,7 @@
               "passed": true,
               "weight": 5,
               "earned": 5,
-              "detail": "8/4"
+              "detail": "5/4"
             }
           ],
           "issues": [
@@ -778,23 +3517,10 @@
             "official_evidence",
             "domain_diversity"
           ],
-          "checked_at": "2026-07-14T12:49:46+00:00"
+          "checked_at": "2026-07-15T11:51:16+09:00"
         },
         "key_claims": [],
         "official_sources": [
-          {
-            "name": "한국전력",
-            "domain": "kepco.co.kr",
-            "category": "utility",
-            "trust_score": 96,
-            "priority": 1,
-            "matched_keywords": [
-              "전기",
-              "전기요금"
-            ],
-            "query_templates": [],
-            "score": 115
-          },
           {
             "name": "국가법령정보센터",
             "domain": "law.go.kr",
@@ -820,68 +3546,47 @@
           }
         ],
         "research_questions": [
-          "전기요금 절약의 적용 대상과 제외 대상은 무엇인가?",
-          "전기요금 절약의 기준일과 최신 변경사항은 무엇인가?",
-          "전기요금 절약의 공식 신청·변경·해지 절차는 무엇인가?",
-          "전기요금 절약에서 필요한 서류와 보관해야 할 증빙은 무엇인가?",
-          "전기요금 절약의 비용, 요율, 한도, 계산 기준은 무엇인가?",
-          "전기요금 절약의 예외·주의사항·불이익은 무엇인가?",
-          "전기요금 절약 관련 공식 문의처와 이의신청 절차는 무엇인가?"
+          "장기수선충당금의 적용 대상과 제외 대상은 무엇인가?",
+          "장기수선충당금의 기준일과 최신 변경사항은 무엇인가?",
+          "장기수선충당금의 공식 신청·변경·해지 절차는 무엇인가?",
+          "장기수선충당금에서 필요한 서류와 보관해야 할 증빙은 무엇인가?",
+          "장기수선충당금의 비용, 요율, 한도, 계산 기준은 무엇인가?",
+          "장기수선충당금의 예외·주의사항·불이익은 무엇인가?",
+          "장기수선충당금 관련 공식 문의처와 이의신청 절차는 무엇인가?"
         ],
         "query_plan": [
           {
-            "source_name": "한국전력",
-            "domain": "kepco.co.kr",
-            "query": "site:kepco.co.kr \"전기요금 절약\"",
-            "priority": 1,
-            "trust_score": 96
-          },
-          {
-            "source_name": "한국전력",
-            "domain": "kepco.co.kr",
-            "query": "site:kepco.co.kr \"전기요금 절약\" 조건",
-            "priority": 1,
-            "trust_score": 96
-          },
-          {
-            "source_name": "한국전력",
-            "domain": "kepco.co.kr",
-            "query": "site:kepco.co.kr \"전기요금 절약\" 신청",
-            "priority": 1,
-            "trust_score": 96
-          },
-          {
             "source_name": "국가법령정보센터",
             "domain": "law.go.kr",
-            "query": "site:law.go.kr \"전기요금 절약\"",
+            "query": "site:law.go.kr \"장기수선충당금\"",
             "priority": 1,
             "trust_score": 100
           },
           {
             "source_name": "국가법령정보센터",
             "domain": "law.go.kr",
-            "query": "site:law.go.kr \"전기요금 절약\" 시행령",
+            "query": "site:law.go.kr \"장기수선충당금\" 시행령",
             "priority": 1,
             "trust_score": 100
           },
           {
             "source_name": "통계청",
             "domain": "kostat.go.kr",
-            "query": "site:kostat.go.kr \"전기요금 절약\"",
+            "query": "site:kostat.go.kr \"장기수선충당금\"",
             "priority": 2,
             "trust_score": 96
           },
           {
             "source_name": "통계청",
             "domain": "kostat.go.kr",
-            "query": "site:kostat.go.kr \"전기요금 절약\" 조건",
+            "query": "site:kostat.go.kr \"장기수선충당금\" 조건",
             "priority": 2,
             "trust_score": 96
           },
           {
             "source_name": "통계청",
             "domain": "kostat.go.kr",
-            "query": "site:kostat.go.kr \"전기요금 절약\" 신청",
+            "query": "site:kostat.go.kr \"장기수선충당금\" 신청",
             "priority": 2,
             "trust_score": 96
           }
@@ -912,14 +3617,2707 @@
           ],
           "target_chars": 5000
         },
-        "created_at": "2026-07-14T12:49:46+00:00"
+        "created_at": "2026-07-15T11:51:16+09:00"
       },
       "output_files": {
         "package": "factory/output/research/research_package.json",
         "qa": "factory/output/research/research_qa.json",
         "report": "factory/output/research/research_report.json"
       }
+    },
+    "writing": {
+      "html": "<!doctype html><html lang=\"ko\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>장기수선충당금</title><meta name=\"description\" content=\"장기수선충당금의 조건, 적용 대상, 확인 순서, 사례, FAQ와 공식 근거 확인 방법을 정리했습니다.\"><meta name=\"robots\" content=\"index,follow\">\n<link rel=\"canonical\" href=\"https://savingio.com/articles/장기수선충당금-298a523e.html\"><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"장기수선충당금\", \"description\": \"장기수선충당금의 조건, 적용 대상, 확인 순서, 사례, FAQ와 공식 근거 확인 방법을 정리했습니다.\", \"mainEntityOfPage\": \"https://savingio.com/articles/장기수선충당금-298a523e.html\", \"inLanguage\": \"ko-KR\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"Savingio\", \"url\": \"https://savingio.com\"}}</script></head><body>\n<main class=\"article-shell\" data-factory-version=\"2.017\"><header class=\"article-hero\"><p class=\"eyebrow\">생활비 절약</p><h1>장기수선충당금</h1><p>장기수선충당금의 조건, 적용 대상, 확인 순서, 사례, FAQ와 공식 근거 확인 방법을 정리했습니다.</p></header>\n<nav class=\"article-toc\" aria-label=\"목차\"><a href=\"#three-second-summary\">3초 요약</a><a href=\"#situation-choice\">상황 선택</a><a href=\"#action-steps\">해결 순서</a><a href=\"#faq\">FAQ</a></nav><section id=\"three-second-summary\" class=\"article-section\"><h2>3초 요약</h2><ul><li>장기수선충당금은 대상 조건부터 확인합니다.</li><li>공식 근거 없는 수치는 확정하지 않습니다.</li><li>확인→비교→실행→점검 순서로 진행합니다.</li></ul></section><section id=\"situation-choice\" class=\"article-section\"><h2>내 상황부터 선택하세요</h2><div class=\"choice-grid\"><article><h3>처음 확인</h3><p>대상과 준비자료부터 확인합니다.</p></article><article><h3>이미 이용 중</h3><p>현재 조건과 변경 가능 항목을 비교합니다.</p></article><article><h3>문제가 생김</h3><p>증빙과 공식 문의처를 확인합니다.</p></article></div></section><section id=\"conclusion\" class=\"article-section\"><h2>먼저 결론부터</h2><p>조건을 확인한 뒤 실행 순서를 따라가는 안내형 글입니다.</p><p>장기수선충당금은 한 가지 숫자나 요령만으로 판단하기 어렵습니다. 대상, 계약 형태, 지역, 사용량, 신청 시점과 예외 조건이 결과를 바꿀 수 있기 때문입니다. 현재 상태를 먼저 적고 공식 안내의 대상 조건과 제외 조건을 차례로 대조해야 합니다. 확인되지 않은 금액과 비율은 확정적으로 쓰지 않습니다.</p></section><section id=\"causes\" class=\"article-section\"><h2>왜 결과가 달라질까요?</h2><p>장기수선충당금은 한 가지 숫자나 요령만으로 판단하기 어렵습니다. 대상, 계약 형태, 지역, 사용량, 신청 시점과 예외 조건이 결과를 바꿀 수 있기 때문입니다. 현재 상태를 먼저 적고 공식 안내의 대상 조건과 제외 조건을 차례로 대조해야 합니다. 확인되지 않은 금액과 비율은 확정적으로 쓰지 않습니다.</p><p>장기수선충당금은 한 가지 숫자나 요령만으로 판단하기 어렵습니다. 대상, 계약 형태, 지역, 사용량, 신청 시점과 예외 조건이 결과를 바꿀 수 있기 때문입니다. 현재 상태를 먼저 적고 공식 안내의 대상 조건과 제외 조건을 차례로 대조해야 합니다. 확인되지 않은 금액과 비율은 확정적으로 쓰지 않습니다.</p><p>장기수선충당금은 한 가지 숫자나 요령만으로 판단하기 어렵습니다. 대상, 계약 형태, 지역, 사용량, 신청 시점과 예외 조건이 결과를 바꿀 수 있기 때문입니다. 현재 상태를 먼저 적고 공식 안내의 대상 조건과 제외 조건을 차례로 대조해야 합니다. 확인되지 않은 금액과 비율은 확정적으로 쓰지 않습니다.</p></section><section id=\"condition-branches\" class=\"article-section\"><h2>조건별로 판단하세요</h2><div class=\"table-wrap\"><table><thead><tr><th>상황</th><th>먼저 확인</th><th>다음 행동</th></tr></thead><tbody>\n<tr><td>처음 알아보는 경우</td><td>대상·기간·필수조건</td><td>공식 안내와 내 조건 대조</td></tr>\n<tr><td>이미 이용 중인 경우</td><td>현재 계약·사용 내역</td><td>변경 전후 비용 비교</td></tr>\n<tr><td>오류나 분쟁이 있는 경우</td><td>증빙·처리기한·문의처</td><td>공식 문의와 이의 절차 확인</td></tr></tbody></table></div><p>장기수선충당금은 한 가지 숫자나 요령만으로 판단하기 어렵습니다. 대상, 계약 형태, 지역, 사용량, 신청 시점과 예외 조건이 결과를 바꿀 수 있기 때문입니다. 현재 상태를 먼저 적고 공식 안내의 대상 조건과 제외 조건을 차례로 대조해야 합니다. 확인되지 않은 금액과 비율은 확정적으로 쓰지 않습니다.</p></section><section id=\"action-steps\" class=\"article-section\"><h2>해결 순서</h2><ol class=\"action-list\"><li>현재 상황과 목표를 한 문장으로 정리합니다.</li><li>적용 대상과 제외 조건을 나눠 적습니다.</li><li>공식기관·사업자 자료에서 기준일을 확인합니다.</li><li>비용, 절감 가능액, 불이익을 함께 비교합니다.</li><li>신청·설정 후 결과 화면과 증빙을 보관합니다.</li></ol><p>장기수선충당금은 한 가지 숫자나 요령만으로 판단하기 어렵습니다. 대상, 계약 형태, 지역, 사용량, 신청 시점과 예외 조건이 결과를 바꿀 수 있기 때문입니다. 현재 상태를 먼저 적고 공식 안내의 대상 조건과 제외 조건을 차례로 대조해야 합니다. 확인되지 않은 금액과 비율은 확정적으로 쓰지 않습니다.</p></section><section id=\"case\" class=\"article-section\"><h2>실제 적용 사례</h2><p>예를 들어 장기수선충당금을 바로 신청하거나 변경하면 조건 누락으로 다시 확인해야 할 수 있습니다. 대상 여부와 필요한 증빙을 먼저 정리한 뒤 진행하면 재작업을 줄일 수 있습니다.</p><p>장기수선충당금은 한 가지 숫자나 요령만으로 판단하기 어렵습니다. 대상, 계약 형태, 지역, 사용량, 신청 시점과 예외 조건이 결과를 바꿀 수 있기 때문입니다. 현재 상태를 먼저 적고 공식 안내의 대상 조건과 제외 조건을 차례로 대조해야 합니다. 확인되지 않은 금액과 비율은 확정적으로 쓰지 않습니다.</p></section><section id=\"comparison-table\" class=\"article-section\"><h2>한눈에 보는 비교표</h2><div class=\"table-wrap\"><table><thead><tr><th>상황</th><th>먼저 확인</th><th>다음 행동</th></tr></thead><tbody>\n<tr><td>처음 알아보는 경우</td><td>대상·기간·필수조건</td><td>공식 안내와 내 조건 대조</td></tr>\n<tr><td>이미 이용 중인 경우</td><td>현재 계약·사용 내역</td><td>변경 전후 비용 비교</td></tr>\n<tr><td>오류나 분쟁이 있는 경우</td><td>증빙·처리기한·문의처</td><td>공식 문의와 이의 절차 확인</td></tr></tbody></table></div></section><section id=\"faq\" class=\"article-section\"><h2>자주 묻는 질문</h2><div class=\"faq\"><h3>누구에게나 같은 결과가 나오나요?</h3><p>아닙니다. 계약, 지역, 대상 조건과 기준일에 따라 달라집니다.</p><h3>공식 근거가 없으면 어떻게 하나요?</h3><p>수치와 혜택을 확정하지 않고 조사 대기 상태로 둡니다.</p><h3>가장 먼저 할 일은 무엇인가요?</h3><p>현재 상태를 적고 공식 안내의 조건을 대조하는 것입니다.</p><h3>신청 후 무엇을 보관해야 하나요?</h3><p>접수번호, 결과 화면, 영수증과 안내문을 보관합니다.</p></div></section><section id=\"next-action\" class=\"article-section\"><h2>지금 할 일</h2><ol class=\"action-list\"><li>현재 상황과 목표를 한 문장으로 정리합니다.</li><li>적용 대상과 제외 조건을 나눠 적습니다.</li><li>공식기관·사업자 자료에서 기준일을 확인합니다.</li><li>비용, 절감 가능액, 불이익을 함께 비교합니다.</li><li>신청·설정 후 결과 화면과 증빙을 보관합니다.</li></ol></section><section id=\"internal-links\" class=\"article-section\"><h2>함께 보면 좋은 글</h2><ul><li><a href=\"/articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html\">전기요금 절약</a></li><li><a href=\"/articles/ai-side-hustles-beginner.html\">초보자를 위한 AI 부업 시작 방법</a></li><li><a href=\"/articles/air-conditioner-electricity-saving.html\">에어컨 전기요금 줄이는 실전 방법</a></li><li><a href=\"/articles/aircon-dry-mode-electricity.html\">에어컨 제습모드 전기세 차이</a></li><li><a href=\"/articles/aircon-filter-cleaning-savings.html\">에어컨 필터 청소로 전기세 줄이기</a></li></ul></section><section id=\"official-evidence\" class=\"article-section\"><h2>공식 근거</h2><div class=\"notice-card\"><strong>공식 근거 입력 대기</strong><p>Factory Research Package에 검증된 URL과 근거 문장을 추가한 뒤 발행합니다.</p></div></section><section id=\"updated\" class=\"article-section\"><h2>업데이트</h2><p>최종 업데이트: 2026-07-15T11:51:16+09:00</p></section></main></body></html>",
+      "text_chars": 5819
+    },
+    "seo": {
+      "title": "장기수선충당금",
+      "description": "장기수선충당금의 조건, 적용 대상, 확인 순서, 사례, FAQ와 공식 근거 확인 방법을 정리했습니다.",
+      "slug": "장기수선충당금-298a523e",
+      "canonical": "https://savingio.com/articles/장기수선충당금-298a523e.html",
+      "keywords": [
+        "장기수선충당금",
+        "생활비 절약",
+        "guide",
+        "Savingio"
+      ],
+      "robots": "index,follow",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "장기수선충당금",
+        "description": "장기수선충당금의 조건, 적용 대상, 확인 순서, 사례, FAQ와 공식 근거 확인 방법을 정리했습니다.",
+        "mainEntityOfPage": "https://savingio.com/articles/장기수선충당금-298a523e.html",
+        "inLanguage": "ko-KR",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Savingio",
+          "url": "https://savingio.com"
+        }
+      }
+    },
+    "image": {
+      "topic": "장기수선충당금",
+      "slug": "장기수선충당금-298a523e",
+      "required": [
+        {
+          "filename": "장기수선충당금-298a523e-hero.webp",
+          "alt": "장기수선충당금 핵심 안내 이미지",
+          "aspect_ratio": "16:9",
+          "prompt": "장기수선충당금을 설명하는 신뢰감 있는 한국형 생활정보 웹사이트 대표 이미지, 텍스트 최소화"
+        },
+        {
+          "filename": "장기수선충당금-298a523e-og.webp",
+          "alt": "장기수선충당금 OG 이미지",
+          "aspect_ratio": "1200:630",
+          "prompt": "Savingio 브랜드용 장기수선충당금 OG 이미지, 정보형, 깔끔한 카드 스타일"
+        },
+        {
+          "filename": "장기수선충당금-298a523e-summary.webp",
+          "alt": "장기수선충당금 요약 인포그래픽",
+          "aspect_ratio": "4:5",
+          "prompt": "장기수선충당금 핵심 조건과 실행 순서를 요약한 인포그래픽"
+        }
+      ],
+      "generated_files": [],
+      "ready": false,
+      "requires_external_image_generation": true,
+      "created_at": "2026-07-15T11:51:16+09:00"
+    },
+    "qa_primary": {
+      "score": 100,
+      "pass": true,
+      "minimum": 95,
+      "checks": [
+        {
+          "name": "doctype",
+          "passed": true,
+          "penalty": 0,
+          "critical": true,
+          "detail": ""
+        },
+        {
+          "name": "lang_ko",
+          "passed": true,
+          "penalty": 0,
+          "critical": false,
+          "detail": ""
+        },
+        {
+          "name": "h1_once",
+          "passed": true,
+          "penalty": 0,
+          "critical": true,
+          "detail": ""
+        },
+        {
+          "name": "title_length",
+          "passed": true,
+          "penalty": 0,
+          "critical": false,
+          "detail": ""
+        },
+        {
+          "name": "description_length",
+          "passed": true,
+          "penalty": 0,
+          "critical": false,
+          "detail": ""
+        },
+        {
+          "name": "canonical",
+          "passed": true,
+          "penalty": 0,
+          "critical": true,
+          "detail": ""
+        },
+        {
+          "name": "robots",
+          "passed": true,
+          "penalty": 0,
+          "critical": false,
+          "detail": ""
+        },
+        {
+          "name": "schema",
+          "passed": true,
+          "penalty": 0,
+          "critical": false,
+          "detail": ""
+        },
+        {
+          "name": "required_sections",
+          "passed": true,
+          "penalty": 0,
+          "critical": true,
+          "detail": ""
+        },
+        {
+          "name": "faq_count",
+          "passed": true,
+          "penalty": 0,
+          "critical": false,
+          "detail": ""
+        },
+        {
+          "name": "table",
+          "passed": true,
+          "penalty": 0,
+          "critical": false,
+          "detail": ""
+        },
+        {
+          "name": "internal_links",
+          "passed": true,
+          "penalty": 0,
+          "critical": false,
+          "detail": ""
+        },
+        {
+          "name": "forbidden_placeholders",
+          "passed": true,
+          "penalty": 0,
+          "critical": true,
+          "detail": ""
+        },
+        {
+          "name": "text_length",
+          "passed": true,
+          "penalty": 0,
+          "critical": false,
+          "detail": ""
+        },
+        {
+          "name": "evidence_safety",
+          "passed": true,
+          "penalty": 0,
+          "critical": true,
+          "detail": ""
+        },
+        {
+          "name": "single_canonical",
+          "passed": true,
+          "penalty": 0,
+          "critical": false,
+          "detail": ""
+        },
+        {
+          "name": "no_empty_href",
+          "passed": true,
+          "penalty": 0,
+          "critical": false,
+          "detail": ""
+        }
+      ],
+      "issues": [],
+      "critical_failures": [],
+      "text_chars": 2922,
+      "checked_at": "2026-07-15T11:51:16+09:00"
+    },
+    "qa_final": {
+      "score": 100,
+      "pass": true,
+      "minimum": 95,
+      "checks": [
+        {
+          "name": "doctype",
+          "passed": true,
+          "penalty": 0,
+          "critical": true,
+          "detail": ""
+        },
+        {
+          "name": "lang_ko",
+          "passed": true,
+          "penalty": 0,
+          "critical": false,
+          "detail": ""
+        },
+        {
+          "name": "h1_once",
+          "passed": true,
+          "penalty": 0,
+          "critical": true,
+          "detail": ""
+        },
+        {
+          "name": "title_length",
+          "passed": true,
+          "penalty": 0,
+          "critical": false,
+          "detail": ""
+        },
+        {
+          "name": "description_length",
+          "passed": true,
+          "penalty": 0,
+          "critical": false,
+          "detail": ""
+        },
+        {
+          "name": "canonical",
+          "passed": true,
+          "penalty": 0,
+          "critical": true,
+          "detail": ""
+        },
+        {
+          "name": "robots",
+          "passed": true,
+          "penalty": 0,
+          "critical": false,
+          "detail": ""
+        },
+        {
+          "name": "schema",
+          "passed": true,
+          "penalty": 0,
+          "critical": false,
+          "detail": ""
+        },
+        {
+          "name": "required_sections",
+          "passed": true,
+          "penalty": 0,
+          "critical": true,
+          "detail": ""
+        },
+        {
+          "name": "faq_count",
+          "passed": true,
+          "penalty": 0,
+          "critical": false,
+          "detail": ""
+        },
+        {
+          "name": "table",
+          "passed": true,
+          "penalty": 0,
+          "critical": false,
+          "detail": ""
+        },
+        {
+          "name": "internal_links",
+          "passed": true,
+          "penalty": 0,
+          "critical": false,
+          "detail": ""
+        },
+        {
+          "name": "forbidden_placeholders",
+          "passed": true,
+          "penalty": 0,
+          "critical": true,
+          "detail": ""
+        },
+        {
+          "name": "text_length",
+          "passed": true,
+          "penalty": 0,
+          "critical": false,
+          "detail": ""
+        },
+        {
+          "name": "evidence_safety",
+          "passed": true,
+          "penalty": 0,
+          "critical": true,
+          "detail": ""
+        },
+        {
+          "name": "single_canonical",
+          "passed": true,
+          "penalty": 0,
+          "critical": false,
+          "detail": ""
+        },
+        {
+          "name": "no_empty_href",
+          "passed": true,
+          "penalty": 0,
+          "critical": false,
+          "detail": ""
+        }
+      ],
+      "issues": [],
+      "critical_failures": [],
+      "text_chars": 2922,
+      "checked_at": "2026-07-15T11:51:16+09:00"
+    },
+    "cms": {
+      "article_path": "factory/output/drafts/장기수선충당금-298a523e.html",
+      "canonical": "https://savingio.com/articles/장기수선충당금-298a523e.html",
+      "qa_score": 100,
+      "evidence_score": 0,
+      "published": false,
+      "saved_at": "2026-07-15T11:51:16+09:00"
+    },
+    "deploy": {
+      "pass": false,
+      "status": "blocked",
+      "checks": {
+        "deployment_integrity_pass": true,
+        "doctor_pass": true,
+        "adsense_lock_pass": true,
+        "required_reports_present": true,
+        "qa_pass": true,
+        "research_pass": false,
+        "user_approved": false,
+        "image_ready": false
+      },
+      "missing_reports": [],
+      "blockers": [
+        "research_pass",
+        "user_approved",
+        "image_ready"
+      ],
+      "integrity": {
+        "pass": true,
+        "status": "pass",
+        "checks": {
+          "publisher_lock_pass": true,
+          "doctor_pass": true,
+          "critical_files_present": true,
+          "ads_txt_exact": true
+        },
+        "blockers": [],
+        "missing": [],
+        "critical_files": [
+          {
+            "path": "ads.txt",
+            "size": 58,
+            "sha256": "161feb2efb7ff2e90c47e6724bfd8dd822e16f1e1e26a9ba855ef840722cdd06"
+          },
+          {
+            "path": "index.html",
+            "size": 106483,
+            "sha256": "1cd5c3aec90989643f3e71041a0ae80d1630c79d6f27093a4fdd4dfd331d4954"
+          },
+          {
+            "path": "factory/config/adsense_identity.json",
+            "size": 488,
+            "sha256": "0916fdb1f3abf6e3007970344dc06b442f940b24bf53cf2438ce218cb6909bea"
+          },
+          {
+            "path": "factory/adsense_manager.py",
+            "size": 5451,
+            "sha256": "1bea76139ef01243b834263496d7a4564397606e7dac99a513a43f4745bc0b06"
+          },
+          {
+            "path": "factory/pipeline.py",
+            "size": 7756,
+            "sha256": "c9831bd22cb78c061aadc99d5c1765dbe00c8ecf80dcdaca00ce30efc5180fdf"
+          },
+          {
+            "path": "factory/publication.py",
+            "size": 4035,
+            "sha256": "ebf6a43edfbdfddd2dd0e8b51f6434b5e46868c8ce548818cb7a071839b4bf44"
+          },
+          {
+            "path": "factory/deployment_gate.py",
+            "size": 2069,
+            "sha256": "c35075f083fd9831945f910068c0d683ea3a64a6a96ba221156a80296bf3ecd8"
+          },
+          {
+            "path": "factory/deploy.py",
+            "size": 926,
+            "sha256": "7e148edb3a5b07206f69c65a3f03527f131d5be479c7709fa4fafcfe230b25de"
+          }
+        ],
+        "publisher_lock": {
+          "pass": true,
+          "blockers": [],
+          "repair": {
+            "changed_count": 0,
+            "changed": []
+          },
+          "ads_txt": {
+            "path": "ads.txt",
+            "exists": true,
+            "valid": true,
+            "executed": false,
+            "checked_at": "2026-07-15T11:51:16+09:00"
+          },
+          "index": {
+            "pass": true,
+            "ids": [
+              "ca-pub-7605193583747751"
+            ],
+            "changed": false,
+            "executed": false,
+            "checked_at": "2026-07-15T11:51:16+09:00"
+          },
+          "scan": {
+            "pass": true,
+            "official_publisher_id": "pub-7605193583747751",
+            "official_client": "ca-pub-7605193583747751",
+            "files_with_ids": [
+              {
+                "path": "00-READ-ME-FIRST.txt",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "ads.txt",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory_manifest.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "index.html",
+                "ids": [
+                  "ca-pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "V2.047-RECOVERY-NOTE.txt",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "V2.048-BASELINE-HOUSE.md",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "V2.050-PATCH-MANIFEST.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "V2.052-RELEASE-NOTE.md",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "V2.053-PATCH-MANIFEST.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "V2.053-RELEASE-NOTE.md",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "VERSION.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/MASTER_ROADMAP_V2_044.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/MASTER_ROADMAP_V2_045.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/MASTER_ROADMAP_V2_046.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/QA_V2_042.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/QA_V2_043.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/QA_V2_050.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/QA_V2_052.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/QA_V2_055.json",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/README_FACTORY.md",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/config/adsense_identity.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/config/auto_release_rules.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/auto_release_report.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/deployment_gate_report.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/deployment_integrity_report.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/deployment_report_v2_044.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/deployment_report_v2_045.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/deployment_report_v2_046.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/one_click_release_report.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/release_pipeline_report.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/start_factory_report.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/V2.047_RELEASE_REPORT.md",
+                "ids": [
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/tests/test_v2043_deployment_integrity.py",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/tests/test_v2044.py",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/tests/test_v2045.py",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/adsense/adsense_lock_report.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/adsense/index_report.json",
+                "ids": [
+                  "ca-pub-7605193583747751"
+                ]
+              },
+              {
+                "path": "factory/output/adsense/publisher_scan.json",
+                "ids": [
+                  "ca-pub-7605193583747751",
+                  "pub-7605193583747751"
+                ]
+              }
+            ],
+            "invalid_count": 0,
+            "invalid": [],
+            "checked_at": "2026-07-15T11:51:18+09:00"
+          },
+          "status": "pass",
+          "checked_at": "2026-07-15T11:51:18+09:00"
+        },
+        "doctor": {
+          "pass": true,
+          "checks": [
+            {
+              "name": "module:adsense_manager.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:auto_release.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:planner.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:researcher.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:writer.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:seo.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:qa.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cms.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:git_engine.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:deploy.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:pipeline.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:orchestrator.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:state_db.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:scheduler.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:incremental.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:dna_versioning.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:run.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:registry.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:dedupe.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:link_graph.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:publication.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:release.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:adsense_audit.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:eeat.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:indexability.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:source_registry.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:research_collector.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:research_qa.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:research_report.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:research_department.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:web_connector.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:openapi_connector.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:research_cache.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:research_web_runner.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:image_queue.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:image_adapters.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:deployment_gate.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:search_evidence.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:evidence_merge.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:image_result_linker.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:git_executor.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cloudflare_deploy.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:publish_executor.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:wordpress_connector.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:publish_package.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:wordpress_publisher.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cloudflare_pages_client.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cloudflare_deploy_verify.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:service_readiness.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:deployment_receipt.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:git_release_executor.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cloudflare_deployment_monitor.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:release_coordinator.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:wordpress_taxonomy.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:wordpress_upsert.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:runtime_config.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:wordpress_release_plan.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cloudflare_health_check.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:government_api_adapters.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:research_ingestion_pipeline.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:image_provider_result.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:google_service_auth.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:search_console_engine.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:ga4_engine.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:analytics_dashboard.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:content_performance_optimizer.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:google_jwt_auth.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:search_console_api.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:ga4_api.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:analytics_scheduler.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:keyword_rank_tracker.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:analytics_rework_bridge.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:google_token_exchange.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:google_access_token.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:article_optimization_executor.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:scheduler_installer.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:department_handoff.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:department_gate.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:automation_cycle.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:auto_rework_engine.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cycle_dashboard.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_import.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_dashboard.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_ai.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_task_router.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_core.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_html_rewriter.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_qa_recheck.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_cms_update.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:revenue_rework_pipeline.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:approved_release_gate.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:cloudflare_new_deployment.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:release_journal.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:post_deploy_verifier.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:approved_republish.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:end_to_end_audit.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:regression_manifest.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:final_release_manifest.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:final_release_coordinator.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:master_checklist.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:external_integration_registry.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:integration_preflight.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:live_verification_plan.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:adsense_report_import.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:adsense_revenue_bridge.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:production_readiness_board.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:operations_snapshot.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:incident_detector.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:recovery_planner.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:retry_policy.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:operations_center.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:credential_onboarding.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:connector_verification_runner.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:connector_verification_receipt.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:production_activation_gate.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:external_verification_center.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_registry.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_intent_engine.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_matcher.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_generation_request.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_solution_package.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_cms_registry.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_qa.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_analytics.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:calculator_hq.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "module:deployment_integrity.py",
+              "pass": true,
+              "detail": "compiled"
+            },
+            {
+              "name": "config:adsense_identity.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:article_dna.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:article_types.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:qa_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:research_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:seo_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:factory_manifest.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:orchestrator_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:publication_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:adsense_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:source_registry.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:research_quality_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:web_connector_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:openapi_sources.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:search_evidence_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:deployment_execution_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:external_services.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:release_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:wordpress_publish_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:government_api_services.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:site_health_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:analytics_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:analytics_schedule_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:automation_execution_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:department_gate_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:revenue_ai_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:revenue_rework_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:approved_republish_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:final_release_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:external_integration_registry.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:production_readiness_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:operations_monitoring_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:external_verification_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:calculator_registry.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:calculator_hq_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "config:auto_release_rules.json",
+              "pass": true,
+              "detail": "valid json"
+            },
+            {
+              "name": "sqlite-schema",
+              "pass": true,
+              "detail": "tables=['approvals', 'content_registry', 'dead_letter', 'dna_versions', 'queue', 'runs', 'sqlite_sequence']"
+            },
+            {
+              "name": "deprecated-api-scan",
+              "pass": true,
+              "detail": "findings=0"
+            },
+            {
+              "name": "internal-link-scan",
+              "pass": true,
+              "detail": "nodes=219 broken=0 orphans=31"
+            }
+          ],
+          "module_count": 126,
+          "config_count": 36,
+          "adsense_lock": null,
+          "deprecated_api_scan": {
+            "pass": true,
+            "finding_count": 0,
+            "findings": [],
+            "scanned_root": "factory"
+          },
+          "link_graph_summary": {
+            "nodes": 219,
+            "edges": 7113,
+            "broken": 0,
+            "orphans": 31
+          }
+        },
+        "official_publisher_id": "pub-7605193583747751",
+        "checked_at": "2026-07-15T11:51:20+09:00"
+      },
+      "adsense_lock": {
+        "pass": true,
+        "blockers": [],
+        "repair": {
+          "changed_count": 0,
+          "changed": []
+        },
+        "ads_txt": {
+          "path": "ads.txt",
+          "exists": true,
+          "valid": true,
+          "executed": false,
+          "checked_at": "2026-07-15T11:51:16+09:00"
+        },
+        "index": {
+          "pass": true,
+          "ids": [
+            "ca-pub-7605193583747751"
+          ],
+          "changed": false,
+          "executed": false,
+          "checked_at": "2026-07-15T11:51:16+09:00"
+        },
+        "scan": {
+          "pass": true,
+          "official_publisher_id": "pub-7605193583747751",
+          "official_client": "ca-pub-7605193583747751",
+          "files_with_ids": [
+            {
+              "path": "00-READ-ME-FIRST.txt",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "ads.txt",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory_manifest.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "index.html",
+              "ids": [
+                "ca-pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "V2.047-RECOVERY-NOTE.txt",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "V2.048-BASELINE-HOUSE.md",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "V2.050-PATCH-MANIFEST.json",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "V2.052-RELEASE-NOTE.md",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "V2.053-PATCH-MANIFEST.json",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "V2.053-RELEASE-NOTE.md",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "VERSION.json",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/MASTER_ROADMAP_V2_044.json",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/MASTER_ROADMAP_V2_045.json",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/MASTER_ROADMAP_V2_046.json",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/QA_V2_042.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/QA_V2_043.json",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/QA_V2_050.json",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/QA_V2_052.json",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/QA_V2_055.json",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/README_FACTORY.md",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/config/adsense_identity.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/config/auto_release_rules.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/auto_release_report.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/deployment_gate_report.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/deployment_integrity_report.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/deployment_report_v2_044.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/deployment_report_v2_045.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/deployment_report_v2_046.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/one_click_release_report.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/release_pipeline_report.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/start_factory_report.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/V2.047_RELEASE_REPORT.md",
+              "ids": [
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/tests/test_v2043_deployment_integrity.py",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/tests/test_v2044.py",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/tests/test_v2045.py",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/adsense/adsense_lock_report.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/adsense/index_report.json",
+              "ids": [
+                "ca-pub-7605193583747751"
+              ]
+            },
+            {
+              "path": "factory/output/adsense/publisher_scan.json",
+              "ids": [
+                "ca-pub-7605193583747751",
+                "pub-7605193583747751"
+              ]
+            }
+          ],
+          "invalid_count": 0,
+          "invalid": [],
+          "checked_at": "2026-07-15T11:51:18+09:00"
+        },
+        "status": "pass",
+        "checked_at": "2026-07-15T11:51:18+09:00"
+      },
+      "doctor": {
+        "pass": true,
+        "checks": [
+          {
+            "name": "module:adsense_manager.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:auto_release.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:planner.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:researcher.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:writer.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:seo.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:qa.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:cms.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:git_engine.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:deploy.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:pipeline.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:orchestrator.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:state_db.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:scheduler.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:incremental.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:dna_versioning.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:run.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:registry.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:dedupe.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:link_graph.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:publication.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:release.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:adsense_audit.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:eeat.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:indexability.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:source_registry.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:research_collector.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:research_qa.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:research_report.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:research_department.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:web_connector.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:openapi_connector.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:research_cache.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:research_web_runner.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:image_queue.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:image_adapters.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:deployment_gate.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:search_evidence.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:evidence_merge.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:image_result_linker.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:git_executor.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:cloudflare_deploy.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:publish_executor.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:wordpress_connector.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:publish_package.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:wordpress_publisher.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:cloudflare_pages_client.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:cloudflare_deploy_verify.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:service_readiness.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:deployment_receipt.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:git_release_executor.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:cloudflare_deployment_monitor.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:release_coordinator.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:wordpress_taxonomy.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:wordpress_upsert.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:runtime_config.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:wordpress_release_plan.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:cloudflare_health_check.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:government_api_adapters.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:research_ingestion_pipeline.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:image_provider_result.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:google_service_auth.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:search_console_engine.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:ga4_engine.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:analytics_dashboard.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:content_performance_optimizer.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:google_jwt_auth.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:search_console_api.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:ga4_api.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:analytics_scheduler.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:keyword_rank_tracker.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:analytics_rework_bridge.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:google_token_exchange.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:google_access_token.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:article_optimization_executor.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:scheduler_installer.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:department_handoff.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:department_gate.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:automation_cycle.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:auto_rework_engine.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:cycle_dashboard.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:revenue_import.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:revenue_dashboard.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:revenue_ai.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:revenue_task_router.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:revenue_core.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:revenue_html_rewriter.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:revenue_qa_recheck.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:revenue_cms_update.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:revenue_rework_pipeline.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:approved_release_gate.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:cloudflare_new_deployment.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:release_journal.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:post_deploy_verifier.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:approved_republish.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:end_to_end_audit.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:regression_manifest.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:final_release_manifest.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:final_release_coordinator.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:master_checklist.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:external_integration_registry.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:integration_preflight.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:live_verification_plan.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:adsense_report_import.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:adsense_revenue_bridge.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:production_readiness_board.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:operations_snapshot.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:incident_detector.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:recovery_planner.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:retry_policy.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:operations_center.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:credential_onboarding.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:connector_verification_runner.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:connector_verification_receipt.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:production_activation_gate.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:external_verification_center.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:calculator_registry.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:calculator_intent_engine.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:calculator_matcher.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:calculator_generation_request.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:calculator_solution_package.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:calculator_cms_registry.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:calculator_qa.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:calculator_analytics.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:calculator_hq.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "module:deployment_integrity.py",
+            "pass": true,
+            "detail": "compiled"
+          },
+          {
+            "name": "config:adsense_identity.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:article_dna.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:article_types.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:qa_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:research_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:seo_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:factory_manifest.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:orchestrator_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:publication_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:adsense_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:source_registry.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:research_quality_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:web_connector_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:openapi_sources.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:search_evidence_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:deployment_execution_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:external_services.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:release_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:wordpress_publish_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:government_api_services.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:site_health_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:analytics_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:analytics_schedule_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:automation_execution_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:department_gate_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:revenue_ai_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:revenue_rework_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:approved_republish_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:final_release_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:external_integration_registry.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:production_readiness_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:operations_monitoring_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:external_verification_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:calculator_registry.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:calculator_hq_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "config:auto_release_rules.json",
+            "pass": true,
+            "detail": "valid json"
+          },
+          {
+            "name": "sqlite-schema",
+            "pass": true,
+            "detail": "tables=['approvals', 'content_registry', 'dead_letter', 'dna_versions', 'queue', 'runs', 'sqlite_sequence']"
+          },
+          {
+            "name": "deprecated-api-scan",
+            "pass": true,
+            "detail": "findings=0"
+          },
+          {
+            "name": "internal-link-scan",
+            "pass": true,
+            "detail": "nodes=219 broken=0 orphans=31"
+          }
+        ],
+        "module_count": 126,
+        "config_count": 36,
+        "adsense_lock": null,
+        "deprecated_api_scan": {
+          "pass": true,
+          "finding_count": 0,
+          "findings": [],
+          "scanned_root": "factory"
+        },
+        "link_graph_summary": {
+          "nodes": 219,
+          "edges": 7113,
+          "broken": 0,
+          "orphans": 31
+        }
+      },
+      "checked_at": "2026-07-15T11:51:20+09:00"
+    },
+    "analytics": {
+      "search_console_loaded": true,
+      "ga4_loaded": true,
+      "page_count": 1,
+      "pages": [
+        {
+          "page": "https://savingio.com/articles/sample",
+          "clicks": 2.0,
+          "impressions": 200.0,
+          "page_views": 100.0,
+          "active_users": 40.0,
+          "sessions": 50.0,
+          "ctr": 0.01
+        }
+      ],
+      "summary": {
+        "clicks": 2.0,
+        "impressions": 200.0,
+        "page_views": 100.0,
+        "active_users": 40.0,
+        "sessions": 50.0
+      },
+      "created_at": "2026-07-15T11:51:20+09:00"
+    },
+    "revenue": {
+      "action_count": 1,
+      "actions": [
+        {
+          "page": "https://savingio.com/articles/sample",
+          "priority": 90,
+          "action": "rewrite_title_meta",
+          "reason": "high_impressions_low_ctr:200.0/0.01"
+        }
+      ],
+      "created_at": "2026-07-15T11:51:20+09:00"
     }
   },
-  "created_at": "2026-07-14T12:49:46+00:00"
+  "created_at": "2026-07-15T11:51:20+09:00"
 }

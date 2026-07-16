@@ -1,0 +1,6 @@
+{
+  "factory_exists": true,
+  "calculators": true,
+  "articles": true,
+  "publisher_lock": true
+}

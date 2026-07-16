@@ -1,0 +1,114 @@
+{
+  "count": 2,
+  "plans": [
+    {
+      "topic": "전기요금 절약",
+      "slug": "전기요금-절약-c861d77b",
+      "article_type": "guide",
+      "category": "공과금",
+      "search_intent": "문제 해결",
+      "audience": "생활비 절약 정보를 찾는 사용자",
+      "required_sections": [
+        "Hero",
+        "3초요약",
+        "상황선택",
+        "결론",
+        "원인",
+        "조건분기",
+        "해결순서",
+        "사례",
+        "표",
+        "FAQ",
+        "다음행동",
+        "내부링크",
+        "정부근거",
+        "업데이트"
+      ],
+      "target_chars": 5000,
+      "research_questions": [
+        "전기요금 절약의 핵심 조건은 무엇인가?",
+        "전기요금 절약의 실행 순서는 무엇인가?"
+      ],
+      "matched_keywords": [
+        "절약"
+      ],
+      "risk_level": "medium",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요.",
+      "article_flow": [
+        "가장 급한 질문",
+        "5초 결론",
+        "내 상황 선택",
+        "지금 해야 할 일",
+        "누가 책임지는지",
+        "내 돈이 얼마나 드는지",
+        "보험·복지·세금·지원 확인",
+        "필요한 서류와 증거",
+        "예외와 주의사항",
+        "다음에 궁금할 질문"
+      ],
+      "language_rules": {
+        "situation_first": true,
+        "plain_korean_first": true,
+        "official_term_after_explanation": true,
+        "avoid_unexplained_jargon": true
+      },
+      "created_at": "2026-07-17T00:13:05+09:00",
+      "status": "planned"
+    },
+    {
+      "topic": "자동차 보험료 절약",
+      "slug": "자동차-보험료-절약-5f36e709",
+      "article_type": "guide",
+      "category": "생활비 절약",
+      "search_intent": "문제 해결",
+      "audience": "생활비 절약 정보를 찾는 사용자",
+      "required_sections": [
+        "Hero",
+        "3초요약",
+        "상황선택",
+        "결론",
+        "원인",
+        "조건분기",
+        "해결순서",
+        "사례",
+        "표",
+        "FAQ",
+        "다음행동",
+        "내부링크",
+        "정부근거",
+        "업데이트"
+      ],
+      "target_chars": 5000,
+      "research_questions": [
+        "자동차 보험료 절약의 핵심 조건은 무엇인가?",
+        "자동차 보험료 절약의 실행 순서는 무엇인가?"
+      ],
+      "matched_keywords": [
+        "절약"
+      ],
+      "risk_level": "medium",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요.",
+      "article_flow": [
+        "가장 급한 질문",
+        "5초 결론",
+        "내 상황 선택",
+        "지금 해야 할 일",
+        "누가 책임지는지",
+        "내 돈이 얼마나 드는지",
+        "보험·복지·세금·지원 확인",
+        "필요한 서류와 증거",
+        "예외와 주의사항",
+        "다음에 궁금할 질문"
+      ],
+      "language_rules": {
+        "situation_first": true,
+        "plain_korean_first": true,
+        "official_term_after_explanation": true,
+        "avoid_unexplained_jargon": true
+      },
+      "created_at": "2026-07-17T00:13:05+09:00",
+      "status": "planned"
+    }
+  ],
+  "created_at": "2026-07-17T00:13:05+09:00"
+}

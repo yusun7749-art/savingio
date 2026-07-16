@@ -1,0 +1,48 @@
+{
+  "handoff_id": "f38f16db68e8429ca22fb881c1f1b329",
+  "workflow_id": "e70834e1f55d471e9104444de3c1b039",
+  "sender": "planning",
+  "receiver": "research",
+  "status": "ready",
+  "blockers": [],
+  "payload": {
+    "topic": "장기수선충당금",
+    "slug": "장기수선충당금-298a523e",
+    "article_type": "guide",
+    "category": "생활비 절약",
+    "search_intent": "문제 해결",
+    "audience": "생활비 절약 정보를 찾는 사용자",
+    "required_sections": [
+      "Hero",
+      "3초요약",
+      "상황선택",
+      "결론",
+      "원인",
+      "조건분기",
+      "해결순서",
+      "사례",
+      "표",
+      "FAQ",
+      "다음행동",
+      "내부링크",
+      "정부근거",
+      "업데이트"
+    ],
+    "target_chars": 5000,
+    "research_questions": [
+      "장기수선충당금의 핵심 조건은 무엇인가?",
+      "장기수선충당금의 실행 순서는 무엇인가?"
+    ],
+    "matched_keywords": [],
+    "risk_level": "medium",
+    "created_at": "2026-07-15T10:12:07+09:00",
+    "status": "planned"
+  },
+  "created_at": "2026-07-15T10:12:07+09:00",
+  "gate": {
+    "department": "planning",
+    "pass": true,
+    "blockers": [],
+    "checked_at": "2026-07-15T10:12:07+09:00"
+  }
+}

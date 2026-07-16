@@ -37,3 +37,17 @@ def test_git_status_parser_handles_real_repo(tmp_path: Path) -> None:
     from factory.auto_git_deploy import git_changes
     changes = git_changes(tmp_path)
     assert any(change.path == "a.txt" for change in changes)
+
+
+def test_selection_can_be_locked_to_include_paths() -> None:
+    selected, excluded, blocked = select_release_changes(
+        [
+            Change(" M", "index.html"),
+            Change(" M", "factory/auto_git_deploy.py"),
+            Change("??", "articles/new.html"),
+        ],
+        include_paths=["index.html"],
+    )
+    assert [item.path for item in selected] == ["index.html"]
+    assert {item.path for item in excluded} == {"factory/auto_git_deploy.py", "articles/new.html"}
+    assert blocked == []

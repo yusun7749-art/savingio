@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "poll_seconds": 30,
+  "debounce_seconds": 10,
+  "failure_cooldown_seconds": 600,
+  "include_paths": [
+    "index.html"
+  ],
+  "auto_deploy": true,
+  "verify": true,
+  "commit_message": "Savingio homepage automatic safe release"
+}

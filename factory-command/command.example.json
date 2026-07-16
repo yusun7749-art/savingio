@@ -1,0 +1,17 @@
+{
+  "id": "savingio-command-example",
+  "description": "Savingio Command Factory V3 example",
+  "actions": [
+    {
+      "type": "write_file",
+      "path": "factory-command/example-output.txt",
+      "content": "Savingio Command Factory V3 PASS"
+    },
+    {
+      "type": "replace_text",
+      "path": "factory-command/example-output.txt",
+      "old": "PASS",
+      "new": "READY"
+    }
+  ]
+}

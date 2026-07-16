@@ -1,0 +1,7 @@
+{
+  "patch": "Factory Progress Manifest",
+  "implemented": [
+    "Progress tracking manifest"
+  ],
+  "note": "Progress file added."
+}

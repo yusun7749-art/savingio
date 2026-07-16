@@ -17,8 +17,8 @@
     },
     {
       "path": "index.html",
-      "size": 106483,
-      "sha256": "1cd5c3aec90989643f3e71041a0ae80d1630c79d6f27093a4fdd4dfd331d4954"
+      "size": 106343,
+      "sha256": "28bc7d84a46371d17121c61b95ca04a5a280989657773ea0e0915874a7112084"
     },
     {
       "path": "factory/config/adsense_identity.json",
@@ -27,13 +27,13 @@
     },
     {
       "path": "factory/adsense_manager.py",
-      "size": 5451,
-      "sha256": "1bea76139ef01243b834263496d7a4564397606e7dac99a513a43f4745bc0b06"
+      "size": 5719,
+      "sha256": "f120404c2a21a5ca906f5d7c4d17f95149372e94fe4828c84b3f98500287d73b"
     },
     {
       "path": "factory/pipeline.py",
-      "size": 7756,
-      "sha256": "c9831bd22cb78c061aadc99d5c1765dbe00c8ecf80dcdaca00ce30efc5180fdf"
+      "size": 8506,
+      "sha256": "2300f78939ce13d5833ab9fab9f1a94cf23f14d3b4fb80608a326b5980194c79"
     },
     {
       "path": "factory/publication.py",
@@ -63,7 +63,7 @@
       "exists": true,
       "valid": true,
       "executed": false,
-      "checked_at": "2026-07-15T09:33:20+09:00"
+      "checked_at": "2026-07-16T23:01:33+09:00"
     },
     "index": {
       "pass": true,
@@ -72,13 +72,19 @@
       ],
       "changed": false,
       "executed": false,
-      "checked_at": "2026-07-15T09:33:20+09:00"
+      "checked_at": "2026-07-16T23:01:33+09:00"
     },
     "scan": {
       "pass": true,
       "official_publisher_id": "pub-7605193583747751",
       "official_client": "ca-pub-7605193583747751",
       "files_with_ids": [
+        {
+          "path": "00-READ-ME-FIRST.txt",
+          "ids": [
+            "pub-7605193583747751"
+          ]
+        },
         {
           "path": "ads.txt",
           "ids": [
@@ -117,7 +123,37 @@
           ]
         },
         {
+          "path": "V2.052-RELEASE-NOTE.md",
+          "ids": [
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "V2.053-PATCH-MANIFEST.json",
+          "ids": [
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "V2.053-RELEASE-NOTE.md",
+          "ids": [
+            "pub-7605193583747751"
+          ]
+        },
+        {
           "path": "VERSION.json",
+          "ids": [
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/auto_git_deploy.py",
+          "ids": [
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/factory_completion_report.py",
           "ids": [
             "pub-7605193583747751"
           ]
@@ -136,6 +172,12 @@
         },
         {
           "path": "factory/MASTER_ROADMAP_V2_046.json",
+          "ids": [
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/preflight.py",
           "ids": [
             "pub-7605193583747751"
           ]
@@ -160,6 +202,18 @@
           ]
         },
         {
+          "path": "factory/QA_V2_052.json",
+          "ids": [
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/QA_V2_055.json",
+          "ids": [
+            "pub-7605193583747751"
+          ]
+        },
+        {
           "path": "factory/README_FACTORY.md",
           "ids": [
             "pub-7605193583747751"
@@ -174,6 +228,118 @@
         },
         {
           "path": "factory/config/auto_release_rules.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/history/#Ub3c4#Uc2dc#Uac00#Uc2a4-#Uc694#Uae08-#Uc808#Uc57d#Uacfc-#Uac80#Uce68-#Ud655#Uc778-#Ubc29#Ubc95-da52d01c.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/history/#Uc218#Ub3c4#Uc694#Uae08#Uc774-#Uac11#Uc790#Uae30-#Ub298#Uc5c8#Uc744-#Ub54c-#Ud655#Uc778#Ud560-#Uac83-3e3606cc.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/history/#Uc544#Ud30c#Ud2b8-#Uad00#Ub9ac#Ube44-#Ud56d#Ubaa9#Ubcc4-#Ud655#Uc778-#Ubc29#Ubc95-c9789557.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/history/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/history/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/history/#Uc804#Uae30#Uc694#Uae08-#Ub204#Uc9c4#Uc81c-#Uacc4#Uc0b0#Uacfc-#Uc808#Uc57d-#Ubc29#Ubc95-cfa9a817.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/history/#Ud734#Uba74#Uc608#Uae08#Uacfc-#Uc228#Uc740-#Ubcf4#Ud5d8#Uae08-#Ucc3e#Ub294-#Ubc29#Ubc95-1e05d025.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/history/도시가스-요금-절약과-검침-확인-방법-da52d01c.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/history/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/history/아파트-관리비-항목별-확인-방법-c9789557.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/history/자동이체-할인과-납부일-관리-방법-c93c4d41.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/history/장기수선충당금-반환받는-방법-8ea93de8.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/history/전기요금-누진제-계산과-절약-방법-cfa9a817.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/history/휴면예금과-숨은-보험금-찾는-방법-1e05d025.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/automation_cycle_report.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/auto_git_deploy_report.json",
           "ids": [
             "ca-pub-7605193583747751",
             "pub-7605193583747751"
@@ -222,7 +388,34 @@
           ]
         },
         {
+          "path": "factory/output/draft.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
           "path": "factory/output/one_click_release_report.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/release_pipeline_report.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/run_report.json",
+          "ids": [
+            "ca-pub-7605193583747751",
+            "pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/start_factory_report.json",
           "ids": [
             "ca-pub-7605193583747751",
             "pub-7605193583747751"
@@ -235,41 +428,571 @@
           ]
         },
         {
-          "path": "factory/tests/test_v2043_deployment_integrity.py",
-          "ids": [
-            "ca-pub-7605193583747751",
-            "pub-7605193583747751"
-          ]
-        },
-        {
-          "path": "factory/tests/test_v2044.py",
-          "ids": [
-            "ca-pub-7605193583747751",
-            "pub-7605193583747751"
-          ]
-        },
-        {
-          "path": "factory/tests/test_v2045.py",
-          "ids": [
-            "ca-pub-7605193583747751",
-            "pub-7605193583747751"
-          ]
-        },
-        {
-          "path": "factory/output/adsense/adsense_lock_report.json",
-          "ids": [
-            "ca-pub-7605193583747751",
-            "pub-7605193583747751"
-          ]
-        },
-        {
-          "path": "factory/output/adsense/index_report.json",
+          "path": "factory/output/drafts/#Uac74#Uac15#Ubcf4#Ud5d8#Ub8cc-#Ud658#Uae09#Uae08-#Uc870#Ud68c-#Ubc29#Ubc95-eab36122-factory.html",
           "ids": [
             "ca-pub-7605193583747751"
           ]
         },
         {
-          "path": "factory/output/adsense/publisher_scan.json",
+          "path": "factory/output/drafts/#Uac74#Uac15#Ubcf4#Ud5d8#Ub8cc-#Ud658#Uae09#Uae08-#Uc870#Ud68c-#Ubc29#Ubc95-eab36122.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uad6d#Uc138-#Ud658#Uae09#Uae08-#Uc870#Ud68c#Uc640-#Uc218#Ub839-#Ubc29#Ubc95-52402287-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uad6d#Uc138-#Ud658#Uae09#Uae08-#Uc870#Ud68c#Uc640-#Uc218#Ub839-#Ubc29#Ubc95-52402287.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uadfc#Ub85c#Uc7a5#Ub824#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc9c0#Uae09-#Uc77c#Uc815-7f9a0dee-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uadfc#Ub85c#Uc7a5#Ub824#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc9c0#Uae09-#Uc77c#Uc815-7f9a0dee.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uae30#Ucd08#Uc5f0#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc608#Uc0c1-#Uae08#Uc561-4aeed037-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uae30#Ucd08#Uc5f0#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc608#Uc0c1-#Uae08#Uc561-4aeed037.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Ub3c4#Uc2dc#Uac00#Uc2a4-#Uc694#Uae08-#Uc808#Uc57d#Uacfc-#Uac80#Uce68-#Ud655#Uc778-#Ubc29#Ubc95-da52d01c-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Ub3c4#Uc2dc#Uac00#Uc2a4-#Uc694#Uae08-#Uc808#Uc57d#Uacfc-#Uac80#Uce68-#Ud655#Uc778-#Ubc29#Ubc95-da52d01c.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc218#Ub3c4#Uc694#Uae08#Uc774-#Uac11#Uc790#Uae30-#Ub298#Uc5c8#Uc744-#Ub54c-#Ud655#Uc778#Ud560-#Uac83-3e3606cc-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc218#Ub3c4#Uc694#Uae08#Uc774-#Uac11#Uc790#Uae30-#Ub298#Uc5c8#Uc744-#Ub54c-#Ud655#Uc778#Ud560-#Uac83-3e3606cc.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc2e0#Uc6a9#Uce74#Ub4dc-#Ud3ec#Uc778#Ud2b8-#Ud604#Uae08#Ud654-#Ubc29#Ubc95-1c5c3966-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc2e0#Uc6a9#Uce74#Ub4dc-#Ud3ec#Uc778#Ud2b8-#Ud604#Uae08#Ud654-#Ubc29#Ubc95-1c5c3966.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc2e4#Uc5c5#Uae09#Uc5ec-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc808#Ucc28-d8a12400-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc2e4#Uc5c5#Uae09#Uc5ec-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc808#Ucc28-d8a12400.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc544#Ud30c#Ud2b8-#Uad00#Ub9ac#Ube44-#Ud56d#Ubaa9#Ubcc4-#Ud655#Uc778-#Ubc29#Ubc95-c9789557-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc544#Ud30c#Ud2b8-#Uad00#Ub9ac#Ube44-#Ud56d#Ubaa9#Ubcc4-#Ud655#Uc778-#Ubc29#Ubc95-c9789557.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc5d0#Ub108#Uc9c0#Ubc14#Uc6b0#Ucc98-#Uc2e0#Uccad-#Ub300#Uc0c1#Uacfc-#Ubc29#Ubc95-503ef955-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc5d0#Ub108#Uc9c0#Ubc14#Uc6b0#Ucc98-#Uc2e0#Uccad-#Ub300#Uc0c1#Uacfc-#Ubc29#Ubc95-503ef955.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc5f0#Ucc28#Uc218#Ub2f9-#Uacc4#Uc0b0#Uacfc-#Uc9c0#Uae09-#Uae30#Uc900-9e610a82-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc5f0#Ucc28#Uc218#Ub2f9-#Uacc4#Uc0b0#Uacfc-#Uc9c0#Uae09-#Uae30#Uc900-9e610a82.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc6d4#Uae09-#Uc2e4#Uc218#Ub839#Uc561-#Uacc4#Uc0b0-#Ubc29#Ubc95-305d9058-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc6d4#Uae09-#Uc2e4#Uc218#Ub839#Uc561-#Uacc4#Uc0b0-#Ubc29#Ubc95-305d9058.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc790#Ub140#Uc7a5#Ub824#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc900#Ube44-#Uc11c#Ub958-b64950f4-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc790#Ub140#Uc7a5#Ub824#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc900#Ube44-#Uc11c#Ub958-b64950f4.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc804#Uae30#Uc694#Uae08-#Ub204#Uc9c4#Uc81c-#Uacc4#Uc0b0#Uacfc-#Uc808#Uc57d-#Ubc29#Ubc95-cfa9a817-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc804#Uae30#Uc694#Uae08-#Ub204#Uc9c4#Uc81c-#Uacc4#Uc0b0#Uacfc-#Uc808#Uc57d-#Ubc29#Ubc95-cfa9a817.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc9c0#Ubc29#Uc138-#Ud658#Uae09#Uae08-#Uc870#Ud68c-#Ubc29#Ubc95-f570e7b4-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Uc9c0#Ubc29#Uc138-#Ud658#Uae09#Uae08-#Uc870#Ud68c-#Ubc29#Ubc95-f570e7b4.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Ud1b5#Uc2e0#Ube44-#Uc120#Ud0dd#Uc57d#Uc815-#Ud560#Uc778-#Ud655#Uc778-#Ubc29#Ubc95-f3a6ecd2-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Ud1b5#Uc2e0#Ube44-#Uc120#Ud0dd#Uc57d#Uc815-#Ud560#Uc778-#Ud655#Uc778-#Ubc29#Ubc95-f3a6ecd2.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Ud1f4#Uc9c1#Uae08-#Uacc4#Uc0b0#Uacfc-#Uc9c0#Uae09-#Uae30#Uc900-b30bc4f9-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Ud1f4#Uc9c1#Uae08-#Uacc4#Uc0b0#Uacfc-#Uc9c0#Uae09-#Uae30#Uc900-b30bc4f9.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Ud734#Uba74#Uc608#Uae08#Uacfc-#Uc228#Uc740-#Ubcf4#Ud5d8#Uae08-#Ucc3e#Ub294-#Ubc29#Ubc95-1e05d025-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/#Ud734#Uba74#Uc608#Uae08#Uacfc-#Uc228#Uc740-#Ubcf4#Ud5d8#Uae08-#Ucc3e#Ub294-#Ubc29#Ubc95-1e05d025.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/건강보험료-환급금-조회-방법-eab36122-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/건강보험료-환급금-조회-방법-eab36122.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/국세-환급금-조회와-수령-방법-52402287-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/국세-환급금-조회와-수령-방법-52402287.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/근로장려금-신청-조건과-지급-일정-7f9a0dee-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/근로장려금-신청-조건과-지급-일정-7f9a0dee.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/기초연금-신청-조건과-예상-금액-4aeed037-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/기초연금-신청-조건과-예상-금액-4aeed037.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/도시가스-요금-절약과-검침-확인-방법-da52d01c-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/신용카드-포인트-현금화-방법-1c5c3966-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/신용카드-포인트-현금화-방법-1c5c3966.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/실업급여-신청-조건과-절차-d8a12400-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/실업급여-신청-조건과-절차-d8a12400.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/아파트-관리비-항목별-확인-방법-c9789557-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/아파트-관리비-항목별-확인-방법-c9789557.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/에너지바우처-신청-대상과-방법-503ef955-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/에너지바우처-신청-대상과-방법-503ef955.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/연차수당-계산과-지급-기준-9e610a82-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/연차수당-계산과-지급-기준-9e610a82.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/월급-실수령액-계산-방법-305d9058-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/월급-실수령액-계산-방법-305d9058.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/자녀장려금-신청-조건과-준비-서류-b64950f4-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/자녀장려금-신청-조건과-준비-서류-b64950f4.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/자동이체-할인과-납부일-관리-방법-c93c4d41-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/장기수선충당금-반환받는-방법-8ea93de8-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/장기수선충당금-반환받는-방법-8ea93de8.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/전기요금-누진제-계산과-절약-방법-cfa9a817-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/지방세-환급금-조회-방법-f570e7b4-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/지방세-환급금-조회-방법-f570e7b4.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/통신비-선택약정-할인-확인-방법-f3a6ecd2-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/통신비-선택약정-할인-확인-방법-f3a6ecd2.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/퇴직금-계산과-지급-기준-b30bc4f9-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/퇴직금-계산과-지급-기준-b30bc4f9.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/휴면예금과-숨은-보험금-찾는-방법-1e05d025-factory.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/drafts/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/staging/#Ub3c4#Uc2dc#Uac00#Uc2a4-#Uc694#Uae08-#Uc808#Uc57d#Uacfc-#Uac80#Uce68-#Ud655#Uc778-#Ubc29#Ubc95-da52d01c/article.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/staging/#Uc218#Ub3c4#Uc694#Uae08#Uc774-#Uac11#Uc790#Uae30-#Ub298#Uc5c8#Uc744-#Ub54c-#Ud655#Uc778#Ud560-#Uac83-3e3606cc/article.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/staging/#Uc544#Ud30c#Ud2b8-#Uad00#Ub9ac#Ube44-#Ud56d#Ubaa9#Ubcc4-#Ud655#Uc778-#Ubc29#Ubc95-c9789557/article.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/staging/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41/article.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/staging/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8/article.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/staging/#Uc804#Uae30#Uc694#Uae08-#Ub204#Uc9c4#Uc81c-#Uacc4#Uc0b0#Uacfc-#Uc808#Uc57d-#Ubc29#Ubc95-cfa9a817/article.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/staging/#Ud734#Uba74#Uc608#Uae08#Uacfc-#Uc228#Uc740-#Ubcf4#Ud5d8#Uae08-#Ucc3e#Ub294-#Ubc29#Ubc95-1e05d025/article.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/staging/도시가스-요금-절약과-검침-확인-방법-da52d01c/article.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/staging/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc/article.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/staging/아파트-관리비-항목별-확인-방법-c9789557/article.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/staging/자동이체-할인과-납부일-관리-방법-c93c4d41/article.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/staging/장기수선충당금-반환받는-방법-8ea93de8/article.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/staging/전기요금-누진제-계산과-절약-방법-cfa9a817/article.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/staging/휴면예금과-숨은-보험금-찾는-방법-1e05d025/article.html",
+          "ids": [
+            "ca-pub-7605193583747751"
+          ]
+        },
+        {
+          "path": "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/deploy-to-analytics.json",
           "ids": [
             "ca-pub-7605193583747751",
             "pub-7605193583747751"
@@ -278,10 +1001,10 @@
       ],
       "invalid_count": 0,
       "invalid": [],
-      "checked_at": "2026-07-15T09:33:21+09:00"
+      "checked_at": "2026-07-16T23:01:40+09:00"
     },
     "status": "pass",
-    "checked_at": "2026-07-15T09:33:21+09:00"
+    "checked_at": "2026-07-16T23:01:40+09:00"
   },
   "doctor": {
     "pass": true,
@@ -1102,6 +1825,11 @@
         "detail": "tables=['approvals', 'content_registry', 'dead_letter', 'dna_versions', 'queue', 'runs', 'sqlite_sequence']"
       },
       {
+        "name": "deprecated-api-scan",
+        "pass": true,
+        "detail": "findings=0"
+      },
+      {
         "name": "internal-link-scan",
         "pass": true,
         "detail": "nodes=219 broken=0 orphans=31"
@@ -1110,13 +1838,19 @@
     "module_count": 126,
     "config_count": 36,
     "adsense_lock": null,
+    "deprecated_api_scan": {
+      "pass": true,
+      "finding_count": 0,
+      "findings": [],
+      "scanned_root": "factory"
+    },
     "link_graph_summary": {
       "nodes": 219,
-      "edges": 7113,
+      "edges": 7332,
       "broken": 0,
       "orphans": 31
     }
   },
   "official_publisher_id": "pub-7605193583747751",
-  "checked_at": "2026-07-15T09:33:22+09:00"
+  "checked_at": "2026-07-16T23:01:42+09:00"
 }

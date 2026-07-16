@@ -1,0 +1,2422 @@
+{
+  "nodes": [
+    {
+      "category": "집·아파트",
+      "situation": "누수",
+      "topic": "윗집에서 물이 샐 때 누구 책임인가요",
+      "order": 1,
+      "path": [
+        "집·아파트",
+        "누수",
+        "윗집에서 물이 샐 때 누구 책임인가요"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "누수",
+      "topic": "공용배관 누수면 관리사무소 책임인가요",
+      "order": 2,
+      "path": [
+        "집·아파트",
+        "누수",
+        "공용배관 누수면 관리사무소 책임인가요"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "누수",
+      "topic": "세입자 집 누수는 집주인과 세입자 중 누가 내나요",
+      "order": 3,
+      "path": [
+        "집·아파트",
+        "누수",
+        "세입자 집 누수는 집주인과 세입자 중 누가 내나요"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "누수",
+      "topic": "누수 피해 도배비와 장판비는 누가 내나요",
+      "order": 4,
+      "path": [
+        "집·아파트",
+        "누수",
+        "누수 피해 도배비와 장판비는 누가 내나요"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "누수",
+      "topic": "누수 때 내 보험으로 처리할 수 있나요",
+      "order": 5,
+      "path": [
+        "집·아파트",
+        "누수",
+        "누수 때 내 보험으로 처리할 수 있나요"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "누수",
+      "topic": "일상생활배상책임보험으로 누수 보상받는 방법",
+      "order": 6,
+      "path": [
+        "집·아파트",
+        "누수",
+        "일상생활배상책임보험으로 누수 보상받는 방법"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "누수",
+      "topic": "윗집이 누수 수리를 거부하면 어떻게 하나요",
+      "order": 7,
+      "path": [
+        "집·아파트",
+        "누수",
+        "윗집이 누수 수리를 거부하면 어떻게 하나요"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "누수",
+      "topic": "누수 증거 사진과 필요한 서류",
+      "order": 8,
+      "path": [
+        "집·아파트",
+        "누수",
+        "누수 증거 사진과 필요한 서류"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "관리비",
+      "topic": "아파트 관리비가 갑자기 많이 나온 이유",
+      "order": 1,
+      "path": [
+        "집·아파트",
+        "관리비",
+        "아파트 관리비가 갑자기 많이 나온 이유"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "관리비",
+      "topic": "관리비 항목별 확인 방법",
+      "order": 2,
+      "path": [
+        "집·아파트",
+        "관리비",
+        "관리비 항목별 확인 방법"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "관리비",
+      "topic": "장기수선충당금은 누가 내나요",
+      "order": 3,
+      "path": [
+        "집·아파트",
+        "관리비",
+        "장기수선충당금은 누가 내나요"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "관리비",
+      "topic": "세입자가 장기수선충당금 돌려받는 방법",
+      "order": 4,
+      "path": [
+        "집·아파트",
+        "관리비",
+        "세입자가 장기수선충당금 돌려받는 방법"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "관리비",
+      "topic": "관리비 미납 시 불이익",
+      "order": 5,
+      "path": [
+        "집·아파트",
+        "관리비",
+        "관리비 미납 시 불이익"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "관리비",
+      "topic": "전기료 수도료 난방비 줄이는 방법",
+      "order": 6,
+      "path": [
+        "집·아파트",
+        "관리비",
+        "전기료 수도료 난방비 줄이는 방법"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "전세·월세",
+      "topic": "전세보증금을 못 받을 때 먼저 할 일",
+      "order": 1,
+      "path": [
+        "집·아파트",
+        "전세·월세",
+        "전세보증금을 못 받을 때 먼저 할 일"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "전세·월세",
+      "topic": "월세 세액공제 받는 방법",
+      "order": 2,
+      "path": [
+        "집·아파트",
+        "전세·월세",
+        "월세 세액공제 받는 방법"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "전세·월세",
+      "topic": "집주인과 세입자 수리비 책임",
+      "order": 3,
+      "path": [
+        "집·아파트",
+        "전세·월세",
+        "집주인과 세입자 수리비 책임"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "전세·월세",
+      "topic": "퇴거할 때 원상복구 범위",
+      "order": 4,
+      "path": [
+        "집·아파트",
+        "전세·월세",
+        "퇴거할 때 원상복구 범위"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "전세·월세",
+      "topic": "보일러 고장 수리비는 누가 내나요",
+      "order": 5,
+      "path": [
+        "집·아파트",
+        "전세·월세",
+        "보일러 고장 수리비는 누가 내나요"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "전세·월세",
+      "topic": "전세 계약 종료 전 체크리스트",
+      "order": 6,
+      "path": [
+        "집·아파트",
+        "전세·월세",
+        "전세 계약 종료 전 체크리스트"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "주차·사고",
+      "topic": "아파트 주차장 접촉사고 처리 방법",
+      "order": 1,
+      "path": [
+        "집·아파트",
+        "주차·사고",
+        "아파트 주차장 접촉사고 처리 방법"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "주차·사고",
+      "topic": "주차장 뺑소니 신고 방법",
+      "order": 2,
+      "path": [
+        "집·아파트",
+        "주차·사고",
+        "주차장 뺑소니 신고 방법"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "주차·사고",
+      "topic": "아파트 CCTV 확인 요청 방법",
+      "order": 3,
+      "path": [
+        "집·아파트",
+        "주차·사고",
+        "아파트 CCTV 확인 요청 방법"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "주차·사고",
+      "topic": "관리사무소가 CCTV를 보여주지 않을 때",
+      "order": 4,
+      "path": [
+        "집·아파트",
+        "주차·사고",
+        "관리사무소가 CCTV를 보여주지 않을 때"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "주차·사고",
+      "topic": "주차장 사고 보험 처리와 과실비율",
+      "order": 5,
+      "path": [
+        "집·아파트",
+        "주차·사고",
+        "주차장 사고 보험 처리와 과실비율"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "주차·사고",
+      "topic": "장애인 주차구역 위반 신고와 과태료",
+      "order": 6,
+      "path": [
+        "집·아파트",
+        "주차·사고",
+        "장애인 주차구역 위반 신고와 과태료"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "화재·시설",
+      "topic": "아파트 화재가 나면 누가 배상하나요",
+      "order": 1,
+      "path": [
+        "집·아파트",
+        "화재·시설",
+        "아파트 화재가 나면 누가 배상하나요"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "화재·시설",
+      "topic": "화재보험으로 이웃집 피해도 보상되나요",
+      "order": 2,
+      "path": [
+        "집·아파트",
+        "화재·시설",
+        "화재보험으로 이웃집 피해도 보상되나요"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "화재·시설",
+      "topic": "공용시설 사고는 관리사무소 책임인가요",
+      "order": 3,
+      "path": [
+        "집·아파트",
+        "화재·시설",
+        "공용시설 사고는 관리사무소 책임인가요"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "화재·시설",
+      "topic": "엘리베이터 사고 보상받는 방법",
+      "order": 4,
+      "path": [
+        "집·아파트",
+        "화재·시설",
+        "엘리베이터 사고 보상받는 방법"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "집·아파트",
+      "situation": "화재·시설",
+      "topic": "층간소음 분쟁 비용과 해결 절차",
+      "order": 5,
+      "path": [
+        "집·아파트",
+        "화재·시설",
+        "층간소음 분쟁 비용과 해결 절차"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "보험·보상",
+      "situation": "일상생활 사고",
+      "topic": "아이가 주차된 차를 긁었을 때 보험 처리",
+      "order": 1,
+      "path": [
+        "보험·보상",
+        "일상생활 사고",
+        "아이가 주차된 차를 긁었을 때 보험 처리"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "보험·보상",
+      "situation": "일상생활 사고",
+      "topic": "아이가 친구 노트북을 고장 냈을 때 보상",
+      "order": 2,
+      "path": [
+        "보험·보상",
+        "일상생활 사고",
+        "아이가 친구 노트북을 고장 냈을 때 보상"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "보험·보상",
+      "situation": "일상생활 사고",
+      "topic": "반려동물이 다른 사람을 다치게 했을 때 보험",
+      "order": 3,
+      "path": [
+        "보험·보상",
+        "일상생활 사고",
+        "반려동물이 다른 사람을 다치게 했을 때 보험"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "보험·보상",
+      "situation": "일상생활 사고",
+      "topic": "자전거로 사람이나 물건을 다치게 했을 때",
+      "order": 4,
+      "path": [
+        "보험·보상",
+        "일상생활 사고",
+        "자전거로 사람이나 물건을 다치게 했을 때"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "보험·보상",
+      "situation": "일상생활 사고",
+      "topic": "일상생활배상책임보험이 있는지 확인하는 방법",
+      "order": 5,
+      "path": [
+        "보험·보상",
+        "일상생활 사고",
+        "일상생활배상책임보험이 있는지 확인하는 방법"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "보험·보상",
+      "situation": "자동차 보험",
+      "topic": "자기차량손해가 무엇인가요",
+      "order": 1,
+      "path": [
+        "보험·보상",
+        "자동차 보험",
+        "자기차량손해가 무엇인가요"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "보험·보상",
+      "situation": "자동차 보험",
+      "topic": "자기신체사고와 자동차상해 차이",
+      "order": 2,
+      "path": [
+        "보험·보상",
+        "자동차 보험",
+        "자기신체사고와 자동차상해 차이"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "보험·보상",
+      "situation": "자동차 보험",
+      "topic": "내 차 수리비가 나오는 보험",
+      "order": 3,
+      "path": [
+        "보험·보상",
+        "자동차 보험",
+        "내 차 수리비가 나오는 보험"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "보험·보상",
+      "situation": "자동차 보험",
+      "topic": "내가 다쳤을 때 보상받는 담보",
+      "order": 4,
+      "path": [
+        "보험·보상",
+        "자동차 보험",
+        "내가 다쳤을 때 보상받는 담보"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "보험·보상",
+      "situation": "자동차 보험",
+      "topic": "상대방 차와 사람이 다쳤을 때 어떤 보험인가요",
+      "order": 5,
+      "path": [
+        "보험·보상",
+        "자동차 보험",
+        "상대방 차와 사람이 다쳤을 때 어떤 보험인가요"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "보험·보상",
+      "situation": "사업장 배상",
+      "topic": "식당 화장실에서 손님이 넘어졌을 때 보상",
+      "order": 1,
+      "path": [
+        "보험·보상",
+        "사업장 배상",
+        "식당 화장실에서 손님이 넘어졌을 때 보상"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "보험·보상",
+      "situation": "사업장 배상",
+      "topic": "매장 바닥에서 고객이 다쳤을 때 책임",
+      "order": 2,
+      "path": [
+        "보험·보상",
+        "사업장 배상",
+        "매장 바닥에서 고객이 다쳤을 때 책임"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "보험·보상",
+      "situation": "사업장 배상",
+      "topic": "배송한 제품 때문에 고객이 다쳤을 때 보험",
+      "order": 3,
+      "path": [
+        "보험·보상",
+        "사업장 배상",
+        "배송한 제품 때문에 고객이 다쳤을 때 보험"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "보험·보상",
+      "situation": "사업장 배상",
+      "topic": "생산물배상책임보험과 시설소유자배상 차이",
+      "order": 4,
+      "path": [
+        "보험·보상",
+        "사업장 배상",
+        "생산물배상책임보험과 시설소유자배상 차이"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "보험·보상",
+      "situation": "사업장 배상",
+      "topic": "영업배상책임보험 보장 범위",
+      "order": 5,
+      "path": [
+        "보험·보상",
+        "사업장 배상",
+        "영업배상책임보험 보장 범위"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "복지·지원",
+      "situation": "장애아동",
+      "topic": "장애아동이 받을 수 있는 복지서비스",
+      "order": 1,
+      "path": [
+        "복지·지원",
+        "장애아동",
+        "장애아동이 받을 수 있는 복지서비스"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "복지·지원",
+      "situation": "장애아동",
+      "topic": "발달재활서비스 신청 방법",
+      "order": 2,
+      "path": [
+        "복지·지원",
+        "장애아동",
+        "발달재활서비스 신청 방법"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "복지·지원",
+      "situation": "장애아동",
+      "topic": "장애아동 활동지원과 돌봄 지원",
+      "order": 3,
+      "path": [
+        "복지·지원",
+        "장애아동",
+        "장애아동 활동지원과 돌봄 지원"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "복지·지원",
+      "situation": "장애아동",
+      "topic": "언어치료 감각통합 치료비 지원",
+      "order": 4,
+      "path": [
+        "복지·지원",
+        "장애아동",
+        "언어치료 감각통합 치료비 지원"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "복지·지원",
+      "situation": "장애아동",
+      "topic": "장애아동 부모가 받을 수 있는 세금 혜택",
+      "order": 5,
+      "path": [
+        "복지·지원",
+        "장애아동",
+        "장애아동 부모가 받을 수 있는 세금 혜택"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "복지·지원",
+      "situation": "장애아동",
+      "topic": "장애인 주차표지 발급 방법",
+      "order": 6,
+      "path": [
+        "복지·지원",
+        "장애아동",
+        "장애인 주차표지 발급 방법"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "복지·지원",
+      "situation": "가족·아이",
+      "topic": "아동수당과 부모급여 확인",
+      "order": 1,
+      "path": [
+        "복지·지원",
+        "가족·아이",
+        "아동수당과 부모급여 확인"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "복지·지원",
+      "situation": "가족·아이",
+      "topic": "한부모가정 지원금",
+      "order": 2,
+      "path": [
+        "복지·지원",
+        "가족·아이",
+        "한부모가정 지원금"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "복지·지원",
+      "situation": "가족·아이",
+      "topic": "아이돌봄서비스 정부지원",
+      "order": 3,
+      "path": [
+        "복지·지원",
+        "가족·아이",
+        "아이돌봄서비스 정부지원"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "복지·지원",
+      "situation": "가족·아이",
+      "topic": "교육비와 교육급여 차이",
+      "order": 4,
+      "path": [
+        "복지·지원",
+        "가족·아이",
+        "교육비와 교육급여 차이"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "복지·지원",
+      "situation": "가족·아이",
+      "topic": "자녀장려금 신청 조건",
+      "order": 5,
+      "path": [
+        "복지·지원",
+        "가족·아이",
+        "자녀장려금 신청 조건"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "복지·지원",
+      "situation": "생활지원",
+      "topic": "내가 받을 수 있는 정부지원금 찾기",
+      "order": 1,
+      "path": [
+        "복지·지원",
+        "생활지원",
+        "내가 받을 수 있는 정부지원금 찾기"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "복지·지원",
+      "situation": "생활지원",
+      "topic": "긴급복지 생계지원 신청",
+      "order": 2,
+      "path": [
+        "복지·지원",
+        "생활지원",
+        "긴급복지 생계지원 신청"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "복지·지원",
+      "situation": "생활지원",
+      "topic": "에너지바우처 신청과 잔액 확인",
+      "order": 3,
+      "path": [
+        "복지·지원",
+        "생활지원",
+        "에너지바우처 신청과 잔액 확인"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "복지·지원",
+      "situation": "생활지원",
+      "topic": "주거급여 신청 조건",
+      "order": 4,
+      "path": [
+        "복지·지원",
+        "생활지원",
+        "주거급여 신청 조건"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "복지·지원",
+      "situation": "생활지원",
+      "topic": "의료비 지원받는 방법",
+      "order": 5,
+      "path": [
+        "복지·지원",
+        "생활지원",
+        "의료비 지원받는 방법"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "자동차·교통",
+      "situation": "사고",
+      "topic": "교통사고가 났을 때 가장 먼저 할 일",
+      "order": 1,
+      "path": [
+        "자동차·교통",
+        "사고",
+        "교통사고가 났을 때 가장 먼저 할 일"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "자동차·교통",
+      "situation": "사고",
+      "topic": "주차장 사고와 도로 사고 차이",
+      "order": 2,
+      "path": [
+        "자동차·교통",
+        "사고",
+        "주차장 사고와 도로 사고 차이"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "자동차·교통",
+      "situation": "사고",
+      "topic": "블랙박스 영상 확보 방법",
+      "order": 3,
+      "path": [
+        "자동차·교통",
+        "사고",
+        "블랙박스 영상 확보 방법"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "자동차·교통",
+      "situation": "사고",
+      "topic": "뺑소니 신고와 보험 처리",
+      "order": 4,
+      "path": [
+        "자동차·교통",
+        "사고",
+        "뺑소니 신고와 보험 처리"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "자동차·교통",
+      "situation": "사고",
+      "topic": "교통사고 합의 전 확인할 것",
+      "order": 5,
+      "path": [
+        "자동차·교통",
+        "사고",
+        "교통사고 합의 전 확인할 것"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "자동차·교통",
+      "situation": "보험·비용",
+      "topic": "자동차보험 과실비율 확인",
+      "order": 1,
+      "path": [
+        "자동차·교통",
+        "보험·비용",
+        "자동차보험 과실비율 확인"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "자동차·교통",
+      "situation": "보험·비용",
+      "topic": "렌터카 비용은 누가 내나요",
+      "order": 2,
+      "path": [
+        "자동차·교통",
+        "보험·비용",
+        "렌터카 비용은 누가 내나요"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "자동차·교통",
+      "situation": "보험·비용",
+      "topic": "자차보험 자기부담금 계산",
+      "order": 3,
+      "path": [
+        "자동차·교통",
+        "보험·비용",
+        "자차보험 자기부담금 계산"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "자동차·교통",
+      "situation": "보험·비용",
+      "topic": "자동차보험료 할인받는 방법",
+      "order": 4,
+      "path": [
+        "자동차·교통",
+        "보험·비용",
+        "자동차보험료 할인받는 방법"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "자동차·교통",
+      "situation": "보험·비용",
+      "topic": "마일리지 환급받는 방법",
+      "order": 5,
+      "path": [
+        "자동차·교통",
+        "보험·비용",
+        "마일리지 환급받는 방법"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "자동차·교통",
+      "situation": "세금·과태료",
+      "topic": "자동차세 연납 할인",
+      "order": 1,
+      "path": [
+        "자동차·교통",
+        "세금·과태료",
+        "자동차세 연납 할인"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "자동차·교통",
+      "situation": "세금·과태료",
+      "topic": "교통범칙금과 과태료 차이",
+      "order": 2,
+      "path": [
+        "자동차·교통",
+        "세금·과태료",
+        "교통범칙금과 과태료 차이"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "자동차·교통",
+      "situation": "세금·과태료",
+      "topic": "차량 검사 예약과 과태료",
+      "order": 3,
+      "path": [
+        "자동차·교통",
+        "세금·과태료",
+        "차량 검사 예약과 과태료"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "자동차·교통",
+      "situation": "세금·과태료",
+      "topic": "주정차 위반 과태료 확인",
+      "order": 4,
+      "path": [
+        "자동차·교통",
+        "세금·과태료",
+        "주정차 위반 과태료 확인"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "직장·소득",
+      "situation": "급여",
+      "topic": "월급 실수령액 계산",
+      "order": 1,
+      "path": [
+        "직장·소득",
+        "급여",
+        "월급 실수령액 계산"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "직장·소득",
+      "situation": "급여",
+      "topic": "급여명세서에서 꼭 볼 항목",
+      "order": 2,
+      "path": [
+        "직장·소득",
+        "급여",
+        "급여명세서에서 꼭 볼 항목"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "직장·소득",
+      "situation": "급여",
+      "topic": "주휴수당 받을 수 있나요",
+      "order": 3,
+      "path": [
+        "직장·소득",
+        "급여",
+        "주휴수당 받을 수 있나요"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "직장·소득",
+      "situation": "급여",
+      "topic": "연차수당 계산 방법",
+      "order": 4,
+      "path": [
+        "직장·소득",
+        "급여",
+        "연차수당 계산 방법"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "직장·소득",
+      "situation": "급여",
+      "topic": "4대보험 공제액 확인",
+      "order": 5,
+      "path": [
+        "직장·소득",
+        "급여",
+        "4대보험 공제액 확인"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "직장·소득",
+      "situation": "퇴사·실업",
+      "topic": "퇴직금 계산과 지급기한",
+      "order": 1,
+      "path": [
+        "직장·소득",
+        "퇴사·실업",
+        "퇴직금 계산과 지급기한"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "직장·소득",
+      "situation": "퇴사·실업",
+      "topic": "실업급여 신청 조건",
+      "order": 2,
+      "path": [
+        "직장·소득",
+        "퇴사·실업",
+        "실업급여 신청 조건"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "직장·소득",
+      "situation": "퇴사·실업",
+      "topic": "회사에서 퇴직금을 안 줄 때",
+      "order": 3,
+      "path": [
+        "직장·소득",
+        "퇴사·실업",
+        "회사에서 퇴직금을 안 줄 때"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "직장·소득",
+      "situation": "퇴사·실업",
+      "topic": "권고사직과 자진퇴사 차이",
+      "order": 4,
+      "path": [
+        "직장·소득",
+        "퇴사·실업",
+        "권고사직과 자진퇴사 차이"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "직장·소득",
+      "situation": "퇴사·실업",
+      "topic": "실업급여 구직활동 인정 기준",
+      "order": 5,
+      "path": [
+        "직장·소득",
+        "퇴사·실업",
+        "실업급여 구직활동 인정 기준"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "세금·환급",
+      "situation": "생활세금",
+      "topic": "월세 세액공제 받는 방법",
+      "order": 1,
+      "path": [
+        "세금·환급",
+        "생활세금",
+        "월세 세액공제 받는 방법"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "세금·환급",
+      "situation": "생활세금",
+      "topic": "자동차세 절약 방법",
+      "order": 2,
+      "path": [
+        "세금·환급",
+        "생활세금",
+        "자동차세 절약 방법"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "세금·환급",
+      "situation": "생활세금",
+      "topic": "재산세 고지서 확인",
+      "order": 3,
+      "path": [
+        "세금·환급",
+        "생활세금",
+        "재산세 고지서 확인"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "세금·환급",
+      "situation": "생활세금",
+      "topic": "지방세 환급금 찾기",
+      "order": 4,
+      "path": [
+        "세금·환급",
+        "생활세금",
+        "지방세 환급금 찾기"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "세금·환급",
+      "situation": "생활세금",
+      "topic": "건강보험료 환급금 조회",
+      "order": 5,
+      "path": [
+        "세금·환급",
+        "생활세금",
+        "건강보험료 환급금 조회"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "세금·환급",
+      "situation": "사업자",
+      "topic": "부가세 신고에서 놓치기 쉬운 항목",
+      "order": 1,
+      "path": [
+        "세금·환급",
+        "사업자",
+        "부가세 신고에서 놓치기 쉬운 항목"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "세금·환급",
+      "situation": "사업자",
+      "topic": "매입세액 공제 가능한 비용",
+      "order": 2,
+      "path": [
+        "세금·환급",
+        "사업자",
+        "매입세액 공제 가능한 비용"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "세금·환급",
+      "situation": "사업자",
+      "topic": "사업용 카드 홈택스 등록",
+      "order": 3,
+      "path": [
+        "세금·환급",
+        "사업자",
+        "사업용 카드 홈택스 등록"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "세금·환급",
+      "situation": "사업자",
+      "topic": "폐업할 때 세금 정리",
+      "order": 4,
+      "path": [
+        "세금·환급",
+        "사업자",
+        "폐업할 때 세금 정리"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "세금·환급",
+      "situation": "사업자",
+      "topic": "간이과세자 부가세 체크리스트",
+      "order": 5,
+      "path": [
+        "세금·환급",
+        "사업자",
+        "간이과세자 부가세 체크리스트"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "건강·병원비",
+      "situation": "병원비",
+      "topic": "갑자기 큰 병원비가 나왔을 때 지원받는 방법",
+      "order": 1,
+      "path": [
+        "건강·병원비",
+        "병원비",
+        "갑자기 큰 병원비가 나왔을 때 지원받는 방법"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "건강·병원비",
+      "situation": "병원비",
+      "topic": "본인부담상한액 환급",
+      "order": 2,
+      "path": [
+        "건강·병원비",
+        "병원비",
+        "본인부담상한액 환급"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "건강·병원비",
+      "situation": "병원비",
+      "topic": "실손보험 청구 서류",
+      "order": 3,
+      "path": [
+        "건강·병원비",
+        "병원비",
+        "실손보험 청구 서류"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "건강·병원비",
+      "situation": "병원비",
+      "topic": "응급실 비용과 지원제도",
+      "order": 4,
+      "path": [
+        "건강·병원비",
+        "병원비",
+        "응급실 비용과 지원제도"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "건강·병원비",
+      "situation": "병원비",
+      "topic": "건강보험 과오납 환급",
+      "order": 5,
+      "path": [
+        "건강·병원비",
+        "병원비",
+        "건강보험 과오납 환급"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "건강·병원비",
+      "situation": "쉬운 의학용어",
+      "topic": "상기도 감염이 무슨 뜻인가요",
+      "order": 1,
+      "path": [
+        "건강·병원비",
+        "쉬운 의학용어",
+        "상기도 감염이 무슨 뜻인가요"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "건강·병원비",
+      "situation": "쉬운 의학용어",
+      "topic": "의사가 말한 진단명을 쉽게 확인하는 방법",
+      "order": 2,
+      "path": [
+        "건강·병원비",
+        "쉬운 의학용어",
+        "의사가 말한 진단명을 쉽게 확인하는 방법"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "건강·병원비",
+      "situation": "쉬운 의학용어",
+      "topic": "처방전 용어 쉽게 보는 법",
+      "order": 3,
+      "path": [
+        "건강·병원비",
+        "쉬운 의학용어",
+        "처방전 용어 쉽게 보는 법"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    },
+    {
+      "category": "건강·병원비",
+      "situation": "쉬운 의학용어",
+      "topic": "검사 결과지에서 꼭 볼 항목",
+      "order": 4,
+      "path": [
+        "건강·병원비",
+        "쉬운 의학용어",
+        "검사 결과지에서 꼭 볼 항목"
+      ],
+      "intent": "urgent_life_money_problem",
+      "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요."
+    }
+  ],
+  "edges": [
+    {
+      "from": "집·아파트",
+      "to": "누수",
+      "type": "contains"
+    },
+    {
+      "from": "누수",
+      "to": "윗집에서 물이 샐 때 누구 책임인가요",
+      "type": "answers"
+    },
+    {
+      "from": "누수",
+      "to": "공용배관 누수면 관리사무소 책임인가요",
+      "type": "answers"
+    },
+    {
+      "from": "누수",
+      "to": "세입자 집 누수는 집주인과 세입자 중 누가 내나요",
+      "type": "answers"
+    },
+    {
+      "from": "누수",
+      "to": "누수 피해 도배비와 장판비는 누가 내나요",
+      "type": "answers"
+    },
+    {
+      "from": "누수",
+      "to": "누수 때 내 보험으로 처리할 수 있나요",
+      "type": "answers"
+    },
+    {
+      "from": "누수",
+      "to": "일상생활배상책임보험으로 누수 보상받는 방법",
+      "type": "answers"
+    },
+    {
+      "from": "누수",
+      "to": "윗집이 누수 수리를 거부하면 어떻게 하나요",
+      "type": "answers"
+    },
+    {
+      "from": "누수",
+      "to": "누수 증거 사진과 필요한 서류",
+      "type": "answers"
+    },
+    {
+      "from": "윗집에서 물이 샐 때 누구 책임인가요",
+      "to": "공용배관 누수면 관리사무소 책임인가요",
+      "type": "next_question"
+    },
+    {
+      "from": "공용배관 누수면 관리사무소 책임인가요",
+      "to": "세입자 집 누수는 집주인과 세입자 중 누가 내나요",
+      "type": "next_question"
+    },
+    {
+      "from": "세입자 집 누수는 집주인과 세입자 중 누가 내나요",
+      "to": "누수 피해 도배비와 장판비는 누가 내나요",
+      "type": "next_question"
+    },
+    {
+      "from": "누수 피해 도배비와 장판비는 누가 내나요",
+      "to": "누수 때 내 보험으로 처리할 수 있나요",
+      "type": "next_question"
+    },
+    {
+      "from": "누수 때 내 보험으로 처리할 수 있나요",
+      "to": "일상생활배상책임보험으로 누수 보상받는 방법",
+      "type": "next_question"
+    },
+    {
+      "from": "일상생활배상책임보험으로 누수 보상받는 방법",
+      "to": "윗집이 누수 수리를 거부하면 어떻게 하나요",
+      "type": "next_question"
+    },
+    {
+      "from": "윗집이 누수 수리를 거부하면 어떻게 하나요",
+      "to": "누수 증거 사진과 필요한 서류",
+      "type": "next_question"
+    },
+    {
+      "from": "집·아파트",
+      "to": "관리비",
+      "type": "contains"
+    },
+    {
+      "from": "관리비",
+      "to": "아파트 관리비가 갑자기 많이 나온 이유",
+      "type": "answers"
+    },
+    {
+      "from": "관리비",
+      "to": "관리비 항목별 확인 방법",
+      "type": "answers"
+    },
+    {
+      "from": "관리비",
+      "to": "장기수선충당금은 누가 내나요",
+      "type": "answers"
+    },
+    {
+      "from": "관리비",
+      "to": "세입자가 장기수선충당금 돌려받는 방법",
+      "type": "answers"
+    },
+    {
+      "from": "관리비",
+      "to": "관리비 미납 시 불이익",
+      "type": "answers"
+    },
+    {
+      "from": "관리비",
+      "to": "전기료 수도료 난방비 줄이는 방법",
+      "type": "answers"
+    },
+    {
+      "from": "아파트 관리비가 갑자기 많이 나온 이유",
+      "to": "관리비 항목별 확인 방법",
+      "type": "next_question"
+    },
+    {
+      "from": "관리비 항목별 확인 방법",
+      "to": "장기수선충당금은 누가 내나요",
+      "type": "next_question"
+    },
+    {
+      "from": "장기수선충당금은 누가 내나요",
+      "to": "세입자가 장기수선충당금 돌려받는 방법",
+      "type": "next_question"
+    },
+    {
+      "from": "세입자가 장기수선충당금 돌려받는 방법",
+      "to": "관리비 미납 시 불이익",
+      "type": "next_question"
+    },
+    {
+      "from": "관리비 미납 시 불이익",
+      "to": "전기료 수도료 난방비 줄이는 방법",
+      "type": "next_question"
+    },
+    {
+      "from": "집·아파트",
+      "to": "전세·월세",
+      "type": "contains"
+    },
+    {
+      "from": "전세·월세",
+      "to": "전세보증금을 못 받을 때 먼저 할 일",
+      "type": "answers"
+    },
+    {
+      "from": "전세·월세",
+      "to": "월세 세액공제 받는 방법",
+      "type": "answers"
+    },
+    {
+      "from": "전세·월세",
+      "to": "집주인과 세입자 수리비 책임",
+      "type": "answers"
+    },
+    {
+      "from": "전세·월세",
+      "to": "퇴거할 때 원상복구 범위",
+      "type": "answers"
+    },
+    {
+      "from": "전세·월세",
+      "to": "보일러 고장 수리비는 누가 내나요",
+      "type": "answers"
+    },
+    {
+      "from": "전세·월세",
+      "to": "전세 계약 종료 전 체크리스트",
+      "type": "answers"
+    },
+    {
+      "from": "전세보증금을 못 받을 때 먼저 할 일",
+      "to": "월세 세액공제 받는 방법",
+      "type": "next_question"
+    },
+    {
+      "from": "월세 세액공제 받는 방법",
+      "to": "집주인과 세입자 수리비 책임",
+      "type": "next_question"
+    },
+    {
+      "from": "집주인과 세입자 수리비 책임",
+      "to": "퇴거할 때 원상복구 범위",
+      "type": "next_question"
+    },
+    {
+      "from": "퇴거할 때 원상복구 범위",
+      "to": "보일러 고장 수리비는 누가 내나요",
+      "type": "next_question"
+    },
+    {
+      "from": "보일러 고장 수리비는 누가 내나요",
+      "to": "전세 계약 종료 전 체크리스트",
+      "type": "next_question"
+    },
+    {
+      "from": "집·아파트",
+      "to": "주차·사고",
+      "type": "contains"
+    },
+    {
+      "from": "주차·사고",
+      "to": "아파트 주차장 접촉사고 처리 방법",
+      "type": "answers"
+    },
+    {
+      "from": "주차·사고",
+      "to": "주차장 뺑소니 신고 방법",
+      "type": "answers"
+    },
+    {
+      "from": "주차·사고",
+      "to": "아파트 CCTV 확인 요청 방법",
+      "type": "answers"
+    },
+    {
+      "from": "주차·사고",
+      "to": "관리사무소가 CCTV를 보여주지 않을 때",
+      "type": "answers"
+    },
+    {
+      "from": "주차·사고",
+      "to": "주차장 사고 보험 처리와 과실비율",
+      "type": "answers"
+    },
+    {
+      "from": "주차·사고",
+      "to": "장애인 주차구역 위반 신고와 과태료",
+      "type": "answers"
+    },
+    {
+      "from": "아파트 주차장 접촉사고 처리 방법",
+      "to": "주차장 뺑소니 신고 방법",
+      "type": "next_question"
+    },
+    {
+      "from": "주차장 뺑소니 신고 방법",
+      "to": "아파트 CCTV 확인 요청 방법",
+      "type": "next_question"
+    },
+    {
+      "from": "아파트 CCTV 확인 요청 방법",
+      "to": "관리사무소가 CCTV를 보여주지 않을 때",
+      "type": "next_question"
+    },
+    {
+      "from": "관리사무소가 CCTV를 보여주지 않을 때",
+      "to": "주차장 사고 보험 처리와 과실비율",
+      "type": "next_question"
+    },
+    {
+      "from": "주차장 사고 보험 처리와 과실비율",
+      "to": "장애인 주차구역 위반 신고와 과태료",
+      "type": "next_question"
+    },
+    {
+      "from": "집·아파트",
+      "to": "화재·시설",
+      "type": "contains"
+    },
+    {
+      "from": "화재·시설",
+      "to": "아파트 화재가 나면 누가 배상하나요",
+      "type": "answers"
+    },
+    {
+      "from": "화재·시설",
+      "to": "화재보험으로 이웃집 피해도 보상되나요",
+      "type": "answers"
+    },
+    {
+      "from": "화재·시설",
+      "to": "공용시설 사고는 관리사무소 책임인가요",
+      "type": "answers"
+    },
+    {
+      "from": "화재·시설",
+      "to": "엘리베이터 사고 보상받는 방법",
+      "type": "answers"
+    },
+    {
+      "from": "화재·시설",
+      "to": "층간소음 분쟁 비용과 해결 절차",
+      "type": "answers"
+    },
+    {
+      "from": "아파트 화재가 나면 누가 배상하나요",
+      "to": "화재보험으로 이웃집 피해도 보상되나요",
+      "type": "next_question"
+    },
+    {
+      "from": "화재보험으로 이웃집 피해도 보상되나요",
+      "to": "공용시설 사고는 관리사무소 책임인가요",
+      "type": "next_question"
+    },
+    {
+      "from": "공용시설 사고는 관리사무소 책임인가요",
+      "to": "엘리베이터 사고 보상받는 방법",
+      "type": "next_question"
+    },
+    {
+      "from": "엘리베이터 사고 보상받는 방법",
+      "to": "층간소음 분쟁 비용과 해결 절차",
+      "type": "next_question"
+    },
+    {
+      "from": "보험·보상",
+      "to": "일상생활 사고",
+      "type": "contains"
+    },
+    {
+      "from": "일상생활 사고",
+      "to": "아이가 주차된 차를 긁었을 때 보험 처리",
+      "type": "answers"
+    },
+    {
+      "from": "일상생활 사고",
+      "to": "아이가 친구 노트북을 고장 냈을 때 보상",
+      "type": "answers"
+    },
+    {
+      "from": "일상생활 사고",
+      "to": "반려동물이 다른 사람을 다치게 했을 때 보험",
+      "type": "answers"
+    },
+    {
+      "from": "일상생활 사고",
+      "to": "자전거로 사람이나 물건을 다치게 했을 때",
+      "type": "answers"
+    },
+    {
+      "from": "일상생활 사고",
+      "to": "일상생활배상책임보험이 있는지 확인하는 방법",
+      "type": "answers"
+    },
+    {
+      "from": "아이가 주차된 차를 긁었을 때 보험 처리",
+      "to": "아이가 친구 노트북을 고장 냈을 때 보상",
+      "type": "next_question"
+    },
+    {
+      "from": "아이가 친구 노트북을 고장 냈을 때 보상",
+      "to": "반려동물이 다른 사람을 다치게 했을 때 보험",
+      "type": "next_question"
+    },
+    {
+      "from": "반려동물이 다른 사람을 다치게 했을 때 보험",
+      "to": "자전거로 사람이나 물건을 다치게 했을 때",
+      "type": "next_question"
+    },
+    {
+      "from": "자전거로 사람이나 물건을 다치게 했을 때",
+      "to": "일상생활배상책임보험이 있는지 확인하는 방법",
+      "type": "next_question"
+    },
+    {
+      "from": "보험·보상",
+      "to": "자동차 보험",
+      "type": "contains"
+    },
+    {
+      "from": "자동차 보험",
+      "to": "자기차량손해가 무엇인가요",
+      "type": "answers"
+    },
+    {
+      "from": "자동차 보험",
+      "to": "자기신체사고와 자동차상해 차이",
+      "type": "answers"
+    },
+    {
+      "from": "자동차 보험",
+      "to": "내 차 수리비가 나오는 보험",
+      "type": "answers"
+    },
+    {
+      "from": "자동차 보험",
+      "to": "내가 다쳤을 때 보상받는 담보",
+      "type": "answers"
+    },
+    {
+      "from": "자동차 보험",
+      "to": "상대방 차와 사람이 다쳤을 때 어떤 보험인가요",
+      "type": "answers"
+    },
+    {
+      "from": "자기차량손해가 무엇인가요",
+      "to": "자기신체사고와 자동차상해 차이",
+      "type": "next_question"
+    },
+    {
+      "from": "자기신체사고와 자동차상해 차이",
+      "to": "내 차 수리비가 나오는 보험",
+      "type": "next_question"
+    },
+    {
+      "from": "내 차 수리비가 나오는 보험",
+      "to": "내가 다쳤을 때 보상받는 담보",
+      "type": "next_question"
+    },
+    {
+      "from": "내가 다쳤을 때 보상받는 담보",
+      "to": "상대방 차와 사람이 다쳤을 때 어떤 보험인가요",
+      "type": "next_question"
+    },
+    {
+      "from": "보험·보상",
+      "to": "사업장 배상",
+      "type": "contains"
+    },
+    {
+      "from": "사업장 배상",
+      "to": "식당 화장실에서 손님이 넘어졌을 때 보상",
+      "type": "answers"
+    },
+    {
+      "from": "사업장 배상",
+      "to": "매장 바닥에서 고객이 다쳤을 때 책임",
+      "type": "answers"
+    },
+    {
+      "from": "사업장 배상",
+      "to": "배송한 제품 때문에 고객이 다쳤을 때 보험",
+      "type": "answers"
+    },
+    {
+      "from": "사업장 배상",
+      "to": "생산물배상책임보험과 시설소유자배상 차이",
+      "type": "answers"
+    },
+    {
+      "from": "사업장 배상",
+      "to": "영업배상책임보험 보장 범위",
+      "type": "answers"
+    },
+    {
+      "from": "식당 화장실에서 손님이 넘어졌을 때 보상",
+      "to": "매장 바닥에서 고객이 다쳤을 때 책임",
+      "type": "next_question"
+    },
+    {
+      "from": "매장 바닥에서 고객이 다쳤을 때 책임",
+      "to": "배송한 제품 때문에 고객이 다쳤을 때 보험",
+      "type": "next_question"
+    },
+    {
+      "from": "배송한 제품 때문에 고객이 다쳤을 때 보험",
+      "to": "생산물배상책임보험과 시설소유자배상 차이",
+      "type": "next_question"
+    },
+    {
+      "from": "생산물배상책임보험과 시설소유자배상 차이",
+      "to": "영업배상책임보험 보장 범위",
+      "type": "next_question"
+    },
+    {
+      "from": "복지·지원",
+      "to": "장애아동",
+      "type": "contains"
+    },
+    {
+      "from": "장애아동",
+      "to": "장애아동이 받을 수 있는 복지서비스",
+      "type": "answers"
+    },
+    {
+      "from": "장애아동",
+      "to": "발달재활서비스 신청 방법",
+      "type": "answers"
+    },
+    {
+      "from": "장애아동",
+      "to": "장애아동 활동지원과 돌봄 지원",
+      "type": "answers"
+    },
+    {
+      "from": "장애아동",
+      "to": "언어치료 감각통합 치료비 지원",
+      "type": "answers"
+    },
+    {
+      "from": "장애아동",
+      "to": "장애아동 부모가 받을 수 있는 세금 혜택",
+      "type": "answers"
+    },
+    {
+      "from": "장애아동",
+      "to": "장애인 주차표지 발급 방법",
+      "type": "answers"
+    },
+    {
+      "from": "장애아동이 받을 수 있는 복지서비스",
+      "to": "발달재활서비스 신청 방법",
+      "type": "next_question"
+    },
+    {
+      "from": "발달재활서비스 신청 방법",
+      "to": "장애아동 활동지원과 돌봄 지원",
+      "type": "next_question"
+    },
+    {
+      "from": "장애아동 활동지원과 돌봄 지원",
+      "to": "언어치료 감각통합 치료비 지원",
+      "type": "next_question"
+    },
+    {
+      "from": "언어치료 감각통합 치료비 지원",
+      "to": "장애아동 부모가 받을 수 있는 세금 혜택",
+      "type": "next_question"
+    },
+    {
+      "from": "장애아동 부모가 받을 수 있는 세금 혜택",
+      "to": "장애인 주차표지 발급 방법",
+      "type": "next_question"
+    },
+    {
+      "from": "복지·지원",
+      "to": "가족·아이",
+      "type": "contains"
+    },
+    {
+      "from": "가족·아이",
+      "to": "아동수당과 부모급여 확인",
+      "type": "answers"
+    },
+    {
+      "from": "가족·아이",
+      "to": "한부모가정 지원금",
+      "type": "answers"
+    },
+    {
+      "from": "가족·아이",
+      "to": "아이돌봄서비스 정부지원",
+      "type": "answers"
+    },
+    {
+      "from": "가족·아이",
+      "to": "교육비와 교육급여 차이",
+      "type": "answers"
+    },
+    {
+      "from": "가족·아이",
+      "to": "자녀장려금 신청 조건",
+      "type": "answers"
+    },
+    {
+      "from": "아동수당과 부모급여 확인",
+      "to": "한부모가정 지원금",
+      "type": "next_question"
+    },
+    {
+      "from": "한부모가정 지원금",
+      "to": "아이돌봄서비스 정부지원",
+      "type": "next_question"
+    },
+    {
+      "from": "아이돌봄서비스 정부지원",
+      "to": "교육비와 교육급여 차이",
+      "type": "next_question"
+    },
+    {
+      "from": "교육비와 교육급여 차이",
+      "to": "자녀장려금 신청 조건",
+      "type": "next_question"
+    },
+    {
+      "from": "복지·지원",
+      "to": "생활지원",
+      "type": "contains"
+    },
+    {
+      "from": "생활지원",
+      "to": "내가 받을 수 있는 정부지원금 찾기",
+      "type": "answers"
+    },
+    {
+      "from": "생활지원",
+      "to": "긴급복지 생계지원 신청",
+      "type": "answers"
+    },
+    {
+      "from": "생활지원",
+      "to": "에너지바우처 신청과 잔액 확인",
+      "type": "answers"
+    },
+    {
+      "from": "생활지원",
+      "to": "주거급여 신청 조건",
+      "type": "answers"
+    },
+    {
+      "from": "생활지원",
+      "to": "의료비 지원받는 방법",
+      "type": "answers"
+    },
+    {
+      "from": "내가 받을 수 있는 정부지원금 찾기",
+      "to": "긴급복지 생계지원 신청",
+      "type": "next_question"
+    },
+    {
+      "from": "긴급복지 생계지원 신청",
+      "to": "에너지바우처 신청과 잔액 확인",
+      "type": "next_question"
+    },
+    {
+      "from": "에너지바우처 신청과 잔액 확인",
+      "to": "주거급여 신청 조건",
+      "type": "next_question"
+    },
+    {
+      "from": "주거급여 신청 조건",
+      "to": "의료비 지원받는 방법",
+      "type": "next_question"
+    },
+    {
+      "from": "자동차·교통",
+      "to": "사고",
+      "type": "contains"
+    },
+    {
+      "from": "사고",
+      "to": "교통사고가 났을 때 가장 먼저 할 일",
+      "type": "answers"
+    },
+    {
+      "from": "사고",
+      "to": "주차장 사고와 도로 사고 차이",
+      "type": "answers"
+    },
+    {
+      "from": "사고",
+      "to": "블랙박스 영상 확보 방법",
+      "type": "answers"
+    },
+    {
+      "from": "사고",
+      "to": "뺑소니 신고와 보험 처리",
+      "type": "answers"
+    },
+    {
+      "from": "사고",
+      "to": "교통사고 합의 전 확인할 것",
+      "type": "answers"
+    },
+    {
+      "from": "교통사고가 났을 때 가장 먼저 할 일",
+      "to": "주차장 사고와 도로 사고 차이",
+      "type": "next_question"
+    },
+    {
+      "from": "주차장 사고와 도로 사고 차이",
+      "to": "블랙박스 영상 확보 방법",
+      "type": "next_question"
+    },
+    {
+      "from": "블랙박스 영상 확보 방법",
+      "to": "뺑소니 신고와 보험 처리",
+      "type": "next_question"
+    },
+    {
+      "from": "뺑소니 신고와 보험 처리",
+      "to": "교통사고 합의 전 확인할 것",
+      "type": "next_question"
+    },
+    {
+      "from": "자동차·교통",
+      "to": "보험·비용",
+      "type": "contains"
+    },
+    {
+      "from": "보험·비용",
+      "to": "자동차보험 과실비율 확인",
+      "type": "answers"
+    },
+    {
+      "from": "보험·비용",
+      "to": "렌터카 비용은 누가 내나요",
+      "type": "answers"
+    },
+    {
+      "from": "보험·비용",
+      "to": "자차보험 자기부담금 계산",
+      "type": "answers"
+    },
+    {
+      "from": "보험·비용",
+      "to": "자동차보험료 할인받는 방법",
+      "type": "answers"
+    },
+    {
+      "from": "보험·비용",
+      "to": "마일리지 환급받는 방법",
+      "type": "answers"
+    },
+    {
+      "from": "자동차보험 과실비율 확인",
+      "to": "렌터카 비용은 누가 내나요",
+      "type": "next_question"
+    },
+    {
+      "from": "렌터카 비용은 누가 내나요",
+      "to": "자차보험 자기부담금 계산",
+      "type": "next_question"
+    },
+    {
+      "from": "자차보험 자기부담금 계산",
+      "to": "자동차보험료 할인받는 방법",
+      "type": "next_question"
+    },
+    {
+      "from": "자동차보험료 할인받는 방법",
+      "to": "마일리지 환급받는 방법",
+      "type": "next_question"
+    },
+    {
+      "from": "자동차·교통",
+      "to": "세금·과태료",
+      "type": "contains"
+    },
+    {
+      "from": "세금·과태료",
+      "to": "자동차세 연납 할인",
+      "type": "answers"
+    },
+    {
+      "from": "세금·과태료",
+      "to": "교통범칙금과 과태료 차이",
+      "type": "answers"
+    },
+    {
+      "from": "세금·과태료",
+      "to": "차량 검사 예약과 과태료",
+      "type": "answers"
+    },
+    {
+      "from": "세금·과태료",
+      "to": "주정차 위반 과태료 확인",
+      "type": "answers"
+    },
+    {
+      "from": "자동차세 연납 할인",
+      "to": "교통범칙금과 과태료 차이",
+      "type": "next_question"
+    },
+    {
+      "from": "교통범칙금과 과태료 차이",
+      "to": "차량 검사 예약과 과태료",
+      "type": "next_question"
+    },
+    {
+      "from": "차량 검사 예약과 과태료",
+      "to": "주정차 위반 과태료 확인",
+      "type": "next_question"
+    },
+    {
+      "from": "직장·소득",
+      "to": "급여",
+      "type": "contains"
+    },
+    {
+      "from": "급여",
+      "to": "월급 실수령액 계산",
+      "type": "answers"
+    },
+    {
+      "from": "급여",
+      "to": "급여명세서에서 꼭 볼 항목",
+      "type": "answers"
+    },
+    {
+      "from": "급여",
+      "to": "주휴수당 받을 수 있나요",
+      "type": "answers"
+    },
+    {
+      "from": "급여",
+      "to": "연차수당 계산 방법",
+      "type": "answers"
+    },
+    {
+      "from": "급여",
+      "to": "4대보험 공제액 확인",
+      "type": "answers"
+    },
+    {
+      "from": "월급 실수령액 계산",
+      "to": "급여명세서에서 꼭 볼 항목",
+      "type": "next_question"
+    },
+    {
+      "from": "급여명세서에서 꼭 볼 항목",
+      "to": "주휴수당 받을 수 있나요",
+      "type": "next_question"
+    },
+    {
+      "from": "주휴수당 받을 수 있나요",
+      "to": "연차수당 계산 방법",
+      "type": "next_question"
+    },
+    {
+      "from": "연차수당 계산 방법",
+      "to": "4대보험 공제액 확인",
+      "type": "next_question"
+    },
+    {
+      "from": "직장·소득",
+      "to": "퇴사·실업",
+      "type": "contains"
+    },
+    {
+      "from": "퇴사·실업",
+      "to": "퇴직금 계산과 지급기한",
+      "type": "answers"
+    },
+    {
+      "from": "퇴사·실업",
+      "to": "실업급여 신청 조건",
+      "type": "answers"
+    },
+    {
+      "from": "퇴사·실업",
+      "to": "회사에서 퇴직금을 안 줄 때",
+      "type": "answers"
+    },
+    {
+      "from": "퇴사·실업",
+      "to": "권고사직과 자진퇴사 차이",
+      "type": "answers"
+    },
+    {
+      "from": "퇴사·실업",
+      "to": "실업급여 구직활동 인정 기준",
+      "type": "answers"
+    },
+    {
+      "from": "퇴직금 계산과 지급기한",
+      "to": "실업급여 신청 조건",
+      "type": "next_question"
+    },
+    {
+      "from": "실업급여 신청 조건",
+      "to": "회사에서 퇴직금을 안 줄 때",
+      "type": "next_question"
+    },
+    {
+      "from": "회사에서 퇴직금을 안 줄 때",
+      "to": "권고사직과 자진퇴사 차이",
+      "type": "next_question"
+    },
+    {
+      "from": "권고사직과 자진퇴사 차이",
+      "to": "실업급여 구직활동 인정 기준",
+      "type": "next_question"
+    },
+    {
+      "from": "세금·환급",
+      "to": "생활세금",
+      "type": "contains"
+    },
+    {
+      "from": "생활세금",
+      "to": "월세 세액공제 받는 방법",
+      "type": "answers"
+    },
+    {
+      "from": "생활세금",
+      "to": "자동차세 절약 방법",
+      "type": "answers"
+    },
+    {
+      "from": "생활세금",
+      "to": "재산세 고지서 확인",
+      "type": "answers"
+    },
+    {
+      "from": "생활세금",
+      "to": "지방세 환급금 찾기",
+      "type": "answers"
+    },
+    {
+      "from": "생활세금",
+      "to": "건강보험료 환급금 조회",
+      "type": "answers"
+    },
+    {
+      "from": "월세 세액공제 받는 방법",
+      "to": "자동차세 절약 방법",
+      "type": "next_question"
+    },
+    {
+      "from": "자동차세 절약 방법",
+      "to": "재산세 고지서 확인",
+      "type": "next_question"
+    },
+    {
+      "from": "재산세 고지서 확인",
+      "to": "지방세 환급금 찾기",
+      "type": "next_question"
+    },
+    {
+      "from": "지방세 환급금 찾기",
+      "to": "건강보험료 환급금 조회",
+      "type": "next_question"
+    },
+    {
+      "from": "세금·환급",
+      "to": "사업자",
+      "type": "contains"
+    },
+    {
+      "from": "사업자",
+      "to": "부가세 신고에서 놓치기 쉬운 항목",
+      "type": "answers"
+    },
+    {
+      "from": "사업자",
+      "to": "매입세액 공제 가능한 비용",
+      "type": "answers"
+    },
+    {
+      "from": "사업자",
+      "to": "사업용 카드 홈택스 등록",
+      "type": "answers"
+    },
+    {
+      "from": "사업자",
+      "to": "폐업할 때 세금 정리",
+      "type": "answers"
+    },
+    {
+      "from": "사업자",
+      "to": "간이과세자 부가세 체크리스트",
+      "type": "answers"
+    },
+    {
+      "from": "부가세 신고에서 놓치기 쉬운 항목",
+      "to": "매입세액 공제 가능한 비용",
+      "type": "next_question"
+    },
+    {
+      "from": "매입세액 공제 가능한 비용",
+      "to": "사업용 카드 홈택스 등록",
+      "type": "next_question"
+    },
+    {
+      "from": "사업용 카드 홈택스 등록",
+      "to": "폐업할 때 세금 정리",
+      "type": "next_question"
+    },
+    {
+      "from": "폐업할 때 세금 정리",
+      "to": "간이과세자 부가세 체크리스트",
+      "type": "next_question"
+    },
+    {
+      "from": "건강·병원비",
+      "to": "병원비",
+      "type": "contains"
+    },
+    {
+      "from": "병원비",
+      "to": "갑자기 큰 병원비가 나왔을 때 지원받는 방법",
+      "type": "answers"
+    },
+    {
+      "from": "병원비",
+      "to": "본인부담상한액 환급",
+      "type": "answers"
+    },
+    {
+      "from": "병원비",
+      "to": "실손보험 청구 서류",
+      "type": "answers"
+    },
+    {
+      "from": "병원비",
+      "to": "응급실 비용과 지원제도",
+      "type": "answers"
+    },
+    {
+      "from": "병원비",
+      "to": "건강보험 과오납 환급",
+      "type": "answers"
+    },
+    {
+      "from": "갑자기 큰 병원비가 나왔을 때 지원받는 방법",
+      "to": "본인부담상한액 환급",
+      "type": "next_question"
+    },
+    {
+      "from": "본인부담상한액 환급",
+      "to": "실손보험 청구 서류",
+      "type": "next_question"
+    },
+    {
+      "from": "실손보험 청구 서류",
+      "to": "응급실 비용과 지원제도",
+      "type": "next_question"
+    },
+    {
+      "from": "응급실 비용과 지원제도",
+      "to": "건강보험 과오납 환급",
+      "type": "next_question"
+    },
+    {
+      "from": "건강·병원비",
+      "to": "쉬운 의학용어",
+      "type": "contains"
+    },
+    {
+      "from": "쉬운 의학용어",
+      "to": "상기도 감염이 무슨 뜻인가요",
+      "type": "answers"
+    },
+    {
+      "from": "쉬운 의학용어",
+      "to": "의사가 말한 진단명을 쉽게 확인하는 방법",
+      "type": "answers"
+    },
+    {
+      "from": "쉬운 의학용어",
+      "to": "처방전 용어 쉽게 보는 법",
+      "type": "answers"
+    },
+    {
+      "from": "쉬운 의학용어",
+      "to": "검사 결과지에서 꼭 볼 항목",
+      "type": "answers"
+    },
+    {
+      "from": "상기도 감염이 무슨 뜻인가요",
+      "to": "의사가 말한 진단명을 쉽게 확인하는 방법",
+      "type": "next_question"
+    },
+    {
+      "from": "의사가 말한 진단명을 쉽게 확인하는 방법",
+      "to": "처방전 용어 쉽게 보는 법",
+      "type": "next_question"
+    },
+    {
+      "from": "처방전 용어 쉽게 보는 법",
+      "to": "검사 결과지에서 꼭 볼 항목",
+      "type": "next_question"
+    }
+  ],
+  "created_at": "2026-07-16T09:04:46+00:00"
+}

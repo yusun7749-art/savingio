@@ -1,0 +1,27 @@
+{
+  "version": "V3.003",
+  "mode": "articles",
+  "created_at": "2026-07-17T00:14:35+09:00",
+  "requested": 2,
+  "selected": [
+    {
+      "topic": "장기수선충당금 반환받는 방법",
+      "slug": "장기수선충당금-반환받는-방법-8ea93de8"
+    },
+    {
+      "topic": "아파트 관리비 항목별 확인 방법",
+      "slug": "아파트-관리비-항목별-확인-방법-c9789557"
+    }
+  ],
+  "completed": [],
+  "blocked": [],
+  "failed": [],
+  "dry_run": true,
+  "verified_files": [],
+  "missing_files": [],
+  "finished_at": "2026-07-17T00:14:35+09:00",
+  "verified_count": 0,
+  "expected_count": 2,
+  "output_directory": "factory/output/drafts",
+  "pass": true
+}

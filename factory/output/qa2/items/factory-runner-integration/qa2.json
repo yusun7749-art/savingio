@@ -1,0 +1,15 @@
+{
+  "topic": "factory runner integration",
+  "slug": "factory-runner-integration",
+  "qa1_pass": true,
+  "seo_pass": true,
+  "research_ready": false,
+  "image_ready": false,
+  "image_status": "pending_external_generation",
+  "qa2_pass": false,
+  "blockers": [
+    "research_ready",
+    "image_pending_external_generation"
+  ],
+  "checked_at": "2026-07-16T01:18:43+09:00"
+}

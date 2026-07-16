@@ -1,0 +1,47 @@
+{
+  "handoff_id": "f4cd8f7411ad4648bdd104b7f2fd81f8",
+  "workflow_id": "0ca48204fa6d412f844403ab65278bfa",
+  "sender": "image",
+  "receiver": "qa_primary",
+  "status": "blocked",
+  "blockers": [
+    "ready"
+  ],
+  "payload": {
+    "topic": "장기수선충당금",
+    "slug": "장기수선충당금-298a523e",
+    "required": [
+      {
+        "filename": "장기수선충당금-298a523e-hero.webp",
+        "alt": "장기수선충당금 핵심 안내 이미지",
+        "aspect_ratio": "16:9",
+        "prompt": "장기수선충당금을 설명하는 신뢰감 있는 한국형 생활정보 웹사이트 대표 이미지, 텍스트 최소화"
+      },
+      {
+        "filename": "장기수선충당금-298a523e-og.webp",
+        "alt": "장기수선충당금 OG 이미지",
+        "aspect_ratio": "1200:630",
+        "prompt": "Savingio 브랜드용 장기수선충당금 OG 이미지, 정보형, 깔끔한 카드 스타일"
+      },
+      {
+        "filename": "장기수선충당금-298a523e-summary.webp",
+        "alt": "장기수선충당금 요약 인포그래픽",
+        "aspect_ratio": "4:5",
+        "prompt": "장기수선충당금 핵심 조건과 실행 순서를 요약한 인포그래픽"
+      }
+    ],
+    "generated_files": [],
+    "ready": false,
+    "requires_external_image_generation": true,
+    "created_at": "2026-07-15T11:51:16+09:00"
+  },
+  "created_at": "2026-07-15T11:51:16+09:00",
+  "gate": {
+    "department": "image",
+    "pass": false,
+    "blockers": [
+      "ready"
+    ],
+    "checked_at": "2026-07-15T11:51:16+09:00"
+  }
+}

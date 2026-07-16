@@ -1,0 +1,26 @@
+{
+  "pass": true,
+  "score": 100,
+  "plaintext_chars": 3860,
+  "checks": {
+    "doctype": true,
+    "html_language": true,
+    "title": true,
+    "meta_description": true,
+    "canonical": true,
+    "h1": true,
+    "length": true,
+    "required_sections": true,
+    "summary_cards": true,
+    "cases": true,
+    "comparison_rows": true,
+    "checklist_items": true,
+    "faq_items": true,
+    "next_questions": true,
+    "related_links": true,
+    "official_section": true,
+    "schema": true,
+    "no_template_tokens": true
+  },
+  "failures": []
+}

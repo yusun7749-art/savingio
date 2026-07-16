@@ -1,0 +1,39 @@
+{
+  "pass": true,
+  "moved": [],
+  "before": {
+    "pass": true,
+    "project_root": "C:/Users/VIEW LIFE/Desktop/savingio-live",
+    "required_directories": [
+      "factory",
+      "articles",
+      "calculators",
+      "css",
+      "js"
+    ],
+    "missing_directories": [],
+    "missing_files": [],
+    "nested_houses": [],
+    "duplicate_project_roots": [],
+    "blockers": [],
+    "checked_at": "2026-07-15T22:50:54+09:00"
+  },
+  "after": {
+    "pass": true,
+    "project_root": "C:/Users/VIEW LIFE/Desktop/savingio-live",
+    "required_directories": [
+      "factory",
+      "articles",
+      "calculators",
+      "css",
+      "js"
+    ],
+    "missing_directories": [],
+    "missing_files": [],
+    "nested_houses": [],
+    "duplicate_project_roots": [],
+    "blockers": [],
+    "checked_at": "2026-07-15T22:50:54+09:00"
+  },
+  "checked_at": "2026-07-15T22:50:54+09:00"
+}

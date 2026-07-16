@@ -1,8 +1,8 @@
 {
-  "topic": "전기요금 절약",
-  "slug": "전기요금-절약-c861d77b",
+  "topic": "월급 실수령액 계산 방법",
+  "slug": "월급-실수령액-계산-방법-305d9058",
   "article_type": "guide",
-  "category": "공과금",
+  "category": "생활비 절약",
   "search_intent": "문제 해결",
   "audience": "생활비 절약 정보를 찾는 사용자",
   "required_sections": [
@@ -23,13 +23,13 @@
   ],
   "target_chars": 5000,
   "research_questions": [
-    "전기요금 절약의 핵심 조건은 무엇인가?",
-    "전기요금 절약의 실행 순서는 무엇인가?"
+    "월급 실수령액 계산 방법의 핵심 조건은 무엇인가?",
+    "월급 실수령액 계산 방법의 실행 순서는 무엇인가?"
   ],
   "matched_keywords": [
-    "절약"
+    "방법"
   ],
   "risk_level": "medium",
-  "created_at": "2026-07-14T09:15:32+00:00",
+  "created_at": "2026-07-15T12:24:08+09:00",
   "status": "planned"
 }

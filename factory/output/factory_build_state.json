@@ -1,0 +1,7 @@
+{
+  "patch": "PATCH003",
+  "implemented": [
+    "factory/output/factory_build_state.json"
+  ],
+  "note": "Actual generated state file."
+}

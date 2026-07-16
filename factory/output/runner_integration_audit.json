@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "pass": true,
+  "mode": "isolated_manager_executor_integration",
+  "topic": "Factory Runner 통합 검사",
+  "stages": [
+    {
+      "name": "planning",
+      "pass": true,
+      "status": "completed"
+    },
+    {
+      "name": "research",
+      "pass": true,
+      "status": "completed"
+    },
+    {
+      "name": "writer",
+      "pass": true,
+      "status": "completed"
+    },
+    {
+      "name": "seo",
+      "pass": true,
+      "status": "completed"
+    },
+    {
+      "name": "calculator",
+      "pass": true,
+      "status": "completed"
+    },
+    {
+      "name": "image",
+      "pass": true,
+      "status": "completed"
+    },
+    {
+      "name": "qa1",
+      "pass": true,
+      "status": "completed"
+    },
+    {
+      "name": "qa2",
+      "pass": true,
+      "status": "completed"
+    },
+    {
+      "name": "cms",
+      "pass": true,
+      "status": "completed"
+    }
+  ],
+  "blocked_stage": null,
+  "article_paths": [
+    "articles/factory-runner.html"
+  ],
+  "verified_articles": [
+    "articles/factory-runner.html"
+  ],
+  "created_at": "2026-07-16T01:27:02+09:00"
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2026-07-16T01:18:43+09:00",
+  "department_count": 9,
+  "passed_count": 9,
+  "failed_count": 0,
+  "departments": [
+    {
+      "department": "기획본부",
+      "module": "factory.planning_hq",
+      "entrypoint": "create_plan",
+      "status": "ready",
+      "pass": true,
+      "error": null
+    },
+    {
+      "department": "조사본부",
+      "module": "factory.research_hq",
+      "entrypoint": "run_research_queue",
+      "status": "ready",
+      "pass": true,
+      "error": null
+    },
+    {
+      "department": "작가본부",
+      "module": "factory.writer_hq",
+      "entrypoint": "run_writer_queue",
+      "status": "ready",
+      "pass": true,
+      "error": null
+    },
+    {
+      "department": "SEO본부",
+      "module": "factory.seo_hq",
+      "entrypoint": "run_seo_queue",
+      "status": "ready",
+      "pass": true,
+      "error": null
+    },
+    {
+      "department": "Calculator HQ",
+      "module": "factory.calculator_hq_batch",
+      "entrypoint": "run_calculator_batch",
+      "status": "ready",
+      "pass": true,
+      "error": null
+    },
+    {
+      "department": "이미지본부",
+      "module": "factory.image_hq",
+      "entrypoint": "run_image_queue",
+      "status": "ready",
+      "pass": true,
+      "error": null
+    },
+    {
+      "department": "QA1본부",
+      "module": "factory.qa1_hq",
+      "entrypoint": "run_qa1_queue",
+      "status": "ready",
+      "pass": true,
+      "error": null
+    },
+    {
+      "department": "QA2본부",
+      "module": "factory.qa2_hq",
+      "entrypoint": "run_qa2_queue",
+      "status": "ready",
+      "pass": true,
+      "error": null
+    },
+    {
+      "department": "CMS본부",
+      "module": "factory.cms_hq",
+      "entrypoint": "run_cms_queue",
+      "status": "ready",
+      "pass": true,
+      "error": null
+    }
+  ],
+  "automation": {
+    "module": "factory.automation_hq",
+    "entrypoint": "run_factory_core",
+    "status": "ready",
+    "pass": true,
+    "error": null
+  },
+  "chain": [
+    "기획본부",
+    "조사본부",
+    "작가본부",
+    "SEO본부",
+    "Calculator HQ",
+    "이미지본부",
+    "QA1본부",
+    "QA2본부",
+    "CMS본부"
+  ],
+  "content_release_separated": true,
+  "pass": true
+}

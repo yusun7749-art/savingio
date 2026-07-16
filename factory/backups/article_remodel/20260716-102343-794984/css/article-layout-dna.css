@@ -1,0 +1,69 @@
+/* Savingio Article Layout DNA v1.1
+   Shared spacing and card rhythm for article pages. */
+.savingio-article-dna .article-main article > section {
+  scroll-margin-top: 96px;
+}
+.savingio-article-dna .article-main article > section + section {
+  margin-top: 30px;
+}
+.savingio-article-dna .summary-grid,
+.savingio-article-dna .branch-grid,
+.savingio-article-dna .related-grid,
+.savingio-article-dna .complete-grid,
+.savingio-article-dna .card-grid,
+.savingio-article-dna .grid {
+  gap: 24px;
+}
+.savingio-article-dna .card,
+.savingio-article-dna .branch,
+.savingio-article-dna .related-card,
+.savingio-article-dna .context-card,
+.savingio-article-dna .action-card,
+.savingio-article-dna .quick-answer,
+.savingio-article-dna .callout,
+.savingio-article-dna .intent-card {
+  padding: 20px;
+}
+.savingio-article-dna .card + .card,
+.savingio-article-dna .context-card + .context-card,
+.savingio-article-dna details + details,
+.savingio-article-dna .step-box + .step-box {
+  margin-top: 18px;
+}
+.savingio-article-dna .table-wrap,
+.savingio-article-dna .checklist,
+.savingio-article-dna .toc,
+.savingio-article-dna .curiosity-bridge {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.savingio-article-dna .article-main p + p,
+.savingio-article-dna .article-main p + ul,
+.savingio-article-dna .article-main p + ol,
+.savingio-article-dna .article-main ul + p,
+.savingio-article-dna .article-main ol + p {
+  margin-top: 14px;
+}
+@media (max-width: 720px) {
+  .savingio-article-dna .article-main article > section + section {
+    margin-top: 24px;
+  }
+  .savingio-article-dna .summary-grid,
+  .savingio-article-dna .branch-grid,
+  .savingio-article-dna .related-grid,
+  .savingio-article-dna .complete-grid,
+  .savingio-article-dna .card-grid,
+  .savingio-article-dna .grid {
+    gap: 18px;
+  }
+  .savingio-article-dna .card,
+  .savingio-article-dna .branch,
+  .savingio-article-dna .related-card,
+  .savingio-article-dna .context-card,
+  .savingio-article-dna .action-card,
+  .savingio-article-dna .quick-answer,
+  .savingio-article-dna .callout,
+  .savingio-article-dna .intent-card {
+    padding: 17px;
+  }
+}

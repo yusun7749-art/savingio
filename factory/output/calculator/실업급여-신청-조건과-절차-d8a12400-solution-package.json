@@ -1,0 +1,19 @@
+{
+  "topic": "실업급여 신청 조건과 절차",
+  "slug": "실업급여-신청-조건과-절차-d8a12400",
+  "article_url": "/articles/실업급여-신청-조건과-절차-d8a12400.html",
+  "calculators": [
+    {
+      "calculator_id": "salary-net-pay",
+      "title": "연봉·월급 실수령액 계산기",
+      "category": "salary",
+      "url": "/calculators/salary-net-pay.html",
+      "status": "active",
+      "score": 12,
+      "reason": "keyword_match"
+    }
+  ],
+  "generation_request": null,
+  "status": "linked",
+  "created_at": "2026-07-15T12:24:08+09:00"
+}

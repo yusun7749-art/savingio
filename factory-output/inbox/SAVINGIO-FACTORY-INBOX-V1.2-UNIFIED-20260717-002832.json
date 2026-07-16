@@ -1,0 +1,18 @@
+{
+  "version": "1.2.0",
+  "patch": "SAVINGIO-FACTORY-INBOX-V1.2-UNIFIED.zip",
+  "started_at": "2026-07-17T00:28:32+09:00",
+  "status": "no_changes",
+  "pass": true,
+  "changed_files": [],
+  "steps": [],
+  "manifest": {
+    "version": "V1.2",
+    "title": "Unify Factory Inbox output paths",
+    "files": [
+      "factory/factory_inbox_runner.py",
+      "16-RESTART-FACTORY-INBOX-V1.2.bat"
+    ]
+  },
+  "finished_at": "2026-07-17T00:28:32+09:00"
+}

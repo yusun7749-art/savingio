@@ -1,0 +1,8 @@
+{
+  "version": "1.0",
+  "title": "Example homepage update",
+  "files": [
+    "index.html"
+  ],
+  "notes": "Only files listed here will be applied."
+}

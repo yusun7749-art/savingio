@@ -1,0 +1,20 @@
+{
+  "factory_version": "2.056",
+  "status": "blocked",
+  "requested_topics": 1,
+  "processed_topics": 1,
+  "completed_topics": 0,
+  "blocked_topics": 1,
+  "topics": [
+    {
+      "topic": "장기수선충당금",
+      "workflow_id": "0ca48204fa6d412f844403ab65278bfa",
+      "status": "blocked",
+      "handoff_count": 11,
+      "article_path": "factory/output/drafts/장기수선충당금-298a523e.html",
+      "qa_score": 100
+    }
+  ],
+  "next_action": "review_blocked_department",
+  "created_at": "2026-07-15T11:51:20+09:00"
+}

@@ -1,11 +1,92 @@
 {
-  "status": "blocked",
-  "reason": "cloudflare_not_configured",
-  "error": "missing_env:CLOUDFLARE_ACCOUNT_ID,CLOUDFLARE_API_TOKEN,CLOUDFLARE_PAGES_PROJECT",
-  "required_env": [
-    "CLOUDFLARE_ACCOUNT_ID",
-    "CLOUDFLARE_API_TOKEN",
-    "CLOUDFLARE_PAGES_PROJECT"
+  "status": "success",
+  "verification": "live_site_fallback",
+  "reason": "cloudflare_api_not_configured",
+  "base_url": "https://savingio.com",
+  "site": {
+    "base_url": "https://savingio.com",
+    "pass": true,
+    "results": [
+      {
+        "status": "ok",
+        "http_status": 200,
+        "url": "https://savingio.com/",
+        "expected_text_found": true,
+        "bytes": 106818,
+        "checked_at": "2026-07-16T23:01:54+09:00"
+      },
+      {
+        "status": "ok",
+        "http_status": 200,
+        "url": "https://savingio.com/articles/",
+        "expected_text_found": true,
+        "bytes": 132557,
+        "checked_at": "2026-07-16T23:01:55+09:00"
+      },
+      {
+        "status": "ok",
+        "http_status": 200,
+        "url": "https://savingio.com/robots.txt",
+        "expected_text_found": true,
+        "bytes": 1902,
+        "checked_at": "2026-07-16T23:01:55+09:00"
+      },
+      {
+        "status": "ok",
+        "http_status": 200,
+        "url": "https://savingio.com/sitemap.xml",
+        "expected_text_found": true,
+        "bytes": 20641,
+        "checked_at": "2026-07-16T23:01:56+09:00"
+      }
+    ],
+    "checked_at": "2026-07-16T23:01:56+09:00"
+  },
+  "history": [
+    {
+      "attempt": 1,
+      "checked_at": "2026-07-16T23:01:56+09:00",
+      "site": {
+        "base_url": "https://savingio.com",
+        "pass": true,
+        "results": [
+          {
+            "status": "ok",
+            "http_status": 200,
+            "url": "https://savingio.com/",
+            "expected_text_found": true,
+            "bytes": 106818,
+            "checked_at": "2026-07-16T23:01:54+09:00"
+          },
+          {
+            "status": "ok",
+            "http_status": 200,
+            "url": "https://savingio.com/articles/",
+            "expected_text_found": true,
+            "bytes": 132557,
+            "checked_at": "2026-07-16T23:01:55+09:00"
+          },
+          {
+            "status": "ok",
+            "http_status": 200,
+            "url": "https://savingio.com/robots.txt",
+            "expected_text_found": true,
+            "bytes": 1902,
+            "checked_at": "2026-07-16T23:01:55+09:00"
+          },
+          {
+            "status": "ok",
+            "http_status": 200,
+            "url": "https://savingio.com/sitemap.xml",
+            "expected_text_found": true,
+            "bytes": 20641,
+            "checked_at": "2026-07-16T23:01:56+09:00"
+          }
+        ],
+        "checked_at": "2026-07-16T23:01:56+09:00"
+      }
+    }
   ],
-  "created_at": "2026-07-14T14:26:33+00:00"
+  "pass": true,
+  "created_at": "2026-07-16T23:01:56+09:00"
 }

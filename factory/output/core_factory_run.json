@@ -1,0 +1,553 @@
+{
+  "status": "blocked",
+  "pass": false,
+  "blocked_stage": "qa2",
+  "topics": [
+    "factory runner integration"
+  ],
+  "stages": [
+    {
+      "name": "planning",
+      "pass": true,
+      "status": "completed",
+      "completed_count": 1,
+      "failed_count": 0,
+      "report": {
+        "department": "planning",
+        "status": "completed",
+        "requested": 1,
+        "selected_count": 1,
+        "created_at": "2026-07-16T01:18:43+09:00",
+        "items": [
+          {
+            "order": 1,
+            "topic": "factory runner integration",
+            "slug": "factory-runner-integration",
+            "category": "생활비 절약",
+            "article_type": "guide",
+            "search_intent": "문제 해결",
+            "status": "ready"
+          }
+        ],
+        "handoff": {
+          "next_department": "research",
+          "queue_path": "factory/output/planning/planning_queue.json"
+        },
+        "pass": true
+      }
+    },
+    {
+      "name": "research",
+      "pass": true,
+      "status": "completed",
+      "completed_count": 1,
+      "failed_count": 0,
+      "report": {
+        "department": "research",
+        "status": "completed",
+        "requested": 1,
+        "completed_count": 1,
+        "failed_count": 0,
+        "writer_ready_count": 1,
+        "created_at": "2026-07-16T01:18:43+09:00",
+        "items": [
+          {
+            "order": 1,
+            "topic": "factory runner integration",
+            "slug": "factory-runner-integration",
+            "category": "생활비 절약",
+            "article_type": "guide",
+            "search_intent": "문제 해결",
+            "status": "ready",
+            "research_status": "research_rework_required",
+            "research_qa_score": 15,
+            "ready_for_publish": false,
+            "research_files": {
+              "package": "factory/output/research/items/factory-runner-integration/research_package.json",
+              "qa": "factory/output/research/items/factory-runner-integration/research_qa.json",
+              "report": "factory/output/research/items/factory-runner-integration/research_report.json"
+            },
+            "completed_at": "2026-07-16T01:18:43+09:00"
+          }
+        ],
+        "failures": [],
+        "handoff": {
+          "next_department": "writer",
+          "queue_path": "factory/output/research/writer_queue.json"
+        },
+        "pass": true
+      }
+    },
+    {
+      "name": "writer",
+      "pass": true,
+      "status": "completed",
+      "completed_count": 1,
+      "failed_count": 0,
+      "report": {
+        "department": "writer",
+        "status": "completed",
+        "requested": 1,
+        "completed_count": 1,
+        "failed_count": 0,
+        "seo_ready_count": 1,
+        "created_at": "2026-07-16T01:18:43+09:00",
+        "items": [
+          {
+            "order": 1,
+            "topic": "factory runner integration",
+            "slug": "factory-runner-integration",
+            "category": "생활비 절약",
+            "article_type": "guide",
+            "search_intent": "문제 해결",
+            "status": "ready",
+            "research_status": "research_rework_required",
+            "research_qa_score": 15,
+            "ready_for_publish": false,
+            "research_files": {
+              "package": "factory/output/research/items/factory-runner-integration/research_package.json",
+              "qa": "factory/output/research/items/factory-runner-integration/research_qa.json",
+              "report": "factory/output/research/items/factory-runner-integration/research_report.json"
+            },
+            "completed_at": "2026-07-16T01:18:43+09:00",
+            "draft_path": "factory/output/drafts/factory-runner-integration.html",
+            "writer_archive_path": "factory/output/writer/items/factory-runner-integration/factory-runner-integration.html",
+            "seo_seed_path": "factory/output/writer/items/factory-runner-integration/seo_seed.json",
+            "writer_qa_path": "factory/output/writer/items/factory-runner-integration/writer_qa.json",
+            "writer_qa_score": 100,
+            "plaintext_chars": 3860,
+            "html_bytes": 16344
+          }
+        ],
+        "failures": [],
+        "handoff": {
+          "next_department": "seo",
+          "queue_path": "factory/output/writer/seo_queue.json"
+        },
+        "pass": true
+      }
+    },
+    {
+      "name": "seo",
+      "pass": true,
+      "status": "completed",
+      "completed_count": 1,
+      "failed_count": 0,
+      "report": {
+        "department": "seo",
+        "status": "completed",
+        "requested": 1,
+        "completed_count": 1,
+        "failed_count": 0,
+        "image_ready_count": 1,
+        "created_at": "2026-07-16T01:18:43+09:00",
+        "items": [
+          {
+            "order": 1,
+            "topic": "factory runner integration",
+            "slug": "factory-runner-integration",
+            "category": "생활비 절약",
+            "article_type": "guide",
+            "search_intent": "문제 해결",
+            "status": "ready",
+            "research_status": "research_rework_required",
+            "research_qa_score": 15,
+            "ready_for_publish": false,
+            "research_files": {
+              "package": "factory/output/research/items/factory-runner-integration/research_package.json",
+              "qa": "factory/output/research/items/factory-runner-integration/research_qa.json",
+              "report": "factory/output/research/items/factory-runner-integration/research_report.json"
+            },
+            "completed_at": "2026-07-16T01:18:43+09:00",
+            "draft_path": "factory/output/drafts/factory-runner-integration.html",
+            "writer_archive_path": "factory/output/writer/items/factory-runner-integration/factory-runner-integration.html",
+            "seo_seed_path": "factory/output/writer/items/factory-runner-integration/seo_seed.json",
+            "writer_qa_path": "factory/output/writer/items/factory-runner-integration/writer_qa.json",
+            "writer_qa_score": 100,
+            "plaintext_chars": 3860,
+            "html_bytes": 16344,
+            "seo_path": "factory/output/seo/items/factory-runner-integration/seo.json",
+            "seo_qa_path": "factory/output/seo/items/factory-runner-integration/seo_qa.json",
+            "seo_score": 100,
+            "seo_pass": true
+          }
+        ],
+        "failures": [],
+        "handoff": {
+          "next_department": "image",
+          "queue_path": "factory/output/seo/image_queue.json"
+        },
+        "pass": true
+      }
+    },
+    {
+      "name": "calculator",
+      "pass": true,
+      "status": "completed",
+      "completed_count": 1,
+      "failed_count": 0,
+      "report": {
+        "department": "calculator_hq",
+        "status": "completed",
+        "requested": 1,
+        "completed_count": 1,
+        "failed_count": 0,
+        "image_ready_count": 1,
+        "created_at": "2026-07-16T01:18:43+09:00",
+        "items": [
+          {
+            "order": 1,
+            "topic": "factory runner integration",
+            "slug": "factory-runner-integration",
+            "category": "생활비 절약",
+            "article_type": "guide",
+            "search_intent": "문제 해결",
+            "status": "ready",
+            "research_status": "research_rework_required",
+            "research_qa_score": 15,
+            "ready_for_publish": false,
+            "research_files": {
+              "package": "factory/output/research/items/factory-runner-integration/research_package.json",
+              "qa": "factory/output/research/items/factory-runner-integration/research_qa.json",
+              "report": "factory/output/research/items/factory-runner-integration/research_report.json"
+            },
+            "completed_at": "2026-07-16T01:18:43+09:00",
+            "draft_path": "factory/output/drafts/factory-runner-integration.html",
+            "writer_archive_path": "factory/output/writer/items/factory-runner-integration/factory-runner-integration.html",
+            "seo_seed_path": "factory/output/writer/items/factory-runner-integration/seo_seed.json",
+            "writer_qa_path": "factory/output/writer/items/factory-runner-integration/writer_qa.json",
+            "writer_qa_score": 100,
+            "plaintext_chars": 3860,
+            "html_bytes": 16344,
+            "seo_path": "factory/output/seo/items/factory-runner-integration/seo.json",
+            "seo_qa_path": "factory/output/seo/items/factory-runner-integration/seo_qa.json",
+            "seo_score": 100,
+            "seo_pass": true,
+            "calculator_hq_pass": true,
+            "calculator_report_path": "factory/output/calculator/factory-runner-integration-hq-report.json",
+            "calculator_count": 0,
+            "calculator_html_changed": false
+          }
+        ],
+        "failures": [],
+        "handoff": {
+          "next_department": "image",
+          "queue_path": "factory/output/calculator/image_queue.json"
+        },
+        "pass": true
+      }
+    },
+    {
+      "name": "image",
+      "pass": true,
+      "status": "completed",
+      "completed_count": 1,
+      "failed_count": 0,
+      "report": {
+        "department": "image",
+        "status": "completed",
+        "requested": 1,
+        "completed_count": 1,
+        "failed_count": 0,
+        "qa1_ready_count": 1,
+        "created_at": "2026-07-16T01:18:43+09:00",
+        "items": [
+          {
+            "order": 1,
+            "topic": "factory runner integration",
+            "slug": "factory-runner-integration",
+            "category": "생활비 절약",
+            "article_type": "guide",
+            "search_intent": "문제 해결",
+            "status": "ready",
+            "research_status": "research_rework_required",
+            "research_qa_score": 15,
+            "ready_for_publish": false,
+            "research_files": {
+              "package": "factory/output/research/items/factory-runner-integration/research_package.json",
+              "qa": "factory/output/research/items/factory-runner-integration/research_qa.json",
+              "report": "factory/output/research/items/factory-runner-integration/research_report.json"
+            },
+            "completed_at": "2026-07-16T01:18:43+09:00",
+            "draft_path": "factory/output/drafts/factory-runner-integration.html",
+            "writer_archive_path": "factory/output/writer/items/factory-runner-integration/factory-runner-integration.html",
+            "seo_seed_path": "factory/output/writer/items/factory-runner-integration/seo_seed.json",
+            "writer_qa_path": "factory/output/writer/items/factory-runner-integration/writer_qa.json",
+            "writer_qa_score": 100,
+            "plaintext_chars": 3860,
+            "html_bytes": 16344,
+            "seo_path": "factory/output/seo/items/factory-runner-integration/seo.json",
+            "seo_qa_path": "factory/output/seo/items/factory-runner-integration/seo_qa.json",
+            "seo_score": 100,
+            "seo_pass": true,
+            "calculator_hq_pass": true,
+            "calculator_report_path": "factory/output/calculator/factory-runner-integration-hq-report.json",
+            "calculator_count": 0,
+            "calculator_html_changed": false,
+            "image_brief_path": "factory/output/image/items/factory-runner-integration/image_brief.json",
+            "image_job_id": "043aae73358f4b23bfbb98bfa18dc8dc",
+            "image_job_status": "pending",
+            "image_ready": false,
+            "requires_external_image_generation": true
+          }
+        ],
+        "failures": [],
+        "queue_summary": {
+          "pending": 1,
+          "completed": 0,
+          "failed": 0,
+          "updated_at": "2026-07-16T01:18:43+09:00"
+        },
+        "handoff": {
+          "next_department": "qa1",
+          "queue_path": "factory/output/image/qa1_queue.json"
+        },
+        "pass": true
+      }
+    },
+    {
+      "name": "qa1",
+      "pass": true,
+      "status": "completed",
+      "completed_count": 1,
+      "failed_count": 0,
+      "report": {
+        "department": "qa1",
+        "status": "completed",
+        "requested": 1,
+        "completed_count": 1,
+        "passed_count": 1,
+        "review_count": 0,
+        "failed_count": 0,
+        "created_at": "2026-07-16T01:18:43+09:00",
+        "items": [
+          {
+            "order": 1,
+            "topic": "factory runner integration",
+            "slug": "factory-runner-integration",
+            "category": "생활비 절약",
+            "article_type": "guide",
+            "search_intent": "문제 해결",
+            "status": "ready",
+            "research_status": "research_rework_required",
+            "research_qa_score": 15,
+            "ready_for_publish": false,
+            "research_files": {
+              "package": "factory/output/research/items/factory-runner-integration/research_package.json",
+              "qa": "factory/output/research/items/factory-runner-integration/research_qa.json",
+              "report": "factory/output/research/items/factory-runner-integration/research_report.json"
+            },
+            "completed_at": "2026-07-16T01:18:43+09:00",
+            "draft_path": "factory/output/drafts/factory-runner-integration.html",
+            "writer_archive_path": "factory/output/writer/items/factory-runner-integration/factory-runner-integration.html",
+            "seo_seed_path": "factory/output/writer/items/factory-runner-integration/seo_seed.json",
+            "writer_qa_path": "factory/output/writer/items/factory-runner-integration/writer_qa.json",
+            "writer_qa_score": 100,
+            "plaintext_chars": 3860,
+            "html_bytes": 16344,
+            "seo_path": "factory/output/seo/items/factory-runner-integration/seo.json",
+            "seo_qa_path": "factory/output/seo/items/factory-runner-integration/seo_qa.json",
+            "seo_score": 100,
+            "seo_pass": true,
+            "calculator_hq_pass": true,
+            "calculator_report_path": "factory/output/calculator/factory-runner-integration-hq-report.json",
+            "calculator_count": 0,
+            "calculator_html_changed": false,
+            "image_brief_path": "factory/output/image/items/factory-runner-integration/image_brief.json",
+            "image_job_id": "043aae73358f4b23bfbb98bfa18dc8dc",
+            "image_job_status": "pending",
+            "image_ready": false,
+            "requires_external_image_generation": true,
+            "qa1_path": "factory/output/qa1/items/factory-runner-integration/qa1.json",
+            "qa1_score": 100,
+            "qa1_pass": true,
+            "qa1_issues": [],
+            "image_status": "pending_external_generation"
+          }
+        ],
+        "failures": [],
+        "handoff": {
+          "next_department": "qa2",
+          "queue_path": "factory/output/qa1/qa2_queue.json"
+        },
+        "pass": true
+      }
+    },
+    {
+      "name": "qa2",
+      "pass": false,
+      "status": "partial",
+      "completed_count": 1,
+      "failed_count": 0,
+      "report": {
+        "department": "qa2",
+        "status": "partial",
+        "requested": 1,
+        "completed_count": 1,
+        "passed_count": 0,
+        "release_ready_count": 0,
+        "review_count": 1,
+        "failed_count": 0,
+        "created_at": "2026-07-16T01:18:43+09:00",
+        "items": [
+          {
+            "order": 1,
+            "topic": "factory runner integration",
+            "slug": "factory-runner-integration",
+            "category": "생활비 절약",
+            "article_type": "guide",
+            "search_intent": "문제 해결",
+            "status": "review_required",
+            "research_status": "research_rework_required",
+            "research_qa_score": 15,
+            "ready_for_publish": false,
+            "research_files": {
+              "package": "factory/output/research/items/factory-runner-integration/research_package.json",
+              "qa": "factory/output/research/items/factory-runner-integration/research_qa.json",
+              "report": "factory/output/research/items/factory-runner-integration/research_report.json"
+            },
+            "completed_at": "2026-07-16T01:18:43+09:00",
+            "draft_path": "factory/output/drafts/factory-runner-integration.html",
+            "writer_archive_path": "factory/output/writer/items/factory-runner-integration/factory-runner-integration.html",
+            "seo_seed_path": "factory/output/writer/items/factory-runner-integration/seo_seed.json",
+            "writer_qa_path": "factory/output/writer/items/factory-runner-integration/writer_qa.json",
+            "writer_qa_score": 100,
+            "plaintext_chars": 3860,
+            "html_bytes": 16344,
+            "seo_path": "factory/output/seo/items/factory-runner-integration/seo.json",
+            "seo_qa_path": "factory/output/seo/items/factory-runner-integration/seo_qa.json",
+            "seo_score": 100,
+            "seo_pass": true,
+            "calculator_hq_pass": true,
+            "calculator_report_path": "factory/output/calculator/factory-runner-integration-hq-report.json",
+            "calculator_count": 0,
+            "calculator_html_changed": false,
+            "image_brief_path": "factory/output/image/items/factory-runner-integration/image_brief.json",
+            "image_job_id": "043aae73358f4b23bfbb98bfa18dc8dc",
+            "image_job_status": "pending",
+            "image_ready": false,
+            "requires_external_image_generation": true,
+            "qa1_path": "factory/output/qa1/items/factory-runner-integration/qa1.json",
+            "qa1_score": 100,
+            "qa1_pass": true,
+            "qa1_issues": [],
+            "image_status": "pending_external_generation",
+            "qa2_path": "factory/output/qa2/items/factory-runner-integration/qa2.json",
+            "qa2_pass": false,
+            "qa2_blockers": [
+              "research_ready",
+              "image_pending_external_generation"
+            ]
+          }
+        ],
+        "failures": [],
+        "handoff": {
+          "next_department": "cms",
+          "queue_path": "factory/output/qa2/cms_queue.json"
+        },
+        "pass": false
+      }
+    }
+  ],
+  "core_contracts": {
+    "created_at": "2026-07-16T01:18:43+09:00",
+    "department_count": 9,
+    "passed_count": 9,
+    "failed_count": 0,
+    "departments": [
+      {
+        "department": "기획본부",
+        "module": "factory.planning_hq",
+        "entrypoint": "create_plan",
+        "status": "ready",
+        "pass": true,
+        "error": null
+      },
+      {
+        "department": "조사본부",
+        "module": "factory.research_hq",
+        "entrypoint": "run_research_queue",
+        "status": "ready",
+        "pass": true,
+        "error": null
+      },
+      {
+        "department": "작가본부",
+        "module": "factory.writer_hq",
+        "entrypoint": "run_writer_queue",
+        "status": "ready",
+        "pass": true,
+        "error": null
+      },
+      {
+        "department": "SEO본부",
+        "module": "factory.seo_hq",
+        "entrypoint": "run_seo_queue",
+        "status": "ready",
+        "pass": true,
+        "error": null
+      },
+      {
+        "department": "Calculator HQ",
+        "module": "factory.calculator_hq_batch",
+        "entrypoint": "run_calculator_batch",
+        "status": "ready",
+        "pass": true,
+        "error": null
+      },
+      {
+        "department": "이미지본부",
+        "module": "factory.image_hq",
+        "entrypoint": "run_image_queue",
+        "status": "ready",
+        "pass": true,
+        "error": null
+      },
+      {
+        "department": "QA1본부",
+        "module": "factory.qa1_hq",
+        "entrypoint": "run_qa1_queue",
+        "status": "ready",
+        "pass": true,
+        "error": null
+      },
+      {
+        "department": "QA2본부",
+        "module": "factory.qa2_hq",
+        "entrypoint": "run_qa2_queue",
+        "status": "ready",
+        "pass": true,
+        "error": null
+      },
+      {
+        "department": "CMS본부",
+        "module": "factory.cms_hq",
+        "entrypoint": "run_cms_queue",
+        "status": "ready",
+        "pass": true,
+        "error": null
+      }
+    ],
+    "automation": {
+      "module": "factory.automation_hq",
+      "entrypoint": "run_factory_core",
+      "status": "ready",
+      "pass": true,
+      "error": null
+    },
+    "chain": [
+      "기획본부",
+      "조사본부",
+      "작가본부",
+      "SEO본부",
+      "Calculator HQ",
+      "이미지본부",
+      "QA1본부",
+      "QA2본부",
+      "CMS본부"
+    ],
+    "content_release_separated": true,
+    "pass": true
+  },
+  "created_at": "2026-07-16T01:18:43+09:00"
+}

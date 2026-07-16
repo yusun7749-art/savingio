@@ -1,0 +1,25 @@
+{
+  "factory_version": "2.056",
+  "status": "paused",
+  "requested_topics": 1,
+  "selected_topics": 1,
+  "processed_this_run": 1,
+  "completed_total": 0,
+  "blocked_total": 1,
+  "remaining_total": 1,
+  "results": [
+    {
+      "topic": "장기수선충당금",
+      "status": "blocked",
+      "workflow_id": "0ca48204fa6d412f844403ab65278bfa",
+      "article_path": "factory/output/drafts/장기수선충당금-298a523e.html",
+      "qa_score": 100
+    }
+  ],
+  "generated_articles": [
+    "factory/output/drafts/장기수선충당금-298a523e.html"
+  ],
+  "state_file": "C:\\Users\\VIEW LIFE\\Desktop\\savingio-live\\factory\\output\\brain_scheduler_state.json",
+  "next_action": "run_scheduler_again",
+  "created_at": "2026-07-15T11:51:20+09:00"
+}

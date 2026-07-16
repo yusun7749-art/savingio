@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "mode": "life_money_brain_auto_expansion",
+  "brand_headline": "생활 속 돈 문제, 여기서 한 번에 해결하세요.",
+  "selected_categories": [
+    "집·아파트",
+    "보험·보상",
+    "복지·지원",
+    "자동차·교통",
+    "직장·소득",
+    "세금·환급",
+    "건강·병원비"
+  ],
+  "category_count": 7,
+  "situation_count": 20,
+  "topic_count": 104,
+  "topics_file": "factory/output/life_money_brain/topics.txt",
+  "graph_file": "factory/output/life_money_brain/knowledge_graph.json",
+  "created_at": "2026-07-16T09:04:46+00:00",
+  "pass": true
+}
