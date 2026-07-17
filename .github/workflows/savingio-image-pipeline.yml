@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "factory/image_pipeline.py"
+      - "factory/fix_traffic_article_layout.py"
       - "images/articles/**"
       - ".github/workflows/savingio-image-pipeline.yml"
   workflow_dispatch:
@@ -24,8 +25,14 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install layout parser
+        run: python -m pip install beautifulsoup4
+
       - name: Apply repository thumbnails to articles
         run: python factory/image_pipeline.py
+
+      - name: Repair traffic article layout
+        run: python factory/fix_traffic_article_layout.py
 
       - name: Verify repository image connections
         run: |
@@ -46,6 +53,27 @@ jobs:
             grep -n 'data-factory-hero="true"' "articles/${slug}.html"
           done
 
+      - name: Verify traffic article layout DNA
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from bs4 import BeautifulSoup
+
+          path = Path("articles/traffic-fines-difference-guide.html")
+          soup = BeautifulSoup(path.read_text(encoding="utf-8"), "html.parser")
+          grid = soup.select_one("section.quick-grid")
+          author = soup.select_one(".savingio-author-box")
+          assert grid is not None
+          assert author is not None
+          assert grid.select_one(".savingio-author-box") is None
+          assert author.find_next_sibling("h2").get_text(" ", strip=True) == "3초 요약"
+          first_card = grid.find("article", recursive=False)
+          assert first_card is not None
+          assert first_card.select_one("section.savingio-related") is None
+          assert first_card.select_one("section.source-note") is None
+          print("PASS: traffic article layout DNA")
+          PY
+
       - name: Commit generated article connections
         run: |
           if git diff --quiet; then
@@ -62,5 +90,5 @@ jobs:
                   articles/air-conditioner-electricity-saving.html \
                   articles/aircon-dry-mode-electricity.html \
                   articles/aircon-filter-cleaning-savings.html
-          git commit -m "V3.023 connect next article thumbnails"
+          git commit -m "V3.024 normalize traffic article layout"
           git push
