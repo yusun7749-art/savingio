@@ -82,6 +82,25 @@ def special_nodes() -> list[ArticleNode]:
     return [ArticleNode(item["title"], item["href"], "생활 문제 해결", "주거·누수", "해결 순서") for item in SPECIAL_CHAIN]
 
 
+def fallback_cluster(root: Path, current_href: str) -> list[ArticleNode]:
+    current_path = root / current_href.lstrip("/")
+    html = current_path.read_text(encoding="utf-8")
+    hrefs = [current_href]
+    for href in re.findall(r'href=["\'](/articles/[^"\'#?]+\.html)["\']', html, re.IGNORECASE):
+        if href not in hrefs and (root / href.lstrip("/")).is_file():
+            hrefs.append(href)
+        if len(hrefs) >= 6:
+            break
+    nodes: list[ArticleNode] = []
+    for href in hrefs:
+        target = root / href.lstrip("/")
+        target_html = target.read_text(encoding="utf-8")
+        heading = re.search(r'<h1\b[^>]*>(.*?)</h1>', target_html, re.IGNORECASE | re.DOTALL)
+        title = re.sub(r'<[^>]+>', '', heading.group(1)).strip() if heading else target.stem
+        nodes.append(ArticleNode(title, href, "생활 지도", "연결 질문", "다음 확인"))
+    return nodes
+
+
 def render_path(current_href: str, cluster: list[ArticleNode]) -> str:
     cards: list[str] = []
     for index, node in enumerate(cluster, 1):
@@ -137,8 +156,10 @@ def run(root: Path, batch_number: int, batch_size: int = 50, apply: bool = False
         cluster = special if href in {node.href for node in special} else clusters.get(href, [])
         cluster = [node for node in cluster if (root / node.href.lstrip("/")).is_file()]
         if len(cluster) < 2:
-            skipped.append(path.relative_to(root).as_posix())
-            continue
+            cluster = fallback_cluster(root, href)
+            if len(cluster) < 2:
+                skipped.append(path.relative_to(root).as_posix())
+                continue
         original = path.read_text(encoding="utf-8")
         updated, did_change = upsert_path(original, render_path(href, cluster))
         if did_change:

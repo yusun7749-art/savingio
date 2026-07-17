@@ -83,6 +83,14 @@ VERIFIED / DEPLOYMENT PENDING
 - H1 단일성: 50 PASS
 - 내부 링크: broken 0 PASS
 - 누적 적용: 150/220
+
+## V3.010 Batch 04 QA
+- 대상: 50개
+- life-map marker: 50 PASS
+- H1 단일성: 50 PASS
+- 내부 링크: broken 0 PASS
+- 단독 노드 fallback 포함 단위 테스트: 5 PASS
+- 누적 적용: 200/220
 - 2차 격리 실제 E2E: Planning / Research / Writer / SEO / Calculator / Image / QA1 / QA2 / CMS 전체 PASS
 - Writer QA: 100, plaintext 4,323자, `no_repeated_paragraphs=true`
 - 이미지 파일 형식·크기 확인: hero 1280x720, OG 1200x630, infographic 960x1200 WebP PASS
