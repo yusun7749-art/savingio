@@ -10,7 +10,7 @@ on:
       limit:
         description: Number of articles to process
         required: false
-        default: "10"
+        default: "5"
   push:
     branches: [main]
     paths:
@@ -39,7 +39,7 @@ jobs:
         shell: bash
         run: |
           echo "offset=${{ github.event.inputs.offset || '10' }}" >> "$GITHUB_OUTPUT"
-          echo "limit=${{ github.event.inputs.limit || '10' }}" >> "$GITHUB_OUTPUT"
+          echo "limit=${{ github.event.inputs.limit || '5' }}" >> "$GITHUB_OUTPUT"
 
       - name: Process bounded article batch
         run: |
