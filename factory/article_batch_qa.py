@@ -20,6 +20,7 @@ REPORT = ROOT / "factory" / "ARTICLE_BATCH_QA.json"
 
 EXCLUDED = {"index.html"}
 REQUIRED_SECTIONS = ("3초 요약", "목차", "자주 묻는 질문")
+DNA_VERSION = "4"
 
 
 def visible_text(html: str) -> str:
@@ -48,10 +49,10 @@ def extract_category(html: str) -> str:
 def ensure_layout_css(html: str) -> tuple[str, bool]:
     pattern = r'(<link\b[^>]*href=["\']/css/article-layout-dna\.css)(?:\?v=[^"\']*)?(["\'][^>]*>)'
     if re.search(pattern, html, flags=re.I):
-        updated = re.sub(pattern, r'\1?v=3\2', html, count=1, flags=re.I)
+        updated = re.sub(pattern, rf'\1?v={DNA_VERSION}\2', html, count=1, flags=re.I)
         return updated, updated != html
     marker = "</head>"
-    link = '<link rel="stylesheet" href="/css/article-layout-dna.css?v=3" data-savingio-layout-dna="v3">'
+    link = f'<link rel="stylesheet" href="/css/article-layout-dna.css?v={DNA_VERSION}" data-savingio-layout-dna="v{DNA_VERSION}">'
     if marker in html:
         return html.replace(marker, link + marker, 1), True
     return html, False
@@ -89,14 +90,14 @@ def ensure_thumbnail_meta(html: str, slug: str, title: str) -> tuple[str, bool, 
         html = html.replace("</head>", f'<meta name="twitter:image" content="{absolute}">\n</head>', 1)
         changed = True
     if "factory-article-thumb" not in html:
-        hero_end = re.search(r"</section>", html, flags=re.I)
-        if hero_end:
+        hero = re.search(r'<section\b[^>]*class=["\'][^"\']*hero[^"\']*["\'][^>]*>.*?</section>', html, flags=re.I | re.S)
+        if hero:
             figure = (
                 f'<figure class="factory-article-thumb" data-factory-hero="true">'
                 f'<img src="{image_rel}" width="1200" height="630" loading="eager" decoding="async" alt="{title}">'
                 f'<figcaption>{title}</figcaption></figure>'
             )
-            pos = hero_end.end()
+            pos = hero.end()
             html = html[:pos] + figure + html[pos:]
             changed = True
     return html, changed, True
@@ -175,6 +176,7 @@ def main() -> int:
     report = {
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
         "mode": "apply" if args.apply else "audit",
+        "dna_version": DNA_VERSION,
         "offset": args.offset,
         "limit": args.limit,
         "selected_count": len(selected),
