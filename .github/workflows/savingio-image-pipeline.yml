@@ -27,14 +27,24 @@ jobs:
       - name: Apply repository thumbnails to articles
         run: python factory/image_pipeline.py
 
-      - name: Verify no placeholder images remain in pilot articles
+      - name: Verify repository image connections
         run: |
-          ! grep -n "placehold.co" articles/apartment-leak-emergency-response.html
-          ! grep -n "placehold.co" articles/daily-liability-leak-insurance.html
-          ! grep -n "placehold.co" articles/home-water-leak-self-check.html
-          grep -n "savingio.com/images/articles/apartment-leak-emergency-response.svg" articles/apartment-leak-emergency-response.html
-          grep -n "savingio.com/images/articles/daily-liability-leak-insurance.svg" articles/daily-liability-leak-insurance.html
-          grep -n "savingio.com/images/articles/home-water-leak-self-check.svg" articles/home-water-leak-self-check.html
+          files=(
+            apartment-leak-emergency-response
+            daily-liability-leak-insurance
+            home-water-leak-self-check
+            traffic-fines-difference-guide
+            ai-side-hustles-beginner
+            air-conditioner-electricity-saving
+            aircon-dry-mode-electricity
+            aircon-filter-cleaning-savings
+          )
+          for slug in "${files[@]}"; do
+            test -f "images/articles/${slug}.svg"
+            ! grep -n "placehold.co" "articles/${slug}.html"
+            grep -n "savingio.com/images/articles/${slug}.svg" "articles/${slug}.html"
+            grep -n 'data-factory-hero="true"' "articles/${slug}.html"
+          done
 
       - name: Commit generated article connections
         run: |
@@ -46,6 +56,11 @@ jobs:
           git config user.email "savingio-factory-bot@users.noreply.github.com"
           git add articles/apartment-leak-emergency-response.html \
                   articles/daily-liability-leak-insurance.html \
-                  articles/home-water-leak-self-check.html
-          git commit -m "V3.022 connect leak article thumbnails"
+                  articles/home-water-leak-self-check.html \
+                  articles/traffic-fines-difference-guide.html \
+                  articles/ai-side-hustles-beginner.html \
+                  articles/air-conditioner-electricity-saving.html \
+                  articles/aircon-dry-mode-electricity.html \
+                  articles/aircon-filter-cleaning-savings.html
+          git commit -m "V3.023 connect next article thumbnails"
           git push
