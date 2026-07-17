@@ -39,6 +39,19 @@ class ArticleConnectionBatchTests(unittest.TestCase):
         self.assertTrue(changed)
         self.assertLess(updated.index("data-savingio-problem-path"), updated.index("</main>"))
 
+    def test_fallback_cluster_uses_real_related_articles(self):
+        from factory.article_connection_batch import fallback_cluster
+
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            (root / "articles").mkdir()
+            (root / "articles/a.html").write_text(
+                '<h1>현재 글</h1><a href="/articles/b.html">다음</a>', encoding="utf-8"
+            )
+            (root / "articles/b.html").write_text('<h1>다음 글</h1>', encoding="utf-8")
+            nodes = fallback_cluster(root, "/articles/a.html")
+            self.assertEqual([node.title for node in nodes], ["현재 글", "다음 글"])
+
 
 if __name__ == "__main__":
     unittest.main()
