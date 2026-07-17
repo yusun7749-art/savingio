@@ -1,21 +1,16 @@
 {
-  "generated_at": "2026-07-17T17:00:03.632660+00:00",
+  "generated_at": "2026-07-17T17:00:20.349502+00:00",
   "mode": "apply",
   "dna_version": "6",
   "offset": 25,
   "limit": 5,
   "selected_count": 5,
-  "changed_count": 10,
+  "changed_count": 5,
   "changed_files": [
-    "articles/car-aircon-fuel-saving.html",
     "images/articles/car-aircon-fuel-saving.svg",
-    "articles/car-insurance-child-discount.html",
     "images/articles/car-insurance-child-discount.svg",
-    "articles/car-insurance-mileage-refund.html",
     "images/articles/car-insurance-mileage-refund.svg",
-    "articles/car-insurance-overpayment-refund.html",
     "images/articles/car-insurance-overpayment-refund.svg",
-    "articles/car-tax-annual-payment.html",
     "images/articles/car-tax-annual-payment.svg"
   ],
   "pass_count": 5,
