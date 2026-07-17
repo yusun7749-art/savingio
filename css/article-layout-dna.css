@@ -1,4 +1,4 @@
-/* Savingio Article Layout DNA v1.3
+/* Savingio Article Layout DNA v1.4
    Shared spacing and card rhythm for article pages. */
 .savingio-article-dna { overflow-x: hidden; }
 .savingio-article-dna main,
@@ -86,19 +86,20 @@
 .savingio-article-dna .quick-grid > article h2 { margin: 0 0 12px; }
 .savingio-article-dna .quick-grid > article p { margin: 0; }
 
-/* Related articles: keep each recommendation visually separate and scannable. */
+/* Related articles: one clear card per row. */
 .savingio-article-dna .savingio-related { margin: 42px 0 34px; }
 .savingio-article-dna .savingio-related > h2 { margin: 0 0 18px; }
 .savingio-article-dna .savingio-related .related-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 14px !important;
 }
 .savingio-article-dna .savingio-related .related-card {
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   min-width: 0;
-  padding: 20px;
+  width: 100%;
+  padding: 20px 22px !important;
   border: 1px solid #dbe5f3;
   border-radius: 16px;
   background: #f8fbff;
@@ -155,8 +156,7 @@
     min-height: 360px;
     padding: 52px 24px 48px;
   }
-  .savingio-article-dna .quick-grid,
-  .savingio-article-dna .savingio-related .related-grid { grid-template-columns: 1fr; }
+  .savingio-article-dna .quick-grid { grid-template-columns: 1fr; }
   .savingio-article-dna .quick-grid > article { min-height: 0; }
 }
 
