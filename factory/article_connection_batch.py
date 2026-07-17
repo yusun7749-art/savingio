@@ -91,6 +91,14 @@ def fallback_cluster(root: Path, current_href: str) -> list[ArticleNode]:
             hrefs.append(href)
         if len(hrefs) >= 6:
             break
+    if len(hrefs) == 1 and "전기요금" in html:
+        for href in (
+            "/articles/electricity-bill-saving.html",
+            "/articles/summer-electricity-tier-check-2026.html",
+            "/articles/electricity-discount-card-guide.html",
+        ):
+            if href != current_href and (root / href.lstrip("/")).is_file():
+                hrefs.append(href)
     nodes: list[ArticleNode] = []
     for href in hrefs:
         target = root / href.lstrip("/")
