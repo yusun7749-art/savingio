@@ -85,3 +85,10 @@ VERIFIED / CODE READY FOR REVIEW
 
 ### 상태
 VERIFIED / APPROVED / READY FOR GITHUB REVIEW
+
+### GitHub 전달
+- 브랜치: `agent/long-term-repair-reserve-e2e`
+- 커밋: `5b7336389e3619cac7b8a954538e7de58592e98c`
+- Draft PR: `https://github.com/yusun7749-art/savingio/pull/2`
+- 선택 파일: 19개
+- 임시 실행 큐·상태 파일·승인 토큰: 커밋 제외
