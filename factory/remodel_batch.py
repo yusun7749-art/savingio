@@ -49,9 +49,14 @@ def add_body_classes(doc: str) -> str:
     return doc[:match.start()] + f"<body{attrs}>" + doc[match.end():]
 
 def add_styles(doc: str) -> str:
-    if "data-savingio-full-remodel" in doc: return doc
-    tag = '<link rel="stylesheet" href="/css/factory-article.css?v=2"><link rel="stylesheet" href="/css/factory-remodel-v1.css?v=1" data-savingio-full-remodel="v1">'
+    doc = re.sub(r'<link[^>]+factory-remodel-v1\.css[^>]*>', '', doc, flags=re.I)
+    tag = '<link rel="stylesheet" href="/css/factory-remodel-v1.css?v=2" data-savingio-full-remodel="v1">'
     return re.sub(r"</head\s*>", tag + "\n</head>", doc, count=1, flags=re.I)
+
+def normalize_brain_loader(doc: str) -> str:
+    doc = re.sub(r'<script[^>]+(?:savingio-brain-data\.js|savingio-brain-navigation\.js)[^>]*>\s*</script>', '', doc, flags=re.I)
+    loader = '<script src="/data/savingio-brain-data.js?v=10"></script><script src="/js/savingio-brain-navigation.js?v=10"></script>'
+    return re.sub(r'</body\s*>', loader + '</body>', doc, count=1, flags=re.I)
 
 def thumbnail(title: str, group: str) -> str:
     label, icon = {"leak": ("긴급 생활", "💧"), "rent": ("전월세", "🏠"), "tax": ("주택 세금", "📄"), "bill": ("관리비", "💡")}[group]
@@ -80,7 +85,7 @@ def add_journey(doc: str, group: str) -> str:
 
 def remodel(path: Path) -> dict:
     original = path.read_text(encoding="utf-8"); title = title_of(original); group = group_for(path.name, title)
-    doc = add_journey(add_thumbnail(add_styles(add_body_classes(original)), title, group), group)
+    doc = normalize_brain_loader(add_journey(add_thumbnail(add_styles(add_body_classes(original)), title, group), group))
     path.write_text(doc, encoding="utf-8", newline="")
     return {"file": path.name, "title": title, "group": group, "changed": doc != original, "thumbnail": doc.count('data-factory-hero="true"') == 1, "related_path": doc.count('data-savingio-related-path="v1"') == 1, "h1": len(re.findall(r"<h1\b", doc, re.I))}
 

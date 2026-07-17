@@ -34,6 +34,18 @@ class RemodelBatchTests(unittest.TestCase):
         text = (ROOT / "articles" / "장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f.html").read_text(encoding="utf-8")
         self.assertIn("장기충당금 돌려받기", text)
 
+    def test_batch_uses_one_brain_loader_and_new_cache_version(self) -> None:
+        for name in BATCH_01:
+            with self.subTest(article=name):
+                text = (ROOT / "articles" / name).read_text(encoding="utf-8")
+                self.assertEqual(1, text.count("savingio-brain-data.js?v=10"))
+                self.assertEqual(1, text.count("savingio-brain-navigation.js?v=10"))
+
+    def test_shared_css_owns_legacy_width_cards_and_mobile(self) -> None:
+        css = (ROOT / "css" / "factory-remodel-v1.css").read_text(encoding="utf-8")
+        for rule in (".factory-remodel-v1>main{width:min", "min-height:0!important", "grid-template-columns:repeat(2", "grid-template-columns:1fr!important"):
+            self.assertIn(rule, css)
+
 
 if __name__ == "__main__":
     unittest.main()
