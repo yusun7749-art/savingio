@@ -1,31 +1,36 @@
 {
-  "generated_at": "2026-07-17T15:56:06.299097+00:00",
+  "generated_at": "2026-07-17T17:00:03.632660+00:00",
   "mode": "apply",
-  "dna_version": "5",
+  "dna_version": "6",
   "offset": 25,
   "limit": 5,
   "selected_count": 5,
-  "changed_count": 5,
+  "changed_count": 10,
   "changed_files": [
     "articles/car-aircon-fuel-saving.html",
+    "images/articles/car-aircon-fuel-saving.svg",
     "articles/car-insurance-child-discount.html",
+    "images/articles/car-insurance-child-discount.svg",
     "articles/car-insurance-mileage-refund.html",
+    "images/articles/car-insurance-mileage-refund.svg",
     "articles/car-insurance-overpayment-refund.html",
-    "articles/car-tax-annual-payment.html"
+    "images/articles/car-insurance-overpayment-refund.svg",
+    "articles/car-tax-annual-payment.html",
+    "images/articles/car-tax-annual-payment.svg"
   ],
-  "pass_count": 0,
-  "fix_count": 5,
+  "pass_count": 5,
+  "fix_count": 0,
   "articles": [
     {
       "file": "articles/car-aircon-fuel-saving.html",
       "slug": "car-aircon-fuel-saving",
       "title": "여름철 자동차 에어컨 연비 절약법",
       "category": "자동차·교통",
-      "visible_characters": 3482,
-      "has_thumbnail_file": false,
-      "has_thumbnail_markup": false,
-      "has_og_image": false,
-      "has_twitter_image": false,
+      "visible_characters": 3496,
+      "has_thumbnail_file": true,
+      "has_thumbnail_markup": true,
+      "has_og_image": true,
+      "has_twitter_image": true,
       "has_author_box": true,
       "has_faq_schema": true,
       "has_article_schema": true,
@@ -36,19 +41,19 @@
         "목차": true,
         "자주 묻는 질문": true
       },
-      "qa_score": 58,
-      "status": "FIX"
+      "qa_score": 92,
+      "status": "PASS"
     },
     {
       "file": "articles/car-insurance-child-discount.html",
       "slug": "car-insurance-child-discount",
       "title": "자동차보험 자녀할인 특약 확인",
       "category": "자동차·교통",
-      "visible_characters": 3492,
-      "has_thumbnail_file": false,
-      "has_thumbnail_markup": false,
-      "has_og_image": false,
-      "has_twitter_image": false,
+      "visible_characters": 3505,
+      "has_thumbnail_file": true,
+      "has_thumbnail_markup": true,
+      "has_og_image": true,
+      "has_twitter_image": true,
       "has_author_box": true,
       "has_faq_schema": true,
       "has_article_schema": true,
@@ -59,19 +64,19 @@
         "목차": true,
         "자주 묻는 질문": true
       },
-      "qa_score": 58,
-      "status": "FIX"
+      "qa_score": 100,
+      "status": "PASS"
     },
     {
       "file": "articles/car-insurance-mileage-refund.html",
       "slug": "car-insurance-mileage-refund",
       "title": "자동차보험 마일리지 특약 환급",
       "category": "자동차·교통",
-      "visible_characters": 3618,
-      "has_thumbnail_file": false,
-      "has_thumbnail_markup": false,
-      "has_og_image": false,
-      "has_twitter_image": false,
+      "visible_characters": 3631,
+      "has_thumbnail_file": true,
+      "has_thumbnail_markup": true,
+      "has_og_image": true,
+      "has_twitter_image": true,
       "has_author_box": true,
       "has_faq_schema": true,
       "has_article_schema": true,
@@ -82,19 +87,19 @@
         "목차": true,
         "자주 묻는 질문": true
       },
-      "qa_score": 67,
-      "status": "FIX"
+      "qa_score": 100,
+      "status": "PASS"
     },
     {
       "file": "articles/car-insurance-overpayment-refund.html",
       "slug": "car-insurance-overpayment-refund",
       "title": "자동차보험 과납보험료 환급 확인 방법",
       "category": "자동차·교통",
-      "visible_characters": 2854,
-      "has_thumbnail_file": false,
-      "has_thumbnail_markup": false,
-      "has_og_image": false,
-      "has_twitter_image": false,
+      "visible_characters": 2870,
+      "has_thumbnail_file": true,
+      "has_thumbnail_markup": true,
+      "has_og_image": true,
+      "has_twitter_image": true,
       "has_author_box": true,
       "has_faq_schema": true,
       "has_article_schema": true,
@@ -105,19 +110,19 @@
         "목차": true,
         "자주 묻는 질문": true
       },
-      "qa_score": 58,
-      "status": "FIX"
+      "qa_score": 92,
+      "status": "PASS"
     },
     {
       "file": "articles/car-tax-annual-payment.html",
       "slug": "car-tax-annual-payment",
       "title": "자동차세 연납 할인 총정리",
       "category": "자동차·교통",
-      "visible_characters": 4225,
-      "has_thumbnail_file": false,
-      "has_thumbnail_markup": false,
-      "has_og_image": false,
-      "has_twitter_image": false,
+      "visible_characters": 4236,
+      "has_thumbnail_file": true,
+      "has_thumbnail_markup": true,
+      "has_og_image": true,
+      "has_twitter_image": true,
       "has_author_box": true,
       "has_faq_schema": true,
       "has_article_schema": true,
@@ -128,8 +133,8 @@
         "목차": true,
         "자주 묻는 질문": true
       },
-      "qa_score": 67,
-      "status": "FIX"
+      "qa_score": 100,
+      "status": "PASS"
     }
   ]
 }
