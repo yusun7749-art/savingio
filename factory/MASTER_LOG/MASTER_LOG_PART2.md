@@ -88,6 +88,11 @@ VERIFIED / CODE READY FOR REVIEW
 - 기존 글 전체 220개가 `대분류→상황→문제→해결 단계→다음 질문` 경로를 갖는다.
 - Brain 단독 노드와 구형 HTML에도 실제 존재하는 목적지만 연결한다.
 - 다음 확장은 미생성 핵심 질문을 공식 근거 기반 신규 하위 노드로 만드는 단계다.
+
+## FIXED: 연결과 검색은 하나의 완료 단위
+- 글 연결 경로를 만든 뒤 검색 색인을 따로 보완하면 같은 글을 반복 수정하게 된다.
+- 이후 글의 완료는 본문·연결·동의어·세 검색면·사이트 목록·CMS 재색인·QA가 한 번에 PASS해야 한다.
+- 검색어는 제목만이 아니라 사용자가 실제 입력하는 상하위 질문과 띄어쓰기 변형까지 포함한다.
 - `factory/MASTER_LOG/MASTER_LOG_CURRENT.md`
 - `factory/MASTER_LOG/MASTER_LOG_INDEX.md`
 - `factory/MASTER_LOG/MASTER_LOG_PART1.md`

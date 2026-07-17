@@ -41,8 +41,10 @@
       : [];
   }
 
+  const compactSearch=(value)=>String(value||'').toLowerCase().replace(/[^0-9a-z가-힣]+/gi,'');
+
   function render(query=''){
-    const q=String(query).trim().toLowerCase();
+    const q=compactSearch(query);
     let html='';
 
     Object.entries(DATA.tree).forEach(([large,middles])=>{
@@ -62,7 +64,7 @@
           const items=validItems(rawItems);
           const filtered=items.filter((item)=>{
             if(!q)return true;
-            return `${item.title} ${large} ${middle} ${small}`.toLowerCase().includes(q);
+            return compactSearch(`${item.title} ${item.search_keywords||''} ${large} ${middle} ${small}`).includes(q);
           });
           if(!filtered.length)return;
 
