@@ -161,3 +161,16 @@ VERIFIED / PREVIEW PASS / PRODUCTION PENDING
 
 ### 최종 QA 상태
 VERIFIED / MERGED / PRODUCTION LIVE
+
+## V3.020 콘텐츠·이미지 정정 QA
+- Production 검색·왼쪽 Site Explorer·페이지 내 이동·관련 글 표시: PASS
+- 누수 긴급 대응 가시 본문 약 5,000자: FAIL (1,486자)
+- 일배책 누수 보험 가시 본문 약 5,000자: FAIL (1,242자)
+- 누수 자가진단 가시 본문 약 5,000자: FAIL (1,340자)
+- 누수 3개 실제 `<img>` 대표 이미지: FAIL (각 0개)
+- CSS/이모지 `<figure>`를 실제 썸네일로 인정: FAIL
+- 다음 5개 배치 시작 허용: BLOCKED
+- 재개 조건: 누수 3개 각각 약 5,000자, 실제 이미지 파일·`<img>`·`og:image`, 검색·카테고리·연결·계산기·반응형·Production 브라우저 검증 전부 PASS
+
+### 최종 판정 정정
+V3.019는 UI 런타임(검색·카테고리·레이아웃)만 VERIFIED. 누수 파일럿의 콘텐츠 완성도와 실제 썸네일은 FAILED / REWORK REQUIRED.
