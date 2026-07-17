@@ -41,7 +41,8 @@
       : [];
   }
 
-  const compactSearch=(value)=>String(value||'').toLowerCase().replace(/[^0-9a-z가-힣]+/gi,'');
+  const core=window.SavingioSearchCore||(()=>{const normalize=value=>String(value||'').toLowerCase().replace(/[^0-9a-z가-힣]+/gi,'');const grams=value=>{const text=normalize(value),out=[];for(let i=0;i<text.length-1;i++)out.push(text.slice(i,i+2));return out};const similarity=(left,right)=>{const a=grams(left),b=grams(right);if(!a.length||!b.length)return normalize(left)===normalize(right)?1:0;const pool=[...b];let hits=0;a.forEach(x=>{const i=pool.indexOf(x);if(i>=0){hits++;pool.splice(i,1)}});return 2*hits/(a.length+b.length)};return{normalize,score(item,query){const q=normalize(query);if(!q)return 1;const title=normalize(item.title),keywords=normalize(item.keywords);const exact=(item.exactQueries||[]).map(normalize).filter(Boolean);if(exact.includes(q))return 1000;if(title===q)return 900;if(title.startsWith(q))return 700;if(title.includes(q))return 600;if(keywords.includes(q))return 400;const fuzzy=Math.max(0,...[...exact,title].filter(Boolean).map(value=>similarity(value,q)));return q.length>=3&&fuzzy>=.56?200+Math.round(fuzzy*100):0}}})();
+  const compactSearch=core?core.normalize:(value)=>String(value||'').toLowerCase().replace(/[^0-9a-z가-힣]+/gi,'');
 
   function render(query=''){
     const q=compactSearch(query);
@@ -62,10 +63,7 @@
 
         Object.entries(smalls).forEach(([small,rawItems])=>{
           const items=validItems(rawItems);
-          const filtered=items.filter((item)=>{
-            if(!q)return true;
-            return compactSearch(`${item.title} ${item.search_keywords||''} ${large} ${middle} ${small}`).includes(q);
-          });
+          const filtered=items.map((item)=>({item,score:core?core.score({title:item.title,keywords:`${item.search_keywords||''} ${large} ${middle} ${small}`,exactQueries:item.exact_queries||[]},query):(compactSearch(`${item.title} ${item.search_keywords||''} ${large} ${middle} ${small}`).includes(q)?1:0)})).filter(({score})=>!q||score>0).sort((a,b)=>b.score-a.score).map(({item})=>item);
           if(!filtered.length)return;
 
           const smallIsCurrent=items.some(isCurrent);
