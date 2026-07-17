@@ -32,6 +32,13 @@ class ArticleConnectionBatchTests(unittest.TestCase):
         self.assertEqual(rendered.count('aria-current="step"'), 1)
         self.assertIn("둘째 글", rendered)
 
+    def test_upsert_supports_legacy_page_without_article_tag(self):
+        html = "<html><body><main><p>구형 본문</p></main></body></html>"
+        block = '<section data-savingio-problem-path="v1"><h2>순서</h2></section>'
+        updated, changed = upsert_path(html, block)
+        self.assertTrue(changed)
+        self.assertLess(updated.index("data-savingio-problem-path"), updated.index("</main>"))
+
 
 if __name__ == "__main__":
     unittest.main()
