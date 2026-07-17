@@ -5,7 +5,7 @@
 - 프로젝트: Savingio Factory
 - 저장소: `yusun7749-art/savingio`
 - 작업 브랜치: `agent/long-term-repair-reserve-e2e`
-- 기준 Git HEAD: `fd627ea V3.005 Research evidence gate 연결 복구`
+- 기준 코드 Git HEAD: `8a2ee3f V3.006 실제 콘텐츠 이미지 승인 자동 연결`
 - 현재 상태: V3.006 MERGED / PRODUCTION LIVE VERIFIED
 - 마지막 완료: 장기수선충당금 공식 근거 3건 기반 실제 E2E, Writer 반복 제거, 이미지→QA→CMS 자동 연결
 - 현재 작업: V3.006 실제 콘텐츠 자동화 완료
