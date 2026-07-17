@@ -83,6 +83,11 @@ VERIFIED / CODE READY FOR REVIEW
 - 단순 관련 글 나열 대신 현재 위치와 다음 행동이 보이는 순서형 경로를 각 글에 표시한다.
 - 존재하지 않는 목적지 링크는 금지하며, 필요한 하위 노드는 Research evidence를 거쳐 만든다.
 - 1차 미생성 핵심 노드: 윗집 누수, 일상생활배상책임보험(일배책) 누수 보상.
+
+### VERIFIED
+- 기존 글 전체 220개가 `대분류→상황→문제→해결 단계→다음 질문` 경로를 갖는다.
+- Brain 단독 노드와 구형 HTML에도 실제 존재하는 목적지만 연결한다.
+- 다음 확장은 미생성 핵심 질문을 공식 근거 기반 신규 하위 노드로 만드는 단계다.
 - `factory/MASTER_LOG/MASTER_LOG_CURRENT.md`
 - `factory/MASTER_LOG/MASTER_LOG_INDEX.md`
 - `factory/MASTER_LOG/MASTER_LOG_PART1.md`
