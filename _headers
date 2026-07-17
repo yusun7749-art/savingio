@@ -15,6 +15,18 @@
 /js/*
   Cache-Control: public, max-age=604800
 
+/js/savingio-search-core.js
+  Cache-Control: public, max-age=0, must-revalidate
+
+/js/savingio-brain-navigation.js
+  Cache-Control: public, max-age=0, must-revalidate
+
+/data/savingio-brain-data.js
+  Cache-Control: public, max-age=0, must-revalidate
+
+/data/savingio-brain-data.json
+  Cache-Control: public, max-age=0, must-revalidate
+
 /assets/*
   Cache-Control: public, max-age=2592000
 

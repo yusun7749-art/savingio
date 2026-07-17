@@ -1,5 +1,6 @@
 import json
 import re
+import subprocess
 import unittest
 from pathlib import Path
 
@@ -38,3 +39,21 @@ class SearchIntentRankingTests(unittest.TestCase):
         self.assertIn("/js/savingio-search-core.js", (ROOT / "index.html").read_text(encoding="utf-8"))
         self.assertIn("/js/savingio-search-core.js", (ROOT / "articles/index.html").read_text(encoding="utf-8"))
         self.assertIn("core.score", (ROOT / "js/savingio-brain-navigation.js").read_text(encoding="utf-8"))
+
+    def test_typo_and_abbreviation_queries_use_the_same_intent(self):
+        script = """
+global.window=global;
+require('./js/savingio-search-core.js');
+const core=global.SavingioSearchCore;
+const leak={title:'아랫집 누수 연락을 받았을 때',keywords:'누수 아랫집누수 윗집누수 보험처리',exactQueries:'누수,아랫집 누수'};
+const reserve={title:'장기수선충당금 반환',keywords:'장기수선충당금 임차인 반환',exactQueries:['장기수선충당금']};
+if(core.score(leak,'누쉬')<=0||core.score(leak,'누쑤')<=0)process.exit(1);
+if(core.score(reserve,'장충금')<=0||core.score(reserve,'장기충당금')<=0)process.exit(2);
+"""
+        subprocess.run(["node", "-e", script], cwd=ROOT, check=True)
+
+    def test_brain_runtime_self_recovers_when_inline_data_fails(self):
+        source = (ROOT / "js/savingio-brain-navigation.js").read_text(encoding="utf-8")
+        self.assertIn("/data/savingio-brain-data.json?v=12", source)
+        self.assertIn("response.json()", source)
+        self.assertIn("document.getElementById('savingio-brain-nav')", source)
