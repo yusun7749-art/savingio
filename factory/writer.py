@@ -254,9 +254,9 @@ def _build_html(plan: dict, research: dict, seo: dict, related: list[dict], fill
 
     return f'''<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{escape(str(seo.get("title", topic)))}</title><meta name="description" content="{escape(description)}"><meta name="robots" content="{escape(str(seo.get("robots", "index,follow")))}">
-<link rel="canonical" href="{escape(str(seo.get("canonical", f"https://savingio.com/articles/{plan.get('slug', '')}")))}"><script type="application/ld+json">{_schema(seo, topic)}</script></head><body>
+<link rel="canonical" href="{escape(str(seo.get("canonical", f"https://savingio.com/articles/{plan.get('slug', '')}")))}"><script type="application/ld+json">{_schema(seo, topic)}</script><link rel="stylesheet" href="/css/factory-article.css?v=1"><link rel="stylesheet" href="/css/article-layout-dna.css?v=2"><link rel="stylesheet" href="/css/savingio-brain-navigation.css?v=7"></head><body class="factory-article savingio-article-dna">
 <main class="article-shell" data-factory-version="2.017" data-article-type="{escape(article_type)}"><header class="article-hero"><p class="eyebrow">{escape(category)}</p><h1>{escape(str(seo.get("title", topic)))}</h1><p>{escape(description)}</p></header>
-<nav class="article-toc" aria-label="글 목차">{toc}</nav>{''.join(sections)}</main></body></html>'''
+<nav class="article-toc" aria-label="글 목차">{toc}</nav>{''.join(sections)}</main><script src="/data/savingio-brain-data.js?v=8"></script><script src="/js/savingio-brain-navigation.js?v=8"></script></body></html>'''
 
 
 def generate_article(plan: dict, research: dict, seo: dict, related=None, config_dir: Path | None = None) -> str:
