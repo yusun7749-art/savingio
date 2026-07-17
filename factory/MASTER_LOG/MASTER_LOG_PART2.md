@@ -76,6 +76,13 @@ VERIFIED / CODE READY FOR REVIEW
 - `images/generated/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f/hero.webp`
 - `images/generated/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f/og.webp`
 - `images/generated/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f/infographic.webp`
+
+## IDEA → IMPLEMENTED: Savingio Life Map
+- Savingio는 카테고리 목록이 아니라 사용자의 실제 다음 질문을 잇는 인생 지도다.
+- 기본 관계는 `집/자동차/아이/돈/건강/세금/법률/복지 → 상황 → 문제 → 해결 단계 → 다음 질문`이다.
+- 단순 관련 글 나열 대신 현재 위치와 다음 행동이 보이는 순서형 경로를 각 글에 표시한다.
+- 존재하지 않는 목적지 링크는 금지하며, 필요한 하위 노드는 Research evidence를 거쳐 만든다.
+- 1차 미생성 핵심 노드: 윗집 누수, 일상생활배상책임보험(일배책) 누수 보상.
 - `factory/MASTER_LOG/MASTER_LOG_CURRENT.md`
 - `factory/MASTER_LOG/MASTER_LOG_INDEX.md`
 - `factory/MASTER_LOG/MASTER_LOG_PART1.md`
