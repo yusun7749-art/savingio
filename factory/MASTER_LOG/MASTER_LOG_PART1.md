@@ -85,6 +85,12 @@
 - 홈페이지·정보센터·Brain·글 내부 탐색이 동일한 검색 코어와 222개 색인을 사용하도록 통합했다.
 - 누수 긴급 대응과 일배책 누수 보험 글을 신규 생성하고 수도요금 자가진단 의도와 분리했다.
 - `장기충당금`, `장충금`, `수선충당금` 등 생략형 별칭과 제한적 오타 유사도 검색을 추가했다.
+
+## V3.014 글 기본틀·화면 폭 계약 복구
+- 전체 222개 글을 검사해 Factory 원형 구조이면서 공통 CSS가 없던 3개 글을 복구했다.
+- `factory-article.css`를 추가해 Factory 글의 본문 폭, 카드, 표, 이미지와 모바일 레이아웃을 통일했다.
+- `article-layout-dna.css`에 긴 URL·표·이미지·iframe 가로 넘침 방지 규칙을 추가했다.
+- 레이아웃 계약 테스트 4개와 기존 검색 테스트 6개 PASS.
 - 결과: `factory/output/search_index/search-index-qa.json`
 - 현행 CMS 결과도 승인 패킷으로 변환할 수 있게 하고 사용자 실행 요청과 전체 QA PASS를 근거로 승인 상태를 기록했다.
 - 상태: VERIFIED / APPROVED / READY FOR GITHUB REVIEW
