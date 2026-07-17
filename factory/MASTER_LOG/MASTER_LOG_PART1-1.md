@@ -78,3 +78,19 @@
 - Branch Preview URL: `https://agent-long-term-repair-reser.savingio.pages.dev`
 - Preview URL 직접 HTTP 검증: NOT RUN (웹 안전 제한)
 - Production 병합·배포: NOT RUN
+
+### 16:58 KST
+- PR #2 ready 전환: PASS
+- PR #2 squash merge: PASS
+- main 커밋: `8a2ee3f2016c25172a17a9f17d4b50520a136ff7`
+- Production article URL: `https://savingio.com/articles/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f`
+- Production title/H1 일치: PASS
+- Production hero 렌더링: PASS, 1280x720
+- Production infographic 원본: PASS, 960x1200
+- Production 공식 출처 링크: 3건
+- 상태: MERGED / PRODUCTION LIVE VERIFIED
+
+### 현재 종료 지점
+- 자동화 정지 지점: Research→Writer→Image→QA1→QA2→CMS→Approval→GitHub→Cloudflare Production 완료
+- 실패 원인: 없음
+- 재시작 지점: 다음 공식 evidence 콘텐츠 또는 다음 Factory 기능

@@ -92,3 +92,6 @@ VERIFIED / APPROVED / READY FOR GITHUB REVIEW
 - Draft PR: `https://github.com/yusun7749-art/savingio/pull/2`
 - 선택 파일: 19개
 - 임시 실행 큐·상태 파일·승인 토큰: 커밋 제외
+- PR #2 squash merge 완료
+- main V3.006: `8a2ee3f2016c25172a17a9f17d4b50520a136ff7`
+- Production article: LIVE VERIFIED

@@ -95,3 +95,20 @@ VERIFIED / APPROVED / GITHUB DELIVERY PENDING
 
 ### QA 상태
 VERIFIED / PREVIEW PASS / PRODUCTION PENDING
+
+## 2026-07-17 16:58 KST
+
+### Production 검증
+- PR #2 ready 전환: PASS
+- PR #2 squash merge: PASS
+- main 커밋 `8a2ee3f`: VERIFIED
+- Production article 접근: PASS
+- title/H1: `장기수선충당금 소유자 부담과 임차인 반환 확인` 일치
+- hero HTML 및 이미지 원본 1280x720: PASS
+- infographic HTML 및 이미지 원본 960x1200: PASS
+- 공식 evidence 링크 3건 렌더링: PASS
+- canonical: Savingio article `.html` URL 유지
+- 검색엔진 색인: NOT YET (병합 직후 검색 결과 없음)
+
+### 최종 QA 상태
+VERIFIED / MERGED / PRODUCTION LIVE
