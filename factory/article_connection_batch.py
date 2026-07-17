@@ -111,9 +111,15 @@ def upsert_path(html: str, block: str) -> tuple[str, bool]:
     if related:
         return html[: related.start()] + block + html[related.start() :], True
     article_close = re.search(r'</article\s*>', html, re.IGNORECASE)
-    if not article_close:
-        return html, False
-    return html[: article_close.start()] + block + html[article_close.start() :], True
+    if article_close:
+        return html[: article_close.start()] + block + html[article_close.start() :], True
+    main_close = re.search(r'</main\s*>', html, re.IGNORECASE)
+    if main_close:
+        return html[: main_close.start()] + block + html[main_close.start() :], True
+    body_close = re.search(r'</body\s*>', html, re.IGNORECASE)
+    if body_close:
+        return html[: body_close.start()] + block + html[body_close.start() :], True
+    return html, False
 
 
 def run(root: Path, batch_number: int, batch_size: int = 50, apply: bool = False) -> dict:
