@@ -6,7 +6,7 @@ on:
       offset:
         description: Start offset in alphabetically sorted article files
         required: false
-        default: "20"
+        default: "25"
       limit:
         description: Number of articles to process
         required: false
@@ -38,7 +38,7 @@ jobs:
         id: batch
         shell: bash
         run: |
-          echo "offset=${{ github.event.inputs.offset || '20' }}" >> "$GITHUB_OUTPUT"
+          echo "offset=${{ github.event.inputs.offset || '25' }}" >> "$GITHUB_OUTPUT"
           echo "limit=${{ github.event.inputs.limit || '5' }}" >> "$GITHUB_OUTPUT"
 
       - name: Process bounded article batch
