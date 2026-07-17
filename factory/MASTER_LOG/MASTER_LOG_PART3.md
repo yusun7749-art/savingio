@@ -60,6 +60,14 @@ VERIFIED / DEPLOYMENT PENDING
 - 수동 본문 품질 점검: FAILED (동일 5문장 반복 발견, 발행 중단)
 - Writer 반복 제거 및 evidence 본문 반영 후 집중 테스트: 25 PASS
 - Approval/Writer/Image 연결 집중 테스트: 22 PASS
+
+## V3.007 Batch 01 QA
+- 대상: 50개
+- life-map 삽입: 50 PASS
+- H1 단일성: 50 PASS
+- 내부 링크: broken 0 PASS
+- 전용 단위 테스트: 3 PASS
+- 전체 unittest: pytest 미설치 환경으로 pytest 의존 테스트 5개 import 불가; 나머지 162개 실행, 이번 변경 관련 실패 0
 - 2차 격리 실제 E2E: Planning / Research / Writer / SEO / Calculator / Image / QA1 / QA2 / CMS 전체 PASS
 - Writer QA: 100, plaintext 4,323자, `no_repeated_paragraphs=true`
 - 이미지 파일 형식·크기 확인: hero 1280x720, OG 1200x630, infographic 960x1200 WebP PASS

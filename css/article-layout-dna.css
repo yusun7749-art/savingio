@@ -67,3 +67,36 @@
     padding: 17px;
   }
 }
+
+/* Life-map path: topic -> situation -> problem -> next question. */
+.savingio-article-dna .savingio-problem-path {
+  margin: 48px 0 34px;
+  padding: 24px;
+  border: 1px solid #dbe5f3;
+  border-radius: 20px;
+  background: #f8fbff;
+}
+.savingio-article-dna .savingio-problem-path h2 { margin: 0 0 8px; font-size: 26px; }
+.savingio-article-dna .savingio-problem-path > p { margin: 0 0 18px; color: #667085; }
+.savingio-article-dna .savingio-path-steps { display: grid; gap: 10px; }
+.savingio-article-dna .savingio-path-step {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 14px 16px;
+  border: 1px solid #dbe5f3;
+  border-radius: 14px;
+  background: #fff;
+  color: #25324b;
+  text-decoration: none;
+}
+.savingio-article-dna .savingio-path-step span { flex: 0 0 auto; color: #667085; font-size: 14px; }
+.savingio-article-dna .savingio-path-step[aria-current="step"] {
+  border-color: #1769ff;
+  background: #eef4ff;
+  color: #1457c9;
+}
+@media (max-width: 700px) {
+  .savingio-article-dna .savingio-path-step { display: block; }
+  .savingio-article-dna .savingio-path-step span { display: block; margin-top: 4px; }
+}
