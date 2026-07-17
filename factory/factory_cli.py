@@ -50,6 +50,13 @@ def build_parser() -> argparse.ArgumentParser:
 
     core_run = sub.add_parser("core-run", help="Run the official Manager -> Executor factory pipeline")
     core_run.add_argument("topics", nargs="+")
+    core_run.add_argument(
+        "--evidence",
+        type=Path,
+        action="append",
+        default=[],
+        help="Research evidence JSON file (repeat for multiple files)",
+    )
     core_run.add_argument("--limit", type=int)
     core_run.add_argument("--no-resume", action="store_true")
 
@@ -130,11 +137,16 @@ def main(argv: list[str] | None = None) -> int:
         from .factory_core_runner import run_factory_core
 
         limit = args.limit if args.limit is not None else len(args.topics)
+        evidence_files = [
+            path if path.is_absolute() else root / path
+            for path in args.evidence
+        ]
         result = run_factory_core(
             root,
             count=limit,
             resume=not args.no_resume,
             topics=args.topics,
+            evidence_files=evidence_files or None,
         )
         _print(result)
         return 0 if result.get("pass") else 5

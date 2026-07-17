@@ -51,7 +51,7 @@ def test_cli_core_run_routes_to_manager(tmp_path: Path, monkeypatch, capsys) -> 
     calls = []
 
     def fake_manager(root, count=20, resume=True, *, topics=None, evidence_files=None):
-        calls.append((root, count, resume, topics))
+        calls.append((root, count, resume, topics, evidence_files))
         return {"pass": True, "status": "content_ready"}
 
     monkeypatch.setattr(manager, "run_factory_core", fake_manager)
@@ -60,8 +60,15 @@ def test_cli_core_run_routes_to_manager(tmp_path: Path, monkeypatch, capsys) -> 
         "core-run", "주제 하나", "주제 둘",
         "--limit", "2",
         "--no-resume",
+        "--evidence", "factory/input/research/official.json",
     ])
 
     assert code == 0
-    assert calls == [(tmp_path.resolve(), 2, False, ["주제 하나", "주제 둘"])]
+    assert calls == [(
+        tmp_path.resolve(),
+        2,
+        False,
+        ["주제 하나", "주제 둘"],
+        [tmp_path.resolve() / "factory/input/research/official.json"],
+    )]
     assert '"content_ready"' in capsys.readouterr().out

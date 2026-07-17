@@ -14,3 +14,11 @@
 ### 결과
 - 상태: IMPLEMENTED
 - 다음 작업: 다음 Factory 개발부터 동일 규칙으로 로그와 보고서를 함께 갱신
+
+### 16:19 KST 추가 요약
+- ChatGPT Codex Connector의 `yusun7749-art/savingio` 읽기·쓰기 권한과 브랜치 생성을 실제 확인했다.
+- 공식 Factory `core-run` 명령에 반복 가능한 `--evidence` 입력을 연결했다.
+- Research 근거가 발행 기준을 충족하지 못하면 QA2까지 진행하지 않고 Research에서 정확히 차단하도록 수정했다.
+- 근거 없음 차단과 공식 근거 2건 기반 Planning→Research→Writer→SEO→Calculator→Image→QA1→QA2→CMS 완주를 격리 실행으로 확인했다.
+- 상태: VERIFIED / CODE READY FOR REVIEW
+- 다음 작업: Draft PR 검토 후 실제 승인·게시·Cloudflare 검증

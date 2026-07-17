@@ -16,3 +16,25 @@
 
 ### 배포 상태
 - 프로젝트 ZIP 재패키징: VERIFIED
+
+## 2026-07-17 16:19 KST
+
+### 수행한 검증
+- `python -m compileall` 수정 Python 파일: PASS
+- 집중 pytest 5개 파일: 21 PASS
+- 전체 Factory pytest: 307 PASS
+- 격리 실행, evidence 없음: PASS (의도대로 `blocked_stage=research`, `research_qa_score=15`)
+- 격리 Manager→Executor E2E, 공식 evidence 2건: PASS
+- E2E 단계: Planning / Research / Writer / SEO / Calculator / Image / QA1 / QA2 / CMS 전체 PASS
+- E2E 생성 문서 존재 및 크기 확인: PASS
+- `git diff --check`: PASS
+- GitHub 쓰기: PASS (브랜치 생성 확인)
+- 공식 Publisher ID `pub-7605193583747751`: 변경 없음
+
+### 실행하지 않은 항목
+- 실제 사용자 승인: NOT RUN
+- 실제 게시: NOT RUN
+- Cloudflare 배포 및 라이브 URL 확인: NOT RUN
+
+### QA 상태
+VERIFIED / DEPLOYMENT PENDING

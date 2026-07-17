@@ -99,6 +99,9 @@ def run_research_queue(
     save_json(root / PLANNING_QUEUE_PATH, planning_queue)
 
     created_at = now_iso()
+    publish_ready_count = sum(1 for item in completed if item.get("ready_for_publish"))
+    review_required_count = len(completed) - publish_ready_count
+    all_publish_ready = bool(completed) and publish_ready_count == len(completed)
     writer_queue = {
         "department": "writer",
         "status": "ready" if writer_pending else "blocked",
@@ -109,16 +112,22 @@ def run_research_queue(
     }
     report = {
         "department": "research",
-        "status": "completed" if completed and not failed else ("partial" if completed else "failed"),
+        "status": (
+            "completed"
+            if all_publish_ready and not failed
+            else ("review_required" if completed and not failed else ("partial" if completed else "failed"))
+        ),
         "requested": len(pending),
         "completed_count": len(completed),
         "failed_count": len(failed),
         "writer_ready_count": len(writer_pending),
+        "publish_ready_count": publish_ready_count,
+        "review_required_count": review_required_count,
         "created_at": created_at,
         "items": completed,
         "failures": failed,
         "handoff": {"next_department": "writer", "queue_path": QUEUE_PATH.as_posix()},
-        "pass": bool(completed) and not failed,
+        "pass": all_publish_ready and not failed,
     }
     save_json(root / OUTPUT_PATH, report)
     save_json(root / QUEUE_PATH, writer_queue)
