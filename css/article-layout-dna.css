@@ -1,5 +1,20 @@
 /* Savingio Article Layout DNA v1.1
    Shared spacing and card rhythm for article pages. */
+.savingio-article-dna { overflow-x: hidden; }
+.savingio-article-dna main,
+.savingio-article-dna article,
+.savingio-article-dna section,
+.savingio-article-dna .article-main { min-width: 0; max-width: 100%; }
+.savingio-article-dna img,
+.savingio-article-dna svg,
+.savingio-article-dna video,
+.savingio-article-dna iframe { max-width: 100%; height: auto; }
+.savingio-article-dna p,
+.savingio-article-dna li,
+.savingio-article-dna td,
+.savingio-article-dna th,
+.savingio-article-dna a { overflow-wrap: anywhere; }
+.savingio-article-dna .table-wrap { max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .savingio-article-dna .article-main article > section {
   scroll-margin-top: 96px;
 }
@@ -97,6 +112,7 @@
   color: #1457c9;
 }
 @media (max-width: 700px) {
+  .savingio-article-dna table { min-width: 560px; }
   .savingio-article-dna .savingio-path-step { display: block; }
   .savingio-article-dna .savingio-path-step span { display: block; margin-top: 4px; }
 }
