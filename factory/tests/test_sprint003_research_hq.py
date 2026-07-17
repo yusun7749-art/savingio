@@ -96,6 +96,34 @@ def test_research_hq_consumes_planning_queue(tmp_path: Path) -> None:
     assert len(queue["completed"]) == 1
 
 
+def test_research_hq_blocks_core_handoff_when_publish_evidence_is_missing(tmp_path: Path) -> None:
+    _write_inputs(tmp_path)
+    rules_path = tmp_path / "factory/config/research_quality_rules.json"
+    rules = json.loads(rules_path.read_text(encoding="utf-8"))
+    rules.update({
+        "minimum_verified_evidence": 2,
+        "minimum_official_evidence": 2,
+        "minimum_unique_domains": 2,
+        "minimum_claims": 2,
+        "minimum_fresh_evidence": 1,
+        "pass_score": 80,
+        "critical_checks": [
+            "verified_evidence",
+            "official_evidence",
+            "domain_diversity",
+        ],
+    })
+    rules_path.write_text(json.dumps(rules, ensure_ascii=False), encoding="utf-8")
+
+    report = run_research_queue(tmp_path)
+
+    assert report["pass"] is False
+    assert report["status"] == "review_required"
+    assert report["publish_ready_count"] == 0
+    assert report["review_required_count"] == 1
+    assert report["items"][0]["research_status"] == "research_rework_required"
+
+
 def test_research_hq_rejects_empty_queue(tmp_path: Path) -> None:
     _write_inputs(tmp_path)
     path = tmp_path / PLANNING_QUEUE_PATH
