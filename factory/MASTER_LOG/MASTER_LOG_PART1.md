@@ -37,6 +37,14 @@
 - 공식 근거를 관련도 순서로 본문에 반영하고 동일 장문 문단 반복을 QA 실패로 판정하도록 보강했다.
 - 대표 이미지, OG 이미지, 4단계 인포그래픽을 생성·등록하고 HTML에 자동 삽입했다.
 - 외부 이미지 등록 후 QA1→QA2→CMS가 자동 재실행되어 `content_ready`로 전환되도록 연결했다.
+
+## V3.007 인생 지도형 글 연결 리모델 1차
+- 전체 article 220개(index 제외)를 50개 단위 5개 배치로 확정했다.
+- 1차 50개에 `대분류→상황→문제→해결 단계→다음 질문` 탐색 경로를 실제 HTML로 삽입했다.
+- 장기수선충당금→수도 누수 자가진단→보험 중복 확인의 현재 존재 페이지 연결을 우선 적용했다.
+- 50개 전부 H1 1개, life-map marker 1개, 내부 깨진 링크 0개를 검증했다.
+- 재실행 엔진: `factory/article_connection_batch.py`
+- 결과: `factory/output/article_connection_batches/batch-01-report.json`
 - 현행 CMS 결과도 승인 패킷으로 변환할 수 있게 하고 사용자 실행 요청과 전체 QA PASS를 근거로 승인 상태를 기록했다.
 - 상태: VERIFIED / APPROVED / READY FOR GITHUB REVIEW
 - 다음 작업: V3.006 PR 생성, Cloudflare Preview 확인, 병합 및 Production 확인
