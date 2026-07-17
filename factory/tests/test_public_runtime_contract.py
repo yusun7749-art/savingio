@@ -60,6 +60,22 @@ class PublicRuntimeContractTests(unittest.TestCase):
         bad = [href for href in search["items"] if Path(href).name.startswith("#U")]
         self.assertFalse(bad, "\n".join(bad))
 
+    def test_user_visible_regression_pages_force_the_repaired_brain_runtime(self):
+        pages = [
+            ROOT / "index.html",
+            ROOT / "articles/index.html",
+            ROOT / "articles/electricity-bill-saving.html",
+            ROOT / "articles/apartment-leak-emergency-response.html",
+            ROOT / "articles/daily-liability-leak-insurance.html",
+            ROOT / "articles/home-water-leak-self-check.html",
+            ROOT / "articles/apartment-management-fee-summer.html",
+            ROOT / "articles/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f.html",
+        ]
+        for page in pages:
+            text = page.read_text(encoding="utf-8")
+            self.assertIn("/data/savingio-brain-data.js?v=12", text, page.name)
+            self.assertIn("/js/savingio-brain-navigation.js?v=12", text, page.name)
+
 
 if __name__ == "__main__":
     unittest.main()
