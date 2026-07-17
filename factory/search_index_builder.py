@@ -8,11 +8,9 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 
-VERSION = "1.0.0"
+VERSION = "2.0.0"
 
 SYNONYM_GROUPS = [
-    {"누수", "윗집누수", "위층누수", "아랫집누수", "아래층누수", "천장누수", "벽누수", "누수피해", "물샘", "물이새요"},
-    {"일상생활배상책임", "일배책", "배상책임보험", "누수보험"},
     {"전기요금", "전기세", "전기료"},
     {"수도요금", "수도세", "수도료"},
     {"도시가스", "가스비", "가스요금"},
@@ -36,6 +34,7 @@ class ArticleMetaParser(HTMLParser):
         self.description = ""
         self.h1 = ""
         self.path_text: list[str] = []
+        self.search_intents = ""
         self._capture: str | None = None
         self._path_depth = 0
 
@@ -47,6 +46,8 @@ class ArticleMetaParser(HTMLParser):
             self._capture = "h1"
         elif tag == "meta" and values.get("name", "").lower() == "description":
             self.description = values.get("content", "").strip()
+        elif tag == "meta" and values.get("name", "").lower() == "savingio:search-intents":
+            self.search_intents = values.get("content", "").strip()
         if tag == "section" and "data-savingio-problem-path" in values:
             self._path_depth = 1
         elif self._path_depth:
@@ -92,6 +93,7 @@ def article_meta(path: Path) -> dict[str, str]:
         "title": parser.h1.strip() or parser.title.split("|")[0].strip() or path.stem,
         "description": parser.description,
         "path": " ".join(parser.path_text),
+        "search_intents": parser.search_intents,
     }
 
 
@@ -117,13 +119,20 @@ def build(root: Path) -> dict:
             continue
         href = f"/articles/{path.name}"
         meta = article_meta(path)
-        terms = {meta["title"], meta["description"], meta["path"], *hierarchy.get(href, set())}
-        terms = {term for term in terms if term}
-        terms = expand_synonyms(terms)
-        keywords = " ".join(sorted(terms))
-        index[href] = {"title": meta["title"], "description": meta["description"], "keywords": keywords}
+        self_terms = {meta["title"], meta["description"], *hierarchy.get(href, set())}
+        self_terms = expand_synonyms({term for term in self_terms if term})
+        relationship_terms = {meta["path"]} if meta["path"] else set()
+        exact_queries = [value.strip() for value in meta["search_intents"].split(",") if value.strip()]
+        keywords = " ".join(sorted(self_terms | relationship_terms | set(exact_queries)))
+        index[href] = {
+            "title": meta["title"],
+            "description": meta["description"],
+            "keywords": keywords,
+            "exact_queries": exact_queries,
+        }
         for entry in entries_by_href.get(href, []):
             entry["search_keywords"] = keywords
+            entry["exact_queries"] = exact_queries
 
     missing_brain = [href for href in index if href not in entries_by_href]
     if missing_brain:
@@ -152,7 +161,9 @@ def build(root: Path) -> dict:
 
     home = root / "index.html"
     home_text = home.read_text(encoding="utf-8")
-    portal_items = [[item["title"], item["description"], href, item["keywords"]] for href, item in index.items()]
+    if '/js/savingio-search-core.js' not in home_text:
+        home_text = home_text.replace('<script>\nconst portalItems =', '<script src="/js/savingio-search-core.js?v=1"></script>\n<script>\nconst portalItems =', 1)
+    portal_items = [[item["title"], item["description"], href, item["keywords"], item["exact_queries"]] for href, item in index.items()]
     home_text, count = re.subn(
         r"const portalItems = \[.*?\];\nconst searchInput=",
         "const portalItems = " + json.dumps(portal_items, ensure_ascii=False, separators=(",", ":")) + ";\nconst searchInput=",
@@ -166,6 +177,8 @@ def build(root: Path) -> dict:
 
     listing = root / "articles" / "index.html"
     listing_text = listing.read_text(encoding="utf-8")
+    if '/js/savingio-search-core.js' not in listing_text:
+        listing_text = listing_text.replace('<script>const cards=', '<script src="/js/savingio-search-core.js?v=1"></script><script>const cards=', 1)
     for href, item in index.items():
         pattern = re.compile(r'(<a\b[^>]*class="article-card"[^>]*data-search=")[^"]*("[^>]*href="' + re.escape(href) + r'")')
         listing_text, _ = pattern.subn(
@@ -173,6 +186,12 @@ def build(root: Path) -> dict:
             listing_text,
             count=1,
         )
+        card_pattern = re.compile(r'(<a\b[^>]*class="article-card"[^>]*)(href="' + re.escape(href) + r'")')
+        def set_exact(match: re.Match[str]) -> str:
+            prefix = re.sub(r'\sdata-exact-search="[^"]*"', '', match.group(1))
+            exact = html.escape(",".join(item["exact_queries"]), quote=True)
+            return f'{prefix}data-exact-search="{exact}" {match.group(2)}'
+        listing_text, _ = card_pattern.subn(set_exact, listing_text, count=1)
     existing_hrefs = set(re.findall(r'class="article-card"[^>]*href="([^"]+)"', listing_text))
     missing_cards = []
     for href, item in index.items():
@@ -180,7 +199,7 @@ def build(root: Path) -> dict:
             continue
         missing_cards.append(
             '<a class="article-card" data-category="생활정보" '
-            f'data-search="{html.escape(item["keywords"], quote=True)}" href="{html.escape(href, quote=True)}">'
+            f'data-search="{html.escape(item["keywords"], quote=True)}" data-exact-search="{html.escape(",".join(item["exact_queries"]), quote=True)}" href="{html.escape(href, quote=True)}">'
             '<span class="card-category">생활정보</span>'
             f'<h2>{html.escape(item["title"])}</h2><p>{html.escape(item["description"])}</p>'
             '<b>자세히 보기 →</b></a>'
@@ -191,9 +210,15 @@ def build(root: Path) -> dict:
             raise RuntimeError("article listing grid end marker not found")
         listing_text = listing_text.replace(marker, "".join(missing_cards) + marker, 1)
     old_search = "const per=12;function render(){const q=input.value.trim().toLowerCase();const filtered=cards.filter(c=>(category==='전체'||c.dataset.category===category)&&(!q||c.dataset.search.includes(q)))"
-    new_search = "const per=12;const compactSearch=value=>String(value||'').toLowerCase().replace(/[^0-9a-z가-힣]+/gi,'');function render(){const q=compactSearch(input.value);const filtered=cards.filter(c=>(category==='전체'||c.dataset.category===category)&&(!q||compactSearch(c.dataset.search).includes(q)))"
+    new_search = "const per=12;const compactSearch=value=>String(value||'').toLowerCase().replace(/[^0-9a-z가-힣]+/gi,'');function render(){const q=compactSearch(input.value);const filtered=cards.filter(c=>(category==='전체'||c.dataset.category===category)&&(!q||compactSearch(c.dataset.search).includes(q))).sort((a,b)=>{const ax=compactSearch(a.dataset.exactSearch||'').includes(q)?1:0,bx=compactSearch(b.dataset.exactSearch||'').includes(q)?1:0;return bx-ax})"
     if old_search in listing_text:
         listing_text = listing_text.replace(old_search, new_search, 1)
+    listing_text = re.sub(
+        r"const per=12;const compactSearch=value=>String\(value\|\|''\)\.toLowerCase\(\)\.replace\(/\[\^0-9a-z가-힣\]\+/gi,''\);function render\(\)\{const q=compactSearch\(input\.value\);const filtered=.*?;cards\.forEach",
+        "const per=12;function render(){const q=input.value;const filtered=cards.map(c=>({c,score:SavingioSearchCore.score({title:c.querySelector('h2').textContent,keywords:c.dataset.search,exactQueries:(c.dataset.exactSearch||'').split(',').filter(Boolean)},q)})).filter(v=>(category==='전체'||v.c.dataset.category===category)&&(!q||v.score>0)).sort((a,b)=>b.score-a.score).map(v=>v.c);cards.forEach",
+        listing_text,
+        count=1,
+    )
     if "const initialQuery=new URLSearchParams(location.search).get('q');" not in listing_text:
         listing_text = listing_text.replace(
             "input.addEventListener('input',()=>{page=1;render()});",
