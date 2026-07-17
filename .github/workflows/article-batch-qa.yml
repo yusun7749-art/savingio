@@ -6,7 +6,7 @@ on:
       offset:
         description: Start offset in alphabetically sorted article files
         required: false
-        default: "0"
+        default: "10"
       limit:
         description: Number of articles to process
         required: false
@@ -38,7 +38,7 @@ jobs:
         id: batch
         shell: bash
         run: |
-          echo "offset=${{ github.event.inputs.offset || '0' }}" >> "$GITHUB_OUTPUT"
+          echo "offset=${{ github.event.inputs.offset || '10' }}" >> "$GITHUB_OUTPUT"
           echo "limit=${{ github.event.inputs.limit || '10' }}" >> "$GITHUB_OUTPUT"
 
       - name: Process bounded article batch
@@ -73,5 +73,5 @@ jobs:
           git config user.name "savingio-factory"
           git config user.email "actions@users.noreply.github.com"
           git add articles factory/ARTICLE_BATCH_QA.json
-          git commit -m "Part batch normalize and audit ${{ steps.batch.outputs.limit }} articles"
+          git commit -m "Part batch normalize and audit offset ${{ steps.batch.outputs.offset }} limit ${{ steps.batch.outputs.limit }}"
           git push
