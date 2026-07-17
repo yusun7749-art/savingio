@@ -1,12 +1,18 @@
 {
-  "generated_at": "2026-07-17T15:07:42.740529+00:00",
+  "generated_at": "2026-07-17T15:09:27.625367+00:00",
   "mode": "apply",
-  "dna_version": "4",
+  "dna_version": "5",
   "offset": 10,
   "limit": 5,
   "selected_count": 5,
-  "changed_count": 0,
-  "changed_files": [],
+  "changed_count": 5,
+  "changed_files": [
+    "articles/bank-fee-saving.html",
+    "articles/bank-fees-to-avoid.html",
+    "articles/basic-livelihood-discounts.html",
+    "articles/basic-pension-application-guide.html",
+    "articles/beginner-ai-side-hustles.html"
+  ],
   "pass_count": 0,
   "fix_count": 5,
   "articles": [
