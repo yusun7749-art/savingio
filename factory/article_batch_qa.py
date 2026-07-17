@@ -20,7 +20,7 @@ REPORT = ROOT / "factory" / "ARTICLE_BATCH_QA.json"
 
 EXCLUDED = {"index.html"}
 REQUIRED_SECTIONS = ("3초 요약", "목차", "자주 묻는 질문")
-DNA_VERSION = "4"
+DNA_VERSION = "5"
 
 
 def visible_text(html: str) -> str:
@@ -148,7 +148,7 @@ def score(item: dict[str, Any]) -> int:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--limit", type=int, default=10)
+    parser.add_argument("--limit", type=int, default=5)
     parser.add_argument("--offset", type=int, default=0)
     parser.add_argument("--apply", action="store_true")
     args = parser.parse_args()
