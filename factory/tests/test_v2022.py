@@ -41,6 +41,22 @@ class V2022Tests(unittest.TestCase):
             ok=approve(root,req["token"],"ok")
             self.assertEqual(ok["status"],"approved")
 
+    def test_approval_accepts_current_cms_handoff(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td)
+            report={"items":[{
+                "topic":"장기수선충당금","slug":"reserve-refund",
+                "qa1_score":100,"research_qa_score":100,
+                "article_path":"articles/reserve-refund.html",
+                "image_ready":True,"qa2_pass":True,
+                "release_status":"content_ready",
+            }]}
+            req=create_approval_request(root,report)
+            self.assertEqual(req["slug"],"reserve-refund")
+            self.assertEqual(req["release_status"],"content_ready")
+            self.assertTrue(req["image_ready"])
+            self.assertTrue(req["supervisor_pass"])
+
     def test_adapters(self):
         payload={"title":"A","html":"<h1>A</h1>","slug":"a"}
         self.assertTrue(StaticHtmlAdapter().prepare(ROOT,payload)["ready"])

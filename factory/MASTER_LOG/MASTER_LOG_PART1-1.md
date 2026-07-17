@@ -43,3 +43,25 @@
 - Cloudflare Pages 봇 결과: Preview deploy successful
 - Preview URL 직접 HTTP 검증: NOT RUN (현재 웹 조회 경로에서 URL 안전 제한)
 - Production 배포: NOT RUN
+
+### 16:49 KST
+- PR #1 squash merge: PASS, main `fd627ea`
+- 실제 주제: `장기수선충당금 소유자 부담과 임차인 반환 확인`
+- 공식 근거: 국가법령정보센터 1건, 국토교통부 계열 2건
+- 1차 E2E: 9개 본부 PASS, Writer 100점이나 동일 5개 문장 반복 품질 결함 발견
+- 안전 조치: 해당 초안 발행 중단
+- Writer 수정: 공식 claim/excerpt 본문 반영, 주제 관련도 정렬, 고유 실행 문단 생성
+- Writer QA 수정: 30자 이상 동일 문단 반복 시 `no_repeated_paragraphs` FAIL
+- 2차 격리 E2E: 9개 본부 PASS, Writer 4,323자/100점, Research·QA1·QA2 PASS
+- 이미지 생성: hero 1280x720, OG 1200x630, infographic 960x1200 WebP
+- 이미지 결과 연결: manifest ready, 3개 HTML 파일 삽입, QA1→QA2→CMS 자동 재실행 PASS
+- 최종 콘텐츠 상태: `content_ready`
+- 승인 패킷: `approved`, evidence 100, QA 100, image ready, supervisor pass
+- 집중 pytest: 25 PASS 및 22 PASS
+- 전체 격리 pytest: 297 PASS
+- GitHub V3.006 PR/Cloudflare: 아직 실행 전
+
+### 현재 종료 지점
+- 자동화 정지 지점: 코드·실제 콘텐츠·이미지·승인·전체 테스트 완료
+- 남은 범위: GitHub PR, Preview, merge, Production 확인
+- 재시작 지점: `agent/long-term-repair-reserve-e2e`

@@ -24,6 +24,76 @@ def _verified_evidence(research: dict) -> list[dict]:
     return [item for item in evidence if isinstance(item, dict) and item.get("verified") and item.get("url")]
 
 
+def _evidence_relevance(item: dict, topic: str) -> int:
+    text = " ".join(str(item.get(key, "")) for key in ("source_name", "claim", "excerpt", "url")).lower()
+    keywords = [
+        token.strip(".,()[]{}")
+        for token in topic.lower().split()
+        if len(token.strip(".,()[]{}")) >= 2 and token not in {"확인", "방법", "정리"}
+    ]
+    score = sum(len(keyword) for keyword in keywords if keyword in text)
+    if "law.go.kr" in text:
+        score += 4
+    return score
+
+
+def _ranked_evidence(research: dict, topic: str) -> list[dict]:
+    return sorted(_verified_evidence(research), key=lambda item: _evidence_relevance(item, topic), reverse=True)
+
+
+def _guidance_paragraphs(topic: str, article_type: str, research: dict) -> list[str]:
+    """Build a non-repeating, evidence-aware paragraph pool for the article body."""
+    base = sentences_for_topic(topic, article_type)
+    evidence_paragraphs: list[str] = []
+    for item in _ranked_evidence(research, topic):
+        source = str(item.get("source_name", "공식기관")).strip() or "공식기관"
+        claim = str(item.get("claim", "")).strip()
+        excerpt = str(item.get("excerpt", "")).strip()
+        if claim:
+            evidence_paragraphs.append(f"{source}의 공식 자료에 따르면 {claim}")
+        if excerpt and excerpt != claim:
+            evidence_paragraphs.append(
+                f"{source} 원문은 다음과 같은 판단 근거를 제시합니다. {excerpt}"
+            )
+        evidence_paragraphs.append(
+            f"이 {source} 자료를 내 상황에 적용할 때는 자료의 기준일, 적용 대상과 예외를 원문에서 다시 확인하고 확인 날짜를 함께 기록해야 합니다."
+        )
+
+    practical = [
+        f"{topic}을 다룰 때는 먼저 계약서, 관리비 고지서, 납부 내역처럼 현재 상태를 보여 주는 자료를 한곳에 모아야 판단 순서가 흔들리지 않습니다.",
+        "같은 이름의 비용이라도 부과 주체와 최종 부담 주체가 다를 수 있으므로, 고지서에 적힌 항목명만 보고 책임을 단정해서는 안 됩니다.",
+        "공식 기준과 실제 납부 내역을 나란히 놓고 기간, 납부자, 금액을 대조하면 누락 기간이나 중복 청구를 빠르게 찾을 수 있습니다.",
+        "계약 당사자 사이의 정산 문제는 구두 설명보다 계약서 조항, 계좌 이체 내역과 관리사무소 확인 자료를 기준으로 정리하는 편이 안전합니다.",
+        "관리사무소에 문의할 때는 전체 납부액뿐 아니라 산정 기간, 월별 금액과 미납 여부를 구분해 달라고 요청해야 이후 정산 자료로 쓰기 쉽습니다.",
+        "반환 또는 정산을 요청하기 전에는 요청 금액의 계산식을 작성하고 각 숫자가 어떤 고지서와 납부 내역에서 나온 것인지 표시해 둡니다.",
+        "상대방에게 전달하는 요청문에는 확인한 사실, 근거 자료, 요청 금액, 회신을 원하는 날짜를 짧고 명확하게 적는 것이 좋습니다.",
+        "자료를 보낼 때는 원본을 넘기기보다 사본이나 전자 파일을 사용하고, 전송 날짜와 수신 여부를 확인할 수 있는 기록을 남깁니다.",
+        "계산 결과가 서로 다르면 먼저 기간의 시작일과 종료일, 중간 정산 여부, 이미 반환된 금액이 있는지부터 다시 맞춰 봅니다.",
+        "공식 자료가 개정된 경우에는 현재 계약에 어느 시점의 기준이 적용되는지 확인해야 하며, 최신 문서라는 이유만으로 과거 기간에 소급 적용하면 안 됩니다.",
+        "금액을 확정하기 어려운 상태에서는 임의의 비율을 적용하지 말고 관리 주체나 공식 상담 창구에서 산정 근거를 확인한 뒤 계산을 갱신합니다.",
+        "처리 기한이 정해져 있지 않은 협의라면 합리적인 회신 예정일을 제시하고, 답변이 없을 때 다시 연락할 날짜도 일정에 기록해 둡니다.",
+        "분쟁 가능성이 보이면 감정적인 표현을 줄이고 사실, 날짜, 금액과 요청 사항을 분리해 기록해야 제3자가 경위를 이해하기 쉽습니다.",
+        "전화 상담을 했다면 상담 날짜, 담당 부서, 안내받은 내용을 메모하고 가능하면 같은 내용을 문서나 공식 답변으로 다시 확인합니다.",
+        "정산이 끝난 뒤에는 입금액이 요청액과 같은지 확인하고, 차이가 있다면 공제 항목과 계산 근거를 별도로 요청합니다.",
+        "계약 종료나 이사 일정이 있다면 열쇠 인도와 보증금 정산 시점만 보지 말고 별도 관리비 정산이 남아 있는지도 확인합니다.",
+        "여러 해의 자료를 확인할 때는 연도별로 파일을 나누고 고지 금액과 실제 납부 금액을 표로 정리하면 계산 오류를 줄일 수 있습니다.",
+        "공동명의, 중간 소유권 변경 또는 계약 승계가 있었다면 각 당사자가 책임지는 기간을 먼저 구분한 뒤 금액을 나눠 계산합니다.",
+        "관리비 고지서에 세부 항목이 보이지 않으면 관리사무소에 항목별 부과 내역이나 납부확인서 발급 가능 여부를 확인합니다.",
+        "공식 원문 링크와 자료 제목을 함께 보관하면 나중에 같은 기준을 다시 찾거나 상대방에게 근거를 설명하기가 수월합니다.",
+        "개인정보가 포함된 서류를 공유할 때는 정산에 필요하지 않은 주민등록번호, 계좌 잔액과 다른 거래 내역을 가린 뒤 전달합니다.",
+        "합의가 이루어지면 지급 금액, 지급일, 지급 방법과 추가 정산 여부를 문서로 남겨 같은 문제를 다시 논의하지 않도록 합니다.",
+        "공식 문의만으로 해결되지 않는다면 보유한 증빙과 문의 기록을 정리한 뒤 해당 분쟁을 다루는 상담 또는 조정 절차를 확인합니다.",
+        "최종 판단 전에는 내가 확인한 사실과 아직 확인하지 못한 내용을 분리해 적어, 추정이 확정 사실처럼 전달되지 않도록 합니다.",
+        "실행을 마친 뒤에도 고지서, 납부확인서, 요청문과 입금 내역을 같은 폴더에 보관하면 이후 계약이나 세무 확인에 대응하기 쉽습니다.",
+        "다른 사람의 사례는 처리 흐름을 이해하는 참고 자료로만 사용하고, 내 계약 기간과 납부 자료를 공식 기준에 대입해 별도로 판단해야 합니다.",
+        "오늘 확인한 공식 자료도 향후 개정될 수 있으므로 실제 정산 직전에는 원문이 유지되는지와 시행일이 바뀌지 않았는지 다시 점검합니다.",
+        "한 번에 결론을 내리기보다 자료 수집, 기준 확인, 금액 계산, 요청, 결과 검증의 다섯 단계로 나누면 빠뜨린 절차를 찾기 쉽습니다.",
+        "증빙이 부족한 기간은 확정 금액에 섞지 말고 별도 표시한 뒤, 추가 자료를 확보했을 때 계산에 반영하는 방식이 안전합니다.",
+        "결과를 기록할 때는 최종 금액만 남기지 말고 계산 과정과 참고한 공식 자료의 확인 날짜까지 함께 남겨야 재검증할 수 있습니다.",
+    ]
+    return base[:1] + evidence_paragraphs + base[1:] + practical
+
+
 def _related_links(related: list[dict], topic: str) -> str:
     normalized = [x for x in related if isinstance(x, dict) and x.get("url") and x.get("title")]
     while len(normalized) < 2:
@@ -38,8 +108,8 @@ def _related_links(related: list[dict], topic: str) -> str:
     ) + '</div>'
 
 
-def _official_sources(research: dict) -> str:
-    evidence = _verified_evidence(research)
+def _official_sources(research: dict, topic: str = "") -> str:
+    evidence = _ranked_evidence(research, topic) if topic else _verified_evidence(research)
     if evidence:
         items = ''.join(
             '<li>'
@@ -79,9 +149,17 @@ def _build_html(plan: dict, research: dict, seo: dict, related: list[dict], fill
     article_type = str(plan.get("article_type", "guide")).strip() or "guide"
     category = str(plan.get("category", "생활비 절약")).strip() or "생활비 절약"
     description = str(seo.get("description", f"{topic}의 조건, 절차, 예외와 다음 행동을 정리합니다."))
-    sentences = sentences_for_topic(topic, article_type)
-    core_paragraphs = ''.join(_p(text) for text in sentences)
-    expanded = ''.join(_p(text) for _ in range(filler_cycles) for text in sentences)
+    guidance = _guidance_paragraphs(topic, article_type, research)
+    paragraph_count = min(len(guidance), 22 + filler_cycles * 4)
+    selected = guidance[:paragraph_count]
+    first_end = min(6, len(selected))
+    remaining = len(selected) - first_end
+    causes_end = first_end + remaining // 3
+    conditions_end = causes_end + remaining // 3
+    conclusion_paragraphs = ''.join(_p(text) for text in selected[:first_end])
+    causes_paragraphs = ''.join(_p(text) for text in selected[first_end:causes_end])
+    condition_paragraphs = ''.join(_p(text) for text in selected[causes_end:conditions_end])
+    action_paragraphs = ''.join(_p(text) for text in selected[conditions_end:])
 
     summary_cards = ''.join([
         f'<article class="summary-card"><strong>대상</strong><span>{escape(topic)} 적용 조건과 제외 조건을 먼저 확인합니다.</span></article>',
@@ -149,16 +227,16 @@ def _build_html(plan: dict, research: dict, seo: dict, related: list[dict], fill
     sections = [
         _section("three-second-summary", "3초 요약", f'<div class="summary-grid">{summary_cards}</div>'),
         _section("situation-choice", "내 상황부터 선택하세요", f'<div class="choice-grid">{situation_cards}</div>'),
-        _section("conclusion", "먼저 결론부터", core_paragraphs),
-        _section("causes", "왜 결과가 달라질까요?", expanded),
-        _section("condition-branches", "조건별로 판단하세요", table + expanded),
-        _section("action-steps", "실행 순서", checklist + core_paragraphs),
+        _section("conclusion", "먼저 결론부터", conclusion_paragraphs),
+        _section("causes", "왜 결과가 달라질까요?", causes_paragraphs),
+        _section("condition-branches", "조건별로 판단하세요", table + condition_paragraphs),
+        _section("action-steps", "실행 순서", checklist + action_paragraphs),
         _section("case", "상황별 적용 사례", f'<div class="case-grid">{case_cards}</div>'),
         _section("comparison-table", "한눈에 보는 비교표", table),
         _section("faq", "자주 묻는 질문", f'<div class="faq">{faq}</div>'),
         _section("next-action", "지금 할 일과 다음 질문", checklist + f'<ul class="next-question-list">{next_questions}</ul>'),
         _section("internal-links", "함께 보면 좋은 글", _related_links(related, topic)),
-        _section("official-evidence", "공식 근거", _official_sources(research)),
+        _section("official-evidence", "공식 근거", _official_sources(research, topic)),
         _section("updated", "업데이트", _p(f"최종 업데이트: {now_iso()}")),
     ]
 

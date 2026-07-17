@@ -49,3 +49,39 @@ IMPLEMENTED
 
 ### 상태
 VERIFIED / CODE READY FOR REVIEW
+
+## 2026-07-17 16:49 KST
+
+### 구현 내용
+- Writer가 길이를 채우기 위해 동일 5문장을 반복하던 로직 제거
+- 검증된 공식 evidence의 claim/excerpt를 본문 판단 근거로 반영
+- 주제 키워드와 법령 원문 우선순위에 따른 evidence 관련도 정렬
+- 계약서·고지서·납부내역·정산 요청·증빙 보관을 다루는 고유 실행 문단 생성
+- Writer QA에 장문 동일 문단 반복 차단 규칙 추가
+- 이미지 provider 완료 시 hero/infographic을 글에 자동 삽입
+- 이미지 완료 상태를 QA1→QA2→CMS로 자동 전달하고 CMS를 `content_ready`로 갱신
+- Approval Center에 현행 CMS handoff/report 형식 호환 추가
+- 장기수선충당금 공식 근거 JSON, 실제 article, WebP 이미지 3종 생성
+
+### 생성·수정 파일
+- `factory/writer.py`
+- `factory/writer_dna.py`
+- `factory/image_provider_result.py`
+- `factory/approval_center.py`
+- `factory/tests/test_sprint013_writer_hq_completion.py`
+- `factory/tests/test_v2022.py`
+- `factory/tests/test_v2032.py`
+- `factory/input/research/long-term-repair-reserve.json`
+- `articles/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f.html`
+- `images/generated/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f/hero.webp`
+- `images/generated/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f/og.webp`
+- `images/generated/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f/infographic.webp`
+- `factory/MASTER_LOG/MASTER_LOG_CURRENT.md`
+- `factory/MASTER_LOG/MASTER_LOG_INDEX.md`
+- `factory/MASTER_LOG/MASTER_LOG_PART1.md`
+- `factory/MASTER_LOG/MASTER_LOG_PART1-1.md`
+- `factory/MASTER_LOG/MASTER_LOG_PART2.md`
+- `factory/MASTER_LOG/MASTER_LOG_PART3.md`
+
+### 상태
+VERIFIED / APPROVED / READY FOR GITHUB REVIEW
