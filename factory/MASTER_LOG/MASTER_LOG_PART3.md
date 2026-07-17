@@ -68,6 +68,14 @@ VERIFIED / DEPLOYMENT PENDING
 - 내부 링크: broken 0 PASS
 - 전용 단위 테스트: 3 PASS
 - 전체 unittest: pytest 미설치 환경으로 pytest 의존 테스트 5개 import 불가; 나머지 162개 실행, 이번 변경 관련 실패 0
+
+## V3.008 Batch 02 QA
+- 대상: 50개
+- life-map marker: 50 PASS
+- H1 단일성: 50 PASS
+- 내부 링크: broken 0 PASS
+- 구형 HTML fallback 단위 테스트 포함: 4 PASS
+- 누적 적용: 100/220
 - 2차 격리 실제 E2E: Planning / Research / Writer / SEO / Calculator / Image / QA1 / QA2 / CMS 전체 PASS
 - Writer QA: 100, plaintext 4,323자, `no_repeated_paragraphs=true`
 - 이미지 파일 형식·크기 확인: hero 1280x720, OG 1200x630, infographic 960x1200 WebP PASS
