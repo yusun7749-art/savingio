@@ -1,0 +1,77 @@
+name: Savingio Article Batch QA
+
+on:
+  workflow_dispatch:
+    inputs:
+      offset:
+        description: Start offset in alphabetically sorted article files
+        required: false
+        default: "0"
+      limit:
+        description: Number of articles to process
+        required: false
+        default: "10"
+  push:
+    branches: [main]
+    paths:
+      - "factory/article_batch_qa.py"
+      - ".github/workflows/article-batch-qa.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: savingio-article-batch-qa
+  cancel-in-progress: false
+
+jobs:
+  normalize-and-audit:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set batch parameters
+        id: batch
+        shell: bash
+        run: |
+          echo "offset=${{ github.event.inputs.offset || '0' }}" >> "$GITHUB_OUTPUT"
+          echo "limit=${{ github.event.inputs.limit || '10' }}" >> "$GITHUB_OUTPUT"
+
+      - name: Process bounded article batch
+        run: |
+          python factory/article_batch_qa.py \
+            --offset "${{ steps.batch.outputs.offset }}" \
+            --limit "${{ steps.batch.outputs.limit }}" \
+            --apply
+
+      - name: Verify report
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('factory/ARTICLE_BATCH_QA.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          assert data['selected_count'] > 0, 'No article selected'
+          assert data['selected_count'] <= int('${{ steps.batch.outputs.limit }}')
+          print('selected=', data['selected_count'])
+          print('changed=', data['changed_count'])
+          print('pass=', data['pass_count'])
+          print('fix=', data['fix_count'])
+          PY
+
+      - name: Commit verified changes
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "No file changes"
+            exit 0
+          fi
+          git config user.name "savingio-factory"
+          git config user.email "actions@users.noreply.github.com"
+          git add articles factory/ARTICLE_BATCH_QA.json
+          git commit -m "Part batch normalize and audit ${{ steps.batch.outputs.limit }} articles"
+          git push
