@@ -1,4 +1,4 @@
-/* Savingio Article Layout DNA v1.1
+/* Savingio Article Layout DNA v1.2
    Shared spacing and card rhythm for article pages. */
 .savingio-article-dna { overflow-x: hidden; }
 .savingio-article-dna main,
@@ -59,6 +59,66 @@
 .savingio-article-dna .article-main ol + p {
   margin-top: 14px;
 }
+
+/* Related articles: keep each recommendation visually separate and scannable. */
+.savingio-article-dna .savingio-related {
+  margin: 42px 0 34px;
+}
+.savingio-article-dna .savingio-related > h2 {
+  margin: 0 0 18px;
+}
+.savingio-article-dna .savingio-related .related-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+.savingio-article-dna .savingio-related .related-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid #dbe5f3;
+  border-radius: 16px;
+  background: #f8fbff;
+  color: #17233d;
+  text-decoration: none;
+  line-height: 1.55;
+  transition: border-color .18s ease, box-shadow .18s ease, transform .18s ease;
+}
+.savingio-article-dna .savingio-related .related-card:hover {
+  border-color: #1769ff;
+  box-shadow: 0 10px 24px rgba(23,105,255,.10);
+  transform: translateY(-2px);
+}
+.savingio-article-dna .savingio-related .related-card strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #1457c9;
+  font-size: 17px;
+  line-height: 1.45;
+}
+.savingio-article-dna .savingio-related .related-card span {
+  display: block;
+  color: #667085;
+  font-size: 14px;
+  line-height: 1.65;
+}
+.savingio-article-dna .source-note {
+  margin: 30px 0 42px;
+  padding: 20px 22px;
+  border: 1px solid #e1e7f0;
+  border-radius: 16px;
+  background: #fbfcfe;
+}
+.savingio-article-dna .source-note h2 {
+  margin: 0 0 8px;
+  font-size: 22px;
+}
+.savingio-article-dna .source-note p {
+  margin: 0;
+  color: #667085;
+}
+
 @media (max-width: 720px) {
   .savingio-article-dna .article-main article > section + section {
     margin-top: 24px;
@@ -80,6 +140,9 @@
   .savingio-article-dna .callout,
   .savingio-article-dna .intent-card {
     padding: 17px;
+  }
+  .savingio-article-dna .savingio-related .related-grid {
+    grid-template-columns: 1fr;
   }
 }
 
