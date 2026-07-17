@@ -133,3 +133,12 @@
 - 공통 Brain을 사용하는 공개 HTML은 동일 데이터·실행기 계약을 검사했다. 공통 데이터와 실행기에는 재검증 캐시 정책을 적용했으며 글 본문은 변경하지 않았다.
 - 검증: 검색·카테고리·레이아웃 계약 18 PASS, JSON 파싱 및 JS 문법 PASS, 207개 공개 글의 H1·본문·공통 카테고리 자산 계약 PASS.
 - 전체 기존 unittest는 186 PASS였고 `pytest` 미설치 때문에 5개 모듈은 미수행했다. Production 브라우저 확인 전에는 완료 처리하지 않는다.
+
+## V3.019 Production 검색·카테고리 최종 검증
+- PR #15와 PR #16을 main에 squash merge했다. Production 기준 커밋은 `6d47130`이다.
+- 기존 방문자의 7일 캐시를 우회하기 위해 메인·정보센터·전기요금·파일럿 5개와 Writer·기본 템플릿을 Brain v12로 고정했다.
+- Cloudflare Pages Preview 배포 성공을 확인한 뒤 Production 공개 사이트를 새 브라우저 탭에서 직접 열어 검증했다.
+- 메인 Site Explorer 표시 PASS, `누쉬` 검색의 누수 긴급 대응 글 1순위 PASS, `장충금` 검색의 장기수선충당금 반환 글 1순위 PASS.
+- 전기요금 글은 Site Explorer 표시, H1, 가로 넘침 없음 PASS.
+- 파일럿 5개는 각각 H1 1개, 대표 썸네일, Site Explorer, 7~8개 본문 섹션, 가로 넘침 없음 PASS.
+- 상태: MERGED / PRODUCTION LIVE VERIFIED. 다음 5개 글은 이 전체 계약을 그대로 통과한 뒤에만 확대한다.
