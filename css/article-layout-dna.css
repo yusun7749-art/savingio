@@ -1,4 +1,4 @@
-/* Savingio Article Layout DNA v1.2
+/* Savingio Article Layout DNA v1.3
    Shared spacing and card rhythm for article pages. */
 .savingio-article-dna { overflow-x: hidden; }
 .savingio-article-dna main,
@@ -15,20 +15,14 @@
 .savingio-article-dna th,
 .savingio-article-dna a { overflow-wrap: anywhere; }
 .savingio-article-dna .table-wrap { max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
-.savingio-article-dna .article-main article > section {
-  scroll-margin-top: 96px;
-}
-.savingio-article-dna .article-main article > section + section {
-  margin-top: 30px;
-}
+.savingio-article-dna .article-main article > section { scroll-margin-top: 96px; }
+.savingio-article-dna .article-main article > section + section { margin-top: 30px; }
 .savingio-article-dna .summary-grid,
 .savingio-article-dna .branch-grid,
 .savingio-article-dna .related-grid,
 .savingio-article-dna .complete-grid,
 .savingio-article-dna .card-grid,
-.savingio-article-dna .grid {
-  gap: 24px;
-}
+.savingio-article-dna .grid { gap: 24px; }
 .savingio-article-dna .card,
 .savingio-article-dna .branch,
 .savingio-article-dna .related-card,
@@ -36,37 +30,65 @@
 .savingio-article-dna .action-card,
 .savingio-article-dna .quick-answer,
 .savingio-article-dna .callout,
-.savingio-article-dna .intent-card {
-  padding: 20px;
-}
+.savingio-article-dna .intent-card { padding: 20px; }
 .savingio-article-dna .card + .card,
 .savingio-article-dna .context-card + .context-card,
 .savingio-article-dna details + details,
-.savingio-article-dna .step-box + .step-box {
-  margin-top: 18px;
-}
+.savingio-article-dna .step-box + .step-box { margin-top: 18px; }
 .savingio-article-dna .table-wrap,
 .savingio-article-dna .checklist,
 .savingio-article-dna .toc,
-.savingio-article-dna .curiosity-bridge {
-  margin-top: 18px;
-  margin-bottom: 18px;
-}
+.savingio-article-dna .curiosity-bridge { margin-top: 18px; margin-bottom: 18px; }
 .savingio-article-dna .article-main p + p,
 .savingio-article-dna .article-main p + ul,
 .savingio-article-dna .article-main p + ol,
 .savingio-article-dna .article-main ul + p,
-.savingio-article-dna .article-main ol + p {
-  margin-top: 14px;
+.savingio-article-dna .article-main ol + p { margin-top: 14px; }
+
+/* Shared hero LOCK: one CSS change updates every article. */
+.savingio-article-dna .hero {
+  width: 100vw;
+  max-width: none;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding: 72px max(24px, calc((100vw - 1120px) / 2 + 24px)) 66px;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(135deg, #f4f7ff 0%, #ffffff 100%);
 }
+.savingio-article-dna .hero h1 { max-width: 900px; }
+.savingio-article-dna .hero p { max-width: 780px; }
+.savingio-article-dna .hero .actions { margin-top: 28px; }
+
+/* Shared quick-summary card LOCK. */
+.savingio-article-dna .quick-summary-title { margin: 38px 0 18px; }
+.savingio-article-dna .quick-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-auto-rows: 1fr;
+  gap: 16px;
+  align-items: stretch;
+}
+.savingio-article-dna .quick-grid > article {
+  min-width: 0;
+  min-height: 170px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 24px;
+  border: 1px solid #dfe6f1;
+  border-radius: 18px;
+  background: #f4f7fd;
+}
+.savingio-article-dna .quick-grid > article h2 { margin: 0 0 12px; }
+.savingio-article-dna .quick-grid > article p { margin: 0; }
 
 /* Related articles: keep each recommendation visually separate and scannable. */
-.savingio-article-dna .savingio-related {
-  margin: 42px 0 34px;
-}
-.savingio-article-dna .savingio-related > h2 {
-  margin: 0 0 18px;
-}
+.savingio-article-dna .savingio-related { margin: 42px 0 34px; }
+.savingio-article-dna .savingio-related > h2 { margin: 0 0 18px; }
 .savingio-article-dna .savingio-related .related-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -110,27 +132,17 @@
   border-radius: 16px;
   background: #fbfcfe;
 }
-.savingio-article-dna .source-note h2 {
-  margin: 0 0 8px;
-  font-size: 22px;
-}
-.savingio-article-dna .source-note p {
-  margin: 0;
-  color: #667085;
-}
+.savingio-article-dna .source-note h2 { margin: 0 0 8px; font-size: 22px; }
+.savingio-article-dna .source-note p { margin: 0; color: #667085; }
 
 @media (max-width: 720px) {
-  .savingio-article-dna .article-main article > section + section {
-    margin-top: 24px;
-  }
+  .savingio-article-dna .article-main article > section + section { margin-top: 24px; }
   .savingio-article-dna .summary-grid,
   .savingio-article-dna .branch-grid,
   .savingio-article-dna .related-grid,
   .savingio-article-dna .complete-grid,
   .savingio-article-dna .card-grid,
-  .savingio-article-dna .grid {
-    gap: 18px;
-  }
+  .savingio-article-dna .grid { gap: 18px; }
   .savingio-article-dna .card,
   .savingio-article-dna .branch,
   .savingio-article-dna .related-card,
@@ -138,12 +150,14 @@
   .savingio-article-dna .action-card,
   .savingio-article-dna .quick-answer,
   .savingio-article-dna .callout,
-  .savingio-article-dna .intent-card {
-    padding: 17px;
+  .savingio-article-dna .intent-card { padding: 17px; }
+  .savingio-article-dna .hero {
+    min-height: 360px;
+    padding: 52px 24px 48px;
   }
-  .savingio-article-dna .savingio-related .related-grid {
-    grid-template-columns: 1fr;
-  }
+  .savingio-article-dna .quick-grid,
+  .savingio-article-dna .savingio-related .related-grid { grid-template-columns: 1fr; }
+  .savingio-article-dna .quick-grid > article { min-height: 0; }
 }
 
 /* Life-map path: topic -> situation -> problem -> next question. */
