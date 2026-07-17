@@ -1,28 +1,22 @@
 {
-  "topic": "장기수선충당금",
-  "slug": "장기수선충당금-298a523e",
-  "required": [
+  "slug": "장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f",
+  "ready": true,
+  "generated_files": [
     {
-      "filename": "장기수선충당금-298a523e-hero.webp",
-      "alt": "장기수선충당금 핵심 안내 이미지",
-      "aspect_ratio": "16:9",
-      "prompt": "장기수선충당금을 설명하는 신뢰감 있는 한국형 생활정보 웹사이트 대표 이미지, 텍스트 최소화"
+      "role": "hero",
+      "path": "images/generated/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f/hero.webp",
+      "bytes": 65554
     },
     {
-      "filename": "장기수선충당금-298a523e-og.webp",
-      "alt": "장기수선충당금 OG 이미지",
-      "aspect_ratio": "1200:630",
-      "prompt": "Savingio 브랜드용 장기수선충당금 OG 이미지, 정보형, 깔끔한 카드 스타일"
+      "role": "og",
+      "path": "images/generated/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f/og.webp",
+      "bytes": 59886
     },
     {
-      "filename": "장기수선충당금-298a523e-summary.webp",
-      "alt": "장기수선충당금 요약 인포그래픽",
-      "aspect_ratio": "4:5",
-      "prompt": "장기수선충당금 핵심 조건과 실행 순서를 요약한 인포그래픽"
+      "role": "infographic",
+      "path": "images/generated/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f/infographic.webp",
+      "bytes": 37088
     }
   ],
-  "generated_files": [],
-  "ready": false,
-  "requires_external_image_generation": true,
-  "created_at": "2026-07-15T11:51:16+09:00"
+  "registered_at": "2026-07-17T16:44:17+09:00"
 }

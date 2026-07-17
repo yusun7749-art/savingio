@@ -10,6 +10,7 @@ from typing import Iterable
 
 TAG_RE = re.compile(r"<[^>]+>")
 SPACE_RE = re.compile(r"\s+")
+PARAGRAPH_RE = re.compile(r"<p(?:\s[^>]*)?>([\s\S]*?)</p>", re.IGNORECASE)
 
 DEFAULT_WRITER_RULES = {
     "version": "1.0",
@@ -65,6 +66,15 @@ def _count(html: str, pattern: str) -> int:
     return len(re.findall(pattern, html, flags=re.IGNORECASE))
 
 
+def _has_no_repeated_paragraphs(html: str) -> bool:
+    paragraphs = []
+    for value in PARAGRAPH_RE.findall(html):
+        normalized = plain_text(value)
+        if len(normalized.replace(" ", "")) >= 30:
+            paragraphs.append(normalized)
+    return len(paragraphs) == len(set(paragraphs))
+
+
 def validate_writer_html(html: str, rules: dict) -> WriterValidation:
     text = plain_text(html)
     length = len(text.replace(" ", ""))
@@ -90,6 +100,7 @@ def validate_writer_html(html: str, rules: dict) -> WriterValidation:
         "related_links": _count(html, r'class="related-link"') >= int(minimums.get("related_links", 2)),
         "official_section": 'id="official-evidence"' in html,
         "schema": 'type="application/ld+json"' in html.lower(),
+        "no_repeated_paragraphs": _has_no_repeated_paragraphs(html),
         "no_template_tokens": not re.search(r"\{\{[^{}]+\}\}", html) and not any(
             token in html for token in forbidden if token not in {"{{", "}}"}
         ),

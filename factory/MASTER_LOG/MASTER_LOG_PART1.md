@@ -29,3 +29,21 @@
 - GitHub Actions workflow/status 실패 항목은 0건이다.
 - Cloudflare Pages Preview 자동 배포 성공을 PR 봇 결과로 확인했다.
 - Production 게시·배포와 Preview URL 직접 HTTP 검증은 수행하지 않았다.
+
+### 16:49 KST V3.006 실제 콘텐츠 자동화 요약
+- PR #1을 squash merge하고 main 기준 커밋을 `fd627ea`로 갱신했다.
+- 국가법령정보센터와 국토교통부 계열 공식 근거 3건으로 장기수선충당금 실제 콘텐츠 E2E를 실행했다.
+- 구조 QA 100점이었지만 본문 5개 문장 반복을 발견해 발행을 중단하고 Writer를 수정했다.
+- 공식 근거를 관련도 순서로 본문에 반영하고 동일 장문 문단 반복을 QA 실패로 판정하도록 보강했다.
+- 대표 이미지, OG 이미지, 4단계 인포그래픽을 생성·등록하고 HTML에 자동 삽입했다.
+- 외부 이미지 등록 후 QA1→QA2→CMS가 자동 재실행되어 `content_ready`로 전환되도록 연결했다.
+- 현행 CMS 결과도 승인 패킷으로 변환할 수 있게 하고 사용자 실행 요청과 전체 QA PASS를 근거로 승인 상태를 기록했다.
+- 상태: VERIFIED / APPROVED / READY FOR GITHUB REVIEW
+- 다음 작업: V3.006 PR 생성, Cloudflare Preview 확인, 병합 및 Production 확인
+
+### 16:52 KST GitHub 전달 결과
+- 원격 커밋 `5b73363`을 Connector로 생성하고 선택 파일 19개만 브랜치에 반영했다.
+- Draft PR #2를 생성했고 main 대비 mergeable 상태를 확인했다.
+- GitHub Actions workflow/status 실패 항목은 0건이다.
+- Cloudflare Pages Preview 자동 배포 성공과 Preview URL 발급을 봇 결과로 확인했다.
+- Preview URL 직접 HTTP 검증은 안전 제한으로 실행하지 못했고 Production 병합은 아직 실행 전이다.
