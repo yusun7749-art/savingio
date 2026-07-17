@@ -15,6 +15,7 @@ on:
     branches: [main]
     paths:
       - "factory/article_batch_qa.py"
+      - "factory/article_batch_editorial_patch.py"
       - ".github/workflows/article-batch-qa.yml"
 
 permissions:
@@ -41,6 +42,9 @@ jobs:
           echo "offset=${{ github.event.inputs.offset || '25' }}" >> "$GITHUB_OUTPUT"
           echo "limit=${{ github.event.inputs.limit || '5' }}" >> "$GITHUB_OUTPUT"
 
+      - name: Apply curated editorial completion
+        run: python factory/article_batch_editorial_patch.py
+
       - name: Process bounded article batch
         run: |
           python factory/article_batch_qa.py \
@@ -53,14 +57,21 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          p = Path('factory/ARTICLE_BATCH_QA.json')
-          data = json.loads(p.read_text(encoding='utf-8'))
+          data = json.loads(Path('factory/ARTICLE_BATCH_QA.json').read_text(encoding='utf-8'))
           assert data['selected_count'] > 0, 'No article selected'
           assert data['selected_count'] <= int('${{ steps.batch.outputs.limit }}')
+          assert all(a['visible_characters'] >= 3500 for a in data['articles']), 'Editorial length below minimum'
           assert all(a['has_thumbnail_file'] for a in data['articles']), 'Thumbnail file missing'
           assert all(a['has_thumbnail_markup'] for a in data['articles']), 'Thumbnail markup missing'
           assert all(a['has_og_image'] for a in data['articles']), 'OG image missing'
           assert all(a['has_twitter_image'] for a in data['articles']), 'Twitter image missing'
+          assert all(a['has_author_box'] for a in data['articles']), 'Author box missing'
+          assert all(a['has_faq_schema'] and a['has_article_schema'] for a in data['articles']), 'Schema missing'
+          assert all(a['has_canonical'] for a in data['articles']), 'Canonical missing'
+          assert all(a['related_article_links'] >= 2 for a in data['articles']), 'Related links missing'
+          assert all(a['category'] for a in data['articles']), 'Category missing'
+          assert all(all(a['required_sections'].values()) for a in data['articles']), 'Required section missing'
+          assert data['fix_count'] == 0, 'Batch still contains FIX articles'
           print('selected=', data['selected_count'])
           print('changed=', data['changed_count'])
           print('pass=', data['pass_count'])
