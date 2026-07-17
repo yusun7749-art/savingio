@@ -5,6 +5,7 @@ import shutil
 from pathlib import Path
 
 from .utils import now_iso, save_json
+from .search_index_builder import build as rebuild_search_index
 
 INPUT_QUEUE = Path("factory/output/qa2/cms_queue.json")
 REPORT_PATH = Path("factory/output/cms/cms_hq_report.json")
@@ -92,6 +93,10 @@ def run_cms_queue(root: Path, limit: int | None = None, source_items: list[dict]
     save_json(queue_path, queue)
 
     created_at = now_iso()
+    search_index = {"status": "not_run", "count": 0}
+    if completed and (root / "data" / "savingio-brain-data.json").is_file() and (root / "articles" / "index.html").is_file():
+        search_payload = rebuild_search_index(root)
+        search_index = {"status": "rebuilt", "count": search_payload["count"], "version": search_payload["version"]}
     release_queue = {"department": "release", "status": "ready" if release_pending else "blocked", "created_at": created_at, "pending": release_pending, "completed": [], "failed": []}
     analytics_queue = {"department": "analytics", "status": "waiting_for_release", "created_at": created_at, "pending": [{"slug": x["slug"], "article_path": x["article_path"]} for x in release_pending]}
     revenue_queue = {"department": "revenue", "status": "waiting_for_analytics", "created_at": created_at, "pending": [{"slug": x["slug"], "article_path": x["article_path"]} for x in release_pending]}
@@ -111,6 +116,7 @@ def run_cms_queue(root: Path, limit: int | None = None, source_items: list[dict]
             "revenue_queue": REVENUE_QUEUE.as_posix(),
         },
         "pass": bool(completed) and not failed,
+        "search_index": search_index,
     }
     save_json(root / REPORT_PATH, report)
     save_json(root / RELEASE_QUEUE, release_queue)

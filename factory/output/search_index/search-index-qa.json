@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "status": "passed",
+  "article_count": 220,
+  "homepage_indexed_count": 220,
+  "article_listing_indexed_count": 220,
+  "brain_indexed_count": 220,
+  "broken_targets": 0,
+  "queries": {
+    "누수": 10,
+    "윗집누수": 10,
+    "윗집 누수": 10,
+    "아랫집누수": 10,
+    "아랫집 누수": 10,
+    "천장누수": 10,
+    "장기수선충당금": 4,
+    "전기세": 22,
+    "월급": 51,
+    "부가세": 34,
+    "환급금": 42
+  },
+  "checks": [
+    "article hierarchy terms indexed",
+    "life-map connected titles indexed",
+    "synonym groups expanded",
+    "spaced and unspaced Korean queries normalized",
+    "missing article cards automatically restored",
+    "missing Brain nodes automatically restored",
+    "CMS publish hooks rebuild the unified index"
+  ],
+  "pass": true
+}

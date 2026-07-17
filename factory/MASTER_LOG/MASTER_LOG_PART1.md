@@ -72,6 +72,15 @@
 - 전체 220개를 일괄 재검증해 life-map marker 1개, H1 1개, 깨진 내부 링크 0개를 확인했다.
 - 최종 진행: 220/220.
 - 결과: `factory/output/article_connection_batches/batch-05-report.json`
+
+## V3.012 220개 통합 검색 색인 복구
+- 연결 경로만 HTML에 있고 검색 인덱스에는 반영되지 않던 분리 문제를 수정했다.
+- 전체 220개 글의 제목·설명·상위/하위 Brain 계층·life-map 연결 제목·동의어를 자동 수집한다.
+- 홈페이지, 정보센터, Brain 탐색이 같은 검색어 집합을 사용하도록 통합했다.
+- 기존 목록과 Brain에서 누락된 17개 글도 자동 등록했다.
+- CMS 발행 시 검색 인덱스를 자동 재생성하도록 연결했다.
+- `누수`, `윗집누수`, `윗집 누수`, `아랫집누수`, `아랫집 누수`, `천장누수` 검색 PASS.
+- 결과: `factory/output/search_index/search-index-qa.json`
 - 현행 CMS 결과도 승인 패킷으로 변환할 수 있게 하고 사용자 실행 요청과 전체 QA PASS를 근거로 승인 상태를 기록했다.
 - 상태: VERIFIED / APPROVED / READY FOR GITHUB REVIEW
 - 다음 작업: V3.006 PR 생성, Cloudflare Preview 확인, 병합 및 Production 확인

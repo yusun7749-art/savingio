@@ -100,6 +100,15 @@ VERIFIED / DEPLOYMENT PENDING
 - 내부 링크: broken 0 PASS
 - 단위 테스트: 5 PASS
 - 최종 적용: 220/220
+
+## V3.012 Unified Search QA
+- 통합 인덱스: 220 PASS
+- 홈페이지 검색 등록: 220 PASS
+- 정보센터 카드 등록: 220 PASS
+- Brain 검색 등록: 220 PASS
+- 누락 목적지: 0
+- 검색 생성기/연결 엔진 단위 테스트: 8 PASS
+- 누수 띄어쓰기·상하층 표현 검색: PASS
 - 2차 격리 실제 E2E: Planning / Research / Writer / SEO / Calculator / Image / QA1 / QA2 / CMS 전체 PASS
 - Writer QA: 100, plaintext 4,323자, `no_repeated_paragraphs=true`
 - 이미지 파일 형식·크기 확인: hero 1280x720, OG 1200x630, infographic 960x1200 WebP PASS
