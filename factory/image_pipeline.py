@@ -15,7 +15,7 @@ REPLACEMENTS = {
             "https://savingio.com/images/articles/daily-liability-leak-insurance.svg",
     },
     "articles/home-water-leak-self-check.html": {
-        "https://placehold.co/1200x630/2f6b5f/ffffff/png?text=Savingio%20%7C%20Home%20Leak%20Self%20Check":
+        "https://placehold.co/1200x630/2a6f5f/ffffff/png?text=Savingio%20%7C%20Water%20Meter%20Check":
             "https://savingio.com/images/articles/home-water-leak-self-check.svg",
     },
 }
