@@ -112,3 +112,27 @@ VERIFIED / APPROVED / READY FOR GITHUB REVIEW
 - PR #2 squash merge 완료
 - main V3.006: `8a2ee3f2016c25172a17a9f17d4b50520a136ff7`
 - Production article: LIVE VERIFIED
+
+## 2026-07-17 20:49 KST — V3.020 완료 계약 수정
+
+### 발견된 구현 결함
+- `articles/apartment-leak-emergency-response.html`: 가시 본문 1,486자, `<img>` 0개
+- `articles/daily-liability-leak-insurance.html`: 가시 본문 1,242자, `<img>` 0개
+- `articles/home-water-leak-self-check.html`: 가시 본문 1,340자, `<img>` 0개
+- 세 파일의 `data-factory-hero`/`rb-thumb`은 실제 이미지가 아니라 CSS/이모지 제목 카드다.
+- `home-water-leak-self-check.html`의 전기요금 계산기 연결은 사용자 의도와 맞지 않아 재작성 때 제거해야 한다.
+
+### 고정된 재작성 방식
+- 기존 글 전체에 덧씌우기 변환기를 다시 적용하지 않는다.
+- 누수 3개는 별도 완성본으로 새로 작성하고 Preview에서 검증한 뒤 기존 URL 파일을 교체한다.
+- 완료 계약: 약 5,000자 실제 정보 + 실제 WebP/PNG `<img>` + `alt` + `og:image` + 고정틀 + 공식 근거 + 검색 별칭 + 왼쪽 카테고리 + 연관 글 + 올바른 계산기/도구 + 모바일/가로 폭 + Production 확인.
+- 검증 단위는 먼저 3개, 이후 5개이며 안정화 후에만 20개와 50개로 확대한다.
+
+### 다음 수정 대상
+- `articles/apartment-leak-emergency-response.html`
+- `articles/daily-liability-leak-insurance.html`
+- `articles/home-water-leak-self-check.html`
+- 위 3개용 실제 이미지 파일과 검색/OG 메타데이터
+
+### 상태
+DESIGNED / REWORK REQUIRED / NOT IMPLEMENTED
