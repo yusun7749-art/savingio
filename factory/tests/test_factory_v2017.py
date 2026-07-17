@@ -22,6 +22,8 @@ class FactoryV2017Tests(unittest.TestCase):
         plan=build_plan('전기요금 절약 방법',CONFIG); research=build_research_package(plan,CONFIG)
         seo=build_seo(plan,CONFIG); html=generate_article(plan,research,seo,[],CONFIG); qa=evaluate(html,plan,research,seo,CONFIG)
         self.assertTrue(qa['pass']); self.assertIn('data-factory-version="2.017"',html)
+        self.assertIn('/css/factory-article.css', html)
+        self.assertIn('class="factory-article savingio-article-dna"', html)
     def test_repair_loop(self):
         plan=build_plan('전기요금 절약 방법',CONFIG); research=build_research_package(plan,CONFIG); seo=build_seo(plan,CONFIG)
         html=generate_article(plan,research,seo,[],CONFIG).replace('href="/articles/"','href="#"').replace('href="/"','href="#"')

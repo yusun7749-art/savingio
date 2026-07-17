@@ -91,6 +91,13 @@
 - `factory-article.css`를 추가해 Factory 글의 본문 폭, 카드, 표, 이미지와 모바일 레이아웃을 통일했다.
 - `article-layout-dna.css`에 긴 URL·표·이미지·iframe 가로 넘침 방지 규칙을 추가했다.
 - 레이아웃 계약 테스트 4개와 기존 검색 테스트 6개 PASS.
+
+## V3.015 Factory 표준틀·리디렉션 탐색 정리
+- Factory Writer의 기본 HTML에 `factory-article.css`, Article DNA, Brain 탐색을 자동 연결했다.
+- 신규 글은 대표 썸네일과 본문 인포그래픽을 이미지 엔진이 삽입할 수 있는 표준 구조로 고정했다.
+- `페이지 이동` 리디렉션 문서 14개를 Brain·메인 검색·정보센터에서 제외하고 실제 글 208개만 공개 탐색하도록 정리했다.
+- 원본 리디렉션 파일은 기존 URL 호환과 목적지 이동을 위해 유지한다.
+- Writer·레이아웃·검색 회귀검사 17개 PASS.
 - 결과: `factory/output/search_index/search-index-qa.json`
 - 현행 CMS 결과도 승인 패킷으로 변환할 수 있게 하고 사용자 실행 요청과 전체 QA PASS를 근거로 승인 상태를 기록했다.
 - 상태: VERIFIED / APPROVED / READY FOR GITHUB REVIEW
@@ -110,3 +117,9 @@
 - hero 1280x720과 infographic 960x1200 원본 로드를 각각 확인했다.
 - 상태: MERGED / PRODUCTION LIVE VERIFIED
 - 다음 작업: 동일 자동화 경로로 다음 공식 evidence 콘텐츠 실행
+# V3.016 — ARTICLE REMODEL BATCH 01
+
+- Scope: public articles 20 / 208
+- Contract: one H1, one topic thumbnail, one related-problem path, shared responsive layout
+- Topic path: apartment fees → reserve fund → leak emergency → liability insurance → utilities → rental/tax
+- Batch gate: publish and visually confirm before batch 02

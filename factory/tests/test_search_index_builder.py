@@ -1,11 +1,15 @@
 import tempfile
 import unittest
 from pathlib import Path
-
-from factory.search_index_builder import compact, expand_synonyms
+from factory.search_index_builder import article_meta, compact, expand_synonyms
 
 
 class SearchIndexBuilderTests(unittest.TestCase):
+    def test_redirect_page_is_detected(self):
+        with tempfile.TemporaryDirectory() as td:
+            path = Path(td) / "redirect.html"
+            path.write_text('<meta http-equiv="refresh" content="0;url=/articles/real.html"><h1>페이지 이동</h1>', encoding="utf-8")
+            self.assertTrue(article_meta(path)["is_redirect"])
     def test_compact_matches_spaced_and_unspaced_query(self):
         self.assertEqual(compact("윗집 누수"), compact("윗집누수"))
 

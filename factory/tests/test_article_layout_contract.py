@@ -29,3 +29,8 @@ class ArticleLayoutContractTests(unittest.TestCase):
     def test_factory_layout_has_mobile_table_scroll(self):
         source = (ROOT / "css" / "factory-article.css").read_text(encoding="utf-8")
         self.assertRegex(source, re.compile(r"\.factory-article \.table-wrap\{[^}]*overflow-x:auto"))
+
+    def test_redirect_pages_are_not_in_public_search_index(self):
+        import json
+        items = json.loads((ROOT / "data" / "savingio-search-index.json").read_text(encoding="utf-8"))["items"]
+        self.assertFalse(any(item["title"].startswith("페이지 이동") for item in items.values()))

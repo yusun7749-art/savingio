@@ -35,6 +35,7 @@ class ArticleMetaParser(HTMLParser):
         self.h1 = ""
         self.path_text: list[str] = []
         self.search_intents = ""
+        self.is_redirect = False
         self._capture: str | None = None
         self._path_depth = 0
 
@@ -48,6 +49,8 @@ class ArticleMetaParser(HTMLParser):
             self.description = values.get("content", "").strip()
         elif tag == "meta" and values.get("name", "").lower() == "savingio:search-intents":
             self.search_intents = values.get("content", "").strip()
+        elif tag == "meta" and values.get("http-equiv", "").lower() == "refresh":
+            self.is_redirect = True
         if tag == "section" and "data-savingio-problem-path" in values:
             self._path_depth = 1
         elif self._path_depth:
@@ -94,6 +97,7 @@ def article_meta(path: Path) -> dict[str, str]:
         "description": parser.description,
         "path": " ".join(parser.path_text),
         "search_intents": parser.search_intents,
+        "is_redirect": parser.is_redirect,
     }
 
 
@@ -101,6 +105,13 @@ def build(root: Path) -> dict:
     root = root.resolve()
     brain_path = root / "data" / "savingio-brain-data.json"
     brain = json.loads(brain_path.read_text(encoding="utf-8"))
+    article_files = [path for path in sorted((root / "articles").glob("*.html")) if path.name.lower() != "index.html"]
+    parsed = {f"/articles/{path.name}": article_meta(path) for path in article_files}
+    redirect_hrefs = {href for href, meta in parsed.items() if meta["is_redirect"] or meta["title"].startswith("페이지 이동")}
+    for middles in brain.get("tree", {}).values():
+        for smalls in middles.values():
+            for small, entries in list(smalls.items()):
+                smalls[small] = [entry for entry in entries if str(entry.get("href", "")) not in redirect_hrefs]
     hierarchy: dict[str, set[str]] = {}
     entries_by_href: dict[str, list[dict]] = {}
     for large, middles in brain.get("tree", {}).items():
@@ -114,11 +125,11 @@ def build(root: Path) -> dict:
                     entries_by_href.setdefault(href, []).append(entry)
 
     index: dict[str, dict] = {}
-    for path in sorted((root / "articles").glob("*.html")):
-        if path.name.lower() == "index.html":
-            continue
+    for path in article_files:
         href = f"/articles/{path.name}"
-        meta = article_meta(path)
+        if href in redirect_hrefs:
+            continue
+        meta = parsed[href]
         self_terms = {meta["title"], meta["description"], *hierarchy.get(href, set())}
         self_terms = expand_synonyms({term for term in self_terms if term})
         relationship_terms = {meta["path"]} if meta["path"] else set()
@@ -177,6 +188,8 @@ def build(root: Path) -> dict:
 
     listing = root / "articles" / "index.html"
     listing_text = listing.read_text(encoding="utf-8")
+    for href in redirect_hrefs:
+        listing_text = re.sub(r'<a\b[^>]*class="article-card"[^>]*href="' + re.escape(href) + r'"[^>]*>.*?</a>', '', listing_text, count=1, flags=re.DOTALL)
     if '/js/savingio-search-core.js' not in listing_text:
         listing_text = listing_text.replace('<script>const cards=', '<script src="/js/savingio-search-core.js?v=1"></script><script>const cards=', 1)
     for href, item in index.items():
