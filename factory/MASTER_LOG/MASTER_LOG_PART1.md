@@ -123,3 +123,13 @@
 - Contract: one H1, one topic thumbnail, one related-problem path, shared responsive layout
 - Topic path: apartment fees → reserve fund → leak emergency → liability insurance → utilities → rental/tax
 - Batch gate: publish and visually confirm before batch 02
+
+## V3.018 검색·카테고리 공통 런타임 복구
+- 공개 브라우저에서 `savingio-brain-data.js` 첫 줄에 Connector 출력 잘림 경고가 저장된 사실을 확인했다. 이 문법 오류 때문에 전체 페이지의 왼쪽 Site Explorer가 생성되지 않았다.
+- 메인 검색은 일부 `exactQueries`가 배열이 아닐 때 `.map()` 오류로 중단되는 것을 공개 브라우저 콘솔에서 확인했다.
+- 마지막 정상 Brain JSON을 복구한 뒤 현재 207개 공개 글을 기준으로 Brain JS·JSON·검색 인덱스·메인·정보센터를 다시 생성했다.
+- 검색 코어는 배열/문자열 검색어를 모두 안전하게 처리하고 `누쉬·누쑤·누스·누슈→누수`, `장기충당금·장충금→장기수선충당금`을 공통 해석한다.
+- Brain 실행기는 인라인 데이터가 실패해도 JSON을 직접 다시 읽어 복구하며 중복 실행을 막는다.
+- 공통 Brain을 사용하는 공개 HTML은 동일 데이터·실행기 계약을 검사했다. 공통 데이터와 실행기에는 재검증 캐시 정책을 적용했으며 글 본문은 변경하지 않았다.
+- 검증: 검색·카테고리·레이아웃 계약 18 PASS, JSON 파싱 및 JS 문법 PASS, 207개 공개 글의 H1·본문·공통 카테고리 자산 계약 PASS.
+- 전체 기존 unittest는 186 PASS였고 `pytest` 미설치 때문에 5개 모듈은 미수행했다. Production 브라우저 확인 전에는 완료 처리하지 않는다.

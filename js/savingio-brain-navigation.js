@@ -1,8 +1,16 @@
-(()=>{
+(async()=>{
   'use strict';
 
-  const DATA=window.SAVINGIO_BRAIN_DATA;
-  if(!DATA||!DATA.tree||typeof DATA.tree!=='object')return;
+  if(document.getElementById('savingio-brain-nav'))return;
+  let DATA=window.SAVINGIO_BRAIN_DATA;
+  if(!DATA||!DATA.tree||typeof DATA.tree!=='object'){
+    try{
+      const response=await fetch('/data/savingio-brain-data.json?v=12',{cache:'no-store'});
+      if(!response.ok)return;
+      DATA=await response.json();
+      window.SAVINGIO_BRAIN_DATA=DATA;
+    }catch(_error){return;}
+  }
 
   const normalizePath=(value)=>{
     let path=value||'/';

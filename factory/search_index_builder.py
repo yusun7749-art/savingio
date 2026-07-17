@@ -8,7 +8,8 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 
-VERSION = "2.0.0"
+VERSION = "2.1.0"
+SEARCH_RUNTIME_VERSION = "2"
 
 SYNONYM_GROUPS = [
     {"전기요금", "전기세", "전기료"},
@@ -107,7 +108,13 @@ def build(root: Path) -> dict:
     brain = json.loads(brain_path.read_text(encoding="utf-8"))
     article_files = [path for path in sorted((root / "articles").glob("*.html")) if path.name.lower() != "index.html"]
     parsed = {f"/articles/{path.name}": article_meta(path) for path in article_files}
-    redirect_hrefs = {href for href, meta in parsed.items() if meta["is_redirect"] or meta["title"].startswith("페이지 이동")}
+    redirect_hrefs = {
+        href
+        for href, meta in parsed.items()
+        if meta["is_redirect"]
+        or meta["title"].startswith("페이지 이동")
+        or Path(href).name.startswith("#U")
+    }
     for middles in brain.get("tree", {}).values():
         for smalls in middles.values():
             for small, entries in list(smalls.items()):
@@ -173,7 +180,8 @@ def build(root: Path) -> dict:
     home = root / "index.html"
     home_text = home.read_text(encoding="utf-8")
     if '/js/savingio-search-core.js' not in home_text:
-        home_text = home_text.replace('<script>\nconst portalItems =', '<script src="/js/savingio-search-core.js?v=1"></script>\n<script>\nconst portalItems =', 1)
+        home_text = home_text.replace('<script>\nconst portalItems =', f'<script src="/js/savingio-search-core.js?v={SEARCH_RUNTIME_VERSION}"></script>\n<script>\nconst portalItems =', 1)
+    home_text = re.sub(r'/js/savingio-search-core\.js\?v=\d+', f'/js/savingio-search-core.js?v={SEARCH_RUNTIME_VERSION}', home_text)
     portal_items = [[item["title"], item["description"], href, item["keywords"], item["exact_queries"]] for href, item in index.items()]
     home_text, count = re.subn(
         r"const portalItems = \[.*?\];\nconst searchInput=",
@@ -191,7 +199,8 @@ def build(root: Path) -> dict:
     for href in redirect_hrefs:
         listing_text = re.sub(r'<a\b[^>]*class="article-card"[^>]*href="' + re.escape(href) + r'"[^>]*>.*?</a>', '', listing_text, count=1, flags=re.DOTALL)
     if '/js/savingio-search-core.js' not in listing_text:
-        listing_text = listing_text.replace('<script>const cards=', '<script src="/js/savingio-search-core.js?v=1"></script><script>const cards=', 1)
+        listing_text = listing_text.replace('<script>const cards=', f'<script src="/js/savingio-search-core.js?v={SEARCH_RUNTIME_VERSION}"></script><script>const cards=', 1)
+    listing_text = re.sub(r'/js/savingio-search-core\.js\?v=\d+', f'/js/savingio-search-core.js?v={SEARCH_RUNTIME_VERSION}', listing_text)
     for href, item in index.items():
         pattern = re.compile(r'(<a\b[^>]*class="article-card"[^>]*data-search=")[^"]*("[^>]*href="' + re.escape(href) + r'")')
         listing_text, _ = pattern.subn(
