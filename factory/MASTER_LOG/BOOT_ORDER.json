@@ -1,0 +1,45 @@
+{
+  "version": "V3.025",
+  "locked": true,
+  "purpose": "Restore the current Savingio state without asking the user to reconstruct memory.",
+  "repository": "yusun7749-art/savingio",
+  "source_branch": "main",
+  "work_mode": "github_pr_main_cloudflare",
+  "zip_mode": "backup_or_explicit_request_only",
+  "authority_order": [
+    "factory/MASTER_LOG/MEMORY_CONSTITUTION.md",
+    "GitHub main actual files and latest commit",
+    "factory/MASTER_LOG/MASTER_LOG_CURRENT.md",
+    "factory/MASTER_LOG/MASTER_LOG_PART1.md",
+    "factory/MASTER_LOG/MASTER_LOG_PART1-1.md",
+    "factory/MASTER_LOG/MASTER_LOG_PART2.md",
+    "factory/MASTER_LOG/MASTER_LOG_PART3.md",
+    "latest user instruction",
+    "conversation memory"
+  ],
+  "required_boot_steps": [
+    "read latest main commit",
+    "read MEMORY_CONSTITUTION.md",
+    "read the five official MASTER LOG files in order",
+    "compare log baseline with latest main",
+    "inspect actual files for failures and pending work",
+    "repair stale logs before new development",
+    "continue from the verified next action"
+  ],
+  "forbidden_regressions": [
+    "requesting a ZIP by default",
+    "treating ZIP as the official source",
+    "claiming GitHub write access is unavailable without checking",
+    "asking the user to reconstruct completed history",
+    "using old workflow guidance over current repository evidence",
+    "reporting PASS without execution evidence"
+  ],
+  "trigger_phrases": [
+    "진행",
+    "시작",
+    "0",
+    "마스터로그 확인하고 와",
+    "이어서 진행해",
+    "Savingio Factory 이어서 시작"
+  ]
+}
