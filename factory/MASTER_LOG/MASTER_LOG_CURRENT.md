@@ -2,6 +2,14 @@
 
 최종 갱신: 2026-07-18 KST
 
+## V3.026 기억 복구·분류형 MASTER LOG
+
+- `마스터로그보고와` 명령은 Savingio의 헌법, BOOT ORDER, CURRENT, NEXT TASK, 01_SUCCESS~06_QA 전체, 기존 PART 로그, 최신 `main`을 모두 확인하라는 뜻으로 LOCK했다.
+- 실행 종료 즉시 성공·실패·결정·인수인계·지식·QA 문서에 자동 분류 저장하도록 고정했다.
+- 분류형 MASTER LOG 폴더와 문서 19개, `README.md`, `MASTER_LOG_HISTORY.md`를 추가했다.
+- ZIP 방식은 명시 요청 또는 백업일 때만 사용하며 GitHub `main`이 공식 본집이다.
+- 이번 작업 완료 후 원래 Savingio 시작점은 교통벌금 중복 제목 수정과 offset 25 배치 재검사다.
+
 - 프로젝트: Savingio Factory
 - 저장소: `yusun7749-art/savingio`
 - 작업 브랜치: `main`
@@ -116,7 +124,7 @@ GitHub `main`이 실제 구현 상태의 최종 기준이다.
 3. offset 25의 현재 5개 글을 강화된 QA 기준으로 다시 검사
 4. 중복 제목·작성자 박스·대표 이미지 중복을 전체 글에서 검색
 5. 실제 완료 배치와 미완료 배치를 다시 분리
-6. 결과를 PART1, PART1-1, PART2, PART3에 복구 기록
+6. 결과를 분류형 로그와 기존 PART 로그에 함께 기록
 7. 다음 5개 배치 시작
 
 # V3.016 — 전체 글 리모델링 1차(20개) 적용
