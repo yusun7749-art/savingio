@@ -169,3 +169,54 @@ DESIGNED / REWORK REQUIRED / NOT IMPLEMENTED
 
 ### 상태
 REPOSITORY IMPLEMENTED / PRODUCTION VERIFICATION PENDING
+
+## 2026-07-18 — LifeBookMom Factory 구현 및 인수인계
+
+### Blogger 자동화 기존 구현 확인
+- Blogger API를 통한 실제 비공개 초안 생성 성공 이력이 있다.
+- 확인된 post ID: `3288570173236822272`.
+- 생성 직후 Blogger 초안을 다시 조회하고 CMS와 일치 여부를 확인하는 검증 엔진이 있다.
+- 공개 발행은 명시적 `PUBLISH` 확인값이 있어야 진행되는 안전 발행 엔진이 있다.
+- 관련 병합 기록: PR #15, #16, #17, #18.
+- 사용자 PC의 기존 인증 파일·환경변수를 사용하는 구조이며 인증정보를 GitHub에 공개 저장하지 않는다.
+
+### Sprint020-01 Brand DNA Engine
+- 생성: `lifebookmom_engine/brand_dna_engine.py`
+- 수정: `lifebookmom_automation/topic_to_blogger_draft_runner.py`
+- 생성: `tests/test_brand_dna_engine.py`
+- 실제 생활 장면, 아이의 대사, 부모 감정, 아이 마음 해석, 부모 시선 변화, 감성 마무리를 강제하는 변환 로직을 구현했다.
+- 본문에서 `리니` 이름이 나오면 Brand QA 실패 처리한다.
+- Brand QA를 Content QA보다 먼저 실행한다.
+- Brand QA 실패 시 `BLOCKED_BY_BRAND_QA`로 Blogger 전송을 차단한다.
+- Brand QA JSON 보고서를 별도 저장한다.
+- 관련 커밋: `7e778b36`, `7c6d8966`, `39bd36d9`, `eea62f80`, `fa30691d`.
+
+### 사용자 개입 ZERO화 1차 구현
+- 생성: `LIFEBOOKMOM-FACTORY.bat`
+- 생성: `.github/workflows/lifebookmom-factory-qa.yml`
+- 의도한 자동 경로: main 동기화 → pytest 준비 → Brand DNA 테스트 → 전체 테스트 → QA Gate → 글 생성 → Blogger 비공개 초안 → 로그 저장.
+- 관련 커밋: `f5274c5e`, `7550c4c5`, `d486afba`.
+
+### MASTER LOG 인수인계 강화
+- 생성: `factory/MASTER_LOG/MASTER_LOG_LIFEBOOKMOM_CURRENT.md`
+- 이 파일에 Blogger 연결 성공 이력, GitHub 쓰기 성공, 구현 파일, 커밋, 미검증 항목, 사용자 개입 ZERO 계약, 정확한 재시작 순서를 상세 기록했다.
+- CURRENT에도 LifeBookMom 현재 상태와 재시작 위치를 추가했다.
+- 관련 커밋: `de3131b9`, `834a1997`, `4cff899d`.
+
+### 구현상 미완성 항목
+- GitHub Actions 실제 실행 PASS 미확인.
+- Windows One Click BAT 실제 E2E 미검증.
+- 썸네일·본문 연관 이미지·10컷 인포그래픽 자동 생성 미완성.
+- 공식 워터마크·캐릭터 LOCK·ALT·대표 이미지·Blogger 이미지 삽입 Gate 미완성.
+- `진행` 또는 주제 한 줄만으로 전체가 끝나는 E2E 미완성.
+
+### 상태
+IMPLEMENTED / HANDOFF RECORDED / TEST EXECUTION PENDING / IMAGE FACTORY PENDING
+
+### 정확한 다음 구현
+- Sprint020-02 `Zero-Intervention Audit + Image Factory`.
+- 먼저 기존 파일과 Workflow가 `main`에 실제 존재하는지 확인한다.
+- CI 실행이 없었던 원인을 수정하고 테스트를 실제 실행한다.
+- 이미지 3종과 워터마크·캐릭터·ALT·삽입 Gate를 구현한다.
+- `엄마, 나만 친구 집에 못 가?` / `생활·관계`로 dry-run 후 QA 3종을 분리 검증한다.
+- 통과 시에만 Blogger 비공개 초안을 만들고 생성 직후 재조회 검증한다.
