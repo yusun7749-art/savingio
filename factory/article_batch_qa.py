@@ -22,7 +22,15 @@ REPORT = ROOT / "factory" / "ARTICLE_BATCH_QA.json"
 
 EXCLUDED = {"index.html"}
 REQUIRED_SECTIONS = ("3초 요약", "목차", "자주 묻는 질문")
-DNA_VERSION = "6"
+PROBLEM_SOLVING_TERMS = {
+    "immediate_action": ("지금 할 일", "바로 확인", "즉시 확인"),
+    "symptom_branch": ("증상", "상황별", "경우별"),
+    "safety_decision": ("계속 운전", "안전", "즉시 정비", "바로 점검"),
+    "cost_guidance": ("비용", "견적", "공임"),
+    "mistake_prevention": ("하면 안 되는", "주의", "실수"),
+    "plain_language": ("쉽게 말하면", "같은 부품", "심장 같은", "비슷합니다"),
+}
+DNA_VERSION = "7"
 
 
 def visible_text(html: str) -> str:
@@ -145,6 +153,19 @@ def ensure_thumbnail_meta(html: str, slug: str, title: str) -> tuple[str, bool, 
     return html, changed, True
 
 
+def problem_solving_audit(html: str, text: str) -> dict[str, Any]:
+    enabled = 'data-savingio-problem-solving="v1"' in html or "data-savingio-problem-solving='v1'" in html
+    checks = {
+        key: any(term in text for term in terms)
+        for key, terms in PROBLEM_SOLVING_TERMS.items()
+    }
+    return {
+        "enabled": enabled,
+        "checks": checks,
+        "complete": (not enabled) or all(checks.values()),
+    }
+
+
 def audit(path: Path, html: str) -> dict[str, Any]:
     text = visible_text(html)
     title = extract_title(html)
@@ -164,11 +185,20 @@ def audit(path: Path, html: str) -> dict[str, Any]:
         "has_canonical": bool(re.search(r'rel=["\']canonical["\']', html, flags=re.I)),
         "related_article_links": related_links,
         "required_sections": {name: name in text for name in REQUIRED_SECTIONS},
+        "problem_solving": problem_solving_audit(html, text),
     }
 
 
 def score(item: dict[str, Any]) -> int:
-    checks = [item["visible_characters"] >= 3500, item["has_thumbnail_file"], item["has_thumbnail_markup"], item["has_og_image"], item["has_twitter_image"], item["has_author_box"], item["has_faq_schema"], item["has_article_schema"], item["has_canonical"], item["related_article_links"] >= 2, bool(item["category"]), all(item["required_sections"].values())]
+    checks = [
+        item["visible_characters"] >= 3500,
+        item["has_thumbnail_file"], item["has_thumbnail_markup"],
+        item["has_og_image"], item["has_twitter_image"],
+        item["has_author_box"], item["has_faq_schema"], item["has_article_schema"],
+        item["has_canonical"], item["related_article_links"] >= 2,
+        bool(item["category"]), all(item["required_sections"].values()),
+        item["problem_solving"]["complete"],
+    ]
     return round(sum(checks) / len(checks) * 100)
 
 
@@ -200,7 +230,18 @@ def main() -> int:
         item["qa_score"] = score(item)
         item["status"] = "PASS" if item["qa_score"] >= 90 else "FIX"
         results.append(item)
-    report = {"generated_at": dt.datetime.now(dt.timezone.utc).isoformat(), "mode": "apply" if args.apply else "audit", "dna_version": DNA_VERSION, "offset": args.offset, "limit": args.limit, "selected_count": len(selected), "changed_count": len(changed_files), "changed_files": changed_files, "pass_count": sum(r["status"] == "PASS" for r in results), "fix_count": sum(r["status"] == "FIX" for r in results), "articles": results}
+    report = {
+        "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+        "mode": "apply" if args.apply else "audit",
+        "dna_version": DNA_VERSION,
+        "editorial_qa": "problem-solving-v1",
+        "offset": args.offset, "limit": args.limit,
+        "selected_count": len(selected), "changed_count": len(changed_files),
+        "changed_files": changed_files,
+        "pass_count": sum(r["status"] == "PASS" for r in results),
+        "fix_count": sum(r["status"] == "FIX" for r in results),
+        "articles": results,
+    }
     REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(report, ensure_ascii=False, indent=2))
     return 0
