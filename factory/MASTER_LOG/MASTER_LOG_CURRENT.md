@@ -109,7 +109,7 @@ GitHub `main`이 실제 구현 상태의 최종 기준이다.
 - 전체 반복 삽입 패턴 검사: PENDING
 - 다음 신규 배치: 위 오류 및 현재 배치 재검사 후 진행
 
-## 바로 이어서 할 작업
+## Savingio 바로 이어서 할 작업
 
 1. 교통벌금 글 중복 제목 수정
 2. `fix_traffic_article_layout.py` 멱등성 수정
@@ -127,3 +127,59 @@ GitHub `main`이 실제 구현 상태의 최종 기준이다.
 - `장기충당금`, `아랫집에서 누수 연락`, `일배책으로 누수 보험 처리`처럼 실제 사용자 표현을 연결 제목에 포함했다.
 - 리디렉션 호환 문서 14개는 공개 글/리모델링 대상에서 제외한다.
 - 1차 전용 계약 검사와 기존 검색·레이아웃·Factory 검사를 통과한 뒤 배포한다.
+
+---
+
+# LIFEBOOKMOM FACTORY 현재 인수인계
+
+상세 단일 문서:
+
+- `factory/MASTER_LOG/MASTER_LOG_LIFEBOOKMOM_CURRENT.md`
+
+새 대화에서 `마스터로그 확인하고 와`라는 요청을 받으면 위 문서를 포함해 공식 MASTER LOG를 모두 읽고 GitHub `main` 실제 파일과 비교한 뒤 바로 이어서 작업한다.
+
+## 연결과 권한의 확인된 사실
+
+- ChatGPT GitHub Connector로 `yusun7749-art/savingio` 파일 생성·수정을 실제 수행했다.
+- Blogger API 기반 비공개 초안 생성은 이전 실제 실행에서 성공했다.
+- 확인된 Blogger post ID는 `3288570173236822272`다.
+- Blogger 초안 재조회 검증 엔진과 명시적 `PUBLISH` 기반 안전 발행 엔진도 구현·병합 기록이 있다.
+- 사용자 PC에 기존 Blogger 인증 실행 환경이 구성되어 있다.
+- 새 대화에서 근거 없이 `GitHub 연결이 안 됩니다`, `쓰기 권한이 없습니다`, `Blogger 아이디가 연결되지 않았습니다`라고 초기화하지 않는다.
+- 단, 새 실행의 성공은 실제 실행 결과로 검증한다.
+
+## 완료·구현된 LifeBookMom 범위
+
+- Sprint017: Blogger 비공개 초안 생성 성공
+- Sprint018: Blogger 생성 직후 재조회 및 CMS 일치 검증
+- Sprint019: 명시적 확인 기반 안전 공개 발행
+- Sprint020-01: Brand DNA Engine과 Brand QA 선행 차단
+- `LIFEBOOKMOM-FACTORY.bat` 생성
+- `.github/workflows/lifebookmom-factory-qa.yml` 생성
+- MASTER LEARNING LOG 및 JSONL 작업 기록 생성
+
+## 현재 검증되지 않았거나 빠진 범위
+
+- Brand DNA 테스트의 실제 GitHub Actions 실행 PASS 미확인
+- `LIFEBOOKMOM-FACTORY.bat`의 실제 Windows E2E 미검증
+- 대표 썸네일·본문 연관 이미지·세로형 10컷 인포그래픽 자동화 미완성
+- 워터마크·캐릭터 LOCK·ALT·대표 이미지·Blogger 삽입 QA 미완성
+- 사용자가 `진행` 또는 주제 한 줄만 입력하고 끝까지 자동 수행되는 E2E 미완성
+
+## LifeBookMom 정확한 재시작 지점
+
+Sprint020-02 — Zero-Intervention Audit + Image Factory
+
+1. Brand DNA, Runner, 테스트, One Click BAT, Workflow 실제 파일을 `main`에서 확인한다.
+2. Workflow 실행이 없었던 원인을 찾아 실제 CI가 돌도록 수정한다.
+3. Brand DNA 집중 테스트와 관련 회귀 테스트를 실제 실행한다.
+4. 대표 썸네일, 본문 이미지, 10컷 인포그래픽, 워터마크, 캐릭터 LOCK, ALT, Blogger 삽입 계약을 구현한다.
+5. 이미지 하나라도 누락되면 Blogger 단계로 보내지 않는 Gate를 만든다.
+6. `엄마, 나만 친구 집에 못 가?` / `생활·관계` 주제로 dry-run 한다.
+7. Brand QA, Content QA, Image QA를 분리 저장한다.
+8. 모두 통과하면 Blogger 비공개 초안을 생성하고 즉시 재조회 검증한다.
+9. 성공·실패와 관계없이 같은 회차에 CURRENT, PART1, PART1-1, PART2, PART3를 모두 갱신한다.
+
+새 대화 시작 문구:
+
+`마스터로그 확인하고 와. 생활백서맘 Sprint020-02부터 바로 진행해.`
