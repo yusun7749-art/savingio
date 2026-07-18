@@ -1,4 +1,4 @@
-/* Savingio Article Layout DNA v1.4
+/* Savingio Article Layout DNA v1.5
    Shared spacing and card rhythm for article pages. */
 .savingio-article-dna { overflow-x: hidden; }
 .savingio-article-dna main,
@@ -86,45 +86,63 @@
 .savingio-article-dna .quick-grid > article h2 { margin: 0 0 12px; }
 .savingio-article-dna .quick-grid > article p { margin: 0; }
 
-/* Related articles: one clear card per row. */
+/* Related articles: compact, equal-height cards across every article template. */
 .savingio-article-dna .savingio-related { margin: 42px 0 34px; }
 .savingio-article-dna .savingio-related > h2 { margin: 0 0 18px; }
-.savingio-article-dna .savingio-related .related-grid {
+.savingio-article-dna .savingio-related .related-grid,
+.savingio-article-dna .related-grid {
   display: grid !important;
   grid-template-columns: 1fr !important;
-  gap: 14px !important;
+  grid-auto-rows: 1fr;
+  gap: 12px !important;
+  align-items: stretch;
 }
-.savingio-article-dna .savingio-related .related-card {
+.savingio-article-dna .savingio-related .related-card,
+.savingio-article-dna .related-grid .related-card {
   display: flex !important;
   flex-direction: column;
+  justify-content: center;
   min-width: 0;
   width: 100%;
-  padding: 20px 22px !important;
+  min-height: 104px;
+  height: 100%;
+  padding: 16px 20px !important;
   border: 1px solid #dbe5f3;
   border-radius: 16px;
   background: #f8fbff;
   color: #17233d;
   text-decoration: none;
-  line-height: 1.55;
+  line-height: 1.5;
+  overflow: hidden;
   transition: border-color .18s ease, box-shadow .18s ease, transform .18s ease;
 }
-.savingio-article-dna .savingio-related .related-card:hover {
+.savingio-article-dna .savingio-related .related-card:hover,
+.savingio-article-dna .related-grid .related-card:hover {
   border-color: #1769ff;
   box-shadow: 0 10px 24px rgba(23,105,255,.10);
   transform: translateY(-2px);
 }
-.savingio-article-dna .savingio-related .related-card strong {
-  display: block;
-  margin-bottom: 8px;
+.savingio-article-dna .savingio-related .related-card strong,
+.savingio-article-dna .related-grid .related-card strong {
+  display: -webkit-box;
+  margin: 0 0 6px;
   color: #1457c9;
   font-size: 17px;
-  line-height: 1.45;
+  line-height: 1.4;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
-.savingio-article-dna .savingio-related .related-card span {
-  display: block;
+.savingio-article-dna .savingio-related .related-card span,
+.savingio-article-dna .related-grid .related-card span {
+  display: -webkit-box;
+  margin: 0;
   color: #667085;
   font-size: 14px;
-  line-height: 1.65;
+  line-height: 1.55;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 .savingio-article-dna .source-note {
   margin: 30px 0 42px;
@@ -158,6 +176,11 @@
   }
   .savingio-article-dna .quick-grid { grid-template-columns: 1fr; }
   .savingio-article-dna .quick-grid > article { min-height: 0; }
+  .savingio-article-dna .savingio-related .related-card,
+  .savingio-article-dna .related-grid .related-card {
+    min-height: 96px;
+    padding: 15px 17px !important;
+  }
 }
 
 /* Life-map path: topic -> situation -> problem -> next question. */
