@@ -122,3 +122,23 @@
 - 자동화 정지 지점: 누수 3개 저장소 보정 및 로그 갱신 완료
 - 남은 범위: Production 실제 이미지·왼쪽 카테고리·검색·모바일 폭·공식/관련 링크 클릭 검증
 - 재시작 지점: 누수 3개 Production 브라우저 검증 후 다음 5개 배치
+
+### LifeBookMom 방 전환 인수인계 기록
+- 사용자가 채팅 답변이 아니라 기존 공식 MASTER LOG 파일에 모든 완료·실패·누락·연결 상태·재시작 위치를 상세 저장하라고 재확인했다.
+- 새 전용 인수인계 파일 `factory/MASTER_LOG/MASTER_LOG_LIFEBOOKMOM_CURRENT.md`를 생성했다.
+- Blogger API 비공개 초안 생성 성공, 확인 post ID `3288570173236822272`, 초안 재조회 검증, 안전 발행 엔진의 기존 완료 이력을 기록했다.
+- GitHub Connector로 이 저장소 읽기·쓰기 성공 사실과 사용자 PC의 기존 Blogger 인증 실행 환경을 기록했다.
+- 새 대화에서 근거 없이 `GitHub 연결 안 됨`, `쓰기 불가`, `Blogger 아이디 미연결`로 되돌아가지 않도록 운영 규칙을 명시했다.
+- Brand DNA Engine, Brand QA 차단, One Click BAT, GitHub Actions Workflow의 구현 파일과 관련 커밋을 기록했다.
+- 테스트 미실행, Windows E2E 미검증, 이미지 Factory 미완성, 사용자 개입 ZERO E2E 미완성을 분리 기록했다.
+- 현재 재시작 위치를 `Sprint020-02 — Zero-Intervention Audit + Image Factory`로 고정했다.
+- 상세 파일 생성 커밋: `de3131b93ff3b0c122a6ea85e1a326c53f915154`.
+- CURRENT 통합 커밋: `834a1997342dec0efcbed7c010c31898465c5200`.
+- 상태: HANDOFF RECORDED / IMPLEMENTED ITEMS PRESERVED / TEST AND IMAGE WORK PENDING
+
+### LifeBookMom 정확한 재시작 지점
+- `lifebookmom_engine/brand_dna_engine.py`, Runner, 테스트, `LIFEBOOKMOM-FACTORY.bat`, Workflow를 GitHub `main`에서 재확인한다.
+- 실제 CI 실행이 없었던 원인을 수정하고 Brand DNA·회귀 테스트를 실행한다.
+- 대표 썸네일·본문 연관 이미지·10컷 인포그래픽·워터마크·캐릭터 LOCK·ALT·Blogger 삽입 Gate를 구현한다.
+- `엄마, 나만 친구 집에 못 가?` / `생활·관계` 주제로 dry-run 후 Brand QA·Content QA·Image QA를 분리 검증한다.
+- 모두 통과할 때만 Blogger 비공개 초안을 생성하고 즉시 재조회 검증한다.
