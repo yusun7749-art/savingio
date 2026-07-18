@@ -3,6 +3,7 @@ from pathlib import Path
 import json
 from .utils import now_iso, save_json
 from .deployment_integrity import verify_deployment_integrity
+from .runtime_log_bridge import write_runtime_log
 
 
 def evaluate_deployment_gate(project_root: Path, repair: bool = False) -> dict:
@@ -49,4 +50,5 @@ def evaluate_deployment_gate(project_root: Path, repair: bool = False) -> dict:
         "checked_at": now_iso(),
     }
     save_json(output / "deployment_gate_report.json", result)
+    write_runtime_log(summary="deployment gate completed",files="factory/deployment_gate.py",tests="deployment gate execution",status="IMPLEMENTED" if not blockers else "FAILED",blocker=','.join(blockers))
     return result
