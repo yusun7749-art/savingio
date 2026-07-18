@@ -1,5 +1,6 @@
 from pathlib import Path
 import uuid
+from argparse import Namespace
 from .planner import build_plan
 from .research_department import run_research_department
 from .seo import build_seo
@@ -13,12 +14,31 @@ from .department_gate import evaluate_department
 from .deployment_gate import evaluate_deployment_gate
 from .analytics_dashboard import build_analytics_dashboard
 from .content_performance_optimizer import recommend_from_dashboard
+from .MASTER_LOG.master_log_manager import record
 from .utils import save_json, now_iso
+
 
 def _add(root,wid,department,packet,config,handoffs):
     gate=evaluate_department(department,packet,config); h=build_handoff(wid,department,packet,'ready' if gate['pass'] else 'blocked',gate['blockers']); h['gate']=gate; h['path']=save_handoff(root,h); handoffs.append(h); return gate['pass']
+
+
 def _finish(root,wid,topic,status,handoffs,packets):
-    result={'workflow_id':wid,'topic':topic,'status':status,'handoff_count':len(handoffs),'handoffs':handoffs,'packets':packets,'created_at':now_iso()}; save_json(root/'factory'/'output'/'automation_cycle_report.json',result); return result
+    result={'workflow_id':wid,'topic':topic,'status':status,'handoff_count':len(handoffs),'handoffs':handoffs,'packets':packets,'created_at':now_iso()}
+    save_json(root/'factory'/'output'/'automation_cycle_report.json',result)
+    try:
+        record(Namespace(
+            summary=f"{topic} automation cycle {status}",
+            status="IMPLEMENTED",
+            files="factory/automation_cycle.py",
+            tests="automation cycle execution",
+            next="continue",
+            blocker=""
+        ))
+    except Exception:
+        pass
+    return result
+
+
 def run_automation_cycle(topic,project_root:Path,evidence_files=None,draft_on_block:bool=False):
     root=project_root.resolve(); config=root/'factory'/'config'; out=root/'factory'/'output'; wid=uuid.uuid4().hex; h=[]; packets={}
     plan=build_plan(topic,config); packets['planning']=plan
