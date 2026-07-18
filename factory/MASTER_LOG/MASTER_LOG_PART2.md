@@ -136,3 +136,36 @@ VERIFIED / APPROVED / READY FOR GITHUB REVIEW
 
 ### 상태
 DESIGNED / REWORK REQUIRED / NOT IMPLEMENTED
+
+## 2026-07-18 11:12 KST — V3.022 누수 파일럿 구현
+
+### 구현 내용
+- `apartment-leak-emergency-response.svg`를 누수 긴급 대응 전용 저장소 내부 일러스트로 교체했다.
+- `daily-liability-leak-insurance.svg`를 일배책 접수·서류 흐름 전용 일러스트로 교체했다.
+- `home-water-leak-self-check.svg`를 수도계량기·배관 점검 전용 일러스트로 교체했다.
+- `daily-liability-leak-insurance.html`을 기존 짧은 글에 덧씌우지 않고 새 완성본으로 전면 교체했다.
+- `home-water-leak-self-check.html`을 기존 짧은 글에 덧씌우지 않고 새 완성본으로 전면 교체했다.
+- 두 글에 Article DNA CSS, `savingio-article-dna`, Article JSON-LD, 내부 SVG `<img>`, OG/Twitter 이미지를 적용했다.
+- 누수 자가진단 글에서 전기요금 계산기 오연결을 제거하고 수도사업소·관리사무소·전문가 확인 흐름으로 정리했다.
+
+### 수정 파일
+- `articles/daily-liability-leak-insurance.html`
+- `articles/home-water-leak-self-check.html`
+- `images/articles/apartment-leak-emergency-response.svg`
+- `images/articles/daily-liability-leak-insurance.svg`
+- `images/articles/home-water-leak-self-check.svg`
+- `factory/MASTER_LOG/MASTER_LOG_CURRENT.md`
+- `factory/MASTER_LOG/MASTER_LOG_PART1-1.md`
+- `factory/MASTER_LOG/MASTER_LOG_PART2.md`
+
+### 커밋
+- `2f7f70543c4e2f35deb78815dec78d6500726cbf`
+- `131a4675a2b8955710a172e2be5e002fdd921f36`
+- `99e12ad19deb14e9ff4e4b7c875345e0f1274e08`
+- `5cefdcf6f68414f6017512f6d712e663770754b9`
+- `d4e76c4870e209d5bb8b7eeab497dee319e76ea5`
+- `b09415255d7dc56a6f6f3c8cb7dba8566d0d47b8`
+- `8af378629b0f392de9d75a79dc48e812a39c157c`
+
+### 상태
+REPOSITORY IMPLEMENTED / PRODUCTION VERIFICATION PENDING
