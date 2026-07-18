@@ -9,8 +9,9 @@ from html import escape
 from pathlib import Path
 
 
-VERSION = "1.0.0"
+VERSION = "1.1.0"
 MARKER = "data-savingio-problem-path"
+MAX_PATH_CARDS = 6
 SPECIAL_CHAIN = [
     {
         "title": "장기수선충당금 소유자 부담과 임차인 반환 확인",
@@ -89,7 +90,7 @@ def fallback_cluster(root: Path, current_href: str) -> list[ArticleNode]:
     for href in re.findall(r'href=["\'](/articles/[^"\'#?]+\.html)["\']', html, re.IGNORECASE):
         if href not in hrefs and (root / href.lstrip("/")).is_file():
             hrefs.append(href)
-        if len(hrefs) >= 6:
+        if len(hrefs) >= MAX_PATH_CARDS:
             break
     if len(hrefs) == 1 and "전기요금" in html:
         for href in (
@@ -109,9 +110,31 @@ def fallback_cluster(root: Path, current_href: str) -> list[ArticleNode]:
     return nodes
 
 
+def compact_cluster(current_href: str, cluster: list[ArticleNode]) -> list[ArticleNode]:
+    if len(cluster) <= MAX_PATH_CARDS:
+        return cluster
+    try:
+        current_index = next(index for index, node in enumerate(cluster) if node.href == current_href)
+    except StopIteration:
+        current_index = 0
+    chosen: list[ArticleNode] = []
+
+    def add(index: int) -> None:
+        if 0 <= index < len(cluster) and cluster[index] not in chosen:
+            chosen.append(cluster[index])
+
+    for index in (current_index, current_index - 1, current_index + 1, current_index - 2, current_index + 2):
+        add(index)
+    for index in range(len(cluster)):
+        if len(chosen) >= MAX_PATH_CARDS:
+            break
+        add(index)
+    return chosen[:MAX_PATH_CARDS]
+
+
 def render_path(current_href: str, cluster: list[ArticleNode]) -> str:
     cards: list[str] = []
-    for index, node in enumerate(cluster, 1):
+    for index, node in enumerate(compact_cluster(current_href, cluster), 1):
         current = ' aria-current="step"' if node.href == current_href else ""
         state = "현재 글" if current else "다음 확인"
         cards.append(
@@ -119,9 +142,9 @@ def render_path(current_href: str, cluster: list[ArticleNode]) -> str:
             f'<strong>{index}. {escape(node.title)}</strong><span>{state}</span></a>'
         )
     return (
-        f'<section class="savingio-problem-path" {MARKER}="v1">'
+        f'<section class="savingio-problem-path" {MARKER}="v2">'
         '<h2>이 문제를 끝내는 확인 순서</h2>'
-        '<p>현재 글만 보고 끝내지 말고, 원인 확인부터 비용·보험 점검까지 순서대로 확인하세요.</p>'
+        '<p>현재 글과 바로 이어서 확인할 핵심 단계만 정리했습니다. 필요한 항목을 카드별로 선택하세요.</p>'
         f'<div class="savingio-path-steps">{"".join(cards)}</div></section>'
     )
 
@@ -149,6 +172,16 @@ def upsert_path(html: str, block: str) -> tuple[str, bool]:
     return html, False
 
 
+def update_layout_css_version(html: str) -> str:
+    updated = re.sub(
+        r'(/css/article-layout-dna\.css)(?:\?v=[^"\']+)?',
+        r'\1?v=2',
+        html,
+        flags=re.IGNORECASE,
+    )
+    return updated
+
+
 def run(root: Path, batch_number: int, batch_size: int = 50, apply: bool = False) -> dict:
     root = root.resolve()
     batches, clusters = build_batches(root, batch_size=batch_size)
@@ -169,7 +202,9 @@ def run(root: Path, batch_number: int, batch_size: int = 50, apply: bool = False
                 skipped.append(path.relative_to(root).as_posix())
                 continue
         original = path.read_text(encoding="utf-8")
-        updated, did_change = upsert_path(original, render_path(href, cluster))
+        updated, _ = upsert_path(original, render_path(href, cluster))
+        updated = update_layout_css_version(updated)
+        did_change = updated != original
         if did_change:
             changed.append(path.relative_to(root).as_posix())
             if apply:
@@ -183,13 +218,10 @@ def run(root: Path, batch_number: int, batch_size: int = 50, apply: bool = False
         "article_count": sum(len(batch) for batch in batches),
         "batch_size": batch_size,
         "batch_count": len(batches),
+        "max_path_cards": MAX_PATH_CARDS,
         "batches": [
             {"number": index, "count": len(batch), "articles": batch}
             for index, batch in enumerate(batches, 1)
-        ],
-        "planned_missing_nodes": [
-            {"title": "윗집에서 물이 샐 때 책임·증거·수리 순서", "status": "research_required"},
-            {"title": "일상생활배상책임보험(일배책) 누수 보상 확인", "status": "research_required"},
         ],
     }
     report = {
@@ -216,7 +248,7 @@ def run(root: Path, batch_number: int, batch_size: int = 50, apply: bool = False
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Apply Savingio article relationship paths in fixed-size batches.")
+    parser = argparse.ArgumentParser(description="Apply compact Savingio article relationship paths in fixed-size batches.")
     parser.add_argument("--project-root", default=".")
     parser.add_argument("--batch", type=int, required=True)
     parser.add_argument("--batch-size", type=int, default=50)
