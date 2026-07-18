@@ -1,4 +1,15 @@
 (function(){
+  const removeReleaseBadge=()=>{
+    document.querySelectorAll('body *').forEach((element)=>{
+      if(element.children.length)return;
+      const text=(element.textContent||'').replace(/\s+/g,' ').trim();
+      if(/V2\.177/i.test(text)||/RELEASE\s*READY/i.test(text))element.remove();
+    });
+  };
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',removeReleaseBadge,{once:true});
+  else removeReleaseBadge();
+  new MutationObserver(removeReleaseBadge).observe(document.documentElement,{childList:true,subtree:true});
+
   const body=document.body;
   const trigger=document.querySelector('.sv-calc-trigger');
   const drawer=document.querySelector('.sv-calc-drawer');
