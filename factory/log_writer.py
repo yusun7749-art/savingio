@@ -9,11 +9,13 @@ Purpose:
 
 from datetime import datetime
 from pathlib import Path
+import json
 
 
 class MasterLogWriter:
-    def __init__(self, log_path="factory/MASTER_LOG/MASTER_LOG_CURRENT.md"):
-        self.log_path = Path(log_path)
+    def __init__(self, config_path="factory/config/master_log_config.json"):
+        config = json.loads(Path(config_path).read_text(encoding="utf-8"))
+        self.log_path = Path(config["log_path"])
 
     def append(self, title, status, details=None, next_task=None):
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -38,20 +40,8 @@ class MasterLogWriter:
             block.append("다음 작업:")
             block.append(f"- {next_task}")
 
-        text = "\n".join(block) + "\n"
-
         if not self.log_path.exists():
             raise FileNotFoundError(self.log_path)
 
         with self.log_path.open("a", encoding="utf-8") as file:
-            file.write(text)
-
-
-if __name__ == "__main__":
-    writer = MasterLogWriter()
-    writer.append(
-        "MASTER LOG Writer 테스트",
-        "TEST",
-        ["append 전용 기록 구조 생성"],
-        "실행 엔진 연결"
-    )
+            file.write("\n".join(block) + "\n")
