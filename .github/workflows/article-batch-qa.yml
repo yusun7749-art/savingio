@@ -18,6 +18,7 @@ on:
       - "factory/article_batch_editorial_patch.py"
       - "factory/fix_traffic_article_layout.py"
       - "factory/adsense_content_depth_audit.py"
+      - "factory/global_article_structure_audit.py"
       - ".github/workflows/article-batch-qa.yml"
 
 permissions:
@@ -118,6 +119,9 @@ jobs:
           print('layout-uniqueness=PASS')
           PY
 
+      - name: Run global article structure audit
+        run: python factory/global_article_structure_audit.py
+
       - name: Run AdSense content depth audit
         run: |
           python factory/adsense_content_depth_audit.py \
@@ -133,6 +137,6 @@ jobs:
           fi
           git config user.name "savingio-factory"
           git config user.email "actions@users.noreply.github.com"
-          git add articles images/articles factory/ARTICLE_BATCH_QA.json factory/ADSENSE_CONTENT_DEPTH_QA.json
+          git add articles images/articles factory/ARTICLE_BATCH_QA.json factory/ADSENSE_CONTENT_DEPTH_QA.json factory/GLOBAL_ARTICLE_STRUCTURE_QA.json
           git commit -m "Part batch apply AdSense depth QA offset ${{ steps.batch.outputs.offset }} limit ${{ steps.batch.outputs.limit }}"
           git push
