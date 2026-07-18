@@ -12,6 +12,9 @@
 /css/*
   Cache-Control: public, max-age=604800
 
+/css/article-layout-dna.css
+  Cache-Control: public, max-age=0, must-revalidate
+
 /js/*
   Cache-Control: public, max-age=604800
 
