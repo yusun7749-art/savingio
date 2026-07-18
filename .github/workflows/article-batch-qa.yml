@@ -54,7 +54,7 @@ jobs:
       - name: Repair traffic article layout idempotently
         run: python factory/fix_traffic_article_layout.py
 
-      - name: Apply curated editorial completion
+      - name: Apply curated problem-solving editorial DNA
         run: python factory/article_batch_editorial_patch.py
 
       - name: Process bounded article batch
@@ -71,10 +71,7 @@ jobs:
           from bs4 import BeautifulSoup
           path = Path('articles/traffic-fines-difference-guide.html')
           soup = BeautifulSoup(path.read_text(encoding='utf-8'), 'html.parser')
-          titles = [
-              h for h in soup.select('h2.quick-summary-title')
-              if h.get_text(' ', strip=True) == '3초 요약'
-          ]
+          titles = [h for h in soup.select('h2.quick-summary-title') if h.get_text(' ', strip=True) == '3초 요약']
           assert len(titles) == 1, f'Expected one 3초 요약 title, found {len(titles)}'
           grid = soup.select_one('section.quick-grid')
           author = soup.select_one('.savingio-author-box')
@@ -84,7 +81,7 @@ jobs:
           print('traffic-layout=PASS')
           PY
 
-      - name: Verify report
+      - name: Verify report and problem-solving DNA
         run: |
           python - <<'PY'
           import json
@@ -92,22 +89,25 @@ jobs:
           data = json.loads(Path('factory/ARTICLE_BATCH_QA.json').read_text(encoding='utf-8'))
           assert data['selected_count'] > 0, 'No article selected'
           assert data['selected_count'] <= int('${{ steps.batch.outputs.limit }}')
+          assert data.get('dna_version') == '7', 'Article DNA version is not 7'
+          assert data.get('editorial_qa') == 'problem-solving-v1', 'Problem-solving QA is disabled'
           assert all(a['visible_characters'] >= 3500 for a in data['articles']), 'Editorial length below minimum'
-          assert all(a['has_thumbnail_file'] for a in data['articles']), 'Thumbnail file missing'
-          assert all(a['has_thumbnail_markup'] for a in data['articles']), 'Thumbnail markup missing'
-          assert all(a['has_og_image'] for a in data['articles']), 'OG image missing'
-          assert all(a['has_twitter_image'] for a in data['articles']), 'Twitter image missing'
+          assert all(a['has_thumbnail_file'] and a['has_thumbnail_markup'] for a in data['articles']), 'Thumbnail missing'
+          assert all(a['has_og_image'] and a['has_twitter_image'] for a in data['articles']), 'Social image metadata missing'
           assert all(a['has_author_box'] for a in data['articles']), 'Author box missing'
           assert all(a['has_faq_schema'] and a['has_article_schema'] for a in data['articles']), 'Schema missing'
           assert all(a['has_canonical'] for a in data['articles']), 'Canonical missing'
           assert all(a['related_article_links'] >= 2 for a in data['articles']), 'Related links missing'
           assert all(a['category'] for a in data['articles']), 'Category missing'
           assert all(all(a['required_sections'].values()) for a in data['articles']), 'Required section missing'
+          assert all(a['problem_solving']['enabled'] for a in data['articles']), 'Problem-solving marker missing'
+          assert all(a['problem_solving']['complete'] for a in data['articles']), 'Problem-solving decision flow incomplete'
           assert data['fix_count'] == 0, 'Batch still contains FIX articles'
           print('selected=', data['selected_count'])
           print('changed=', data['changed_count'])
           print('pass=', data['pass_count'])
           print('fix=', data['fix_count'])
+          print('problem-solving=PASS')
           PY
 
       - name: Commit verified changes
@@ -120,5 +120,5 @@ jobs:
           git config user.name "savingio-factory"
           git config user.email "actions@users.noreply.github.com"
           git add articles images/articles factory/ARTICLE_BATCH_QA.json
-          git commit -m "Part batch normalize and audit offset ${{ steps.batch.outputs.offset }} limit ${{ steps.batch.outputs.limit }}"
+          git commit -m "Part batch apply problem-solving DNA offset ${{ steps.batch.outputs.offset }} limit ${{ steps.batch.outputs.limit }}"
           git push
