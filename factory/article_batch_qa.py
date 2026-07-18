@@ -22,6 +22,7 @@ REPORT = ROOT / "factory" / "ARTICLE_BATCH_QA.json"
 
 EXCLUDED = {"index.html"}
 REQUIRED_SECTIONS = ("3초 요약", "목차", "자주 묻는 질문")
+MIN_VISIBLE_CHARACTERS = 5000
 PROBLEM_SOLVING_TERMS = {
     "immediate_action": ("지금 할 일", "바로 확인", "즉시 확인"),
     "symptom_branch": ("증상", "상황별", "경우별"),
@@ -166,6 +167,27 @@ def problem_solving_audit(html: str, text: str) -> dict[str, Any]:
     }
 
 
+def count_exact_heading(html: str, label: str) -> int:
+    headings = re.findall(r"<h[1-6]\b[^>]*>(.*?)</h[1-6]>", html, flags=re.I | re.S)
+    return sum(
+        re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", heading)).strip() == label
+        for heading in headings
+    )
+
+
+def layout_uniqueness_audit(html: str) -> dict[str, Any]:
+    counts = {
+        "quick_summary_title": count_exact_heading(html, "3초 요약"),
+        "author_box": len(re.findall(r'class=["\'][^"\']*\bsavingio-author-box\b[^"\']*["\']', html, flags=re.I)),
+        "quick_grid": len(re.findall(r'class=["\'][^"\']*\bquick-grid\b[^"\']*["\']', html, flags=re.I)),
+        "thumbnail_markup": len(re.findall(r'class=["\'][^"\']*\bfactory-article-thumb\b[^"\']*["\']', html, flags=re.I)),
+    }
+    return {
+        "counts": counts,
+        "complete": all(count == 1 for count in counts.values()),
+    }
+
+
 def audit(path: Path, html: str) -> dict[str, Any]:
     text = visible_text(html)
     title = extract_title(html)
@@ -175,6 +197,7 @@ def audit(path: Path, html: str) -> dict[str, Any]:
     return {
         "file": path.relative_to(ROOT).as_posix(), "slug": slug, "title": title,
         "category": category, "visible_characters": len(text.replace(" ", "")),
+        "minimum_visible_characters": MIN_VISIBLE_CHARACTERS,
         "has_thumbnail_file": (IMAGES / f"{slug}.svg").exists(),
         "has_thumbnail_markup": "factory-article-thumb" in html,
         "has_og_image": bool(re.search(r'property=["\']og:image["\']', html, flags=re.I)),
@@ -186,19 +209,25 @@ def audit(path: Path, html: str) -> dict[str, Any]:
         "related_article_links": related_links,
         "required_sections": {name: name in text for name in REQUIRED_SECTIONS},
         "problem_solving": problem_solving_audit(html, text),
+        "layout_uniqueness": layout_uniqueness_audit(html),
     }
 
 
-def score(item: dict[str, Any]) -> int:
-    checks = [
-        item["visible_characters"] >= 3500,
+def gates(item: dict[str, Any]) -> list[bool]:
+    return [
+        item["visible_characters"] >= MIN_VISIBLE_CHARACTERS,
         item["has_thumbnail_file"], item["has_thumbnail_markup"],
         item["has_og_image"], item["has_twitter_image"],
         item["has_author_box"], item["has_faq_schema"], item["has_article_schema"],
         item["has_canonical"], item["related_article_links"] >= 2,
         bool(item["category"]), all(item["required_sections"].values()),
-        item["problem_solving"]["complete"],
+        item["problem_solving"]["enabled"], item["problem_solving"]["complete"],
+        item["layout_uniqueness"]["complete"],
     ]
+
+
+def score(item: dict[str, Any]) -> int:
+    checks = gates(item)
     return round(sum(checks) / len(checks) * 100)
 
 
@@ -228,13 +257,14 @@ def main() -> int:
             changed_files.append((IMAGES / f"{path.stem}.svg").relative_to(ROOT).as_posix())
         item = audit(path, html)
         item["qa_score"] = score(item)
-        item["status"] = "PASS" if item["qa_score"] >= 90 else "FIX"
+        item["status"] = "PASS" if all(gates(item)) else "FIX"
         results.append(item)
     report = {
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
         "mode": "apply" if args.apply else "audit",
         "dna_version": DNA_VERSION,
         "editorial_qa": "problem-solving-v1",
+        "minimum_visible_characters": MIN_VISIBLE_CHARACTERS,
         "offset": args.offset, "limit": args.limit,
         "selected_count": len(selected), "changed_count": len(changed_files),
         "changed_files": changed_files,
