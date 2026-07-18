@@ -12,6 +12,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: savingio-problem-path-migration
+  cancel-in-progress: false
+
 jobs:
   migrate:
     runs-on: ubuntu-latest
