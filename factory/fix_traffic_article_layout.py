@@ -3,11 +3,15 @@ from __future__ import annotations
 from pathlib import Path
 import sys
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 
 ROOT = Path(__file__).resolve().parents[1]
 ARTICLE = ROOT / "articles/traffic-fines-difference-guide.html"
 SUMMARY_TEXT = "3초 요약"
+
+
+def normalized_text(tag: Tag) -> str:
+    return " ".join(tag.get_text(" ", strip=True).split())
 
 
 def main() -> int:
@@ -18,19 +22,25 @@ def main() -> int:
     original = ARTICLE.read_text(encoding="utf-8")
     soup = BeautifulSoup(original, "html.parser")
 
-    quick_grid = soup.select_one("section.quick-grid")
-    if quick_grid is None:
-        print("FAIL: quick-grid missing")
+    quick_grids = soup.select("section.quick-grid")
+    if len(quick_grids) != 1:
+        print(f"FAIL: expected one quick-grid, found {len(quick_grids)}")
         return 1
+    quick_grid = quick_grids[0]
 
-    author_box = soup.select_one(".savingio-author-box")
-    if author_box is None:
+    author_boxes = soup.select(".savingio-author-box")
+    if not author_boxes:
         print("FAIL: author box missing")
         return 1
 
-    # 반복 실행으로 쌓인 3초 요약 제목을 모두 제거한 뒤 정확히 하나만 다시 만든다.
-    for heading in list(soup.select("h2.quick-summary-title")):
-        if heading.get_text(" ", strip=True) == SUMMARY_TEXT:
+    # 반복 실행이나 이전 보정 작업으로 생긴 중복 작성자 박스를 제거한다.
+    author_box = author_boxes[0]
+    for duplicate in author_boxes[1:]:
+        duplicate.decompose()
+
+    # 클래스 유무와 관계없이 본문에 쌓인 '3초 요약' 제목을 모두 제거한다.
+    for heading in list(soup.find_all(["h1", "h2", "h3", "h4", "h5", "h6"])):
+        if normalized_text(heading) == SUMMARY_TEXT:
             heading.decompose()
 
     # 작성·검수 박스는 요약 카드 밖에서 가로 전체를 차지한다.
@@ -66,17 +76,23 @@ def main() -> int:
     # 구조 QA
     summary_titles = [
         heading
-        for heading in soup.select("h2.quick-summary-title")
-        if heading.get_text(" ", strip=True) == SUMMARY_TEXT
+        for heading in soup.find_all(["h1", "h2", "h3", "h4", "h5", "h6"])
+        if normalized_text(heading) == SUMMARY_TEXT
     ]
     if len(summary_titles) != 1:
         print(f"FAIL: expected one summary title, found {len(summary_titles)}")
+        return 1
+    if summary_titles[0].get("class") != ["quick-summary-title"]:
+        print("FAIL: summary title class is not normalized")
         return 1
     if summary_title.find_next_sibling() is not quick_grid:
         print("FAIL: summary title is not directly before quick-grid")
         return 1
     if author_box.find_next_sibling() is not summary_title:
         print("FAIL: author box is not directly before summary title")
+        return 1
+    if len(soup.select(".savingio-author-box")) != 1:
+        print("FAIL: duplicate author boxes remain")
         return 1
     if quick_grid.select_one(".savingio-author-box") is not None:
         print("FAIL: author box remains inside quick-grid")
