@@ -17,6 +17,7 @@ on:
       - "factory/article_batch_qa.py"
       - "factory/article_batch_editorial_patch.py"
       - "factory/fix_traffic_article_layout.py"
+      - "factory/adsense_content_depth_audit.py"
       - ".github/workflows/article-batch-qa.yml"
 
 permissions:
@@ -91,7 +92,7 @@ jobs:
           assert data['selected_count'] <= int('${{ steps.batch.outputs.limit }}')
           assert data.get('dna_version') == '7', 'Article DNA version is not 7'
           assert data.get('editorial_qa') == 'problem-solving-v1', 'Problem-solving QA is disabled'
-          assert all(a['visible_characters'] >= 3500 for a in data['articles']), 'Editorial length below minimum'
+          assert all(a['visible_characters'] >= 5000 for a in data['articles']), 'Editorial length below 5000 characters'
           assert all(a['has_thumbnail_file'] and a['has_thumbnail_markup'] for a in data['articles']), 'Thumbnail missing'
           assert all(a['has_og_image'] and a['has_twitter_image'] for a in data['articles']), 'Social image metadata missing'
           assert all(a['has_author_box'] for a in data['articles']), 'Author box missing'
@@ -110,6 +111,12 @@ jobs:
           print('problem-solving=PASS')
           PY
 
+      - name: Run AdSense content depth audit
+        run: |
+          python factory/adsense_content_depth_audit.py \
+            --offset "${{ steps.batch.outputs.offset }}" \
+            --limit "${{ steps.batch.outputs.limit }}"
+
       - name: Commit verified changes
         shell: bash
         run: |
@@ -119,6 +126,6 @@ jobs:
           fi
           git config user.name "savingio-factory"
           git config user.email "actions@users.noreply.github.com"
-          git add articles images/articles factory/ARTICLE_BATCH_QA.json
-          git commit -m "Part batch apply problem-solving DNA offset ${{ steps.batch.outputs.offset }} limit ${{ steps.batch.outputs.limit }}"
+          git add articles images/articles factory/ARTICLE_BATCH_QA.json factory/ADSENSE_CONTENT_DEPTH_QA.json
+          git commit -m "Part batch apply AdSense depth QA offset ${{ steps.batch.outputs.offset }} limit ${{ steps.batch.outputs.limit }}"
           git push
