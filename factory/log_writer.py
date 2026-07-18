@@ -12,10 +12,23 @@ from pathlib import Path
 import json
 
 
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+
 class MasterLogWriter:
-    def __init__(self, config_path="factory/config/master_log_config.json"):
-        config = json.loads(Path(config_path).read_text(encoding="utf-8"))
-        self.log_path = Path(config["log_path"])
+    def __init__(self, config_path=None):
+        if config_path is None:
+            config_path = BASE_DIR / "factory" / "config" / "master_log_config.json"
+        else:
+            config_path = Path(config_path)
+
+        config = json.loads(config_path.read_text(encoding="utf-8"))
+
+        log_path = Path(config["log_path"])
+        if not log_path.is_absolute():
+            log_path = BASE_DIR / log_path
+
+        self.log_path = log_path
         self.auto_commit = config.get("auto_commit", False)
 
     def append(self, title, status, details=None, next_task=None):
