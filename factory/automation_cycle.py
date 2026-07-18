@@ -24,12 +24,16 @@ def _add(root,wid,department,packet,config,handoffs):
 def _finish(root,wid,topic,status,handoffs,packets):
     result={'workflow_id':wid,'topic':topic,'status':status,'handoff_count':len(handoffs),'handoffs':handoffs,'packets':packets,'created_at':now_iso()}
     save_json(root/'factory'/'output'/'automation_cycle_report.json',result)
+    blockers=[]
+    for item in handoffs:
+        blockers.extend(item.get('blockers', []))
     write_runtime_log(
         summary=f"{topic} automation cycle {status}",
-        status="IMPLEMENTED",
+        status="FAILED" if status == "blocked" else "IMPLEMENTED",
         files="factory/automation_cycle.py",
         tests="automation cycle execution",
         next_step="continue",
+        blocker=", ".join(dict.fromkeys(blockers))
     )
     return result
 
