@@ -18,6 +18,8 @@ from .event_log import DepartmentEventLog
 from .rework_manager import ReworkManager
 from .approval_checklist import build_final_checklist
 from .operation_board import build_operation_board
+from .runtime_log_bridge import write_runtime_log
+
 
 def run_full(topic: str, project_root: Path, evidence_file: Path|None=None) -> dict:
     project_root = project_root.resolve()
@@ -51,7 +53,6 @@ def run_full(topic: str, project_root: Path, evidence_file: Path|None=None) -> d
     qa_primary = evaluate(html, plan, research, seo, config_dir)
     dispatcher.advance(workflow_id, "image", {"brief_pending": True})
 
-    # automatic rework loop
     rework_log = []
     for attempt in range(2):
         if qa_primary["pass"]:
@@ -60,10 +61,7 @@ def run_full(topic: str, project_root: Path, evidence_file: Path|None=None) -> d
         rework = ReworkManager(project_root).assign(workflow_id, qa_primary["issues"], source="qa_primary")
         events.append("qa_primary", "rework.requested", rework, workflow_id)
         if "text_length" in qa_primary["issues"]:
-            html = html.replace(
-                "</main>",
-                "<section id='auto-rework'><h2>추가 확인사항</h2><p>적용 대상, 제외 조건, 기준일, 필요 서류, 처리 기간, 문의처를 다시 확인합니다.</p></section></main>"
-            )
+            html = html.replace("</main>", "<section id='auto-rework'><h2>추가 확인사항</h2><p>적용 대상, 제외 조건, 기준일, 필요 서류, 처리 기간, 문의처를 다시 확인합니다.</p></section></main>")
         qa_primary = evaluate(html, plan, research, seo, config_dir)
 
     dispatcher.advance(workflow_id, "qa_primary", qa_primary)
@@ -74,10 +72,7 @@ def run_full(topic: str, project_root: Path, evidence_file: Path|None=None) -> d
     image_brief = build_image_brief(plan, seo, config_dir)
     image_manifest = save_image_manifest(project_root, image_brief)
 
-    cms_manifest = save_article(
-        project_root, seo, html, qa_final, research,
-        publish=False, overwrite=True
-    )
+    cms_manifest = save_article(project_root, seo, html, qa_final, research, publish=False, overwrite=True)
 
     dispatcher.advance(workflow_id, "cms", cms_manifest)
     events.append("cms", "department.completed", {"article_path": cms_manifest.get("article_path")}, workflow_id)
@@ -124,4 +119,5 @@ def run_full(topic: str, project_root: Path, evidence_file: Path|None=None) -> d
     result["approval"] = approval
     result["operation_board"] = build_operation_board(project_root)
     save_json(output_dir / "full_automation_report.json", result)
+    write_runtime_log(summary=f"{topic} full automation completed", files="factory/full_automation.py", tests="full automation execution")
     return result
