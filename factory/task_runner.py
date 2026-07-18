@@ -25,7 +25,12 @@ class TaskRunner:
         }
 
         if self.bridge:
-            self.bridge.record(payload)
+            self.bridge.record_result(
+                task=task_name,
+                status="COMPLETED",
+                details=[task_result],
+                next_task="Continue next task",
+            )
 
         return payload
 
