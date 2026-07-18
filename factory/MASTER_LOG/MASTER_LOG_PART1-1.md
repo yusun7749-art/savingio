@@ -103,3 +103,22 @@
 - 다음 배치를 즉시 중단했다. 다음 대화는 누수 3개 재작성과 실제 이미지 삽입부터 시작한다.
 - 첨부 Production 화면에서 왼쪽 카테고리, 검색창, 페이지 내 이동, 관련 글은 표시되지만 이것이 약 5,000자/실제 이미지 충족의 증거는 아니다.
 - 상태: VERIFIED DEFECT / HANDOFF RECORDED
+
+## 2026-07-18
+
+### 11:12 KST — V3.022 누수 파일럿 저장소 보정
+- MASTER LOG를 다시 읽고 V3.021의 Production 검증 미완료 상태에서 작업을 재개했다.
+- 누수 3개 대표 이미지를 저장소 내부 주제별 SVG 일러스트로 교체했다.
+- `daily-liability-leak-insurance.html`을 약관 확인·접수·서류·자기부담금·합의 흐름의 새 완성본으로 전면 재작성했다.
+- `home-water-leak-self-check.html`을 계량기 비교·설비 점검·범위 좁히기·수도요금 감면 자료 흐름의 새 완성본으로 전면 재작성했다.
+- 두 글에 Article DNA CSS, 고정 본문 폭, `savingio-article-dna`, Article JSON-LD를 복구했다.
+- `<img>`, OG 이미지, Twitter 이미지를 저장소 내부 동일 SVG URL로 통일했다.
+- 확인 커밋: `2f7f705`, `131a467`, `99e12ad`, `5cefdcf`, `d4e76c4`.
+- MASTER LOG CURRENT 갱신 커밋: `b094152`.
+- 웹 조회 도구에서 Production URL 직접 열기가 안전 제한으로 거부되고 검색 결과도 없어 브라우저 육안 검증은 완료하지 못했다.
+- 상태: REPOSITORY FIX COMPLETE / PRODUCTION BROWSER VERIFICATION PENDING / NEXT BATCH BLOCKED
+
+### 현재 종료 지점
+- 자동화 정지 지점: 누수 3개 저장소 보정 및 로그 갱신 완료
+- 남은 범위: Production 실제 이미지·왼쪽 카테고리·검색·모바일 폭·공식/관련 링크 클릭 검증
+- 재시작 지점: 누수 3개 Production 브라우저 검증 후 다음 5개 배치
