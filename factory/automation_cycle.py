@@ -1,6 +1,5 @@
 from pathlib import Path
 import uuid
-from argparse import Namespace
 from .planner import build_plan
 from .research_department import run_research_department
 from .seo import build_seo
@@ -14,7 +13,7 @@ from .department_gate import evaluate_department
 from .deployment_gate import evaluate_deployment_gate
 from .analytics_dashboard import build_analytics_dashboard
 from .content_performance_optimizer import recommend_from_dashboard
-from .MASTER_LOG.master_log_manager import record
+from .runtime_log_bridge import write_runtime_log
 from .utils import save_json, now_iso
 
 
@@ -25,17 +24,13 @@ def _add(root,wid,department,packet,config,handoffs):
 def _finish(root,wid,topic,status,handoffs,packets):
     result={'workflow_id':wid,'topic':topic,'status':status,'handoff_count':len(handoffs),'handoffs':handoffs,'packets':packets,'created_at':now_iso()}
     save_json(root/'factory'/'output'/'automation_cycle_report.json',result)
-    try:
-        record(Namespace(
-            summary=f"{topic} automation cycle {status}",
-            status="IMPLEMENTED",
-            files="factory/automation_cycle.py",
-            tests="automation cycle execution",
-            next="continue",
-            blocker=""
-        ))
-    except Exception:
-        pass
+    write_runtime_log(
+        summary=f"{topic} automation cycle {status}",
+        status="IMPLEMENTED",
+        files="factory/automation_cycle.py",
+        tests="automation cycle execution",
+        next_step="continue",
+    )
     return result
 
 
