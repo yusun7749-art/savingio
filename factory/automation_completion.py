@@ -8,6 +8,7 @@ from .house_integrity import audit_house
 from .integration_preflight import run_integration_preflight
 from .orchestrator import Orchestrator
 from .utils import now_iso, save_json
+from .runtime_log_bridge import write_runtime_log
 
 
 def _clean_topics(topics: Iterable[str]) -> list[str]:
@@ -28,12 +29,6 @@ def run_automation_completion(
     publish: bool = False,
     limit: int = 100,
 ) -> dict:
-    """Run the maximum safe local automation cycle.
-
-    External integrations are checked but never reported as ready unless their
-    required credentials are present. House integrity blocks execution so a
-    nested Savingio project cannot be modified accidentally.
-    """
     root = project_root.resolve()
     house = audit_house(root)
     integrations = run_integration_preflight(root)
@@ -52,6 +47,7 @@ def run_automation_completion(
             "completed_at": now_iso(),
         }
         save_json(root / "factory" / "output" / "automation_completion.json", result)
+        write_runtime_log(summary="automation completion blocked by house integrity", files="factory/automation_completion.py", tests="automation completion blocked")
         return result
 
     orchestrator = Orchestrator(root)
@@ -67,20 +63,13 @@ def run_automation_completion(
         latest_packets = {
             "planning": latest.get("plan", {}),
             "research": latest.get("research", {}),
-            "writing": {
-                "html": (root / "factory" / "output" / "draft.html").read_text(encoding="utf-8")
-                if (root / "factory" / "output" / "draft.html").exists() else "",
-                "text_chars": latest.get("qa", {}).get("text_chars", 0),
-            },
+            "writing": {"html": "", "text_chars": latest.get("qa", {}).get("text_chars", 0)},
             "seo": latest.get("seo", {}),
             "image": latest.get("image", {}),
             "qa_primary": latest.get("qa", {}),
             "qa_final": latest.get("qa", {}),
             "cms": latest.get("cms", {}) or {},
-            "git": {
-                "ready": bool(latest.get("git_script")),
-                "selected_files_only": bool(latest.get("git_commands")),
-            },
+            "git": {"ready": bool(latest.get("git_script")), "selected_files_only": bool(latest.get("git_commands"))},
             "deploy": latest.get("deploy", {}) or {},
         }
     contracts = validate_department_chain(latest_packets, root / "factory" / "config") if latest_packets else None
@@ -104,4 +93,5 @@ def run_automation_completion(
         "completed_at": now_iso(),
     }
     save_json(root / "factory" / "output" / "automation_completion.json", result)
+    write_runtime_log(summary=f"automation completion {result['status']}", files="factory/automation_completion.py", tests="automation completion execution")
     return result
