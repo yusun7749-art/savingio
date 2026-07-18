@@ -151,3 +151,28 @@
 - 다음 배치를 중단하고 누수 3개부터 약 5,000자 실제 정보와 WebP/PNG 대표 이미지가 있는 완성본으로 새로 작성·교체한다.
 - 확대 기준은 누수 3개→다음 5개→20개→50개이며 각 단계마다 Preview와 Production 육안 검증을 통과해야 한다.
 - 상태: VERIFIED DEFECT / REWORK REQUIRED
+
+## 2026-07-18 LifeBookMom Factory 요약
+
+### 오늘 확인·구현한 내용
+- Blogger API 비공개 초안 생성 성공 이력과 post ID `3288570173236822272`를 인수인계 기준으로 고정했다.
+- Blogger 초안 재조회 검증과 명시적 `PUBLISH` 안전 발행 구현 이력을 확인했다.
+- GitHub Connector로 `yusun7749-art/savingio` 읽기·쓰기 작업을 실제 수행했다.
+- Brand DNA Engine과 Brand QA 선행 차단을 구현했다.
+- `LIFEBOOKMOM-FACTORY.bat`와 GitHub Actions QA Workflow를 생성했다.
+- 사용자에게 `git pull`, `pytest`, Python 명령을 반복시키는 방식은 폐기하기로 고정했다.
+- 상세 인수인계 파일 `factory/MASTER_LOG/MASTER_LOG_LIFEBOOKMOM_CURRENT.md`를 생성했다.
+- CURRENT, PART1-1, PART2에 같은 작업 회차의 상태를 복구 기록했다.
+
+### 완료로 보지 않는 부분
+- Brand DNA 테스트는 코드 저장까지 완료했지만 실제 Workflow 실행 PASS는 확인되지 않았다.
+- One Click BAT는 존재하지만 실제 Windows E2E는 미검증이다.
+- 썸네일, 본문 연관 이미지, 10컷 인포그래픽과 Blogger 자동 삽입은 미완성이다.
+- 사용자 입력을 `진행` 또는 주제 한 줄로 제한하는 전체 자동화는 아직 최종 PASS가 아니다.
+
+### 새 대화 재시작 위치
+- `마스터로그 확인하고 와. 생활백서맘 Sprint020-02부터 바로 진행해.`
+- Sprint020-02는 `Zero-Intervention Audit + Image Factory`다.
+- 첫 단계는 GitHub `main`의 실제 파일, Workflow, 최근 커밋, 테스트 실행 여부 확인이다.
+- 그다음 CI 실행 복구, Brand DNA 실제 테스트, 이미지 3종·워터마크·캐릭터 LOCK·ALT·Blogger 삽입 Gate 구현 순서로 진행한다.
+- 테스트하지 않은 기능을 PASS 처리하지 않는다.
