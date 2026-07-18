@@ -24,7 +24,12 @@ class FactoryController:
 
         try:
             if self.runner:
-                result = self.runner.run(task_name, task_data or {})
+                result = self.runner.execute(
+                    task_name,
+                    "SUCCESS",
+                    [str(task_data or {})],
+                    "next factory task"
+                )
             else:
                 result = {
                     "status": "pending",
@@ -38,6 +43,14 @@ class FactoryController:
             }
 
         except Exception as error:
+            if self.runner:
+                self.runner.execute(
+                    task_name,
+                    "FAILED",
+                    [str(error)],
+                    "repair execution flow"
+                )
+
             return {
                 "task": task_name,
                 "started": started,
