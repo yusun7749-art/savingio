@@ -4,6 +4,8 @@ from .regression_manifest import build_regression_manifest
 from .final_release_manifest import build_final_release_manifest
 from .release_journal import verify_release_journal
 from .utils import save_json,now_iso
+from .runtime_log_bridge import write_runtime_log
+
 def run_final_release(root:Path,version="2.037-D"):
     e=run_end_to_end_audit(root); r=build_regression_manifest(root); j=verify_release_journal(root); m=build_final_release_manifest(root,version)
     blockers=[]
@@ -12,4 +14,6 @@ def run_final_release(root:Path,version="2.037-D"):
     if not j["pass"]: blockers.append("release_journal")
     if not m["ready"]: blockers.append("final_manifest")
     out={"version":version,"pass":not blockers,"blockers":blockers,"end_to_end":e,"regression":r,"release_journal":j,"manifest":m,"created_at":now_iso()}
-    save_json(root/"factory"/"output"/"final_release_report.json",out); return out
+    save_json(root/"factory"/"output"/"final_release_report.json",out)
+    write_runtime_log(summary=f"final release {version} completed",files="factory/final_release_coordinator.py",tests="final release execution",status="IMPLEMENTED" if not blockers else "FAILED",blocker=','.join(blockers))
+    return out
