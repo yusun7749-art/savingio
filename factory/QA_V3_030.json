@@ -1,0 +1,79 @@
+{
+  "version": "V3.030",
+  "created_at": "2026-07-19",
+  "scope": [
+    "articles/car-aircon-fuel-saving.html",
+    "articles/car-insurance-overpayment-refund.html",
+    "articles/traffic-fines-difference-guide.html"
+  ],
+  "decisions": {
+    "remodel_method": "extract title URL and core topic, rebuild in a separate new document, replace the old HTML at the same path after QA",
+    "overlay_patch": "forbidden as completion method",
+    "priority": "no priority ordering; process all existing public articles in sequential batches"
+  },
+  "traffic_article_log_correction": {
+    "previous_master_log_status": "FAIL - duplicate 3-second summary title",
+    "actual_main_status": "corrected before V3.030",
+    "evidence": "current file has one quick-summary-title block in the inspected main file",
+    "status": "STALE_FAIL_REMOVED"
+  },
+  "rebuilt_articles": [
+    {
+      "path": "articles/car-aircon-fuel-saving.html",
+      "old_reported_text_length": 3496,
+      "method": "full replacement",
+      "required_components": {
+        "title_url_preserved": true,
+        "canonical": true,
+        "meta_description": true,
+        "article_schema": true,
+        "faq_schema": true,
+        "table_of_contents": true,
+        "comparison_tables": true,
+        "checklist": true,
+        "faq": true,
+        "real_image_reference": "/images/articles/car-aircon-fuel-saving.svg",
+        "category_link": "/categories/car-transport.html",
+        "related_articles": true,
+        "calculator_link": true,
+        "brain_navigation": true,
+        "search_data_script": true,
+        "long_inline_problem_path_removed": true
+      },
+      "commit": "3ce42464cb22dad8d7bcbc7b187e2cc7edee5661"
+    },
+    {
+      "path": "articles/car-insurance-overpayment-refund.html",
+      "old_reported_text_length": 2870,
+      "method": "full replacement",
+      "required_components": {
+        "title_url_preserved": true,
+        "canonical": true,
+        "meta_description": true,
+        "article_schema": true,
+        "faq_schema": true,
+        "table_of_contents": true,
+        "comparison_tables": true,
+        "checklist": true,
+        "faq": true,
+        "real_image_reference": "/images/articles/car-insurance-overpayment-refund.svg",
+        "category_link": "/categories/car-transport.html",
+        "related_articles": true,
+        "calculator_link": true,
+        "brain_navigation": true,
+        "search_data_script": true,
+        "long_inline_problem_path_removed": true
+      },
+      "commit": "de5963dff26f24988e293c1397b441e138a1d90b"
+    }
+  ],
+  "production_verification": {
+    "status": "PENDING_CLOUDFLARE_DEPLOYMENT",
+    "pass_claimed": false
+  },
+  "next_batch": {
+    "mode": "maximum safe batch per run",
+    "selection": "continue from current article inventory without priority sorting",
+    "gate": "full replacement plus content, image, category, related article, calculator, SEO, Brain and search index QA"
+  }
+}
