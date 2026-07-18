@@ -174,3 +174,27 @@ VERIFIED / MERGED / PRODUCTION LIVE
 
 ### 최종 판정 정정
 V3.019는 UI 런타임(검색·카테고리·레이아웃)만 VERIFIED. 누수 파일럿의 콘텐츠 완성도와 실제 썸네일은 FAILED / REWORK REQUIRED.
+
+## 2026-07-18 11:12 KST — V3.022 Repository QA
+
+### GitHub 파일 검증
+- `images/articles/apartment-leak-emergency-response.svg`: 1200×630 주제별 SVG 존재, title/desc 포함 PASS
+- `images/articles/daily-liability-leak-insurance.svg`: 1200×630 주제별 SVG 존재, title/desc 포함 PASS
+- `images/articles/home-water-leak-self-check.svg`: 1200×630 주제별 SVG 존재, title/desc 포함 PASS
+- `articles/daily-liability-leak-insurance.html`: H1 1개, 실제 `<img>` 1개, alt, OG/Twitter 이미지, Article JSON-LD, Article DNA PASS
+- `articles/home-water-leak-self-check.html`: H1 1개, 실제 `<img>` 1개, alt, OG/Twitter 이미지, Article JSON-LD, Article DNA PASS
+- 누수 자가진단 전기요금 계산기 오연결: 제거 PASS
+- 공식 Publisher ID `pub-7605193583747751`: 변경 없음 PASS
+
+### GitHub 반영
+- SVG 3개 교체 커밋: `2f7f705`, `131a467`, `99e12ad`
+- HTML 2개 전면 재작성 커밋: `5cefdcf`, `d4e76c4`
+- MASTER LOG 갱신 커밋: `b094152`, `8af3786`, `20d244e`
+
+### Production 검증
+- Production URL 직접 열기: NOT RUN. 웹 조회 도구가 URL 안전 제한으로 거부함.
+- 검색엔진 검색 결과: 0건. 검색 결과를 통한 우회 접속 불가.
+- 실제 이미지 렌더링·왼쪽 카테고리·검색·모바일 폭·공식/관련 링크 클릭: PENDING
+
+### 최종 QA 상태
+REPOSITORY PASS / PRODUCTION BROWSER VERIFICATION PENDING / NEXT BATCH BLOCKED
