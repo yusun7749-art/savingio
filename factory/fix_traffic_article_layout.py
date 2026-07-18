@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 ARTICLE = ROOT / "articles/traffic-fines-difference-guide.html"
+SUMMARY_TEXT = "3초 요약"
 
 
 def main() -> int:
@@ -22,25 +23,27 @@ def main() -> int:
         print("FAIL: quick-grid missing")
         return 1
 
-    author_box = quick_grid.select_one(".savingio-author-box")
-    if author_box is None:
-        author_box = soup.select_one(".savingio-author-box")
+    author_box = soup.select_one(".savingio-author-box")
     if author_box is None:
         print("FAIL: author box missing")
         return 1
 
-    # 작성·검수 박스는 요약 카드 밖에서 가로 전체를 차지해야 한다.
+    # 반복 실행으로 쌓인 3초 요약 제목을 모두 제거한 뒤 정확히 하나만 다시 만든다.
+    for heading in list(soup.select("h2.quick-summary-title")):
+        if heading.get_text(" ", strip=True) == SUMMARY_TEXT:
+            heading.decompose()
+
+    # 작성·검수 박스는 요약 카드 밖에서 가로 전체를 차지한다.
     author_box.extract()
     author_box["data-layout-role"] = "full-width-author"
-    quick_grid.insert_before(author_box)
 
-    # 정상 템플릿과 동일하게 3초 요약 제목을 카드 그리드 앞에 둔다.
-    previous = quick_grid.find_previous_sibling()
-    if not (previous and previous.name == "h2" and previous.get_text(" ", strip=True) == "3초 요약"):
-        summary_title = soup.new_tag("h2")
-        summary_title["class"] = ["quick-summary-title"]
-        summary_title.string = "3초 요약"
-        quick_grid.insert_before(summary_title)
+    summary_title = soup.new_tag("h2")
+    summary_title["class"] = ["quick-summary-title"]
+    summary_title.string = SUMMARY_TEXT
+
+    # 공통 순서: 작성자 박스 → 3초 요약 제목 → 요약 카드.
+    quick_grid.insert_before(summary_title)
+    summary_title.insert_before(author_box)
 
     first_card = quick_grid.find("article", recursive=False)
     if first_card is None:
@@ -61,6 +64,20 @@ def main() -> int:
         insertion_point.insert_after(source)
 
     # 구조 QA
+    summary_titles = [
+        heading
+        for heading in soup.select("h2.quick-summary-title")
+        if heading.get_text(" ", strip=True) == SUMMARY_TEXT
+    ]
+    if len(summary_titles) != 1:
+        print(f"FAIL: expected one summary title, found {len(summary_titles)}")
+        return 1
+    if summary_title.find_next_sibling() is not quick_grid:
+        print("FAIL: summary title is not directly before quick-grid")
+        return 1
+    if author_box.find_next_sibling() is not summary_title:
+        print("FAIL: author box is not directly before summary title")
+        return 1
     if quick_grid.select_one(".savingio-author-box") is not None:
         print("FAIL: author box remains inside quick-grid")
         return 1
