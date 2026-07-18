@@ -1,0 +1,50 @@
+name: Fix index truncated warning
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fix-index-truncated-warning.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Remove accidental tool warning before doctype
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path('index.html')
+          text = path.read_text(encoding='utf-8')
+          marker = '<!DOCTYPE html>'
+          pos = text.find(marker)
+          if pos < 0:
+              raise SystemExit('DOCTYPE not found in index.html')
+          cleaned = text[pos:]
+          if cleaned != text:
+              path.write_text(cleaned, encoding='utf-8', newline='')
+          if cleaned.startswith('Warning: truncated output'):
+              raise SystemExit('warning prefix still present')
+          print('index.html warning prefix removed')
+          PY
+
+      - name: Commit fixed index
+        run: |
+          if git diff --quiet -- index.html; then
+            echo 'No warning prefix found.'
+            exit 0
+          fi
+          git config user.name 'Savingio Factory'
+          git config user.email 'actions@users.noreply.github.com'
+          git add index.html
+          git commit -m 'V3.029 remove truncated output warning from homepage [skip ci]'
+          git push
