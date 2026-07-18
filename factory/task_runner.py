@@ -7,15 +7,12 @@ Runs a task and sends the result to Execution Bridge.
 
 from datetime import datetime
 
-try:
-    from execution_bridge import ExecutionBridge
-except ImportError:
-    ExecutionBridge = None
+from factory.execution_bridge import ExecutionBridge
 
 
 class TaskRunner:
     def __init__(self):
-        self.bridge = ExecutionBridge() if ExecutionBridge else None
+        self.bridge = ExecutionBridge()
 
     def run(self, task_name, task_result):
         payload = {
@@ -24,13 +21,12 @@ class TaskRunner:
             "result": task_result,
         }
 
-        if self.bridge:
-            self.bridge.record_result(
-                task=task_name,
-                status="COMPLETED",
-                details=[task_result],
-                next_task="Continue next task",
-            )
+        self.bridge.record_result(
+            task=task_name,
+            status="COMPLETED",
+            details=[task_result],
+            next_task="Continue next task",
+        )
 
         return payload
 
