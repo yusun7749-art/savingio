@@ -1,7 +1,7 @@
 {
-  "version": "V3.025",
+  "version": "V3.026",
   "locked": true,
-  "purpose": "Restore the current Savingio state without asking the user to reconstruct memory.",
+  "purpose": "Restore the complete current Savingio state without asking the user to reconstruct memory.",
   "repository": "yusun7749-art/savingio",
   "source_branch": "main",
   "work_mode": "github_pr_main_cloudflare",
@@ -10,21 +10,52 @@
     "factory/MASTER_LOG/MEMORY_CONSTITUTION.md",
     "GitHub main actual files and latest commit",
     "factory/MASTER_LOG/MASTER_LOG_CURRENT.md",
-    "factory/MASTER_LOG/MASTER_LOG_PART1.md",
-    "factory/MASTER_LOG/MASTER_LOG_PART1-1.md",
-    "factory/MASTER_LOG/MASTER_LOG_PART2.md",
-    "factory/MASTER_LOG/MASTER_LOG_PART3.md",
+    "factory/MASTER_LOG/04_HANDOVER/NEXT_TASK.md",
+    "factory/MASTER_LOG classified logs 01_SUCCESS through 06_QA",
+    "factory/MASTER_LOG legacy PART logs",
     "latest user instruction",
     "conversation memory"
   ],
+  "classified_log_paths": [
+    "factory/MASTER_LOG/01_SUCCESS/COMPLETED_FEATURES.md",
+    "factory/MASTER_LOG/01_SUCCESS/VERIFIED_PASS.md",
+    "factory/MASTER_LOG/01_SUCCESS/RELEASE_HISTORY.md",
+    "factory/MASTER_LOG/02_FAILURE/FAILURE_LOG.md",
+    "factory/MASTER_LOG/02_FAILURE/ROOT_CAUSE.md",
+    "factory/MASTER_LOG/02_FAILURE/DO_NOT_REPEAT.md",
+    "factory/MASTER_LOG/03_DECISIONS/ARCHITECTURE.md",
+    "factory/MASTER_LOG/03_DECISIONS/WORKSPACE_LOCK.md",
+    "factory/MASTER_LOG/03_DECISIONS/ENGINE_RULES.md",
+    "factory/MASTER_LOG/03_DECISIONS/BRAND_LOCK.md",
+    "factory/MASTER_LOG/04_HANDOVER/NEXT_TASK.md",
+    "factory/MASTER_LOG/04_HANDOVER/SESSION_SUMMARY.md",
+    "factory/MASTER_LOG/04_HANDOVER/CONTEXT.md",
+    "factory/MASTER_LOG/05_KNOWLEDGE/IMPORTANT_DISCUSSIONS.md",
+    "factory/MASTER_LOG/05_KNOWLEDGE/IDEAS.md",
+    "factory/MASTER_LOG/05_KNOWLEDGE/REFERENCE.md",
+    "factory/MASTER_LOG/06_QA/BUG_LIST.md",
+    "factory/MASTER_LOG/06_QA/REGRESSION.md",
+    "factory/MASTER_LOG/06_QA/CHECKLIST.md"
+  ],
   "required_boot_steps": [
     "read latest main commit",
-    "read MEMORY_CONSTITUTION.md",
-    "read the five official MASTER LOG files in order",
+    "read MEMORY_CONSTITUTION.md and BOOT_ORDER.json",
+    "read MASTER_LOG README and current log",
+    "read NEXT_TASK handover",
+    "read every classified master log file",
+    "read all legacy PART logs",
     "compare log baseline with latest main",
     "inspect actual files for failures and pending work",
     "repair stale logs before new development",
     "continue from the verified next action"
+  ],
+  "required_end_of_run_writes": [
+    "classify success failure decision handover knowledge and QA results",
+    "update MASTER_LOG_CURRENT.md",
+    "update MASTER_LOG_HISTORY.md",
+    "update 04_HANDOVER/NEXT_TASK.md",
+    "update 04_HANDOVER/SESSION_SUMMARY.md",
+    "record commit or PR evidence"
   ],
   "forbidden_regressions": [
     "requesting a ZIP by default",
@@ -32,14 +63,20 @@
     "claiming GitHub write access is unavailable without checking",
     "asking the user to reconstruct completed history",
     "using old workflow guidance over current repository evidence",
-    "reporting PASS without execution evidence"
+    "reporting PASS without execution evidence",
+    "ending a run before classified logs are saved"
   ],
   "trigger_phrases": [
     "진행",
     "시작",
     "0",
+    "마스터로그보고와",
+    "마스터로그 보고 와",
     "마스터로그 확인하고 와",
     "이어서 진행해",
     "Savingio Factory 이어서 시작"
-  ]
+  ],
+  "trigger_behavior": {
+    "마스터로그보고와": "Read every Savingio master log, compare against latest main, determine the current start point, and continue without asking the user to reconstruct context."
+  }
 }
