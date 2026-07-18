@@ -2,5 +2,5 @@
   "log_path": "factory/MASTER_LOG/MASTER_LOG_CURRENT.md",
   "mode": "append_only",
   "overwrite": false,
-  "auto_commit": false
+  "auto_commit": true
 }
