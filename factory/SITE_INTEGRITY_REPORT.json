@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3038,
-  "references_scanned": 64967,
+  "references_scanned": 64966,
   "counts": {
-    "broken_references": 495,
+    "broken_references": 496,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -34,9 +34,16 @@
     },
     {
       "source": "articles/car-insurance-overpayment-refund.html",
-      "reference": "/calculators/car-insurance.html",
+      "reference": "/articles/car-accident-insurance-premium-increase.html",
       "expected": [
-        "calculators/car-insurance.html"
+        "articles/car-accident-insurance-premium-increase.html"
+      ]
+    },
+    {
+      "source": "articles/car-insurance-overpayment-refund.html",
+      "reference": "/articles/car-insurance-saving.html",
+      "expected": [
+        "articles/car-insurance-saving.html"
       ]
     },
     {
