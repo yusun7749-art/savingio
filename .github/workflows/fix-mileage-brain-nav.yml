@@ -1,0 +1,39 @@
+name: Fix mileage brain navigation
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-mileage-brain-nav.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore Savingio Explorer loader
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('articles/car-insurance-mileage-refund.html')
+          text = path.read_text(encoding='utf-8')
+          loader = '<script src="/js/savingio-brain-navigation.js?v=12" defer></script>'
+          if loader not in text:
+              if '</body>' not in text:
+                  raise SystemExit('Missing </body>')
+              text = text.replace('</body>', loader + '\n</body>')
+              path.write_text(text, encoding='utf-8')
+          PY
+      - name: Commit fixed article
+        run: |
+          if git diff --quiet; then
+            echo "No changes required"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add articles/car-insurance-mileage-refund.html
+          git commit -m "Restore mileage article left explorer"
+          git push
