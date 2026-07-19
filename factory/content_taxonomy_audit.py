@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Audit Savingio navigation labels against the articles they contain.
 
-The goal is not to force situation-style labels everywhere. A group label must
-accurately describe every child item placed under it. The audit also rejects
-obviously corrupted or placeholder href values before release.
+A navigation label may only be shown when the article beneath it matches the
+label. The audit writes both a human review report and a browser-consumable
+exclusion list so Explorer never exposes known mismatches or malformed links.
 """
 
 from __future__ import annotations
@@ -17,12 +17,10 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = ROOT / "data" / "savingio-brain-data.js"
 REPORT_FILE = ROOT / "factory" / "CONTENT_TAXONOMY_REPORT.json"
+EXCLUSIONS_FILE = ROOT / "data" / "savingio-navigation-exclusions.json"
 
 PREFIX = "window.SAVINGIO_BRAIN_DATA="
 
-# Labels that are operational stages rather than content topics. These are only
-# acceptable when every item contains matching stage language in title or search
-# metadata. This keeps navigation labels honest instead of decorative.
 STAGE_TERMS: dict[str, tuple[str, ...]] = {
     "처음 확인하기": ("확인", "가이드", "원인", "기본", "처음"),
     "계산하기": ("계산", "예상", "금액", "얼마"),
@@ -40,6 +38,7 @@ CORRUPT_HREF_PATTERNS = (
     re.compile(r"[\r\n\t]"),
     re.compile(r"^https?://savingio\.com/https?://", re.I),
 )
+VALID_NAV_HREF = re.compile(r"^/(?:articles|calculators)/[a-z0-9][a-z0-9-]*(?:\.html)?$", re.I)
 
 
 def load_data() -> dict[str, Any]:
@@ -77,10 +76,11 @@ def has_corrupt_href(href: str) -> bool:
     return any(pattern.search(href) for pattern in CORRUPT_HREF_PATTERNS)
 
 
-def audit() -> dict[str, Any]:
+def audit() -> tuple[dict[str, Any], dict[str, Any]]:
     data = load_data()
     tree = data.get("tree", {})
     issues: list[dict[str, Any]] = []
+    exclusions: dict[str, dict[str, str]] = {}
     counts = {
         "large_groups": 0,
         "topics": 0,
@@ -88,6 +88,7 @@ def audit() -> dict[str, Any]:
         "items": 0,
         "misaligned_labels": 0,
         "corrupt_hrefs": 0,
+        "excluded_navigation_items": 0,
     }
 
     for large_label, topics in tree.items():
@@ -115,7 +116,8 @@ def audit() -> dict[str, Any]:
                     text = item_text(item)
                     path = f"{large_label} > {topic_label} > {subgroup_label}"
 
-                    if has_corrupt_href(href):
+                    corrupt = has_corrupt_href(href)
+                    if corrupt:
                         counts["corrupt_hrefs"] += 1
                         issues.append({
                             "type": "corrupt_href",
@@ -146,23 +148,37 @@ def audit() -> dict[str, Any]:
                             "reason": reason,
                             "severity": "review",
                         })
+                        if VALID_NAV_HREF.fullmatch(href):
+                            exclusions[href] = {
+                                "title": title,
+                                "path": path,
+                                "reason": reason,
+                            }
 
+    counts["excluded_navigation_items"] = len(exclusions)
     status = "FAIL" if counts["corrupt_hrefs"] else "REVIEW" if counts["misaligned_labels"] else "PASS"
-    return {
+    report = {
         "status": status,
         "principle": "A navigation label may only be shown when every contained article matches that label.",
         "source": str(DATA_FILE.relative_to(ROOT)),
         "counts": counts,
         "issues": issues,
     }
+    exclusion_payload = {
+        "version": 1,
+        "generated_by": "factory/content_taxonomy_audit.py",
+        "principle": report["principle"],
+        "excluded_paths": sorted(exclusions),
+        "details": exclusions,
+    }
+    return report, exclusion_payload
 
 
 def main() -> int:
-    report = audit()
+    report, exclusion_payload = audit()
     REPORT_FILE.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    EXCLUSIONS_FILE.write_text(json.dumps(exclusion_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(report["counts"], ensure_ascii=False))
-    # Only corrupted links block deployment. Classification mismatches are
-    # published as a review report so they can be corrected carefully.
     return 1 if report["counts"]["corrupt_hrefs"] else 0
 
 
