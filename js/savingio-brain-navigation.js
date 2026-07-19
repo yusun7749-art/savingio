@@ -118,7 +118,6 @@
     <button class="sbn-close" type="button" aria-label="생활 문제 탐색 닫기">×</button>
     <div class="sbn-head"><strong>생활 문제 찾기</strong><small>카테고리를 몰라도 괜찮습니다.<br>지금 겪는 일을 그대로 찾아보세요.</small></div>
     <div class="sbn-search"><input type="search" placeholder="예: 차가 안 시원해요" aria-label="Savingio 생활 문제 검색" autocomplete="off"></div>
-    <section class="sbn-quick"><strong>지금 많이 찾는 문제</strong><div class="sbn-quick-list"><button type="button" data-query="차가 안 시원해요">차가 안 시원해요</button><button type="button" data-query="보험 되나요">보험 되나요?</button><button type="button" data-query="물이 새요">물이 새요</button><button type="button" data-query="돈 돌려받나요">돌려받을 돈</button></div></section>
     <div class="sbn-tree"></div>`;
 
   const tree=nav.querySelector('.sbn-tree');
@@ -163,7 +162,6 @@
   document.documentElement.classList.add('savingio-brain-ready');
   render();
   search.addEventListener('input',(event)=>render(event.target.value));
-  nav.querySelectorAll('.sbn-quick button').forEach((button)=>button.addEventListener('click',()=>{search.value=button.dataset.query||'';render(search.value);search.focus()}));
 
   const button=document.createElement('button');
   button.className='sbn-mobile-btn';button.type='button';button.textContent='문제 찾기';button.setAttribute('aria-label','생활 문제 탐색 열기');document.body.append(button);
