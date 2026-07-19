@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3046,
-  "references_scanned": 64760,
+  "references_scanned": 64795,
   "counts": {
-    "broken_references": 517,
+    "broken_references": 533,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -393,6 +393,20 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/categories/banking.html",
+      "expected": [
+        "categories/banking.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/categories/communication.html",
+      "expected": [
+        "categories/communication.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/categories/insurance-refund.html",
       "expected": [
         "categories/insurance-refund.html"
@@ -400,9 +414,23 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/categories/insurance.html",
+      "expected": [
+        "categories/insurance.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/categories/refund-insurance.html",
       "expected": [
         "categories/refund-insurance.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/categories/utility-bills.html",
+      "expected": [
+        "categories/utility-bills.html"
       ]
     },
     {
@@ -3675,6 +3703,92 @@
         "js/${x[2]}",
         "js/${x[2]}.html",
         "js/${x[2]}/index.html"
+      ]
+    },
+    {
+      "source": "js/savingio-brain-data.js",
+      "reference": "${config.calculator[0]}",
+      "expected": [
+        "js/${config.calculator[0]}"
+      ]
+    },
+    {
+      "source": "js/savingio-brain-data.js",
+      "reference": "${config.official[1]}",
+      "expected": [
+        "js/${config.official[1]}"
+      ]
+    },
+    {
+      "source": "js/savingio-brain-data.js",
+      "reference": "${href}",
+      "expected": [
+        "js/${href}",
+        "js/${href}.html",
+        "js/${href}/index.html"
+      ]
+    },
+    {
+      "source": "js/savingio-brain-data.js",
+      "reference": "/articles/car-maintenance-cost-saving.html",
+      "expected": [
+        "articles/car-maintenance-cost-saving.html"
+      ]
+    },
+    {
+      "source": "js/savingio-brain-data.js",
+      "reference": "/articles/fuel-saving-driving-habits.html",
+      "expected": [
+        "articles/fuel-saving-driving-habits.html"
+      ]
+    },
+    {
+      "source": "js/savingio-brain-data.js",
+      "reference": "/articles/loan-interest-saving.html",
+      "expected": [
+        "articles/loan-interest-saving.html"
+      ]
+    },
+    {
+      "source": "js/savingio-brain-data.js",
+      "reference": "/articles/low-mileage-discount-check.html",
+      "expected": [
+        "articles/low-mileage-discount-check.html"
+      ]
+    },
+    {
+      "source": "js/savingio-brain-data.js",
+      "reference": "/articles/medical-expense-refund-guide.html",
+      "expected": [
+        "articles/medical-expense-refund-guide.html"
+      ]
+    },
+    {
+      "source": "js/savingio-brain-data.js",
+      "reference": "/categories/banking.html",
+      "expected": [
+        "categories/banking.html"
+      ]
+    },
+    {
+      "source": "js/savingio-brain-data.js",
+      "reference": "/categories/communication.html",
+      "expected": [
+        "categories/communication.html"
+      ]
+    },
+    {
+      "source": "js/savingio-brain-data.js",
+      "reference": "/categories/insurance.html",
+      "expected": [
+        "categories/insurance.html"
+      ]
+    },
+    {
+      "source": "js/savingio-brain-data.js",
+      "reference": "/categories/utility-bills.html",
+      "expected": [
+        "categories/utility-bills.html"
       ]
     },
     {
