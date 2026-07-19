@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3042,
-  "references_scanned": 64849,
+  "references_scanned": 64828,
   "counts": {
-    "broken_references": 506,
+    "broken_references": 508,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -86,6 +86,13 @@
       "reference": "/images/articles/duplicate-indemnity-insurance-check.svg",
       "expected": [
         "images/articles/duplicate-indemnity-insurance-check.svg"
+      ]
+    },
+    {
+      "source": "articles/insurance-auto-pay-discount.html",
+      "reference": "/images/articles/insurance-auto-pay-discount.svg",
+      "expected": [
+        "images/articles/insurance-auto-pay-discount.svg"
       ]
     },
     {
@@ -368,6 +375,13 @@
       "reference": "/images/articles/car-tax-check-payment-guide.svg",
       "expected": [
         "images/articles/car-tax-check-payment-guide.svg"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/images/articles/duplicate-indemnity-insurance-check.svg",
+      "expected": [
+        "images/articles/duplicate-indemnity-insurance-check.svg"
       ]
     },
     {
