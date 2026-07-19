@@ -4,7 +4,7 @@
   "files_scanned": 3045,
   "references_scanned": 64821,
   "counts": {
-    "broken_references": 516,
+    "broken_references": 517,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -396,6 +396,13 @@
       "reference": "/calculators/percent.html",
       "expected": [
         "calculators/percent.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/categories/insurance-refund.html",
+      "expected": [
+        "categories/insurance-refund.html"
       ]
     },
     {
