@@ -1,0 +1,710 @@
+{
+  "status": "FAIL",
+  "principle": "A navigation label may only be shown when every contained article matches that label.",
+  "source": "data/savingio-brain-data.js",
+  "counts": {
+    "large_groups": 5,
+    "topics": 22,
+    "subgroups": 51,
+    "items": 225,
+    "misaligned_labels": 86,
+    "corrupt_hrefs": 1
+  },
+  "issues": [
+    {
+      "type": "corrupt_href",
+      "path": "받을 돈 찾기 > 연금 > 국민연금",
+      "title": "국민연금 추가납부가 유리한 경우",
+      "href": "/…33754 tokens truncated…확인 32. 종합소득세 신고 안 하면 어떻게 될까 다음 확인 재산·자동차세 재산세 주택분 재산세 7월과 9월 차이 주택분 재산세가 나뉘어 부과되는 이유와 확인 포인트를 설명합니다. 주택세금",
+      "severity": "blocking"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "아랫집 누수 연락을 받았을 때, 윗집이 바로 할 일",
+      "href": "/articles/apartment-leak-emergency-response.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "기초연금 신청 방법, 만 65세가 되기 전에 확인할 준비사항",
+      "href": "/articles/basic-pension-application-guide.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "지원금 문자 사기 구별 방법, 신청 전 반드시 확인하세요",
+      "href": "/articles/benefit-scam-warning-2026.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "건축물 재산세와 토지 재산세 차이",
+      "href": "/articles/building-land-property-tax.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "사업용 신용카드 홈택스 등록 방법",
+      "href": "/articles/business-card-hometax-registration.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "사업자 통신비 비용처리 기준",
+      "href": "/articles/business-phone-expense-deduction.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "사업용 차량 비용처리 기본 기준",
+      "href": "/articles/business-vehicle-expense-basics.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "자동차보험 과납보험료 환급 확인 방법",
+      "href": "/articles/car-insurance-overpayment-refund.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "자동차세 연납 할인 총정리",
+      "href": "/articles/car-tax-annual-payment.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "자동차세 조회·납부 방법, 고지서가 없어도 확인하는 순서",
+      "href": "/articles/car-tax-check-payment-guide.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "미수령 환급금 조회 방법",
+      "href": "/articles/check-hidden-refunds.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "아동수당 신청 방법, 지급이 누락되지 않게 확인하는 체크리스트",
+      "href": "/articles/child-allowance-guide.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "자녀장려금 심사결과 확인 방법",
+      "href": "/articles/child-tax-credit-status-check.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "아이돌봄서비스 정부지원 신청 방법",
+      "href": "/articles/childcare-service-government-support.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "일배책 누수 보험 처리, 아랫집 피해 접수 순서",
+      "href": "/articles/daily-liability-leak-insurance.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "근로장려금 지급계좌 변경 방법",
+      "href": "/articles/earned-income-credit-account-change.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "근로장려금 지급일 확인 방법",
+      "href": "/articles/earned-income-credit-payment.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "교육급여 신청 방법과 수급자격 확인",
+      "href": "/articles/education-benefit-eligibility.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "교육비 지원과 교육급여 차이",
+      "href": "/articles/education-expense-vs-benefit.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "긴급복지 생계지원 신청 조건",
+      "href": "/articles/emergency-welfare-living-support.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "2026년 에너지바우처 신청 방법과 공식 일정 확인",
+      "href": "/articles/energy-voucher-2026-application.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "2026년 에너지바우처 신청 방법과 신청기간",
+      "href": "/articles/energy-voucher-application-2026.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "에너지바우처 신청 방법",
+      "href": "/articles/energy-voucher-application.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "2026년 에너지바우처 잔액 조회와 사용처 확인 방법",
+      "href": "/articles/energy-voucher-balance-check-2026.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "에너지바우처 잔액 조회와 사용 방법",
+      "href": "/articles/energy-voucher-balance-use.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "에너지바우처 주민센터 신청 준비서류",
+      "href": "/articles/energy-voucher-documents.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "2026 에너지바우처 신청 대상 확인법",
+      "href": "/articles/energy-voucher-eligibility-2026.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "에너지바우처 온라인 신청 방법",
+      "href": "/articles/energy-voucher-online-application.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "첫만남이용권 신청과 사용 방법, 결제 전에 확인할 제한사항",
+      "href": "/articles/first-meeting-voucher-guide.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "정부24 혜택알리미로 받을 수 있는 지원금 찾는 방법",
+      "href": "/articles/government-benefit-alert-2026.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "혜택알리미 맞춤 지원금 설정 방법",
+      "href": "/articles/government-benefit-alert-setup.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "정부지원금 조회 시 주의할 점",
+      "href": "/articles/government-benefits-warning.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "2026 정부지원금 신청 일정 모음",
+      "href": "/articles/government-support-calendar.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "정부24에서 받을 수 있는 혜택 찾기",
+      "href": "/articles/government24-benefit-check.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "건강보험료 과오납 환급 신청 방법",
+      "href": "/articles/health-insurance-overpayment-refund.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "건강보험료 환급금 조회 방법",
+      "href": "/articles/health-insurance-refund-guide.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "숨은 돈 찾는 방법",
+      "href": "/articles/hidden-money-search.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "숨은 환급금 확인하기",
+      "href": "/articles/hidden-refund-check.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "홈택스 환급 진행상황 조회",
+      "href": "/articles/hometax-refund-status.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "주거급여 신청 자격과 조사 절차",
+      "href": "/articles/housing-benefit-eligibility.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "숨은 돈 찾기 단계별 가이드",
+      "href": "/articles/how-to-check-hidden-refunds.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "보험 해지환급금 조회 전 확인사항",
+      "href": "/articles/insurance-surrender-value-check.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "세금 환급 진행상태 확인 방법",
+      "href": "/articles/irs-tax-refund-status.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "평생교육바우처 신청 방법과 사용처 확인",
+      "href": "/articles/lifelong-education-voucher-application.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "지방세 환급금 조회와 신청 방법",
+      "href": "/articles/local-tax-refund-claim.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "지방세 환급금 조회 방법",
+      "href": "/articles/local-tax-refund-guide.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "노인장기요양보험 신청 방법, 등급판정과 방문조사 준비 순서",
+      "href": "/articles/long-term-care-insurance-application.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "재산세 고지서가 안 왔을 때 확인 방법",
+      "href": "/articles/missing-property-tax-bill.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "월세 세액공제 준비서류와 확인 순서",
+      "href": "/articles/monthly-rent-tax-credit-documents.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "국민연금 추가납부가 유리한 경우",
+      "href": "/articles/national-pension-additional-payment.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "국민연금 과오납금 조회와 환급 신청 방법",
+      "href": "/articles/national-pension-overpayment-refund.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "국가장학금 신청 방법과 확인사항",
+      "href": "/articles/national-scholarship-application.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "국세환급금 지급계좌 등록 방법",
+      "href": "/articles/national-tax-refund-account.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "국세 환급금 조회 방법",
+      "href": "/articles/national-tax-refund.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "60세 이상 정부 복지 혜택, 연금·건강·일자리·생활비 순서로 확인하세요",
+      "href": "/articles/over-60-benefits-guide.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "부모급여 신청 방법, 출생 후 놓치지 말아야 할 확인 순서",
+      "href": "/articles/parental-benefit-guide.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "2026년 7월 재산세 고지서 확인 체크리스트",
+      "href": "/articles/property-tax-bill-checklist-2026.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "재산세 과세표준과 세액 계산 구조",
+      "href": "/articles/property-tax-calculation-structure.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "재산세 납부기한과 감면 대상",
+      "href": "/articles/property-tax-deadline.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "위택스 재산세 전자고지 신청 방법",
+      "href": "/articles/property-tax-electronic-bill-2026.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "재산세 분납 신청 조건과 방법",
+      "href": "/articles/property-tax-installment-application.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "재산세 공동명의 납부 기준",
+      "href": "/articles/property-tax-joint-ownership.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "2026년 7월 재산세 납부 대상과 기간",
+      "href": "/articles/property-tax-july-2026.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "주택분 재산세 7월과 9월 차이",
+      "href": "/articles/property-tax-july-september-difference.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "재산세 이의신청과 과세전적부심 차이",
+      "href": "/articles/property-tax-objection-guide.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "재산세 납부증명서 발급 방법",
+      "href": "/articles/property-tax-payment-certificate.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "자동차 채권 환급금 조회 방법, 지역개발채권 만기상환 확인 순서",
+      "href": "/articles/regional-development-bond-refund-guide.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "노인일자리 신청 방법, 모집 시기와 사업 유형을 비교하는 체크리스트",
+      "href": "/articles/senior-job-application-guide.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "사업자 비용처리 가능한 항목 총정리",
+      "href": "/articles/simple-receipt-expense-rules.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "한부모가족 지원금 조회 방법",
+      "href": "/articles/single-parent-support-benefits.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "폐업 소상공인 원스톱 지원 확인",
+      "href": "/articles/small-business-closure-support.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "소상공인 배달비 지원사업 찾는 방법",
+      "href": "/articles/small-business-delivery-support.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "소상공인 정책자금 확인 방법",
+      "href": "/articles/small-business-policy-fund-search.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "소상공인 정책자금 신청 순서",
+      "href": "/articles/small-business-policy-fund.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "학자금대출 상환 방법과 부담 줄이는 순서",
+      "href": "/articles/student-loan-repayment-guide.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "보조금24에서 받을 수 있는 지원금 찾기",
+      "href": "/articles/subsidy24-benefit-search.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "장려금 신청 누락 시 기한후 신청 방법",
+      "href": "/articles/tax-credit-late-application.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "위택스 지방세 전자고지 신청 방법",
+      "href": "/articles/wetax-electronic-billing.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "위택스 납부내역 확인 방법",
+      "href": "/articles/wetax-payment-history.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "노란우산공제 가입 전 확인사항",
+      "href": "/articles/yellow-umbrella-mutual-aid-guide.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "청년 주거급여 분리지급 확인 방법",
+      "href": "/articles/youth-housing-benefit-separate-payment.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "청년도약계좌 정부기여금 확인법",
+      "href": "/articles/youth-leap-account-contribution.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "청년내일저축계좌 유지 조건",
+      "href": "/articles/youth-savings-account-maintenance.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
+      "title": "청년 지원금 종류 한눈에 보기, 신청 전 확인할 기준",
+      "href": "/articles/youth-support-programs.html",
+      "reason": "label terms absent from article: 전체, 보완",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "바로 계산하기 > 돈·세금 계산 > 할인·비율",
+      "title": "마진율 계산기",
+      "href": "/calculators/margin.html",
+      "reason": "label terms absent from article: 할인, 비율",
+      "severity": "review"
+    },
+    {
+      "type": "label_content_mismatch",
+      "path": "바로 계산하기 > 돈·세금 계산 > 할인·비율",
+      "title": "원가율 계산기",
+      "href": "/calculators/cost-rate.html",
+      "reason": "label terms absent from article: 할인, 비율",
+      "severity": "review"
+    }
+  ]
+}
