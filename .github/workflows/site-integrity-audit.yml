@@ -6,6 +6,7 @@ on:
     paths-ignore:
       - 'factory/SITE_INTEGRITY_REPORT.json'
       - 'factory/CONTENT_TAXONOMY_REPORT.json'
+      - 'data/savingio-navigation-exclusions.json'
   pull_request:
     branches: [main]
   workflow_dispatch:
@@ -37,16 +38,16 @@ jobs:
         continue-on-error: true
         run: python factory/content_taxonomy_audit.py
 
-      - name: Persist audit reports on main
+      - name: Persist audit reports and Explorer exclusions on main
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
           git config user.name "savingio-audit-bot"
           git config user.email "savingio-audit-bot@users.noreply.github.com"
-          git add factory/SITE_INTEGRITY_REPORT.json factory/CONTENT_TAXONOMY_REPORT.json
+          git add factory/SITE_INTEGRITY_REPORT.json factory/CONTENT_TAXONOMY_REPORT.json data/savingio-navigation-exclusions.json
           if git diff --cached --quiet; then
-            echo "Audit reports unchanged"
+            echo "Audit outputs unchanged"
           else
-            git commit -m "Audit: refresh integrity and taxonomy reports [skip ci]"
+            git commit -m "Audit: refresh reports and Explorer exclusions [skip ci]"
             git push
           fi
 
@@ -58,6 +59,7 @@ jobs:
           path: |
             factory/SITE_INTEGRITY_REPORT.json
             factory/CONTENT_TAXONOMY_REPORT.json
+            data/savingio-navigation-exclusions.json
           if-no-files-found: error
 
       - name: Enforce integrity gate
