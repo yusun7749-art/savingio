@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3046,
-  "references_scanned": 64764,
+  "references_scanned": 64750,
   "counts": {
-    "broken_references": 511,
+    "broken_references": 512,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -44,6 +44,13 @@
       "reference": "/articles/car-accident-insurance-premium-increase.html",
       "expected": [
         "articles/car-accident-insurance-premium-increase.html"
+      ]
+    },
+    {
+      "source": "articles/check-hidden-refunds.html",
+      "reference": "/categories/refund-insurance.html",
+      "expected": [
+        "categories/refund-insurance.html"
       ]
     },
     {
