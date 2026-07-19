@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3046,
-  "references_scanned": 64847,
+  "references_scanned": 64849,
   "counts": {
-    "broken_references": 513,
+    "broken_references": 512,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -51,13 +51,6 @@
       "reference": "/articles/car-accident-insurance-premium-increase.html",
       "expected": [
         "articles/car-accident-insurance-premium-increase.html"
-      ]
-    },
-    {
-      "source": "articles/car-tax-check-payment-guide.html",
-      "reference": "/images/articles/car-tax-check-payment-guide.svg",
-      "expected": [
-        "images/articles/car-tax-check-payment-guide.svg"
       ]
     },
     {
