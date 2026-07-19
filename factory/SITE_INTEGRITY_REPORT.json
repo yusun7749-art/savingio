@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3046,
-  "references_scanned": 64795,
+  "references_scanned": 64799,
   "counts": {
-    "broken_references": 533,
+    "broken_references": 537,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -183,6 +183,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/car-maintenance-cost-saving.html",
+      "expected": [
+        "articles/car-maintenance-cost-saving.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/car-tire-pressure-fuel-efficiency.html",
       "expected": [
         "articles/car-tire-pressure-fuel-efficiency.html"
@@ -207,6 +214,27 @@
       "reference": "/articles/fuel-saving-driving-habits.html",
       "expected": [
         "articles/fuel-saving-driving-habits.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/loan-interest-saving.html",
+      "expected": [
+        "articles/loan-interest-saving.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/low-mileage-discount-check.html",
+      "expected": [
+        "articles/low-mileage-discount-check.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/medical-expense-refund-guide.html",
+      "expected": [
+        "articles/medical-expense-refund-guide.html"
       ]
     },
     {
