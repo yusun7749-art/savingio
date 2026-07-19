@@ -1,0 +1,3144 @@
+{
+  "status": "FAIL",
+  "root": "/home/runner/work/savingio/savingio",
+  "files_scanned": 3032,
+  "references_scanned": 64732,
+  "counts": {
+    "broken_references": 434,
+    "malformed_redirects": 0,
+    "broken_redirect_targets": 0,
+    "missing_sitemap_targets": 0,
+    "publisher_id_drift": 0
+  },
+  "broken_references": [
+    {
+      "source": "articles/car-aircon-fuel-saving.html",
+      "reference": "/articles/car-insurance-low-mileage-discount.html",
+      "expected": [
+        "articles/car-insurance-low-mileage-discount.html"
+      ]
+    },
+    {
+      "source": "articles/car-aircon-fuel-saving.html",
+      "reference": "/articles/car-tire-pressure-fuel-efficiency.html",
+      "expected": [
+        "articles/car-tire-pressure-fuel-efficiency.html"
+      ]
+    },
+    {
+      "source": "articles/car-aircon-fuel-saving.html",
+      "reference": "/articles/fuel-saving-driving-habits.html",
+      "expected": [
+        "articles/fuel-saving-driving-habits.html"
+      ]
+    },
+    {
+      "source": "articles/car-aircon-fuel-saving.html",
+      "reference": "/js/savingio-brain-data.js?v=12",
+      "expected": [
+        "js/savingio-brain-data.js"
+      ]
+    },
+    {
+      "source": "articles/car-insurance-overpayment-refund.html",
+      "reference": "/calculators/car-insurance.html",
+      "expected": [
+        "calculators/car-insurance.html"
+      ]
+    },
+    {
+      "source": "data/site-navigation-v2.json",
+      "reference": "/calculators/percent.html",
+      "expected": [
+        "calculators/percent.html"
+      ]
+    },
+    {
+      "source": "factory/QA_V2_019.json",
+      "reference": "/articles/전기요금-절약-c861d77b.html\\",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html\\"
+      ]
+    },
+    {
+      "source": "factory/QA_V2_020.json",
+      "reference": "/articles/전기요금-절약-c861d77b.html\\",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html\\"
+      ]
+    },
+    {
+      "source": "factory/QA_V2_022.json",
+      "reference": "/articles/전기요금-절약-c861d77b.html\\",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html\\"
+      ]
+    },
+    {
+      "source": "factory/QA_V2_037A.json",
+      "reference": "/articles/sample\\",
+      "expected": [
+        "articles/sample\\",
+        "articles/sample\\.html",
+        "articles/sample\\/index.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "${x[2]}",
+      "expected": [
+        "factory/backups/inbox/20260716-235745/${x[2]}",
+        "factory/backups/inbox/20260716-235745/${x[2]}.html",
+        "factory/backups/inbox/20260716-235745/${x[2]}/index.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "./css/service-portal.css?v=9",
+      "expected": [
+        "factory/backups/inbox/20260716-235745/css/service-portal.css"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "./css/style.css?v=9",
+      "expected": [
+        "factory/backups/inbox/20260716-235745/css/style.css"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "${x[2]}",
+      "expected": [
+        "factory/backups/inbox/20260717-001256/${x[2]}",
+        "factory/backups/inbox/20260717-001256/${x[2]}.html",
+        "factory/backups/inbox/20260717-001256/${x[2]}/index.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "./css/service-portal.css?v=9",
+      "expected": [
+        "factory/backups/inbox/20260717-001256/css/service-portal.css"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "./css/style.css?v=9",
+      "expected": [
+        "factory/backups/inbox/20260717-001256/css/style.css"
+      ]
+    },
+    {
+      "source": "factory/history/#Uad00#Ub9ac#Ube44-#Uc808#Uc57d-8e9b7c5b.json",
+      "reference": "/articles/관리비-절약-8e9b7c5b.html",
+      "expected": [
+        "articles/관리비-절약-8e9b7c5b.html"
+      ]
+    },
+    {
+      "source": "factory/history/#Ub3c4#Uc2dc#Uac00#Uc2a4-#Uc694#Uae08-#Uc808#Uc57d#Uacfc-#Uac80#Uce68-#Ud655#Uc778-#Ubc29#Ubc95-da52d01c.json",
+      "reference": "/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+      "expected": [
+        "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
+      ]
+    },
+    {
+      "source": "factory/history/#Uc218#Ub3c4#Uc694#Uae08#Uc774-#Uac11#Uc790#Uae30-#Ub298#Uc5c8#Uc744-#Ub54c-#Ud655#Uc778#Ud560-#Uac83-3e3606cc.json",
+      "reference": "/articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+      "expected": [
+        "articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html"
+      ]
+    },
+    {
+      "source": "factory/history/#Uc544#Ud30c#Ud2b8-#Uad00#Ub9ac#Ube44-#Ud56d#Ubaa9#Ubcc4-#Ud655#Uc778-#Ubc29#Ubc95-c9789557.json",
+      "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
+      "expected": [
+        "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
+      ]
+    },
+    {
+      "source": "factory/history/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41.json",
+      "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "expected": [
+        "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/history/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8.json",
+      "reference": "/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "expected": [
+        "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
+      ]
+    },
+    {
+      "source": "factory/history/#Uc804#Uae30#Uc694#Uae08-#Ub204#Uc9c4#Uc81c-#Uacc4#Uc0b0#Uacfc-#Uc808#Uc57d-#Ubc29#Ubc95-cfa9a817.json",
+      "reference": "/articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+      "expected": [
+        "articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html"
+      ]
+    },
+    {
+      "source": "factory/history/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77b.json",
+      "reference": "/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/history/#Ud734#Uba74#Uc608#Uae08#Uacfc-#Uc228#Uc740-#Ubcf4#Ud5d8#Uae08-#Ucc3e#Ub294-#Ubc29#Ubc95-1e05d025.json",
+      "reference": "/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+      "expected": [
+        "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/history/관리비-절약-8e9b7c5b.json",
+      "reference": "/articles/관리비-절약-8e9b7c5b.html",
+      "expected": [
+        "articles/관리비-절약-8e9b7c5b.html"
+      ]
+    },
+    {
+      "source": "factory/history/도시가스-요금-절약과-검침-확인-방법-da52d01c.json",
+      "reference": "/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+      "expected": [
+        "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
+      ]
+    },
+    {
+      "source": "factory/history/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.json",
+      "reference": "/articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+      "expected": [
+        "articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html"
+      ]
+    },
+    {
+      "source": "factory/history/아파트-관리비-항목별-확인-방법-c9789557.json",
+      "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
+      "expected": [
+        "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
+      ]
+    },
+    {
+      "source": "factory/history/자동이체-할인과-납부일-관리-방법-c93c4d41.json",
+      "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "expected": [
+        "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/history/장기수선충당금-반환받는-방법-8ea93de8.json",
+      "reference": "/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "expected": [
+        "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
+      ]
+    },
+    {
+      "source": "factory/history/전기요금-누진제-계산과-절약-방법-cfa9a817.json",
+      "reference": "/articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+      "expected": [
+        "articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html"
+      ]
+    },
+    {
+      "source": "factory/history/전기요금-절약-c861d77b.json",
+      "reference": "/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/history/휴면예금과-숨은-보험금-찾는-방법-1e05d025.json",
+      "reference": "/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+      "expected": [
+        "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/input/sample_ga4.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/input/sample_search_console.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/output/analytics/dashboard.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/output/analytics/ga4.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/output/analytics/keyword_rankings.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/output/analytics/optimization_actions.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/output/analytics/optimization_execution.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/output/analytics/rework_dispatch.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/output/analytics/search_console.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles",
+        "mnt/data/v2018work/savingio-live/articles/index.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/ai-side-hustles-beginner.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/ai-side-hustles-beginner.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/air-conditioner-electricity-saving.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/air-conditioner-electricity-saving.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/aircon-dry-mode-electricity.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/aircon-dry-mode-electricity.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/aircon-filter-cleaning-savings.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/aircon-filter-cleaning-savings.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/aircon-optimal-temperature-savings.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/aircon-optimal-temperature-savings.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/apartment-management-fee-summer.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/apartment-management-fee-summer.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/automatic-payment-saving.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/automatic-payment-saving.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/bank-account-budgeting.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/bank-account-budgeting.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/bank-fee-saving.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/bank-fee-saving.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/basic-livelihood-discounts.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/basic-livelihood-discounts.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/basic-pension-application-guide.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/basic-pension-application-guide.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/beginner-ai-side-hustles.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/beginner-ai-side-hustles.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/beginner-budget-plan.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/beginner-budget-plan.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/beginner-money-management.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/beginner-money-management.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/benefit-scam-warning-2026.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/benefit-scam-warning-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/budget-app-guide.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/budget-app-guide.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/building-land-property-tax.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/building-land-property-tax.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/business-card-hometax-registration.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/business-card-hometax-registration.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/business-closure-vat-order.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/business-closure-vat-order.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/business-phone-expense-deduction.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/business-phone-expense-deduction.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/business-vehicle-expense-basics.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/business-vehicle-expense-basics.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/cancel-unused-subscriptions.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/cancel-unused-subscriptions.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/car-aircon-fuel-saving.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/car-aircon-fuel-saving.html"
+      ]
+    },
+    {
+      "source": "factory/output/automation_cycle_report.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/output/automation_cycle_report.json",
+      "reference": "/articles/장기수선충당금-298a523e.html",
+      "expected": [
+        "articles/장기수선충당금-298a523e.html"
+      ]
+    },
+    {
+      "source": "factory/output/automation_cycle_report.json",
+      "reference": "/articles/장기수선충당금-298a523e.html\\",
+      "expected": [
+        "articles/장기수선충당금-298a523e.html\\"
+      ]
+    },
+    {
+      "source": "factory/output/automation_cycle_report.json",
+      "reference": "\\",
+      "expected": [
+        "factory/output/\\",
+        "factory/output/\\.html",
+        "factory/output/\\/index.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/#Uac74#Uac15#Ubcf4#Ud5d8#Ub8cc-#Ud658#Uae09#Uae08-#Uc870#Ud68c-#Ubc29#Ubc95-eab36122-solution-package.json",
+      "reference": "/articles/건강보험료-환급금-조회-방법-eab36122.html",
+      "expected": [
+        "articles/건강보험료-환급금-조회-방법-eab36122.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/#Uad6d#Uc138-#Ud658#Uae09#Uae08-#Uc870#Ud68c#Uc640-#Uc218#Ub839-#Ubc29#Ubc95-52402287-solution-package.json",
+      "reference": "/articles/국세-환급금-조회와-수령-방법-52402287.html",
+      "expected": [
+        "articles/국세-환급금-조회와-수령-방법-52402287.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/#Uadfc#Ub85c#Uc7a5#Ub824#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc9c0#Uae09-#Uc77c#Uc815-7f9a0dee-solution-package.json",
+      "reference": "/articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html",
+      "expected": [
+        "articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/#Uae30#Ucd08#Uc5f0#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc608#Uc0c1-#Uae08#Uc561-4aeed037-solution-package.json",
+      "reference": "/articles/기초연금-신청-조건과-예상-금액-4aeed037.html",
+      "expected": [
+        "articles/기초연금-신청-조건과-예상-금액-4aeed037.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/#Ub3c4#Uc2dc#Uac00#Uc2a4-#Uc694#Uae08-#Uc808#Uc57d#Uacfc-#Uac80#Uce68-#Ud655#Uc778-#Ubc29#Ubc95-da52d01c-solution-package.json",
+      "reference": "/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+      "expected": [
+        "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/#Uc218#Ub3c4#Uc694#Uae08#Uc774-#Uac11#Uc790#Uae30-#Ub298#Uc5c8#Uc744-#Ub54c-#Ud655#Uc778#Ud560-#Uac83-3e3606cc-solution-package.json",
+      "reference": "/articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+      "expected": [
+        "articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/#Uc2e0#Uc6a9#Uce74#Ub4dc-#Ud3ec#Uc778#Ud2b8-#Ud604#Uae08#Ud654-#Ubc29#Ubc95-1c5c3966-solution-package.json",
+      "reference": "/articles/신용카드-포인트-현금화-방법-1c5c3966.html",
+      "expected": [
+        "articles/신용카드-포인트-현금화-방법-1c5c3966.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/#Uc2e4#Uc5c5#Uae09#Uc5ec-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc808#Ucc28-d8a12400-solution-package.json",
+      "reference": "/articles/실업급여-신청-조건과-절차-d8a12400.html",
+      "expected": [
+        "articles/실업급여-신청-조건과-절차-d8a12400.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/#Uc544#Ud30c#Ud2b8-#Uad00#Ub9ac#Ube44-#Ud56d#Ubaa9#Ubcc4-#Ud655#Uc778-#Ubc29#Ubc95-c9789557-solution-package.json",
+      "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
+      "expected": [
+        "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/#Uc5d0#Ub108#Uc9c0#Ubc14#Uc6b0#Ucc98-#Uc2e0#Uccad-#Ub300#Uc0c1#Uacfc-#Ubc29#Ubc95-503ef955-solution-package.json",
+      "reference": "/articles/에너지바우처-신청-대상과-방법-503ef955.html",
+      "expected": [
+        "articles/에너지바우처-신청-대상과-방법-503ef955.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/#Uc5f0#Ucc28#Uc218#Ub2f9-#Uacc4#Uc0b0#Uacfc-#Uc9c0#Uae09-#Uae30#Uc900-9e610a82-solution-package.json",
+      "reference": "/articles/연차수당-계산과-지급-기준-9e610a82.html",
+      "expected": [
+        "articles/연차수당-계산과-지급-기준-9e610a82.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/#Uc6d4#Uae09-#Uc2e4#Uc218#Ub839#Uc561-#Uacc4#Uc0b0-#Ubc29#Ubc95-305d9058-solution-package.json",
+      "reference": "/articles/월급-실수령액-계산-방법-305d9058.html",
+      "expected": [
+        "articles/월급-실수령액-계산-방법-305d9058.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/#Uc790#Ub140#Uc7a5#Ub824#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc900#Ube44-#Uc11c#Ub958-b64950f4-solution-package.json",
+      "reference": "/articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html",
+      "expected": [
+        "articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41-solution-package.json",
+      "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "expected": [
+        "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8-solution-package.json",
+      "reference": "/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "expected": [
+        "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/#Uc804#Uae30#Uc694#Uae08-#Ub204#Uc9c4#Uc81c-#Uacc4#Uc0b0#Uacfc-#Uc808#Uc57d-#Ubc29#Ubc95-cfa9a817-solution-package.json",
+      "reference": "/articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+      "expected": [
+        "articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/#Uc9c0#Ubc29#Uc138-#Ud658#Uae09#Uae08-#Uc870#Ud68c-#Ubc29#Ubc95-f570e7b4-solution-package.json",
+      "reference": "/articles/지방세-환급금-조회-방법-f570e7b4.html",
+      "expected": [
+        "articles/지방세-환급금-조회-방법-f570e7b4.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/#Ud1b5#Uc2e0#Ube44-#Uc120#Ud0dd#Uc57d#Uc815-#Ud560#Uc778-#Ud655#Uc778-#Ubc29#Ubc95-f3a6ecd2-solution-package.json",
+      "reference": "/articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html",
+      "expected": [
+        "articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/#Ud1f4#Uc9c1#Uae08-#Uacc4#Uc0b0#Uacfc-#Uc9c0#Uae09-#Uae30#Uc900-b30bc4f9-solution-package.json",
+      "reference": "/articles/퇴직금-계산과-지급-기준-b30bc4f9.html",
+      "expected": [
+        "articles/퇴직금-계산과-지급-기준-b30bc4f9.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/#Ud734#Uba74#Uc608#Uae08#Uacfc-#Uc228#Uc740-#Ubcf4#Ud5d8#Uae08-#Ucc3e#Ub294-#Ubc29#Ubc95-1e05d025-solution-package.json",
+      "reference": "/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+      "expected": [
+        "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/article_calculator_links.json",
+      "reference": "/articles/electricity-guide.html",
+      "expected": [
+        "articles/electricity-guide.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/article_calculator_links.json",
+      "reference": "/articles/factory-runner-integration.html",
+      "expected": [
+        "articles/factory-runner-integration.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/article_calculator_links.json",
+      "reference": "/articles/건강보험료-환급금-조회-방법-eab36122.html",
+      "expected": [
+        "articles/건강보험료-환급금-조회-방법-eab36122.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/article_calculator_links.json",
+      "reference": "/articles/국세-환급금-조회와-수령-방법-52402287.html",
+      "expected": [
+        "articles/국세-환급금-조회와-수령-방법-52402287.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/article_calculator_links.json",
+      "reference": "/articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html",
+      "expected": [
+        "articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/article_calculator_links.json",
+      "reference": "/articles/기초연금-신청-조건과-예상-금액-4aeed037.html",
+      "expected": [
+        "articles/기초연금-신청-조건과-예상-금액-4aeed037.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/article_calculator_links.json",
+      "reference": "/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+      "expected": [
+        "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/article_calculator_links.json",
+      "reference": "/articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+      "expected": [
+        "articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/article_calculator_links.json",
+      "reference": "/articles/신용카드-포인트-현금화-방법-1c5c3966.html",
+      "expected": [
+        "articles/신용카드-포인트-현금화-방법-1c5c3966.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/article_calculator_links.json",
+      "reference": "/articles/실업급여-신청-조건과-절차-d8a12400.html",
+      "expected": [
+        "articles/실업급여-신청-조건과-절차-d8a12400.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/article_calculator_links.json",
+      "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
+      "expected": [
+        "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/article_calculator_links.json",
+      "reference": "/articles/에너지바우처-신청-대상과-방법-503ef955.html",
+      "expected": [
+        "articles/에너지바우처-신청-대상과-방법-503ef955.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/article_calculator_links.json",
+      "reference": "/articles/연차수당-계산과-지급-기준-9e610a82.html",
+      "expected": [
+        "articles/연차수당-계산과-지급-기준-9e610a82.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/article_calculator_links.json",
+      "reference": "/articles/월급-실수령액-계산-방법-305d9058.html",
+      "expected": [
+        "articles/월급-실수령액-계산-방법-305d9058.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/article_calculator_links.json",
+      "reference": "/articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html",
+      "expected": [
+        "articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/article_calculator_links.json",
+      "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "expected": [
+        "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/article_calculator_links.json",
+      "reference": "/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "expected": [
+        "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/article_calculator_links.json",
+      "reference": "/articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+      "expected": [
+        "articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/article_calculator_links.json",
+      "reference": "/articles/지방세-환급금-조회-방법-f570e7b4.html",
+      "expected": [
+        "articles/지방세-환급금-조회-방법-f570e7b4.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/article_calculator_links.json",
+      "reference": "/articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html",
+      "expected": [
+        "articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/article_calculator_links.json",
+      "reference": "/articles/퇴직금-계산과-지급-기준-b30bc4f9.html",
+      "expected": [
+        "articles/퇴직금-계산과-지급-기준-b30bc4f9.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/article_calculator_links.json",
+      "reference": "/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+      "expected": [
+        "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/electricity-cost-generation.json",
+      "reference": "/mnt/data/v2047_work/savingio-live/calculators/electricity-cost.html",
+      "expected": [
+        "mnt/data/v2047_work/savingio-live/calculators/electricity-cost.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/electricity-guide-hq-report.json",
+      "reference": "/articles/electricity-guide.html",
+      "expected": [
+        "articles/electricity-guide.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/electricity-guide-solution-package.json",
+      "reference": "/articles/electricity-guide.html",
+      "expected": [
+        "articles/electricity-guide.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/factory-runner-integration-hq-report.json",
+      "reference": "/articles/factory-runner-integration.html",
+      "expected": [
+        "articles/factory-runner-integration.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/factory-runner-integration-solution-package.json",
+      "reference": "/articles/factory-runner-integration.html",
+      "expected": [
+        "articles/factory-runner-integration.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/hourly-to-monthly-generation.json",
+      "reference": "/mnt/data/v2047_work/savingio-live/calculators/hourly-to-monthly.html",
+      "expected": [
+        "mnt/data/v2047_work/savingio-live/calculators/hourly-to-monthly.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/loan-payment-generation.json",
+      "reference": "/mnt/data/v2047_work/savingio-live/calculators/loan-payment.html",
+      "expected": [
+        "mnt/data/v2047_work/savingio-live/calculators/loan-payment.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/severance-pay-generation.json",
+      "reference": "/mnt/data/v2047_work/savingio-live/calculators/severance-pay.html",
+      "expected": [
+        "mnt/data/v2047_work/savingio-live/calculators/severance-pay.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/vat-generation.json",
+      "reference": "/mnt/data/v2047_work/savingio-live/calculators/vat.html",
+      "expected": [
+        "mnt/data/v2047_work/savingio-live/calculators/vat.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/건강보험료-환급금-조회-방법-eab36122-solution-package.json",
+      "reference": "/articles/건강보험료-환급금-조회-방법-eab36122.html",
+      "expected": [
+        "articles/건강보험료-환급금-조회-방법-eab36122.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/국세-환급금-조회와-수령-방법-52402287-solution-package.json",
+      "reference": "/articles/국세-환급금-조회와-수령-방법-52402287.html",
+      "expected": [
+        "articles/국세-환급금-조회와-수령-방법-52402287.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/근로장려금-신청-조건과-지급-일정-7f9a0dee-solution-package.json",
+      "reference": "/articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html",
+      "expected": [
+        "articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/기초연금-신청-조건과-예상-금액-4aeed037-solution-package.json",
+      "reference": "/articles/기초연금-신청-조건과-예상-금액-4aeed037.html",
+      "expected": [
+        "articles/기초연금-신청-조건과-예상-금액-4aeed037.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/도시가스-요금-절약과-검침-확인-방법-da52d01c-solution-package.json",
+      "reference": "/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+      "expected": [
+        "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc-solution-package.json",
+      "reference": "/articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+      "expected": [
+        "articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/신용카드-포인트-현금화-방법-1c5c3966-solution-package.json",
+      "reference": "/articles/신용카드-포인트-현금화-방법-1c5c3966.html",
+      "expected": [
+        "articles/신용카드-포인트-현금화-방법-1c5c3966.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/실업급여-신청-조건과-절차-d8a12400-solution-package.json",
+      "reference": "/articles/실업급여-신청-조건과-절차-d8a12400.html",
+      "expected": [
+        "articles/실업급여-신청-조건과-절차-d8a12400.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/아파트-관리비-항목별-확인-방법-c9789557-solution-package.json",
+      "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
+      "expected": [
+        "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/에너지바우처-신청-대상과-방법-503ef955-solution-package.json",
+      "reference": "/articles/에너지바우처-신청-대상과-방법-503ef955.html",
+      "expected": [
+        "articles/에너지바우처-신청-대상과-방법-503ef955.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/연차수당-계산과-지급-기준-9e610a82-solution-package.json",
+      "reference": "/articles/연차수당-계산과-지급-기준-9e610a82.html",
+      "expected": [
+        "articles/연차수당-계산과-지급-기준-9e610a82.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/월급-실수령액-계산-방법-305d9058-solution-package.json",
+      "reference": "/articles/월급-실수령액-계산-방법-305d9058.html",
+      "expected": [
+        "articles/월급-실수령액-계산-방법-305d9058.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/자녀장려금-신청-조건과-준비-서류-b64950f4-solution-package.json",
+      "reference": "/articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html",
+      "expected": [
+        "articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/자동이체-할인과-납부일-관리-방법-c93c4d41-solution-package.json",
+      "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "expected": [
+        "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/장기수선충당금-반환받는-방법-8ea93de8-solution-package.json",
+      "reference": "/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "expected": [
+        "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/전기요금-누진제-계산과-절약-방법-cfa9a817-solution-package.json",
+      "reference": "/articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+      "expected": [
+        "articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/지방세-환급금-조회-방법-f570e7b4-solution-package.json",
+      "reference": "/articles/지방세-환급금-조회-방법-f570e7b4.html",
+      "expected": [
+        "articles/지방세-환급금-조회-방법-f570e7b4.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/통신비-선택약정-할인-확인-방법-f3a6ecd2-solution-package.json",
+      "reference": "/articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html",
+      "expected": [
+        "articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/퇴직금-계산과-지급-기준-b30bc4f9-solution-package.json",
+      "reference": "/articles/퇴직금-계산과-지급-기준-b30bc4f9.html",
+      "expected": [
+        "articles/퇴직금-계산과-지급-기준-b30bc4f9.html"
+      ]
+    },
+    {
+      "source": "factory/output/calculator/휴면예금과-숨은-보험금-찾는-방법-1e05d025-solution-package.json",
+      "reference": "/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+      "expected": [
+        "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/output/cms_manifest.json",
+      "reference": "/articles/월급-실수령액-계산-방법-305d9058.html",
+      "expected": [
+        "articles/월급-실수령액-계산-방법-305d9058.html"
+      ]
+    },
+    {
+      "source": "factory/output/content_only_report.json",
+      "reference": "/articles/월급-실수령액-계산-방법-305d9058.html",
+      "expected": [
+        "articles/월급-실수령액-계산-방법-305d9058.html"
+      ]
+    },
+    {
+      "source": "factory/output/draft.html",
+      "reference": "/articles/월급-실수령액-계산-방법-305d9058.html",
+      "expected": [
+        "articles/월급-실수령액-계산-방법-305d9058.html"
+      ]
+    },
+    {
+      "source": "factory/output/draft.html",
+      "reference": "https://savingio.com/articles/월급-실수령액-계산-방법-305d9058.html",
+      "expected": [
+        "articles/월급-실수령액-계산-방법-305d9058.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uac74#Uac15#Ubcf4#Ud5d8#Ub8cc-#Ud658#Uae09#Uae08-#Uc870#Ud68c-#Ubc29#Ubc95-eab36122-factory.html",
+      "reference": "/articles/건강보험료-환급금-조회-방법-eab36122.html",
+      "expected": [
+        "articles/건강보험료-환급금-조회-방법-eab36122.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uac74#Uac15#Ubcf4#Ud5d8#Ub8cc-#Ud658#Uae09#Uae08-#Uc870#Ud68c-#Ubc29#Ubc95-eab36122-factory.html",
+      "reference": "https://savingio.com/articles/건강보험료-환급금-조회-방법-eab36122.html",
+      "expected": [
+        "articles/건강보험료-환급금-조회-방법-eab36122.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uac74#Uac15#Ubcf4#Ud5d8#Ub8cc-#Ud658#Uae09#Uae08-#Uc870#Ud68c-#Ubc29#Ubc95-eab36122.html",
+      "reference": "/articles/건강보험료-환급금-조회-방법-eab36122.html",
+      "expected": [
+        "articles/건강보험료-환급금-조회-방법-eab36122.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uac74#Uac15#Ubcf4#Ud5d8#Ub8cc-#Ud658#Uae09#Uae08-#Uc870#Ud68c-#Ubc29#Ubc95-eab36122.html",
+      "reference": "https://savingio.com/articles/건강보험료-환급금-조회-방법-eab36122.html",
+      "expected": [
+        "articles/건강보험료-환급금-조회-방법-eab36122.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uad00#Ub9ac#Ube44-#Uc808#Uc57d-8e9b7c5b.html",
+      "reference": "/articles/관리비-절약-8e9b7c5b.html",
+      "expected": [
+        "articles/관리비-절약-8e9b7c5b.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uad00#Ub9ac#Ube44-#Uc808#Uc57d-8e9b7c5b.html",
+      "reference": "https://savingio.com/articles/관리비-절약-8e9b7c5b.html",
+      "expected": [
+        "articles/관리비-절약-8e9b7c5b.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uad6d#Uc138-#Ud658#Uae09#Uae08-#Uc870#Ud68c#Uc640-#Uc218#Ub839-#Ubc29#Ubc95-52402287-factory.html",
+      "reference": "/articles/국세-환급금-조회와-수령-방법-52402287.html",
+      "expected": [
+        "articles/국세-환급금-조회와-수령-방법-52402287.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uad6d#Uc138-#Ud658#Uae09#Uae08-#Uc870#Ud68c#Uc640-#Uc218#Ub839-#Ubc29#Ubc95-52402287-factory.html",
+      "reference": "https://savingio.com/articles/국세-환급금-조회와-수령-방법-52402287.html",
+      "expected": [
+        "articles/국세-환급금-조회와-수령-방법-52402287.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uad6d#Uc138-#Ud658#Uae09#Uae08-#Uc870#Ud68c#Uc640-#Uc218#Ub839-#Ubc29#Ubc95-52402287.html",
+      "reference": "/articles/국세-환급금-조회와-수령-방법-52402287.html",
+      "expected": [
+        "articles/국세-환급금-조회와-수령-방법-52402287.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uad6d#Uc138-#Ud658#Uae09#Uae08-#Uc870#Ud68c#Uc640-#Uc218#Ub839-#Ubc29#Ubc95-52402287.html",
+      "reference": "https://savingio.com/articles/국세-환급금-조회와-수령-방법-52402287.html",
+      "expected": [
+        "articles/국세-환급금-조회와-수령-방법-52402287.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uadfc#Ub85c#Uc7a5#Ub824#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc9c0#Uae09-#Uc77c#Uc815-7f9a0dee-factory.html",
+      "reference": "/articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html",
+      "expected": [
+        "articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uadfc#Ub85c#Uc7a5#Ub824#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc9c0#Uae09-#Uc77c#Uc815-7f9a0dee-factory.html",
+      "reference": "https://savingio.com/articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html",
+      "expected": [
+        "articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uadfc#Ub85c#Uc7a5#Ub824#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc9c0#Uae09-#Uc77c#Uc815-7f9a0dee.html",
+      "reference": "/articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html",
+      "expected": [
+        "articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uadfc#Ub85c#Uc7a5#Ub824#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc9c0#Uae09-#Uc77c#Uc815-7f9a0dee.html",
+      "reference": "https://savingio.com/articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html",
+      "expected": [
+        "articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uae30#Ucd08#Uc5f0#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc608#Uc0c1-#Uae08#Uc561-4aeed037-factory.html",
+      "reference": "/articles/기초연금-신청-조건과-예상-금액-4aeed037.html",
+      "expected": [
+        "articles/기초연금-신청-조건과-예상-금액-4aeed037.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uae30#Ucd08#Uc5f0#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc608#Uc0c1-#Uae08#Uc561-4aeed037-factory.html",
+      "reference": "https://savingio.com/articles/기초연금-신청-조건과-예상-금액-4aeed037.html",
+      "expected": [
+        "articles/기초연금-신청-조건과-예상-금액-4aeed037.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uae30#Ucd08#Uc5f0#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc608#Uc0c1-#Uae08#Uc561-4aeed037.html",
+      "reference": "/articles/기초연금-신청-조건과-예상-금액-4aeed037.html",
+      "expected": [
+        "articles/기초연금-신청-조건과-예상-금액-4aeed037.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uae30#Ucd08#Uc5f0#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc608#Uc0c1-#Uae08#Uc561-4aeed037.html",
+      "reference": "https://savingio.com/articles/기초연금-신청-조건과-예상-금액-4aeed037.html",
+      "expected": [
+        "articles/기초연금-신청-조건과-예상-금액-4aeed037.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Ub3c4#Uc2dc#Uac00#Uc2a4-#Uc694#Uae08-#Uc808#Uc57d#Uacfc-#Uac80#Uce68-#Ud655#Uc778-#Ubc29#Ubc95-da52d01c-factory.html",
+      "reference": "/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+      "expected": [
+        "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Ub3c4#Uc2dc#Uac00#Uc2a4-#Uc694#Uae08-#Uc808#Uc57d#Uacfc-#Uac80#Uce68-#Ud655#Uc778-#Ubc29#Ubc95-da52d01c-factory.html",
+      "reference": "https://savingio.com/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+      "expected": [
+        "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Ub3c4#Uc2dc#Uac00#Uc2a4-#Uc694#Uae08-#Uc808#Uc57d#Uacfc-#Uac80#Uce68-#Ud655#Uc778-#Ubc29#Ubc95-da52d01c.html",
+      "reference": "/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+      "expected": [
+        "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Ub3c4#Uc2dc#Uac00#Uc2a4-#Uc694#Uae08-#Uc808#Uc57d#Uacfc-#Uac80#Uce68-#Ud655#Uc778-#Ubc29#Ubc95-da52d01c.html",
+      "reference": "https://savingio.com/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+      "expected": [
+        "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc218#Ub3c4#Uc694#Uae08#Uc774-#Uac11#Uc790#Uae30-#Ub298#Uc5c8#Uc744-#Ub54c-#Ud655#Uc778#Ud560-#Uac83-3e3606cc-factory.html",
+      "reference": "/articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+      "expected": [
+        "articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc218#Ub3c4#Uc694#Uae08#Uc774-#Uac11#Uc790#Uae30-#Ub298#Uc5c8#Uc744-#Ub54c-#Ud655#Uc778#Ud560-#Uac83-3e3606cc-factory.html",
+      "reference": "https://savingio.com/articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+      "expected": [
+        "articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc218#Ub3c4#Uc694#Uae08#Uc774-#Uac11#Uc790#Uae30-#Ub298#Uc5c8#Uc744-#Ub54c-#Ud655#Uc778#Ud560-#Uac83-3e3606cc.html",
+      "reference": "/articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+      "expected": [
+        "articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc218#Ub3c4#Uc694#Uae08#Uc774-#Uac11#Uc790#Uae30-#Ub298#Uc5c8#Uc744-#Ub54c-#Ud655#Uc778#Ud560-#Uac83-3e3606cc.html",
+      "reference": "https://savingio.com/articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+      "expected": [
+        "articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc2e0#Uc6a9#Uce74#Ub4dc-#Ud3ec#Uc778#Ud2b8-#Ud604#Uae08#Ud654-#Ubc29#Ubc95-1c5c3966-factory.html",
+      "reference": "/articles/신용카드-포인트-현금화-방법-1c5c3966.html",
+      "expected": [
+        "articles/신용카드-포인트-현금화-방법-1c5c3966.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc2e0#Uc6a9#Uce74#Ub4dc-#Ud3ec#Uc778#Ud2b8-#Ud604#Uae08#Ud654-#Ubc29#Ubc95-1c5c3966-factory.html",
+      "reference": "https://savingio.com/articles/신용카드-포인트-현금화-방법-1c5c3966.html",
+      "expected": [
+        "articles/신용카드-포인트-현금화-방법-1c5c3966.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc2e0#Uc6a9#Uce74#Ub4dc-#Ud3ec#Uc778#Ud2b8-#Ud604#Uae08#Ud654-#Ubc29#Ubc95-1c5c3966.html",
+      "reference": "/articles/신용카드-포인트-현금화-방법-1c5c3966.html",
+      "expected": [
+        "articles/신용카드-포인트-현금화-방법-1c5c3966.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc2e0#Uc6a9#Uce74#Ub4dc-#Ud3ec#Uc778#Ud2b8-#Ud604#Uae08#Ud654-#Ubc29#Ubc95-1c5c3966.html",
+      "reference": "https://savingio.com/articles/신용카드-포인트-현금화-방법-1c5c3966.html",
+      "expected": [
+        "articles/신용카드-포인트-현금화-방법-1c5c3966.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc2e4#Uc5c5#Uae09#Uc5ec-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc808#Ucc28-d8a12400-factory.html",
+      "reference": "/articles/실업급여-신청-조건과-절차-d8a12400.html",
+      "expected": [
+        "articles/실업급여-신청-조건과-절차-d8a12400.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc2e4#Uc5c5#Uae09#Uc5ec-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc808#Ucc28-d8a12400-factory.html",
+      "reference": "https://savingio.com/articles/실업급여-신청-조건과-절차-d8a12400.html",
+      "expected": [
+        "articles/실업급여-신청-조건과-절차-d8a12400.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc2e4#Uc5c5#Uae09#Uc5ec-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc808#Ucc28-d8a12400.html",
+      "reference": "/articles/실업급여-신청-조건과-절차-d8a12400.html",
+      "expected": [
+        "articles/실업급여-신청-조건과-절차-d8a12400.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc2e4#Uc5c5#Uae09#Uc5ec-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc808#Ucc28-d8a12400.html",
+      "reference": "https://savingio.com/articles/실업급여-신청-조건과-절차-d8a12400.html",
+      "expected": [
+        "articles/실업급여-신청-조건과-절차-d8a12400.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc544#Ud30c#Ud2b8-#Uad00#Ub9ac#Ube44-#Ud56d#Ubaa9#Ubcc4-#Ud655#Uc778-#Ubc29#Ubc95-c9789557-factory.html",
+      "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
+      "expected": [
+        "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc544#Ud30c#Ud2b8-#Uad00#Ub9ac#Ube44-#Ud56d#Ubaa9#Ubcc4-#Ud655#Uc778-#Ubc29#Ubc95-c9789557-factory.html",
+      "reference": "https://savingio.com/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
+      "expected": [
+        "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc544#Ud30c#Ud2b8-#Uad00#Ub9ac#Ube44-#Ud56d#Ubaa9#Ubcc4-#Ud655#Uc778-#Ubc29#Ubc95-c9789557.html",
+      "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
+      "expected": [
+        "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc544#Ud30c#Ud2b8-#Uad00#Ub9ac#Ube44-#Ud56d#Ubaa9#Ubcc4-#Ud655#Uc778-#Ubc29#Ubc95-c9789557.html",
+      "reference": "https://savingio.com/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
+      "expected": [
+        "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc5d0#Ub108#Uc9c0#Ubc14#Uc6b0#Ucc98-#Uc2e0#Uccad-#Ub300#Uc0c1#Uacfc-#Ubc29#Ubc95-503ef955-factory.html",
+      "reference": "/articles/에너지바우처-신청-대상과-방법-503ef955.html",
+      "expected": [
+        "articles/에너지바우처-신청-대상과-방법-503ef955.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc5d0#Ub108#Uc9c0#Ubc14#Uc6b0#Ucc98-#Uc2e0#Uccad-#Ub300#Uc0c1#Uacfc-#Ubc29#Ubc95-503ef955-factory.html",
+      "reference": "https://savingio.com/articles/에너지바우처-신청-대상과-방법-503ef955.html",
+      "expected": [
+        "articles/에너지바우처-신청-대상과-방법-503ef955.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc5d0#Ub108#Uc9c0#Ubc14#Uc6b0#Ucc98-#Uc2e0#Uccad-#Ub300#Uc0c1#Uacfc-#Ubc29#Ubc95-503ef955.html",
+      "reference": "/articles/에너지바우처-신청-대상과-방법-503ef955.html",
+      "expected": [
+        "articles/에너지바우처-신청-대상과-방법-503ef955.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc5d0#Ub108#Uc9c0#Ubc14#Uc6b0#Ucc98-#Uc2e0#Uccad-#Ub300#Uc0c1#Uacfc-#Ubc29#Ubc95-503ef955.html",
+      "reference": "https://savingio.com/articles/에너지바우처-신청-대상과-방법-503ef955.html",
+      "expected": [
+        "articles/에너지바우처-신청-대상과-방법-503ef955.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc5f0#Ucc28#Uc218#Ub2f9-#Uacc4#Uc0b0#Uacfc-#Uc9c0#Uae09-#Uae30#Uc900-9e610a82-factory.html",
+      "reference": "/articles/연차수당-계산과-지급-기준-9e610a82.html",
+      "expected": [
+        "articles/연차수당-계산과-지급-기준-9e610a82.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc5f0#Ucc28#Uc218#Ub2f9-#Uacc4#Uc0b0#Uacfc-#Uc9c0#Uae09-#Uae30#Uc900-9e610a82-factory.html",
+      "reference": "https://savingio.com/articles/연차수당-계산과-지급-기준-9e610a82.html",
+      "expected": [
+        "articles/연차수당-계산과-지급-기준-9e610a82.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc5f0#Ucc28#Uc218#Ub2f9-#Uacc4#Uc0b0#Uacfc-#Uc9c0#Uae09-#Uae30#Uc900-9e610a82.html",
+      "reference": "/articles/연차수당-계산과-지급-기준-9e610a82.html",
+      "expected": [
+        "articles/연차수당-계산과-지급-기준-9e610a82.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc5f0#Ucc28#Uc218#Ub2f9-#Uacc4#Uc0b0#Uacfc-#Uc9c0#Uae09-#Uae30#Uc900-9e610a82.html",
+      "reference": "https://savingio.com/articles/연차수당-계산과-지급-기준-9e610a82.html",
+      "expected": [
+        "articles/연차수당-계산과-지급-기준-9e610a82.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc6d4#Uae09-#Uc2e4#Uc218#Ub839#Uc561-#Uacc4#Uc0b0-#Ubc29#Ubc95-305d9058-factory.html",
+      "reference": "/articles/월급-실수령액-계산-방법-305d9058.html",
+      "expected": [
+        "articles/월급-실수령액-계산-방법-305d9058.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc6d4#Uae09-#Uc2e4#Uc218#Ub839#Uc561-#Uacc4#Uc0b0-#Ubc29#Ubc95-305d9058-factory.html",
+      "reference": "https://savingio.com/articles/월급-실수령액-계산-방법-305d9058.html",
+      "expected": [
+        "articles/월급-실수령액-계산-방법-305d9058.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc6d4#Uae09-#Uc2e4#Uc218#Ub839#Uc561-#Uacc4#Uc0b0-#Ubc29#Ubc95-305d9058.html",
+      "reference": "/articles/월급-실수령액-계산-방법-305d9058.html",
+      "expected": [
+        "articles/월급-실수령액-계산-방법-305d9058.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc6d4#Uae09-#Uc2e4#Uc218#Ub839#Uc561-#Uacc4#Uc0b0-#Ubc29#Ubc95-305d9058.html",
+      "reference": "https://savingio.com/articles/월급-실수령액-계산-방법-305d9058.html",
+      "expected": [
+        "articles/월급-실수령액-계산-방법-305d9058.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc790#Ub140#Uc7a5#Ub824#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc900#Ube44-#Uc11c#Ub958-b64950f4-factory.html",
+      "reference": "/articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html",
+      "expected": [
+        "articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc790#Ub140#Uc7a5#Ub824#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc900#Ube44-#Uc11c#Ub958-b64950f4-factory.html",
+      "reference": "https://savingio.com/articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html",
+      "expected": [
+        "articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc790#Ub140#Uc7a5#Ub824#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc900#Ube44-#Uc11c#Ub958-b64950f4.html",
+      "reference": "/articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html",
+      "expected": [
+        "articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc790#Ub140#Uc7a5#Ub824#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc900#Ube44-#Uc11c#Ub958-b64950f4.html",
+      "reference": "https://savingio.com/articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html",
+      "expected": [
+        "articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41-factory.html",
+      "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "expected": [
+        "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41-factory.html",
+      "reference": "https://savingio.com/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "expected": [
+        "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41.html",
+      "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "expected": [
+        "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41.html",
+      "reference": "https://savingio.com/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "expected": [
+        "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8-factory.html",
+      "reference": "/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "expected": [
+        "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8-factory.html",
+      "reference": "https://savingio.com/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "expected": [
+        "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8.html",
+      "reference": "/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "expected": [
+        "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8.html",
+      "reference": "https://savingio.com/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "expected": [
+        "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-298a523e.html",
+      "reference": "/articles/장기수선충당금-298a523e.html",
+      "expected": [
+        "articles/장기수선충당금-298a523e.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-298a523e.html",
+      "reference": "https://savingio.com/articles/장기수선충당금-298a523e.html",
+      "expected": [
+        "articles/장기수선충당금-298a523e.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc804#Uae30#Uc694#Uae08-#Ub204#Uc9c4#Uc81c-#Uacc4#Uc0b0#Uacfc-#Uc808#Uc57d-#Ubc29#Ubc95-cfa9a817-factory.html",
+      "reference": "/articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+      "expected": [
+        "articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc804#Uae30#Uc694#Uae08-#Ub204#Uc9c4#Uc81c-#Uacc4#Uc0b0#Uacfc-#Uc808#Uc57d-#Ubc29#Ubc95-cfa9a817-factory.html",
+      "reference": "https://savingio.com/articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+      "expected": [
+        "articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc804#Uae30#Uc694#Uae08-#Ub204#Uc9c4#Uc81c-#Uacc4#Uc0b0#Uacfc-#Uc808#Uc57d-#Ubc29#Ubc95-cfa9a817.html",
+      "reference": "/articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+      "expected": [
+        "articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc804#Uae30#Uc694#Uae08-#Ub204#Uc9c4#Uc81c-#Uacc4#Uc0b0#Uacfc-#Uc808#Uc57d-#Ubc29#Ubc95-cfa9a817.html",
+      "reference": "https://savingio.com/articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+      "expected": [
+        "articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77b-factory.html",
+      "reference": "/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77b-factory.html",
+      "reference": "https://savingio.com/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77b.html",
+      "reference": "/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77b.html",
+      "reference": "https://savingio.com/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc9c0#Ubc29#Uc138-#Ud658#Uae09#Uae08-#Uc870#Ud68c-#Ubc29#Ubc95-f570e7b4-factory.html",
+      "reference": "/articles/지방세-환급금-조회-방법-f570e7b4.html",
+      "expected": [
+        "articles/지방세-환급금-조회-방법-f570e7b4.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc9c0#Ubc29#Uc138-#Ud658#Uae09#Uae08-#Uc870#Ud68c-#Ubc29#Ubc95-f570e7b4-factory.html",
+      "reference": "https://savingio.com/articles/지방세-환급금-조회-방법-f570e7b4.html",
+      "expected": [
+        "articles/지방세-환급금-조회-방법-f570e7b4.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc9c0#Ubc29#Uc138-#Ud658#Uae09#Uae08-#Uc870#Ud68c-#Ubc29#Ubc95-f570e7b4.html",
+      "reference": "/articles/지방세-환급금-조회-방법-f570e7b4.html",
+      "expected": [
+        "articles/지방세-환급금-조회-방법-f570e7b4.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc9c0#Ubc29#Uc138-#Ud658#Uae09#Uae08-#Uc870#Ud68c-#Ubc29#Ubc95-f570e7b4.html",
+      "reference": "https://savingio.com/articles/지방세-환급금-조회-방법-f570e7b4.html",
+      "expected": [
+        "articles/지방세-환급금-조회-방법-f570e7b4.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Ud1b5#Uc2e0#Ube44-#Uc120#Ud0dd#Uc57d#Uc815-#Ud560#Uc778-#Ud655#Uc778-#Ubc29#Ubc95-f3a6ecd2-factory.html",
+      "reference": "/articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html",
+      "expected": [
+        "articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Ud1b5#Uc2e0#Ube44-#Uc120#Ud0dd#Uc57d#Uc815-#Ud560#Uc778-#Ud655#Uc778-#Ubc29#Ubc95-f3a6ecd2-factory.html",
+      "reference": "https://savingio.com/articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html",
+      "expected": [
+        "articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Ud1b5#Uc2e0#Ube44-#Uc120#Ud0dd#Uc57d#Uc815-#Ud560#Uc778-#Ud655#Uc778-#Ubc29#Ubc95-f3a6ecd2.html",
+      "reference": "/articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html",
+      "expected": [
+        "articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Ud1b5#Uc2e0#Ube44-#Uc120#Ud0dd#Uc57d#Uc815-#Ud560#Uc778-#Ud655#Uc778-#Ubc29#Ubc95-f3a6ecd2.html",
+      "reference": "https://savingio.com/articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html",
+      "expected": [
+        "articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Ud1f4#Uc9c1#Uae08-#Uacc4#Uc0b0#Uacfc-#Uc9c0#Uae09-#Uae30#Uc900-b30bc4f9-factory.html",
+      "reference": "/articles/퇴직금-계산과-지급-기준-b30bc4f9.html",
+      "expected": [
+        "articles/퇴직금-계산과-지급-기준-b30bc4f9.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Ud1f4#Uc9c1#Uae08-#Uacc4#Uc0b0#Uacfc-#Uc9c0#Uae09-#Uae30#Uc900-b30bc4f9-factory.html",
+      "reference": "https://savingio.com/articles/퇴직금-계산과-지급-기준-b30bc4f9.html",
+      "expected": [
+        "articles/퇴직금-계산과-지급-기준-b30bc4f9.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Ud1f4#Uc9c1#Uae08-#Uacc4#Uc0b0#Uacfc-#Uc9c0#Uae09-#Uae30#Uc900-b30bc4f9.html",
+      "reference": "/articles/퇴직금-계산과-지급-기준-b30bc4f9.html",
+      "expected": [
+        "articles/퇴직금-계산과-지급-기준-b30bc4f9.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Ud1f4#Uc9c1#Uae08-#Uacc4#Uc0b0#Uacfc-#Uc9c0#Uae09-#Uae30#Uc900-b30bc4f9.html",
+      "reference": "https://savingio.com/articles/퇴직금-계산과-지급-기준-b30bc4f9.html",
+      "expected": [
+        "articles/퇴직금-계산과-지급-기준-b30bc4f9.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Ud734#Uba74#Uc608#Uae08#Uacfc-#Uc228#Uc740-#Ubcf4#Ud5d8#Uae08-#Ucc3e#Ub294-#Ubc29#Ubc95-1e05d025-factory.html",
+      "reference": "/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+      "expected": [
+        "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Ud734#Uba74#Uc608#Uae08#Uacfc-#Uc228#Uc740-#Ubcf4#Ud5d8#Uae08-#Ucc3e#Ub294-#Ubc29#Ubc95-1e05d025-factory.html",
+      "reference": "https://savingio.com/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+      "expected": [
+        "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Ud734#Uba74#Uc608#Uae08#Uacfc-#Uc228#Uc740-#Ubcf4#Ud5d8#Uae08-#Ucc3e#Ub294-#Ubc29#Ubc95-1e05d025.html",
+      "reference": "/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+      "expected": [
+        "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Ud734#Uba74#Uc608#Uae08#Uacfc-#Uc228#Uc740-#Ubcf4#Ud5d8#Uae08-#Ucc3e#Ub294-#Ubc29#Ubc95-1e05d025.html",
+      "reference": "https://savingio.com/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+      "expected": [
+        "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/factory-runner-integration.html",
+      "reference": "/articles/factory-runner-integration.html",
+      "expected": [
+        "articles/factory-runner-integration.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/factory-runner-integration.html",
+      "reference": "https://savingio.com/articles/factory-runner-integration.html",
+      "expected": [
+        "articles/factory-runner-integration.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/건강보험료-환급금-조회-방법-eab36122-factory.html",
+      "reference": "/articles/건강보험료-환급금-조회-방법-eab36122.html",
+      "expected": [
+        "articles/건강보험료-환급금-조회-방법-eab36122.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/건강보험료-환급금-조회-방법-eab36122-factory.html",
+      "reference": "https://savingio.com/articles/건강보험료-환급금-조회-방법-eab36122.html",
+      "expected": [
+        "articles/건강보험료-환급금-조회-방법-eab36122.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/건강보험료-환급금-조회-방법-eab36122.html",
+      "reference": "/articles/건강보험료-환급금-조회-방법-eab36122.html",
+      "expected": [
+        "articles/건강보험료-환급금-조회-방법-eab36122.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/건강보험료-환급금-조회-방법-eab36122.html",
+      "reference": "https://savingio.com/articles/건강보험료-환급금-조회-방법-eab36122.html",
+      "expected": [
+        "articles/건강보험료-환급금-조회-방법-eab36122.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/관리비-절약-8e9b7c5b.html",
+      "reference": "/articles/관리비-절약-8e9b7c5b.html",
+      "expected": [
+        "articles/관리비-절약-8e9b7c5b.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/관리비-절약-8e9b7c5b.html",
+      "reference": "https://savingio.com/articles/관리비-절약-8e9b7c5b.html",
+      "expected": [
+        "articles/관리비-절약-8e9b7c5b.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/국세-환급금-조회와-수령-방법-52402287-factory.html",
+      "reference": "/articles/국세-환급금-조회와-수령-방법-52402287.html",
+      "expected": [
+        "articles/국세-환급금-조회와-수령-방법-52402287.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/국세-환급금-조회와-수령-방법-52402287-factory.html",
+      "reference": "https://savingio.com/articles/국세-환급금-조회와-수령-방법-52402287.html",
+      "expected": [
+        "articles/국세-환급금-조회와-수령-방법-52402287.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/국세-환급금-조회와-수령-방법-52402287.html",
+      "reference": "/articles/국세-환급금-조회와-수령-방법-52402287.html",
+      "expected": [
+        "articles/국세-환급금-조회와-수령-방법-52402287.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/국세-환급금-조회와-수령-방법-52402287.html",
+      "reference": "https://savingio.com/articles/국세-환급금-조회와-수령-방법-52402287.html",
+      "expected": [
+        "articles/국세-환급금-조회와-수령-방법-52402287.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/근로장려금-신청-조건과-지급-일정-7f9a0dee-factory.html",
+      "reference": "/articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html",
+      "expected": [
+        "articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/근로장려금-신청-조건과-지급-일정-7f9a0dee-factory.html",
+      "reference": "https://savingio.com/articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html",
+      "expected": [
+        "articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/근로장려금-신청-조건과-지급-일정-7f9a0dee.html",
+      "reference": "/articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html",
+      "expected": [
+        "articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/근로장려금-신청-조건과-지급-일정-7f9a0dee.html",
+      "reference": "https://savingio.com/articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html",
+      "expected": [
+        "articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/기초연금-신청-조건과-예상-금액-4aeed037-factory.html",
+      "reference": "/articles/기초연금-신청-조건과-예상-금액-4aeed037.html",
+      "expected": [
+        "articles/기초연금-신청-조건과-예상-금액-4aeed037.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/기초연금-신청-조건과-예상-금액-4aeed037-factory.html",
+      "reference": "https://savingio.com/articles/기초연금-신청-조건과-예상-금액-4aeed037.html",
+      "expected": [
+        "articles/기초연금-신청-조건과-예상-금액-4aeed037.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/기초연금-신청-조건과-예상-금액-4aeed037.html",
+      "reference": "/articles/기초연금-신청-조건과-예상-금액-4aeed037.html",
+      "expected": [
+        "articles/기초연금-신청-조건과-예상-금액-4aeed037.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/기초연금-신청-조건과-예상-금액-4aeed037.html",
+      "reference": "https://savingio.com/articles/기초연금-신청-조건과-예상-금액-4aeed037.html",
+      "expected": [
+        "articles/기초연금-신청-조건과-예상-금액-4aeed037.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/도시가스-요금-절약과-검침-확인-방법-da52d01c-factory.html",
+      "reference": "/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+      "expected": [
+        "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/도시가스-요금-절약과-검침-확인-방법-da52d01c-factory.html",
+      "reference": "https://savingio.com/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+      "expected": [
+        "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+      "reference": "/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+      "expected": [
+        "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+      "reference": "https://savingio.com/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+      "expected": [
+        "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc-factory.html",
+      "reference": "/articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+      "expected": [
+        "articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc-factory.html",
+      "reference": "https://savingio.com/articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+      "expected": [
+        "articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+      "reference": "/articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+      "expected": [
+        "articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+      "reference": "https://savingio.com/articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+      "expected": [
+        "articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/신용카드-포인트-현금화-방법-1c5c3966-factory.html",
+      "reference": "/articles/신용카드-포인트-현금화-방법-1c5c3966.html",
+      "expected": [
+        "articles/신용카드-포인트-현금화-방법-1c5c3966.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/신용카드-포인트-현금화-방법-1c5c3966-factory.html",
+      "reference": "https://savingio.com/articles/신용카드-포인트-현금화-방법-1c5c3966.html",
+      "expected": [
+        "articles/신용카드-포인트-현금화-방법-1c5c3966.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/신용카드-포인트-현금화-방법-1c5c3966.html",
+      "reference": "/articles/신용카드-포인트-현금화-방법-1c5c3966.html",
+      "expected": [
+        "articles/신용카드-포인트-현금화-방법-1c5c3966.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/신용카드-포인트-현금화-방법-1c5c3966.html",
+      "reference": "https://savingio.com/articles/신용카드-포인트-현금화-방법-1c5c3966.html",
+      "expected": [
+        "articles/신용카드-포인트-현금화-방법-1c5c3966.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/실업급여-신청-조건과-절차-d8a12400-factory.html",
+      "reference": "/articles/실업급여-신청-조건과-절차-d8a12400.html",
+      "expected": [
+        "articles/실업급여-신청-조건과-절차-d8a12400.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/실업급여-신청-조건과-절차-d8a12400-factory.html",
+      "reference": "https://savingio.com/articles/실업급여-신청-조건과-절차-d8a12400.html",
+      "expected": [
+        "articles/실업급여-신청-조건과-절차-d8a12400.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/실업급여-신청-조건과-절차-d8a12400.html",
+      "reference": "/articles/실업급여-신청-조건과-절차-d8a12400.html",
+      "expected": [
+        "articles/실업급여-신청-조건과-절차-d8a12400.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/실업급여-신청-조건과-절차-d8a12400.html",
+      "reference": "https://savingio.com/articles/실업급여-신청-조건과-절차-d8a12400.html",
+      "expected": [
+        "articles/실업급여-신청-조건과-절차-d8a12400.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/아파트-관리비-항목별-확인-방법-c9789557-factory.html",
+      "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
+      "expected": [
+        "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/아파트-관리비-항목별-확인-방법-c9789557-factory.html",
+      "reference": "https://savingio.com/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
+      "expected": [
+        "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/아파트-관리비-항목별-확인-방법-c9789557.html",
+      "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
+      "expected": [
+        "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/아파트-관리비-항목별-확인-방법-c9789557.html",
+      "reference": "https://savingio.com/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
+      "expected": [
+        "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/에너지바우처-신청-대상과-방법-503ef955-factory.html",
+      "reference": "/articles/에너지바우처-신청-대상과-방법-503ef955.html",
+      "expected": [
+        "articles/에너지바우처-신청-대상과-방법-503ef955.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/에너지바우처-신청-대상과-방법-503ef955-factory.html",
+      "reference": "https://savingio.com/articles/에너지바우처-신청-대상과-방법-503ef955.html",
+      "expected": [
+        "articles/에너지바우처-신청-대상과-방법-503ef955.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/에너지바우처-신청-대상과-방법-503ef955.html",
+      "reference": "/articles/에너지바우처-신청-대상과-방법-503ef955.html",
+      "expected": [
+        "articles/에너지바우처-신청-대상과-방법-503ef955.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/에너지바우처-신청-대상과-방법-503ef955.html",
+      "reference": "https://savingio.com/articles/에너지바우처-신청-대상과-방법-503ef955.html",
+      "expected": [
+        "articles/에너지바우처-신청-대상과-방법-503ef955.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/연차수당-계산과-지급-기준-9e610a82-factory.html",
+      "reference": "/articles/연차수당-계산과-지급-기준-9e610a82.html",
+      "expected": [
+        "articles/연차수당-계산과-지급-기준-9e610a82.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/연차수당-계산과-지급-기준-9e610a82-factory.html",
+      "reference": "https://savingio.com/articles/연차수당-계산과-지급-기준-9e610a82.html",
+      "expected": [
+        "articles/연차수당-계산과-지급-기준-9e610a82.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/연차수당-계산과-지급-기준-9e610a82.html",
+      "reference": "/articles/연차수당-계산과-지급-기준-9e610a82.html",
+      "expected": [
+        "articles/연차수당-계산과-지급-기준-9e610a82.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/연차수당-계산과-지급-기준-9e610a82.html",
+      "reference": "https://savingio.com/articles/연차수당-계산과-지급-기준-9e610a82.html",
+      "expected": [
+        "articles/연차수당-계산과-지급-기준-9e610a82.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/월급-실수령액-계산-방법-305d9058-factory.html",
+      "reference": "/articles/월급-실수령액-계산-방법-305d9058.html",
+      "expected": [
+        "articles/월급-실수령액-계산-방법-305d9058.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/월급-실수령액-계산-방법-305d9058-factory.html",
+      "reference": "https://savingio.com/articles/월급-실수령액-계산-방법-305d9058.html",
+      "expected": [
+        "articles/월급-실수령액-계산-방법-305d9058.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/월급-실수령액-계산-방법-305d9058.html",
+      "reference": "/articles/월급-실수령액-계산-방법-305d9058.html",
+      "expected": [
+        "articles/월급-실수령액-계산-방법-305d9058.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/월급-실수령액-계산-방법-305d9058.html",
+      "reference": "https://savingio.com/articles/월급-실수령액-계산-방법-305d9058.html",
+      "expected": [
+        "articles/월급-실수령액-계산-방법-305d9058.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/자녀장려금-신청-조건과-준비-서류-b64950f4-factory.html",
+      "reference": "/articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html",
+      "expected": [
+        "articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/자녀장려금-신청-조건과-준비-서류-b64950f4-factory.html",
+      "reference": "https://savingio.com/articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html",
+      "expected": [
+        "articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/자녀장려금-신청-조건과-준비-서류-b64950f4.html",
+      "reference": "/articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html",
+      "expected": [
+        "articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/자녀장려금-신청-조건과-준비-서류-b64950f4.html",
+      "reference": "https://savingio.com/articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html",
+      "expected": [
+        "articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/자동이체-할인과-납부일-관리-방법-c93c4d41-factory.html",
+      "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "expected": [
+        "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/자동이체-할인과-납부일-관리-방법-c93c4d41-factory.html",
+      "reference": "https://savingio.com/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "expected": [
+        "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "expected": [
+        "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "reference": "https://savingio.com/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "expected": [
+        "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/장기수선충당금-298a523e.html",
+      "reference": "/articles/장기수선충당금-298a523e.html",
+      "expected": [
+        "articles/장기수선충당금-298a523e.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/장기수선충당금-298a523e.html",
+      "reference": "https://savingio.com/articles/장기수선충당금-298a523e.html",
+      "expected": [
+        "articles/장기수선충당금-298a523e.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/장기수선충당금-반환받는-방법-8ea93de8-factory.html",
+      "reference": "/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "expected": [
+        "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/장기수선충당금-반환받는-방법-8ea93de8-factory.html",
+      "reference": "https://savingio.com/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "expected": [
+        "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "reference": "/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "expected": [
+        "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "reference": "https://savingio.com/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "expected": [
+        "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/전기요금-누진제-계산과-절약-방법-cfa9a817-factory.html",
+      "reference": "/articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+      "expected": [
+        "articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/전기요금-누진제-계산과-절약-방법-cfa9a817-factory.html",
+      "reference": "https://savingio.com/articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+      "expected": [
+        "articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+      "reference": "/articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+      "expected": [
+        "articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+      "reference": "https://savingio.com/articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+      "expected": [
+        "articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/전기요금-절약-c861d77b-factory.html",
+      "reference": "/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/전기요금-절약-c861d77b-factory.html",
+      "reference": "https://savingio.com/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/전기요금-절약-c861d77b.html",
+      "reference": "/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/전기요금-절약-c861d77b.html",
+      "reference": "https://savingio.com/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/지방세-환급금-조회-방법-f570e7b4-factory.html",
+      "reference": "/articles/지방세-환급금-조회-방법-f570e7b4.html",
+      "expected": [
+        "articles/지방세-환급금-조회-방법-f570e7b4.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/지방세-환급금-조회-방법-f570e7b4-factory.html",
+      "reference": "https://savingio.com/articles/지방세-환급금-조회-방법-f570e7b4.html",
+      "expected": [
+        "articles/지방세-환급금-조회-방법-f570e7b4.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/지방세-환급금-조회-방법-f570e7b4.html",
+      "reference": "/articles/지방세-환급금-조회-방법-f570e7b4.html",
+      "expected": [
+        "articles/지방세-환급금-조회-방법-f570e7b4.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/지방세-환급금-조회-방법-f570e7b4.html",
+      "reference": "https://savingio.com/articles/지방세-환급금-조회-방법-f570e7b4.html",
+      "expected": [
+        "articles/지방세-환급금-조회-방법-f570e7b4.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/통신비-선택약정-할인-확인-방법-f3a6ecd2-factory.html",
+      "reference": "/articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html",
+      "expected": [
+        "articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/통신비-선택약정-할인-확인-방법-f3a6ecd2-factory.html",
+      "reference": "https://savingio.com/articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html",
+      "expected": [
+        "articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/통신비-선택약정-할인-확인-방법-f3a6ecd2.html",
+      "reference": "/articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html",
+      "expected": [
+        "articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/통신비-선택약정-할인-확인-방법-f3a6ecd2.html",
+      "reference": "https://savingio.com/articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html",
+      "expected": [
+        "articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/퇴직금-계산과-지급-기준-b30bc4f9-factory.html",
+      "reference": "/articles/퇴직금-계산과-지급-기준-b30bc4f9.html",
+      "expected": [
+        "articles/퇴직금-계산과-지급-기준-b30bc4f9.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/퇴직금-계산과-지급-기준-b30bc4f9-factory.html",
+      "reference": "https://savingio.com/articles/퇴직금-계산과-지급-기준-b30bc4f9.html",
+      "expected": [
+        "articles/퇴직금-계산과-지급-기준-b30bc4f9.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/퇴직금-계산과-지급-기준-b30bc4f9.html",
+      "reference": "/articles/퇴직금-계산과-지급-기준-b30bc4f9.html",
+      "expected": [
+        "articles/퇴직금-계산과-지급-기준-b30bc4f9.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/퇴직금-계산과-지급-기준-b30bc4f9.html",
+      "reference": "https://savingio.com/articles/퇴직금-계산과-지급-기준-b30bc4f9.html",
+      "expected": [
+        "articles/퇴직금-계산과-지급-기준-b30bc4f9.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/휴면예금과-숨은-보험금-찾는-방법-1e05d025-factory.html",
+      "reference": "/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+      "expected": [
+        "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/휴면예금과-숨은-보험금-찾는-방법-1e05d025-factory.html",
+      "reference": "https://savingio.com/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+      "expected": [
+        "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+      "reference": "/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+      "expected": [
+        "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+      "reference": "https://savingio.com/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+      "expected": [
+        "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/output/full_automation_report.json",
+      "reference": "/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/analytics-to-revenue.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/cms-to-deploy.json",
+      "reference": "/articles/장기수선충당금-298a523e.html",
+      "expected": [
+        "articles/장기수선충당금-298a523e.html"
+      ]
+    },
+    {
+      "source": "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/revenue-to-end.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/seo-to-image.json",
+      "reference": "/articles/장기수선충당금-298a523e.html",
+      "expected": [
+        "articles/장기수선충당금-298a523e.html"
+      ]
+    },
+    {
+      "source": "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/writing-to-seo.json",
+      "reference": "/articles/장기수선충당금-298a523e.html\\",
+      "expected": [
+        "articles/장기수선충당금-298a523e.html\\"
+      ]
+    },
+    {
+      "source": "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/writing-to-seo.json",
+      "reference": "\\",
+      "expected": [
+        "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/\\",
+        "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/\\.html",
+        "factory/output/handoffs/0ca48204fa6d412f844403ab65278bfa/\\/index.html"
+      ]
+    },
+    {
+      "source": "factory/output/handoffs/cms.json",
+      "reference": "/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/output/handoffs/seo.json",
+      "reference": "/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/output/handoffs/writing.json",
+      "reference": "/articles/전기요금-절약-c861d77b.html\\",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html\\"
+      ]
+    },
+    {
+      "source": "factory/output/handoffs/writing.json",
+      "reference": "\\",
+      "expected": [
+        "factory/output/handoffs/\\",
+        "factory/output/handoffs/\\.html",
+        "factory/output/handoffs/\\/index.html"
+      ]
+    },
+    {
+      "source": "factory/output/operation_board.json",
+      "reference": "/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/output/revenue/adsense_report.json",
+      "reference": "/articles/sample.html",
+      "expected": [
+        "articles/sample.html"
+      ]
+    },
+    {
+      "source": "factory/output/revenue/core_run.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/output/revenue/core_run.json",
+      "reference": "/articles/sample.html",
+      "expected": [
+        "articles/sample.html"
+      ]
+    },
+    {
+      "source": "factory/output/revenue/dashboard.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/output/revenue/dashboard.json",
+      "reference": "/articles/sample.html",
+      "expected": [
+        "articles/sample.html"
+      ]
+    },
+    {
+      "source": "factory/output/revenue/revenue_ai_actions.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/output/revenue/revenue_ai_actions.json",
+      "reference": "/articles/sample.html",
+      "expected": [
+        "articles/sample.html"
+      ]
+    },
+    {
+      "source": "factory/output/revenue/revenue_data.json",
+      "reference": "/articles/sample.html",
+      "expected": [
+        "articles/sample.html"
+      ]
+    },
+    {
+      "source": "factory/output/revenue/rework_history.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/output/revenue/rework_history.json",
+      "reference": "/articles/sample.html",
+      "expected": [
+        "articles/sample.html"
+      ]
+    },
+    {
+      "source": "factory/output/revenue/rework_pipeline_report.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/output/revenue/rework_pipeline_report.json",
+      "reference": "/articles/sample.html",
+      "expected": [
+        "articles/sample.html"
+      ]
+    },
+    {
+      "source": "factory/output/revenue/routed_tasks.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/output/revenue/routed_tasks.json",
+      "reference": "/articles/sample.html",
+      "expected": [
+        "articles/sample.html"
+      ]
+    },
+    {
+      "source": "factory/output/run_report.json",
+      "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "expected": [
+        "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/output/seo.json",
+      "reference": "/articles/월급-실수령액-계산-방법-305d9058.html",
+      "expected": [
+        "articles/월급-실수령액-계산-방법-305d9058.html"
+      ]
+    },
+    {
+      "source": "factory/output/seo/items/factory-runner-integration/seo.json",
+      "reference": "/articles/factory-runner-integration.html",
+      "expected": [
+        "articles/factory-runner-integration.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Ub3c4#Uc2dc#Uac00#Uc2a4-#Uc694#Uae08-#Uc808#Uc57d#Uacfc-#Uac80#Uce68-#Ud655#Uc778-#Ubc29#Ubc95-da52d01c/article.html",
+      "reference": "/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+      "expected": [
+        "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Ub3c4#Uc2dc#Uac00#Uc2a4-#Uc694#Uae08-#Uc808#Uc57d#Uacfc-#Uac80#Uce68-#Ud655#Uc778-#Ubc29#Ubc95-da52d01c/article.html",
+      "reference": "https://savingio.com/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+      "expected": [
+        "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Ub3c4#Uc2dc#Uac00#Uc2a4-#Uc694#Uae08-#Uc808#Uc57d#Uacfc-#Uac80#Uce68-#Ud655#Uc778-#Ubc29#Ubc95-da52d01c/manifest.json",
+      "reference": "/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+      "expected": [
+        "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Uc218#Ub3c4#Uc694#Uae08#Uc774-#Uac11#Uc790#Uae30-#Ub298#Uc5c8#Uc744-#Ub54c-#Ud655#Uc778#Ud560-#Uac83-3e3606cc/article.html",
+      "reference": "/articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+      "expected": [
+        "articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Uc218#Ub3c4#Uc694#Uae08#Uc774-#Uac11#Uc790#Uae30-#Ub298#Uc5c8#Uc744-#Ub54c-#Ud655#Uc778#Ud560-#Uac83-3e3606cc/article.html",
+      "reference": "https://savingio.com/articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+      "expected": [
+        "articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Uc218#Ub3c4#Uc694#Uae08#Uc774-#Uac11#Uc790#Uae30-#Ub298#Uc5c8#Uc744-#Ub54c-#Ud655#Uc778#Ud560-#Uac83-3e3606cc/manifest.json",
+      "reference": "/articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+      "expected": [
+        "articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Uc544#Ud30c#Ud2b8-#Uad00#Ub9ac#Ube44-#Ud56d#Ubaa9#Ubcc4-#Ud655#Uc778-#Ubc29#Ubc95-c9789557/article.html",
+      "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
+      "expected": [
+        "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Uc544#Ud30c#Ud2b8-#Uad00#Ub9ac#Ube44-#Ud56d#Ubaa9#Ubcc4-#Ud655#Uc778-#Ubc29#Ubc95-c9789557/article.html",
+      "reference": "https://savingio.com/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
+      "expected": [
+        "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Uc544#Ud30c#Ud2b8-#Uad00#Ub9ac#Ube44-#Ud56d#Ubaa9#Ubcc4-#Ud655#Uc778-#Ubc29#Ubc95-c9789557/manifest.json",
+      "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
+      "expected": [
+        "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41/article.html",
+      "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "expected": [
+        "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41/article.html",
+      "reference": "https://savingio.com/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "expected": [
+        "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41/manifest.json",
+      "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "expected": [
+        "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8/article.html",
+      "reference": "/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "expected": [
+        "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8/article.html",
+      "reference": "https://savingio.com/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "expected": [
+        "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8/manifest.json",
+      "reference": "/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "expected": [
+        "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Uc804#Uae30#Uc694#Uae08-#Ub204#Uc9c4#Uc81c-#Uacc4#Uc0b0#Uacfc-#Uc808#Uc57d-#Ubc29#Ubc95-cfa9a817/article.html",
+      "reference": "/articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+      "expected": [
+        "articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Uc804#Uae30#Uc694#Uae08-#Ub204#Uc9c4#Uc81c-#Uacc4#Uc0b0#Uacfc-#Uc808#Uc57d-#Ubc29#Ubc95-cfa9a817/article.html",
+      "reference": "https://savingio.com/articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+      "expected": [
+        "articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Uc804#Uae30#Uc694#Uae08-#Ub204#Uc9c4#Uc81c-#Uacc4#Uc0b0#Uacfc-#Uc808#Uc57d-#Ubc29#Ubc95-cfa9a817/manifest.json",
+      "reference": "/articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+      "expected": [
+        "articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77b/article.html",
+      "reference": "/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77b/article.html",
+      "reference": "https://savingio.com/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77b/manifest.json",
+      "reference": "/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Ud734#Uba74#Uc608#Uae08#Uacfc-#Uc228#Uc740-#Ubcf4#Ud5d8#Uae08-#Ucc3e#Ub294-#Ubc29#Ubc95-1e05d025/article.html",
+      "reference": "/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+      "expected": [
+        "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Ud734#Uba74#Uc608#Uae08#Uacfc-#Uc228#Uc740-#Ubcf4#Ud5d8#Uae08-#Ucc3e#Ub294-#Ubc29#Ubc95-1e05d025/article.html",
+      "reference": "https://savingio.com/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+      "expected": [
+        "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Ud734#Uba74#Uc608#Uae08#Uacfc-#Uc228#Uc740-#Ubcf4#Ud5d8#Uae08-#Ucc3e#Ub294-#Ubc29#Ubc95-1e05d025/manifest.json",
+      "reference": "/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+      "expected": [
+        "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/도시가스-요금-절약과-검침-확인-방법-da52d01c/article.html",
+      "reference": "/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+      "expected": [
+        "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/도시가스-요금-절약과-검침-확인-방법-da52d01c/article.html",
+      "reference": "https://savingio.com/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+      "expected": [
+        "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/도시가스-요금-절약과-검침-확인-방법-da52d01c/manifest.json",
+      "reference": "/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+      "expected": [
+        "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc/article.html",
+      "reference": "/articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+      "expected": [
+        "articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc/article.html",
+      "reference": "https://savingio.com/articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+      "expected": [
+        "articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc/manifest.json",
+      "reference": "/articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+      "expected": [
+        "articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/아파트-관리비-항목별-확인-방법-c9789557/article.html",
+      "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
+      "expected": [
+        "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/아파트-관리비-항목별-확인-방법-c9789557/article.html",
+      "reference": "https://savingio.com/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
+      "expected": [
+        "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/아파트-관리비-항목별-확인-방법-c9789557/manifest.json",
+      "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
+      "expected": [
+        "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/자동이체-할인과-납부일-관리-방법-c93c4d41/article.html",
+      "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "expected": [
+        "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/자동이체-할인과-납부일-관리-방법-c93c4d41/article.html",
+      "reference": "https://savingio.com/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "expected": [
+        "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/자동이체-할인과-납부일-관리-방법-c93c4d41/manifest.json",
+      "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "expected": [
+        "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/장기수선충당금-반환받는-방법-8ea93de8/article.html",
+      "reference": "/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "expected": [
+        "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/장기수선충당금-반환받는-방법-8ea93de8/article.html",
+      "reference": "https://savingio.com/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "expected": [
+        "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/장기수선충당금-반환받는-방법-8ea93de8/manifest.json",
+      "reference": "/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "expected": [
+        "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/전기요금-누진제-계산과-절약-방법-cfa9a817/article.html",
+      "reference": "/articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+      "expected": [
+        "articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/전기요금-누진제-계산과-절약-방법-cfa9a817/article.html",
+      "reference": "https://savingio.com/articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+      "expected": [
+        "articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/전기요금-누진제-계산과-절약-방법-cfa9a817/manifest.json",
+      "reference": "/articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+      "expected": [
+        "articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/전기요금-절약-c861d77b/article.html",
+      "reference": "/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/전기요금-절약-c861d77b/article.html",
+      "reference": "https://savingio.com/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/전기요금-절약-c861d77b/manifest.json",
+      "reference": "/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/휴면예금과-숨은-보험금-찾는-방법-1e05d025/article.html",
+      "reference": "/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+      "expected": [
+        "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/휴면예금과-숨은-보험금-찾는-방법-1e05d025/article.html",
+      "reference": "https://savingio.com/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+      "expected": [
+        "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/휴면예금과-숨은-보험금-찾는-방법-1e05d025/manifest.json",
+      "reference": "/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+      "expected": [
+        "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/output/writer/items/factory-runner-integration/factory-runner-integration.html",
+      "reference": "/articles/factory-runner-integration.html",
+      "expected": [
+        "articles/factory-runner-integration.html"
+      ]
+    },
+    {
+      "source": "factory/output/writer/items/factory-runner-integration/factory-runner-integration.html",
+      "reference": "https://savingio.com/articles/factory-runner-integration.html",
+      "expected": [
+        "articles/factory-runner-integration.html"
+      ]
+    },
+    {
+      "source": "factory/output/writer/items/factory-runner-integration/seo_seed.json",
+      "reference": "/articles/factory-runner-integration.html",
+      "expected": [
+        "articles/factory-runner-integration.html"
+      ]
+    },
+    {
+      "source": "factory/state/message_bus/inbox/git/2026-07-14T10-13-53+00-00-614debb2bea64b11b84af085d5b961ae.json",
+      "reference": "/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/state/message_bus/inbox/git/2026-07-14T10-24-37+00-00-65232ae9d0014072853861ff5f9882ad.json",
+      "reference": "/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/state/message_bus/inbox/git/2026-07-14T10-25-51+00-00-fb15b1df2a2d4aa991d9a1fe18355b93.json",
+      "reference": "/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/state/message_bus/inbox/image/2026-07-14T10-13-53+00-00-6a50d66477f6467abf451c120cd7af8b.json",
+      "reference": "/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/state/message_bus/inbox/image/2026-07-14T10-24-37+00-00-d50613a006f644d39ed533828597c549.json",
+      "reference": "/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/state/message_bus/inbox/image/2026-07-14T10-25-51+00-00-9e3bb32153b54aad9cd332db0d10c9b3.json",
+      "reference": "/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/state/message_bus/inbox/planning/2026-07-14T12-24-09+00-00-516afcfe53ef4b6c9f99b61d77ab0f61.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/state/message_bus/inbox/planning/2026-07-14T12-59-33+00-00-2910c007e2314bab951ea0fa1a8e514a.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/state/message_bus/inbox/planning/2026-07-14T12-59-33+00-00-a7a53296ef82468c999c70ba0575488f.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/state/message_bus/inbox/planning/2026-07-14T12-59-33+00-00-edb6a776f0bc4a64b8accae244148a8c.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/state/message_bus/inbox/planning/2026-07-14T13-00-48+00-00-4560a1db1f3a416193d188f79904d05e.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/state/message_bus/inbox/planning/2026-07-14T13-00-48+00-00-495b3bc583554fb7985a3a1346cb12de.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/state/message_bus/inbox/planning/2026-07-14T13-00-48+00-00-bd63f344abfb4b05b8320111893e15d4.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/state/tasks/2e2956e7fb054bbdb6740936120c8ae6.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/state/tasks/7381ed72f35743c2ba319674500a359a.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/state/tasks/c65ee90ba79d4feba1db36e7d893650e.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/state/tasks/c983a1fb93e54935bde7c331b704f02c.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/state/tasks/d19ac997477e4b2a9e96a97a863159e2.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/state/tasks/f77b4f677be141ae8ecdb595731edd30.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "factory/state/tasks/f8d18ff9d5c149d6ac40ea00da26772f.json",
+      "reference": "/articles/sample",
+      "expected": [
+        "articles/sample",
+        "articles/sample.html",
+        "articles/sample/index.html"
+      ]
+    },
+    {
+      "source": "js/article-navigation.js",
+      "reference": "${url}",
+      "expected": [
+        "js/${url}",
+        "js/${url}.html",
+        "js/${url}/index.html"
+      ]
+    },
+    {
+      "source": "js/brain-navigation.js",
+      "reference": "${item.url}",
+      "expected": [
+        "js/${item.url}"
+      ]
+    },
+    {
+      "source": "js/brain-navigation.js",
+      "reference": "url, location.href",
+      "expected": [
+        "js/url, location.href"
+      ]
+    },
+    {
+      "source": "js/calculator-engine.js",
+      "reference": "${cfg.official[1]}",
+      "expected": [
+        "js/${cfg.official[1]}"
+      ]
+    },
+    {
+      "source": "js/calculator-engine.js",
+      "reference": "${x[2]}",
+      "expected": [
+        "js/${x[2]}",
+        "js/${x[2]}.html",
+        "js/${x[2]}/index.html"
+      ]
+    },
+    {
+      "source": "js/savingio-brain-navigation.js",
+      "reference": "${esc(item.href)}",
+      "expected": [
+        "js/${esc(item.href)}"
+      ]
+    },
+    {
+      "source": "js/savingio-content-platform.js",
+      "reference": "${x[1]}",
+      "expected": [
+        "js/${x[1]}",
+        "js/${x[1]}.html",
+        "js/${x[1]}/index.html"
+      ]
+    },
+    {
+      "source": "templates/article-v2.html",
+      "reference": "{{calculator_url}}",
+      "expected": [
+        "templates/{{calculator_url}}",
+        "templates/{{calculator_url}}.html",
+        "templates/{{calculator_url}}/index.html"
+      ]
+    },
+    {
+      "source": "templates/article-v2.html",
+      "reference": "{{url}}",
+      "expected": [
+        "templates/{{url}}",
+        "templates/{{url}}.html",
+        "templates/{{url}}/index.html"
+      ]
+    }
+  ],
+  "malformed_redirects": [],
+  "broken_redirect_targets": [],
+  "missing_sitemap_targets": [],
+  "publisher_id_drift": []
+}
