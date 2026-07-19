@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3046,
-  "references_scanned": 64790,
+  "references_scanned": 64796,
   "counts": {
-    "broken_references": 548,
+    "broken_references": 557,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -135,6 +135,34 @@
       "reference": "/images/articles/duplicate-indemnity-insurance-check.svg",
       "expected": [
         "images/articles/duplicate-indemnity-insurance-check.svg"
+      ]
+    },
+    {
+      "source": "articles/earned-income-credit-payment.html",
+      "reference": "/articles/car-insurance-low-mileage-discount.html",
+      "expected": [
+        "articles/car-insurance-low-mileage-discount.html"
+      ]
+    },
+    {
+      "source": "articles/earned-income-credit-payment.html",
+      "reference": "/articles/fuel-saving-driving-habits.html",
+      "expected": [
+        "articles/fuel-saving-driving-habits.html"
+      ]
+    },
+    {
+      "source": "articles/earned-income-credit-payment.html",
+      "reference": "/categories/benefits.html",
+      "expected": [
+        "categories/benefits.html"
+      ]
+    },
+    {
+      "source": "articles/earned-income-credit-payment.html",
+      "reference": "/categories/finance.html",
+      "expected": [
+        "categories/finance.html"
       ]
     },
     {
@@ -477,9 +505,23 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/calculators/childcare-cost.html",
+      "expected": [
+        "calculators/childcare-cost.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/calculators/fuel-cost.html",
       "expected": [
         "calculators/fuel-cost.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/calculators/monthly-budget.html",
+      "expected": [
+        "calculators/monthly-budget.html"
       ]
     },
     {
@@ -498,6 +540,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/categories/benefits.html",
+      "expected": [
+        "categories/benefits.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/categories/communication.html",
       "expected": [
         "categories/communication.html"
@@ -505,9 +554,23 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/categories/education-childcare.html",
+      "expected": [
+        "categories/education-childcare.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/categories/government-benefits.html",
       "expected": [
         "categories/government-benefits.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/categories/household.html",
+      "expected": [
+        "categories/household.html"
       ]
     },
     {
