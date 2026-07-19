@@ -21,6 +21,9 @@
 /js/savingio-search-core.js
   Cache-Control: public, max-age=0, must-revalidate
 
+/js/savingio-brain-data.js
+  Cache-Control: public, max-age=0, must-revalidate
+
 /js/savingio-brain-navigation.js
   Cache-Control: public, max-age=0, must-revalidate
 
