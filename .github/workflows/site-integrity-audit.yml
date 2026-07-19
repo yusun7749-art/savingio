@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths-ignore:
       - 'factory/SITE_INTEGRITY_REPORT.json'
+      - 'factory/CONTENT_TAXONOMY_REPORT.json'
   pull_request:
     branches: [main]
   workflow_dispatch:
@@ -31,29 +32,36 @@ jobs:
         continue-on-error: true
         run: python factory/site_integrity_audit.py
 
-      - name: Persist audit report on main
+      - name: Audit navigation label and content alignment
+        id: taxonomy
+        continue-on-error: true
+        run: python factory/content_taxonomy_audit.py
+
+      - name: Persist audit reports on main
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
           git config user.name "savingio-audit-bot"
           git config user.email "savingio-audit-bot@users.noreply.github.com"
-          git add factory/SITE_INTEGRITY_REPORT.json
+          git add factory/SITE_INTEGRITY_REPORT.json factory/CONTENT_TAXONOMY_REPORT.json
           if git diff --cached --quiet; then
-            echo "Audit report unchanged"
+            echo "Audit reports unchanged"
           else
-            git commit -m "Audit: refresh full-site integrity report [skip ci]"
+            git commit -m "Audit: refresh integrity and taxonomy reports [skip ci]"
             git push
           fi
 
-      - name: Upload audit report
+      - name: Upload audit reports
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: savingio-site-integrity-report
-          path: factory/SITE_INTEGRITY_REPORT.json
+          name: savingio-audit-reports
+          path: |
+            factory/SITE_INTEGRITY_REPORT.json
+            factory/CONTENT_TAXONOMY_REPORT.json
           if-no-files-found: error
 
       - name: Enforce integrity gate
-        if: steps.audit.outcome == 'failure'
+        if: steps.audit.outcome == 'failure' || steps.taxonomy.outcome == 'failure'
         run: |
-          echo "Savingio integrity audit found blocking errors."
+          echo "Savingio audit found blocking errors."
           exit 1
