@@ -21,7 +21,6 @@
       `;
       document.head.append(style);
     }
-
     document.querySelectorAll('.savingio-problem-path').forEach((section)=>{
       if(section.dataset.compacted==='true')return;
       const container=section.querySelector('.savingio-path-steps');
@@ -41,9 +40,7 @@
   };
 
   const removeDuplicateEditorialCredit=()=>{
-    const editorial=document.querySelector('.editorial');
-    if(!editorial)return;
-    const credit=editorial.querySelector(':scope > strong');
+    const credit=document.querySelector('.editorial > strong');
     if(credit&&/작성\s*[·:]?\s*검수/.test(credit.textContent||''))credit.remove();
   };
 
@@ -54,7 +51,7 @@
   let DATA=window.SAVINGIO_BRAIN_DATA;
   if(!DATA||!DATA.tree||typeof DATA.tree!=='object'){
     try{
-      const response=await fetch('/data/savingio-brain-data.json?v=12',{cache:'no-store'});
+      const response=await fetch('/data/savingio-brain-data.json?v=13',{cache:'no-store'});
       if(!response.ok)return;
       DATA=await response.json();
       window.SAVINGIO_BRAIN_DATA=DATA;
@@ -64,35 +61,26 @@
   const normalizePath=(value)=>{
     let path=value||'/';
     try{path=decodeURI(path)}catch(_error){}
-    path=path.split('?')[0].split('#')[0];
-    path=path.replace(/\/index\.html$/,'/').replace(/\.html$/,'').replace(/\/$/,'');
+    path=path.split('?')[0].split('#')[0].replace(/\/index\.html$/,'/').replace(/\.html$/,'').replace(/\/$/,'');
     return path||'/';
   };
   const current=normalizePath(location.pathname);
   const isCurrent=(item)=>item&&normalizePath(item.href)===current;
   const esc=(value)=>String(value??'').replace(/[&<>"']/g,(char)=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[char]);
   const normalize=(value)=>String(value||'').toLowerCase().replace(/[^0-9a-z가-힣]+/gi,'');
+  const validHref=(href)=>typeof href==='string'&&/^\/(articles|calculators)\/[a-z0-9][a-z0-9-]*(?:\.html)?(?:[?#].*)?$/i.test(href.trim());
+  const validItems=(items)=>{
+    if(!Array.isArray(items))return[];
+    const seen=new Set();
+    return items.filter((item)=>{
+      if(!item||typeof item.title!=='string'||!validHref(item.href))return false;
+      const key=normalizePath(item.href);
+      if(seen.has(key))return false;
+      seen.add(key);
+      return item.title.trim().length>=2;
+    });
+  };
 
-  const categoryLabels={
-    '식비·장보기':'먹고 사는 비용',
-    '은행·카드':'통장에서 생긴 일',
-    '대출':'빚과 상환',
-    '저축·신용':'돈을 모으고 지키기',
-    '자동차 비용':'자동차에서 생긴 일',
-    '보험·렌터카':'사고·보험이 궁금해요',
-    '세금':'세금에서 생긴 일',
-    '주거':'집에서 생긴 일',
-    '환급·지원금':'돌려받거나 받을 돈',
-    '생활비':'매달 나가는 돈'
-  };
-  const categoryDescriptions={
-    '자동차 비용':'차가 덥거나, 기름값이 늘거나, 사고가 났을 때',
-    '보험·렌터카':'누가 책임지는지, 보험이 되는지 궁금할 때',
-    '은행·카드':'결제·수수료·카드값이 이상할 때',
-    '대출':'이자와 상환 부담을 줄이고 싶을 때',
-    '저축·신용':'신용점수와 목돈 관리가 필요할 때',
-    '식비·장보기':'장보기와 외식비를 줄이고 싶을 때'
-  };
   const aliases=[
     {match:['차가안시원','에어컨안시원','미지근한바람','차가너무더워','자동차냉방'],expand:'자동차 에어컨 냉방 미지근한 바람 연비'},
     {match:['기름많이먹','기름값많이','연비나빠','주유비많이'],expand:'연비 주유비 연료비 자동차'},
@@ -109,23 +97,54 @@
   };
   const grams=(value)=>{const text=normalize(value),out=[];for(let i=0;i<text.length-1;i++)out.push(text.slice(i,i+2));return out};
   const similarity=(left,right)=>{const a=grams(left),b=grams(right);if(!a.length||!b.length)return normalize(left)===normalize(right)?1:0;const pool=[...b];let hits=0;a.forEach((x)=>{const i=pool.indexOf(x);if(i>=0){hits++;pool.splice(i,1)}});return 2*hits/(a.length+b.length)};
-  const score=(item,query)=>{const q=normalize(expandQuery(query));if(!q)return 1;const title=normalize(item.title),keywords=normalize(item.keywords);const rawExact=Array.isArray(item.exactQueries)?item.exactQueries:[item.exactQueries];const exact=rawExact.map(normalize).filter(Boolean);if(exact.includes(q))return 1000;if(title===q)return 900;if(title.startsWith(q))return 700;if(title.includes(q))return 600;if(keywords.includes(q))return 500;const fuzzy=Math.max(0,...[...exact,title,keywords].filter(Boolean).map((value)=>similarity(value,q)));return q.length>=3&&fuzzy>=.46?200+Math.round(fuzzy*100):0};
+  const score=(item,query)=>{const q=normalize(expandQuery(query));if(!q)return 1;const title=normalize(item.title),keywords=normalize(item.keywords);const exact=(Array.isArray(item.exactQueries)?item.exactQueries:[item.exactQueries]).map(normalize).filter(Boolean);if(exact.includes(q))return 1000;if(title===q)return 900;if(title.startsWith(q))return 700;if(title.includes(q))return 600;if(keywords.includes(q))return 500;const fuzzy=Math.max(0,...[...exact,title,keywords].filter(Boolean).map((value)=>similarity(value,q)));return q.length>=3&&fuzzy>=.46?200+Math.round(fuzzy*100):0};
+
+  const locateCurrent=()=>{
+    for(const [large,middles] of Object.entries(DATA.tree)){
+      if(!middles||typeof middles!=='object')continue;
+      for(const [middle,smalls] of Object.entries(middles)){
+        if(!smalls||typeof smalls!=='object')continue;
+        for(const [small,rawItems] of Object.entries(smalls)){
+          const items=validItems(rawItems);
+          const index=items.findIndex(isCurrent);
+          if(index>=0)return{large,middle,small,items,index,item:items[index]};
+        }
+      }
+    }
+    return null;
+  };
 
   const nav=document.createElement('aside');
   nav.id='savingio-brain-nav';
   nav.setAttribute('aria-label','Savingio 생활 문제 탐색');
   nav.innerHTML=`
     <button class="sbn-close" type="button" aria-label="생활 문제 탐색 닫기">×</button>
-    <div class="sbn-head"><strong>생활 문제 찾기</strong><small>카테고리를 몰라도 괜찮습니다.<br>지금 겪는 일을 그대로 찾아보세요.</small></div>
-    <div class="sbn-search"><input type="search" placeholder="예: 차가 안 시원해요" aria-label="Savingio 생활 문제 검색" autocomplete="off"></div>
+    <div class="sbn-head"><strong>생활 문제 찾기</strong><small>무슨 일이 있으세요?<br>지금 겪는 일을 그대로 찾아보세요.</small></div>
+    <div class="sbn-search"><input type="search" placeholder="예: 전기세가 너무 많이 나왔어요" aria-label="Savingio 생활 문제 검색" autocomplete="off"></div>
+    <div class="sbn-context"></div>
     <div class="sbn-tree"></div>`;
 
   const tree=nav.querySelector('.sbn-tree');
+  const context=nav.querySelector('.sbn-context');
   const search=nav.querySelector('input');
-  const validItems=(items)=>Array.isArray(items)?items.filter((item)=>item&&typeof item.title==='string'&&typeof item.href==='string'):[];
+  const currentLocation=locateCurrent();
+
+  const renderContext=()=>{
+    if(!currentLocation){context.hidden=true;return;}
+    const {large,middle,small,items,index,item}=currentLocation;
+    const neighbours=[];
+    [index+1,index-1,index+2,index-2].forEach((i)=>{if(i>=0&&i<items.length&&!isCurrent(items[i])&&!neighbours.includes(items[i]))neighbours.push(items[i])});
+    context.hidden=false;
+    context.innerHTML=`
+      <div class="sbn-context-label">현재 위치</div>
+      <div class="sbn-breadcrumb">${esc(large)} <span>›</span> ${esc(middle)} <span>›</span> ${esc(small)}</div>
+      <a class="sbn-current-card" href="${esc(item.href)}" aria-current="page">${esc(item.title)}</a>
+      ${neighbours.length?`<div class="sbn-next-label">다음으로 이어보기</div><div class="sbn-next-list">${neighbours.slice(0,3).map((next)=>`<a href="${esc(next.href)}">${esc(next.title)}</a>`).join('')}</div>`:''}`;
+  };
 
   function render(query=''){
     const q=normalize(query);
+    context.hidden=Boolean(q)||!currentLocation;
     let html='';
     Object.entries(DATA.tree).forEach(([large,middles])=>{
       const largeMeta=(DATA.largeMeta&&DATA.largeMeta[large])||{};
@@ -141,25 +160,23 @@
           const smallIsCurrent=items.some(isCurrent);
           largeHasMatch=middleHasMatch=true;
           if(smallIsCurrent)largeIsCurrent=middleIsCurrent=true;
-          const links=filtered.map((item)=>{const currentAttr=isCurrent(item)?' aria-current="page"':'';const isCalculator=item.type==='calculator';return `<li><a href="${esc(item.href)}"${currentAttr}><span class="sbn-type${isCalculator?' calc':''}">${isCalculator?'계':'글'}</span><span>${esc(item.title)}</span></a></li>`}).join('');
-          smallHtml+=`<details class="sbn-small"${(smallIsCurrent||q)?' open':''}><summary>${esc(small)}<span class="sbn-count">${filtered.length}</span></summary><ul class="sbn-items">${links}</ul></details>`;
+          const links=filtered.map((item)=>`<li><a href="${esc(item.href)}"${isCurrent(item)?' aria-current="page"':''}><span>${esc(item.title)}</span></a></li>`).join('');
+          smallHtml+=`<details class="sbn-small"${(smallIsCurrent||q)?' open':''}><summary>${esc(small)}</summary><ul class="sbn-items">${links}</ul></details>`;
         });
         if(middleHasMatch)middleHtml+=`<details class="sbn-middle"${(middleIsCurrent||q)?' open':''}><summary>${esc(middle)}</summary>${smallHtml}</details>`;
       });
       if(largeHasMatch){
-        const label=categoryLabels[large]||large;
-        const description=categoryDescriptions[large]||largeMeta.description||'';
-        html+=`<details class="sbn-large"${(largeIsCurrent||q)?' open':''}><summary><span class="sbn-large-title">${esc(label)}</span>${description?`<span class="sbn-large-desc">${esc(description)}</span>`:''}</summary>${middleHtml}</details>`;
+        const description=largeMeta.description||'';
+        html+=`<details class="sbn-large"${(largeIsCurrent||q)?' open':''}><summary><span class="sbn-large-title">${esc(large)}</span>${description?`<span class="sbn-large-desc">${esc(description)}</span>`:''}</summary>${middleHtml}</details>`;
       }
     });
-    tree.innerHTML=html||'<div class="sbn-empty">정확히 일치하는 제목은 없지만, 표현을 조금 줄여 다시 찾아보세요.<br>예: “에어컨 켜면 기름 많이 먹나요” → “차 에어컨”</div>';
+    tree.innerHTML=html||'<div class="sbn-empty">일치하는 결과가 없습니다.<br>문장을 조금 줄여 다시 찾아보세요.</div>';
     if(!q)tree.querySelectorAll('.sbn-large').forEach((details)=>details.addEventListener('toggle',()=>{if(!details.open)return;tree.querySelectorAll('.sbn-large[open]').forEach((other)=>{if(other!==details&&!other.querySelector('[aria-current="page"]'))other.open=false})}));
-    const currentLink=tree.querySelector('[aria-current="page"]');
-    if(currentLink)requestAnimationFrame(()=>{const treeRect=tree.getBoundingClientRect(),linkRect=currentLink.getBoundingClientRect();const target=tree.scrollTop+(linkRect.top-treeRect.top)-((tree.clientHeight-linkRect.height)/2);tree.scrollTo({top:Math.max(0,target),behavior:'auto'})});
   }
 
-  document.body.prepend(nav);
+  document.body.append(nav);
   document.documentElement.classList.add('savingio-brain-ready');
+  renderContext();
   render();
   search.addEventListener('input',(event)=>render(event.target.value));
 
