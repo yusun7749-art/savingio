@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3046,
-  "references_scanned": 64749,
+  "references_scanned": 64760,
   "counts": {
-    "broken_references": 513,
+    "broken_references": 517,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -51,6 +51,34 @@
       "reference": "/categories/refund-insurance.html",
       "expected": [
         "categories/refund-insurance.html"
+      ]
+    },
+    {
+      "source": "articles/child-allowance-guide.html",
+      "reference": "/categories/banking.html",
+      "expected": [
+        "categories/banking.html"
+      ]
+    },
+    {
+      "source": "articles/child-allowance-guide.html",
+      "reference": "/categories/communication.html",
+      "expected": [
+        "categories/communication.html"
+      ]
+    },
+    {
+      "source": "articles/child-allowance-guide.html",
+      "reference": "/categories/insurance.html",
+      "expected": [
+        "categories/insurance.html"
+      ]
+    },
+    {
+      "source": "articles/child-allowance-guide.html",
+      "reference": "/categories/utility-bills.html",
+      "expected": [
+        "categories/utility-bills.html"
       ]
     },
     {
