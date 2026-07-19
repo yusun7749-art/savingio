@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3045,
-  "references_scanned": 64821,
+  "files_scanned": 3046,
+  "references_scanned": 64849,
   "counts": {
-    "broken_references": 517,
+    "broken_references": 513,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -47,31 +47,10 @@
       ]
     },
     {
-      "source": "articles/car-insurance-child-discount.html",
-      "reference": "/articles/car-insurance-saving.html",
-      "expected": [
-        "articles/car-insurance-saving.html"
-      ]
-    },
-    {
-      "source": "articles/car-insurance-mileage-refund.html",
-      "reference": "/articles/car-insurance-saving.html",
-      "expected": [
-        "articles/car-insurance-saving.html"
-      ]
-    },
-    {
       "source": "articles/car-insurance-overpayment-refund.html",
       "reference": "/articles/car-accident-insurance-premium-increase.html",
       "expected": [
         "articles/car-accident-insurance-premium-increase.html"
-      ]
-    },
-    {
-      "source": "articles/car-insurance-overpayment-refund.html",
-      "reference": "/articles/car-insurance-saving.html",
-      "expected": [
-        "articles/car-insurance-saving.html"
       ]
     },
     {
@@ -179,13 +158,6 @@
       "reference": "/articles/car-insurance-low-mileage-discount.html",
       "expected": [
         "articles/car-insurance-low-mileage-discount.html"
-      ]
-    },
-    {
-      "source": "factory/SITE_INTEGRITY_REPORT.json",
-      "reference": "/articles/car-insurance-saving.html",
-      "expected": [
-        "articles/car-insurance-saving.html"
       ]
     },
     {
