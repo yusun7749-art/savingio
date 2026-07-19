@@ -58,12 +58,19 @@
     }catch(_error){return;}
   }
 
+  let exclusionPayload={excluded_paths:[]};
+  try{
+    const response=await fetch('/data/savingio-navigation-exclusions.json?v=1',{cache:'no-store'});
+    if(response.ok)exclusionPayload=await response.json();
+  }catch(_error){}
+
   const normalizePath=(value)=>{
     let path=value||'/';
     try{path=decodeURI(path)}catch(_error){}
     path=path.split('?')[0].split('#')[0].replace(/\/index\.html$/,'/').replace(/\.html$/,'').replace(/\/$/,'');
     return path||'/';
   };
+  const excludedPaths=new Set((Array.isArray(exclusionPayload.excluded_paths)?exclusionPayload.excluded_paths:[]).map(normalizePath));
   const current=normalizePath(location.pathname);
   const isCurrent=(item)=>item&&normalizePath(item.href)===current;
   const esc=(value)=>String(value??'').replace(/[&<>"']/g,(char)=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[char]);
@@ -75,7 +82,7 @@
     return items.filter((item)=>{
       if(!item||typeof item.title!=='string'||!validHref(item.href))return false;
       const key=normalizePath(item.href);
-      if(seen.has(key))return false;
+      if(excludedPaths.has(key)||item.navigation_exclude===true||item.taxonomy_status==='mismatch'||seen.has(key))return false;
       seen.add(key);
       return item.title.trim().length>=2;
     });
@@ -90,11 +97,7 @@
     {match:['카드값이상','수수료아까','결제취소'],expand:'카드 결제 수수료 환불'},
     {match:['전기세많이','관리비많이','요금많이'],expand:'전기요금 관리비 생활비 절약'}
   ];
-  const expandQuery=(query)=>{
-    const q=normalize(query);
-    const found=aliases.find((entry)=>entry.match.some((word)=>q.includes(normalize(word))));
-    return found?`${query} ${found.expand}`:query;
-  };
+  const expandQuery=(query)=>{const q=normalize(query);const found=aliases.find((entry)=>entry.match.some((word)=>q.includes(normalize(word))));return found?`${query} ${found.expand}`:query};
   const grams=(value)=>{const text=normalize(value),out=[];for(let i=0;i<text.length-1;i++)out.push(text.slice(i,i+2));return out};
   const similarity=(left,right)=>{const a=grams(left),b=grams(right);if(!a.length||!b.length)return normalize(left)===normalize(right)?1:0;const pool=[...b];let hits=0;a.forEach((x)=>{const i=pool.indexOf(x);if(i>=0){hits++;pool.splice(i,1)}});return 2*hits/(a.length+b.length)};
   const score=(item,query)=>{const q=normalize(expandQuery(query));if(!q)return 1;const title=normalize(item.title),keywords=normalize(item.keywords);const exact=(Array.isArray(item.exactQueries)?item.exactQueries:[item.exactQueries]).map(normalize).filter(Boolean);if(exact.includes(q))return 1000;if(title===q)return 900;if(title.startsWith(q))return 700;if(title.includes(q))return 600;if(keywords.includes(q))return 500;const fuzzy=Math.max(0,...[...exact,title,keywords].filter(Boolean).map((value)=>similarity(value,q)));return q.length>=3&&fuzzy>=.46?200+Math.round(fuzzy*100):0};
