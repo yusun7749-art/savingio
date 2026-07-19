@@ -2,15 +2,22 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3046,
-  "references_scanned": 64800,
+  "references_scanned": 64801,
   "counts": {
-    "broken_references": 538,
+    "broken_references": 539,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
     "publisher_id_drift": 0
   },
   "broken_references": [
+    {
+      "source": "articles/car-aircon-fuel-saving.html",
+      "reference": "/articles/car-insurance-low-mileage-discount.html",
+      "expected": [
+        "articles/car-insurance-low-mileage-discount.html"
+      ]
+    },
     {
       "source": "articles/car-aircon-fuel-saving.html",
       "reference": "/articles/car-tire-pressure-fuel-efficiency.html",
@@ -23,20 +30,6 @@
       "reference": "/articles/fuel-saving-driving-habits.html",
       "expected": [
         "articles/fuel-saving-driving-habits.html"
-      ]
-    },
-    {
-      "source": "articles/car-aircon-fuel-saving.html",
-      "reference": "/calculators/car-maintenance-cost.html",
-      "expected": [
-        "calculators/car-maintenance-cost.html"
-      ]
-    },
-    {
-      "source": "articles/car-aircon-fuel-saving.html",
-      "reference": "/calculators/fuel-cost.html",
-      "expected": [
-        "calculators/fuel-cost.html"
       ]
     },
     {
@@ -417,6 +410,20 @@
       "reference": "/calculators/car-insurance.html",
       "expected": [
         "calculators/car-insurance.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/calculators/car-maintenance-cost.html",
+      "expected": [
+        "calculators/car-maintenance-cost.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/calculators/fuel-cost.html",
+      "expected": [
+        "calculators/fuel-cost.html"
       ]
     },
     {
