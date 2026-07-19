@@ -31,21 +31,24 @@
       const currentIndex=links.findIndex((link)=>link.getAttribute('aria-current')==='step');
       const preferred=[];
       const add=(index)=>{if(index>=0&&index<links.length&&!preferred.includes(links[index]))preferred.push(links[index])};
-      add(currentIndex);
-      add(currentIndex-1);
-      add(currentIndex+1);
-      add(currentIndex-2);
-      add(currentIndex+2);
+      add(currentIndex);add(currentIndex-1);add(currentIndex+1);add(currentIndex-2);add(currentIndex+2);
       links.forEach((link)=>{if(preferred.length<6&&!preferred.includes(link))preferred.push(link)});
       container.replaceChildren(...preferred.slice(0,6));
       const note=section.querySelector(':scope > p');
-      if(note)note.textContent='현재 글과 바로 이어서 확인할 핵심 단계만 정리했습니다. 필요한 항목을 카드별로 선택하세요.';
+      if(note)note.textContent='현재 글과 바로 이어서 확인할 핵심 단계만 정리했습니다.';
       section.dataset.compacted='true';
     });
   };
 
-  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',installProblemPathFix,{once:true});
-  else installProblemPathFix();
+  const removeDuplicateEditorialCredit=()=>{
+    const editorial=document.querySelector('.editorial');
+    if(!editorial)return;
+    const credit=editorial.querySelector(':scope > strong');
+    if(credit&&/작성\s*[·:]?\s*검수/.test(credit.textContent||''))credit.remove();
+  };
+
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>{installProblemPathFix();removeDuplicateEditorialCredit()},{once:true});
+  else{installProblemPathFix();removeDuplicateEditorialCredit()}
 
   if(document.getElementById('savingio-brain-nav'))return;
   let DATA=window.SAVINGIO_BRAIN_DATA;
@@ -67,26 +70,60 @@
   };
   const current=normalizePath(location.pathname);
   const isCurrent=(item)=>item&&normalizePath(item.href)===current;
-  const esc=(value)=>String(value??'').replace(/[&<>"']/g,(char)=>({
-    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
-  })[char]);
+  const esc=(value)=>String(value??'').replace(/[&<>"']/g,(char)=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[char]);
+  const normalize=(value)=>String(value||'').toLowerCase().replace(/[^0-9a-z가-힣]+/gi,'');
+
+  const categoryLabels={
+    '식비·장보기':'먹고 사는 비용',
+    '은행·카드':'통장에서 생긴 일',
+    '대출':'빚과 상환',
+    '저축·신용':'돈을 모으고 지키기',
+    '자동차 비용':'자동차에서 생긴 일',
+    '보험·렌터카':'사고·보험이 궁금해요',
+    '세금':'세금에서 생긴 일',
+    '주거':'집에서 생긴 일',
+    '환급·지원금':'돌려받거나 받을 돈',
+    '생활비':'매달 나가는 돈'
+  };
+  const categoryDescriptions={
+    '자동차 비용':'차가 덥거나, 기름값이 늘거나, 사고가 났을 때',
+    '보험·렌터카':'누가 책임지는지, 보험이 되는지 궁금할 때',
+    '은행·카드':'결제·수수료·카드값이 이상할 때',
+    '대출':'이자와 상환 부담을 줄이고 싶을 때',
+    '저축·신용':'신용점수와 목돈 관리가 필요할 때',
+    '식비·장보기':'장보기와 외식비를 줄이고 싶을 때'
+  };
+  const aliases=[
+    {match:['차가안시원','에어컨안시원','미지근한바람','차가너무더워','자동차냉방'],expand:'자동차 에어컨 냉방 미지근한 바람 연비'},
+    {match:['기름많이먹','기름값많이','연비나빠','주유비많이'],expand:'연비 주유비 연료비 자동차'},
+    {match:['보험되나요','보험처리','보상받','누구책임'],expand:'보험 보상 배상 책임 청구'},
+    {match:['물이새','천장누수','벽젖','누수'],expand:'누수 수도 집 보험 배상'},
+    {match:['돈돌려받','환급받','숨은돈','못받은돈'],expand:'환급금 환급 숨은돈 지원금'},
+    {match:['카드값이상','수수료아까','결제취소'],expand:'카드 결제 수수료 환불'},
+    {match:['전기세많이','관리비많이','요금많이'],expand:'전기요금 관리비 생활비 절약'}
+  ];
+  const expandQuery=(query)=>{
+    const q=normalize(query);
+    const found=aliases.find((entry)=>entry.match.some((word)=>q.includes(normalize(word))));
+    return found?`${query} ${found.expand}`:query;
+  };
+  const grams=(value)=>{const text=normalize(value),out=[];for(let i=0;i<text.length-1;i++)out.push(text.slice(i,i+2));return out};
+  const similarity=(left,right)=>{const a=grams(left),b=grams(right);if(!a.length||!b.length)return normalize(left)===normalize(right)?1:0;const pool=[...b];let hits=0;a.forEach((x)=>{const i=pool.indexOf(x);if(i>=0){hits++;pool.splice(i,1)}});return 2*hits/(a.length+b.length)};
+  const score=(item,query)=>{const q=normalize(expandQuery(query));if(!q)return 1;const title=normalize(item.title),keywords=normalize(item.keywords);const rawExact=Array.isArray(item.exactQueries)?item.exactQueries:[item.exactQueries];const exact=rawExact.map(normalize).filter(Boolean);if(exact.includes(q))return 1000;if(title===q)return 900;if(title.startsWith(q))return 700;if(title.includes(q))return 600;if(keywords.includes(q))return 500;const fuzzy=Math.max(0,...[...exact,title,keywords].filter(Boolean).map((value)=>similarity(value,q)));return q.length>=3&&fuzzy>=.46?200+Math.round(fuzzy*100):0};
 
   const nav=document.createElement('aside');
   nav.id='savingio-brain-nav';
-  nav.setAttribute('aria-label','Savingio 주제 탐색');
+  nav.setAttribute('aria-label','Savingio 생활 문제 탐색');
   nav.innerHTML=`
-    <button class="sbn-close" type="button" aria-label="주제 탐색 닫기">×</button>
-    <div class="sbn-head"><strong>문제 해결 탐색</strong><small>지금 하려는 일부터 선택하세요.</small></div>
-    <div class="sbn-search"><input type="search" placeholder="예: 전기세, 환급금, 퇴직금" aria-label="Savingio 문제 해결 검색" autocomplete="off"></div>
+    <button class="sbn-close" type="button" aria-label="생활 문제 탐색 닫기">×</button>
+    <div class="sbn-head"><strong>생활 문제 찾기</strong><small>카테고리를 몰라도 괜찮습니다.<br>지금 겪는 일을 그대로 찾아보세요.</small></div>
+    <div class="sbn-search"><input type="search" placeholder="예: 차가 안 시원해요" aria-label="Savingio 생활 문제 검색" autocomplete="off"></div>
+    <section class="sbn-quick"><strong>지금 많이 찾는 문제</strong><div class="sbn-quick-list"><button type="button" data-query="차가 안 시원해요">차가 안 시원해요</button><button type="button" data-query="보험 되나요">보험 되나요?</button><button type="button" data-query="물이 새요">물이 새요</button><button type="button" data-query="돈 돌려받나요">돌려받을 돈</button></div></section>
     <div class="sbn-tree"></div>`;
 
   const tree=nav.querySelector('.sbn-tree');
   const search=nav.querySelector('input');
   const validItems=(items)=>Array.isArray(items)?items.filter((item)=>item&&typeof item.title==='string'&&typeof item.href==='string'):[];
-  const normalize=(value)=>String(value||'').toLowerCase().replace(/[^0-9a-z가-힣]+/gi,'');
-  const grams=(value)=>{const text=normalize(value),out=[];for(let i=0;i<text.length-1;i++)out.push(text.slice(i,i+2));return out};
-  const similarity=(left,right)=>{const a=grams(left),b=grams(right);if(!a.length||!b.length)return normalize(left)===normalize(right)?1:0;const pool=[...b];let hits=0;a.forEach((x)=>{const i=pool.indexOf(x);if(i>=0){hits++;pool.splice(i,1)}});return 2*hits/(a.length+b.length)};
-  const score=(item,query)=>{const q=normalize(query);if(!q)return 1;const title=normalize(item.title),keywords=normalize(item.keywords);const rawExact=Array.isArray(item.exactQueries)?item.exactQueries:[item.exactQueries];const exact=rawExact.map(normalize).filter(Boolean);if(exact.includes(q))return 1000;if(title===q)return 900;if(title.startsWith(q))return 700;if(title.includes(q))return 600;if(keywords.includes(q))return 400;const fuzzy=Math.max(0,...[...exact,title].filter(Boolean).map((value)=>similarity(value,q)));return q.length>=3&&fuzzy>=.56?200+Math.round(fuzzy*100):0};
 
   function render(query=''){
     const q=normalize(query);
@@ -110,9 +147,13 @@
         });
         if(middleHasMatch)middleHtml+=`<details class="sbn-middle"${(middleIsCurrent||q)?' open':''}><summary>${esc(middle)}</summary>${smallHtml}</details>`;
       });
-      if(largeHasMatch)html+=`<details class="sbn-large"${(largeIsCurrent||q)?' open':''}><summary><span class="sbn-large-title">${esc(large)}</span>${largeMeta.description?`<span class="sbn-large-desc">${esc(largeMeta.description)}</span>`:''}</summary>${middleHtml}</details>`;
+      if(largeHasMatch){
+        const label=categoryLabels[large]||large;
+        const description=categoryDescriptions[large]||largeMeta.description||'';
+        html+=`<details class="sbn-large"${(largeIsCurrent||q)?' open':''}><summary><span class="sbn-large-title">${esc(label)}</span>${description?`<span class="sbn-large-desc">${esc(description)}</span>`:''}</summary>${middleHtml}</details>`;
+      }
     });
-    tree.innerHTML=html||'<div class="sbn-empty">일치하는 주제가 없습니다.</div>';
+    tree.innerHTML=html||'<div class="sbn-empty">정확히 일치하는 제목은 없지만, 표현을 조금 줄여 다시 찾아보세요.<br>예: “에어컨 켜면 기름 많이 먹나요” → “차 에어컨”</div>';
     if(!q)tree.querySelectorAll('.sbn-large').forEach((details)=>details.addEventListener('toggle',()=>{if(!details.open)return;tree.querySelectorAll('.sbn-large[open]').forEach((other)=>{if(other!==details&&!other.querySelector('[aria-current="page"]'))other.open=false})}));
     const currentLink=tree.querySelector('[aria-current="page"]');
     if(currentLink)requestAnimationFrame(()=>{const treeRect=tree.getBoundingClientRect(),linkRect=currentLink.getBoundingClientRect();const target=tree.scrollTop+(linkRect.top-treeRect.top)-((tree.clientHeight-linkRect.height)/2);tree.scrollTo({top:Math.max(0,target),behavior:'auto'})});
@@ -122,9 +163,10 @@
   document.documentElement.classList.add('savingio-brain-ready');
   render();
   search.addEventListener('input',(event)=>render(event.target.value));
+  nav.querySelectorAll('.sbn-quick button').forEach((button)=>button.addEventListener('click',()=>{search.value=button.dataset.query||'';render(search.value);search.focus()}));
 
   const button=document.createElement('button');
-  button.className='sbn-mobile-btn';button.type='button';button.textContent='주제 탐색';button.setAttribute('aria-label','주제 탐색 열기');document.body.append(button);
+  button.className='sbn-mobile-btn';button.type='button';button.textContent='문제 찾기';button.setAttribute('aria-label','생활 문제 탐색 열기');document.body.append(button);
   const backdrop=document.createElement('div');backdrop.className='sbn-backdrop';document.body.append(backdrop);
   const close=()=>{document.body.classList.remove('sbn-open');button.setAttribute('aria-expanded','false')};
   const open=()=>{document.body.classList.add('sbn-open');button.setAttribute('aria-expanded','true')};
