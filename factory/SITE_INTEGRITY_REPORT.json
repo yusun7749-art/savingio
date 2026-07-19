@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3033,
-  "references_scanned": 64793,
+  "files_scanned": 3034,
+  "references_scanned": 64794,
   "counts": {
-    "broken_references": 495,
+    "broken_references": 494,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -30,13 +30,6 @@
       "reference": "/articles/fuel-saving-driving-habits.html",
       "expected": [
         "articles/fuel-saving-driving-habits.html"
-      ]
-    },
-    {
-      "source": "articles/car-aircon-fuel-saving.html",
-      "reference": "/js/savingio-brain-data.js?v=12",
-      "expected": [
-        "js/savingio-brain-data.js"
       ]
     },
     {
