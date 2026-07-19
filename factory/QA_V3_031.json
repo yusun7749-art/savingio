@@ -1,0 +1,34 @@
+{
+  "version": "V3.031",
+  "created_at": "2026-07-19",
+  "scope": ["articles/car-insurance-child-discount.html"],
+  "method": "full replacement at the same filename and URL after extracting title, URL and core topic",
+  "checks": {
+    "title_url_preserved": true,
+    "canonical": true,
+    "meta_description": true,
+    "article_schema": true,
+    "faq_schema": true,
+    "table_of_contents": true,
+    "comparison_table": true,
+    "checklist": true,
+    "faq": true,
+    "real_image_reference": "/images/articles/car-insurance-child-discount.svg",
+    "category_link": "/categories/car-transport.html",
+    "related_articles": true,
+    "calculator_link": true,
+    "brain_navigation": true,
+    "search_data_script": true,
+    "long_inline_problem_path_removed": true,
+    "same_url_replacement": true
+  },
+  "implementation_commit": "60834175545f1517ccba730a8600fac31112d476",
+  "production_verification": {
+    "status": "PENDING_CLOUDFLARE_DEPLOYMENT",
+    "pass_claimed": false
+  },
+  "next_batch": [
+    "articles/car-insurance-mileage-refund.html",
+    "articles/car-tax-annual-payment.html"
+  ]
+}
