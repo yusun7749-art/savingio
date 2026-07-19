@@ -1,0 +1,51 @@
+name: Articles UI V3035
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'factory/fix_articles_ui_v3035.py'
+      - '.github/workflows/articles-ui-v3035.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Apply cleanup and redesign
+        run: python factory/fix_articles_ui_v3035.py
+
+      - name: Verify warning text removed
+        run: |
+          if grep -RIl --include='*.html' 'Warning: truncated output' .; then
+            echo 'Warning text still exists in HTML files.'
+            exit 1
+          fi
+
+      - name: Verify Publisher ID
+        run: |
+          if grep -RIl --include='*.html' -E 'ca-pub-[0-9]+' . | xargs -r grep -hEo 'ca-pub-[0-9]+' | grep -v '^ca-pub-7605193583747751$'; then
+            echo 'Unexpected AdSense Publisher ID detected.'
+            exit 1
+          fi
+
+      - name: Commit generated changes
+        run: |
+          if git diff --quiet; then
+            echo 'No generated changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- '*.html'
+          git commit -m 'V3.035 clean warning text and refine articles UI'
+          git push
