@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3038,
-  "references_scanned": 64966,
+  "files_scanned": 3039,
+  "references_scanned": 64968,
   "counts": {
-    "broken_references": 496,
+    "broken_references": 498,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -85,9 +85,23 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/car-accident-insurance-premium-increase.html",
+      "expected": [
+        "articles/car-accident-insurance-premium-increase.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/car-insurance-low-mileage-discount.html",
       "expected": [
         "articles/car-insurance-low-mileage-discount.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/car-insurance-saving.html",
+      "expected": [
+        "articles/car-insurance-saving.html"
       ]
     },
     {
