@@ -4,20 +4,13 @@
   "files_scanned": 3046,
   "references_scanned": 64830,
   "counts": {
-    "broken_references": 512,
+    "broken_references": 511,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
     "publisher_id_drift": 0
   },
   "broken_references": [
-    {
-      "source": "articles/business-vehicle-expense-basics.html",
-      "reference": "/images/articles/business-vehicle-expense-basics.svg",
-      "expected": [
-        "images/articles/business-vehicle-expense-basics.svg"
-      ]
-    },
     {
       "source": "articles/car-aircon-fuel-saving.html",
       "reference": "/articles/car-insurance-low-mileage-discount.html",
