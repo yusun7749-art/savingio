@@ -1,0 +1,48 @@
+name: Article Unified V3036
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'css/savingio-article-unified-v3036.css'
+      - 'factory/apply_article_unified_v3036.py'
+      - '.github/workflows/article-unified-v3036.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Apply unified article visual system
+        run: python factory/apply_article_unified_v3036.py
+      - name: Verify warning text removed
+        run: |
+          if grep -RIl --include='*.html' 'Warning: truncated output' articles; then
+            echo 'Warning text remains.'
+            exit 1
+          fi
+      - name: Verify Publisher ID
+        run: |
+          bad=$(grep -RhoE 'ca-pub-[0-9]+' --include='*.html' . | sort -u | grep -v '^ca-pub-7605193583747751$' || true)
+          if [ -n "$bad" ]; then
+            echo "$bad"
+            exit 1
+          fi
+      - name: Commit generated HTML
+        run: |
+          if git diff --quiet; then
+            echo 'No changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add articles/*.html
+          git commit -m 'V3.036 apply unified cream visual system to articles'
+          git push
