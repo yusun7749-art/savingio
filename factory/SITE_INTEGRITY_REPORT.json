@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3032,
-  "references_scanned": 64732,
+  "files_scanned": 3033,
+  "references_scanned": 64793,
   "counts": {
-    "broken_references": 434,
+    "broken_references": 495,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -81,6 +81,434 @@
         "articles/sample\\",
         "articles/sample\\.html",
         "articles/sample\\/index.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/car-insurance-low-mileage-discount.html",
+      "expected": [
+        "articles/car-insurance-low-mileage-discount.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/car-tire-pressure-fuel-efficiency.html",
+      "expected": [
+        "articles/car-tire-pressure-fuel-efficiency.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/electricity-guide.html",
+      "expected": [
+        "articles/electricity-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/factory-runner-integration.html",
+      "expected": [
+        "articles/factory-runner-integration.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/fuel-saving-driving-habits.html",
+      "expected": [
+        "articles/fuel-saving-driving-habits.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/sample.html",
+      "expected": [
+        "articles/sample.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/건강보험료-환급금-조회-방법-eab36122.html",
+      "expected": [
+        "articles/건강보험료-환급금-조회-방법-eab36122.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/관리비-절약-8e9b7c5b.html",
+      "expected": [
+        "articles/관리비-절약-8e9b7c5b.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/국세-환급금-조회와-수령-방법-52402287.html",
+      "expected": [
+        "articles/국세-환급금-조회와-수령-방법-52402287.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html",
+      "expected": [
+        "articles/근로장려금-신청-조건과-지급-일정-7f9a0dee.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/기초연금-신청-조건과-예상-금액-4aeed037.html",
+      "expected": [
+        "articles/기초연금-신청-조건과-예상-금액-4aeed037.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+      "expected": [
+        "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html",
+      "expected": [
+        "articles/수도요금이-갑자기-늘었을-때-확인할-것-3e3606cc.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/신용카드-포인트-현금화-방법-1c5c3966.html",
+      "expected": [
+        "articles/신용카드-포인트-현금화-방법-1c5c3966.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/실업급여-신청-조건과-절차-d8a12400.html",
+      "expected": [
+        "articles/실업급여-신청-조건과-절차-d8a12400.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
+      "expected": [
+        "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/에너지바우처-신청-대상과-방법-503ef955.html",
+      "expected": [
+        "articles/에너지바우처-신청-대상과-방법-503ef955.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/연차수당-계산과-지급-기준-9e610a82.html",
+      "expected": [
+        "articles/연차수당-계산과-지급-기준-9e610a82.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/월급-실수령액-계산-방법-305d9058.html",
+      "expected": [
+        "articles/월급-실수령액-계산-방법-305d9058.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html",
+      "expected": [
+        "articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "expected": [
+        "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/장기수선충당금-298a523e.html",
+      "expected": [
+        "articles/장기수선충당금-298a523e.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "expected": [
+        "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
+      "expected": [
+        "articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/전기요금-절약-c861d77b.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/지방세-환급금-조회-방법-f570e7b4.html",
+      "expected": [
+        "articles/지방세-환급금-조회-방법-f570e7b4.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html",
+      "expected": [
+        "articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/퇴직금-계산과-지급-기준-b30bc4f9.html",
+      "expected": [
+        "articles/퇴직금-계산과-지급-기준-b30bc4f9.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+      "expected": [
+        "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/calculators/car-insurance.html",
+      "expected": [
+        "calculators/car-insurance.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/calculators/percent.html",
+      "expected": [
+        "calculators/percent.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles",
+        "mnt/data/v2018work/savingio-live/articles/index.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/ai-side-hustles-beginner.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/ai-side-hustles-beginner.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/air-conditioner-electricity-saving.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/air-conditioner-electricity-saving.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/aircon-dry-mode-electricity.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/aircon-dry-mode-electricity.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/aircon-filter-cleaning-savings.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/aircon-filter-cleaning-savings.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/aircon-optimal-temperature-savings.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/aircon-optimal-temperature-savings.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/apartment-management-fee-summer.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/apartment-management-fee-summer.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/automatic-payment-saving.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/automatic-payment-saving.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/bank-account-budgeting.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/bank-account-budgeting.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/bank-fee-saving.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/bank-fee-saving.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/basic-livelihood-discounts.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/basic-livelihood-discounts.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/basic-pension-application-guide.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/basic-pension-application-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/beginner-ai-side-hustles.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/beginner-ai-side-hustles.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/beginner-budget-plan.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/beginner-budget-plan.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/beginner-money-management.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/beginner-money-management.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/benefit-scam-warning-2026.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/benefit-scam-warning-2026.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/budget-app-guide.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/budget-app-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/building-land-property-tax.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/building-land-property-tax.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/business-card-hometax-registration.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/business-card-hometax-registration.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/business-closure-vat-order.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/business-closure-vat-order.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/business-phone-expense-deduction.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/business-phone-expense-deduction.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/business-vehicle-expense-basics.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/business-vehicle-expense-basics.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/cancel-unused-subscriptions.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/cancel-unused-subscriptions.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/car-aircon-fuel-saving.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/car-aircon-fuel-saving.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2047_work/savingio-live/calculators/electricity-cost.html",
+      "expected": [
+        "mnt/data/v2047_work/savingio-live/calculators/electricity-cost.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2047_work/savingio-live/calculators/hourly-to-monthly.html",
+      "expected": [
+        "mnt/data/v2047_work/savingio-live/calculators/hourly-to-monthly.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2047_work/savingio-live/calculators/loan-payment.html",
+      "expected": [
+        "mnt/data/v2047_work/savingio-live/calculators/loan-payment.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2047_work/savingio-live/calculators/severance-pay.html",
+      "expected": [
+        "mnt/data/v2047_work/savingio-live/calculators/severance-pay.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2047_work/savingio-live/calculators/vat.html",
+      "expected": [
+        "mnt/data/v2047_work/savingio-live/calculators/vat.html"
       ]
     },
     {
