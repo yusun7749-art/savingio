@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3045,
-  "references_scanned": 64820,
+  "references_scanned": 64821,
   "counts": {
-    "broken_references": 515,
+    "broken_references": 516,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -86,6 +86,13 @@
       "reference": "/images/articles/duplicate-indemnity-insurance-check.svg",
       "expected": [
         "images/articles/duplicate-indemnity-insurance-check.svg"
+      ]
+    },
+    {
+      "source": "articles/health-insurance-out-of-pocket-refund.html",
+      "reference": "/categories/insurance-refund.html",
+      "expected": [
+        "categories/insurance-refund.html"
       ]
     },
     {
