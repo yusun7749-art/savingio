@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3042,
-  "references_scanned": 64784,
+  "references_scanned": 64793,
   "counts": {
-    "broken_references": 512,
+    "broken_references": 513,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -396,6 +396,13 @@
       "reference": "/images/articles/duplicate-indemnity-insurance-check.svg",
       "expected": [
         "images/articles/duplicate-indemnity-insurance-check.svg"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/images/articles/health-insurance-overpayment-refund.svg",
+      "expected": [
+        "images/articles/health-insurance-overpayment-refund.svg"
       ]
     },
     {
