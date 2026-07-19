@@ -8,7 +8,8 @@
     "subgroups": 51,
     "items": 225,
     "misaligned_labels": 86,
-    "corrupt_hrefs": 1
+    "corrupt_hrefs": 1,
+    "excluded_navigation_items": 86
   },
   "issues": [
     {
