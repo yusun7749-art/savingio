@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3040,
-  "references_scanned": 64968,
+  "references_scanned": 64967,
   "counts": {
-    "broken_references": 498,
+    "broken_references": 500,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -30,6 +30,20 @@
       "reference": "/articles/fuel-saving-driving-habits.html",
       "expected": [
         "articles/fuel-saving-driving-habits.html"
+      ]
+    },
+    {
+      "source": "articles/car-insurance-child-discount.html",
+      "reference": "/articles/car-accident-insurance-premium-increase.html",
+      "expected": [
+        "articles/car-accident-insurance-premium-increase.html"
+      ]
+    },
+    {
+      "source": "articles/car-insurance-child-discount.html",
+      "reference": "/articles/car-insurance-saving.html",
+      "expected": [
+        "articles/car-insurance-saving.html"
       ]
     },
     {
