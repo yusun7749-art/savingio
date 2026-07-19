@@ -1,4 +1,4 @@
-/* Savingio Article Layout DNA v2.0
+/* Savingio Article Layout DNA v2.1
    Readable article rhythm with transparent hero and restrained UI. */
 .savingio-article-dna{overflow-x:hidden}
 .savingio-article-dna main,
@@ -16,45 +16,69 @@
 .savingio-article-dna a{overflow-wrap:anywhere}
 .savingio-article-dna .table-wrap{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
 
-/* Hero: no blue panel. The homepage geometric background remains visible. */
+/* The whole reading area belongs to the homepage geometric background. */
+.savingio-article-dna main,
+.savingio-article-dna article,
+.savingio-article-dna .article-main,
+.savingio-article-dna .content-shell,
+.savingio-article-dna .article-content,
+.savingio-article-dna .post-content{
+  background:transparent!important;
+  border:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  backdrop-filter:none!important;
+  -webkit-backdrop-filter:none!important;
+}
+
+/* Hero: no panel. The homepage geometric background remains visible. */
 .savingio-article-dna .hero{
   width:auto!important;
   max-width:920px!important;
   min-height:0!important;
   margin:0 auto!important;
-  padding:46px 24px 24px!important;
+  padding:38px 24px 20px!important;
   display:block!important;
   background:transparent!important;
   border:0!important;
   box-shadow:none!important;
 }
 .savingio-article-dna .hero-inner{max-width:820px!important;margin:0!important;padding:0!important;background:transparent!important}
-.savingio-article-dna .hero h1{max-width:820px!important}
-.savingio-article-dna .hero p{max-width:720px!important}
-.savingio-article-dna .hero .actions{margin-top:24px}
+.savingio-article-dna .hero h1{
+  max-width:760px!important;
+  margin:12px 0 15px!important;
+  font-size:clamp(34px,3.55vw,47px)!important;
+  line-height:1.34!important;
+  letter-spacing:-1.7px!important;
+  word-break:keep-all!important;
+  overflow-wrap:normal!important;
+}
+.savingio-article-dna .hero p{max-width:700px!important}
+.savingio-article-dna .hero .actions{margin-top:22px}
 
 /* Keep the reading column compact instead of stretching across the page. */
 .savingio-article-dna main,
 .savingio-article-dna .article-main,
 .savingio-article-dna .content-shell{max-width:820px!important}
-.savingio-article-dna article{max-width:760px!important;margin:0 auto!important}
-.savingio-article-dna article>section{margin-top:46px}
-.savingio-article-dna article>section+section{margin-top:48px}
+.savingio-article-dna article{max-width:760px!important;margin:0 auto!important;padding:0!important}
+.savingio-article-dna article>section{margin-top:42px}
+.savingio-article-dna article>section+section{margin-top:44px}
 .savingio-article-dna p,.savingio-article-dna li{line-height:1.9}
 
 /* Representative image: quieter and better integrated with the cream palette. */
 .savingio-article-dna .thumb,
-.savingio-article-dna .factory-article-thumb{max-width:820px!important;margin:14px auto 26px!important;padding:0 24px!important}
+.savingio-article-dna .factory-article-thumb{max-width:820px!important;margin:12px auto 24px!important;padding:0 24px!important}
 .savingio-article-dna .thumb img,
 .savingio-article-dna .factory-article-thumb img{
   width:100%!important;
-  border-radius:18px!important;
-  box-shadow:0 12px 32px rgba(69,58,45,.08)!important;
-  filter:saturate(.72) contrast(.94) brightness(1.03)!important;
+  border-radius:16px!important;
+  box-shadow:0 10px 28px rgba(69,58,45,.07)!important;
+  filter:saturate(.64) contrast(.91) brightness(1.06)!important;
+  opacity:.94!important;
 }
 .savingio-article-dna figcaption{color:#77736d!important;font-size:12px!important}
 
-/* Reduce box overuse: most sections rely on type, spacing and rules. */
+/* Reduce box overuse: information is separated by spacing and thin rules. */
 .savingio-article-dna .author,
 .savingio-article-dna .savingio-author-box,
 .savingio-article-dna .toc,
@@ -66,10 +90,12 @@
   border-radius:0!important;
   background:transparent!important;
   box-shadow:none!important;
-  padding:18px 0!important;
-  border-top:1px solid rgba(143,119,84,.20)!important;
-  border-bottom:1px solid rgba(143,119,84,.20)!important;
+  padding:16px 0!important;
+  border-top:1px solid rgba(143,119,84,.18)!important;
+  border-bottom:1px solid rgba(143,119,84,.18)!important;
 }
+.savingio-article-dna .author p,
+.savingio-article-dna .savingio-author-box p{color:#68645f!important}
 .savingio-article-dna .toc ul{columns:2;column-gap:34px}
 .savingio-article-dna .toc li{break-inside:avoid;margin:5px 0}
 
@@ -79,25 +105,26 @@
   display:grid!important;
   grid-template-columns:1fr 1fr!important;
   gap:0!important;
-  border-top:1px solid rgba(143,119,84,.22)!important;
-  border-bottom:1px solid rgba(143,119,84,.22)!important;
+  background:transparent!important;
+  border-top:1px solid rgba(143,119,84,.20)!important;
+  border-bottom:1px solid rgba(143,119,84,.20)!important;
 }
 .savingio-article-dna .summary-card,
 .savingio-article-dna .quick-grid>article{
   min-height:0!important;
-  padding:18px 18px 18px 0!important;
+  padding:17px 18px 17px 0!important;
   border:0!important;
   border-radius:0!important;
   background:transparent!important;
   box-shadow:none!important;
 }
 .savingio-article-dna .summary-card:nth-child(even),
-.savingio-article-dna .quick-grid>article:nth-child(even){padding-left:20px!important;border-left:1px solid rgba(143,119,84,.18)!important}
+.savingio-article-dna .quick-grid>article:nth-child(even){padding-left:20px!important;border-left:1px solid rgba(143,119,84,.16)!important}
 .savingio-article-dna .summary-card:nth-child(n+3),
-.savingio-article-dna .quick-grid>article:nth-child(n+3){border-top:1px solid rgba(143,119,84,.14)!important}
+.savingio-article-dna .quick-grid>article:nth-child(n+3){border-top:1px solid rgba(143,119,84,.13)!important}
 
 /* Checklists and steps become readable rows. */
-.savingio-article-dna .checklist{display:grid;gap:0!important;padding:0!important}
+.savingio-article-dna .checklist{display:grid;gap:0!important;padding:0!important;background:transparent!important}
 .savingio-article-dna .checklist li,
 .savingio-article-dna .checklist label,
 .savingio-article-dna .steps li,
@@ -106,7 +133,7 @@
   border-radius:0!important;
   background:transparent!important;
   box-shadow:none!important;
-  border-bottom:1px solid rgba(143,119,84,.16)!important;
+  border-bottom:1px solid rgba(143,119,84,.15)!important;
 }
 .savingio-article-dna .checklist li,
 .savingio-article-dna .checklist label{padding:13px 2px!important}
@@ -115,43 +142,46 @@
 .savingio-article-dna .faq details,
 .savingio-article-dna details{
   margin:0!important;
-  padding:17px 2px!important;
-  border:0!important;
-  border-radius:0!important;
-  background:transparent!important;
-  box-shadow:none!important;
-  border-top:1px solid rgba(143,119,84,.17)!important;
-}
-.savingio-article-dna .related-grid,
-.savingio-article-dna .savingio-related .related-grid{display:grid!important;grid-template-columns:1fr!important;gap:0!important}
-.savingio-article-dna .related-card,
-.savingio-article-dna .savingio-related .related-card{
-  min-height:0!important;
   padding:16px 2px!important;
   border:0!important;
   border-radius:0!important;
   background:transparent!important;
   box-shadow:none!important;
-  border-bottom:1px solid rgba(143,119,84,.16)!important;
+  border-top:1px solid rgba(143,119,84,.16)!important;
+}
+.savingio-article-dna .related-grid,
+.savingio-article-dna .savingio-related .related-grid{display:grid!important;grid-template-columns:1fr!important;gap:0!important;background:transparent!important}
+.savingio-article-dna .related-card,
+.savingio-article-dna .savingio-related .related-card{
+  min-height:0!important;
+  padding:15px 2px!important;
+  border:0!important;
+  border-radius:0!important;
+  background:transparent!important;
+  box-shadow:none!important;
+  border-bottom:1px solid rgba(143,119,84,.15)!important;
   transform:none!important;
 }
 .savingio-article-dna .related-card strong{color:#132744!important}
 
-.savingio-article-dna table{background:rgba(255,255,255,.34)!important}
-.savingio-article-dna th{background:rgba(185,130,56,.08)!important}
+.savingio-article-dna .table-wrap{background:rgba(255,255,255,.20)!important;border-color:rgba(143,119,84,.17)!important}
+.savingio-article-dna table{background:transparent!important}
+.savingio-article-dna th{background:rgba(185,130,56,.07)!important}
+.savingio-article-dna td{background:transparent!important}
 
 @media(max-width:1180px){
   .savingio-article-dna main,.savingio-article-dna .article-main,.savingio-article-dna .content-shell{max-width:820px!important}
 }
 @media(max-width:720px){
-  .savingio-article-dna .hero{padding:34px 18px 18px!important}
+  .savingio-article-dna .hero{padding:28px 18px 16px!important}
+  .savingio-article-dna .hero h1{font-size:clamp(29px,8.2vw,36px)!important;line-height:1.38!important;letter-spacing:-1.25px!important}
   .savingio-article-dna main{padding-left:18px!important;padding-right:18px!important}
   .savingio-article-dna article{max-width:100%!important}
   .savingio-article-dna .toc ul{columns:1}
   .savingio-article-dna .summary-grid,
   .savingio-article-dna .quick-grid{grid-template-columns:1fr!important}
   .savingio-article-dna .summary-card,
-  .savingio-article-dna .quick-grid>article{padding:16px 0!important;border-left:0!important;border-top:1px solid rgba(143,119,84,.14)!important}
+  .savingio-article-dna .quick-grid>article{padding:15px 0!important;border-left:0!important;border-top:1px solid rgba(143,119,84,.13)!important}
   .savingio-article-dna .summary-card:first-child,
   .savingio-article-dna .quick-grid>article:first-child{border-top:0!important}
   .savingio-article-dna .thumb,
