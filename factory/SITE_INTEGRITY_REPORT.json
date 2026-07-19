@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3041,
-  "references_scanned": 64972,
+  "references_scanned": 64956,
   "counts": {
-    "broken_references": 500,
+    "broken_references": 501,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -41,6 +41,13 @@
     },
     {
       "source": "articles/car-insurance-child-discount.html",
+      "reference": "/articles/car-insurance-saving.html",
+      "expected": [
+        "articles/car-insurance-saving.html"
+      ]
+    },
+    {
+      "source": "articles/car-insurance-mileage-refund.html",
       "reference": "/articles/car-insurance-saving.html",
       "expected": [
         "articles/car-insurance-saving.html"
