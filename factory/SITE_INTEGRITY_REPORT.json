@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3037,
-  "references_scanned": 64880,
+  "references_scanned": 64881,
   "counts": {
-    "broken_references": 494,
+    "broken_references": 495,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -3528,6 +3528,13 @@
       "reference": "${esc(item.href)}",
       "expected": [
         "js/${esc(item.href)}"
+      ]
+    },
+    {
+      "source": "js/savingio-brain-navigation.js",
+      "reference": "${esc(next.href)}",
+      "expected": [
+        "js/${esc(next.href)}"
       ]
     },
     {
