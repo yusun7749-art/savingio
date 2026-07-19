@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3046,
-  "references_scanned": 64796,
+  "references_scanned": 64781,
   "counts": {
-    "broken_references": 557,
+    "broken_references": 559,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -163,6 +163,13 @@
       "reference": "/categories/finance.html",
       "expected": [
         "categories/finance.html"
+      ]
+    },
+    {
+      "source": "articles/earned-income-credit-status-check.html",
+      "reference": "/js/article-layout-dna.js?v=1",
+      "expected": [
+        "js/article-layout-dna.js"
       ]
     },
     {
@@ -557,6 +564,13 @@
       "reference": "/categories/education-childcare.html",
       "expected": [
         "categories/education-childcare.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/categories/finance.html",
+      "expected": [
+        "categories/finance.html"
       ]
     },
     {
