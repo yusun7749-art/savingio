@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3048,
-  "references_scanned": 64499,
+  "references_scanned": 64486,
   "counts": {
-    "broken_references": 579,
+    "broken_references": 580,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -128,6 +128,13 @@
       "reference": "/categories/side-income.html",
       "expected": [
         "categories/side-income.html"
+      ]
+    },
+    {
+      "source": "articles/business-phone-expense-deduction.html",
+      "reference": "/calculators/business-income-tax.html",
+      "expected": [
+        "calculators/business-income-tax.html"
       ]
     },
     {
