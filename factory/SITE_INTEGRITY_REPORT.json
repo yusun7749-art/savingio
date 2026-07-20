@@ -2,15 +2,22 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3046,
-  "references_scanned": 64696,
+  "references_scanned": 64679,
   "counts": {
-    "broken_references": 559,
+    "broken_references": 560,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
     "publisher_id_drift": 0
   },
   "broken_references": [
+    {
+      "source": "articles/basic-livelihood-discounts.html",
+      "reference": "/articles/basic-livelihood-benefit-check.html",
+      "expected": [
+        "articles/basic-livelihood-benefit-check.html"
+      ]
+    },
     {
       "source": "articles/car-aircon-fuel-saving.html",
       "reference": "/articles/car-insurance-low-mileage-discount.html",
