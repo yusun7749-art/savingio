@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3048,
-  "references_scanned": 64625,
+  "references_scanned": 64623,
   "counts": {
-    "broken_references": 577,
+    "broken_references": 576,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -275,13 +275,6 @@
       "reference": "/images/articles/health-insurance-overpayment-refund.svg",
       "expected": [
         "images/articles/health-insurance-overpayment-refund.svg"
-      ]
-    },
-    {
-      "source": "articles/insurance-surrender-value-check.html",
-      "reference": "/images/articles/insurance-surrender-value-check.svg",
-      "expected": [
-        "images/articles/insurance-surrender-value-check.svg"
       ]
     },
     {
