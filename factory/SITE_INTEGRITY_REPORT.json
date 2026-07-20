@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3048,
-  "references_scanned": 64650,
+  "references_scanned": 64632,
   "counts": {
-    "broken_references": 577,
+    "broken_references": 579,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -69,6 +69,20 @@
     },
     {
       "source": "articles/aircon-filter-cleaning-savings.html",
+      "reference": "/articles/fuel-saving-driving-habits.html",
+      "expected": [
+        "articles/fuel-saving-driving-habits.html"
+      ]
+    },
+    {
+      "source": "articles/aircon-optimal-temperature-savings.html",
+      "reference": "/articles/car-insurance-low-mileage-discount.html",
+      "expected": [
+        "articles/car-insurance-low-mileage-discount.html"
+      ]
+    },
+    {
+      "source": "articles/aircon-optimal-temperature-savings.html",
       "reference": "/articles/fuel-saving-driving-habits.html",
       "expected": [
         "articles/fuel-saving-driving-habits.html"
