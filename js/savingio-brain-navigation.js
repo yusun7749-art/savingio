@@ -1,5 +1,18 @@
 (async()=>{
 'use strict';
+
+/* Always load the latest Explorer skin even when an older page still links v12. */
+const explorerCss='/css/savingio-brain-navigation.css?v=13';
+let explorerLink=document.querySelector('link[href*="savingio-brain-navigation.css"]');
+if(explorerLink){
+  if(explorerLink.getAttribute('href')!==explorerCss) explorerLink.setAttribute('href',explorerCss);
+}else{
+  explorerLink=document.createElement('link');
+  explorerLink.rel='stylesheet';
+  explorerLink.href=explorerCss;
+  document.head.appendChild(explorerLink);
+}
+
 if(document.getElementById('savingio-brain-nav'))return;
 
 let DATA=window.SAVINGIO_BRAIN_DATA;
