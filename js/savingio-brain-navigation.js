@@ -1,8 +1,8 @@
 (async()=>{
 'use strict';
 
-/* Always load the latest Explorer skin even when an older page still links v12. */
-const explorerCss='/css/savingio-brain-navigation.css?v=13';
+/* Always load the latest Explorer skin even when an older page still links a previous version. */
+const explorerCss='/css/savingio-brain-navigation.css?v=14';
 let explorerLink=document.querySelector('link[href*="savingio-brain-navigation.css"]');
 if(explorerLink){
   if(explorerLink.getAttribute('href')!==explorerCss) explorerLink.setAttribute('href',explorerCss);
@@ -11,6 +11,25 @@ if(explorerLink){
   explorerLink.rel='stylesheet';
   explorerLink.href=explorerCss;
   document.head.appendChild(explorerLink);
+}
+
+/* Search result layout guard: prevents old/global styles from flattening cards into one text block. */
+if(!document.getElementById('sbn-search-layout-guard')){
+  const guard=document.createElement('style');
+  guard.id='sbn-search-layout-guard';
+  guard.textContent=`
+  #savingio-brain-nav .sbn-results{display:grid!important;grid-template-columns:1fr!important;gap:9px!important;width:100%!important}
+  #savingio-brain-nav .sbn-result-card{display:grid!important;grid-template-columns:1fr auto!important;grid-template-areas:"path path" "title arrow" "desc desc"!important;gap:5px 10px!important;width:100%!important;padding:13px 14px!important;border:1px solid rgba(117,96,67,.16)!important;border-radius:12px!important;background:#fff!important;color:#32363a!important;text-decoration:none!important;overflow:hidden!important;box-shadow:none!important}
+  #savingio-brain-nav .sbn-result-path{grid-area:path!important;display:block!important;margin:0!important;color:#9a7040!important;font-size:10px!important;font-weight:800!important;line-height:1.35!important;white-space:normal!important}
+  #savingio-brain-nav .sbn-result-title{grid-area:title!important;display:block!important;min-width:0!important;margin:0!important;color:#132744!important;font-size:13px!important;font-weight:800!important;line-height:1.5!important;letter-spacing:-.2px!important;word-break:keep-all!important;overflow-wrap:anywhere!important}
+  #savingio-brain-nav .sbn-result-desc{grid-area:desc!important;display:-webkit-box!important;margin:0!important;color:#77746f!important;font-size:11px!important;font-weight:400!important;font-style:normal!important;line-height:1.55!important;-webkit-line-clamp:2!important;-webkit-box-orient:vertical!important;overflow:hidden!important}
+  #savingio-brain-nav .sbn-result-arrow{grid-area:arrow!important;display:grid!important;place-items:center!important;align-self:center!important;width:25px!important;height:25px!important;border-radius:50%!important;background:rgba(185,130,56,.10)!important;color:#8f6532!important;font-size:14px!important;font-style:normal!important;line-height:1!important}
+  #savingio-brain-nav .sbn-result-card:hover{transform:translateY(-1px)!important;border-color:rgba(185,130,56,.38)!important;background:#fffdf9!important}
+  #savingio-brain-nav .sbn-search{grid-template-columns:minmax(0,1fr)!important}
+  #savingio-brain-nav .sbn-search button{display:none!important}
+  #savingio-brain-nav .sbn-search input{padding-right:34px!important}
+  `;
+  document.head.appendChild(guard);
 }
 
 if(document.getElementById('savingio-brain-nav'))return;
@@ -65,7 +84,8 @@ const seen=new Set();
 Object.entries(DATA.tree||{}).forEach(([large,middles])=>Object.entries(middles||{}).forEach(([middle,smalls])=>Object.entries(smalls||{}).forEach(([small,items])=>(Array.isArray(items)?items:[]).forEach(item=>{
   if(!item||!validHref(item.href)||!item.title)return;
   const key=normalizePath(item.href); if(seen.has(key))return; seen.add(key);
-  records.push({...item,large,middle,small,key,haystack:`${item.title} ${item.search_keywords||''} ${large} ${displayLarge(large)} ${middle} ${displayMiddle(middle)} ${small} ${displaySmall(small)}`});
+  const description=String(item.description||item.summary||item.excerpt||item.search_description||'').trim();
+  records.push({...item,description,large,middle,small,key,haystack:`${item.title} ${description} ${item.search_keywords||''} ${large} ${displayLarge(large)} ${middle} ${displayMiddle(middle)} ${small} ${displaySmall(small)}`});
 }))));
 
 const score=(item,qRaw)=>{
@@ -85,7 +105,7 @@ nav.id='savingio-brain-nav';
 nav.setAttribute('aria-label','Savingio 생활 문제 탐색');
 nav.innerHTML=`<button class="sbn-close" type="button" aria-label="탐색 닫기">×</button>
 <div class="sbn-head"><strong>지금 어떤 문제가 있으세요?</strong><small>카테고리 이름을 몰라도 괜찮아요.<br>상황이나 글 제목을 입력해 보세요.</small></div>
-<form class="sbn-search" role="search"><input type="search" placeholder="예: 은행 수수료, 카드값, 전기세" aria-label="사이트 글 검색" autocomplete="off"><button type="submit">검색</button></form>
+<form class="sbn-search" role="search"><input type="search" placeholder="예: 은행 수수료, 카드값, 전기세" aria-label="사이트 글 검색" autocomplete="off"><button type="submit" tabindex="-1">검색</button></form>
 <div class="sbn-search-status" aria-live="polite"></div><div class="sbn-context"></div><div class="sbn-tree"></div>`;
 const tree=nav.querySelector('.sbn-tree'),context=nav.querySelector('.sbn-context'),form=nav.querySelector('.sbn-search'),input=form.querySelector('input'),status=nav.querySelector('.sbn-search-status');
 
@@ -96,10 +116,13 @@ function renderContext(){
  context.innerHTML=`<div class="sbn-context-label">지금 보고 있는 글</div><div class="sbn-breadcrumb">${esc(displayLarge(currentRecord.large))}<span>›</span>${esc(displayMiddle(currentRecord.middle))}</div><a class="sbn-current-card" href="${esc(currentRecord.href)}" aria-current="page">${esc(currentRecord.title)}</a>${related.length?`<div class="sbn-next-label">이어서 확인하면 좋은 글</div><div class="sbn-next-list">${related.map(r=>`<a href="${esc(r.href)}">${esc(r.title)}</a>`).join('')}</div>`:''}`;
 }
 function renderSearch(q){
- const results=records.map(r=>({r,s:score(r,q)})).filter(x=>x.s>0).sort((a,b)=>b.s-a.s).slice(0,30).map(x=>x.r);
+ const results=records.map(r=>({r,s:score(r,q)})).filter(x=>x.s>0&&x.r.key!==current).sort((a,b)=>b.s-a.s).slice(0,12).map(x=>x.r);
  context.hidden=true;
- status.textContent=results.length?`검색 결과 ${results.length}개 · 제목을 누르면 바로 이동합니다`:'검색 결과가 없습니다';
- tree.innerHTML=results.length?`<div class="sbn-results">${results.map(r=>`<a class="sbn-result-card" href="${esc(r.href)}"><span class="sbn-result-path">${esc(displayLarge(r.large))} › ${esc(displayMiddle(r.middle))}</span><strong>${esc(r.title)}</strong><em>글 열기 →</em></a>`).join('')}</div>`:`<div class="sbn-empty">일치하는 글이 없습니다.<br>검색어를 짧게 입력해 보세요.</div>`;
+ status.textContent=results.length?`검색 결과 ${results.length}개`:'검색 결과가 없습니다';
+ tree.innerHTML=results.length?`<div class="sbn-results">${results.map(r=>{
+   const desc=r.description||`${displayMiddle(r.middle)} 관련 내용을 확인합니다.`;
+   return `<a class="sbn-result-card" href="${esc(r.href)}"><span class="sbn-result-path">${esc(displayLarge(r.large))} · ${esc(displayMiddle(r.middle))}</span><strong class="sbn-result-title">${esc(r.title)}</strong><span class="sbn-result-desc">${esc(desc)}</span><em class="sbn-result-arrow" aria-hidden="true">›</em></a>`;
+ }).join('')}</div>`:`<div class="sbn-empty">일치하는 글이 없습니다.<br>검색어를 짧게 입력해 보세요.</div>`;
  return results;
 }
 function renderTree(){
