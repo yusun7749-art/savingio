@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3048,
-  "references_scanned": 64711,
+  "references_scanned": 64689,
   "counts": {
-    "broken_references": 571,
+    "broken_references": 573,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -30,6 +30,20 @@
       "reference": "/categories/side-income.html",
       "expected": [
         "categories/side-income.html"
+      ]
+    },
+    {
+      "source": "articles/air-conditioner-electricity-saving.html",
+      "reference": "/articles/car-insurance-low-mileage-discount.html",
+      "expected": [
+        "articles/car-insurance-low-mileage-discount.html"
+      ]
+    },
+    {
+      "source": "articles/air-conditioner-electricity-saving.html",
+      "reference": "/articles/fuel-saving-driving-habits.html",
+      "expected": [
+        "articles/fuel-saving-driving-habits.html"
       ]
     },
     {
