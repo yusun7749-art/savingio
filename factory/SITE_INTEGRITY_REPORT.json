@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3048,
-  "references_scanned": 64486,
+  "references_scanned": 64491,
   "counts": {
-    "broken_references": 580,
+    "broken_references": 581,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -132,9 +132,9 @@
     },
     {
       "source": "articles/business-phone-expense-deduction.html",
-      "reference": "/calculators/business-income-tax.html",
+      "reference": "/articles/business-expense-proof-guide.html",
       "expected": [
-        "calculators/business-income-tax.html"
+        "articles/business-expense-proof-guide.html"
       ]
     },
     {
@@ -613,6 +613,13 @@
       "reference": "/calculators/annual-income.html",
       "expected": [
         "calculators/annual-income.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/calculators/business-income-tax.html",
+      "expected": [
+        "calculators/business-income-tax.html"
       ]
     },
     {
