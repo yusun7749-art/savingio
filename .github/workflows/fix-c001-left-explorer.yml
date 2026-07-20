@@ -1,0 +1,39 @@
+name: Fix C001 Left Explorer
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-c001-left-explorer.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Restore locked left explorer only
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('articles/ai-side-hustles-beginner.html')
+          text = path.read_text(encoding='utf-8')
+          old = '''<aside class="left-explorer" aria-label="사이트 탐색"><div class="explorer-section"><h2>Savingio 검색</h2><form action="/articles/" method="get"><input class="explorer-search" type="search" name="q" placeholder="생활정보 검색" aria-label="글 검색"></form></div><div class="explorer-section"><h2>부업·소득</h2><ul><li><a href="/articles/ai-side-hustles-beginner.html" aria-current="page">AI 부업 시작</a></li><li><a href="/articles/beginner-ai-side-hustles.html">초보 AI 부업 비교</a></li><li><a href="/articles/business-card-hometax-registration.html">사업용 카드 등록</a></li><li><a href="/articles/income-tax-filing-missed-consequences.html">종합소득세 신고 주의</a></li><li><a href="/articles/bank-account-budgeting.html">수입 통장 관리</a></li></ul></div><div class="explorer-section"><h2>함께 살펴보기</h2><ul><li><a href="/calculators/hourly-to-monthly.html">시급·월급 환산</a></li><li><a href="/calculators/salary-net-pay.html">실수령액 계산</a></li><li><a href="/articles/beginner-budget-plan.html">초보 예산 계획</a></li></ul></div></aside>'''
+          new = '''<aside class="left-explorer" aria-label="사이트 탐색"><div class="explorer-section"><h2>Savingio 검색</h2><form action="/articles/" method="get"><input class="explorer-search" type="search" name="q" placeholder="생활정보 검색" aria-label="글 검색"></form></div><div class="explorer-section"><h2>부업·소득 탐색</h2><ul><li><a href="/articles/ai-side-hustles-beginner.html" aria-current="page">AI 부업 시작</a></li><li><a href="/articles/beginner-budget-plan.html">초보 예산 계획</a></li><li><a href="/articles/monthly-budget-planner.html">월간 예산 관리</a></li><li><a href="/articles/income-tax-filing-missed-consequences.html">종합소득세 신고 주의</a></li><li><a href="/articles/business-card-hometax-registration.html">사업용 카드 등록</a></li></ul></div></aside>'''
+          if old not in text:
+              raise SystemExit('Expected modified left explorer block not found; no files changed.')
+          text = text.replace(old, new, 1)
+          path.write_text(text, encoding='utf-8')
+          PY
+      - name: Remove temporary workflow
+        run: rm .github/workflows/fix-c001-left-explorer.yml
+      - name: Commit correction
+        run: |
+          git config user.name "Savingio Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add articles/ai-side-hustles-beginner.html .github/workflows/fix-c001-left-explorer.yml
+          git commit -m "Restore locked C001 left explorer"
+          git push origin main
