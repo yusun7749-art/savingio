@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3046,
-  "references_scanned": 64688,
+  "files_scanned": 3047,
+  "references_scanned": 64719,
   "counts": {
-    "broken_references": 564,
+    "broken_references": 567,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -288,6 +288,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/basic-pension-eligibility.html",
+      "expected": [
+        "articles/basic-pension-eligibility.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/car-accident-insurance-premium-increase.html",
       "expected": [
         "articles/car-accident-insurance-premium-increase.html"
@@ -354,6 +361,13 @@
       "reference": "/articles/medical-expense-refund-guide.html",
       "expected": [
         "articles/medical-expense-refund-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/national-pension-guide.html",
+      "expected": [
+        "articles/national-pension-guide.html"
       ]
     },
     {
@@ -634,6 +648,13 @@
       "reference": "/categories/insurance.html",
       "expected": [
         "categories/insurance.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/categories/pension.html",
+      "expected": [
+        "categories/pension.html"
       ]
     },
     {
