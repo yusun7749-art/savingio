@@ -14,3 +14,18 @@
 html.savingio-brain-ready body{padding-left:calc(var(--sbn-width) + 36px)!important;overflow-x:hidden!important}html.savingio-brain-ready .header-inner,html.savingio-brain-ready .page-shell{width:auto!important;max-width:calc(100vw - var(--sbn-width) - 66px)!important;margin-left:auto!important;margin-right:auto!important}html.savingio-brain-ready .page-shell{grid-template-columns:minmax(0,1fr) 240px!important;gap:34px!important}
 @media(max-width:1380px) and (min-width:1181px){:root{--sbn-width:286px}#savingio-brain-nav{left:12px!important;bottom:12px!important}html.savingio-brain-ready body{padding-left:calc(var(--sbn-width) + 26px)!important}html.savingio-brain-ready .header-inner,html.savingio-brain-ready .page-shell{max-width:calc(100vw - var(--sbn-width) - 42px)!important}}
 @media(max-width:1180px){html.savingio-brain-ready body{padding-left:0!important}html.savingio-brain-ready .header-inner,html.savingio-brain-ready .page-shell{max-width:100%!important}#savingio-brain-nav{left:0!important;top:0!important;bottom:0!important;width:min(88vw,360px)!important;min-width:0!important;border-radius:0 28px 28px 0!important;z-index:1000;transform:translateX(-104%)!important;transition:transform .22s ease}body.sbn-open #savingio-brain-nav{transform:translateX(0)!important}.sbn-mobile-btn{display:block}.sbn-close{display:block}body.sbn-open{overflow:hidden}body.sbn-open .sbn-backdrop{display:block;position:fixed;inset:0;z-index:990;background:rgba(35,38,42,.38);backdrop-filter:blur(3px)}}
+
+/* 2026-07-21 explorer clipping hotfix */
+@media(min-width:1181px){
+  html.savingio-brain-ready body{padding-left:356px!important}
+  #savingio-brain-nav{left:16px!important;width:320px!important;min-width:320px!important;max-width:320px!important;transform:none!important}
+  html.savingio-brain-ready .header-inner,
+  html.savingio-brain-ready .page-shell,
+  html.savingio-brain-ready .info-shell,
+  html.savingio-brain-ready .portal-shell,
+  html.savingio-brain-ready .sv2-shell{max-width:calc(100vw - 388px)!important;margin-left:auto!important;margin-right:auto!important}
+}
+#savingio-brain-nav *{writing-mode:horizontal-tb!important;text-orientation:mixed!important;white-space:normal!important}
+#savingio-brain-nav .sbn-search{grid-template-columns:minmax(0,1fr) auto!important}
+#savingio-brain-nav .sbn-search input{min-width:0!important;max-width:100%!important}
+#savingio-brain-nav .sbn-tree,#savingio-brain-nav .sbn-context,#savingio-brain-nav .sbn-head{width:100%!important;min-width:0!important;max-width:100%!important}
