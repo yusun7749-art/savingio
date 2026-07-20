@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3048,
-  "references_scanned": 64623,
+  "references_scanned": 64618,
   "counts": {
-    "broken_references": 576,
+    "broken_references": 575,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -268,13 +268,6 @@
       "reference": "/categories/insurance-refund.html",
       "expected": [
         "categories/insurance-refund.html"
-      ]
-    },
-    {
-      "source": "articles/health-insurance-overpayment-refund.html",
-      "reference": "/images/articles/health-insurance-overpayment-refund.svg",
-      "expected": [
-        "images/articles/health-insurance-overpayment-refund.svg"
       ]
     },
     {
