@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3047,
-  "references_scanned": 64719,
+  "references_scanned": 64714,
   "counts": {
-    "broken_references": 567,
+    "broken_references": 566,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -30,13 +30,6 @@
       "reference": "/articles/national-pension-guide.html",
       "expected": [
         "articles/national-pension-guide.html"
-      ]
-    },
-    {
-      "source": "articles/basic-pension-application-guide.html",
-      "reference": "/categories/pension.html",
-      "expected": [
-        "categories/pension.html"
       ]
     },
     {
