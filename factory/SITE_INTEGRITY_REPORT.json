@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3048,
-  "references_scanned": 64534,
+  "references_scanned": 64526,
   "counts": {
-    "broken_references": 575,
+    "broken_references": 577,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -107,6 +107,20 @@
       "reference": "/articles/national-pension-guide.html",
       "expected": [
         "articles/national-pension-guide.html"
+      ]
+    },
+    {
+      "source": "articles/business-card-hometax-registration.html",
+      "reference": "/calculators/income-tax.html",
+      "expected": [
+        "calculators/income-tax.html"
+      ]
+    },
+    {
+      "source": "articles/business-card-hometax-registration.html",
+      "reference": "/categories/side-income.html",
+      "expected": [
+        "categories/side-income.html"
       ]
     },
     {
