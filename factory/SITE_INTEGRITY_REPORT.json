@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3049,
-  "references_scanned": 64510,
+  "references_scanned": 64497,
   "counts": {
-    "broken_references": 581,
+    "broken_references": 582,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -289,6 +289,13 @@
       "reference": "/js/article-layout-dna.js?v=1",
       "expected": [
         "js/article-layout-dna.js"
+      ]
+    },
+    {
+      "source": "articles/electricity-bill-easy-calculator-guide.html",
+      "reference": "/categories/living-cost.html",
+      "expected": [
+        "categories/living-cost.html"
       ]
     },
     {
