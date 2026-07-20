@@ -4138,16 +4138,16 @@
     },
     {
       "source": "js/savingio-brain-navigation.js",
-      "reference": "${esc(item.href)}",
+      "reference": "${esc(currentRecord.href)}",
       "expected": [
-        "js/${esc(item.href)}"
+        "js/${esc(currentRecord.href)}"
       ]
     },
     {
       "source": "js/savingio-brain-navigation.js",
-      "reference": "${esc(next.href)}",
+      "reference": "${esc(r.href)}",
       "expected": [
-        "js/${esc(next.href)}"
+        "js/${esc(r.href)}"
       ]
     },
     {
