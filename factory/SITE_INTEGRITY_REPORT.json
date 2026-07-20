@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3048,
-  "references_scanned": 64632,
+  "references_scanned": 64630,
   "counts": {
-    "broken_references": 579,
+    "broken_references": 578,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -226,13 +226,6 @@
       "reference": "/categories/household.html",
       "expected": [
         "categories/household.html"
-      ]
-    },
-    {
-      "source": "articles/duplicate-indemnity-insurance-check.html",
-      "reference": "/images/articles/duplicate-indemnity-insurance-check.svg",
-      "expected": [
-        "images/articles/duplicate-indemnity-insurance-check.svg"
       ]
     },
     {
