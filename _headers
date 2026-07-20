@@ -18,6 +18,9 @@
 /js/*
   Cache-Control: public, max-age=604800
 
+/js/article-navigation.js
+  Cache-Control: public, max-age=0, must-revalidate
+
 /js/savingio-search-core.js
   Cache-Control: public, max-age=0, must-revalidate
 
