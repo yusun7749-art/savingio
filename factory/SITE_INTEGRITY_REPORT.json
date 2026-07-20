@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3046,
-  "references_scanned": 64678,
+  "references_scanned": 64688,
   "counts": {
-    "broken_references": 561,
+    "broken_references": 564,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -16,6 +16,27 @@
       "reference": "/articles/basic-livelihood-benefit-check.html",
       "expected": [
         "articles/basic-livelihood-benefit-check.html"
+      ]
+    },
+    {
+      "source": "articles/basic-pension-application-guide.html",
+      "reference": "/articles/basic-pension-eligibility.html",
+      "expected": [
+        "articles/basic-pension-eligibility.html"
+      ]
+    },
+    {
+      "source": "articles/basic-pension-application-guide.html",
+      "reference": "/articles/national-pension-guide.html",
+      "expected": [
+        "articles/national-pension-guide.html"
+      ]
+    },
+    {
+      "source": "articles/basic-pension-application-guide.html",
+      "reference": "/categories/pension.html",
+      "expected": [
+        "categories/pension.html"
       ]
     },
     {
