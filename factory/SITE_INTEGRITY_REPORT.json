@@ -2,15 +2,29 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3047,
-  "references_scanned": 64703,
+  "references_scanned": 64711,
   "counts": {
-    "broken_references": 568,
+    "broken_references": 571,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
     "publisher_id_drift": 0
   },
   "broken_references": [
+    {
+      "source": "articles/ai-side-hustles-beginner.html",
+      "reference": "/articles/car-insurance-low-mileage-discount.html",
+      "expected": [
+        "articles/car-insurance-low-mileage-discount.html"
+      ]
+    },
+    {
+      "source": "articles/ai-side-hustles-beginner.html",
+      "reference": "/articles/fuel-saving-driving-habits.html",
+      "expected": [
+        "articles/fuel-saving-driving-habits.html"
+      ]
+    },
     {
       "source": "articles/ai-side-hustles-beginner.html",
       "reference": "/categories/side-income.html",
@@ -662,6 +676,13 @@
       "reference": "/categories/refund-insurance.html",
       "expected": [
         "categories/refund-insurance.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/categories/side-income.html",
+      "expected": [
+        "categories/side-income.html"
       ]
     },
     {
