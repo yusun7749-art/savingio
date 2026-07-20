@@ -1,4 +1,4 @@
-/* Savingio Article Layout DNA v2.1
+/* Savingio Article Layout DNA v2.2
    Readable article rhythm with transparent hero and restrained UI. */
 .savingio-article-dna{overflow-x:hidden}
 .savingio-article-dna main,
@@ -168,6 +168,67 @@
 .savingio-article-dna table{background:transparent!important}
 .savingio-article-dna th{background:rgba(185,130,56,.07)!important}
 .savingio-article-dna td{background:transparent!important}
+
+/* Right Rail DNA: quiet, useful and subordinate to the article. */
+.savingio-article-dna .right-rail{
+  background:transparent!important;
+  border:0!important;
+  box-shadow:none!important;
+}
+.savingio-article-dna .right-rail .rail-section{
+  margin:0!important;
+  padding:17px 0!important;
+  background:transparent!important;
+  border:0!important;
+  border-top:1px solid rgba(143,119,84,.16)!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+}
+.savingio-article-dna .right-rail .rail-section:first-child{border-top:0!important}
+.savingio-article-dna .right-rail .rail-kicker{display:none!important}
+.savingio-article-dna .right-rail .rail-section h2{
+  margin:0 0 9px!important;
+  font-size:15px!important;
+  line-height:1.45!important;
+  color:#4b4f52!important;
+  font-weight:750!important;
+  letter-spacing:-.2px!important;
+}
+.savingio-article-dna .right-rail .rail-section p,
+.savingio-article-dna .right-rail .rail-note{
+  margin:0!important;
+  padding:8px 0!important;
+  color:#74716c!important;
+  font-size:13px!important;
+  line-height:1.65!important;
+  background:transparent!important;
+  border:0!important;
+  border-bottom:1px solid rgba(143,119,84,.10)!important;
+}
+.savingio-article-dna .right-rail .rail-section ul{margin:0!important;padding:0!important;list-style:none!important}
+.savingio-article-dna .right-rail .rail-section li{margin:0!important;padding:0!important;border:0!important;border-bottom:1px solid rgba(143,119,84,.10)!important}
+.savingio-article-dna .right-rail .rail-section a,
+.savingio-article-dna .right-rail .rail-button{
+  display:block!important;
+  width:auto!important;
+  margin:0!important;
+  padding:8px 0!important;
+  color:#666864!important;
+  font-size:13px!important;
+  line-height:1.55!important;
+  font-weight:500!important;
+  text-decoration:none!important;
+  background:transparent!important;
+  border:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+}
+.savingio-article-dna .right-rail .rail-section a:hover,
+.savingio-article-dna .right-rail .rail-button:hover{
+  color:#132744!important;
+  text-decoration:underline!important;
+  text-underline-offset:3px!important;
+}
 
 @media(max-width:1180px){
   .savingio-article-dna main,.savingio-article-dna .article-main,.savingio-article-dna .content-shell{max-width:820px!important}
