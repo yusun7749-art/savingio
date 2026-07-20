@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3048,
-  "references_scanned": 64526,
+  "references_scanned": 64499,
   "counts": {
-    "broken_references": 577,
+    "broken_references": 579,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -118,6 +118,13 @@
     },
     {
       "source": "articles/business-card-hometax-registration.html",
+      "reference": "/categories/side-income.html",
+      "expected": [
+        "categories/side-income.html"
+      ]
+    },
+    {
+      "source": "articles/business-closure-vat-order.html",
       "reference": "/categories/side-income.html",
       "expected": [
         "categories/side-income.html"
@@ -627,6 +634,13 @@
       "reference": "/calculators/fuel-cost.html",
       "expected": [
         "calculators/fuel-cost.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/calculators/income-tax.html",
+      "expected": [
+        "calculators/income-tax.html"
       ]
     },
     {
