@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3048,
-  "references_scanned": 64491,
+  "references_scanned": 64497,
   "counts": {
-    "broken_references": 581,
+    "broken_references": 582,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -361,6 +361,13 @@
       "reference": "/articles/basic-pension-eligibility.html",
       "expected": [
         "articles/basic-pension-eligibility.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/business-expense-proof-guide.html",
+      "expected": [
+        "articles/business-expense-proof-guide.html"
       ]
     },
     {
