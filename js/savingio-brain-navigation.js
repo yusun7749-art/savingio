@@ -2,7 +2,7 @@
 'use strict';
 
 /* Always load the latest Explorer skin even when an older page still links a previous version. */
-const explorerCss='/css/savingio-brain-navigation.css?v=14';
+const explorerCss='/css/savingio-brain-navigation.css?v=15';
 let explorerLink=document.querySelector('link[href*="savingio-brain-navigation.css"]');
 if(explorerLink){
   if(explorerLink.getAttribute('href')!==explorerCss) explorerLink.setAttribute('href',explorerCss);
@@ -31,6 +31,102 @@ if(!document.getElementById('sbn-search-layout-guard')){
   `;
   document.head.appendChild(guard);
 }
+
+const normalizeText=(value)=>String(value||'').toLowerCase().replace(/\s+/g,' ').trim();
+const compact=(value)=>normalizeText(value).replace(/[^0-9a-z가-힣]+/gi,'');
+
+/* Article directory search: uses title, summary, category and meaningful topic synonyms only. */
+function initArticleDirectorySearch(){
+  const search=document.getElementById('articleSearch');
+  const grid=document.getElementById('articleGrid');
+  const count=document.getElementById('resultCount');
+  if(!search||!grid||!count||search.dataset.savingioSearchReady==='1')return;
+  search.dataset.savingioSearchReady='1';
+
+  const cards=[...grid.querySelectorAll('.article-card')];
+  const pager=document.querySelector('.pager');
+  const buttons=[...document.querySelectorAll('.category-row button[data-cat]')];
+  let activeCategory='전체';
+
+  const topicGroups={
+    '정부':['정부','정부24','정부혜택','정부지원','지원금','복지','복지로','수당','장려금','바우처','보조금','지원제도','국가지원','공공지원'],
+    '지원':['지원','지원금','정부지원','정부혜택','복지','수당','장려금','바우처','보조금'],
+    '환급':['환급','환급금','돌려받','과납','과오납','정산'],
+    '자동차':['자동차','차량','운전','교통','보험','자동차세'],
+    '아이':['아이','아동','자녀','육아','보육','교육','돌봄'],
+    '노인':['노인','고령','어르신','기초연금','노후','장기요양'],
+    '은행':['은행','계좌','통장','수수료','이체','예금','카드'],
+    '세금':['세금','세액','납부','신고','공제','국세','지방세'],
+    '전기':['전기','전기세','전기요금','에어컨','냉방','에너지']
+  };
+
+  const cardRecord=(card)=>{
+    const title=card.querySelector('h2')?.textContent||'';
+    const desc=card.querySelector('p')?.textContent||'';
+    const category=card.dataset.category||card.querySelector('.card-category')?.textContent||'';
+    const href=card.getAttribute('href')||'';
+    return {card,title,desc,category,href,text:normalizeText(`${title} ${desc} ${category} ${href}`)};
+  };
+  const records=cards.map(cardRecord);
+
+  const termsFor=(query)=>{
+    const q=normalizeText(query);
+    const terms=new Set([q]);
+    Object.entries(topicGroups).forEach(([key,values])=>{
+      if(q.includes(key)||values.some(v=>q.includes(v))) values.forEach(v=>terms.add(normalizeText(v)));
+    });
+    return [...terms].filter(Boolean);
+  };
+
+  const matches=(record,query)=>{
+    const q=normalizeText(query);
+    if(!q)return true;
+    const cq=compact(q);
+    if(compact(record.title).includes(cq)||compact(record.desc).includes(cq)||compact(record.category).includes(cq)||compact(record.href).includes(cq))return true;
+    const terms=termsFor(q);
+    return terms.some(term=>{
+      const ct=compact(term);
+      if(!ct)return false;
+      if(compact(record.category).includes(ct))return true;
+      if(compact(record.title).includes(ct))return true;
+      if(compact(record.desc).includes(ct))return true;
+      return compact(record.href).includes(ct);
+    });
+  };
+
+  const apply=()=>{
+    const query=search.value.trim();
+    let shown=0;
+    records.forEach(record=>{
+      const categoryOk=activeCategory==='전체'||record.category===activeCategory;
+      const visible=categoryOk&&matches(record,query);
+      record.card.hidden=!visible;
+      record.card.style.display=visible?'':'none';
+      if(visible)shown++;
+    });
+    count.textContent=`검색 결과 ${shown}개`;
+    if(pager)pager.style.display=query||activeCategory!=='전체'?'none':'';
+  };
+
+  search.addEventListener('input',event=>{
+    event.stopImmediatePropagation();
+    apply();
+  },true);
+  search.addEventListener('search',event=>{
+    event.stopImmediatePropagation();
+    apply();
+  },true);
+  buttons.forEach(button=>button.addEventListener('click',event=>{
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    activeCategory=button.dataset.cat||'전체';
+    buttons.forEach(item=>item.classList.toggle('active',item===button));
+    apply();
+  },true));
+  apply();
+}
+
+initArticleDirectorySearch();
 
 if(document.getElementById('savingio-brain-nav'))return;
 
