@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 113,
-    "warning": 109,
+    "pass": 114,
+    "warning": 108,
     "fail": 1,
-    "average_score": 85.9,
+    "average_score": 86.0,
     "thin_under_2500_ko": 25,
-    "short_under_4500_ko": 205,
+    "short_under_4500_ko": 204,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -1417,32 +1417,29 @@
     {
       "path": "articles/debit-card-vs-credit-card.html",
       "url": "https://savingio.com/articles/debit-card-vs-credit-card.html",
-      "title": "체크카드와 신용카드 비교 | 세이빙이오(Savingio)",
-      "meta_description": "소비 성향과 혜택, 연말정산 기준을 중심으로 체크카드와 신용카드를 비교합니다.",
+      "title": "체크카드와 신용카드 비교 | Savingio",
+      "meta_description": "체크카드와 신용카드의 결제 방식, 소비 통제, 혜택, 연회비, 할부, 신용관리, 연말정산 차이를 실제 사용 상황별로 비교했습니다.",
       "canonical": "https://savingio.com/articles/debit-card-vs-credit-card.html",
       "h1": [
         "체크카드와 신용카드 비교"
       ],
-      "h2_count": 12,
+      "h2_count": 23,
       "h3_count": 4,
-      "korean_chars": 3270,
-      "words": 1124,
-      "internal_article_links": 16,
+      "korean_chars": 5219,
+      "words": 1792,
+      "internal_article_links": 18,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:43",
-        "CONTENT_SHORT_KO:3270"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 96,
+      "status": "PASS"
     },
     {
       "path": "articles/dehumidifier-electricity-saving.html",
