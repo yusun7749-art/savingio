@@ -1,10 +1,10 @@
 # Savingio Full SEO Audit
 
 - Articles: 223
-- PASS: 117
-- WARNING: 105
+- PASS: 118
+- WARNING: 104
 - FAIL: 1
-- Average score: 86.1
+- Average score: 86.2
 - Thin content (<2500 Korean chars): 24
 - Short content (<4500 Korean chars): 200
 - Missing meta: 0
@@ -41,7 +41,6 @@
 | 80 | WARNING | `articles/credit-score-habits.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:40, CONTENT_SHORT_KO:3271 |
 | 80 | WARNING | `articles/culture-nuri-card-balance.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:38, CONTENT_SHORT_KO:3464 |
 | 80 | WARNING | `articles/earned-income-tax-credit-korea.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:42, CONTENT_SHORT_KO:3893 |
-| 80 | WARNING | `articles/education-expense-vs-benefit.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:29, CONTENT_SHORT_KO:3407 |
 | 80 | WARNING | `articles/electricity-discount-card-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:23, CONTENT_SHORT_KO:3650 |
 | 80 | WARNING | `articles/emergency-welfare-living-support.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:39, CONTENT_SHORT_KO:3539 |
 | 80 | WARNING | `articles/energy-voucher-application.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:39, CONTENT_SHORT_KO:3555 |
@@ -100,3 +99,4 @@
 | 80 | WARNING | `articles/tax-credit-late-application.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3449 |
 | 80 | WARNING | `articles/telecom-discount-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:10, CONTENT_SHORT_KO:3320 |
 | 80 | WARNING | `articles/travel-insurance-comparison.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:33, CONTENT_SHORT_KO:3298 |
+| 80 | WARNING | `articles/unemployment-benefit-job-search.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:31, CONTENT_SHORT_KO:3315 |

@@ -1,10 +1,10 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 117,
-    "warning": 105,
+    "pass": 118,
+    "warning": 104,
     "fail": 1,
-    "average_score": 86.1,
+    "average_score": 86.2,
     "thin_under_2500_ko": 24,
     "short_under_4500_ko": 200,
     "missing_meta": 0,
@@ -1752,32 +1752,30 @@
     {
       "path": "articles/education-expense-vs-benefit.html",
       "url": "https://savingio.com/articles/education-expense-vs-benefit.html",
-      "title": "교육비 지원과 교육급여 차이 | 세이빙이오(Savingio)",
-      "meta_description": "두 제도의 지원 항목과 신청 창구 차이를 비교합니다.",
+      "title": "교육비 지원과 교육급여 차이 | Savingio",
+      "meta_description": "2026년 교육급여와 초중고 교육비 지원의 대상, 소득기준, 지원항목, 신청방법, 중복지원 여부와 바우처 절차를 한눈에 비교합니다.",
       "canonical": "https://savingio.com/articles/education-expense-vs-benefit.html",
       "h1": [
         "교육비 지원과 교육급여 차이"
       ],
-      "h2_count": 13,
-      "h3_count": 4,
-      "korean_chars": 3407,
-      "words": 1169,
-      "internal_article_links": 16,
+      "h2_count": 16,
+      "h3_count": 10,
+      "korean_chars": 4268,
+      "words": 1410,
+      "internal_article_links": 6,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:29",
-        "CONTENT_SHORT_KO:3407"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:4268"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/electricity-bill-easy-calculator-guide.html",
