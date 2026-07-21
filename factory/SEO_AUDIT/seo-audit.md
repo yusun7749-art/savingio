@@ -1,8 +1,8 @@
 # Savingio Full SEO Audit
 
 - Articles: 223
-- PASS: 118
-- WARNING: 104
+- PASS: 119
+- WARNING: 103
 - FAIL: 1
 - Average score: 86.2
 - Thin content (<2500 Korean chars): 24
@@ -41,7 +41,6 @@
 | 80 | WARNING | `articles/credit-score-habits.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:40, CONTENT_SHORT_KO:3271 |
 | 80 | WARNING | `articles/culture-nuri-card-balance.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:38, CONTENT_SHORT_KO:3464 |
 | 80 | WARNING | `articles/earned-income-tax-credit-korea.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:42, CONTENT_SHORT_KO:3893 |
-| 80 | WARNING | `articles/electricity-discount-card-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:23, CONTENT_SHORT_KO:3650 |
 | 80 | WARNING | `articles/emergency-welfare-living-support.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:39, CONTENT_SHORT_KO:3539 |
 | 80 | WARNING | `articles/energy-voucher-application.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:39, CONTENT_SHORT_KO:3555 |
 | 80 | WARNING | `articles/energy-voucher-balance-use.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3601 |
@@ -100,3 +99,4 @@
 | 80 | WARNING | `articles/telecom-discount-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:10, CONTENT_SHORT_KO:3320 |
 | 80 | WARNING | `articles/travel-insurance-comparison.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:33, CONTENT_SHORT_KO:3298 |
 | 80 | WARNING | `articles/unemployment-benefit-job-search.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:31, CONTENT_SHORT_KO:3315 |
+| 80 | WARNING | `articles/vat-final-return-july-2026.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:48, CONTENT_SHORT_KO:4002 |
