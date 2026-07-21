@@ -2,7 +2,7 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3050,
-  "references_scanned": 64452,
+  "references_scanned": 64454,
   "counts": {
     "broken_references": 589,
     "malformed_redirects": 0,
@@ -4092,11 +4092,11 @@
     },
     {
       "source": "js/calculator-engine.js",
-      "reference": "${href}",
+      "reference": "${h}",
       "expected": [
-        "js/${href}",
-        "js/${href}.html",
-        "js/${href}/index.html"
+        "js/${h}",
+        "js/${h}.html",
+        "js/${h}/index.html"
       ]
     },
     {
