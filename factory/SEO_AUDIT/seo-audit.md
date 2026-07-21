@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
 - Articles: 223
-- PASS: 112
-- WARNING: 110
+- PASS: 113
+- WARNING: 109
 - FAIL: 1
-- Average score: 85.9
+- Average score: 86.0
 - Thin content (<2500 Korean chars): 25
-- Short content (<4500 Korean chars): 206
+- Short content (<4500 Korean chars): 205
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -38,7 +38,6 @@
 | 62 | WARNING | `articles/전기요금-절약-c861d77ba6.html` | THIN_CONTENT_KO:1479, TITLE_LENGTH:7, META_DESCRIPTION_LENGTH:46, ARTICLE_SCHEMA_MISSING, BREADCRUMB_SCHEMA_MISSING |
 | 76 | WARNING | `articles/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f.html` | THIN_CONTENT_KO:1075, ARTICLE_SCHEMA_MISSING, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/cash-advance-vs-card-loan.html` | THIN_CONTENT_KO:2434, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
-| 80 | WARNING | `articles/credit-card-billing-cycle-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3298 |
 | 80 | WARNING | `articles/credit-score-habits.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:40, CONTENT_SHORT_KO:3271 |
 | 80 | WARNING | `articles/culture-nuri-card-balance.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:38, CONTENT_SHORT_KO:3464 |
 | 80 | WARNING | `articles/debit-card-vs-credit-card.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:43, CONTENT_SHORT_KO:3270 |
@@ -100,3 +99,4 @@
 | 80 | WARNING | `articles/summer-electricity-tier-check.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3642 |
 | 80 | WARNING | `articles/summer-gas-bill-hot-water-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3351 |
 | 80 | WARNING | `articles/summer-vacation-budget-plan.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3352 |
+| 80 | WARNING | `articles/summer-water-bill-spike-check.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:32, CONTENT_SHORT_KO:3329 |

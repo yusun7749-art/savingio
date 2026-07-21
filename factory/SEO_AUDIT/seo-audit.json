@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 112,
-    "warning": 110,
+    "pass": 113,
+    "warning": 109,
     "fail": 1,
-    "average_score": 85.9,
+    "average_score": 86.0,
     "thin_under_2500_ko": 25,
-    "short_under_4500_ko": 206,
+    "short_under_4500_ko": 205,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -1239,32 +1239,30 @@
     {
       "path": "articles/credit-card-billing-cycle-guide.html",
       "url": "https://savingio.com/articles/credit-card-billing-cycle-guide.html",
-      "title": "신용카드 결제일별 이용기간 확인법 | 세이빙이오(Savingio)",
-      "meta_description": "카드 결제일에 따라 달라지는 이용기간을 확인해 예산을 관리합니다.",
+      "title": "신용카드 결제일별 이용기간 확인법 | Savingio",
+      "meta_description": "신용카드 결제일과 이용기간의 차이, 전월실적·승인일·매입일·취소 반영 시점, 월급일에 맞는 결제일 선택법을 실제 명세서 확인 순서로 안내합니다.",
       "canonical": "https://savingio.com/articles/credit-card-billing-cycle-guide.html",
       "h1": [
         "신용카드 결제일별 이용기간 확인법"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3298,
-      "words": 1133,
-      "internal_article_links": 16,
+      "h2_count": 19,
+      "h3_count": 5,
+      "korean_chars": 4923,
+      "words": 1622,
+      "internal_article_links": 13,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 1,
       "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "breadcrumb_schema": false,
+      "faq_schema": false,
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:36",
-        "CONTENT_SHORT_KO:3298"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/credit-score-habits.html",
