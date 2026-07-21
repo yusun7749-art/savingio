@@ -1,8 +1,8 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 114,
-    "warning": 108,
+    "pass": 115,
+    "warning": 107,
     "fail": 1,
     "average_score": 86.0,
     "thin_under_2500_ko": 25,
@@ -1444,32 +1444,30 @@
     {
       "path": "articles/dehumidifier-electricity-saving.html",
       "url": "https://savingio.com/articles/dehumidifier-electricity-saving.html",
-      "title": "제습기 전기요금 계산과 절약법 | 세이빙이오(Savingio)",
-      "meta_description": "제습기 소비전력으로 예상 전기요금을 계산하고 사용시간을 줄입니다.",
+      "title": "제습기 전기요금 계산과 절약법 | Savingio",
+      "meta_description": "제습기 소비전력과 사용시간으로 예상 전력사용량을 계산하고, 빨래 건조·장마철 습도 관리·연속 운전 상황에서 전기요금을 줄이는 방법을 정리했습니다.",
       "canonical": "https://savingio.com/articles/dehumidifier-electricity-saving.html",
       "h1": [
         "제습기 전기요금 계산과 절약법"
       ],
-      "h2_count": 13,
-      "h3_count": 4,
-      "korean_chars": 3636,
-      "words": 1286,
-      "internal_article_links": 28,
+      "h2_count": 20,
+      "h3_count": 0,
+      "korean_chars": 3870,
+      "words": 1398,
+      "internal_article_links": 17,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:36",
-        "CONTENT_SHORT_KO:3636"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3870"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/deposit-protection-limit-guide.html",
