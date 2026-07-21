@@ -29,6 +29,10 @@
 - 기존 본문은 100% 폐기하고 Savingio DNA 기준으로 처음부터 새로 작성한다.
 - CSS, 공통 레이아웃, 좌우 사이드바는 임의 변경하지 않는다.
 - 본문 상단 figure 썸네일 삭제 원칙을 유지한다.
+- 기본 3열 구조를 절대 유지한다.
+  - 왼쪽: Brain Navigation / Site Explorer
+  - 가운데: 본문
+  - 오른쪽: 관련 글·도구·카테고리 사이드바
 
 ## 확정 글 DNA
 
@@ -137,6 +141,16 @@ Commit
 - `articles/energy-voucher-2026-application.html`
   - Brain Navigation 누락 스크립트 수정 포함
   - 확인 커밋: `af74b32c8fc0d5b06cd52fd278c06e65cd9ca975`
+- `articles/car-insurance-overpayment-refund.html`
+  - 제목·URL·검색 의도·본문 중복 검사 완료
+  - `car-insurance-mileage-refund.html`, `car-insurance-child-discount.html`, `car-insurance-saving.html`과 검색 의도가 다름을 확인
+  - 기존 본문 전면 재작성
+  - 공식 보험개발원 과납보험료 통합조회 경로와 손해보험협회 자동차보험 종합포털 연결
+  - 표·체크리스트·FAQ·관련 글·공식 확인처 적용
+  - 상단 `<figure class="thumb">` 없음 확인
+  - 기본 3열 구조용 Brain Navigation·가운데 본문·오른쪽 rail 유지
+  - H1 1개, canonical 1개, Article/FAQ 스키마 유지
+  - 확인 커밋: `0c0b6c72014a6633aad8e741f88cd1e55905010e`
 
 ## 관련 확인 커밋
 
@@ -148,10 +162,10 @@ Commit
 
 ## 다음 작업 위치
 
-- 위 완료 글과 기준 글 `car-aircon-fuel-saving`은 제외한다.
+- 완료 글과 기준 글 `car-aircon-fuel-saving`은 제외한다.
 - GitHub `main`에서 다음 미완료 글을 실제 확인해 1개만 선정한다.
-- 선정 후 중복·검색 의도 검사부터 수행한다.
-- 통과한 글은 URL/H1/Meta를 유지하고 본문을 100% 새로 작성한다.
+- 다음 후보는 `articles/car-tax-annual-payment.html` 이후 순서의 미완료 글이며, 작업 전에 중복·검색 의도 검사를 다시 수행한다.
+- 중복이 없으면 URL/H1/Meta/카테고리와 기본 3열 구조를 유지하고 본문만 100% 새로 작성한다.
 
 ## 재발 방지 기록
 
@@ -159,3 +173,4 @@ Commit
 - 앞으로는 도구 목록만 보고 단정하지 않고 GitHub Connector를 직접 호출해 저장소와 권한을 확인한다.
 - 실제 확인 전에는 “불가능”을 먼저 말하지 않는다.
 - 실행하지 않은 수정이나 테스트를 완료했다고 보고하지 않는다.
+- 사용자 명령 `진행`을 설명 반복으로 소비하지 않고 실제 조회·중복검사·수정·QA·커밋으로 처리한다.
