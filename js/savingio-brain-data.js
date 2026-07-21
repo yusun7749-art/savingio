@@ -30,6 +30,14 @@
   ];
 
   const configs = {
+    '/articles/building-land-property-tax': {
+      kicker: '세금·환급 · 재산세',
+      core: [['#difference','건축물분·토지분 차이'],['#house','주택분과 구분'],['#schedule','납부 시기'],['#bill','고지서 확인'],['#appeal','정정·이의신청'],['#faq','자주 묻는 질문']],
+      related: [['/articles/car-tax-check-payment-guide.html','자동차세 조회·납부'],['/articles/car-tax-annual-payment.html','자동차세 연납'],['/articles/check-hidden-refunds.html','숨은 환급금 찾기'],['/articles/apartment-management-fee-summer.html','아파트 관리비 확인']],
+      official: ['재산세 과세 대상과 납부 금액은 지방세 공식 서비스와 관할 지방자치단체 안내에서 확인하세요.','https://www.wetax.go.kr','위택스에서 확인하기 →'],
+      calculator: ['/calculators/','생활비 계산기','재산세와 자동차세 등 연간 세금 지출을 월 단위 생활비로 나눠 확인해 보세요.'],
+      category: [['/categories/tax-refund.html','세금·환급 전체'],['/articles/building-land-property-tax.html','건축물·토지 재산세'],['/articles/car-tax-check-payment-guide.html','자동차세 조회'],['/articles/car-tax-annual-payment.html','자동차세 연납'],['/articles/check-hidden-refunds.html','환급금 찾기']]
+    },
     '/articles/check-hidden-refunds': {
       kicker: '환급금 · 정부지원',
       core: [['#types','환급금 종류'],['#official','공식 조회처'],['#steps','조회 순서'],['#documents','준비 자료'],['#warning','사기 주의'],['#faq','자주 묻는 질문']],
