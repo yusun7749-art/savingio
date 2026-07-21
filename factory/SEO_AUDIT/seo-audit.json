@@ -1303,23 +1303,24 @@
       "h1": [
         "신용점수 관리 방법, 떨어지는 이유부터 올리는 순서까지"
       ],
-      "h2_count": 18,
+      "h2_count": 22,
       "h3_count": 0,
-      "korean_chars": 3315,
-      "words": 1129,
-      "internal_article_links": 6,
+      "korean_chars": 2850,
+      "words": 991,
+      "internal_article_links": 17,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 2,
+      "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": true,
+      "faq_schema": false,
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3315"
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:2850"
       ],
-      "score": 92,
+      "score": 88,
       "status": "PASS"
     },
     {
