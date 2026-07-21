@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3049,
-  "references_scanned": 64478,
+  "references_scanned": 64463,
   "counts": {
-    "broken_references": 584,
+    "broken_references": 586,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -296,6 +296,20 @@
       "reference": "/categories/living-cost.html",
       "expected": [
         "categories/living-cost.html"
+      ]
+    },
+    {
+      "source": "articles/electricity-bill-saving.html",
+      "reference": "/categories/living-cost.html",
+      "expected": [
+        "categories/living-cost.html"
+      ]
+    },
+    {
+      "source": "articles/electricity-bill-saving.html",
+      "reference": "/categories/utility-bills.html",
+      "expected": [
+        "categories/utility-bills.html"
       ]
     },
     {
