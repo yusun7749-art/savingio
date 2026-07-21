@@ -1,0 +1,30 @@
+name: Full Savingio SEO Audit
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'articles/**'
+      - 'factory/seo_audit.py'
+      - '.github/workflows/full-seo-audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run full SEO audit
+        run: python factory/seo_audit.py
+
+      - name: Upload SEO audit reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: savingio-full-seo-audit
+          path: factory/SEO_AUDIT/
+          if-no-files-found: error
