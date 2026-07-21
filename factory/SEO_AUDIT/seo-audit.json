@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 115,
-    "warning": 107,
+    "pass": 116,
+    "warning": 106,
     "fail": 1,
-    "average_score": 86.0,
-    "thin_under_2500_ko": 25,
-    "short_under_4500_ko": 202,
+    "average_score": 86.1,
+    "thin_under_2500_ko": 24,
+    "short_under_4500_ko": 201,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -1526,29 +1526,29 @@
     {
       "path": "articles/dormant-deposit-insurance-search.html",
       "url": "https://savingio.com/articles/dormant-deposit-insurance-search.html",
-      "title": "휴면예금과 휴면보험금 찾는 방법 | 세이빙이오(Savingio)",
-      "meta_description": "오래 거래하지 않은 예금·보험금이 있는지 공식 조회하고 지급을 신청할 때 확인할 점을 정리했습니다.",
+      "title": "휴면예금과 휴면보험금 찾는 방법 | Savingio",
+      "meta_description": "휴면예금·휴면보험금·미청구보험금을 공식 사이트에서 조회하고 지급 신청하는 순서, 온라인 신청 한도, 상속인 조회와 사기 문자 주의사항을 정리했습니다.",
       "canonical": "https://savingio.com/articles/dormant-deposit-insurance-search.html",
       "h1": [
         "휴면예금과 휴면보험금 찾는 방법"
       ],
-      "h2_count": 12,
-      "h3_count": 0,
-      "korean_chars": 2456,
-      "words": 850,
-      "internal_article_links": 15,
+      "h2_count": 21,
+      "h3_count": 4,
+      "korean_chars": 5826,
+      "words": 1826,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "THIN_CONTENT_KO:2456"
+      "issues": [],
+      "warnings": [
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "warnings": [],
-      "score": 88,
-      "status": "WARNING"
+      "score": 96,
+      "status": "PASS"
     },
     {
       "path": "articles/dryer-summer-electricity-saving.html",
