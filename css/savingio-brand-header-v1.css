@@ -1,0 +1,22 @@
+/* Savingio shared brand header */
+.site-header .logo,
+header .logo,
+.topbar .logo{
+  font-family:Georgia,"Times New Roman",serif!important;
+  font-size:31px!important;
+  line-height:1!important;
+  font-weight:700!important;
+  letter-spacing:-.5px!important;
+  color:#132744!important;
+  text-decoration:none!important;
+}
+.site-header .nav,
+.site-header .nav a,
+header .nav,
+header .nav a{
+  font-family:Pretendard,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important;
+}
+.site-header .nav a:hover,
+header .nav a:hover{color:#b98238!important}
+body{font-family:Pretendard,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+@media(max-width:700px){.site-header .logo,header .logo,.topbar .logo{font-size:27px!important}}
