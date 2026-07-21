@@ -4,7 +4,7 @@
     "pass": 111,
     "warning": 111,
     "fail": 1,
-    "average_score": 85.9,
+    "average_score": 85.8,
     "thin_under_2500_ko": 25,
     "short_under_4500_ko": 207,
     "missing_meta": 0,
@@ -763,28 +763,30 @@
     {
       "path": "articles/cancel-unused-subscriptions.html",
       "url": "https://savingio.com/articles/cancel-unused-subscriptions.html",
-      "title": "안 쓰는 구독서비스 해지하는 방법, 무료체험부터 자동결제까지 | 세이빙이오(Savingio)",
-      "meta_description": "카드·계좌·휴대폰·앱스토어에 흩어진 정기구독을 찾고 무료체험, 중복 구독, 자동결제까지 안전하게 해지하는 실전 순서를 정리했습니다.",
+      "title": "안 쓰는 구독서비스 해지하는 방법, 무료체험부터 자동결제까지 | Savingio",
+      "meta_description": "카드·계좌·휴대폰·Apple·Google Play에 흩어진 정기구독을 찾고, 무료체험 자동전환과 중복 결제를 해지한 뒤 재결제를 막는 순서를 안내합니다.",
       "canonical": "https://savingio.com/articles/cancel-unused-subscriptions.html",
       "h1": [
         "안 쓰는 구독서비스 해지하는 방법, 무료체험부터 자동결제까지"
       ],
-      "h2_count": 11,
-      "h3_count": 13,
-      "korean_chars": 4346,
-      "words": 1540,
-      "internal_article_links": 6,
+      "h2_count": 20,
+      "h3_count": 5,
+      "korean_chars": 4156,
+      "words": 1434,
+      "internal_article_links": 14,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 1,
       "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
+      "breadcrumb_schema": false,
+      "faq_schema": false,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:4346"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:4156"
       ],
-      "score": 96,
+      "score": 88,
       "status": "PASS"
     },
     {
