@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3049,
-  "references_scanned": 64463,
+  "references_scanned": 64426,
   "counts": {
-    "broken_references": 586,
+    "broken_references": 587,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -107,6 +107,13 @@
       "reference": "/articles/national-pension-guide.html",
       "expected": [
         "articles/national-pension-guide.html"
+      ]
+    },
+    {
+      "source": "articles/building-land-property-tax.html",
+      "reference": "/articles/property-tax-payment-guide.html",
+      "expected": [
+        "articles/property-tax-payment-guide.html"
       ]
     },
     {
