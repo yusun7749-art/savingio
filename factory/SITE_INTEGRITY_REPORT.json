@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3069,
-  "references_scanned": 64460,
+  "references_scanned": 64467,
   "counts": {
-    "broken_references": 601,
+    "broken_references": 608,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -442,6 +442,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/bank-deposit-protection-limit.html",
+      "expected": [
+        "articles/bank-deposit-protection-limit.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/basic-livelihood-benefit-check.html",
       "expected": [
         "articles/basic-livelihood-benefit-check.html"
@@ -491,6 +498,27 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/credit-card-annual-fee-refund.html",
+      "expected": [
+        "articles/credit-card-annual-fee-refund.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/credit-card-interest-free-installment-guide.html",
+      "expected": [
+        "articles/credit-card-interest-free-installment-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/debt-repayment-order-guide.html",
+      "expected": [
+        "articles/debt-repayment-order-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/electricity-guide.html",
       "expected": [
         "articles/electricity-guide.html"
@@ -505,9 +533,23 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/financial-product-comparison-guide.html",
+      "expected": [
+        "articles/financial-product-comparison-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/fuel-saving-driving-habits.html",
       "expected": [
         "articles/fuel-saving-driving-habits.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/high-interest-savings-account.html",
+      "expected": [
+        "articles/high-interest-savings-account.html"
       ]
     },
     {
@@ -550,6 +592,13 @@
       "reference": "/articles/sample.html",
       "expected": [
         "articles/sample.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/standby-power-saving.html",
+      "expected": [
+        "articles/standby-power-saving.html"
       ]
     },
     {
