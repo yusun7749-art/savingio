@@ -15,8 +15,20 @@
 /css/article-layout-dna.css
   Cache-Control: public, max-age=0, must-revalidate
 
+/css/calculator-brand-v3.css
+  Cache-Control: public, max-age=0, must-revalidate
+
+/css/savingio-brand-header-v1.css
+  Cache-Control: public, max-age=0, must-revalidate
+
+/css/savingio-brand-system.css
+  Cache-Control: public, max-age=0, must-revalidate
+
 /js/*
   Cache-Control: public, max-age=604800
+
+/js/calculator-engine.js
+  Cache-Control: public, max-age=0, must-revalidate
 
 /js/article-navigation.js
   Cache-Control: public, max-age=0, must-revalidate
