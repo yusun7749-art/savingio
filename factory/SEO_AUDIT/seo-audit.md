@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
 - Articles: 223
-- PASS: 116
-- WARNING: 106
+- PASS: 117
+- WARNING: 105
 - FAIL: 1
 - Average score: 86.1
 - Thin content (<2500 Korean chars): 24
-- Short content (<4500 Korean chars): 201
+- Short content (<4500 Korean chars): 200
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -40,7 +40,6 @@
 | 80 | WARNING | `articles/cash-advance-vs-card-loan.html` | THIN_CONTENT_KO:2434, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/credit-score-habits.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:40, CONTENT_SHORT_KO:3271 |
 | 80 | WARNING | `articles/culture-nuri-card-balance.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:38, CONTENT_SHORT_KO:3464 |
-| 80 | WARNING | `articles/dryer-summer-electricity-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3561 |
 | 80 | WARNING | `articles/earned-income-tax-credit-korea.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:42, CONTENT_SHORT_KO:3893 |
 | 80 | WARNING | `articles/education-expense-vs-benefit.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:29, CONTENT_SHORT_KO:3407 |
 | 80 | WARNING | `articles/electricity-discount-card-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:23, CONTENT_SHORT_KO:3650 |
@@ -100,3 +99,4 @@
 | 80 | WARNING | `articles/summer-water-bill-spike-check.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:32, CONTENT_SHORT_KO:3329 |
 | 80 | WARNING | `articles/tax-credit-late-application.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3449 |
 | 80 | WARNING | `articles/telecom-discount-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:10, CONTENT_SHORT_KO:3320 |
+| 80 | WARNING | `articles/travel-insurance-comparison.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:33, CONTENT_SHORT_KO:3298 |

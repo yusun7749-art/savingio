@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 116,
-    "warning": 106,
+    "pass": 117,
+    "warning": 105,
     "fail": 1,
     "average_score": 86.1,
     "thin_under_2500_ko": 24,
-    "short_under_4500_ko": 201,
+    "short_under_4500_ko": 200,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -1553,32 +1553,29 @@
     {
       "path": "articles/dryer-summer-electricity-saving.html",
       "url": "https://savingio.com/articles/dryer-summer-electricity-saving.html",
-      "title": "건조기 여름 전기세 절약 방법 | 세이빙이오(Savingio)",
-      "meta_description": "탈수 강도와 건조 코스를 조정해 전력 사용을 줄이는 방법입니다.",
+      "title": "건조기 여름 전기세 절약 방법 | Savingio",
+      "meta_description": "여름철 건조기 전기세를 줄이기 위해 탈수 강도, 적정 용량, 필터·열교환기 관리, 코스 선택과 사용 횟수를 점검하는 방법을 정리했습니다.",
       "canonical": "https://savingio.com/articles/dryer-summer-electricity-saving.html",
       "h1": [
         "건조기 여름 전기세 절약 방법"
       ],
-      "h2_count": 13,
-      "h3_count": 4,
-      "korean_chars": 3561,
-      "words": 1275,
-      "internal_article_links": 28,
+      "h2_count": 19,
+      "h3_count": 6,
+      "korean_chars": 4514,
+      "words": 1670,
+      "internal_article_links": 5,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:35",
-        "CONTENT_SHORT_KO:3561"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 96,
+      "status": "PASS"
     },
     {
       "path": "articles/duplicate-indemnity-insurance-check.html",
@@ -1727,28 +1724,29 @@
     {
       "path": "articles/education-benefit-eligibility.html",
       "url": "https://savingio.com/articles/education-benefit-eligibility.html",
-      "title": "교육급여 신청 방법과 수급자격 확인 | 세이빙이오(Savingio)",
-      "meta_description": "초·중·고 학생 가구가 교육급여 대상인지 확인하고 복지로 또는 주민센터에서 신청하는 순서를 정리했습니다.",
+      "title": "교육급여 신청 방법과 수급자격 확인 | Savingio",
+      "meta_description": "2026년 교육급여 수급자격, 기준중위소득 50% 이하 기준, 초중고 교육활동지원비, 신청 방법과 교육비 지원 차이를 정리했습니다.",
       "canonical": "https://savingio.com/articles/education-benefit-eligibility.html",
       "h1": [
         "교육급여 신청 방법과 수급자격 확인"
       ],
-      "h2_count": 13,
-      "h3_count": 0,
-      "korean_chars": 2863,
-      "words": 986,
-      "internal_article_links": 15,
+      "h2_count": 18,
+      "h3_count": 4,
+      "korean_chars": 3939,
+      "words": 1255,
+      "internal_article_links": 6,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:2863"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3939"
       ],
-      "score": 96,
+      "score": 92,
       "status": "PASS"
     },
     {
