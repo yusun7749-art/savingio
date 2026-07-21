@@ -1866,28 +1866,29 @@
     {
       "path": "articles/electronic-tax-invoice-penalty.html",
       "url": "https://savingio.com/articles/electronic-tax-invoice-penalty.html",
-      "title": "전자세금계산서 발급과 조회 방법 | 세이빙이오(Savingio)",
-      "meta_description": "전자세금계산서 발급 전 확인사항, 홈택스 발급·조회 순서, 수정발급과 보관 시 주의점을 정리했습니다.",
+      "title": "전자세금계산서 가산세, 지연발급·미발급·미전송 차이 | Savingio",
+      "meta_description": "2026년 기준 전자세금계산서 지연발급, 미발급, 종이발급, 지연전송, 미전송 가산세율과 수정세금계산서 처리 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/electronic-tax-invoice-penalty.html",
       "h1": [
-        "전자세금계산서 발급과 조회 방법"
+        "전자세금계산서 가산세, 지연발급·미발급·미전송 차이"
       ],
-      "h2_count": 17,
-      "h3_count": 4,
-      "korean_chars": 4483,
-      "words": 1508,
-      "internal_article_links": 39,
+      "h2_count": 18,
+      "h3_count": 5,
+      "korean_chars": 3997,
+      "words": 1305,
+      "internal_article_links": 7,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:4483"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3997"
       ],
-      "score": 96,
+      "score": 92,
       "status": "PASS"
     },
     {
