@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3056,
-  "references_scanned": 64310,
+  "references_scanned": 64311,
   "counts": {
-    "broken_references": 594,
+    "broken_references": 593,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -167,13 +167,6 @@
     },
     {
       "source": "articles/car-insurance-child-discount.html",
-      "reference": "/articles/car-accident-insurance-premium-increase.html",
-      "expected": [
-        "articles/car-accident-insurance-premium-increase.html"
-      ]
-    },
-    {
-      "source": "articles/car-insurance-overpayment-refund.html",
       "reference": "/articles/car-accident-insurance-premium-increase.html",
       "expected": [
         "articles/car-accident-insurance-premium-increase.html"
