@@ -1758,23 +1758,24 @@
       "h1": [
         "교육비 지원과 교육급여 차이"
       ],
-      "h2_count": 16,
-      "h3_count": 10,
-      "korean_chars": 4268,
-      "words": 1410,
-      "internal_article_links": 6,
+      "h2_count": 17,
+      "h3_count": 8,
+      "korean_chars": 3512,
+      "words": 1161,
+      "internal_article_links": 7,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 2,
+      "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": true,
+      "faq_schema": false,
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:4268"
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3512"
       ],
-      "score": 92,
+      "score": 88,
       "status": "PASS"
     },
     {
