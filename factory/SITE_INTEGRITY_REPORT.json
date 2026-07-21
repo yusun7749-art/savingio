@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3069,
-  "references_scanned": 64539,
+  "references_scanned": 64460,
   "counts": {
-    "broken_references": 594,
+    "broken_references": 601,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -254,6 +254,55 @@
       "reference": "/categories/household.html",
       "expected": [
         "categories/household.html"
+      ]
+    },
+    {
+      "source": "articles/cma-account-types-risk.html",
+      "reference": "/articles/bank-deposit-protection-limit.html",
+      "expected": [
+        "articles/bank-deposit-protection-limit.html"
+      ]
+    },
+    {
+      "source": "articles/cma-account-types-risk.html",
+      "reference": "/articles/financial-product-comparison-guide.html",
+      "expected": [
+        "articles/financial-product-comparison-guide.html"
+      ]
+    },
+    {
+      "source": "articles/cma-account-types-risk.html",
+      "reference": "/articles/high-interest-savings-account.html",
+      "expected": [
+        "articles/high-interest-savings-account.html"
+      ]
+    },
+    {
+      "source": "articles/credit-card-billing-cycle-guide.html",
+      "reference": "/articles/credit-card-annual-fee-refund.html",
+      "expected": [
+        "articles/credit-card-annual-fee-refund.html"
+      ]
+    },
+    {
+      "source": "articles/credit-card-billing-cycle-guide.html",
+      "reference": "/articles/credit-card-interest-free-installment-guide.html",
+      "expected": [
+        "articles/credit-card-interest-free-installment-guide.html"
+      ]
+    },
+    {
+      "source": "articles/credit-score-management.html",
+      "reference": "/articles/debt-repayment-order-guide.html",
+      "expected": [
+        "articles/debt-repayment-order-guide.html"
+      ]
+    },
+    {
+      "source": "articles/dehumidifier-electricity-saving.html",
+      "reference": "/articles/standby-power-saving.html",
+      "expected": [
+        "articles/standby-power-saving.html"
       ]
     },
     {
