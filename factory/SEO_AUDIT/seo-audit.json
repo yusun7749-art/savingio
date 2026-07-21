@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 110,
-    "warning": 112,
+    "pass": 111,
+    "warning": 111,
     "fail": 1,
-    "average_score": 85.8,
-    "thin_under_2500_ko": 26,
-    "short_under_4500_ko": 209,
+    "average_score": 85.9,
+    "thin_under_2500_ko": 25,
+    "short_under_4500_ko": 208,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -568,15 +568,15 @@
       "path": "articles/benefit-scam-warning-2026.html",
       "url": "https://savingio.com/articles/benefit-scam-warning-2026.html",
       "title": "지원금 문자 사기 구별 방법, 링크 누르기 전 확인할 7가지 | Savingio",
-      "meta_description": "정부지원금·환급금·에너지바우처를 사칭한 문자와 카카오톡을 구별하는 방법, 의심 링크를 눌렀을 때 대처 순서, 공식 신청 경로 확인법을 정리했습니다.",
+      "meta_description": "정부지원금·환급금·에너지바우처를 사칭한 문자와 카카오톡을 구별하는 방법부터 링크 클릭, 개인정보 입력, 송금 이후의 대처 순서와 공식 신청 경로 확인법까지 정리했습니다.",
       "canonical": "https://savingio.com/articles/benefit-scam-warning-2026.html",
       "h1": [
         "지원금 문자 사기 구별 방법, 링크 누르기 전 확인할 7가지"
       ],
-      "h2_count": 15,
-      "h3_count": 7,
-      "korean_chars": 2051,
-      "words": 719,
+      "h2_count": 20,
+      "h3_count": 22,
+      "korean_chars": 6538,
+      "words": 2145,
       "internal_article_links": 9,
       "images": 0,
       "missing_alt": 0,
@@ -584,15 +584,13 @@
       "article_schema": true,
       "breadcrumb_schema": false,
       "faq_schema": false,
-      "issues": [
-        "THIN_CONTENT_KO:2051"
-      ],
+      "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
         "FAQ_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/budget-app-guide.html",

@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
 - Articles: 223
-- PASS: 110
-- WARNING: 112
+- PASS: 111
+- WARNING: 111
 - FAIL: 1
-- Average score: 85.8
-- Thin content (<2500 Korean chars): 26
-- Short content (<4500 Korean chars): 209
+- Average score: 85.9
+- Thin content (<2500 Korean chars): 25
+- Short content (<4500 Korean chars): 208
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -37,7 +37,6 @@
 | 62 | WARNING | `articles/vat-input-tax-deduction-guide-2026.html` | NOINDEX, THIN_CONTENT_KO:122, META_DESCRIPTION_LENGTH:28, H2_TOO_FEW:1, DUPLICATE_SEO_SIGNAL |
 | 62 | WARNING | `articles/전기요금-절약-c861d77ba6.html` | THIN_CONTENT_KO:1479, TITLE_LENGTH:7, META_DESCRIPTION_LENGTH:46, ARTICLE_SCHEMA_MISSING, BREADCRUMB_SCHEMA_MISSING |
 | 76 | WARNING | `articles/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f.html` | THIN_CONTENT_KO:1075, ARTICLE_SCHEMA_MISSING, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
-| 80 | WARNING | `articles/benefit-scam-warning-2026.html` | THIN_CONTENT_KO:2051, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/cash-advance-vs-card-loan.html` | THIN_CONTENT_KO:2434, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/cma-account-types-risk.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3266 |
 | 80 | WARNING | `articles/credit-card-billing-cycle-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3298 |
@@ -100,3 +99,4 @@
 | 80 | WARNING | `articles/subscription-cleanup.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:17, CONTENT_SHORT_KO:3434 |
 | 80 | WARNING | `articles/subscription-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3339 |
 | 80 | WARNING | `articles/summer-electricity-tier-check.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3642 |
+| 80 | WARNING | `articles/summer-gas-bill-hot-water-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3351 |
