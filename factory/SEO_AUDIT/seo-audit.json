@@ -4,7 +4,7 @@
     "pass": 113,
     "warning": 109,
     "fail": 1,
-    "average_score": 86.0,
+    "average_score": 85.9,
     "thin_under_2500_ko": 25,
     "short_under_4500_ko": 205,
     "missing_meta": 0,
@@ -1297,28 +1297,29 @@
     {
       "path": "articles/credit-score-management.html",
       "url": "https://savingio.com/articles/credit-score-management.html",
-      "title": "신용점수 관리 방법 | 세이빙이오(Savingio)",
-      "meta_description": "신용점수를 단기간에 올려준다는 광고보다 연체 예방, 한도 관리, 대출 정리를 통해 점수를 안정적으로 관리하는 방법을 설명합니다.",
+      "title": "신용점수 관리 방법, 떨어지는 이유부터 올리는 순서까지 | Savingio",
+      "meta_description": "NICE·KCB 신용점수가 다른 이유, 연체·카드·대출이 점수에 미치는 영향, 잘못 등록된 정보 확인과 현실적인 신용점수 관리 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/credit-score-management.html",
       "h1": [
-        "신용점수 관리 방법"
+        "신용점수 관리 방법, 떨어지는 이유부터 올리는 순서까지"
       ],
-      "h2_count": 14,
+      "h2_count": 18,
       "h3_count": 0,
-      "korean_chars": 2871,
-      "words": 983,
-      "internal_article_links": 17,
+      "korean_chars": 3315,
+      "words": 1129,
+      "internal_article_links": 6,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:2871"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3315"
       ],
-      "score": 96,
+      "score": 92,
       "status": "PASS"
     },
     {
