@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3049,
-  "references_scanned": 64497,
+  "references_scanned": 64478,
   "counts": {
-    "broken_references": 582,
+    "broken_references": 584,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -303,6 +303,13 @@
       "reference": "/categories/insurance-refund.html",
       "expected": [
         "categories/insurance-refund.html"
+      ]
+    },
+    {
+      "source": "articles/summer-electricity-tier-check-2026.html",
+      "reference": "/categories/living-cost.html",
+      "expected": [
+        "categories/living-cost.html"
       ]
     },
     {
@@ -746,6 +753,13 @@
       "reference": "/categories/insurance.html",
       "expected": [
         "categories/insurance.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/categories/living-cost.html",
+      "expected": [
+        "categories/living-cost.html"
       ]
     },
     {
