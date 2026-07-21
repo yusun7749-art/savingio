@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3055,
-  "references_scanned": 64362,
+  "references_scanned": 64347,
   "counts": {
-    "broken_references": 589,
+    "broken_references": 590,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -317,6 +317,13 @@
       "reference": "/categories/utility-bills.html",
       "expected": [
         "categories/utility-bills.html"
+      ]
+    },
+    {
+      "source": "articles/energy-voucher-eligibility-2026.html",
+      "reference": "/categories/insurance-health.html",
+      "expected": [
+        "categories/insurance-health.html"
       ]
     },
     {
