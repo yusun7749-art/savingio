@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 111,
-    "warning": 111,
+    "pass": 112,
+    "warning": 110,
     "fail": 1,
-    "average_score": 85.8,
+    "average_score": 85.9,
     "thin_under_2500_ko": 25,
-    "short_under_4500_ko": 207,
+    "short_under_4500_ko": 206,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -1211,32 +1211,30 @@
     {
       "path": "articles/cma-account-types-risk.html",
       "url": "https://savingio.com/articles/cma-account-types-risk.html",
-      "title": "CMA 통장 종류와 원금손실 가능성 | 세이빙이오(Savingio)",
-      "meta_description": "RP형·발행어음형 등 CMA 유형과 예금자보호 여부를 설명합니다.",
+      "title": "CMA 통장 종류와 원금손실 가능성 | Savingio",
+      "meta_description": "RP형·MMF형·MMW형·발행어음형·종금형 CMA의 운용 방식, 원금손실 가능성, 예금자보호 여부와 가입 전 확인 순서를 안내합니다.",
       "canonical": "https://savingio.com/articles/cma-account-types-risk.html",
       "h1": [
         "CMA 통장 종류와 원금손실 가능성"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3266,
-      "words": 1144,
-      "internal_article_links": 16,
+      "h2_count": 21,
+      "h3_count": 9,
+      "korean_chars": 5142,
+      "words": 1711,
+      "internal_article_links": 12,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 1,
       "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "breadcrumb_schema": false,
+      "faq_schema": false,
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:36",
-        "CONTENT_SHORT_KO:3266"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/credit-card-billing-cycle-guide.html",
