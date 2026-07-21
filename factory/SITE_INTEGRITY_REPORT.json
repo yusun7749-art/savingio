@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3055,
-  "references_scanned": 64347,
+  "references_scanned": 64328,
   "counts": {
-    "broken_references": 590,
+    "broken_references": 591,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -774,6 +774,13 @@
       "reference": "/categories/household.html",
       "expected": [
         "categories/household.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/categories/insurance-health.html",
+      "expected": [
+        "categories/insurance-health.html"
       ]
     },
     {
