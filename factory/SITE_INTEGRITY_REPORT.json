@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3056,
-  "references_scanned": 64309,
+  "references_scanned": 64310,
   "counts": {
-    "broken_references": 593,
+    "broken_references": 594,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -760,6 +760,13 @@
       "reference": "/categories/education-childcare.html",
       "expected": [
         "categories/education-childcare.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/categories/energy-saving.html",
+      "expected": [
+        "categories/energy-saving.html"
       ]
     },
     {
