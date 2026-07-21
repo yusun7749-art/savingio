@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3056,
-  "references_scanned": 64330,
+  "references_scanned": 64314,
   "counts": {
-    "broken_references": 591,
+    "broken_references": 593,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -324,6 +324,20 @@
       "reference": "/categories/insurance-health.html",
       "expected": [
         "categories/insurance-health.html"
+      ]
+    },
+    {
+      "source": "articles/fan-aircon-combination-saving.html",
+      "reference": "/categories/insurance.html",
+      "expected": [
+        "categories/insurance.html"
+      ]
+    },
+    {
+      "source": "articles/fan-aircon-combination-saving.html",
+      "reference": "/categories/tax.html",
+      "expected": [
+        "categories/tax.html"
       ]
     },
     {
