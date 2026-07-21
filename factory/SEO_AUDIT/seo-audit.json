@@ -6,7 +6,7 @@
     "fail": 1,
     "average_score": 86.0,
     "thin_under_2500_ko": 25,
-    "short_under_4500_ko": 204,
+    "short_under_4500_ko": 203,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -1303,11 +1303,11 @@
       "h1": [
         "신용점수 관리 방법, 떨어지는 이유부터 올리는 순서까지"
       ],
-      "h2_count": 22,
+      "h2_count": 20,
       "h3_count": 0,
-      "korean_chars": 2850,
-      "words": 991,
-      "internal_article_links": 17,
+      "korean_chars": 2793,
+      "words": 970,
+      "internal_article_links": 12,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 1,
@@ -1318,7 +1318,7 @@
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
         "FAQ_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:2850"
+        "CONTENT_SHORT_KO:2793"
       ],
       "score": 88,
       "status": "PASS"
@@ -1423,11 +1423,11 @@
       "h1": [
         "체크카드와 신용카드 비교"
       ],
-      "h2_count": 23,
+      "h2_count": 21,
       "h3_count": 4,
-      "korean_chars": 5219,
-      "words": 1792,
-      "internal_article_links": 18,
+      "korean_chars": 5157,
+      "words": 1769,
+      "internal_article_links": 13,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 2,
@@ -1450,11 +1450,11 @@
       "h1": [
         "제습기 전기요금 계산과 절약법"
       ],
-      "h2_count": 20,
+      "h2_count": 18,
       "h3_count": 0,
-      "korean_chars": 3870,
-      "words": 1398,
-      "internal_article_links": 17,
+      "korean_chars": 3813,
+      "words": 1377,
+      "internal_article_links": 12,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 2,
@@ -1464,7 +1464,7 @@
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3870"
+        "CONTENT_SHORT_KO:3813"
       ],
       "score": 92,
       "status": "PASS"
@@ -1472,26 +1472,26 @@
     {
       "path": "articles/deposit-protection-limit-guide.html",
       "url": "https://savingio.com/articles/deposit-protection-limit-guide.html",
-      "title": "예금자보호제도 총정리 | 세이빙이오(Savingio)",
-      "meta_description": "예금자보호 대상 금융상품과 금융회사별 합산 방식, 보호한도를 확인하는 방법을 쉽게 정리했습니다.",
+      "title": "예금자보호제도 총정리 | Savingio",
+      "meta_description": "2025년 9월 1일부터 적용된 예금보호한도 1억원 기준으로 보호 대상, 금융회사별 합산 방식, 이자 포함 계산, 보호되지 않는 상품과 안전하게 예금을 나누는 방법을 정리했습니다.",
       "canonical": "https://savingio.com/articles/deposit-protection-limit-guide.html",
       "h1": [
         "예금자보호제도 총정리"
       ],
-      "h2_count": 15,
-      "h3_count": 0,
-      "korean_chars": 2997,
-      "words": 1006,
-      "internal_article_links": 17,
+      "h2_count": 20,
+      "h3_count": 6,
+      "korean_chars": 5174,
+      "words": 1734,
+      "internal_article_links": 11,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:2997"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
       "score": 96,
       "status": "PASS"
