@@ -8,6 +8,7 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 TEMPLATE = ROOT / "factory" / "templates" / "savingio-article-master-dna.html"
+CALCULATOR_INDEX = ROOT / "calculators" / "index.html"
 
 REQUIRED_LOCKS = {
     'data-dna-lock="header"': "Header",
@@ -27,6 +28,53 @@ REQUIRED_ASSETS = (
     "/js/savingio-brain-data.js",
     "/js/savingio-brain-navigation.js",
 )
+
+
+def _internal_target(href: str) -> Path:
+    clean = href.split("?", 1)[0].split("#", 1)[0]
+    target = ROOT / clean.lstrip("/")
+    if clean.endswith("/"):
+        return target / "index.html"
+    if not target.suffix:
+        return target.with_suffix(".html")
+    return target
+
+
+def _rail_section(html: str, slot: int) -> str:
+    pattern = (
+        rf'<section class="rail-section" data-rail-slot="{slot}">'
+        rf'(.*?)</section>'
+    )
+    match = re.search(pattern, html, flags=re.DOTALL)
+    return match.group(1) if match else ""
+
+
+def _validate_calculator_connection(html: str, errors: list[str]) -> None:
+    rail2 = _rail_section(html, 2)
+    if not rail2:
+        errors.append("우측 2번 계산기 슬롯 없음")
+        return
+
+    calculator_links = re.findall(
+        r'href="(/calculators/[^"?#]+\.html(?:\?[^"#]*)?(?:#[^"]*)?)"', rail2
+    )
+    if len(calculator_links) != 1:
+        errors.append("우측 2번 슬롯에는 현재 글 전용 계산기 링크가 정확히 1개 있어야 함")
+        return
+
+    calculator_url = calculator_links[0].split("?", 1)[0].split("#", 1)[0]
+    calculator_file = _internal_target(calculator_url)
+    if not calculator_file.exists():
+        errors.append(f"글 전용 계산기 파일 없음: {calculator_url}")
+        return
+
+    if not CALCULATOR_INDEX.exists():
+        errors.append("전체 계산기 목록 페이지 없음: /calculators/index.html")
+        return
+
+    index_html = CALCULATOR_INDEX.read_text(encoding="utf-8", errors="ignore")
+    if calculator_url not in index_html:
+        errors.append(f"전체 계산기 목록에 미등록: {calculator_url}")
 
 
 def render(payload: dict[str, Any]) -> str:
@@ -68,14 +116,11 @@ def validate_html(html: str) -> None:
     for href in hrefs:
         if href.startswith(("#", "mailto:", "tel:", "http://", "https://")):
             continue
-        clean = href.split("?", 1)[0]
-        target = ROOT / clean.lstrip("/")
-        if clean.endswith("/"):
-            target = target / "index.html"
-        elif not target.suffix:
-            target = target.with_suffix(".html")
+        target = _internal_target(href)
         if not target.exists():
             errors.append(f"존재하지 않는 내부 링크: {href}")
+
+    _validate_calculator_connection(html, errors)
 
     if errors:
         raise ValueError("DNA QA FAIL\n- " + "\n- ".join(errors))
