@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{TITLE}} | Savingio</title>
+  <meta name="description" content="{{META_DESCRIPTION}}">
+  <link rel="canonical" href="{{CANONICAL_URL}}">
+  <meta name="robots" content="index,follow">
+  <link rel="icon" href="/images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/article-layout-dna.css?v=9">
+  <link rel="stylesheet" href="/css/savingio-brain-navigation.css?v=12">
+  <link rel="stylesheet" href="/css/savingio-article-unified-v3036.css?v=3038">
+  <link rel="stylesheet" href="/css/savingio-article-master-dna.css?v=1">
+</head>
+<body class="savingio-article-dna" data-dna-version="1.0">
+  <header class="site-header" data-dna-lock="header">
+    <div class="header-inner">
+      <a class="logo" href="/">Savingio</a>
+      <nav class="nav" aria-label="주요 메뉴">
+        <a href="/">홈</a><a href="/articles/">생활정보</a><a href="/calculators/">계산기</a><a href="/categories/">카테고리</a><a href="/about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-shell dna-three-column" data-dna-lock="three-column-layout">
+    <aside class="left-explorer" data-dna-lock="left-explorer" aria-label="Savingio 탐색기">
+      <div class="brain-search" data-dna-lock="left-search">
+        <label for="brain-search-input">생활정보 검색</label>
+        <input id="brain-search-input" type="search" placeholder="검색어를 입력하세요" autocomplete="off">
+      </div>
+      <nav id="savingio-brain-navigation" class="brain-navigation" data-dna-lock="brain-tree" aria-label="Brain Navigation"></nav>
+    </aside>
+
+    <div class="article-column" data-dna-lock="center-column">
+      <div class="breadcrumb">{{BREADCRUMB_HTML}}</div>
+      <section class="hero">
+        <span class="badge">{{CATEGORY_LABEL}}</span>
+        <h1>{{H1}}</h1>
+        <p class="lead">{{LEAD}}</p>
+        <p class="meta"><strong>작성·검수</strong> Savingio 편집팀 · 최종 업데이트 {{UPDATED_DATE}} · 예상 읽기 {{READING_MINUTES}}분</p>
+      </section>
+      <main class="article-main"><article>{{ARTICLE_BODY}}</article></main>
+    </div>
+
+    <aside class="right-rail" data-dna-lock="right-rail" aria-label="관련 안내">
+      <section class="rail-section" data-rail-slot="1"><span class="rail-kicker">ACTION</span><h2>{{RAIL1_TITLE}}</h2>{{RAIL1_BODY}}</section>
+      <section class="rail-section" data-rail-slot="2"><span class="rail-kicker">OFFICIAL</span><h2>{{RAIL2_TITLE}}</h2>{{RAIL2_BODY}}</section>
+      <section class="rail-section" data-rail-slot="3"><span class="rail-kicker">CATEGORY</span><h2>{{RAIL3_TITLE}}</h2>{{RAIL3_BODY}}</section>
+      <section class="rail-section" data-rail-slot="4"><span class="rail-kicker">RELATED</span><h2>{{RAIL4_TITLE}}</h2>{{RAIL4_BODY}}</section>
+      <section class="rail-section" data-rail-slot="5"><span class="rail-kicker">NEXT</span><h2>{{RAIL5_TITLE}}</h2>{{RAIL5_BODY}}</section>
+    </aside>
+  </div>
+
+  <footer data-dna-lock="footer"><div class="footer-inner">© Savingio · <a href="/about.html">About</a> · <a href="/privacy.html">개인정보처리방침</a> · <a href="/contact.html">문의</a></div></footer>
+  <script src="/js/savingio-brain-data.js?v=12" defer></script>
+  <script src="/js/savingio-brain-navigation.js?v=12" defer></script>
+</body>
+</html>
