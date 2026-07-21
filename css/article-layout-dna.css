@@ -1,4 +1,4 @@
-/* Savingio Article Layout DNA v2.2
+/* Savingio Article Layout DNA v2.3
    Readable article rhythm with transparent hero and restrained UI. */
 .savingio-article-dna{overflow-x:hidden}
 .savingio-article-dna main,
@@ -15,6 +15,19 @@
 .savingio-article-dna th,
 .savingio-article-dna a{overflow-wrap:anywhere}
 .savingio-article-dna .table-wrap{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+
+/* Keep breadcrumb, title area and article body on one shared reading axis. */
+.savingio-article-dna .page-shell>.article-column>.breadcrumb,
+.savingio-article-dna .page-shell>.article-column>.hero,
+.savingio-article-dna .page-shell>.article-column>.article-main{
+  width:100%!important;
+  max-width:760px!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+}
+.savingio-article-dna .page-shell>.article-column>.hero{padding-left:0!important;padding-right:0!important}
+.savingio-article-dna .page-shell>.article-column>.breadcrumb{padding-left:0!important;padding-right:0!important}
+.savingio-article-dna .page-shell>.article-column>.article-main>article{width:100%!important;max-width:760px!important;margin-left:0!important;margin-right:0!important}
 
 /* The whole reading area belongs to the homepage geometric background. */
 .savingio-article-dna main,
@@ -247,4 +260,9 @@
   .savingio-article-dna .quick-grid>article:first-child{border-top:0!important}
   .savingio-article-dna .thumb,
   .savingio-article-dna .factory-article-thumb{padding:0 18px!important}
+  .savingio-article-dna .page-shell>.article-column>.breadcrumb,
+  .savingio-article-dna .page-shell>.article-column>.hero,
+  .savingio-article-dna .page-shell>.article-column>.article-main{max-width:100%!important}
+  .savingio-article-dna .page-shell>.article-column>.hero,
+  .savingio-article-dna .page-shell>.article-column>.breadcrumb{padding-left:18px!important;padding-right:18px!important}
 }
