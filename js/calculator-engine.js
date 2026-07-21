@@ -7,16 +7,29 @@
   ['생활·차량',[['단위 변환','/calculators/unit-converter.html'],['연비','/calculators/fuel-efficiency.html'],['전기요금','/calculators/electricity.html'],['디데이','/calculators/dday.html']]],
   ['건강·사업',[['BMI','/calculators/bmi.html'],['배란일','/calculators/ovulation.html'],['원가율','/calculators/cost-rate.html'],['마진율','/calculators/margin.html']]]
  ];
+ function calculatorTree(current){
+  const aside=document.createElement('aside');aside.className='sv2-calculator-tree';aside.setAttribute('aria-label','전체 계산기');
+  aside.innerHTML='<div class="sv2-tree-head"><strong>전체 계산기</strong><a href="/calculators/">목록 보기</a></div>'+groups.map(([g,items])=>`<section><h2>${g}</h2><ul>${items.map(([n,h])=>`<li><a href="${h}" class="${current===h.replace(/\/$/,'')?'active':''}">${n}</a></li>`).join('')}</ul></section>`).join('');
+  return aside;
+ }
+ function attachBrainTree(slot){
+  const move=()=>{const nav=document.getElementById('savingio-brain-nav');if(nav&&nav.parentNode!==slot){slot.appendChild(nav);nav.classList.add('sv2-embedded-search-tree');return true}return false};
+  if(move())return;
+  const observer=new MutationObserver(()=>{if(move())observer.disconnect()});
+  observer.observe(document.body,{childList:true,subtree:true});
+  setTimeout(()=>observer.disconnect(),12000);
+ }
  function installBrand(){
-  document.body.classList.add('savingio-main-background');
-  if(!document.querySelector('link[data-calculator-brand]')){const l=document.createElement('link');l.rel='stylesheet';l.href='/css/calculator-brand-v3.css?v=20260721d';l.dataset.calculatorBrand='v4';document.head.appendChild(l)}
+  document.body.classList.add('savingio-main-background','savingio-calculator-page');
+  const logo=document.querySelector('.site-header .logo');if(logo)logo.textContent='Savingio';
+  let brand=document.querySelector('link[data-calculator-brand]');if(!brand){brand=document.createElement('link');brand.rel='stylesheet';brand.dataset.calculatorBrand='v5';document.head.appendChild(brand)}brand.href='/css/calculator-brand-v3.css?v=20260721e';
   const main=document.querySelector('.sv2-shell');
   if(main&&!document.querySelector('.sv2-calculator-layout')){
-   const layout=document.createElement('div');layout.className='sv2-calculator-layout';main.parentNode.insertBefore(layout,main);layout.appendChild(main);
-   const current=location.pathname.replace(/\/$/,'');
-   const aside=document.createElement('aside');aside.className='sv2-calculator-tree';aside.setAttribute('aria-label','전체 계산기');
-   aside.innerHTML='<div class="sv2-tree-head"><strong>전체 계산기</strong><a href="/calculators/">목록 보기</a></div>'+groups.map(([g,items])=>`<section><h2>${g}</h2><ul>${items.map(([n,h])=>`<li><a href="${h}" class="${current===h.replace(/\/$/,'')?'active':''}">${n}</a></li>`).join('')}</ul></section>`).join('');
-   layout.appendChild(aside);
+   const layout=document.createElement('div');layout.className='sv2-calculator-layout';main.parentNode.insertBefore(layout,main);
+   const left=document.createElement('aside');left.className='sv2-search-tree-slot';left.setAttribute('aria-label','생활정보 검색 트리');layout.appendChild(left);
+   layout.appendChild(main);
+   layout.appendChild(calculatorTree(location.pathname.replace(/\/$/,'')));
+   attachBrainTree(left);
   }
  }
  function today(){const d=new Date();d.setMinutes(d.getMinutes()-d.getTimezoneOffset());return d.toISOString().slice(0,10)}
