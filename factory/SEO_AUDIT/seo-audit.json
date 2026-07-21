@@ -6,7 +6,7 @@
     "fail": 1,
     "average_score": 86.0,
     "thin_under_2500_ko": 25,
-    "short_under_4500_ko": 203,
+    "short_under_4500_ko": 202,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -1499,26 +1499,26 @@
     {
       "path": "articles/deposit-return-guarantee-checklist.html",
       "url": "https://savingio.com/articles/deposit-return-guarantee-checklist.html",
-      "title": "전세보증금 반환보증 가입 전 체크리스트 | 세이빙이오(Savingio)",
-      "meta_description": "전세계약 전후 등기부, 선순위 권리, 보증금, 계약기간과 보증기관 심사 항목을 확인하는 순서를 정리했습니다.",
+      "title": "전세보증금 반환보증 가입 전 체크리스트 | Savingio",
+      "meta_description": "전세보증금 반환보증 가입 전 등기부, 전입신고, 확정일자, 선순위채권, 주택가격, 신청기한과 필요서류를 확인하는 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/deposit-return-guarantee-checklist.html",
       "h1": [
         "전세보증금 반환보증 가입 전 체크리스트"
       ],
-      "h2_count": 12,
-      "h3_count": 1,
-      "korean_chars": 3633,
-      "words": 1211,
-      "internal_article_links": 14,
+      "h2_count": 21,
+      "h3_count": 4,
+      "korean_chars": 5587,
+      "words": 1768,
+      "internal_article_links": 9,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:3633"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
       "score": 96,
       "status": "PASS"
