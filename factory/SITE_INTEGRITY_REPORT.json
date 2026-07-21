@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3065,
+  "files_scanned": 3066,
   "references_scanned": 64519,
   "counts": {
-    "broken_references": 595,
+    "broken_references": 594,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -4077,13 +4077,6 @@
         "articles/sample",
         "articles/sample.html",
         "articles/sample/index.html"
-      ]
-    },
-    {
-      "source": "factory/templates/savingio-article-master-dna.html",
-      "reference": "/css/savingio-article-master-dna.css?v=1",
-      "expected": [
-        "css/savingio-article-master-dna.css"
       ]
     },
     {
