@@ -10,19 +10,12 @@
 <link rel="stylesheet" href="/css/calculator-v2.css?v=6">
 <link rel="stylesheet" href="/css/calculator-brand-v3.css?v=20260721">
 <link rel="stylesheet" href="/css/savingio-brain-navigation.css?v=7">
-<style>
-.calc-search{margin:22px 0 10px}.calc-search label{display:block;font-weight:800;margin-bottom:8px}.calc-search input{width:100%;padding:14px 16px;border:1px solid rgba(143,119,84,.28);border-radius:12px;background:#fff;font:inherit}.calc-search-status{margin:8px 0 18px;color:#6d747b;font-size:.92rem}.sv2-link[hidden]{display:none!important}
-</style>
+<style>.calc-search{margin:22px 0 10px}.calc-search label{display:block;font-weight:800;margin-bottom:8px}.calc-search input{width:100%;padding:14px 16px;border:1px solid rgba(143,119,84,.28);border-radius:12px;background:#fff;font:inherit}.calc-search-status{margin:8px 0 18px;color:#6d747b;font-size:.92rem}.sv2-link[hidden]{display:none!important}</style>
 </head>
 <body class="sv2-body savingio-main-background">
 <header class="site-header"><div class="header-inner"><a class="logo" href="/">Savingio</a><nav class="nav"><a href="/">홈</a><a href="/articles/">전체 글</a><a href="/categories/">카테고리</a><a href="/calculators/">계산기</a><a href="/about.html">소개</a><a href="/contact.html">문의</a></nav></div></header>
-<main class="sv2-shell">
-<section class="sv2-hero"><span class="sv2-kicker">복잡한 숫자는 Savingio가 계산합니다</span><h1>편리한 생활 계산기</h1><p>글에서 필요한 계산기를 찾거나 이름·상황·키워드로 검색하세요.</p></section>
-<section class="sv2-card">
-<div class="sv2-step"><span>1</span>필요한 계산기 검색 또는 선택</div>
-<div class="calc-search"><label for="calculator-search">전체 계산기 검색</label><input id="calculator-search" type="search" placeholder="예: 월급, 전기요금, 연비, 대출" autocomplete="off"></div>
-<p id="calculator-search-status" class="calc-search-status" aria-live="polite"></p>
-<div id="calculator-directory" class="sv2-links">
+<main class="sv2-shell"><section class="sv2-hero"><span class="sv2-kicker">복잡한 숫자는 Savingio가 계산합니다</span><h1>편리한 생활 계산기</h1><p>글에서 필요한 계산기를 찾거나 이름·상황·키워드로 검색하세요.</p></section><section class="sv2-card"><div class="sv2-step"><span>1</span>필요한 계산기 검색 또는 선택</div><div class="calc-search"><label for="calculator-search">전체 계산기 검색</label><input id="calculator-search" type="search" placeholder="예: 월급, 전기요금, 연비, 대출, 사기 문자" autocomplete="off"></div><p id="calculator-search-status" class="calc-search-status" aria-live="polite"></p><div id="calculator-directory" class="sv2-links">
+<a class="sv2-link" href="/calculators/benefit-scam-risk-check.html" data-keywords="지원금 사기 문자 스미싱 보이스피싱 환급금 보조금 링크 앱 설치 선입금 위험도 자가진단"><strong>지원금 사기 위험도 자가진단</strong><span>문자·링크·앱 설치·선입금 요구 위험 신호 점검</span></a>
 <a class="sv2-link" href="/calculators/salary.html" data-keywords="급여 월급 실수령액 세전 공제 4대보험"><strong>급여 실수령액</strong><span>세전 월급 하나로 공제와 실수령액</span></a>
 <a class="sv2-link" href="/calculators/severance.html" data-keywords="퇴직금 입사일 퇴사일 평균임금"><strong>퇴직금</strong><span>입사일·퇴사일·월급으로 자동 계산</span></a>
 <a class="sv2-link" href="/calculators/weekly-pay.html" data-keywords="주휴수당 시급 근무시간 알바"><strong>주휴수당</strong><span>시급·하루 시간·근무일만 입력</span></a>
@@ -39,32 +32,8 @@
 <a class="sv2-link" href="/calculators/dday.html" data-keywords="디데이 날짜 남은날 목표일"><strong>디데이</strong><span>목표 날짜까지 남은 날 계산</span></a>
 <a class="sv2-link" href="/calculators/cost-rate.html" data-keywords="원가율 판매가 원가 이익 사업"><strong>원가율</strong><span>판매가·원가로 이익 구조 확인</span></a>
 <a class="sv2-link" href="/calculators/margin.html" data-keywords="마진율 원가 판매가 목표마진 사업"><strong>마진율</strong><span>원가·목표마진으로 판매가 역산</span></a>
-</div>
-<div class="sv2-notice">모든 결과는 빠른 확인을 위한 예상 금액입니다. 실제 적용 기준은 계약서, 급여명세서와 공식기관 안내를 함께 확인하세요.</div>
-</section>
-</main>
+</div><div class="sv2-notice">모든 결과는 빠른 확인을 위한 참고 정보입니다. 실제 적용 기준은 계약서, 공식기관 안내와 신고 절차를 함께 확인하세요.</div></section></main>
 <footer class="site-footer"><div class="footer-inner"><strong>Savingio</strong><div>생활 속 돈 문제를 빠르고 쉽게 계산하는 정보 서비스입니다.</div><div class="footer-links"><a href="/about.html">소개</a><a href="/contact.html">문의</a><a href="/privacy.html">개인정보처리방침</a><a href="/terms.html">이용약관</a><a href="/disclaimer.html">면책조항</a></div><div style="margin-top:12px;font-size:.9rem;color:#6d747b">© 2026 세이빙이오(Savingio)</div></div></footer>
-<script>
-(function(){
-const input=document.getElementById('calculator-search');
-const cards=[...document.querySelectorAll('#calculator-directory .sv2-link')];
-const status=document.getElementById('calculator-search-status');
-function normalize(value){return String(value||'').toLowerCase().replace(/\s+/g,' ').trim()}
-function filter(){
- const query=normalize(input.value);
- let visible=0;
- cards.forEach(card=>{
-  const haystack=normalize(card.textContent+' '+card.dataset.keywords+' '+card.getAttribute('href'));
-  const show=!query||haystack.includes(query);
-  card.hidden=!show;
-  if(show) visible++;
- });
- status.textContent=query?`검색 결과 ${visible}개`:`전체 계산기 ${cards.length}개`;
-}
-input.addEventListener('input',filter);
-filter();
-})();
-</script>
+<script>(function(){const input=document.getElementById('calculator-search');const cards=[...document.querySelectorAll('#calculator-directory .sv2-link')];const status=document.getElementById('calculator-search-status');function normalize(value){return String(value||'').toLowerCase().replace(/\s+/g,' ').trim()}function filter(){const query=normalize(input.value);let visible=0;cards.forEach(card=>{const haystack=normalize(card.textContent+' '+card.dataset.keywords+' '+card.getAttribute('href'));const show=!query||haystack.includes(query);card.hidden=!show;if(show)visible++});status.textContent=query?`검색 결과 ${visible}개`:`전체 계산기 ${cards.length}개`}input.addEventListener('input',filter);filter()})();</script>
 <script src="/data/savingio-brain-data.js?v=7"></script><script src="/js/savingio-brain-navigation.js?v=8"></script>
-</body>
-</html>
+</body></html>
