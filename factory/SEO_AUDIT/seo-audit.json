@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 119,
-    "warning": 103,
+    "pass": 120,
+    "warning": 102,
     "fail": 1,
-    "average_score": 86.0,
+    "average_score": 86.1,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 194,
+    "short_under_4500_ko": 193,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -3318,32 +3318,30 @@
     {
       "path": "articles/inverter-aircon-saving-guide.html",
       "url": "https://savingio.com/articles/inverter-aircon-saving-guide.html",
-      "title": "인버터 에어컨 전기세 절약 운전법 | 세이빙이오(Savingio)",
-      "meta_description": "인버터형 에어컨의 특성에 맞는 켜고 끄기와 온도 유지 방법입니다.",
+      "title": "인버터 에어컨 전기세 절약 운전법, 켜고 끄는 기준부터 설정온도까지 | 세이빙이오(Savingio)",
+      "meta_description": "인버터 에어컨 전기세를 줄이기 위해 정속형과 구분하는 법, 처음 켤 때 운전법, 적정 설정온도, 외출 시간별 켜고 끄기 기준, 제습·송풍·필터·실외기 관리까지 실제 사용 순서대로 정리했습니다.",
       "canonical": "https://savingio.com/articles/inverter-aircon-saving-guide.html",
       "h1": [
-        "인버터 에어컨 전기세 절약 운전법"
+        "인버터 에어컨 전기세 절약 운전법, 켜고 끄는 기준부터 설정온도까지"
       ],
-      "h2_count": 13,
+      "h2_count": 21,
       "h3_count": 4,
-      "korean_chars": 3582,
-      "words": 1279,
-      "internal_article_links": 28,
+      "korean_chars": 5334,
+      "words": 1876,
+      "internal_article_links": 14,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 1,
       "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "breadcrumb_schema": false,
+      "faq_schema": false,
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:36",
-        "CONTENT_SHORT_KO:3582"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/irs-tax-refund-status.html",

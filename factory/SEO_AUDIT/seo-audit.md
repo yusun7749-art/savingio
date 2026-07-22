@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
 - Articles: 223
-- PASS: 119
-- WARNING: 103
+- PASS: 120
+- WARNING: 102
 - FAIL: 1
-- Average score: 86.0
+- Average score: 86.1
 - Thin content (<2500 Korean chars): 28
-- Short content (<4500 Korean chars): 194
+- Short content (<4500 Korean chars): 193
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -55,7 +55,6 @@
 | 80 | WARNING | `articles/how-to-check-hidden-refunds.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:38, CONTENT_SHORT_KO:3168 |
 | 80 | WARNING | `articles/how-to-lower-phone-bill.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:39, CONTENT_SHORT_KO:3276 |
 | 80 | WARNING | `articles/how-to-save-electricity-bill.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:38, CONTENT_SHORT_KO:3578 |
-| 80 | WARNING | `articles/inverter-aircon-saving-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3582 |
 | 80 | WARNING | `articles/irs-tax-refund-status.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:40, CONTENT_SHORT_KO:3475 |
 | 80 | WARNING | `articles/local-tax-refund-claim.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:33, CONTENT_SHORT_KO:3462 |
 | 80 | WARNING | `articles/low-income-cooling-support.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3140 |
@@ -100,3 +99,4 @@
 | 80 | WARNING | `articles/travel-insurance-comparison.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:33, CONTENT_SHORT_KO:3298 |
 | 80 | WARNING | `articles/unemployment-benefit-job-search.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:31, CONTENT_SHORT_KO:3315 |
 | 80 | WARNING | `articles/vat-final-return-july-2026.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:48, CONTENT_SHORT_KO:4002 |
+| 80 | WARNING | `articles/vat-payment-extension-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:42, CONTENT_SHORT_KO:4009 |
