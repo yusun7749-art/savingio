@@ -1,8 +1,8 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 125,
-    "warning": 97,
+    "pass": 126,
+    "warning": 96,
     "fail": 1,
     "average_score": 86.3,
     "thin_under_2500_ko": 28,
@@ -1264,32 +1264,30 @@
     {
       "path": "articles/credit-score-habits.html",
       "url": "https://savingio.com/articles/credit-score-habits.html",
-      "title": "신용점수를 지키는 생활 습관 | 세이빙이오(Savingio)",
-      "meta_description": "연체와 카드 사용률 등 신용점수에 영향을 주는 생활 습관을 정리했습니다.",
+      "title": "신용점수를 지키는 생활 습관, 연체 없이 관리하는 현실적인 방법 | Savingio",
+      "meta_description": "신용점수를 지키려면 무엇부터 바꿔야 할까요? 연체 예방, 카드 사용, 대출 관리, 신용정보 오류 확인, 점수 회복까지 실제 생활에서 바로 적용할 수 있는 순서로 정리했습니다.",
       "canonical": "https://savingio.com/articles/credit-score-habits.html",
       "h1": [
-        "신용점수를 지키는 생활 습관"
+        "신용점수를 지키는 생활 습관, 연체 없이 관리하는 현실적인 방법"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3271,
-      "words": 1136,
-      "internal_article_links": 16,
+      "h2_count": 18,
+      "h3_count": 0,
+      "korean_chars": 3993,
+      "words": 1376,
+      "internal_article_links": 6,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:40",
-        "CONTENT_SHORT_KO:3271"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3993"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/credit-score-management.html",
