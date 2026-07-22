@@ -3791,26 +3791,29 @@
     {
       "path": "articles/parental-benefit-guide.html",
       "url": "https://savingio.com/articles/parental-benefit-guide.html",
-      "title": "부모급여 신청 방법, 출생 후 놓치지 말아야 할 확인 순서 | 세이빙이오(Savingio)",
+      "title": "부모급여 신청 방법, 출생 후 놓치지 말아야 할 확인 순서 | Savingio",
       "meta_description": "2026년 부모급여 대상과 월 지급액, 출생 후 60일 신청기한, 복지로·정부24·주민센터 신청 방법, 어린이집 이용 시 지급 방식과 지급 누락 확인 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/parental-benefit-guide.html",
       "h1": [
         "부모급여 신청 방법, 출생 후 놓치지 말아야 할 확인 순서"
       ],
-      "h2_count": 14,
-      "h3_count": 11,
-      "korean_chars": 5854,
-      "words": 2001,
-      "internal_article_links": 8,
+      "h2_count": 20,
+      "h3_count": 6,
+      "korean_chars": 4970,
+      "words": 1702,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 1,
       "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
+      "breadcrumb_schema": false,
+      "faq_schema": false,
       "issues": [],
-      "warnings": [],
-      "score": 100,
+      "warnings": [
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING"
+      ],
+      "score": 92,
       "status": "PASS"
     },
     {
