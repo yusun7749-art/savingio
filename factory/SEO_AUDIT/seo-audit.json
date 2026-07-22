@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 118,
-    "warning": 104,
+    "pass": 119,
+    "warning": 103,
     "fail": 1,
     "average_score": 86.0,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 195,
+    "short_under_4500_ko": 194,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -3263,32 +3263,30 @@
     {
       "path": "articles/internet-bill-discount.html",
       "url": "https://savingio.com/articles/internet-bill-discount.html",
-      "title": "인터넷 요금 할인받는 방법 | 세이빙이오(Savingio)",
-      "meta_description": "약정과 결합할인, 부가서비스를 점검해 인터넷 요금을 낮추는 방법입니다.",
+      "title": "인터넷 요금 할인받는 방법, 약정·결합·재약정 점검 순서 | 세이빙이오(Savingio)",
+      "meta_description": "인터넷 요금을 낮추기 위해 약정 만료일, 휴대폰 결합, 재약정 조건, 불필요한 부가서비스, 속도 선택, 제휴카드와 해지 비용까지 실제 점검 순서대로 정리했습니다.",
       "canonical": "https://savingio.com/articles/internet-bill-discount.html",
       "h1": [
-        "인터넷 요금 할인받는 방법"
+        "인터넷 요금 할인받는 방법, 약정·결합·재약정 점검 순서"
       ],
-      "h2_count": 12,
+      "h2_count": 22,
       "h3_count": 4,
-      "korean_chars": 3468,
-      "words": 1202,
-      "internal_article_links": 18,
+      "korean_chars": 6232,
+      "words": 2232,
+      "internal_article_links": 13,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 1,
       "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "breadcrumb_schema": false,
+      "faq_schema": false,
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:39",
-        "CONTENT_SHORT_KO:3468"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/internet-bill-savings.html",
