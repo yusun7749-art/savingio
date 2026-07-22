@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
 - Articles: 207
-- PASS: 136
-- WARNING: 70
+- PASS: 137
+- WARNING: 69
 - FAIL: 1
 - Average score: 87.5
 - Thin content (<2500 Korean chars): 28
-- Short content (<4500 Korean chars): 162
+- Short content (<4500 Korean chars): 161
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -44,7 +44,6 @@
 | 80 | WARNING | `articles/emergency-fund-guide.html` | THIN_CONTENT_KO:2106, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/energy-voucher-balance-use.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3601 |
 | 80 | WARNING | `articles/national-pension-old-age-benefit-guide.html` | THIN_CONTENT_KO:2054, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
-| 80 | WARNING | `articles/peak-season-hotel-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:39, CONTENT_SHORT_KO:3317 |
 | 80 | WARNING | `articles/property-tax-calculation-structure.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:39, CONTENT_SHORT_KO:3844 |
 | 80 | WARNING | `articles/property-tax-deadline.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:18, CONTENT_SHORT_KO:3810 |
 | 80 | WARNING | `articles/property-tax-installment-application.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3877 |
@@ -100,3 +99,4 @@
 | 88 | PASS | `articles/energy-voucher-eligibility-2026.html` | META_DESCRIPTION_LENGTH:37, BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3787 |
 | 88 | PASS | `articles/energy-voucher-online-application.html` | META_DESCRIPTION_LENGTH:35, BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4228 |
 | 88 | PASS | `articles/government-benefits-warning.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3885 |
+| 88 | PASS | `articles/national-employment-support-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4077 |
