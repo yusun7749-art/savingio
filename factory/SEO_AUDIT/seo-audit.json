@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 116,
-    "warning": 106,
+    "pass": 117,
+    "warning": 105,
     "fail": 1,
     "average_score": 85.9,
-    "thin_under_2500_ko": 30,
-    "short_under_4500_ko": 198,
+    "thin_under_2500_ko": 29,
+    "short_under_4500_ko": 197,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -3153,31 +3153,28 @@
       "path": "articles/impulse-buying-control.html",
       "url": "https://savingio.com/articles/impulse-buying-control.html",
       "title": "충동구매 줄이는 현실적인 방법, 결제 전 24시간 규칙부터 시작하세요 | 세이빙이오(Savingio)",
-      "meta_description": "충동구매를 줄이기 위해 결제 전 24시간 대기, 간편결제 해제, 구매 이유 점검, 자유지출 한도와 후회 기록을 적용하는 현실적인 방법을 정리했습니다.",
+      "meta_description": "충동구매를 줄이기 위해 결제 전 대기, 결제 환경 변경, 감정 소비 점검, 자유지출 한도, 반품과 미사용 기록까지 실제 생활에서 적용할 수 있는 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/impulse-buying-control.html",
       "h1": [
         "충동구매 줄이는 현실적인 방법, 결제 전 24시간 규칙부터 시작하세요"
       ],
-      "h2_count": 17,
-      "h3_count": 0,
-      "korean_chars": 1491,
-      "words": 567,
-      "internal_article_links": 21,
+      "h2_count": 21,
+      "h3_count": 4,
+      "korean_chars": 6298,
+      "words": 2300,
+      "internal_article_links": 12,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 1,
+      "jsonld_count": 2,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": false,
-      "issues": [
-        "THIN_CONTENT_KO:1491"
-      ],
+      "faq_schema": true,
+      "issues": [],
       "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING",
-        "FAQ_SCHEMA_MISSING"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 96,
+      "status": "PASS"
     },
     {
       "path": "articles/income-tax-filing-missed-consequences.html",
