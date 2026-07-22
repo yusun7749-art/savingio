@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 207,
-    "pass": 141,
-    "warning": 65,
+    "pass": 142,
+    "warning": 64,
     "fail": 1,
     "average_score": 87.7,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 158,
+    "short_under_4500_ko": 157,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -4019,32 +4019,30 @@
     {
       "path": "articles/property-tax-installment-application.html",
       "url": "https://savingio.com/articles/property-tax-installment-application.html",
-      "title": "재산세 분납 신청 조건과 방법 | 세이빙이오(Savingio)",
-      "meta_description": "재산세 부담이 클 때 분납 가능 조건과 신청 시점을 확인합니다.",
+      "title": "재산세 분납 신청 조건과 방법 | Savingio",
+      "meta_description": "2026년 재산세 분할납부 대상, 250만원 기준, 신청기한, 분납 금액 계산, 위택스·관할 구청 신청과 납부 확인까지 실제 행동 순서로 정리했습니다.",
       "canonical": "https://savingio.com/articles/property-tax-installment-application.html",
       "h1": [
         "재산세 분납 신청 조건과 방법"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3877,
-      "words": 1388,
-      "internal_article_links": 39,
+      "h2_count": 19,
+      "h3_count": 9,
+      "korean_chars": 5640,
+      "words": 1926,
+      "internal_article_links": 12,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 1,
       "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "breadcrumb_schema": false,
+      "faq_schema": false,
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:35",
-        "CONTENT_SHORT_KO:3877"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/property-tax-joint-ownership.html",
