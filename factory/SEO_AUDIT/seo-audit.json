@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 122,
-    "warning": 100,
+    "pass": 123,
+    "warning": 99,
     "fail": 1,
-    "average_score": 86.1,
+    "average_score": 86.2,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 191,
+    "short_under_4500_ko": 190,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -3661,31 +3661,28 @@
       "path": "articles/money-saving-habits.html",
       "url": "https://savingio.com/articles/money-saving-habits.html",
       "title": "돈이 모이는 생활 습관 | 세이빙이오(Savingio)",
-      "meta_description": "작은 지출을 점검하고 저축을 자동화해 돈이 모이는 습관을 만드는 방법입니다.",
+      "meta_description": "월급이 들어와도 남지 않을 때 저축 자동이체, 생활비 한도, 고정비 점검, 비정기 지출 준비까지 돈이 모이는 생활 습관을 실제 실행 순서로 정리했습니다.",
       "canonical": "https://savingio.com/articles/money-saving-habits.html",
       "h1": [
         "돈이 모이는 생활 습관"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3112,
-      "words": 1099,
-      "internal_article_links": 16,
+      "h2_count": 20,
+      "h3_count": 0,
+      "korean_chars": 5095,
+      "words": 1804,
+      "internal_article_links": 6,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:42",
-        "CONTENT_SHORT_KO:3112"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 96,
+      "status": "PASS"
     },
     {
       "path": "articles/monthly-budget-planner.html",
