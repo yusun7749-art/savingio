@@ -1,10 +1,10 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 126,
-    "warning": 96,
+    "pass": 127,
+    "warning": 95,
     "fail": 1,
-    "average_score": 86.3,
+    "average_score": 86.4,
     "thin_under_2500_ko": 28,
     "short_under_4500_ko": 189,
     "missing_meta": 0,
@@ -1353,32 +1353,30 @@
     {
       "path": "articles/culture-nuri-card-balance.html",
       "url": "https://savingio.com/articles/culture-nuri-card-balance.html",
-      "title": "문화누리카드 잔액과 사용처 확인 | 세이빙이오(Savingio)",
-      "meta_description": "문화누리카드 잔액 조회, 온라인 사용처, 결제 주의사항을 안내합니다.",
+      "title": "문화누리카드 잔액 조회와 사용처 확인, 남은 금액 쓰는 순서 | Savingio",
+      "meta_description": "2026년 문화누리카드 잔액 조회, 사용기간, 온라인·오프라인 가맹점 확인, 결제 오류와 남은 금액 사용 방법을 실제 순서대로 정리했습니다.",
       "canonical": "https://savingio.com/articles/culture-nuri-card-balance.html",
       "h1": [
-        "문화누리카드 잔액과 사용처 확인"
+        "문화누리카드 잔액 조회와 사용처 확인, 남은 금액 쓰는 순서"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3464,
-      "words": 1199,
-      "internal_article_links": 16,
+      "h2_count": 15,
+      "h3_count": 0,
+      "korean_chars": 3416,
+      "words": 1190,
+      "internal_article_links": 5,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:38",
-        "CONTENT_SHORT_KO:3464"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3416"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/daily-liability-leak-insurance.html",
