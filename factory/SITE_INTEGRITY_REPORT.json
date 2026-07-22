@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3057,
-  "references_scanned": 63072,
+  "files_scanned": 3058,
+  "references_scanned": 62960,
   "counts": {
-    "broken_references": 1670,
+    "broken_references": 1674,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -677,20 +677,6 @@
       ]
     },
     {
-      "source": "articles/heating-bill-saving.html",
-      "reference": "/articles/subscription-saving.html",
-      "expected": [
-        "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "articles/heating-bill-saving.html",
-      "reference": "/articles/water-bill-guide.html",
-      "expected": [
-        "articles/water-bill-guide.html"
-      ]
-    },
-    {
       "source": "articles/home-water-leak-self-check.html",
       "reference": "/articles/water-leak-emergency-response.html",
       "expected": [
@@ -916,16 +902,23 @@
     },
     {
       "source": "articles/irs-tax-refund-status.html",
-      "reference": "/articles/hidden-refund-check.html",
+      "reference": "/articles/irs-tax-refund-delay.html",
       "expected": [
-        "articles/hidden-refund-check.html"
+        "articles/irs-tax-refund-delay.html"
       ]
     },
     {
       "source": "articles/irs-tax-refund-status.html",
-      "reference": "/articles/how-to-check-hidden-refunds.html",
+      "reference": "/articles/overpaid-tax-refund-guide.html",
       "expected": [
-        "articles/how-to-check-hidden-refunds.html"
+        "articles/overpaid-tax-refund-guide.html"
+      ]
+    },
+    {
+      "source": "articles/irs-tax-refund-status.html",
+      "reference": "/articles/tax-refund-scam-warning.html",
+      "expected": [
+        "articles/tax-refund-scam-warning.html"
       ]
     },
     {
@@ -978,20 +971,6 @@
       ]
     },
     {
-      "source": "articles/local-tax-refund-claim.html",
-      "reference": "/articles/hidden-refund-check.html",
-      "expected": [
-        "articles/hidden-refund-check.html"
-      ]
-    },
-    {
-      "source": "articles/local-tax-refund-claim.html",
-      "reference": "/articles/how-to-check-hidden-refunds.html",
-      "expected": [
-        "articles/how-to-check-hidden-refunds.html"
-      ]
-    },
-    {
       "source": "articles/local-tax-refund-guide.html",
       "reference": "/categories/tax-benefits.html",
       "expected": [
@@ -1020,6 +999,34 @@
       ]
     },
     {
+      "source": "articles/national-employment-support-eligibility.html",
+      "reference": "/articles/employment-success-allowance.html",
+      "expected": [
+        "articles/employment-success-allowance.html"
+      ]
+    },
+    {
+      "source": "articles/national-employment-support-eligibility.html",
+      "reference": "/articles/job-training-card-guide.html",
+      "expected": [
+        "articles/job-training-card-guide.html"
+      ]
+    },
+    {
+      "source": "articles/national-employment-support-eligibility.html",
+      "reference": "/articles/national-employment-support-application.html",
+      "expected": [
+        "articles/national-employment-support-application.html"
+      ]
+    },
+    {
+      "source": "articles/national-employment-support-eligibility.html",
+      "reference": "/articles/unemployment-benefit-eligibility.html",
+      "expected": [
+        "articles/unemployment-benefit-eligibility.html"
+      ]
+    },
+    {
       "source": "articles/national-scholarship-application.html",
       "reference": "/articles/education-expense-tax-credit.html",
       "expected": [
@@ -1041,20 +1048,6 @@
       ]
     },
     {
-      "source": "articles/national-tax-refund-account.html",
-      "reference": "/articles/hidden-refund-check.html",
-      "expected": [
-        "articles/hidden-refund-check.html"
-      ]
-    },
-    {
-      "source": "articles/national-tax-refund-account.html",
-      "reference": "/articles/how-to-check-hidden-refunds.html",
-      "expected": [
-        "articles/how-to-check-hidden-refunds.html"
-      ]
-    },
-    {
       "source": "articles/national-tax-refund.html",
       "reference": "/articles/comprehensive-income-tax-refund.html",
       "expected": [
@@ -1073,6 +1066,41 @@
       "reference": "/articles/year-end-tax-settlement-refund.html",
       "expected": [
         "articles/year-end-tax-settlement-refund.html"
+      ]
+    },
+    {
+      "source": "articles/overdraft-account-guide.html",
+      "reference": "/articles/debt-repayment-priority.html",
+      "expected": [
+        "articles/debt-repayment-priority.html"
+      ]
+    },
+    {
+      "source": "articles/overdraft-account-guide.html",
+      "reference": "/articles/loan-interest-reduction-request.html",
+      "expected": [
+        "articles/loan-interest-reduction-request.html"
+      ]
+    },
+    {
+      "source": "articles/overdraft-account-guide.html",
+      "reference": "/articles/loan-refinancing-guide.html",
+      "expected": [
+        "articles/loan-refinancing-guide.html"
+      ]
+    },
+    {
+      "source": "articles/parental-benefit-guide.html",
+      "reference": "/articles/birth-support-benefits-guide.html",
+      "expected": [
+        "articles/birth-support-benefits-guide.html"
+      ]
+    },
+    {
+      "source": "articles/parental-benefit-guide.html",
+      "reference": "/articles/daycare-fee-support-guide.html",
+      "expected": [
+        "articles/daycare-fee-support-guide.html"
       ]
     },
     {
