@@ -3087,26 +3087,28 @@
     {
       "path": "articles/irs-tax-refund-status.html",
       "url": "https://savingio.com/articles/irs-tax-refund-status.html",
-      "title": "세금 환급 진행상태 확인 방법 | 세이빙이오(Savingio)",
+      "title": "세금 환급 진행상태 확인 방법 | Savingio",
       "meta_description": "IRS 연방 세금 환급 진행상태를 Where’s My Refund, IRS 온라인 계정, IRS2Go로 확인하는 방법과 지연·승인·송금·환급 추적 대응 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/irs-tax-refund-status.html",
       "h1": [
         "세금 환급 진행상태 확인 방법"
       ],
-      "h2_count": 15,
-      "h3_count": 9,
-      "korean_chars": 5000,
-      "words": 1982,
-      "internal_article_links": 20,
+      "h2_count": 22,
+      "h3_count": 8,
+      "korean_chars": 5888,
+      "words": 2261,
+      "internal_article_links": 11,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
-      "warnings": [],
-      "score": 100,
+      "warnings": [
+        "BREADCRUMB_SCHEMA_MISSING"
+      ],
+      "score": 96,
       "status": "PASS"
     },
     {
