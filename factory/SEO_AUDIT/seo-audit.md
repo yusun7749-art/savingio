@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
-- Articles: 217
+- Articles: 216
 - PASS: 128
-- WARNING: 88
+- WARNING: 87
 - FAIL: 1
 - Average score: 86.7
 - Thin content (<2500 Korean chars): 28
-- Short content (<4500 Korean chars): 179
+- Short content (<4500 Korean chars): 178
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -77,7 +77,6 @@
 | 80 | WARNING | `articles/small-business-policy-fund-search.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:40, CONTENT_SHORT_KO:3123 |
 | 80 | WARNING | `articles/small-business-policy-fund.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:18, CONTENT_SHORT_KO:3123 |
 | 80 | WARNING | `articles/spending-habits-change.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:41, CONTENT_SHORT_KO:3160 |
-| 80 | WARNING | `articles/subscription-cleanup.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:17, CONTENT_SHORT_KO:3434 |
 | 80 | WARNING | `articles/summer-electricity-tier-check.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3642 |
 | 80 | WARNING | `articles/summer-gas-bill-hot-water-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3351 |
 | 80 | WARNING | `articles/summer-vacation-budget-plan.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3352 |
@@ -100,3 +99,4 @@
 | 84 | WARNING | `articles/duplicate-indemnity-insurance-check.html` | ARTICLE_SCHEMA_MISSING, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3096 |
 | 84 | WARNING | `articles/fan-aircon-combination-saving.html` | META_DESCRIPTION_LENGTH:37, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2929 |
 | 84 | WARNING | `articles/government-benefit-alert-2026.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:3642 |
+| 84 | WARNING | `articles/insurance-auto-pay-discount.html` | ARTICLE_SCHEMA_MISSING, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3168 |
