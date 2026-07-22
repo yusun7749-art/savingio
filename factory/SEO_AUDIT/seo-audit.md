@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
-- Articles: 209
+- Articles: 208
 - PASS: 126
-- WARNING: 82
+- WARNING: 81
 - FAIL: 1
 - Average score: 86.8
 - Thin content (<2500 Korean chars): 28
-- Short content (<4500 Korean chars): 171
+- Short content (<4500 Korean chars): 170
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -83,7 +83,6 @@
 | 80 | WARNING | `articles/travel-insurance-comparison.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:33, CONTENT_SHORT_KO:3298 |
 | 80 | WARNING | `articles/unemployment-benefit-job-search.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:31, CONTENT_SHORT_KO:3315 |
 | 80 | WARNING | `articles/vat-payment-extension-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:42, CONTENT_SHORT_KO:4009 |
-| 80 | WARNING | `articles/vat-zero-sales-filing.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:37, CONTENT_SHORT_KO:3973 |
 | 80 | WARNING | `articles/wetax-electronic-billing.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3065 |
 | 80 | WARNING | `articles/wetax-payment-history.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:14, CONTENT_SHORT_KO:3050 |
 | 80 | WARNING | `articles/yellow-umbrella-mutual-aid-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3180 |
@@ -100,3 +99,4 @@
 | 84 | WARNING | `articles/unemployment-benefit-checklist.html` | THIN_CONTENT_KO:2442, META_DESCRIPTION_LENGTH:49 |
 | 84 | WARNING | `articles/vat-final-return-2026-july.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:4042 |
 | 84 | WARNING | `articles/vat-input-tax-deduction-2026.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:4082 |
+| 84 | WARNING | `articles/youth-support-programs.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:3474 |

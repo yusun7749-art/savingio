@@ -1,12 +1,12 @@
 {
   "summary": {
-    "article_count": 209,
+    "article_count": 208,
     "pass": 126,
-    "warning": 82,
+    "warning": 81,
     "fail": 1,
     "average_score": 86.8,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 171,
+    "short_under_4500_ko": 170,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -5696,36 +5696,6 @@
       ],
       "score": 96,
       "status": "PASS"
-    },
-    {
-      "path": "articles/vat-zero-sales-filing.html",
-      "url": "https://savingio.com/articles/vat-zero-sales-filing.html",
-      "title": "부가가치세 무실적 신고 방법 | 세이빙이오(Savingio)",
-      "meta_description": "매출이 없었던 사업자도 확인해야 할 무실적 신고 절차를 설명합니다.",
-      "canonical": "https://savingio.com/articles/vat-zero-sales-filing.html",
-      "h1": [
-        "부가가치세 무실적 신고 방법"
-      ],
-      "h2_count": 13,
-      "h3_count": 4,
-      "korean_chars": 3973,
-      "words": 1409,
-      "internal_article_links": 39,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:37",
-        "CONTENT_SHORT_KO:3973"
-      ],
-      "score": 80,
-      "status": "WARNING"
     },
     {
       "path": "articles/vehicle-inspection-reservation-guide.html",
