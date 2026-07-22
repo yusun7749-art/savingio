@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 207,
-    "pass": 132,
-    "warning": 74,
+    "pass": 133,
+    "warning": 73,
     "fail": 1,
     "average_score": 87.3,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 164,
+    "short_under_4500_ko": 163,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -3478,31 +3478,28 @@
       "path": "articles/national-employment-support-eligibility.html",
       "url": "https://savingio.com/articles/national-employment-support-eligibility.html",
       "title": "국민취업지원제도 신청 자격 | 세이빙이오(Savingio)",
-      "meta_description": "구직촉진수당과 취업지원서비스 신청 기준을 확인합니다.",
+      "meta_description": "국민취업지원제도 I유형·II유형 신청 자격, 소득·재산·취업경험 기준, 구직촉진수당, 제출서류, 신청 순서와 제외 대상을 실제 상황별로 정리했습니다.",
       "canonical": "https://savingio.com/articles/national-employment-support-eligibility.html",
       "h1": [
         "국민취업지원제도 신청 자격"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3099,
-      "words": 1079,
-      "internal_article_links": 16,
+      "h2_count": 20,
+      "h3_count": 5,
+      "korean_chars": 6166,
+      "words": 1996,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:29",
-        "CONTENT_SHORT_KO:3099"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 96,
+      "status": "PASS"
     },
     {
       "path": "articles/national-pension-additional-payment.html",
