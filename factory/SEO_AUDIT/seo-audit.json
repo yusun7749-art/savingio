@@ -3004,28 +3004,29 @@
     {
       "path": "articles/hometax-vat-sales-check.html",
       "url": "https://savingio.com/articles/hometax-vat-sales-check.html",
-      "title": "홈택스에서 부가가치세 매출자료 확인하는 순서 | 세이빙이오(Savingio)",
-      "meta_description": "홈택스 신고 화면에서 전자세금계산서·카드·현금영수증 매출을 확인하고 사업자 장부와 대조하는 순서를 정리했습니다.",
+      "title": "홈택스 부가가치세 매출자료 확인 방법, 카드·현금영수증 누락까지 점검하세요 | 세이빙이오(Savingio)",
+      "meta_description": "홈택스에서 전자세금계산서, 신용카드, 현금영수증, 판매대행 매출자료를 확인하고 실제 장부와 대조하는 순서와 누락·중복 점검 방법을 정리했습니다.",
       "canonical": "https://savingio.com/articles/hometax-vat-sales-check.html",
       "h1": [
-        "홈택스에서 부가가치세 매출자료 확인하는 순서"
+        "홈택스 부가가치세 매출자료 확인 방법, 카드·현금영수증 누락까지 점검하세요"
       ],
       "h2_count": 15,
-      "h3_count": 3,
-      "korean_chars": 3697,
-      "words": 1299,
-      "internal_article_links": 39,
+      "h3_count": 0,
+      "korean_chars": 2626,
+      "words": 841,
+      "internal_article_links": 7,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:3697"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:2626"
       ],
-      "score": 96,
+      "score": 92,
       "status": "PASS"
     },
     {
