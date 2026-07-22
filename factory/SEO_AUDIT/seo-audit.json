@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 207,
-    "pass": 130,
-    "warning": 76,
+    "pass": 131,
+    "warning": 75,
     "fail": 1,
-    "average_score": 87.1,
+    "average_score": 87.2,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 167,
+    "short_under_4500_ko": 166,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -3088,31 +3088,26 @@
       "path": "articles/irs-tax-refund-status.html",
       "url": "https://savingio.com/articles/irs-tax-refund-status.html",
       "title": "세금 환급 진행상태 확인 방법 | 세이빙이오(Savingio)",
-      "meta_description": "세금 환급 신청 후 진행상태와 지급 여부를 확인하는 방법을 정리했습니다.",
+      "meta_description": "IRS 연방 세금 환급 진행상태를 Where’s My Refund, IRS 온라인 계정, IRS2Go로 확인하는 방법과 지연·승인·송금·환급 추적 대응 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/irs-tax-refund-status.html",
       "h1": [
         "세금 환급 진행상태 확인 방법"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3475,
-      "words": 1227,
+      "h2_count": 15,
+      "h3_count": 9,
+      "korean_chars": 5000,
+      "words": 1982,
       "internal_article_links": 20,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 4,
+      "jsonld_count": 3,
       "article_schema": true,
       "breadcrumb_schema": true,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:40",
-        "CONTENT_SHORT_KO:3475"
-      ],
-      "score": 80,
-      "status": "WARNING"
+      "issues": [],
+      "warnings": [],
+      "score": 100,
+      "status": "PASS"
     },
     {
       "path": "articles/lifelong-education-voucher-application.html",

@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
 - Articles: 207
-- PASS: 130
-- WARNING: 76
+- PASS: 131
+- WARNING: 75
 - FAIL: 1
-- Average score: 87.1
+- Average score: 87.2
 - Thin content (<2500 Korean chars): 28
-- Short content (<4500 Korean chars): 167
+- Short content (<4500 Korean chars): 166
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -43,7 +43,6 @@
 | 80 | WARNING | `articles/elementary-school-education-support.html` | THIN_CONTENT_KO:2209, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/emergency-fund-guide.html` | THIN_CONTENT_KO:2106, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/energy-voucher-balance-use.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3601 |
-| 80 | WARNING | `articles/irs-tax-refund-status.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:40, CONTENT_SHORT_KO:3475 |
 | 80 | WARNING | `articles/local-tax-refund-claim.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:33, CONTENT_SHORT_KO:3462 |
 | 80 | WARNING | `articles/national-employment-support-eligibility.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:29, CONTENT_SHORT_KO:3099 |
 | 80 | WARNING | `articles/national-pension-old-age-benefit-guide.html` | THIN_CONTENT_KO:2054, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
@@ -100,3 +99,4 @@
 | 88 | PASS | `articles/budget-app-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2501 |
 | 88 | PASS | `articles/cancel-unused-subscriptions.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4156 |
 | 88 | PASS | `articles/credit-score-management.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2793 |
+| 88 | PASS | `articles/education-expense-vs-benefit.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3512 |
