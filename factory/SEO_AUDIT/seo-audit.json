@@ -1,12 +1,12 @@
 {
   "summary": {
-    "article_count": 220,
+    "article_count": 219,
     "pass": 128,
-    "warning": 91,
+    "warning": 90,
     "fail": 1,
     "average_score": 86.6,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 182,
+    "short_under_4500_ko": 181,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -2804,36 +2804,6 @@
       "warnings": [
         "META_DESCRIPTION_LENGTH:40",
         "CONTENT_SHORT_KO:3245"
-      ],
-      "score": 80,
-      "status": "WARNING"
-    },
-    {
-      "path": "articles/hidden-refund-check.html",
-      "url": "https://savingio.com/articles/hidden-refund-check.html",
-      "title": "숨은 환급금 확인하기 | 세이빙이오(Savingio)",
-      "meta_description": "놓치고 있던 환급금과 미수령 금액을 공식 사이트에서 확인하는 방법입니다.",
-      "canonical": "https://savingio.com/articles/hidden-refund-check.html",
-      "h1": [
-        "숨은 환급금 확인하기"
-      ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3432,
-      "words": 1205,
-      "internal_article_links": 20,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:40",
-        "CONTENT_SHORT_KO:3432"
       ],
       "score": 80,
       "status": "WARNING"
