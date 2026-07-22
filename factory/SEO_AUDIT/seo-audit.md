@@ -1,11 +1,11 @@
 # Savingio Full SEO Audit
 
 - Articles: 223
-- PASS: 119
-- WARNING: 103
+- PASS: 118
+- WARNING: 104
 - FAIL: 1
 - Average score: 86.1
-- Thin content (<2500 Korean chars): 26
+- Thin content (<2500 Korean chars): 27
 - Short content (<4500 Korean chars): 198
 - Missing meta: 0
 - Missing canonical: 0

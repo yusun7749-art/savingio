@@ -1,11 +1,11 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 119,
-    "warning": 103,
+    "pass": 118,
+    "warning": 104,
     "fail": 1,
     "average_score": 86.1,
-    "thin_under_2500_ko": 26,
+    "thin_under_2500_ko": 27,
     "short_under_4500_ko": 198,
     "missing_meta": 0,
     "missing_canonical": 0,
@@ -2679,28 +2679,30 @@
       "path": "articles/grocery-bill-savings.html",
       "url": "https://savingio.com/articles/grocery-bill-savings.html",
       "title": "식비 줄이는 현실적인 방법, 장보기 전부터 냉장고까지 바꾸세요 | 세이빙이오(Savingio)",
-      "meta_description": "외식비와 장보기 비용이 함께 오를 때 식비를 줄이려면 할인보다 구매 순서와 보관 습관을 먼저 바꿔야 합니다. 예산 설정, 냉장고 재고, 주간 식단, 단가 비교까지 실제로 적용하는 방법을 정리했습니다.",
+      "meta_description": "장보기·외식·배달비가 함께 오를 때 식비를 줄이는 현실적인 순서를 정리했습니다. 냉장고 재고 확인, 주간 식단, 단가 비교, 대용량 함정, 보관과 폐기 줄이기까지 단계별로 안내합니다.",
       "canonical": "https://savingio.com/articles/grocery-bill-savings.html",
       "h1": [
         "식비 줄이는 현실적인 방법, 장보기 전부터 냉장고까지 바꾸세요"
       ],
-      "h2_count": 13,
+      "h2_count": 17,
       "h3_count": 0,
-      "korean_chars": 3144,
-      "words": 1116,
+      "korean_chars": 2453,
+      "words": 924,
       "internal_article_links": 9,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [],
-      "warnings": [
-        "CONTENT_SHORT_KO:3144"
+      "issues": [
+        "THIN_CONTENT_KO:2453"
       ],
-      "score": 96,
-      "status": "PASS"
+      "warnings": [
+        "BREADCRUMB_SCHEMA_MISSING"
+      ],
+      "score": 84,
+      "status": "WARNING"
     },
     {
       "path": "articles/grocery-saving-tips.html",
