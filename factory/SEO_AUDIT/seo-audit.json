@@ -4,7 +4,7 @@
     "pass": 119,
     "warning": 103,
     "fail": 1,
-    "average_score": 86.2,
+    "average_score": 86.1,
     "thin_under_2500_ko": 26,
     "short_under_4500_ko": 198,
     "missing_meta": 0,
@@ -2416,27 +2416,28 @@
       "path": "articles/gas-bill-checklist.html",
       "url": "https://savingio.com/articles/gas-bill-checklist.html",
       "title": "도시가스 요금 절약과 고지서 점검 방법 | 세이빙이오(Savingio)",
-      "meta_description": "보일러 설정, 외출모드, 온수 사용, 검침값, 가스요금 감면과 에너지바우처까지 도시가스 비용을 줄이는 방법입니다.",
+      "meta_description": "도시가스 요금이 갑자기 많이 나온 원인을 고지서·검침값·보일러·온수 사용으로 나누어 확인하고, 2026년 요금 기준과 감면·분할납부까지 점검하는 방법을 정리했습니다.",
       "canonical": "https://savingio.com/articles/gas-bill-checklist.html",
       "h1": [
         "도시가스 요금 절약과 고지서 점검 방법"
       ],
-      "h2_count": 13,
-      "h3_count": 0,
-      "korean_chars": 3117,
-      "words": 1067,
-      "internal_article_links": 14,
+      "h2_count": 17,
+      "h3_count": 2,
+      "korean_chars": 3268,
+      "words": 1061,
+      "internal_article_links": 5,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:3117"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3268"
       ],
-      "score": 96,
+      "score": 92,
       "status": "PASS"
     },
     {
