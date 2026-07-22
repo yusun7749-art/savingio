@@ -1,8 +1,8 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 123,
-    "warning": 99,
+    "pass": 124,
+    "warning": 98,
     "fail": 1,
     "average_score": 86.2,
     "thin_under_2500_ko": 28,
@@ -3916,31 +3916,29 @@
       "path": "articles/national-tax-refund.html",
       "url": "https://savingio.com/articles/national-tax-refund.html",
       "title": "국세 환급금 조회 방법 | 세이빙이오(Savingio)",
-      "meta_description": "홈택스에서 국세 환급금과 미수령 환급액을 확인하는 방법입니다.",
+      "meta_description": "홈택스와 손택스에서 국세 환급금과 미수령 환급금을 조회하고, 지급요청·환급계좌 신고·세무서 문의까지 실제 해결 순서로 정리했습니다.",
       "canonical": "https://savingio.com/articles/national-tax-refund.html",
       "h1": [
         "국세 환급금 조회 방법"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3431,
-      "words": 1211,
-      "internal_article_links": 20,
+      "h2_count": 19,
+      "h3_count": 0,
+      "korean_chars": 3874,
+      "words": 1316,
+      "internal_article_links": 6,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:34",
-        "CONTENT_SHORT_KO:3431"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3874"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/near-poverty-certificate.html",

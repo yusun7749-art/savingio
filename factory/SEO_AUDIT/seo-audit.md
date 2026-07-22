@@ -1,8 +1,8 @@
 # Savingio Full SEO Audit
 
 - Articles: 223
-- PASS: 123
-- WARNING: 99
+- PASS: 124
+- WARNING: 98
 - FAIL: 1
 - Average score: 86.2
 - Thin content (<2500 Korean chars): 28
@@ -60,7 +60,6 @@
 | 80 | WARNING | `articles/national-employment-support-eligibility.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:29, CONTENT_SHORT_KO:3099 |
 | 80 | WARNING | `articles/national-pension-old-age-benefit-guide.html` | THIN_CONTENT_KO:2054, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/national-tax-refund-account.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:32, CONTENT_SHORT_KO:3455 |
-| 80 | WARNING | `articles/national-tax-refund.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3431 |
 | 80 | WARNING | `articles/near-poverty-certificate.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:28, CONTENT_SHORT_KO:3386 |
 | 80 | WARNING | `articles/parking-account-rate-comparison.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3209 |
 | 80 | WARNING | `articles/peak-season-hotel-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:39, CONTENT_SHORT_KO:3317 |
@@ -100,3 +99,4 @@
 | 80 | WARNING | `articles/vat-zero-sales-filing.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:37, CONTENT_SHORT_KO:3973 |
 | 80 | WARNING | `articles/water-bill-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:19, CONTENT_SHORT_KO:3329 |
 | 80 | WARNING | `articles/wetax-electronic-billing.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3065 |
+| 80 | WARNING | `articles/wetax-payment-history.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:14, CONTENT_SHORT_KO:3050 |
