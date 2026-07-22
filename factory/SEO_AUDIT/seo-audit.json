@@ -1,12 +1,12 @@
 {
   "summary": {
-    "article_count": 218,
+    "article_count": 217,
     "pass": 128,
-    "warning": 89,
+    "warning": 88,
     "fail": 1,
     "average_score": 86.7,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 180,
+    "short_under_4500_ko": 179,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -5140,36 +5140,6 @@
       "warnings": [
         "META_DESCRIPTION_LENGTH:17",
         "CONTENT_SHORT_KO:3434"
-      ],
-      "score": 80,
-      "status": "WARNING"
-    },
-    {
-      "path": "articles/subscription-saving.html",
-      "url": "https://savingio.com/articles/subscription-saving.html",
-      "title": "정기구독 비용 절약 방법 | 세이빙이오(Savingio)",
-      "meta_description": "정기구독 결제일과 사용 빈도를 점검해 고정비를 줄이는 방법입니다.",
-      "canonical": "https://savingio.com/articles/subscription-saving.html",
-      "h1": [
-        "정기구독 비용 절약 방법"
-      ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3339,
-      "words": 1171,
-      "internal_article_links": 18,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:36",
-        "CONTENT_SHORT_KO:3339"
       ],
       "score": 80,
       "status": "WARNING"
