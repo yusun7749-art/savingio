@@ -2444,27 +2444,28 @@
       "path": "articles/general-vat-common-mistakes.html",
       "url": "https://savingio.com/articles/general-vat-common-mistakes.html",
       "title": "일반과세자 부가가치세 신고에서 자주 하는 실수 12가지 | 세이빙이오(Savingio)",
-      "meta_description": "일반과세자가 매출 누락, 매입세액 불공제, 신용카드 중복, 개인비용 혼입 등으로 신고를 잘못하는 대표 사례와 예방 방법입니다.",
+      "meta_description": "2026년 일반과세자 부가가치세 신고에서 자주 발생하는 매출 누락, 매입세액 불공제, 중복 반영, 신용카드·현금영수증 오류와 신고 후 수정 방법을 정리했습니다.",
       "canonical": "https://savingio.com/articles/general-vat-common-mistakes.html",
       "h1": [
         "일반과세자 부가가치세 신고에서 자주 하는 실수 12가지"
       ],
-      "h2_count": 14,
-      "h3_count": 4,
-      "korean_chars": 3683,
-      "words": 1300,
-      "internal_article_links": 39,
+      "h2_count": 17,
+      "h3_count": 12,
+      "korean_chars": 3318,
+      "words": 1084,
+      "internal_article_links": 6,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:3683"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3318"
       ],
-      "score": 96,
+      "score": 92,
       "status": "PASS"
     },
     {
