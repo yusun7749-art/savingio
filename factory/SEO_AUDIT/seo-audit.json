@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 207,
-    "pass": 127,
-    "warning": 79,
+    "pass": 128,
+    "warning": 78,
     "fail": 1,
-    "average_score": 86.9,
+    "average_score": 87.0,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 168,
+    "short_under_4500_ko": 167,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -2484,32 +2484,29 @@
     {
       "path": "articles/government-benefits-warning.html",
       "url": "https://savingio.com/articles/government-benefits-warning.html",
-      "title": "정부지원금 조회 시 주의할 점 | 세이빙이오(Savingio)",
-      "meta_description": "지원금 사칭과 개인정보 요구를 피하고 공식 채널에서 안전하게 조회하는 방법입니다.",
+      "title": "정부지원금 사칭 문자, 링크를 눌렀다면? 2026 스미싱 대응법 | Savingio",
+      "meta_description": "정부지원금·환급금·생활지원금을 사칭한 문자와 카카오톡을 구별하는 법부터 URL을 눌렀을 때, 개인정보를 입력했을 때, 송금했을 때의 118·112·금융회사 대응 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/government-benefits-warning.html",
       "h1": [
-        "정부지원금 조회 시 주의할 점"
+        "“지원금 대상자입니다” 문자, 링크를 눌러도 될까요?"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3525,
-      "words": 1249,
-      "internal_article_links": 23,
+      "h2_count": 26,
+      "h3_count": 5,
+      "korean_chars": 5158,
+      "words": 1741,
+      "internal_article_links": 12,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:45",
-        "CONTENT_SHORT_KO:3525"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 96,
+      "status": "PASS"
     },
     {
       "path": "articles/government-support-calendar.html",
