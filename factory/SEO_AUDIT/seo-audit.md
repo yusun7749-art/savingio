@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
-- Articles: 208
+- Articles: 207
 - PASS: 126
-- WARNING: 81
+- WARNING: 80
 - FAIL: 1
-- Average score: 86.8
+- Average score: 86.9
 - Thin content (<2500 Korean chars): 28
-- Short content (<4500 Korean chars): 170
+- Short content (<4500 Korean chars): 169
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -46,7 +46,6 @@
 | 80 | WARNING | `articles/government-benefits-warning.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:45, CONTENT_SHORT_KO:3525 |
 | 80 | WARNING | `articles/grocery-saving-tips.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:38, CONTENT_SHORT_KO:3178 |
 | 80 | WARNING | `articles/heating-bill-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:40, CONTENT_SHORT_KO:3245 |
-| 80 | WARNING | `articles/how-to-lower-phone-bill.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:39, CONTENT_SHORT_KO:3276 |
 | 80 | WARNING | `articles/irs-tax-refund-status.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:40, CONTENT_SHORT_KO:3475 |
 | 80 | WARNING | `articles/local-tax-refund-claim.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:33, CONTENT_SHORT_KO:3462 |
 | 80 | WARNING | `articles/national-employment-support-eligibility.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:29, CONTENT_SHORT_KO:3099 |
@@ -100,3 +99,4 @@
 | 84 | WARNING | `articles/vat-final-return-2026-july.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:4042 |
 | 84 | WARNING | `articles/vat-input-tax-deduction-2026.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:4082 |
 | 84 | WARNING | `articles/youth-support-programs.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:3474 |
+| 88 | PASS | `articles/apartment-management-fee-summer.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4224 |

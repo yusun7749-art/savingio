@@ -1,12 +1,12 @@
 {
   "summary": {
-    "article_count": 208,
+    "article_count": 207,
     "pass": 126,
-    "warning": 81,
+    "warning": 80,
     "fail": 1,
-    "average_score": 86.8,
+    "average_score": 86.9,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 170,
+    "short_under_4500_ko": 169,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -2922,36 +2922,6 @@
       ],
       "score": 92,
       "status": "PASS"
-    },
-    {
-      "path": "articles/how-to-lower-phone-bill.html",
-      "url": "https://savingio.com/articles/how-to-lower-phone-bill.html",
-      "title": "휴대전화 요금 낮추는 방법 | 세이빙이오(Savingio)",
-      "meta_description": "데이터 사용량과 부가서비스를 점검해 휴대전화 요금을 낮추는 방법입니다.",
-      "canonical": "https://savingio.com/articles/how-to-lower-phone-bill.html",
-      "h1": [
-        "휴대전화 요금 낮추는 방법"
-      ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3276,
-      "words": 1138,
-      "internal_article_links": 18,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 4,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:39",
-        "CONTENT_SHORT_KO:3276"
-      ],
-      "score": 80,
-      "status": "WARNING"
     },
     {
       "path": "articles/impulse-buying-control.html",
