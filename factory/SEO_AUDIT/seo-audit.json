@@ -6,7 +6,7 @@
     "fail": 1,
     "average_score": 87.3,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 163,
+    "short_under_4500_ko": 164,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -3478,27 +3478,29 @@
       "path": "articles/national-employment-support-eligibility.html",
       "url": "https://savingio.com/articles/national-employment-support-eligibility.html",
       "title": "국민취업지원제도 신청 자격 | 세이빙이오(Savingio)",
-      "meta_description": "국민취업지원제도 I유형·II유형 신청 자격, 소득·재산·취업경험 기준, 구직촉진수당, 제출서류, 신청 순서와 제외 대상을 실제 상황별로 정리했습니다.",
+      "meta_description": "국민취업지원제도 I유형·II유형 신청 자격, 소득·재산·취업경험 기준, 구직촉진수당, 제출서류와 신청 순서를 실제 상황별로 정리했습니다.",
       "canonical": "https://savingio.com/articles/national-employment-support-eligibility.html",
       "h1": [
         "국민취업지원제도 신청 자격"
       ],
-      "h2_count": 20,
-      "h3_count": 5,
-      "korean_chars": 6166,
-      "words": 1996,
+      "h2_count": 19,
+      "h3_count": 3,
+      "korean_chars": 4077,
+      "words": 1307,
       "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 2,
+      "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": true,
+      "faq_schema": false,
       "issues": [],
       "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:4077"
       ],
-      "score": 96,
+      "score": 88,
       "status": "PASS"
     },
     {
