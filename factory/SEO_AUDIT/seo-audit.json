@@ -6,7 +6,7 @@
     "fail": 1,
     "average_score": 86.4,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 189,
+    "short_under_4500_ko": 188,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -1353,17 +1353,17 @@
     {
       "path": "articles/culture-nuri-card-balance.html",
       "url": "https://savingio.com/articles/culture-nuri-card-balance.html",
-      "title": "문화누리카드 잔액 조회와 사용처 확인, 남은 금액 쓰는 순서 | Savingio",
-      "meta_description": "2026년 문화누리카드 잔액 조회, 사용기간, 온라인·오프라인 가맹점 확인, 결제 오류와 남은 금액 사용 방법을 실제 순서대로 정리했습니다.",
+      "title": "문화누리카드 잔액 조회와 사용처 확인, 남은 금액까지 쓰는 방법 | Savingio",
+      "meta_description": "2026년 문화누리카드 잔액 조회, 지원금, 자동재충전, 온라인·오프라인 사용처, 결제 오류, 분실·재발급, 남은 금액 사용법을 실제 순서대로 정리했습니다.",
       "canonical": "https://savingio.com/articles/culture-nuri-card-balance.html",
       "h1": [
-        "문화누리카드 잔액 조회와 사용처 확인, 남은 금액 쓰는 순서"
+        "문화누리카드 잔액 조회와 사용처 확인, 남은 금액까지 쓰는 방법"
       ],
-      "h2_count": 15,
-      "h3_count": 0,
-      "korean_chars": 3416,
-      "words": 1190,
-      "internal_article_links": 5,
+      "h2_count": 29,
+      "h3_count": 4,
+      "korean_chars": 5867,
+      "words": 1990,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 2,
@@ -1372,10 +1372,9 @@
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3416"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 92,
+      "score": 96,
       "status": "PASS"
     },
     {
