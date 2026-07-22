@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3069,
-  "references_scanned": 64329,
+  "references_scanned": 64165,
   "counts": {
-    "broken_references": 612,
+    "broken_references": 642,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -404,10 +404,192 @@
       ]
     },
     {
+      "source": "articles/first-meeting-voucher-guide.html",
+      "reference": "/articles/diaper-formula-support-guide.html",
+      "expected": [
+        "articles/diaper-formula-support-guide.html"
+      ]
+    },
+    {
+      "source": "articles/first-meeting-voucher-guide.html",
+      "reference": "/articles/electricity-bill-childbirth-discount.html",
+      "expected": [
+        "articles/electricity-bill-childbirth-discount.html"
+      ]
+    },
+    {
+      "source": "articles/first-meeting-voucher-guide.html",
+      "reference": "/articles/maternity-leave-benefit.html",
+      "expected": [
+        "articles/maternity-leave-benefit.html"
+      ]
+    },
+    {
+      "source": "articles/first-meeting-voucher-guide.html",
+      "reference": "/articles/pregnancy-childbirth-medical-support.html",
+      "expected": [
+        "articles/pregnancy-childbirth-medical-support.html"
+      ]
+    },
+    {
+      "source": "articles/fixed-date-online-application.html",
+      "reference": "/articles/jeonse-deposit-protection.html",
+      "expected": [
+        "articles/jeonse-deposit-protection.html"
+      ]
+    },
+    {
+      "source": "articles/fixed-date-online-application.html",
+      "reference": "/articles/lease-contract-report.html",
+      "expected": [
+        "articles/lease-contract-report.html"
+      ]
+    },
+    {
+      "source": "articles/fixed-date-online-application.html",
+      "reference": "/articles/move-in-report-online.html",
+      "expected": [
+        "articles/move-in-report-online.html"
+      ]
+    },
+    {
+      "source": "articles/fixed-date-online-application.html",
+      "reference": "/articles/registry-copy-check.html",
+      "expected": [
+        "articles/registry-copy-check.html"
+      ]
+    },
+    {
+      "source": "articles/four-major-insurance-deduction-guide.html",
+      "reference": "/articles/salary-statement-check-guide.html",
+      "expected": [
+        "articles/salary-statement-check-guide.html"
+      ]
+    },
+    {
+      "source": "articles/four-major-insurance-deduction-guide.html",
+      "reference": "/articles/salary-tax-deduction-guide.html",
+      "expected": [
+        "articles/salary-tax-deduction-guide.html"
+      ]
+    },
+    {
+      "source": "articles/gas-bill-checklist.html",
+      "reference": "/articles/energy-voucher-guide.html",
+      "expected": [
+        "articles/energy-voucher-guide.html"
+      ]
+    },
+    {
+      "source": "articles/gas-bill-checklist.html",
+      "reference": "/articles/heating-cost-saving-guide.html",
+      "expected": [
+        "articles/heating-cost-saving-guide.html"
+      ]
+    },
+    {
+      "source": "articles/gas-bill-checklist.html",
+      "reference": "/categories/utility-bills.html",
+      "expected": [
+        "categories/utility-bills.html"
+      ]
+    },
+    {
+      "source": "articles/gas-bill-checklist.html",
+      "reference": "/js/savingio-brain-navigation-data.js?v=12",
+      "expected": [
+        "js/savingio-brain-navigation-data.js"
+      ]
+    },
+    {
+      "source": "articles/general-vat-common-mistakes.html",
+      "reference": "/articles/business-expense-proof-guide.html",
+      "expected": [
+        "articles/business-expense-proof-guide.html"
+      ]
+    },
+    {
+      "source": "articles/general-vat-common-mistakes.html",
+      "reference": "/articles/vat-return-guide.html",
+      "expected": [
+        "articles/vat-return-guide.html"
+      ]
+    },
+    {
+      "source": "articles/grocery-bill-savings.html",
+      "reference": "/categories/household-budget.html",
+      "expected": [
+        "categories/household-budget.html"
+      ]
+    },
+    {
       "source": "articles/health-insurance-out-of-pocket-refund.html",
       "reference": "/categories/insurance-refund.html",
       "expected": [
         "categories/insurance-refund.html"
+      ]
+    },
+    {
+      "source": "articles/home-water-leak-self-check.html",
+      "reference": "/articles/water-leak-emergency-response.html",
+      "expected": [
+        "articles/water-leak-emergency-response.html"
+      ]
+    },
+    {
+      "source": "articles/home-water-leak-self-check.html",
+      "reference": "/articles/water-leak-liability-insurance.html",
+      "expected": [
+        "articles/water-leak-liability-insurance.html"
+      ]
+    },
+    {
+      "source": "articles/home-water-leak-self-check.html",
+      "reference": "/categories/housing-maintenance.html",
+      "expected": [
+        "categories/housing-maintenance.html"
+      ]
+    },
+    {
+      "source": "articles/hometax-refund-status.html",
+      "reference": "/articles/income-tax-refund-check.html",
+      "expected": [
+        "articles/income-tax-refund-check.html"
+      ]
+    },
+    {
+      "source": "articles/hometax-refund-status.html",
+      "reference": "/articles/tax-refund-scam-warning.html",
+      "expected": [
+        "articles/tax-refund-scam-warning.html"
+      ]
+    },
+    {
+      "source": "articles/housing-benefit-eligibility.html",
+      "reference": "/articles/energy-voucher-eligibility.html",
+      "expected": [
+        "articles/energy-voucher-eligibility.html"
+      ]
+    },
+    {
+      "source": "articles/housing-benefit-eligibility.html",
+      "reference": "/articles/housing-benefit-application.html",
+      "expected": [
+        "articles/housing-benefit-application.html"
+      ]
+    },
+    {
+      "source": "articles/housing-benefit-eligibility.html",
+      "reference": "/articles/rent-tax-credit-guide.html",
+      "expected": [
+        "articles/rent-tax-credit-guide.html"
+      ]
+    },
+    {
+      "source": "articles/impulse-buying-control.html",
+      "reference": "/categories/household-budget.html",
+      "expected": [
+        "categories/household-budget.html"
       ]
     },
     {
@@ -526,6 +708,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/childcare-support-guide.html",
+      "expected": [
+        "articles/childcare-support-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/credit-card-annual-fee-refund.html",
       "expected": [
         "articles/credit-card-annual-fee-refund.html"
@@ -627,6 +816,20 @@
       "reference": "/articles/standby-power-saving.html",
       "expected": [
         "articles/standby-power-saving.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/unemployment-benefit-application.html",
+      "expected": [
+        "articles/unemployment-benefit-application.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/utility-bill-support.html",
+      "expected": [
+        "articles/utility-bill-support.html"
       ]
     },
     {
@@ -879,6 +1082,13 @@
       "reference": "/categories/education-childcare.html",
       "expected": [
         "categories/education-childcare.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/categories/electricity-utility.html",
+      "expected": [
+        "categories/electricity-utility.html"
       ]
     },
     {
