@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 207,
-    "pass": 131,
-    "warning": 75,
+    "pass": 132,
+    "warning": 74,
     "fail": 1,
-    "average_score": 87.2,
+    "average_score": 87.3,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 166,
+    "short_under_4500_ko": 165,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -3198,32 +3198,29 @@
     {
       "path": "articles/local-tax-refund-claim.html",
       "url": "https://savingio.com/articles/local-tax-refund-claim.html",
-      "title": "지방세 환급금 조회와 신청 방법 | 세이빙이오(Savingio)",
-      "meta_description": "위택스에서 지방세 환급금을 조회하고 계좌로 받는 절차입니다.",
+      "title": "지방세 환급금 조회와 신청 방법 | Savingio",
+      "meta_description": "위택스에서 지방세 환급금을 조회하고 본인 명의 계좌로 신청하는 방법, 환급 사유, 필요 서류, 처리 지연과 사기 문자 대응까지 5초·30초·5분 구조로 정리했습니다.",
       "canonical": "https://savingio.com/articles/local-tax-refund-claim.html",
       "h1": [
         "지방세 환급금 조회와 신청 방법"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3462,
-      "words": 1222,
-      "internal_article_links": 20,
+      "h2_count": 20,
+      "h3_count": 3,
+      "korean_chars": 5093,
+      "words": 1780,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:33",
-        "CONTENT_SHORT_KO:3462"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 96,
+      "status": "PASS"
     },
     {
       "path": "articles/local-tax-refund-guide.html",
