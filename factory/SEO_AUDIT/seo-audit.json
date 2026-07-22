@@ -1,12 +1,12 @@
 {
   "summary": {
-    "article_count": 223,
+    "article_count": 221,
     "pass": 128,
-    "warning": 94,
+    "warning": 92,
     "fail": 1,
-    "average_score": 86.5,
+    "average_score": 86.6,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 185,
+    "short_under_4500_ko": 183,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -2018,65 +2018,6 @@
       ],
       "score": 96,
       "status": "PASS"
-    },
-    {
-      "path": "articles/energy-voucher-application-2026.html",
-      "url": "https://savingio.com/articles/energy-voucher-application-2026.html",
-      "title": "2026년 에너지바우처 신청 방법과 신청기간 | 세이빙이오(Savingio)",
-      "meta_description": "2026년 에너지바우처 신청기간, 지원대상 확인 기준, 복지로 온라인 신청과 행정복지센터 방문 신청 방법을 정리했습니다.",
-      "canonical": "https://savingio.com/articles/energy-voucher-application-2026.html",
-      "h1": [
-        "2026년 에너지바우처 신청 방법과 신청기간"
-      ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3627,
-      "words": 1275,
-      "internal_article_links": 23,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 4,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "CONTENT_SHORT_KO:3627"
-      ],
-      "score": 84,
-      "status": "WARNING"
-    },
-    {
-      "path": "articles/energy-voucher-application.html",
-      "url": "https://savingio.com/articles/energy-voucher-application.html",
-      "title": "에너지바우처 신청 방법 | 세이빙이오(Savingio)",
-      "meta_description": "에너지바우처 지원 대상과 신청 절차, 사용 방법을 한 번에 확인합니다.",
-      "canonical": "https://savingio.com/articles/energy-voucher-application.html",
-      "h1": [
-        "에너지바우처 신청 방법"
-      ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3555,
-      "words": 1245,
-      "internal_article_links": 23,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:39",
-        "CONTENT_SHORT_KO:3555"
-      ],
-      "score": 80,
-      "status": "WARNING"
     },
     {
       "path": "articles/energy-voucher-balance-check-2026.html",

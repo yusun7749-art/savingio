@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
-- Articles: 223
+- Articles: 221
 - PASS: 128
-- WARNING: 94
+- WARNING: 92
 - FAIL: 1
-- Average score: 86.5
+- Average score: 86.6
 - Thin content (<2500 Korean chars): 28
-- Short content (<4500 Korean chars): 185
+- Short content (<4500 Korean chars): 183
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -42,7 +42,6 @@
 | 80 | WARNING | `articles/cash-advance-vs-card-loan.html` | THIN_CONTENT_KO:2434, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/elementary-school-education-support.html` | THIN_CONTENT_KO:2209, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/emergency-fund-guide.html` | THIN_CONTENT_KO:2106, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
-| 80 | WARNING | `articles/energy-voucher-application.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:39, CONTENT_SHORT_KO:3555 |
 | 80 | WARNING | `articles/energy-voucher-balance-use.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3601 |
 | 80 | WARNING | `articles/government-benefits-warning.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:45, CONTENT_SHORT_KO:3525 |
 | 80 | WARNING | `articles/grocery-saving-tips.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:38, CONTENT_SHORT_KO:3178 |
@@ -100,3 +99,4 @@
 | 80 | WARNING | `articles/yellow-umbrella-mutual-aid-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3180 |
 | 80 | WARNING | `articles/youth-leap-account-contribution.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3372 |
 | 80 | WARNING | `articles/youth-savings-account-maintenance.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3354 |
+| 84 | WARNING | `articles/basic-pension-application-guide.html` | THIN_CONTENT_KO:2033, BREADCRUMB_SCHEMA_MISSING |
