@@ -2781,11 +2781,11 @@
       "h1": [
         "난방비 절약 방법 12가지, 보일러 설정부터 창문 단열까지"
       ],
-      "h2_count": 16,
+      "h2_count": 18,
       "h3_count": 1,
-      "korean_chars": 3039,
-      "words": 1072,
-      "internal_article_links": 6,
+      "korean_chars": 3130,
+      "words": 1107,
+      "internal_article_links": 12,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 2,
@@ -2795,7 +2795,7 @@
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3039"
+        "CONTENT_SHORT_KO:3130"
       ],
       "score": 92,
       "status": "PASS"
