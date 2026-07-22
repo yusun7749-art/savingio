@@ -2943,30 +2943,29 @@
     {
       "path": "articles/home-water-leak-self-check.html",
       "url": "https://savingio.com/articles/home-water-leak-self-check.html",
-      "title": "수도 누수 자가진단, 계량기로 우리 집 누수 확인하는 방법 | 세이빙이오",
-      "meta_description": "모든 수도 사용을 멈춘 뒤 수도계량기 지침을 비교해 옥내누수 가능성을 확인하는 방법과 변기·싱크대·보일러·세탁기 점검 순서를 정리했습니다.",
+      "title": "수도 누수 자가진단, 계량기로 우리 집 누수 확인하는 방법 | 세이빙이오(Savingio)",
+      "meta_description": "수도요금이 갑자기 늘었을 때 수도계량기, 변기, 싱크대, 세탁기, 보일러와 바닥 배관을 순서대로 확인하는 누수 자가진단 방법을 정리했습니다.",
       "canonical": "https://savingio.com/articles/home-water-leak-self-check.html",
       "h1": [
         "수도 누수 자가진단, 계량기로 우리 집 누수 확인하는 방법"
       ],
-      "h2_count": 10,
+      "h2_count": 16,
       "h3_count": 0,
-      "korean_chars": 3022,
-      "words": 1038,
-      "internal_article_links": 3,
-      "images": 1,
+      "korean_chars": 3446,
+      "words": 1219,
+      "internal_article_links": 8,
+      "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 1,
+      "jsonld_count": 2,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": false,
+      "faq_schema": true,
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "FAQ_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3022"
+        "CONTENT_SHORT_KO:3446"
       ],
-      "score": 88,
+      "score": 92,
       "status": "PASS"
     },
     {
