@@ -1,11 +1,11 @@
 # Savingio Full SEO Audit
 
 - Articles: 223
-- PASS: 118
-- WARNING: 104
+- PASS: 117
+- WARNING: 105
 - FAIL: 1
 - Average score: 86.0
-- Thin content (<2500 Korean chars): 27
+- Thin content (<2500 Korean chars): 28
 - Short content (<4500 Korean chars): 198
 - Missing meta: 0
 - Missing canonical: 0
@@ -37,6 +37,7 @@
 | 62 | WARNING | `articles/vat-input-tax-deduction-guide-2026.html` | NOINDEX, THIN_CONTENT_KO:122, META_DESCRIPTION_LENGTH:28, H2_TOO_FEW:1, DUPLICATE_SEO_SIGNAL |
 | 62 | WARNING | `articles/전기요금-절약-c861d77ba6.html` | THIN_CONTENT_KO:1479, TITLE_LENGTH:7, META_DESCRIPTION_LENGTH:46, ARTICLE_SCHEMA_MISSING, BREADCRUMB_SCHEMA_MISSING |
 | 76 | WARNING | `articles/grocery-bill-savings.html` | THIN_CONTENT_KO:1188, ARTICLE_SCHEMA_MISSING, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
+| 76 | WARNING | `articles/home-water-leak-self-check.html` | THIN_CONTENT_KO:1368, ARTICLE_SCHEMA_MISSING, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 76 | WARNING | `articles/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f.html` | THIN_CONTENT_KO:1075, ARTICLE_SCHEMA_MISSING, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/cash-advance-vs-card-loan.html` | THIN_CONTENT_KO:2434, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/credit-score-habits.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:40, CONTENT_SHORT_KO:3271 |
@@ -99,4 +100,3 @@
 | 80 | WARNING | `articles/tax-credit-late-application.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3449 |
 | 80 | WARNING | `articles/telecom-discount-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:10, CONTENT_SHORT_KO:3320 |
 | 80 | WARNING | `articles/travel-insurance-comparison.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:33, CONTENT_SHORT_KO:3298 |
-| 80 | WARNING | `articles/unemployment-benefit-job-search.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:31, CONTENT_SHORT_KO:3315 |
