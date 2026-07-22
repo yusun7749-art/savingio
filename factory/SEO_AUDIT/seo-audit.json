@@ -6,7 +6,7 @@
     "fail": 1,
     "average_score": 87.0,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 167,
+    "short_under_4500_ko": 168,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -2485,27 +2485,29 @@
       "path": "articles/government-benefits-warning.html",
       "url": "https://savingio.com/articles/government-benefits-warning.html",
       "title": "정부지원금 조회 시 주의할 점 | Savingio",
-      "meta_description": "지원금 안내 문자가 진짜인지 확인하는 법부터 링크 클릭, 개인정보 입력, 악성앱 설치, 송금 피해가 발생했을 때의 대응 순서를 정부지원금 조회 시 주의할 점 중심으로 정리했습니다.",
+      "meta_description": "지원금 안내 문자가 진짜인지 확인하는 법부터 링크 클릭, 개인정보 입력, 악성앱 설치, 송금 피해가 발생했을 때의 대응 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/government-benefits-warning.html",
       "h1": [
         "정부지원금 조회 시 주의할 점"
       ],
-      "h2_count": 21,
-      "h3_count": 3,
-      "korean_chars": 6508,
-      "words": 2175,
+      "h2_count": 18,
+      "h3_count": 0,
+      "korean_chars": 3885,
+      "words": 1313,
       "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 2,
+      "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": true,
+      "faq_schema": false,
       "issues": [],
       "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3885"
       ],
-      "score": 96,
+      "score": 88,
       "status": "PASS"
     },
     {
