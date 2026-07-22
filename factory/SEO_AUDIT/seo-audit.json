@@ -6,7 +6,7 @@
     "fail": 1,
     "average_score": 87.7,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 159,
+    "short_under_4500_ko": 158,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -3960,15 +3960,15 @@
       "path": "articles/property-tax-electronic-bill-2026.html",
       "url": "https://savingio.com/articles/property-tax-electronic-bill-2026.html",
       "title": "위택스 재산세 전자고지 신청 방법 | Savingio",
-      "meta_description": "위택스 재산세 전자고지 신청, 알림 확인, 납부내역 조회, 종이고지서 중단 여부와 신청 후 점검 순서를 정리했습니다.",
+      "meta_description": "2026년 재산세 전자고지 신청 방법, 적용 시점, 세액공제, 종이고지서 중단, 알림 누락과 납부 확인까지 실제 행동 순서로 정리했습니다.",
       "canonical": "https://savingio.com/articles/property-tax-electronic-bill-2026.html",
       "h1": [
         "위택스 재산세 전자고지 신청 방법"
       ],
-      "h2_count": 19,
-      "h3_count": 4,
-      "korean_chars": 4135,
-      "words": 1331,
+      "h2_count": 22,
+      "h3_count": 5,
+      "korean_chars": 6435,
+      "words": 2116,
       "internal_article_links": 13,
       "images": 0,
       "missing_alt": 0,
@@ -3979,10 +3979,9 @@
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "FAQ_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:4135"
+        "FAQ_SCHEMA_MISSING"
       ],
-      "score": 88,
+      "score": 92,
       "status": "PASS"
     },
     {
