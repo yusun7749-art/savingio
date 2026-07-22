@@ -3936,11 +3936,11 @@
       "h1": [
         "재산세 납부기한과 감면 대상"
       ],
-      "h2_count": 13,
-      "h3_count": 10,
-      "korean_chars": 3404,
-      "words": 1089,
-      "internal_article_links": 11,
+      "h2_count": 19,
+      "h3_count": 4,
+      "korean_chars": 3543,
+      "words": 1148,
+      "internal_article_links": 12,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 1,
@@ -3951,7 +3951,7 @@
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
         "FAQ_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3404"
+        "CONTENT_SHORT_KO:3543"
       ],
       "score": 88,
       "status": "PASS"
