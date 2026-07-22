@@ -1,8 +1,8 @@
 # Savingio Full SEO Audit
 
 - Articles: 207
-- PASS: 126
-- WARNING: 80
+- PASS: 127
+- WARNING: 79
 - FAIL: 1
 - Average score: 86.9
 - Thin content (<2500 Korean chars): 28
@@ -91,7 +91,6 @@
 | 84 | WARNING | `articles/card-points-cashback-guide.html` | THIN_CONTENT_KO:2291, BREADCRUMB_SCHEMA_MISSING |
 | 84 | WARNING | `articles/duplicate-indemnity-insurance-check.html` | ARTICLE_SCHEMA_MISSING, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3096 |
 | 84 | WARNING | `articles/fan-aircon-combination-saving.html` | META_DESCRIPTION_LENGTH:37, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2929 |
-| 84 | WARNING | `articles/government-benefit-alert-2026.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:3642 |
 | 84 | WARNING | `articles/insurance-auto-pay-discount.html` | ARTICLE_SCHEMA_MISSING, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3168 |
 | 84 | WARNING | `articles/property-tax-bill-checklist-2026.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:3893 |
 | 84 | WARNING | `articles/property-tax-electronic-bill-2026.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:3890 |
@@ -100,3 +99,4 @@
 | 84 | WARNING | `articles/vat-input-tax-deduction-2026.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:4082 |
 | 84 | WARNING | `articles/youth-support-programs.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:3474 |
 | 88 | PASS | `articles/apartment-management-fee-summer.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4224 |
+| 88 | PASS | `articles/automatic-payment-saving.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4179 |
