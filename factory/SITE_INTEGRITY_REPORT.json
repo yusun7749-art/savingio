@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3056,
-  "references_scanned": 63073,
+  "files_scanned": 3057,
+  "references_scanned": 63072,
   "counts": {
-    "broken_references": 1671,
+    "broken_references": 1670,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -660,13 +660,6 @@
       "reference": "/categories/household-budget.html",
       "expected": [
         "categories/household-budget.html"
-      ]
-    },
-    {
-      "source": "articles/grocery-saving-tips.html",
-      "reference": "/articles/how-to-save-electricity-bill.html",
-      "expected": [
-        "articles/how-to-save-electricity-bill.html"
       ]
     },
     {
