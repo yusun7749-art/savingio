@@ -1,12 +1,12 @@
 {
   "summary": {
-    "article_count": 213,
-    "pass": 127,
+    "article_count": 212,
+    "pass": 126,
     "warning": 85,
     "fail": 1,
-    "average_score": 86.8,
+    "average_score": 86.7,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 175,
+    "short_under_4500_ko": 174,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -3122,33 +3122,6 @@
         "FAQ_SCHEMA_MISSING"
       ],
       "score": 92,
-      "status": "PASS"
-    },
-    {
-      "path": "articles/internet-bill-savings.html",
-      "url": "https://savingio.com/articles/internet-bill-savings.html",
-      "title": "인터넷 요금 줄이는 방법, 재약정 전에 꼭 확인할 7가지 | 세이빙이오(Savingio)",
-      "meta_description": "인터넷·TV 결합, 약정 만료, 장비 임대료, 속도, 재약정 혜택을 비교해 불필요한 통신비를 줄이는 방법을 정리했습니다.",
-      "canonical": "https://savingio.com/articles/internet-bill-savings.html",
-      "h1": [
-        "인터넷 요금 줄이는 방법, 재약정 전에 꼭 확인할 7가지"
-      ],
-      "h2_count": 14,
-      "h3_count": 0,
-      "korean_chars": 3398,
-      "words": 1197,
-      "internal_article_links": 17,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [],
-      "warnings": [
-        "CONTENT_SHORT_KO:3398"
-      ],
-      "score": 96,
       "status": "PASS"
     },
     {
