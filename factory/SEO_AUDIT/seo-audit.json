@@ -1,10 +1,10 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 118,
-    "warning": 104,
+    "pass": 119,
+    "warning": 103,
     "fail": 1,
-    "average_score": 86.1,
+    "average_score": 86.2,
     "thin_under_2500_ko": 26,
     "short_under_4500_ko": 198,
     "missing_meta": 0,
@@ -2332,31 +2332,29 @@
       "path": "articles/fixed-date-online-application.html",
       "url": "https://savingio.com/articles/fixed-date-online-application.html",
       "title": "확정일자 온라인 신청 방법 | 세이빙이오(Savingio)",
-      "meta_description": "전입신고와 확정일자의 차이 및 온라인 신청 방법을 안내합니다.",
+      "meta_description": "전세·월세 계약 후 확정일자를 인터넷등기소에서 신청하는 순서, 전입신고와의 차이, 계약서 준비, 수수료, 처리 시점과 보증금 보호를 위한 주의사항을 정리했습니다.",
       "canonical": "https://savingio.com/articles/fixed-date-online-application.html",
       "h1": [
         "확정일자 온라인 신청 방법"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 2991,
-      "words": 1042,
+      "h2_count": 20,
+      "h3_count": 0,
+      "korean_chars": 4019,
+      "words": 1280,
       "internal_article_links": 9,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:34",
-        "CONTENT_SHORT_KO:2991"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:4019"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/fixed-speed-aircon-saving.html",
