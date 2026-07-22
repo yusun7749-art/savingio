@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 127,
-    "warning": 95,
+    "pass": 128,
+    "warning": 94,
     "fail": 1,
-    "average_score": 86.4,
+    "average_score": 86.5,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 187,
+    "short_under_4500_ko": 186,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -1684,32 +1684,29 @@
     {
       "path": "articles/earned-income-tax-credit-korea.html",
       "url": "https://savingio.com/articles/earned-income-tax-credit-korea.html",
-      "title": "근로장려금 신청 가이드 | 세이빙이오(Savingio)",
-      "meta_description": "근로장려금 신청 대상과 확인 방법, 지급 진행상황 조회 절차를 정리했습니다.",
+      "title": "2026 근로장려금 신청 대상과 지급일, 놓쳤을 때 확인 순서 | Savingio",
+      "meta_description": "2026년 근로장려금 정기·반기 신청기간, 가구별 소득기준, 재산요건, 최대 지급액, 자동신청, 기한 후 신청, 지급일과 심사 진행상황을 실제 확인 순서대로 정리했습니다.",
       "canonical": "https://savingio.com/articles/earned-income-tax-credit-korea.html",
       "h1": [
-        "근로장려금 신청 가이드"
+        "2026 근로장려금 신청 대상과 지급일, 놓쳤을 때 확인 순서"
       ],
-      "h2_count": 12,
+      "h2_count": 30,
       "h3_count": 4,
-      "korean_chars": 3893,
-      "words": 1396,
-      "internal_article_links": 39,
+      "korean_chars": 5782,
+      "words": 1910,
+      "internal_article_links": 8,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:42",
-        "CONTENT_SHORT_KO:3893"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 96,
+      "status": "PASS"
     },
     {
       "path": "articles/education-benefit-eligibility.html",

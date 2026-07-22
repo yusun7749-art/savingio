@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
 - Articles: 223
-- PASS: 127
-- WARNING: 95
+- PASS: 128
+- WARNING: 94
 - FAIL: 1
-- Average score: 86.4
+- Average score: 86.5
 - Thin content (<2500 Korean chars): 28
-- Short content (<4500 Korean chars): 187
+- Short content (<4500 Korean chars): 186
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -40,7 +40,6 @@
 | 76 | WARNING | `articles/home-water-leak-self-check.html` | THIN_CONTENT_KO:1368, ARTICLE_SCHEMA_MISSING, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 76 | WARNING | `articles/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f.html` | THIN_CONTENT_KO:1075, ARTICLE_SCHEMA_MISSING, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/cash-advance-vs-card-loan.html` | THIN_CONTENT_KO:2434, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
-| 80 | WARNING | `articles/earned-income-tax-credit-korea.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:42, CONTENT_SHORT_KO:3893 |
 | 80 | WARNING | `articles/elementary-school-education-support.html` | THIN_CONTENT_KO:2209, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/emergency-fund-guide.html` | THIN_CONTENT_KO:2106, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/energy-voucher-application.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:39, CONTENT_SHORT_KO:3555 |
@@ -100,3 +99,4 @@
 | 80 | WARNING | `articles/wetax-payment-history.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:14, CONTENT_SHORT_KO:3050 |
 | 80 | WARNING | `articles/yellow-umbrella-mutual-aid-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3180 |
 | 80 | WARNING | `articles/youth-leap-account-contribution.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3372 |
+| 80 | WARNING | `articles/youth-savings-account-maintenance.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3354 |
