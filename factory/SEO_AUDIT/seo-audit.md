@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
 - Articles: 207
-- PASS: 138
-- WARNING: 68
+- PASS: 139
+- WARNING: 67
 - FAIL: 1
 - Average score: 87.6
 - Thin content (<2500 Korean chars): 28
-- Short content (<4500 Korean chars): 160
+- Short content (<4500 Korean chars): 159
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -44,7 +44,6 @@
 | 80 | WARNING | `articles/emergency-fund-guide.html` | THIN_CONTENT_KO:2106, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/energy-voucher-balance-use.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3601 |
 | 80 | WARNING | `articles/national-pension-old-age-benefit-guide.html` | THIN_CONTENT_KO:2054, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
-| 80 | WARNING | `articles/property-tax-calculation-structure.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:39, CONTENT_SHORT_KO:3844 |
 | 80 | WARNING | `articles/property-tax-deadline.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:18, CONTENT_SHORT_KO:3810 |
 | 80 | WARNING | `articles/property-tax-installment-application.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3877 |
 | 80 | WARNING | `articles/property-tax-joint-ownership.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:30, CONTENT_SHORT_KO:3812 |
@@ -100,3 +99,4 @@
 | 88 | PASS | `articles/government-benefits-warning.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3885 |
 | 88 | PASS | `articles/national-employment-support-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4077 |
 | 88 | WARNING | `articles/severance-pay-calculation-guide.html` | THIN_CONTENT_KO:2464 |
+| 88 | WARNING | `articles/telecom-unclaimed-refund.html` | THIN_CONTENT_KO:2463 |

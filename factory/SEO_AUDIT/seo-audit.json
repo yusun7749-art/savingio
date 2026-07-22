@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 207,
-    "pass": 138,
-    "warning": 68,
+    "pass": 139,
+    "warning": 67,
     "fail": 1,
     "average_score": 87.6,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 160,
+    "short_under_4500_ko": 159,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -3902,32 +3902,30 @@
     {
       "path": "articles/property-tax-calculation-structure.html",
       "url": "https://savingio.com/articles/property-tax-calculation-structure.html",
-      "title": "재산세 과세표준과 세액 계산 구조 | 세이빙이오(Savingio)",
-      "meta_description": "공시가격부터 과세표준, 세율까지 계산 흐름을 이해하기 쉽게 설명합니다.",
+      "title": "재산세 과세표준과 세액 계산 구조 | Savingio",
+      "meta_description": "2026년 재산세가 공시가격에서 과세표준, 세율, 도시지역분, 지방교육세까지 어떻게 계산되는지 고지서 확인 순서와 함께 설명합니다.",
       "canonical": "https://savingio.com/articles/property-tax-calculation-structure.html",
       "h1": [
         "재산세 과세표준과 세액 계산 구조"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3844,
-      "words": 1375,
-      "internal_article_links": 39,
+      "h2_count": 22,
+      "h3_count": 6,
+      "korean_chars": 5006,
+      "words": 1615,
+      "internal_article_links": 8,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 1,
       "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "breadcrumb_schema": false,
+      "faq_schema": false,
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:39",
-        "CONTENT_SHORT_KO:3844"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/property-tax-deadline.html",
