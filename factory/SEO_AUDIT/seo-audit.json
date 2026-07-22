@@ -1,8 +1,8 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 117,
-    "warning": 105,
+    "pass": 118,
+    "warning": 104,
     "fail": 1,
     "average_score": 86.0,
     "thin_under_2500_ko": 28,
@@ -2976,32 +2976,30 @@
     {
       "path": "articles/hometax-refund-status.html",
       "url": "https://savingio.com/articles/hometax-refund-status.html",
-      "title": "홈택스 환급 진행상황 조회 | 세이빙이오(Savingio)",
-      "meta_description": "홈택스 환급 진행상황 조회",
+      "title": "홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요 | 세이빙이오(Savingio)",
+      "meta_description": "홈택스에서 국세 환급 진행상황과 환급금 지급 여부를 확인하는 방법, 조회 결과가 없거나 지급이 늦을 때 점검할 항목과 환급계좌 등록 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/hometax-refund-status.html",
       "h1": [
-        "홈택스 환급 진행상황 조회"
+        "홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3454,
-      "words": 1216,
-      "internal_article_links": 20,
+      "h2_count": 15,
+      "h3_count": 0,
+      "korean_chars": 2645,
+      "words": 945,
+      "internal_article_links": 8,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:14",
-        "CONTENT_SHORT_KO:3454"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:2645"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/hometax-vat-sales-check.html",
