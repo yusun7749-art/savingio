@@ -1,10 +1,10 @@
 {
   "summary": {
     "article_count": 207,
-    "pass": 144,
-    "warning": 62,
+    "pass": 145,
+    "warning": 61,
     "fail": 1,
-    "average_score": 87.8,
+    "average_score": 87.9,
     "thin_under_2500_ko": 28,
     "short_under_4500_ko": 156,
     "missing_meta": 0,
@@ -4136,32 +4136,31 @@
     {
       "path": "articles/property-tax-july-september-difference.html",
       "url": "https://savingio.com/articles/property-tax-july-september-difference.html",
-      "title": "주택분 재산세 7월과 9월 차이 | 세이빙이오(Savingio)",
-      "meta_description": "주택분 재산세가 나뉘어 부과되는 이유와 확인 포인트를 설명합니다.",
+      "title": "주택분 재산세 7월과 9월 차이 | Savingio",
+      "meta_description": "2026년 주택분 재산세가 7월과 9월에 나뉘는 이유, 각 달의 납부 대상, 20만원 이하 일괄부과 예외, 매매·공동명의·고지서 확인 방법을 정리했습니다.",
       "canonical": "https://savingio.com/articles/property-tax-july-september-difference.html",
       "h1": [
         "주택분 재산세 7월과 9월 차이"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3871,
-      "words": 1388,
-      "internal_article_links": 39,
+      "h2_count": 19,
+      "h3_count": 3,
+      "korean_chars": 3559,
+      "words": 1258,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 1,
       "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "breadcrumb_schema": false,
+      "faq_schema": false,
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:36",
-        "CONTENT_SHORT_KO:3871"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3559"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 88,
+      "status": "PASS"
     },
     {
       "path": "articles/property-tax-objection-guide.html",
