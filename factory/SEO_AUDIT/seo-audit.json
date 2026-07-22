@@ -1,10 +1,10 @@
 {
   "summary": {
     "article_count": 207,
-    "pass": 139,
-    "warning": 67,
+    "pass": 140,
+    "warning": 66,
     "fail": 1,
-    "average_score": 87.6,
+    "average_score": 87.7,
     "thin_under_2500_ko": 28,
     "short_under_4500_ko": 159,
     "missing_meta": 0,
@@ -3931,31 +3931,29 @@
       "path": "articles/property-tax-deadline.html",
       "url": "https://savingio.com/articles/property-tax-deadline.html",
       "title": "재산세 납부기한과 감면 대상 | 세이빙이오(Savingio)",
-      "meta_description": "재산세 납부기한과 감면 대상 안내",
+      "meta_description": "재산세 7월·9월 납부기한, 주택·건축물·토지별 일정, 20만원 이하 일괄부과, 매매·공동명의·감면 확인 방법을 정리했습니다.",
       "canonical": "https://savingio.com/articles/property-tax-deadline.html",
       "h1": [
         "재산세 납부기한과 감면 대상"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3810,
-      "words": 1369,
-      "internal_article_links": 39,
+      "h2_count": 11,
+      "h3_count": 9,
+      "korean_chars": 3697,
+      "words": 1193,
+      "internal_article_links": 14,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
       "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "faq_schema": false,
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:18",
-        "CONTENT_SHORT_KO:3810"
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3697"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/property-tax-electronic-bill-2026.html",
