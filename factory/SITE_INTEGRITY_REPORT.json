@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3069,
-  "references_scanned": 64463,
+  "references_scanned": 64329,
   "counts": {
-    "broken_references": 608,
+    "broken_references": 612,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -359,6 +359,34 @@
       "reference": "/categories/utility-bills.html",
       "expected": [
         "categories/utility-bills.html"
+      ]
+    },
+    {
+      "source": "articles/electricity-discount-card-guide.html",
+      "reference": "/categories/electricity-utility.html",
+      "expected": [
+        "categories/electricity-utility.html"
+      ]
+    },
+    {
+      "source": "articles/elementary-school-education-support.html",
+      "reference": "/articles/childcare-support-guide.html",
+      "expected": [
+        "articles/childcare-support-guide.html"
+      ]
+    },
+    {
+      "source": "articles/emergency-welfare-living-support.html",
+      "reference": "/articles/unemployment-benefit-application.html",
+      "expected": [
+        "articles/unemployment-benefit-application.html"
+      ]
+    },
+    {
+      "source": "articles/emergency-welfare-living-support.html",
+      "reference": "/articles/utility-bill-support.html",
+      "expected": [
+        "articles/utility-bill-support.html"
       ]
     },
     {
