@@ -6,7 +6,7 @@
     "fail": 1,
     "average_score": 86.9,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 169,
+    "short_under_4500_ko": 168,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -2397,17 +2397,17 @@
     {
       "path": "articles/government-benefit-alert-2026.html",
       "url": "https://savingio.com/articles/government-benefit-alert-2026.html",
-      "title": "정부24 혜택알리미, 받을 수 있는 지원금을 놓치지 않는 확인법 | 세이빙이오(Savingio)",
-      "meta_description": "정부24 혜택알리미의 나의 혜택·관심·발견·간편찾기·전체 혜택·설정을 이용해 받을 수 있는 지원제도를 찾고 신청 전 조건까지 확인하는 방법을 정리했습니다.",
+      "title": "정부24 혜택알리미 2026, 받을 수 있는 지원금 찾는 순서 | Savingio",
+      "meta_description": "정부24 혜택알리미에서 나의 혜택·관심·발견·간편찾기·전체 혜택을 이용해 받을 수 있는 지원금을 찾고 신청 조건, 기간, 접수기관까지 확인하는 실제 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/government-benefit-alert-2026.html",
       "h1": [
-        "정부24 혜택알리미, 받을 수 있는 지원금을 놓치지 않는 확인법"
+        "“남들은 받았다는데 나는 왜 몰랐을까?” 정부24 혜택알리미 확인 순서"
       ],
-      "h2_count": 15,
-      "h3_count": 0,
-      "korean_chars": 3040,
-      "words": 1033,
-      "internal_article_links": 16,
+      "h2_count": 26,
+      "h3_count": 2,
+      "korean_chars": 5156,
+      "words": 1719,
+      "internal_article_links": 9,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 2,
@@ -2416,10 +2416,9 @@
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3040"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 92,
+      "score": 96,
       "status": "PASS"
     },
     {
