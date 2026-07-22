@@ -1,8 +1,8 @@
 # Savingio Full SEO Audit
 
 - Articles: 207
-- PASS: 140
-- WARNING: 66
+- PASS: 141
+- WARNING: 65
 - FAIL: 1
 - Average score: 87.7
 - Thin content (<2500 Korean chars): 28
@@ -80,7 +80,6 @@
 | 84 | WARNING | `articles/duplicate-indemnity-insurance-check.html` | ARTICLE_SCHEMA_MISSING, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3096 |
 | 84 | WARNING | `articles/fan-aircon-combination-saving.html` | META_DESCRIPTION_LENGTH:37, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2929 |
 | 84 | WARNING | `articles/insurance-auto-pay-discount.html` | ARTICLE_SCHEMA_MISSING, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3168 |
-| 84 | WARNING | `articles/property-tax-electronic-bill-2026.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:3890 |
 | 84 | WARNING | `articles/unemployment-benefit-checklist.html` | THIN_CONTENT_KO:2442, META_DESCRIPTION_LENGTH:49 |
 | 84 | WARNING | `articles/vat-final-return-2026-july.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:4042 |
 | 84 | WARNING | `articles/vat-input-tax-deduction-2026.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:4082 |
@@ -98,5 +97,6 @@
 | 88 | PASS | `articles/government-benefits-warning.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3885 |
 | 88 | PASS | `articles/national-employment-support-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4077 |
 | 88 | PASS | `articles/property-tax-deadline.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3543 |
+| 88 | PASS | `articles/property-tax-electronic-bill-2026.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4135 |
 | 88 | WARNING | `articles/severance-pay-calculation-guide.html` | THIN_CONTENT_KO:2464 |
 | 88 | WARNING | `articles/telecom-unclaimed-refund.html` | THIN_CONTENT_KO:2463 |
