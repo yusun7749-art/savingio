@@ -6,7 +6,7 @@
     "fail": 1,
     "average_score": 86.4,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 188,
+    "short_under_4500_ko": 187,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -1380,30 +1380,28 @@
     {
       "path": "articles/daily-liability-leak-insurance.html",
       "url": "https://savingio.com/articles/daily-liability-leak-insurance.html",
-      "title": "일배책 누수 보험 처리, 아랫집 피해 접수 순서 | 세이빙이오",
-      "meta_description": "가족 보험의 일상생활배상책임 특약 확인부터 누수 사고 접수, 원인 조사, 필요 서류, 자기부담금, 합의 전 주의점까지 실제 처리 순서대로 정리했습니다.",
+      "title": "일배책 누수 보험 처리, 아랫집 피해 접수부터 합의까지 | Savingio",
+      "meta_description": "일상생활배상책임보험으로 누수 사고를 처리할 때 가입 확인, 원인 조사, 아랫집 피해 접수, 필요 서류, 자기부담금, 복수보험 분담, 합의 전 주의사항을 실제 순서대로 정리했습니다.",
       "canonical": "https://savingio.com/articles/daily-liability-leak-insurance.html",
       "h1": [
-        "일배책 누수 보험 처리, 아랫집 피해 접수 순서"
+        "일배책 누수 보험 처리, 아랫집 피해 접수부터 합의까지"
       ],
-      "h2_count": 10,
-      "h3_count": 0,
-      "korean_chars": 3225,
-      "words": 1106,
-      "internal_article_links": 3,
-      "images": 1,
+      "h2_count": 28,
+      "h3_count": 5,
+      "korean_chars": 6142,
+      "words": 2068,
+      "internal_article_links": 8,
+      "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 1,
+      "jsonld_count": 2,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": false,
+      "faq_schema": true,
       "issues": [],
       "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING",
-        "FAQ_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3225"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 88,
+      "score": 96,
       "status": "PASS"
     },
     {
