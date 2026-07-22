@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3058,
-  "references_scanned": 62960,
+  "references_scanned": 62633,
   "counts": {
-    "broken_references": 1674,
+    "broken_references": 1677,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -1104,136 +1104,87 @@
       ]
     },
     {
+      "source": "articles/parking-account-rate-comparison.html",
+      "reference": "/categories/finance.html",
+      "expected": [
+        "categories/finance.html"
+      ]
+    },
+    {
       "source": "articles/peak-season-hotel-saving.html",
-      "reference": "/articles/subscription-saving.html",
+      "reference": "/articles/card-overseas-payment-fee.html",
       "expected": [
-        "articles/subscription-saving.html"
+        "articles/card-overseas-payment-fee.html"
       ]
     },
     {
-      "source": "articles/property-tax-bill-checklist-2026.html",
-      "reference": "/articles/vat-final-return-july-2026.html",
+      "source": "articles/peak-season-hotel-saving.html",
+      "reference": "/articles/flight-ticket-saving.html",
       "expected": [
-        "articles/vat-final-return-july-2026.html"
+        "articles/flight-ticket-saving.html"
       ]
     },
     {
-      "source": "articles/property-tax-bill-checklist-2026.html",
-      "reference": "/articles/vat-zero-sales-filing.html",
+      "source": "articles/peak-season-hotel-saving.html",
+      "reference": "/articles/travel-budget-planning.html",
       "expected": [
-        "articles/vat-zero-sales-filing.html"
+        "articles/travel-budget-planning.html"
       ]
     },
     {
-      "source": "articles/property-tax-calculation-structure.html",
-      "reference": "/articles/vat-final-return-july-2026.html",
+      "source": "articles/peak-season-hotel-saving.html",
+      "reference": "/articles/travel-insurance-claim-guide.html",
       "expected": [
-        "articles/vat-final-return-july-2026.html"
+        "articles/travel-insurance-claim-guide.html"
       ]
     },
     {
-      "source": "articles/property-tax-calculation-structure.html",
-      "reference": "/articles/vat-zero-sales-filing.html",
+      "source": "articles/peak-season-hotel-saving.html",
+      "reference": "/categories/travel-living.html",
       "expected": [
-        "articles/vat-zero-sales-filing.html"
-      ]
-    },
-    {
-      "source": "articles/property-tax-deadline.html",
-      "reference": "/articles/vat-final-return-july-2026.html",
-      "expected": [
-        "articles/vat-final-return-july-2026.html"
-      ]
-    },
-    {
-      "source": "articles/property-tax-deadline.html",
-      "reference": "/articles/vat-zero-sales-filing.html",
-      "expected": [
-        "articles/vat-zero-sales-filing.html"
-      ]
-    },
-    {
-      "source": "articles/property-tax-electronic-bill-2026.html",
-      "reference": "/articles/vat-final-return-july-2026.html",
-      "expected": [
-        "articles/vat-final-return-july-2026.html"
-      ]
-    },
-    {
-      "source": "articles/property-tax-electronic-bill-2026.html",
-      "reference": "/articles/vat-zero-sales-filing.html",
-      "expected": [
-        "articles/vat-zero-sales-filing.html"
-      ]
-    },
-    {
-      "source": "articles/property-tax-installment-application.html",
-      "reference": "/articles/vat-final-return-july-2026.html",
-      "expected": [
-        "articles/vat-final-return-july-2026.html"
-      ]
-    },
-    {
-      "source": "articles/property-tax-installment-application.html",
-      "reference": "/articles/vat-zero-sales-filing.html",
-      "expected": [
-        "articles/vat-zero-sales-filing.html"
+        "categories/travel-living.html"
       ]
     },
     {
       "source": "articles/property-tax-joint-ownership.html",
-      "reference": "/articles/vat-final-return-july-2026.html",
+      "reference": "/articles/property-tax-payment-methods.html",
       "expected": [
-        "articles/vat-final-return-july-2026.html"
-      ]
-    },
-    {
-      "source": "articles/property-tax-joint-ownership.html",
-      "reference": "/articles/vat-zero-sales-filing.html",
-      "expected": [
-        "articles/vat-zero-sales-filing.html"
+        "articles/property-tax-payment-methods.html"
       ]
     },
     {
       "source": "articles/property-tax-july-2026.html",
-      "reference": "/articles/vat-final-return-july-2026.html",
+      "reference": "/articles/property-tax-appeal-guide.html",
       "expected": [
-        "articles/vat-final-return-july-2026.html"
+        "articles/property-tax-appeal-guide.html"
       ]
     },
     {
       "source": "articles/property-tax-july-2026.html",
-      "reference": "/articles/vat-zero-sales-filing.html",
+      "reference": "/articles/property-tax-check-payment-guide.html",
       "expected": [
-        "articles/vat-zero-sales-filing.html"
+        "articles/property-tax-check-payment-guide.html"
       ]
     },
     {
-      "source": "articles/property-tax-july-september-difference.html",
-      "reference": "/articles/vat-final-return-july-2026.html",
+      "source": "articles/property-tax-july-2026.html",
+      "reference": "/articles/property-tax-refund-correction.html",
       "expected": [
-        "articles/vat-final-return-july-2026.html"
-      ]
-    },
-    {
-      "source": "articles/property-tax-july-september-difference.html",
-      "reference": "/articles/vat-zero-sales-filing.html",
-      "expected": [
-        "articles/vat-zero-sales-filing.html"
+        "articles/property-tax-refund-correction.html"
       ]
     },
     {
       "source": "articles/property-tax-objection-guide.html",
-      "reference": "/articles/vat-final-return-july-2026.html",
+      "reference": "/articles/property-tax-overpayment-refund.html",
       "expected": [
-        "articles/vat-final-return-july-2026.html"
+        "articles/property-tax-overpayment-refund.html"
       ]
     },
     {
       "source": "articles/property-tax-objection-guide.html",
-      "reference": "/articles/vat-zero-sales-filing.html",
+      "reference": "/articles/property-tax-payment-guide.html",
       "expected": [
-        "articles/vat-zero-sales-filing.html"
+        "articles/property-tax-payment-guide.html"
       ]
     },
     {
@@ -2388,6 +2339,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/birth-support-benefits-guide.html",
+      "expected": [
+        "articles/birth-support-benefits-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/business-expense-proof-guide.html",
       "expected": [
         "articles/business-expense-proof-guide.html"
@@ -2486,6 +2444,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/daycare-fee-support-guide.html",
+      "expected": [
+        "articles/daycare-fee-support-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/debt-repayment-order-guide.html",
       "expected": [
         "articles/debt-repayment-order-guide.html"
@@ -2496,6 +2461,13 @@
       "reference": "/articles/debt-repayment-order.html",
       "expected": [
         "articles/debt-repayment-order.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/debt-repayment-priority.html",
+      "expected": [
+        "articles/debt-repayment-priority.html"
       ]
     },
     {
@@ -2538,6 +2510,13 @@
       "reference": "/articles/electricity-guide.html",
       "expected": [
         "articles/electricity-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/employment-success-allowance.html",
+      "expected": [
+        "articles/employment-success-allowance.html"
       ]
     },
     {
@@ -2710,9 +2689,23 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/irs-tax-refund-delay.html",
+      "expected": [
+        "articles/irs-tax-refund-delay.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/jeonse-deposit-protection.html",
       "expected": [
         "articles/jeonse-deposit-protection.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/job-training-card-guide.html",
+      "expected": [
+        "articles/job-training-card-guide.html"
       ]
     },
     {
@@ -2734,6 +2727,13 @@
       "reference": "/articles/loan-interest-saving.html",
       "expected": [
         "articles/loan-interest-saving.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/loan-refinancing-guide.html",
+      "expected": [
+        "articles/loan-refinancing-guide.html"
       ]
     },
     {
@@ -2787,6 +2787,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/national-employment-support-application.html",
+      "expected": [
+        "articles/national-employment-support-application.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/national-pension-guide.html",
       "expected": [
         "articles/national-pension-guide.html"
@@ -2797,6 +2804,13 @@
       "reference": "/articles/national-tomorrow-learning-card-guide.html",
       "expected": [
         "articles/national-tomorrow-learning-card-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/overpaid-tax-refund-guide.html",
+      "expected": [
+        "articles/overpaid-tax-refund-guide.html"
       ]
     },
     {
@@ -2930,6 +2944,13 @@
       "reference": "/articles/unemployment-benefit-application.html",
       "expected": [
         "articles/unemployment-benefit-application.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/unemployment-benefit-eligibility.html",
+      "expected": [
+        "articles/unemployment-benefit-eligibility.html"
       ]
     },
     {
