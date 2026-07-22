@@ -1,10 +1,10 @@
 {
   "summary": {
     "article_count": 207,
-    "pass": 133,
-    "warning": 73,
+    "pass": 134,
+    "warning": 72,
     "fail": 1,
-    "average_score": 87.3,
+    "average_score": 87.4,
     "thin_under_2500_ko": 28,
     "short_under_4500_ko": 164,
     "missing_meta": 0,
@@ -3620,31 +3620,29 @@
       "path": "articles/national-tax-refund-account.html",
       "url": "https://savingio.com/articles/national-tax-refund-account.html",
       "title": "국세환급금 지급계좌 등록 방법 | 세이빙이오(Savingio)",
-      "meta_description": "홈택스에 환급계좌를 등록해 환급 지연을 줄이는 방법입니다.",
+      "meta_description": "홈택스·손택스에서 국세환급금 지급계좌를 등록·변경·해지하는 방법, 지급 우선순위, 미수령 환급금 조회와 1년 경과 환급금 지급요청까지 정리했습니다.",
       "canonical": "https://savingio.com/articles/national-tax-refund-account.html",
       "h1": [
         "국세환급금 지급계좌 등록 방법"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3455,
-      "words": 1210,
-      "internal_article_links": 20,
+      "h2_count": 18,
+      "h3_count": 3,
+      "korean_chars": 3520,
+      "words": 1168,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:32",
-        "CONTENT_SHORT_KO:3455"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3520"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/national-tax-refund.html",
