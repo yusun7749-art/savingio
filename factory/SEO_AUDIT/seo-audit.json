@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 121,
-    "warning": 101,
+    "pass": 122,
+    "warning": 100,
     "fail": 1,
-    "average_score": 86.0,
+    "average_score": 86.1,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 192,
+    "short_under_4500_ko": 191,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -3634,31 +3634,28 @@
       "path": "articles/missing-property-tax-bill.html",
       "url": "https://savingio.com/articles/missing-property-tax-bill.html",
       "title": "재산세 고지서가 안 왔을 때 확인 방법 | 세이빙이오(Savingio)",
-      "meta_description": "우편 고지서가 없어도 위택스 등에서 조회하고 납부하는 방법입니다.",
+      "meta_description": "재산세 고지서를 받지 못했을 때 위택스 조회, 납세의무자 확인, 주소·전자송달 점검, 납부기한과 체납 여부 확인까지 실제 해결 순서로 안내합니다.",
       "canonical": "https://savingio.com/articles/missing-property-tax-bill.html",
       "h1": [
         "재산세 고지서가 안 왔을 때 확인 방법"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3895,
-      "words": 1400,
-      "internal_article_links": 39,
+      "h2_count": 22,
+      "h3_count": 7,
+      "korean_chars": 6372,
+      "words": 2174,
+      "internal_article_links": 9,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:36",
-        "CONTENT_SHORT_KO:3895"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 96,
+      "status": "PASS"
     },
     {
       "path": "articles/money-saving-habits.html",
