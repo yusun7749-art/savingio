@@ -1,11 +1,11 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 117,
-    "warning": 105,
+    "pass": 116,
+    "warning": 106,
     "fail": 1,
     "average_score": 85.9,
-    "thin_under_2500_ko": 29,
+    "thin_under_2500_ko": 30,
     "short_under_4500_ko": 198,
     "missing_meta": 0,
     "missing_canonical": 0,
@@ -3038,24 +3038,26 @@
       "h1": [
         "2026 주거급여 신청 자격, 소득인정액과 지원금 확인 방법"
       ],
-      "h2_count": 17,
+      "h2_count": 18,
       "h3_count": 0,
-      "korean_chars": 3769,
-      "words": 1226,
-      "internal_article_links": 9,
+      "korean_chars": 2070,
+      "words": 669,
+      "internal_article_links": 14,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 2,
+      "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": true,
-      "issues": [],
+      "faq_schema": false,
+      "issues": [
+        "THIN_CONTENT_KO:2070"
+      ],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3769"
+        "FAQ_SCHEMA_MISSING"
       ],
-      "score": 92,
-      "status": "PASS"
+      "score": 80,
+      "status": "WARNING"
     },
     {
       "path": "articles/how-to-check-hidden-refunds.html",

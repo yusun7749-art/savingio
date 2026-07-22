@@ -1,11 +1,11 @@
 # Savingio Full SEO Audit
 
 - Articles: 223
-- PASS: 117
-- WARNING: 105
+- PASS: 116
+- WARNING: 106
 - FAIL: 1
 - Average score: 85.9
-- Thin content (<2500 Korean chars): 29
+- Thin content (<2500 Korean chars): 30
 - Short content (<4500 Korean chars): 198
 - Missing meta: 0
 - Missing canonical: 0
@@ -52,6 +52,7 @@
 | 80 | WARNING | `articles/heating-bill-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:40, CONTENT_SHORT_KO:3245 |
 | 80 | WARNING | `articles/hidden-money-search.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:10, CONTENT_SHORT_KO:3112 |
 | 80 | WARNING | `articles/hidden-refund-check.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:40, CONTENT_SHORT_KO:3432 |
+| 80 | WARNING | `articles/housing-benefit-eligibility.html` | THIN_CONTENT_KO:2070, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/how-to-check-hidden-refunds.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:38, CONTENT_SHORT_KO:3168 |
 | 80 | WARNING | `articles/how-to-lower-phone-bill.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:39, CONTENT_SHORT_KO:3276 |
 | 80 | WARNING | `articles/how-to-save-electricity-bill.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:38, CONTENT_SHORT_KO:3578 |
@@ -99,4 +100,3 @@
 | 80 | WARNING | `articles/summer-water-bill-spike-check.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:32, CONTENT_SHORT_KO:3329 |
 | 80 | WARNING | `articles/tax-credit-late-application.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3449 |
 | 80 | WARNING | `articles/telecom-discount-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:10, CONTENT_SHORT_KO:3320 |
-| 80 | WARNING | `articles/travel-insurance-comparison.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:33, CONTENT_SHORT_KO:3298 |
