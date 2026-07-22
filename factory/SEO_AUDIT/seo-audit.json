@@ -1,11 +1,11 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 119,
-    "warning": 103,
+    "pass": 118,
+    "warning": 104,
     "fail": 1,
-    "average_score": 86.2,
-    "thin_under_2500_ko": 24,
+    "average_score": 86.1,
+    "thin_under_2500_ko": 25,
     "short_under_4500_ko": 199,
     "missing_meta": 0,
     "missing_canonical": 0,
@@ -1929,23 +1929,25 @@
         "비상금 얼마가 적당할까? 생활비 1개월부터 만드는 현실적인 순서"
       ],
       "h2_count": 16,
-      "h3_count": 7,
-      "korean_chars": 4055,
-      "words": 1421,
-      "internal_article_links": 11,
+      "h3_count": 0,
+      "korean_chars": 2106,
+      "words": 740,
+      "internal_article_links": 14,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 2,
+      "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": true,
-      "issues": [],
+      "faq_schema": false,
+      "issues": [
+        "THIN_CONTENT_KO:2106"
+      ],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:4055"
+        "FAQ_SCHEMA_MISSING"
       ],
-      "score": 92,
-      "status": "PASS"
+      "score": 80,
+      "status": "WARNING"
     },
     {
       "path": "articles/emergency-medical-support.html",
