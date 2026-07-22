@@ -1,8 +1,8 @@
 {
   "summary": {
     "article_count": 207,
-    "pass": 129,
-    "warning": 77,
+    "pass": 130,
+    "warning": 76,
     "fail": 1,
     "average_score": 87.1,
     "thin_under_2500_ko": 28,
@@ -2775,32 +2775,29 @@
     {
       "path": "articles/heating-bill-saving.html",
       "url": "https://savingio.com/articles/heating-bill-saving.html",
-      "title": "겨울철 난방비 절약 방법 | 세이빙이오(Savingio)",
-      "meta_description": "보일러 설정과 실내 보온 습관을 조정해 난방비 부담을 줄이는 방법입니다.",
+      "title": "난방비 절약 방법 12가지｜보일러 설정부터 창문 단열까지 | 세이빙이오",
+      "meta_description": "난방비가 갑자기 늘었을 때 확인할 보일러 설정, 적정 실내온도, 외출모드, 온수 사용, 창문 단열, 분배기 관리 방법을 실제 생활 순서대로 정리했습니다.",
       "canonical": "https://savingio.com/articles/heating-bill-saving.html",
       "h1": [
-        "겨울철 난방비 절약 방법"
+        "난방비 절약 방법 12가지 보일러 설정부터 창문 단열까지"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3245,
-      "words": 1141,
-      "internal_article_links": 15,
+      "h2_count": 13,
+      "h3_count": 3,
+      "korean_chars": 3712,
+      "words": 1281,
+      "internal_article_links": 5,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 3,
       "article_schema": true,
       "breadcrumb_schema": true,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:40",
-        "CONTENT_SHORT_KO:3245"
+        "CONTENT_SHORT_KO:3712"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 96,
+      "status": "PASS"
     },
     {
       "path": "articles/home-water-leak-self-check.html",
