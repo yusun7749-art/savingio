@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 207,
-    "pass": 128,
-    "warning": 78,
+    "pass": 129,
+    "warning": 77,
     "fail": 1,
-    "average_score": 87.0,
+    "average_score": 87.1,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 168,
+    "short_under_4500_ko": 167,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -2632,32 +2632,29 @@
     {
       "path": "articles/grocery-saving-tips.html",
       "url": "https://savingio.com/articles/grocery-saving-tips.html",
-      "title": "생활 속 식비 절약 습관 | 세이빙이오(Savingio)",
-      "meta_description": "냉장고 관리와 장보기 루틴을 바꿔 식비를 줄이는 현실적인 방법입니다.",
+      "title": "장보기 전에 꼭 확인할 식비 절약법, 냉장고부터 예산까지 | Savingio",
+      "meta_description": "장을 봐도 먹을 것이 없고 식비는 계속 늘어날 때, 냉장고 재고 확인부터 주간 식단, 장보기 목록, 할인 판단, 보관과 소비 순서까지 식비를 줄이는 현실적인 방법을 정리했습니다.",
       "canonical": "https://savingio.com/articles/grocery-saving-tips.html",
       "h1": [
-        "생활 속 식비 절약 습관"
+        "장보기 전에 꼭 확인할 식비 절약법, 냉장고부터 예산까지"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3178,
-      "words": 1111,
-      "internal_article_links": 9,
+      "h2_count": 20,
+      "h3_count": 0,
+      "korean_chars": 5260,
+      "words": 1962,
+      "internal_article_links": 22,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:38",
-        "CONTENT_SHORT_KO:3178"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 96,
+      "status": "PASS"
     },
     {
       "path": "articles/health-insurance-out-of-pocket-refund.html",
