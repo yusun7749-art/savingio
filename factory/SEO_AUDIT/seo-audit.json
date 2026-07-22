@@ -3606,28 +3606,29 @@
     {
       "path": "articles/medical-bill-negotiation.html",
       "url": "https://savingio.com/articles/medical-bill-negotiation.html",
-      "title": "병원비 영수증과 진료비 세부내역 확인 방법 | 세이빙이오(Savingio)",
-      "meta_description": "병원비를 납부하기 전 급여·비급여·검사·약제·처치 항목을 구분하고 오류나 중복 청구를 확인하는 방법입니다.",
+      "title": "병원비가 너무 많이 나왔을 때 확인·정정·환불 요청 방법 | 세이빙이오(Savingio)",
+      "meta_description": "병원비가 예상보다 많이 나왔을 때 진료비 영수증과 세부내역서를 확인하고, 병원 원무과 문의부터 건강보험심사평가원 진료비 확인 신청, 분할납부와 의료분쟁 상담까지 진행하는 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/medical-bill-negotiation.html",
       "h1": [
-        "병원비 영수증과 진료비 세부내역 확인 방법"
+        "병원비가 너무 많이 나왔을 때 확인·정정·환불 요청 방법"
       ],
-      "h2_count": 10,
+      "h2_count": 16,
       "h3_count": 0,
-      "korean_chars": 3013,
-      "words": 1013,
-      "internal_article_links": 10,
+      "korean_chars": 3828,
+      "words": 1240,
+      "internal_article_links": 8,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:3013"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3828"
       ],
-      "score": 96,
+      "score": 92,
       "status": "PASS"
     },
     {
