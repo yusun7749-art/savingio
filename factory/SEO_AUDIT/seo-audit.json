@@ -1,8 +1,8 @@
 {
   "summary": {
     "article_count": 207,
-    "pass": 145,
-    "warning": 61,
+    "pass": 146,
+    "warning": 60,
     "fail": 1,
     "average_score": 87.9,
     "thin_under_2500_ko": 28,
@@ -4165,32 +4165,31 @@
     {
       "path": "articles/property-tax-objection-guide.html",
       "url": "https://savingio.com/articles/property-tax-objection-guide.html",
-      "title": "재산세 이의신청과 과세전적부심 차이 | 세이빙이오(Savingio)",
-      "meta_description": "세액이나 과세 대상에 이견이 있을 때 활용할 수 있는 절차를 정리합니다.",
+      "title": "재산세 이의신청과 과세전적부심 차이 | Savingio",
+      "meta_description": "재산세 고지서가 잘못됐다고 의심될 때 확인할 항목, 과세기관 문의, 이의신청·심판청구·과세전적부심 차이, 90일 기한과 준비서류를 정리했습니다.",
       "canonical": "https://savingio.com/articles/property-tax-objection-guide.html",
       "h1": [
         "재산세 이의신청과 과세전적부심 차이"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3853,
-      "words": 1375,
-      "internal_article_links": 39,
+      "h2_count": 17,
+      "h3_count": 8,
+      "korean_chars": 4066,
+      "words": 1332,
+      "internal_article_links": 11,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 1,
       "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "breadcrumb_schema": false,
+      "faq_schema": false,
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:40",
-        "CONTENT_SHORT_KO:3853"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:4066"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 88,
+      "status": "PASS"
     },
     {
       "path": "articles/property-tax-payment-certificate.html",
