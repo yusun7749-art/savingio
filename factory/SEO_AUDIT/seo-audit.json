@@ -3490,28 +3490,29 @@
     {
       "path": "articles/local-tax-refund-guide.html",
       "url": "https://savingio.com/articles/local-tax-refund-guide.html",
-      "title": "지방세 환급금 조회 방법 | 세이빙이오(Savingio)",
-      "meta_description": "자동차세·재산세 등 지방세를 더 낸 경우 위택스에서 환급 대상과 신청 상태를 확인하는 방법입니다.",
+      "title": "지방세 환급금 조회와 신청 방법, 위택스에서 놓친 돈 찾는 순서 | 세이빙이오(Savingio)",
+      "meta_description": "자동차세·재산세·취득세 등 지방세를 많이 냈거나 잘못 낸 경우 환급금이 생기는 이유, 위택스 조회와 신청 순서, 계좌 등록, 대리 신청과 처리 확인 방법을 정리했습니다.",
       "canonical": "https://savingio.com/articles/local-tax-refund-guide.html",
       "h1": [
-        "지방세 환급금 조회 방법"
+        "지방세 환급금 조회와 신청 방법, 위택스에서 놓친 돈 찾는 순서"
       ],
-      "h2_count": 15,
-      "h3_count": 0,
-      "korean_chars": 2818,
-      "words": 949,
-      "internal_article_links": 19,
+      "h2_count": 20,
+      "h3_count": 4,
+      "korean_chars": 3699,
+      "words": 1303,
+      "internal_article_links": 8,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:2818"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3699"
       ],
-      "score": 96,
+      "score": 92,
       "status": "PASS"
     },
     {
