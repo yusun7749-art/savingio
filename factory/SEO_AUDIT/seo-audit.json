@@ -6,7 +6,7 @@
     "fail": 1,
     "average_score": 86.0,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 196,
+    "short_under_4500_ko": 195,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -3177,28 +3177,29 @@
     {
       "path": "articles/income-tax-filing-missed-consequences.html",
       "url": "https://savingio.com/articles/income-tax-filing-missed-consequences.html",
-      "title": "종합소득세 신고 안 하면 어떻게 될까 | 세이빙이오(Savingio)",
-      "meta_description": "종합소득세 신고기한을 놓쳤을 때 생길 수 있는 불이익과 기한후신고, 납부, 증빙 정리 순서를 안내합니다.",
+      "title": "종합소득세 신고 안 하면 생기는 불이익과 기한후신고 방법 | 세이빙이오(Savingio)",
+      "meta_description": "2026년 종합소득세 신고기한을 놓쳤을 때 무신고가산세, 납부지연가산세, 환급 누락, 기한후신고 순서, 납부가 어려울 때 대응과 준비서류를 실제 처리 순서대로 정리했습니다.",
       "canonical": "https://savingio.com/articles/income-tax-filing-missed-consequences.html",
       "h1": [
-        "종합소득세 신고 안 하면 어떻게 될까"
+        "종합소득세 신고 안 하면 생기는 불이익과 기한후신고 방법"
       ],
-      "h2_count": 15,
-      "h3_count": 7,
-      "korean_chars": 4432,
-      "words": 1526,
-      "internal_article_links": 39,
+      "h2_count": 20,
+      "h3_count": 4,
+      "korean_chars": 5987,
+      "words": 1902,
+      "internal_article_links": 8,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 1,
       "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
+      "breadcrumb_schema": false,
+      "faq_schema": false,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:4432"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING"
       ],
-      "score": 96,
+      "score": 92,
       "status": "PASS"
     },
     {
