@@ -6,7 +6,7 @@
     "fail": 1,
     "average_score": 86.2,
     "thin_under_2500_ko": 24,
-    "short_under_4500_ko": 200,
+    "short_under_4500_ko": 199,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -1951,25 +1951,25 @@
       "path": "articles/emergency-medical-support.html",
       "url": "https://savingio.com/articles/emergency-medical-support.html",
       "title": "긴급복지 의료지원 신청 방법 | 세이빙이오(Savingio)",
-      "meta_description": "갑작스러운 질병이나 부상으로 의료비 부담이 커졌을 때 긴급복지 의료지원 상담과 신청을 준비하는 순서입니다.",
+      "meta_description": "갑작스러운 중한 질병이나 부상으로 병원비를 감당하기 어려울 때 긴급복지 의료지원 대상, 300만원 한도, 신청 시점, 준비서류와 병원·주민센터 상담 순서를 확인하세요.",
       "canonical": "https://savingio.com/articles/emergency-medical-support.html",
       "h1": [
         "긴급복지 의료지원 신청 방법"
       ],
-      "h2_count": 10,
-      "h3_count": 0,
-      "korean_chars": 3055,
-      "words": 1042,
-      "internal_article_links": 10,
+      "h2_count": 21,
+      "h3_count": 3,
+      "korean_chars": 6588,
+      "words": 2171,
+      "internal_article_links": 12,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:3055"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
       "score": 96,
       "status": "PASS"
