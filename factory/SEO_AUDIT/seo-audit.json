@@ -6,7 +6,7 @@
     "fail": 1,
     "average_score": 87.3,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 165,
+    "short_under_4500_ko": 164,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -3450,26 +3450,26 @@
     {
       "path": "articles/monthly-rent-tax-credit-documents.html",
       "url": "https://savingio.com/articles/monthly-rent-tax-credit-documents.html",
-      "title": "월세 세액공제 준비서류와 확인 순서 | 세이빙이오(Savingio)",
-      "meta_description": "임대차계약서, 주민등록, 월세 이체내역을 기준으로 월세 세액공제 준비 과정과 누락 방지 방법을 정리했습니다.",
+      "title": "월세 세액공제 준비서류와 확인 순서 | Savingio",
+      "meta_description": "월세 세액공제를 놓치지 않도록 주민등록등본, 임대차계약서, 월세 이체내역을 준비하는 순서와 소득·무주택·주소 요건, 이사·명의 불일치·현금납부 사례까지 정리했습니다.",
       "canonical": "https://savingio.com/articles/monthly-rent-tax-credit-documents.html",
       "h1": [
         "월세 세액공제 준비서류와 확인 순서"
       ],
-      "h2_count": 12,
-      "h3_count": 1,
-      "korean_chars": 3574,
-      "words": 1183,
-      "internal_article_links": 8,
+      "h2_count": 22,
+      "h3_count": 8,
+      "korean_chars": 5315,
+      "words": 1811,
+      "internal_article_links": 9,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:3574"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
       "score": 96,
       "status": "PASS"
