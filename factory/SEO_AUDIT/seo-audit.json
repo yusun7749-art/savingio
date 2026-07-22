@@ -1043,15 +1043,15 @@
       "path": "articles/cash-out-card-points.html",
       "url": "https://savingio.com/articles/cash-out-card-points.html",
       "title": "카드 포인트 현금화 방법, 흩어진 포인트를 계좌로 받는 순서 | Savingio",
-      "meta_description": "여러 카드사에 흩어진 포인트를 한 번에 조회하고 본인 계좌로 입금받는 순서, 소멸예정 포인트와 입금 오류를 확인하는 방법을 정리했습니다.",
+      "meta_description": "카드포인트 통합조회에서 여러 카드사의 잔여 포인트와 소멸예정 포인트를 확인하고, 계좌입금 가능한 포인트를 본인 계좌로 받는 순서와 오류 해결 방법을 정리했습니다.",
       "canonical": "https://savingio.com/articles/cash-out-card-points.html",
       "h1": [
         "카드 포인트 현금화 방법, 흩어진 포인트를 계좌로 받는 순서"
       ],
-      "h2_count": 13,
-      "h3_count": 0,
-      "korean_chars": 2739,
-      "words": 943,
+      "h2_count": 18,
+      "h3_count": 2,
+      "korean_chars": 3920,
+      "words": 1364,
       "internal_article_links": 6,
       "images": 0,
       "missing_alt": 0,
@@ -1062,7 +1062,7 @@
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:2739"
+        "CONTENT_SHORT_KO:3920"
       ],
       "score": 92,
       "status": "PASS"
