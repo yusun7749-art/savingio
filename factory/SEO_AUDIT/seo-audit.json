@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 117,
-    "warning": 105,
+    "pass": 118,
+    "warning": 104,
     "fail": 1,
     "average_score": 86.1,
     "thin_under_2500_ko": 26,
-    "short_under_4500_ko": 199,
+    "short_under_4500_ko": 198,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -1982,31 +1982,28 @@
       "path": "articles/emergency-welfare-living-support.html",
       "url": "https://savingio.com/articles/emergency-welfare-living-support.html",
       "title": "긴급복지 생계지원 신청 조건 | 세이빙이오(Savingio)",
-      "meta_description": "실직·질병·휴폐업 등 위기상황에서 긴급복지 지원을 신청하는 기준입니다.",
+      "meta_description": "실직·휴폐업·중한 질병·가정폭력·화재 등 갑작스러운 위기로 생활비가 막막할 때 긴급복지 생계지원의 위기사유, 소득·재산 기준, 신청 순서와 준비자료를 확인하세요.",
       "canonical": "https://savingio.com/articles/emergency-welfare-living-support.html",
       "h1": [
         "긴급복지 생계지원 신청 조건"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3539,
-      "words": 1244,
-      "internal_article_links": 23,
+      "h2_count": 21,
+      "h3_count": 7,
+      "korean_chars": 6225,
+      "words": 2004,
+      "internal_article_links": 11,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:39",
-        "CONTENT_SHORT_KO:3539"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 96,
+      "status": "PASS"
     },
     {
       "path": "articles/energy-voucher-2026-application.html",
