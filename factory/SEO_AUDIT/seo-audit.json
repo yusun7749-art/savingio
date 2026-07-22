@@ -4,7 +4,7 @@
     "pass": 120,
     "warning": 102,
     "fail": 1,
-    "average_score": 86.1,
+    "average_score": 86.0,
     "thin_under_2500_ko": 28,
     "short_under_4500_ko": 193,
     "missing_meta": 0,
@@ -3404,28 +3404,29 @@
     {
       "path": "articles/loan-prepayment-fee-check.html",
       "url": "https://savingio.com/articles/loan-prepayment-fee-check.html",
-      "title": "중도상환수수료 계산과 절약 방법 | 세이빙이오(Savingio)",
-      "meta_description": "대출을 일찍 갚기 전에 중도상환수수료, 남은 이자, 면제한도를 비교해 실제로 이익인지 판단하는 방법입니다.",
+      "title": "대출 중도상환수수료 확인법, 지금 갚는 게 이득인지 계산하는 순서 | 세이빙이오(Savingio)",
+      "meta_description": "대출 중도상환수수료율, 부과기간, 면제한도, 계산식과 남은 이자를 비교해 지금 일부상환·전액상환·대환 중 무엇이 유리한지 판단하는 방법을 정리했습니다.",
       "canonical": "https://savingio.com/articles/loan-prepayment-fee-check.html",
       "h1": [
-        "중도상환수수료 계산과 절약 방법"
+        "대출 중도상환수수료 확인법, 지금 갚는 게 이득인지 계산하는 순서"
       ],
-      "h2_count": 16,
-      "h3_count": 0,
-      "korean_chars": 2854,
-      "words": 948,
-      "internal_article_links": 10,
+      "h2_count": 19,
+      "h3_count": 4,
+      "korean_chars": 4158,
+      "words": 1420,
+      "internal_article_links": 9,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:2854"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:4158"
       ],
-      "score": 96,
+      "score": 92,
       "status": "PASS"
     },
     {
