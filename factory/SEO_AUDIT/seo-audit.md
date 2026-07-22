@@ -97,6 +97,6 @@
 | 88 | PASS | `articles/energy-voucher-online-application.html` | META_DESCRIPTION_LENGTH:35, BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4228 |
 | 88 | PASS | `articles/government-benefits-warning.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3885 |
 | 88 | PASS | `articles/national-employment-support-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4077 |
+| 88 | PASS | `articles/property-tax-deadline.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2928 |
 | 88 | WARNING | `articles/severance-pay-calculation-guide.html` | THIN_CONTENT_KO:2464 |
 | 88 | WARNING | `articles/telecom-unclaimed-refund.html` | THIN_CONTENT_KO:2463 |
-| 92 | PASS | `articles/ai-side-hustles-beginner.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
