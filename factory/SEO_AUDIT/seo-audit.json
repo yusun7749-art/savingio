@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 207,
-    "pass": 135,
-    "warning": 71,
+    "pass": 136,
+    "warning": 70,
     "fail": 1,
-    "average_score": 87.4,
+    "average_score": 87.5,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 163,
+    "short_under_4500_ko": 162,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -3819,32 +3819,29 @@
     {
       "path": "articles/parking-account-rate-comparison.html",
       "url": "https://savingio.com/articles/parking-account-rate-comparison.html",
-      "title": "파킹통장 금리 비교할 때 볼 항목 | 세이빙이오(Savingio)",
-      "meta_description": "최고금리보다 우대조건·적용한도·이자지급주기를 함께 비교합니다.",
+      "title": "파킹통장 금리 비교할 때 볼 항목 | Savingio",
+      "meta_description": "파킹통장 최고금리만 보고 고르지 않도록 기본금리, 우대조건, 적용한도, 구간별 금리, 이자지급주기, 예금자보호 여부와 세후 이자를 비교하는 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/parking-account-rate-comparison.html",
       "h1": [
         "파킹통장 금리 비교할 때 볼 항목"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3209,
-      "words": 1132,
-      "internal_article_links": 16,
+      "h2_count": 22,
+      "h3_count": 3,
+      "korean_chars": 5081,
+      "words": 1762,
+      "internal_article_links": 8,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:34",
-        "CONTENT_SHORT_KO:3209"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 96,
+      "status": "PASS"
     },
     {
       "path": "articles/peak-season-hotel-saving.html",
