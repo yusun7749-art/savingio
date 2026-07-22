@@ -1,8 +1,8 @@
 {
   "summary": {
     "article_count": 207,
-    "pass": 143,
-    "warning": 63,
+    "pass": 144,
+    "warning": 62,
     "fail": 1,
     "average_score": 87.8,
     "thin_under_2500_ko": 28,
@@ -4075,32 +4075,31 @@
     {
       "path": "articles/property-tax-july-2026.html",
       "url": "https://savingio.com/articles/property-tax-july-2026.html",
-      "title": "2026년 7월 재산세 납부 대상과 기간 | 세이빙이오(Savingio)",
-      "meta_description": "7월 재산세 납부 대상, 고지서 확인, 납부 경로를 정리합니다.",
+      "title": "2026년 7월 재산세 납부 대상과 기간 | Savingio",
+      "meta_description": "2026년 7월 재산세 납부 대상, 6월 1일 과세기준일, 7월 16~31일 납부기간, 주택분 1/2·건축물·선박·항공기, 20만원 이하 일괄부과와 납부 지연 시 주의사항을 정리했습니다.",
       "canonical": "https://savingio.com/articles/property-tax-july-2026.html",
       "h1": [
         "2026년 7월 재산세 납부 대상과 기간"
       ],
-      "h2_count": 12,
+      "h2_count": 22,
       "h3_count": 4,
-      "korean_chars": 3866,
-      "words": 1398,
-      "internal_article_links": 39,
+      "korean_chars": 4089,
+      "words": 1441,
+      "internal_article_links": 13,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 1,
       "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "breadcrumb_schema": false,
+      "faq_schema": false,
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:35",
-        "CONTENT_SHORT_KO:3866"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:4089"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 88,
+      "status": "PASS"
     },
     {
       "path": "articles/property-tax-july-checklist-2026.html",
