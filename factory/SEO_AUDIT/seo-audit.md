@@ -1,8 +1,8 @@
 # Savingio Full SEO Audit
 
 - Articles: 223
-- PASS: 120
-- WARNING: 102
+- PASS: 121
+- WARNING: 101
 - FAIL: 1
 - Average score: 86.0
 - Thin content (<2500 Korean chars): 28
@@ -57,7 +57,6 @@
 | 80 | WARNING | `articles/how-to-save-electricity-bill.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:38, CONTENT_SHORT_KO:3578 |
 | 80 | WARNING | `articles/irs-tax-refund-status.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:40, CONTENT_SHORT_KO:3475 |
 | 80 | WARNING | `articles/local-tax-refund-claim.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:33, CONTENT_SHORT_KO:3462 |
-| 80 | WARNING | `articles/low-income-cooling-support.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3140 |
 | 80 | WARNING | `articles/missing-property-tax-bill.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3895 |
 | 80 | WARNING | `articles/money-saving-habits.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:42, CONTENT_SHORT_KO:3112 |
 | 80 | WARNING | `articles/national-employment-support-eligibility.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:29, CONTENT_SHORT_KO:3099 |
@@ -100,3 +99,4 @@
 | 80 | WARNING | `articles/unemployment-benefit-job-search.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:31, CONTENT_SHORT_KO:3315 |
 | 80 | WARNING | `articles/vat-final-return-july-2026.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:48, CONTENT_SHORT_KO:4002 |
 | 80 | WARNING | `articles/vat-payment-extension-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:42, CONTENT_SHORT_KO:4009 |
+| 80 | WARNING | `articles/vat-zero-sales-filing.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:37, CONTENT_SHORT_KO:3973 |

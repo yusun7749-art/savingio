@@ -1,8 +1,8 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 120,
-    "warning": 102,
+    "pass": 121,
+    "warning": 101,
     "fail": 1,
     "average_score": 86.0,
     "thin_under_2500_ko": 28,
@@ -3578,32 +3578,30 @@
     {
       "path": "articles/low-income-cooling-support.html",
       "url": "https://savingio.com/articles/low-income-cooling-support.html",
-      "title": "저소득층 냉방비 지원 확인 방법 | 세이빙이오(Savingio)",
-      "meta_description": "에너지바우처와 지자체 냉방비 지원을 함께 확인하는 방법입니다.",
+      "title": "저소득층 냉방비 지원 신청 방법, 2026 에너지바우처 대상과 금액 | 세이빙이오(Savingio)",
+      "meta_description": "2026년 저소득층 냉방비 지원의 핵심인 에너지바우처 신청 대상, 세대원 특성기준, 지원금액, 신청기간, 행정복지센터·복지로 신청 방법과 전기요금 차감 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/low-income-cooling-support.html",
       "h1": [
-        "저소득층 냉방비 지원 확인 방법"
+        "저소득층 냉방비 지원 신청 방법, 2026 에너지바우처 대상과 금액"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3140,
-      "words": 1101,
-      "internal_article_links": 16,
+      "h2_count": 20,
+      "h3_count": 1,
+      "korean_chars": 3840,
+      "words": 1222,
+      "internal_article_links": 7,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:34",
-        "CONTENT_SHORT_KO:3140"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3840"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/medical-bill-negotiation.html",
