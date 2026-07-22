@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 207,
-    "pass": 142,
-    "warning": 64,
+    "pass": 143,
+    "warning": 63,
     "fail": 1,
-    "average_score": 87.7,
+    "average_score": 87.8,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 157,
+    "short_under_4500_ko": 156,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -4047,32 +4047,30 @@
     {
       "path": "articles/property-tax-joint-ownership.html",
       "url": "https://savingio.com/articles/property-tax-joint-ownership.html",
-      "title": "재산세 공동명의 납부 기준 | 세이빙이오(Savingio)",
-      "meta_description": "공동명의 주택의 재산세 고지와 납부 기준을 확인합니다.",
+      "title": "재산세 공동명의 납부 기준 | Savingio",
+      "meta_description": "2026년 공동명의 주택 재산세의 지분별 납세의무, 고지서 확인, 공동명의자별 납부, 지분 오류와 매매·상속 상황까지 실제 행동 순서로 정리했습니다.",
       "canonical": "https://savingio.com/articles/property-tax-joint-ownership.html",
       "h1": [
         "재산세 공동명의 납부 기준"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3812,
-      "words": 1369,
-      "internal_article_links": 39,
+      "h2_count": 20,
+      "h3_count": 5,
+      "korean_chars": 5326,
+      "words": 1709,
+      "internal_article_links": 13,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 1,
       "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "breadcrumb_schema": false,
+      "faq_schema": false,
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:30",
-        "CONTENT_SHORT_KO:3812"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/property-tax-july-2026.html",
