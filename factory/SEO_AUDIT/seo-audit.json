@@ -1,12 +1,12 @@
 {
   "summary": {
-    "article_count": 215,
+    "article_count": 214,
     "pass": 128,
-    "warning": 86,
+    "warning": 85,
     "fail": 1,
     "average_score": 86.8,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 177,
+    "short_under_4500_ko": 176,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -4539,36 +4539,6 @@
       "warnings": [
         "META_DESCRIPTION_LENGTH:34",
         "CONTENT_SHORT_KO:3234"
-      ],
-      "score": 80,
-      "status": "WARNING"
-    },
-    {
-      "path": "articles/salary-budget-guide.html",
-      "url": "https://savingio.com/articles/salary-budget-guide.html",
-      "title": "월급 관리 체크리스트 | 세이빙이오(Savingio)",
-      "meta_description": "월급 관리 체크리스트",
-      "canonical": "https://savingio.com/articles/salary-budget-guide.html",
-      "h1": [
-        "월급 관리 체크리스트"
-      ],
-      "h2_count": 13,
-      "h3_count": 4,
-      "korean_chars": 3381,
-      "words": 1164,
-      "internal_article_links": 17,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:11",
-        "CONTENT_SHORT_KO:3381"
       ],
       "score": 80,
       "status": "WARNING"
