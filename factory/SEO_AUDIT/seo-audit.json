@@ -3550,28 +3550,29 @@
     {
       "path": "articles/long-term-care-insurance-application.html",
       "url": "https://savingio.com/articles/long-term-care-insurance-application.html",
-      "title": "노인장기요양보험 신청 방법, 등급판정과 방문조사 준비 순서 | 세이빙이오(Savingio)",
-      "meta_description": "장기요양 인정 신청 대상, 방문조사, 의사소견서, 등급판정, 서비스 선택과 본인부담 확인 방법을 정리했습니다.",
+      "title": "노인장기요양보험 신청 방법, 방문조사부터 등급판정까지 | 세이빙이오(Savingio)",
+      "meta_description": "노인장기요양보험 신청 자격, 국민건강보험공단 접수, 의사소견서, 방문조사, 장기요양등급 판정, 인정서 수령 후 재가·시설급여 이용 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/long-term-care-insurance-application.html",
       "h1": [
-        "노인장기요양보험 신청 방법, 등급판정과 방문조사 준비 순서"
+        "노인장기요양보험 신청 방법, 방문조사부터 등급판정까지"
       ],
-      "h2_count": 9,
-      "h3_count": 0,
-      "korean_chars": 3104,
-      "words": 1007,
+      "h2_count": 20,
+      "h3_count": 1,
+      "korean_chars": 4374,
+      "words": 1374,
       "internal_article_links": 8,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:3104"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:4374"
       ],
-      "score": 96,
+      "score": 92,
       "status": "PASS"
     },
     {
