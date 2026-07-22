@@ -1,8 +1,8 @@
 # Savingio Full SEO Audit
 
 - Articles: 207
-- PASS: 134
-- WARNING: 72
+- PASS: 135
+- WARNING: 71
 - FAIL: 1
 - Average score: 87.4
 - Thin content (<2500 Korean chars): 28
@@ -44,7 +44,6 @@
 | 80 | WARNING | `articles/emergency-fund-guide.html` | THIN_CONTENT_KO:2106, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/energy-voucher-balance-use.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3601 |
 | 80 | WARNING | `articles/national-pension-old-age-benefit-guide.html` | THIN_CONTENT_KO:2054, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
-| 80 | WARNING | `articles/near-poverty-certificate.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:28, CONTENT_SHORT_KO:3386 |
 | 80 | WARNING | `articles/parking-account-rate-comparison.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3209 |
 | 80 | WARNING | `articles/peak-season-hotel-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:39, CONTENT_SHORT_KO:3317 |
 | 80 | WARNING | `articles/property-tax-calculation-structure.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:39, CONTENT_SHORT_KO:3844 |
@@ -100,3 +99,4 @@
 | 88 | PASS | `articles/electricity-bill-easy-calculator-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3282 |
 | 88 | PASS | `articles/energy-voucher-documents.html` | META_DESCRIPTION_LENGTH:37, BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3868 |
 | 88 | PASS | `articles/energy-voucher-eligibility-2026.html` | META_DESCRIPTION_LENGTH:37, BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3787 |
+| 88 | PASS | `articles/energy-voucher-online-application.html` | META_DESCRIPTION_LENGTH:35, BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4228 |

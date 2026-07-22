@@ -1,8 +1,8 @@
 {
   "summary": {
     "article_count": 207,
-    "pass": 134,
-    "warning": 72,
+    "pass": 135,
+    "warning": 71,
     "fail": 1,
     "average_score": 87.4,
     "thin_under_2500_ko": 28,
@@ -3676,31 +3676,29 @@
       "path": "articles/near-poverty-certificate.html",
       "url": "https://savingio.com/articles/near-poverty-certificate.html",
       "title": "차상위계층 확인서 발급 방법 | 세이빙이오(Savingio)",
-      "meta_description": "차상위계층 확인서 발급 경로와 사용처를 정리합니다.",
+      "meta_description": "차상위계층 확인서 온라인·방문 발급 방법, 발급 가능한 자격 유형, 차상위 본인부담경감증명서와의 차이, 대리 발급 서류와 사용처를 정리했습니다.",
       "canonical": "https://savingio.com/articles/near-poverty-certificate.html",
       "h1": [
         "차상위계층 확인서 발급 방법"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3386,
-      "words": 1175,
-      "internal_article_links": 16,
+      "h2_count": 18,
+      "h3_count": 6,
+      "korean_chars": 3996,
+      "words": 1316,
+      "internal_article_links": 7,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:28",
-        "CONTENT_SHORT_KO:3386"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3996"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/online-income-ideas-for-beginners.html",
