@@ -2775,28 +2775,29 @@
     {
       "path": "articles/heating-bill-saving.html",
       "url": "https://savingio.com/articles/heating-bill-saving.html",
-      "title": "난방비 절약 방법 12가지｜보일러 설정부터 창문 단열까지 | 세이빙이오",
+      "title": "난방비 절약 방법 12가지, 보일러 설정부터 창문 단열까지 | Savingio",
       "meta_description": "난방비가 갑자기 늘었을 때 확인할 보일러 설정, 적정 실내온도, 외출모드, 온수 사용, 창문 단열, 분배기 관리 방법을 실제 생활 순서대로 정리했습니다.",
       "canonical": "https://savingio.com/articles/heating-bill-saving.html",
       "h1": [
-        "난방비 절약 방법 12가지 보일러 설정부터 창문 단열까지"
+        "난방비 절약 방법 12가지, 보일러 설정부터 창문 단열까지"
       ],
-      "h2_count": 13,
-      "h3_count": 3,
-      "korean_chars": 3712,
-      "words": 1281,
-      "internal_article_links": 5,
+      "h2_count": 16,
+      "h3_count": 1,
+      "korean_chars": 3039,
+      "words": 1072,
+      "internal_article_links": 6,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:3712"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3039"
       ],
-      "score": 96,
+      "score": 92,
       "status": "PASS"
     },
     {
