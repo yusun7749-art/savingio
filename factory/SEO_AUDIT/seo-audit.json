@@ -1,11 +1,11 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 118,
-    "warning": 104,
+    "pass": 117,
+    "warning": 105,
     "fail": 1,
     "average_score": 86.1,
-    "thin_under_2500_ko": 25,
+    "thin_under_2500_ko": 26,
     "short_under_4500_ko": 199,
     "missing_meta": 0,
     "missing_canonical": 0,
@@ -1900,24 +1900,26 @@
       "h1": [
         "초등학생 교육비 지원 총정리, 교육급여·방과후·돌봄 신청법"
       ],
-      "h2_count": 16,
-      "h3_count": 5,
-      "korean_chars": 4198,
-      "words": 1338,
-      "internal_article_links": 5,
+      "h2_count": 17,
+      "h3_count": 4,
+      "korean_chars": 2209,
+      "words": 729,
+      "internal_article_links": 13,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 2,
+      "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": true,
-      "issues": [],
+      "faq_schema": false,
+      "issues": [
+        "THIN_CONTENT_KO:2209"
+      ],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:4198"
+        "FAQ_SCHEMA_MISSING"
       ],
-      "score": 92,
-      "status": "PASS"
+      "score": 80,
+      "status": "WARNING"
     },
     {
       "path": "articles/emergency-fund-guide.html",
