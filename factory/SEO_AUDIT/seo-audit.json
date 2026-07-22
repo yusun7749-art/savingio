@@ -1922,28 +1922,29 @@
     {
       "path": "articles/emergency-fund-guide.html",
       "url": "https://savingio.com/articles/emergency-fund-guide.html",
-      "title": "비상금 마련 가이드 | 세이빙이오(Savingio)",
-      "meta_description": "월급이 빠듯해도 생활을 흔들지 않는 비상금을 만드는 현실적인 순서와 통장 관리법을 정리했습니다.",
+      "title": "비상금 얼마가 적당할까? 생활비 1개월부터 만드는 현실적인 순서 | Savingio",
+      "meta_description": "월급이 빠듯한 가정도 시작할 수 있는 비상금 목표액 계산법, 생활비 1개월·3개월·6개월 단계, 통장 분리, 고금리 빚과 병행하는 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/emergency-fund-guide.html",
       "h1": [
-        "비상금 마련 가이드"
+        "비상금 얼마가 적당할까? 생활비 1개월부터 만드는 현실적인 순서"
       ],
-      "h2_count": 14,
-      "h3_count": 0,
-      "korean_chars": 2918,
-      "words": 1024,
-      "internal_article_links": 19,
+      "h2_count": 16,
+      "h3_count": 7,
+      "korean_chars": 4055,
+      "words": 1421,
+      "internal_article_links": 11,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:2918"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:4055"
       ],
-      "score": 96,
+      "score": 92,
       "status": "PASS"
     },
     {
