@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
-- Articles: 212
+- Articles: 210
 - PASS: 126
-- WARNING: 85
+- WARNING: 83
 - FAIL: 1
-- Average score: 86.7
+- Average score: 86.8
 - Thin content (<2500 Korean chars): 28
-- Short content (<4500 Korean chars): 174
+- Short content (<4500 Korean chars): 172
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -47,7 +47,6 @@
 | 80 | WARNING | `articles/grocery-saving-tips.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:38, CONTENT_SHORT_KO:3178 |
 | 80 | WARNING | `articles/heating-bill-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:40, CONTENT_SHORT_KO:3245 |
 | 80 | WARNING | `articles/how-to-lower-phone-bill.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:39, CONTENT_SHORT_KO:3276 |
-| 80 | WARNING | `articles/how-to-save-electricity-bill.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:38, CONTENT_SHORT_KO:3578 |
 | 80 | WARNING | `articles/irs-tax-refund-status.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:40, CONTENT_SHORT_KO:3475 |
 | 80 | WARNING | `articles/local-tax-refund-claim.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:33, CONTENT_SHORT_KO:3462 |
 | 80 | WARNING | `articles/national-employment-support-eligibility.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:29, CONTENT_SHORT_KO:3099 |
@@ -86,7 +85,6 @@
 | 80 | WARNING | `articles/vat-final-return-july-2026.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:48, CONTENT_SHORT_KO:4002 |
 | 80 | WARNING | `articles/vat-payment-extension-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:42, CONTENT_SHORT_KO:4009 |
 | 80 | WARNING | `articles/vat-zero-sales-filing.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:37, CONTENT_SHORT_KO:3973 |
-| 80 | WARNING | `articles/water-bill-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:19, CONTENT_SHORT_KO:3329 |
 | 80 | WARNING | `articles/wetax-electronic-billing.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3065 |
 | 80 | WARNING | `articles/wetax-payment-history.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:14, CONTENT_SHORT_KO:3050 |
 | 80 | WARNING | `articles/yellow-umbrella-mutual-aid-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3180 |
@@ -100,3 +98,5 @@
 | 84 | WARNING | `articles/insurance-auto-pay-discount.html` | ARTICLE_SCHEMA_MISSING, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3168 |
 | 84 | WARNING | `articles/property-tax-bill-checklist-2026.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:3893 |
 | 84 | WARNING | `articles/property-tax-electronic-bill-2026.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:3890 |
+| 84 | WARNING | `articles/unemployment-benefit-checklist.html` | THIN_CONTENT_KO:2442, META_DESCRIPTION_LENGTH:49 |
+| 84 | WARNING | `articles/vat-final-return-2026-july.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:4042 |

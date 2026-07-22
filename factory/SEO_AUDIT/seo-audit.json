@@ -1,12 +1,12 @@
 {
   "summary": {
-    "article_count": 212,
+    "article_count": 210,
     "pass": 126,
-    "warning": 85,
+    "warning": 83,
     "fail": 1,
-    "average_score": 86.7,
+    "average_score": 86.8,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 174,
+    "short_under_4500_ko": 172,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -2954,36 +2954,6 @@
       "status": "WARNING"
     },
     {
-      "path": "articles/how-to-save-electricity-bill.html",
-      "url": "https://savingio.com/articles/how-to-save-electricity-bill.html",
-      "title": "전기요금을 낮추는 생활 습관 | 세이빙이오(Savingio)",
-      "meta_description": "가전제품별 소비전력과 사용시간을 점검해 전기요금을 줄이는 방법입니다.",
-      "canonical": "https://savingio.com/articles/how-to-save-electricity-bill.html",
-      "h1": [
-        "전기요금을 낮추는 생활 습관"
-      ],
-      "h2_count": 13,
-      "h3_count": 4,
-      "korean_chars": 3578,
-      "words": 1271,
-      "internal_article_links": 28,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 4,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:38",
-        "CONTENT_SHORT_KO:3578"
-      ],
-      "score": 80,
-      "status": "WARNING"
-    },
-    {
       "path": "articles/impulse-buying-control.html",
       "url": "https://savingio.com/articles/impulse-buying-control.html",
       "title": "충동구매 줄이는 현실적인 방법, 결제 전 24시간 규칙부터 시작하세요 | 세이빙이오(Savingio)",
@@ -5813,36 +5783,6 @@
       ],
       "score": 96,
       "status": "PASS"
-    },
-    {
-      "path": "articles/water-bill-guide.html",
-      "url": "https://savingio.com/articles/water-bill-guide.html",
-      "title": "수도요금 누진제 쉽게 이해하기 | 세이빙이오(Savingio)",
-      "meta_description": "수도요금 누진제 쉽게 이해하기 안내",
-      "canonical": "https://savingio.com/articles/water-bill-guide.html",
-      "h1": [
-        "수도요금 누진제 쉽게 이해하기"
-      ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3329,
-      "words": 1157,
-      "internal_article_links": 15,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:19",
-        "CONTENT_SHORT_KO:3329"
-      ],
-      "score": 80,
-      "status": "WARNING"
     },
     {
       "path": "articles/water-bill-saving.html",
