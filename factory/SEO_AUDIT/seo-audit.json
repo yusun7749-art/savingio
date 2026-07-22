@@ -1894,28 +1894,29 @@
     {
       "path": "articles/elementary-school-education-support.html",
       "url": "https://savingio.com/articles/elementary-school-education-support.html",
-      "title": "초등학생 교육비 지원 총정리 | 세이빙이오(Savingio)",
-      "meta_description": "초등학생 가정이 확인할 교육급여, 방과후학교, 급식비, 교육정보화와 지역별 지원을 한 번에 정리했습니다.",
+      "title": "초등학생 교육비 지원 총정리, 교육급여·방과후·돌봄 신청법 | Savingio",
+      "meta_description": "2026년 초등학생 가정이 확인할 교육급여, 초중고 학생교육비, 방과후학교 자유수강권, 교육정보화, 늘봄·돌봄과 지역별 지원 신청 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/elementary-school-education-support.html",
       "h1": [
-        "초등학생 교육비 지원 총정리"
+        "초등학생 교육비 지원 총정리, 교육급여·방과후·돌봄 신청법"
       ],
-      "h2_count": 12,
-      "h3_count": 0,
-      "korean_chars": 2676,
-      "words": 887,
-      "internal_article_links": 10,
+      "h2_count": 16,
+      "h3_count": 5,
+      "korean_chars": 4198,
+      "words": 1338,
+      "internal_article_links": 5,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:2676"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:4198"
       ],
-      "score": 96,
+      "score": 92,
       "status": "PASS"
     },
     {
