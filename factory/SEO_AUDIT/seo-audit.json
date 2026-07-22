@@ -1,12 +1,12 @@
 {
   "summary": {
-    "article_count": 216,
+    "article_count": 215,
     "pass": 128,
-    "warning": 87,
+    "warning": 86,
     "fail": 1,
-    "average_score": 86.7,
+    "average_score": 86.8,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 178,
+    "short_under_4500_ko": 177,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -4569,36 +4569,6 @@
       "warnings": [
         "META_DESCRIPTION_LENGTH:11",
         "CONTENT_SHORT_KO:3381"
-      ],
-      "score": 80,
-      "status": "WARNING"
-    },
-    {
-      "path": "articles/salary-management-guide.html",
-      "url": "https://savingio.com/articles/salary-management-guide.html",
-      "title": "월급 관리 가이드 | 세이빙이오(Savingio)",
-      "meta_description": "월급일을 기준으로 생활비와 저축, 비상금을 나누는 관리 방법입니다.",
-      "canonical": "https://savingio.com/articles/salary-management-guide.html",
-      "h1": [
-        "월급 관리 가이드"
-      ],
-      "h2_count": 13,
-      "h3_count": 4,
-      "korean_chars": 3297,
-      "words": 1137,
-      "internal_article_links": 12,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:37",
-        "CONTENT_SHORT_KO:3297"
       ],
       "score": 80,
       "status": "WARNING"

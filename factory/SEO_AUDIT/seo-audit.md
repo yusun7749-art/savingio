@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
-- Articles: 216
+- Articles: 215
 - PASS: 128
-- WARNING: 87
+- WARNING: 86
 - FAIL: 1
-- Average score: 86.7
+- Average score: 86.8
 - Thin content (<2500 Korean chars): 28
-- Short content (<4500 Korean chars): 178
+- Short content (<4500 Korean chars): 177
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -67,7 +67,6 @@
 | 80 | WARNING | `articles/refrigerator-summer-electricity-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:27, CONTENT_SHORT_KO:3593 |
 | 80 | WARNING | `articles/revolving-cancellation-payoff.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3234 |
 | 80 | WARNING | `articles/salary-budget-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:11, CONTENT_SHORT_KO:3381 |
-| 80 | WARNING | `articles/salary-management-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:37, CONTENT_SHORT_KO:3297 |
 | 80 | WARNING | `articles/savings-maturity-auto-renewal.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3274 |
 | 80 | WARNING | `articles/simplified-vat-checklist.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:39, CONTENT_SHORT_KO:4003 |
 | 80 | WARNING | `articles/single-parent-support-benefits.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3597 |
@@ -100,3 +99,4 @@
 | 84 | WARNING | `articles/fan-aircon-combination-saving.html` | META_DESCRIPTION_LENGTH:37, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2929 |
 | 84 | WARNING | `articles/government-benefit-alert-2026.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:3642 |
 | 84 | WARNING | `articles/insurance-auto-pay-discount.html` | ARTICLE_SCHEMA_MISSING, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3168 |
+| 84 | WARNING | `articles/property-tax-bill-checklist-2026.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:3893 |
