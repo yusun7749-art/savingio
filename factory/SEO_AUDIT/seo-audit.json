@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 207,
-    "pass": 137,
-    "warning": 69,
+    "pass": 138,
+    "warning": 68,
     "fail": 1,
-    "average_score": 87.5,
+    "average_score": 87.6,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 161,
+    "short_under_4500_ko": 160,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -3874,31 +3874,30 @@
     {
       "path": "articles/property-tax-bill-checklist-2026.html",
       "url": "https://savingio.com/articles/property-tax-bill-checklist-2026.html",
-      "title": "2026년 7월 재산세 고지서 확인 체크리스트 | 세이빙이오(Savingio)",
-      "meta_description": "7월 재산세 고지서에서 과세대상, 소유지분, 주소, 세액, 납부기한을 확인하는 방법을 정리했습니다.",
+      "title": "재산세 고지서 확인 체크리스트 2026 | Savingio",
+      "meta_description": "2026년 재산세 고지서를 받았을 때 과세기준일, 납세의무자, 과세표준, 납부기간, 7월·9월 분할 고지, 이의신청과 납부 방법을 순서대로 확인하는 체크리스트입니다.",
       "canonical": "https://savingio.com/articles/property-tax-bill-checklist-2026.html",
       "h1": [
-        "2026년 7월 재산세 고지서 확인 체크리스트"
+        "재산세 고지서 확인 체크리스트 2026"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3893,
-      "words": 1402,
-      "internal_article_links": 39,
+      "h2_count": 20,
+      "h3_count": 8,
+      "korean_chars": 4874,
+      "words": 1622,
+      "internal_article_links": 7,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 4,
+      "jsonld_count": 1,
       "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "breadcrumb_schema": false,
+      "faq_schema": false,
+      "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:3893"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING"
       ],
-      "score": 84,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/property-tax-calculation-structure.html",
