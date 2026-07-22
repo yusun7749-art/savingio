@@ -3150,28 +3150,29 @@
     {
       "path": "articles/impulse-buying-control.html",
       "url": "https://savingio.com/articles/impulse-buying-control.html",
-      "title": "충동구매 줄이는 방법, 결제 전 24시간 규칙부터 시작하세요 | 세이빙이오(Savingio)",
-      "meta_description": "필요해서 산다고 생각했지만 결제 후 후회하는 일이 반복된다면 의지보다 구매 환경과 결제 절차를 바꿔야 합니다. 충동을 늦추고 실제 필요를 확인하는 방법을 정리했습니다.",
+      "title": "충동구매 줄이는 현실적인 방법, 결제 전 24시간 규칙부터 시작하세요 | 세이빙이오(Savingio)",
+      "meta_description": "충동구매를 줄이기 위해 결제 전 24시간 대기, 간편결제 해제, 구매 이유 점검, 자유지출 한도와 후회 기록을 적용하는 현실적인 방법을 정리했습니다.",
       "canonical": "https://savingio.com/articles/impulse-buying-control.html",
       "h1": [
-        "충동구매 줄이는 방법, 결제 전 24시간 규칙부터 시작하세요"
+        "충동구매 줄이는 현실적인 방법, 결제 전 24시간 규칙부터 시작하세요"
       ],
-      "h2_count": 14,
+      "h2_count": 17,
       "h3_count": 0,
-      "korean_chars": 3459,
-      "words": 1218,
-      "internal_article_links": 18,
+      "korean_chars": 2677,
+      "words": 985,
+      "internal_article_links": 12,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:3459"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:2677"
       ],
-      "score": 96,
+      "score": 92,
       "status": "PASS"
     },
     {
