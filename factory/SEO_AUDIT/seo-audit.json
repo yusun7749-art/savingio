@@ -6,7 +6,7 @@
     "fail": 1,
     "average_score": 86.1,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 193,
+    "short_under_4500_ko": 192,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -3376,26 +3376,26 @@
     {
       "path": "articles/lifelong-education-voucher-application.html",
       "url": "https://savingio.com/articles/lifelong-education-voucher-application.html",
-      "title": "평생교육바우처 신청 방법과 사용처 확인 | 세이빙이오(Savingio)",
-      "meta_description": "성인 학습자가 평생교육바우처 대상, 신청 절차, 카드 발급과 사용기관을 확인하는 방법을 정리했습니다.",
+      "title": "2026 평생교육이용권 신청 방법, 대상·사용처·카드 발급까지 | 세이빙이오(Savingio)",
+      "meta_description": "2026년 평생교육이용권 신청 대상, 일반·장애인·노인·AI·디지털 유형, 지역별 모집공고 확인법, 신청 절차, 카드 발급, 사용기관과 교재비 사용 기준까지 실제 순서대로 정리했습니다.",
       "canonical": "https://savingio.com/articles/lifelong-education-voucher-application.html",
       "h1": [
-        "평생교육바우처 신청 방법과 사용처 확인"
+        "2026 평생교육이용권 신청 방법, 대상·사용처·카드 발급까지"
       ],
-      "h2_count": 12,
-      "h3_count": 0,
-      "korean_chars": 2685,
-      "words": 915,
-      "internal_article_links": 15,
+      "h2_count": 22,
+      "h3_count": 4,
+      "korean_chars": 5225,
+      "words": 1763,
+      "internal_article_links": 6,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:2685"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
       "score": 96,
       "status": "PASS"
