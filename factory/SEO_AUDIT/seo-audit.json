@@ -1,12 +1,12 @@
 {
   "summary": {
-    "article_count": 214,
-    "pass": 128,
+    "article_count": 213,
+    "pass": 127,
     "warning": 85,
     "fail": 1,
     "average_score": 86.8,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 176,
+    "short_under_4500_ko": 175,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -3979,33 +3979,6 @@
       ],
       "score": 80,
       "status": "WARNING"
-    },
-    {
-      "path": "articles/phone-bill-saving.html",
-      "url": "https://savingio.com/articles/phone-bill-saving.html",
-      "title": "휴대폰 요금 줄이는 방법, 약정·결합·부가서비스부터 확인하세요 | 세이빙이오(Savingio)",
-      "meta_description": "통신요금 고지서를 읽는 법부터 요금제 조정, 선택약정, 가족결합, 부가서비스, 단말기 할부까지 휴대폰 요금을 실제로 줄이는 순서를 정리했습니다.",
-      "canonical": "https://savingio.com/articles/phone-bill-saving.html",
-      "h1": [
-        "휴대폰 요금 줄이는 방법, 약정·결합·부가서비스부터 확인하세요"
-      ],
-      "h2_count": 13,
-      "h3_count": 0,
-      "korean_chars": 3383,
-      "words": 1131,
-      "internal_article_links": 17,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [],
-      "warnings": [
-        "CONTENT_SHORT_KO:3383"
-      ],
-      "score": 96,
-      "status": "PASS"
     },
     {
       "path": "articles/property-tax-bill-checklist-2026.html",
