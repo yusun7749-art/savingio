@@ -1,12 +1,12 @@
 {
   "summary": {
-    "article_count": 210,
+    "article_count": 209,
     "pass": 126,
-    "warning": 83,
+    "warning": 82,
     "fail": 1,
     "average_score": 86.8,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 172,
+    "short_under_4500_ko": 171,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -5523,36 +5523,6 @@
         "DUPLICATE_SEO_SIGNAL"
       ],
       "score": 62,
-      "status": "WARNING"
-    },
-    {
-      "path": "articles/vat-final-return-july-2026.html",
-      "url": "https://savingio.com/articles/vat-final-return-july-2026.html",
-      "title": "2026년 7월 부가가치세 확정신고 대상과 준비서류 | 세이빙이오(Savingio)",
-      "meta_description": "7월 부가가치세 확정신고를 앞두고 대상자, 준비서류, 신고 순서를 한 번에 확인합니다.",
-      "canonical": "https://savingio.com/articles/vat-final-return-july-2026.html",
-      "h1": [
-        "2026년 7월 부가가치세 확정신고 대상과 준비서류"
-      ],
-      "h2_count": 13,
-      "h3_count": 4,
-      "korean_chars": 4002,
-      "words": 1432,
-      "internal_article_links": 39,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:48",
-        "CONTENT_SHORT_KO:4002"
-      ],
-      "score": 80,
       "status": "WARNING"
     },
     {
