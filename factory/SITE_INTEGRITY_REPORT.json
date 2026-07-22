@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3054,
-  "references_scanned": 63116,
+  "files_scanned": 3055,
+  "references_scanned": 63077,
   "counts": {
-    "broken_references": 1674,
+    "broken_references": 1671,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -653,34 +653,6 @@
       "reference": "/articles/vat-return-guide.html",
       "expected": [
         "articles/vat-return-guide.html"
-      ]
-    },
-    {
-      "source": "articles/government-benefit-alert-2026.html",
-      "reference": "/articles/energy-voucher-application-2026.html",
-      "expected": [
-        "articles/energy-voucher-application-2026.html"
-      ]
-    },
-    {
-      "source": "articles/government-benefit-alert-2026.html",
-      "reference": "/articles/energy-voucher-application.html",
-      "expected": [
-        "articles/energy-voucher-application.html"
-      ]
-    },
-    {
-      "source": "articles/government-benefits-warning.html",
-      "reference": "/articles/energy-voucher-application-2026.html",
-      "expected": [
-        "articles/energy-voucher-application-2026.html"
-      ]
-    },
-    {
-      "source": "articles/government-benefits-warning.html",
-      "reference": "/articles/energy-voucher-application.html",
-      "expected": [
-        "articles/energy-voucher-application.html"
       ]
     },
     {
@@ -2678,6 +2650,13 @@
       "reference": "/articles/how-to-check-hidden-refunds.html",
       "expected": [
         "articles/how-to-check-hidden-refunds.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/how-to-lower-phone-bill.html",
+      "expected": [
+        "articles/how-to-lower-phone-bill.html"
       ]
     },
     {
