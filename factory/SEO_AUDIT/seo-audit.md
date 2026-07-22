@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
-- Articles: 219
+- Articles: 218
 - PASS: 128
-- WARNING: 90
+- WARNING: 89
 - FAIL: 1
-- Average score: 86.6
+- Average score: 86.7
 - Thin content (<2500 Korean chars): 28
-- Short content (<4500 Korean chars): 181
+- Short content (<4500 Korean chars): 180
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -46,7 +46,6 @@
 | 80 | WARNING | `articles/government-benefits-warning.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:45, CONTENT_SHORT_KO:3525 |
 | 80 | WARNING | `articles/grocery-saving-tips.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:38, CONTENT_SHORT_KO:3178 |
 | 80 | WARNING | `articles/heating-bill-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:40, CONTENT_SHORT_KO:3245 |
-| 80 | WARNING | `articles/how-to-check-hidden-refunds.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:38, CONTENT_SHORT_KO:3168 |
 | 80 | WARNING | `articles/how-to-lower-phone-bill.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:39, CONTENT_SHORT_KO:3276 |
 | 80 | WARNING | `articles/how-to-save-electricity-bill.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:38, CONTENT_SHORT_KO:3578 |
 | 80 | WARNING | `articles/irs-tax-refund-status.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:40, CONTENT_SHORT_KO:3475 |
@@ -100,3 +99,4 @@
 | 84 | WARNING | `articles/basic-pension-application-guide.html` | THIN_CONTENT_KO:2033, BREADCRUMB_SCHEMA_MISSING |
 | 84 | WARNING | `articles/card-points-cashback-guide.html` | THIN_CONTENT_KO:2291, BREADCRUMB_SCHEMA_MISSING |
 | 84 | WARNING | `articles/duplicate-indemnity-insurance-check.html` | ARTICLE_SCHEMA_MISSING, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3096 |
+| 84 | WARNING | `articles/fan-aircon-combination-saving.html` | META_DESCRIPTION_LENGTH:37, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2929 |

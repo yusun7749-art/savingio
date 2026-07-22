@@ -1,12 +1,12 @@
 {
   "summary": {
-    "article_count": 219,
+    "article_count": 218,
     "pass": 128,
-    "warning": 90,
+    "warning": 89,
     "fail": 1,
-    "average_score": 86.6,
+    "average_score": 86.7,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 181,
+    "short_under_4500_ko": 180,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -2922,36 +2922,6 @@
       ],
       "score": 92,
       "status": "PASS"
-    },
-    {
-      "path": "articles/how-to-check-hidden-refunds.html",
-      "url": "https://savingio.com/articles/how-to-check-hidden-refunds.html",
-      "title": "숨은 돈 찾기 단계별 가이드 | 세이빙이오(Savingio)",
-      "meta_description": "국세와 지방세, 보험, 통신비 등 숨은 환급금을 순서대로 확인합니다.",
-      "canonical": "https://savingio.com/articles/how-to-check-hidden-refunds.html",
-      "h1": [
-        "숨은 돈 찾기 단계별 가이드"
-      ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3168,
-      "words": 1135,
-      "internal_article_links": 20,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:38",
-        "CONTENT_SHORT_KO:3168"
-      ],
-      "score": 80,
-      "status": "WARNING"
     },
     {
       "path": "articles/how-to-lower-phone-bill.html",
