@@ -4,7 +4,7 @@
     "pass": 118,
     "warning": 104,
     "fail": 1,
-    "average_score": 86.1,
+    "average_score": 86.0,
     "thin_under_2500_ko": 27,
     "short_under_4500_ko": 198,
     "missing_meta": 0,
@@ -2684,24 +2684,26 @@
       "h1": [
         "식비 줄이는 현실적인 방법, 장보기 전부터 냉장고까지 바꾸세요"
       ],
-      "h2_count": 17,
+      "h2_count": 12,
       "h3_count": 0,
-      "korean_chars": 2453,
-      "words": 924,
-      "internal_article_links": 9,
+      "korean_chars": 1188,
+      "words": 439,
+      "internal_article_links": 5,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
+      "jsonld_count": 0,
+      "article_schema": false,
       "breadcrumb_schema": false,
-      "faq_schema": true,
+      "faq_schema": false,
       "issues": [
-        "THIN_CONTENT_KO:2453"
+        "THIN_CONTENT_KO:1188"
       ],
       "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING"
+        "ARTICLE_SCHEMA_MISSING",
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING"
       ],
-      "score": 84,
+      "score": 76,
       "status": "WARNING"
     },
     {
