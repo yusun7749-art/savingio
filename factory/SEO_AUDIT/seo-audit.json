@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 223,
-    "pass": 124,
-    "warning": 98,
+    "pass": 125,
+    "warning": 97,
     "fail": 1,
-    "average_score": 86.2,
+    "average_score": 86.3,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 190,
+    "short_under_4500_ko": 189,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -253,31 +253,28 @@
       "path": "articles/apartment-leak-emergency-response.html",
       "url": "https://savingio.com/articles/apartment-leak-emergency-response.html",
       "title": "아랫집 누수 연락을 받았을 때, 윗집이 바로 할 일 | 세이빙이오",
-      "meta_description": "아랫집에서 물이 샌다는 연락을 받았다면 책임을 따지기 전에 물 사용을 멈추고 현장을 남겨야 합니다. 관리사무소·집주인·보험사에 알리는 순서와 원인별 대응까지 정리했습니다.",
+      "meta_description": "아랫집 누수 연락을 받은 직후 물 사용 중지, 전기 안전, 관리사무소 연락, 현장 증거, 원인 확인, 보험 접수와 피해 복구까지 실제 대응 순서로 정리했습니다.",
       "canonical": "https://savingio.com/articles/apartment-leak-emergency-response.html",
       "h1": [
         "아랫집 누수 연락을 받았을 때, 윗집이 바로 할 일"
       ],
-      "h2_count": 12,
+      "h2_count": 19,
       "h3_count": 0,
-      "korean_chars": 3580,
-      "words": 1259,
+      "korean_chars": 4712,
+      "words": 1644,
       "internal_article_links": 6,
-      "images": 1,
+      "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 0,
-      "article_schema": false,
+      "jsonld_count": 2,
+      "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": false,
+      "faq_schema": true,
       "issues": [],
       "warnings": [
-        "ARTICLE_SCHEMA_MISSING",
-        "BREADCRUMB_SCHEMA_MISSING",
-        "FAQ_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3580"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 84,
-      "status": "WARNING"
+      "score": 96,
+      "status": "PASS"
     },
     {
       "path": "articles/apartment-management-fee-summer.html",
