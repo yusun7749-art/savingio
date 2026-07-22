@@ -3764,27 +3764,28 @@
       "path": "articles/overdraft-account-guide.html",
       "url": "https://savingio.com/articles/overdraft-account-guide.html",
       "title": "마이너스통장 사용 시 주의사항 | 세이빙이오(Savingio)",
-      "meta_description": "마이너스통장의 이자 계산 방식과 한도 관리, 만기 연장 전 확인할 항목을 실제 사용 순서에 맞춰 정리했습니다.",
+      "meta_description": "마이너스통장 이자 계산, 한도 관리, 만기 연장, 일반 신용대출과의 차이, 연체 위험과 상환 순서를 실제 사용 상황에 맞춰 정리했습니다.",
       "canonical": "https://savingio.com/articles/overdraft-account-guide.html",
       "h1": [
         "마이너스통장 사용 시 주의사항"
       ],
-      "h2_count": 14,
-      "h3_count": 0,
-      "korean_chars": 2740,
-      "words": 957,
-      "internal_article_links": 16,
+      "h2_count": 18,
+      "h3_count": 1,
+      "korean_chars": 3526,
+      "words": 1188,
+      "internal_article_links": 11,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:2740"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3526"
       ],
-      "score": 96,
+      "score": 92,
       "status": "PASS"
     },
     {
