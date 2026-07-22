@@ -6,7 +6,7 @@
     "fail": 1,
     "average_score": 86.5,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 186,
+    "short_under_4500_ko": 185,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -1995,30 +1995,28 @@
     {
       "path": "articles/energy-voucher-2026-application.html",
       "url": "https://savingio.com/articles/energy-voucher-2026-application.html",
-      "title": "2026년 에너지바우처 신청 방법과 공식 일정 확인 | 세이빙이오(Savingio)",
-      "meta_description": "2026년 에너지바우처 신청기간, 지원대상 확인 기준, 복지로 온라인 신청과 주민센터 방문 신청 방법을 정리했습니다.",
+      "title": "2026 에너지바우처 신청 대상과 금액, 사용기간까지 한 번에 | Savingio",
+      "meta_description": "2026년 에너지바우처 신청 대상, 세대원 특성기준, 세대별 지원금액, 신청기간, 하절기·동절기 사용기간, 요금차감과 국민행복카드 선택, 이사·세대원 변경 재신청까지 실제 순서대로 정리했습니다.",
       "canonical": "https://savingio.com/articles/energy-voucher-2026-application.html",
       "h1": [
-        "2026년 에너지바우처 신청 방법과 공식 일정 확인"
+        "2026 에너지바우처 신청 대상과 금액, 사용기간까지 한 번에"
       ],
-      "h2_count": 17,
+      "h2_count": 29,
       "h3_count": 7,
-      "korean_chars": 3583,
-      "words": 1165,
-      "internal_article_links": 11,
+      "korean_chars": 5576,
+      "words": 1824,
+      "internal_article_links": 8,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 1,
+      "jsonld_count": 2,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": false,
+      "faq_schema": true,
       "issues": [],
       "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING",
-        "FAQ_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3583"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 88,
+      "score": 96,
       "status": "PASS"
     },
     {
