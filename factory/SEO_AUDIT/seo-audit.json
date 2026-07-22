@@ -6,7 +6,7 @@
     "fail": 1,
     "average_score": 87.4,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 164,
+    "short_under_4500_ko": 163,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -3792,16 +3792,16 @@
       "path": "articles/parental-benefit-guide.html",
       "url": "https://savingio.com/articles/parental-benefit-guide.html",
       "title": "부모급여 신청 방법, 출생 후 놓치지 말아야 할 확인 순서 | 세이빙이오(Savingio)",
-      "meta_description": "2026년 부모급여 대상과 월 지급액, 출생 후 60일 신청기한, 복지로·정부24·주민센터 신청 방법, 어린이집 이용 시 지급 방식과 계좌 변경까지 실제 순서대로 정리했습니다.",
+      "meta_description": "2026년 부모급여 대상과 월 지급액, 출생 후 60일 신청기한, 복지로·정부24·주민센터 신청 방법, 어린이집 이용 시 지급 방식과 지급 누락 확인 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/parental-benefit-guide.html",
       "h1": [
         "부모급여 신청 방법, 출생 후 놓치지 말아야 할 확인 순서"
       ],
-      "h2_count": 10,
-      "h3_count": 4,
-      "korean_chars": 3117,
-      "words": 1076,
-      "internal_article_links": 6,
+      "h2_count": 14,
+      "h3_count": 11,
+      "korean_chars": 5854,
+      "words": 2001,
+      "internal_article_links": 8,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 3,
@@ -3809,10 +3809,8 @@
       "breadcrumb_schema": true,
       "faq_schema": true,
       "issues": [],
-      "warnings": [
-        "CONTENT_SHORT_KO:3117"
-      ],
-      "score": 96,
+      "warnings": [],
+      "score": 100,
       "status": "PASS"
     },
     {
