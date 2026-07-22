@@ -31,6 +31,7 @@
 }
 #savingio-brain-nav:before{content:'';position:absolute;inset:0 0 auto;height:5px;background:linear-gradient(90deg,var(--sbn-brand),var(--sbn-gold));pointer-events:none;z-index:2}
 #savingio-brain-nav>*{position:relative;z-index:1;box-sizing:border-box}
+.sbn-popular{display:none!important}
 .sbn-head{padding:25px 20px 15px;border-bottom:1px solid rgba(117,96,67,.10)}
 .sbn-head:before{content:'SAVINGIO GUIDE';display:block;margin-bottom:8px;color:var(--sbn-gold);font-family:Georgia,"Times New Roman",serif;font-size:10px;font-weight:700;letter-spacing:.16em}
 .sbn-head strong{display:block;color:var(--sbn-brand);font-family:"Noto Serif KR",Georgia,serif;font-size:21px;line-height:1.38;letter-spacing:-.65px;font-weight:700}
