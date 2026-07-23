@@ -1,6 +1,6 @@
 (async()=>{
 'use strict';
-const VERSION='20260723-master17';
+const VERSION='20260723-master18';
 const CATEGORIES=['금융','생활비 절약','정부혜택','세금·환급','직장·급여','자동차·교통','연금·노후','아이·교육','주거','생활정보'];
 const RULES=[
  ['아이·교육',['아이','어린이','아동','자녀','육아','교육','학교','학원','돌봄']],
@@ -77,6 +77,7 @@ if(!window.SavingioTemplateEngine)await addScript(`/js/savingio-template-engine.
 if(/^\/articles\/(?!$|index(?:\.html)?$)/.test(location.pathname)){
  if(!window.SavingioContentDNAEngine)await addScript(`/js/savingio-content-dna-engine.js?v=${VERSION}`,'savingioContentDNAEngine');else window.SavingioContentDNAEngine.install();
  if(!window.SavingioLinkEngine)await addScript(`/js/savingio-link-engine.js?v=${VERSION}`,'savingioLinkEngine');else window.SavingioLinkEngine.install();
+ if(!window.SavingioQAEngine)await addScript(`/js/savingio-qa-engine.js?v=${VERSION}`,'savingioQaEngine');else window.SavingioQAEngine.install();
 }
 const {grid,records}=collectDirectory();const controller=initDirectory(grid,records);await initExplorer(records,controller);
 })();
