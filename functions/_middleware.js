@@ -28,13 +28,16 @@ export async function onRequest(context) {
 
   if (isAdminPage && url.searchParams.has('pair')) {
     const pairing = await verifySignedPayload(url.searchParams.get('pair'), env.ADMIN_DEVICE_SECRET);
-    if (!pairing || pairing.type !== 'device-pairing') {
-      return new Response(loginPage('QR이 만료되었거나 올바르지 않습니다. 컴퓨터 HQ에서 새 QR을 만들어주세요.'), {
+    const pairingKey = pairing?.pairingId ? `pairing:${pairing.pairingId}` : '';
+    const storedPairing = pairingKey && env.ADMIN_SECURITY_KV ? await env.ADMIN_SECURITY_KV.get(pairingKey) : null;
+    if (!pairing || pairing.type !== 'device-pairing' || !storedPairing) {
+      return new Response(loginPage('QR이 이미 사용되었거나 만료되었습니다. 컴퓨터 HQ에서 새 QR을 만들어주세요.'), {
         status: 401,
         headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' }
       });
     }
 
+    await env.ADMIN_SECURITY_KV.delete(pairingKey);
     const token = await createTrustedDeviceToken(env, { name: pairing.requestedName || '내 휴대폰' });
     const cleanUrl = new URL('/admin/', request.url);
     return new Response(null, {
