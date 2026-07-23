@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3113,
-  "references_scanned": 62788,
+  "references_scanned": 62789,
   "counts": {
-    "broken_references": 1730,
+    "broken_references": 1731,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -45,6 +45,13 @@
         "admin/stop",
         "admin/stop.html",
         "admin/stop/index.html"
+      ]
+    },
+    {
+      "source": "admin/index.html",
+      "reference": "/admin/device-manager.js",
+      "expected": [
+        "admin/device-manager.js"
       ]
     },
     {
