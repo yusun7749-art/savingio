@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3101,
-  "references_scanned": 62770,
+  "references_scanned": 62767,
   "counts": {
-    "broken_references": 1728,
+    "broken_references": 1724,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -1697,42 +1697,6 @@
       "reference": "/articles/subscription-cleanup.html",
       "expected": [
         "articles/subscription-cleanup.html"
-      ]
-    },
-    {
-      "source": "captain-hq/admin.js",
-      "reference": "approve",
-      "expected": [
-        "captain-hq/approve",
-        "captain-hq/approve.html",
-        "captain-hq/approve/index.html"
-      ]
-    },
-    {
-      "source": "captain-hq/admin.js",
-      "reference": "preview",
-      "expected": [
-        "captain-hq/preview",
-        "captain-hq/preview.html",
-        "captain-hq/preview/index.html"
-      ]
-    },
-    {
-      "source": "captain-hq/admin.js",
-      "reference": "retry",
-      "expected": [
-        "captain-hq/retry",
-        "captain-hq/retry.html",
-        "captain-hq/retry/index.html"
-      ]
-    },
-    {
-      "source": "captain-hq/admin.js",
-      "reference": "stop",
-      "expected": [
-        "captain-hq/stop",
-        "captain-hq/stop.html",
-        "captain-hq/stop/index.html"
       ]
     },
     {
