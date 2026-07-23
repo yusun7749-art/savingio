@@ -4,8 +4,8 @@ const INDEX_KEY = 'content-actions:index';
 const STATUS_PREFIX = 'content-status:';
 const ACTION_PREFIX = 'content-action:';
 const BACKUP_PREFIX = 'content-backup:';
-const ALLOWED_ACTIONS = new Set(['rewrite', 'hold', 'approve', 'hide', 'delete']);
-const SAFE_PATH = /^\/articles\/[a-z0-9][a-z0-9-]*$/i;
+const ALLOWED_ACTIONS = new Set(['rewrite', 'hold', 'approve', 'hide', 'delete', 'merge']);
+const SAFE_PATH = /^\/articles\/[a-z0-9][a-z0-9-]*(?:\.html)?$/i;
 
 function json(data, status = 200) {
   return Response.json(data, { status, headers: { 'Cache-Control': 'no-store' } });
@@ -41,72 +41,77 @@ function extractSourceMeta(html, path) {
 
 function buildRewritePlan(article, source) {
   const missing = Array.isArray(article.missing) ? article.missing.map(String).slice(0, 40) : [];
-  const requiredFlow = [
-    'Lead', '작성·검수', '5초 결론', '30초 질문', '지금 해야 할 행동', '목차',
-    '상세 본문', '비교표', '체크리스트·내 상황 찾기', '사례', '보험·제도·법률',
-    '계산기·공식기관', 'FAQ', '문제 해결 사슬형 관련 글', 'Footer'
-  ];
+  const requiredFlow = ['Lead', '작성·검수', '5초 결론', '30초 질문', '지금 해야 할 행동', '목차', '상세 본문', '비교표', '체크리스트·내 상황 찾기', '사례', '보험·제도·법률', '계산기·공식기관', 'FAQ', '문제 해결 사슬형 관련 글', 'Footer'];
   return {
     mode: 'constitution_rewrite',
-    preserve: {
-      path: source.path,
-      slug: source.path.split('/').pop(),
-      h1: source.title || article.title,
-      canonical: source.canonical,
-      category: article.category || null
-    },
-    current: {
-      score: Number.isFinite(Number(article.score)) ? Number(article.score) : null,
-      textLength: source.textLength,
-      missing
-    },
-    target: {
-      minimumTextLength: 5000,
-      expectedScore: 95,
-      requiredFlow,
-      rightRailCards: 5,
-      requireTable: true,
-      requireChecklist: true,
-      requireFaq: true,
-      requireOfficialSourceCheck: true,
-      requireRelatedArticleChain: true
-    },
-    safety: {
-      overwriteBlocked: true,
-      humanApprovalRequired: true,
-      urlChangeBlocked: true,
-      h1ChangeBlocked: true,
-      publisherLockRequired: true
-    }
+    preserve: { path: source.path, slug: source.path.split('/').pop(), h1: source.title || article.title, canonical: source.canonical, category: article.category || null },
+    current: { score: Number.isFinite(Number(article.score)) ? Number(article.score) : null, textLength: source.textLength, missing },
+    target: { minimumTextLength: 5000, expectedScore: 95, requiredFlow, rightRailCards: 5, requireTable: true, requireChecklist: true, requireFaq: true, requireOfficialSourceCheck: true, requireRelatedArticleChain: true },
+    safety: { overwriteBlocked: true, humanApprovalRequired: true, urlChangeBlocked: true, h1ChangeBlocked: true, publisherLockRequired: true }
   };
 }
 
-async function prepareRewrite(context, record) {
-  const sourceUrl = new URL(record.article.path, context.request.url).toString();
+async function fetchAndBackup(context, path, title, reason) {
+  const sourceUrl = new URL(path, context.request.url).toString();
   const response = await fetch(sourceUrl, { headers: { 'User-Agent': 'Savingio-Admin-Doctor/1.0' } });
-  if (!response.ok) throw new Error(`기존 글을 읽지 못했습니다. HTTP ${response.status}`);
+  if (!response.ok) throw new Error(`${path} 원본을 읽지 못했습니다. HTTP ${response.status}`);
   const html = await response.text();
-  const source = extractSourceMeta(html, record.article.path);
+  const source = extractSourceMeta(html, path);
   const backupId = `${Date.now()}-${crypto.randomUUID().slice(0, 8)}`;
   const sourceHash = await sha256(html);
-  const backup = {
-    id: backupId,
-    path: record.article.path,
-    title: source.title || record.article.title,
-    sourceHash,
-    html,
-    createdAt: new Date().toISOString(),
-    reason: 'constitution_rewrite'
-  };
-  await context.env.ADMIN_SECURITY_KV.put(`${BACKUP_PREFIX}${backupId}`, JSON.stringify(backup), {
-    expirationTtl: 60 * 60 * 24 * 90
-  });
-  record.backupId = backupId;
-  record.sourceHash = sourceHash;
-  record.source = source;
-  record.rewritePlan = buildRewritePlan(record.article, source);
+  const backup = { id: backupId, path, title: source.title || title, sourceHash, html, createdAt: new Date().toISOString(), reason };
+  await context.env.ADMIN_SECURITY_KV.put(`${BACKUP_PREFIX}${backupId}`, JSON.stringify(backup), { expirationTtl: 60 * 60 * 24 * 90 });
+  return { backupId, sourceHash, source };
+}
+
+async function prepareRewrite(context, record) {
+  const backup = await fetchAndBackup(context, record.article.path, record.article.title, 'constitution_rewrite');
+  record.backupId = backup.backupId;
+  record.sourceHash = backup.sourceHash;
+  record.source = backup.source;
+  record.rewritePlan = buildRewritePlan(record.article, backup.source);
   record.state = 'review_ready';
   record.nextStatus = 'rewrite_review';
+  record.preparedAt = new Date().toISOString();
+  record.safety.backupCreated = true;
+  return record;
+}
+
+async function prepareDuplicateAction(context, record, representative) {
+  const sourceBackup = await fetchAndBackup(context, record.article.path, record.article.title, record.action === 'merge' ? 'duplicate_merge_source' : 'duplicate_delete_source');
+  record.backupId = sourceBackup.backupId;
+  record.sourceHash = sourceBackup.sourceHash;
+  record.source = sourceBackup.source;
+
+  if (record.action === 'merge') {
+    if (!representative.path || representative.path === record.article.path) throw new Error('통합 대상과 다른 대표 URL이 필요합니다.');
+    const targetBackup = await fetchAndBackup(context, representative.path, representative.title, 'duplicate_merge_representative');
+    record.representative = { ...representative, backupId: targetBackup.backupId, sourceHash: targetBackup.sourceHash, source: targetBackup.source };
+    record.mergePlan = {
+      mode: 'duplicate_merge',
+      sourcePath: record.article.path,
+      representativePath: representative.path,
+      preserveRepresentativeUrl: true,
+      extractUsefulSections: ['본문 핵심 정보', '표', '체크리스트', 'FAQ', '공식기관 링크', '관련글'],
+      afterApproval: ['대표글 내용 통합', '내부링크 대표 URL로 교체', '소스 URL 리디렉션 또는 제거', '사이트맵 정리', '배포 후 URL 검증'],
+      destructiveWriteBlocked: true,
+      humanApprovalRequired: true
+    };
+    record.nextStatus = 'merge_review';
+  } else {
+    record.representative = representative.path ? representative : null;
+    record.deletePlan = {
+      mode: 'duplicate_delete',
+      sourcePath: record.article.path,
+      representativePath: representative.path || null,
+      beforeDelete: ['내부링크 영향도 확인', '대표 URL 연결 확인', '사이트맵 제거 계획 확인', '백업 복구 가능 여부 확인'],
+      destructiveWriteBlocked: true,
+      humanApprovalRequired: true
+    };
+    record.nextStatus = 'delete_review';
+  }
+
+  record.state = 'review_ready';
   record.preparedAt = new Date().toISOString();
   record.safety.backupCreated = true;
   return record;
@@ -117,14 +122,9 @@ export async function onRequestGet(context) {
   const device = await getAdminDevice(request, env);
   if (!device) return json({ ok: false, error: '신뢰된 관리자 기기에서만 사용할 수 있습니다.' }, 401);
   if (!env.ADMIN_SECURITY_KV) return json({ ok: false, error: 'ADMIN_SECURITY_KV 저장소가 연결되어 있지 않습니다.' }, 503);
-
   const url = new URL(request.url);
   const path = normalizePath(url.searchParams.get('path'));
-  if (path) {
-    const status = await env.ADMIN_SECURITY_KV.get(`${STATUS_PREFIX}${path}`) || 'published';
-    return json({ ok: true, path, status });
-  }
-
+  if (path) return json({ ok: true, path, status: await env.ADMIN_SECURITY_KV.get(`${STATUS_PREFIX}${path}`) || 'published' });
   const index = await readIndex(env.ADMIN_SECURITY_KV);
   const actions = [];
   for (const item of index.slice(0, 100)) {
@@ -141,52 +141,41 @@ export async function onRequestPost(context) {
   if (!env.ADMIN_SECURITY_KV) return json({ ok: false, error: 'ADMIN_SECURITY_KV 저장소가 연결되어 있지 않습니다.' }, 503);
 
   let body = {};
-  try { body = await request.json(); } catch {
-    return json({ ok: false, error: '요청 내용을 읽을 수 없습니다.' }, 400);
-  }
+  try { body = await request.json(); } catch { return json({ ok: false, error: '요청 내용을 읽을 수 없습니다.' }, 400); }
 
   const action = String(body.action || '').trim();
   const article = body.article || {};
   const path = normalizePath(article.path);
   const title = String(article.title || '').trim().slice(0, 240);
+  const representativeInput = body.representative || {};
+  const representative = {
+    path: normalizePath(representativeInput.path),
+    title: String(representativeInput.title || '').trim().slice(0, 240),
+    score: Number.isFinite(Number(representativeInput.score)) ? Number(representativeInput.score) : null
+  };
+
   if (!ALLOWED_ACTIONS.has(action)) return json({ ok: false, error: '지원하지 않는 작업입니다.' }, 400);
   if (!path || !title) return json({ ok: false, error: '유효한 글 경로와 제목이 필요합니다.' }, 400);
+  if (action === 'merge' && (!representative.path || !representative.title)) return json({ ok: false, error: '통합할 대표 글 정보가 필요합니다.' }, 400);
 
   const now = new Date().toISOString();
   const id = `${Date.now()}-${crypto.randomUUID().slice(0, 8)}`;
-  const nextStatus = ({
-    rewrite: 'rewrite_pending', hold: 'hold', approve: 'approved', hide: 'hide_pending', delete: 'delete_pending'
-  })[action];
+  const nextStatus = ({ rewrite: 'rewrite_pending', hold: 'hold', approve: 'approved', hide: 'hide_pending', delete: 'delete_pending', merge: 'merge_pending' })[action];
 
   let record = {
-    id,
-    action,
-    state: 'queued',
-    nextStatus,
-    article: {
-      path,
-      title,
-      category: String(article.category || '').slice(0, 120),
-      score: Number.isFinite(Number(article.score)) ? Number(article.score) : null,
-      missing: Array.isArray(article.missing) ? article.missing.slice(0, 40).map(String) : []
-    },
+    id, action, state: 'queued', nextStatus,
+    article: { path, title, category: String(article.category || '').slice(0, 120), score: Number.isFinite(Number(article.score)) ? Number(article.score) : null, missing: Array.isArray(article.missing) ? article.missing.slice(0, 40).map(String) : [], duplicateGroup: String(article.duplicateGroup || '').slice(0, 40) },
     requestedAt: now,
     requestedBy: { deviceId: device.deviceId || null, name: device.name || '신뢰된 관리자 기기' },
-    safety: {
-      requiresBackup: ['rewrite', 'hide', 'delete'].includes(action),
-      requiresFinalApproval: ['rewrite', 'hide', 'delete'].includes(action),
-      destructiveWritePerformed: false,
-      backupCreated: false
-    }
+    safety: { requiresBackup: ['rewrite', 'hide', 'delete', 'merge'].includes(action), requiresFinalApproval: ['rewrite', 'hide', 'delete', 'merge'].includes(action), destructiveWritePerformed: false, backupCreated: false }
   };
 
-  if (action === 'rewrite') {
-    try {
-      record = await prepareRewrite(context, record);
-    } catch (error) {
-      record.state = 'preparation_failed';
-      record.error = error.message;
-    }
+  try {
+    if (action === 'rewrite') record = await prepareRewrite(context, record);
+    if (action === 'merge' || action === 'delete') record = await prepareDuplicateAction(context, record, representative);
+  } catch (error) {
+    record.state = 'preparation_failed';
+    record.error = error.message;
   }
 
   await env.ADMIN_SECURITY_KV.put(`${ACTION_PREFIX}${id}`, JSON.stringify(record), { expirationTtl: 60 * 60 * 24 * 90 });
@@ -196,13 +185,12 @@ export async function onRequestPost(context) {
   await env.ADMIN_SECURITY_KV.put(`${STATUS_PREFIX}${path}`, record.nextStatus);
 
   const messages = {
-    rewrite: record.state === 'review_ready'
-      ? '기존 글 백업과 헌법 수정 설계가 완료되었습니다. 검토 화면에서 보존 항목과 수정 계획을 확인하세요.'
-      : `수정 준비 중 오류가 발생했습니다: ${record.error || '원인 불명'}`,
+    rewrite: record.state === 'review_ready' ? '기존 글 백업과 헌법 수정 설계가 완료되었습니다. 검토 화면에서 확인하세요.' : `수정 준비 중 오류가 발생했습니다: ${record.error || '원인 불명'}`,
     hold: '보류 상태를 서버에 저장했습니다.',
     approve: '승인 상태를 서버에 저장했습니다. 배포 실행은 별도 배포 엔진 연결 후 진행됩니다.',
     hide: '숨김 요청을 대기열에 등록했습니다. 실제 페이지는 아직 숨겨지지 않았습니다.',
-    delete: '삭제 요청을 대기열에 등록했습니다. 백업과 최종 승인 전에는 삭제되지 않습니다.'
+    merge: record.state === 'review_ready' ? '대표글과 통합 대상 글의 원본 백업을 완료하고 통합 검토 작업을 등록했습니다. 아직 실제 통합·삭제는 실행되지 않았습니다.' : `통합 준비 중 오류가 발생했습니다: ${record.error || '원인 불명'}`,
+    delete: record.state === 'review_ready' ? '삭제 후보 원본 백업을 완료하고 삭제 검토 작업을 등록했습니다. 최종 승인 전에는 실제 삭제되지 않습니다.' : `삭제 준비 중 오류가 발생했습니다: ${record.error || '원인 불명'}`
   };
 
   return json({ ok: true, actionId: id, status: record.nextStatus, state: record.state, record, message: messages[action] }, 202);
