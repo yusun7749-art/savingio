@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3103,
-  "references_scanned": 62770,
+  "files_scanned": 3108,
+  "references_scanned": 62778,
   "counts": {
-    "broken_references": 1724,
+    "broken_references": 1727,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -11598,6 +11598,31 @@
         "factory/templates/{{CANONICAL_URL}}",
         "factory/templates/{{CANONICAL_URL}}.html",
         "factory/templates/{{CANONICAL_URL}}/index.html"
+      ]
+    },
+    {
+      "source": "functions/_lib/admin-auth.js",
+      "reference": "await hmac(secret, body",
+      "expected": [
+        "functions/_lib/await hmac(secret, body",
+        "functions/_lib/await hmac(secret, body.html",
+        "functions/_lib/await hmac(secret, body/index.html"
+      ]
+    },
+    {
+      "source": "functions/_lib/admin-auth.js",
+      "reference": "bytes",
+      "expected": [
+        "functions/_lib/bytes",
+        "functions/_lib/bytes.html",
+        "functions/_lib/bytes/index.html"
+      ]
+    },
+    {
+      "source": "functions/_lib/admin-auth.js",
+      "reference": "encoder.encode(value",
+      "expected": [
+        "functions/_lib/encoder.encode(value"
       ]
     },
     {
