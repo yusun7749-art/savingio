@@ -1,7 +1,6 @@
-@import url('/css/savingio-platform-navigation.css?v=20260723-master5');
+@import url('/css/savingio-platform-navigation.css?v=20260723-master23');
+@import url('/css/savingio-explorer-lock.css?v=20260723-master23');
 /*
  Savingio Explorer compatibility entry point.
- Header, Explorer, layout and typography are owned only by
- /css/savingio-master-template.css.
- This file intentionally contains no duplicate visual rules.
+ All pages load one locked Explorer/search/tree design.
 */
