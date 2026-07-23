@@ -32,14 +32,6 @@ export async function onRequestPost(context) {
     return Response.json({ ok: false, error: '신뢰된 기기에서만 QR을 만들 수 있습니다.' }, { status: 401 });
   }
 
-  if (!env.ADMIN_DEVICE_SECRET) {
-    return Response.json({
-      ok: false,
-      error: '휴대폰 연결 보안키가 없습니다. ADMIN_DEVICE_SECRET을 확인해 주세요.',
-      code: 'PAIRING_SECRET_NOT_CONFIGURED'
-    }, { status: 503, headers: { 'Cache-Control': 'no-store' } });
-  }
-
   let body = {};
   try { body = await request.json(); } catch {}
   const requestedName = String(body.requestedName || '내 휴대폰').slice(0, 60);
