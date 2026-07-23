@@ -4,6 +4,7 @@
   let selected = projects[0]?.id;
   let filter = 'all';
   let qrTimer = null;
+  let activePairingId = '';
 
   const $ = selector => document.querySelector(selector);
   const esc = value => String(value).replace(/[&<>'"]/g, char => ({
@@ -124,6 +125,30 @@
     qrTimer = null;
   }
 
+  function clearQrUi(message = '') {
+    stopQrTimer();
+    $('#qrCode').innerHTML = '';
+    $('#pairingLink').removeAttribute('href');
+    $('#qrCountdown').textContent = '';
+    $('#qrArea').hidden = true;
+    if (message) $('#securityMessage').textContent = message;
+  }
+
+  async function cancelActivePairing() {
+    const pairingId = activePairingId;
+    activePairingId = '';
+    clearQrUi();
+    if (!pairingId) return;
+    try {
+      await fetch('/api/admin/cancel-pairing', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ pairingId }),
+        keepalive: true
+      });
+    } catch {}
+  }
+
   async function generatePairingQr() {
     const button = $('#generateQrBtn');
     const message = $('#securityMessage');
@@ -131,7 +156,7 @@
     const qrCode = $('#qrCode');
     button.disabled = true;
     message.textContent = '안전한 일회용 QR을 만들고 있습니다…';
-    stopQrTimer();
+    await cancelActivePairing();
     try {
       const response = await fetch('/api/admin/pairing', {
         method: 'POST',
@@ -140,6 +165,7 @@
       });
       const result = await response.json();
       if (!response.ok) throw new Error(result.error || 'QR 생성에 실패했습니다.');
+      activePairingId = result.pairingId || '';
       qrCode.innerHTML = '';
       if (typeof window.QRCode !== 'function') throw new Error('QR 생성 모듈을 불러오지 못했습니다. 페이지를 새로고침해 주세요.');
       new window.QRCode(qrCode, { text: result.pairingUrl, width: 220, height: 220, correctLevel: window.QRCode.CorrectLevel.M });
@@ -152,18 +178,17 @@
         const seconds = String(remaining % 60).padStart(2, '0');
         $('#qrCountdown').textContent = `남은 시간 ${minutes}:${seconds}`;
         if (remaining <= 0) {
-          stopQrTimer();
+          cancelActivePairing();
           message.textContent = 'QR이 만료되었습니다. 새 QR을 만들어주세요.';
-          qrCode.innerHTML = '';
-          $('#pairingLink').removeAttribute('href');
+          return;
         }
         remaining -= 1;
       };
       updateCountdown();
       qrTimer = setInterval(updateCountdown, 1000);
     } catch (error) {
-      message.textContent = error.message;
-      qrArea.hidden = true;
+      activePairingId = '';
+      clearQrUi(error.message);
     } finally {
       button.disabled = false;
     }
@@ -221,8 +246,14 @@
       save(); renderStats(); renderProjects(); renderDetail();
     };
 
-    $('#securityBtn').onclick = async () => { $('#securityDialog').showModal(); await loadSecurityStatus(); };
-    $('#securityClose').onclick = () => { stopQrTimer(); $('#securityDialog').close(); };
+    const securityDialog = $('#securityDialog');
+    $('#securityBtn').onclick = async () => { securityDialog.showModal(); await loadSecurityStatus(); };
+    $('#securityClose').onclick = async () => { await cancelActivePairing(); securityDialog.close(); };
+    securityDialog.addEventListener('cancel', event => {
+      event.preventDefault();
+      cancelActivePairing().finally(() => securityDialog.close());
+    });
+    securityDialog.addEventListener('close', () => { cancelActivePairing(); });
     $('#generateQrBtn').onclick = generatePairingQr;
     $('#logoutDeviceBtn').onclick = logoutDevice;
 
