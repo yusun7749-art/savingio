@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3058,
-  "references_scanned": 62633,
+  "references_scanned": 62645,
   "counts": {
-    "broken_references": 1677,
+    "broken_references": 1687,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -2381,6 +2381,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/card-overseas-payment-fee.html",
+      "expected": [
+        "articles/card-overseas-payment-fee.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/card-payment-date-guide.html",
       "expected": [
         "articles/card-payment-date-guide.html"
@@ -2559,6 +2566,13 @@
       "reference": "/articles/financial-product-comparison-guide.html",
       "expected": [
         "articles/financial-product-comparison-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/flight-ticket-saving.html",
+      "expected": [
+        "articles/flight-ticket-saving.html"
       ]
     },
     {
@@ -2829,9 +2843,44 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/property-tax-appeal-guide.html",
+      "expected": [
+        "articles/property-tax-appeal-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/property-tax-check-payment-guide.html",
+      "expected": [
+        "articles/property-tax-check-payment-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/property-tax-overpayment-refund.html",
+      "expected": [
+        "articles/property-tax-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/property-tax-payment-guide.html",
       "expected": [
         "articles/property-tax-payment-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/property-tax-payment-methods.html",
+      "expected": [
+        "articles/property-tax-payment-methods.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/property-tax-refund-correction.html",
+      "expected": [
+        "articles/property-tax-refund-correction.html"
       ]
     },
     {
@@ -2930,6 +2979,20 @@
       "reference": "/articles/tenant-landlord-repair-responsibility.html",
       "expected": [
         "articles/tenant-landlord-repair-responsibility.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/travel-budget-planning.html",
+      "expected": [
+        "articles/travel-budget-planning.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/travel-insurance-claim-guide.html",
+      "expected": [
+        "articles/travel-insurance-claim-guide.html"
       ]
     },
     {
@@ -3399,6 +3462,13 @@
       "reference": "/categories/tax.html",
       "expected": [
         "categories/tax.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/categories/travel-living.html",
+      "expected": [
+        "categories/travel-living.html"
       ]
     },
     {
