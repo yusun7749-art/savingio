@@ -32,41 +32,29 @@ export async function onRequestPost(context) {
     return Response.json({ ok: false, error: '신뢰된 기기에서만 QR을 만들 수 있습니다.' }, { status: 401 });
   }
 
+  if (!env.ADMIN_DEVICE_SECRET || !env.ADMIN_SECURITY_KV) {
+    return Response.json({ ok: false, error: '휴대폰 연결용 보안 설정이 완료되지 않았습니다.' }, { status: 503 });
+  }
+
   let body = {};
   try { body = await request.json(); } catch {}
   const requestedName = String(body.requestedName || '내 휴대폰').slice(0, 60);
+  const token = await createPairingToken(env, requestedName);
+  const payload = await verifySignedPayload(token, env.ADMIN_DEVICE_SECRET);
 
-  if (env.ADMIN_DEVICE_SECRET && env.ADMIN_SECURITY_KV) {
-    const token = await createPairingToken(env, requestedName);
-    const payload = await verifySignedPayload(token, env.ADMIN_DEVICE_SECRET);
-    await env.ADMIN_SECURITY_KV.put(`pairing:${payload.pairingId}`, JSON.stringify({
-      requestedName,
-      createdBy: trustedDevice?.deviceId || 'bootstrap-primary-pc',
-      issuedAt: payload.issuedAt
-    }), { expirationTtl: 300 });
+  await env.ADMIN_SECURITY_KV.put(`pairing:${payload.pairingId}`, JSON.stringify({
+    requestedName,
+    createdBy: trustedDevice?.deviceId || 'bootstrap-primary-pc',
+    issuedAt: payload.issuedAt
+  }), { expirationTtl: 300 });
 
-    const url = new URL('/admin/', request.url);
-    url.searchParams.set('pair', token);
+  const url = new URL('/api/admin/consume-pair', request.url);
+  url.searchParams.set('token', token);
 
-    return Response.json({
-      ok: true,
-      pairingUrl: url.toString(),
-      expiresIn: 300,
-      requestedName
-    }, { headers: { 'Cache-Control': 'no-store' } });
-  }
-
-  if (bootstrapToken) {
-    const url = new URL('/admin/', request.url);
-    url.searchParams.set('setup', bootstrapToken);
-    return Response.json({
-      ok: true,
-      pairingUrl: url.toString(),
-      expiresIn: 300,
-      requestedName,
-      mode: 'bootstrap-fallback'
-    }, { headers: { 'Cache-Control': 'no-store' } });
-  }
-
-  return Response.json({ ok: false, error: '휴대폰 연결용 보안 설정이 완료되지 않았습니다.' }, { status: 503 });
+  return Response.json({
+    ok: true,
+    pairingUrl: url.toString(),
+    expiresIn: 300,
+    requestedName
+  }, { headers: { 'Cache-Control': 'no-store' } });
 }
