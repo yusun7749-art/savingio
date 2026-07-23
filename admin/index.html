@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>Savingio Admin HQ</title>
+  <link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><strong>Savingio</strong><span>ADMIN HQ</span></div>
+      <nav id="treeNav" aria-label="운영본부"></nav>
+      <div class="system-badge"><span class="dot"></span> 시스템 기본판</div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">비공개 운영본부</p>
+          <h1 id="pageTitle">통합 상황실</h1>
+        </div>
+        <div class="top-actions">
+          <button class="btn ghost" id="emergencyBtn">전체 중지</button>
+          <button class="btn primary" id="newProjectBtn">새 프로젝트</button>
+        </div>
+      </header>
+
+      <section class="notice" id="securityNotice">
+        <strong>보안 상태:</strong> 검색엔진 차단 헤더가 적용됩니다. 실제 로그인 차단은 Cloudflare Access 연결 단계에서 활성화합니다.
+      </section>
+
+      <section class="stats" id="stats"></section>
+
+      <section class="workspace-grid">
+        <div class="panel main-panel">
+          <div class="panel-head">
+            <div><p class="eyebrow">전체 프로그램 트리</p><h2>진행 중인 프로젝트</h2></div>
+            <div class="filters"><button class="chip active" data-filter="all">전체</button><button class="chip" data-filter="approval">승인대기</button><button class="chip" data-filter="error">오류</button></div>
+          </div>
+          <div id="projectList" class="project-list"></div>
+        </div>
+
+        <aside class="panel detail-panel" id="detailPanel">
+          <p class="empty">왼쪽 프로젝트를 선택하면 분석·상품·글·영상·배포 상태가 한 화면에 표시됩니다.</p>
+        </aside>
+      </section>
+
+      <section class="panel department-panel">
+        <div class="panel-head"><div><p class="eyebrow">확장형 기본 틀</p><h2 id="departmentTitle">부서별 작업판</h2></div></div>
+        <div id="departmentBoard" class="department-board"></div>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="projectDialog">
+    <form method="dialog" id="projectForm">
+      <h2>새 프로젝트 추가</h2>
+      <label>프로젝트명<input name="title" required placeholder="예: 40대 주름크림"></label>
+      <label>대분류<select name="category"><option>생활비</option><option>보험</option><option>뷰티</option><option>건강</option><option>자동차</option></select></label>
+      <label>콘텐츠 유형<select name="type"><option>통합 캠페인</option><option>상품</option><option>글</option><option>쇼츠</option><option>SNS</option></select></label>
+      <div class="dialog-actions"><button class="btn ghost" value="cancel">취소</button><button class="btn primary" value="default">추가</button></div>
+    </form>
+  </dialog>
+
+  <script src="/admin/admin-data.js"></script>
+  <script src="/admin/admin.js"></script>
+</body>
+</html>
