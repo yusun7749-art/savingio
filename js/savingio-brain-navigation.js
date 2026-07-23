@@ -1,6 +1,6 @@
 (async()=>{
 'use strict';
-const VERSION='20260723-master14';
+const VERSION='20260723-master15';
 const CATEGORIES=['금융','생활비 절약','정부혜택','세금·환급','직장·급여','자동차·교통','연금·노후','아이·교육','주거','생활정보'];
 const RULES=[
  ['아이·교육',['아이','어린이','아동','자녀','육아','교육','학교','학원','돌봄']],
@@ -23,8 +23,8 @@ function ensureCss(){
  addCss(`/css/savingio-tokens.css?v=${VERSION}`,'savingioTokens');
  addCss(`/css/savingio-master-template.css?v=${VERSION}`,'savingioMaster');
  addCss(`/css/savingio-components.css?v=${VERSION}`,'savingioComponents');
- addCss(`/css/savingio-page-engine.css?v=${VERSION}`,'savingioPageEngine');
  addCss(`/css/savingio-brain-navigation.css?v=${VERSION}`,'savingioExplorer');
+ addCss(`/css/savingio-page-engine.css?v=${VERSION}`,'savingioPageEngine');
 }
 function classify(title,original='생활정보'){
  const t=compact(title);for(const [cat,words] of RULES){if(words.some(w=>t.includes(compact(w))))return cat;}
