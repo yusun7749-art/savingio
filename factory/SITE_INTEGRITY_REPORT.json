@@ -11755,9 +11755,9 @@
     },
     {
       "source": "functions/api/admin/content-action.js",
-      "reference": "record.article.path, context.request.url",
+      "reference": "path, context.request.url",
       "expected": [
-        "functions/api/admin/record.article.path, context.request.url"
+        "functions/api/admin/path, context.request.url"
       ]
     },
     {
