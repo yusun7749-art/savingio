@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3070,
-  "references_scanned": 62643,
+  "files_scanned": 3072,
+  "references_scanned": 62651,
   "counts": {
-    "broken_references": 1701,
+    "broken_references": 1705,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -3315,6 +3315,13 @@
       "reference": "/calculators/percent.html",
       "expected": [
         "calculators/percent.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/calculators/{{SLUG}}.html",
+      "expected": [
+        "calculators/{{SLUG}}.html"
       ]
     },
     {
@@ -7401,6 +7408,20 @@
       "reference": "https://savingio.com/calculators/{{SLUG}}.html",
       "expected": [
         "calculators/{{SLUG}}.html"
+      ]
+    },
+    {
+      "source": "factory/framework/lab/lab-template.html",
+      "reference": "/lab/{{SLUG}}.html",
+      "expected": [
+        "lab/{{SLUG}}.html"
+      ]
+    },
+    {
+      "source": "factory/framework/lab/lab-template.html",
+      "reference": "https://savingio.com/lab/{{SLUG}}.html",
+      "expected": [
+        "lab/{{SLUG}}.html"
       ]
     },
     {
@@ -11772,6 +11793,13 @@
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "js/savingio-lab-framework.js",
+      "reference": "${esc(result.ctaUrl)}",
+      "expected": [
+        "js/${esc(result.ctaUrl)}"
       ]
     },
     {
