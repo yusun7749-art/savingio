@@ -5,6 +5,30 @@ import {
   verifySignedPayload
 } from './_lib/admin-auth.js';
 
+const TRUSTED_ADMIN_IPS = new Set(['61.39.35.194']);
+
+function getClientIp(request) {
+  const cfIp = request.headers.get('CF-Connecting-IP');
+  if (cfIp) return cfIp.trim();
+
+  const forwarded = request.headers.get('X-Forwarded-For');
+  if (forwarded) return forwarded.split(',')[0].trim();
+
+  return '';
+}
+
+async function passAdminRequest(next) {
+  const response = await next();
+  const headers = new Headers(response.headers);
+  headers.set('Cache-Control', 'no-store, private');
+  headers.set('X-Robots-Tag', 'noindex, nofollow, noarchive');
+  return new Response(response.body, {
+    status: response.status,
+    statusText: response.statusText,
+    headers
+  });
+}
+
 function loginPage(message = '') {
   const safeMessage = String(message).replace(/[&<>"']/g, char => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
@@ -24,6 +48,12 @@ export async function onRequest(context) {
   const isAdminApi = url.pathname.startsWith('/api/admin/');
 
   if (!isAdminPage && !isAdminApi) return next();
+
+  const clientIp = getClientIp(request);
+  if (TRUSTED_ADMIN_IPS.has(clientIp)) {
+    return passAdminRequest(next);
+  }
+
   if (url.pathname === '/api/admin/login') return next();
 
   if (isAdminPage && url.searchParams.has('pair')) {
@@ -52,11 +82,7 @@ export async function onRequest(context) {
 
   const device = await getTrustedDevice(request, env);
   if (device) {
-    const response = await next();
-    const headers = new Headers(response.headers);
-    headers.set('Cache-Control', 'no-store, private');
-    headers.set('X-Robots-Tag', 'noindex, nofollow, noarchive');
-    return new Response(response.body, { status: response.status, statusText: response.statusText, headers });
+    return passAdminRequest(next);
   }
 
   if (isAdminApi) {
