@@ -1,4 +1,4 @@
-import { createPairingToken, getTrustedDevice, verifySignedPayload } from '../../_lib/admin-auth.js';
+import { createPairingToken, getTrustedDevice } from '../../_lib/admin-auth.js';
 
 const ADMIN_BOOTSTRAP_HASH = 'f4e2ba3fe9c051392c8550dee7b3ce17be257bf893a114cb6500cf8145394608';
 const ADMIN_BOOTSTRAP_COOKIE = 'savingio_admin_bootstrap';
@@ -32,11 +32,11 @@ export async function onRequestPost(context) {
     return Response.json({ ok: false, error: '신뢰된 기기에서만 QR을 만들 수 있습니다.' }, { status: 401 });
   }
 
-  if (!env.ADMIN_DEVICE_SECRET || !env.ADMIN_SECURITY_KV) {
+  if (!env.ADMIN_DEVICE_SECRET) {
     return Response.json({
       ok: false,
-      error: '휴대폰 연결 보안 설정이 연결되지 않았습니다. Cloudflare의 ADMIN_DEVICE_SECRET과 ADMIN_SECURITY_KV를 확인해 주세요.',
-      code: 'PAIRING_SECURITY_NOT_CONFIGURED'
+      error: '휴대폰 연결 보안키가 없습니다. ADMIN_DEVICE_SECRET을 확인해 주세요.',
+      code: 'PAIRING_SECRET_NOT_CONFIGURED'
     }, { status: 503, headers: { 'Cache-Control': 'no-store' } });
   }
 
@@ -44,13 +44,6 @@ export async function onRequestPost(context) {
   try { body = await request.json(); } catch {}
   const requestedName = String(body.requestedName || '내 휴대폰').slice(0, 60);
   const token = await createPairingToken(env, requestedName);
-  const payload = await verifySignedPayload(token, env.ADMIN_DEVICE_SECRET);
-
-  await env.ADMIN_SECURITY_KV.put(`pairing:${payload.pairingId}`, JSON.stringify({
-    requestedName,
-    createdBy: trustedDevice?.deviceId || 'bootstrap-primary-pc',
-    issuedAt: payload.issuedAt
-  }), { expirationTtl: 300 });
 
   const url = new URL('/api/admin/consume-pair', request.url);
   url.searchParams.set('token', token);
@@ -58,7 +51,6 @@ export async function onRequestPost(context) {
   return Response.json({
     ok: true,
     pairingUrl: url.toString(),
-    pairingId: payload.pairingId,
     expiresIn: 300,
     requestedName
   }, { headers: { 'Cache-Control': 'no-store' } });
