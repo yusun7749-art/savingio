@@ -149,16 +149,16 @@
     },
     {
       "source": "admin/duplicate-center.js",
-      "reference": "${esc(group.representative.path)}",
+      "reference": "${esc(g.representative.path)}",
       "expected": [
-        "admin/${esc(group.representative.path)}"
+        "admin/${esc(g.representative.path)}"
       ]
     },
     {
       "source": "admin/duplicate-center.js",
-      "reference": "${esc(item.path)}",
+      "reference": "${esc(i.path)}",
       "expected": [
-        "admin/${esc(item.path)}"
+        "admin/${esc(i.path)}"
       ]
     },
     {
