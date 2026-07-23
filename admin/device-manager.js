@@ -1,4 +1,9 @@
 (() => {
+  const styleLink = document.createElement('link');
+  styleLink.rel = 'stylesheet';
+  styleLink.href = '/admin/device-manager.css';
+  document.head.appendChild(styleLink);
+
   const $ = selector => document.querySelector(selector);
   const esc = value => String(value).replace(/[&<>'"]/g, char => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'
