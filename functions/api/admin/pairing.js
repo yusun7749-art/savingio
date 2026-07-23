@@ -33,7 +33,11 @@ export async function onRequestPost(context) {
   }
 
   if (!env.ADMIN_DEVICE_SECRET || !env.ADMIN_SECURITY_KV) {
-    return Response.json({ ok: false, error: '휴대폰 연결용 보안 설정이 완료되지 않았습니다.' }, { status: 503 });
+    return Response.json({
+      ok: false,
+      error: '휴대폰 연결 보안 설정이 연결되지 않았습니다. Cloudflare의 ADMIN_DEVICE_SECRET과 ADMIN_SECURITY_KV를 확인해 주세요.',
+      code: 'PAIRING_SECURITY_NOT_CONFIGURED'
+    }, { status: 503, headers: { 'Cache-Control': 'no-store' } });
   }
 
   let body = {};
@@ -54,6 +58,7 @@ export async function onRequestPost(context) {
   return Response.json({
     ok: true,
     pairingUrl: url.toString(),
+    pairingId: payload.pairingId,
     expiresIn: 300,
     requestedName
   }, { headers: { 'Cache-Control': 'no-store' } });
