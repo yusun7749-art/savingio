@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3093,
-  "references_scanned": 62756,
+  "files_scanned": 3094,
+  "references_scanned": 62759,
   "counts": {
-    "broken_references": 1717,
+    "broken_references": 1719,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -12,10 +12,39 @@
   },
   "broken_references": [
     {
-      "source": "admin/index.html",
-      "reference": "/admin/admin.js",
+      "source": "admin/admin.js",
+      "reference": "approve",
       "expected": [
-        "admin/admin.js"
+        "admin/approve",
+        "admin/approve.html",
+        "admin/approve/index.html"
+      ]
+    },
+    {
+      "source": "admin/admin.js",
+      "reference": "preview",
+      "expected": [
+        "admin/preview",
+        "admin/preview.html",
+        "admin/preview/index.html"
+      ]
+    },
+    {
+      "source": "admin/admin.js",
+      "reference": "retry",
+      "expected": [
+        "admin/retry",
+        "admin/retry.html",
+        "admin/retry/index.html"
+      ]
+    },
+    {
+      "source": "admin/admin.js",
+      "reference": "stop",
+      "expected": [
+        "admin/stop",
+        "admin/stop.html",
+        "admin/stop/index.html"
       ]
     },
     {
@@ -2321,13 +2350,6 @@
         "articles/sample\\",
         "articles/sample\\.html",
         "articles/sample\\/index.html"
-      ]
-    },
-    {
-      "source": "factory/SITE_INTEGRITY_REPORT.json",
-      "reference": "/admin/admin.js",
-      "expected": [
-        "admin/admin.js"
       ]
     },
     {
