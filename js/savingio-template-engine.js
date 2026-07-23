@@ -5,13 +5,23 @@ const PAGE_HERO='.info-hero,.sv2-hero,.portal-hero,.page-hero,.lab-hero,.savingi
 const ARTICLE_SHELL='.page-shell,.article-layout,.article-grid,.content-with-rail,.article-shell,.article-wrap,.post-layout,.detail-layout';
 const ARTICLE_MAIN='.article-main,.article-content,.post-content,.article-column,.post-main,.content-main';
 const RIGHT_RAIL='.right-rail,.article-sidebar,.sidebar-right,.right-sidebar,.post-sidebar,.detail-sidebar';
-const CONTENT_SHELL='.info-shell,.portal-shell,.sv2-shell,.lab-grid,.content-shell,.main-content,.policy-wrap,.calculator-shell';
+const CONTENT_SHELL='.info-shell,.portal-shell,.sv2-shell,.lab-grid,.content-shell,.main-content,.policy-wrap,.calculator-shell,.category-shell,.categories-shell';
 const FOOTER='.site-footer,.savingio-footer,footer';
 const LEGACY_WIDGETS='.sbn-popular,.popular-top5,.popular-posts,.sidebar-popular,.top5,.popular-list,[class*="popular-top"],#popularTop5';
 const RAIL_PURPOSES=['action','tool','same-category','related','next'];
 function first(selector,root=document){return root.querySelector(selector)}
 function all(selector,root=document){return [...root.querySelectorAll(selector)]}
 function mark(el,key,value){if(el)el.dataset[key]=value;return el}
+function pageType(){
+ const path=location.pathname;
+ if(ARTICLE_PATH.test(path)&&!/^\/articles\/?$/.test(path))return'article';
+ if(/^\/calculators\//.test(path))return'calculator';
+ if(/^\/lab\//.test(path))return'lab';
+ if(/^\/categories\//.test(path))return'category';
+ if(/^\/articles\/?$/.test(path))return'directory';
+ if(/about/.test(path))return'about';
+ return'standard';
+}
 function removeLegacyWidgets(root=document){
  all(LEGACY_WIDGETS,root).forEach(el=>el.remove());
  all('style',root).forEach(style=>{if(/sbn-popular|popular-top5|인기 글 TOP 5/.test(style.textContent||''))style.remove()});
@@ -52,7 +62,10 @@ function normalizeArticle(){
  normalizeRail(rail);
  return true;
 }
-function normalizeContent(){const shell=first(CONTENT_SHELL);if(shell)mark(shell,'svLayout','content')}
+function normalizeContent(){
+ const shell=first(CONTENT_SHELL)||first('main');
+ if(shell)mark(shell,'svLayout',pageType());
+}
 function normalizeFooter(){
  const footer=first(FOOTER);if(!footer)return;
  mark(footer,'svFrame','footer');
@@ -60,15 +73,15 @@ function normalizeFooter(){
  if(inner)mark(inner,'svRole','footer-inner');
 }
 function normalizeComponents(){
- all('.portal-panel,.sv2-card,.lab-card,.trust-grid>div,.about-card,.content-card,.article-card,.calculator-card,.tool-card,.related-card,.rail-card,.side-card,.info-card').forEach(el=>mark(el,'svComponent','card'));
- all('.article-grid,.calculator-grid,.tool-grid,.card-grid,.lab-grid,.portal-actions,.trust-grid').forEach(el=>mark(el,'svComponent','card-grid'));
+ all('.portal-panel,.sv2-card,.lab-card,.trust-grid>div,.about-card,.content-card,.article-card,.calculator-card,.tool-card,.related-card,.rail-card,.side-card,.info-card,.category-card,.calculator-item,.lab-item').forEach(el=>mark(el,'svComponent','card'));
+ all('.article-grid,.calculator-grid,.tool-grid,.card-grid,.lab-grid,.portal-actions,.trust-grid,.category-grid,.categories-grid').forEach(el=>mark(el,'svComponent','card-grid'));
  all('a.btn,button.btn,.button,.cta,.primary-button,.secondary-button').forEach(el=>mark(el,'svComponent','button'));
  all('.secondary-button,.btn.secondary,.button.secondary').forEach(el=>mark(el,'variant','secondary'));
  all('input[type="search"],input[type="text"],input[type="number"],select,textarea').forEach(el=>mark(el,'svComponent','input'));
 }
 function install(){
  document.documentElement.classList.add('savingio-master-ready');
- document.body.dataset.svPage=ARTICLE_PATH.test(location.pathname)?'article':'standard';
+ document.body.dataset.svPage=pageType();
  guardLegacyWidgets();
  normalizeHero();
  if(!normalizeArticle())normalizeContent();
@@ -77,5 +90,5 @@ function install(){
  document.dispatchEvent(new CustomEvent('savingio-template-ready'));
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',install,{once:true});else install();
-window.SavingioTemplateEngine={install,removeLegacyWidgets,normalizeHero,normalizeArticle,normalizeFooter,normalizeComponents};
+window.SavingioTemplateEngine={install,removeLegacyWidgets,normalizeHero,normalizeArticle,normalizeFooter,normalizeComponents,pageType};
 })();
