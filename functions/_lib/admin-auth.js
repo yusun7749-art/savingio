@@ -99,6 +99,12 @@ export async function getTrustedDevice(request, env) {
   const token = parseCookies(request).savingio_admin_device;
   const payload = await verifySignedPayload(token, secret);
   if (!payload || payload.type !== 'trusted-device') return null;
+
+  if (env.ADMIN_SECURITY_KV && payload.deviceId) {
+    const revoked = await env.ADMIN_SECURITY_KV.get(`revoked-device:${payload.deviceId}`);
+    if (revoked) return null;
+  }
+
   return payload;
 }
 
