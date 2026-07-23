@@ -7,10 +7,27 @@ const ARTICLE_MAIN='.article-main,.article-content,.post-content,.article-column
 const RIGHT_RAIL='.right-rail,.article-sidebar,.sidebar-right,.right-sidebar,.post-sidebar,.detail-sidebar';
 const CONTENT_SHELL='.info-shell,.portal-shell,.sv2-shell,.lab-grid,.content-shell,.main-content,.policy-wrap,.calculator-shell';
 const FOOTER='.site-footer,.savingio-footer,footer';
+const LEGACY_WIDGETS='.sbn-popular,.popular-top5,.popular-posts,.sidebar-popular,.top5,.popular-list,[class*="popular-top"],#popularTop5';
 const RAIL_PURPOSES=['action','tool','same-category','related','next'];
 function first(selector,root=document){return root.querySelector(selector)}
 function all(selector,root=document){return [...root.querySelectorAll(selector)]}
 function mark(el,key,value){if(el)el.dataset[key]=value;return el}
+function removeLegacyWidgets(root=document){
+ all(LEGACY_WIDGETS,root).forEach(el=>el.remove());
+ all('style',root).forEach(style=>{if(/sbn-popular|popular-top5|인기 글 TOP 5/.test(style.textContent||''))style.remove()});
+}
+function guardLegacyWidgets(){
+ removeLegacyWidgets();
+ const observer=new MutationObserver(mutations=>{
+  for(const mutation of mutations){
+   for(const node of mutation.addedNodes){
+    if(!(node instanceof Element))continue;
+    if(node.matches(LEGACY_WIDGETS))node.remove();else removeLegacyWidgets(node);
+   }
+  }
+ });
+ observer.observe(document.documentElement,{childList:true,subtree:true});
+}
 function normalizeHero(){
  let hero=first(PAGE_HERO);
  if(!hero){const candidate=first('main>section:first-child');if(candidate&&first('h1',candidate))hero=candidate}
@@ -52,6 +69,7 @@ function normalizeComponents(){
 function install(){
  document.documentElement.classList.add('savingio-master-ready');
  document.body.dataset.svPage=ARTICLE_PATH.test(location.pathname)?'article':'standard';
+ guardLegacyWidgets();
  normalizeHero();
  if(!normalizeArticle())normalizeContent();
  normalizeFooter();
@@ -59,5 +77,5 @@ function install(){
  document.dispatchEvent(new CustomEvent('savingio-template-ready'));
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',install,{once:true});else install();
-window.SavingioTemplateEngine={install,normalizeHero,normalizeArticle,normalizeFooter,normalizeComponents};
+window.SavingioTemplateEngine={install,removeLegacyWidgets,normalizeHero,normalizeArticle,normalizeFooter,normalizeComponents};
 })();
