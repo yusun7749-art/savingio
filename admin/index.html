@@ -6,22 +6,23 @@
   <meta name="robots" content="noindex,nofollow,noarchive">
   <title>Savingio Admin HQ</title>
   <link rel="stylesheet" href="/admin/admin.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" defer></script>
 </head>
 <body>
   <div class="app-shell">
     <aside class="sidebar">
       <div class="brand"><strong>Savingio</strong><span>ADMIN HQ</span></div>
       <nav id="treeNav" aria-label="운영본부"></nav>
-      <div class="system-badge"><span class="dot"></span> 시스템 기본판</div>
+      <div class="system-badge"><span class="dot"></span> 신뢰된 기기 보안 활성화</div>
     </aside>
 
     <main class="main">
       <header class="topbar">
         <div><p class="eyebrow">비공개 운영본부</p><h1 id="pageTitle">통합 상황실</h1></div>
-        <div class="top-actions"><button class="btn ghost" id="emergencyBtn">전체 중지</button><button class="btn primary" id="newProjectBtn">새 프로젝트</button></div>
+        <div class="top-actions"><button class="btn ghost" id="securityBtn">🔐 보안센터</button><button class="btn ghost" id="emergencyBtn">전체 중지</button><button class="btn primary" id="newProjectBtn">새 프로젝트</button></div>
       </header>
 
-      <section class="notice" id="securityNotice"><strong>보안 상태:</strong> 검색엔진 차단 헤더가 적용됩니다. 실제 로그인 차단은 Cloudflare Access 연결 단계에서 활성화합니다.</section>
+      <section class="notice secure" id="securityNotice"><strong>보안 상태:</strong> 현재 기기는 신뢰된 기기로 확인되었습니다. 휴대폰은 보안센터에서 QR을 생성해 연결할 수 있습니다.</section>
       <section class="stats" id="stats"></section>
 
       <section class="workspace-grid">
@@ -41,11 +42,31 @@
 
   <dialog id="projectDialog"><form method="dialog" id="projectForm"><h2>새 프로젝트 추가</h2><label>프로젝트명<input name="title" required placeholder="예: 40대 주름크림"></label><label>대분류<select name="category"><option>생활비</option><option>보험</option><option>뷰티</option><option>건강</option><option>자동차</option></select></label><label>콘텐츠 유형<select name="type"><option>통합 캠페인</option><option>상품</option><option>글</option><option>쇼츠</option><option>SNS</option></select></label><div class="dialog-actions"><button class="btn ghost" value="cancel">취소</button><button class="btn primary" value="default">추가</button></div></form></dialog>
 
+  <dialog id="securityDialog" class="security-dialog">
+    <section class="security-center">
+      <div class="security-head"><div><p class="eyebrow">Savingio HQ</p><h2>관리자 보안센터</h2></div><button class="icon-btn" id="securityClose" type="button" aria-label="닫기">×</button></div>
+      <div class="trusted-device-card"><span class="device-icon">🖥️</span><div><strong id="trustedDeviceName">현재 기기 확인 중</strong><small id="trustedDeviceMeta">신뢰 상태를 불러오고 있습니다.</small></div><span class="trusted-badge">신뢰됨</span></div>
+      <div class="pairing-box">
+        <div><h3>내 휴대폰 연결</h3><p>QR은 한 번만 사용할 수 있고 5분 뒤 자동으로 만료됩니다.</p></div>
+        <label>휴대폰 이름<input id="phoneDeviceName" value="내 휴대폰" maxlength="60"></label>
+        <button class="btn primary" id="generateQrBtn" type="button">휴대폰 연결 QR 만들기</button>
+        <div id="qrArea" class="qr-area" hidden>
+          <div id="qrCode" class="qr-code" aria-label="휴대폰 연결 QR 코드"></div>
+          <strong>휴대폰 카메라로 찍어주세요</strong>
+          <p id="qrCountdown">남은 시간 05:00</p>
+          <a id="pairingLink" class="pairing-link" href="#" target="_blank" rel="noopener">QR이 안 찍히면 이 링크 열기</a>
+        </div>
+        <p id="securityMessage" class="security-message"></p>
+      </div>
+      <div class="security-actions"><button class="btn danger" id="logoutDeviceBtn" type="button">이 기기의 신뢰 해제</button></div>
+    </section>
+  </dialog>
+
   <button id="linaLauncher" class="lina-launcher" aria-label="리나 관리자봇 열기" title="리나 HQ 열기"><span class="lina-face">😊</span><span class="lina-dot"></span></button>
   <section id="linaPanel" class="lina-panel" aria-label="리나 HQ 관리자 채팅" hidden>
     <header class="lina-head"><div class="lina-id"><span class="lina-avatar">😊</span><div><strong>리나 HQ</strong><small>Savingio 전용 관리자봇</small></div></div><button id="linaMinimize" class="lina-minimize" type="button" aria-label="채팅창 축소">—</button></header>
     <div id="linaMessages" class="lina-messages"><div class="lina-msg bot">선장님, 리나 여기 있습니다. 오늘 상황을 확인해드릴까요?</div></div>
-    <div class="lina-quick"><button type="button" data-lina-quick="오늘 상황 알려줘">오늘 상황</button><button type="button" data-lina-quick="오늘 할 일 정리해줘">오늘 할 일</button><button type="button" data-lina-quick="오류 프로젝트 알려줘">오류 확인</button></div>
+    <div class="lina-quick"><button type="button" data-lina-quick="오늘 상황 알려줘">오늘 상황</button><button type="button" data-lina-quick="오늘 할 일 정리해줘">오늘 할 일</button><button type="button" data-lina-quick="오류 프로젝트 알려줘">오류 확인</button><button type="button" data-lina-quick="내 휴대폰 연결해">휴대폰 연결</button></div>
     <form id="linaForm" class="lina-form"><textarea id="linaInput" rows="2" maxlength="4000" placeholder="리나에게 관리자 업무를 말해보세요"></textarea><button type="submit">전송</button></form>
   </section>
 
