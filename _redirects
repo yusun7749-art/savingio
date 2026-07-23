@@ -1,3 +1,6 @@
+/admin /404.html 404
+/admin/ /404.html 404
+/admin/* /404.html 404
 /automatic-payment-saving.html /articles/automatic-payment-saving.html 301
 /bank-account-budgeting.html /articles/bank-account-budgeting.html 301
 /bank-fees-to-avoid.html /articles/bank-fees-to-avoid.html 301
