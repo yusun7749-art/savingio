@@ -1,7 +1,7 @@
 (function (global) {
   'use strict';
 
-  const VERSION = '1.0.0';
+  const VERSION = '1.1.0';
   const STORE = {
     articles: new Map(),
     calculators: new Map(),
@@ -11,6 +11,7 @@
 
   const text = value => String(value == null ? '' : value).trim();
   const list = value => Array.isArray(value) ? value.filter(Boolean) : (value ? [value] : []);
+  const normalizeToken = value => text(value).toLowerCase().replace(/[^0-9a-z가-힣]+/gi, '');
   const slugFromUrl = value => text(value)
     .replace(/^https?:\/\/[^/]+/i, '')
     .replace(/[?#].*$/, '')
@@ -30,6 +31,7 @@
       id,
       slug: text(raw.slug || id),
       title: text(raw.title),
+      description: text(raw.description || raw.desc),
       url: text(raw.url),
       category: text(raw.category),
       intents: Object.freeze(list(raw.intents).map(text)),
@@ -45,9 +47,7 @@
     const store = STORE[type];
     if (!store) throw new Error(`Unknown registry type: ${type}`);
     const record = normalizeRecord(type, raw);
-    if (store.has(record.id) && options.replace !== true) {
-      throw new Error(`${type} record already exists: ${record.id}`);
-    }
+    if (store.has(record.id) && options.replace !== true) throw new Error(`${type} record already exists: ${record.id}`);
     store.set(record.id, record);
     return record;
   }
@@ -72,16 +72,58 @@
     return get('articles', idOrUrl);
   }
 
-  function resolveConnections(idOrUrl) {
-    const article = resolveArticle(idOrUrl);
-    if (!article) {
-      return Object.freeze({ article: null, calculators: [], labs: [], relatedArticles: [], officialLinks: [] });
+  function tokenSet(record) {
+    return new Set([
+      record.title,
+      record.slug,
+      record.category,
+      ...record.intents,
+      ...record.keywords
+    ].map(normalizeToken).filter(Boolean));
+  }
+
+  function capabilityScore(article, capability) {
+    const articleTokens = tokenSet(article);
+    const capabilityTokens = tokenSet(capability);
+    let score = 0;
+    if (article.category && capability.category && article.category === capability.category) score += 30;
+    for (const token of capabilityTokens) {
+      if (!token) continue;
+      if (articleTokens.has(token)) score += 24;
+      else {
+        for (const articleToken of articleTokens) {
+          if (articleToken.length >= 2 && token.length >= 2 && (articleToken.includes(token) || token.includes(articleToken))) {
+            score += 8;
+            break;
+          }
+        }
+      }
     }
+    return score;
+  }
+
+  function recommend(type, article, limit) {
+    return all(type)
+      .map(record => ({ record, score: capabilityScore(article, record) }))
+      .filter(item => item.score > 0)
+      .sort((a, b) => b.score - a.score || a.record.title.localeCompare(b.record.title, 'ko'))
+      .slice(0, limit)
+      .map(item => item.record);
+  }
+
+  function resolveConnections(idOrUrl, options = {}) {
+    const article = resolveArticle(idOrUrl);
+    if (!article) return Object.freeze({ article: null, calculators: [], labs: [], relatedArticles: [], officialLinks: [] });
+
+    const explicitCalculators = article.calculators.map(id => get('calculators', id)).filter(Boolean);
+    const explicitLabs = article.labs.map(id => get('labs', id)).filter(Boolean);
+    const explicitRelated = article.relatedArticles.map(id => get('articles', id)).filter(Boolean);
+
     return Object.freeze({
       article,
-      calculators: article.calculators.map(id => get('calculators', id)).filter(Boolean),
-      labs: article.labs.map(id => get('labs', id)).filter(Boolean),
-      relatedArticles: article.relatedArticles.map(id => get('articles', id)).filter(Boolean),
+      calculators: explicitCalculators.length ? explicitCalculators : recommend('calculators', article, options.calculatorLimit || 3),
+      labs: explicitLabs.length ? explicitLabs : recommend('labs', article, options.labLimit || 3),
+      relatedArticles: explicitRelated.length ? explicitRelated : recommend('articles', article, options.relatedLimit || 4).filter(item => item.id !== article.id),
       officialLinks: article.officialLinks
     });
   }
