@@ -12,10 +12,8 @@ const ADMIN_BOOTSTRAP_COOKIE = 'savingio_admin_bootstrap';
 function getClientIp(request) {
   const cfIp = request.headers.get('CF-Connecting-IP');
   if (cfIp) return cfIp.trim();
-
   const forwarded = request.headers.get('X-Forwarded-For');
   if (forwarded) return forwarded.split(',')[0].trim();
-
   return '';
 }
 
@@ -75,6 +73,8 @@ export async function onRequest(context) {
 
   if (!isAdminPage && !isAdminApi) return next();
 
+  if (url.pathname === '/api/admin/consume-pair') return next();
+
   if (isAdminPage && url.searchParams.has('setup')) {
     const setupToken = url.searchParams.get('setup') || '';
     if ((await sha256Hex(setupToken)) === ADMIN_BOOTSTRAP_HASH) {
@@ -121,9 +121,7 @@ export async function onRequest(context) {
   }
 
   const device = await getTrustedDevice(request, env);
-  if (device) {
-    return passAdminRequest(next);
-  }
+  if (device) return passAdminRequest(next);
 
   if (isAdminApi) {
     return Response.json({ ok: false, error: '관리자 인증이 필요합니다.' }, { status: 401, headers: { 'Cache-Control': 'no-store' } });
