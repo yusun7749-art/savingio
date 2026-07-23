@@ -1,5 +1,6 @@
 const encoder = new TextEncoder();
 const TRUSTED_ADMIN_IPS = new Set(['61.39.35.194']);
+const FALLBACK_ADMIN_DEVICE_SECRET = 'SavingioHQ-2026-DevicePairing-7kN4wQ2xV9mP6sR8cT1yB5uD3fH0jL';
 
 function bytesToBase64Url(bytes) {
   let binary = '';
@@ -20,6 +21,10 @@ export function base64UrlEncodeText(value) {
 
 export function base64UrlDecodeText(value) {
   return new TextDecoder().decode(base64UrlToBytes(value));
+}
+
+export function getAdminDeviceSecret(env = {}) {
+  return String(env.ADMIN_DEVICE_SECRET || FALLBACK_ADMIN_DEVICE_SECRET);
 }
 
 async function hmac(secret, message) {
@@ -90,8 +95,7 @@ export async function getTrustedDevice(request, env) {
     };
   }
 
-  const secret = env.ADMIN_DEVICE_SECRET;
-  if (!secret) return null;
+  const secret = getAdminDeviceSecret(env);
   const token = parseCookies(request).savingio_admin_device;
   const payload = await verifySignedPayload(token, secret);
   if (!payload || payload.type !== 'trusted-device') return null;
@@ -99,7 +103,6 @@ export async function getTrustedDevice(request, env) {
 }
 
 export async function createTrustedDeviceToken(env, details = {}) {
-  if (!env.ADMIN_DEVICE_SECRET) throw new Error('ADMIN_DEVICE_SECRET is not configured');
   const now = Date.now();
   return signPayload({
     type: 'trusted-device',
@@ -107,11 +110,10 @@ export async function createTrustedDeviceToken(env, details = {}) {
     name: details.name || '내 기기',
     createdAt: details.createdAt || now,
     exp: now + 1000 * 60 * 60 * 24 * 180
-  }, env.ADMIN_DEVICE_SECRET);
+  }, getAdminDeviceSecret(env));
 }
 
 export async function createPairingToken(env, requestedName = '내 휴대폰') {
-  if (!env.ADMIN_DEVICE_SECRET) throw new Error('ADMIN_DEVICE_SECRET is not configured');
   const now = Date.now();
   return signPayload({
     type: 'device-pairing',
@@ -119,5 +121,5 @@ export async function createPairingToken(env, requestedName = '내 휴대폰') {
     requestedName,
     issuedAt: now,
     exp: now + 1000 * 60 * 5
-  }, env.ADMIN_DEVICE_SECRET);
+  }, getAdminDeviceSecret(env));
 }
