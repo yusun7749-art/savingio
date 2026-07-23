@@ -1,4 +1,4 @@
-import { getTrustedDevice } from '../../_lib/admin-auth.js';
+import { getAdminDevice } from '../../_lib/admin-auth.js';
 
 const INDEX_KEY = 'content-actions:index';
 const STATUS_PREFIX = 'content-status:';
@@ -114,7 +114,7 @@ async function prepareRewrite(context, record) {
 
 export async function onRequestGet(context) {
   const { request, env } = context;
-  const device = await getTrustedDevice(request, env);
+  const device = await getAdminDevice(request, env);
   if (!device) return json({ ok: false, error: '신뢰된 관리자 기기에서만 사용할 수 있습니다.' }, 401);
   if (!env.ADMIN_SECURITY_KV) return json({ ok: false, error: 'ADMIN_SECURITY_KV 저장소가 연결되어 있지 않습니다.' }, 503);
 
@@ -136,7 +136,7 @@ export async function onRequestGet(context) {
 
 export async function onRequestPost(context) {
   const { request, env } = context;
-  const device = await getTrustedDevice(request, env);
+  const device = await getAdminDevice(request, env);
   if (!device) return json({ ok: false, error: '신뢰된 관리자 기기에서만 사용할 수 있습니다.' }, 401);
   if (!env.ADMIN_SECURITY_KV) return json({ ok: false, error: 'ADMIN_SECURITY_KV 저장소가 연결되어 있지 않습니다.' }, 503);
 
