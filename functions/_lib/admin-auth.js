@@ -1,6 +1,8 @@
 const encoder = new TextEncoder();
 const TRUSTED_ADMIN_IPS = new Set(['61.39.35.194']);
 const FALLBACK_ADMIN_DEVICE_SECRET = 'SavingioHQ-2026-DevicePairing-7kN4wQ2xV9mP6sR8cT1yB5uD3fH0jL';
+const ADMIN_BOOTSTRAP_HASH = 'f4e2ba3fe9c051392c8550dee7b3ce17be257bf893a114cb6500cf8145394608';
+const ADMIN_BOOTSTRAP_COOKIE = 'savingio_admin_bootstrap';
 
 function bytesToBase64Url(bytes) {
   let binary = '';
@@ -36,6 +38,11 @@ async function hmac(secret, message) {
     ['sign']
   );
   return new Uint8Array(await crypto.subtle.sign('HMAC', key, encoder.encode(message)));
+}
+
+async function sha256Hex(value) {
+  const digest = await crypto.subtle.digest('SHA-256', encoder.encode(value));
+  return Array.from(new Uint8Array(digest)).map(byte => byte.toString(16).padStart(2, '0')).join('');
 }
 
 export async function signPayload(payload, secret) {
@@ -83,6 +90,17 @@ export function getRequestIp(request) {
   return (request.headers.get('CF-Connecting-IP') || request.headers.get('X-Forwarded-For') || '').split(',')[0].trim();
 }
 
+export async function getBootstrapDevice(request) {
+  const token = parseCookies(request)[ADMIN_BOOTSTRAP_COOKIE];
+  if (!token || (await sha256Hex(token)) !== ADMIN_BOOTSTRAP_HASH) return null;
+  return {
+    type: 'bootstrap-device',
+    deviceId: 'bootstrap-primary-pc',
+    name: '내 컴퓨터',
+    createdAt: 0
+  };
+}
+
 export async function getTrustedDevice(request, env) {
   const ip = getRequestIp(request);
   if (TRUSTED_ADMIN_IPS.has(ip)) {
@@ -106,6 +124,10 @@ export async function getTrustedDevice(request, env) {
   }
 
   return payload;
+}
+
+export async function getAdminDevice(request, env) {
+  return await getTrustedDevice(request, env) || await getBootstrapDevice(request);
 }
 
 export async function createTrustedDeviceToken(env, details = {}) {
