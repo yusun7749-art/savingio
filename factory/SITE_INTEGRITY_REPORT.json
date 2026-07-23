@@ -2,7 +2,7 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3059,
-  "references_scanned": 62645,
+  "references_scanned": 62612,
   "counts": {
     "broken_references": 1687,
     "malformed_redirects": 0,
@@ -1189,16 +1189,16 @@
     },
     {
       "source": "articles/property-tax-payment-certificate.html",
-      "reference": "/articles/vat-final-return-july-2026.html",
+      "reference": "/articles/local-tax-payment-guide.html",
       "expected": [
-        "articles/vat-final-return-july-2026.html"
+        "articles/local-tax-payment-guide.html"
       ]
     },
     {
       "source": "articles/property-tax-payment-certificate.html",
-      "reference": "/articles/vat-zero-sales-filing.html",
+      "reference": "/articles/property-tax-overpayment-refund.html",
       "expected": [
-        "articles/vat-zero-sales-filing.html"
+        "articles/property-tax-overpayment-refund.html"
       ]
     },
     {
