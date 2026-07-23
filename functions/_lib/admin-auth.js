@@ -1,4 +1,5 @@
 const encoder = new TextEncoder();
+const TRUSTED_ADMIN_IPS = new Set(['61.39.35.194']);
 
 function bytesToBase64Url(bytes) {
   let binary = '';
@@ -73,7 +74,22 @@ export function expiredTrustedCookie() {
   return 'savingio_admin_device=; Path=/; HttpOnly; Secure; SameSite=Strict; Max-Age=0';
 }
 
+export function getRequestIp(request) {
+  return (request.headers.get('CF-Connecting-IP') || request.headers.get('X-Forwarded-For') || '').split(',')[0].trim();
+}
+
 export async function getTrustedDevice(request, env) {
+  const ip = getRequestIp(request);
+  if (TRUSTED_ADMIN_IPS.has(ip)) {
+    return {
+      type: 'trusted-ip',
+      deviceId: `ip:${ip}`,
+      name: '내 컴퓨터',
+      ip,
+      createdAt: 0
+    };
+  }
+
   const secret = env.ADMIN_DEVICE_SECRET;
   if (!secret) return null;
   const token = parseCookies(request).savingio_admin_device;
