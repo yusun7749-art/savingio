@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3083,
-  "references_scanned": 62738,
+  "files_scanned": 3084,
+  "references_scanned": 62745,
   "counts": {
-    "broken_references": 1708,
+    "broken_references": 1711,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -11816,6 +11816,27 @@
       "reference": "${esc(result.ctaUrl)}",
       "expected": [
         "js/${esc(result.ctaUrl)}"
+      ]
+    },
+    {
+      "source": "js/savingio-link-engine.js",
+      "reference": "${esc(item.href)}",
+      "expected": [
+        "js/${esc(item.href)}"
+      ]
+    },
+    {
+      "source": "js/savingio-link-engine.js",
+      "reference": "/calculators/fuel-cost.html",
+      "expected": [
+        "calculators/fuel-cost.html"
+      ]
+    },
+    {
+      "source": "js/savingio-link-engine.js",
+      "reference": "href,location.origin",
+      "expected": [
+        "js/href,location.origin"
       ]
     },
     {
