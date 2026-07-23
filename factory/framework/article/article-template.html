@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{TITLE}} | Savingio</title>
+  <meta name="description" content="{{DESCRIPTION}}">
+  <link rel="canonical" href="https://savingio.com/articles/{{SLUG}}.html">
+  <meta name="robots" content="index,follow">
+  <link rel="icon" href="/images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/article-layout-dna.css?v=9">
+  <link rel="stylesheet" href="/css/savingio-brain-navigation.css?v=30">
+  <link rel="stylesheet" href="/css/savingio-article-unified-v3036.css?v=3038">
+</head>
+<body class="savingio-article-dna" data-calculators="{{CALCULATOR_IDS}}" data-labs="{{LAB_IDS}}">
+  <header class="site-header">{{HEADER}}</header>
+  <div class="page-shell">
+    <div class="article-column">
+      <div class="breadcrumb">{{BREADCRUMB}}</div>
+      <section class="hero">
+        <span class="badge">{{CATEGORY}} · {{SUBCATEGORY}}</span>
+        <h1>{{TITLE}}</h1>
+        <p class="lead">{{LEAD}}</p>
+        <p class="meta"><strong>작성·검수</strong> Savingio 편집팀 · 최종 업데이트 {{UPDATED_AT}}</p>
+      </section>
+      <main class="article-main"><article>
+        {{EDITORIAL}}
+        {{FIVE_SECOND_ANSWER}}
+        {{THIRTY_SECOND_QUESTIONS}}
+        {{ACTION_SECTION}}
+        {{TABLE_OF_CONTENTS}}
+        {{BODY_SECTIONS}}
+        {{COMPARISON_TABLE}}
+        {{SITUATION_FINDER}}
+        {{CASES}}
+        {{POLICY_AND_LAW}}
+        {{CALCULATOR_AND_OFFICIAL}}
+        {{FAQ}}
+        {{RELATED_CHAIN}}
+      </article></main>
+    </div>
+    <aside class="right-rail" aria-label="관련 정보">
+      <section class="rail-section"><span class="rail-kicker">지금 해야 할 행동</span><h2>다음 행동</h2><div data-savingio-slot="next-action">{{NEXT_ACTION}}</div></section>
+      <section class="rail-section"><span class="rail-kicker">계산기·점검도구</span><h2>직접 확인하기</h2><div data-savingio-slot="calculators"></div></section>
+      <section class="rail-section"><span class="rail-kicker">Savingio Lab</span><h2>테스트·게임</h2><div data-savingio-slot="lab"></div></section>
+      <section class="rail-section"><span class="rail-kicker">같은 카테고리</span><h2>같은 주제 글</h2><div data-savingio-slot="related-articles"></div></section>
+      <section class="rail-section"><span class="rail-kicker">다음 단계·주의사항</span><h2>확인할 기관</h2><div data-savingio-slot="official-links"></div></section>
+    </aside>
+  </div>
+  <footer>{{FOOTER}}</footer>
+  <script src="/js/savingio-brain-data.js?v=30"></script>
+  <script src="/js/savingio-brain-navigation.js?v=30"></script>
+  <script src="/js/savingio-article-framework.js?v=1"></script>
+</body>
+</html>
