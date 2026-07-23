@@ -17,34 +17,33 @@
 
     <main class="main">
       <header class="topbar">
-        <div>
-          <p class="eyebrow">선장님 전용 운영본부</p>
-          <h1 id="pageTitle">통합 상황실</h1>
-        </div>
-        <div class="top-actions">
-          <button class="btn ghost" id="emergencyBtn">전체 중지</button>
-          <button class="btn primary" id="newProjectBtn">새 프로젝트</button>
-        </div>
+        <div><p class="eyebrow">선장님 전용 운영본부</p><h1 id="pageTitle">통합 상황실</h1></div>
+        <div class="top-actions"><button class="btn ghost" id="emergencyBtn">전체 중지</button><button class="btn primary" id="newProjectBtn">새 프로젝트</button></div>
       </header>
 
-      <section class="notice" id="securityNotice">
-        <strong>보안 상태:</strong> 서버 로그인 통과 전에는 이 화면과 파일을 열 수 없습니다.
-      </section>
-
+      <section class="notice" id="securityNotice"><strong>보안 상태:</strong> 서버 로그인 통과 전에는 이 화면과 파일을 열 수 없습니다.</section>
       <section class="stats" id="stats"></section>
 
       <section class="workspace-grid">
         <div class="panel main-panel">
-          <div class="panel-head">
-            <div><p class="eyebrow">전체 프로그램 트리</p><h2>진행 중인 프로젝트</h2></div>
-            <div class="filters"><button class="chip active" data-filter="all">전체</button><button class="chip" data-filter="approval">승인대기</button><button class="chip" data-filter="error">오류</button></div>
-          </div>
+          <div class="panel-head"><div><p class="eyebrow">전체 프로그램 트리</p><h2>진행 중인 프로젝트</h2></div><div class="filters"><button class="chip active" data-filter="all">전체</button><button class="chip" data-filter="approval">승인대기</button><button class="chip" data-filter="error">오류</button></div></div>
           <div id="projectList" class="project-list"></div>
         </div>
+        <aside class="panel detail-panel" id="detailPanel"><p class="empty">왼쪽 프로젝트를 선택하면 분석·상품·글·영상·배포 상태가 한 화면에 표시됩니다.</p></aside>
+      </section>
 
-        <aside class="panel detail-panel" id="detailPanel">
-          <p class="empty">왼쪽 프로젝트를 선택하면 분석·상품·글·영상·배포 상태가 한 화면에 표시됩니다.</p>
-        </aside>
+      <section class="panel article-manager" id="articleManager">
+        <div class="panel-head article-head">
+          <div><p class="eyebrow">글 승인 · 전체 글 관리</p><h2>Savingio 전체 글</h2><p class="meta" id="articleSummary">글 목록을 불러오는 중입니다.</p></div>
+          <div class="article-tools"><input id="articleSearch" type="search" placeholder="제목 또는 URL 검색"><button class="btn ghost" id="duplicateAllBtn">전체 중복검사</button><button class="btn primary" id="reloadArticlesBtn">새로고침</button></div>
+        </div>
+        <div class="article-statusbar" id="articleStatus">준비 중</div>
+        <div class="article-table-wrap">
+          <table class="article-table">
+            <thead><tr><th>상태</th><th>글 제목</th><th>URL</th><th>중복</th><th>관리</th></tr></thead>
+            <tbody id="articleRows"><tr><td colspan="5" class="empty">전체 글을 확인하고 있습니다.</td></tr></tbody>
+          </table>
+        </div>
       </section>
 
       <section class="panel department-panel">
@@ -54,13 +53,16 @@
     </main>
   </div>
 
-  <dialog id="projectDialog">
-    <form method="dialog" id="projectForm">
-      <h2>새 프로젝트 추가</h2>
-      <label>프로젝트명<input name="title" required placeholder="예: 40대 주름크림"></label>
-      <label>대분류<select name="category"><option>생활비</option><option>보험</option><option>뷰티</option><option>건강</option><option>자동차</option></select></label>
-      <label>콘텐츠 유형<select name="type"><option>통합 캠페인</option><option>상품</option><option>글</option><option>쇼츠</option><option>SNS</option></select></label>
-      <div class="dialog-actions"><button class="btn ghost" value="cancel">취소</button><button class="btn primary" value="default">추가</button></div>
+  <dialog id="projectDialog"><form method="dialog" id="projectForm"><h2>새 프로젝트 추가</h2><label>프로젝트명<input name="title" required placeholder="예: 40대 주름크림"></label><label>대분류<select name="category"><option>생활비</option><option>보험</option><option>뷰티</option><option>건강</option><option>자동차</option></select></label><label>콘텐츠 유형<select name="type"><option>통합 캠페인</option><option>상품</option><option>글</option><option>쇼츠</option><option>SNS</option></select></label><div class="dialog-actions"><button class="btn ghost" value="cancel">취소</button><button class="btn primary" value="default">추가</button></div></form></dialog>
+
+  <dialog id="articleEditDialog" class="editor-dialog">
+    <form method="dialog" id="articleEditForm">
+      <h2>글 수정</h2>
+      <input type="hidden" name="path">
+      <label>글 제목<input name="title" required></label>
+      <label>HTML 전체 내용<textarea name="html" rows="22" spellcheck="false"></textarea></label>
+      <p class="meta">저장하면 GitHub main에 반영되고 Cloudflare 자동 배포가 시작됩니다.</p>
+      <div class="dialog-actions"><button class="btn ghost" value="cancel">취소</button><button class="btn primary" id="saveArticleBtn" value="default">저장 및 배포</button></div>
     </form>
   </dialog>
 
