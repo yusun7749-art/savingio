@@ -1,52 +1,12 @@
-/* SAVINGIO PAGE ENGINE v3 — borderless flat layout */
-html.savingio-master-ready [data-sv-role="page-root"]{
- width:100%!important;
- max-width:var(--sv-content-max)!important;
- margin:0 auto!important;
- padding:0 24px 76px!important;
- background:transparent!important;
-}
-html.savingio-master-ready [data-sv-frame="hero"]{
- width:100%!important;
- max-width:var(--sv-content-max)!important;
- margin:0 auto!important;
- padding:var(--sv-hero-top) 0 var(--sv-hero-bottom)!important;
- background:transparent!important;
- border:0!important;
- box-shadow:none!important;
- text-align:left!important;
-}
-html.savingio-master-ready [data-sv-frame="hero"] [data-sv-slot="title"]{
- max-width:900px!important;
- margin:0 0 14px!important;
- font-family:var(--sv-title)!important;
- font-size:clamp(40px,4vw,var(--sv-page-title))!important;
- font-weight:700!important;
- line-height:1.2!important;
- letter-spacing:-.04em!important;
- color:var(--sv-navy)!important;
- word-break:keep-all!important;
-}
-html.savingio-master-ready [data-sv-frame="hero"] [data-sv-slot="description"]{
- max-width:760px!important;
- margin:0!important;
- font-size:16px!important;
- line-height:1.72!important;
- color:var(--sv-muted)!important;
-}
-html.savingio-master-ready [data-sv-component="card-grid"]{
- width:100%!important;
- display:grid!important;
- grid-template-columns:repeat(3,minmax(0,1fr))!important;
- gap:32px!important;
- align-items:start!important;
-}
-html.savingio-master-ready [data-sv-layout="directory"] [data-sv-component="card-grid"]{
- grid-template-columns:1fr!important;
- gap:0!important;
-}
+/* SAVINGIO PAGE ENGINE v4 — elegant borderless layout lock */
+html.savingio-master-ready [data-sv-role="page-root"]{width:100%!important;max-width:var(--sv-content-max)!important;margin:0 auto!important;padding:0 24px 76px!important;background:transparent!important}
+html.savingio-master-ready [data-sv-frame="hero"]{width:100%!important;max-width:var(--sv-content-max)!important;margin:0 auto!important;padding:var(--sv-hero-top) 0 var(--sv-hero-bottom)!important;background:transparent!important;border:0!important;box-shadow:none!important;text-align:left!important}
+html.savingio-master-ready [data-sv-frame="hero"] [data-sv-slot="title"]{max-width:900px!important;margin:0 0 14px!important;font-family:var(--sv-title)!important;font-size:clamp(40px,4vw,var(--sv-page-title))!important;font-weight:700!important;line-height:1.2!important;letter-spacing:-.04em!important;color:var(--sv-navy)!important;word-break:keep-all!important}
+html.savingio-master-ready [data-sv-frame="hero"] [data-sv-slot="description"]{max-width:760px!important;margin:0!important;font-size:16px!important;line-height:1.72!important;color:var(--sv-muted)!important}
+html.savingio-master-ready [data-sv-component="card-grid"]{width:100%!important;display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:0 34px!important;align-items:start!important}
+html.savingio-master-ready [data-sv-layout="directory"] [data-sv-component="card-grid"]{grid-template-columns:1fr!important;gap:0!important}
 
-/* ABSOLUTE BORDERLESS LOCK */
+/* All former cards become editorial list rows */
 html.savingio-master-ready [data-sv-component="card"],
 html.savingio-master-ready .portal-panel,
 html.savingio-master-ready .sv2-card,
@@ -63,59 +23,51 @@ html.savingio-master-ready .side-card,
 html.savingio-master-ready .info-card,
 html.savingio-master-ready .category-card,
 html.savingio-master-ready .calculator-item,
-html.savingio-master-ready .lab-item,
-html.savingio-master-ready [data-sv-role="rail"]>* ,
+html.savingio-master-ready .lab-item{
+ border:0!important;border-radius:0!important;outline:0!important;background:transparent!important;box-shadow:none!important;transform:none!important
+}
+html.savingio-master-ready .article-card,
+html.savingio-master-ready .calculator-card,
+html.savingio-master-ready .tool-card,
+html.savingio-master-ready .lab-card,
+html.savingio-master-ready .category-card,
+html.savingio-master-ready [data-sv-layout="directory"] [data-sv-component="card"]{
+ padding:30px 0!important;margin:0!important;border-bottom:1px solid rgba(19,39,68,.12)!important
+}
+html.savingio-master-ready .article-card:first-child,
+html.savingio-master-ready [data-sv-layout="directory"] [data-sv-component="card"]:first-child{border-top:1px solid rgba(19,39,68,.12)!important}
+html.savingio-master-ready .article-card:hover,
+html.savingio-master-ready .calculator-card:hover,
+html.savingio-master-ready .tool-card:hover,
+html.savingio-master-ready .lab-card:hover,
+html.savingio-master-ready .category-card:hover,
+html.savingio-master-ready [data-sv-component="card"]:hover{background:transparent!important;box-shadow:none!important;transform:none!important;opacity:.72!important}
+
+/* Article sections stay open and spacious */
 html.savingio-master-ready [data-sv-role="main"]>section,
 html.savingio-master-ready [data-sv-role="main"]>.toc,
 html.savingio-master-ready [data-sv-role="main"]>.faq,
 html.savingio-master-ready [data-sv-role="main"]>.related-list{
- border:0!important;
- border-top:0!important;
- border-right:0!important;
- border-bottom:0!important;
- border-left:0!important;
- border-radius:0!important;
- outline:0!important;
- background:transparent!important;
- box-shadow:none!important;
+ border:0!important;border-radius:0!important;outline:0!important;background:transparent!important;box-shadow:none!important;padding-left:0!important;padding-right:0!important
 }
-html.savingio-master-ready [data-sv-component="card"],
-html.savingio-master-ready [data-sv-role="main"]>section,
-html.savingio-master-ready [data-sv-role="main"]>.toc,
-html.savingio-master-ready [data-sv-role="main"]>.faq,
-html.savingio-master-ready [data-sv-role="main"]>.related-list{
- padding-left:0!important;
- padding-right:0!important;
-}
-html.savingio-master-ready [data-sv-role="rail"]>*{
- padding:0 0 24px!important;
- margin:0 0 24px!important;
-}
-html.savingio-master-ready [data-sv-component="input"]{
- width:100%;
- min-height:46px;
- color:var(--sv-ink)!important;
- font-family:var(--sv-font)!important;
-}
-html.savingio-master-ready [data-sv-component="button"]{
- display:inline-flex!important;
- align-items:center!important;
- justify-content:center!important;
- min-height:44px!important;
- padding:0 16px!important;
- font-family:var(--sv-font)!important;
- font-weight:750!important;
- text-decoration:none!important;
-}
-@media(max-width:980px){
- html.savingio-master-ready [data-sv-layout="calculator"] [data-sv-component="card-grid"],
- html.savingio-master-ready [data-sv-layout="lab"] [data-sv-component="card-grid"],
- html.savingio-master-ready [data-sv-layout="category"] [data-sv-component="card-grid"],
- html.savingio-master-ready [data-sv-layout="about"] [data-sv-component="card-grid"],
- html.savingio-master-ready [data-sv-layout="standard"] [data-sv-component="card-grid"]{grid-template-columns:repeat(2,minmax(0,1fr))!important}
-}
-@media(max-width:700px){
- html.savingio-master-ready [data-sv-role="page-root"]{padding-left:18px!important;padding-right:18px!important;padding-bottom:58px!important}
- html.savingio-master-ready [data-sv-frame="hero"]{padding-top:42px!important}
- html.savingio-master-ready [data-sv-layout] [data-sv-component="card-grid"]{grid-template-columns:1fr!important}
-}
+html.savingio-master-ready [data-sv-role="main"]>section+section{margin-top:54px!important}
+html.savingio-master-ready [data-sv-role="rail"]>*{border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;padding:0 0 24px!important;margin:0 0 24px!important;border-bottom:1px solid rgba(19,39,68,.12)!important}
+
+/* Explorer: navigation tree, not stacked cards */
+#savingio-brain-nav{border:0!important;border-right:1px solid rgba(19,39,68,.12)!important;border-radius:0!important;background:rgba(250,246,239,.98)!important;box-shadow:none!important;left:0!important;top:var(--sv-header-h)!important;bottom:0!important}
+#savingio-brain-nav:before{display:none!important}
+#savingio-brain-nav .sbn-head{padding:26px 22px 18px!important}
+#savingio-brain-nav .sbn-search{padding:12px 22px!important}
+#savingio-brain-nav .sbn-search input{border:0!important;border-bottom:1px solid rgba(19,39,68,.2)!important;border-radius:0!important;background:transparent!important;padding:0 2px!important}
+#savingio-brain-nav .sbn-search-status{padding:0 22px 14px!important}
+#savingio-brain-nav .sbn-tree{padding:8px 22px 28px!important}
+#savingio-brain-nav .sbn-large{margin:0!important;border-bottom:1px solid rgba(19,39,68,.09)!important}
+#savingio-brain-nav .sbn-large>summary{padding:14px 34px 14px 0!important;border:0!important;border-radius:0!important;background:transparent!important}
+#savingio-brain-nav .sbn-count{right:0!important;background:transparent!important}
+#savingio-brain-nav .sbn-result-card{padding:14px 0!important;border:0!important;border-radius:0!important;border-bottom:1px solid rgba(19,39,68,.09)!important;background:transparent!important}
+
+/* Inputs keep only a precise baseline */
+html.savingio-master-ready [data-sv-component="input"]{width:100%;min-height:46px;color:var(--sv-ink)!important;font-family:var(--sv-font)!important;border:0!important;border-bottom:1px solid rgba(19,39,68,.22)!important;border-radius:0!important;background:transparent!important}
+html.savingio-master-ready [data-sv-component="button"]{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-height:44px!important;padding:0 16px!important;font-family:var(--sv-font)!important;font-weight:750!important;text-decoration:none!important}
+@media(max-width:980px){html.savingio-master-ready [data-sv-layout="calculator"] [data-sv-component="card-grid"],html.savingio-master-ready [data-sv-layout="lab"] [data-sv-component="card-grid"],html.savingio-master-ready [data-sv-layout="category"] [data-sv-component="card-grid"],html.savingio-master-ready [data-sv-layout="about"] [data-sv-component="card-grid"],html.savingio-master-ready [data-sv-layout="standard"] [data-sv-component="card-grid"]{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:700px){html.savingio-master-ready [data-sv-role="page-root"]{padding-left:18px!important;padding-right:18px!important;padding-bottom:58px!important}html.savingio-master-ready [data-sv-frame="hero"]{padding-top:42px!important}html.savingio-master-ready [data-sv-layout] [data-sv-component="card-grid"]{grid-template-columns:1fr!important}}
