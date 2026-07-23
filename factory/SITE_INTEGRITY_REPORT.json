@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3067,
-  "references_scanned": 62623,
+  "files_scanned": 3068,
+  "references_scanned": 62626,
   "counts": {
-    "broken_references": 1693,
+    "broken_references": 1696,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -11584,6 +11584,29 @@
         "js/${x[2]}",
         "js/${x[2]}.html",
         "js/${x[2]}/index.html"
+      ]
+    },
+    {
+      "source": "js/savingio-article-framework.js",
+      "reference": "canonical",
+      "expected": [
+        "js/canonical",
+        "js/canonical.html",
+        "js/canonical/index.html"
+      ]
+    },
+    {
+      "source": "js/savingio-article-framework.js",
+      "reference": "canonical, location.origin",
+      "expected": [
+        "js/canonical, location.origin"
+      ]
+    },
+    {
+      "source": "js/savingio-article-framework.js",
+      "reference": "link.getAttribute(",
+      "expected": [
+        "js/link.getAttribute("
       ]
     },
     {
