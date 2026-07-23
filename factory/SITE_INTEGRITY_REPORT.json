@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3059,
-  "references_scanned": 62612,
+  "files_scanned": 3060,
+  "references_scanned": 62614,
   "counts": {
-    "broken_references": 1687,
+    "broken_references": 1689,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -2748,6 +2748,13 @@
       "reference": "/articles/loan-refinancing-guide.html",
       "expected": [
         "articles/loan-refinancing-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/local-tax-payment-guide.html",
+      "expected": [
+        "articles/local-tax-payment-guide.html"
       ]
     },
     {
@@ -11670,6 +11677,13 @@
       "reference": "${esc(r.href)}",
       "expected": [
         "js/${esc(r.href)}"
+      ]
+    },
+    {
+      "source": "js/savingio-brain-navigation.js",
+      "reference": "location.href",
+      "expected": [
+        "js/location.href"
       ]
     },
     {
