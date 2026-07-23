@@ -1,6 +1,6 @@
 (async()=>{
 'use strict';
-const VERSION='20260723-master21';
+const VERSION='20260723-master22';
 const CATEGORIES=['금융','생활비 절약','정부혜택','세금·환급','직장·급여','자동차·교통','연금·노후','아이·교육','주거','생활정보'];
 const RULES=[
  ['아이·교육',['아이','어린이','아동','자녀','육아','교육','학교','학원','돌봄']],
@@ -25,6 +25,14 @@ function ensureCss(){
  addCss(`/css/savingio-components.css?v=${VERSION}`,'savingioComponents');
  addCss(`/css/savingio-brain-navigation.css?v=${VERSION}`,'savingioExplorer');
  addCss(`/css/savingio-page-engine.css?v=${VERSION}`,'savingioPageEngine');
+ addCss(`/css/savingio-design-constitution.css?v=${VERSION}`,'savingioDesignConstitution');
+}
+function installGlobalGeometry(){
+ if(document.querySelector('.savingio-global-geometry'))return;
+ const art=document.createElement('div');art.className='savingio-global-geometry';art.setAttribute('aria-hidden','true');
+ art.innerHTML='<span class="shape circle-left-top"></span><span class="shape circle-left-bottom"></span><span class="shape circle-right-top"></span><span class="shape circle-right-mid"></span><span class="shape diag-left"></span><span class="shape diag-right"></span><span class="shape gold-line-left"></span><span class="shape gold-line-right"></span><span class="shape white-arc"></span><span class="dot-grid dot-left"></span><span class="dot-grid dot-right"></span>';
+ document.body.insertBefore(art,document.body.firstChild);
+ document.documentElement.classList.add('savingio-design-constitution-ready');
 }
 function classify(title,original='생활정보'){
  const t=compact(title);for(const [cat,words] of RULES){if(words.some(w=>t.includes(compact(w))))return cat;}
@@ -72,6 +80,7 @@ async function initExplorer(records,controller){
 }
 ensureCss();
 if(document.readyState==='loading')await new Promise(r=>document.addEventListener('DOMContentLoaded',r,{once:true}));
+installGlobalGeometry();
 installHeader();
 if(!window.SavingioTemplateEngine)await addScript(`/js/savingio-template-engine.js?v=${VERSION}`,'savingioTemplateEngine');else window.SavingioTemplateEngine.install();
 if(/^\/articles\/(?!$|index(?:\.html)?$)/.test(location.pathname)){
