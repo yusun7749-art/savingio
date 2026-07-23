@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3115,
-  "references_scanned": 62790,
+  "files_scanned": 3116,
+  "references_scanned": 62801,
   "counts": {
-    "broken_references": 1730,
+    "broken_references": 1741,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -45,6 +45,99 @@
         "admin/stop",
         "admin/stop.html",
         "admin/stop/index.html"
+      ]
+    },
+    {
+      "source": "admin/content-center.js",
+      "reference": "${esc(article.path)}",
+      "expected": [
+        "admin/${esc(article.path)}"
+      ]
+    },
+    {
+      "source": "admin/content-center.js",
+      "reference": "approve",
+      "expected": [
+        "admin/approve",
+        "admin/approve.html",
+        "admin/approve/index.html"
+      ]
+    },
+    {
+      "source": "admin/content-center.js",
+      "reference": "delete",
+      "expected": [
+        "admin/delete",
+        "admin/delete.html",
+        "admin/delete/index.html"
+      ]
+    },
+    {
+      "source": "admin/content-center.js",
+      "reference": "detail",
+      "expected": [
+        "admin/detail",
+        "admin/detail.html",
+        "admin/detail/index.html"
+      ]
+    },
+    {
+      "source": "admin/content-center.js",
+      "reference": "hide",
+      "expected": [
+        "admin/hide",
+        "admin/hide.html",
+        "admin/hide/index.html"
+      ]
+    },
+    {
+      "source": "admin/content-center.js",
+      "reference": "hold",
+      "expected": [
+        "admin/hold",
+        "admin/hold.html",
+        "admin/hold/index.html"
+      ]
+    },
+    {
+      "source": "admin/content-center.js",
+      "reference": "items[index]",
+      "expected": [
+        "admin/items[index]",
+        "admin/items[index].html",
+        "admin/items[index]/index.html"
+      ]
+    },
+    {
+      "source": "admin/content-center.js",
+      "reference": "rewrite",
+      "expected": [
+        "admin/rewrite",
+        "admin/rewrite.html",
+        "admin/rewrite/index.html"
+      ]
+    },
+    {
+      "source": "admin/content-center.js",
+      "reference": "url",
+      "expected": [
+        "admin/url",
+        "admin/url.html",
+        "admin/url/index.html"
+      ]
+    },
+    {
+      "source": "admin/content-center.js",
+      "reference": "url, location.origin",
+      "expected": [
+        "admin/url, location.origin"
+      ]
+    },
+    {
+      "source": "admin/content-center.js",
+      "reference": "value, location.origin",
+      "expected": [
+        "admin/value, location.origin"
       ]
     },
     {
