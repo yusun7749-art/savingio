@@ -1,5 +1,5 @@
-/* SAVINGIO DESIGN CONSTITUTION v1
-   The homepage cream-and-geometry background is the single site-wide background DNA. */
+/* SAVINGIO DESIGN CONSTITUTION v2
+   Homepage geometry, page edges, explorer and search styling are globally locked. */
 :root{
   --sv-paper:#faf6ef;
   --sv-paper-rgb:250,246,239;
@@ -8,6 +8,8 @@
   --sv-muted:#6b6d70;
   --sv-gold:#b98238;
   --sv-line:rgba(143,119,84,.18);
+  --sv-content-max:1180px;
+  --sv-page-pad:24px;
   --sv-font:Pretendard,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
   --sv-title:"Noto Serif KR",Georgia,"Times New Roman",serif;
 }
@@ -29,11 +31,24 @@ body>*:not(.savingio-global-geometry){position:relative;z-index:1}
 .savingio-global-geometry .dot-left{left:74px;top:236px}
 .savingio-global-geometry .dot-right{right:52px;top:342px;background-image:radial-gradient(circle,rgba(255,255,255,.82) 1.55px,transparent 1.65px)}
 .site-header,.savingio-dna-header,.savingio-unified-header,.top{background:rgba(var(--sv-paper-rgb),.88)!important}
-#savingio-brain-nav{background:rgba(var(--sv-paper-rgb),.86)!important}
+#savingio-brain-nav{background:rgba(var(--sv-paper-rgb),.90)!important;border-radius:0!important;box-shadow:none!important}
+#savingio-brain-nav .sbn-search{background:transparent!important}
+#savingio-brain-nav .sbn-search input,
+#savingio-brain-nav input[type="search"],
+.sv2-search-tree-slot #savingio-brain-nav .sbn-search input{
+  width:100%!important;height:42px!important;padding:0!important;
+  border:0!important;border-bottom:1px solid rgba(19,39,68,.20)!important;border-radius:0!important;
+  background:transparent!important;color:var(--sv-ink)!important;box-shadow:none!important;outline:none!important;
+}
+#savingio-brain-nav .sbn-search input:focus,
+#savingio-brain-nav input[type="search"]:focus{border-bottom-color:var(--sv-gold)!important;background:transparent!important}
+#savingio-brain-nav .sbn-large>summary,#savingio-brain-nav .sbn-result-card{background:transparent!important;border-radius:0!important;box-shadow:none!important}
 .page,.page-shell,.info-shell,.portal-shell,.sv2-shell,main,[data-sv-role="page-root"],[data-sv-frame="page"],[data-sv-layout],[data-sv-role="main"],.content,.section,.hero,.info-hero,.sv2-hero,.portal-hero,.page-hero,.lab-hero,.savingio-lab-hero,.about-hero,.contact-hero,.policy-hero{background:transparent!important}
+.page-shell,.info-shell,.portal-shell,.sv2-shell,.lab-hero,.lab-grid,[data-sv-role="page-root"],[data-sv-frame="page"]{box-sizing:border-box!important;width:100%!important;max-width:var(--sv-content-max)!important;margin-left:auto!important;margin-right:auto!important;padding-left:var(--sv-page-pad)!important;padding-right:var(--sv-page-pad)!important}
 .portal-panel,.sv2-card,.lab-card,.trust-grid>div,.about-card,.content-card,.article-card,.calculator-card,.tool-card,.related-card,.rail-card,.side-card,.info-card,.category-card,[data-sv-component="card"]{background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important}
 h1,h2,h3{color:var(--sv-navy)!important}
 @media(max-width:760px){
+ :root{--sv-page-pad:18px}
  .savingio-global-geometry .circle-right-top{right:-245px}.savingio-global-geometry .circle-right-mid{right:-330px}.savingio-global-geometry .circle-left-top{left:-285px}.savingio-global-geometry .diag-left{left:-370px}
 }
 @media(prefers-reduced-motion:reduce){.savingio-global-geometry{background-attachment:scroll}}
