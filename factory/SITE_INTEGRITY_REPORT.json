@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3099,
-  "references_scanned": 62764,
+  "files_scanned": 3100,
+  "references_scanned": 62768,
   "counts": {
-    "broken_references": 1723,
+    "broken_references": 1726,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -1700,10 +1700,39 @@
       ]
     },
     {
-      "source": "captain-hq/index.html",
-      "reference": "./admin.js",
+      "source": "captain-hq/admin.js",
+      "reference": "approve",
       "expected": [
-        "captain-hq/admin.js"
+        "captain-hq/approve",
+        "captain-hq/approve.html",
+        "captain-hq/approve/index.html"
+      ]
+    },
+    {
+      "source": "captain-hq/admin.js",
+      "reference": "preview",
+      "expected": [
+        "captain-hq/preview",
+        "captain-hq/preview.html",
+        "captain-hq/preview/index.html"
+      ]
+    },
+    {
+      "source": "captain-hq/admin.js",
+      "reference": "retry",
+      "expected": [
+        "captain-hq/retry",
+        "captain-hq/retry.html",
+        "captain-hq/retry/index.html"
+      ]
+    },
+    {
+      "source": "captain-hq/admin.js",
+      "reference": "stop",
+      "expected": [
+        "captain-hq/stop",
+        "captain-hq/stop.html",
+        "captain-hq/stop/index.html"
       ]
     },
     {
