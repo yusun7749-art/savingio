@@ -1,6 +1,6 @@
 (async()=>{
 'use strict';
-const VERSION='20260723-master11';
+const VERSION='20260723-master12';
 const CATEGORIES=['금융','생활비 절약','정부혜택','세금·환급','직장·급여','자동차·교통','연금·노후','아이·교육','주거','생활정보'];
 const RULES=[
  ['아이·교육',['아이','어린이','아동','자녀','육아','교육','학교','학원','돌봄']],
@@ -36,7 +36,9 @@ function scoreRecord(r,q){
 }
 function rank(list,q,cat='전체'){return list.map((r,i)=>({r,i,s:scoreRecord(r,q)})).filter(x=>x.s>0&&(cat==='전체'||x.r.category===cat)).sort((a,b)=>b.s-a.s||a.i-b.i)}
 function installHeader(){
- const header=document.querySelector('.site-header,.top,.savingio-dna-header');if(!header)return;
+ let header=document.querySelector('.site-header,.top,.savingio-dna-header,.savingio-unified-header');
+ if(!header){header=document.createElement('header');document.body.insertBefore(header,document.body.firstChild)}
+ document.querySelectorAll('.site-header,.top,.savingio-dna-header,.savingio-unified-header').forEach((el,i)=>{if(el!==header&&i)el.remove()});
  const path=location.pathname.replace(/index\.html$/,'').replace(/\.html$/,'');
  const items=[['홈','/'],['생활정보','/articles/'],['계산기','/calculators/'],['Savingio Lab','/lab/'],['사이트 탐색','/categories/'],['About','/about.html']];
  header.className='savingio-dna-header';
@@ -59,7 +61,7 @@ async function loadRecords(local){
  const seen=new Set(),out=[];Object.entries(data.tree||{}).forEach(([large,mids])=>Object.entries(mids||{}).forEach(([middle,smalls])=>Object.entries(smalls||{}).forEach(([small,items])=>(items||[]).forEach(item=>{if(!item?.href||!item?.title||seen.has(item.href))return;seen.add(item.href);out.push({title:item.title,desc:item.description||'',href:item.href,category:classify(item.title,middle),keywords:item.search_keywords||'',large,middle,small})}))));return out;
 }
 async function initExplorer(records,controller){
- document.querySelectorAll('#savingio-brain-nav').forEach((el,i)=>{if(i)el.remove()});if(document.getElementById('savingio-brain-nav'))return;
+ document.querySelectorAll('#savingio-brain-nav,.sbn-mobile-btn,.sbn-backdrop').forEach(el=>el.remove());
  const source=await loadRecords(records),nav=document.createElement('aside');nav.id='savingio-brain-nav';nav.innerHTML='<button class="sbn-close" type="button" aria-label="탐색 닫기">×</button><div class="sbn-head"><strong>지금 어떤 문제가 있으세요?</strong><small>상황이나 찾는 글 제목을 입력해 보세요.</small></div><form class="sbn-search"><input type="search" placeholder="예: 아이, 세금, 장기수선충당금" autocomplete="off"></form><div class="sbn-search-status"></div><div class="sbn-tree"></div>';
  const input=nav.querySelector('input'),status=nav.querySelector('.sbn-search-status'),tree=nav.querySelector('.sbn-tree');
  const showCategories=()=>{status.textContent='카테고리를 선택하거나 검색해 글을 찾으세요';tree.innerHTML=CATEGORIES.map(cat=>{const items=source.filter(r=>r.category===cat);return `<details class="sbn-large"><summary><span class="sbn-large-title">${esc(cat)}</span><span class="sbn-count">${items.length}</span></summary><ul class="sbn-items">${items.map(r=>`<li><a href="${esc(r.href)}">${esc(r.title)}</a></li>`).join('')}</ul></details>`}).join('')};
