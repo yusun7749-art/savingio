@@ -33,6 +33,27 @@
         <aside class="panel detail-panel" id="detailPanel"><p class="empty">왼쪽 프로젝트를 선택하면 분석·상품·글·영상·배포 상태가 한 화면에 표시됩니다.</p></aside>
       </section>
 
+      <section class="panel content-approval-center" id="contentApprovalCenter">
+        <div class="panel-head content-center-head">
+          <div><p class="eyebrow">Savingio 콘텐츠 운영센터</p><h2>전체 글 승인 · 헌법/DNA 검사</h2><p class="content-subtitle">사이트에 공개된 전체 글을 실제로 읽어 미달 항목과 제목 유사도를 검사합니다.</p></div>
+          <div class="content-head-actions"><span id="contentLastAudit" class="meta">아직 검사하지 않음</span><button class="btn primary" id="runContentAuditBtn" type="button">전체 Doctor 검사</button></div>
+        </div>
+        <div class="content-health-summary" id="contentHealthSummary">
+          <div><span>전체 글</span><strong>-</strong></div><div><span>평균 품질</span><strong>-</strong></div><div><span>A</span><strong>-</strong></div><div><span>B</span><strong>-</strong></div><div><span>C</span><strong>-</strong></div><div><span>D</span><strong>-</strong></div>
+        </div>
+        <div class="content-toolbar">
+          <input id="contentSearch" type="search" placeholder="제목·URL·카테고리 검색">
+          <select id="contentCategoryFilter"><option value="all">전체 카테고리</option></select>
+          <div class="filters content-filters"><button class="chip active" data-content-filter="all">전체</button><button class="chip" data-content-filter="fail">헌법 미달</button><button class="chip" data-content-filter="duplicate">중복 의심</button><button class="chip" data-content-filter="hold">보류</button><button class="chip" data-content-filter="approved">승인</button></div>
+        </div>
+        <div class="content-table-wrap">
+          <table class="content-table">
+            <thead><tr><th>품질</th><th>글 제목</th><th>카테고리</th><th>헌법/DNA</th><th>중복</th><th>본문</th><th>상태</th><th>작업</th></tr></thead>
+            <tbody id="contentApprovalRows"><tr><td colspan="8" class="content-empty">전체 Doctor 검사를 누르면 운영 중인 글 목록과 미달 여부가 표시됩니다.</td></tr></tbody>
+          </table>
+        </div>
+      </section>
+
       <section class="panel department-panel">
         <div class="panel-head"><div><p class="eyebrow">확장형 기본 틀</p><h2 id="departmentTitle">부서별 작업판</h2></div></div>
         <div id="departmentBoard" class="department-board"></div>
@@ -41,6 +62,15 @@
   </div>
 
   <dialog id="projectDialog"><form method="dialog" id="projectForm"><h2>새 프로젝트 추가</h2><label>프로젝트명<input name="title" required placeholder="예: 40대 주름크림"></label><label>대분류<select name="category"><option>생활비</option><option>보험</option><option>뷰티</option><option>건강</option><option>자동차</option></select></label><label>콘텐츠 유형<select name="type"><option>통합 캠페인</option><option>상품</option><option>글</option><option>쇼츠</option><option>SNS</option></select></label><div class="dialog-actions"><button class="btn ghost" value="cancel">취소</button><button class="btn primary" value="default">추가</button></div></form></dialog>
+
+  <dialog id="contentAuditDialog" class="content-audit-dialog">
+    <section class="content-audit-detail">
+      <div class="security-head"><div><p class="eyebrow">Savingio Doctor</p><h2 id="contentAuditTitle">글 검사 결과</h2><p id="contentAuditMeta" class="meta"></p></div><button class="icon-btn" id="contentAuditClose" type="button" aria-label="닫기">×</button></div>
+      <ul id="contentAuditRules" class="audit-rule-list"></ul>
+      <p id="contentDuplicateNote" class="duplicate-note"></p>
+      <div class="dialog-actions"><a id="contentAuditPreview" class="btn ghost" href="#" target="_blank" rel="noopener">실제 글 보기</a><button class="btn primary" type="button" onclick="document.getElementById('contentAuditDialog').close()">확인</button></div>
+    </section>
+  </dialog>
 
   <dialog id="securityDialog" class="security-dialog">
     <section class="security-center">
@@ -77,5 +107,6 @@
   <script src="/admin/admin-data.js"></script>
   <script src="/admin/admin.js"></script>
   <script src="/admin/device-manager.js"></script>
+  <script src="/admin/content-center.js"></script>
 </body>
 </html>
