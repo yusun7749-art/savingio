@@ -1,16 +1,37 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3090,
-  "references_scanned": 62751,
+  "files_scanned": 3091,
+  "references_scanned": 62754,
   "counts": {
-    "broken_references": 1715,
+    "broken_references": 1718,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
     "publisher_id_drift": 0
   },
   "broken_references": [
+    {
+      "source": "admin/index.html",
+      "reference": "/admin/admin-data.js",
+      "expected": [
+        "admin/admin-data.js"
+      ]
+    },
+    {
+      "source": "admin/index.html",
+      "reference": "/admin/admin.css",
+      "expected": [
+        "admin/admin.css"
+      ]
+    },
+    {
+      "source": "admin/index.html",
+      "reference": "/admin/admin.js",
+      "expected": [
+        "admin/admin.js"
+      ]
+    },
     {
       "source": "articles/ai-side-hustles-beginner.html",
       "reference": "/articles/car-insurance-low-mileage-discount.html",
