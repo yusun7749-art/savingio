@@ -1,0 +1,74 @@
+(function(){
+'use strict';
+const ARTICLE_PATH=/^\/articles\//;
+const PAGE_HERO='.info-hero,.sv2-hero,.portal-hero,.page-hero,.lab-hero,.savingio-lab-hero,.about-hero,.contact-hero,.policy-hero';
+const ARTICLE_SHELL='.page-shell,.article-layout,.article-grid,.content-with-rail';
+const ARTICLE_MAIN='.article-main,.article-content,.post-content,.article-column';
+const RIGHT_RAIL='.right-rail,.article-sidebar,.sidebar-right,.right-sidebar';
+const CONTENT_SHELL='.info-shell,.portal-shell,.sv2-shell,.lab-grid,.content-shell,.main-content';
+const RAIL_PURPOSES=['action','tool','same-category','related','next'];
+
+function first(selector,root=document){return root.querySelector(selector)}
+function all(selector,root=document){return [...root.querySelectorAll(selector)]}
+function mark(el,key,value){if(el)el.dataset[key]=value;return el}
+
+function normalizeHero(){
+  let hero=first(PAGE_HERO);
+  if(!hero){
+    const candidate=first('main>section:first-child');
+    if(candidate&&first('h1',candidate))hero=candidate;
+  }
+  if(hero){
+    mark(hero,'svFrame','hero');
+    const title=first('h1',hero);if(title)mark(title,'svSlot','title');
+    const copy=first('p,.lead,.hero-copy',hero);if(copy)mark(copy,'svSlot','description');
+  }
+}
+
+function normalizeRail(rail){
+  if(!rail)return;
+  mark(rail,'svRole','rail');
+  const cards=all(':scope > section,:scope > aside,:scope > div',rail).filter(el=>el.children.length||el.textContent.trim());
+  cards.slice(0,5).forEach((card,index)=>{
+    mark(card,'svComponent','card');
+    mark(card,'svRailPurpose',RAIL_PURPOSES[index]);
+  });
+  cards.slice(5).forEach(card=>card.hidden=true);
+}
+
+function normalizeArticle(){
+  const shell=first(ARTICLE_SHELL);
+  const rail=first(RIGHT_RAIL,shell||document);
+  if(!shell||!rail)return false;
+  mark(shell,'svLayout','article');
+  const main=first(ARTICLE_MAIN,shell)||first('main',shell);
+  mark(main,'svRole','main');
+  normalizeRail(rail);
+  return true;
+}
+
+function normalizeContent(){
+  const shell=first(CONTENT_SHELL);
+  if(shell)mark(shell,'svLayout','content');
+}
+
+function normalizeComponents(){
+  all('.portal-panel,.sv2-card,.lab-card,.trust-grid>div,.about-card,.content-card,.article-card,.calculator-card,.tool-card,.related-card').forEach(el=>mark(el,'svComponent','card'));
+  all('.article-grid,.calculator-grid,.tool-grid,.card-grid,.lab-grid').forEach(el=>mark(el,'svComponent','card-grid'));
+  all('a.btn,button.btn,.button,.cta,.primary-button,.secondary-button').forEach(el=>mark(el,'svComponent','button'));
+  all('.secondary-button,.btn.secondary,.button.secondary').forEach(el=>mark(el,'variant','secondary'));
+  all('input[type="search"],input[type="text"],input[type="number"],select,textarea').forEach(el=>mark(el,'svComponent','input'));
+}
+
+function install(){
+  document.documentElement.classList.add('savingio-master-ready');
+  document.body.dataset.svPage=ARTICLE_PATH.test(location.pathname)?'article':'standard';
+  normalizeHero();
+  if(!normalizeArticle())normalizeContent();
+  normalizeComponents();
+  document.dispatchEvent(new CustomEvent('savingio-template-ready'));
+}
+
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',install,{once:true});else install();
+window.SavingioTemplateEngine={install,normalizeHero,normalizeArticle,normalizeComponents};
+})();
