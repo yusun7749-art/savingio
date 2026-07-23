@@ -1,0 +1,57 @@
+/* SAVINGIO DESIGN TOKENS v1 — only this file may define shared visual values */
+:root{
+  --sv-header-h:84px;
+  --sv-explorer-w:320px;
+  --sv-frame-gap:28px;
+  --sv-content-max:1180px;
+  --sv-main-max:820px;
+  --sv-rail-w:286px;
+
+  --sv-navy:#132744;
+  --sv-ink:#292d31;
+  --sv-muted:#6c716f;
+  --sv-gold:#b98238;
+  --sv-paper:#fbf8f2;
+  --sv-surface:#ffffff;
+  --sv-surface-soft:rgba(255,255,255,.72);
+  --sv-line:rgba(117,96,67,.16);
+
+  --sv-font:Pretendard,"Noto Sans KR",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --sv-title:Pretendard,"Noto Sans KR",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+
+  --sv-page-title:50px;
+  --sv-article-title:44px;
+  --sv-h2:28px;
+  --sv-h3:22px;
+  --sv-body:16px;
+
+  --sv-space-1:8px;
+  --sv-space-2:12px;
+  --sv-space-3:16px;
+  --sv-space-4:24px;
+  --sv-space-5:32px;
+  --sv-space-6:48px;
+  --sv-space-7:64px;
+
+  --sv-hero-top:64px;
+  --sv-hero-bottom:28px;
+  --sv-control-h:46px;
+  --sv-radius-sm:11px;
+  --sv-radius-md:16px;
+  --sv-radius-lg:20px;
+  --sv-card-radius:20px;
+  --sv-card-shadow:0 14px 34px rgba(76,65,52,.07);
+  --sv-focus:0 0 0 3px rgba(185,130,56,.18);
+}
+
+@media(max-width:760px){
+  :root{
+    --sv-header-h:72px;
+    --sv-page-title:36px;
+    --sv-article-title:34px;
+    --sv-h2:27px;
+    --sv-h3:22px;
+    --sv-body:15px;
+    --sv-hero-top:42px;
+  }
+}
