@@ -1,4 +1,4 @@
-import { getTrustedDevice } from '../../_lib/admin-auth.js';
+import { getAdminDevice } from '../../_lib/admin-auth.js';
 
 const ACTION_PREFIX = 'content-action:';
 const STATUS_PREFIX = 'content-status:';
@@ -10,7 +10,7 @@ function json(data, status = 200) {
 }
 
 async function authenticate(context) {
-  const device = await getTrustedDevice(context.request, context.env);
+  const device = await getAdminDevice(context.request, context.env);
   if (!device) return { error: json({ ok: false, error: '신뢰된 관리자 기기에서만 사용할 수 있습니다.' }, 401) };
   if (!context.env.ADMIN_SECURITY_KV) return { error: json({ ok: false, error: 'ADMIN_SECURITY_KV 저장소가 연결되어 있지 않습니다.' }, 503) };
   return { device };
