@@ -66,6 +66,33 @@
     </form>
   </dialog>
 
+  <section class="lina-hq" id="linaHq" aria-live="polite">
+    <button class="lina-launcher" id="linaLauncher" aria-label="리나 관리자봇 열기" title="리나 관리자봇">
+      <span class="lina-face">◕‿◕</span>
+      <span class="lina-alert" id="linaAlert" hidden></span>
+    </button>
+    <div class="lina-chat" id="linaChat" hidden>
+      <header class="lina-chat-head">
+        <div class="lina-profile"><span class="lina-mini-face">◕‿◕</span><div><strong>리나 HQ</strong><small><span class="lina-online"></span> Savingio 운영 관리자봇</small></div></div>
+        <div class="lina-head-actions"><button id="linaMinimize" aria-label="축소">—</button><button id="linaClose" aria-label="닫기">×</button></div>
+      </header>
+      <div class="lina-quick" id="linaQuick">
+        <button data-prompt="오늘 Savingio 운영 상태를 요약해줘">오늘 상황</button>
+        <button data-prompt="전체 글 중복검사 결과를 알려줘">중복검사</button>
+        <button data-prompt="현재 글 관리 기능 사용법을 알려줘">글 관리</button>
+        <button data-prompt="오늘 우선 처리할 일을 정리해줘">오늘 할 일</button>
+      </div>
+      <div class="lina-messages" id="linaMessages">
+        <article class="lina-message bot"><span class="message-avatar">◕‿◕</span><div>안녕하세요 선장님 😊<br>Savingio 운영본부에서 무엇을 확인할까요?</div></article>
+      </div>
+      <form class="lina-compose" id="linaForm">
+        <textarea id="linaInput" rows="1" maxlength="4000" placeholder="리나에게 운영 명령을 입력하세요"></textarea>
+        <button type="submit" id="linaSend">전송</button>
+      </form>
+      <p class="lina-note">수정·숨김·삭제 같은 위험 작업은 확인 후 실행하도록 연결됩니다.</p>
+    </div>
+  </section>
+
   <script src="./admin-data.js"></script>
   <script src="./admin.js"></script>
 </body>
