@@ -1,6 +1,6 @@
 (function(){
 'use strict';
-const VERSION='20260723-master5';
+const VERSION='20260723-master6';
 const ITEMS=[
  {label:'홈',href:'/'},{label:'생활정보',href:'/articles/'},{label:'계산기',href:'/calculators/'},
  {label:'Savingio Lab',href:'/lab/',lab:true},{label:'사이트 탐색',href:'/categories/'},{label:'About',href:'/about.html'}
