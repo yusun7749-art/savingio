@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3069,
-  "references_scanned": 62635,
+  "files_scanned": 3070,
+  "references_scanned": 62643,
   "counts": {
-    "broken_references": 1698,
+    "broken_references": 1701,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -3084,6 +3084,13 @@
       "reference": "/articles/youth-benefits-guide.html",
       "expected": [
         "articles/youth-benefits-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/{{SLUG}}.html",
+      "expected": [
+        "articles/{{SLUG}}.html"
       ]
     },
     {
@@ -7380,6 +7387,20 @@
       "reference": "https://savingio.com/articles/{{SLUG}}.html",
       "expected": [
         "articles/{{SLUG}}.html"
+      ]
+    },
+    {
+      "source": "factory/framework/calculator/calculator-template.html",
+      "reference": "/calculators/{{SLUG}}.html",
+      "expected": [
+        "calculators/{{SLUG}}.html"
+      ]
+    },
+    {
+      "source": "factory/framework/calculator/calculator-template.html",
+      "reference": "https://savingio.com/calculators/{{SLUG}}.html",
+      "expected": [
+        "calculators/{{SLUG}}.html"
       ]
     },
     {
