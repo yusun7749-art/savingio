@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3100,
-  "references_scanned": 62768,
+  "files_scanned": 3101,
+  "references_scanned": 62770,
   "counts": {
-    "broken_references": 1726,
+    "broken_references": 1728,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -11634,6 +11634,22 @@
         "factory/templates/{{CANONICAL_URL}}",
         "factory/templates/{{CANONICAL_URL}}.html",
         "factory/templates/{{CANONICAL_URL}}/index.html"
+      ]
+    },
+    {
+      "source": "functions/api/articles.js",
+      "reference": "/${articlePath}`;const",
+      "expected": [
+        "${articlePath}`;const",
+        "${articlePath}`;const.html",
+        "${articlePath}`;const/index.html"
+      ]
+    },
+    {
+      "source": "functions/api/articles.js",
+      "reference": "context.request.url",
+      "expected": [
+        "functions/api/context.request.url"
       ]
     },
     {
