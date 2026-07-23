@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{TITLE}} | Savingio</title>
+  <meta name="description" content="{{DESCRIPTION}}">
+  <link rel="canonical" href="https://savingio.com/calculators/{{SLUG}}.html">
+  <meta name="robots" content="index,follow">
+  <link rel="icon" href="/images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/calculator-generation-v2046.css">
+</head>
+<body class="savingio-calculator-page" data-calculator-id="{{CALCULATOR_ID}}">
+  <header class="site-header">{{HEADER}}</header>
+  <main class="calculator-shell">
+    <div class="breadcrumb">{{BREADCRUMB}}</div>
+    <section class="calculator-hero"><span class="badge">{{CATEGORY}}</span><h1>{{TITLE}}</h1><p>{{DESCRIPTION}}</p></section>
+    <div data-savingio-calculator-root></div>
+    <section class="calculator-guide">{{GUIDE}}</section>
+    <section class="calculator-cautions">{{CAUTIONS}}</section>
+    <section class="calculator-related" data-savingio-slot="related-articles"></section>
+    <section class="calculator-lab" data-savingio-slot="lab"></section>
+  </main>
+  <footer>{{FOOTER}}</footer>
+  <script src="/js/savingio-platform-registry.js?v=1"></script>
+  <script src="/js/savingio-platform-data.js?v=1"></script>
+  <script src="/js/savingio-calculator-framework.js?v=1"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var id = document.body.dataset.calculatorId;
+      var target = document.querySelector('[data-savingio-calculator-root]');
+      if (id && target && window.SavingioCalculatorFramework) {
+        window.SavingioCalculatorFramework.render(target, id);
+      }
+    });
+  </script>
+</body>
+</html>
