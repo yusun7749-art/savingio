@@ -6,6 +6,8 @@ import {
 } from './_lib/admin-auth.js';
 
 const TRUSTED_ADMIN_IPS = new Set(['61.39.35.194']);
+const ADMIN_BOOTSTRAP_HASH = 'f4e2ba3fe9c051392c8550dee7b3ce17be257bf893a114cb6500cf8145394608';
+const ADMIN_BOOTSTRAP_COOKIE = 'savingio_admin_bootstrap';
 
 function getClientIp(request) {
   const cfIp = request.headers.get('CF-Connecting-IP');
@@ -15,6 +17,30 @@ function getClientIp(request) {
   if (forwarded) return forwarded.split(',')[0].trim();
 
   return '';
+}
+
+function parseCookies(request) {
+  const raw = request.headers.get('Cookie') || '';
+  return Object.fromEntries(raw.split(';').map(item => item.trim()).filter(Boolean).map(item => {
+    const index = item.indexOf('=');
+    return index < 0 ? [item, ''] : [item.slice(0, index), decodeURIComponent(item.slice(index + 1))];
+  }));
+}
+
+async function sha256Hex(value) {
+  const bytes = new TextEncoder().encode(value);
+  const digest = await crypto.subtle.digest('SHA-256', bytes);
+  return Array.from(new Uint8Array(digest)).map(byte => byte.toString(16).padStart(2, '0')).join('');
+}
+
+async function hasBootstrapAccess(request) {
+  const token = parseCookies(request)[ADMIN_BOOTSTRAP_COOKIE];
+  if (!token) return false;
+  return (await sha256Hex(token)) === ADMIN_BOOTSTRAP_HASH;
+}
+
+function bootstrapCookie(token) {
+  return `${ADMIN_BOOTSTRAP_COOKIE}=${encodeURIComponent(token)}; Path=/; HttpOnly; Secure; SameSite=Strict; Max-Age=${60 * 60 * 24 * 365}`;
 }
 
 async function passAdminRequest(next) {
@@ -37,7 +63,7 @@ function loginPage(message = '') {
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>Savingio Admin Login</title><style>
 :root{font-family:Pretendard,"Noto Sans KR",Arial,sans-serif;color:#172033;background:#eef3f9}*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px}.card{width:min(430px,100%);background:#fff;border:1px solid #dce4ef;border-radius:22px;box-shadow:0 24px 70px rgba(20,45,85,.16);padding:28px}.mark{width:54px;height:54px;display:grid;place-items:center;border-radius:16px;background:#eaf1ff;font-size:28px}h1{margin:18px 0 8px;font-size:25px}p{margin:0 0 20px;color:#6b7588;line-height:1.6}.notice{background:#fff4d6;color:#73560d;padding:11px 12px;border-radius:10px;font-size:13px;margin-bottom:14px}label{display:grid;gap:7px;margin-bottom:13px;font-size:13px;font-weight:800}input{border:1px solid #cad5e3;border-radius:11px;padding:12px;font:inherit}button{width:100%;border:0;border-radius:11px;background:#246bfd;color:#fff;padding:12px;font:inherit;font-weight:800;cursor:pointer}.error{margin-top:12px;color:#ba3342;font-size:13px}.small{font-size:12px;margin-top:15px}
 </style></head><body><main class="card"><div class="mark">🔐</div><h1>Savingio Admin HQ</h1><p>처음 접속한 기기입니다. 관리자 인증 후 이 기기를 신뢰된 기기로 등록합니다.</p>${safeMessage ? `<div class="notice">${safeMessage}</div>` : ''}<form id="loginForm"><label>기기 이름<input id="deviceName" value="내 컴퓨터" maxlength="60" required></label><label>관리자 인증코드<input id="code" type="password" autocomplete="current-password" required></label><button type="submit">인증하고 HQ 열기</button><div id="error" class="error"></div></form><p class="small">휴대폰은 신뢰된 컴퓨터의 HQ 보안센터에서 QR을 생성해 연결합니다.</p></main><script>
-document.getElementById('loginForm').addEventListener('submit',async(event)=>{event.preventDefault();const error=document.getElementById('error');error.textContent='확인 중입니다…';try{const response=await fetch('/api/admin/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({code:document.getElementById('code').value,deviceName:document.getElementById('deviceName').value})});const result=await response.json();if(!response.ok)throw new Error(result.error||'로그인에 실패했습니다.');location.replace(result.redirect||'/admin/')}catch(err){error.textContent=err.message}});
+document.getElementById('loginForm').addEventListener('submit',async(event)=>{event.preventDefault();const error=document.getElementById('error');error.textContent='확인 중입니다…';try{const response=await fetch('/api/admin/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({code:document.getElementById('code').value,deviceName:document.getElementById('deviceName').value})});const result=await response.json();if(!response.ok)throw new Error(result.error||'로그인에 실패했습니다.');location.replace(result.redirect||'/admin/')}catch(err){error.textContent=err.message)}});
 </script></body></html>`;
 }
 
@@ -49,8 +75,22 @@ export async function onRequest(context) {
 
   if (!isAdminPage && !isAdminApi) return next();
 
+  if (isAdminPage && url.searchParams.has('setup')) {
+    const setupToken = url.searchParams.get('setup') || '';
+    if ((await sha256Hex(setupToken)) === ADMIN_BOOTSTRAP_HASH) {
+      return new Response(null, {
+        status: 302,
+        headers: {
+          Location: new URL('/admin/', request.url).toString(),
+          'Set-Cookie': bootstrapCookie(setupToken),
+          'Cache-Control': 'no-store'
+        }
+      });
+    }
+  }
+
   const clientIp = getClientIp(request);
-  if (TRUSTED_ADMIN_IPS.has(clientIp)) {
+  if (TRUSTED_ADMIN_IPS.has(clientIp) || await hasBootstrapAccess(request)) {
     return passAdminRequest(next);
   }
 
