@@ -1,6 +1,6 @@
 (async()=>{
 'use strict';
-const VERSION='20260723-master12';
+const VERSION='20260723-master13';
 const CATEGORIES=['금융','생활비 절약','정부혜택','세금·환급','직장·급여','자동차·교통','연금·노후','아이·교육','주거','생활정보'];
 const RULES=[
  ['아이·교육',['아이','어린이','아동','자녀','육아','교육','학교','학원','돌봄']],
@@ -40,7 +40,7 @@ function installHeader(){
  if(!header){header=document.createElement('header');document.body.insertBefore(header,document.body.firstChild)}
  document.querySelectorAll('.site-header,.top,.savingio-dna-header,.savingio-unified-header').forEach((el,i)=>{if(el!==header&&i)el.remove()});
  const path=location.pathname.replace(/index\.html$/,'').replace(/\.html$/,'');
- const items=[['홈','/'],['생활정보','/articles/'],['계산기','/calculators/'],['Savingio Lab','/lab/'],['사이트 탐색','/categories/'],['About','/about.html']];
+ const items=[['홈','/'],['계산기','/calculators/'],['Savingio Lab','/lab/'],['사이트 탐색','/categories/'],['About','/about.html']];
  header.className='savingio-dna-header';
  header.innerHTML=`<div class="savingio-dna-header-inner"><a class="savingio-dna-logo" href="/">Savingio</a><nav class="savingio-dna-nav" aria-label="Savingio 주요 메뉴">${items.map(([label,href])=>{const target=href.replace(/index\.html$/,'').replace(/\.html$/,'');const active=href==='/'?(path==='/'||path===''):path.startsWith(target);return `<a href="${href}"${label==='Savingio Lab'?' class="lab-link"':''}${active?' aria-current="page"':''}>${label}</a>`}).join('')}</nav></div>`;
 }
