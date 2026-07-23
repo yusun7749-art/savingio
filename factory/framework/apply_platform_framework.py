@@ -2,9 +2,9 @@
 """Apply Savingio shared platform framework hooks to static pages.
 
 Idempotent rules:
-- Article pages receive one article framework loader.
-- Calculator pages receive shared registry/data/calculator scripts.
-- Lab pages receive shared registry/data/lab scripts.
+- Article pages receive shared navigation and article framework loaders.
+- Calculator pages receive shared navigation plus registry/data/calculator scripts.
+- Lab pages receive shared navigation plus registry/data/lab scripts.
 - Existing content and approved layout are preserved.
 """
 
@@ -15,17 +15,33 @@ import re
 import sys
 
 ROOT = Path(__file__).resolve().parents[2]
-ARTICLE_LOADER = '<script src="/js/savingio-article-framework.js?v=1"></script>'
+NAV_STYLE = '<link rel="stylesheet" href="/css/savingio-platform-navigation.css?v=1">'
+NAV_SCRIPT = '<script src="/js/savingio-platform-navigation.js?v=1"></script>'
+ARTICLE_LOADER = (
+    NAV_SCRIPT
+    + '<script src="/js/savingio-article-framework.js?v=1"></script>'
+)
 CALCULATOR_SCRIPTS = (
-    '<script src="/js/savingio-platform-registry.js?v=1"></script>'
-    '<script src="/js/savingio-platform-data.js?v=1"></script>'
-    '<script src="/js/savingio-calculator-framework.js?v=1"></script>'
+    NAV_SCRIPT
+    + '<script src="/js/savingio-platform-registry.js?v=1"></script>'
+    + '<script src="/js/savingio-platform-data.js?v=1"></script>'
+    + '<script src="/js/savingio-calculator-framework.js?v=1"></script>'
 )
 LAB_SCRIPTS = (
-    '<script src="/js/savingio-platform-registry.js?v=1"></script>'
-    '<script src="/js/savingio-platform-data.js?v=1"></script>'
-    '<script src="/js/savingio-lab-framework.js?v=1"></script>'
+    NAV_SCRIPT
+    + '<script src="/js/savingio-platform-registry.js?v=1"></script>'
+    + '<script src="/js/savingio-platform-data.js?v=1"></script>'
+    + '<script src="/js/savingio-lab-framework.js?v=1"></script>'
 )
+
+
+def inject_before_head(html: str, block: str) -> tuple[str, bool]:
+    if block in html:
+        return html, False
+    closing = re.search(r'</head\s*>', html, flags=re.IGNORECASE)
+    if not closing:
+        raise ValueError('missing </head>')
+    return html[:closing.start()] + '\n' + block + '\n' + html[closing.start():], True
 
 
 def inject_before_body(html: str, block: str) -> tuple[str, bool]:
@@ -43,7 +59,9 @@ def inject_before_body(html: str, block: str) -> tuple[str, bool]:
 def process(path: Path, block: str) -> tuple[bool, str]:
     try:
         original = path.read_text(encoding='utf-8')
-        updated, changed = inject_before_body(original, block)
+        updated, style_changed = inject_before_head(original, NAV_STYLE)
+        updated, script_changed = inject_before_body(updated, block)
+        changed = style_changed or script_changed
         if changed:
             path.write_text(updated, encoding='utf-8', newline='\n')
         return changed, 'OK'
