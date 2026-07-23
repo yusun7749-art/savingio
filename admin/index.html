@@ -46,6 +46,10 @@
     <section class="security-center">
       <div class="security-head"><div><p class="eyebrow">Savingio HQ</p><h2>관리자 보안센터</h2></div><button class="icon-btn" id="securityClose" type="button" aria-label="닫기">×</button></div>
       <div class="trusted-device-card"><span class="device-icon">🖥️</span><div><strong id="trustedDeviceName">현재 기기 확인 중</strong><small id="trustedDeviceMeta">신뢰 상태를 불러오고 있습니다.</small></div><span class="trusted-badge">신뢰됨</span></div>
+      <section class="trusted-devices-box">
+        <div class="trusted-devices-head"><div><h3>등록된 휴대폰</h3><p>연결된 휴대폰만 개별적으로 신뢰 해제할 수 있습니다.</p></div><button class="btn ghost small" id="refreshDevicesBtn" type="button">새로고침</button></div>
+        <div id="trustedDevicesList" class="trusted-devices-list"><p class="device-empty">등록된 휴대폰을 불러오고 있습니다.</p></div>
+      </section>
       <div class="pairing-box">
         <div><h3>내 휴대폰 연결</h3><p>QR은 한 번만 사용할 수 있고 5분 뒤 자동으로 만료됩니다.</p></div>
         <label>휴대폰 이름<input id="phoneDeviceName" value="내 휴대폰" maxlength="60"></label>
@@ -72,5 +76,6 @@
 
   <script src="/admin/admin-data.js"></script>
   <script src="/admin/admin.js"></script>
+  <script src="/admin/device-manager.js"></script>
 </body>
 </html>
