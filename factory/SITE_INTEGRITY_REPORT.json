@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3072,
-  "references_scanned": 62651,
+  "files_scanned": 3073,
+  "references_scanned": 62652,
   "counts": {
-    "broken_references": 1705,
+    "broken_references": 1706,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -3546,6 +3546,13 @@
       "reference": "/images/articles/insurance-surrender-value-check.svg",
       "expected": [
         "images/articles/insurance-surrender-value-check.svg"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/lab/{{SLUG}}.html",
+      "expected": [
+        "lab/{{SLUG}}.html"
       ]
     },
     {
