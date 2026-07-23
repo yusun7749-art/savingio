@@ -1,3 +1,4 @@
+@import url('/css/savingio-header-dna.css?v=1');
 :root{--spn-navy:#132744;--spn-gold:#b98238;--spn-ink:#30363d;--spn-muted:#6f7478;--spn-line:rgba(145,119,82,.2);--spn-cream:#fbf7ef}
 .site-header{position:sticky!important;top:0!important;z-index:500!important;width:100%!important;max-width:none!important;margin:0!important;background:rgba(251,247,239,.96)!important;border-bottom:1px solid var(--spn-line)!important;box-shadow:none!important;backdrop-filter:blur(14px)!important;-webkit-backdrop-filter:blur(14px)!important}
 .site-header .header-inner{width:calc(100% - 48px)!important;max-width:1180px!important;min-height:80px!important;margin:0 auto!important;padding:18px 0!important;display:flex!important;align-items:center!important;justify-content:space-between!important;gap:32px!important}
