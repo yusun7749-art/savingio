@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3122,
-  "references_scanned": 62812,
+  "files_scanned": 3123,
+  "references_scanned": 62815,
   "counts": {
-    "broken_references": 1744,
+    "broken_references": 1747,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -138,6 +138,27 @@
       "reference": "value, location.origin",
       "expected": [
         "admin/value, location.origin"
+      ]
+    },
+    {
+      "source": "admin/duplicate-center.js",
+      "reference": "${esc(best.article.path)}",
+      "expected": [
+        "admin/${esc(best.article.path)}"
+      ]
+    },
+    {
+      "source": "admin/duplicate-center.js",
+      "reference": "${esc(group.representative.path)}",
+      "expected": [
+        "admin/${esc(group.representative.path)}"
+      ]
+    },
+    {
+      "source": "admin/duplicate-center.js",
+      "reference": "${esc(item.path)}",
+      "expected": [
+        "admin/${esc(item.path)}"
       ]
     },
     {
