@@ -4,7 +4,7 @@
   "files_scanned": 3110,
   "references_scanned": 62786,
   "counts": {
-    "broken_references": 1729,
+    "broken_references": 1730,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -11637,6 +11637,15 @@
       "reference": "request.url",
       "expected": [
         "functions/api/admin/request.url"
+      ]
+    },
+    {
+      "source": "functions/api/admin/pairing.js",
+      "reference": "/api/admin/consume-pair",
+      "expected": [
+        "api/admin/consume-pair",
+        "api/admin/consume-pair.html",
+        "api/admin/consume-pair/index.html"
       ]
     },
     {
