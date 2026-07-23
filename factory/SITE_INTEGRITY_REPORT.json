@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3068,
-  "references_scanned": 62626,
+  "files_scanned": 3069,
+  "references_scanned": 62635,
   "counts": {
-    "broken_references": 1696,
+    "broken_references": 1698,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -7366,6 +7366,20 @@
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
+      ]
+    },
+    {
+      "source": "factory/framework/article/article-template.html",
+      "reference": "/articles/{{SLUG}}.html",
+      "expected": [
+        "articles/{{SLUG}}.html"
+      ]
+    },
+    {
+      "source": "factory/framework/article/article-template.html",
+      "reference": "https://savingio.com/articles/{{SLUG}}.html",
+      "expected": [
+        "articles/{{SLUG}}.html"
       ]
     },
     {
