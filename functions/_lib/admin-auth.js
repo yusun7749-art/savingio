@@ -72,11 +72,11 @@ export function parseCookies(request) {
 }
 
 export function trustedCookie(token, maxAgeSeconds = 60 * 60 * 24 * 180) {
-  return `savingio_admin_device=${encodeURIComponent(token)}; Path=/; HttpOnly; Secure; SameSite=Strict; Max-Age=${maxAgeSeconds}`;
+  return `savingio_admin_device=${encodeURIComponent(token)}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=${maxAgeSeconds}`;
 }
 
 export function expiredTrustedCookie() {
-  return 'savingio_admin_device=; Path=/; HttpOnly; Secure; SameSite=Strict; Max-Age=0';
+  return 'savingio_admin_device=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0';
 }
 
 export function getRequestIp(request) {
