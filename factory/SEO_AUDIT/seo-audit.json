@@ -1,10 +1,10 @@
 {
   "summary": {
     "article_count": 207,
-    "pass": 146,
-    "warning": 60,
+    "pass": 147,
+    "warning": 59,
     "fail": 1,
-    "average_score": 87.9,
+    "average_score": 88.0,
     "thin_under_2500_ko": 28,
     "short_under_4500_ko": 156,
     "missing_meta": 0,
@@ -4194,32 +4194,31 @@
     {
       "path": "articles/property-tax-payment-certificate.html",
       "url": "https://savingio.com/articles/property-tax-payment-certificate.html",
-      "title": "재산세 납부증명서 발급 방법 | 세이빙이오(Savingio)",
-      "meta_description": "위택스와 주민센터에서 재산세 납부증명서를 발급하는 방법입니다.",
+      "title": "재산세 납부증명서 발급 방법 | Savingio",
+      "meta_description": "재산세 납부확인서, 지방세 납세증명서, 세목별 과세증명서의 차이와 위택스·정부24·주민센터 발급 방법, 체납 표시와 제출 전 확인사항을 정리했습니다.",
       "canonical": "https://savingio.com/articles/property-tax-payment-certificate.html",
       "h1": [
         "재산세 납부증명서 발급 방법"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3841,
-      "words": 1374,
-      "internal_article_links": 39,
+      "h2_count": 18,
+      "h3_count": 0,
+      "korean_chars": 3736,
+      "words": 1250,
+      "internal_article_links": 11,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 1,
       "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "breadcrumb_schema": false,
+      "faq_schema": false,
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:34",
-        "CONTENT_SHORT_KO:3841"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3736"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 88,
+      "status": "PASS"
     },
     {
       "path": "articles/reduce-electricity-bill.html",

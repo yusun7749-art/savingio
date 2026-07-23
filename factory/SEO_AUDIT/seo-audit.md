@@ -1,10 +1,10 @@
 # Savingio Full SEO Audit
 
 - Articles: 207
-- PASS: 146
-- WARNING: 60
+- PASS: 147
+- WARNING: 59
 - FAIL: 1
-- Average score: 87.9
+- Average score: 88.0
 - Thin content (<2500 Korean chars): 28
 - Short content (<4500 Korean chars): 156
 - Missing meta: 0
@@ -44,7 +44,6 @@
 | 80 | WARNING | `articles/emergency-fund-guide.html` | THIN_CONTENT_KO:2106, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/energy-voucher-balance-use.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3601 |
 | 80 | WARNING | `articles/national-pension-old-age-benefit-guide.html` | THIN_CONTENT_KO:2054, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
-| 80 | WARNING | `articles/property-tax-payment-certificate.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3841 |
 | 80 | WARNING | `articles/refrigerator-summer-electricity-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:27, CONTENT_SHORT_KO:3593 |
 | 80 | WARNING | `articles/revolving-cancellation-payoff.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3234 |
 | 80 | WARNING | `articles/savings-maturity-auto-renewal.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3274 |
@@ -95,6 +94,7 @@
 | 88 | PASS | `articles/property-tax-july-2026.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4089 |
 | 88 | PASS | `articles/property-tax-july-september-difference.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3559 |
 | 88 | PASS | `articles/property-tax-objection-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4066 |
+| 88 | PASS | `articles/property-tax-payment-certificate.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3736 |
 | 88 | WARNING | `articles/severance-pay-calculation-guide.html` | THIN_CONTENT_KO:2464 |
 | 88 | WARNING | `articles/telecom-unclaimed-refund.html` | THIN_CONTENT_KO:2463 |
 | 92 | PASS | `articles/ai-side-hustles-beginner.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
