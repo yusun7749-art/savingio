@@ -5,6 +5,20 @@ import {
   getAdminDeviceSecret
 } from '../../_lib/admin-auth.js';
 
+const DEVICE_INDEX_KEY = 'trusted-devices:index';
+
+async function registerDevice(env, device) {
+  if (!env.ADMIN_SECURITY_KV) return;
+  let devices = [];
+  try {
+    devices = JSON.parse(await env.ADMIN_SECURITY_KV.get(DEVICE_INDEX_KEY) || '[]');
+  } catch {}
+  devices = devices.filter(item => item && item.id !== device.id);
+  devices.unshift(device);
+  await env.ADMIN_SECURITY_KV.put(DEVICE_INDEX_KEY, JSON.stringify(devices.slice(0, 30)));
+  await env.ADMIN_SECURITY_KV.delete(`revoked-device:${device.id}`);
+}
+
 function successPage() {
   return `<!doctype html>
 <html lang="ko">
@@ -52,8 +66,21 @@ export async function onRequestGet(context) {
     });
   }
 
+  const now = Date.now();
+  const deviceId = crypto.randomUUID();
+  const name = pairing.requestedName || '내 휴대폰';
   const trustedToken = await createTrustedDeviceToken(env, {
-    name: pairing.requestedName || '내 휴대폰'
+    deviceId,
+    name,
+    createdAt: now
+  });
+
+  await registerDevice(env, {
+    id: deviceId,
+    name,
+    type: 'phone',
+    createdAt: now,
+    lastSeenAt: now
   });
 
   return new Response(successPage(), {
