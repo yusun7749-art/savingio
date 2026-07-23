@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3085,
-  "references_scanned": 62746,
+  "files_scanned": 3086,
+  "references_scanned": 62749,
   "counts": {
-    "broken_references": 1712,
+    "broken_references": 1715,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -11864,6 +11864,29 @@
     },
     {
       "source": "js/savingio-qa-engine.js",
+      "reference": "href,location.origin",
+      "expected": [
+        "js/href,location.origin"
+      ]
+    },
+    {
+      "source": "js/savingio-site-doctor.js",
+      "reference": "a.href",
+      "expected": [
+        "js/a.href"
+      ]
+    },
+    {
+      "source": "js/savingio-site-doctor.js",
+      "reference": "blob",
+      "expected": [
+        "js/blob",
+        "js/blob.html",
+        "js/blob/index.html"
+      ]
+    },
+    {
+      "source": "js/savingio-site-doctor.js",
       "reference": "href,location.origin",
       "expected": [
         "js/href,location.origin"
