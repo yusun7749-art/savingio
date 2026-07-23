@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3084,
-  "references_scanned": 62745,
+  "files_scanned": 3085,
+  "references_scanned": 62746,
   "counts": {
-    "broken_references": 1711,
+    "broken_references": 1712,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -11860,6 +11860,13 @@
       "reference": "raw.url",
       "expected": [
         "js/raw.url"
+      ]
+    },
+    {
+      "source": "js/savingio-qa-engine.js",
+      "reference": "href,location.origin",
+      "expected": [
+        "js/href,location.origin"
       ]
     },
     {
