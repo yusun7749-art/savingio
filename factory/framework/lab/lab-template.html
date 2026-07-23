@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{TITLE}} | Savingio Lab</title>
+  <meta name="description" content="{{DESCRIPTION}}">
+  <link rel="canonical" href="https://savingio.com/lab/{{SLUG}}.html">
+  <meta name="robots" content="index,follow">
+  <link rel="icon" href="/images/logo.svg" type="image/svg+xml">
+</head>
+<body class="savingio-lab-page" data-lab-id="{{LAB_ID}}">
+  <header class="site-header">{{HEADER}}</header>
+  <main class="lab-shell">
+    <div class="breadcrumb">홈 › Savingio Lab › {{CATEGORY}}</div>
+    <div data-savingio-lab-root></div>
+    <section data-savingio-slot="calculators"></section>
+    <section data-savingio-slot="related-articles"></section>
+  </main>
+  <footer>{{FOOTER}}</footer>
+  <script src="/js/savingio-platform-registry.js?v=1"></script>
+  <script src="/js/savingio-platform-data.js?v=1"></script>
+  <script src="/js/savingio-lab-framework.js?v=1"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var id = document.body.dataset.labId;
+      var target = document.querySelector('[data-savingio-lab-root]');
+      if (id && target && window.SavingioLabFramework) {
+        window.SavingioLabFramework.render(target, id);
+      }
+    });
+  </script>
+</body>
+</html>
