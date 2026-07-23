@@ -73,6 +73,25 @@
     </section>
   </dialog>
 
+  <dialog id="rewriteReviewDialog" class="rewrite-review-dialog">
+    <section class="rewrite-review-shell">
+      <header class="rewrite-review-head"><div><p class="eyebrow">헌법 자동수정 검토</p><h2 id="rewriteReviewTitle">수정 설계 확인</h2><p id="rewriteReviewMeta" class="meta"></p></div><button class="icon-btn" id="rewriteReviewClose" type="button" aria-label="닫기">×</button></header>
+      <div id="rewriteReviewLoading" class="review-loading">기존 글 백업과 수정 설계를 불러오고 있습니다.</div>
+      <div id="rewriteReviewBody" hidden>
+        <div class="review-safety-banner">원본 HTML 백업 완료 · URL/H1/slug 변경 차단 · 승인 전 운영 글 덮어쓰기 금지</div>
+        <div class="review-compare-grid">
+          <article class="review-card"><h3>현재 글</h3><dl id="rewriteCurrent"></dl></article>
+          <article class="review-card target"><h3>수정 목표</h3><dl id="rewriteTarget"></dl></article>
+        </div>
+        <article class="review-card preserve-card"><h3>절대 보존 항목</h3><div id="rewritePreserve" class="preserve-list"></div></article>
+        <article class="review-card"><h3>헌법 적용 순서</h3><ol id="rewriteFlow" class="rewrite-flow"></ol></article>
+        <article class="review-card"><h3>현재 미달 항목</h3><div id="rewriteMissing" class="missing-chips"></div></article>
+        <p id="rewriteReviewMessage" class="review-message"></p>
+      </div>
+      <footer class="rewrite-review-actions"><button class="btn ghost" id="rewriteRejectBtn" type="button">반려·보류</button><button class="btn ghost" id="rewriteRegenerateBtn" type="button">설계 다시 만들기</button><button class="btn primary" id="rewriteApproveBtn" type="button">수정 설계 승인</button></footer>
+    </section>
+  </dialog>
+
   <dialog id="securityDialog" class="security-dialog">
     <section class="security-center">
       <div class="security-head"><div><p class="eyebrow">Savingio HQ</p><h2>관리자 보안센터</h2></div><button class="icon-btn" id="securityClose" type="button" aria-label="닫기">×</button></div>
@@ -111,5 +130,6 @@
   <script src="/admin/content-center.js"></script>
   <script src="/admin/content-center-runtime.js"></script>
   <script src="/admin/content-action-runtime.js"></script>
+  <script src="/admin/rewrite-review.js"></script>
 </body>
 </html>
