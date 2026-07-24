@@ -1,6 +1,6 @@
 (async()=>{
 'use strict';
-const VERSION='20260725-brain-intent1';
+const VERSION='20260725-related-action1';
 const FALLBACK_CATEGORIES=['금융','생활비 절약','정부혜택','세금·환급','직장·급여','자동차·교통','연금·노후','아이·교육','주거','생활정보'];
 const compact=value=>String(value||'').toLowerCase().replace(/[^0-9a-z가-힣]+/gi,'');
 const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
@@ -22,10 +22,12 @@ if(!window.SavingioSearchCore)await addScript(`/js/savingio-search-core.js?v=${V
 if(!window.SavingioArticleRegistry)await addScript(`/js/savingio-article-registry.js?v=${VERSION}`,'savingioArticleRegistry');
 if(!window.SavingioIntentEngine)await addScript(`/js/savingio-intent-engine.js?v=${VERSION}`,'savingioIntentEngine');
 if(!window.SavingioBrainEngine)await addScript(`/js/savingio-brain-engine.js?v=${VERSION}`,'savingioBrainEngine');
+if(!window.SavingioRelatedEngine)await addScript(`/js/savingio-related-engine.js?v=${VERSION}`,'savingioRelatedEngine');
+if(!window.SavingioActionChain)await addScript(`/js/savingio-action-chain.js?v=${VERSION}`,'savingioActionChain');
 if(!window.SavingioSearchDoctor)await addScript(`/js/savingio-search-doctor.js?v=${VERSION}`,'savingioSearchDoctor');
 await addScript(`/js/savingio-search-lock.js?v=${VERSION}`,'savingioSearchLock');
 if(!window.SavingioTemplateEngine)await addScript(`/js/savingio-template-engine.js?v=${VERSION}`,'savingioTemplateEngine');else window.SavingioTemplateEngine.install();
 if(/^\/articles\/(?!$|index(?:\.html)?$)/.test(location.pathname)){if(!window.SavingioContentDNAEngine)await addScript(`/js/savingio-content-dna-engine.js?v=${VERSION}`,'savingioContentDNAEngine');else window.SavingioContentDNAEngine.install();if(!window.SavingioLinkEngine)await addScript(`/js/savingio-link-engine.js?v=${VERSION}`,'savingioLinkEngine');else window.SavingioLinkEngine.install();if(!window.SavingioQAEngine)await addScript(`/js/savingio-qa-engine.js?v=${VERSION}`,'savingioQaEngine');else window.SavingioQAEngine.install();}
 if(/^\/articles\/?(?:index(?:\.html)?)?$/.test(location.pathname)||new URLSearchParams(location.search).get('doctor')==='1'){if(!window.SavingioSiteDoctor)await addScript(`/js/savingio-site-doctor.js?v=${VERSION}`,'savingioSiteDoctor');}
-const registry=await window.SavingioArticleRegistry.load();const categories=registry.tree.map(item=>item.label);window.SavingioSearchRegistry=registry;window.SavingioKnowledgeGraph=window.SavingioBrainEngine.build(registry);window.SavingioSearchDoctor.audit(registry);window.dispatchEvent(new CustomEvent('savingio-brain-ready',{detail:window.SavingioKnowledgeGraph.stats()}));const {grid,records}=collectDirectory();initDirectory(grid,records,categories);await initExplorer(registry,categories);
+const registry=await window.SavingioArticleRegistry.load();const categories=registry.tree.map(item=>item.label);window.SavingioSearchRegistry=registry;window.SavingioKnowledgeGraph=window.SavingioBrainEngine.build(registry);window.SavingioRelated=window.SavingioRelatedEngine.build(window.SavingioKnowledgeGraph);window.SavingioActionChains=window.SavingioActionChain.build(window.SavingioKnowledgeGraph,window.SavingioRelated);window.SavingioSearchDoctor.audit(registry);window.dispatchEvent(new CustomEvent('savingio-brain-ready',{detail:{...window.SavingioKnowledgeGraph.stats(),related:true,actionChain:true}}));const {grid,records}=collectDirectory();initDirectory(grid,records,categories);await initExplorer(registry,categories);
 })();
