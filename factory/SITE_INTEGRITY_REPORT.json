@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3130,
-  "references_scanned": 62822,
+  "references_scanned": 62824,
   "counts": {
-    "broken_references": 1748,
+    "broken_references": 1750,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -159,6 +159,24 @@
       "reference": "${esc(i.path)}",
       "expected": [
         "admin/${esc(i.path)}"
+      ]
+    },
+    {
+      "source": "admin/rewrite-review.js",
+      "reference": "blob",
+      "expected": [
+        "admin/blob",
+        "admin/blob.html",
+        "admin/blob/index.html"
+      ]
+    },
+    {
+      "source": "admin/rewrite-review.js",
+      "reference": "url",
+      "expected": [
+        "admin/url",
+        "admin/url.html",
+        "admin/url/index.html"
       ]
     },
     {
