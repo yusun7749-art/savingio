@@ -1,24 +1,26 @@
 (() => {
-  if (!document.querySelector('link[href="/admin/content-center.css"]')) {
+  function loadStyle(href) {
+    if (document.querySelector(`link[href="${href}"]`)) return;
     const link = document.createElement('link');
     link.rel = 'stylesheet';
-    link.href = '/admin/content-center.css';
+    link.href = href;
     document.head.appendChild(link);
   }
 
-  if (!document.querySelector('link[href="/admin/duplicate-center.css"]')) {
-    const link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = '/admin/duplicate-center.css';
-    document.head.appendChild(link);
-  }
-
-  if (!document.querySelector('script[src="/admin/duplicate-center.js"]')) {
+  function loadScript(src) {
+    if (document.querySelector(`script[src="${src}"]`)) return;
     const script = document.createElement('script');
-    script.src = '/admin/duplicate-center.js';
+    script.src = src;
     script.defer = true;
     document.body.appendChild(script);
   }
+
+  loadStyle('/admin/content-center.css');
+  loadStyle('/admin/duplicate-center.css');
+  loadScript('/admin/duplicate-center.js');
+  loadScript('/admin/final-approval-runtime.js');
+  loadScript('/admin/publish-runtime.js');
+  loadScript('/admin/publish-health-runtime.js');
 
   const auditButton = document.getElementById('runContentAuditBtn');
   if (!auditButton) return;
