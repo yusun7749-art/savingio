@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3158,
-  "references_scanned": 62875,
+  "references_scanned": 62876,
   "counts": {
-    "broken_references": 1763,
+    "broken_references": 1764,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -12251,6 +12251,13 @@
       "reference": "href,location.origin",
       "expected": [
         "js/href,location.origin"
+      ]
+    },
+    {
+      "source": "js/savingio-search-lock.js",
+      "reference": "href,location.href",
+      "expected": [
+        "js/href,location.href"
       ]
     },
     {
