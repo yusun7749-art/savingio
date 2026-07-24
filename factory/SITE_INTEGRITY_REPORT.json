@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3135,
-  "references_scanned": 62836,
+  "references_scanned": 62834,
   "counts": {
-    "broken_references": 1755,
+    "broken_references": 1754,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -54,15 +54,6 @@
         "admin/${href}",
         "admin/${href}.html",
         "admin/${href}/index.html"
-      ]
-    },
-    {
-      "source": "admin/content-center-runtime.js",
-      "reference": "${src}",
-      "expected": [
-        "admin/${src}",
-        "admin/${src}.html",
-        "admin/${src}/index.html"
       ]
     },
     {
