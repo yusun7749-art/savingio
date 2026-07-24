@@ -12116,9 +12116,9 @@
     },
     {
       "source": "js/savingio-brain-navigation.js",
-      "reference": "${esc(r.href)}",
+      "reference": "${esc(record.href)}",
       "expected": [
-        "js/${esc(r.href)}"
+        "js/${esc(record.href)}"
       ]
     },
     {
