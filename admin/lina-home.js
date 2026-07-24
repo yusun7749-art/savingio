@@ -2,6 +2,7 @@
   const $ = selector => document.querySelector(selector);
   const state = { tasks: [], mounted: false };
   const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[char]));
+  const todayKey = () => new Date().toISOString().slice(0, 10);
 
   function readCounts() {
     const rows = [...document.querySelectorAll('#contentApprovalRows tr[data-path]')];
@@ -21,7 +22,7 @@
   }
 
   function savedDone(id) {
-    return localStorage.getItem(`savingio-lina-task:${new Date().toISOString().slice(0,10)}:${id}`) === 'done';
+    return localStorage.getItem(`savingio-lina-task:${todayKey()}:${id}`) === 'done';
   }
 
   function updateProgress() {
@@ -33,6 +34,8 @@
     if (text) text.textContent = `${done}/${state.tasks.length} 완료 · ${percent}%`;
     const completed = $('#linaCompletedToday');
     if (completed) completed.textContent = `${done}건`;
+    const score = $('#linaVoyageScore');
+    if (score) score.textContent = `${Math.max(1, Math.ceil(percent / 20))}/5`;
   }
 
   function renderTasks() {
@@ -45,9 +48,10 @@
         <button class="task-open" type="button" data-lina-target="${esc(task.target)}">바로가기</button>
       </label>`).join('');
     box.querySelectorAll('[data-lina-task]').forEach(input => input.addEventListener('change', () => {
-      const key = `savingio-lina-task:${new Date().toISOString().slice(0,10)}:${input.dataset.linaTask}`;
+      const key = `savingio-lina-task:${todayKey()}:${input.dataset.linaTask}`;
       input.checked ? localStorage.setItem(key, 'done') : localStorage.removeItem(key);
       updateProgress();
+      renderJournal();
     }));
     box.querySelectorAll('[data-lina-target]').forEach(button => button.addEventListener('click', event => {
       event.preventDefault();
@@ -63,18 +67,75 @@
     return '선장님, 오늘 작업을 정리할 시간이에요.';
   }
 
+  function lastRetireText() {
+    try {
+      const saved = JSON.parse(localStorage.getItem('savingio-lina-last-retire') || 'null');
+      if (!saved || !saved.date || saved.date.slice(0,10) === todayKey()) return '';
+      const completed = saved.completed?.length ? `${saved.completed.length}건을 완료했고` : '작업 기록을 남겼고';
+      return ` 어제 ${completed}, 오늘은 ${saved.next || '다음 작업'}부터 이어가면 됩니다.`;
+    } catch (_) { return ''; }
+  }
+
+  function percent(value, max, inverse = false) {
+    if (!max) return 0;
+    const raw = Math.max(0, Math.min(100, Math.round(value / max * 100)));
+    return inverse ? 100 - raw : raw;
+  }
+
+  function renderWorldMap(counts) {
+    const total = Math.max(counts.rows, 1);
+    const items = [
+      ['콘텐츠', percent(counts.rows, Math.max(200, counts.rows)), `${counts.rows}개 확인`],
+      ['품질', percent(counts.failed, total, true), `${counts.failed}개 미달`],
+      ['중복', percent(counts.duplicate, total, true), `${counts.duplicate}건 의심`],
+      ['승인', percent(counts.approved, total), `${counts.approved}개 승인`],
+      ['운영', counts.projects ? Math.min(100, 40 + counts.projects * 10) : 25, `${counts.projects}개 프로젝트`]
+    ];
+    const box = $('#linaWorldMap');
+    if (!box) return;
+    box.innerHTML = items.map(([name, value, note]) => `
+      <div class="world-row"><div class="world-label"><strong>${name}</strong><span>${note}</span></div><div class="world-track"><div class="world-fill" style="width:${value}%"></div></div><b>${value}%</b></div>`).join('');
+  }
+
+  function readJournal() {
+    try { return JSON.parse(localStorage.getItem('savingio-lina-voyage-journal') || '[]'); }
+    catch (_) { return []; }
+  }
+
+  function writeJournal(entry) {
+    const journal = readJournal().filter(item => item.date !== entry.date);
+    journal.unshift(entry);
+    localStorage.setItem('savingio-lina-voyage-journal', JSON.stringify(journal.slice(0, 14)));
+  }
+
+  function renderJournal() {
+    const box = $('#linaVoyageJournal');
+    if (!box) return;
+    const done = state.tasks.filter(task => savedDone(task.id)).map(task => task.title);
+    const live = { date: todayKey(), completed: done, next: done.length === state.tasks.length ? '내일 새 브리핑 확인' : state.tasks.find(task => !savedDone(task.id))?.title || '다음 작업 확인', live:true };
+    const journal = [live, ...readJournal().filter(item => item.date !== live.date)].slice(0, 5);
+    box.innerHTML = journal.map(item => `
+      <article class="voyage-entry ${item.live ? 'current' : ''}">
+        <div><strong>${esc(item.date)}</strong><span>${item.live ? '오늘 항해 중' : '항해 기록'}</span></div>
+        <ul>${item.completed?.length ? item.completed.map(text => `<li>✅ ${esc(text)}</li>`).join('') : '<li>진행 기록 없음</li>'}</ul>
+        <p>다음: ${esc(item.next || '미정')}</p>
+      </article>`).join('');
+  }
+
   function renderDashboard() {
     const counts = readCounts();
     state.tasks = defaultTasks(counts);
     $('#linaGreetingTitle').textContent = greeting();
-    $('#linaGreetingText').textContent = counts.duplicate
+    $('#linaGreetingText').textContent = (counts.duplicate
       ? `오늘은 중복 의심 ${counts.duplicate}건부터 정리하는 것이 가장 효율적입니다.`
-      : '오늘은 전체 Doctor 검사로 현재 콘텐츠 상태부터 확인하는 것이 좋습니다.';
+      : '오늘은 전체 Doctor 검사로 현재 콘텐츠 상태부터 확인하는 것이 좋습니다.') + lastRetireText();
     $('#linaBrainDuplicate').textContent = counts.duplicate || 0;
     $('#linaBrainWeak').textContent = counts.failed || 0;
     $('#linaBrainPublished').textContent = counts.rows || 0;
     $('#linaBrainProjects').textContent = counts.projects || 0;
     renderTasks();
+    renderWorldMap(counts);
+    renderJournal();
   }
 
   function mount() {
@@ -101,27 +162,46 @@
           <article class="lina-brain-card" data-lina-scroll="#contentApprovalCenter"><span>📝 확인된 콘텐츠</span><strong id="linaBrainPublished">0</strong><small>Doctor 검사에서 읽은 글</small></article>
           <article class="lina-brain-card" data-lina-scroll=".workspace-grid"><span>🚀 운영 프로젝트</span><strong id="linaBrainProjects">0</strong><small>현재 프로젝트 작업판</small></article>
         </div>
+        <div class="lina-ops-grid">
+          <article class="lina-world-card"><div class="lina-card-head"><div><p class="eyebrow">Savingio World Map</p><h3>🌍 전체 항해 상태</h3></div><span class="map-live">LIVE</span></div><div id="linaWorldMap" class="world-map"></div></article>
+          <article class="lina-captain-card"><p class="eyebrow">Captain Room</p><h3>⚓ 선장실</h3><div class="captain-metrics"><span>오늘 완료 <strong id="linaCompletedToday">0건</strong></span><span>항해 점수 <strong id="linaVoyageScore">1/5</strong></span><span>다음 판단 <strong>중복 → 품질 → 배포</strong></span></div><button class="btn primary" id="linaCaptainStart" type="button">리나 추천 작업 시작</button></article>
+        </div>
+        <article class="lina-journal-card"><div class="lina-card-head"><div><p class="eyebrow">Voyage Journal</p><h3>🧭 항해 일지</h3></div><button class="btn ghost small" id="linaSaveJournal" type="button">현재 기록 저장</button></div><div id="linaVoyageJournal" class="voyage-journal"></div></article>
         <div class="lina-bottom-grid">
           <article class="lina-work-card"><h3>😊 리나 빠른 실행</h3><div class="lina-command"><button class="btn primary" id="linaStartToday" type="button">🚀 오늘 작업 시작</button><button class="btn ghost" id="linaOpenChat" type="button">💬 리나에게 물어보기</button><button class="btn ghost" id="linaRunDoctor" type="button">🩺 Doctor 검사</button></div><p id="linaHomeMessage" class="lina-home-message"></p></article>
-          <article class="lina-retire-card"><h3>🌙 퇴근 모드</h3><p>오늘 완료한 작업을 정리하고 내일 시작점을 저장합니다.</p><div class="lina-retire-summary"><span>오늘 완료 <strong id="linaCompletedToday">0건</strong></span><span>내일 시작 <strong>중복센터 검토 이어가기</strong></span></div><button class="btn ghost" id="linaRetireBtn" type="button">오늘 작업 마무리</button></article>
+          <article class="lina-retire-card"><h3>🌙 퇴근 모드</h3><p>오늘 완료한 작업을 정리하고 내일 시작점을 저장합니다.</p><div class="lina-retire-summary"><span>오늘 완료 <strong id="linaCompletedTodayMirror">0건</strong></span><span>내일 시작 <strong>중복센터 검토 이어가기</strong></span></div><button class="btn ghost" id="linaRetireBtn" type="button">오늘 작업 마무리</button></article>
         </div>
       </section>`);
 
     document.querySelectorAll('[data-lina-scroll]').forEach(card => card.addEventListener('click', () => document.querySelector(card.dataset.linaScroll)?.scrollIntoView({ behavior:'smooth', block:'start' })));
-    $('#linaStartToday')?.addEventListener('click', () => {
+    const start = () => {
       $('#contentApprovalCenter')?.scrollIntoView({ behavior:'smooth', block:'start' });
       const message = $('#linaHomeMessage');
-      message.textContent = '선장님, 오늘은 중복센터와 헌법 미달 글부터 확인하겠습니다.';
-      message.className = 'lina-home-message pass';
-    });
+      if (message) {
+        message.textContent = '선장님, 오늘은 중복센터와 헌법 미달 글부터 확인하겠습니다.';
+        message.className = 'lina-home-message pass';
+      }
+    };
+    $('#linaStartToday')?.addEventListener('click', start);
+    $('#linaCaptainStart')?.addEventListener('click', start);
     $('#linaOpenChat')?.addEventListener('click', () => $('#linaLauncher')?.click());
     $('#linaRunDoctor')?.addEventListener('click', () => $('#runContentAuditBtn')?.click());
+    $('#linaSaveJournal')?.addEventListener('click', () => {
+      const done = state.tasks.filter(task => savedDone(task.id)).map(task => task.title);
+      writeJournal({ date:todayKey(), completed:done, next:state.tasks.find(task => !savedDone(task.id))?.title || '내일 새 브리핑 확인' });
+      renderJournal();
+      const message = $('#linaHomeMessage');
+      if (message) { message.textContent = '현재 항해 기록을 저장했습니다.'; message.className = 'lina-home-message pass'; }
+    });
     $('#linaRetireBtn')?.addEventListener('click', () => {
       const done = state.tasks.filter(task => savedDone(task.id)).map(task => task.title);
-      const summary = { date:new Date().toISOString(), completed:done, next:'Duplicate Center 검토 이어가기' };
+      const next = state.tasks.find(task => !savedDone(task.id))?.title || '내일 새 브리핑 확인';
+      const summary = { date:new Date().toISOString(), completed:done, next };
       localStorage.setItem('savingio-lina-last-retire', JSON.stringify(summary));
+      writeJournal({ date:todayKey(), completed:done, next });
+      renderJournal();
       const message = $('#linaHomeMessage');
-      message.textContent = `오늘 ${done.length}건을 완료했습니다. 내일 시작점은 중복센터 검토로 저장했습니다. 편히 쉬세요. 🌙`;
+      message.textContent = `오늘 ${done.length}건을 완료했습니다. 내일 시작점은 ${next}(으)로 저장했습니다. 편히 쉬세요. 🌙`;
       message.className = 'lina-home-message pass';
     });
     renderDashboard();
