@@ -2,7 +2,7 @@
   'use strict';
 
   const $ = selector => document.querySelector(selector);
-  const state = { tasks: [], mounted: false, integrity: null, integrityLoaded: false };
+  const state = { tasks: [], mounted: false, integrity: null, integrityLoaded: false, health: 0 };
   const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[char]));
   const todayKey = () => new Date().toISOString().slice(0, 10);
 
@@ -42,18 +42,28 @@
     };
   }
 
-  function defaultTasks(counts) {
+  function calculateHealth(counts) {
     const integrity = integrityCounts();
-    const tasks = [
-      { id:'duplicate', title:'중복 콘텐츠 검토', note:`현재 중복 의심 ${counts.duplicate || 0}건`, target:'#contentApprovalCenter' },
-      { id:'quality', title:'헌법/DNA 미달 글 확인', note:`현재 미달 추정 ${counts.failed || 0}건`, target:'#contentApprovalCenter' }
-    ];
-    if (integrity.status === 'FAIL') {
-      tasks.push({ id:'integrity', title:'사이트 무결성 오류 확인', note:`깨진 참조 ${integrity.broken}건 · 사이트맵 누락 ${integrity.sitemap}건`, target:'.lina-integrity-card' });
-    } else {
-      tasks.push({ id:'deploy', title:'GitHub·Cloudflare 배포 상태 확인', note:'운영 반영 전 마지막 상태 확인', target:'.workspace-grid' });
-    }
-    return tasks;
+    const total = Math.max(counts.rows, 1);
+    const references = Math.max(integrity.references, 1);
+    const qualityPenalty = Math.min(24, Math.round((counts.failed / total) * 100));
+    const duplicatePenalty = Math.min(16, Math.round((counts.duplicate / total) * 80));
+    const integrityPenalty = Math.min(35, Math.round(((integrity.broken + integrity.redirects + integrity.sitemap) / references) * 100));
+    const publisherPenalty = integrity.publisherDrift > 0 ? 25 : 0;
+    const unknownPenalty = integrity.status === 'UNKNOWN' ? 10 : 0;
+    return Math.max(0, Math.min(100, 100 - qualityPenalty - duplicatePenalty - integrityPenalty - publisherPenalty - unknownPenalty));
+  }
+
+  function priorityTasks(counts) {
+    const integrity = integrityCounts();
+    const tasks = [];
+    if (integrity.publisherDrift > 0) tasks.push({ id:'publisher', score:100, level:'긴급', title:'Publisher LOCK 복구', note:`Publisher ID drift ${integrity.publisherDrift}건 · 배포 전 즉시 차단`, reason:'광고 계정 오류는 전체 수익 구조와 배포 안전성에 직접 영향을 줍니다.', target:'.lina-integrity-card' });
+    if (integrity.broken > 0 || integrity.redirects > 0) tasks.push({ id:'integrity', score:95, level:'긴급', title:'사이트 무결성 오류 확인', note:`깨진 참조 ${integrity.broken}건 · 리디렉션 오류 ${integrity.redirects}건`, reason:'깨진 링크와 리디렉션은 사용자 이동과 검색엔진 크롤링을 동시에 막습니다.', target:'.lina-integrity-card' });
+    if (integrity.sitemap > 0) tasks.push({ id:'sitemap', score:88, level:'중요', title:'사이트맵 누락 정리', note:`사이트맵 대상 누락 ${integrity.sitemap}건`, reason:'사이트맵 누락 페이지는 검색엔진 발견과 색인 속도에 불리합니다.', target:'.lina-integrity-card' });
+    if (counts.failed > 0) tasks.push({ id:'quality', score:82, level:'중요', title:'헌법/DNA 미달 글 확인', note:`현재 미달 추정 ${counts.failed}건`, reason:'품질 미달 콘텐츠는 애드센스 승인과 검색 신뢰도에 영향을 줍니다.', target:'#contentApprovalCenter' });
+    if (counts.duplicate > 0) tasks.push({ id:'duplicate', score:76, level:'중요', title:'중복 콘텐츠 검토', note:`현재 중복 의심 ${counts.duplicate}건`, reason:'검색 의도가 겹치는 글은 서로의 노출 가능성을 낮출 수 있습니다.', target:'#contentApprovalCenter' });
+    if (!tasks.length) tasks.push({ id:'deploy', score:55, level:'일반', title:'GitHub·Cloudflare 배포 상태 확인', note:'핵심 오류 없음 · 운영 반영 상태 최종 확인', reason:'오류가 없을 때는 배포와 실제 URL 검증이 마지막 안전장치입니다.', target:'.workspace-grid' });
+    return tasks.sort((a, b) => b.score - a.score).slice(0, 5);
   }
 
   function savedDone(id) {
@@ -76,7 +86,7 @@
     box.innerHTML = state.tasks.map((task, index) => `
       <label class="lina-task">
         <input type="checkbox" data-lina-task="${esc(task.id)}" ${savedDone(task.id) ? 'checked' : ''}>
-        <span><strong>${index + 1}. ${esc(task.title)}</strong><small>${esc(task.note)}</small></span>
+        <span><strong>${index + 1}. [${esc(task.level)} · ${task.score}] ${esc(task.title)}</strong><small>${esc(task.note)}</small><small>판단 이유: ${esc(task.reason)}</small></span>
         <button class="task-open" type="button" data-lina-target="${esc(task.target)}">바로가기</button>
       </label>`).join('');
     box.querySelectorAll('[data-lina-task]').forEach(input => input.addEventListener('change', () => {
@@ -114,7 +124,7 @@
       ['품질', percent(counts.failed, total, true), `${counts.failed}개 미달`],
       ['중복', percent(counts.duplicate, total, true), `${counts.duplicate}건 의심`],
       ['무결성', percent(integrity.broken + integrity.redirects + integrity.sitemap, integrityTotal, true), `${integrity.broken}건 참조 오류`],
-      ['운영', counts.projects ? Math.min(100, 40 + counts.projects * 10) : 25, `${counts.projects}개 프로젝트`]
+      ['운영 건강도', state.health, `Health ${state.health}/100`]
     ];
     const box = $('#linaWorldMap');
     if (!box) return;
@@ -151,21 +161,26 @@
     if ($('#linaIntegrityBroken')) $('#linaIntegrityBroken').textContent = integrity.broken.toLocaleString();
     if ($('#linaIntegritySitemap')) $('#linaIntegritySitemap').textContent = integrity.sitemap.toLocaleString();
     if ($('#linaPublisherLock')) $('#linaPublisherLock').textContent = integrity.publisherDrift === 0 ? 'PASS' : `DRIFT ${integrity.publisherDrift}`;
+    if ($('#linaHealthScore')) $('#linaHealthScore').textContent = `${state.health}/100`;
+    if ($('#linaHealthStatus')) $('#linaHealthStatus').textContent = state.health >= 90 ? '안정' : state.health >= 70 ? '주의' : '긴급 개선';
   }
 
   function renderDashboard() {
     if (!state.mounted) return;
     const counts = readCounts();
     const integrity = integrityCounts();
-    state.tasks = defaultTasks(counts);
+    state.health = calculateHealth(counts);
+    state.tasks = priorityTasks(counts);
+    const first = state.tasks[0];
     $('#linaGreetingTitle').textContent = greeting();
-    $('#linaGreetingText').textContent = integrity.status === 'FAIL'
-      ? `실제 무결성 보고서에서 깨진 참조 ${integrity.broken}건이 확인되었습니다. 중복·품질 검토와 함께 무결성 오류를 우선 정리합니다.`
-      : counts.duplicate ? `오늘은 중복 의심 ${counts.duplicate}건부터 정리하는 것이 가장 효율적입니다.` : '오늘은 전체 Doctor 검사로 현재 콘텐츠 상태부터 확인하는 것이 좋습니다.';
+    $('#linaGreetingText').textContent = first
+      ? `운영 건강도 ${state.health}점입니다. 오늘 최우선 작업은 “${first.title}”이며, 우선순위 ${first.score}점으로 판단했습니다.`
+      : '오늘은 전체 Doctor 검사로 현재 콘텐츠 상태부터 확인하는 것이 좋습니다.';
     $('#linaBrainDuplicate').textContent = counts.duplicate || 0;
     $('#linaBrainWeak').textContent = counts.failed || 0;
     $('#linaBrainPublished').textContent = counts.rows || 0;
     $('#linaBrainProjects').textContent = counts.projects || 0;
+    if ($('#linaNextDecision')) $('#linaNextDecision').textContent = first ? first.title : 'Doctor 검사';
     renderTasks();
     renderWorldMap(counts);
     renderJournal();
@@ -187,8 +202,8 @@
           <article class="lina-brain-card" data-lina-scroll="#contentApprovalCenter"><span>📝 확인된 콘텐츠</span><strong id="linaBrainPublished">0</strong><small>Doctor 검사에서 읽은 글</small></article>
           <article class="lina-brain-card" data-lina-scroll=".workspace-grid"><span>🚀 운영 프로젝트</span><strong id="linaBrainProjects">0</strong><small>현재 프로젝트 작업판</small></article>
         </div>
-        <article class="lina-integrity-card panel"><div class="lina-card-head"><div><p class="eyebrow">Real Operations Data</p><h3>🛡️ 사이트 무결성 보고서</h3></div><strong id="linaIntegrityStatus">LOADING</strong></div><div class="captain-metrics"><span>검사 파일 <strong id="linaIntegrityFiles">0</strong></span><span>깨진 참조 <strong id="linaIntegrityBroken">0</strong></span><span>사이트맵 누락 <strong id="linaIntegritySitemap">0</strong></span><span>Publisher LOCK <strong id="linaPublisherLock">-</strong></span></div></article>
-        <div class="lina-ops-grid"><article class="lina-world-card"><div class="lina-card-head"><div><p class="eyebrow">Savingio World Map</p><h3>🌍 전체 항해 상태</h3></div><span class="map-live">LIVE</span></div><div id="linaWorldMap" class="world-map"></div></article><article class="lina-captain-card"><p class="eyebrow">Captain Room</p><h3>⚓ 선장실</h3><div class="captain-metrics"><span>오늘 완료 <strong id="linaCompletedToday">0건</strong></span><span>항해 점수 <strong id="linaVoyageScore">1/5</strong></span><span>다음 판단 <strong>무결성 → 중복 → 품질</strong></span></div><button class="btn primary" id="linaCaptainStart" type="button">리나 추천 작업 시작</button></article></div>
+        <article class="lina-integrity-card panel"><div class="lina-card-head"><div><p class="eyebrow">Real Operations Data</p><h3>🛡️ 사이트 무결성·Health 보고서</h3></div><strong id="linaIntegrityStatus">LOADING</strong></div><div class="captain-metrics"><span>Health <strong id="linaHealthScore">0/100</strong></span><span>판정 <strong id="linaHealthStatus">계산 중</strong></span><span>검사 파일 <strong id="linaIntegrityFiles">0</strong></span><span>깨진 참조 <strong id="linaIntegrityBroken">0</strong></span><span>사이트맵 누락 <strong id="linaIntegritySitemap">0</strong></span><span>Publisher LOCK <strong id="linaPublisherLock">-</strong></span></div></article>
+        <div class="lina-ops-grid"><article class="lina-world-card"><div class="lina-card-head"><div><p class="eyebrow">Savingio World Map</p><h3>🌍 전체 항해 상태</h3></div><span class="map-live">LIVE</span></div><div id="linaWorldMap" class="world-map"></div></article><article class="lina-captain-card"><p class="eyebrow">Captain Room</p><h3>⚓ 선장실</h3><div class="captain-metrics"><span>오늘 완료 <strong id="linaCompletedToday">0건</strong></span><span>항해 점수 <strong id="linaVoyageScore">1/5</strong></span><span>다음 판단 <strong id="linaNextDecision">분석 중</strong></span></div><button class="btn primary" id="linaCaptainStart" type="button">리나 추천 작업 시작</button></article></div>
         <article class="lina-journal-card"><div class="lina-card-head"><div><p class="eyebrow">Voyage Journal</p><h3>🧭 항해 일지</h3></div><button class="btn ghost small" id="linaSaveJournal" type="button">현재 기록 저장</button></div><div id="linaVoyageJournal" class="voyage-journal"></div></article>
         <div class="lina-bottom-grid"><article class="lina-work-card"><h3>😊 리나 빠른 실행</h3><div class="lina-command"><button class="btn primary" id="linaStartToday" type="button">🚀 오늘 작업 시작</button><button class="btn ghost" id="linaOpenChat" type="button">💬 리나에게 물어보기</button><button class="btn ghost" id="linaRunDoctor" type="button">🩺 Doctor 검사</button></div><p id="linaHomeMessage" class="lina-home-message"></p></article><article class="lina-retire-card"><h3>🌙 퇴근 모드</h3><p>오늘 완료한 작업을 정리하고 내일 시작점을 저장합니다.</p><div class="lina-retire-summary"><span>오늘 완료 <strong id="linaCompletedTodayMirror">0건</strong></span><span>내일 시작 <strong>현재 미완료 작업 이어가기</strong></span></div><button class="btn ghost" id="linaRetireBtn" type="button">오늘 작업 마무리</button></article></div>
       </section>`);
@@ -197,7 +212,7 @@
     const start = () => {
       const first = state.tasks.find(task => !savedDone(task.id));
       document.querySelector(first?.target || '#contentApprovalCenter')?.scrollIntoView({ behavior:'smooth', block:'start' });
-      if ($('#linaHomeMessage')) { $('#linaHomeMessage').textContent = first ? `선장님, ${first.title}부터 시작하겠습니다.` : '오늘 필수 작업이 모두 완료되었습니다.'; $('#linaHomeMessage').className = 'lina-home-message pass'; }
+      if ($('#linaHomeMessage')) { $('#linaHomeMessage').textContent = first ? `선장님, ${first.title}부터 시작하겠습니다. 판단 이유: ${first.reason}` : '오늘 필수 작업이 모두 완료되었습니다.'; $('#linaHomeMessage').className = 'lina-home-message pass'; }
     };
     $('#linaStartToday')?.addEventListener('click', start);
     $('#linaCaptainStart')?.addEventListener('click', start);
@@ -211,10 +226,10 @@
     $('#linaRetireBtn')?.addEventListener('click', () => {
       const done = state.tasks.filter(task => savedDone(task.id)).map(task => task.title);
       const next = state.tasks.find(task => !savedDone(task.id))?.title || '내일 새 브리핑 확인';
-      localStorage.setItem('savingio-lina-last-retire', JSON.stringify({ date:new Date().toISOString(), completed:done, next }));
+      localStorage.setItem('savingio-lina-last-retire', JSON.stringify({ date:new Date().toISOString(), completed:done, next, health:state.health }));
       writeJournal({ date:todayKey(), completed:done, next });
       renderJournal();
-      if ($('#linaHomeMessage')) { $('#linaHomeMessage').textContent = `오늘 ${done.length}건을 완료했습니다. 내일 시작점은 ${next}(으)로 저장했습니다.`; $('#linaHomeMessage').className = 'lina-home-message pass'; }
+      if ($('#linaHomeMessage')) { $('#linaHomeMessage').textContent = `오늘 ${done.length}건을 완료했습니다. 현재 Health ${state.health}점이며, 내일 시작점은 ${next}(으)로 저장했습니다.`; $('#linaHomeMessage').className = 'lina-home-message pass'; }
     });
 
     const observer = new MutationObserver(() => { clearTimeout(observer.timer); observer.timer = setTimeout(renderDashboard, 180); });
