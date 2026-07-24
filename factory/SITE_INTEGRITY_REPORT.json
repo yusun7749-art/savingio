@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3147,
-  "references_scanned": 62851,
+  "files_scanned": 3155,
+  "references_scanned": 62865,
   "counts": {
-    "broken_references": 1760,
+    "broken_references": 1761,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -45,6 +45,13 @@
         "admin/stop",
         "admin/stop.html",
         "admin/stop/index.html"
+      ]
+    },
+    {
+      "source": "admin/brain/brain-dashboard.js",
+      "reference": "${esc(item.record.href)}",
+      "expected": [
+        "admin/brain/${esc(item.record.href)}"
       ]
     },
     {
