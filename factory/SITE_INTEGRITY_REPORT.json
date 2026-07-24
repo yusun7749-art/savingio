@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3140,
-  "references_scanned": 62840,
+  "files_scanned": 3141,
+  "references_scanned": 62844,
   "counts": {
-    "broken_references": 1756,
+    "broken_references": 1759,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -168,6 +168,33 @@
       "reference": "${esc(i.path)}",
       "expected": [
         "admin/${esc(i.path)}"
+      ]
+    },
+    {
+      "source": "admin/os/module-manager.js",
+      "reference": "new",
+      "expected": [
+        "admin/os/new",
+        "admin/os/new.html",
+        "admin/os/new/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/module-manager.js",
+      "reference": "reset",
+      "expected": [
+        "admin/os/reset",
+        "admin/os/reset.html",
+        "admin/os/reset/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/module-manager.js",
+      "reference": "settings",
+      "expected": [
+        "admin/os/settings",
+        "admin/os/settings.html",
+        "admin/os/settings/index.html"
       ]
     },
     {
