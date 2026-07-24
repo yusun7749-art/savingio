@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3141,
-  "references_scanned": 62846,
+  "references_scanned": 62848,
   "counts": {
-    "broken_references": 1759,
+    "broken_references": 1760,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -12200,6 +12200,13 @@
       "reference": "${esc(i.href)}",
       "expected": [
         "js/${esc(i.href)}"
+      ]
+    },
+    {
+      "source": "js/savingio-platform-navigation.js",
+      "reference": "location.href",
+      "expected": [
+        "js/location.href"
       ]
     },
     {
