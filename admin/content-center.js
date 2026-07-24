@@ -5,7 +5,8 @@
     loading: false,
     filter: 'all',
     query: '',
-    category: 'all'
+    category: 'all',
+    reviewRecord: null
   };
 
   const $ = selector => document.querySelector(selector);
@@ -120,22 +121,35 @@
   }
 
   function statusLabel(status) {
-    return ({ published: '공개', hold: '보류', approved: '승인', hidden: '숨김', error: '오류' })[status] || status;
+    return ({ published: '공개', hold: '보류', approved: '승인', hidden: '숨김', rewrite_review: '수정 검토', rewrite_pending: '수정 대기', error: '오류' })[status] || status;
+  }
+
+  function auditSummary() {
+    const counts = { A: 0, B: 0, C: 0, D: 0 };
+    state.articles.forEach(article => counts[article.grade]++);
+    const average = state.articles.length ? Math.round(state.articles.reduce((sum, item) => sum + item.score, 0) / state.articles.length) : 0;
+    return {
+      total: state.articles.length,
+      average,
+      grades: counts,
+      failed: state.articles.filter(article => article.score < 90).length,
+      duplicate: state.articles.filter(article => article.duplicateRisk >= 50).length,
+      approved: state.articles.filter(article => article.status === 'approved').length,
+      auditedAt: new Date().toISOString()
+    };
   }
 
   function renderSummary() {
     const el = $('#contentHealthSummary');
     if (!el) return;
-    const counts = { A: 0, B: 0, C: 0, D: 0 };
-    state.articles.forEach(article => counts[article.grade]++);
-    const average = state.articles.length ? Math.round(state.articles.reduce((sum, item) => sum + item.score, 0) / state.articles.length) : 0;
+    const summary = auditSummary();
     el.innerHTML = `
-      <div><span>전체 글</span><strong>${state.articles.length}</strong></div>
-      <div><span>평균 품질</span><strong>${average}점</strong></div>
-      <div><span>A</span><strong>${counts.A}</strong></div>
-      <div><span>B</span><strong>${counts.B}</strong></div>
-      <div><span>C</span><strong>${counts.C}</strong></div>
-      <div><span>D</span><strong>${counts.D}</strong></div>`;
+      <div><span>전체 글</span><strong>${summary.total}</strong></div>
+      <div><span>평균 품질</span><strong>${summary.average}점</strong></div>
+      <div><span>A</span><strong>${summary.grades.A}</strong></div>
+      <div><span>B</span><strong>${summary.grades.B}</strong></div>
+      <div><span>C</span><strong>${summary.grades.C}</strong></div>
+      <div><span>D</span><strong>${summary.grades.D}</strong></div>`;
   }
 
   function applyFilters() {
@@ -208,38 +222,96 @@
     dialog.showModal();
   }
 
+  function renderDefinitionList(target, entries) {
+    if (!target) return;
+    target.innerHTML = entries.map(([label, value]) => `<div><dt>${esc(label)}</dt><dd>${esc(value ?? '-')}</dd></div>`).join('');
+  }
+
+  function showRewriteReview(record) {
+    const dialog = $('#rewriteReviewDialog');
+    const plan = record?.rewritePlan || {};
+    const current = plan.current || {};
+    const target = plan.target || {};
+    const preserve = plan.preserve || {};
+    state.reviewRecord = record;
+
+    $('#rewriteReviewTitle').textContent = record?.article?.title || '헌법 수정 설계';
+    $('#rewriteReviewMeta').textContent = `${record?.article?.path || ''} · 작업 ID ${record?.id || '-'}`;
+    $('#rewriteReviewLoading').hidden = true;
+    $('#rewriteReviewBody').hidden = false;
+
+    renderDefinitionList($('#rewriteCurrent'), [
+      ['현재 점수', current.score == null ? '미확인' : `${current.score}점`],
+      ['현재 본문', `${Number(current.textLength || 0).toLocaleString()}자`],
+      ['백업', record?.safety?.backupCreated ? '완료' : '미완료'],
+      ['원본 해시', record?.sourceHash || '-']
+    ]);
+    renderDefinitionList($('#rewriteTarget'), [
+      ['목표 점수', `${target.expectedScore || 95}점 이상`],
+      ['최소 본문', `${Number(target.minimumTextLength || 5000).toLocaleString()}자`],
+      ['오른쪽 카드', `${target.rightRailCards || 5}개`],
+      ['공식 근거 확인', target.requireOfficialSourceCheck ? '필수' : '선택']
+    ]);
+
+    $('#rewritePreserve').innerHTML = [
+      `URL · ${preserve.path || record?.article?.path || '-'}`,
+      `Slug · ${preserve.slug || '-'}`,
+      `H1 · ${preserve.h1 || record?.article?.title || '-'}`,
+      `Canonical · ${preserve.canonical || '-'}`,
+      `Publisher LOCK · ${plan.safety?.publisherLockRequired ? '필수' : '확인 필요'}`
+    ].map(value => `<span>${esc(value)}</span>`).join('');
+
+    $('#rewriteFlow').innerHTML = (target.requiredFlow || []).map(item => `<li>${esc(item)}</li>`).join('');
+    $('#rewriteMissing').innerHTML = (current.missing || record?.article?.missing || []).length
+      ? (current.missing || record.article.missing).map(item => `<span>${esc(item)}</span>`).join('')
+      : '<span>현재 미달 항목 없음</span>';
+    $('#rewriteReviewMessage').textContent = '원본 백업과 수정 설계까지 완료되었습니다. 승인해도 운영 글은 즉시 덮어쓰지 않으며 실행 대기 상태로 저장됩니다.';
+    dialog.showModal();
+  }
+
+  async function postAction(article, action) {
+    const response = await fetch('/api/admin/content-action', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        action,
+        article: {
+          path: article.path,
+          title: article.title,
+          category: article.category,
+          score: article.score,
+          missing: article.missing
+        },
+        requestedAt: new Date().toISOString()
+      })
+    });
+    const result = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(result.error || '자동화 실행 엔진 요청에 실패했습니다.');
+    return result;
+  }
+
   async function requestAction(article, action) {
     if (action === 'detail') return showDetail(article);
     if (action === 'delete' && !confirm(`삭제 전 백업이 필요합니다.\n${article.title}\n삭제 요청을 등록할까요?`)) return;
     if (action === 'hide' && !confirm(`${article.title}\n사이트에서 숨김 요청을 등록할까요?`)) return;
 
-    if (['hold', 'approve'].includes(action)) {
-      article.status = action === 'hold' ? 'hold' : 'approved';
+    try {
+      const result = await postAction(article, action);
+      article.status = result.status || (action === 'hold' ? 'hold' : action === 'approve' ? 'approved' : article.status);
       localStorage.setItem(`savingio-content-status:${article.path}`, article.status);
       applyFilters();
-    }
 
-    const payload = {
-      action,
-      article: { path: article.path, title: article.title, score: article.score, missing: article.missing },
-      requestedAt: new Date().toISOString()
-    };
-
-    try {
-      const response = await fetch('/api/admin/content-action', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
-      });
-      const result = await response.json().catch(() => ({}));
-      if (!response.ok) throw new Error(result.error || '자동화 실행 엔진이 아직 연결되지 않았습니다.');
-      alert(result.message || '요청이 승인센터에 등록되었습니다.');
-    } catch (error) {
-      if (['hold', 'approve'].includes(action)) {
-        alert(`화면 상태는 저장했지만 GitHub 자동화 연결은 아직 완료되지 않았습니다.\n${error.message}`);
+      if (action === 'rewrite' && result.record) {
+        showRewriteReview(result.record);
       } else {
-        alert(`버튼 화면과 대상 글 연결은 완료되었습니다.\n다음 단계에서 GitHub 수정·숨김·삭제 엔진을 연결합니다.\n${error.message}`);
+        alert(result.message || '요청이 승인센터에 등록되었습니다.');
       }
+
+      document.dispatchEvent(new CustomEvent('savingio:content-action-recorded', {
+        detail: { action, article: article.path, status: article.status, record: result.record || null }
+      }));
+    } catch (error) {
+      alert(`승인센터 요청을 저장하지 못했습니다.\n${error.message}`);
     }
   }
 
@@ -263,9 +335,13 @@
       $('#contentCategoryFilter').innerHTML = '<option value="all">전체 카테고리</option>' + categories.map(category => `<option value="${esc(category)}">${esc(category)}</option>`).join('');
       renderSummary();
       applyFilters();
-      $('#contentLastAudit').textContent = `마지막 검사 ${new Date().toLocaleString('ko-KR')}`;
+      const summary = auditSummary();
+      $('#contentLastAudit').textContent = `마지막 검사 ${new Date(summary.auditedAt).toLocaleString('ko-KR')}`;
+      localStorage.setItem('savingio-doctor-last-summary', JSON.stringify(summary));
+      document.dispatchEvent(new CustomEvent('savingio:content-audit-complete', { detail: summary }));
     } catch (error) {
       if (body) body.innerHTML = `<tr><td colspan="8" class="content-empty error">${esc(error.message)}</td></tr>`;
+      document.dispatchEvent(new CustomEvent('savingio:content-audit-failed', { detail: { error: error.message } }));
     } finally {
       state.loading = false;
       if (button) { button.disabled = false; button.textContent = '전체 Doctor 검사'; }
@@ -287,6 +363,37 @@
       if (article) requestAction(article, button.dataset.action);
     });
     $('#contentAuditClose')?.addEventListener('click', () => $('#contentAuditDialog').close());
+    $('#rewriteReviewClose')?.addEventListener('click', () => $('#rewriteReviewDialog').close());
+    $('#rewriteRejectBtn')?.addEventListener('click', async () => {
+      const article = state.reviewRecord?.article;
+      if (!article) return;
+      await requestAction(article, 'hold');
+      $('#rewriteReviewDialog')?.close();
+    });
+    $('#rewriteRegenerateBtn')?.addEventListener('click', async () => {
+      const article = state.reviewRecord?.article;
+      if (!article) return;
+      $('#rewriteReviewLoading').hidden = false;
+      $('#rewriteReviewBody').hidden = true;
+      try {
+        const result = await postAction(article, 'rewrite');
+        if (result.record) showRewriteReview(result.record);
+      } catch (error) {
+        $('#rewriteReviewLoading').textContent = `설계를 다시 만들지 못했습니다. ${error.message}`;
+      }
+    });
+    $('#rewriteApproveBtn')?.addEventListener('click', async () => {
+      const article = state.reviewRecord?.article;
+      if (!article) return;
+      const result = await postAction(article, 'approve');
+      $('#rewriteReviewMessage').textContent = result.message || '수정 설계 승인을 저장했습니다.';
+      const local = state.articles.find(item => item.path === article.path);
+      if (local) {
+        local.status = result.status || 'approved';
+        localStorage.setItem(`savingio-content-status:${local.path}`, local.status);
+        applyFilters();
+      }
+    });
     document.querySelectorAll('.tree-child').forEach(button => {
       if (button.dataset.child === '글 승인' || button.dataset.child === '기존 글 재작성' || button.dataset.child === '콘텐츠 QA') {
         button.addEventListener('click', () => {
