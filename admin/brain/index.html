@@ -5,73 +5,36 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="noindex,nofollow">
   <title>Savingio Brain Dashboard</title>
-  <link rel="stylesheet" href="/admin/brain/brain-dashboard.css?v=20260725-brain-kernel1">
+  <link rel="stylesheet" href="/admin/brain/brain-dashboard.css?v=20260725-brain-solution1">
 </head>
 <body>
   <main class="brain-shell">
     <header class="brain-header">
-      <div>
-        <p class="eyebrow">Savingio OS</p>
-        <h1>Brain Dashboard</h1>
-        <p id="brainStatus">Brain Kernel을 불러오는 중입니다.</p>
-      </div>
-      <div class="header-actions">
-        <button id="refreshBrain" type="button">다시 검사</button>
-        <a href="/articles/">글 목록 열기</a>
-      </div>
+      <div><p class="eyebrow">Savingio OS</p><h1>Brain Dashboard</h1><p id="brainStatus">Brain Kernel을 불러오는 중입니다.</p></div>
+      <div class="header-actions"><button id="refreshBrain" type="button">다시 검사</button><a href="/articles/">글 목록 열기</a></div>
     </header>
-
     <section class="metric-grid" aria-label="Brain 핵심 통계">
-      <article><span>Articles</span><strong id="metricArticles">-</strong></article>
-      <article><span>Nodes</span><strong id="metricNodes">-</strong></article>
-      <article><span>Edges</span><strong id="metricEdges">-</strong></article>
-      <article><span>평균 연결</span><strong id="metricAverage">-</strong></article>
-      <article><span>고립 글</span><strong id="metricIsolated">-</strong></article>
-      <article><span>오류</span><strong id="metricErrors">-</strong></article>
-      <article><span>경고</span><strong id="metricWarnings">-</strong></article>
-      <article><span>Memory</span><strong id="metricMemory">-</strong></article>
-      <article><span>상태</span><strong id="metricPass">-</strong></article>
+      <article><span>Articles</span><strong id="metricArticles">-</strong></article><article><span>Nodes</span><strong id="metricNodes">-</strong></article><article><span>Edges</span><strong id="metricEdges">-</strong></article><article><span>평균 연결</span><strong id="metricAverage">-</strong></article><article><span>고립 글</span><strong id="metricIsolated">-</strong></article><article><span>오류</span><strong id="metricErrors">-</strong></article><article><span>경고</span><strong id="metricWarnings">-</strong></article><article><span>Memory</span><strong id="metricMemory">-</strong></article><article><span>상태</span><strong id="metricPass">-</strong></article>
     </section>
-
     <section class="brain-grid">
-      <article class="panel">
-        <div class="panel-head"><h2>Brain Doctor</h2><span id="doctorStamp">-</span></div>
-        <div id="doctorSummary" class="summary-box">검사 대기</div>
-        <div class="tab-row">
-          <button type="button" data-view="errors" class="active">오류</button>
-          <button type="button" data-view="warnings">경고</button>
-          <button type="button" data-view="isolated">고립 글</button>
-          <button type="button" data-view="weak">연결 부족</button>
-        </div>
-        <div id="doctorList" class="result-list"></div>
-      </article>
-
-      <article class="panel">
-        <div class="panel-head"><h2>Category Map</h2><span id="categoryCount">-</span></div>
-        <div id="categoryMap" class="category-map"></div>
-      </article>
-
-      <article class="panel panel-wide">
-        <div class="panel-head"><h2>Article Brain Inspector</h2><span>Registry → Graph → Related → Action → Route → Memory</span></div>
-        <div class="inspector-controls">
-          <input id="articleQuery" type="search" placeholder="제목이나 URL을 검색하세요">
-          <select id="articleSelect" aria-label="글 선택"></select>
-        </div>
-        <div id="articleInspector" class="article-inspector"></div>
-      </article>
+      <article class="panel"><div class="panel-head"><h2>Brain Doctor</h2><span id="doctorStamp">-</span></div><div id="doctorSummary" class="summary-box">검사 대기</div><div class="tab-row"><button type="button" data-view="errors" class="active">오류</button><button type="button" data-view="warnings">경고</button><button type="button" data-view="isolated">고립 글</button><button type="button" data-view="weak">연결 부족</button></div><div id="doctorList" class="result-list"></div></article>
+      <article class="panel"><div class="panel-head"><h2>Category Map</h2><span id="categoryCount">-</span></div><div id="categoryMap" class="category-map"></div></article>
+      <article class="panel panel-wide"><div class="panel-head"><h2>Article Brain Inspector</h2><span>Registry → Graph → Related → Action → Route → Government → Calculator</span></div><div class="inspector-controls"><input id="articleQuery" type="search" placeholder="제목이나 URL을 검색하세요"><select id="articleSelect" aria-label="글 선택"></select></div><div id="articleInspector" class="article-inspector"></div></article>
     </section>
   </main>
-
-  <script src="/js/savingio-article-registry.js?v=20260725-brain-kernel1"></script>
-  <script src="/js/savingio-search-core.js?v=20260725-brain-kernel1"></script>
-  <script src="/js/savingio-search-doctor.js?v=20260725-brain-kernel1"></script>
-  <script src="/js/savingio-brain-engine.js?v=20260725-brain-kernel1"></script>
-  <script src="/js/savingio-intent-engine.js?v=20260725-brain-kernel1"></script>
-  <script src="/js/savingio-related-engine.js?v=20260725-brain-kernel1"></script>
-  <script src="/js/savingio-action-chain.js?v=20260725-brain-kernel1"></script>
-  <script src="/js/savingio-memory-engine.js?v=20260725-brain-kernel1"></script>
-  <script src="/js/savingio-route-engine.js?v=20260725-brain-kernel1"></script>
-  <script src="/js/savingio-brain-kernel.js?v=20260725-brain-kernel1"></script>
-  <script src="/admin/brain/brain-dashboard.js?v=20260725-brain-kernel1"></script>
+  <script src="/js/savingio-article-registry.js?v=20260725-brain-solution1"></script>
+  <script src="/js/savingio-search-core.js?v=20260725-brain-solution1"></script>
+  <script src="/js/savingio-search-doctor.js?v=20260725-brain-solution1"></script>
+  <script src="/js/savingio-brain-engine.js?v=20260725-brain-solution1"></script>
+  <script src="/js/savingio-intent-engine.js?v=20260725-brain-solution1"></script>
+  <script src="/js/savingio-related-engine.js?v=20260725-brain-solution1"></script>
+  <script src="/js/savingio-action-chain.js?v=20260725-brain-solution1"></script>
+  <script src="/js/savingio-memory-engine.js?v=20260725-brain-solution1"></script>
+  <script src="/js/savingio-route-engine.js?v=20260725-brain-solution1"></script>
+  <script src="/js/savingio-government-engine.js?v=20260725-brain-solution1"></script>
+  <script src="/js/savingio-calculator-router.js?v=20260725-brain-solution1"></script>
+  <script src="/js/savingio-solution-builder.js?v=20260725-brain-solution1"></script>
+  <script src="/js/savingio-brain-kernel.js?v=20260725-brain-solution1"></script>
+  <script src="/admin/brain/brain-dashboard.js?v=20260725-brain-solution1"></script>
 </body>
 </html>
