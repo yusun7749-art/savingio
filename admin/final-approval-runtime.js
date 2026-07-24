@@ -87,8 +87,21 @@
     actionRow.appendChild(button);
   }
 
+  function loadPublishRuntime() {
+    if (document.querySelector('script[data-savingio-publish-runtime]')) return;
+    const script = document.createElement('script');
+    script.src = '/admin/publish-runtime.js';
+    script.defer = true;
+    script.dataset.savingioPublishRuntime = 'true';
+    document.head.appendChild(script);
+  }
+
   const observer = new MutationObserver(mount);
   observer.observe(document.documentElement, { childList: true, subtree: true });
-  document.addEventListener('DOMContentLoaded', mount);
+  document.addEventListener('DOMContentLoaded', () => {
+    mount();
+    loadPublishRuntime();
+  });
   mount();
+  loadPublishRuntime();
 })();
