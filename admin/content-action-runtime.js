@@ -16,6 +16,7 @@
     generation_approved: '초안 생성 승인',
     draft_review_ready: '초안 검토',
     final_approval_pending: '최종 승인 대기',
+    approved_for_publish: '운영 반영 대기',
     regeneration_pending: '설계 재생성',
     hide_pending: '숨김 대기',
     delete_pending: '삭제 대기',
