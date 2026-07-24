@@ -3,6 +3,18 @@
   const esc = value => String(value ?? '').replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
   let managerOpen = false;
 
+  function refreshTree() {
+    const os = window.SavingioOS?.modules;
+    const nav = $('#treeNav');
+    if (!os || !nav) return;
+    const departments = os.departments();
+    if (window.SAVINGIO_ADMIN_DATA) window.SAVINGIO_ADMIN_DATA.departments = departments;
+    nav.innerHTML = departments.map((department, index) => `<div class="tree-group ${index === 0 ? 'open' : ''}">
+      <button class="tree-title ${index === 0 ? 'active' : ''}" data-dept="${esc(department.id)}"><span>${esc(department.icon || '')} ${esc(department.name)}</span><span>⌄</span></button>
+      <div class="tree-children">${department.children.map(child => `<button class="tree-child" data-child="${esc(child)}">${esc(child)}</button>`).join('')}</div>
+    </div>`).join('');
+  }
+
   function renderManager() {
     const board = $('#departmentBoard');
     const os = window.SavingioOS?.modules;
@@ -44,20 +56,15 @@
       event.preventDefault();
       const form = new FormData(event.currentTarget);
       const input = {
-        id:String(form.get('id') || '').trim(),
-        name:String(form.get('name') || '').trim(),
-        icon:String(form.get('icon') || '◇').trim(),
+        id:String(form.get('id') || '').trim(), name:String(form.get('name') || '').trim(), icon:String(form.get('icon') || '◇').trim(),
         order:Number(form.get('order') || 110),
         children:String(form.get('children') || '').split(/\n+/).map(value => value.trim()).filter(Boolean),
-        capabilities:String(form.get('capabilities') || '').split(',').map(value => value.trim()).filter(Boolean),
-        enabled:true,
-        removable:true
+        capabilities:String(form.get('capabilities') || '').split(',').map(value => value.trim()).filter(Boolean), enabled:true, removable:true
       };
       try {
-        if (module) window.SavingioOS.modules.update(module.id, input);
-        else window.SavingioOS.modules.register(input);
-        renderManager();
-        setMessage(module ? '모듈 설정을 저장했습니다.' : '새 모듈을 설치하고 왼쪽 메뉴에 연결했습니다.', 'pass');
+        if (module) window.SavingioOS.modules.update(module.id, input); else window.SavingioOS.modules.register(input);
+        refreshTree(); renderManager();
+        setMessage(module ? '모듈 설정을 저장하고 왼쪽 메뉴를 갱신했습니다.' : '새 모듈을 설치하고 왼쪽 메뉴에 연결했습니다.', 'pass');
       } catch (error) { setMessage(error.message, 'warn'); }
     };
   }
@@ -74,13 +81,13 @@
     $('[data-manager-action="new"]')?.addEventListener('click', () => showForm());
     $('[data-manager-action="reset"]')?.addEventListener('click', () => {
       if (!confirm('모듈 설정과 사용자 추가 모듈을 모두 기본값으로 되돌릴까요?')) return;
-      os.reset(); renderManager(); setMessage('기본 모듈 구성을 복원했습니다.');
+      os.reset(); refreshTree(); renderManager(); setMessage('기본 모듈 구성을 복원했습니다.');
     });
     document.querySelectorAll('[data-manager-toggle]').forEach(button => button.onclick = () => {
       const module = os.get(button.dataset.managerToggle);
       if (!module) return;
       module.enabled ? os.disable(module.id) : os.enable(module.id);
-      renderManager(); setMessage(`${module.name} 모듈을 ${module.enabled ? '껐습니다' : '켰습니다'}.`);
+      refreshTree(); renderManager(); setMessage(`${module.name} 모듈을 ${module.enabled ? '껐습니다' : '켰습니다'}.`);
     });
     document.querySelectorAll('[data-manager-edit]').forEach(button => button.onclick = () => showForm(os.get(button.dataset.managerEdit)));
   }
@@ -95,17 +102,13 @@
       if (title && title.dataset.dept !== 'system') managerOpen = false;
       if (child && child.dataset.child !== '모듈 관리') managerOpen = false;
     }, true);
-    window.addEventListener('savingio:modules-changed', () => {
-      if (managerOpen) renderManager();
-    });
+    window.addEventListener('savingio:modules-changed', () => { refreshTree(); if (managerOpen) renderManager(); });
   }
 
   function boot() {
     const link = document.createElement('link'); link.rel = 'stylesheet'; link.href = '/admin/os/module-manager.css'; document.head.appendChild(link);
-    bindNavigation();
-    document.addEventListener('click', event => {
-      if (event.target.closest('[data-module-action="settings"]')) renderManager();
-    });
+    refreshTree(); bindNavigation();
+    document.addEventListener('click', event => { if (event.target.closest('[data-module-action="settings"]')) renderManager(); });
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
