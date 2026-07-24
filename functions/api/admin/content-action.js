@@ -5,6 +5,7 @@ const STATUS_PREFIX = 'content-status:';
 const ACTION_PREFIX = 'content-action:';
 const BACKUP_PREFIX = 'content-backup:';
 const ALLOWED_ACTIONS = new Set(['rewrite', 'hold', 'approve', 'hide', 'delete', 'merge']);
+const REVIEW_COMMANDS = new Set(['approve_rewrite', 'reject_rewrite', 'regenerate_rewrite']);
 const SAFE_PATH = /^\/articles\/[a-z0-9][a-z0-9-]*(?:\.html)?$/i;
 
 function json(data, status = 200) {
@@ -22,6 +23,18 @@ async function readIndex(store) {
     return Array.isArray(value) ? value : [];
   } catch {
     return [];
+  }
+}
+
+async function readAction(store, id) {
+  if (!id) return null;
+  return store.get(`${ACTION_PREFIX}${id}`, 'json');
+}
+
+async function writeAction(store, record) {
+  await store.put(`${ACTION_PREFIX}${record.id}`, JSON.stringify(record), { expirationTtl: 60 * 60 * 24 * 90 });
+  if (record.article?.path && record.nextStatus) {
+    await store.put(`${STATUS_PREFIX}${record.article.path}`, record.nextStatus);
   }
 }
 
@@ -48,6 +61,37 @@ function buildRewritePlan(article, source) {
     current: { score: Number.isFinite(Number(article.score)) ? Number(article.score) : null, textLength: source.textLength, missing },
     target: { minimumTextLength: 5000, expectedScore: 95, requiredFlow, rightRailCards: 5, requireTable: true, requireChecklist: true, requireFaq: true, requireOfficialSourceCheck: true, requireRelatedArticleChain: true },
     safety: { overwriteBlocked: true, humanApprovalRequired: true, urlChangeBlocked: true, h1ChangeBlocked: true, publisherLockRequired: true }
+  };
+}
+
+function buildGenerationRequest(record) {
+  const plan = record.rewritePlan || {};
+  return {
+    version: 1,
+    mode: 'savingio_constitution_draft',
+    actionId: record.id,
+    backupId: record.backupId,
+    sourceHash: record.sourceHash,
+    article: record.article,
+    preserve: plan.preserve || {},
+    target: plan.target || {},
+    requiredChecks: [
+      'source_hash_matches_backup',
+      'url_unchanged',
+      'h1_unchanged',
+      'canonical_unchanged',
+      'publisher_lock_pass',
+      'minimum_text_length_pass',
+      'required_flow_pass',
+      'right_rail_exactly_five',
+      'no_production_overwrite_before_final_approval'
+    ],
+    output: {
+      type: 'html_draft',
+      stateAfterGeneration: 'draft_review_ready',
+      productionWriteAllowed: false
+    },
+    requestedAt: new Date().toISOString()
   };
 }
 
@@ -88,25 +132,19 @@ async function prepareDuplicateAction(context, record, representative) {
     const targetBackup = await fetchAndBackup(context, representative.path, representative.title, 'duplicate_merge_representative');
     record.representative = { ...representative, backupId: targetBackup.backupId, sourceHash: targetBackup.sourceHash, source: targetBackup.source };
     record.mergePlan = {
-      mode: 'duplicate_merge',
-      sourcePath: record.article.path,
-      representativePath: representative.path,
+      mode: 'duplicate_merge', sourcePath: record.article.path, representativePath: representative.path,
       preserveRepresentativeUrl: true,
       extractUsefulSections: ['본문 핵심 정보', '표', '체크리스트', 'FAQ', '공식기관 링크', '관련글'],
       afterApproval: ['대표글 내용 통합', '내부링크 대표 URL로 교체', '소스 URL 리디렉션 또는 제거', '사이트맵 정리', '배포 후 URL 검증'],
-      destructiveWriteBlocked: true,
-      humanApprovalRequired: true
+      destructiveWriteBlocked: true, humanApprovalRequired: true
     };
     record.nextStatus = 'merge_review';
   } else {
     record.representative = representative.path ? representative : null;
     record.deletePlan = {
-      mode: 'duplicate_delete',
-      sourcePath: record.article.path,
-      representativePath: representative.path || null,
+      mode: 'duplicate_delete', sourcePath: record.article.path, representativePath: representative.path || null,
       beforeDelete: ['내부링크 영향도 확인', '대표 URL 연결 확인', '사이트맵 제거 계획 확인', '백업 복구 가능 여부 확인'],
-      destructiveWriteBlocked: true,
-      humanApprovalRequired: true
+      destructiveWriteBlocked: true, humanApprovalRequired: true
     };
     record.nextStatus = 'delete_review';
   }
@@ -117,18 +155,75 @@ async function prepareDuplicateAction(context, record, representative) {
   return record;
 }
 
+async function handleReviewCommand(context, body, device) {
+  const command = String(body.command || '').trim();
+  const actionId = String(body.actionId || '').trim();
+  if (!REVIEW_COMMANDS.has(command)) return null;
+  if (!actionId) return json({ ok: false, error: '검토 작업 ID가 필요합니다.' }, 400);
+
+  const record = await readAction(context.env.ADMIN_SECURITY_KV, actionId);
+  if (!record) return json({ ok: false, error: '검토 작업을 찾을 수 없습니다.' }, 404);
+  if (record.action !== 'rewrite') return json({ ok: false, error: '헌법 재작성 작업만 이 검토 명령을 사용할 수 있습니다.' }, 409);
+  if (!record.safety?.backupCreated || !record.backupId || !record.sourceHash) {
+    return json({ ok: false, error: '원본 백업 검증이 완료되지 않아 진행할 수 없습니다.' }, 409);
+  }
+
+  const now = new Date().toISOString();
+  const reviewer = { deviceId: device.deviceId || null, name: device.name || '신뢰된 관리자 기기', at: now };
+
+  if (command === 'approve_rewrite') {
+    if (!['review_ready', 'generation_approved'].includes(record.state)) {
+      return json({ ok: false, error: `현재 상태(${record.state})에서는 수정 설계를 승인할 수 없습니다.` }, 409);
+    }
+    record.state = 'generation_approved';
+    record.nextStatus = 'rewrite_generation_pending';
+    record.review = { decision: 'approved', ...reviewer };
+    record.generationRequest = buildGenerationRequest(record);
+    record.safety.destructiveWritePerformed = false;
+    await writeAction(context.env.ADMIN_SECURITY_KV, record);
+    return json({
+      ok: true, actionId: record.id, state: record.state, status: record.nextStatus, record,
+      message: '수정 설계를 승인했습니다. HTML 초안 생성 대기열에 등록했으며 운영 글 덮어쓰기는 계속 차단됩니다.'
+    }, 202);
+  }
+
+  if (command === 'reject_rewrite') {
+    record.state = 'rejected';
+    record.nextStatus = 'hold';
+    record.review = { decision: 'rejected', reason: String(body.reason || '').trim().slice(0, 500), ...reviewer };
+    delete record.generationRequest;
+    await writeAction(context.env.ADMIN_SECURITY_KV, record);
+    return json({ ok: true, actionId: record.id, state: record.state, status: record.nextStatus, record, message: '수정 설계를 반려하고 보류 상태로 저장했습니다.' });
+  }
+
+  record.rewritePlan = buildRewritePlan(record.article, record.source || { path: record.article.path, title: record.article.title, canonical: '', textLength: 0 });
+  record.state = 'review_ready';
+  record.nextStatus = 'rewrite_review';
+  record.preparedAt = now;
+  record.revision = Number(record.revision || 0) + 1;
+  record.review = { decision: 'regenerated', ...reviewer };
+  delete record.generationRequest;
+  await writeAction(context.env.ADMIN_SECURITY_KV, record);
+  return json({ ok: true, actionId: record.id, state: record.state, status: record.nextStatus, record, message: `수정 설계를 다시 생성했습니다. 개정 ${record.revision}회입니다.` });
+}
+
 export async function onRequestGet(context) {
   const { request, env } = context;
   const device = await getAdminDevice(request, env);
   if (!device) return json({ ok: false, error: '신뢰된 관리자 기기에서만 사용할 수 있습니다.' }, 401);
   if (!env.ADMIN_SECURITY_KV) return json({ ok: false, error: 'ADMIN_SECURITY_KV 저장소가 연결되어 있지 않습니다.' }, 503);
   const url = new URL(request.url);
+  const actionId = String(url.searchParams.get('actionId') || '').trim();
+  if (actionId) {
+    const record = await readAction(env.ADMIN_SECURITY_KV, actionId);
+    return record ? json({ ok: true, record }) : json({ ok: false, error: '작업을 찾을 수 없습니다.' }, 404);
+  }
   const path = normalizePath(url.searchParams.get('path'));
   if (path) return json({ ok: true, path, status: await env.ADMIN_SECURITY_KV.get(`${STATUS_PREFIX}${path}`) || 'published' });
   const index = await readIndex(env.ADMIN_SECURITY_KV);
   const actions = [];
   for (const item of index.slice(0, 100)) {
-    const record = await env.ADMIN_SECURITY_KV.get(`${ACTION_PREFIX}${item.id}`, 'json');
+    const record = await readAction(env.ADMIN_SECURITY_KV, item.id);
     if (record) actions.push(record);
   }
   return json({ ok: true, actions });
@@ -142,6 +237,9 @@ export async function onRequestPost(context) {
 
   let body = {};
   try { body = await request.json(); } catch { return json({ ok: false, error: '요청 내용을 읽을 수 없습니다.' }, 400); }
+
+  const reviewResponse = await handleReviewCommand(context, body, device);
+  if (reviewResponse) return reviewResponse;
 
   const action = String(body.action || '').trim();
   const article = body.article || {};
@@ -178,11 +276,10 @@ export async function onRequestPost(context) {
     record.error = error.message;
   }
 
-  await env.ADMIN_SECURITY_KV.put(`${ACTION_PREFIX}${id}`, JSON.stringify(record), { expirationTtl: 60 * 60 * 24 * 90 });
+  await writeAction(env.ADMIN_SECURITY_KV, record);
   const index = await readIndex(env.ADMIN_SECURITY_KV);
   index.unshift({ id, action, path, requestedAt: now });
   await env.ADMIN_SECURITY_KV.put(INDEX_KEY, JSON.stringify(index.slice(0, 500)));
-  await env.ADMIN_SECURITY_KV.put(`${STATUS_PREFIX}${path}`, record.nextStatus);
 
   const messages = {
     rewrite: record.state === 'review_ready' ? '기존 글 백업과 헌법 수정 설계가 완료되었습니다. 검토 화면에서 확인하세요.' : `수정 준비 중 오류가 발생했습니다: ${record.error || '원인 불명'}`,
