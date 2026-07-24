@@ -116,4 +116,9 @@
   if (window.SAVINGIO_ADMIN_DATA) {
     window.SAVINGIO_ADMIN_DATA.departments = api.departments();
   }
+
+  const workspace = document.createElement('script');
+  workspace.src = '/admin/os/module-workspace.js';
+  workspace.defer = true;
+  document.head.appendChild(workspace);
 })();
