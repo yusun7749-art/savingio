@@ -144,6 +144,39 @@
     mountObserver.observe(document.documentElement, { childList: true, subtree: true });
   }
 
+  function restoreDoctorSummary() {
+    const summaryHost = document.getElementById('contentHealthSummary');
+    const lastAudit = document.getElementById('contentLastAudit');
+    if (!summaryHost) return;
+    try {
+      const saved = JSON.parse(localStorage.getItem('savingio-doctor-last-summary') || 'null');
+      if (!saved || !saved.grades) return;
+      summaryHost.innerHTML = `
+        <div><span>전체 글</span><strong>${Number(saved.total || 0)}</strong></div>
+        <div><span>평균 품질</span><strong>${Number(saved.average || 0)}점</strong></div>
+        <div><span>A</span><strong>${Number(saved.grades.A || 0)}</strong></div>
+        <div><span>B</span><strong>${Number(saved.grades.B || 0)}</strong></div>
+        <div><span>C</span><strong>${Number(saved.grades.C || 0)}</strong></div>
+        <div><span>D</span><strong>${Number(saved.grades.D || 0)}</strong></div>`;
+      if (lastAudit && saved.auditedAt) {
+        lastAudit.textContent = `마지막 검사 ${new Date(saved.auditedAt).toLocaleString('ko-KR')}`;
+      }
+    } catch {}
+  }
+
+  function autoRunDoctor() {
+    const auditButton = document.getElementById('runContentAuditBtn');
+    if (!auditButton || auditButton.disabled) return;
+    const key = `savingio-doctor-autostart:${new Date().toISOString().slice(0, 10)}`;
+    if (sessionStorage.getItem(key)) return;
+    sessionStorage.setItem(key, '1');
+    window.setTimeout(() => {
+      if (!auditButton.disabled) auditButton.click();
+    }, 1200);
+  }
+
+  restoreDoctorSummary();
+
   const auditButton = document.getElementById('runContentAuditBtn');
   if (!auditButton) return;
   let wasLoading = false;
@@ -163,4 +196,6 @@
     attributes: true,
     attributeFilter: ['disabled']
   });
+
+  autoRunDoctor();
 })();
