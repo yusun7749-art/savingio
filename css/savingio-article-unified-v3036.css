@@ -10,4 +10,22 @@ body:before,body:after{display:none!important}
 .category-row{display:none!important}
 .article-content,.article-main,article,.content-card,.post-content{background:transparent!important;border:0!important;box-shadow:none!important;border-radius:0!important}
 .toc,.table-of-contents,.summary-box,.quick-summary,.faq-item,.related-box,.author-box,.tip-box,.notice-box,.checklist,.step-card,.info-box,.callout{border-color:var(--sv-line)!important;box-shadow:none!important}
+/* Performance lock: skip layout/paint work for content that is still below the viewport. */
+.article-grid>.article-card,
+.article-content>section,
+.article-main>section,
+.post-content>section,
+.faq-item,
+.related-box,
+.checklist,
+.step-card{
+  content-visibility:auto;
+  contain-intrinsic-size:auto 260px;
+}
+.article-grid{contain:layout style paint}
+.article-card{contain:layout style paint}
+img{content-visibility:auto}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
 @media(max-width:760px){.info-shell{padding:36px 16px 58px!important}}
