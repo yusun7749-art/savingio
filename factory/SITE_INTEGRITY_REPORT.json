@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3158,
-  "references_scanned": 62873,
+  "references_scanned": 62875,
   "counts": {
-    "broken_references": 1761,
+    "broken_references": 1763,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -49,9 +49,23 @@
     },
     {
       "source": "admin/brain/brain-dashboard.js",
+      "reference": "${esc(item.href)}",
+      "expected": [
+        "admin/brain/${esc(item.href)}"
+      ]
+    },
+    {
+      "source": "admin/brain/brain-dashboard.js",
       "reference": "${esc(item.record.href)}",
       "expected": [
         "admin/brain/${esc(item.record.href)}"
+      ]
+    },
+    {
+      "source": "admin/brain/brain-dashboard.js",
+      "reference": "${esc(item.url)}",
+      "expected": [
+        "admin/brain/${esc(item.url)}"
       ]
     },
     {
