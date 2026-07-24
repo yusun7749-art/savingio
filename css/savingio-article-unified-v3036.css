@@ -6,6 +6,8 @@ body:before,body:after{display:none!important}
 .info-shell{padding:56px 28px 80px!important}
 .info-hero{padding:22px 0 20px!important;background:transparent!important;border:0!important}
 .info-hero p{font-size:16px!important;line-height:1.72!important;color:#5f646a!important;margin:0!important}
+/* Category navigation is provided by the fixed left Explorer. Remove the duplicated top chip row. */
+.category-row{display:none!important}
 .article-content,.article-main,article,.content-card,.post-content{background:transparent!important;border:0!important;box-shadow:none!important;border-radius:0!important}
 .toc,.table-of-contents,.summary-box,.quick-summary,.faq-item,.related-box,.author-box,.tip-box,.notice-box,.checklist,.step-card,.info-box,.callout{border-color:var(--sv-line)!important;box-shadow:none!important}
 @media(max-width:760px){.info-shell{padding:36px 16px 58px!important}}
