@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3158,
-  "references_scanned": 62878,
+  "references_scanned": 62652,
   "counts": {
-    "broken_references": 1763,
+    "broken_references": 1747,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -994,118 +994,6 @@
       "reference": "/articles/freelancer-income-tax-refund.html",
       "expected": [
         "articles/freelancer-income-tax-refund.html"
-      ]
-    },
-    {
-      "source": "articles/index.html",
-      "reference": "/articles/energy-voucher-application-2026.html",
-      "expected": [
-        "articles/energy-voucher-application-2026.html"
-      ]
-    },
-    {
-      "source": "articles/index.html",
-      "reference": "/articles/energy-voucher-application.html",
-      "expected": [
-        "articles/energy-voucher-application.html"
-      ]
-    },
-    {
-      "source": "articles/index.html",
-      "reference": "/articles/hidden-money-search.html",
-      "expected": [
-        "articles/hidden-money-search.html"
-      ]
-    },
-    {
-      "source": "articles/index.html",
-      "reference": "/articles/hidden-refund-check.html",
-      "expected": [
-        "articles/hidden-refund-check.html"
-      ]
-    },
-    {
-      "source": "articles/index.html",
-      "reference": "/articles/how-to-check-hidden-refunds.html",
-      "expected": [
-        "articles/how-to-check-hidden-refunds.html"
-      ]
-    },
-    {
-      "source": "articles/index.html",
-      "reference": "/articles/how-to-lower-phone-bill.html",
-      "expected": [
-        "articles/how-to-lower-phone-bill.html"
-      ]
-    },
-    {
-      "source": "articles/index.html",
-      "reference": "/articles/how-to-save-electricity-bill.html",
-      "expected": [
-        "articles/how-to-save-electricity-bill.html"
-      ]
-    },
-    {
-      "source": "articles/index.html",
-      "reference": "/articles/internet-bill-savings.html",
-      "expected": [
-        "articles/internet-bill-savings.html"
-      ]
-    },
-    {
-      "source": "articles/index.html",
-      "reference": "/articles/phone-bill-saving.html",
-      "expected": [
-        "articles/phone-bill-saving.html"
-      ]
-    },
-    {
-      "source": "articles/index.html",
-      "reference": "/articles/salary-budget-guide.html",
-      "expected": [
-        "articles/salary-budget-guide.html"
-      ]
-    },
-    {
-      "source": "articles/index.html",
-      "reference": "/articles/salary-management-guide.html",
-      "expected": [
-        "articles/salary-management-guide.html"
-      ]
-    },
-    {
-      "source": "articles/index.html",
-      "reference": "/articles/subscription-cleanup.html",
-      "expected": [
-        "articles/subscription-cleanup.html"
-      ]
-    },
-    {
-      "source": "articles/index.html",
-      "reference": "/articles/subscription-saving.html",
-      "expected": [
-        "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "articles/index.html",
-      "reference": "/articles/vat-final-return-july-2026.html",
-      "expected": [
-        "articles/vat-final-return-july-2026.html"
-      ]
-    },
-    {
-      "source": "articles/index.html",
-      "reference": "/articles/vat-zero-sales-filing.html",
-      "expected": [
-        "articles/vat-zero-sales-filing.html"
-      ]
-    },
-    {
-      "source": "articles/index.html",
-      "reference": "/articles/water-bill-guide.html",
-      "expected": [
-        "articles/water-bill-guide.html"
       ]
     },
     {
