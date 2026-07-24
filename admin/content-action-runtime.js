@@ -1,11 +1,26 @@
 (() => {
+  'use strict';
+
   const rows = document.getElementById('contentApprovalRows');
   if (!rows) return;
 
   const LABELS = {
-    published: '공개', hold: '보류', approved: '승인', hidden: '숨김', error: '오류',
-    rewrite_pending: '수정 대기', rewrite_review: '설계 검토', generation_pending: '본문 생성 대기',
-    regeneration_pending: '설계 재생성', hide_pending: '숨김 대기', delete_pending: '삭제 대기'
+    published: '공개',
+    hold: '보류',
+    approved: '승인',
+    hidden: '숨김',
+    error: '오류',
+    rewrite_pending: '수정 대기',
+    rewrite_review: '설계 검토',
+    rewrite_generation_pending: '초안 생성 대기',
+    generation_approved: '초안 생성 승인',
+    draft_review_ready: '초안 검토',
+    final_approval_pending: '최종 승인 대기',
+    regeneration_pending: '설계 재생성',
+    hide_pending: '숨김 대기',
+    delete_pending: '삭제 대기',
+    merge_review: '통합 검토',
+    delete_review: '삭제 검토'
   };
 
   const CLASS_NAMES = Object.keys(LABELS);
@@ -36,7 +51,7 @@
   async function queueAction(button) {
     const action = button.dataset.action;
     const path = button.dataset.path;
-    if (!['rewrite','hold','approve','hide','delete'].includes(action) || !path) return false;
+    if (!['rewrite', 'hold', 'approve', 'hide', 'delete'].includes(action) || !path) return false;
 
     const row = button.closest('tr');
     const title = row?.querySelector('.content-title-cell a')?.textContent?.trim() || path;
@@ -81,11 +96,16 @@
   rows.addEventListener('click', event => {
     const button = event.target.closest('button[data-action]');
     if (!button || button.dataset.action === 'detail') return;
-    if (!['rewrite','hold','approve','hide','delete'].includes(button.dataset.action)) return;
+    if (!['rewrite', 'hold', 'approve', 'hide', 'delete'].includes(button.dataset.action)) return;
     event.preventDefault();
     event.stopImmediatePropagation();
     queueAction(button);
   }, true);
+
+  window.addEventListener('savingio:content-status-changed', event => {
+    const { path, status } = event.detail || {};
+    if (path && status) setRowStatus(path, status);
+  });
 
   async function restoreServerStatuses() {
     const listedRows = [...rows.querySelectorAll('tr[data-path]')];
