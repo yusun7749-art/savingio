@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3138,
-  "references_scanned": 62836,
+  "files_scanned": 3139,
+  "references_scanned": 62839,
   "counts": {
-    "broken_references": 1754,
+    "broken_references": 1756,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -168,6 +168,24 @@
       "reference": "${esc(i.path)}",
       "expected": [
         "admin/${esc(i.path)}"
+      ]
+    },
+    {
+      "source": "admin/os/module-workspace.js",
+      "reference": "add",
+      "expected": [
+        "admin/os/add",
+        "admin/os/add.html",
+        "admin/os/add/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/module-workspace.js",
+      "reference": "settings",
+      "expected": [
+        "admin/os/settings",
+        "admin/os/settings.html",
+        "admin/os/settings/index.html"
       ]
     },
     {
