@@ -5,7 +5,10 @@
   const $ = selector => document.querySelector(selector);
   const esc = value => String(value ?? '').replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
   const readAssets = () => { try { const value = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'); return Array.isArray(value) ? value : []; } catch { return []; } };
-  const writeAssets = assets => localStorage.setItem(STORAGE_KEY, JSON.stringify(assets));
+  const writeAssets = assets => {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(assets));
+    window.dispatchEvent(new CustomEvent('savingio:assets-changed', { detail:{ assets } }));
+  };
   const readContext = () => { try { return JSON.parse(sessionStorage.getItem(CONTEXT_KEY) || 'null'); } catch { return null; } };
   const writeContext = context => context ? sessionStorage.setItem(CONTEXT_KEY, JSON.stringify(context)) : sessionStorage.removeItem(CONTEXT_KEY);
   let activeModuleId = 'command';
@@ -26,7 +29,7 @@
   }
 
   function createSample(module) {
-    const title = prompt(`${module.name}에 추가할 항목 이름을 입력해 주세요.`);
+    const title = prompt(`${module.name}에 추가할 산출물 이름을 입력해 주세요.`);
     if (!title) return;
     const asset = window.SavingioOS.modules.createAsset(module.id, {
       title:title.trim(),
@@ -34,7 +37,8 @@
       status:'draft',
       projectId:activeContext?.projectId || '',
       workflowId:activeContext?.workflowId || '',
-      workflowStageId:activeContext?.stageId || ''
+      workflowStageId:activeContext?.stageId || '',
+      outputType:module.id === 'video' ? 'media' : module.id === 'content' ? 'document' : module.id === 'market' ? 'report' : 'asset'
     });
     const assets = readAssets(); assets.unshift(asset); writeAssets(assets); render(module.id, activeChild);
   }
@@ -47,7 +51,8 @@
 
   function contextBanner(module) {
     if (!activeContext || activeContext.moduleId !== module.id) return '';
-    return `<section class="module-project-context"><div><small>WORKFLOW PROJECT CONTEXT</small><strong>${esc(activeContext.projectTitle || '프로젝트')}</strong><span>${esc(activeContext.stageName || '현재 단계')} · ${esc(activeContext.category || '미분류')}</span></div><div><button class="btn ghost small" data-context-action="workflow">워크플로로 돌아가기</button><button class="btn ghost small" data-context-action="clear">문맥 해제</button></div></section>`;
+    const linked = readAssets().filter(item => item.workflowId === activeContext.workflowId && item.workflowStageId === activeContext.stageId && item.status !== 'archived').length;
+    return `<section class="module-project-context"><div><small>WORKFLOW PROJECT CONTEXT</small><strong>${esc(activeContext.projectTitle || '프로젝트')}</strong><span>${esc(activeContext.stageName || '현재 단계')} · ${esc(activeContext.category || '미분류')} · 연결 산출물 ${linked}개</span></div><div><button class="btn ghost small" data-context-action="workflow">워크플로로 돌아가기</button><button class="btn ghost small" data-context-action="clear">문맥 해제</button></div></section>`;
   }
 
   function render(moduleId='command', child='') {
@@ -63,13 +68,13 @@
       ${contextBanner(module)}
       <header class="module-workspace-head">
         <div class="module-workspace-title"><span class="module-workspace-icon">${esc(module.icon)}</span><div><h3>${esc(module.name)}</h3><p>${activeChild ? esc(activeChild) + ' 분류만 표시 중' : '등록된 항목을 분류별로 넣고 빼는 공통 작업판'}</p></div></div>
-        <div class="module-workspace-actions"><button class="btn ghost small" data-module-action="settings">분류·설정</button><button class="btn primary small" data-module-action="add">+ 항목 추가</button></div>
+        <div class="module-workspace-actions"><button class="btn ghost small" data-module-action="settings">분류·설정</button><button class="btn primary small" data-module-action="add">+ 산출물 추가</button></div>
       </header>
       <nav class="module-workspace-tabs">${tabs.map(tab => `<button class="module-workspace-tab ${(tab === '전체' && !activeChild) || tab === activeChild ? 'active' : ''}" data-module-tab="${esc(tab)}">${esc(tab)}</button>`).join('')}</nav>
       <div class="module-workspace-summary">${cards.map(([label,value]) => `<article class="module-summary-card"><span>${esc(label)}</span><strong>${value}</strong></article>`).join('')}</div>
       <div class="module-workspace-body">
-        <section class="module-pane"><h4>${activeChild ? esc(activeChild) : '전체 항목'}</h4><div class="module-item-list">${items.length ? items.map(item => `<article class="module-item"><div><strong>${esc(item.title)}</strong><small>${esc(item.category)} · ${new Date(item.updatedAt).toLocaleString('ko-KR')}</small></div><div><span class="module-item-status">${esc(STATUS_LABELS[item.status] || item.status)}</span> <button class="btn ghost small" data-archive-id="${esc(item.id)}">보관</button></div></article>`).join('') : '<div class="module-empty">이 분류에는 아직 항목이 없습니다.<br>‘항목 추가’를 누르면 이 자리에 바로 들어옵니다.</div>'}</div></section>
-        <aside class="module-pane"><h4>사용 가능한 기능</h4><div class="module-capabilities">${module.capabilities.map(item => `<span class="module-capability">${esc(item)}</span>`).join('')}</div><h4 style="margin-top:18px">모듈 규격</h4><p class="meta">같은 엔진에서 목록·상태·승인·배포·수익·통계를 공유합니다. 모듈을 끄거나 교체해도 다른 본부 데이터는 건드리지 않습니다.</p></aside>
+        <section class="module-pane"><h4>${activeChild ? esc(activeChild) : '전체 항목'}</h4><div class="module-item-list">${items.length ? items.map(item => `<article class="module-item"><div><strong>${esc(item.title)}</strong><small>${esc(item.category)} · ${new Date(item.updatedAt).toLocaleString('ko-KR')}${item.workflowStageId ? ' · 워크플로 연결' : ''}</small></div><div><span class="module-item-status">${esc(STATUS_LABELS[item.status] || item.status)}</span> <button class="btn ghost small" data-archive-id="${esc(item.id)}">보관</button></div></article>`).join('') : '<div class="module-empty">이 분류에는 아직 항목이 없습니다.<br>‘산출물 추가’를 누르면 현재 워크플로 단계에 자동 연결됩니다.</div>'}</div></section>
+        <aside class="module-pane"><h4>사용 가능한 기능</h4><div class="module-capabilities">${module.capabilities.map(item => `<span class="module-capability">${esc(item)}</span>`).join('')}</div><h4 style="margin-top:18px">모듈 규격</h4><p class="meta">같은 엔진에서 목록·상태·승인·배포·수익·통계를 공유합니다. 워크플로에서 들어온 산출물은 프로젝트와 단계 ID로 자동 연결됩니다.</p></aside>
       </div><p class="module-workspace-message" id="moduleWorkspaceMessage"></p>
     </section>`;
 
