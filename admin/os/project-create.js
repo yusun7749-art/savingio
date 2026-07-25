@@ -139,6 +139,7 @@
     loadScript('/admin/plugins/plugin-settings.js', 'data-plugin-settings', () => Boolean(window.SavingioPluginSettings));
     loadScript('/admin/plugins/plugin-backup-restore.js', 'data-plugin-backup-restore', () => Boolean(window.SavingioPluginBackupRestore));
     loadScript('/admin/plugins/plugin-dependency-manager.js', 'data-plugin-dependency-manager', () => Boolean(window.SavingioPluginDependency));
+    loadScript('/admin/plugins/plugin-auto-update.js', 'data-plugin-auto-update', () => Boolean(window.SavingioPluginAutoUpdate));
   }
 
   function boot() {
