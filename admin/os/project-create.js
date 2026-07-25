@@ -113,6 +113,7 @@
   function loadProjectModules() {
     loadScript('/admin/os/project-workflow-bridge.js', 'data-project-workflow-bridge', () => Boolean(window.SavingioProjectWorkflow));
     loadScript('/admin/os/project-detail.js', 'data-project-detail', () => Boolean(window.SavingioProjectDetail));
+    loadScript('/admin/os/project-list-control.js', 'data-project-list-control', () => Boolean(window.SavingioProjectList));
   }
 
   function boot() {
