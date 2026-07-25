@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3227,
+  "files_scanned": 3229,
   "references_scanned": 62791,
   "counts": {
-    "broken_references": 1813,
+    "broken_references": 1811,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -39,20 +39,6 @@
       "reference": "/admin-v2/app.js?v=1",
       "expected": [
         "admin-v2/app.js"
-      ]
-    },
-    {
-      "source": "admin-v2/index.html",
-      "reference": "/admin-v2/core/module-registry.js?v=1",
-      "expected": [
-        "admin-v2/core/module-registry.js"
-      ]
-    },
-    {
-      "source": "admin-v2/index.html",
-      "reference": "/admin-v2/core/project-store.js?v=1",
-      "expected": [
-        "admin-v2/core/project-store.js"
       ]
     },
     {
