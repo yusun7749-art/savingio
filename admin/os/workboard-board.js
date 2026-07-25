@@ -4,8 +4,8 @@
 
   const workboard = {
     updated: '2026-07-25',
-    currentPhase: 'Phase 8 — Admin HQ Integration',
-    currentTask: '8-05 Admin HQ 최종 QA',
+    currentPhase: 'Phase 9 — Factory Automation Pipeline',
+    currentTask: '9-01 콘텐츠 생성 엔진 통합',
     phases: [
       { id:'phase-1', title:'Phase 1 — Module OS Foundation', tasks:[
         ['1-01','Module Registry 구축','done'],['1-02','Module Engine 구축','done'],['1-03','Module Workspace 구축','done'],['1-04','Module Manager 구축','done'],['1-05','관리자 페이지 로딩 연결','done']
@@ -29,7 +29,10 @@
         ['7-01','운영 대시보드 Home HQ','done'],['7-02','전체 프로젝트 실시간 상태판','done'],['7-03','GitHub·Cloudflare·URL 통합 모니터','done'],['7-04','QA 결과 통합 패널','done'],['7-05','오류 알림 센터','done'],['7-06','승인 대기 작업함','done'],['7-07','최근 배포 이력','done'],['7-08','검색·필터·통합 로그 뷰어','done'],['7-09','Operations HQ QA','done']
       ]},
       { id:'phase-8', title:'Phase 8 — Admin HQ Integration', tasks:[
-        ['8-01','Admin HQ 통합 설계','done'],['8-02','통합 메뉴·라우팅','done'],['8-03','권한·역할 통합','done'],['8-04','통합 상태 저장·복구','done'],['8-05','Admin HQ 최종 QA','active']
+        ['8-01','Admin HQ 통합 설계','done'],['8-02','통합 메뉴·라우팅','done'],['8-03','권한·역할 통합','done'],['8-04','통합 상태 저장·복구','done'],['8-05','Admin HQ 최종 QA','done']
+      ]},
+      { id:'phase-9', title:'Phase 9 — Factory Automation Pipeline', tasks:[
+        ['9-01','콘텐츠 생성 엔진 통합','active'],['9-02','CMS 자동 등록','todo'],['9-03','GitHub 자동 커밋','todo'],['9-04','Cloudflare 자동 배포','todo'],['9-05','SEO 자동 점검','todo'],['9-06','내부링크 자동 구성','todo'],['9-07','수익화 파이프라인','todo'],['9-08','Factory 전체 QA','todo']
       ]}
     ],
     duplicateRules: ['같은 작업명','이름만 다르고 목적이 같은 작업','같은 화면·파일을 수정하는 작업','이미 완료된 작업의 재검증','기존 작업의 하위 단계']
