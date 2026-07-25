@@ -133,6 +133,7 @@
     loadScript('/admin/os/admin-hq-router.js', 'data-admin-hq-router', () => Boolean(window.SavingioAdminRouter));
     loadScript('/admin/os/admin-hq-role-engine.js', 'data-admin-hq-role-engine', () => Boolean(window.SavingioAdminRole));
     loadScript('/admin/os/admin-hq-state-manager.js', 'data-admin-hq-state-manager', () => Boolean(window.SavingioAdminState));
+    loadScript('/admin/os/admin-hq-final-qa.js', 'data-admin-hq-final-qa', () => Boolean(window.SavingioAdminHQQA));
     loadScript('/admin/os/plugin-manifest.js', 'data-plugin-manifest', () => Boolean(window.SavingioPluginManifest));
     loadScript('/admin/os/plugin-manager.js', 'data-plugin-manager', () => Boolean(window.SavingioPluginManager));
     loadScript('/admin/os/plugin-security-engine.js', 'data-plugin-security-engine', () => Boolean(window.SavingioPluginSecurity));
