@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3205,
-  "references_scanned": 62750,
+  "files_scanned": 3206,
+  "references_scanned": 62758,
   "counts": {
-    "broken_references": 1779,
+    "broken_references": 1787,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -189,6 +189,76 @@
       "reference": "${esc(i.path)}",
       "expected": [
         "admin/${esc(i.path)}"
+      ]
+    },
+    {
+      "source": "admin/os/approval-center.js",
+      "reference": "/admin/os/approval-center.css",
+      "expected": [
+        "admin/os/approval-center.css"
+      ]
+    },
+    {
+      "source": "admin/os/approval-center.js",
+      "reference": "approve",
+      "expected": [
+        "admin/os/approve",
+        "admin/os/approve.html",
+        "admin/os/approve/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/approval-center.js",
+      "reference": "bulk-approve",
+      "expected": [
+        "admin/os/bulk-approve",
+        "admin/os/bulk-approve.html",
+        "admin/os/bulk-approve/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/approval-center.js",
+      "reference": "bulk-hold",
+      "expected": [
+        "admin/os/bulk-hold",
+        "admin/os/bulk-hold.html",
+        "admin/os/bulk-hold/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/approval-center.js",
+      "reference": "bulk-reject",
+      "expected": [
+        "admin/os/bulk-reject",
+        "admin/os/bulk-reject.html",
+        "admin/os/bulk-reject/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/approval-center.js",
+      "reference": "hold",
+      "expected": [
+        "admin/os/hold",
+        "admin/os/hold.html",
+        "admin/os/hold/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/approval-center.js",
+      "reference": "refresh",
+      "expected": [
+        "admin/os/refresh",
+        "admin/os/refresh.html",
+        "admin/os/refresh/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/approval-center.js",
+      "reference": "reject",
+      "expected": [
+        "admin/os/reject",
+        "admin/os/reject.html",
+        "admin/os/reject/index.html"
       ]
     },
     {
