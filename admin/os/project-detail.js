@@ -1,89 +1,47 @@
 (() => {
   'use strict';
 
-  const ASSET_KEY = 'savingio-os-assets-v1';
-  const $ = selector => document.querySelector(selector);
-  const esc = value => String(value ?? '').replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
-  const statusLabel = {draft:'초안',running:'진행 중',approval:'승인 대기',paused:'중지',error:'오류',done:'완료',archived:'보관'};
-  const stageLabel = {wait:'대기',active:'진행 중',review:'승인 대기',paused:'중지',error:'오류',done:'완료'};
-  let activeProjectId = '';
+  const ASSET_KEY='savingio-os-assets-v1';
+  const LEGACY_KEY='savingio-admin-projects';
+  const $=selector=>document.querySelector(selector);
+  const esc=value=>String(value??'').replace(/[&<>'"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
+  const statusLabel={draft:'초안',running:'진행 중',approval:'승인 대기',paused:'중지',error:'오류',done:'완료',archived:'보관'};
+  const stageLabel={wait:'대기',active:'진행 중',review:'승인 대기',paused:'중지',error:'오류',done:'완료'};
+  let activeProjectId='';
 
-  function readAssets() {
-    try { const value = JSON.parse(localStorage.getItem(ASSET_KEY) || '[]'); return Array.isArray(value) ? value : []; }
-    catch { return []; }
-  }
+  function readAssets(){try{const value=JSON.parse(localStorage.getItem(ASSET_KEY)||'[]');return Array.isArray(value)?value:[];}catch{return[];}}
+  function readLegacy(){try{const value=JSON.parse(localStorage.getItem(LEGACY_KEY)||'[]');return Array.isArray(value)?value:[];}catch{return[];}}
+  function writeLegacy(items){localStorage.setItem(LEGACY_KEY,JSON.stringify(items));}
+  function getProject(id){return window.SavingioProject?.get?.(id)||null;}
+  function getWorkflow(project){return project?.workflowId?window.SavingioWorkflow?.get?.(project.workflowId):null;}
+  function projectAssets(project){return readAssets().filter(item=>item.projectId===project.id&&item.status!=='archived');}
+  function date(value){if(!value)return'기록 없음';const parsed=new Date(value);return Number.isNaN(parsed.getTime())?'기록 없음':parsed.toLocaleString('ko-KR');}
+  function legacyProject(project,workflow){return{id:project.id,title:project.title,category:project.category,type:project.type,status:project.status==='draft'?'running':project.status,statusLabel:project.status==='draft'?'초안':statusLabel[project.status]||project.status,progress:Number(project.progress||0),updated:'방금 전',workflowId:workflow?.id||project.workflowId||'',stages:(workflow?.stages||[]).map(stage=>[stage.name,stage.status==='review'?'active':stage.status])};}
+  function syncLegacy(project,workflow){const items=readLegacy().filter(item=>item.id!==project.id);if(project.status!=='archived')items.unshift(legacyProject(project,workflow));writeLegacy(items);}
 
-  function getProject(id) { return window.SavingioProject?.get?.(id) || null; }
-  function getWorkflow(project) { return project?.workflowId ? window.SavingioWorkflow?.get?.(project.workflowId) : null; }
-  function projectAssets(project) { return readAssets().filter(item => item.projectId === project.id && item.status !== 'archived'); }
-  function date(value) { if (!value) return '기록 없음'; const parsed = new Date(value); return Number.isNaN(parsed.getTime()) ? '기록 없음' : parsed.toLocaleString('ko-KR'); }
+  function renderStages(workflow){if(!workflow?.stages?.length)return'<p class="project-detail-empty">연결된 Workflow 단계가 없습니다.</p>';return`<div class="project-detail-stages">${workflow.stages.map((stage,index)=>`<article class="project-detail-stage ${esc(stage.status)}"><span>${index+1}</span><div><strong>${esc(stage.name)}</strong><small>${esc(stage.moduleId)} · ${esc(stageLabel[stage.status]||stage.status)}</small></div><button type="button" data-project-module="${esc(stage.moduleId)}" data-project-stage="${esc(stage.id)}">작업판</button></article>`).join('')}</div>`;}
+  function renderAssets(assets){if(!assets.length)return'<p class="project-detail-empty">연결된 산출물이 없습니다.</p>';return`<div class="project-detail-assets">${assets.slice(0,8).map(item=>`<article><div><strong>${esc(item.title)}</strong><small>${esc(item.moduleId||item.type)} · ${esc(item.category||'미분류')}</small></div><span>${esc(item.status||'draft')}</span></article>`).join('')}</div>`;}
+  function renderTimeline(workflow){const approvals=workflow?.approvals||[],logs=workflow?.logs||[];const rows=[...approvals.map(item=>({type:'승인',title:item.stageName,note:item.note||item.action,actor:item.actor,createdAt:item.createdAt})),...logs.map(item=>({type:'기록',title:item.title,note:item.message,actor:item.actor,createdAt:item.createdAt}))].sort((a,b)=>new Date(b.createdAt)-new Date(a.createdAt)).slice(0,8);if(!rows.length)return'<p class="project-detail-empty">승인·실행 기록이 없습니다.</p>';return`<div class="project-detail-timeline">${rows.map(item=>`<article><em>${esc(item.type)}</em><div><strong>${esc(item.title)}</strong><small>${esc(item.actor||'Savingio OS')} · ${date(item.createdAt)}</small><p>${esc(item.note||'')}</p></div></article>`).join('')}</div>`;}
 
-  function renderStages(workflow) {
-    if (!workflow?.stages?.length) return '<p class="project-detail-empty">연결된 Workflow 단계가 없습니다.</p>';
-    return `<div class="project-detail-stages">${workflow.stages.map((stage,index) => `<article class="project-detail-stage ${esc(stage.status)}"><span>${index + 1}</span><div><strong>${esc(stage.name)}</strong><small>${esc(stage.moduleId)} · ${esc(stageLabel[stage.status] || stage.status)}</small></div><button type="button" data-project-module="${esc(stage.moduleId)}" data-project-stage="${esc(stage.id)}">작업판</button></article>`).join('')}</div>`;
-  }
+  function render(id=activeProjectId){const panel=$('#detailPanel');if(!panel||!window.SavingioProject)return;const project=getProject(id);if(!project){panel.innerHTML='<p class="empty">프로젝트를 선택해 주세요.</p>';return;}activeProjectId=project.id;const workflow=getWorkflow(project),assets=projectAssets(project),current=workflow?.stages?.find(stage=>['active','review','paused','error'].includes(stage.status)),github=project.github||{},deployment=project.deployment||{};panel.innerHTML=`<section class="project-detail-unified">
+    <header><div><p class="eyebrow">PROJECT CONTROL CENTER</p><h3>${esc(project.title)}</h3><p>${esc(project.id)} · ${esc(project.category)} · ${esc(project.type)}</p></div><span class="status ${esc(project.status)}">${esc(statusLabel[project.status]||project.status)}</span></header>
+    <div class="project-detail-progress"><div><strong>${Number(project.progress||0)}%</strong><span>${current?`${esc(current.name)} 진행 중`:project.status==='done'?'전체 완료':project.status==='archived'?'보관 중':'현재 단계 확인 필요'}</span></div><i><b style="width:${Math.max(0,Math.min(100,Number(project.progress||0)))}%"></b></i></div>
+    <div class="project-detail-summary"><article><span>담당자</span><strong>${esc(project.owner)}</strong></article><article><span>우선순위</span><strong>${esc(project.priority)}</strong></article><article><span>산출물</span><strong>${assets.length}개</strong></article><article><span>승인 기록</span><strong>${workflow?.approvals?.length||0}건</strong></article></div>
+    <section class="project-detail-block"><div class="project-detail-block-head"><div><h4>Workflow</h4><p>${workflow?esc(workflow.id):'연결 없음'}</p></div>${workflow?'<button class="btn ghost small" type="button" data-project-action="workflow">전체 Workflow 보기</button>':''}</div>${renderStages(workflow)}</section>
+    <section class="project-detail-block"><div class="project-detail-block-head"><div><h4>연결 산출물</h4><p>Project ID로 연결된 실제 작업 결과</p></div></div>${renderAssets(assets)}</section>
+    <section class="project-detail-block"><div class="project-detail-block-head"><div><h4>승인·활동 기록</h4><p>최근 기록 8건</p></div></div>${renderTimeline(workflow)}</section>
+    <section class="project-detail-integrations"><article><span>GitHub</span><strong>${esc(github.repository||'미연결')}</strong><small>${esc(github.commitSha||github.branch||'연결 정보 없음')}</small></article><article><span>Cloudflare</span><strong>${esc(deployment.status||'idle')}</strong><small>${esc(deployment.productionUrl||deployment.previewUrl||'배포 URL 없음')}</small></article><article><span>수익</span><strong>${Number(project.revenue?.realized||0).toLocaleString()} ${esc(project.revenue?.currency||'KRW')}</strong><small>예상 ${Number(project.revenue?.expected||0).toLocaleString()}</small></article></section>
+    <footer><button class="btn ghost small" type="button" data-project-action="refresh">새로고침</button><button class="btn ghost small" type="button" data-project-action="duplicate">복제</button>${project.status==='archived'?'<button class="btn primary small" type="button" data-project-action="restore">복구</button>':'<button class="btn danger small" type="button" data-project-action="archive">보관</button>'}<button class="btn primary small" type="button" data-project-action="workflow" ${workflow?'':'disabled'}>Workflow 열기</button></footer>
+    <p id="projectOperationMessage" class="meta" aria-live="polite"></p>
+  </section>`;bind(panel,project,workflow);}
 
-  function renderAssets(assets) {
-    if (!assets.length) return '<p class="project-detail-empty">연결된 산출물이 없습니다.</p>';
-    return `<div class="project-detail-assets">${assets.slice(0,8).map(item => `<article><div><strong>${esc(item.title)}</strong><small>${esc(item.moduleId || item.type)} · ${esc(item.category || '미분류')}</small></div><span>${esc(item.status || 'draft')}</span></article>`).join('')}</div>`;
-  }
+  function setMessage(text){const node=$('#projectOperationMessage');if(node)node.textContent=text;}
+  function duplicateProject(project){const title=prompt('복제할 프로젝트 이름을 확인해 주세요.',`${project.title} 복사본`);if(!title)return;const duplicated=window.SavingioProject.duplicate(project.id,{title:title.trim()});if(!duplicated)return setMessage('프로젝트 복제에 실패했습니다.');const workflow=window.SavingioWorkflow?.create?.({projectId:duplicated.id,title:duplicated.title,category:duplicated.category,actor:duplicated.owner})||null;const linked=workflow?window.SavingioProject.setWorkflow(duplicated.id,workflow.id):duplicated;if(workflow)window.SavingioProjectWorkflow?.sync?.(workflow);syncLegacy(linked,workflow);window.dispatchEvent(new CustomEvent('savingio:project-duplicated',{detail:{sourceId:project.id,project:linked,workflow}}));location.reload();}
+  function archiveProject(project){if(!confirm(`'${project.title}' 프로젝트를 보관할까요? 산출물과 Workflow 기록은 삭제되지 않습니다.`))return;const archived=window.SavingioProject.archive(project.id);if(!archived)return setMessage('프로젝트 보관에 실패했습니다.');syncLegacy(archived,getWorkflow(archived));window.dispatchEvent(new CustomEvent('savingio:project-archived',{detail:{project:archived}}));location.reload();}
+  function restoreProject(project){const restored=window.SavingioProject.restore(project.id);if(!restored)return setMessage('프로젝트 복구에 실패했습니다.');syncLegacy(restored,getWorkflow(restored));window.dispatchEvent(new CustomEvent('savingio:project-restored',{detail:{project:restored}}));location.reload();}
 
-  function renderTimeline(workflow) {
-    const approvals = workflow?.approvals || [];
-    const logs = workflow?.logs || [];
-    const rows = [
-      ...approvals.map(item => ({type:'승인', title:item.stageName, note:item.note || item.action, actor:item.actor, createdAt:item.createdAt})),
-      ...logs.map(item => ({type:'기록', title:item.title, note:item.message, actor:item.actor, createdAt:item.createdAt}))
-    ].sort((a,b) => new Date(b.createdAt) - new Date(a.createdAt)).slice(0,8);
-    if (!rows.length) return '<p class="project-detail-empty">승인·실행 기록이 없습니다.</p>';
-    return `<div class="project-detail-timeline">${rows.map(item => `<article><em>${esc(item.type)}</em><div><strong>${esc(item.title)}</strong><small>${esc(item.actor || 'Savingio OS')} · ${date(item.createdAt)}</small><p>${esc(item.note || '')}</p></div></article>`).join('')}</div>`;
-  }
+  function bind(panel,project,workflow){panel.querySelectorAll('[data-project-action="refresh"]').forEach(button=>button.onclick=()=>render(project.id));panel.querySelectorAll('[data-project-action="workflow"]').forEach(button=>button.onclick=()=>window.SavingioWorkflowBoard?.render?.(workflow?.id));panel.querySelector('[data-project-action="duplicate"]')?.addEventListener('click',()=>duplicateProject(project));panel.querySelector('[data-project-action="archive"]')?.addEventListener('click',()=>archiveProject(project));panel.querySelector('[data-project-action="restore"]')?.addEventListener('click',()=>restoreProject(project));panel.querySelectorAll('[data-project-module]').forEach(button=>button.onclick=()=>{const stage=workflow?.stages?.find(item=>item.id===button.dataset.projectStage);window.SavingioModuleWorkspace?.open?.(button.dataset.projectModule,{projectId:project.id,projectTitle:project.title,workflowId:workflow?.id||'',stageId:stage?.id||'',stageName:stage?.name||'',category:project.category});});}
 
-  function render(id=activeProjectId) {
-    const panel = $('#detailPanel');
-    if (!panel || !window.SavingioProject) return;
-    const project = getProject(id);
-    if (!project) return;
-    activeProjectId = project.id;
-    const workflow = getWorkflow(project);
-    const assets = projectAssets(project);
-    const current = workflow?.stages?.find(stage => ['active','review','paused','error'].includes(stage.status));
-    const github = project.github || {};
-    const deployment = project.deployment || {};
-    panel.innerHTML = `<section class="project-detail-unified">
-      <header><div><p class="eyebrow">PROJECT CONTROL CENTER</p><h3>${esc(project.title)}</h3><p>${esc(project.id)} · ${esc(project.category)} · ${esc(project.type)}</p></div><span class="status ${esc(project.status)}">${esc(statusLabel[project.status] || project.status)}</span></header>
-      <div class="project-detail-progress"><div><strong>${Number(project.progress || 0)}%</strong><span>${current ? `${esc(current.name)} 진행 중` : project.status === 'done' ? '전체 완료' : '현재 단계 확인 필요'}</span></div><i><b style="width:${Math.max(0,Math.min(100,Number(project.progress || 0)))}%"></b></i></div>
-      <div class="project-detail-summary"><article><span>담당자</span><strong>${esc(project.owner)}</strong></article><article><span>우선순위</span><strong>${esc(project.priority)}</strong></article><article><span>산출물</span><strong>${assets.length}개</strong></article><article><span>승인 기록</span><strong>${workflow?.approvals?.length || 0}건</strong></article></div>
-      <section class="project-detail-block"><div class="project-detail-block-head"><div><h4>Workflow</h4><p>${workflow ? esc(workflow.id) : '연결 없음'}</p></div>${workflow ? `<button class="btn ghost small" type="button" data-project-action="workflow">전체 Workflow 보기</button>` : ''}</div>${renderStages(workflow)}</section>
-      <section class="project-detail-block"><div class="project-detail-block-head"><div><h4>연결 산출물</h4><p>Project ID로 연결된 실제 작업 결과</p></div></div>${renderAssets(assets)}</section>
-      <section class="project-detail-block"><div class="project-detail-block-head"><div><h4>승인·활동 기록</h4><p>최근 기록 8건</p></div></div>${renderTimeline(workflow)}</section>
-      <section class="project-detail-integrations"><article><span>GitHub</span><strong>${esc(github.repository || '미연결')}</strong><small>${esc(github.commitSha || github.branch || '연결 정보 없음')}</small></article><article><span>Cloudflare</span><strong>${esc(deployment.status || 'idle')}</strong><small>${esc(deployment.productionUrl || deployment.previewUrl || '배포 URL 없음')}</small></article><article><span>수익</span><strong>${Number(project.revenue?.realized || 0).toLocaleString()} ${esc(project.revenue?.currency || 'KRW')}</strong><small>예상 ${Number(project.revenue?.expected || 0).toLocaleString()}</small></article></section>
-      <footer><button class="btn ghost small" type="button" data-project-action="refresh">새로고침</button><button class="btn primary small" type="button" data-project-action="workflow" ${workflow ? '' : 'disabled'}>Workflow 열기</button></footer>
-    </section>`;
-    bind(panel, project, workflow);
-  }
-
-  function bind(panel, project, workflow) {
-    panel.querySelectorAll('[data-project-action="refresh"]').forEach(button => button.onclick = () => render(project.id));
-    panel.querySelectorAll('[data-project-action="workflow"]').forEach(button => button.onclick = () => window.SavingioWorkflowBoard?.render?.(workflow?.id));
-    panel.querySelectorAll('[data-project-module]').forEach(button => button.onclick = () => {
-      const stage = workflow?.stages?.find(item => item.id === button.dataset.projectStage);
-      window.SavingioModuleWorkspace?.open?.(button.dataset.projectModule, { projectId:project.id, projectTitle:project.title, workflowId:workflow?.id || '', stageId:stage?.id || '', stageName:stage?.name || '', category:project.category });
-    });
-  }
-
-  function boot() {
-    const link = document.createElement('link'); link.rel = 'stylesheet'; link.href = '/admin/os/project-detail.css'; document.head.appendChild(link);
-    $('#projectList')?.addEventListener('click', event => {
-      const card = event.target.closest('.project-card');
-      if (!card) return;
-      setTimeout(() => render(card.dataset.id), 0);
-    });
-    ['savingio:projects-changed','savingio:workflows-changed','savingio:assets-changed','savingio:project-workflow-synced'].forEach(name => window.addEventListener(name, () => activeProjectId && render(activeProjectId)));
-    const initial = document.querySelector('.project-card.selected')?.dataset.id || window.SavingioProject.list()[0]?.id;
-    if (initial) setTimeout(() => render(initial), 0);
-    window.SavingioProjectDetail = Object.freeze({ render, getActive:() => activeProjectId });
-  }
-
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
+  function boot(){const link=document.createElement('link');link.rel='stylesheet';link.href='/admin/os/project-detail.css';document.head.appendChild(link);$('#projectList')?.addEventListener('click',event=>{const card=event.target.closest('.project-card');if(!card)return;setTimeout(()=>render(card.dataset.id),0);});['savingio:projects-changed','savingio:workflows-changed','savingio:assets-changed','savingio:project-workflow-synced'].forEach(name=>window.addEventListener(name,()=>activeProjectId&&render(activeProjectId)));const initial=document.querySelector('.project-card.selected')?.dataset.id||window.SavingioProject.list()[0]?.id;if(initial)setTimeout(()=>render(initial),0);window.SavingioProjectDetail=Object.freeze({render,getActive:()=>activeProjectId,duplicate:duplicateProject,archive:archiveProject,restore:restoreProject});}
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();
 })();
