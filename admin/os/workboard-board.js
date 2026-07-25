@@ -5,7 +5,7 @@
   const workboard = {
     updated: '2026-07-25',
     currentPhase: 'Phase 4 — Automation Engine',
-    currentTask: '4-01 승인 후 GitHub 작업 생성 검증',
+    currentTask: '4-02 GitHub 반영 상태 확인 검증',
     phases: [
       { id:'phase-1', title:'Phase 1 — Module OS Foundation', tasks:[
         ['1-01','Module Registry 구축','done'],['1-02','Module Engine 구축','done'],['1-03','Module Workspace 구축','done'],['1-04','Module Manager 구축','done'],['1-05','관리자 페이지 로딩 연결','done']
@@ -17,7 +17,7 @@
         ['3-01','공통 Project Schema 검증','done'],['3-02','새 프로젝트 생성 화면 연결 검증','done'],['3-03','프로젝트와 Asset 연결 검증','done'],['3-04','프로젝트와 Workflow 연결 검증','done'],['3-05','프로젝트 상세 통합 화면 검증','done'],['3-06','프로젝트 복제·보관·복구 검증','done'],['3-07','프로젝트 검색·필터·정렬 검증','done'],['3-08','Project Engine QA 실행 검증','done']
       ]},
       { id:'phase-4', title:'Phase 4 — Automation Engine', tasks:[
-        ['4-01','승인 후 GitHub 작업 생성 검증','active'],['4-02','GitHub 반영 상태 확인','todo'],['4-03','Cloudflare 배포 상태 확인','todo'],['4-04','실제 URL 검증','todo'],['4-05','실패 자동 기록·재시도','todo'],['4-06','다음 작업 자동 생성','todo'],['4-07','전체 중지·부분 재실행','todo'],['4-08','Automation Engine QA','todo']
+        ['4-01','승인 후 GitHub 작업 생성 검증','done'],['4-02','GitHub 반영 상태 확인 검증','active'],['4-03','Cloudflare 배포 상태 확인','todo'],['4-04','실제 URL 검증','todo'],['4-05','실패 자동 기록·재시도','todo'],['4-06','다음 작업 자동 생성','todo'],['4-07','전체 중지·부분 재실행','todo'],['4-08','Automation Engine QA','todo']
       ]},
       { id:'phase-5', title:'Phase 5 — Plugin Store', tasks:[
         ['5-01','Plugin Manifest 규격','todo'],['5-02','Plugin 설치·제거','todo'],['5-03','메뉴·작업판 자동 생성','todo'],['5-04','권한·데이터 격리','todo'],['5-05','계산기 Plugin','todo'],['5-06','심리테스트 Plugin','todo'],['5-07','게임 Plugin','todo'],['5-08','이미지 스토어 Plugin','todo'],['5-09','쿠폰·제휴 Plugin','todo'],['5-10','전자책·디지털 상품 Plugin','todo'],['5-11','Plugin Store QA','todo']
