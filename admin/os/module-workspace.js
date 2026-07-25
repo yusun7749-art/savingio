@@ -1,12 +1,16 @@
 (() => {
   const STATUS_LABELS = {draft:'초안',working:'작업 중',review:'검토',approved:'승인',scheduled:'예약',published:'게시',paused:'중지',archived:'보관',error:'오류'};
   const STORAGE_KEY = 'savingio-os-assets-v1';
+  const CONTEXT_KEY = 'savingio-os-module-context-v1';
   const $ = selector => document.querySelector(selector);
   const esc = value => String(value ?? '').replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
   const readAssets = () => { try { const value = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'); return Array.isArray(value) ? value : []; } catch { return []; } };
   const writeAssets = assets => localStorage.setItem(STORAGE_KEY, JSON.stringify(assets));
+  const readContext = () => { try { return JSON.parse(sessionStorage.getItem(CONTEXT_KEY) || 'null'); } catch { return null; } };
+  const writeContext = context => context ? sessionStorage.setItem(CONTEXT_KEY, JSON.stringify(context)) : sessionStorage.removeItem(CONTEXT_KEY);
   let activeModuleId = 'command';
   let activeChild = '';
+  let activeContext = readContext();
 
   function moduleItems(module) {
     return readAssets().filter(item => item.moduleId === module.id && (!activeChild || item.category === activeChild || item.subcategory === activeChild));
@@ -24,7 +28,14 @@
   function createSample(module) {
     const title = prompt(`${module.name}에 추가할 항목 이름을 입력해 주세요.`);
     if (!title) return;
-    const asset = window.SavingioOS.modules.createAsset(module.id, { title:title.trim(), category:activeChild || module.children[0] || '미분류', status:'draft' });
+    const asset = window.SavingioOS.modules.createAsset(module.id, {
+      title:title.trim(),
+      category:activeChild || module.children[0] || '미분류',
+      status:'draft',
+      projectId:activeContext?.projectId || '',
+      workflowId:activeContext?.workflowId || '',
+      workflowStageId:activeContext?.stageId || ''
+    });
     const assets = readAssets(); assets.unshift(asset); writeAssets(assets); render(module.id, activeChild);
   }
 
@@ -32,6 +43,11 @@
     if (!confirm('이 항목을 보관함으로 이동할까요?')) return;
     const assets = readAssets().map(item => item.id === id ? {...item,status:'archived',updatedAt:new Date().toISOString()} : item);
     writeAssets(assets); render(activeModuleId, activeChild);
+  }
+
+  function contextBanner(module) {
+    if (!activeContext || activeContext.moduleId !== module.id) return '';
+    return `<section class="module-project-context"><div><small>WORKFLOW PROJECT CONTEXT</small><strong>${esc(activeContext.projectTitle || '프로젝트')}</strong><span>${esc(activeContext.stageName || '현재 단계')} · ${esc(activeContext.category || '미분류')}</span></div><div><button class="btn ghost small" data-context-action="workflow">워크플로로 돌아가기</button><button class="btn ghost small" data-context-action="clear">문맥 해제</button></div></section>`;
   }
 
   function render(moduleId='command', child='') {
@@ -44,6 +60,7 @@
     const cards = summary(items);
     const tabs = ['전체', ...module.children];
     board.innerHTML = `<section class="module-workspace" data-module="${esc(module.id)}">
+      ${contextBanner(module)}
       <header class="module-workspace-head">
         <div class="module-workspace-title"><span class="module-workspace-icon">${esc(module.icon)}</span><div><h3>${esc(module.name)}</h3><p>${activeChild ? esc(activeChild) + ' 분류만 표시 중' : '등록된 항목을 분류별로 넣고 빼는 공통 작업판'}</p></div></div>
         <div class="module-workspace-actions"><button class="btn ghost small" data-module-action="settings">분류·설정</button><button class="btn primary small" data-module-action="add">+ 항목 추가</button></div>
@@ -60,6 +77,17 @@
     board.querySelector('[data-module-action="add"]')?.addEventListener('click', () => createSample(module));
     board.querySelector('[data-module-action="settings"]')?.addEventListener('click', () => { const message = $('#moduleWorkspaceMessage'); message.textContent = `${module.name}의 분류 ${module.children.length}개와 기능 ${module.capabilities.length}개가 Module Registry에서 관리됩니다.`; message.className = 'module-workspace-message pass'; });
     board.querySelectorAll('[data-archive-id]').forEach(button => button.onclick = () => removeAsset(button.dataset.archiveId));
+    board.querySelector('[data-context-action="clear"]')?.addEventListener('click', () => { activeContext = null; writeContext(null); render(module.id, activeChild); });
+    board.querySelector('[data-context-action="workflow"]')?.addEventListener('click', () => window.SavingioWorkflowBoard?.render?.(activeContext?.workflowId));
+  }
+
+  function open(moduleId, context={}) {
+    activeContext = {...context, moduleId};
+    writeContext(activeContext);
+    const title = document.querySelector(`.tree-title[data-dept="${CSS.escape(moduleId)}"]`);
+    title?.closest('.tree-group')?.classList.add('open');
+    document.querySelectorAll('.tree-title').forEach(item => item.classList.toggle('active', item === title));
+    render(moduleId, '');
   }
 
   function bindTree() {
@@ -67,12 +95,12 @@
     if (!nav) return;
     nav.addEventListener('click', event => {
       const title = event.target.closest('.tree-title');
-      if (title) { activeChild = ''; render(title.dataset.dept, ''); return; }
+      if (title) { activeChild = ''; activeContext = null; writeContext(null); render(title.dataset.dept, ''); return; }
       const child = event.target.closest('.tree-child');
       if (child) {
         const group = child.closest('.tree-group');
         const moduleId = group?.querySelector('.tree-title')?.dataset.dept || activeModuleId;
-        render(moduleId, child.dataset.child || child.textContent.trim());
+        activeContext = null; writeContext(null); render(moduleId, child.dataset.child || child.textContent.trim());
       }
     });
   }
@@ -81,6 +109,7 @@
     const link = document.createElement('link'); link.rel = 'stylesheet'; link.href = '/admin/os/module-workspace.css'; document.head.appendChild(link);
     bindTree(); render(activeModuleId, '');
     window.addEventListener('savingio:modules-changed', () => render(activeModuleId, activeChild));
+    window.SavingioModuleWorkspace = Object.freeze({ open, render, getContext:() => activeContext ? {...activeContext} : null });
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
 })();
