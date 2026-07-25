@@ -43,25 +43,7 @@
     const commandIntegrity=commandCenter.verify();
     const departmentIntegrity=verifyDepartments();
     const workflowIntegrity=workflowEngine.verify();
-    const result={
-      lockName:shell?.dataset.shellLock||'',
-      routerName:window.SavingioAdminRouter?.name||'',
-      routerOwner:window.SavingioAdminRouter?.owner||'',
-      shellCount:document.querySelectorAll('#adminShell').length,
-      explorerCount:document.querySelectorAll('#adminExplorer').length,
-      headerCount:document.querySelectorAll('#adminHeader').length,
-      workspaceCount:document.querySelectorAll('#adminWorkspace').length,
-      regionCounts,
-      activeModuleRoots:roots.length,
-      activeId,
-      sidebarWidth:width,
-      duplicateIds:duplicates,
-      legacyBoardCount:document.querySelectorAll('#departmentBoard,.department-panel').length,
-      registry:registryIntegrity,
-      commandCenter:commandIntegrity,
-      departments:departmentIntegrity,
-      workflow:workflowIntegrity
-    };
+    const result={lockName:shell?.dataset.shellLock||'',routerName:window.SavingioAdminRouter?.name||'',routerOwner:window.SavingioAdminRouter?.owner||'',shellCount:document.querySelectorAll('#adminShell').length,explorerCount:document.querySelectorAll('#adminExplorer').length,headerCount:document.querySelectorAll('#adminHeader').length,workspaceCount:document.querySelectorAll('#adminWorkspace').length,regionCounts,activeModuleRoots:roots.length,activeId,sidebarWidth:width,duplicateIds:duplicates,legacyBoardCount:document.querySelectorAll('#departmentBoard,.department-panel').length,registry:registryIntegrity,commandCenter:commandIntegrity,departments:departmentIntegrity,workflow:workflowIntegrity};
     result.pass=result.lockName===SHELL_LOCK.name&&result.routerName===ROUTER_LOCK.name&&result.routerOwner===ROUTER_LOCK.owner&&result.shellCount===1&&result.explorerCount===1&&result.headerCount===1&&result.workspaceCount===1&&Object.values(regionCounts).every(count=>count===1)&&roots.length===1&&width===SHELL_LOCK.explorerWidth&&duplicates.length===0&&result.legacyBoardCount===0&&registryIntegrity.pass&&commandIntegrity.pass&&departmentIntegrity.pass&&workflowIntegrity.pass;
     return Object.freeze(result);
   }
@@ -80,15 +62,8 @@
     if(window.SavingioAdminRouter!==ROUTER_LOCK)throw new Error('Admin V2 router ownership changed');
   }
 
-  function setActiveNavigation(id){
-    document.querySelectorAll('[data-view]').forEach(button=>button.classList.toggle('active',button.dataset.view===id));
-  }
-
-  function syncUrl(id,mode='push'){
-    const url=new URL(location.href);
-    url.searchParams.set('view',id);
-    history[mode==='replace'?'replaceState':'pushState']({view:id},'',url.pathname+url.search);
-  }
+  function setActiveNavigation(id){document.querySelectorAll('[data-view]').forEach(button=>button.classList.toggle('active',button.dataset.view===id));}
+  function syncUrl(id,mode='push'){const url=new URL(location.href);url.searchParams.set('view',id);history[mode==='replace'?'replaceState':'pushState']({view:id},'',url.pathname+url.search);}
 
   function mount(id,mode='push'){
     assertShell();
@@ -110,17 +85,34 @@
 
   function routeFromEvent(event){
     const target=event.target.closest('[data-view],[data-route]');
-    if(!target)return;
+    if(!target)return false;
     const id=target.dataset.view||target.dataset.route;
-    if(!registry.has(id))return;
+    if(!registry.has(id))return false;
     event.preventDefault();
     mount(id);
+    return true;
+  }
+
+  function workflowActionFromEvent(event){
+    const target=event.target.closest('[data-workflow-action][data-workflow-id]');
+    if(!target)return false;
+    event.preventDefault();
+    try{commandCenter.handleAction(target.dataset.workflowAction,target.dataset.workflowId);}catch(error){alert(`워크플로 처리 실패\n${error.message}`);}
+    return true;
+  }
+
+  function workflowSubmitFromEvent(event){
+    const form=event.target.closest('#workflowCreateForm');
+    if(!form)return;
+    event.preventDefault();
+    try{const job=commandCenter.handleCreate(form);form.reset();alert(`워크플로가 생성되었습니다.\n${job.title}`);}catch(error){alert(`워크플로 생성 실패\n${error.message}`);}
   }
 
   assertShell();
   registry.seal();
   nav.addEventListener('click',routeFromEvent);
-  workspace.addEventListener('click',routeFromEvent);
+  workspace.addEventListener('click',event=>{if(workflowActionFromEvent(event))return;routeFromEvent(event);});
+  workspace.addEventListener('submit',workflowSubmitFromEvent);
   workspace.addEventListener('keydown',event=>{if((event.key==='Enter'||event.key===' ')&&event.target.closest('[data-route]'))routeFromEvent(event)});
   document.getElementById('refreshBtn').addEventListener('click',()=>mount(activeId||'command-home','replace'));
   document.getElementById('diagnosticsBtn').addEventListener('click',()=>{
