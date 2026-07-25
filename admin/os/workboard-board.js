@@ -5,7 +5,7 @@
   const workboard = {
     updated: '2026-07-25',
     currentPhase: 'Phase 5 — Plugin Store',
-    currentTask: '5-08 이미지 스토어 Plugin',
+    currentTask: '5-09 쿠폰·제휴 Plugin',
     phases: [
       { id:'phase-1', title:'Phase 1 — Module OS Foundation', tasks:[
         ['1-01','Module Registry 구축','done'],['1-02','Module Engine 구축','done'],['1-03','Module Workspace 구축','done'],['1-04','Module Manager 구축','done'],['1-05','관리자 페이지 로딩 연결','done']
@@ -20,7 +20,7 @@
         ['4-01','승인 후 GitHub 작업 생성 검증','done'],['4-02','GitHub 반영 상태 확인 검증','done'],['4-03','Cloudflare 배포 상태 확인 검증','done'],['4-04','실제 URL 검증','done'],['4-05','실패 자동 기록·재시도','done'],['4-06','다음 작업 자동 생성','done'],['4-07','전체 중지·부분 재실행','done'],['4-08','Automation Engine QA','active']
       ]},
       { id:'phase-5', title:'Phase 5 — Plugin Store', tasks:[
-        ['5-01','Plugin Manifest 규격','done'],['5-02','Plugin 설치·제거','done'],['5-03','메뉴·작업판 자동 생성','done'],['5-04','권한·데이터 격리','done'],['5-05','계산기 Plugin','done'],['5-06','심리테스트 Plugin','done'],['5-07','게임 Plugin','done'],['5-08','이미지 스토어 Plugin','active'],['5-09','쿠폰·제휴 Plugin','todo'],['5-10','전자책·디지털 상품 Plugin','todo'],['5-11','Plugin Store QA','todo']
+        ['5-01','Plugin Manifest 규격','done'],['5-02','Plugin 설치·제거','done'],['5-03','메뉴·작업판 자동 생성','done'],['5-04','권한·데이터 격리','done'],['5-05','계산기 Plugin','done'],['5-06','심리테스트 Plugin','done'],['5-07','게임 Plugin','done'],['5-08','이미지 스토어 Plugin','done'],['5-09','쿠폰·제휴 Plugin','active'],['5-10','전자책·디지털 상품 Plugin','todo'],['5-11','Plugin Store QA','todo']
       ]}
     ],
     duplicateRules: ['같은 작업명','이름만 다르고 목적이 같은 작업','같은 화면·파일을 수정하는 작업','이미 완료된 작업의 재검증','기존 작업의 하위 단계']
