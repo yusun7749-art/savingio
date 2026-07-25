@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3160,
-  "references_scanned": 62652,
+  "files_scanned": 3162,
+  "references_scanned": 62656,
   "counts": {
-    "broken_references": 1747,
+    "broken_references": 1750,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -234,6 +234,33 @@
         "admin/os/settings",
         "admin/os/settings.html",
         "admin/os/settings/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/workflow-board.js",
+      "reference": "${paused ? ",
+      "expected": [
+        "admin/os/${paused ",
+        "admin/os/${paused .html",
+        "admin/os/${paused /index.html"
+      ]
+    },
+    {
+      "source": "admin/os/workflow-board.js",
+      "reference": "advance",
+      "expected": [
+        "admin/os/advance",
+        "admin/os/advance.html",
+        "admin/os/advance/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/workflow-board.js",
+      "reference": "approve",
+      "expected": [
+        "admin/os/approve",
+        "admin/os/approve.html",
+        "admin/os/approve/index.html"
       ]
     },
     {
