@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3177,
-  "references_scanned": 62683,
+  "files_scanned": 3178,
+  "references_scanned": 62684,
   "counts": {
-    "broken_references": 1758,
+    "broken_references": 1759,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -297,6 +297,13 @@
         "admin/os/workflow",
         "admin/os/workflow.html",
         "admin/os/workflow/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/url-health-engine.js",
+      "reference": "item.url",
+      "expected": [
+        "admin/os/item.url"
       ]
     },
     {
