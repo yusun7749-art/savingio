@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3194,
-  "references_scanned": 62723,
+  "files_scanned": 3195,
+  "references_scanned": 62727,
   "counts": {
-    "broken_references": 1763,
+    "broken_references": 1767,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -354,6 +354,42 @@
       "reference": "/assets/og/savingio-default.webp",
       "expected": [
         "assets/og/savingio-default.webp"
+      ]
+    },
+    {
+      "source": "admin/plugins/plugin-install-ui.js",
+      "reference": "install",
+      "expected": [
+        "admin/plugins/install",
+        "admin/plugins/install.html",
+        "admin/plugins/install/index.html"
+      ]
+    },
+    {
+      "source": "admin/plugins/plugin-install-ui.js",
+      "reference": "toggle",
+      "expected": [
+        "admin/plugins/toggle",
+        "admin/plugins/toggle.html",
+        "admin/plugins/toggle/index.html"
+      ]
+    },
+    {
+      "source": "admin/plugins/plugin-install-ui.js",
+      "reference": "uninstall",
+      "expected": [
+        "admin/plugins/uninstall",
+        "admin/plugins/uninstall.html",
+        "admin/plugins/uninstall/index.html"
+      ]
+    },
+    {
+      "source": "admin/plugins/plugin-install-ui.js",
+      "reference": "update",
+      "expected": [
+        "admin/plugins/update",
+        "admin/plugins/update.html",
+        "admin/plugins/update/index.html"
       ]
     },
     {
