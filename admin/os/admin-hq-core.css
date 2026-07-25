@@ -7,3 +7,18 @@
 body {
   padding-bottom: 0 !important;
 }
+
+/* Public publication status: visible only inside Admin HQ. */
+.main::before {
+  content: '공개 운영 상태 · Savingio Lab 임시 비공개 · 공개 메뉴 제거 · /lab/ 홈 임시 이동 · AdSense 심사 중 미완성 화면 비노출';
+  display: block;
+  margin: 0 0 16px;
+  padding: 12px 15px;
+  border: 1px solid #f0cf83;
+  border-radius: 12px;
+  background: #fff8df;
+  color: #6d5611;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.55;
+}
