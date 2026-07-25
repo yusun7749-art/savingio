@@ -33,6 +33,18 @@
     };
   }
 
+  function normalizeApproval(item, index) {
+    return {
+      id:String(item.id || `APR-${Date.now()}-${index}`),
+      stageId:String(item.stageId || ''),
+      stageName:String(item.stageName || '승인'),
+      action:['requested','approved','rejected'].includes(item.action) ? item.action : 'requested',
+      actor:String(item.actor || 'Savingio OS'),
+      note:String(item.note || ''),
+      createdAt:item.createdAt || now()
+    };
+  }
+
   function normalize(workflow) {
     const stages = Array.isArray(workflow.stages) && workflow.stages.length ? workflow.stages : DEFAULT_FLOW;
     return {
@@ -43,7 +55,8 @@
       status:String(workflow.status || 'running'),
       createdAt:workflow.createdAt || now(),
       updatedAt:workflow.updatedAt || now(),
-      stages:stages.map(normalizeStage)
+      stages:stages.map(normalizeStage),
+      approvals:(Array.isArray(workflow.approvals) ? workflow.approvals : []).map(normalizeApproval)
     };
   }
 
@@ -73,6 +86,19 @@
     return clone(normalized);
   }
 
+  function addApproval(workflow, stage, action, actor, note='') {
+    workflow.approvals = Array.isArray(workflow.approvals) ? workflow.approvals : [];
+    workflow.approvals.unshift(normalizeApproval({
+      id:`APR-${Date.now()}-${Math.random().toString(36).slice(2,7)}`,
+      stageId:stage?.id || '',
+      stageName:stage?.name || '승인',
+      action,
+      actor:actor || 'Savingio OS',
+      note,
+      createdAt:now()
+    }, 0));
+  }
+
   function advance(id) {
     const workflow = api.get(id);
     if (!workflow) return null;
@@ -85,24 +111,41 @@
       stage.status = 'done';
       stage.completedAt = now();
       const next = workflow.stages[index + 1];
-      if (next) { next.status = next.moduleId === 'approval' ? 'review' : 'active'; next.startedAt = now(); }
-      else workflow.status = 'done';
+      if (next) {
+        next.status = next.moduleId === 'approval' ? 'review' : 'active';
+        next.startedAt = now();
+        if (next.status === 'review') addApproval(workflow, next, 'requested', 'Savingio OS', `${stage.name} 완료 후 최종 승인을 요청했습니다.`);
+      } else workflow.status = 'done';
     } else {
       stage.status = stage.moduleId === 'approval' ? 'review' : 'active';
       stage.startedAt = now();
+      if (stage.status === 'review') addApproval(workflow, stage, 'requested', 'Savingio OS', '최종 승인을 요청했습니다.');
     }
     return saveOne(workflow);
   }
 
-  function approve(id) {
+  function approve(id, input={}) {
     const workflow = api.get(id);
     if (!workflow) return null;
     const index = workflow.stages.findIndex(stage => stage.status === 'review');
     if (index < 0) return workflow;
-    workflow.stages[index].status = 'done';
-    workflow.stages[index].completedAt = now();
+    const stage = workflow.stages[index];
+    stage.status = 'done';
+    stage.completedAt = now();
+    addApproval(workflow, stage, 'approved', input.actor || '선장님', input.note || '승인 완료');
     const next = workflow.stages[index + 1];
     if (next) { next.status = 'active'; next.startedAt = now(); } else workflow.status = 'done';
+    return saveOne(workflow);
+  }
+
+  function reject(id, input={}) {
+    const workflow = api.get(id);
+    if (!workflow) return null;
+    const stage = workflow.stages.find(item => item.status === 'review');
+    if (!stage) return workflow;
+    stage.status = 'error';
+    addApproval(workflow, stage, 'rejected', input.actor || '선장님', input.note || '수정 후 재검토 필요');
+    workflow.status = 'error';
     return saveOne(workflow);
   }
 
@@ -124,6 +167,7 @@
     },
     advance,
     approve,
+    reject,
     pause(id) {
       const workflow = api.get(id); if (!workflow) return null;
       const stage = workflow.stages.find(item => item.status === 'active');
