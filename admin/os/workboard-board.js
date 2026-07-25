@@ -5,7 +5,7 @@
   const workboard = {
     updated: '2026-07-25',
     currentPhase: 'Phase 3 — Project Engine',
-    currentTask: '3-06 프로젝트 복제·보관·복구 검증',
+    currentTask: '3-07 프로젝트 검색·필터·정렬 검증',
     phases: [
       { id:'phase-1', title:'Phase 1 — Module OS Foundation', tasks:[
         ['1-01','Module Registry 구축','done'],['1-02','Module Engine 구축','done'],['1-03','Module Workspace 구축','done'],['1-04','Module Manager 구축','done'],['1-05','관리자 페이지 로딩 연결','done']
@@ -14,7 +14,7 @@
         ['2-01','Workflow Engine 기반 구축','done'],['2-02','Workflow Board 기반 구축','done'],['2-03','Workflow 실제 관리자 화면 검증','done'],['2-04','단계별 담당 본부 연결 검증','done'],['2-05','단계별 산출물 연결 검증','done'],['2-06','승인 이력 연결 검증','done'],['2-07','실행 로그 연결 검증','done'],['2-08','Workflow QA 검증','done']
       ]},
       { id:'phase-3', title:'Phase 3 — Project Engine', tasks:[
-        ['3-01','공통 Project Schema 검증','done'],['3-02','새 프로젝트 생성 화면 연결 검증','done'],['3-03','프로젝트와 Asset 연결 검증','done'],['3-04','프로젝트와 Workflow 연결 검증','done'],['3-05','프로젝트 상세 통합 화면 검증','done'],['3-06','프로젝트 복제·보관·복구 검증','active'],['3-07','프로젝트 검색·필터·정렬','todo'],['3-08','Project Engine QA','todo']
+        ['3-01','공통 Project Schema 검증','done'],['3-02','새 프로젝트 생성 화면 연결 검증','done'],['3-03','프로젝트와 Asset 연결 검증','done'],['3-04','프로젝트와 Workflow 연결 검증','done'],['3-05','프로젝트 상세 통합 화면 검증','done'],['3-06','프로젝트 복제·보관·복구 검증','done'],['3-07','프로젝트 검색·필터·정렬 검증','active'],['3-08','Project Engine QA','todo']
       ]},
       { id:'phase-4', title:'Phase 4 — Automation Engine', tasks:[
         ['4-01','승인 후 GitHub 작업 생성','todo'],['4-02','GitHub 반영 상태 확인','todo'],['4-03','Cloudflare 배포 상태 확인','todo'],['4-04','실제 URL 검증','todo'],['4-05','실패 자동 기록·재시도','todo'],['4-06','다음 작업 자동 생성','todo'],['4-07','전체 중지·부분 재실행','todo'],['4-08','Automation Engine QA','todo']
