@@ -7,7 +7,7 @@
     { id:'social', name:'SNS 배포본부', icon:'↗', order:50, enabled:true, removable:true, children:['YouTube Shorts','Instagram Reels','Threads','Facebook','Pinterest','예약 발행'], capabilities:['schedule','publish','retry','analytics'] },
     { id:'product', name:'상품·수익본부', icon:'₩', order:60, enabled:true, removable:true, children:['상품 DB','디지털 이미지','전자책·파일','제휴 링크','연결 콘텐츠','클릭','전환','수익·정산'], capabilities:['catalog','sell','link','analytics','revenue'] },
     { id:'approval', name:'승인센터', icon:'✓', order:70, enabled:true, removable:false, children:['글 승인','이미지 승인','영상 승인','상품 승인','발행 승인','반려·수정'], capabilities:['approve','reject','history'] },
-    { id:'automation', name:'자동화센터', icon:'⚙', order:80, enabled:true, removable:false, children:['실행 예정','실행 중','완료','실패','재실행','긴급 중지'], capabilities:['schedule','run','stop','retry','log'] },
+    { id:'automation', name:'자동화센터', icon:'⚙', order:80, enabled:true, removable:false, children:['워크플로 관리','실행 예정','실행 중','완료','실패','재실행','긴급 중지'], capabilities:['workflow','handoff','schedule','run','stop','retry','log'] },
     { id:'analytics', name:'데이터·분석본부', icon:'▥', order:90, enabled:true, removable:true, children:['검색 유입','SNS 유입','영상 성과','상품 전환','애드센스','다음 주제'], capabilities:['analytics','report','recommend'] },
     { id:'system', name:'시스템관리', icon:'⚒', order:100, enabled:true, removable:false, children:['모듈 관리','분류 관리','API 연결','Publisher LOCK','GitHub','Cloudflare','백업·기록'], capabilities:['module-admin','category-admin','security','deployment','backup'] }
   ];
@@ -18,5 +18,5 @@
     statuses:['draft','working','review','approved','scheduled','published','paused','archived','error']
   };
 
-  window.SAVINGIO_MODULE_REGISTRY = Object.freeze({ version:'1.0.0', modules, assetSchema });
+  window.SAVINGIO_MODULE_REGISTRY = Object.freeze({ version:'1.1.0', modules, assetSchema });
 })();
