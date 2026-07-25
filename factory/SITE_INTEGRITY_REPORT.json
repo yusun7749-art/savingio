@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3207,
-  "references_scanned": 62759,
+  "files_scanned": 3208,
+  "references_scanned": 62765,
   "counts": {
-    "broken_references": 1786,
+    "broken_references": 1792,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -252,6 +252,52 @@
         "admin/os/reject",
         "admin/os/reject.html",
         "admin/os/reject/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/deployment-history.js",
+      "reference": "${esc(item.commitUrl)}",
+      "expected": [
+        "admin/os/${esc(item.commitUrl)}"
+      ]
+    },
+    {
+      "source": "admin/os/deployment-history.js",
+      "reference": "${esc(item.deploymentUrl)}",
+      "expected": [
+        "admin/os/${esc(item.deploymentUrl)}"
+      ]
+    },
+    {
+      "source": "admin/os/deployment-history.js",
+      "reference": "${esc(item.productionUrl)}",
+      "expected": [
+        "admin/os/${esc(item.productionUrl)}"
+      ]
+    },
+    {
+      "source": "admin/os/deployment-history.js",
+      "reference": "/admin/os/deployment-history.css",
+      "expected": [
+        "admin/os/deployment-history.css"
+      ]
+    },
+    {
+      "source": "admin/os/deployment-history.js",
+      "reference": "refresh",
+      "expected": [
+        "admin/os/refresh",
+        "admin/os/refresh.html",
+        "admin/os/refresh/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/deployment-history.js",
+      "reference": "retry",
+      "expected": [
+        "admin/os/retry",
+        "admin/os/retry.html",
+        "admin/os/retry/index.html"
       ]
     },
     {
