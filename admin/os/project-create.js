@@ -119,6 +119,7 @@
     loadScript('/admin/os/github-status-engine.js', 'data-github-status-engine', () => Boolean(window.SavingioGitHubStatus));
     loadScript('/admin/os/cloudflare-deploy-engine.js', 'data-cloudflare-deploy-engine', () => Boolean(window.SavingioCloudflareDeploy));
     loadScript('/admin/os/url-health-engine.js', 'data-url-health-engine', () => Boolean(window.SavingioUrlHealth));
+    loadScript('/admin/os/retry-engine.js', 'data-retry-engine', () => Boolean(window.SavingioRetry));
   }
 
   function boot() {
