@@ -5,13 +5,13 @@
   const workboard = {
     updated: '2026-07-25',
     currentPhase: 'Phase 2 — Workflow Engine',
-    currentTask: '2-04 단계별 담당 본부 연결 검증',
+    currentTask: '2-05 단계별 산출물 연결 검증',
     phases: [
       { id:'phase-1', title:'Phase 1 — Module OS Foundation', tasks:[
         ['1-01','Module Registry 구축','done'],['1-02','Module Engine 구축','done'],['1-03','Module Workspace 구축','done'],['1-04','Module Manager 구축','done'],['1-05','관리자 페이지 로딩 연결','done']
       ]},
       { id:'phase-2', title:'Phase 2 — Workflow Engine', tasks:[
-        ['2-01','Workflow Engine 기반 구축','done'],['2-02','Workflow Board 기반 구축','done'],['2-03','Workflow 실제 관리자 화면 검증','done'],['2-04','단계별 담당 본부 연결 검증','active'],['2-05','단계별 산출물 연결','todo'],['2-06','승인 이력 연결','todo'],['2-07','실행 로그 연결','todo'],['2-08','Workflow QA','todo']
+        ['2-01','Workflow Engine 기반 구축','done'],['2-02','Workflow Board 기반 구축','done'],['2-03','Workflow 실제 관리자 화면 검증','done'],['2-04','단계별 담당 본부 연결 검증','done'],['2-05','단계별 산출물 연결 검증','active'],['2-06','승인 이력 연결','todo'],['2-07','실행 로그 연결','todo'],['2-08','Workflow QA','todo']
       ]},
       { id:'phase-3', title:'Phase 3 — Project Engine', tasks:[
         ['3-01','공통 Project Schema 확정','todo'],['3-02','새 프로젝트 생성 화면 연결','todo'],['3-03','프로젝트와 Asset 연결','todo'],['3-04','프로젝트와 Workflow 연결','todo'],['3-05','프로젝트 상세 통합 화면','todo'],['3-06','프로젝트 복제·보관·복구','todo'],['3-07','프로젝트 검색·필터·정렬','todo'],['3-08','Project Engine QA','todo']
