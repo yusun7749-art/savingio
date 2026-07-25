@@ -125,6 +125,7 @@
     loadScript('/admin/os/automation-qa-engine.js', 'data-automation-qa-engine', () => Boolean(window.SavingioAutomationQA));
     loadScript('/admin/os/plugin-manifest.js', 'data-plugin-manifest', () => Boolean(window.SavingioPluginManifest));
     loadScript('/admin/os/plugin-manager.js', 'data-plugin-manager', () => Boolean(window.SavingioPluginManager));
+    loadScript('/admin/os/plugin-ui-engine.js', 'data-plugin-ui-engine', () => Boolean(window.SavingioPluginUI));
   }
 
   function boot() {
