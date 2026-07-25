@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="noindex,nofollow,noarchive">
   <title>Savingio Admin V2</title>
-  <link rel="stylesheet" href="/admin-v2/admin-v2.css?v=1">
+  <link rel="stylesheet" href="/admin-v2/admin-v2.css?v=2">
 </head>
 <body>
-  <div class="admin-shell">
-    <aside class="admin-sidebar" aria-label="Savingio Admin Explorer">
+  <div class="admin-shell" id="adminShell">
+    <aside class="admin-sidebar" id="adminExplorer" aria-label="Savingio Admin Explorer">
       <div class="admin-brand"><strong>Savingio</strong><span>ADMIN V2</span></div>
-      <nav class="admin-nav" id="adminNav">
+      <nav class="admin-nav" id="adminNav" aria-label="관리 메뉴">
         <section class="nav-group open">
-          <button class="nav-group-title active" type="button" data-view="command-home"><span>⌂ 통합 상황실</span><span>⌄</span></button>
+          <button class="nav-group-title active" type="button" data-view="command-home" aria-expanded="true"><span>⌂ 통합 상황실</span><span>⌄</span></button>
           <div class="nav-children">
             <button type="button" data-view="command-progress">전체 진행률</button>
             <button type="button" data-view="command-today">오늘 작업</button>
@@ -23,16 +23,19 @@
           </div>
         </section>
       </nav>
-      <div class="admin-system"><span></span> Shell LOCK · Explorer 255px</div>
+      <div class="admin-system"><span></span><div><strong>Shell LOCK</strong><small id="shellStatus">검증 중</small></div></div>
     </aside>
     <main class="admin-main">
       <header class="admin-header">
         <div><p>비공개 운영본부</p><h1 id="pageTitle">통합 상황실</h1></div>
-        <div class="header-actions"><a href="/admin/" class="button secondary">기존 Admin</a><button class="button" id="refreshBtn" type="button">새로고침</button></div>
+        <div class="header-actions"><a href="/admin/" class="button secondary">기존 Admin</a><button class="button secondary" id="diagnosticsBtn" type="button">구조 검사</button><button class="button" id="refreshBtn" type="button">새로고침</button></div>
       </header>
       <section id="adminWorkspace" class="admin-workspace" aria-live="polite"></section>
     </main>
   </div>
-  <script src="/admin-v2/admin-v2.js?v=1"></script>
+  <script src="/admin-v2/core/project-store.js?v=1"></script>
+  <script src="/admin-v2/core/module-registry.js?v=1"></script>
+  <script src="/admin-v2/modules/command.js?v=1"></script>
+  <script src="/admin-v2/app.js?v=1"></script>
 </body>
 </html>
