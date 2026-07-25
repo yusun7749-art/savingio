@@ -6,6 +6,7 @@
   const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   let refreshTimer = null;
   let lastRenderedAt = null;
+  let monitorFilter = 'all';
 
   function safeList(api) {
     try { const value = api?.list?.(); return Array.isArray(value) ? value : []; }
@@ -52,12 +53,17 @@
     const errors = [
       ...liveProjects.filter(item => item.status === 'error' || item.errorJobs).map(item => ({type:'프로젝트', id:item.id, title:item.title || item.id, state:item.status === 'error' ? item.status : `자동화 오류 ${item.errorJobs}`})),
       ...jobs.filter(item => item.status === 'error').map(item => ({type:'자동화', id:item.id, title:item.title || item.id, state:item.status})),
-      ...cloudflare.filter(item => ['failed','error'].includes(item.status || item.state)).map(item => ({type:'배포', id:item.id, title:item.url || item.id, state:item.status || item.state})),
+      ...cloudflare.filter(item => ['failed','error'].includes(item.status || item.state)).map(item => ({type:'배포', id:item.id, title:item.deploymentUrl || item.productionUrl || item.id, state:item.status || item.state})),
       ...urls.filter(item => ['unhealthy','blocked','error'].includes(item.status || item.state)).map(item => ({type:'URL', id:item.id, title:item.url || item.id, state:item.status || item.state}))
     ];
 
+    const githubAudit = window.SavingioGitHubStatus?.audit?.() || {valid:true,errors:[],warnings:[],total:github.length};
+    const cloudflareAudit = window.SavingioCloudflareDeploy?.audit?.() || {valid:true,errors:[],warnings:[],total:cloudflare.length};
+    const urlAudit = window.SavingioUrlHealth?.audit?.() || {valid:true,errors:[],warnings:[],total:urls.length};
+
     return {
       projects:liveProjects, jobs, github, cloudflare, urls, retries, nextTasks, approval, errors, automationQA, pluginQA, controller,
+      audits:{github:githubAudit,cloudflare:cloudflareAudit,url:urlAudit},
       summary:{
         projects:liveProjects.length,
         running:liveProjects.filter(item => ['running','active'].includes(item.status) || item.runningJobs).length,
@@ -75,7 +81,7 @@
     const text=String(value||'').toLowerCase();
     if (['pass','success','healthy','ok','ready','deployed','done','완료'].some(token=>text.includes(token))) return 'pass';
     if (['fail','error','unhealthy','blocked','failed','오류'].some(token=>text.includes(token))) return 'fail';
-    if (['warn','queued','pending','approval','running','active','review','진행','대기'].some(token=>text.includes(token))) return 'warn';
+    if (['warn','queued','pending','approval','running','active','review','checking','deploying','진행','대기'].some(token=>text.includes(token))) return 'warn';
     return 'neutral';
   }
 
@@ -93,6 +99,33 @@
     return `<div class="ops-project-board">${projects.map(item => `<article class="ops-project-row" data-ops-project="${esc(item.id)}"><div class="ops-project-main"><div><strong>${esc(item.title || item.id)}</strong><small>${esc(item.category || '미분류')}${item.currentStage ? ` · 현재 ${esc(item.currentStage)}` : ''}</small></div><em class="ops-state ${statusClass(item.status || item.workflowStatus)}">${esc(item.statusLabel || item.status || item.workflowStatus || '확인')}</em></div><div class="ops-project-progress"><span><i style="width:${item.progress}%"></i></span><strong>${item.progress}%</strong></div><div class="ops-project-jobs"><span>실행 ${item.runningJobs}</span><span>대기 ${item.queuedJobs}</span><span class="${item.errorJobs ? 'has-error' : ''}">오류 ${item.errorJobs}</span></div></article>`).join('')}</div>`;
   }
 
+  function monitorRows(data) {
+    const rows = [
+      ...data.github.map(item => ({kind:'github',title:item.commitSha ? `Commit ${item.commitSha.slice(0,8)}` : item.repository,meta:`${item.repository} · ${item.branch} · ${item.jobId || 'Job 미연결'}`,state:item.state,at:item.checkedAt,url:item.commitUrl,id:item.jobId})),
+      ...data.cloudflare.map(item => ({kind:'cloudflare',title:item.projectName || 'Cloudflare Pages',meta:`${item.environment} · ${item.commitSha ? item.commitSha.slice(0,8) : 'SHA 없음'} · 시도 ${item.attempts}`,state:item.state,at:item.checkedAt || item.updatedAt,url:item.deploymentUrl || item.productionUrl,id:item.id})),
+      ...data.urls.map(item => ({kind:'url',title:item.url || 'URL 미지정',meta:`HTTP ${item.httpStatus || '-'} · ${item.responseTimeMs || 0}ms · 시도 ${item.attempts}`,state:item.state,at:item.checkedAt || item.updatedAt,url:item.finalUrl || item.url,id:item.id}))
+    ].filter(item => monitorFilter === 'all' || item.kind === monitorFilter)
+      .sort((a,b) => new Date(b.at || 0) - new Date(a.at || 0));
+    if (!rows.length) return '<p class="ops-empty">선택한 모니터 기록이 없습니다.</p>';
+    return `<div class="ops-monitor-list">${rows.slice(0,30).map(item=>`<article class="ops-monitor-row"><span class="ops-monitor-kind ${item.kind}">${item.kind === 'github' ? 'GitHub' : item.kind === 'cloudflare' ? 'Cloudflare' : 'URL'}</span><div><strong>${esc(item.title)}</strong><small>${esc(item.meta)}</small><time>${item.at ? new Date(item.at).toLocaleString('ko-KR') : '확인 시각 없음'}</time></div><em class="ops-state ${statusClass(item.state)}">${esc(item.state || 'unknown')}</em>${item.url ? `<a href="${esc(item.url)}" target="_blank" rel="noopener">열기</a>` : ''}</article>`).join('')}</div>`;
+  }
+
+  function auditSummary(title,audit) {
+    const status = audit.valid && !(audit.warnings || []).length ? 'PASS' : audit.valid ? 'WARN' : 'FAIL';
+    return `<article class="ops-audit-card ${statusClass(status)}"><span>${esc(title)}</span><strong>${status}</strong><small>오류 ${(audit.errors||[]).length} · 주의 ${(audit.warnings||[]).length} · 기록 ${audit.total||0}</small></article>`;
+  }
+
+  async function runQueuedUrlChecks(root) {
+    const checks=safeList(window.SavingioUrlHealth).filter(item=>['queued','unknown','unhealthy','blocked'].includes(item.state));
+    const button=root.querySelector('[data-ops-action="check-urls"]');
+    if (button) { button.disabled=true; button.textContent=`URL 검사 중 0/${checks.length}`; }
+    for (let index=0; index<checks.length; index+=1) {
+      try { await window.SavingioUrlHealth?.check?.(checks[index].id); } catch {}
+      if (button) button.textContent=`URL 검사 중 ${index+1}/${checks.length}`;
+    }
+    render(root);
+  }
+
   function render(root=$('#departmentBoard')) {
     if (!root) return null;
     const data=collect();
@@ -107,6 +140,7 @@
       <header class="ops-head"><div><p class="eyebrow">SAVINGIO OPERATIONS HQ</p><h3>통합 운영 대시보드</h3><p>프로젝트·자동화·배포·URL·QA 상태를 한 화면에서 확인합니다.</p><small class="ops-live-time">● 실시간 감시 · ${lastRenderedAt.toLocaleTimeString('ko-KR')}</small></div><div class="ops-actions"><button class="btn ghost" type="button" data-ops-action="refresh">새로고침</button><button class="btn primary" type="button" data-ops-action="run-qa">통합 QA 실행</button></div></header>
       <div class="ops-metrics">${card('전체 프로젝트',data.summary.projects,`진행 ${data.summary.running}`)}${card('승인 대기',data.summary.approval,'검토 필요')}${card('오류',data.summary.errors,'즉시 확인')}${card('자동화',`${data.summary.runningJobs} 실행`,`대기 ${data.summary.queued}`)}${card('배포 성공',data.summary.deploySuccess,`전체 ${data.cloudflare.length}`)}${card('정상 URL',data.summary.healthy,`전체 ${data.urls.length}`)}</div>
       <article class="ops-panel ops-wide ops-live-projects"><header><h4>전체 프로젝트 실시간 상태</h4><span>${data.projects.length}</span></header>${liveProjectRows(data.projects)}</article>
+      <article class="ops-panel ops-wide ops-monitor"><header><div><h4>GitHub · Cloudflare · URL 통합 모니터</h4><small>Commit → 배포 → 실제 URL 상태를 시간순으로 확인합니다.</small></div><div class="ops-monitor-actions"><button class="btn ghost small" data-ops-action="scan-chain">연결 스캔</button><button class="btn primary small" data-ops-action="check-urls">대기 URL 검사</button></div></header><div class="ops-audit-grid">${auditSummary('GitHub',data.audits.github)}${auditSummary('Cloudflare',data.audits.cloudflare)}${auditSummary('URL Health',data.audits.url)}</div><div class="ops-monitor-toolbar"><button class="chip ${monitorFilter==='all'?'active':''}" data-monitor-filter="all">전체 ${data.github.length+data.cloudflare.length+data.urls.length}</button><button class="chip ${monitorFilter==='github'?'active':''}" data-monitor-filter="github">GitHub ${data.github.length}</button><button class="chip ${monitorFilter==='cloudflare'?'active':''}" data-monitor-filter="cloudflare">Cloudflare ${data.cloudflare.length}</button><button class="chip ${monitorFilter==='url'?'active':''}" data-monitor-filter="url">URL ${data.urls.length}</button></div>${monitorRows(data)}</article>
       <div class="ops-grid">
         <article class="ops-panel"><header><h4>승인 대기 작업</h4><span>${data.approval.length}</span></header>${listRows(data.approval,'승인 대기 작업이 없습니다.')}</article>
         <article class="ops-panel"><header><h4>오류 알림</h4><span>${data.errors.length}</span></header>${listRows(data.errors,'현재 감지된 오류가 없습니다.')}</article>
@@ -123,6 +157,13 @@
       try { window.SavingioPluginMarketplaceQA?.run?.({trigger:'operations-hq'}); } catch {}
       render(root);
     });
+    root.querySelector('[data-ops-action="scan-chain"]')?.addEventListener('click',()=>{
+      try { window.SavingioCloudflareDeploy?.scanGitHubStatuses?.(); } catch {}
+      try { window.SavingioUrlHealth?.scanDeployments?.(); } catch {}
+      render(root);
+    });
+    root.querySelector('[data-ops-action="check-urls"]')?.addEventListener('click',()=>runQueuedUrlChecks(root));
+    root.querySelectorAll('[data-monitor-filter]').forEach(button=>button.addEventListener('click',()=>{monitorFilter=button.dataset.monitorFilter;render(root);}));
     root.querySelectorAll('[data-ops-project]').forEach(row => row.addEventListener('click', () => {
       const id=row.dataset.opsProject;
       if (window.SavingioProjectDetail?.render) window.SavingioProjectDetail.render(id);
@@ -154,9 +195,9 @@
       const link=document.createElement('link'); link.rel='stylesheet'; link.href='/admin/os/operations-hq.css'; link.dataset.operationsHqCss='true'; document.head.appendChild(link);
     }
     $('#treeNav')?.addEventListener('click',event=>{ if(!shouldOpen(event.target)) return; event.stopImmediatePropagation(); render(); startLiveRefresh(); },true);
-    ['savingio:projects-changed','savingio:workflows-changed','savingio:automation-changed','savingio:github-status-changed','savingio:cloudflare-deploy-changed','savingio:url-health-changed','savingio:retry-changed','savingio:next-task-changed','savingio:automation-qa-completed','savingio:plugin-marketplace-qa-completed'].forEach(name => window.addEventListener(name,()=>{ if(document.querySelector('.operations-hq')) render(); }));
+    ['savingio:projects-changed','savingio:workflows-changed','savingio:automation-changed','savingio:github-status-changed','savingio:cloudflare-deployments-changed','savingio:cloudflare-deployment-status','savingio:url-health-changed','savingio:url-health-status','savingio:retry-changed','savingio:next-task-changed','savingio:automation-qa-completed','savingio:plugin-marketplace-qa-completed'].forEach(name => window.addEventListener(name,()=>{ if(document.querySelector('.operations-hq')) render(); }));
     document.addEventListener('visibilitychange',()=>{ if(document.hidden) stopLiveRefresh(); else if(document.querySelector('.operations-hq')) startLiveRefresh(); });
-    window.SavingioOperationsHQ=Object.freeze({collect,render,startLiveRefresh,stopLiveRefresh});
+    window.SavingioOperationsHQ=Object.freeze({collect,render,startLiveRefresh,stopLiveRefresh,runQueuedUrlChecks});
     window.dispatchEvent(new CustomEvent('savingio:operations-hq-ready'));
   }
 
