@@ -132,6 +132,7 @@
     loadScript('/admin/plugins/game-plugin.js', 'data-game-plugin', () => Boolean(window.SavingioGamePlugin));
     loadScript('/admin/plugins/image-store-plugin.js', 'data-image-store-plugin', () => Boolean(window.SavingioImageStorePlugin));
     loadScript('/admin/plugins/coupon-affiliate-plugin.js', 'data-coupon-affiliate-plugin', () => Boolean(window.SavingioCouponAffiliatePlugin));
+    loadScript('/admin/plugins/digital-product-plugin.js', 'data-digital-product-plugin', () => Boolean(window.SavingioDigitalProductPlugin));
   }
 
   function boot() {
