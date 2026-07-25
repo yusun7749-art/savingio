@@ -2,7 +2,18 @@
 
 다음 대화에서 검증 없이 추측하지 않고 바로 이어갈 작업만 기록합니다.
 
-## 현재 Savingio 시작점
+## 현재 선택된 작업선 — Savingio Admin OS
+
+1. `factory/MASTER_LOG/MASTER_LOG_ADMIN_OS_CURRENT.md`를 먼저 읽는다.
+2. GitHub `main`의 `admin/os/workflow-engine.js`, `workflow-board.js`, `workflow-board.css`와 관리자 로딩 연결을 확인한다.
+3. Cloudflare Production의 `/admin/`에서 자동화센터 → 워크플로 관리 화면을 실제 확인한다.
+4. 샘플 프로젝트 표시, 진행률, 현재 단계 완료·인계, 승인 후 다음 단계, 일시 중지·재시작을 클릭 검증한다.
+5. 새 프로젝트 생성 후 공통 워크플로 자동 생성 여부를 검증한다.
+6. 실제 화면·버튼 검증 전에는 Workflow Engine을 최종 PASS 처리하지 않는다.
+7. 검증 후 Phase 2-02: 산출물 ID, 담당 본부, 승인 이력, 실행 로그, 실패 원인, 재실행 지점을 공통 규격으로 연결한다.
+8. 다음 Phase는 Project Engine이며 글·이미지·쇼츠·상품·SNS를 하나의 프로젝트 ID 아래 묶는다.
+
+## 기존 콘텐츠 작업선 — 보류 유지
 
 1. Cloudflare Production에서 V3.030의 두 글과 V3.031 `car-insurance-child-discount.html` 반영 여부를 확인한다.
 2. 제목·URL·대표 이미지·카테고리·관련 글·계산기·Brain·검색·SEO 구조와 카드 크기·여백·모바일 레이아웃을 육안 검증한다.
