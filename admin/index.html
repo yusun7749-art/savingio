@@ -63,7 +63,22 @@
     </main>
   </div>
 
-  <dialog id="projectDialog"><form method="dialog" id="projectForm"><h2>새 프로젝트 추가</h2><label>프로젝트명<input name="title" required placeholder="예: 40대 주름크림"></label><label>대분류<select name="category"><option>생활비</option><option>보험</option><option>뷰티</option><option>건강</option><option>자동차</option></select></label><label>콘텐츠 유형<select name="type"><option>통합 캠페인</option><option>상품</option><option>글</option><option>쇼츠</option><option>SNS</option></select></label><div class="dialog-actions"><button class="btn ghost" value="cancel">취소</button><button class="btn primary" value="default">추가</button></div></form></dialog>
+  <dialog id="projectDialog">
+    <form method="dialog" id="projectForm" class="project-create-form">
+      <div class="security-head"><div><p class="eyebrow">PROJECT ENGINE</p><h2>새 프로젝트 추가</h2><p class="meta">프로젝트를 생성하면 시장분석 워크플로가 자동으로 시작됩니다.</p></div></div>
+      <label>프로젝트명<input name="title" required maxlength="120" placeholder="예: 40대 주름크림 콘텐츠 프로젝트"></label>
+      <label>프로젝트 설명<textarea name="description" rows="3" maxlength="500" placeholder="목표와 해결할 문제를 간단히 적어주세요."></textarea></label>
+      <div class="project-form-grid">
+        <label>대분류<select name="category"><option>생활비</option><option>보험</option><option>뷰티</option><option>건강</option><option>자동차</option><option>세금</option><option>부업</option><option>기타</option></select></label>
+        <label>콘텐츠 유형<select name="type"><option>통합 캠페인</option><option>상품</option><option>글</option><option>쇼츠</option><option>SNS</option><option>계산기</option><option>검사·테스트</option></select></label>
+        <label>우선순위<select name="priority"><option value="normal">보통</option><option value="high">높음</option><option value="urgent">긴급</option><option value="low">낮음</option></select></label>
+        <label>담당자<input name="owner" value="선장님" maxlength="60"></label>
+      </div>
+      <label>태그<input name="tags" maxlength="240" placeholder="쉼표로 구분: 애드센스, 생활비, 여름"></label>
+      <p id="projectCreateMessage" class="project-create-message" aria-live="polite"></p>
+      <div class="dialog-actions"><button class="btn ghost" value="cancel">취소</button><button class="btn primary" value="default">프로젝트 생성·시장분석 시작</button></div>
+    </form>
+  </dialog>
 
   <dialog id="contentAuditDialog" class="content-audit-dialog">
     <section class="content-audit-detail">
@@ -126,7 +141,12 @@
   </section>
 
   <script src="/admin/admin-data.js"></script>
+  <script src="/admin/os/project-engine.js"></script>
+  <script src="/admin/os/workflow-engine.js"></script>
   <script src="/admin/admin.js"></script>
+  <script src="/admin/os/project-create.js"></script>
+  <script src="/admin/os/workflow-board.js"></script>
+  <script src="/admin/os/workboard-board.js"></script>
   <script src="/admin/device-manager.js"></script>
   <script src="/admin/content-center.js"></script>
   <script src="/admin/content-center-runtime.js"></script>
