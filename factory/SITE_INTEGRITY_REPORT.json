@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3195,
-  "references_scanned": 62728,
+  "files_scanned": 3196,
+  "references_scanned": 62729,
   "counts": {
-    "broken_references": 1767,
+    "broken_references": 1768,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -390,6 +390,15 @@
         "admin/plugins/update",
         "admin/plugins/update.html",
         "admin/plugins/update/index.html"
+      ]
+    },
+    {
+      "source": "admin/plugins/plugin-settings.js",
+      "reference": "reset",
+      "expected": [
+        "admin/plugins/reset",
+        "admin/plugins/reset.html",
+        "admin/plugins/reset/index.html"
       ]
     },
     {
