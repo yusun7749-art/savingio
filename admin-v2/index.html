@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="noindex,nofollow,noarchive">
   <title>Savingio Admin V2</title>
-  <link rel="stylesheet" href="/admin-v2/admin-v2.css?v=2">
+  <link rel="stylesheet" href="/admin-v2/admin-v2.css?v=3">
 </head>
 <body>
-  <div class="admin-shell" id="adminShell">
-    <aside class="admin-sidebar" id="adminExplorer" aria-label="Savingio Admin Explorer">
+  <div class="admin-shell" id="adminShell" data-shell-lock="admin-v2">
+    <aside class="admin-sidebar" id="adminExplorer" data-shell-region="explorer" aria-label="Savingio Admin Explorer">
       <div class="admin-brand"><strong>Savingio</strong><span>ADMIN V2</span></div>
       <nav class="admin-nav" id="adminNav" aria-label="관리 메뉴">
         <section class="nav-group open">
@@ -25,17 +25,17 @@
       </nav>
       <div class="admin-system"><span></span><div><strong>Shell LOCK</strong><small id="shellStatus">검증 중</small></div></div>
     </aside>
-    <main class="admin-main">
-      <header class="admin-header">
+    <main class="admin-main" data-shell-region="main">
+      <header class="admin-header" id="adminHeader" data-shell-region="header">
         <div><p>비공개 운영본부</p><h1 id="pageTitle">통합 상황실</h1></div>
         <div class="header-actions"><a href="/admin/" class="button secondary">기존 Admin</a><button class="button secondary" id="diagnosticsBtn" type="button">구조 검사</button><button class="button" id="refreshBtn" type="button">새로고침</button></div>
       </header>
-      <section id="adminWorkspace" class="admin-workspace" aria-live="polite"></section>
+      <section id="adminWorkspace" class="admin-workspace" data-shell-region="workspace" aria-live="polite"></section>
     </main>
   </div>
   <script src="/admin-v2/core/project-store.js?v=1"></script>
   <script src="/admin-v2/core/module-registry.js?v=1"></script>
   <script src="/admin-v2/modules/command.js?v=1"></script>
-  <script src="/admin-v2/app.js?v=1"></script>
+  <script src="/admin-v2/app.js?v=2"></script>
 </body>
 </html>
