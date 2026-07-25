@@ -137,6 +137,7 @@
     loadScript('/admin/plugins/plugin-marketplace.js', 'data-plugin-marketplace', () => Boolean(window.SavingioPluginMarketplace));
     loadScript('/admin/plugins/plugin-install-ui.js', 'data-plugin-install-ui', () => Boolean(window.SavingioPluginInstallUI));
     loadScript('/admin/plugins/plugin-settings.js', 'data-plugin-settings', () => Boolean(window.SavingioPluginSettings));
+    loadScript('/admin/plugins/plugin-backup-restore.js', 'data-plugin-backup-restore', () => Boolean(window.SavingioPluginBackupRestore));
   }
 
   function boot() {
