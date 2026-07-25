@@ -136,6 +136,7 @@
     loadScript('/admin/plugins/plugin-store-qa.js', 'data-plugin-store-qa', () => Boolean(window.SavingioPluginStoreQA));
     loadScript('/admin/plugins/plugin-marketplace.js', 'data-plugin-marketplace', () => Boolean(window.SavingioPluginMarketplace));
     loadScript('/admin/plugins/plugin-install-ui.js', 'data-plugin-install-ui', () => Boolean(window.SavingioPluginInstallUI));
+    loadScript('/admin/plugins/plugin-settings.js', 'data-plugin-settings', () => Boolean(window.SavingioPluginSettings));
   }
 
   function boot() {
