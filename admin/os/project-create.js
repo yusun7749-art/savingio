@@ -127,6 +127,7 @@
     loadScript('/admin/os/plugin-manager.js', 'data-plugin-manager', () => Boolean(window.SavingioPluginManager));
     loadScript('/admin/os/plugin-security-engine.js', 'data-plugin-security-engine', () => Boolean(window.SavingioPluginSecurity));
     loadScript('/admin/os/plugin-ui-engine.js', 'data-plugin-ui-engine', () => Boolean(window.SavingioPluginUI));
+    loadScript('/admin/plugins/calculator-plugin.js', 'data-calculator-plugin', () => Boolean(window.SavingioCalculatorPlugin));
   }
 
   function boot() {
