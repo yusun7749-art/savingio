@@ -5,7 +5,7 @@
   const workboard = {
     updated: '2026-07-25',
     currentPhase: 'Phase 7 — Operations HQ',
-    currentTask: '7-07 최근 배포 이력',
+    currentTask: '7-08 검색·필터·통합 로그 뷰어',
     phases: [
       { id:'phase-1', title:'Phase 1 — Module OS Foundation', tasks:[
         ['1-01','Module Registry 구축','done'],['1-02','Module Engine 구축','done'],['1-03','Module Workspace 구축','done'],['1-04','Module Manager 구축','done'],['1-05','관리자 페이지 로딩 연결','done']
@@ -26,7 +26,7 @@
         ['6-01','Plugin Marketplace','done'],['6-02','Plugin 설치·업데이트 UI','done'],['6-03','Plugin 설정 페이지','done'],['6-04','Plugin 백업·복원','done'],['6-05','Plugin 의존성 관리','done'],['6-06','Plugin 자동 업데이트','done'],['6-07','Plugin 서명·무결성 검사','done'],['6-08','Plugin Marketplace QA','done']
       ]},
       { id:'phase-7', title:'Phase 7 — Operations HQ', tasks:[
-        ['7-01','운영 대시보드 Home HQ','done'],['7-02','전체 프로젝트 실시간 상태판','done'],['7-03','GitHub·Cloudflare·URL 통합 모니터','done'],['7-04','QA 결과 통합 패널','done'],['7-05','오류 알림 센터','done'],['7-06','승인 대기 작업함','done'],['7-07','최근 배포 이력','active'],['7-08','검색·필터·통합 로그 뷰어','todo'],['7-09','Operations HQ QA','todo']
+        ['7-01','운영 대시보드 Home HQ','done'],['7-02','전체 프로젝트 실시간 상태판','done'],['7-03','GitHub·Cloudflare·URL 통합 모니터','done'],['7-04','QA 결과 통합 패널','done'],['7-05','오류 알림 센터','done'],['7-06','승인 대기 작업함','done'],['7-07','최근 배포 이력','done'],['7-08','검색·필터·통합 로그 뷰어','active'],['7-09','Operations HQ QA','todo']
       ]}
     ],
     duplicateRules: ['같은 작업명','이름만 다르고 목적이 같은 작업','같은 화면·파일을 수정하는 작업','이미 완료된 작업의 재검증','기존 작업의 하위 단계']
