@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3210,
-  "references_scanned": 62772,
+  "files_scanned": 3211,
+  "references_scanned": 62774,
   "counts": {
-    "broken_references": 1797,
+    "broken_references": 1796,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -291,13 +291,6 @@
         "admin/os/retry",
         "admin/os/retry.html",
         "admin/os/retry/index.html"
-      ]
-    },
-    {
-      "source": "admin/os/log-viewer.js",
-      "reference": "/admin/os/log-viewer.css",
-      "expected": [
-        "admin/os/log-viewer.css"
       ]
     },
     {
