@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3189,
-  "references_scanned": 62699,
+  "files_scanned": 3190,
+  "references_scanned": 62702,
   "counts": {
-    "broken_references": 1759,
+    "broken_references": 1761,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -340,6 +340,20 @@
         "admin/os/reject",
         "admin/os/reject.html",
         "admin/os/reject/index.html"
+      ]
+    },
+    {
+      "source": "admin/plugins/image-store-plugin.js",
+      "reference": "/assets/images/article-placeholder.webp",
+      "expected": [
+        "assets/images/article-placeholder.webp"
+      ]
+    },
+    {
+      "source": "admin/plugins/image-store-plugin.js",
+      "reference": "/assets/og/savingio-default.webp",
+      "expected": [
+        "assets/og/savingio-default.webp"
       ]
     },
     {
