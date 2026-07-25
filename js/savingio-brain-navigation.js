@@ -1,6 +1,6 @@
 (async()=>{
 'use strict';
-const VERSION='20260725-performance4';
+const VERSION='20260725-performance5';
 const loadScript=(src,key)=>new Promise(resolve=>{if(window[key])return resolve();const s=document.createElement('script');s.src=src;s.defer=true;s.onload=resolve;s.onerror=resolve;document.head.appendChild(s);});
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const addCss=(href,id)=>{if(document.getElementById(id))return;const l=document.createElement('link');l.id=id;l.rel='stylesheet';l.href=href;document.head.appendChild(l);};
