@@ -22,6 +22,18 @@
             <button type="button" data-view="command-revenue">수익 요약</button>
           </div>
         </section>
+        <section class="nav-group open">
+          <button class="nav-group-title" type="button" data-view="dept-cms" aria-expanded="true"><span>▦ 운영 부서</span><span>⌄</span></button>
+          <div class="nav-children">
+            <button type="button" data-view="dept-content">콘텐츠</button>
+            <button type="button" data-view="dept-seo">SEO</button>
+            <button type="button" data-view="dept-image">이미지</button>
+            <button type="button" data-view="dept-qa">QA</button>
+            <button type="button" data-view="dept-deploy">배포</button>
+            <button type="button" data-view="dept-analytics">분석</button>
+            <button type="button" data-view="dept-revenue">수익</button>
+          </div>
+        </section>
       </nav>
       <div class="admin-system"><span></span><div><strong>Shell LOCK</strong><small id="shellStatus">검증 중</small></div></div>
     </aside>
@@ -33,9 +45,17 @@
       <section id="adminWorkspace" class="admin-workspace" data-shell-region="workspace" aria-live="polite"></section>
     </main>
   </div>
-  <script src="/admin-v2/core/project-store.js?v=1"></script>
-  <script src="/admin-v2/core/module-registry.js?v=1"></script>
-  <script src="/admin-v2/modules/command.js?v=1"></script>
-  <script src="/admin-v2/app.js?v=2"></script>
+  <script src="/admin-v2/core/project-store.js?v=2"></script>
+  <script src="/admin-v2/core/module-registry.js?v=2"></script>
+  <script src="/admin-v2/modules/command.js?v=2"></script>
+  <script src="/admin-v2/modules/cms.js?v=1"></script>
+  <script src="/admin-v2/modules/content.js?v=1"></script>
+  <script src="/admin-v2/modules/seo.js?v=1"></script>
+  <script src="/admin-v2/modules/image.js?v=1"></script>
+  <script src="/admin-v2/modules/qa.js?v=1"></script>
+  <script src="/admin-v2/modules/deploy.js?v=1"></script>
+  <script src="/admin-v2/modules/analytics.js?v=1"></script>
+  <script src="/admin-v2/modules/revenue.js?v=1"></script>
+  <script src="/admin-v2/app.js?v=4"></script>
 </body>
 </html>
