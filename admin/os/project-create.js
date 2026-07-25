@@ -129,6 +129,7 @@
     loadScript('/admin/os/deployment-history.js', 'data-deployment-history', () => Boolean(window.SavingioDeploymentHistory));
     loadScript('/admin/os/log-viewer.js', 'data-log-viewer', () => Boolean(window.SavingioLogViewer));
     loadScript('/admin/os/operations-hq-qa.js', 'data-operations-hq-qa', () => Boolean(window.SavingioOperationsHQQA));
+    loadScript('/admin/os/admin-hq-core.js', 'data-admin-hq-core', () => Boolean(window.SavingioAdminHQ));
     loadScript('/admin/os/plugin-manifest.js', 'data-plugin-manifest', () => Boolean(window.SavingioPluginManifest));
     loadScript('/admin/os/plugin-manager.js', 'data-plugin-manager', () => Boolean(window.SavingioPluginManager));
     loadScript('/admin/os/plugin-security-engine.js', 'data-plugin-security-engine', () => Boolean(window.SavingioPluginSecurity));
