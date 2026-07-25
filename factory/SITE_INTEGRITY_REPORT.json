@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3209,
-  "references_scanned": 62766,
+  "files_scanned": 3210,
+  "references_scanned": 62772,
   "counts": {
-    "broken_references": 1791,
+    "broken_references": 1797,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -291,6 +291,58 @@
         "admin/os/retry",
         "admin/os/retry.html",
         "admin/os/retry/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/log-viewer.js",
+      "reference": "/admin/os/log-viewer.css",
+      "expected": [
+        "admin/os/log-viewer.css"
+      ]
+    },
+    {
+      "source": "admin/os/log-viewer.js",
+      "reference": "blob",
+      "expected": [
+        "admin/os/blob",
+        "admin/os/blob.html",
+        "admin/os/blob/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/log-viewer.js",
+      "reference": "csv",
+      "expected": [
+        "admin/os/csv",
+        "admin/os/csv.html",
+        "admin/os/csv/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/log-viewer.js",
+      "reference": "json",
+      "expected": [
+        "admin/os/json",
+        "admin/os/json.html",
+        "admin/os/json/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/log-viewer.js",
+      "reference": "refresh",
+      "expected": [
+        "admin/os/refresh",
+        "admin/os/refresh.html",
+        "admin/os/refresh/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/log-viewer.js",
+      "reference": "url",
+      "expected": [
+        "admin/os/url",
+        "admin/os/url.html",
+        "admin/os/url/index.html"
       ]
     },
     {
