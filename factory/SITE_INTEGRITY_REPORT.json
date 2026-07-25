@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3248,
-  "references_scanned": 62830,
+  "files_scanned": 3249,
+  "references_scanned": 62831,
   "counts": {
-    "broken_references": 1832,
+    "broken_references": 1833,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -223,6 +223,15 @@
         "admin-v2/modules/start",
         "admin-v2/modules/start.html",
         "admin-v2/modules/start/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/github-release.js",
+      "reference": "reset",
+      "expected": [
+        "admin-v2/modules/reset",
+        "admin-v2/modules/reset.html",
+        "admin-v2/modules/reset/index.html"
       ]
     },
     {
