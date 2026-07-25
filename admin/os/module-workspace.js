@@ -5,15 +5,23 @@
   const $ = selector => document.querySelector(selector);
   const esc = value => String(value ?? '').replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
   const readAssets = () => { try { const value = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'); return Array.isArray(value) ? value : []; } catch { return []; } };
-  const writeAssets = assets => {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(assets));
-    window.dispatchEvent(new CustomEvent('savingio:assets-changed', { detail:{ assets } }));
-  };
   const readContext = () => { try { return JSON.parse(sessionStorage.getItem(CONTEXT_KEY) || 'null'); } catch { return null; } };
   const writeContext = context => context ? sessionStorage.setItem(CONTEXT_KEY, JSON.stringify(context)) : sessionStorage.removeItem(CONTEXT_KEY);
   let activeModuleId = 'command';
   let activeChild = '';
   let activeContext = readContext();
+
+  function syncProjectAsset(asset, action) {
+    if (!asset?.projectId || !window.SavingioProject) return;
+    if (action === 'archived' || action === 'removed') window.SavingioProject.unlinkAsset(asset.projectId, asset.id);
+    else window.SavingioProject.linkAsset(asset.projectId, asset.id);
+  }
+
+  function writeAssets(assets, detail={}) {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(assets));
+    if (detail.asset) syncProjectAsset(detail.asset, detail.action || 'updated');
+    window.dispatchEvent(new CustomEvent('savingio:assets-changed', { detail:{ assets, ...detail } }));
+  }
 
   function moduleItems(module) {
     return readAssets().filter(item => item.moduleId === module.id && (!activeChild || item.category === activeChild || item.subcategory === activeChild));
@@ -36,17 +44,28 @@
       category:activeChild || module.children[0] || '미분류',
       status:'draft',
       projectId:activeContext?.projectId || '',
+      projectTitle:activeContext?.projectTitle || '',
       workflowId:activeContext?.workflowId || '',
       workflowStageId:activeContext?.stageId || '',
+      workflowStageName:activeContext?.stageName || '',
       outputType:module.id === 'video' ? 'media' : module.id === 'content' ? 'document' : module.id === 'market' ? 'report' : 'asset'
     });
-    const assets = readAssets(); assets.unshift(asset); writeAssets(assets); render(module.id, activeChild);
+    const assets = readAssets();
+    assets.unshift(asset);
+    writeAssets(assets, { action:'created', asset });
+    render(module.id, activeChild);
   }
 
   function removeAsset(id) {
     if (!confirm('이 항목을 보관함으로 이동할까요?')) return;
-    const assets = readAssets().map(item => item.id === id ? {...item,status:'archived',updatedAt:new Date().toISOString()} : item);
-    writeAssets(assets); render(activeModuleId, activeChild);
+    let archived = null;
+    const assets = readAssets().map(item => {
+      if (item.id !== id) return item;
+      archived = {...item,status:'archived',updatedAt:new Date().toISOString()};
+      return archived;
+    });
+    writeAssets(assets, { action:'archived', asset:archived });
+    render(activeModuleId, activeChild);
   }
 
   function contextBanner(module) {
@@ -73,8 +92,8 @@
       <nav class="module-workspace-tabs">${tabs.map(tab => `<button class="module-workspace-tab ${(tab === '전체' && !activeChild) || tab === activeChild ? 'active' : ''}" data-module-tab="${esc(tab)}">${esc(tab)}</button>`).join('')}</nav>
       <div class="module-workspace-summary">${cards.map(([label,value]) => `<article class="module-summary-card"><span>${esc(label)}</span><strong>${value}</strong></article>`).join('')}</div>
       <div class="module-workspace-body">
-        <section class="module-pane"><h4>${activeChild ? esc(activeChild) : '전체 항목'}</h4><div class="module-item-list">${items.length ? items.map(item => `<article class="module-item"><div><strong>${esc(item.title)}</strong><small>${esc(item.category)} · ${new Date(item.updatedAt).toLocaleString('ko-KR')}${item.workflowStageId ? ' · 워크플로 연결' : ''}</small></div><div><span class="module-item-status">${esc(STATUS_LABELS[item.status] || item.status)}</span> <button class="btn ghost small" data-archive-id="${esc(item.id)}">보관</button></div></article>`).join('') : '<div class="module-empty">이 분류에는 아직 항목이 없습니다.<br>‘산출물 추가’를 누르면 현재 워크플로 단계에 자동 연결됩니다.</div>'}</div></section>
-        <aside class="module-pane"><h4>사용 가능한 기능</h4><div class="module-capabilities">${module.capabilities.map(item => `<span class="module-capability">${esc(item)}</span>`).join('')}</div><h4 style="margin-top:18px">모듈 규격</h4><p class="meta">같은 엔진에서 목록·상태·승인·배포·수익·통계를 공유합니다. 워크플로에서 들어온 산출물은 프로젝트와 단계 ID로 자동 연결됩니다.</p></aside>
+        <section class="module-pane"><h4>${activeChild ? esc(activeChild) : '전체 항목'}</h4><div class="module-item-list">${items.length ? items.map(item => `<article class="module-item"><div><strong>${esc(item.title)}</strong><small>${esc(item.category)} · ${new Date(item.updatedAt).toLocaleString('ko-KR')}${item.projectId ? ' · 프로젝트 연결' : ''}${item.workflowStageId ? ' · 워크플로 연결' : ''}</small></div><div><span class="module-item-status">${esc(STATUS_LABELS[item.status] || item.status)}</span> <button class="btn ghost small" data-archive-id="${esc(item.id)}">보관</button></div></article>`).join('') : '<div class="module-empty">이 분류에는 아직 항목이 없습니다.<br>‘산출물 추가’를 누르면 현재 프로젝트와 워크플로 단계에 자동 연결됩니다.</div>'}</div></section>
+        <aside class="module-pane"><h4>사용 가능한 기능</h4><div class="module-capabilities">${module.capabilities.map(item => `<span class="module-capability">${esc(item)}</span>`).join('')}</div><h4 style="margin-top:18px">모듈 규격</h4><p class="meta">같은 엔진에서 목록·상태·승인·배포·수익·통계를 공유합니다. 워크플로에서 들어온 산출물은 프로젝트와 단계 ID로 자동 연결되고, 보관 시 프로젝트 연결 목록에서도 해제됩니다.</p></aside>
       </div><p class="module-workspace-message" id="moduleWorkspaceMessage"></p>
     </section>`;
 
@@ -95,6 +114,21 @@
     render(moduleId, '');
   }
 
+  function reconcileProjectAssets() {
+    if (!window.SavingioProject) return;
+    const activeAssets = readAssets().filter(item => item.projectId && item.status !== 'archived');
+    const grouped = new Map();
+    activeAssets.forEach(asset => {
+      if (!grouped.has(asset.projectId)) grouped.set(asset.projectId, []);
+      grouped.get(asset.projectId).push(asset.id);
+    });
+    window.SavingioProject.list({includeArchived:true}).forEach(project => {
+      const expected = grouped.get(project.id) || [];
+      const current = Array.isArray(project.assetIds) ? project.assetIds : [];
+      if (expected.length !== current.length || expected.some(id => !current.includes(id))) window.SavingioProject.update(project.id, { assetIds:expected });
+    });
+  }
+
   function bindTree() {
     const nav = $('#treeNav');
     if (!nav) return;
@@ -112,9 +146,10 @@
 
   function boot() {
     const link = document.createElement('link'); link.rel = 'stylesheet'; link.href = '/admin/os/module-workspace.css'; document.head.appendChild(link);
+    reconcileProjectAssets();
     bindTree(); render(activeModuleId, '');
     window.addEventListener('savingio:modules-changed', () => render(activeModuleId, activeChild));
-    window.SavingioModuleWorkspace = Object.freeze({ open, render, getContext:() => activeContext ? {...activeContext} : null });
+    window.SavingioModuleWorkspace = Object.freeze({ open, render, reconcileProjectAssets, getContext:() => activeContext ? {...activeContext} : null });
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
 })();
