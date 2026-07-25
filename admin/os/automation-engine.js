@@ -41,6 +41,11 @@
       githubState:String(input.githubState || 'unknown'),
       githubChecks:Array.isArray(input.githubChecks) ? input.githubChecks : [],
       lastCheckedAt:input.lastCheckedAt || null,
+      cloudflareDeploymentId:String(input.cloudflareDeploymentId || ''),
+      cloudflareState:String(input.cloudflareState || 'unknown'),
+      deploymentUrl:String(input.deploymentUrl || ''),
+      productionUrl:String(input.productionUrl || ''),
+      deploymentCheckedAt:input.deploymentCheckedAt || null,
       payload:input.payload && typeof input.payload === 'object' ? input.payload : {},
       attempts:Number(input.attempts || 0),
       createdAt,
@@ -102,6 +107,8 @@
         approvedBy:approval.actor,
         approvalNote:approval.note,
         approvedAt:approval.createdAt,
+        cloudflareProject:project.deployment?.projectName || 'savingio',
+        productionUrl:project.deployment?.productionUrl || 'https://savingio.com',
         source:'workflow-approval'
       }
     });
