@@ -4,10 +4,19 @@
   const $ = selector => document.querySelector(selector);
   const clone = value => JSON.parse(JSON.stringify(value));
   const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+  let refreshTimer = null;
+  let lastRenderedAt = null;
 
   function safeList(api) {
-    try { return Array.isArray(api?.list?.()) ? api.list() : []; }
+    try { const value = api?.list?.(); return Array.isArray(value) ? value : []; }
     catch { return []; }
+  }
+
+  function projectProgress(project) {
+    if (Number.isFinite(Number(project.progress))) return Math.max(0, Math.min(100, Number(project.progress)));
+    const stages = Array.isArray(project.stages) ? project.stages : [];
+    if (!stages.length) return project.status === 'done' ? 100 : 0;
+    return Math.round(stages.filter(stage => stage.status === 'done' || stage[1] === 'done').length / stages.length * 100);
   }
 
   function collect() {
@@ -18,23 +27,40 @@
     const urls = safeList(window.SavingioUrlHealth);
     const retries = safeList(window.SavingioRetry);
     const nextTasks = safeList(window.SavingioNextTask);
+    const workflows = safeList(window.SavingioWorkflow);
     const automationQA = window.SavingioAutomationQA?.latest?.() || null;
     const pluginQA = window.SavingioPluginMarketplaceQA?.latest?.() || null;
     const controller = window.SavingioAutomationController?.state?.() || { paused:false, locks:[], history:[] };
 
-    const approval = projects.filter(item => ['approval','waiting-approval','pending'].includes(item.status));
+    const workflowByProject = new Map(workflows.filter(item => item.projectId).map(item => [String(item.projectId), item]));
+    const liveProjects = projects.map(project => {
+      const workflow = workflowByProject.get(String(project.id));
+      const projectJobs = jobs.filter(job => String(job.projectId || '') === String(project.id));
+      const activeStage = workflow?.stages?.find(stage => ['active','review','error','paused'].includes(stage.status));
+      return {
+        ...project,
+        progress:projectProgress(project),
+        workflowStatus:workflow?.status || '',
+        currentStage:activeStage?.name || '',
+        runningJobs:projectJobs.filter(job => job.status === 'running').length,
+        queuedJobs:projectJobs.filter(job => job.status === 'queued').length,
+        errorJobs:projectJobs.filter(job => job.status === 'error').length
+      };
+    });
+
+    const approval = liveProjects.filter(item => ['approval','waiting-approval','pending'].includes(item.status) || item.workflowStatus === 'review');
     const errors = [
-      ...projects.filter(item => item.status === 'error').map(item => ({type:'프로젝트', id:item.id, title:item.title || item.id, state:item.status})),
+      ...liveProjects.filter(item => item.status === 'error' || item.errorJobs).map(item => ({type:'프로젝트', id:item.id, title:item.title || item.id, state:item.status === 'error' ? item.status : `자동화 오류 ${item.errorJobs}`})),
       ...jobs.filter(item => item.status === 'error').map(item => ({type:'자동화', id:item.id, title:item.title || item.id, state:item.status})),
       ...cloudflare.filter(item => ['failed','error'].includes(item.status || item.state)).map(item => ({type:'배포', id:item.id, title:item.url || item.id, state:item.status || item.state})),
       ...urls.filter(item => ['unhealthy','blocked','error'].includes(item.status || item.state)).map(item => ({type:'URL', id:item.id, title:item.url || item.id, state:item.status || item.state}))
     ];
 
     return {
-      projects, jobs, github, cloudflare, urls, retries, nextTasks, approval, errors, automationQA, pluginQA, controller,
+      projects:liveProjects, jobs, github, cloudflare, urls, retries, nextTasks, approval, errors, automationQA, pluginQA, controller,
       summary:{
-        projects:projects.length,
-        running:projects.filter(item => ['running','active'].includes(item.status)).length,
+        projects:liveProjects.length,
+        running:liveProjects.filter(item => ['running','active'].includes(item.status) || item.runningJobs).length,
         approval:approval.length,
         errors:errors.length,
         queued:jobs.filter(item => item.status === 'queued').length,
@@ -47,9 +73,9 @@
 
   function statusClass(value) {
     const text=String(value||'').toLowerCase();
-    if (['pass','success','healthy','ok','ready','deployed','done'].some(token=>text.includes(token))) return 'pass';
-    if (['fail','error','unhealthy','blocked','failed'].some(token=>text.includes(token))) return 'fail';
-    if (['warn','queued','pending','approval','running','active'].some(token=>text.includes(token))) return 'warn';
+    if (['pass','success','healthy','ok','ready','deployed','done','완료'].some(token=>text.includes(token))) return 'pass';
+    if (['fail','error','unhealthy','blocked','failed','오류'].some(token=>text.includes(token))) return 'fail';
+    if (['warn','queued','pending','approval','running','active','review','진행','대기'].some(token=>text.includes(token))) return 'warn';
     return 'neutral';
   }
 
@@ -62,6 +88,11 @@
     return `<ul class="ops-list">${items.slice(0,8).map(item=>`<li><span><strong>${esc(item.title || item.name || item.url || item.id)}</strong><small>${esc(item.type || item.category || item.id || '')}</small></span><em class="ops-state ${statusClass(item.status || item.state)}">${esc(item.statusLabel || item.status || item.state || '확인')}</em></li>`).join('')}</ul>`;
   }
 
+  function liveProjectRows(projects) {
+    if (!projects.length) return '<p class="ops-empty">등록된 프로젝트가 없습니다.</p>';
+    return `<div class="ops-project-board">${projects.map(item => `<article class="ops-project-row" data-ops-project="${esc(item.id)}"><div class="ops-project-main"><div><strong>${esc(item.title || item.id)}</strong><small>${esc(item.category || '미분류')}${item.currentStage ? ` · 현재 ${esc(item.currentStage)}` : ''}</small></div><em class="ops-state ${statusClass(item.status || item.workflowStatus)}">${esc(item.statusLabel || item.status || item.workflowStatus || '확인')}</em></div><div class="ops-project-progress"><span><i style="width:${item.progress}%"></i></span><strong>${item.progress}%</strong></div><div class="ops-project-jobs"><span>실행 ${item.runningJobs}</span><span>대기 ${item.queuedJobs}</span><span class="${item.errorJobs ? 'has-error' : ''}">오류 ${item.errorJobs}</span></div></article>`).join('')}</div>`;
+  }
+
   function render(root=$('#departmentBoard')) {
     if (!root) return null;
     const data=collect();
@@ -70,10 +101,12 @@
       {title:'Plugin Marketplace QA', status:data.pluginQA?.status || '미실행', detail:data.pluginQA ? `${data.pluginQA.counts?.pass||0} PASS · ${data.pluginQA.counts?.fail||data.pluginQA.counts?.error||0} FAIL` : '검사 기록 없음'},
       {title:'Automation Controller', status:data.controller.paused ? '중지' : '운영 중', detail:`Lock ${data.controller.locks?.length||0} · 이력 ${data.controller.history?.length||0}`}
     ];
+    lastRenderedAt = new Date();
 
     root.innerHTML=`<section class="operations-hq">
-      <header class="ops-head"><div><p class="eyebrow">SAVINGIO OPERATIONS HQ</p><h3>통합 운영 대시보드</h3><p>프로젝트·자동화·배포·URL·QA 상태를 한 화면에서 확인합니다.</p></div><div class="ops-actions"><button class="btn ghost" type="button" data-ops-action="refresh">새로고침</button><button class="btn primary" type="button" data-ops-action="run-qa">통합 QA 실행</button></div></header>
+      <header class="ops-head"><div><p class="eyebrow">SAVINGIO OPERATIONS HQ</p><h3>통합 운영 대시보드</h3><p>프로젝트·자동화·배포·URL·QA 상태를 한 화면에서 확인합니다.</p><small class="ops-live-time">● 실시간 감시 · ${lastRenderedAt.toLocaleTimeString('ko-KR')}</small></div><div class="ops-actions"><button class="btn ghost" type="button" data-ops-action="refresh">새로고침</button><button class="btn primary" type="button" data-ops-action="run-qa">통합 QA 실행</button></div></header>
       <div class="ops-metrics">${card('전체 프로젝트',data.summary.projects,`진행 ${data.summary.running}`)}${card('승인 대기',data.summary.approval,'검토 필요')}${card('오류',data.summary.errors,'즉시 확인')}${card('자동화',`${data.summary.runningJobs} 실행`,`대기 ${data.summary.queued}`)}${card('배포 성공',data.summary.deploySuccess,`전체 ${data.cloudflare.length}`)}${card('정상 URL',data.summary.healthy,`전체 ${data.urls.length}`)}</div>
+      <article class="ops-panel ops-wide ops-live-projects"><header><h4>전체 프로젝트 실시간 상태</h4><span>${data.projects.length}</span></header>${liveProjectRows(data.projects)}</article>
       <div class="ops-grid">
         <article class="ops-panel"><header><h4>승인 대기 작업</h4><span>${data.approval.length}</span></header>${listRows(data.approval,'승인 대기 작업이 없습니다.')}</article>
         <article class="ops-panel"><header><h4>오류 알림</h4><span>${data.errors.length}</span></header>${listRows(data.errors,'현재 감지된 오류가 없습니다.')}</article>
@@ -90,8 +123,22 @@
       try { window.SavingioPluginMarketplaceQA?.run?.({trigger:'operations-hq'}); } catch {}
       render(root);
     });
+    root.querySelectorAll('[data-ops-project]').forEach(row => row.addEventListener('click', () => {
+      const id=row.dataset.opsProject;
+      if (window.SavingioProjectDetail?.render) window.SavingioProjectDetail.render(id);
+    }));
     window.dispatchEvent(new CustomEvent('savingio:operations-hq-rendered',{detail:{summary:clone(data.summary)}}));
     return clone(data);
+  }
+
+  function startLiveRefresh() {
+    stopLiveRefresh();
+    refreshTimer=setInterval(()=>{ if (document.querySelector('.operations-hq')) render(); },15000);
+  }
+
+  function stopLiveRefresh() {
+    if (refreshTimer) clearInterval(refreshTimer);
+    refreshTimer=null;
   }
 
   function shouldOpen(target) {
@@ -106,8 +153,10 @@
     if (!document.querySelector('link[data-operations-hq-css]')) {
       const link=document.createElement('link'); link.rel='stylesheet'; link.href='/admin/os/operations-hq.css'; link.dataset.operationsHqCss='true'; document.head.appendChild(link);
     }
-    $('#treeNav')?.addEventListener('click',event=>{ if(!shouldOpen(event.target)) return; event.stopImmediatePropagation(); render(); },true);
-    window.SavingioOperationsHQ=Object.freeze({collect,render});
+    $('#treeNav')?.addEventListener('click',event=>{ if(!shouldOpen(event.target)) return; event.stopImmediatePropagation(); render(); startLiveRefresh(); },true);
+    ['savingio:projects-changed','savingio:workflows-changed','savingio:automation-changed','savingio:github-status-changed','savingio:cloudflare-deploy-changed','savingio:url-health-changed','savingio:retry-changed','savingio:next-task-changed','savingio:automation-qa-completed','savingio:plugin-marketplace-qa-completed'].forEach(name => window.addEventListener(name,()=>{ if(document.querySelector('.operations-hq')) render(); }));
+    document.addEventListener('visibilitychange',()=>{ if(document.hidden) stopLiveRefresh(); else if(document.querySelector('.operations-hq')) startLiveRefresh(); });
+    window.SavingioOperationsHQ=Object.freeze({collect,render,startLiveRefresh,stopLiveRefresh});
     window.dispatchEvent(new CustomEvent('savingio:operations-hq-ready'));
   }
 
