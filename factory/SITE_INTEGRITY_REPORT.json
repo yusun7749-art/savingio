@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3196,
-  "references_scanned": 62730,
+  "files_scanned": 3197,
+  "references_scanned": 62732,
   "counts": {
-    "broken_references": 1768,
+    "broken_references": 1770,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -354,6 +354,24 @@
       "reference": "/assets/og/savingio-default.webp",
       "expected": [
         "assets/og/savingio-default.webp"
+      ]
+    },
+    {
+      "source": "admin/plugins/plugin-backup-restore.js",
+      "reference": "blob",
+      "expected": [
+        "admin/plugins/blob",
+        "admin/plugins/blob.html",
+        "admin/plugins/blob/index.html"
+      ]
+    },
+    {
+      "source": "admin/plugins/plugin-backup-restore.js",
+      "reference": "url",
+      "expected": [
+        "admin/plugins/url",
+        "admin/plugins/url.html",
+        "admin/plugins/url/index.html"
       ]
     },
     {
