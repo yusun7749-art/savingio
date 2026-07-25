@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3211,
-  "references_scanned": 62773,
+  "files_scanned": 3212,
+  "references_scanned": 62776,
   "counts": {
-    "broken_references": 1796,
+    "broken_references": 1799,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -433,6 +433,31 @@
         "admin/os/sync",
         "admin/os/sync.html",
         "admin/os/sync/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/operations-hq-qa.js",
+      "reference": "/admin/os/operations-hq-qa.css",
+      "expected": [
+        "admin/os/operations-hq-qa.css"
+      ]
+    },
+    {
+      "source": "admin/os/operations-hq-qa.js",
+      "reference": "blob",
+      "expected": [
+        "admin/os/blob",
+        "admin/os/blob.html",
+        "admin/os/blob/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/operations-hq-qa.js",
+      "reference": "url",
+      "expected": [
+        "admin/os/url",
+        "admin/os/url.html",
+        "admin/os/url/index.html"
       ]
     },
     {
