@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3239,
-  "references_scanned": 62799,
+  "files_scanned": 3240,
+  "references_scanned": 62803,
   "counts": {
-    "broken_references": 1810,
+    "broken_references": 1814,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -34,6 +34,42 @@
       "reference": "location.href",
       "expected": [
         "admin-v2/location.href"
+      ]
+    },
+    {
+      "source": "admin-v2/core/task-queue.js",
+      "reference": "advance",
+      "expected": [
+        "admin-v2/core/advance",
+        "admin-v2/core/advance.html",
+        "admin-v2/core/advance/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/core/task-queue.js",
+      "reference": "fail",
+      "expected": [
+        "admin-v2/core/fail",
+        "admin-v2/core/fail.html",
+        "admin-v2/core/fail/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/core/task-queue.js",
+      "reference": "retry",
+      "expected": [
+        "admin-v2/core/retry",
+        "admin-v2/core/retry.html",
+        "admin-v2/core/retry/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/core/task-queue.js",
+      "reference": "start",
+      "expected": [
+        "admin-v2/core/start",
+        "admin-v2/core/start.html",
+        "admin-v2/core/start/index.html"
       ]
     },
     {
