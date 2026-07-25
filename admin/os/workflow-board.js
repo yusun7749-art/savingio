@@ -9,6 +9,10 @@
     return workflow.stages.length ? Math.round(done / workflow.stages.length * 100) : 0;
   }
 
+  function currentStage(workflow) {
+    return workflow?.stages.find(stage => ['active','review','error','paused'].includes(stage.status)) || workflow?.stages.find(stage => stage.status === 'wait') || null;
+  }
+
   function renderList() {
     const workflows = window.SavingioWorkflow?.list() || [];
     return workflows.map(workflow => `<button class="workflow-list-item ${workflow.id === activeId ? 'active' : ''}" data-workflow-id="${esc(workflow.id)}"><span><strong>${esc(workflow.title)}</strong><small>${esc(workflow.category)} · ${progress(workflow)}%</small></span><span class="workflow-state">${esc(workflow.status === 'done' ? '완료' : workflow.status === 'paused' ? '중지' : '진행')}</span></button>`).join('') || '<div class="module-empty">등록된 워크플로가 없습니다.</div>';
@@ -18,18 +22,21 @@
     if (!workflow) return '<div class="module-empty">왼쪽에서 프로젝트를 선택해 주세요.</div>';
     const review = workflow.stages.some(stage => stage.status === 'review');
     const paused = workflow.status === 'paused';
+    const current = currentStage(workflow);
     return `<article class="workflow-detail">
       <header><div><p class="eyebrow">PROJECT WORKFLOW</p><h4>${esc(workflow.title)}</h4><p>${esc(workflow.category)} · ${progress(workflow)}% 완료</p></div><span class="workflow-progress"><i style="width:${progress(workflow)}%"></i></span></header>
-      <div class="workflow-stage-list">${workflow.stages.map((stage, index) => `<div class="workflow-stage ${esc(stage.status)}"><span class="workflow-stage-index">${index + 1}</span><div><strong>${esc(stage.name)}</strong><small>${esc(stage.moduleId)} · ${esc(labels()[stage.status] || stage.status)}</small></div><span class="workflow-stage-badge">${esc(labels()[stage.status] || stage.status)}</span></div>`).join('')}</div>
+      ${current ? `<section class="workflow-handoff"><div><small>현재 담당 본부</small><strong>${esc(current.name)}</strong><span>${esc(current.moduleId)} · ${esc(labels()[current.status] || current.status)}</span></div><button class="btn primary small" data-workflow-open-module="${esc(current.id)}">담당 본부 작업판 열기</button></section>` : ''}
+      <div class="workflow-stage-list">${workflow.stages.map((stage, index) => `<div class="workflow-stage ${esc(stage.status)}"><span class="workflow-stage-index">${index + 1}</span><div><strong>${esc(stage.name)}</strong><small>${esc(stage.moduleId)} · ${esc(labels()[stage.status] || stage.status)}</small></div><div class="workflow-stage-controls"><span class="workflow-stage-badge">${esc(labels()[stage.status] || stage.status)}</span>${stage.status !== 'done' ? `<button class="btn ghost small" data-stage-open="${esc(stage.id)}">열기</button>` : ''}</div></div>`).join('')}</div>
       <footer class="workflow-actions"><button class="btn ghost small" data-workflow-action="${paused ? 'resume' : 'pause'}">${paused ? '다시 시작' : '일시 중지'}</button>${review ? '<button class="btn primary small" data-workflow-action="approve">승인 후 다음 단계</button>' : '<button class="btn primary small" data-workflow-action="advance">현재 단계 완료·인계</button>'}</footer>
       <p id="workflowMessage" class="module-workspace-message"></p>
     </article>`;
   }
 
-  function render() {
+  function render(requestedId='') {
     const board = $('#departmentBoard');
     if (!board || !window.SavingioWorkflow) return;
     const workflows = window.SavingioWorkflow.list();
+    if (requestedId && workflows.some(item => item.id === requestedId)) activeId = requestedId;
     if (!activeId || !workflows.some(item => item.id === activeId)) activeId = workflows[0]?.id || '';
     const active = workflows.find(item => item.id === activeId) || null;
     board.innerHTML = `<section class="workflow-board"><header class="module-workspace-head"><div class="module-workspace-title"><span class="module-workspace-icon">⇢</span><div><h3>Workflow Engine</h3><p>시장분석부터 배포·성과분석까지 한 프로젝트를 본부 간 자동 인계합니다.</p></div></div><button class="btn primary small" data-workflow-new>+ 프로젝트 워크플로</button></header><div class="workflow-grid"><aside class="workflow-list">${renderList()}</aside><section>${renderDetail(active)}</section></div></section>`;
@@ -43,6 +50,24 @@
     message.className = `module-workspace-message ${type}`;
   }
 
+  function openStage(stageId) {
+    const workflow = window.SavingioWorkflow.get(activeId);
+    const stage = workflow?.stages.find(item => item.id === stageId);
+    if (!workflow || !stage || !window.SavingioModuleWorkspace?.open) {
+      setMessage('담당 본부 작업판을 열 수 없습니다.', 'warn');
+      return;
+    }
+    window.SavingioModuleWorkspace.open(stage.moduleId, {
+      workflowId:workflow.id,
+      projectId:workflow.projectId,
+      projectTitle:workflow.title,
+      category:workflow.category,
+      stageId:stage.id,
+      stageName:stage.name,
+      stageStatus:stage.status
+    });
+  }
+
   function bind() {
     document.querySelectorAll('[data-workflow-id]').forEach(button => button.onclick = () => { activeId = button.dataset.workflowId; render(); });
     $('[data-workflow-new]')?.addEventListener('click', () => {
@@ -51,6 +76,8 @@
       const workflow = window.SavingioWorkflow.create({ title:title.trim(), category:'미분류' });
       activeId = workflow.id; render(); setMessage('공통 워크플로를 생성하고 시장분석 단계부터 시작했습니다.');
     });
+    document.querySelectorAll('[data-stage-open]').forEach(button => button.onclick = () => openStage(button.dataset.stageOpen));
+    $('[data-workflow-open-module]')?.addEventListener('click', event => openStage(event.currentTarget.dataset.workflowOpenModule));
     document.querySelectorAll('[data-workflow-action]').forEach(button => button.onclick = () => {
       const action = button.dataset.workflowAction;
       if (!activeId) return;
@@ -76,6 +103,7 @@
       projects.forEach(project => { if (!workflows.some(item => item.projectId === project.id)) window.SavingioWorkflow.create({ projectId:project.id, title:project.title, category:project.category }); });
     }, 50));
     window.addEventListener('savingio:workflows-changed', () => { if (document.querySelector('.workflow-board')) render(); });
+    window.SavingioWorkflowBoard = Object.freeze({ render, openStage });
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
