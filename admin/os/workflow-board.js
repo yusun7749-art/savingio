@@ -27,11 +27,16 @@
     return '산출물';
   }
 
+  function approvalLabel(action) {
+    return action === 'approved' ? '승인' : action === 'rejected' ? '반려' : '승인 요청';
+  }
+
   function renderList() {
     const workflows = window.SavingioWorkflow?.list() || [];
     return workflows.map(workflow => {
       const outputCount = workflow.stages.reduce((sum, stage) => sum + stageOutputs(workflow.id, stage.id).length, 0);
-      return `<button class="workflow-list-item ${workflow.id === activeId ? 'active' : ''}" data-workflow-id="${esc(workflow.id)}"><span><strong>${esc(workflow.title)}</strong><small>${esc(workflow.category)} · ${progress(workflow)}% · 산출물 ${outputCount}개</small></span><span class="workflow-state">${esc(workflow.status === 'done' ? '완료' : workflow.status === 'paused' ? '중지' : '진행')}</span></button>`;
+      const approvalCount = Array.isArray(workflow.approvals) ? workflow.approvals.length : 0;
+      return `<button class="workflow-list-item ${workflow.id === activeId ? 'active' : ''}" data-workflow-id="${esc(workflow.id)}"><span><strong>${esc(workflow.title)}</strong><small>${esc(workflow.category)} · ${progress(workflow)}% · 산출물 ${outputCount}개 · 승인기록 ${approvalCount}개</small></span><span class="workflow-state">${esc(workflow.status === 'done' ? '완료' : workflow.status === 'paused' ? '중지' : workflow.status === 'error' ? '오류' : '진행')}</span></button>`;
     }).join('') || '<div class="module-empty">등록된 워크플로가 없습니다.</div>';
   }
 
@@ -39,6 +44,11 @@
     const outputs = stageOutputs(workflow.id, stage.id);
     if (!outputs.length) return `<div class="workflow-output-empty">연결된 산출물 없음</div>`;
     return `<div class="workflow-output-list">${outputs.map(item => `<article class="workflow-output-item"><span class="workflow-output-type">${esc(outputLabel(item))}</span><div><strong>${esc(item.title)}</strong><small>${esc(item.category || '미분류')} · ${esc(item.status || 'draft')} · ${new Date(item.updatedAt || Date.now()).toLocaleString('ko-KR')}</small></div></article>`).join('')}</div>`;
+  }
+
+  function renderApprovals(workflow) {
+    const approvals = Array.isArray(workflow.approvals) ? workflow.approvals : [];
+    return `<section class="workflow-approval-history"><header><div><p class="eyebrow">APPROVAL HISTORY</p><h5>승인 이력</h5></div><strong>${approvals.length}건</strong></header>${approvals.length ? `<div class="workflow-approval-list">${approvals.map(item => `<article class="workflow-approval-item ${esc(item.action)}"><span class="approval-dot"></span><div><strong>${esc(approvalLabel(item.action))} · ${esc(item.stageName)}</strong><small>${esc(item.actor)} · ${new Date(item.createdAt).toLocaleString('ko-KR')}</small>${item.note ? `<p>${esc(item.note)}</p>` : ''}</div></article>`).join('')}</div>` : '<div class="workflow-output-empty">아직 승인 이력이 없습니다.</div>'}</section>`;
   }
 
   function renderDetail(workflow) {
@@ -52,9 +62,10 @@
       ${current ? `<section class="workflow-handoff"><div><small>현재 담당 본부</small><strong>${esc(current.name)}</strong><span>${esc(current.moduleId)} · ${esc(labels()[current.status] || current.status)}</span></div><button class="btn primary small" data-workflow-open-module="${esc(current.id)}">담당 본부 작업판 열기</button></section>` : ''}
       <div class="workflow-stage-list">${workflow.stages.map((stage, index) => {
         const outputs = stageOutputs(workflow.id, stage.id);
-        return `<section class="workflow-stage-card"><div class="workflow-stage ${esc(stage.status)}"><span class="workflow-stage-index">${index + 1}</span><div><strong>${esc(stage.name)}</strong><small>${esc(stage.moduleId)} · ${esc(labels()[stage.status] || stage.status)} · 산출물 ${outputs.length}개</small></div><div class="workflow-stage-controls"><span class="workflow-stage-badge">${esc(labels()[stage.status] || stage.status)}</span>${stage.status !== 'done' ? `<button class="btn ghost small" data-stage-open="${esc(stage.id)}">열기</button>` : `<button class="btn ghost small" data-stage-open="${esc(stage.id)}">보기</button>`}</div></div>${renderOutputs(workflow, stage)}</section>`;
+        return `<section class="workflow-stage-card"><div class="workflow-stage ${esc(stage.status)}"><span class="workflow-stage-index">${index + 1}</span><div><strong>${esc(stage.name)}</strong><small>${esc(stage.moduleId)} · ${esc(labels()[stage.status] || stage.status)} · 산출물 ${outputs.length}개</small></div><div class="workflow-stage-controls"><span class="workflow-stage-badge">${esc(labels()[stage.status] || stage.status)}</span><button class="btn ghost small" data-stage-open="${esc(stage.id)}">${stage.status === 'done' ? '보기' : '열기'}</button></div></div>${renderOutputs(workflow, stage)}</section>`;
       }).join('')}</div>
-      <footer class="workflow-actions"><button class="btn ghost small" data-workflow-action="${paused ? 'resume' : 'pause'}">${paused ? '다시 시작' : '일시 중지'}</button>${review ? '<button class="btn primary small" data-workflow-action="approve">승인 후 다음 단계</button>' : '<button class="btn primary small" data-workflow-action="advance">현재 단계 완료·인계</button>'}</footer>
+      ${renderApprovals(workflow)}
+      <footer class="workflow-actions"><button class="btn ghost small" data-workflow-action="${paused ? 'resume' : 'pause'}">${paused ? '다시 시작' : '일시 중지'}</button>${review ? '<button class="btn danger small" data-workflow-action="reject">반려</button><button class="btn primary small" data-workflow-action="approve">승인 후 다음 단계</button>' : '<button class="btn primary small" data-workflow-action="advance">현재 단계 완료·인계</button>'}</footer>
       <p id="workflowMessage" class="module-workspace-message"></p>
     </article>`;
   }
@@ -66,7 +77,7 @@
     if (requestedId && workflows.some(item => item.id === requestedId)) activeId = requestedId;
     if (!activeId || !workflows.some(item => item.id === activeId)) activeId = workflows[0]?.id || '';
     const active = workflows.find(item => item.id === activeId) || null;
-    board.innerHTML = `<section class="workflow-board"><header class="module-workspace-head"><div class="module-workspace-title"><span class="module-workspace-icon">⇢</span><div><h3>Workflow Engine</h3><p>각 담당 본부에서 만든 산출물이 프로젝트와 단계별로 자동 연결됩니다.</p></div></div><button class="btn primary small" data-workflow-new>+ 프로젝트 워크플로</button></header><div class="workflow-grid"><aside class="workflow-list">${renderList()}</aside><section>${renderDetail(active)}</section></div></section>`;
+    board.innerHTML = `<section class="workflow-board"><header class="module-workspace-head"><div class="module-workspace-title"><span class="module-workspace-icon">⇢</span><div><h3>Workflow Engine</h3><p>산출물과 승인 요청·승인·반려 이력을 프로젝트별로 보존합니다.</p></div></div><button class="btn primary small" data-workflow-new>+ 프로젝트 워크플로</button></header><div class="workflow-grid"><aside class="workflow-list">${renderList()}</aside><section>${renderDetail(active)}</section></div></section>`;
     bind();
   }
 
@@ -80,19 +91,8 @@
   function openStage(stageId) {
     const workflow = window.SavingioWorkflow.get(activeId);
     const stage = workflow?.stages.find(item => item.id === stageId);
-    if (!workflow || !stage || !window.SavingioModuleWorkspace?.open) {
-      setMessage('담당 본부 작업판을 열 수 없습니다.', 'warn');
-      return;
-    }
-    window.SavingioModuleWorkspace.open(stage.moduleId, {
-      workflowId:workflow.id,
-      projectId:workflow.projectId,
-      projectTitle:workflow.title,
-      category:workflow.category,
-      stageId:stage.id,
-      stageName:stage.name,
-      stageStatus:stage.status
-    });
+    if (!workflow || !stage || !window.SavingioModuleWorkspace?.open) { setMessage('담당 본부 작업판을 열 수 없습니다.', 'warn'); return; }
+    window.SavingioModuleWorkspace.open(stage.moduleId, { workflowId:workflow.id, projectId:workflow.projectId, projectTitle:workflow.title, category:workflow.category, stageId:stage.id, stageName:stage.name, stageStatus:stage.status });
   }
 
   function bind() {
@@ -108,9 +108,19 @@
     document.querySelectorAll('[data-workflow-action]').forEach(button => button.onclick = () => {
       const action = button.dataset.workflowAction;
       if (!activeId) return;
-      const result = action === 'approve' ? window.SavingioWorkflow.approve(activeId) : action === 'pause' ? window.SavingioWorkflow.pause(activeId) : action === 'resume' ? window.SavingioWorkflow.resume(activeId) : window.SavingioWorkflow.advance(activeId);
+      let result = null;
+      if (action === 'approve') {
+        const note = prompt('승인 메모를 입력해 주세요.', '승인 완료') ?? '승인 완료';
+        result = window.SavingioWorkflow.approve(activeId, { actor:'선장님', note });
+      } else if (action === 'reject') {
+        const note = prompt('반려 사유를 입력해 주세요.', '수정 후 재검토 필요');
+        if (note === null) return;
+        result = window.SavingioWorkflow.reject(activeId, { actor:'선장님', note });
+      } else if (action === 'pause') result = window.SavingioWorkflow.pause(activeId);
+      else if (action === 'resume') result = window.SavingioWorkflow.resume(activeId);
+      else result = window.SavingioWorkflow.advance(activeId);
       render();
-      setMessage(result ? (action === 'approve' ? '승인 완료 후 다음 본부로 인계했습니다.' : action === 'pause' ? '워크플로를 일시 중지했습니다.' : action === 'resume' ? '워크플로를 다시 시작했습니다.' : '현재 단계를 완료하고 다음 본부로 인계했습니다.') : '워크플로를 처리하지 못했습니다.', result ? 'pass' : 'warn');
+      setMessage(result ? (action === 'approve' ? '승인 이력을 저장하고 다음 본부로 인계했습니다.' : action === 'reject' ? '반려 이력을 저장했습니다.' : action === 'pause' ? '워크플로를 일시 중지했습니다.' : action === 'resume' ? '워크플로를 다시 시작했습니다.' : '현재 단계를 완료하고 다음 본부로 인계했습니다.') : '워크플로를 처리하지 못했습니다.', result ? 'pass' : 'warn');
     });
   }
 
