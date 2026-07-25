@@ -128,6 +128,7 @@
     loadScript('/admin/os/plugin-security-engine.js', 'data-plugin-security-engine', () => Boolean(window.SavingioPluginSecurity));
     loadScript('/admin/os/plugin-ui-engine.js', 'data-plugin-ui-engine', () => Boolean(window.SavingioPluginUI));
     loadScript('/admin/plugins/calculator-plugin.js', 'data-calculator-plugin', () => Boolean(window.SavingioCalculatorPlugin));
+    loadScript('/admin/plugins/psychology-test-plugin.js', 'data-psychology-test-plugin', () => Boolean(window.SavingioPsychologyTestPlugin));
   }
 
   function boot() {
