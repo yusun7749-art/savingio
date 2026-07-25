@@ -16,6 +16,29 @@
     return [...new Set(String(value || '').split(',').map(item => item.trim()).filter(Boolean))];
   }
 
+  function loadScript(src) {
+    if ([...document.scripts].some(script => script.src.endsWith(src))) return Promise.resolve();
+    return new Promise((resolve, reject) => {
+      const script = document.createElement('script');
+      script.src = src;
+      script.onload = resolve;
+      script.onerror = () => reject(new Error(`${src} 로딩 실패`));
+      document.head.appendChild(script);
+    });
+  }
+
+  async function ensureModuleOS() {
+    try {
+      if (!window.SAVINGIO_MODULE_REGISTRY) await loadScript('/admin/os/module-registry.js');
+      if (!window.SavingioOS?.modules) await loadScript('/admin/os/module-engine.js');
+      if (!window.SavingioModuleWorkspace) await loadScript('/admin/os/module-workspace.js');
+      return true;
+    } catch (error) {
+      console.error('[Savingio Project] Module OS load failed:', error);
+      return false;
+    }
+  }
+
   function legacyProject(project, workflow) {
     return {
       id:project.id,
@@ -101,11 +124,15 @@
     }, 450);
   }
 
-  function boot() {
+  async function boot() {
+    await ensureModuleOS();
     const form = $('#projectForm');
     if (!form) return;
     form.addEventListener('submit', handleSubmit, true);
-    window.SavingioProjectCreate = Object.freeze({ open(){ $('#projectDialog')?.showModal(); } });
+    window.SavingioProjectCreate = Object.freeze({
+      open(){ $('#projectDialog')?.showModal(); },
+      ensureModuleOS
+    });
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);
