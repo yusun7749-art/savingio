@@ -141,6 +141,7 @@
     loadScript('/admin/plugins/plugin-dependency-manager.js', 'data-plugin-dependency-manager', () => Boolean(window.SavingioPluginDependency));
     loadScript('/admin/plugins/plugin-auto-update.js', 'data-plugin-auto-update', () => Boolean(window.SavingioPluginAutoUpdate));
     loadScript('/admin/plugins/plugin-integrity-engine.js', 'data-plugin-integrity-engine', () => Boolean(window.SavingioPluginIntegrity));
+    loadScript('/admin/plugins/plugin-marketplace-qa.js', 'data-plugin-marketplace-qa', () => Boolean(window.SavingioPluginMarketplaceQA));
   }
 
   function boot() {
