@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3203,
-  "references_scanned": 62741,
+  "references_scanned": 62744,
   "counts": {
-    "broken_references": 1772,
+    "broken_references": 1775,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -256,6 +256,22 @@
     },
     {
       "source": "admin/os/operations-hq.js",
+      "reference": "${esc(item.url)}",
+      "expected": [
+        "admin/os/${esc(item.url)}"
+      ]
+    },
+    {
+      "source": "admin/os/operations-hq.js",
+      "reference": "check-urls",
+      "expected": [
+        "admin/os/check-urls",
+        "admin/os/check-urls.html",
+        "admin/os/check-urls/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/operations-hq.js",
       "reference": "refresh",
       "expected": [
         "admin/os/refresh",
@@ -270,6 +286,15 @@
         "admin/os/run-qa",
         "admin/os/run-qa.html",
         "admin/os/run-qa/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/operations-hq.js",
+      "reference": "scan-chain",
+      "expected": [
+        "admin/os/scan-chain",
+        "admin/os/scan-chain.html",
+        "admin/os/scan-chain/index.html"
       ]
     },
     {
