@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3169,
-  "references_scanned": 62668,
+  "files_scanned": 3170,
+  "references_scanned": 62671,
   "counts": {
-    "broken_references": 1753,
+    "broken_references": 1756,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -247,6 +247,31 @@
     },
     {
       "source": "admin/os/module-workspace.js",
+      "reference": "workflow",
+      "expected": [
+        "admin/os/workflow",
+        "admin/os/workflow.html",
+        "admin/os/workflow/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/project-detail.js",
+      "reference": "/admin/os/project-detail.css",
+      "expected": [
+        "admin/os/project-detail.css"
+      ]
+    },
+    {
+      "source": "admin/os/project-detail.js",
+      "reference": "refresh",
+      "expected": [
+        "admin/os/refresh",
+        "admin/os/refresh.html",
+        "admin/os/refresh/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/project-detail.js",
       "reference": "workflow",
       "expected": [
         "admin/os/workflow",
