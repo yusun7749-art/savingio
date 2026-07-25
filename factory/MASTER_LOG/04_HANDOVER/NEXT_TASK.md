@@ -2,16 +2,26 @@
 
 다음 대화에서 검증 없이 추측하지 않고 바로 이어갈 작업만 기록합니다.
 
+## 고정 작업표
+
+- 관리자 OS 작업 시작 전 `factory/MASTER_LOG/SAVINGIO_OS_WORKBOARD.md`를 반드시 읽는다.
+- 완료 항목은 삭제하지 않고 `[x]`로 유지한다.
+- 진행 중 항목은 `[~]`, 보류는 `[-]`, 수정 필요는 `[!]`로 표시한다.
+- 새 요청은 기존 진행선을 지우지 않고 작업표 아래에 추가한다.
+- 다른 요청을 마친 뒤 마지막 `[~]` 항목으로 복귀한다.
+
 ## 현재 선택된 작업선 — Savingio Admin OS
 
-1. `factory/MASTER_LOG/MASTER_LOG_ADMIN_OS_CURRENT.md`를 먼저 읽는다.
-2. GitHub `main`의 `admin/os/workflow-engine.js`, `workflow-board.js`, `workflow-board.css`와 관리자 로딩 연결을 확인한다.
-3. Cloudflare Production의 `/admin/`에서 자동화센터 → 워크플로 관리 화면을 실제 확인한다.
-4. 샘플 프로젝트 표시, 진행률, 현재 단계 완료·인계, 승인 후 다음 단계, 일시 중지·재시작을 클릭 검증한다.
-5. 새 프로젝트 생성 후 공통 워크플로 자동 생성 여부를 검증한다.
-6. 실제 화면·버튼 검증 전에는 Workflow Engine을 최종 PASS 처리하지 않는다.
-7. 검증 후 Phase 2-02: 산출물 ID, 담당 본부, 승인 이력, 실행 로그, 실패 원인, 재실행 지점을 공통 규격으로 연결한다.
-8. 다음 Phase는 Project Engine이며 글·이미지·쇼츠·상품·SNS를 하나의 프로젝트 ID 아래 묶는다.
+1. `factory/MASTER_LOG/MASTER_LOG_ADMIN_OS_CURRENT.md`를 읽는다.
+2. `factory/MASTER_LOG/SAVINGIO_OS_WORKBOARD.md`에서 현재 위치를 확인한다.
+3. 현재 진행 위치는 `Phase 2-03 Workflow 실제 관리자 화면 검증`이다.
+4. GitHub `main`의 `admin/os/workflow-engine.js`, `workflow-board.js`, `workflow-board.css`와 관리자 로딩 연결을 확인한다.
+5. Cloudflare Production의 `/admin/`에서 자동화센터 → 워크플로 관리 화면을 실제 확인한다.
+6. 샘플 프로젝트 표시, 진행률, 현재 단계 완료·인계, 승인 후 다음 단계, 일시 중지·재시작을 클릭 검증한다.
+7. 새 프로젝트 생성 후 공통 워크플로 자동 생성 여부를 검증한다.
+8. 실제 화면·버튼 검증 전에는 Workflow Engine을 최종 PASS 처리하지 않는다.
+9. 검증 후 작업표의 2-03을 `[x]`로 바꾸고 2-04를 `[~]`로 변경한다.
+10. 다음 구현은 단계별 담당 본부 연결 → 산출물 연결 → 승인 이력 → 실행 로그 순서다.
 
 ## 기존 콘텐츠 작업선 — 보류 유지
 
@@ -37,6 +47,6 @@
 - 대표 이미지 `/images/articles/car-insurance-child-discount.svg` 유지
 - 목차·비교표·단계·체크리스트·FAQ·관련 글·할인율 계산기 연결 적용
 - 긴 문제 해결 링크 나열 제거
-- 구현 커밋: `60834175545f1517ccba730a8600fac31112d476`
+- 구현 커밋: `60834175545f15117ccba730a8600fac31112d476`
 - QA 문서: `factory/QA_V3_031.json`
 - Production 검증: PENDING
