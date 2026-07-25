@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3219,
-  "references_scanned": 62784,
+  "files_scanned": 3220,
+  "references_scanned": 62786,
   "counts": {
-    "broken_references": 1799,
+    "broken_references": 1801,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -198,6 +198,24 @@
         "admin/os/view",
         "admin/os/view.html",
         "admin/os/view/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/admin-hq-state-manager.js",
+      "reference": "blob",
+      "expected": [
+        "admin/os/blob",
+        "admin/os/blob.html",
+        "admin/os/blob/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/admin-hq-state-manager.js",
+      "reference": "url",
+      "expected": [
+        "admin/os/url",
+        "admin/os/url.html",
+        "admin/os/url/index.html"
       ]
     },
     {
