@@ -281,11 +281,11 @@
     },
     {
       "source": "admin/os/operations-hq.js",
-      "reference": "run-qa",
+      "reference": "run-all-qa",
       "expected": [
-        "admin/os/run-qa",
-        "admin/os/run-qa.html",
-        "admin/os/run-qa/index.html"
+        "admin/os/run-all-qa",
+        "admin/os/run-all-qa.html",
+        "admin/os/run-all-qa/index.html"
       ]
     },
     {
