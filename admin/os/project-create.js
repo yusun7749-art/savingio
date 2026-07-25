@@ -120,6 +120,7 @@
     loadScript('/admin/os/cloudflare-deploy-engine.js', 'data-cloudflare-deploy-engine', () => Boolean(window.SavingioCloudflareDeploy));
     loadScript('/admin/os/url-health-engine.js', 'data-url-health-engine', () => Boolean(window.SavingioUrlHealth));
     loadScript('/admin/os/retry-engine.js', 'data-retry-engine', () => Boolean(window.SavingioRetry));
+    loadScript('/admin/os/next-task-engine.js', 'data-next-task-engine', () => Boolean(window.SavingioNextTask));
   }
 
   function boot() {
