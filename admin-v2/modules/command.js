@@ -11,6 +11,7 @@
   const MODULE_IDS=Object.freeze(['command-home','command-progress','command-today','command-approval','command-error','command-revenue']);
   const STAGE_LABELS=Object.freeze({content:'콘텐츠',seo:'SEO',image:'이미지',qa:'QA',deploy:'배포',analytics:'분석',revenue:'수익'});
   const STATUS_LABELS=Object.freeze({pending:'대기',running:'진행 중',done:'완료',error:'오류'});
+  const TYPE_LABELS=Object.freeze({'new-content':'새 콘텐츠','content-update':'기존 콘텐츠 수정','seo-recheck':'SEO 재검사','urgent-fix':'긴급 수정'});
   const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const metric=(label,value,action='')=>`<article class="metric"${action?` data-route="${esc(action)}" role="button" tabindex="0"`:''}><span>${esc(label)}</span><strong>${esc(value)}</strong>${action?'<small>상세 보기 →</small>':''}</article>`;
 
@@ -28,10 +29,10 @@
 
   function workflowCards(list){
     if(!list.length)return '<div class="panel empty">등록된 워크플로가 없습니다.</div>';
-    return `<div class="project-list">${list.map(job=>{const index=workflow.flow.indexOf(job.stage);const progress=job.status==='done'?100:Math.round((index+(job.status==='running'?0.5:0))/workflow.flow.length*100);return `<article class="project-card"><div class="project-top"><div><div class="project-title">${esc(job.title)}</div><div class="meta">${esc(job.projectId||job.id)} · 현재 부서 ${esc(STAGE_LABELS[job.stage])}</div></div><span class="status ${esc(job.status)}">${esc(STATUS_LABELS[job.status])}</span></div><div class="progress"><i style="width:${progress}%"></i></div><div class="meta">전체 진행률 ${progress}% · ${esc(job.updatedAt)}</div><div class="header-actions">${workflowButtons(job)}</div></article>`;}).join('')}</div>`;
+    return `<div class="project-list">${list.map(job=>{const index=workflow.flow.indexOf(job.stage);const progress=job.status==='done'?100:Math.round((index+(job.status==='running'?0.5:0))/workflow.flow.length*100);return `<article class="project-card"><div class="project-top"><div><div class="project-title">${esc(job.title)}</div><div class="meta">${esc(job.projectId||job.id)} · ${esc(TYPE_LABELS[job.type]||job.type)} · 현재 부서 ${esc(STAGE_LABELS[job.stage])}</div></div><span class="status ${esc(job.status)}">${job.priority==='urgent'?'긴급 · ':''}${esc(STATUS_LABELS[job.status])}</span></div><div class="progress"><i style="width:${progress}%"></i></div><div class="meta">전체 진행률 ${progress}% · ${esc(job.updatedAt)}</div><div class="header-actions">${workflowButtons(job)}</div></article>`;}).join('')}</div>`;
   }
 
-  const creationPanel=()=>`<section class="panel"><h3>새 운영 작업 생성</h3><form id="workflowCreateForm"><div class="connection-list"><label><span>작업 제목</span><input name="title" required maxlength="120" placeholder="예: 전기요금 절약 글 신규 제작"></label><label><span>프로젝트 ID 또는 URL</span><input name="projectId" maxlength="160" placeholder="예: electricity-bill-saving"></label><label><span>작업 유형</span><select name="type"><option value="new">새 콘텐츠</option><option value="rewrite">기존 콘텐츠 수정</option><option value="seo">SEO 재검사</option><option value="urgent">긴급 수정</option></select></label></div><div class="header-actions"><button class="button" type="submit">워크플로 생성</button></div></form></section>`;
+  const creationPanel=()=>`<section class="panel"><h3>새 운영 작업 생성</h3><form id="workflowCreateForm"><div class="connection-list"><label><span>작업 제목</span><input name="title" required maxlength="120" placeholder="예: 전기요금 절약 글 신규 제작"></label><label><span>프로젝트 ID 또는 URL</span><input name="projectId" maxlength="160" placeholder="예: electricity-bill-saving"></label><label><span>작업 유형</span><select name="type"><option value="new-content">새 콘텐츠</option><option value="content-update">기존 콘텐츠 수정</option><option value="seo-recheck">SEO 재검사</option><option value="urgent-fix">긴급 수정</option></select></label></div><div class="header-actions"><button class="button" type="submit">워크플로 생성</button></div></form></section>`;
   const view=(eyebrow,title,description,body)=>`<section class="view" data-module-root data-module="${MODULE_NAME}"><header class="hero"><p>${esc(eyebrow)}</p><h2>${esc(title)}</h2><p>${esc(description)}</p></header>${body}</section>`;
   const snapshot=()=>{const list=store.read();return Object.freeze({list,summary:store.summary(list)});};
   const workflowSnapshot=()=>Object.freeze({list:workflow.readAll(),summary:workflow.summary()});
@@ -58,9 +59,9 @@
 
   function handleCreate(form){
     const data=new FormData(form);
-    const type=String(data.get('type')||'new');
-    const prefixes={new:'[신규]',rewrite:'[수정]',seo:'[SEO]',urgent:'[긴급]'};
-    return workflow.create({title:`${prefixes[type]||'[작업]'} ${String(data.get('title')||'').trim()}`,projectId:String(data.get('projectId')||'').trim()});
+    const type=String(data.get('type')||'new-content');
+    const prefixes={'new-content':'[신규]','content-update':'[수정]','seo-recheck':'[SEO]','urgent-fix':'[긴급]'};
+    return workflow.create({title:`${prefixes[type]||'[작업]'} ${String(data.get('title')||'').trim()}`,projectId:String(data.get('projectId')||'').trim(),type,priority:type==='urgent-fix'?'urgent':'normal'});
   }
 
   function verify(){
