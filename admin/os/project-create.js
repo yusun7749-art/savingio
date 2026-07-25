@@ -134,6 +134,7 @@
     loadScript('/admin/plugins/coupon-affiliate-plugin.js', 'data-coupon-affiliate-plugin', () => Boolean(window.SavingioCouponAffiliatePlugin));
     loadScript('/admin/plugins/digital-product-plugin.js', 'data-digital-product-plugin', () => Boolean(window.SavingioDigitalProductPlugin));
     loadScript('/admin/plugins/plugin-store-qa.js', 'data-plugin-store-qa', () => Boolean(window.SavingioPluginStoreQA));
+    loadScript('/admin/plugins/plugin-marketplace.js', 'data-plugin-marketplace', () => Boolean(window.SavingioPluginMarketplace));
   }
 
   function boot() {
