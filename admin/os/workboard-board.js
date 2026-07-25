@@ -5,7 +5,7 @@
   const workboard = {
     updated: '2026-07-25',
     currentPhase: 'Phase 6 — Plugin Marketplace',
-    currentTask: '6-01 Plugin Marketplace',
+    currentTask: '6-02 Plugin 설치·업데이트 UI',
     phases: [
       { id:'phase-1', title:'Phase 1 — Module OS Foundation', tasks:[
         ['1-01','Module Registry 구축','done'],['1-02','Module Engine 구축','done'],['1-03','Module Workspace 구축','done'],['1-04','Module Manager 구축','done'],['1-05','관리자 페이지 로딩 연결','done']
@@ -23,7 +23,7 @@
         ['5-01','Plugin Manifest 규격','done'],['5-02','Plugin 설치·제거','done'],['5-03','메뉴·작업판 자동 생성','done'],['5-04','권한·데이터 격리','done'],['5-05','계산기 Plugin','done'],['5-06','심리테스트 Plugin','done'],['5-07','게임 Plugin','done'],['5-08','이미지 스토어 Plugin','done'],['5-09','쿠폰·제휴 Plugin','done'],['5-10','전자책·디지털 상품 Plugin','done'],['5-11','Plugin Store QA','done']
       ]},
       { id:'phase-6', title:'Phase 6 — Plugin Marketplace', tasks:[
-        ['6-01','Plugin Marketplace','active'],['6-02','Plugin 설치·업데이트 UI','todo'],['6-03','Plugin 설정 페이지','todo'],['6-04','Plugin 백업·복원','todo'],['6-05','Plugin 의존성 관리','todo'],['6-06','Plugin 자동 업데이트','todo'],['6-07','Plugin 서명·무결성 검사','todo'],['6-08','Plugin Marketplace QA','todo']
+        ['6-01','Plugin Marketplace','done'],['6-02','Plugin 설치·업데이트 UI','active'],['6-03','Plugin 설정 페이지','todo'],['6-04','Plugin 백업·복원','todo'],['6-05','Plugin 의존성 관리','todo'],['6-06','Plugin 자동 업데이트','todo'],['6-07','Plugin 서명·무결성 검사','todo'],['6-08','Plugin Marketplace QA','todo']
       ]}
     ],
     duplicateRules: ['같은 작업명','이름만 다르고 목적이 같은 작업','같은 화면·파일을 수정하는 작업','이미 완료된 작업의 재검증','기존 작업의 하위 단계']
