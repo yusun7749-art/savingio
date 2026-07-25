@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3215,
-  "references_scanned": 62779,
+  "files_scanned": 3216,
+  "references_scanned": 62780,
   "counts": {
-    "broken_references": 1798,
+    "broken_references": 1799,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -189,6 +189,13 @@
       "reference": "${esc(i.path)}",
       "expected": [
         "admin/${esc(i.path)}"
+      ]
+    },
+    {
+      "source": "admin/os/admin-hq-router.js",
+      "reference": "/admin/os/admin-hq-router.css",
+      "expected": [
+        "admin/os/admin-hq-router.css"
       ]
     },
     {
