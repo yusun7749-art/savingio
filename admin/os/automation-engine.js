@@ -36,6 +36,11 @@
       title:String(input.title || 'GitHub 반영 작업'),
       repository:String(input.repository || 'yusun7749-art/savingio'),
       branch:String(input.branch || 'main'),
+      commitSha:String(input.commitSha || ''),
+      commitUrl:String(input.commitUrl || ''),
+      githubState:String(input.githubState || 'unknown'),
+      githubChecks:Array.isArray(input.githubChecks) ? input.githubChecks : [],
+      lastCheckedAt:input.lastCheckedAt || null,
       payload:input.payload && typeof input.payload === 'object' ? input.payload : {},
       attempts:Number(input.attempts || 0),
       createdAt,
@@ -54,6 +59,21 @@
     else jobs.unshift(normalized);
     write(jobs, { action:index >= 0 ? 'updated' : 'created', job:normalized });
     return clone(normalized);
+  }
+
+  function update(id, patch={}) {
+    const current = read().map(normalize).find(item => item.id === String(id));
+    if (!current) return null;
+    const next = save({
+      ...current,
+      ...patch,
+      id:current.id,
+      attempts:patch.status === 'running' && current.status !== 'running' ? current.attempts + 1 : (patch.attempts ?? current.attempts),
+      startedAt:patch.status === 'running' && !current.startedAt ? now() : (patch.startedAt ?? current.startedAt),
+      completedAt:['success','error','cancelled'].includes(patch.status) ? now() : (patch.completedAt ?? current.completedAt)
+    });
+    window.dispatchEvent(new CustomEvent('savingio:automation-job-status', { detail:{ job:clone(next) } }));
+    return next;
   }
 
   function approvedItems(workflow) {
@@ -122,16 +142,13 @@
     return { created, jobs:read().map(normalize) };
   }
 
-  function onWorkflowChanged() {
-    scan();
-  }
-
   function boot() {
-    window.addEventListener('savingio:workflows-changed', onWorkflowChanged);
+    window.addEventListener('savingio:workflows-changed', scan);
     window.SavingioAutomation = Object.freeze({
       list:() => clone(read().map(normalize)),
       get:id => clone(read().map(normalize).find(item => item.id === String(id)) || null),
       create:input => save(input),
+      update,
       createFromApproval,
       scan,
       reset:() => { localStorage.removeItem(STORAGE_KEY); return []; }
