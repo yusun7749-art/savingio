@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3164,
-  "references_scanned": 62657,
+  "files_scanned": 3165,
+  "references_scanned": 62658,
   "counts": {
-    "broken_references": 1750,
+    "broken_references": 1751,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -234,6 +234,13 @@
         "admin/os/settings",
         "admin/os/settings.html",
         "admin/os/settings/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/workboard-board.js",
+      "reference": "/admin/os/workboard-board.css",
+      "expected": [
+        "admin/os/workboard-board.css"
       ]
     },
     {
