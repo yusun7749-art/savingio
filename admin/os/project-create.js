@@ -122,6 +122,7 @@
     loadScript('/admin/os/retry-engine.js', 'data-retry-engine', () => Boolean(window.SavingioRetry));
     loadScript('/admin/os/next-task-engine.js', 'data-next-task-engine', () => Boolean(window.SavingioNextTask));
     loadScript('/admin/os/automation-controller.js', 'data-automation-controller', () => Boolean(window.SavingioAutomationController));
+    loadScript('/admin/os/automation-qa-engine.js', 'data-automation-qa-engine', () => Boolean(window.SavingioAutomationQA));
   }
 
   function boot() {
