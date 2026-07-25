@@ -2,7 +2,7 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3222,
-  "references_scanned": 62791,
+  "references_scanned": 62779,
   "counts": {
     "broken_references": 1803,
     "malformed_redirects": 0,
@@ -12879,7 +12879,7 @@
   "broken_redirect_targets": [
     {
       "file": "_redirects",
-      "line": 21,
+      "line": 24,
       "target": "/articles/energy-voucher-application.html"
     }
   ],
