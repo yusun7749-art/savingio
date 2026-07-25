@@ -102,16 +102,21 @@
     }, 450);
   }
 
-  function loadProjectWorkflowBridge() {
-    if (window.SavingioProjectWorkflow || document.querySelector('script[data-project-workflow-bridge]')) return;
+  function loadScript(src, marker, ready) {
+    if (ready() || document.querySelector(`script[${marker}]`)) return;
     const script = document.createElement('script');
-    script.src = '/admin/os/project-workflow-bridge.js';
-    script.dataset.projectWorkflowBridge = 'true';
+    script.src = src;
+    script.setAttribute(marker, 'true');
     document.body.appendChild(script);
   }
 
+  function loadProjectModules() {
+    loadScript('/admin/os/project-workflow-bridge.js', 'data-project-workflow-bridge', () => Boolean(window.SavingioProjectWorkflow));
+    loadScript('/admin/os/project-detail.js', 'data-project-detail', () => Boolean(window.SavingioProjectDetail));
+  }
+
   function boot() {
-    loadProjectWorkflowBridge();
+    loadProjectModules();
     const form = $('#projectForm');
     if (!form) return;
     form.addEventListener('submit', handleSubmit, true);
