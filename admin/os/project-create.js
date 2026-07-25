@@ -124,6 +124,7 @@
     loadScript('/admin/os/automation-controller.js', 'data-automation-controller', () => Boolean(window.SavingioAutomationController));
     loadScript('/admin/os/automation-qa-engine.js', 'data-automation-qa-engine', () => Boolean(window.SavingioAutomationQA));
     loadScript('/admin/os/operations-hq.js', 'data-operations-hq', () => Boolean(window.SavingioOperationsHQ));
+    loadScript('/admin/os/operations-error-center.js', 'data-operations-error-center', () => Boolean(window.SavingioOperationsErrorCenter));
     loadScript('/admin/os/plugin-manifest.js', 'data-plugin-manifest', () => Boolean(window.SavingioPluginManifest));
     loadScript('/admin/os/plugin-manager.js', 'data-plugin-manager', () => Boolean(window.SavingioPluginManager));
     loadScript('/admin/os/plugin-security-engine.js', 'data-plugin-security-engine', () => Boolean(window.SavingioPluginSecurity));
