@@ -4,7 +4,8 @@
   const registry=window.SavingioV2Modules;
   const store=window.SavingioV2ProjectStore;
   const workflow=window.SavingioV2WorkflowEngine;
-  if(!registry||!store||!workflow)throw new Error('Admin V2 Command Center dependencies are not loaded');
+  const pipeline=window.SavingioV2PipelineEngine;
+  if(!registry||!store||!workflow||!pipeline)throw new Error('Admin V2 Command Center dependencies are not loaded');
   if(window.SavingioV2CommandCenter)throw new Error('Admin V2 Command Center already exists');
 
   const MODULE_NAME='command-center';
@@ -23,16 +24,17 @@
   }
 
   function workflowButtons(job){
-    if(job.approvalStatus==='pending')return '<span class="status pending">승인 대기</span>';
-    if(job.status==='pending')return `<button class="button" type="button" data-workflow-action="start" data-workflow-id="${esc(job.id)}">작업 시작</button>`;
-    if(job.status==='running')return `<button class="button" type="button" data-workflow-action="advance" data-workflow-id="${esc(job.id)}">현재 단계 완료</button><button class="button secondary" type="button" data-workflow-action="fail" data-workflow-id="${esc(job.id)}">오류 처리</button>`;
+    const oneClick=job.status!=='done'&&job.status!=='error'?`<button class="button secondary" type="button" data-workflow-action="one-click" data-workflow-id="${esc(job.id)}">원클릭 진행</button>`:'';
+    if(job.approvalStatus==='pending')return `${oneClick}<span class="status pending">승인 대기</span>`;
+    if(job.status==='pending')return `<button class="button" type="button" data-workflow-action="start" data-workflow-id="${esc(job.id)}">작업 시작</button>${oneClick}`;
+    if(job.status==='running')return `<button class="button" type="button" data-workflow-action="advance" data-workflow-id="${esc(job.id)}">현재 단계 완료</button>${oneClick}<button class="button secondary" type="button" data-workflow-action="fail" data-workflow-id="${esc(job.id)}">오류 처리</button>`;
     if(job.status==='error')return `<button class="button" type="button" data-workflow-action="retry" data-workflow-id="${esc(job.id)}">재시도</button>`;
     return '<span class="status done">완료</span>';
   }
 
   function workflowCards(list){
     if(!list.length)return '<div class="panel empty">등록된 워크플로가 없습니다.</div>';
-    return `<div class="project-list">${list.map(job=>{const index=workflow.flow.indexOf(job.stage);const progress=job.status==='done'?100:Math.round((index+(job.status==='running'?0.5:0))/workflow.flow.length*100);return `<article class="project-card"><div class="project-top"><div><div class="project-title">${esc(job.title)}</div><div class="meta">${esc(job.projectId||job.id)} · ${esc(TYPE_LABELS[job.type]||job.type)} · 현재 부서 ${esc(STAGE_LABELS[job.stage])}</div></div><span class="status ${esc(job.status)}">${job.priority==='urgent'?'긴급 · ':''}${esc(STATUS_LABELS[job.status])}</span></div><div class="progress"><i style="width:${progress}%"></i></div><div class="meta">전체 진행률 ${progress}% · ${esc(job.updatedAt)}</div><div class="header-actions">${workflowButtons(job)}</div></article>`;}).join('')}</div>`;
+    return `<div class="project-list">${list.map(job=>{const index=workflow.flow.indexOf(job.stage);const progress=job.status==='done'?100:Math.round((index+(job.status==='running'?0.5:0))/workflow.flow.length*100);const gate=pipeline.gate(job);return `<article class="project-card"><div class="project-top"><div><div class="project-title">${esc(job.title)}</div><div class="meta">${esc(job.projectId||job.id)} · ${esc(TYPE_LABELS[job.type]||job.type)} · 현재 부서 ${esc(STAGE_LABELS[job.stage])}</div></div><span class="status ${esc(job.status)}">${job.priority==='urgent'?'긴급 · ':''}${esc(STATUS_LABELS[job.status])}</span></div><div class="progress"><i style="width:${progress}%"></i></div><div class="meta">전체 진행률 ${progress}% · ${esc(job.updatedAt)} · 원클릭 게이트: ${esc(gate.label)}</div><div class="header-actions">${workflowButtons(job)}</div></article>`;}).join('')}</div>`;
   }
 
   function approvalCards(list){
@@ -45,14 +47,15 @@
     return `<div class="connection-list">${list.map(job=>`<div><span>${esc(job.title)}<small class="meta">${esc(time(job.approvalResolvedAt||job.updatedAt))}</small></span><strong>${esc(APPROVAL_LABELS[job.approvalStatus])}</strong></div>`).join('')}</div>`;
   }
 
-  const creationPanel=()=>`<section class="panel"><h3>새 운영 작업 생성</h3><form id="workflowCreateForm"><div class="connection-list"><label><span>작업 제목</span><input name="title" required maxlength="120" placeholder="예: 전기요금 절약 글 신규 제작"></label><label><span>프로젝트 ID 또는 URL</span><input name="projectId" maxlength="160" placeholder="예: electricity-bill-saving"></label><label><span>작업 유형</span><select name="type"><option value="new-content">새 콘텐츠</option><option value="content-update">기존 콘텐츠 수정</option><option value="seo-recheck">SEO 재검사</option><option value="urgent-fix">긴급 수정</option></select></label></div><div class="header-actions"><button class="button" type="submit">워크플로 생성</button></div></form></section>`;
+  const creationPanel=()=>`<section class="panel"><h3>새 운영 작업 생성</h3><form id="workflowCreateForm"><div class="connection-list"><label><span>작업 제목</span><input name="title" required maxlength="120" placeholder="예: 전기요금 절약 글 신규 제작"></label><label><span>프로젝트 ID 또는 URL</span><input name="projectId" maxlength="160" placeholder="예: electricity-bill-saving"></label><label><span>작업 유형</span><select name="type"><option value="new-content">새 콘텐츠</option><option value="content-update">기존 콘텐츠 수정</option><option value="seo-recheck">SEO 재검사</option><option value="urgent-fix">긴급 수정</option></select></label></div><div class="header-actions"><button class="button" type="submit">워크플로 생성</button><button class="button secondary" type="button" data-pipeline-action="run-all">전체 원클릭 진행</button></div></form></section>`;
+  const pipelinePanel=()=>{const s=pipeline.summary();return `<section class="panel"><h3>One-Click Pipeline</h3><div class="metrics">${metric('자동 진행 가능',`${s.autoReady}건`)}${metric('승인 대기',`${s.approval}건`)}${metric('배포 검증',`${s.deploy}건`)}${metric('분석 확인',`${s.analytics}건`)}${metric('수익 확인',`${s.revenue}건`)}${metric('완료',`${s.done}건`)}</div><div class="connection-list"><div><span>자동 처리 범위</span><strong>콘텐츠 → SEO → 이미지 → QA</strong></div><div><span>자동 중지 지점</span><strong>승인·외부 데이터·실제 배포 검증</strong></div><div><span>안전 원칙</span><strong>외부 결과 자동 조작 금지</strong></div></div></section>`;};
   const view=(eyebrow,title,description,body)=>`<section class="view" data-module-root data-module="${MODULE_NAME}"><header class="hero"><p>${esc(eyebrow)}</p><h2>${esc(title)}</h2><p>${esc(description)}</p></header>${body}</section>`;
   const snapshot=()=>{const list=store.read();return Object.freeze({list,summary:store.summary(list)});};
   const workflowSnapshot=()=>Object.freeze({list:workflow.readAll(),summary:workflow.summary()});
 
   const modules=[
-    {id:'command-home',title:'통합 상황실',render(){const {list,summary:s}=snapshot();const wf=workflowSnapshot();return view('COMMAND CENTER','통합 상황실','작업을 생성하고 부서별 진행 상태를 한 화면에서 관리합니다.',`${creationPanel()}<div class="metrics">${metric('전체 진행률',`${s.average}%`,'command-progress')}${metric('워크플로',`${wf.summary.total}건`,'command-progress')}${metric('진행 중',`${wf.summary.state.running}건`,'command-today')}${metric('승인 대기',`${wf.summary.approvals.pending}건`,'command-approval')}${metric('오류',`${wf.summary.state.error}건`,'command-error')}${metric('완료',`${wf.summary.state.done}건`,'command-progress')}</div><section class="panel"><h3>운영 파이프라인</h3>${workflowCards(wf.list.filter(item=>item.status!=='done'))}</section><section class="panel"><h3>기존 프로젝트 현황</h3>${projectCards(list.filter(item=>item.status!=='done'))}</section>`);}},
-    {id:'command-progress',title:'전체 진행률',render(){const {list,summary:s}=snapshot();const wf=workflowSnapshot();return view('COMMAND CENTER','전체 진행률','프로젝트와 운영 워크플로의 전체 진행 상태를 확인합니다.',`<div class="metrics">${metric('프로젝트 평균',`${s.average}%`)}${metric('워크플로 전체',`${wf.summary.total}건`)}${metric('진행 중',`${wf.summary.state.running}건`)}${metric('승인 대기',`${wf.summary.approvals.pending}건`)}${metric('오류',`${wf.summary.state.error}건`)}${metric('완료',`${wf.summary.state.done}건`)}</div><section class="panel"><h3>워크플로 진행 단계</h3>${workflowCards(wf.list)}</section><section class="panel"><h3>프로젝트별 진행 단계</h3>${projectCards(list,true)}</section>`);}},
+    {id:'command-home',title:'통합 상황실',render(){const {list,summary:s}=snapshot();const wf=workflowSnapshot();return view('COMMAND CENTER','통합 상황실','작업을 생성하고 부서별 진행 상태를 한 화면에서 관리합니다.',`${creationPanel()}${pipelinePanel()}<div class="metrics">${metric('전체 진행률',`${s.average}%`,'command-progress')}${metric('워크플로',`${wf.summary.total}건`,'command-progress')}${metric('진행 중',`${wf.summary.state.running}건`,'command-today')}${metric('승인 대기',`${wf.summary.approvals.pending}건`,'command-approval')}${metric('오류',`${wf.summary.state.error}건`,'command-error')}${metric('완료',`${wf.summary.state.done}건`,'command-progress')}</div><section class="panel"><h3>운영 파이프라인</h3>${workflowCards(wf.list.filter(item=>item.status!=='done'))}</section><section class="panel"><h3>기존 프로젝트 현황</h3>${projectCards(list.filter(item=>item.status!=='done'))}</section>`);}},
+    {id:'command-progress',title:'전체 진행률',render(){const {list,summary:s}=snapshot();const wf=workflowSnapshot();return view('COMMAND CENTER','전체 진행률','프로젝트와 운영 워크플로의 전체 진행 상태를 확인합니다.',`${pipelinePanel()}<div class="metrics">${metric('프로젝트 평균',`${s.average}%`)}${metric('워크플로 전체',`${wf.summary.total}건`)}${metric('진행 중',`${wf.summary.state.running}건`)}${metric('승인 대기',`${wf.summary.approvals.pending}건`)}${metric('오류',`${wf.summary.state.error}건`)}${metric('완료',`${wf.summary.state.done}건`)}</div><section class="panel"><h3>워크플로 진행 단계</h3>${workflowCards(wf.list)}</section><section class="panel"><h3>프로젝트별 진행 단계</h3>${projectCards(list,true)}</section>`);}},
     {id:'command-today',title:'오늘 작업',render(){const list=workflow.readAll().filter(item=>(item.status==='running'||item.status==='pending')&&item.approvalStatus!=='pending');return view('COMMAND CENTER','오늘 작업','현재 실행 중이거나 다음 행동을 기다리는 작업입니다.',`<section class="panel"><h3>오늘 처리할 워크플로</h3>${workflowCards(list)}</section>`);}},
     {id:'command-approval',title:'승인 센터',render(){const pending=workflow.approvalJobs('pending');const history=workflow.approvalJobs('all').filter(item=>item.approvalStatus==='approved'||item.approvalStatus==='rejected').slice(0,20);const summary=workflow.summary();return view('APPROVAL CENTER','승인 센터','QA 검수를 마친 작업을 승인하거나 반려하고 처리 이력을 확인합니다.',`<div class="metrics">${metric('승인 대기',`${summary.approvals.pending}건`)}${metric('승인 완료',`${summary.approvals.approved}건`)}${metric('반려',`${summary.approvals.rejected}건`)}${metric('배포 대기',`${summary.stages.deploy}건`)}${metric('긴급 승인',`${pending.filter(item=>item.priority==='urgent').length}건`)}${metric('처리 기준','QA → 승인 → 배포')}</div><section class="panel"><h3>승인 대기 작업</h3>${approvalCards(pending)}</section><section class="panel"><h3>최근 승인 이력</h3>${approvalHistory(history)}</section>`);}},
     {id:'command-error',title:'오류·중지',render(){const list=workflow.readAll().filter(item=>item.status==='error');return view('COMMAND CENTER','오류·중지','오류가 발생해 재시도가 필요한 작업입니다.',`<section class="panel"><h3>오류 워크플로</h3>${workflowCards(list)}</section>`);}},
@@ -62,13 +65,22 @@
   modules.forEach(module=>registry.register(module));
 
   function handleAction(action,id){
-    if(!['start','advance','fail','retry','approve','reject'].includes(action))return false;
+    if(!['start','advance','fail','retry','approve','reject','one-click'].includes(action))return false;
     if(action==='start')workflow.start(id);
     if(action==='advance')workflow.advance(id);
     if(action==='fail')workflow.fail(id,'운영자 수동 오류 처리');
     if(action==='retry')workflow.retry(id);
     if(action==='approve')workflow.approve(id,'Approval Center 운영자 승인');
     if(action==='reject')workflow.reject(id,'Approval Center 운영자 반려');
+    if(action==='one-click'){const result=pipeline.run(id);alert(`One-Click Pipeline\n\n자동 전환 ${result.transitions.length}단계\n현재 위치: ${STAGE_LABELS[result.job.stage]}\n중지 사유: ${result.gate.label}`);}
+    return true;
+  }
+
+  function handlePipelineAction(action){
+    if(action!=='run-all')return false;
+    const results=pipeline.runAll();
+    const transitions=results.reduce((sum,result)=>sum+result.transitions.length,0);
+    alert(`전체 One-Click Pipeline\n\n대상 ${results.length}건\n자동 전환 ${transitions}단계\n승인·외부 검증 게이트에서는 자동 중지했습니다.`);
     return true;
   }
 
@@ -83,8 +95,9 @@
     const registered=MODULE_IDS.filter(id=>registry.has(id));
     const storeIntegrity=store.verify();
     const workflowIntegrity=workflow.verify();
-    return Object.freeze({name:MODULE_NAME,expected:MODULE_IDS.length,registered:registered.length,ids:Object.freeze(registered),store:storeIntegrity,workflow:workflowIntegrity,pass:registered.length===MODULE_IDS.length&&storeIntegrity.pass&&workflowIntegrity.pass});
+    const pipelineIntegrity=pipeline.verify();
+    return Object.freeze({name:MODULE_NAME,expected:MODULE_IDS.length,registered:registered.length,ids:Object.freeze(registered),store:storeIntegrity,workflow:workflowIntegrity,pipeline:pipelineIntegrity,pass:registered.length===MODULE_IDS.length&&storeIntegrity.pass&&workflowIntegrity.pass&&pipelineIntegrity.pass});
   }
 
-  Object.defineProperty(window,'SavingioV2CommandCenter',{value:Object.freeze({name:MODULE_NAME,ids:MODULE_IDS,verify,handleAction,handleCreate}),writable:false,configurable:false,enumerable:true});
+  Object.defineProperty(window,'SavingioV2CommandCenter',{value:Object.freeze({name:MODULE_NAME,ids:MODULE_IDS,verify,handleAction,handlePipelineAction,handleCreate}),writable:false,configurable:false,enumerable:true});
 })();
