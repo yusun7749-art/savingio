@@ -1,1 +1,9 @@
-.admin-hq-statusbar{position:fixed;left:var(--admin-hq-sidebar-w,255px);right:0;bottom:0;z-index:1100;display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:var(--admin-hq-status-h,54px);padding:9px 18px;border:0;border-top:1px solid rgba(15,23,42,.12);border-radius:0;background:rgba(255,255,255,.97);box-shadow:0 -8px 24px rgba(15,23,42,.08);backdrop-filter:blur(14px)}.admin-hq-statusbar>button,.admin-hq-statusbar div button{border:0;background:transparent;color:#0f172a;cursor:pointer}.admin-hq-statusbar>button{display:flex;align-items:center;gap:10px;text-align:left}.admin-hq-statusbar>button strong{font-size:11px;letter-spacing:.08em}.admin-hq-statusbar>button span{font-size:12px;color:#64748b}.admin-hq-statusbar>div{display:flex;align-items:center;gap:7px;flex-wrap:nowrap;justify-content:flex-end;min-width:0}.admin-hq-statusbar>div>span,.admin-hq-statusbar div button{padding:6px 9px;border-radius:999px;background:#f1f5f9;font-size:11px;white-space:nowrap}.admin-hq-statusbar div button:hover{background:#e2e8f0}.admin-hq-statusbar div button:focus-visible,.admin-hq-statusbar>button:focus-visible{outline:3px solid rgba(37,99,235,.28);outline-offset:2px}@media(max-width:980px){.admin-hq-statusbar{left:0}}@media(max-width:760px){.admin-hq-statusbar{left:0;right:0;bottom:0;align-items:flex-start;flex-direction:column;gap:6px;padding:8px 12px}.admin-hq-statusbar>div{width:100%;justify-content:flex-start;overflow-x:auto;scrollbar-width:none}.admin-hq-statusbar>div::-webkit-scrollbar{display:none}.admin-hq-statusbar>button span{display:none}}
+/* Admin HQ core state remains active without adding a second visible footer/navigation layer. */
+#adminHqStatusBar,
+.admin-hq-statusbar {
+  display: none !important;
+}
+
+body {
+  padding-bottom: 0 !important;
+}
