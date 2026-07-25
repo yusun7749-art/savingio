@@ -6,9 +6,10 @@ Savingio의 공식 기억 저장소입니다.
 1. `MEMORY_CONSTITUTION.md`
 2. `BOOT_ORDER.json`
 3. `MASTER_LOG_CURRENT.md`
-4. `04_HANDOVER/NEXT_TASK.md`
-5. 현재 작업과 관련된 분류 문서
-6. GitHub `main` 실제 파일과 최신 커밋 대조
+4. 현재 작업이 관리자 OS·모듈·워크플로이면 `MASTER_LOG_ADMIN_OS_CURRENT.md`
+5. `04_HANDOVER/NEXT_TASK.md`
+6. 현재 작업과 관련된 분류 문서
+7. GitHub `main` 실제 파일과 최신 커밋 대조
 
 ## 자동 분류
 - 완료·성공·릴리스 → `01_SUCCESS/`
@@ -19,4 +20,4 @@ Savingio의 공식 기억 저장소입니다.
 - 버그·회귀·검수표 → `06_QA/`
 
 ## 회차 종료 규칙
-하나의 실행이 끝나는 같은 회차에 관련 분류 문서와 `MASTER_LOG_CURRENT.md`, `04_HANDOVER/NEXT_TASK.md`를 즉시 갱신합니다. 실행하지 않은 항목은 완료로 기록하지 않습니다.
+하나의 실행이 끝나는 같은 회차에 관련 분류 문서와 `MASTER_LOG_CURRENT.md`, 현재 작업 전용 CURRENT, `04_HANDOVER/NEXT_TASK.md`를 즉시 갱신합니다. 실행하지 않은 항목은 완료로 기록하지 않습니다.
