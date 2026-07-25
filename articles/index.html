@@ -9,7 +9,7 @@
 <link rel="icon" href="/images/logo.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/css/style.css?v=20">
 <link rel="stylesheet" href="/css/service-portal.css?v=20">
-<link rel="stylesheet" href="/css/savingio-article-unified-v3036.css?v=20260725-performance4">
+<link rel="stylesheet" href="/css/savingio-article-unified-v3036.css?v=20260725-performance5">
 <style>
 :root{--sv-navy:#132744;--sv-ink:#2d3033;--sv-gold:#b98238}
 body{margin:0;color:var(--sv-ink);background:#faf7f1}
@@ -23,14 +23,14 @@ body{margin:0;color:var(--sv-ink);background:#faf7f1}
 .result-head strong{color:var(--sv-navy);font-size:15px}
 .article-grid{display:grid;grid-template-columns:1fr;gap:0;border-top:1px solid rgba(19,39,68,.12)}
 .article-card{display:grid;grid-template-columns:150px minmax(0,1fr) auto;grid-template-areas:"category title link" "category desc link";align-items:center;column-gap:24px;padding:24px 4px;border-bottom:1px solid rgba(19,39,68,.10);text-decoration:none;color:var(--sv-ink)}
-.article-card .card-category{grid-area:category;color:var(--sv-gold);font-size:12px;font-weight:700}
-.article-card h2{grid-area:title;margin:0;font-size:19px;line-height:1.45}
-.article-card p{grid-area:desc;margin:7px 0 0;color:#70757b;font-size:13px;line-height:1.6}
-.article-card b{grid-area:link;color:var(--sv-navy);font-size:12px;white-space:nowrap}
+.article-card .card-category{grid-area:category;color:var(--sv-gold);font-size:12px!important;font-weight:700}
+.info-shell .article-card h2{grid-area:title;margin:0!important;font-family:var(--sv-font,"Noto Sans KR",sans-serif)!important;font-size:19px!important;font-weight:700!important;line-height:1.45!important;letter-spacing:-.02em!important;color:var(--sv-navy)!important}
+.info-shell .article-card p{grid-area:desc;margin:7px 0 0!important;color:#70757b!important;font-size:13px!important;line-height:1.6!important}
+.article-card b{grid-area:link;color:var(--sv-navy);font-size:12px!important;white-space:nowrap}
 .pager{display:flex;justify-content:center;gap:8px;margin:28px 0}
 .pager button{min-width:40px;height:40px;border:1px solid #d5deeb;border-radius:10px;background:#fff}
 .pager button.active{background:var(--sv-navy);color:#fff}
-@media(max-width:760px){.info-shell{padding:92px 16px 58px}.info-hero h1{font-size:36px}.article-card{grid-template-columns:1fr auto;grid-template-areas:"category link" "title title" "desc desc";row-gap:7px;padding:20px 2px}.article-card h2{font-size:17px}.result-head span{display:none}}
+@media(max-width:760px){.info-shell{padding:92px 16px 58px}.info-hero h1{font-size:36px}.article-card{grid-template-columns:1fr auto;grid-template-areas:"category link" "title title" "desc desc";row-gap:7px;padding:20px 2px}.info-shell .article-card h2{font-size:17px!important}.result-head span{display:none}}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"돈이 되는 생활 정보","url":"https://savingio.com/articles/","inLanguage":"ko-KR"}</script>
 </head>
@@ -48,6 +48,6 @@ body{margin:0;color:var(--sv-ink);background:#faf7f1}
 <section class="article-grid" id="articleGrid" aria-live="polite"></section>
 <nav class="pager" aria-label="검색 결과 페이지"></nav>
 </main>
-<script src="/js/savingio-brain-navigation.js?v=20260725-performance4" defer></script>
+<script src="/js/savingio-brain-navigation.js?v=20260725-performance5" defer></script>
 </body>
 </html>
