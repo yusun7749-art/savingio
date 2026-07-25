@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3240,
-  "references_scanned": 62814,
+  "references_scanned": 62818,
   "counts": {
-    "broken_references": 1824,
+    "broken_references": 1828,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -191,6 +191,42 @@
     },
     {
       "source": "admin-v2/modules/deploy.js",
+      "reference": "start",
+      "expected": [
+        "admin-v2/modules/start",
+        "admin-v2/modules/start.html",
+        "admin-v2/modules/start/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/revenue.js",
+      "reference": "advance",
+      "expected": [
+        "admin-v2/modules/advance",
+        "admin-v2/modules/advance.html",
+        "admin-v2/modules/advance/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/revenue.js",
+      "reference": "fail",
+      "expected": [
+        "admin-v2/modules/fail",
+        "admin-v2/modules/fail.html",
+        "admin-v2/modules/fail/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/revenue.js",
+      "reference": "retry",
+      "expected": [
+        "admin-v2/modules/retry",
+        "admin-v2/modules/retry.html",
+        "admin-v2/modules/retry/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/revenue.js",
       "reference": "start",
       "expected": [
         "admin-v2/modules/start",
