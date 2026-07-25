@@ -115,6 +115,7 @@
     loadScript('/admin/os/project-detail.js', 'data-project-detail', () => Boolean(window.SavingioProjectDetail));
     loadScript('/admin/os/project-list-control.js', 'data-project-list-control', () => Boolean(window.SavingioProjectList));
     loadScript('/admin/os/project-qa.js', 'data-project-qa', () => Boolean(window.SavingioProjectQA));
+    loadScript('/admin/os/automation-engine.js', 'data-automation-engine', () => Boolean(window.SavingioAutomation));
   }
 
   function boot() {
