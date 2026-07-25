@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3206,
-  "references_scanned": 62758,
+  "files_scanned": 3207,
+  "references_scanned": 62759,
   "counts": {
-    "broken_references": 1787,
+    "broken_references": 1786,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -189,13 +189,6 @@
       "reference": "${esc(i.path)}",
       "expected": [
         "admin/${esc(i.path)}"
-      ]
-    },
-    {
-      "source": "admin/os/approval-center.js",
-      "reference": "/admin/os/approval-center.css",
-      "expected": [
-        "admin/os/approval-center.css"
       ]
     },
     {
