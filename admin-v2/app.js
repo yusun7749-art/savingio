@@ -4,9 +4,11 @@
   const registry=window.SavingioV2Modules;
   const commandCenter=window.SavingioV2CommandCenter;
   const workflowEngine=window.SavingioV2WorkflowEngine;
+  const pipelineEngine=window.SavingioV2PipelineEngine;
   if(!registry)throw new Error('Admin V2 module registry is not loaded');
   if(!commandCenter)throw new Error('Admin V2 Command Center is not loaded');
   if(!workflowEngine)throw new Error('Admin V2 Workflow Engine is not loaded');
+  if(!pipelineEngine)throw new Error('Admin V2 Pipeline Engine is not loaded');
 
   const ROUTER_LOCK=Object.freeze({name:'admin-v2-router',owner:'admin-v2/app.js',flow:'Explorer -> app.js -> Module Registry -> Workspace'});
   const DEPARTMENT_IDS=Object.freeze(['dept-cms','dept-content','dept-seo','dept-image','dept-qa','dept-deploy','dept-analytics','dept-revenue']);
@@ -43,14 +45,15 @@
     const commandIntegrity=commandCenter.verify();
     const departmentIntegrity=verifyDepartments();
     const workflowIntegrity=workflowEngine.verify();
-    const result={lockName:shell?.dataset.shellLock||'',routerName:window.SavingioAdminRouter?.name||'',routerOwner:window.SavingioAdminRouter?.owner||'',shellCount:document.querySelectorAll('#adminShell').length,explorerCount:document.querySelectorAll('#adminExplorer').length,headerCount:document.querySelectorAll('#adminHeader').length,workspaceCount:document.querySelectorAll('#adminWorkspace').length,regionCounts,activeModuleRoots:roots.length,activeId,sidebarWidth:width,duplicateIds:duplicates,legacyBoardCount:document.querySelectorAll('#departmentBoard,.department-panel').length,registry:registryIntegrity,commandCenter:commandIntegrity,departments:departmentIntegrity,workflow:workflowIntegrity};
-    result.pass=result.lockName===SHELL_LOCK.name&&result.routerName===ROUTER_LOCK.name&&result.routerOwner===ROUTER_LOCK.owner&&result.shellCount===1&&result.explorerCount===1&&result.headerCount===1&&result.workspaceCount===1&&Object.values(regionCounts).every(count=>count===1)&&roots.length===1&&width===SHELL_LOCK.explorerWidth&&duplicates.length===0&&result.legacyBoardCount===0&&registryIntegrity.pass&&commandIntegrity.pass&&departmentIntegrity.pass&&workflowIntegrity.pass;
+    const pipelineIntegrity=pipelineEngine.verify();
+    const result={lockName:shell?.dataset.shellLock||'',routerName:window.SavingioAdminRouter?.name||'',routerOwner:window.SavingioAdminRouter?.owner||'',shellCount:document.querySelectorAll('#adminShell').length,explorerCount:document.querySelectorAll('#adminExplorer').length,headerCount:document.querySelectorAll('#adminHeader').length,workspaceCount:document.querySelectorAll('#adminWorkspace').length,regionCounts,activeModuleRoots:roots.length,activeId,sidebarWidth:width,duplicateIds:duplicates,legacyBoardCount:document.querySelectorAll('#departmentBoard,.department-panel').length,registry:registryIntegrity,commandCenter:commandIntegrity,departments:departmentIntegrity,workflow:workflowIntegrity,pipeline:pipelineIntegrity};
+    result.pass=result.lockName===SHELL_LOCK.name&&result.routerName===ROUTER_LOCK.name&&result.routerOwner===ROUTER_LOCK.owner&&result.shellCount===1&&result.explorerCount===1&&result.headerCount===1&&result.workspaceCount===1&&Object.values(regionCounts).every(count=>count===1)&&roots.length===1&&width===SHELL_LOCK.explorerWidth&&duplicates.length===0&&result.legacyBoardCount===0&&registryIntegrity.pass&&commandIntegrity.pass&&departmentIntegrity.pass&&workflowIntegrity.pass&&pipelineIntegrity.pass;
     return Object.freeze(result);
   }
 
   function syncShellStatus(){
     const result=verify();
-    shellStatus.textContent=result.pass?`PASS · 부서 ${result.departments.registered}개 · Workflow ${result.workflow.count}건 · Router 1개`:`FAIL · 부서 ${result.departments.registered}/${result.departments.expected} · Workflow 오류 ${result.workflow.invalid}`;
+    shellStatus.textContent=result.pass?`PASS · 부서 ${result.departments.registered}개 · Workflow ${result.workflow.count}건 · Pipeline ${result.pipeline.total}건`:`FAIL · 부서 ${result.departments.registered}/${result.departments.expected} · Workflow 오류 ${result.workflow.invalid}`;
     shellStatus.className=result.pass?'pass':'fail';
     document.documentElement.dataset.shellIntegrity=result.pass?'pass':'fail';
     return result;
@@ -101,6 +104,14 @@
     return true;
   }
 
+  function pipelineActionFromEvent(event){
+    const target=event.target.closest('[data-pipeline-action]');
+    if(!target)return false;
+    event.preventDefault();
+    try{commandCenter.handlePipelineAction(target.dataset.pipelineAction);}catch(error){alert(`파이프라인 처리 실패\n${error.message}`);}
+    return true;
+  }
+
   function workflowSubmitFromEvent(event){
     const form=event.target.closest('#workflowCreateForm');
     if(!form)return;
@@ -111,13 +122,13 @@
   assertShell();
   registry.seal();
   nav.addEventListener('click',routeFromEvent);
-  workspace.addEventListener('click',event=>{if(workflowActionFromEvent(event))return;routeFromEvent(event);});
+  workspace.addEventListener('click',event=>{if(workflowActionFromEvent(event))return;if(pipelineActionFromEvent(event))return;routeFromEvent(event);});
   workspace.addEventListener('submit',workflowSubmitFromEvent);
   workspace.addEventListener('keydown',event=>{if((event.key==='Enter'||event.key===' ')&&event.target.closest('[data-route]'))routeFromEvent(event)});
   document.getElementById('refreshBtn').addEventListener('click',()=>mount(activeId||'command-home','replace'));
   document.getElementById('diagnosticsBtn').addEventListener('click',()=>{
     const result=syncShellStatus();
-    alert(`Admin V2 구조 검사\n\nRouter: ${result.routerName} / ${result.routerOwner}\nRegistry: ${result.registry.count}개 / LOCK ${result.registry.sealed?'ON':'OFF'}\nCommand Center: ${result.commandCenter.registered}/${result.commandCenter.expected}개 / Store ${result.commandCenter.store.pass?'PASS':'FAIL'}\n독립 부서: ${result.departments.registered}/${result.departments.expected}개\nWorkflow: ${result.workflow.count}건 / 오류 ${result.workflow.invalid}건 / ${result.workflow.pass?'PASS':'FAIL'}\nWorkflow 순서: ${result.workflow.flow.join(' → ')}\n누락 부서: ${result.departments.missing.join(', ')||'없음'}\nShell: ${result.shellCount}개 / LOCK ${result.lockName}\nExplorer: ${result.explorerCount}개 / ${result.sidebarWidth}px\nHeader: ${result.headerCount}개\nWorkspace: ${result.workspaceCount}개\n활성 모듈 Root: ${result.activeModuleRoots}개\nLegacy Board: ${result.legacyBoardCount}개\n중복 ID: ${result.duplicateIds.length}개\n현재 모듈: ${result.activeId}\n\n${result.pass?'PASS':'FAIL'}`);
+    alert(`Admin V2 구조 검사\n\nRouter: ${result.routerName} / ${result.routerOwner}\nRegistry: ${result.registry.count}개 / LOCK ${result.registry.sealed?'ON':'OFF'}\nCommand Center: ${result.commandCenter.registered}/${result.commandCenter.expected}개 / Store ${result.commandCenter.store.pass?'PASS':'FAIL'}\n독립 부서: ${result.departments.registered}/${result.departments.expected}개\nWorkflow: ${result.workflow.count}건 / 오류 ${result.workflow.invalid}건 / ${result.workflow.pass?'PASS':'FAIL'}\nPipeline: ${result.pipeline.total}건 / 자동 진행 ${pipelineEngine.summary().autoReady}건 / ${result.pipeline.pass?'PASS':'FAIL'}\nWorkflow 순서: ${result.workflow.flow.join(' → ')}\n누락 부서: ${result.departments.missing.join(', ')||'없음'}\nShell: ${result.shellCount}개 / LOCK ${result.lockName}\nExplorer: ${result.explorerCount}개 / ${result.sidebarWidth}px\nHeader: ${result.headerCount}개\nWorkspace: ${result.workspaceCount}개\n활성 모듈 Root: ${result.activeModuleRoots}개\nLegacy Board: ${result.legacyBoardCount}개\n중복 ID: ${result.duplicateIds.length}개\n현재 모듈: ${result.activeId}\n\n${result.pass?'PASS':'FAIL'}`);
   });
   window.addEventListener('popstate',event=>mount(event.state?.view||new URLSearchParams(location.search).get('view')||'command-home','none'));
   window.addEventListener('savingio:v2-projects-changed',()=>mount(activeId||'command-home','replace'));
@@ -125,5 +136,5 @@
 
   const requested=new URLSearchParams(location.search).get('view')||'command-home';
   mount(requested,'replace');
-  window.SavingioAdminV2=Object.freeze({mount,verify,routerLock:ROUTER_LOCK,shellLock:SHELL_LOCK,commandCenter,workflowEngine,departments:verifyDepartments,get activeId(){return activeId},modules:registry.list});
+  window.SavingioAdminV2=Object.freeze({mount,verify,routerLock:ROUTER_LOCK,shellLock:SHELL_LOCK,commandCenter,workflowEngine,pipelineEngine,departments:verifyDepartments,get activeId(){return activeId},modules:registry.list});
 })();
