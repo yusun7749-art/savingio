@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3203,
-  "references_scanned": 62744,
+  "files_scanned": 3205,
+  "references_scanned": 62749,
   "counts": {
-    "broken_references": 1775,
+    "broken_references": 1779,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -252,6 +252,40 @@
         "admin/os/workflow",
         "admin/os/workflow.html",
         "admin/os/workflow/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/operations-error-center.js",
+      "reference": "${esc(item.url)}",
+      "expected": [
+        "admin/os/${esc(item.url)}"
+      ]
+    },
+    {
+      "source": "admin/os/operations-error-center.js",
+      "reference": "ack",
+      "expected": [
+        "admin/os/ack",
+        "admin/os/ack.html",
+        "admin/os/ack/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/operations-error-center.js",
+      "reference": "resolve",
+      "expected": [
+        "admin/os/resolve",
+        "admin/os/resolve.html",
+        "admin/os/resolve/index.html"
+      ]
+    },
+    {
+      "source": "admin/os/operations-error-center.js",
+      "reference": "sync",
+      "expected": [
+        "admin/os/sync",
+        "admin/os/sync.html",
+        "admin/os/sync/index.html"
       ]
     },
     {
