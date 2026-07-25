@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3190,
-  "references_scanned": 62702,
+  "references_scanned": 62705,
   "counts": {
-    "broken_references": 1761,
+    "broken_references": 1763,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -3524,6 +3524,20 @@
       "reference": "/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
       "expected": [
         "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/assets/images/article-placeholder.webp",
+      "expected": [
+        "assets/images/article-placeholder.webp"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/assets/og/savingio-default.webp",
+      "expected": [
+        "assets/og/savingio-default.webp"
       ]
     },
     {
