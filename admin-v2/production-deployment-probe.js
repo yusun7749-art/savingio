@@ -8,7 +8,7 @@
     {path:'/admin-v2/index.html',marker:'Savingio Admin V2'},
     {path:'/admin-v2/core/operations-dashboard-store.js',marker:'SavingioV2OperationsDashboardStore'},
     {path:'/admin-v2/modules/command.js',marker:'SavingioV2CommandCenter'},
-    {path:'/admin-v2/production-e2e.js',marker:'SavingioV2ProductionE2E'},
+    {path:'/admin-v2/production-e2e-verify.js',marker:'SavingioV2ProductionE2E'},
     {path:'/admin-v2/operational-actions.js',marker:'SavingioV2OperationalActions'}
   ]);
 
