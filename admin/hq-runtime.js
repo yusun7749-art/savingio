@@ -30,11 +30,34 @@
       messages.scrollTop = messages.scrollHeight;
     };
 
+    const cleanLabel = value => String(value || '')
+      .replace(/[⌂◫▤▶↗₩✓⚙▥•◇]/g, '')
+      .replace(/[▼▾⌄∨˅]+/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+
     const currentContext = () => {
-      const active = tree?.querySelector('.active,[aria-current="page"]');
-      return active?.textContent?.replace(/[⌂◫▤▶↗₩✓⚙▥•◇]/g, '').trim()
-        || pageTitle?.textContent?.trim()
+      const active = tree?.querySelector('.tree-child.active,[aria-current="page"],.tree-title.active');
+      return cleanLabel(active?.textContent)
+        || cleanLabel(pageTitle?.textContent)
         || '통합 상황실';
+    };
+
+    const findHealthValue = () => {
+      const explicit = document.querySelector('[data-health-score],[data-operating-health],#operatingHealth,.operating-health');
+      const explicitNumber = Number(String(explicit?.textContent || explicit?.dataset?.healthScore || '').match(/\b(100|[1-9]?\d)\b/)?.[1]);
+      if (Number.isFinite(explicitNumber) && explicitNumber >= 0 && explicitNumber <= 100) return `${explicitNumber}점`;
+
+      const scope = document.querySelector('.main') || document.body;
+      const candidates = scope.querySelectorAll('p,span,strong,b,div');
+      for (let index = 0; index < candidates.length && index < 600; index += 1) {
+        const text = candidates[index].textContent?.replace(/\s+/g, ' ').trim() || '';
+        if (!/(운영\s*건강도|운영\s*Health|Health\s*점수)/i.test(text)) continue;
+        const match = text.match(/(?:운영\s*건강도|운영\s*Health|Health\s*점수)[^0-9]{0,20}(100|[1-9]?\d)\s*점?/i);
+        const value = Number(match?.[1]);
+        if (Number.isFinite(value) && value >= 0 && value <= 100) return `${value}점`;
+      }
+      return '측정 중';
     };
 
     const readDashboard = () => {
@@ -43,11 +66,10 @@
       rows.forEach(row => {
         if (/미달|❌|B|C|D/.test(row.textContent || '')) failed += 1;
       });
-      const healthNode = document.querySelector('.content-health-summary strong,.content-health-summary b');
       return {
         articleRows: rows.length,
         failed,
-        healthText: healthNode?.textContent?.trim() || '확인 중'
+        healthText: findHealthValue()
       };
     };
 
@@ -81,7 +103,7 @@
     };
 
     const iconFor = label => {
-      const text = label.replace(/[▶▼▾⌄]/g, '').trim();
+      const text = cleanLabel(label);
       if (/통합|상황실/.test(text)) return '⌂';
       if (/시장|분석/.test(text)) return '◫';
       if (/콘텐츠/.test(text)) return '▤';
@@ -113,7 +135,7 @@
       brief.className = 'hq-briefing';
       brief.innerHTML = `
         <div class="hq-briefing-head"><strong>운영 브리핑</strong><span class="hq-online">ONLINE</span></div>
-        <div class="hq-health"><span>운영 Health</span><b data-hq-health>확인 중</b></div>
+        <div class="hq-health"><span>운영 Health</span><b data-hq-health>측정 중</b></div>
         <div class="hq-brief-grid">
           <div><span>현재 위치</span><strong data-hq-context>통합 상황실</strong></div>
           <div><span>확인 필요</span><strong data-hq-failed>0건</strong></div>
@@ -138,7 +160,7 @@
         const node = panel?.querySelector(selector);
         if (node && node.textContent !== value) node.textContent = value;
       };
-      setText('[data-hq-health]', String(healthText));
+      setText('[data-hq-health]', healthText);
       setText('[data-hq-context]', context);
       setText('[data-hq-failed]', `${failed}건`);
       setText('[data-hq-rows]', `${articleRows}건`);
@@ -184,7 +206,7 @@
     });
 
     window.SavingioHQ = Object.freeze({
-      version: 'V3.033-stable',
+      version: 'V3.034-stable',
       mode: 'legacy-admin-hq',
       assistant: 'online',
       explorer: 'primary',
