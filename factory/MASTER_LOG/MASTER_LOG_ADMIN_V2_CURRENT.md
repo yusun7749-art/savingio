@@ -21,6 +21,7 @@
 - SEO 운영 센터 구현
 - QA 검수 센터 구현
 - 배포 승인 센터 구현
+- 이미지 인벤토리 센터 구현
 - 좌측 메뉴 및 script 로딩 연결
 
 ## 구현 원칙 LOCK
@@ -29,6 +30,7 @@
 - 실제 외부 API가 연결되지 않은 상태에서 PASS·승인·배포 성공을 만들지 않는다.
 - Search Console, GitHub, Cloudflare, 실제 URL 상태는 확인된 값만 기록한다.
 - 실제 URL 확인 전에는 배포 검증 완료로 판정하지 않는다.
+- 이미지 경로·ALT·규격·최적화·브랜드 검수는 확인된 값만 기록한다.
 - 실제 구현과 검증이 끝나지 않으면 100% 또는 완료로 기록하지 않는다.
 - 진행 보드의 `complete + 100%`는 런타임 검증 결과 `pass=true`가 저장된 경우에만 허용한다.
 - Production Auto Verify는 `savingio.com`, `www.savingio.com`, `savingio.pages.dev`에서만 자동 실행한다.
@@ -75,14 +77,28 @@
 - 배포 검증 워크플로 생성
 - 배포 성공 진실성 LOCK 및 Store 무결성 검사
 
+### 이미지 인벤토리
+
+- 대표 이미지·본문 이미지·인포그래픽·쇼츠·로고·워터마크·기타 자산 분류
+- 이미지 경로, 사용 페이지, ALT, 가로·세로 규격 관리
+- 제작 중·검수 중·사용 준비·사용 중·중지 상태 관리
+- 최적화, 브랜드 검수, 워터마크 적용 여부 관리
+- 경로·ALT·규격·최적화·브랜드 검수 기반 품질점수 계산
+- 제목·경로·ALT·메모 검색 및 유형·상태 필터
+- 이미지와 사용 페이지 바로 열기
+- 이미지 보완 워크플로 생성
+- Store 무결성 검사
+
 ## 실제 생성·수정 파일
 
 - `admin-v2/core/content-inventory-store.js`
 - `admin-v2/core/seo-inventory-store.js`
 - `admin-v2/core/qa-inventory-store.js`
 - `admin-v2/core/deploy-inventory-store.js`
+- `admin-v2/core/image-inventory-store.js`
 - `admin-v2/modules/content.js`
 - `admin-v2/modules/seo.js`
+- `admin-v2/modules/image.js`
 - `admin-v2/modules/qa.js`
 - `admin-v2/modules/deploy.js`
 - `admin-v2/modules/runtime-audit.js`
@@ -97,6 +113,7 @@
 - 개발 진행 Store와 완료 진실성 LOCK
 - Content Inventory Store와 모듈
 - SEO Inventory Store와 모듈
+- Image Inventory Store와 모듈
 - QA Inventory Store와 모듈
 - Deploy Inventory Store와 모듈
 - Cloudflare, SEO Doctor, Content Doctor Store
@@ -111,10 +128,11 @@
 - GitHub main 파일 구현: PASS
 - 콘텐츠 인벤토리 Store·모듈: REPOSITORY PASS
 - SEO 운영 Store·모듈: REPOSITORY PASS
+- 이미지 인벤토리 Store·모듈: REPOSITORY PASS
 - QA 검수 Store·모듈: REPOSITORY PASS
 - 배포 승인 Store·모듈: REPOSITORY PASS
-- 콘텐츠·SEO·QA·배포 메뉴 및 script 연결: PASS
-- 콘텐츠·SEO·QA·배포 Runtime Audit 연결: PASS
+- 콘텐츠·SEO·이미지·QA·배포 메뉴 및 script 연결: PASS
+- 콘텐츠·SEO·이미지·QA·배포 Runtime Audit 연결: PASS
 - Production Auto Verify index 로딩 연결: PASS
 - Production 브라우저 자동 런타임 결과: PENDING
 
@@ -124,8 +142,7 @@ Admin V2 전체 프로젝트 진행률은 기능 단위로 다시 산정한다. 
 
 ## 다음 작업
 
-1. 이미지 인벤토리 센터 실개발
-2. 분석 센터 실개발
-3. 수익 센터 실개발
-4. 운영 대시보드에서 각 센터 데이터 통합
-5. Production 브라우저 E2E 검증
+1. 분석 센터 실개발
+2. 수익 센터 실개발
+3. 운영 대시보드에서 각 센터 데이터 통합
+4. Production 브라우저 E2E 검증
