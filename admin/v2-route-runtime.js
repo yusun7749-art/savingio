@@ -6,7 +6,7 @@
     ['market', '시장·기회분석본부', ['주제 분석', '키워드 조사', '검색의도 분석', '경쟁 글 분석', '신규 가능 여부']],
     ['content', '콘텐츠자산본부', ['전체 글', '헌법·DNA 검사', '기존 글 재작성', 'SEO 자동재작성', '이미지', '내부 링크', '계산기', '콘텐츠 QA']],
     ['duplicate', '중복관리본부', ['중복센터', '제목 중복', 'URL 중복', '검색의도 중복', '통합 후보', '삭제 후보']],
-    ['approval', '승인센터', ['글 승인', '재작성 승인', '통합 승인', '삭제 승인', '발행 승인']],
+    ['approval', '승인센터', []],
     ['publish', '배포운영본부', ['GitHub', 'Cloudflare', 'Sitemap', 'Search Console', '배포 검증']],
     ['automation', '자동화센터', ['워크플로 관리', '실행 예정', '실행 중', '완료', '실패', '재실행', '긴급 중지']],
     ['analytics', '데이터·분석본부', ['검색 유입', '콘텐츠 성과', '애드센스', '다음 주제']],
@@ -29,11 +29,9 @@
     nav.innerHTML = groups.map(([id, name, items]) => `
       <section class="tree-group ${id === activeGroup ? 'open' : ''}">
         <button type="button" class="tree-parent ${id === activeGroup && !activeTask ? 'active' : ''}" data-v2-group="${id}">
-          <span>${esc(name)}</span><span aria-hidden="true">⌄</span>
+          <span>${esc(name)}</span>${items.length ? '<span aria-hidden="true">⌄</span>' : ''}
         </button>
-        <div class="tree-children">
-          ${items.map(item => `<button type="button" class="tree-child ${id === activeGroup && item === activeTask ? 'active' : ''}" data-v2-group="${id}" data-v2-task="${esc(item)}">${esc(item)}</button>`).join('')}
-        </div>
+        ${items.length ? `<div class="tree-children">${items.map(item => `<button type="button" class="tree-child ${id === activeGroup && item === activeTask ? 'active' : ''}" data-v2-group="${id}" data-v2-task="${esc(item)}">${esc(item)}</button>`).join('')}</div>` : ''}
       </section>`).join('');
   }
 
@@ -41,7 +39,7 @@
     if (element) element.hidden = !visible;
   }
 
-  function applyContentFilter(task) {
+  function applyContentFilter(group, task) {
     const map = {
       '전체 글': 'all',
       '헌법·DNA 검사': 'fail',
@@ -53,14 +51,9 @@
       'URL 중복': 'duplicate',
       '검색의도 중복': 'duplicate',
       '통합 후보': 'duplicate',
-      '삭제 후보': 'duplicate',
-      '글 승인': 'approved',
-      '재작성 승인': 'hold',
-      '통합 승인': 'hold',
-      '삭제 승인': 'hold',
-      '발행 승인': 'approved'
+      '삭제 후보': 'duplicate'
     };
-    const filter = map[task] || 'all';
+    const filter = group === 'approval' ? 'all' : (map[task] || 'all');
     const button = content.querySelector(`[data-content-filter="${filter}"]`);
     if (button) button.click();
   }
@@ -88,7 +81,7 @@
     setVisible(securityNotice, group === 'system' || isCommand);
 
     if (isContent) {
-      applyContentFilter(task || (group === 'duplicate' ? '중복센터' : group === 'approval' ? '글 승인' : '전체 글'));
+      applyContentFilter(group, task || (group === 'duplicate' ? '중복센터' : '전체 글'));
       content.scrollIntoView({ block: 'start' });
     } else if (!isCommand) {
       renderPlaceholder(group, task);
