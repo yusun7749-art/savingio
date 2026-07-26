@@ -133,6 +133,7 @@
   window.addEventListener('popstate',event=>mount(event.state?.view||new URLSearchParams(location.search).get('view')||'command-home','none'));
   window.addEventListener('savingio:v2-projects-changed',()=>mount(activeId||'command-home','replace'));
   window.addEventListener('savingio:v2-workflows-changed',()=>mount(activeId||'command-home','replace'));
+  window.addEventListener('savingio:v2-center-data-changed',()=>mount(activeId||'command-home','replace'));
 
   const requested=new URLSearchParams(location.search).get('view')||'command-home';
   mount(requested,'replace');
