@@ -14,7 +14,9 @@
 - Content Doctor 구현
 - 상태 저장 직후 활성 화면 재렌더링 연결
 - 런타임 검증 센터 구현 및 검사 범위 강화
+- Release Marker 기반 최신 배포본 식별 구현
 - 오래된 진행률 localStorage 자동 마이그레이션 구현
+- 런타임 검증 전체 PASS 기반 100% 완료 게이트 구현
 - 좌측 메뉴 및 script 로딩 연결
 
 ## 구현 원칙 LOCK
@@ -24,6 +26,7 @@
 - 센터별 차이는 설정 데이터와 상태 항목으로 관리한다.
 - 실제 외부 API가 연결되지 않은 상태에서 PASS·승인·배포 성공을 만들지 않는다.
 - 실제 구현과 검증이 끝나지 않으면 100% 또는 완료로 기록하지 않는다.
+- 진행 보드의 `complete + 100%`는 런타임 검증 결과 `pass=true`가 저장된 경우에만 허용한다.
 
 ## 사용자 확인 위치
 
@@ -35,8 +38,17 @@ Admin V2 좌측 메뉴:
 4. `진단 도구 → Content Doctor`
 5. `외부 점검 → Cloudflare 센터`
 
+최종 검증 방법:
+
+1. `통합 상황실 → 런타임 검증 센터` 이동
+2. 전체 항목, PASS, FAIL, Release ID 확인
+3. `검사 결과 반영` 클릭
+4. 전체 PASS인 경우에만 개발 진행 보드가 자동으로 100% 완료로 전환
+5. FAIL이 있으면 개발 진행 보드는 99% 중지 상태로 유지하고 FAIL 수를 표시
+
 ## 실제 생성·수정 파일
 
+- `admin-v2/core/release-marker.js`
 - `admin-v2/core/center-renderer.js`
 - `admin-v2/core/center-store-factory.js`
 - `admin-v2/core/build-progress-store.js`
@@ -54,6 +66,8 @@ Admin V2 좌측 메뉴:
 
 런타임 검증 센터는 현재 브라우저에 실제 로딩된 다음 항목을 검사한다.
 
+- Release Marker ID와 버전
+- Release Marker가 지정한 핵심 모듈
 - 공통 Center Renderer
 - 공통 Center Store Factory
 - 개발 진행 Store와 완료 진실성 LOCK
@@ -79,13 +93,14 @@ Admin V2 좌측 메뉴:
 - 설정형 공통 기반: PASS
 - 개발 진행 보드: PASS
 - 오래된 진행률 데이터 마이그레이션: PASS
+- 런타임 검증 기반 완료 게이트: REPOSITORY PASS
+- Release Marker 최신 배포 식별: REPOSITORY PASS
 - Cloudflare Center: REPOSITORY PASS
 - SEO Doctor: REPOSITORY PASS
 - Content Doctor: REPOSITORY PASS
 - 런타임 검증 센터: REPOSITORY PASS
 - 저장 직후 화면 재렌더링 연결: REPOSITORY PASS
 - Production 브라우저 런타임 결과: PENDING
-- Cloudflare 최신 배포 화면 확인: PENDING
 
 ## 현재 진행률
 
@@ -93,14 +108,14 @@ Admin V2 좌측 메뉴:
 
 100%가 아닌 이유:
 
-- 실제 Production 브라우저에서 런타임 검증 센터의 전체 PASS 결과를 아직 확인하지 않았다.
-- Cloudflare Pages가 최신 commit을 배포한 결과를 아직 화면으로 확인하지 않았다.
+- 실제 Production 브라우저에서 런타임 검증 센터의 전체 PASS 결과를 아직 반영하지 않았다.
+- 100% 완료 상태는 저장된 런타임 검증 결과가 전체 PASS일 때만 자동 생성된다.
 
 ## 다음 작업
 
-1. Cloudflare Pages 최신 배포 반영 확인
-2. Production Admin V2에서 `런타임 검증 센터` 실행
-3. 전체 항목 PASS 여부 확인
-4. 개발 진행 보드·Cloudflare·SEO Doctor·Content Doctor 메뉴 이동 확인
-5. 상태 저장 직후 화면 갱신 확인
-6. 모두 실제 확인된 경우에만 진행률 100%와 완료 기록
+1. Production Admin V2에서 `런타임 검증 센터` 실행
+2. Release ID `admin-v2-release-2026-07-26-01` 확인
+3. FAIL 0 및 최종 판정 PASS 확인
+4. `검사 결과 반영` 클릭
+5. 개발 진행 보드가 100% 완료로 자동 전환되는지 확인
+6. FAIL이 있으면 표시된 항목을 수정하고 다시 검사
