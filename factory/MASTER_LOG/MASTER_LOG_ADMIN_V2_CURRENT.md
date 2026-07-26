@@ -17,6 +17,7 @@
 - Release Marker 기반 최신 배포본 식별 구현
 - 오래된 진행률 localStorage 자동 마이그레이션 구현
 - 런타임 검증 전체 PASS 기반 100% 완료 게이트 구현
+- Production Auto Verify 구현
 - 좌측 메뉴 및 script 로딩 연결
 
 ## 구현 원칙 LOCK
@@ -27,6 +28,7 @@
 - 실제 외부 API가 연결되지 않은 상태에서 PASS·승인·배포 성공을 만들지 않는다.
 - 실제 구현과 검증이 끝나지 않으면 100% 또는 완료로 기록하지 않는다.
 - 진행 보드의 `complete + 100%`는 런타임 검증 결과 `pass=true`가 저장된 경우에만 허용한다.
+- Production Auto Verify는 `savingio.com`, `www.savingio.com`, `savingio.pages.dev`에서만 자동 실행한다.
 
 ## 사용자 확인 위치
 
@@ -38,13 +40,13 @@ Admin V2 좌측 메뉴:
 4. `진단 도구 → Content Doctor`
 5. `외부 점검 → Cloudflare 센터`
 
-최종 검증 방법:
+최종 검증 방식:
 
-1. `통합 상황실 → 런타임 검증 센터` 이동
-2. 전체 항목, PASS, FAIL, Release ID 확인
-3. `검사 결과 반영` 클릭
-4. 전체 PASS인 경우에만 개발 진행 보드가 자동으로 100% 완료로 전환
-5. FAIL이 있으면 개발 진행 보드는 99% 중지 상태로 유지하고 FAIL 수를 표시
+1. Production Admin V2 페이지를 연다.
+2. Production Auto Verify가 자동으로 Release Marker와 전체 런타임을 검사한다.
+3. 전체 PASS이면 개발 진행 보드를 자동으로 100% 완료로 전환한다.
+4. FAIL이 있으면 개발 진행 보드는 99% 중지 상태로 유지하고 FAIL 수를 기록한다.
+5. 수동 확인이 필요한 경우에만 런타임 검증 센터의 `다시 검사` 또는 `검사 결과 반영`을 사용한다.
 
 ## 실제 생성·수정 파일
 
@@ -58,6 +60,7 @@ Admin V2 좌측 메뉴:
 - `admin-v2/modules/seo-doctor.js`
 - `admin-v2/modules/content-doctor.js`
 - `admin-v2/modules/runtime-audit.js`
+- `admin-v2/production-auto-verify.js`
 - `admin-v2/center-refresh.js`
 - `admin-v2/app.js`
 - `admin-v2/index.html`
@@ -68,6 +71,7 @@ Admin V2 좌측 메뉴:
 
 - Release Marker ID와 버전
 - Release Marker가 지정한 핵심 모듈
+- Production Auto Verify 전역 객체와 script
 - 공통 Center Renderer
 - 공통 Center Store Factory
 - 개발 진행 Store와 완료 진실성 LOCK
@@ -89,6 +93,9 @@ Admin V2 좌측 메뉴:
 ## 현재 판정
 
 - GitHub main 파일 구현: PASS
+- Production Auto Verify 파일 생성: PASS
+- Production Auto Verify index 로딩 연결: PASS
+- 런타임 검사에 Production Auto Verify 포함: PASS
 - 메뉴·script 연결 재조회: PASS
 - 설정형 공통 기반: PASS
 - 개발 진행 보드: PASS
@@ -100,7 +107,7 @@ Admin V2 좌측 메뉴:
 - Content Doctor: REPOSITORY PASS
 - 런타임 검증 센터: REPOSITORY PASS
 - 저장 직후 화면 재렌더링 연결: REPOSITORY PASS
-- Production 브라우저 런타임 결과: PENDING
+- Production 브라우저 자동 런타임 결과: PENDING
 
 ## 현재 진행률
 
@@ -108,14 +115,12 @@ Admin V2 좌측 메뉴:
 
 100%가 아닌 이유:
 
-- 실제 Production 브라우저에서 런타임 검증 센터의 전체 PASS 결과를 아직 반영하지 않았다.
-- 100% 완료 상태는 저장된 런타임 검증 결과가 전체 PASS일 때만 자동 생성된다.
+- 최신 코드가 Production에서 실제 실행된 결과는 아직 이 대화에서 직접 확인하지 못했다.
+- Production Auto Verify가 운영 브라우저에서 전체 PASS를 저장한 경우에만 100% 완료 상태가 자동 생성된다.
 
 ## 다음 작업
 
-1. Production Admin V2에서 `런타임 검증 센터` 실행
-2. Release ID `admin-v2-release-2026-07-26-01` 확인
-3. FAIL 0 및 최종 판정 PASS 확인
-4. `검사 결과 반영` 클릭
-5. 개발 진행 보드가 100% 완료로 자동 전환되는지 확인
-6. FAIL이 있으면 표시된 항목을 수정하고 다시 검사
+1. Cloudflare Pages가 최신 main 커밋을 배포한다.
+2. 사용자가 Production Admin V2 페이지를 열면 자동 검사가 실행된다.
+3. 전체 PASS이면 개발 진행 보드가 별도 클릭 없이 100% 완료로 전환된다.
+4. FAIL이면 99% 중지 상태와 FAIL 수가 자동 기록된다.
