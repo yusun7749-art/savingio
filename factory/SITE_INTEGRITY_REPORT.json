@@ -2,7 +2,7 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3261,
-  "references_scanned": 62853,
+  "references_scanned": 62854,
   "counts": {
     "broken_references": 1834,
     "malformed_redirects": 0,
