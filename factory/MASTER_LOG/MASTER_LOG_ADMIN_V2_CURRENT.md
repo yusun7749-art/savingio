@@ -13,7 +13,8 @@
 - SEO Doctor 구현
 - Content Doctor 구현
 - 상태 저장 직후 활성 화면 재렌더링 연결
-- 런타임 검증 센터 구현
+- 런타임 검증 센터 구현 및 검사 범위 강화
+- 오래된 진행률 localStorage 자동 마이그레이션 구현
 - 좌측 메뉴 및 script 로딩 연결
 
 ## 구현 원칙 LOCK
@@ -55,19 +56,21 @@ Admin V2 좌측 메뉴:
 
 - 공통 Center Renderer
 - 공통 Center Store Factory
-- 개발 진행 Store
+- 개발 진행 Store와 완료 진실성 LOCK
 - Cloudflare Store
 - SEO Doctor Store
 - Content Doctor Store
 - 개발 진행 보드 모듈
+- 런타임 검증 센터 자기 자신
 - Cloudflare Center 모듈
 - SEO Doctor 모듈
 - Content Doctor 모듈
 - Search Console / AdSense / GitHub Release 모듈
 - 각 메뉴 버튼 존재 여부
+- 핵심 script 태그 실제 로딩 여부
 - Admin V2 Shell 구조 검사
 
-파일이 GitHub에 존재하는 것만으로 PASS 처리하지 않고 실제 브라우저 전역 객체와 Registry 등록 상태를 검사한다.
+파일이 GitHub에 존재하는 것만으로 PASS 처리하지 않고 실제 브라우저 전역 객체, Registry 등록 상태, 메뉴와 script 로딩 상태를 검사한다.
 
 ## 현재 판정
 
@@ -75,6 +78,7 @@ Admin V2 좌측 메뉴:
 - 메뉴·script 연결 재조회: PASS
 - 설정형 공통 기반: PASS
 - 개발 진행 보드: PASS
+- 오래된 진행률 데이터 마이그레이션: PASS
 - Cloudflare Center: REPOSITORY PASS
 - SEO Doctor: REPOSITORY PASS
 - Content Doctor: REPOSITORY PASS
@@ -85,11 +89,10 @@ Admin V2 좌측 메뉴:
 
 ## 현재 진행률
 
-98%
+99%
 
 100%가 아닌 이유:
 
-- 비공개 Admin V2 Production URL은 외부 웹 조회 도구에서 직접 열 수 없었다.
 - 실제 Production 브라우저에서 런타임 검증 센터의 전체 PASS 결과를 아직 확인하지 않았다.
 - Cloudflare Pages가 최신 commit을 배포한 결과를 아직 화면으로 확인하지 않았다.
 
