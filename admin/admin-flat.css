@@ -1,0 +1,32 @@
+/* Savingio Admin permanent flat UI lock: no card dashboard */
+:root{--line:#d8dde6;--text:#172033;--muted:#667085;--bg:#f7f8fa;--nav:#111827;--accent:#1d4ed8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,"Noto Sans KR",sans-serif}
+.app-shell{display:grid;grid-template-columns:260px minmax(0,1fr);min-height:100vh}
+.sidebar{background:var(--nav);color:#fff;border-radius:0;box-shadow:none}
+.main{min-width:0;padding:0 24px 48px}
+.topbar{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--line);border-radius:0;box-shadow:none;margin:0 -24px 18px;padding:16px 24px}
+.notice,.panel,.stats>*,.content-health-summary>*,.project-item,.department-card,.review-card,.trusted-device-card,.pairing-box,.trusted-devices-box{border-radius:0!important;box-shadow:none!important;background:#fff!important;border:1px solid var(--line)!important}
+.panel{padding:0;margin:0 0 18px}
+.panel-head{padding:16px;border-bottom:1px solid var(--line)}
+.workspace-grid{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:0;margin-bottom:18px}
+.workspace-grid>.panel{margin:0}
+.workspace-grid>.detail-panel{border-left:0!important}
+.stats,.content-health-summary{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:0;margin:0 0 18px}
+.stats>*,.content-health-summary>*{padding:12px 14px;border-left:0!important}
+.stats>*:first-child,.content-health-summary>*:first-child{border-left:1px solid var(--line)!important}
+.content-toolbar{display:flex;gap:8px;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line);background:#fff}
+.content-table-wrap{overflow:auto;border-radius:0!important}
+table{width:100%;border-collapse:collapse;background:#fff}
+th,td{border-bottom:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}
+th{background:#f1f3f6;position:sticky;top:0;z-index:2}
+.btn,.chip,button,input,select,textarea{border-radius:0!important;box-shadow:none!important}
+.btn,.chip,button{min-height:34px}
+.project-list,.department-board{padding:0!important}
+.project-item,.department-card{margin:0!important;border-left:0!important;border-right:0!important;border-top:0!important}
+dialog{border-radius:0!important;border:1px solid var(--line)!important;box-shadow:none!important;padding:0}
+.rewrite-compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:0}
+.review-card{margin:0!important}
+.lina-launcher,.lina-panel{display:none!important}
+@media(max-width:1000px){.app-shell{grid-template-columns:220px minmax(0,1fr)}.workspace-grid{grid-template-columns:1fr}.workspace-grid>.detail-panel{border-left:1px solid var(--line)!important;border-top:0!important}.stats,.content-health-summary{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:760px){.app-shell{display:block}.sidebar{position:relative;width:100%}.main{padding:0 12px 32px}.topbar{margin:0 -12px 12px;padding:12px}.content-toolbar{align-items:stretch;flex-direction:column}.stats,.content-health-summary{grid-template-columns:repeat(2,1fr)}}
