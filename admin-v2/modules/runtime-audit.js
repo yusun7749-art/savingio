@@ -8,12 +8,13 @@
   const expectedReleaseId='admin-v2-release-2026-07-26-01';
   const expectedModules=Object.freeze([
     'tool-build-progress','tool-runtime-audit','tool-cloudflare','tool-seo-doctor','tool-content-doctor',
-    'tool-search-console','tool-adsense','tool-github-release','dept-content','dept-seo','dept-image','dept-qa','dept-deploy'
+    'tool-search-console','tool-adsense','tool-github-release','dept-content','dept-seo','dept-image','dept-qa','dept-deploy','dept-analytics'
   ]);
   const expectedGlobals=Object.freeze([
     'SavingioV2ReleaseMarker','SavingioV2CenterRenderer','SavingioV2CenterStoreFactory','SavingioV2BuildProgressStore',
     'SavingioV2CloudflareStore','SavingioV2SeoDoctorStore','SavingioV2ContentDoctorStore','SavingioV2ContentInventoryStore',
-    'SavingioV2SeoInventoryStore','SavingioV2ImageInventoryStore','SavingioV2QaInventoryStore','SavingioV2DeployInventoryStore','SavingioV2RuntimeAudit','SavingioAdminV2','SavingioV2ProductionAutoVerify'
+    'SavingioV2SeoInventoryStore','SavingioV2ImageInventoryStore','SavingioV2QaInventoryStore','SavingioV2DeployInventoryStore',
+    'SavingioV2AnalyticsInventoryStore','SavingioV2RuntimeAudit','SavingioAdminV2','SavingioV2ProductionAutoVerify'
   ]);
   const expectedScripts=Object.freeze([
     '/admin-v2/core/release-marker.js','/admin-v2/core/center-renderer.js','/admin-v2/core/center-store-factory.js',
@@ -22,6 +23,7 @@
     '/admin-v2/core/image-inventory-store.js','/admin-v2/modules/image.js',
     '/admin-v2/core/qa-inventory-store.js','/admin-v2/modules/qa.js',
     '/admin-v2/core/deploy-inventory-store.js','/admin-v2/modules/deploy.js',
+    '/admin-v2/core/analytics-inventory-store.js','/admin-v2/modules/analytics.js',
     '/admin-v2/modules/build-progress.js','/admin-v2/modules/cloudflare.js',
     '/admin-v2/modules/seo-doctor.js','/admin-v2/modules/content-doctor.js',
     '/admin-v2/modules/runtime-audit.js','/admin-v2/app.js','/admin-v2/production-auto-verify.js','/admin-v2/center-refresh.js'
@@ -42,6 +44,7 @@
     const imageInventory=window.SavingioV2ImageInventoryStore?.verify?.()||{pass:false,count:0};
     const qaInventory=window.SavingioV2QaInventoryStore?.verify?.()||{pass:false,count:0};
     const deployInventory=window.SavingioV2DeployInventoryStore?.verify?.()||{pass:false,count:0};
+    const analyticsInventory=window.SavingioV2AnalyticsInventoryStore?.verify?.()||{pass:false,count:0};
     const release=window.SavingioV2ReleaseMarker||{};
     const rows=[...moduleRows,...globalRows,...menuRows,...scriptRows,
       {name:`Release Marker · ${expectedReleaseId}`,pass:release.id===expectedReleaseId},
@@ -52,6 +55,7 @@
       {name:`Image Inventory integrity · ${imageInventory.count||0}건`,pass:Boolean(imageInventory.pass)},
       {name:`QA Inventory integrity · ${qaInventory.count||0}건`,pass:Boolean(qaInventory.pass)},
       {name:`Deploy Inventory integrity · ${deployInventory.count||0}건`,pass:Boolean(deployInventory.pass)},
+      {name:`Analytics Inventory integrity · ${analyticsInventory.count||0}건`,pass:Boolean(analyticsInventory.pass)},
       {name:'Build Progress truth lock',pass:Boolean(progress.pass&&progress.noFakeCompletion)},
       {name:'Admin V2 Shell',pass:Boolean(shell.pass)}
     ];
