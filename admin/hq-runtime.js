@@ -22,7 +22,7 @@
     }
 
     const append = (text, role = 'bot') => {
-      if (!messages) return;
+      if (!messages || !text) return;
       const item = document.createElement('div');
       item.className = `lina-msg ${role}`;
       item.textContent = text;
@@ -38,25 +38,13 @@
 
     const currentContext = () => {
       const active = tree?.querySelector('.tree-child.active,[aria-current="page"],.tree-title.active');
-      return cleanLabel(active?.textContent)
-        || cleanLabel(pageTitle?.textContent)
-        || '통합 상황실';
+      return cleanLabel(active?.textContent) || cleanLabel(pageTitle?.textContent) || '통합 상황실';
     };
 
     const findHealthValue = () => {
       const explicit = document.querySelector('[data-health-score],[data-operating-health],#operatingHealth,.operating-health');
       const explicitNumber = Number(String(explicit?.textContent || explicit?.dataset?.healthScore || '').match(/\b(100|[1-9]?\d)\b/)?.[1]);
       if (Number.isFinite(explicitNumber) && explicitNumber >= 0 && explicitNumber <= 100) return `${explicitNumber}점`;
-
-      const scope = document.querySelector('.main') || document.body;
-      const candidates = scope.querySelectorAll('p,span,strong,b,div');
-      for (let index = 0; index < candidates.length && index < 600; index += 1) {
-        const text = candidates[index].textContent?.replace(/\s+/g, ' ').trim() || '';
-        if (!/(운영\s*건강도|운영\s*Health|Health\s*점수)/i.test(text)) continue;
-        const match = text.match(/(?:운영\s*건강도|운영\s*Health|Health\s*점수)[^0-9]{0,20}(100|[1-9]?\d)\s*점?/i);
-        const value = Number(match?.[1]);
-        if (Number.isFinite(value) && value >= 0 && value <= 100) return `${value}점`;
-      }
       return '측정 중';
     };
 
@@ -66,18 +54,14 @@
       rows.forEach(row => {
         if (/미달|❌|B|C|D/.test(row.textContent || '')) failed += 1;
       });
-      return {
-        articleRows: rows.length,
-        failed,
-        healthText: findHealthValue()
-      };
+      return { articleRows: rows.length, failed, healthText: findHealthValue() };
     };
 
     const statusReply = command => {
       const context = currentContext();
       const projectCount = document.querySelectorAll('#projectList [data-project-id],#projectList .project-card').length;
       const { articleRows, failed } = readDashboard();
-      const normalized = command.replace(/\s+/g, ' ').trim();
+      const normalized = String(command || '').replace(/\s+/g, ' ').trim();
 
       if (/살아|응답|리나/.test(normalized)) return `리나 HQ 정상 응답 중입니다. 현재 위치는 ${context}입니다.`;
       if (/오늘 상황|상황|현황/.test(normalized)) return `현재 ${context} 화면입니다. 프로젝트 ${projectCount}건, Doctor 표시 글 ${articleRows}건, 확인 필요 항목 약 ${failed}건입니다.`;
@@ -168,28 +152,35 @@
       if (logText) logText.textContent = `${context} · Explorer ACTIVE · Lina Assistant ONLINE · Admin V2 보호`;
     };
 
-    if (form && input && messages && !form.dataset.hqFallbackBound) {
-      form.dataset.hqFallbackBound = 'true';
-      form.addEventListener('submit', () => {
-        const text = input.value.trim();
-        if (!text) return;
-        const before = messages.children.length;
-        window.setTimeout(() => {
-          if (messages.children.length === before) append(statusReply(text), 'bot');
-        }, 350);
+    const sendChat = text => {
+      const prompt = String(text || '').trim();
+      if (!prompt) return;
+      append(prompt, 'user');
+      if (input) input.value = '';
+      window.setTimeout(() => append(statusReply(prompt), 'bot'), 80);
+    };
+
+    if (form && input && messages) {
+      form.addEventListener('submit', event => {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        sendChat(input.value);
+      }, true);
+
+      input.addEventListener('keydown', event => {
+        if (event.key === 'Enter' && !event.shiftKey && !event.isComposing) {
+          event.preventDefault();
+          form.requestSubmit();
+        }
       });
     }
 
     document.querySelectorAll('[data-lina-quick]').forEach(button => {
-      if (button.dataset.hqBound) return;
-      button.dataset.hqBound = 'true';
-      button.addEventListener('click', () => {
-        const command = button.dataset.linaQuick || button.textContent || '';
-        window.setTimeout(() => {
-          const last = messages?.lastElementChild?.textContent || '';
-          if (!last || last === command) append(statusReply(command), 'bot');
-        }, 350);
-      });
+      button.addEventListener('click', event => {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        sendChat(button.dataset.linaQuick || button.textContent || '');
+      }, true);
     });
 
     decorateExplorer();
@@ -197,23 +188,19 @@
     buildLog();
     refreshBriefing();
 
-    tree?.addEventListener('click', () => {
-      window.setTimeout(refreshBriefing, 0);
-    });
-
-    document.getElementById('runContentAuditBtn')?.addEventListener('click', () => {
-      window.setTimeout(refreshBriefing, 1200);
-    });
+    tree?.addEventListener('click', () => window.setTimeout(refreshBriefing, 0));
+    document.getElementById('runContentAuditBtn')?.addEventListener('click', () => window.setTimeout(refreshBriefing, 1200));
 
     window.SavingioHQ = Object.freeze({
-      version: 'V3.034-stable',
+      version: 'V3.035-chat-fix',
       mode: 'legacy-admin-hq',
       assistant: 'online',
       explorer: 'primary',
       v2Protected: true,
       context: currentContext,
       reply: statusReply,
-      refresh: refreshBriefing
+      refresh: refreshBriefing,
+      send: sendChat
     });
   });
 })();
