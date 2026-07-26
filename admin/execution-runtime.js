@@ -15,8 +15,13 @@
       return [];
     }
   };
-
   const writeJobs = jobs => localStorage.setItem(STORAGE_KEY, JSON.stringify(jobs.slice(0, 30)));
+  const saveJob = job => {
+    const jobs = readJobs().filter(item => item.id !== job.id);
+    jobs.unshift(job);
+    writeJobs(jobs);
+  };
+  const wait = ms => new Promise(resolve => window.setTimeout(resolve, ms));
 
   function taskFromButton(button) {
     const card = button.closest('.lina-decision-item');
@@ -92,14 +97,7 @@
         </footer>
       </section>`;
     document.body.appendChild(dialog);
-    dialog.querySelectorAll('[data-execution-close]').forEach(button => button.addEventListener('click', () => dialog.close()));
     return dialog;
-  }
-
-  function saveJob(job) {
-    const jobs = readJobs().filter(item => item.id !== job.id);
-    jobs.unshift(job);
-    writeJobs(jobs);
   }
 
   function openExecution(task) {
@@ -121,60 +119,73 @@
     $('#hqExecutionSteps').innerHTML = steps.map((step, index) => `<li data-step="${index}"><span>${index + 1}</span><strong>${esc(step)}</strong><em>대기</em></li>`).join('');
     $('#hqExecutionMessage').textContent = '아직 운영 파일은 변경하지 않았습니다. 먼저 분석과 수정안을 만든 뒤 승인 단계로 넘어갑니다.';
     $('#hqExecutionApprove').disabled = true;
+    $('#hqExecutionApprove').textContent = '수정안 승인';
     $('#hqExecutionAnalyze').disabled = false;
     $('#hqExecutionAnalyze').textContent = '분석 시작';
     saveJob(job);
     dialog.showModal();
   }
 
-  async function runAnalysis() {
-    const dialog = $('#hqExecutionDialog');
-    const jobId = dialog?.dataset.jobId;
-    const jobs = readJobs();
-    const job = jobs.find(item => item.id === jobId);
-    if (!job) return;
-    const analyze = $('#hqExecutionAnalyze');
-    const approve = $('#hqExecutionApprove');
-    analyze.disabled = true;
-    $('#hqExecutionState').textContent = '분석 중';
-    $('#hqExecutionMessage').textContent = '현재 운영 데이터와 대상 범위를 읽고 있습니다.';
-    const items = [...document.querySelectorAll('#hqExecutionSteps li')];
-    for (let index = 0; index < Math.min(4, items.length); index += 1) {
-      items[index].classList.add('active');
-      items[index].querySelector('em').textContent = '진행 중';
-      await new Promise(resolve => setTimeout(resolve, 260));
-      items[index].classList.remove('active');
-      items[index].classList.add('done');
-      items[index].querySelector('em').textContent = '완료';
+  async function runAnalysis(button) {
+    const dialog = button.closest('#hqExecutionDialog');
+    const job = readJobs().find(item => item.id === dialog?.dataset.jobId);
+    if (!dialog || !job || button.dataset.running === 'true') return;
+
+    const state = dialog.querySelector('#hqExecutionState');
+    const message = dialog.querySelector('#hqExecutionMessage');
+    const approve = dialog.querySelector('#hqExecutionApprove');
+    const items = [...dialog.querySelectorAll('#hqExecutionSteps li')];
+
+    button.dataset.running = 'true';
+    button.disabled = true;
+    state.textContent = '분석 중';
+    message.textContent = '운영 보고서와 대상 범위를 확인하고 수정 계획을 만들고 있습니다.';
+
+    try {
+      for (let index = 0; index < Math.min(4, items.length); index += 1) {
+        const item = items[index];
+        const label = item.querySelector('em');
+        item.classList.add('active');
+        if (label) label.textContent = '진행 중';
+        await wait(300);
+        item.classList.remove('active');
+        item.classList.add('done');
+        if (label) label.textContent = '완료';
+      }
+      job.status = 'review';
+      job.analyzedAt = new Date().toISOString();
+      saveJob(job);
+      state.textContent = '수정안 승인 대기';
+      message.textContent = '분석과 수정 계획 준비가 끝났습니다. 아직 운영 파일은 변경하지 않았습니다. 내용을 확인한 뒤 수정안 승인을 눌러주세요.';
+      button.textContent = '분석 완료';
+      approve.disabled = false;
+    } catch (error) {
+      state.textContent = '분석 오류';
+      message.textContent = `분석 중 오류가 발생했습니다: ${error.message}`;
+      button.disabled = false;
+    } finally {
+      delete button.dataset.running;
     }
-    job.status = 'review';
-    job.analyzedAt = new Date().toISOString();
-    saveJob(job);
-    $('#hqExecutionState').textContent = '수정안 승인 대기';
-    $('#hqExecutionMessage').textContent = '분석과 수정 계획 준비가 끝났습니다. 아직 GitHub 파일은 변경하지 않았습니다. 승인하면 실행 요청 상태로 전환됩니다.';
-    analyze.textContent = '분석 완료';
-    approve.disabled = false;
   }
 
-  function approveJob() {
-    const dialog = $('#hqExecutionDialog');
-    const jobId = dialog?.dataset.jobId;
-    const jobs = readJobs();
-    const job = jobs.find(item => item.id === jobId);
-    if (!job) return;
+  function approveJob(button) {
+    const dialog = button.closest('#hqExecutionDialog');
+    const job = readJobs().find(item => item.id === dialog?.dataset.jobId);
+    if (!dialog || !job) return;
     job.status = 'approved';
     job.approvedAt = new Date().toISOString();
     saveJob(job);
-    const items = [...document.querySelectorAll('#hqExecutionSteps li')];
-    const reviewIndex = Math.min(4, items.length - 1);
-    if (items[reviewIndex]) {
-      items[reviewIndex].classList.add('done');
-      items[reviewIndex].querySelector('em').textContent = '승인';
+    const items = [...dialog.querySelectorAll('#hqExecutionSteps li')];
+    const review = items[Math.min(4, items.length - 1)];
+    if (review) {
+      review.classList.add('done');
+      const label = review.querySelector('em');
+      if (label) label.textContent = '승인';
     }
-    $('#hqExecutionState').textContent = '실행 요청 등록';
-    $('#hqExecutionMessage').textContent = '승인 기록을 저장했습니다. 실제 GitHub 수정과 배포는 서버 실행 엔진이 연결된 뒤 수행됩니다. 현재는 승인된 작업 큐까지 정상 연결되었습니다.';
-    $('#hqExecutionApprove').disabled = true;
-    $('#hqExecutionApprove').textContent = '승인 완료';
+    dialog.querySelector('#hqExecutionState').textContent = '실행 요청 등록';
+    dialog.querySelector('#hqExecutionMessage').textContent = '승인 기록을 저장했습니다. 실제 GitHub 수정·배포 엔진은 아직 연결 전이므로 운영 파일은 변경되지 않았습니다.';
+    button.disabled = true;
+    button.textContent = '승인 완료';
     window.dispatchEvent(new CustomEvent('savingio:execution-approved', { detail: job }));
   }
 
@@ -192,23 +203,52 @@
   }
 
   document.addEventListener('click', event => {
-    const button = event.target.closest('[data-decision-target]');
-    if (!button) return;
-    event.preventDefault();
-    event.stopImmediatePropagation();
-    openExecution(taskFromButton(button));
+    const close = event.target.closest('[data-execution-close]');
+    if (close) {
+      event.preventDefault();
+      close.closest('#hqExecutionDialog')?.close();
+      return;
+    }
+
+    const analyze = event.target.closest('#hqExecutionAnalyze');
+    if (analyze) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      runAnalysis(analyze);
+      return;
+    }
+
+    const approve = event.target.closest('#hqExecutionApprove');
+    if (approve) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      if (!approve.disabled) approveJob(approve);
+      return;
+    }
+
+    const decision = event.target.closest('[data-decision-target]');
+    if (decision) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      openExecution(taskFromButton(decision));
+    }
   }, true);
 
-  document.addEventListener('DOMContentLoaded', () => {
+  function init() {
     relabelDecisionButtons();
-    const observer = new MutationObserver(() => {
-      clearTimeout(observer.timer);
-      observer.timer = setTimeout(relabelDecisionButtons, 80);
-    });
-    const list = $('#linaDecisionList');
-    if (list) observer.observe(list, { childList: true, subtree: true });
     ensureDialog();
-    $('#hqExecutionAnalyze')?.addEventListener('click', runAnalysis);
-    $('#hqExecutionApprove')?.addEventListener('click', approveJob);
-  }, { once: true });
+    const list = $('#linaDecisionList');
+    if (list && !list.dataset.executionObserved) {
+      list.dataset.executionObserved = 'true';
+      const observer = new MutationObserver(() => {
+        clearTimeout(observer.timer);
+        observer.timer = setTimeout(relabelDecisionButtons, 80);
+      });
+      observer.observe(list, { childList: true, subtree: true });
+    }
+  }
+
+  document.readyState === 'loading'
+    ? document.addEventListener('DOMContentLoaded', init, { once: true })
+    : init();
 })();
