@@ -1,0 +1,185 @@
+/* Savingio Admin HQ layout corrections — video audit 2026-07-27 */
+
+/* Keep every main section on the same horizontal rhythm. */
+.main > .topbar,
+.main > .notice,
+.main > .workspace-grid,
+.main > .content-approval-center,
+.main > .department-panel {
+  width: 100%;
+  min-width: 0;
+}
+
+.topbar > div:first-child,
+.panel-head > div:first-child,
+.content-center-head > div:first-child,
+.department-panel .panel-head > div:first-child {
+  min-width: 0;
+  text-align: left;
+}
+
+.topbar h1,
+.panel-head h2,
+.panel-head p,
+.department-panel h2,
+.department-panel h3,
+.department-panel p,
+.department-panel li,
+.department-panel span,
+.department-panel strong {
+  text-align: left;
+}
+
+/* The department screens were collapsing their content against the far left. */
+.department-panel {
+  overflow: hidden;
+}
+
+.department-panel > .panel-head {
+  margin: 0 !important;
+  padding: 12px 16px !important;
+}
+
+.department-board {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
+  align-items: stretch;
+  gap: 12px !important;
+  width: 100%;
+  min-width: 0;
+  padding: 14px 16px 18px !important;
+}
+
+.department-board > * {
+  width: 100%;
+  min-width: 0;
+  margin: 0 !important;
+  padding: 14px 16px !important;
+  border: 1px solid var(--hq-line) !important;
+  background: #fff !important;
+}
+
+.department-board .dept-card,
+.department-board article,
+.department-board section,
+.department-board .panel,
+.department-board .board-card,
+.department-board .workflow-board,
+.department-board .workboard-board {
+  min-height: 132px;
+}
+
+.department-board h2,
+.department-board h3,
+.department-board h4 {
+  margin: 0 0 8px !important;
+  line-height: 1.35;
+}
+
+.department-board p,
+.department-board ul,
+.department-board ol,
+.department-board dl {
+  margin-top: 0;
+  max-width: none;
+}
+
+.department-board ul,
+.department-board ol {
+  padding-left: 20px !important;
+}
+
+/* Tables, forms, charts and empty states should fill their panel rather than hug one edge. */
+.department-board table,
+.department-board form,
+.department-board canvas,
+.department-board .table-wrap,
+.department-board .chart-wrap,
+.department-board .empty,
+.department-board [class*="summary"],
+.department-board [class*="list"],
+.department-board [class*="grid"] {
+  width: 100%;
+  min-width: 0;
+}
+
+.department-board .empty {
+  display: flex;
+  align-items: center;
+  min-height: 104px;
+  padding: 18px !important;
+}
+
+/* Keep upper content aligned with lower department boards. */
+.workspace-grid,
+.content-approval-center,
+.department-panel {
+  scroll-margin-top: 76px;
+}
+
+.main-panel > .panel-head,
+.content-approval-center > .panel-head,
+.department-panel > .panel-head {
+  min-height: 54px;
+}
+
+/* Offline LINA remains useful without paid AI tokens. */
+#linaPanel[data-lina-mode="offline"] .hq-online {
+  background: #fff4d6;
+  color: #8a5a00;
+}
+
+#linaPanel[data-lina-mode="offline"] .lina-id small {
+  color: #ffd98a !important;
+}
+
+.hq-offline-note {
+  margin: 0;
+  padding: 9px 12px;
+  border-bottom: 1px solid var(--hq-line);
+  background: #fffaf0;
+  color: #6f551d;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.hq-priority-list {
+  display: grid;
+  gap: 6px;
+  margin-top: 9px;
+}
+
+.hq-priority-item {
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr);
+  gap: 7px;
+  align-items: start;
+  padding: 7px 8px;
+  border: 1px solid #e2e7ef;
+  background: #fff;
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.hq-priority-item b {
+  display: grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  background: #edf3ff;
+  color: #1f5fbf;
+  font-size: 10px;
+}
+
+@media (max-width: 1280px) {
+  .department-board {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .department-board {
+    grid-template-columns: 1fr !important;
+    padding: 12px !important;
+  }
+}
