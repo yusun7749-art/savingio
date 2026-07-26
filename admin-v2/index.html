@@ -36,6 +36,13 @@
           </div>
         </section>
         <section class="nav-group open">
+          <button class="nav-group-title" type="button" data-view="tool-seo-doctor" aria-expanded="true"><span>✚ 진단 도구</span><span>⌄</span></button>
+          <div class="nav-children">
+            <button type="button" data-view="tool-seo-doctor">SEO Doctor</button>
+            <button type="button" data-view="tool-content-doctor">Content Doctor</button>
+          </div>
+        </section>
+        <section class="nav-group open">
           <button class="nav-group-title" type="button" data-view="tool-search-console" aria-expanded="true"><span>⌕ 외부 점검</span><span>⌄</span></button>
           <div class="nav-children">
             <button type="button" data-view="tool-search-console">Search Console 센터</button>
@@ -64,6 +71,7 @@
   <script src="/admin-v2/core/adsense-store.js?v=1"></script>
   <script src="/admin-v2/core/github-release-store.js?v=1"></script>
   <script src="/admin-v2/core/center-renderer.js?v=1"></script>
+  <script src="/admin-v2/core/center-store-factory.js?v=1"></script>
   <script src="/admin-v2/core/build-progress-store.js?v=1"></script>
   <script src="/admin-v2/core/cloudflare-store.js?v=1"></script>
   <script src="/admin-v2/core/task-queue.js?v=1"></script>
@@ -82,6 +90,9 @@
   <script src="/admin-v2/modules/github-release.js?v=1"></script>
   <script src="/admin-v2/modules/build-progress.js?v=1"></script>
   <script src="/admin-v2/modules/cloudflare.js?v=1"></script>
-  <script src="/admin-v2/app.js?v=9"></script>
+  <script src="/admin-v2/modules/seo-doctor.js?v=1"></script>
+  <script src="/admin-v2/modules/content-doctor.js?v=1"></script>
+  <script src="/admin-v2/app.js?v=10"></script>
+  <script src="/admin-v2/center-refresh.js?v=1"></script>
 </body>
 </html>
