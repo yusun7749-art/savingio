@@ -111,6 +111,8 @@
   };
 
   loadStyle('/admin/hq-layout-fix.css?v=20260727-1', 'data-hq-layout-fix');
+  loadStyle('/admin/hq-operations-wall.css?v=20260727-1', 'data-hq-operations-wall-style');
   loadScript('/admin/lina-offline-briefing.js?v=20260727-1', 'data-lina-offline-briefing');
+  loadScript('/admin/hq-operations-wall.js?v=20260727-1', 'data-hq-operations-wall');
   loadScript('/admin/lina-chat-core.js?v=20260727-2', 'data-lina-chat-core');
 })();
