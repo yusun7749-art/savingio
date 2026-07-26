@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3282,
-  "references_scanned": 62944,
+  "files_scanned": 3283,
+  "references_scanned": 62947,
   "counts": {
-    "broken_references": 1866,
+    "broken_references": 1869,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -526,6 +526,29 @@
       "reference": "script.src,location.href",
       "expected": [
         "admin-v2/script.src,location.href"
+      ]
+    },
+    {
+      "source": "admin/admin-workspace-router.js",
+      "reference": "location.href",
+      "expected": [
+        "admin/location.href"
+      ]
+    },
+    {
+      "source": "admin/admin-workspace-router.js",
+      "reference": "resolved,Boolean(options.replace",
+      "expected": [
+        "admin/resolved,Boolean(options.replace"
+      ]
+    },
+    {
+      "source": "admin/admin-workspace-router.js",
+      "reference": "routeId,replace=false",
+      "expected": [
+        "admin/routeId,replace=false",
+        "admin/routeId,replace=false.html",
+        "admin/routeId,replace=false/index.html"
       ]
     },
     {
