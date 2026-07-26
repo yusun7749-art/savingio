@@ -92,11 +92,25 @@
     }
   });
 
-  if (!document.querySelector('script[data-lina-chat-core]')) {
+  const loadStyle = (href, marker) => {
+    if (document.querySelector(`link[${marker}]`)) return;
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = href;
+    link.setAttribute(marker, 'true');
+    document.head.appendChild(link);
+  };
+
+  const loadScript = (src, marker) => {
+    if (document.querySelector(`script[${marker}]`)) return;
     const script = document.createElement('script');
-    script.src = '/admin/lina-chat-core.js?v=20260727-2';
+    script.src = src;
     script.async = false;
-    script.dataset.linaChatCore = 'true';
+    script.setAttribute(marker, 'true');
     document.head.appendChild(script);
-  }
+  };
+
+  loadStyle('/admin/hq-layout-fix.css?v=20260727-1', 'data-hq-layout-fix');
+  loadScript('/admin/lina-offline-briefing.js?v=20260727-1', 'data-lina-offline-briefing');
+  loadScript('/admin/lina-chat-core.js?v=20260727-2', 'data-lina-chat-core');
 })();
