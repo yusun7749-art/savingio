@@ -8,16 +8,17 @@
   const expectedReleaseId='admin-v2-release-2026-07-26-01';
   const expectedModules=Object.freeze([
     'tool-build-progress','tool-runtime-audit','tool-cloudflare','tool-seo-doctor','tool-content-doctor',
-    'tool-search-console','tool-adsense','tool-github-release','dept-content'
+    'tool-search-console','tool-adsense','tool-github-release','dept-content','dept-seo'
   ]);
   const expectedGlobals=Object.freeze([
     'SavingioV2ReleaseMarker','SavingioV2CenterRenderer','SavingioV2CenterStoreFactory','SavingioV2BuildProgressStore',
     'SavingioV2CloudflareStore','SavingioV2SeoDoctorStore','SavingioV2ContentDoctorStore','SavingioV2ContentInventoryStore',
-    'SavingioV2RuntimeAudit','SavingioAdminV2','SavingioV2ProductionAutoVerify'
+    'SavingioV2SeoInventoryStore','SavingioV2RuntimeAudit','SavingioAdminV2','SavingioV2ProductionAutoVerify'
   ]);
   const expectedScripts=Object.freeze([
     '/admin-v2/core/release-marker.js','/admin-v2/core/center-renderer.js','/admin-v2/core/center-store-factory.js',
     '/admin-v2/core/content-inventory-store.js','/admin-v2/modules/content.js',
+    '/admin-v2/core/seo-inventory-store.js','/admin-v2/modules/seo.js',
     '/admin-v2/modules/build-progress.js','/admin-v2/modules/cloudflare.js',
     '/admin-v2/modules/seo-doctor.js','/admin-v2/modules/content-doctor.js',
     '/admin-v2/modules/runtime-audit.js','/admin-v2/app.js','/admin-v2/production-auto-verify.js','/admin-v2/center-refresh.js'
@@ -34,12 +35,14 @@
     const shell=window.SavingioAdminV2?.verify?.()||{pass:false};
     const progress=window.SavingioV2BuildProgressStore?.verify?.()||{pass:false,noFakeCompletion:false};
     const contentInventory=window.SavingioV2ContentInventoryStore?.verify?.()||{pass:false,count:0};
+    const seoInventory=window.SavingioV2SeoInventoryStore?.verify?.()||{pass:false,count:0};
     const release=window.SavingioV2ReleaseMarker||{};
     const rows=[...moduleRows,...globalRows,...menuRows,...scriptRows,
       {name:`Release Marker · ${expectedReleaseId}`,pass:release.id===expectedReleaseId},
       {name:'Release Marker module list',pass:Array.isArray(release.expectedModules)&&release.expectedModules.every(id=>registry.has(id))},
       {name:'Center Renderer config-driven',pass:Boolean(renderer.pass)},
       {name:`Content Inventory integrity · ${contentInventory.count||0}건`,pass:Boolean(contentInventory.pass)},
+      {name:`SEO Inventory integrity · ${seoInventory.count||0}건`,pass:Boolean(seoInventory.pass)},
       {name:'Build Progress truth lock',pass:Boolean(progress.pass&&progress.noFakeCompletion)},
       {name:'Admin V2 Shell',pass:Boolean(shell.pass)}
     ];
