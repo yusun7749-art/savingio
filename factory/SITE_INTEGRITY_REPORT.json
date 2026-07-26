@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3268,
-  "references_scanned": 62887,
+  "references_scanned": 62895,
   "counts": {
-    "broken_references": 1851,
+    "broken_references": 1859,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -307,6 +307,72 @@
         "admin-v2/modules/reset",
         "admin-v2/modules/reset.html",
         "admin-v2/modules/reset/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/image.js",
+      "reference": "${esc(item.path)}",
+      "expected": [
+        "admin-v2/modules/${esc(item.path)}"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/image.js",
+      "reference": "${esc(item.targetUrl)}",
+      "expected": [
+        "admin-v2/modules/${esc(item.targetUrl)}"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/image.js",
+      "reference": "/images/articles/example.svg",
+      "expected": [
+        "images/articles/example.svg"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/image.js",
+      "reference": "cancel",
+      "expected": [
+        "admin-v2/modules/cancel",
+        "admin-v2/modules/cancel.html",
+        "admin-v2/modules/cancel/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/image.js",
+      "reference": "delete",
+      "expected": [
+        "admin-v2/modules/delete",
+        "admin-v2/modules/delete.html",
+        "admin-v2/modules/delete/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/image.js",
+      "reference": "edit",
+      "expected": [
+        "admin-v2/modules/edit",
+        "admin-v2/modules/edit.html",
+        "admin-v2/modules/edit/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/image.js",
+      "reference": "reset-filter",
+      "expected": [
+        "admin-v2/modules/reset-filter",
+        "admin-v2/modules/reset-filter.html",
+        "admin-v2/modules/reset-filter/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/image.js",
+      "reference": "workflow",
+      "expected": [
+        "admin-v2/modules/workflow",
+        "admin-v2/modules/workflow.html",
+        "admin-v2/modules/workflow/index.html"
       ]
     },
     {
