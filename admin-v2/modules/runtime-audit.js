@@ -45,11 +45,24 @@
 
   function render(){
     const result=run();
+    const progress=window.SavingioV2BuildProgressStore?.read?.()||{};
     const rows=result.rows.map(row=>`<div><span>${esc(row.name)}</span><strong class="${row.pass?'pass':'fail'}">${row.pass?'PASS':'FAIL'}</strong></div>`).join('');
-    return `<section class="view" data-module-root><header class="hero"><p>RUNTIME AUDIT</p><h2>Admin V2 런타임 검증 센터</h2><p>현재 브라우저에 실제 로딩된 공통 엔진·Store·모듈·메뉴·스크립트·Release Marker·Shell을 검사합니다. 파일 존재만으로 PASS 처리하지 않습니다.</p></header><div class="metrics"><article class="metric"><span>전체 항목</span><strong>${result.total}</strong></article><article class="metric"><span>PASS</span><strong>${result.passed}</strong></article><article class="metric"><span>FAIL</span><strong>${result.failed}</strong></article><article class="metric"><span>최종 판정</span><strong class="${result.pass?'pass':'fail'}">${result.pass?'PASS':'FAIL'}</strong></article></div><section class="panel"><h3>실시간 검사 결과</h3><div class="connection-list">${rows}</div><div class="header-actions"><button class="button" type="button" data-runtime-audit="rerun">다시 검사</button></div></section><section class="panel"><h3>배포 식별</h3><div class="connection-list"><div><span>Release ID</span><strong>${esc(result.releaseId)}</strong></div><div><span>Version</span><strong>${esc(result.version)}</strong></div><div><span>검사 시각</span><strong>${esc(new Date(result.checkedAt).toLocaleString('ko-KR'))}</strong></div><div><span>완료 판정</span><strong>모든 항목 PASS일 때만 허용</strong></div></div></section></section>`;
+    const finalState=progress.status==='complete'&&Number(progress.percent)===100?'100% 완료':'검증 결과 미반영';
+    return `<section class="view" data-module-root><header class="hero"><p>RUNTIME AUDIT</p><h2>Admin V2 런타임 검증 센터</h2><p>현재 브라우저에 실제 로딩된 공통 엔진·Store·모듈·메뉴·스크립트·Release Marker·Shell을 검사합니다. 전체 PASS 결과를 반영해야만 진행 보드가 100%로 전환됩니다.</p></header><div class="metrics"><article class="metric"><span>전체 항목</span><strong>${result.total}</strong></article><article class="metric"><span>PASS</span><strong>${result.passed}</strong></article><article class="metric"><span>FAIL</span><strong>${result.failed}</strong></article><article class="metric"><span>최종 판정</span><strong class="${result.pass?'pass':'fail'}">${result.pass?'PASS':'FAIL'}</strong></article><article class="metric"><span>진행 보드</span><strong>${esc(finalState)}</strong></article></div><section class="panel"><h3>실시간 검사 결과</h3><div class="connection-list">${rows}</div><div class="header-actions"><button class="button secondary" type="button" data-runtime-audit="rerun">다시 검사</button><button class="button" type="button" data-runtime-audit="apply">검사 결과 반영</button></div></section><section class="panel"><h3>배포 식별</h3><div class="connection-list"><div><span>Release ID</span><strong>${esc(result.releaseId)}</strong></div><div><span>Version</span><strong>${esc(result.version)}</strong></div><div><span>검사 시각</span><strong>${esc(new Date(result.checkedAt).toLocaleString('ko-KR'))}</strong></div><div><span>완료 판정</span><strong>전체 PASS 결과 반영 시에만 100%</strong></div></div></section></section>`;
   }
 
   registry.register({id:'tool-runtime-audit',title:'런타임 검증 센터',render});
-  document.addEventListener('click',event=>{const button=event.target.closest('[data-runtime-audit="rerun"]');if(!button)return;event.preventDefault();window.SavingioAdminV2?.mount?.('tool-runtime-audit','replace');});
+  document.addEventListener('click',event=>{
+    const button=event.target.closest('[data-runtime-audit]');
+    if(!button)return;
+    event.preventDefault();
+    if(button.dataset.runtimeAudit==='apply'){
+      const result=run();
+      window.SavingioV2BuildProgressStore?.applyRuntimeAudit?.(result);
+      window.SavingioAdminV2?.mount?.('tool-runtime-audit','replace');
+      return;
+    }
+    window.SavingioAdminV2?.mount?.('tool-runtime-audit','replace');
+  });
   Object.defineProperty(window,'SavingioV2RuntimeAudit',{value:Object.freeze({run}),writable:false,configurable:false});
 })();
