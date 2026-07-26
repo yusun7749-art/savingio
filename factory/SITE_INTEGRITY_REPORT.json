@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3268,
-  "references_scanned": 62895,
+  "references_scanned": 62897,
   "counts": {
-    "broken_references": 1859,
+    "broken_references": 1860,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -4643,6 +4643,13 @@
       "reference": "/images/articles/duplicate-indemnity-insurance-check.svg",
       "expected": [
         "images/articles/duplicate-indemnity-insurance-check.svg"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/images/articles/example.svg",
+      "expected": [
+        "images/articles/example.svg"
       ]
     },
     {
