@@ -91,4 +91,12 @@
       return response.json();
     }
   });
+
+  if (!document.querySelector('script[data-lina-chat-core]')) {
+    const script = document.createElement('script');
+    script.src = '/admin/lina-chat-core.js';
+    script.defer = true;
+    script.dataset.linaChatCore = 'true';
+    document.head.appendChild(script);
+  }
 })();
