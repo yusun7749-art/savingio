@@ -3,6 +3,7 @@
 
   const HISTORY_KEY = 'savingio-lina-chat-history-v1';
   const MEMORY_KEY = 'savingio-lina-memory-v1';
+  const EXECUTION_KEY = 'savingio-hq-execution-jobs-v1';
   const MAX_HISTORY = 24;
 
   const $ = selector => document.querySelector(selector);
@@ -42,7 +43,7 @@
     const health = $('#linaHealthScore')?.textContent?.trim() || '측정 중';
     const page = $('#pageTitle')?.textContent?.trim() || '통합 상황실';
     const projects = document.querySelectorAll('#projectList [data-project-id], #projectList .project-card').length;
-    const executionQueue = readJson('savingio-execution-jobs', []);
+    const executionQueue = readJson(EXECUTION_KEY, []);
     const memory = readJson(MEMORY_KEY, []);
     return { page, health, articleRows: rows.length, failed, projects, executionQueue, memory };
   }
