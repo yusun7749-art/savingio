@@ -4,14 +4,7 @@
   const nav=document.getElementById('treeNav');
   const pageTitle=document.getElementById('pageTitle');
   const main=document.querySelector('.main');
-  const securityNotice=document.getElementById('securityNotice');
-  const stats=document.getElementById('stats');
-  const workspaceGrid=document.querySelector('.workspace-grid');
-  const contentCenter=document.getElementById('contentApprovalCenter');
-  const departmentPanel=document.querySelector('.department-panel');
-  const departmentBoard=document.getElementById('departmentBoard');
-  const departmentTitle=document.getElementById('departmentTitle');
-  if(!data||!nav||!pageTitle||!main||!stats||!workspaceGrid||!contentCenter||!departmentPanel||!departmentBoard) return;
+  if(!data||!nav||!pageTitle||!main)return;
 
   const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const routes=new Map();
@@ -20,7 +13,7 @@
     department.children.forEach((child,index)=>routes.set(`${department.id}:${index}`,{department,child,title:child}));
   });
 
-  const childPurpose={
+  const purpose={
     command:['전체 프로젝트와 긴급 상태를 요약합니다.','오늘 처리할 작업만 확인합니다.','승인 대기 항목을 확인합니다.','오류·중지 작업을 확인합니다.','수익과 성과 요약을 확인합니다.'],
     market:['새 주제의 수요와 검색 의도를 분석합니다.','판매 가능성이 높은 제품 후보를 정리합니다.','영상과 쇼츠 소재를 분석합니다.','댓글에서 실제 질문과 불편을 찾습니다.','경쟁 강도와 제작 난도를 비교합니다.','지금 제작할 우선순위를 결정합니다.'],
     content:['신규 글 제작 대기열을 관리합니다.','기존 글 재작성과 승인 상태를 관리합니다.','검색 노출과 메타데이터를 점검합니다.','이미지 제작과 사용 상태를 확인합니다.','관련 글과 계산기 연결을 확인합니다.','계산기 제작·연결 상태를 관리합니다.','헌법·DNA·품질 검사를 실행합니다.'],
@@ -33,12 +26,18 @@
     system:['대·중·소분류를 관리합니다.','외부 API 연결 상태를 확인합니다.','Publisher ID 잠금을 확인합니다.','GitHub 반영 상태를 확인합니다.','Cloudflare 배포 상태를 확인합니다.','백업과 운영 기록을 확인합니다.']
   };
 
-  const routeSections=()=>[...main.children].filter(element=>{
-    if(element.matches('header.topbar')) return false;
-    return element.matches('section,.stats,.workspace-grid,.panel');
-  });
-  function hideAll(){routeSections().forEach(element=>{element.hidden=true;});}
-  function show(element){if(element)element.hidden=false;}
+  let workspace=document.getElementById('adminWorkspace');
+  if(!workspace){
+    workspace=document.createElement('section');
+    workspace.id='adminWorkspace';
+    workspace.className='admin-workspace panel';
+    workspace.hidden=true;
+    main.appendChild(workspace);
+  }
+
+  const legacyNodes=()=>[...main.children].filter(node=>node!==workspace&&!node.matches('header.topbar'));
+  function showHome(){legacyNodes().forEach(node=>node.hidden=false);workspace.hidden=true;main.dataset.routeMode='home';}
+  function showWorkspace(){legacyNodes().forEach(node=>node.hidden=true);workspace.hidden=false;main.dataset.routeMode='workspace';}
 
   function setActive(routeId){
     nav.querySelectorAll('.tree-title,.tree-child').forEach(item=>item.classList.remove('active'));
@@ -51,72 +50,54 @@
       title?.closest('.tree-group')?.querySelector(`.tree-child:nth-child(${index+1})`)?.classList.add('active');
     }
   }
+
+  function projectRows(filter='all'){
+    const rows=(data.projects||[]).filter(project=>filter==='all'||project.status===filter).map(project=>`<tr><td><strong>${esc(project.title)}</strong><small>${esc(project.id)} · ${esc(project.category)}</small></td><td><span class="status ${esc(project.status)}">${esc(project.statusLabel)}</span></td><td>${Number(project.progress)||0}%</td><td>${esc(project.updated)}</td><td><button class="workspace-open-btn" type="button">열기</button></td></tr>`).join('');
+    return rows||'<tr><td colspan="5" class="workspace-table-empty">표시할 실제 데이터가 없습니다.</td></tr>';
+  }
+
+  function render(routeId,route){
+    const department=route.department;
+    const selectedIndex=route.child?department.children.indexOf(route.child):-1;
+    const intro=selectedIndex>=0?(purpose[department.id]?.[selectedIndex]||'선택한 업무를 관리합니다.'):`${department.name}의 업무를 선택하세요.`;
+    let body='';
+
+    if(department.id==='command'&&route.child){
+      const map={1:'running',2:'approval',3:'error'};
+      if(selectedIndex===4){
+        body='<div class="workspace-empty-state">실제 수익 데이터 연결 전입니다. 임의 수치는 표시하지 않습니다.</div>';
+      }else{
+        body=`<div class="workspace-table-wrap"><table class="workspace-table"><thead><tr><th>프로젝트</th><th>상태</th><th>진행률</th><th>최근 변경</th><th>작업</th></tr></thead><tbody>${projectRows(selectedIndex===0?'all':map[selectedIndex]||'all')}</tbody></table></div>`;
+      }
+    }else{
+      const menu=department.children.map((child,index)=>`<button class="workspace-menu-row${index===selectedIndex?' active':''}" type="button" data-workspace-route="${esc(`${department.id}:${index}`)}"><span><strong>${esc(child)}</strong><small>${esc(purpose[department.id]?.[index]||'운영 화면')}</small></span><b>${index===selectedIndex?'현재':'열기 →'}</b></button>`).join('');
+      body=`<div class="workspace-split"><aside class="workspace-subnav">${menu}</aside><section class="workspace-content"><h3>${esc(route.child||department.name)}</h3><p>${esc(intro)}</p>${route.child?'<div class="workspace-empty-state">이 영역에 해당 카테고리의 실제 표·목록·도구가 연결됩니다. 연결되지 않은 데이터는 비어 있는 상태로 표시합니다.</div>':'<div class="workspace-empty-state">왼쪽 업무 목록에서 항목을 선택하세요.</div>'}</section></div>`;
+    }
+
+    workspace.innerHTML=`<header class="workspace-top"><div><p>${esc(department.name)}</p><h2>${esc(route.child||department.name)}</h2><span>${esc(intro)}</span></div><button type="button" class="workspace-home-btn" data-workspace-home>메인으로</button></header>${body}`;
+    workspace.querySelectorAll('[data-workspace-route]').forEach(button=>button.addEventListener('click',()=>mount(button.dataset.workspaceRoute)));
+    workspace.querySelector('[data-workspace-home]')?.addEventListener('click',()=>mount('command'));
+  }
+
   function syncUrl(routeId,replace=false){const url=new URL(location.href);url.searchParams.set('view',routeId);history[replace?'replaceState':'pushState']({view:routeId},'',url.pathname+url.search);}
 
-  function compactProjectHome(){
-    const list=document.getElementById('projectList');
-    if(!list||list.dataset.compact==='true')return;
-    list.classList.add('project-table-list');
-    list.dataset.compact='true';
-  }
-
-  function renderCommandChild(route){
-    const index=route.department.children.indexOf(route.child);
-    const statusMap={1:'running',2:'approval',3:'error'};
-    const rows=(data.projects||[]).filter(project=>index===0||index===4||project.status===statusMap[index]).map(project=>`<tr><td><strong>${esc(project.title)}</strong><small>${esc(project.id)} · ${esc(project.category)}</small></td><td>${esc(project.statusLabel)}</td><td>${Number(project.progress)||0}%</td><td>${esc(project.updated)}</td></tr>`).join('');
-    const empty=index===4?'실제 수익 데이터 연결 전입니다. 수익 수치를 임의로 만들지 않습니다.':'해당 상태의 프로젝트가 없습니다.';
-    departmentTitle.textContent=route.child;
-    departmentBoard.innerHTML=`<div class="workspace-heading"><p>통합 상황실</p><h3>${esc(route.child)}</h3><span>${esc(childPurpose.command[index])}</span></div><div class="workspace-table-wrap"><table class="workspace-table"><thead><tr><th>프로젝트</th><th>상태</th><th>진행률</th><th>최근 변경</th></tr></thead><tbody>${rows||`<tr><td colspan="4" class="workspace-table-empty">${esc(empty)}</td></tr>`}</tbody></table></div>`;
-  }
-
-  function renderDepartment(route){
-    const department=route.department;
-    const selectedChild=route.child;
-    const rows=department.children.map((child,index)=>{
-      const active=child===selectedChild;
-      const purpose=childPurpose[department.id]?.[index]||`${child} 운영 화면`;
-      return `<button class="workspace-row${active?' active':''}" type="button" data-workspace-route="${esc(`${department.id}:${index}`)}"><span class="workspace-row-name">${esc(child)}</span><span class="workspace-row-purpose">${esc(purpose)}</span><strong>${active?'현재 화면':'열기 →'}</strong></button>`;
-    }).join('');
-    departmentTitle.textContent=selectedChild||`${department.name} 전체`;
-    departmentBoard.innerHTML=`<div class="workspace-heading"><p>${esc(department.name)}</p><h3>${esc(selectedChild||'업무 목록')}</h3><span>${esc(selectedChild?childPurpose[department.id]?.[department.children.indexOf(selectedChild)]||'선택한 업무 화면입니다.':'필요한 업무를 선택하면 이 영역에 해당 내용만 표시됩니다.')}</span></div><div class="workspace-list">${rows}</div>${selectedChild?`<section class="workspace-detail"><h3>${esc(selectedChild)}</h3><p>${esc(childPurpose[department.id]?.[department.children.indexOf(selectedChild)]||'선택한 업무를 관리합니다.')}</p><div class="workspace-empty-state">현재 연결된 실제 데이터가 이 표에 표시됩니다. 데이터가 없는 항목은 없는 상태 그대로 유지합니다.</div></section>`:''}`;
-  }
-
   function mount(routeId,options={}){
-    const route=routes.get(routeId)||routes.get('command');
     const resolved=routes.has(routeId)?routeId:'command';
-    hideAll();
+    const route=routes.get(resolved);
     setActive(resolved);
     pageTitle.textContent=route.child||route.department.name;
-    main.dataset.routeMode=route.department.id==='command'&&!route.child?'home':'section';
-
-    if(route.department.id==='command'&&!route.child){
-      show(securityNotice);
-      show(stats);
-      show(document.getElementById('linaHome'));
-      show(workspaceGrid);
-      compactProjectHome();
-    }else if(route.department.id==='command'){
-      show(departmentPanel);
-      renderCommandChild(route);
-    }else if(route.department.id==='content'&&(!route.child||['기존 글 재작성','콘텐츠 QA'].includes(route.child))){
-      show(contentCenter);
-      contentCenter.dataset.activeSection=route.child||'콘텐츠 전체';
-    }else{
-      show(departmentPanel);
-      renderDepartment(route);
-    }
+    if(resolved==='command')showHome();
+    else{showWorkspace();render(resolved,route);}
     document.documentElement.dataset.adminView=resolved;
     if(!options.noHistory)syncUrl(resolved,Boolean(options.replace));
     window.scrollTo({top:0,behavior:'auto'});
-    window.dispatchEvent(new CustomEvent('savingio:admin-view-changed',{detail:{route:resolved,department:route.department.id,child:route.child}}));
   }
 
   nav.addEventListener('click',event=>{
     const child=event.target.closest('.tree-child');
     const title=event.target.closest('.tree-title');
     if(!child&&!title)return;
-    event.preventDefault();
-    event.stopImmediatePropagation();
+    event.preventDefault();event.stopImmediatePropagation();
     if(title){mount(title.dataset.dept);return;}
     const group=child.closest('.tree-group');
     const departmentId=group?.querySelector('.tree-title')?.dataset.dept;
@@ -124,16 +105,13 @@
     mount(`${departmentId}:${index}`);
   },true);
 
-  departmentBoard.addEventListener('click',event=>{const button=event.target.closest('[data-workspace-route]');if(button)mount(button.dataset.workspaceRoute);});
-  window.addEventListener('popstate',event=>mount(event.state?.view||new URLSearchParams(location.search).get('view')||'command',{noHistory:true}));
-
   const observer=new MutationObserver(()=>{
-    const current=document.documentElement.dataset.adminView||new URLSearchParams(location.search).get('view')||'command';
-    if(current!=='command') hideAll(), show(current.startsWith('content')?contentCenter:departmentPanel);
+    const current=document.documentElement.dataset.adminView||'command';
+    if(current!=='command')showWorkspace();
   });
   observer.observe(main,{childList:true});
+  window.addEventListener('popstate',event=>mount(event.state?.view||new URLSearchParams(location.search).get('view')||'command',{noHistory:true}));
+  mount(new URLSearchParams(location.search).get('view')||'command',{replace:true});
 
-  const initial=new URLSearchParams(location.search).get('view')||'command';
-  queueMicrotask(()=>mount(initial,{replace:true}));
-  Object.defineProperty(window,'SavingioAdminWorkspaceRouter',{value:Object.freeze({mount,routes:[...routes.keys()],verify(){const routeCount=routes.size;const expected=data.departments.reduce((sum,item)=>sum+item.children.length+1,0);const activeVisible=routeSections().filter(element=>!element.hidden);return Object.freeze({pass:routeCount===expected&&activeVisible.length>0,routeCount,expected,visibleSections:activeVisible.map(element=>element.id||element.className),current:document.documentElement.dataset.adminView||''});}}),writable:false,configurable:false});
+  Object.defineProperty(window,'SavingioAdminWorkspaceRouter',{value:Object.freeze({mount,routes:[...routes.keys()],verify(){const visibleLegacy=legacyNodes().filter(node=>!node.hidden);const current=document.documentElement.dataset.adminView||'';return Object.freeze({pass:current==='command'?workspace.hidden:(!workspace.hidden&&visibleLegacy.length===0),current,workspaceVisible:!workspace.hidden,visibleLegacy:visibleLegacy.map(node=>node.id||node.className)});}}),writable:false,configurable:false});
 })();
