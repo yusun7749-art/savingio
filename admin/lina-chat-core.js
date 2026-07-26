@@ -48,10 +48,15 @@
     return { page, health, articleRows: rows.length, failed, projects, executionQueue, memory };
   }
 
-  function fallbackReply(prompt, message) {
-    if (message) return message;
-    if (/안녕|리나/.test(prompt)) return '네, 선장님. 현재 실제 AI 연결 준비 상태를 확인하지 못했습니다. Cloudflare의 OPENAI_API_KEY 설정을 확인해 주세요.';
-    return '현재 LINA CORE 서버와 대화하지 못했습니다. 잠시 후 다시 시도해 주세요.';
+  function diagnosticReply(response, payload, rawText = '') {
+    const parts = [];
+    const message = String(payload?.message || rawText || 'LINA CORE 요청에 실패했습니다.').trim();
+    parts.push(message);
+    if (payload?.error) parts.push(`오류 코드: ${payload.error}`);
+    if (payload?.upstreamStatus) parts.push(`OpenAI 상태: HTTP ${payload.upstreamStatus}`);
+    else if (response?.status && response.status !== 200) parts.push(`서버 상태: HTTP ${response.status}`);
+    if (payload?.model) parts.push(`모델: ${payload.model}`);
+    return parts.join('\n');
   }
 
   async function askLina(prompt) {
@@ -72,6 +77,7 @@
       const response = await fetch('/api/admin/lina-chat', {
         method: 'POST',
         credentials: 'same-origin',
+        cache: 'no-store',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           message: clean,
@@ -79,12 +85,14 @@
           context: dashboardContext()
         })
       });
-      const payload = await response.json().catch(() => ({}));
+
+      const rawText = await response.text();
+      let payload = {};
+      try { payload = rawText ? JSON.parse(rawText) : {}; } catch (_) { payload = {}; }
       thinking?.remove();
 
       if (!response.ok || !payload.ok) {
-        const answer = fallbackReply(clean, payload.message);
-        append(answer, 'bot', 'error');
+        append(diagnosticReply(response, payload, rawText.slice(0, 1200)), 'bot', 'error');
         return;
       }
 
@@ -93,7 +101,7 @@
       document.dispatchEvent(new CustomEvent('savingio:lina-answer', { detail: payload }));
     } catch (error) {
       thinking?.remove();
-      append(fallbackReply(clean, error.message), 'bot', 'error');
+      append(`LINA CORE 네트워크 오류: ${error?.message || error}`, 'bot', 'error');
     } finally {
       window.__linaChatBusy = false;
       if (submit) submit.disabled = false;
