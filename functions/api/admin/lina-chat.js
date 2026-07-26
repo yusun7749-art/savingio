@@ -10,6 +10,20 @@ const json = (body, status = 200) => Response.json(body, {
 
 const text = value => String(value ?? '').trim();
 
+function openAIConfig(env = {}) {
+  const candidates = [
+    ['OPENAI_API_KEY', env.OPENAI_API_KEY],
+    ['SAVINGIO_OPENAI_API_KEY', env.SAVINGIO_OPENAI_API_KEY],
+    ['OPENAI_KEY', env.OPENAI_KEY]
+  ];
+  const found = candidates.find(([, value]) => text(value));
+  return {
+    apiKey: found ? text(found[1]) : '',
+    binding: found ? found[0] : null,
+    model: text(env.LINA_OPENAI_MODEL || env.OPENAI_MODEL || 'gpt-5')
+  };
+}
+
 function safeHistory(value) {
   if (!Array.isArray(value)) return [];
   return value.slice(-16).map(item => ({
@@ -51,11 +65,13 @@ export async function onRequestGet(context) {
   const device = await getAdminDevice(context.request, context.env);
   if (!device) return json({ ok: false, error: 'UNAUTHORIZED' }, 401);
 
+  const config = openAIConfig(context.env);
   return json({
     ok: true,
     service: 'LINA CORE Chat',
-    ready: Boolean(context.env.OPENAI_API_KEY),
-    model: context.env.LINA_OPENAI_MODEL || 'gpt-5',
+    ready: Boolean(config.apiKey),
+    model: config.model,
+    binding: config.binding,
     device: { id: device.deviceId, name: device.name },
     checkedAt: new Date().toISOString()
   });
@@ -65,11 +81,12 @@ export async function onRequestPost(context) {
   const device = await getAdminDevice(context.request, context.env);
   if (!device) return json({ ok: false, error: 'UNAUTHORIZED' }, 401);
 
-  if (!context.env.OPENAI_API_KEY) {
+  const config = openAIConfig(context.env);
+  if (!config.apiKey) {
     return json({
       ok: false,
       error: 'OPENAI_API_KEY_REQUIRED',
-      message: 'Cloudflare 환경변수 OPENAI_API_KEY를 등록하면 실제 리나 대화가 활성화됩니다.'
+      message: '현재 배포에서 OPENAI_API_KEY 비밀 변수를 읽지 못했습니다. 변수를 저장한 뒤 새 Production 배포가 완료되어야 적용됩니다.'
     }, 503);
   }
 
@@ -85,7 +102,6 @@ export async function onRequestPost(context) {
 
   const contextData = safeContext(body?.context);
   const history = safeHistory(body?.history);
-  const model = context.env.LINA_OPENAI_MODEL || 'gpt-5';
 
   const instructions = [
     '당신은 Savingio Admin HQ에 파견된 AI 운영 파트너 LINA CORE다.',
@@ -109,11 +125,11 @@ export async function onRequestPost(context) {
     apiResponse = await fetch('https://api.openai.com/v1/responses', {
       method: 'POST',
       headers: {
-        Authorization: `Bearer ${context.env.OPENAI_API_KEY}`,
+        Authorization: `Bearer ${config.apiKey}`,
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model,
+        model: config.model,
         instructions,
         input,
         max_output_tokens: 1200
@@ -138,7 +154,7 @@ export async function onRequestPost(context) {
   return json({
     ok: true,
     answer,
-    model,
+    model: config.model,
     responseId: payload.id || null,
     answeredAt: new Date().toISOString()
   });
