@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3266,
-  "references_scanned": 62872,
+  "references_scanned": 62878,
   "counts": {
-    "broken_references": 1843,
+    "broken_references": 1849,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -291,6 +291,58 @@
         "admin-v2/modules/reset",
         "admin-v2/modules/reset.html",
         "admin-v2/modules/reset/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/qa.js",
+      "reference": "${esc(item.url)}",
+      "expected": [
+        "admin-v2/modules/${esc(item.url)}"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/qa.js",
+      "reference": "cancel",
+      "expected": [
+        "admin-v2/modules/cancel",
+        "admin-v2/modules/cancel.html",
+        "admin-v2/modules/cancel/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/qa.js",
+      "reference": "delete",
+      "expected": [
+        "admin-v2/modules/delete",
+        "admin-v2/modules/delete.html",
+        "admin-v2/modules/delete/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/qa.js",
+      "reference": "edit",
+      "expected": [
+        "admin-v2/modules/edit",
+        "admin-v2/modules/edit.html",
+        "admin-v2/modules/edit/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/qa.js",
+      "reference": "reset-filter",
+      "expected": [
+        "admin-v2/modules/reset-filter",
+        "admin-v2/modules/reset-filter.html",
+        "admin-v2/modules/reset-filter/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/qa.js",
+      "reference": "workflow",
+      "expected": [
+        "admin-v2/modules/workflow",
+        "admin-v2/modules/workflow.html",
+        "admin-v2/modules/workflow/index.html"
       ]
     },
     {
