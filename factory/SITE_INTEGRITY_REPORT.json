@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3263,
-  "references_scanned": 62857,
+  "references_scanned": 62864,
   "counts": {
-    "broken_references": 1834,
+    "broken_references": 1841,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -187,6 +187,65 @@
         "admin-v2/modules/start",
         "admin-v2/modules/start.html",
         "admin-v2/modules/start/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/content.js",
+      "reference": "${esc(item.url)}",
+      "expected": [
+        "admin-v2/modules/${esc(item.url)}"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/content.js",
+      "reference": "cancel-edit",
+      "expected": [
+        "admin-v2/modules/cancel-edit",
+        "admin-v2/modules/cancel-edit.html",
+        "admin-v2/modules/cancel-edit/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/content.js",
+      "reference": "create-workflow",
+      "expected": [
+        "admin-v2/modules/create-workflow",
+        "admin-v2/modules/create-workflow.html",
+        "admin-v2/modules/create-workflow/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/content.js",
+      "reference": "delete",
+      "expected": [
+        "admin-v2/modules/delete",
+        "admin-v2/modules/delete.html",
+        "admin-v2/modules/delete/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/content.js",
+      "reference": "edit",
+      "expected": [
+        "admin-v2/modules/edit",
+        "admin-v2/modules/edit.html",
+        "admin-v2/modules/edit/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/content.js",
+      "reference": "location.href",
+      "expected": [
+        "admin-v2/modules/location.href"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/content.js",
+      "reference": "reset-filter",
+      "expected": [
+        "admin-v2/modules/reset-filter",
+        "admin-v2/modules/reset-filter.html",
+        "admin-v2/modules/reset-filter/index.html"
       ]
     },
     {
