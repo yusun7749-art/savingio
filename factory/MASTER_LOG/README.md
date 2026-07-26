@@ -1,8 +1,11 @@
 # MASTER LOG INDEX
 
+# 🚨🚨🚨 ADMIN 작업자는 무조건 0번부터 읽을 것 🚨🚨🚨
+
 Savingio의 공식 기억 저장소입니다.
 
 ## 읽기 순서
+0. `000_EMERGENCY_ADMIN_RED_LOCK.md` — Admin/HQ/Explorer/리나 Assistant 최상위 절대 헌법
 1. `MEMORY_CONSTITUTION.md`
 2. `BOOT_ORDER.json`
 3. `MASTER_LOG_CURRENT.md`
@@ -11,6 +14,8 @@ Savingio의 공식 기억 저장소입니다.
 6. `04_HANDOVER/NEXT_TASK.md`
 7. 현재 작업과 관련된 분류 문서
 8. GitHub `main` 실제 파일과 최신 커밋 대조
+
+> Admin 관련 작업에서 0번 RED LOCK을 읽지 않거나 위반한 변경은 완료가 아니라 회귀로 판정한다.
 
 ## 자동 분류
 - 완료·성공·릴리스 → `01_SUCCESS/`
