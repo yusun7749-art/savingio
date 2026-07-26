@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3270,
-  "references_scanned": 62904,
+  "references_scanned": 62901,
   "counts": {
-    "broken_references": 1862,
+    "broken_references": 1859,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -445,38 +445,9 @@
     },
     {
       "source": "admin-v2/modules/revenue.js",
-      "reference": "advance",
+      "reference": "${esc(item.url)}",
       "expected": [
-        "admin-v2/modules/advance",
-        "admin-v2/modules/advance.html",
-        "admin-v2/modules/advance/index.html"
-      ]
-    },
-    {
-      "source": "admin-v2/modules/revenue.js",
-      "reference": "fail",
-      "expected": [
-        "admin-v2/modules/fail",
-        "admin-v2/modules/fail.html",
-        "admin-v2/modules/fail/index.html"
-      ]
-    },
-    {
-      "source": "admin-v2/modules/revenue.js",
-      "reference": "retry",
-      "expected": [
-        "admin-v2/modules/retry",
-        "admin-v2/modules/retry.html",
-        "admin-v2/modules/retry/index.html"
-      ]
-    },
-    {
-      "source": "admin-v2/modules/revenue.js",
-      "reference": "start",
-      "expected": [
-        "admin-v2/modules/start",
-        "admin-v2/modules/start.html",
-        "admin-v2/modules/start/index.html"
+        "admin-v2/modules/${esc(item.url)}"
       ]
     },
     {
