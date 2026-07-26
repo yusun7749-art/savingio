@@ -14,12 +14,9 @@
     ['system','시스템관리',['분류 관리','API 연결','Publisher LOCK','GitHub','Cloudflare','백업·기록']]
   ];
 
-  const projects = [
-    {id:'P-2026-001',title:'40대 주름크림',category:'뷰티 · 스킨케어',status:'approval',label:'승인 대기',progress:62,updated:'오늘 17:40'},
-    {id:'P-2026-002',title:'자동차보험 마일리지 환급',category:'보험 · 자동차보험',status:'running',label:'제작 중',progress:44,updated:'오늘 16:15'},
-    {id:'P-2026-003',title:'여름 전기요금 절약',category:'생활비 · 공과금',status:'error',label:'오류 1건',progress:78,updated:'오늘 14:02'},
-    {id:'P-2026-004',title:'구독서비스 정리',category:'생활비 · 구독',status:'done',label:'배포 완료',progress:100,updated:'어제 22:18'}
-  ];
+  // Admin V2 must not display invented sample projects.
+  // Real projects will appear only after an actual project data source is connected.
+  const projects = [];
 
   const calculators = [
     ['전기요금 계산기','월 사용량과 요금 구간을 확인합니다.','/calculators/electricity-cost.html'],
@@ -51,7 +48,7 @@
   }
 
   function projectTable(items=projects, work='현재 단계') {
-    return `<div class="table-wrap"><table><thead><tr><th>프로젝트</th><th>분류</th><th>${esc(work)}</th><th>상태</th><th>진행률</th><th>최근 갱신</th></tr></thead><tbody>${items.map(p=>`<tr><td><strong>${esc(p.title)}</strong><div class="meta">${esc(p.id)}</div></td><td>${esc(p.category)}</td><td>${esc(work)}</td><td><span class="status ${esc(p.status)}">${esc(p.label)}</span></td><td>${p.progress}%</td><td>${esc(p.updated)}</td></tr>`).join('')||'<tr><td colspan="6" class="empty">표시할 작업이 없습니다.</td></tr>'}</tbody></table></div>`;
+    return `<div class="table-wrap"><table><thead><tr><th>프로젝트</th><th>분류</th><th>${esc(work)}</th><th>상태</th><th>진행률</th><th>최근 갱신</th></tr></thead><tbody>${items.map(p=>`<tr><td><strong>${esc(p.title)}</strong><div class="meta">${esc(p.id)}</div></td><td>${esc(p.category)}</td><td>${esc(work)}</td><td><span class="status ${esc(p.status)}">${esc(p.label)}</span></td><td>${p.progress}%</td><td>${esc(p.updated)}</td></tr>`).join('')||'<tr><td colspan="6" class="empty">실제 연결된 프로젝트가 없습니다.</td></tr>'}</tbody></table></div>`;
   }
 
   function command(task='') {
@@ -59,8 +56,8 @@
     if(task==='오늘 작업') list=projects.filter(p=>p.status==='running');
     if(task==='승인 필요') list=projects.filter(p=>p.status==='approval');
     if(task==='오류·중지') list=projects.filter(p=>p.status==='error');
-    if(task==='수익 요약') return `<section class="section"><h2>수익 요약</h2><p>수익 데이터 연결 상태를 한곳에서 확인합니다.</p></section><div class="table-wrap"><table><thead><tr><th>구분</th><th>연결 상태</th><th>현재 값</th><th>출처</th></tr></thead><tbody><tr><td>AdSense</td><td>연결 대기</td><td>-</td><td>AdSense Center</td></tr><tr><td>제휴 수익</td><td>연결 대기</td><td>-</td><td>상품·수익본부</td></tr><tr><td>콘텐츠 성과</td><td>프로젝트 연결</td><td>${projects.length}개</td><td>프로젝트 파이프라인</td></tr></tbody></table></div>`;
-    return `<section class="section"><h2>${esc(task||'통합 상황실')}</h2><p>현재 운영 프로젝트와 필요한 조치를 한 화면에서 확인합니다.</p></section>${summary(list)}${projectTable(list,task||'현재 단계')}`;
+    if(task==='수익 요약') return `<section class="section"><h2>수익 요약</h2><p>수익 데이터 연결 상태를 한곳에서 확인합니다.</p></section><div class="table-wrap"><table><thead><tr><th>구분</th><th>연결 상태</th><th>현재 값</th><th>출처</th></tr></thead><tbody><tr><td>AdSense</td><td>연결 대기</td><td>-</td><td>AdSense Center</td></tr><tr><td>제휴 수익</td><td>연결 대기</td><td>-</td><td>상품·수익본부</td></tr><tr><td>콘텐츠 성과</td><td>연결 대기</td><td>-</td><td>프로젝트 파이프라인</td></tr></tbody></table></div>`;
+    return `<section class="section"><h2>${esc(task||'통합 상황실')}</h2><p>실제 연결된 운영 프로젝트만 표시합니다.</p></section>${summary(list)}${projectTable(list,task||'현재 단계')}`;
   }
 
   function calculatorPage() {
@@ -73,7 +70,7 @@
     if(dept==='content'&&task==='계산기') return calculatorPage();
     const name=found[1];
     const selected=task||`${name} 전체 업무`;
-    return `<section class="section"><h2>${esc(selected)}</h2><p>${esc(name)}의 현재 프로젝트 연결 상태입니다. 이 화면은 홈 아래에 붙지 않고 중앙 작업영역 전체를 사용합니다.</p></section>${projectTable(projects,selected)}`;
+    return `<section class="section"><h2>${esc(selected)}</h2><p>${esc(name)}의 실제 연결 데이터만 표시합니다.</p></section>${projectTable(projects,selected)}`;
   }
 
   function route(dept='command',task='',push=true) {
