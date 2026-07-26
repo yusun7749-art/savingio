@@ -39,6 +39,30 @@
     if (element) element.hidden = !visible;
   }
 
+  function setContentHeading(group, task) {
+    const eyebrow = content.querySelector('.content-center-head .eyebrow');
+    const heading = content.querySelector('.content-center-head h2');
+    const subtitle = content.querySelector('.content-subtitle');
+
+    if (group === 'approval') {
+      if (eyebrow) eyebrow.textContent = 'Savingio 통합 승인센터';
+      if (heading) heading.textContent = '전체 승인 작업판';
+      if (subtitle) subtitle.textContent = '글·재작성·통합·삭제·발행 대상을 한 목록에서 검토하고 승인합니다.';
+      return;
+    }
+
+    if (group === 'duplicate') {
+      if (eyebrow) eyebrow.textContent = 'Savingio 중복관리본부';
+      if (heading) heading.textContent = task || '중복센터';
+      if (subtitle) subtitle.textContent = '제목·URL·검색의도 중복과 통합·삭제 후보를 확인합니다.';
+      return;
+    }
+
+    if (eyebrow) eyebrow.textContent = 'Savingio 콘텐츠자산본부';
+    if (heading) heading.textContent = task || '전체 글 승인 · 헌법/DNA 검사';
+    if (subtitle) subtitle.textContent = '운영 중인 전체 글을 불러와 품질과 중복 여부를 검사합니다.';
+  }
+
   function applyContentFilter(group, task) {
     const map = {
       '전체 글': 'all',
@@ -81,6 +105,7 @@
     setVisible(securityNotice, group === 'system' || isCommand);
 
     if (isContent) {
+      setContentHeading(group, task);
       applyContentFilter(group, task || (group === 'duplicate' ? '중복센터' : '전체 글'));
       content.scrollIntoView({ block: 'start' });
     } else if (!isCommand) {
