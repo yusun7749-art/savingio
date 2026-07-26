@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3290,
-  "references_scanned": 62953,
+  "files_scanned": 3291,
+  "references_scanned": 62954,
   "counts": {
-    "broken_references": 1872,
+    "broken_references": 1873,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -1269,6 +1269,15 @@
         "admin/url",
         "admin/url.html",
         "admin/url/index.html"
+      ]
+    },
+    {
+      "source": "admin/urgent-operations-runtime.js",
+      "reference": "merge",
+      "expected": [
+        "admin/merge",
+        "admin/merge.html",
+        "admin/merge/index.html"
       ]
     },
     {
