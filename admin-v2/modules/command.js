@@ -5,7 +5,8 @@
   const store=window.SavingioV2ProjectStore;
   const workflow=window.SavingioV2WorkflowEngine;
   const pipeline=window.SavingioV2PipelineEngine;
-  if(!registry||!store||!workflow||!pipeline)throw new Error('Admin V2 Command Center dependencies are not loaded');
+  const dashboard=window.SavingioV2OperationsDashboardStore;
+  if(!registry||!store||!workflow||!pipeline||!dashboard)throw new Error('Admin V2 Command Center dependencies are not loaded');
   if(window.SavingioV2CommandCenter)throw new Error('Admin V2 Command Center already exists');
 
   const MODULE_NAME='command-center';
@@ -17,6 +18,7 @@
   const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const metric=(label,value,action='')=>`<article class="metric"${action?` data-route="${esc(action)}" role="button" tabindex="0"`:''}><span>${esc(label)}</span><strong>${esc(value)}</strong>${action?'<small>상세 보기 →</small>':''}</article>`;
   const time=value=>{const date=new Date(value);return Number.isNaN(date.getTime())?String(value||''):date.toLocaleString('ko-KR');};
+  const money=value=>`${Math.round(Number(value)||0).toLocaleString('ko-KR')}원`;
 
   function projectCards(list,showStages=false){
     if(!list.length)return '<div class="panel empty">해당 조건의 프로젝트가 없습니다.</div>';
@@ -53,13 +55,21 @@
   const snapshot=()=>{const list=store.read();return Object.freeze({list,summary:store.summary(list)});};
   const workflowSnapshot=()=>Object.freeze({list:workflow.readAll(),summary:workflow.summary()});
 
+  function integratedDashboard(){
+    const d=dashboard.read();
+    const activeAlerts=d.alerts.filter(item=>item.count>0);
+    const alerts=activeAlerts.length?`<div class="connection-list">${activeAlerts.map(item=>`<div data-route="${esc(item.route)}" role="button" tabindex="0"><span>${esc(item.label)}</span><strong class="fail">${item.count}건</strong></div>`).join('')}</div>`:'<div class="empty">현재 통합 경고가 없습니다.</div>';
+    const integrity=`<div class="connection-list">${d.integrity.map(item=>`<div><span>${esc(item.name.replace('SavingioV2','').replace('InventoryStore',''))}</span><strong class="${item.result.pass?'pass':'fail'}">${item.result.pass?'PASS':'FAIL'} · ${item.result.count||0}건</strong></div>`).join('')}</div>`;
+    return `<section class="panel"><h3>부서 통합 현황</h3><div class="metrics">${metric('콘텐츠',`${d.content.total||0}건`,'dept-content')}${metric('SEO',`${d.seo.total||0}건`,'dept-seo')}${metric('이미지',`${d.image.total||0}건`,'dept-image')}${metric('QA PASS',`${d.qa.result?.pass||0}건`,'dept-qa')}${metric('배포 검증',`${d.deploy.verified||0}건`,'dept-deploy')}${metric('분석 검증',`${d.analytics.verified||0}건`,'dept-analytics')}${metric('확정 수익',money(d.revenue.confirmed||0),'dept-revenue')}${metric('정산 완료',money(d.revenue.settled||0),'dept-revenue')}</div></section><section class="panel"><h3>주의·승인·오류</h3>${alerts}</section><section class="panel"><h3>운영 데이터 무결성</h3>${integrity}<div class="meta">최종 집계 ${esc(time(d.checkedAt))}</div></section>`;
+  }
+
   const modules=[
-    {id:'command-home',title:'통합 상황실',render(){const {list,summary:s}=snapshot();const wf=workflowSnapshot();return view('COMMAND CENTER','통합 상황실','작업을 생성하고 부서별 진행 상태를 한 화면에서 관리합니다.',`${creationPanel()}${pipelinePanel()}<div class="metrics">${metric('전체 진행률',`${s.average}%`,'command-progress')}${metric('워크플로',`${wf.summary.total}건`,'command-progress')}${metric('진행 중',`${wf.summary.state.running}건`,'command-today')}${metric('승인 대기',`${wf.summary.approvals.pending}건`,'command-approval')}${metric('오류',`${wf.summary.state.error}건`,'command-error')}${metric('완료',`${wf.summary.state.done}건`,'command-progress')}</div><section class="panel"><h3>운영 파이프라인</h3>${workflowCards(wf.list.filter(item=>item.status!=='done'))}</section><section class="panel"><h3>기존 프로젝트 현황</h3>${projectCards(list.filter(item=>item.status!=='done'))}</section>`);}},
-    {id:'command-progress',title:'전체 진행률',render(){const {list,summary:s}=snapshot();const wf=workflowSnapshot();return view('COMMAND CENTER','전체 진행률','프로젝트와 운영 워크플로의 전체 진행 상태를 확인합니다.',`${pipelinePanel()}<div class="metrics">${metric('프로젝트 평균',`${s.average}%`)}${metric('워크플로 전체',`${wf.summary.total}건`)}${metric('진행 중',`${wf.summary.state.running}건`)}${metric('승인 대기',`${wf.summary.approvals.pending}건`)}${metric('오류',`${wf.summary.state.error}건`)}${metric('완료',`${wf.summary.state.done}건`)}</div><section class="panel"><h3>워크플로 진행 단계</h3>${workflowCards(wf.list)}</section><section class="panel"><h3>프로젝트별 진행 단계</h3>${projectCards(list,true)}</section>`);}},
+    {id:'command-home',title:'통합 상황실',render(){const {list,summary:s}=snapshot();const wf=workflowSnapshot();return view('COMMAND CENTER','통합 상황실','각 운영 센터의 실제 저장 데이터와 워크플로 상태를 한 화면에서 관리합니다.',`${integratedDashboard()}${creationPanel()}${pipelinePanel()}<div class="metrics">${metric('전체 진행률',`${s.average}%`,'command-progress')}${metric('워크플로',`${wf.summary.total}건`,'command-progress')}${metric('진행 중',`${wf.summary.state.running}건`,'command-today')}${metric('승인 대기',`${wf.summary.approvals.pending}건`,'command-approval')}${metric('오류',`${wf.summary.state.error}건`,'command-error')}${metric('완료',`${wf.summary.state.done}건`,'command-progress')}</div><section class="panel"><h3>운영 파이프라인</h3>${workflowCards(wf.list.filter(item=>item.status!=='done'))}</section><section class="panel"><h3>기존 프로젝트 현황</h3>${projectCards(list.filter(item=>item.status!=='done'))}</section>`);}},
+    {id:'command-progress',title:'전체 진행률',render(){const {list,summary:s}=snapshot();const wf=workflowSnapshot();return view('COMMAND CENTER','전체 진행률','프로젝트와 운영 워크플로의 전체 진행 상태를 확인합니다.',`${integratedDashboard()}${pipelinePanel()}<div class="metrics">${metric('프로젝트 평균',`${s.average}%`)}${metric('워크플로 전체',`${wf.summary.total}건`)}${metric('진행 중',`${wf.summary.state.running}건`)}${metric('승인 대기',`${wf.summary.approvals.pending}건`)}${metric('오류',`${wf.summary.state.error}건`)}${metric('완료',`${wf.summary.state.done}건`)}</div><section class="panel"><h3>워크플로 진행 단계</h3>${workflowCards(wf.list)}</section><section class="panel"><h3>프로젝트별 진행 단계</h3>${projectCards(list,true)}</section>`);}},
     {id:'command-today',title:'오늘 작업',render(){const list=workflow.readAll().filter(item=>(item.status==='running'||item.status==='pending')&&item.approvalStatus!=='pending');return view('COMMAND CENTER','오늘 작업','현재 실행 중이거나 다음 행동을 기다리는 작업입니다.',`<section class="panel"><h3>오늘 처리할 워크플로</h3>${workflowCards(list)}</section>`);}},
     {id:'command-approval',title:'승인 센터',render(){const pending=workflow.approvalJobs('pending');const history=workflow.approvalJobs('all').filter(item=>item.approvalStatus==='approved'||item.approvalStatus==='rejected').slice(0,20);const summary=workflow.summary();return view('APPROVAL CENTER','승인 센터','QA 검수를 마친 작업을 승인하거나 반려하고 처리 이력을 확인합니다.',`<div class="metrics">${metric('승인 대기',`${summary.approvals.pending}건`)}${metric('승인 완료',`${summary.approvals.approved}건`)}${metric('반려',`${summary.approvals.rejected}건`)}${metric('배포 대기',`${summary.stages.deploy}건`)}${metric('긴급 승인',`${pending.filter(item=>item.priority==='urgent').length}건`)}${metric('처리 기준','QA → 승인 → 배포')}</div><section class="panel"><h3>승인 대기 작업</h3>${approvalCards(pending)}</section><section class="panel"><h3>최근 승인 이력</h3>${approvalHistory(history)}</section>`);}},
-    {id:'command-error',title:'오류·중지',render(){const list=workflow.readAll().filter(item=>item.status==='error');return view('COMMAND CENTER','오류·중지','오류가 발생해 재시도가 필요한 작업입니다.',`<section class="panel"><h3>오류 워크플로</h3>${workflowCards(list)}</section>`);}},
-    {id:'command-revenue',title:'수익 요약',render(){const {summary:s}=workflowSnapshot();return view('COMMAND CENTER','수익 요약','실제 수익 데이터는 외부 연결 전까지 생성하지 않고 운영 완료 건만 표시합니다.',`<div class="metrics">${metric('수익 단계 대기',`${s.stages.revenue}건`)}${metric('완료 워크플로',`${s.state.done}건`)}${metric('진행 중',`${s.state.running}건`)}${metric('오류',`${s.state.error}건`)}${metric('전체',`${s.total}건`)}${metric('수익 데이터','미연결')}</div>`);}}
+    {id:'command-error',title:'오류·중지',render(){const list=workflow.readAll().filter(item=>item.status==='error');const d=dashboard.read();return view('COMMAND CENTER','오류·중지','워크플로와 운영 센터에서 확인된 오류·실패·중지 항목입니다.',`${integratedDashboard()}<section class="panel"><h3>오류 워크플로</h3>${workflowCards(list)}</section><div class="metrics">${metric('통합 경고',`${d.alertTotal}건`)}${metric('워크플로 오류',`${d.workflow.state?.error||0}건`)}${metric('QA 실패',`${d.qa.result?.fail||0}건`)}${metric('배포 실패',`${d.deploy.failed||0}건`)}</div>`);}},
+    {id:'command-revenue',title:'수익 요약',render(){const d=dashboard.read();return view('COMMAND CENTER','수익 요약','추정·확정·정산 수익을 분리해 표시하며 외부 확인 전에는 임의 수익을 만들지 않습니다.',`<div class="metrics">${metric('수익 기록',`${d.revenue.total||0}건`,'dept-revenue')}${metric('추정 수익',money(d.revenue.estimated||0),'dept-revenue')}${metric('확정 수익',money(d.revenue.confirmed||0),'dept-revenue')}${metric('정산 완료',money(d.revenue.settled||0),'dept-revenue')}${metric('분석 수익 신호',money(d.analytics.revenueSignal||0),'dept-analytics')}${metric('전환',`${d.analytics.conversions||0}건`,'dept-analytics')}</div><section class="panel"><h3>수익 진실성 기준</h3><div class="connection-list"><div><span>추정 수익</span><strong>확정 수익과 분리</strong></div><div><span>확정 수익</span><strong>외부 화면 확인 후 기록</strong></div><div><span>정산 완료</span><strong>실제 지급 확인 후 기록</strong></div></div></section>`);}}
   ];
 
   modules.forEach(module=>registry.register(module));
@@ -96,7 +106,8 @@
     const storeIntegrity=store.verify();
     const workflowIntegrity=workflow.verify();
     const pipelineIntegrity=pipeline.verify();
-    return Object.freeze({name:MODULE_NAME,expected:MODULE_IDS.length,registered:registered.length,ids:Object.freeze(registered),store:storeIntegrity,workflow:workflowIntegrity,pipeline:pipelineIntegrity,pass:registered.length===MODULE_IDS.length&&storeIntegrity.pass&&workflowIntegrity.pass&&pipelineIntegrity.pass});
+    const dashboardIntegrity=dashboard.verify();
+    return Object.freeze({name:MODULE_NAME,expected:MODULE_IDS.length,registered:registered.length,ids:Object.freeze(registered),store:storeIntegrity,workflow:workflowIntegrity,pipeline:pipelineIntegrity,dashboard:dashboardIntegrity,pass:registered.length===MODULE_IDS.length&&storeIntegrity.pass&&workflowIntegrity.pass&&pipelineIntegrity.pass&&dashboardIntegrity.pass});
   }
 
   Object.defineProperty(window,'SavingioV2CommandCenter',{value:Object.freeze({name:MODULE_NAME,ids:MODULE_IDS,verify,handleAction,handlePipelineAction,handleCreate}),writable:false,configurable:false,enumerable:true});
