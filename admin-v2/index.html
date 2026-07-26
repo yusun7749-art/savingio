@@ -16,6 +16,7 @@
           <button class="nav-group-title active" type="button" data-view="command-home" aria-expanded="true"><span>⌂ 통합 상황실</span><span>⌄</span></button>
           <div class="nav-children">
             <button type="button" data-view="command-progress">전체 진행률</button>
+            <button type="button" data-view="tool-build-progress">개발 진행 보드</button>
             <button type="button" data-view="command-today">오늘 작업</button>
             <button type="button" data-view="command-approval">승인 센터</button>
             <button type="button" data-view="command-error">오류·중지</button>
@@ -40,6 +41,7 @@
             <button type="button" data-view="tool-search-console">Search Console 센터</button>
             <button type="button" data-view="tool-adsense">AdSense 센터</button>
             <button type="button" data-view="tool-github-release">GitHub Release 센터</button>
+            <button type="button" data-view="tool-cloudflare">Cloudflare 센터</button>
           </div>
         </section>
       </nav>
@@ -61,6 +63,9 @@
   <script src="/admin-v2/core/adsense-config.js?v=1"></script>
   <script src="/admin-v2/core/adsense-store.js?v=1"></script>
   <script src="/admin-v2/core/github-release-store.js?v=1"></script>
+  <script src="/admin-v2/core/center-renderer.js?v=1"></script>
+  <script src="/admin-v2/core/build-progress-store.js?v=1"></script>
+  <script src="/admin-v2/core/cloudflare-store.js?v=1"></script>
   <script src="/admin-v2/core/task-queue.js?v=1"></script>
   <script src="/admin-v2/core/module-registry.js?v=2"></script>
   <script src="/admin-v2/modules/command.js?v=5"></script>
@@ -75,6 +80,8 @@
   <script src="/admin-v2/modules/search-console.js?v=1"></script>
   <script src="/admin-v2/modules/adsense.js?v=1"></script>
   <script src="/admin-v2/modules/github-release.js?v=1"></script>
-  <script src="/admin-v2/app.js?v=8"></script>
+  <script src="/admin-v2/modules/build-progress.js?v=1"></script>
+  <script src="/admin-v2/modules/cloudflare.js?v=1"></script>
+  <script src="/admin-v2/app.js?v=9"></script>
 </body>
 </html>
