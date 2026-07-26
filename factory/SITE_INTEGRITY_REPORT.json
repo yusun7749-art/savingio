@@ -2,7 +2,7 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3274,
-  "references_scanned": 62920,
+  "references_scanned": 62921,
   "counts": {
     "broken_references": 1863,
     "malformed_redirects": 0,
@@ -487,13 +487,6 @@
       "reference": "location.href",
       "expected": [
         "admin-v2/modules/location.href"
-      ]
-    },
-    {
-      "source": "admin-v2/production-deployment-probe.js",
-      "reference": "/admin-v2/production-e2e.js",
-      "expected": [
-        "admin-v2/production-e2e.js"
       ]
     },
     {
@@ -3435,6 +3428,13 @@
       "reference": "./admin.js",
       "expected": [
         "factory/admin.js"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/admin-v2/production-e2e.js",
+      "expected": [
+        "admin-v2/production-e2e.js"
       ]
     },
     {
