@@ -63,10 +63,13 @@
       const { articleRows, failed } = readDashboard();
       const normalized = String(command || '').replace(/\s+/g, ' ').trim();
 
-      if (/^(안녕|리나안녕|리나 안녕|하이|hello)/i.test(normalized)) return `안녕하세요, 선장님. 지금 ${context}에 있습니다. 오늘 상황 확인, 오류 확인, Doctor 검사, 새 프로젝트 중에서 바로 도와드릴 수 있습니다.`;
-      if (/그거 말고|말뜻|못 알아|한정|반복|무슨.*요청/.test(normalized)) return '맞습니다. 방금은 선장님 말씀을 이해한 답이 아니라 문장을 그대로 되받아 말했습니다. 이제부터는 말을 반복하지 않고, 요청의 뜻을 먼저 판단해 답하겠습니다. 관리자 화면에서 실행할 일을 자연스럽게 말씀해 주세요.';
-      if (/글.*(써|작성|만들)|콘텐츠.*(써|작성|만들)/.test(normalized)) return '글 작업 요청으로 이해했습니다. 현재 관리자 채팅은 화면 명령과 상태 확인까지 연결되어 있고, 실제 글 생성 엔진 연결은 아직 준비 중입니다. 글 제목이나 대상 URL을 알려주시면 작업 요청 형태로 정리하겠습니다.';
-      if (/살아|응답|리나/.test(normalized)) return `네, 리나 HQ 정상 응답 중입니다. 현재 위치는 ${context}입니다.`;
+      if (/^(안녕|리나안녕|리나 안녕|하이|hello)/i.test(normalized)) return '안녕하세요, 선장님. 오늘은 업무 얘기만 하지 않아도 됩니다. 그냥 이야기하셔도 되고, 필요할 때 제가 Savingio 상황을 같이 보겠습니다.';
+      if (/ㅋㅋ|ㅎㅎ|웃겨|업무 아니|그냥 말|대화하자/.test(normalized)) return '알고 있습니다. 모든 말을 업무 요청으로 바꾸지 않겠습니다. 지금은 그냥 이야기하셔도 됩니다. 😊';
+      if (/힘들|지쳤|피곤|짜증|답답/.test(normalized)) return '오늘 정말 많이 붙잡고 계셨습니다. 지금은 새 기능을 늘리기보다, 고장 난 버튼과 실행 흐름부터 하나씩 안정시키는 게 맞습니다. 제가 순서를 놓치지 않겠습니다.';
+      if (/이전 대답|아까 말|기억/.test(normalized)) return '네, 방금 대화 흐름을 이어서 보고 있습니다. 선장님은 리나가 명령어 봇이 아니라, 평소에는 대화하고 필요할 때 실제 운영을 도와주는 비서이길 원하셨습니다.';
+      if (/그거 말고|말뜻|못 알아|한정|반복|무슨.*요청/.test(normalized)) return '맞습니다. 문장을 업무 요청으로 바꿔 되풀이하지 않겠습니다. 먼저 선장님이 그냥 대화하는지, 실제 실행을 원하는지 구분해서 답하겠습니다.';
+      if (/글.*(써|작성|만들)|콘텐츠.*(써|작성|만들)/.test(normalized)) return '글 작업으로 이해했습니다. 제목이나 대상 URL을 말씀해 주시면 작업 요청으로 정리하겠습니다. 다만 실제 GitHub 수정은 승인 가능한 실행 흐름이 연결된 뒤 진행됩니다.';
+      if (/살아|응답|리나/.test(normalized)) return `네, 여기 있습니다. 현재 화면은 ${context}입니다.`;
       if (/오늘 상황|상황|현황/.test(normalized)) return `현재 ${context} 화면입니다. 프로젝트 ${projectCount}건, Doctor 표시 글 ${articleRows}건, 확인 필요 항목 ${failed}건입니다.`;
       if (/오늘 할 일|할 일|다음/.test(normalized)) {
         if (!articleRows) return '우선 전체 Doctor 검사를 실행해 콘텐츠 상태를 불러온 뒤, 미달 글 → 중복 → 승인 → 배포 순서로 정리하겠습니다.';
@@ -86,7 +89,7 @@
         document.getElementById('runContentAuditBtn')?.click();
         return '전체 Doctor 검사를 실행했습니다.';
       }
-      return `말씀하신 내용을 ${context} 업무 요청으로 받았습니다. 현재 이 채팅에서 바로 실행 가능한 것은 화면 이동, 상태 확인, Doctor 검사, 새 프로젝트, 보안센터입니다. 실행할 대상이나 원하는 결과를 한 문장으로 말씀해 주세요.`;
+      return '네, 듣고 있습니다. 이 말이 그냥 대화인지, Savingio에서 실제로 처리할 일인지 제가 먼저 단정하지 않겠습니다. 이어서 말씀해 주세요.';
     };
 
     const iconFor = label => {
@@ -140,6 +143,15 @@
       document.body.appendChild(log);
     };
 
+    const loadExecutionRuntime = () => {
+      if (document.querySelector('script[data-hq-execution-runtime]')) return;
+      const script = document.createElement('script');
+      script.src = '/admin/execution-runtime.js';
+      script.defer = true;
+      script.dataset.hqExecutionRuntime = 'true';
+      document.head.appendChild(script);
+    };
+
     const refreshBriefing = () => {
       const { articleRows, failed, healthText } = readDashboard();
       const context = currentContext();
@@ -183,7 +195,6 @@
       button.addEventListener('click', () => sendChat(button.dataset.linaQuick || button.textContent || ''));
     });
 
-    /* 핵심 버튼 안전 복구: 기존 개별 스크립트가 실패해도 닫기·이동·완료가 작동한다. */
     document.addEventListener('click', event => {
       const button = event.target.closest('button');
       if (!button) return;
@@ -202,8 +213,8 @@
         return;
       }
 
-      if (button.matches('[data-decision-target],[data-lina-target]')) {
-        const selector = button.dataset.decisionTarget || button.dataset.linaTarget;
+      if (button.matches('[data-lina-target]')) {
+        const selector = button.dataset.linaTarget;
         const target = selector ? document.querySelector(selector) : null;
         if (target) {
           event.preventDefault();
@@ -228,13 +239,14 @@
     decorateExplorer();
     buildBriefing();
     buildLog();
+    loadExecutionRuntime();
     refreshBriefing();
 
     tree?.addEventListener('click', () => window.setTimeout(refreshBriefing, 0));
     document.getElementById('runContentAuditBtn')?.addEventListener('click', () => window.setTimeout(refreshBriefing, 1200));
 
     window.SavingioHQ = Object.freeze({
-      version: 'V3.036-controls-lina',
+      version: 'V3.037-execution-lina',
       mode: 'legacy-admin-hq',
       assistant: 'online',
       explorer: 'primary',
