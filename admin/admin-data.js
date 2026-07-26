@@ -1,2 +1,14 @@
-window.SAVINGIO_ADMIN_DATA={departments:[{id:'command',name:'통합 상황실',children:['전체 진행률','오늘 작업','승인 필요','오류·중지','수익 요약']},{id:'market',name:'시장분석본부',children:['주제 분석','인기 제품','영상·쇼츠 분석','댓글 반응','경쟁도','제작 추천']},{id:'content',name:'콘텐츠본부',children:['전체 글','중복 검사','통합 후보','삭제 후보','기존 글 재작성','SEO','이미지','내부 링크','계산기','콘텐츠 QA']},{id:'video',name:'쇼츠·영상본부',children:['기획','대본','장면 구성','이미지·소재','음성','자막','완성 영상']},{id:'social',name:'SNS 배포본부',children:['YouTube Shorts','Instagram Reels','Threads','Facebook','Pinterest','예약 발행']},{id:'product',name:'상품·수익본부',children:['상품 DB','제휴 링크','연결 콘텐츠','클릭','전환','수익·정산']},{id:'approval',name:'승인센터',children:['글 승인','이미지 승인','영상 승인','상품 승인','발행 승인','반려·수정']},{id:'automation',name:'자동화센터',children:['워크플로 관리','실행 예정','실행 중','완료','실패','재실행','긴급 중지']},{id:'analytics',name:'데이터·분석본부',children:['검색 유입','SNS 유입','영상 성과','상품 전환','애드센스','다음 주제']},{id:'system',name:'시스템관리',children:['분류 관리','API 연결','Publisher LOCK','GitHub','Cloudflare','백업·기록']}],departmentCards:[],projects:[]};
+window.SAVINGIO_ADMIN_DATA={departments:[
+{id:'command',name:'통합운영본부',subtitle:'HOME',children:['전체 현황','오늘 작업','승인 대기','오류·중지','수익 요약']},
+{id:'market',name:'시장/기회분석본부',subtitle:'MARKET INTELLIGENCE',children:['트렌드/시장탐색','키워드/수요분석','시즌/이슈기회','신규주제발견','경쟁구조분석','기회점수/우선순위','콘텐츠기회분석','상품기회분석','쇼츠/영상기회분석','아이디어보관함']},
+{id:'content',name:'콘텐츠자산본부',subtitle:'CONTENT SYSTEM',children:['전체콘텐츠','신규콘텐츠기획','작성/편집','SEO관리','이미지/소재관리','내부링크/허브','계산기/도구연결','수정대상콘텐츠','중복/통합관리','콘텐츠품질점검','자동재작성','보관/삭제']},
+{id:'product',name:'상품/제휴운영본부',subtitle:'PRODUCT & AFFILIATE',children:['상품DB','쇼핑커넥트','쿠팡파트너스','제휴링크관리','상품-콘텐츠연결','클릭/전환','수익정산','판매상품분석','인기상품분석','상품기회','상품운영설정']},
+{id:'revenue',name:'수익운영본부',subtitle:'REVENUE OPERATIONS',children:['애드센스','제휴수익','상품수익','콘텐츠별수익','채널별수익','일별/월별수익','수익목표','정산관리','수익이상감지']},
+{id:'video',name:'쇼츠/영상운영본부',subtitle:'VIDEO & SHORTS',children:['영상기획','대본작성','장면구성','이미지/소재','음성/자막','완성영상','예약발행','성과분석']},
+{id:'social',name:'SNS배포본부',subtitle:'SOCIAL DISTRIBUTION',children:['YouTube Shorts','Instagram Reels','Threads','Facebook','Pinterest','예약발행','배포상태','실패재시도']},
+{id:'approval',name:'승인센터',subtitle:'APPROVAL CENTER',children:['글승인','이미지승인','영상승인','상품승인','발행승인','통합/삭제승인','반려/수정']},
+{id:'automation',name:'자동화센터',subtitle:'AUTOMATION CENTER',children:['워크플로관리','실행예정','실행중','완료','실패','재실행','긴급중지']},
+{id:'analytics',name:'데이터/분석본부',subtitle:'DATA & ANALYTICS',children:['검색유입','SNS유입','영상성과','상품전환','애드센스','다음주제','운영리포트']},
+{id:'system',name:'시스템관리본부',subtitle:'SYSTEM MANAGEMENT',children:['분류관리','API연결','Publisher LOCK','GitHub','Cloudflare','백업/기록','보안/권한']}
+],departmentCards:[],projects:[]};
 (()=>{const s=document.createElement('script');s.src='/admin/final-approval-runtime.js';s.defer=true;document.head.appendChild(s);})();
