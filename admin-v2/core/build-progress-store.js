@@ -1,7 +1,7 @@
 (() => {
   'use strict';
   const KEY='savingio-admin-v2-build-progress';
-  const defaults=Object.freeze({currentPhase:'공통 기반 구조',status:'in_progress',percent:'15',currentTask:'공통 Center Renderer 적용',completed:'MASTER LOG 전체 확인\n현재 Admin V2 구조 확인',remaining:'개발 진행 보드\nCloudflare Center\n회귀 검사\nMASTER LOG 갱신',note:'실제 구현·검증한 항목만 완료 처리',history:[]});
+  const defaults=Object.freeze({currentPhase:'공통 센터 기반 1차 적용',status:'verified',percent:'80',currentTask:'GitHub 파일 회귀 확인 및 Production 배포 확인',completed:'MASTER LOG 전체 확인\n현재 Admin V2 구조 확인\n공통 Center Renderer 생성\n개발 진행 보드 생성\nCloudflare 상태 Store 생성\nCloudflare Center 생성\n좌측 메뉴 및 script 연결',remaining:'Admin V2 app 공통 변경 이벤트 연결\n실제 Production 브라우저 렌더링 확인\nMASTER LOG 최신 상태 기록\n다음 SEO Doctor 설계',note:'GitHub main 파일 생성·연결 재조회 완료. Production 브라우저 확인 전이므로 100% 완료 처리하지 않음.',history:[]});
   const states=Object.freeze(['not_started','in_progress','blocked','verified','complete']);
   const clean=value=>String(value??'').trim();
   function read(){try{return {...defaults,...JSON.parse(localStorage.getItem(KEY)||'{}')}}catch{return {...defaults}}}
