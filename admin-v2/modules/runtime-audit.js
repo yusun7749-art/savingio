@@ -13,13 +13,13 @@
   const expectedGlobals=Object.freeze([
     'SavingioV2ReleaseMarker','SavingioV2CenterRenderer','SavingioV2CenterStoreFactory','SavingioV2BuildProgressStore',
     'SavingioV2CloudflareStore','SavingioV2SeoDoctorStore','SavingioV2ContentDoctorStore',
-    'SavingioV2RuntimeAudit','SavingioAdminV2'
+    'SavingioV2RuntimeAudit','SavingioAdminV2','SavingioV2ProductionAutoVerify'
   ]);
   const expectedScripts=Object.freeze([
     '/admin-v2/core/release-marker.js','/admin-v2/core/center-renderer.js','/admin-v2/core/center-store-factory.js',
     '/admin-v2/modules/build-progress.js','/admin-v2/modules/cloudflare.js',
     '/admin-v2/modules/seo-doctor.js','/admin-v2/modules/content-doctor.js',
-    '/admin-v2/modules/runtime-audit.js','/admin-v2/app.js','/admin-v2/center-refresh.js'
+    '/admin-v2/modules/runtime-audit.js','/admin-v2/app.js','/admin-v2/production-auto-verify.js','/admin-v2/center-refresh.js'
   ]);
 
   function scriptLoaded(path){return [...document.scripts].some(script=>{try{return new URL(script.src,location.href).pathname===path}catch{return false}})}
@@ -48,7 +48,7 @@
     const progress=window.SavingioV2BuildProgressStore?.read?.()||{};
     const rows=result.rows.map(row=>`<div><span>${esc(row.name)}</span><strong class="${row.pass?'pass':'fail'}">${row.pass?'PASS':'FAIL'}</strong></div>`).join('');
     const finalState=progress.status==='complete'&&Number(progress.percent)===100?'100% 완료':'검증 결과 미반영';
-    return `<section class="view" data-module-root><header class="hero"><p>RUNTIME AUDIT</p><h2>Admin V2 런타임 검증 센터</h2><p>현재 브라우저에 실제 로딩된 공통 엔진·Store·모듈·메뉴·스크립트·Release Marker·Shell을 검사합니다. 전체 PASS 결과를 반영해야만 진행 보드가 100%로 전환됩니다.</p></header><div class="metrics"><article class="metric"><span>전체 항목</span><strong>${result.total}</strong></article><article class="metric"><span>PASS</span><strong>${result.passed}</strong></article><article class="metric"><span>FAIL</span><strong>${result.failed}</strong></article><article class="metric"><span>최종 판정</span><strong class="${result.pass?'pass':'fail'}">${result.pass?'PASS':'FAIL'}</strong></article><article class="metric"><span>진행 보드</span><strong>${esc(finalState)}</strong></article></div><section class="panel"><h3>실시간 검사 결과</h3><div class="connection-list">${rows}</div><div class="header-actions"><button class="button secondary" type="button" data-runtime-audit="rerun">다시 검사</button><button class="button" type="button" data-runtime-audit="apply">검사 결과 반영</button></div></section><section class="panel"><h3>배포 식별</h3><div class="connection-list"><div><span>Release ID</span><strong>${esc(result.releaseId)}</strong></div><div><span>Version</span><strong>${esc(result.version)}</strong></div><div><span>검사 시각</span><strong>${esc(new Date(result.checkedAt).toLocaleString('ko-KR'))}</strong></div><div><span>완료 판정</span><strong>전체 PASS 결과 반영 시에만 100%</strong></div></div></section></section>`;
+    return `<section class="view" data-module-root><header class="hero"><p>RUNTIME AUDIT</p><h2>Admin V2 런타임 검증 센터</h2><p>현재 브라우저에 실제 로딩된 공통 엔진·Store·모듈·메뉴·스크립트·Release Marker·Production Auto Verify·Shell을 검사합니다. 운영 도메인에서는 화면을 여는 즉시 전체 검사 결과가 자동 반영됩니다.</p></header><div class="metrics"><article class="metric"><span>전체 항목</span><strong>${result.total}</strong></article><article class="metric"><span>PASS</span><strong>${result.passed}</strong></article><article class="metric"><span>FAIL</span><strong>${result.failed}</strong></article><article class="metric"><span>최종 판정</span><strong class="${result.pass?'pass':'fail'}">${result.pass?'PASS':'FAIL'}</strong></article><article class="metric"><span>진행 보드</span><strong>${esc(finalState)}</strong></article></div><section class="panel"><h3>실시간 검사 결과</h3><div class="connection-list">${rows}</div><div class="header-actions"><button class="button secondary" type="button" data-runtime-audit="rerun">다시 검사</button><button class="button" type="button" data-runtime-audit="apply">검사 결과 반영</button></div></section><section class="panel"><h3>배포 식별</h3><div class="connection-list"><div><span>Release ID</span><strong>${esc(result.releaseId)}</strong></div><div><span>Version</span><strong>${esc(result.version)}</strong></div><div><span>검사 시각</span><strong>${esc(new Date(result.checkedAt).toLocaleString('ko-KR'))}</strong></div><div><span>자동 판정</span><strong>savingio.com / savingio.pages.dev 접속 시 자동 실행</strong></div><div><span>완료 판정</span><strong>전체 PASS 결과일 때만 100%</strong></div></div></section></section>`;
   }
 
   registry.register({id:'tool-runtime-audit',title:'런타임 검증 센터',render});
