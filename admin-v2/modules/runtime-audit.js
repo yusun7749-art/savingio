@@ -14,7 +14,7 @@
     'SavingioV2ReleaseMarker','SavingioV2CenterRenderer','SavingioV2CenterStoreFactory','SavingioV2BuildProgressStore',
     'SavingioV2CloudflareStore','SavingioV2SeoDoctorStore','SavingioV2ContentDoctorStore','SavingioV2ContentInventoryStore',
     'SavingioV2SeoInventoryStore','SavingioV2ImageInventoryStore','SavingioV2QaInventoryStore','SavingioV2DeployInventoryStore',
-    'SavingioV2AnalyticsInventoryStore','SavingioV2RevenueInventoryStore','SavingioV2RuntimeAudit','SavingioAdminV2','SavingioV2ProductionAutoVerify'
+    'SavingioV2AnalyticsInventoryStore','SavingioV2RevenueInventoryStore','SavingioV2OperationsDashboardStore','SavingioV2RuntimeAudit','SavingioAdminV2','SavingioV2ProductionAutoVerify'
   ]);
   const expectedScripts=Object.freeze([
     '/admin-v2/core/release-marker.js','/admin-v2/core/center-renderer.js','/admin-v2/core/center-store-factory.js',
@@ -25,6 +25,7 @@
     '/admin-v2/core/deploy-inventory-store.js','/admin-v2/modules/deploy.js',
     '/admin-v2/core/analytics-inventory-store.js','/admin-v2/modules/analytics.js',
     '/admin-v2/core/revenue-inventory-store.js','/admin-v2/modules/revenue.js',
+    '/admin-v2/core/operations-dashboard-store.js','/admin-v2/modules/command.js',
     '/admin-v2/modules/build-progress.js','/admin-v2/modules/cloudflare.js',
     '/admin-v2/modules/seo-doctor.js','/admin-v2/modules/content-doctor.js',
     '/admin-v2/modules/runtime-audit.js','/admin-v2/app.js','/admin-v2/production-auto-verify.js','/admin-v2/center-refresh.js'
@@ -47,6 +48,8 @@
     const deployInventory=window.SavingioV2DeployInventoryStore?.verify?.()||{pass:false,count:0};
     const analyticsInventory=window.SavingioV2AnalyticsInventoryStore?.verify?.()||{pass:false,count:0};
     const revenueInventory=window.SavingioV2RevenueInventoryStore?.verify?.()||{pass:false,count:0};
+    const dashboard=window.SavingioV2OperationsDashboardStore?.verify?.()||{pass:false,centers:0,alerts:0};
+    const command=window.SavingioV2CommandCenter?.verify?.()||{pass:false};
     const release=window.SavingioV2ReleaseMarker||{};
     const rows=[...moduleRows,...globalRows,...menuRows,...scriptRows,
       {name:`Release Marker · ${expectedReleaseId}`,pass:release.id===expectedReleaseId},
@@ -59,6 +62,8 @@
       {name:`Deploy Inventory integrity · ${deployInventory.count||0}건`,pass:Boolean(deployInventory.pass)},
       {name:`Analytics Inventory integrity · ${analyticsInventory.count||0}건`,pass:Boolean(analyticsInventory.pass)},
       {name:`Revenue Inventory integrity · ${revenueInventory.count||0}건`,pass:Boolean(revenueInventory.pass)},
+      {name:`Operations Dashboard integrity · ${dashboard.centers||0}센터`,pass:Boolean(dashboard.pass)},
+      {name:'Command Center dashboard connection',pass:Boolean(command.pass)},
       {name:'Build Progress truth lock',pass:Boolean(progress.pass&&progress.noFakeCompletion)},
       {name:'Admin V2 Shell',pass:Boolean(shell.pass)}
     ];
