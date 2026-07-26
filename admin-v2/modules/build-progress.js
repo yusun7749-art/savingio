@@ -1,0 +1,12 @@
+(() => {
+  'use strict';
+  const registry=window.SavingioV2Modules;
+  const renderer=window.SavingioV2CenterRenderer;
+  const store=window.SavingioV2BuildProgressStore;
+  if(!registry||!renderer||!store)throw new Error('Build Progress dependencies are not loaded');
+  const labels={not_started:'시작 전',in_progress:'진행 중',blocked:'중지',verified:'검증 완료',complete:'완료'};
+  const config={id:'tool-build-progress',kicker:'LIVE BUILD BOARD',title:'Admin V2 개발 진행 보드',description:'현재 작업 위치·완료 범위·남은 작업을 운영자가 직접 확인하는 화면입니다. 100%와 완료는 실제 검증이 끝났을 때만 기록합니다.',formId:'buildProgressForm',formTitle:'현재 진행 상태',saveLabel:'진행 상태 저장',resetAction:'build-progress',metrics:[{label:'현재 단계',value:'currentPhase'},{label:'상태',value:data=>labels[data.status]||data.status},{label:'진행률',value:data=>`${data.percent}%`},{label:'현재 작업',value:'currentTask'},{label:'검증 상태',value:(data,integrity)=>integrity.pass?'PASS':'FAIL'},{label:'완료 진실성',value:(data,integrity)=>integrity.noFakeCompletion?'LOCK':'FAIL'}],locks:[{label:'완료 판정',value:'실제 구현 + 실제 검증 후에만 완료'},{label:'100% 판정',value:'status=complete와 percent=100이 함께 있어야 허용'},{label:'덧붙이기 방식',value:'금지 · 공통 틀과 설정 데이터 사용'}],fields:[{name:'currentPhase',label:'현재 단계',maxlength:120},{name:'status',label:'상태',type:'select',options:store.states.map(value=>({value,label:labels[value]}))},{name:'percent',label:'진행률(0~100)',type:'number'},{name:'currentTask',label:'현재 작업',maxlength:300},{name:'completed',label:'완료한 작업',type:'textarea',rows:6,maxlength:3000},{name:'remaining',label:'남은 작업',type:'textarea',rows:6,maxlength:3000},{name:'note',label:'검증 메모',type:'textarea',rows:4,maxlength:2000}],historyColumns:['status','percent'],externalTitle:'현재 작업 지도',external:[{label:'완료한 작업',value:data=>data.completed||'없음'},{label:'남은 작업',value:data=>data.remaining||'없음'},{label:'사용자 확인 위치',value:'좌측 메뉴 → 개발 진행 보드'}]};
+  registry.register({id:config.id,title:config.title,render(){return renderer.render(config,store.read(),store.verify())}});
+  document.addEventListener('submit',event=>{const form=event.target.closest('#buildProgressForm');if(!form)return;event.preventDefault();store.write(renderer.formData(form,config.fields));});
+  document.addEventListener('click',event=>{const button=event.target.closest('[data-center-reset="build-progress"]');if(!button)return;event.preventDefault();store.reset();});
+})();
