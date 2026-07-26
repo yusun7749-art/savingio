@@ -2,7 +2,7 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3288,
-  "references_scanned": 62948,
+  "references_scanned": 62947,
   "counts": {
     "broken_references": 1871,
     "malformed_redirects": 0,
@@ -1273,7 +1273,7 @@
     },
     {
       "source": "admin/v2.html",
-      "reference": "/admin/v2.js?v=1",
+      "reference": "/admin/v2.js?v=2",
       "expected": [
         "admin/v2.js"
       ]
