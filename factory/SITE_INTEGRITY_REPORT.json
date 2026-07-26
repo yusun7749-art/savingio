@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3267,
-  "references_scanned": 62881,
+  "references_scanned": 62883,
   "counts": {
-    "broken_references": 1849,
+    "broken_references": 1851,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 16,
@@ -250,38 +250,54 @@
     },
     {
       "source": "admin-v2/modules/deploy.js",
-      "reference": "advance",
+      "reference": "${esc(item.targetUrl)}",
       "expected": [
-        "admin-v2/modules/advance",
-        "admin-v2/modules/advance.html",
-        "admin-v2/modules/advance/index.html"
+        "admin-v2/modules/${esc(item.targetUrl)}"
       ]
     },
     {
       "source": "admin-v2/modules/deploy.js",
-      "reference": "fail",
+      "reference": "cancel-edit",
       "expected": [
-        "admin-v2/modules/fail",
-        "admin-v2/modules/fail.html",
-        "admin-v2/modules/fail/index.html"
+        "admin-v2/modules/cancel-edit",
+        "admin-v2/modules/cancel-edit.html",
+        "admin-v2/modules/cancel-edit/index.html"
       ]
     },
     {
       "source": "admin-v2/modules/deploy.js",
-      "reference": "retry",
+      "reference": "delete",
       "expected": [
-        "admin-v2/modules/retry",
-        "admin-v2/modules/retry.html",
-        "admin-v2/modules/retry/index.html"
+        "admin-v2/modules/delete",
+        "admin-v2/modules/delete.html",
+        "admin-v2/modules/delete/index.html"
       ]
     },
     {
       "source": "admin-v2/modules/deploy.js",
-      "reference": "start",
+      "reference": "edit",
       "expected": [
-        "admin-v2/modules/start",
-        "admin-v2/modules/start.html",
-        "admin-v2/modules/start/index.html"
+        "admin-v2/modules/edit",
+        "admin-v2/modules/edit.html",
+        "admin-v2/modules/edit/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/deploy.js",
+      "reference": "reset-filter",
+      "expected": [
+        "admin-v2/modules/reset-filter",
+        "admin-v2/modules/reset-filter.html",
+        "admin-v2/modules/reset-filter/index.html"
+      ]
+    },
+    {
+      "source": "admin-v2/modules/deploy.js",
+      "reference": "workflow",
+      "expected": [
+        "admin-v2/modules/workflow",
+        "admin-v2/modules/workflow.html",
+        "admin-v2/modules/workflow/index.html"
       ]
     },
     {
