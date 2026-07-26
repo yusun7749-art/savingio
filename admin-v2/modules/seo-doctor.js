@@ -1,0 +1,16 @@
+(() => {
+  'use strict';
+  const registry=window.SavingioV2Modules;
+  const renderer=window.SavingioV2CenterRenderer;
+  const factory=window.SavingioV2CenterStoreFactory;
+  if(!registry||!renderer||!factory)throw new Error('SEO Doctor dependencies are not loaded');
+
+  const states={scan:['unknown','pending','running','pass','fail'],index:['unknown','healthy','warning','critical'],links:['unknown','healthy','warning','broken'],schema:['unknown','healthy','warning','error']};
+  const labels={unknown:'미확인',pending:'대기',running:'검사 중',pass:'정상',fail:'실패',healthy:'정상',warning:'주의',critical:'심각',broken:'깨진 링크',error:'오류'};
+  const store=factory.create({key:'savingio-admin-v2-seo-doctor',name:'seo-doctor',states,defaults:{scan:'unknown',index:'unknown',links:'unknown',schema:'unknown',lastScanAt:'',issueCount:'',checkedUrls:'',operatorNote:'',history:[]},stateFields:['scan','index','links','schema'],historyFields:['scan','index','links','schema'],verify(data){const fake=data.scan==='pass'&&(!data.lastScanAt||!data.checkedUrls);return {pass:!fake,noFakeSuccess:!fake};}});
+  const options=values=>values.map(value=>({value,label:labels[value]||value}));
+  const config={id:'tool-seo-doctor',kicker:'SEO DOCTOR',title:'SEO Doctor',description:'색인·내부 링크·구조화 데이터 점검 결과를 실제 확인한 내용만 기록합니다.',formId:'seoDoctorForm',formTitle:'SEO 검사 상태',saveLabel:'SEO 상태 저장',resetAction:'seo-doctor',metrics:[{label:'전체 검사',value:data=>labels[data.scan]||data.scan},{label:'색인 건강도',value:data=>labels[data.index]||data.index},{label:'내부 링크',value:data=>labels[data.links]||data.links},{label:'Schema',value:data=>labels[data.schema]||data.schema},{label:'발견 문제',value:data=>data.issueCount||'미확인'},{label:'진실성 LOCK',value:(data,integrity)=>integrity.noFakeSuccess?'PASS':'FAIL'}],locks:[{label:'PASS 조건',value:'검사 시각과 검사 URL 기록이 있어야 PASS 허용'},{label:'허위 색인 정상',value:'금지'},{label:'자동 수정',value:'검사와 수정은 분리'}],fields:[{name:'scan',label:'전체 검사 상태',type:'select',options:options(states.scan)},{name:'index',label:'색인 건강도',type:'select',options:options(states.index)},{name:'links',label:'내부 링크 상태',type:'select',options:options(states.links)},{name:'schema',label:'구조화 데이터 상태',type:'select',options:options(states.schema)},{name:'lastScanAt',label:'최근 검사 시각',maxlength:80,placeholder:'실제 검사한 시각'},{name:'issueCount',label:'발견 문제 수',type:'number'},{name:'checkedUrls',label:'검사한 URL·범위',type:'textarea',rows:6,maxlength:4000},{name:'operatorNote',label:'운영 메모',type:'textarea',rows:4,maxlength:2000}],historyColumns:['scan','index','links','schema'],externalTitle:'실행 연결 상태',external:[{label:'Search Console API',value:'미연결'},{label:'Sitemap 자동 검사',value:'미구현'},{label:'내부 링크 자동 수정',value:'미구현'},{label:'검사 결과 자동 PASS',value:'금지'}]};
+  registry.register({id:config.id,title:config.title,render(){return renderer.render(config,store.read(),store.verify())}});
+  document.addEventListener('submit',event=>{const form=event.target.closest('#seoDoctorForm');if(!form)return;event.preventDefault();store.write(renderer.formData(form,config.fields));});
+  document.addEventListener('click',event=>{const button=event.target.closest('[data-center-reset="seo-doctor"]');if(!button)return;event.preventDefault();store.reset();});
+})();
