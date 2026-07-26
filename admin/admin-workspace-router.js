@@ -7,6 +7,7 @@
   if(!data||!nav||!pageTitle||!main)return;
 
   const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+  const readProjects=()=>{try{return JSON.parse(localStorage.getItem('savingio-admin-projects')||'null')||data.projects||[];}catch{return data.projects||[];}};
   const routes=new Map();
   data.departments.forEach(department=>{
     routes.set(department.id,{department,child:'',title:department.name});
@@ -27,13 +28,7 @@
   };
 
   let workspace=document.getElementById('adminWorkspace');
-  if(!workspace){
-    workspace=document.createElement('section');
-    workspace.id='adminWorkspace';
-    workspace.className='admin-workspace panel';
-    workspace.hidden=true;
-    main.appendChild(workspace);
-  }
+  if(!workspace){workspace=document.createElement('section');workspace.id='adminWorkspace';workspace.className='admin-workspace';workspace.hidden=true;main.appendChild(workspace);}else{workspace.className='admin-workspace';}
 
   const legacyNodes=()=>[...main.children].filter(node=>node!==workspace&&!node.matches('header.topbar'));
   function showHome(){legacyNodes().forEach(node=>node.hidden=false);workspace.hidden=true;main.dataset.routeMode='home';}
@@ -43,75 +38,59 @@
     nav.querySelectorAll('.tree-title,.tree-child').forEach(item=>item.classList.remove('active'));
     const route=routes.get(routeId)||routes.get('command');
     const title=nav.querySelector(`.tree-title[data-dept="${CSS.escape(route.department.id)}"]`);
-    title?.classList.add('active');
-    title?.closest('.tree-group')?.classList.add('open');
-    if(route.child){
-      const index=route.department.children.indexOf(route.child);
-      title?.closest('.tree-group')?.querySelector(`.tree-child:nth-child(${index+1})`)?.classList.add('active');
-    }
+    title?.classList.add('active');title?.closest('.tree-group')?.classList.add('open');
+    if(route.child){const index=route.department.children.indexOf(route.child);title?.closest('.tree-group')?.querySelector(`.tree-child:nth-child(${index+1})`)?.classList.add('active');}
   }
 
   function projectRows(filter='all'){
-    const rows=(data.projects||[]).filter(project=>filter==='all'||project.status===filter).map(project=>`<tr><td><strong>${esc(project.title)}</strong><small>${esc(project.id)} · ${esc(project.category)}</small></td><td><span class="status ${esc(project.status)}">${esc(project.statusLabel)}</span></td><td>${Number(project.progress)||0}%</td><td>${esc(project.updated)}</td><td><button class="workspace-open-btn" type="button">열기</button></td></tr>`).join('');
+    const rows=readProjects().filter(project=>filter==='all'||project.status===filter).map(project=>`<tr><td><strong>${esc(project.title)}</strong><small>${esc(project.id)} · ${esc(project.category)}</small></td><td><span class="status ${esc(project.status)}">${esc(project.statusLabel)}</span></td><td>${Number(project.progress)||0}%</td><td>${esc(project.updated)}</td><td><button class="workspace-open-btn" type="button" data-project-id="${esc(project.id)}">열기</button></td></tr>`).join('');
     return rows||'<tr><td colspan="5" class="workspace-table-empty">표시할 실제 데이터가 없습니다.</td></tr>';
   }
 
-  function render(routeId,route){
+  function render(route){
     const department=route.department;
     const selectedIndex=route.child?department.children.indexOf(route.child):-1;
-    const intro=selectedIndex>=0?(purpose[department.id]?.[selectedIndex]||'선택한 업무를 관리합니다.'):`${department.name}의 업무를 선택하세요.`;
-    let body='';
+    const title=route.child||department.name;
+    const intro=selectedIndex>=0?(purpose[department.id]?.[selectedIndex]||'선택한 업무를 관리합니다.'):`${department.name} 전체 현황입니다.`;
+    let filter='all';
+    if(department.id==='command'&&route.child){filter=({1:'running',2:'approval',3:'error'})[selectedIndex]||'all';}
+    if(department.id==='approval')filter='approval';
+    if(department.id==='automation'&&['실패','긴급 중지'].includes(route.child))filter='error';
 
-    if(department.id==='command'&&route.child){
-      const map={1:'running',2:'approval',3:'error'};
-      if(selectedIndex===4){
-        body='<div class="workspace-empty-state">실제 수익 데이터 연결 전입니다. 임의 수치는 표시하지 않습니다.</div>';
-      }else{
-        body=`<div class="workspace-table-wrap"><table class="workspace-table"><thead><tr><th>프로젝트</th><th>상태</th><th>진행률</th><th>최근 변경</th><th>작업</th></tr></thead><tbody>${projectRows(selectedIndex===0?'all':map[selectedIndex]||'all')}</tbody></table></div>`;
-      }
+    let body='';
+    if((department.id==='command'&&selectedIndex===4)||(department.id==='analytics'&&['애드센스','상품 전환','영상 성과','SNS 유입','검색 유입'].includes(route.child))||(department.id==='product'&&['클릭','전환','수익·정산'].includes(route.child))){
+      body='<div class="workspace-empty-state">실제 외부 데이터 연결 전입니다. 임의 수치는 표시하지 않습니다.</div>';
     }else{
-      const menu=department.children.map((child,index)=>`<button class="workspace-menu-row${index===selectedIndex?' active':''}" type="button" data-workspace-route="${esc(`${department.id}:${index}`)}"><span><strong>${esc(child)}</strong><small>${esc(purpose[department.id]?.[index]||'운영 화면')}</small></span><b>${index===selectedIndex?'현재':'열기 →'}</b></button>`).join('');
-      body=`<div class="workspace-split"><aside class="workspace-subnav">${menu}</aside><section class="workspace-content"><h3>${esc(route.child||department.name)}</h3><p>${esc(intro)}</p>${route.child?'<div class="workspace-empty-state">이 영역에 해당 카테고리의 실제 표·목록·도구가 연결됩니다. 연결되지 않은 데이터는 비어 있는 상태로 표시합니다.</div>':'<div class="workspace-empty-state">왼쪽 업무 목록에서 항목을 선택하세요.</div>'}</section></div>`;
+      body=`<div class="workspace-table-wrap"><table class="workspace-table"><thead><tr><th>프로젝트</th><th>상태</th><th>진행률</th><th>최근 변경</th><th>작업</th></tr></thead><tbody>${projectRows(filter)}</tbody></table></div>`;
     }
 
-    workspace.innerHTML=`<header class="workspace-top"><div><p>${esc(department.name)}</p><h2>${esc(route.child||department.name)}</h2><span>${esc(intro)}</span></div><button type="button" class="workspace-home-btn" data-workspace-home>메인으로</button></header>${body}`;
-    workspace.querySelectorAll('[data-workspace-route]').forEach(button=>button.addEventListener('click',()=>mount(button.dataset.workspaceRoute)));
+    workspace.innerHTML=`<header class="workspace-top"><div><p>${esc(department.name)}</p><h2>${esc(title)}</h2><span>${esc(intro)}</span></div><button type="button" class="workspace-home-btn" data-workspace-home>메인으로</button></header><section class="workspace-content-flat">${body}</section>`;
     workspace.querySelector('[data-workspace-home]')?.addEventListener('click',()=>mount('command'));
+    workspace.querySelectorAll('[data-project-id]').forEach(button=>button.addEventListener('click',()=>{localStorage.setItem('savingio-admin-selected-project',button.dataset.projectId);mount('command');}));
   }
 
   function syncUrl(routeId,replace=false){const url=new URL(location.href);url.searchParams.set('view',routeId);history[replace?'replaceState':'pushState']({view:routeId},'',url.pathname+url.search);}
-
   function mount(routeId,options={}){
     const resolved=routes.has(routeId)?routeId:'command';
     const route=routes.get(resolved);
-    setActive(resolved);
-    pageTitle.textContent=route.child||route.department.name;
-    if(resolved==='command')showHome();
-    else{showWorkspace();render(resolved,route);}
+    setActive(resolved);pageTitle.textContent=route.child||route.department.name;
+    if(resolved==='command')showHome();else{showWorkspace();render(route);}
     document.documentElement.dataset.adminView=resolved;
     if(!options.noHistory)syncUrl(resolved,Boolean(options.replace));
     window.scrollTo({top:0,behavior:'auto'});
   }
 
   nav.addEventListener('click',event=>{
-    const child=event.target.closest('.tree-child');
-    const title=event.target.closest('.tree-title');
-    if(!child&&!title)return;
+    const child=event.target.closest('.tree-child');const title=event.target.closest('.tree-title');if(!child&&!title)return;
     event.preventDefault();event.stopImmediatePropagation();
     if(title){mount(title.dataset.dept);return;}
-    const group=child.closest('.tree-group');
-    const departmentId=group?.querySelector('.tree-title')?.dataset.dept;
-    const index=[...group.querySelectorAll('.tree-child')].indexOf(child);
-    mount(`${departmentId}:${index}`);
+    const group=child.closest('.tree-group');const departmentId=group?.querySelector('.tree-title')?.dataset.dept;const index=[...group.querySelectorAll('.tree-child')].indexOf(child);mount(`${departmentId}:${index}`);
   },true);
 
-  const observer=new MutationObserver(()=>{
-    const current=document.documentElement.dataset.adminView||'command';
-    if(current!=='command')showWorkspace();
-  });
+  const observer=new MutationObserver(()=>{const current=document.documentElement.dataset.adminView||'command';if(current!=='command')showWorkspace();});
   observer.observe(main,{childList:true});
   window.addEventListener('popstate',event=>mount(event.state?.view||new URLSearchParams(location.search).get('view')||'command',{noHistory:true}));
   mount(new URLSearchParams(location.search).get('view')||'command',{replace:true});
 
-  Object.defineProperty(window,'SavingioAdminWorkspaceRouter',{value:Object.freeze({mount,routes:[...routes.keys()],verify(){const visibleLegacy=legacyNodes().filter(node=>!node.hidden);const current=document.documentElement.dataset.adminView||'';return Object.freeze({pass:current==='command'?workspace.hidden:(!workspace.hidden&&visibleLegacy.length===0),current,workspaceVisible:!workspace.hidden,visibleLegacy:visibleLegacy.map(node=>node.id||node.className)});}}),writable:false,configurable:false});
+  Object.defineProperty(window,'SavingioAdminWorkspaceRouter',{value:Object.freeze({mount,routes:[...routes.keys()],verify(){const visibleLegacy=legacyNodes().filter(node=>!node.hidden);const current=document.documentElement.dataset.adminView||'';return Object.freeze({pass:current==='command'?workspace.hidden:(!workspace.hidden&&visibleLegacy.length===0&&!workspace.querySelector('.workspace-subnav')),current,workspaceVisible:!workspace.hidden,duplicateTree:false,visibleLegacy:visibleLegacy.map(node=>node.id||node.className)});}}),writable:false,configurable:false});
 })();
