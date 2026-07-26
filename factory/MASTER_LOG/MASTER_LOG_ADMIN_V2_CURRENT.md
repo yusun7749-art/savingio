@@ -20,6 +20,7 @@
 - Production Auto Verify 구현
 - 콘텐츠 인벤토리 센터 구현
 - SEO 운영 센터 구현
+- QA 검수 센터 구현
 - 좌측 메뉴 및 script 로딩 연결
 
 ## 구현 원칙 LOCK
@@ -54,6 +55,18 @@
 - SEO 재검사 워크플로 생성
 - Store 무결성 검사
 
+### QA 검수 센터
+
+- 콘텐츠·SEO·이미지·내부링크·반응형·실제 URL 항목별 검사
+- 전체 항목 통과 시 PASS 자동 판정
+- 일부 항목 미통과 시 FAIL 자동 판정
+- 강제 중지 상태 관리
+- 제목·URL·메모 검색 및 판정 필터
+- 검사 항목 등록·수정·삭제
+- 실제 페이지 열기
+- QA 실패 항목에서 긴급 수정 워크플로 생성
+- 항목별 통과율과 Store 무결성 검사
+
 ## 실제 생성·수정 파일
 
 - `admin-v2/core/release-marker.js`
@@ -63,8 +76,10 @@
 - `admin-v2/core/cloudflare-store.js`
 - `admin-v2/core/content-inventory-store.js`
 - `admin-v2/core/seo-inventory-store.js`
+- `admin-v2/core/qa-inventory-store.js`
 - `admin-v2/modules/content.js`
 - `admin-v2/modules/seo.js`
+- `admin-v2/modules/qa.js`
 - `admin-v2/modules/build-progress.js`
 - `admin-v2/modules/cloudflare.js`
 - `admin-v2/modules/seo-doctor.js`
@@ -85,6 +100,7 @@
 - 개발 진행 Store와 완료 진실성 LOCK
 - Content Inventory Store와 모듈
 - SEO Inventory Store와 모듈
+- QA Inventory Store와 모듈
 - Cloudflare Store
 - SEO Doctor Store
 - Content Doctor Store
@@ -100,8 +116,9 @@
 - GitHub main 파일 구현: PASS
 - 콘텐츠 인벤토리 Store·모듈: REPOSITORY PASS
 - SEO 운영 Store·모듈: REPOSITORY PASS
-- 콘텐츠·SEO 메뉴 및 script 연결: PASS
-- 콘텐츠·SEO Runtime Audit 연결: PASS
+- QA 검수 Store·모듈: REPOSITORY PASS
+- 콘텐츠·SEO·QA 메뉴 및 script 연결: PASS
+- 콘텐츠·SEO·QA Runtime Audit 연결: PASS
 - Production Auto Verify 파일 생성: PASS
 - Production Auto Verify index 로딩 연결: PASS
 - 런타임 검증 기반 완료 게이트: REPOSITORY PASS
@@ -113,10 +130,9 @@ Admin V2 전체 프로젝트 진행률은 기능 단위로 다시 산정해야 �
 
 ## 다음 작업
 
-1. QA 검수 센터 실개발
-2. 배포 승인 센터 실개발
-3. 이미지 인벤토리 센터 실개발
-4. 분석 센터 실개발
-5. 수익 센터 실개발
-6. 운영 대시보드에서 각 센터 데이터 통합
-7. Production 브라우저 E2E 검증
+1. 배포 승인 센터 실개발
+2. 이미지 인벤토리 센터 실개발
+3. 분석 센터 실개발
+4. 수익 센터 실개발
+5. 운영 대시보드에서 각 센터 데이터 통합
+6. Production 브라우저 E2E 검증
