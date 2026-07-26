@@ -9,52 +9,52 @@
 - Content / SEO / Image / QA / Deploy / Analytics / Revenue Center
 - 통합 운영 대시보드
 - 승인·오류 통합 처리
-- 긴급 수정 워크플로 액션 브리지
-- 긴급 수정 생성 E2E 및 감사 이력
-- Runtime Audit
-- Production E2E Verify
-- Production Deployment Probe
-- Production Auto Verify
+- 긴급 수정 워크플로 E2E 및 감사 이력
+- Runtime Audit / Production E2E / Deployment Probe / Auto Verify
 - Production Verification Center
 - Deploy 검사 이력 누적 저장
-- 운영 검증 센터의 Deploy·긴급 수정 감사 이력 표시
 - 외부 API 공통 Adapter
 - 외부 데이터 연결 센터
+- Search Console Provider Bridge
 
-## 외부 API 공통 Adapter
+## Search Console Provider
 
-- 파일: `admin-v2/core/external-api-adapter.js`
-- 대상 Provider: `search-console`, `analytics`, `adsense`
-- 상태: `disconnected`, `configured`, `syncing`, `connected`, `error`
-- Provider Registry와 공통 `sync()` 실행 구조 구현
-- Provider 미등록 상태에서 동기화 실행 시 `disconnected` 유지
-- 동기화 성공 응답이 명시적으로 `ok === true`일 때만 `connected` 처리
-- 인증 확인값이 없는 상태를 실데이터 연결로 판정하지 않음
-- 최근 Provider별 동기화 이력 50건 유지
-- 최근 시도·성공·오류 시각 분리 저장
-- 오류 메시지와 metadata 분리 저장
-- 전체 Provider 순차 동기화 `syncAll()` 구현
-- 연결 초기화 `disconnect()` 구현
-- 저장 키: `savingio-admin-v2-external-api-adapter`
+- 파일: `admin-v2/core/search-console-provider.js`
+- Provider ID: `search-console`
+- Property LOCK: `https://savingio.com/`
+- 공통 External API Adapter에 Google Search Console Provider 등록
+- 실제 외부 연결 함수는 `window.SavingioSearchConsoleApiBridge.sync()`만 사용
+- Bridge 미등록 상태에서는 동기화 성공과 인증 완료를 만들지 않음
+- API 응답이 명시적으로 `ok === true`인 경우에만 결과 정규화
+- 응답 Property가 LOCK 값과 다르면 Store 반영 차단
+- Search Console Store에 다음 검증 결과만 반영
+  - connection
+  - sitemap
+  - urlInspection
+  - indexing
+  - crawl
+  - indexedPages
+  - excludedPages
+- 숫자 데이터는 유효한 숫자인 경우에만 0 이상으로 정규화
+- Provider 응답 source와 fetchedAt은 Adapter metadata로 보존
+- 인증 확인은 응답의 `authenticated === true`를 요구
 
-## 외부 데이터 연결 센터
+## Search Console 진실성 LOCK
 
-- 파일: `admin-v2/modules/external-connections.js`
-- 좌측 외부 점검 메뉴에 연결
-- Search Console·Google Analytics·AdSense 상태를 동일 화면에서 표시
-- Provider 등록·인증·최근 시도·최근 성공·최근 오류 표시
-- Provider별 동기화 실행 버튼
-- Provider별 연결 초기화 버튼
-- 미등록 Provider 실행 시 허위 데이터 없이 실패 사유 표시
-- Runtime Audit에서 Module·Global·Script·진실성 LOCK 검사
+1. `SavingioSearchConsoleApiBridge`가 없으면 인증 완료로 판정하지 않는다.
+2. `https://savingio.com/` 외 Property 응답은 반영하지 않는다.
+3. 명시적 성공 응답이 아니면 기존 Store 수치를 변경하지 않는다.
+4. 외부 연결 전 indexedPages·excludedPages 수치를 생성하지 않는다.
+5. Provider 인증 상태가 true이면 실제 Bridge가 반드시 존재해야 한다.
 
-## 외부 데이터 진실성 LOCK
+## Runtime Audit 추가 검사
 
-1. Provider가 등록되지 않으면 외부 데이터 동기화를 성공으로 처리하지 않는다.
-2. 동기화 결과가 명시적으로 성공하지 않으면 `connected`로 바꾸지 않는다.
-3. `connected` 상태는 `configured === true`와 `authenticated === true`를 동시에 요구한다.
-4. 외부 API가 없는 상태에서 Search Console·Analytics·AdSense 수치를 생성하지 않는다.
-5. 실패 이력과 오류 메시지는 삭제하지 않고 최근 50건에 보존한다.
+- `SavingioV2SearchConsoleProvider` 전역 객체
+- `search-console-provider.js` 실제 script 로딩
+- Search Console Store Property LOCK
+- 허위 인증 방지
+- Bridge 등록 여부 표시
+- External Adapter Provider 등록 수 표시
 
 ## 최종 완료 게이트 LOCK
 
@@ -64,34 +64,35 @@
 2. Production E2E PASS
 3. Runtime Audit PASS
 4. Deploy Inventory 실제 URL 확인
-5. 최근 실행된 긴급 수정 액션 E2E가 FAIL이 아님
+5. 최근 긴급 수정 액션 E2E가 FAIL이 아님
 6. External API Adapter 구조 무결성과 허위 연결 방지 검사 PASS
+7. Search Console Provider Property LOCK과 허위 인증 방지 PASS
 
-외부 실행 환경에서 운영 URL을 직접 확인하지 못한 경우 완료로 추정하지 않고 PENDING을 유지한다.
+외부 실행 환경에서 운영 URL 또는 Google 인증을 확인하지 못한 경우 완료로 추정하지 않고 PENDING을 유지한다.
 
 ## 실제 생성·수정 파일
 
-- `admin-v2/core/external-api-adapter.js`
-- `admin-v2/modules/external-connections.js`
+- `admin-v2/core/search-console-provider.js`
 - `admin-v2/modules/runtime-audit.js`
 - `admin-v2/index.html`
 - `admin-v2/MASTER_LOG_CURRENT.md`
 
 ## Repository 판정
 
-- External API Adapter 생성: PASS
-- Provider Registry·공통 Sync 구조: PASS
-- 허위 연결 방지 LOCK: PASS
-- 외부 데이터 연결 센터 생성: PASS
-- 좌측 메뉴·script 로딩 연결: PASS
+- Search Console Provider 생성: PASS
+- External Adapter Provider 등록: PASS
+- 기존 Search Console Store 반영 구조: PASS
+- Property LOCK: PASS
+- 허위 인증·허위 수치 방지: PASS
+- index script 로딩 연결: PASS
 - Runtime Audit 연결: PASS
-- GitHub main 반영 및 파일 재조회: PASS
-- 실제 외부 API 인증·동기화: PENDING
+- GitHub main 반영: PASS
+- 실제 Google Search Console 인증·API 동기화: PENDING
 
 ## 다음 우선순위
 
-1. Search Console Provider 구현 및 기존 Search Console Store 연결
-2. Analytics Provider 구현 및 Analytics Inventory 반영
-3. AdSense Provider 구현 및 Publisher LOCK 검증 연결
-4. 외부 동기화 결과 운영 검증 센터 표시
+1. Analytics Provider 구현 및 Analytics Inventory 반영
+2. AdSense Provider 구현 및 Publisher LOCK 검증 연결
+3. 외부 동기화 결과 운영 검증 센터 표시
+4. 실제 Google 인증 Bridge 또는 서버 Endpoint 연결
 5. 운영 브라우저 전체 재검사 결과 확인
