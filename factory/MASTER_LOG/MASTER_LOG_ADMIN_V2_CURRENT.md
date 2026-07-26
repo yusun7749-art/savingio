@@ -22,15 +22,18 @@
 - QA 검수 센터 구현
 - 배포 승인 센터 구현
 - 이미지 인벤토리 센터 구현
+- 성과 분석 센터 구현
 - 좌측 메뉴 및 script 로딩 연결
 
 ## 구현 원칙 LOCK
 
 - Store와 독립 모듈을 분리한다.
 - 실제 외부 API가 연결되지 않은 상태에서 PASS·승인·배포 성공을 만들지 않는다.
-- Search Console, GitHub, Cloudflare, 실제 URL 상태는 확인된 값만 기록한다.
+- Search Console, Analytics, GitHub, Cloudflare, 실제 URL 상태는 확인된 값만 기록한다.
 - 실제 URL 확인 전에는 배포 검증 완료로 판정하지 않는다.
 - 이미지 경로·ALT·규격·최적화·브랜드 검수는 확인된 값만 기록한다.
+- 분석 수치는 자동 생성하지 않고 확인된 값만 기록한다.
+- 미확인 분석 데이터는 0과 구분해 `미확인` 상태로 유지한다.
 - 실제 구현과 검증이 끝나지 않으면 100% 또는 완료로 기록하지 않는다.
 - 진행 보드의 `complete + 100%`는 런타임 검증 결과 `pass=true`가 저장된 경우에만 허용한다.
 - Production Auto Verify는 `savingio.com`, `www.savingio.com`, `savingio.pages.dev`에서만 자동 실행한다.
@@ -89,6 +92,18 @@
 - 이미지 보완 워크플로 생성
 - Store 무결성 검사
 
+### 성과 분석 센터
+
+- 페이지별 조회·클릭·노출·CTR·체류시간·전환·수익 신호 관리
+- 직접 입력·Search Console·Analytics·Cloudflare 출처 분리
+- 미확인·수집 중·분석 중·검증 완료·중지 상태 관리
+- 제목·URL·기간·메모 검색 및 상태·출처 필터
+- 실제 페이지 바로 열기
+- 성과 개선 워크플로 생성
+- 외부 연동 전 자동 수치 생성 금지
+- 수익 신호와 실제 수익 분리
+- Store 무결성 검사
+
 ## 실제 생성·수정 파일
 
 - `admin-v2/core/content-inventory-store.js`
@@ -96,11 +111,13 @@
 - `admin-v2/core/qa-inventory-store.js`
 - `admin-v2/core/deploy-inventory-store.js`
 - `admin-v2/core/image-inventory-store.js`
+- `admin-v2/core/analytics-inventory-store.js`
 - `admin-v2/modules/content.js`
 - `admin-v2/modules/seo.js`
 - `admin-v2/modules/image.js`
 - `admin-v2/modules/qa.js`
 - `admin-v2/modules/deploy.js`
+- `admin-v2/modules/analytics.js`
 - `admin-v2/modules/runtime-audit.js`
 - `admin-v2/production-auto-verify.js`
 - `admin-v2/index.html`
@@ -116,6 +133,7 @@
 - Image Inventory Store와 모듈
 - QA Inventory Store와 모듈
 - Deploy Inventory Store와 모듈
+- Analytics Inventory Store와 모듈
 - Cloudflare, SEO Doctor, Content Doctor Store
 - Search Console / AdSense / GitHub Release 모듈
 - 각 메뉴 버튼과 핵심 script 실제 로딩 여부
@@ -131,8 +149,9 @@
 - 이미지 인벤토리 Store·모듈: REPOSITORY PASS
 - QA 검수 Store·모듈: REPOSITORY PASS
 - 배포 승인 Store·모듈: REPOSITORY PASS
-- 콘텐츠·SEO·이미지·QA·배포 메뉴 및 script 연결: PASS
-- 콘텐츠·SEO·이미지·QA·배포 Runtime Audit 연결: PASS
+- 성과 분석 Store·모듈: REPOSITORY PASS
+- 콘텐츠·SEO·이미지·QA·배포·분석 메뉴 및 script 연결: PASS
+- 콘텐츠·SEO·이미지·QA·배포·분석 Runtime Audit 연결: PASS
 - Production Auto Verify index 로딩 연결: PASS
 - Production 브라우저 자동 런타임 결과: PENDING
 
@@ -142,7 +161,6 @@ Admin V2 전체 프로젝트 진행률은 기능 단위로 다시 산정한다. 
 
 ## 다음 작업
 
-1. 분석 센터 실개발
-2. 수익 센터 실개발
-3. 운영 대시보드에서 각 센터 데이터 통합
-4. Production 브라우저 E2E 검증
+1. 수익 센터 실개발
+2. 운영 대시보드에서 각 센터 데이터 통합
+3. Production 브라우저 E2E 검증
