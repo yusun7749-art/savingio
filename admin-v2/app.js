@@ -36,6 +36,13 @@
     return Object.freeze({expected:DEPARTMENT_IDS.length,registered:registered.length,ids:Object.freeze(registered),missing:Object.freeze(missing),pass:missing.length===0});
   }
 
+  function verifyNavigation(){
+    const menu=[...nav.querySelectorAll('[data-view]')].map(button=>String(button.dataset.view||'').trim());
+    const missing=menu.filter(id=>!id||!registry.has(id));
+    const duplicates=[...new Set(menu.filter((id,index)=>menu.indexOf(id)!==index))];
+    return Object.freeze({count:menu.length,missing:Object.freeze(missing),duplicates:Object.freeze(duplicates),pass:missing.length===0&&duplicates.length===0});
+  }
+
   function verify(){
     const roots=workspace?.querySelectorAll(':scope > [data-module-root]')||[];
     const width=explorer?Math.round(explorer.getBoundingClientRect().width):0;
@@ -44,16 +51,17 @@
     const registryIntegrity=registry.verify();
     const commandIntegrity=commandCenter.verify();
     const departmentIntegrity=verifyDepartments();
+    const navigationIntegrity=verifyNavigation();
     const workflowIntegrity=workflowEngine.verify();
     const pipelineIntegrity=pipelineEngine.verify();
-    const result={lockName:shell?.dataset.shellLock||'',routerName:window.SavingioAdminRouter?.name||'',routerOwner:window.SavingioAdminRouter?.owner||'',shellCount:document.querySelectorAll('#adminShell').length,explorerCount:document.querySelectorAll('#adminExplorer').length,headerCount:document.querySelectorAll('#adminHeader').length,workspaceCount:document.querySelectorAll('#adminWorkspace').length,regionCounts,activeModuleRoots:roots.length,activeId,sidebarWidth:width,duplicateIds:duplicates,legacyBoardCount:document.querySelectorAll('#departmentBoard,.department-panel').length,registry:registryIntegrity,commandCenter:commandIntegrity,departments:departmentIntegrity,workflow:workflowIntegrity,pipeline:pipelineIntegrity};
-    result.pass=result.lockName===SHELL_LOCK.name&&result.routerName===ROUTER_LOCK.name&&result.routerOwner===ROUTER_LOCK.owner&&result.shellCount===1&&result.explorerCount===1&&result.headerCount===1&&result.workspaceCount===1&&Object.values(regionCounts).every(count=>count===1)&&roots.length===1&&width===SHELL_LOCK.explorerWidth&&duplicates.length===0&&result.legacyBoardCount===0&&registryIntegrity.pass&&commandIntegrity.pass&&departmentIntegrity.pass&&workflowIntegrity.pass&&pipelineIntegrity.pass;
+    const result={lockName:shell?.dataset.shellLock||'',routerName:window.SavingioAdminRouter?.name||'',routerOwner:window.SavingioAdminRouter?.owner||'',shellCount:document.querySelectorAll('#adminShell').length,explorerCount:document.querySelectorAll('#adminExplorer').length,headerCount:document.querySelectorAll('#adminHeader').length,workspaceCount:document.querySelectorAll('#adminWorkspace').length,regionCounts,activeModuleRoots:roots.length,activeId,sidebarWidth:width,duplicateIds:duplicates,legacyBoardCount:document.querySelectorAll('#departmentBoard,.department-panel').length,registry:registryIntegrity,commandCenter:commandIntegrity,departments:departmentIntegrity,navigation:navigationIntegrity,workflow:workflowIntegrity,pipeline:pipelineIntegrity};
+    result.pass=result.lockName===SHELL_LOCK.name&&result.routerName===ROUTER_LOCK.name&&result.routerOwner===ROUTER_LOCK.owner&&result.shellCount===1&&result.explorerCount===1&&result.headerCount===1&&result.workspaceCount===1&&Object.values(regionCounts).every(count=>count===1)&&roots.length===1&&width===SHELL_LOCK.explorerWidth&&duplicates.length===0&&result.legacyBoardCount===0&&registryIntegrity.pass&&commandIntegrity.pass&&departmentIntegrity.pass&&navigationIntegrity.pass&&workflowIntegrity.pass&&pipelineIntegrity.pass;
     return Object.freeze(result);
   }
 
   function syncShellStatus(){
     const result=verify();
-    shellStatus.textContent=result.pass?`PASS · 부서 ${result.departments.registered}개 · Workflow ${result.workflow.count}건 · Pipeline ${result.pipeline.total}건`:`FAIL · 부서 ${result.departments.registered}/${result.departments.expected} · Workflow 오류 ${result.workflow.invalid}`;
+    shellStatus.textContent=result.pass?`PASS · 메뉴 ${result.navigation.count}개 · 부서 ${result.departments.registered}개 · Workflow ${result.workflow.count}건`:`FAIL · 메뉴 누락 ${result.navigation.missing.length} · 부서 ${result.departments.registered}/${result.departments.expected}`;
     shellStatus.className=result.pass?'pass':'fail';
     document.documentElement.dataset.shellIntegrity=result.pass?'pass':'fail';
     return result;
@@ -71,8 +79,12 @@
   function mount(id,mode='push'){
     assertShell();
     const requested=String(id||'').trim();
-    const module=registry.get(requested)||registry.get('command-home');
-    if(!module)throw new Error(`Admin V2 route not found: ${requested||'(empty)'}`);
+    let module=registry.get(requested);
+    if(!module){
+      module=registry.get('tool-navigation-audit')||registry.get('command-home');
+      if(!module)throw new Error(`Admin V2 route not found: ${requested||'(empty)'}`);
+      console.error(`Admin V2 route not found: ${requested||'(empty)'}`);
+    }
     activeId=module.id;
     title.textContent=module.title;
     const template=document.createElement('template');
@@ -83,15 +95,20 @@
     setActiveNavigation(activeId);
     if(mode!=='none')syncUrl(activeId,mode);
     const integrity=syncShellStatus();
-    window.dispatchEvent(new CustomEvent('savingio:v2-module-mounted',{detail:{id:activeId,title:module.title,integrity}}));
+    window.dispatchEvent(new CustomEvent('savingio:v2-module-mounted',{detail:{id:activeId,title:module.title,integrity,requested}}));
   }
 
   function routeFromEvent(event){
     const target=event.target.closest('[data-view],[data-route]');
     if(!target)return false;
-    const id=target.dataset.view||target.dataset.route;
-    if(!registry.has(id))return false;
+    const id=String(target.dataset.view||target.dataset.route||'').trim();
     event.preventDefault();
+    if(!id||!registry.has(id)){
+      console.error(`Admin V2 broken route: ${id||'(empty)'}`);
+      mount('tool-navigation-audit');
+      alert(`연결되지 않은 메뉴 또는 버튼입니다.\nRoute: ${id||'(빈 값)'}\n\n메뉴·화면 연결 검사로 이동합니다.`);
+      return true;
+    }
     mount(id);
     return true;
   }
@@ -128,7 +145,7 @@
   document.getElementById('refreshBtn').addEventListener('click',()=>mount(activeId||'command-home','replace'));
   document.getElementById('diagnosticsBtn').addEventListener('click',()=>{
     const result=syncShellStatus();
-    alert(`Admin V2 구조 검사\n\nRouter: ${result.routerName} / ${result.routerOwner}\nRegistry: ${result.registry.count}개 / LOCK ${result.registry.sealed?'ON':'OFF'}\nCommand Center: ${result.commandCenter.registered}/${result.commandCenter.expected}개 / Store ${result.commandCenter.store.pass?'PASS':'FAIL'}\n독립 부서: ${result.departments.registered}/${result.departments.expected}개\nWorkflow: ${result.workflow.count}건 / 오류 ${result.workflow.invalid}건 / ${result.workflow.pass?'PASS':'FAIL'}\nPipeline: ${result.pipeline.total}건 / 자동 진행 ${pipelineEngine.summary().autoReady}건 / ${result.pipeline.pass?'PASS':'FAIL'}\nWorkflow 순서: ${result.workflow.flow.join(' → ')}\n누락 부서: ${result.departments.missing.join(', ')||'없음'}\nShell: ${result.shellCount}개 / LOCK ${result.lockName}\nExplorer: ${result.explorerCount}개 / ${result.sidebarWidth}px\nHeader: ${result.headerCount}개\nWorkspace: ${result.workspaceCount}개\n활성 모듈 Root: ${result.activeModuleRoots}개\nLegacy Board: ${result.legacyBoardCount}개\n중복 ID: ${result.duplicateIds.length}개\n현재 모듈: ${result.activeId}\n\n${result.pass?'PASS':'FAIL'}`);
+    alert(`Admin V2 구조 검사\n\nRouter: ${result.routerName} / ${result.routerOwner}\nRegistry: ${result.registry.count}개 / LOCK ${result.registry.sealed?'ON':'OFF'}\n왼쪽 메뉴: ${result.navigation.count}개 / 누락 ${result.navigation.missing.length}개 / 중복 ${result.navigation.duplicates.length}개\nCommand Center: ${result.commandCenter.registered}/${result.commandCenter.expected}개\n독립 부서: ${result.departments.registered}/${result.departments.expected}개\nWorkflow: ${result.workflow.count}건 / 오류 ${result.workflow.invalid}건\nPipeline: ${result.pipeline.total}건 / 자동 진행 ${pipelineEngine.summary().autoReady}건\n누락 Route: ${result.navigation.missing.join(', ')||'없음'}\n중복 Route: ${result.navigation.duplicates.join(', ')||'없음'}\n누락 부서: ${result.departments.missing.join(', ')||'없음'}\nShell: ${result.shellCount}개 / LOCK ${result.lockName}\nExplorer: ${result.explorerCount}개 / ${result.sidebarWidth}px\nWorkspace Root: ${result.activeModuleRoots}개\n현재 모듈: ${result.activeId}\n\n${result.pass?'PASS':'FAIL'}`);
   });
   window.addEventListener('popstate',event=>mount(event.state?.view||new URLSearchParams(location.search).get('view')||'command-home','none'));
   window.addEventListener('savingio:v2-projects-changed',()=>mount(activeId||'command-home','replace'));
@@ -137,5 +154,5 @@
 
   const requested=new URLSearchParams(location.search).get('view')||'command-home';
   mount(requested,'replace');
-  window.SavingioAdminV2=Object.freeze({mount,verify,routerLock:ROUTER_LOCK,shellLock:SHELL_LOCK,commandCenter,workflowEngine,pipelineEngine,departments:verifyDepartments,get activeId(){return activeId},modules:registry.list});
+  window.SavingioAdminV2=Object.freeze({mount,verify,verifyNavigation,routerLock:ROUTER_LOCK,shellLock:SHELL_LOCK,commandCenter,workflowEngine,pipelineEngine,departments:verifyDepartments,get activeId(){return activeId},modules:registry.list});
 })();
