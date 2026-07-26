@@ -1,0 +1,40 @@
+:root{--hq-line:#d9dee7;--hq-soft:#f7f8fa;--hq-text:#172033;--hq-muted:#667085;--hq-accent:#2563eb;--hq-sidebar:270px;--hq-assistant:340px;--hq-log:36px}
+*{box-sizing:border-box}
+html,body{height:100%;overflow:hidden;background:#fff;color:var(--hq-text)}
+body{margin:0}
+.app-shell{display:grid!important;grid-template-columns:var(--hq-sidebar) minmax(0,1fr) var(--hq-assistant);grid-template-rows:minmax(0,1fr) var(--hq-log);height:100vh;min-height:0;background:#fff}
+.sidebar{position:relative!important;inset:auto!important;width:auto!important;height:auto!important;grid-column:1;grid-row:1;border-right:1px solid var(--hq-line);background:#fbfcfd;overflow:auto;padding:14px 10px!important}
+.brand{padding:7px 9px 14px!important;border-bottom:1px solid var(--hq-line);margin-bottom:10px}
+.brand strong{font-size:15px}.brand span{font-size:10px;letter-spacing:.12em;color:var(--hq-muted)}
+#treeNav{font-size:13px}.system-badge{border-top:1px solid var(--hq-line);padding-top:10px;margin-top:12px}
+.main{grid-column:2;grid-row:1;min-width:0;height:auto!important;overflow:auto;padding:0 18px 28px!important;background:#fff}
+.topbar{position:sticky;top:0;z-index:20;margin:0 -18px;padding:11px 18px!important;min-height:58px;background:rgba(255,255,255,.97);border-bottom:1px solid var(--hq-line);backdrop-filter:blur(8px)}
+.topbar h1{font-size:19px!important;margin:1px 0}.eyebrow{font-size:10px!important;letter-spacing:.08em}.top-actions{gap:6px!important}.btn{border-radius:5px!important;box-shadow:none!important;padding:7px 10px!important;font-size:12px!important}
+.notice{border:0!important;border-bottom:1px solid var(--hq-line)!important;border-radius:0!important;background:#f8fafc!important;margin:0 -18px 12px!important;padding:8px 18px!important;font-size:12px}
+.stats{display:none!important}
+.panel,.project-card,.review-card,.trusted-device-card,.pairing-box,.content-health-summary>div{border-radius:0!important;box-shadow:none!important;background:#fff!important}
+.panel{border:1px solid var(--hq-line)!important;margin:0 0 12px!important;padding:0!important}
+.panel-head{min-height:48px;padding:9px 12px!important;border-bottom:1px solid var(--hq-line);background:var(--hq-soft)}
+.panel-head h2{font-size:15px!important;margin:1px 0}
+.workspace-grid{display:grid!important;grid-template-columns:minmax(0,1fr) 310px!important;gap:12px!important;margin:0!important}
+.main-panel,.detail-panel{min-height:250px}.detail-panel{position:relative!important;top:auto!important}
+.project-list{display:table!important;width:100%;border-collapse:collapse}
+.project-card{display:table-row!important;border:0!important}.project-card>*{display:table-cell!important;padding:9px 10px!important;border-bottom:1px solid #edf0f4;vertical-align:middle}
+.project-card:hover{background:#f8fafc!important}
+.content-approval-center,.department-panel{margin-top:12px!important}
+.content-health-summary{display:flex!important;border-bottom:1px solid var(--hq-line);background:#fff!important;padding:0!important}
+.content-health-summary>div{flex:1;border:0!important;border-right:1px solid var(--hq-line)!important;padding:8px 10px!important}.content-health-summary>div:last-child{border-right:0!important}
+.content-toolbar{padding:8px 10px!important;border-bottom:1px solid var(--hq-line);gap:7px!important}.content-toolbar input,.content-toolbar select{border-radius:4px!important;height:32px!important}
+.content-table-wrap{max-height:420px;overflow:auto}.content-table{border-collapse:collapse!important}.content-table th{position:sticky;top:0;background:#f8fafc;z-index:2}.content-table th,.content-table td{padding:8px 9px!important;border-bottom:1px solid #edf0f4!important;font-size:12px!important}
+.department-board{padding:0!important}.department-board>*{border-radius:0!important;box-shadow:none!important;border:0!important;border-bottom:1px solid var(--hq-line)!important}
+#linaLauncher{display:none!important}
+#linaPanel{display:flex!important;position:relative!important;inset:auto!important;grid-column:3;grid-row:1;width:auto!important;height:auto!important;max-height:none!important;border:0!important;border-left:1px solid var(--hq-line)!important;border-radius:0!important;box-shadow:none!important;background:#fbfcfd;flex-direction:column;overflow:hidden;z-index:30}
+#linaPanel[hidden]{display:flex!important}
+.lina-head{min-height:58px;padding:10px 12px!important;border-bottom:1px solid var(--hq-line);background:#fff}.lina-minimize{display:none!important}
+.lina-messages{flex:1;min-height:0;overflow:auto;padding:12px!important;background:#fbfcfd!important}.lina-msg{border-radius:6px!important;box-shadow:none!important;font-size:12px!important;line-height:1.55}.lina-msg.bot{background:#fff!important;border:1px solid var(--hq-line)}.lina-msg.user{background:#eaf1ff!important;border:1px solid #cddcff}
+.lina-quick{padding:8px!important;border-top:1px solid var(--hq-line);display:grid!important;grid-template-columns:1fr 1fr;gap:5px}.lina-quick button{border-radius:4px!important;padding:6px!important;font-size:11px!important}
+.lina-form{padding:8px!important;border-top:1px solid var(--hq-line);background:#fff}.lina-form textarea{border-radius:4px!important;min-height:58px!important;font-size:12px!important}.lina-form button{border-radius:4px!important}
+body:after{content:'HQ LOG  ·  Admin V2 보호  ·  Explorer 기준  ·  Lina Assistant ONLINE';grid-column:1/4;grid-row:2;display:flex;align-items:center;padding:0 12px;background:#111827;color:#dbe4f3;font:11px/1.2 ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.02em}
+dialog{border-radius:6px!important}
+@media(max-width:1100px){:root{--hq-sidebar:230px;--hq-assistant:300px}.workspace-grid{grid-template-columns:1fr!important}.detail-panel{min-height:160px}}
+@media(max-width:820px){html,body{overflow:auto}.app-shell{display:block!important;height:auto}.sidebar{height:auto!important;border-right:0;border-bottom:1px solid var(--hq-line)}.main{overflow:visible!important}.topbar{position:relative}.workspace-grid{display:block!important}#linaPanel{position:relative!important;width:100%!important;min-height:520px;border-left:0!important;border-top:1px solid var(--hq-line)!important}body:after{display:none}}
