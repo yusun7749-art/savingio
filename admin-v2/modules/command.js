@@ -7,7 +7,6 @@
   const dashboard=window.SavingioV2OperationsDashboardStore;
   if(!registry||!store||!workflow||!pipeline||!dashboard)throw new Error('Admin V2 Command Center dependencies are not loaded');
   if(window.SavingioV2CommandCenter)throw new Error('Admin V2 Command Center already exists');
-
   const MODULE_NAME='command-center';
   const MODULE_IDS=Object.freeze(['command-home','command-progress','command-today','command-approval','command-error','command-revenue']);
   const STAGE_LABELS=Object.freeze({content:'콘텐츠',seo:'SEO',image:'이미지',qa:'QA',deploy:'배포',analytics:'분석',revenue:'수익'});
@@ -19,54 +18,14 @@
   const time=value=>{const date=new Date(value);return Number.isNaN(date.getTime())?String(value||''):date.toLocaleString('ko-KR');};
   const money=value=>`${Math.round(Number(value)||0).toLocaleString('ko-KR')}원`;
   const view=(eyebrow,title,description,body)=>`<section class="view" data-module-root data-module="${MODULE_NAME}"><header class="hero"><p>${esc(eyebrow)}</p><h2>${esc(title)}</h2><p>${esc(description)}</p></header>${body}</section>`;
-
-  function workflowButtons(job){
-    const oneClick=job.status!=='done'&&job.status!=='error'?`<button class="button secondary" type="button" data-workflow-action="one-click" data-workflow-id="${esc(job.id)}">원클릭 진행</button>`:'';
-    if(job.approvalStatus==='pending')return `${oneClick}<span class="status pending">승인 대기</span>`;
-    if(job.status==='pending')return `<button class="button" type="button" data-workflow-action="start" data-workflow-id="${esc(job.id)}">작업 시작</button>${oneClick}`;
-    if(job.status==='running')return `<button class="button" type="button" data-workflow-action="advance" data-workflow-id="${esc(job.id)}">현재 단계 완료</button>${oneClick}<button class="button secondary" type="button" data-workflow-action="fail" data-workflow-id="${esc(job.id)}">오류 처리</button>`;
-    if(job.status==='error')return `<button class="button" type="button" data-workflow-action="retry" data-workflow-id="${esc(job.id)}">재시도</button>`;
-    return '<span class="status done">완료</span>';
-  }
-
-  function workflowCards(list){
-    if(!list.length)return '<div class="panel empty">등록된 워크플로가 없습니다.</div>';
-    return `<div class="project-list">${list.map(job=>{const index=workflow.flow.indexOf(job.stage);const progress=job.status==='done'?100:Math.round((index+(job.status==='running'?0.5:0))/workflow.flow.length*100);const gate=pipeline.gate(job);return `<article class="project-card"><div class="project-top"><div><div class="project-title">${esc(job.title)}</div><div class="meta">${esc(job.projectId||job.id)} · ${esc(TYPE_LABELS[job.type]||job.type)} · 현재 부서 ${esc(STAGE_LABELS[job.stage])}</div></div><span class="status ${esc(job.status)}">${job.priority==='urgent'?'긴급 · ':''}${esc(STATUS_LABELS[job.status])}</span></div><div class="progress"><i style="width:${progress}%"></i></div><div class="meta">전체 진행률 ${progress}% · ${esc(job.updatedAt)} · 게이트: ${esc(gate.label)}</div><div class="header-actions">${workflowButtons(job)}</div></article>`;}).join('')}</div>`;
-  }
-
-  function approvalCards(list){
-    if(!list.length)return '<div class="empty">승인 대기 중인 워크플로가 없습니다.</div>';
-    return `<div class="project-list">${list.map(job=>`<article class="project-card"><div class="project-top"><div><div class="project-title">${esc(job.title)}</div><div class="meta">${esc(job.projectId||job.id)} · QA 검수 완료</div></div><span class="status pending">${esc(APPROVAL_LABELS[job.approvalStatus])}</span></div><div class="meta">요청 ${esc(time(job.approvalRequestedAt))}</div><div class="header-actions"><button class="button" data-workflow-action="approve" data-workflow-id="${esc(job.id)}">승인 후 배포 전달</button><button class="button secondary" data-workflow-action="reject" data-workflow-id="${esc(job.id)}">반려</button></div></article>`).join('')}</div>`;
-  }
-
-  function inventoryIssues(){
-    const qa=window.SavingioV2QaInventoryStore?.readAll?.()||[];
-    const deploy=window.SavingioV2DeployInventoryStore?.readAll?.()||[];
-    const analytics=window.SavingioV2AnalyticsInventoryStore?.readAll?.()||[];
-    const revenue=window.SavingioV2RevenueInventoryStore?.readAll?.()||[];
-    return [
-      ...qa.filter(x=>['fail','blocked'].includes(x.result)).map(x=>({kind:'qa',label:x.result==='blocked'?'QA 중지':'QA 실패',title:x.title,url:x.url||'',id:x.id,note:x.note||'',route:'dept-qa'})),
-      ...deploy.filter(x=>['failed','rolled-back'].includes(x.status)).map(x=>({kind:'deploy',label:x.status==='failed'?'배포 실패':'롤백',title:x.title,url:x.targetUrl||'',id:x.id,note:x.note||'',route:'dept-deploy'})),
-      ...analytics.filter(x=>x.status==='blocked').map(x=>({kind:'analytics',label:'분석 중지',title:x.title,url:x.url||'',id:x.id,note:x.note||'',route:'dept-analytics'})),
-      ...revenue.filter(x=>x.status==='blocked').map(x=>({kind:'revenue',label:'수익 중지',title:x.title,url:x.url||'',id:x.id,note:x.note||'',route:'dept-revenue'}))
-    ];
-  }
-
-  function issueCards(list){
-    if(!list.length)return '<div class="empty">현재 운영 센터의 실패·중지 항목이 없습니다.</div>';
-    return `<div class="project-list">${list.map(item=>`<article class="project-card"><div class="project-top"><div><div class="project-title">${esc(item.title)}</div><div class="meta">${esc(item.id)} · ${esc(item.label)}</div></div><span class="status error">${esc(item.label)}</span></div><div class="meta">${esc(item.note||'처리 메모 없음')}</div><div class="header-actions"><button class="button" data-operational-action="create-fix" data-operational-kind="${esc(item.kind)}" data-operational-id="${esc(item.id)}">긴급 수정 작업 생성</button><button class="button secondary" data-route="${esc(item.route)}">원본 센터 열기</button></div></article>`).join('')}</div>`;
-  }
-
-  function integratedDashboard(){
-    const d=dashboard.read();
-    const active=d.alerts.filter(item=>item.count>0);
-    const alerts=active.length?`<div class="connection-list">${active.map(item=>`<div data-route="${esc(item.route)}" role="button" tabindex="0"><span>${esc(item.label)}</span><strong class="fail">${item.count}건</strong></div>`).join('')}</div>`:'<div class="empty">현재 통합 경고가 없습니다.</div>';
-    return `<section class="panel"><h3>부서 통합 현황</h3><div class="metrics">${metric('콘텐츠',`${d.content.total||0}건`,'dept-content')}${metric('SEO',`${d.seo.total||0}건`,'dept-seo')}${metric('이미지',`${d.image.total||0}건`,'dept-image')}${metric('QA PASS',`${d.qa.result?.pass||0}건`,'dept-qa')}${metric('배포 검증',`${d.deploy.verified||0}건`,'dept-deploy')}${metric('분석 검증',`${d.analytics.verified||0}건`,'dept-analytics')}${metric('확정 수익',money(d.revenue.confirmed||0),'dept-revenue')}${metric('정산 완료',money(d.revenue.settled||0),'dept-revenue')}</div></section><section class="panel"><h3>주의·승인·오류</h3>${alerts}</section>`;
-  }
-
+  function workflowButtons(job){const oneClick=job.status!=='done'&&job.status!=='error'?`<button class="button secondary" type="button" data-workflow-action="one-click" data-workflow-id="${esc(job.id)}">원클릭 진행</button>`:'';if(job.approvalStatus==='pending')return `${oneClick}<span class="status pending">승인 대기</span>`;if(job.status==='pending')return `<button class="button" type="button" data-workflow-action="start" data-workflow-id="${esc(job.id)}">작업 시작</button>${oneClick}`;if(job.status==='running')return `<button class="button" type="button" data-workflow-action="advance" data-workflow-id="${esc(job.id)}">현재 단계 완료</button>${oneClick}<button class="button secondary" type="button" data-workflow-action="fail" data-workflow-id="${esc(job.id)}">오류 처리</button>`;if(job.status==='error')return `<button class="button" type="button" data-workflow-action="retry" data-workflow-id="${esc(job.id)}">재시도</button>`;return '<span class="status done">완료</span>';}
+  function workflowCards(list){if(!list.length)return '<div class="panel empty">등록된 워크플로가 없습니다.</div>';return `<div class="project-list">${list.map(job=>{const index=workflow.flow.indexOf(job.stage);const progress=job.status==='done'?100:Math.round((index+(job.status==='running'?0.5:0))/workflow.flow.length*100);const gate=pipeline.gate(job);return `<article class="project-card"><div class="project-top"><div><div class="project-title">${esc(job.title)}</div><div class="meta">${esc(job.projectId||job.id)} · ${esc(TYPE_LABELS[job.type]||job.type)} · 현재 부서 ${esc(STAGE_LABELS[job.stage])}</div></div><span class="status ${esc(job.status)}">${job.priority==='urgent'?'긴급 · ':''}${esc(STATUS_LABELS[job.status])}</span></div><div class="progress"><i style="width:${progress}%"></i></div><div class="meta">전체 진행률 ${progress}% · ${esc(job.updatedAt)} · 원클릭 게이트: ${esc(gate.label)}</div><div class="header-actions">${workflowButtons(job)}</div></article>`;}).join('')}</div>`;}
+  function approvalCards(list){if(!list.length)return '<div class="panel empty">승인 대기 중인 작업이 없습니다.</div>';return `<div class="project-list">${list.map(job=>`<article class="project-card"><div class="project-top"><div><div class="project-title">${esc(job.title)}</div><div class="meta">${esc(job.projectId||job.id)} · ${esc(TYPE_LABELS[job.type]||job.type)} · QA 검수 완료</div></div><span class="status pending">${job.priority==='urgent'?'긴급 · ':''}${esc(APPROVAL_LABELS[job.approvalStatus])}</span></div><div class="meta">요청 ${esc(time(job.approvalRequestedAt))}</div><div class="header-actions"><button class="button" type="button" data-workflow-action="approve" data-workflow-id="${esc(job.id)}">승인 후 배포 전달</button><button class="button secondary" type="button" data-workflow-action="reject" data-workflow-id="${esc(job.id)}">반려</button></div></article>`).join('')}</div>`;}
+  function inventoryIssues(){const sources=[['qa',window.SavingioV2QaInventoryStore],['deploy',window.SavingioV2DeployInventoryStore],['analytics',window.SavingioV2AnalyticsInventoryStore],['revenue',window.SavingioV2RevenueInventoryStore]];return sources.flatMap(([kind,api])=>(api?.readAll?.()||[]).filter(item=>kind==='qa'?['fail','blocked'].includes(item.result):kind==='deploy'?['failed','rolled-back'].includes(item.status):item.status==='blocked').map(item=>({kind,item})));}
+  function issueCards(list){if(!list.length)return '<div class="empty">현재 운영 센터 실패·중지 항목이 없습니다.</div>';return `<div class="project-list">${list.map(({kind,item})=>`<article class="project-card"><div class="project-top"><div><div class="project-title">${esc(item.title)}</div><div class="meta">${esc(kind.toUpperCase())} · ${esc(item.url||item.targetUrl||item.id)}</div></div><span class="status error">문제 확인</span></div><div class="header-actions"><button class="button" type="button" data-operational-action="create-fix" data-operational-kind="${esc(kind)}" data-operational-id="${esc(item.id)}">긴급 수정 생성</button><button class="button secondary" type="button" data-route="dept-${esc(kind)}">원본 센터 열기</button></div></article>`).join('')}</div>`;}
+  function integratedDashboard(){const d=dashboard.read();const active=d.alerts.filter(item=>item.count>0);const alerts=active.length?`<div class="connection-list">${active.map(item=>`<div data-route="${esc(item.route)}" role="button" tabindex="0"><span>${esc(item.label)}</span><strong class="fail">${item.count}건</strong></div>`).join('')}</div>`:'<div class="empty">현재 통합 경고가 없습니다.</div>';return `<section class="panel"><h3>부서 통합 현황</h3><div class="metrics">${metric('콘텐츠',`${d.content.total||0}건`,'dept-content')}${metric('SEO',`${d.seo.total||0}건`,'dept-seo')}${metric('이미지',`${d.image.total||0}건`,'dept-image')}${metric('QA PASS',`${d.qa.result?.pass||0}건`,'dept-qa')}${metric('배포 검증',`${d.deploy.verified||0}건`,'dept-deploy')}${metric('분석 검증',`${d.analytics.verified||0}건`,'dept-analytics')}${metric('확정 수익',money(d.revenue.confirmed||0),'dept-revenue')}${metric('정산 완료',money(d.revenue.settled||0),'dept-revenue')}</div></section><section class="panel"><h3>주의·승인·오류</h3>${alerts}</section>`;}
   const creationPanel=()=>`<section class="panel"><h3>새 운영 작업 생성</h3><form id="workflowCreateForm"><div class="connection-list"><label><span>작업 제목</span><input name="title" required maxlength="120"></label><label><span>프로젝트 ID 또는 URL</span><input name="projectId" maxlength="160"></label><label><span>작업 유형</span><select name="type"><option value="new-content">새 콘텐츠</option><option value="content-update">기존 콘텐츠 수정</option><option value="seo-recheck">SEO 재검사</option><option value="urgent-fix">긴급 수정</option></select></label></div><div class="header-actions"><button class="button" type="submit">워크플로 생성</button><button class="button secondary" type="button" data-pipeline-action="run-all">전체 원클릭 진행</button></div></form></section>`;
   const pipelinePanel=()=>{const s=pipeline.summary();return `<section class="panel"><h3>One-Click Pipeline</h3><div class="metrics">${metric('자동 진행 가능',`${s.autoReady}건`)}${metric('승인 대기',`${s.approval}건`)}${metric('배포 검증',`${s.deploy}건`)}${metric('분석 확인',`${s.analytics}건`)}${metric('수익 확인',`${s.revenue}건`)}${metric('완료',`${s.done}건`)}</div></section>`;};
-
   const modules=[
     {id:'command-home',title:'통합 상황실',render(){const wf=workflow.readAll();return view('COMMAND CENTER','통합 상황실','각 운영 센터와 워크플로 상태를 한 화면에서 관리합니다.',`${integratedDashboard()}${creationPanel()}${pipelinePanel()}<section class="panel"><h3>운영 파이프라인</h3>${workflowCards(wf.filter(x=>x.status!=='done'))}</section>`);}},
     {id:'command-progress',title:'전체 진행률',render(){return view('COMMAND CENTER','전체 진행률','운영 워크플로 전체 진행 상태입니다.',`${integratedDashboard()}${pipelinePanel()}<section class="panel"><h3>워크플로 진행 단계</h3>${workflowCards(workflow.readAll())}</section>`);}},
@@ -76,22 +35,10 @@
     {id:'command-revenue',title:'수익 요약',render(){const d=dashboard.read();return view('COMMAND CENTER','수익 요약','추정·확정·정산 수익을 분리합니다.',`<div class="metrics">${metric('수익 기록',`${d.revenue.total||0}건`,'dept-revenue')}${metric('추정 수익',money(d.revenue.estimated||0),'dept-revenue')}${metric('확정 수익',money(d.revenue.confirmed||0),'dept-revenue')}${metric('정산 완료',money(d.revenue.settled||0),'dept-revenue')}${metric('분석 수익 신호',money(d.analytics.revenueSignal||0),'dept-analytics')}</div>`);}}
   ];
   modules.forEach(module=>registry.register(module));
-
-  function handleAction(action,id){
-    if(!['start','advance','fail','retry','approve','reject','one-click'].includes(action))return false;
-    if(action==='start')workflow.start(id); if(action==='advance')workflow.advance(id); if(action==='fail')workflow.fail(id,'운영자 수동 오류 처리'); if(action==='retry')workflow.retry(id); if(action==='approve')workflow.approve(id,'Approval Center 운영자 승인'); if(action==='reject')workflow.reject(id,'Approval Center 운영자 반려');
-    if(action==='one-click'){const result=pipeline.run(id);alert(`One-Click Pipeline\n\n자동 전환 ${result.transitions.length}단계\n현재 위치: ${STAGE_LABELS[result.job.stage]}\n중지 사유: ${result.gate.label}`);} return true;
-  }
+  function handleAction(action,id){if(!['start','advance','fail','retry','approve','reject','one-click'].includes(action))return false;if(action==='start')workflow.start(id);if(action==='advance')workflow.advance(id);if(action==='fail')workflow.fail(id,'운영자 수동 오류 처리');if(action==='retry')workflow.retry(id);if(action==='approve')workflow.approve(id,'Approval Center 운영자 승인');if(action==='reject')workflow.reject(id,'Approval Center 운영자 반려');if(action==='one-click'){const result=pipeline.run(id);alert(`One-Click Pipeline\n\n자동 전환 ${result.transitions.length}단계\n현재 위치: ${STAGE_LABELS[result.job.stage]}\n중지 사유: ${result.gate.label}`);}return true;}
   function handlePipelineAction(action){if(action!=='run-all')return false;const results=pipeline.runAll();alert(`전체 One-Click Pipeline\n\n대상 ${results.length}건`);return true;}
   function handleCreate(form){const data=new FormData(form);const type=String(data.get('type')||'new-content');return workflow.create({title:String(data.get('title')||'').trim(),projectId:String(data.get('projectId')||'').trim(),type,priority:type==='urgent-fix'?'urgent':'normal'});}
-  function handleOperationalAction(action,kind,id){
-    if(action!=='create-fix')return false;
-    const maps={qa:window.SavingioV2QaInventoryStore,deploy:window.SavingioV2DeployInventoryStore,analytics:window.SavingioV2AnalyticsInventoryStore,revenue:window.SavingioV2RevenueInventoryStore};
-    const item=maps[kind]?.get?.(id); if(!item)throw new Error('운영 문제 원본을 찾을 수 없습니다.');
-    const projectId=item.url||item.targetUrl||item.id;
-    workflow.create({title:`[긴급] ${item.title} · ${kind.toUpperCase()} 문제 수정`,projectId,type:'urgent-fix',priority:'urgent'});
-    return true;
-  }
+  function handleOperationalAction(action,kind,id){if(action!=='create-fix')return false;const maps={qa:window.SavingioV2QaInventoryStore,deploy:window.SavingioV2DeployInventoryStore,analytics:window.SavingioV2AnalyticsInventoryStore,revenue:window.SavingioV2RevenueInventoryStore};const item=maps[kind]?.get?.(id);if(!item)throw new Error('운영 문제 원본을 찾을 수 없습니다.');const projectId=item.url||item.targetUrl||item.id;return workflow.create({title:`[긴급] ${item.title} · ${kind.toUpperCase()} 문제 수정`,projectId,type:'urgent-fix',priority:'urgent'});}
   function verify(){const registered=MODULE_IDS.filter(id=>registry.has(id));const a=store.verify(),b=workflow.verify(),c=pipeline.verify(),d=dashboard.verify();return Object.freeze({name:MODULE_NAME,expected:MODULE_IDS.length,registered:registered.length,ids:Object.freeze(registered),store:a,workflow:b,pipeline:c,dashboard:d,pass:registered.length===MODULE_IDS.length&&a.pass&&b.pass&&c.pass&&d.pass});}
   Object.defineProperty(window,'SavingioV2CommandCenter',{value:Object.freeze({name:MODULE_NAME,ids:MODULE_IDS,verify,handleAction,handlePipelineAction,handleCreate,handleOperationalAction}),writable:false,configurable:false,enumerable:true});
 })();
