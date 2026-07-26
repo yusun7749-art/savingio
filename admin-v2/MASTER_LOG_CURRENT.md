@@ -13,47 +13,59 @@
 - Deploy Approval Center
 - Analytics Center
 - Revenue Center
-- Runtime Audit 연결
-- Production Auto Verify 연결
+- 통합 운영 대시보드
+- 승인·오류 통합 처리
+- 긴급 수정 워크플로 액션 브리지
+- Runtime Audit
+- Production E2E Verify
+- Production Deployment Probe
+- Production Auto Verify
+- Production Verification Center
 
-## Revenue Center
+## Production Verification Center
 
-- `admin-v2/core/revenue-inventory-store.js` 생성
-- `admin-v2/modules/revenue.js`를 실제 수익 운영 센터로 교체
-- AdSense·제휴·협찬·상품·기타 채널 분리
-- 미확인·추정·확정·정산 완료·중지 상태 관리
-- 페이지 URL·기간·통화·출처·메모 관리
-- 추정 수익·확정 수익·정산 완료액 분리
-- 클릭·전환 기록
-- 제목·URL·기간·출처·메모 검색
-- 채널·상태 필터
-- 실제 페이지 바로 열기
-- 수익 점검 워크플로 생성
-- localStorage Schema 및 Store 무결성 검사
-- Runtime Audit에 Revenue Store·Module·Script 검사 추가
-- Admin V2 메뉴와 로딩 순서 연결
+- `admin-v2/modules/production-verification.js` 생성
+- 좌측 메뉴에 `운영 검증 센터` 연결
+- 운영 핵심 자산 Probe 상태 표시
+- Production E2E 항목별 결과 표시
+- Runtime Audit 상태 표시
+- Deploy Inventory `DEP-ADMIN-V2` 상태 표시
+- Build Progress 100% 게이트 상태 표시
+- 현재 운영 호스트 표시
+- 전체 재검사 버튼 구현
+- Deploy Inventory / Runtime Audit 바로가기 구현
+- 검사 결과는 운영 브라우저의 sessionStorage 및 Inventory Store 기준으로 표시
 
-## 진실성 LOCK
+## 최종 완료 게이트 LOCK
 
-- 외부 수익 데이터 연결 전 임의 수익 생성 금지
-- 추정 수익은 확정 수익과 분리
-- 확정 수익은 확인된 외부 화면 기준으로만 기록
-- 정산 완료액은 실제 지급·정산 확인 후 기록
-- 실제 구현과 검증 전 100% 완료 판정 금지
+다음 조건이 모두 확인되어야만 Build Progress를 100% 완료로 처리한다.
+
+1. Production Deployment Probe PASS
+2. Production E2E PASS
+3. Runtime Audit PASS
+4. Deploy Inventory 실제 URL 확인
+
+외부 실행 환경에서 운영 URL을 직접 확인하지 못한 경우 완료로 추정하지 않고 PENDING을 유지한다.
+
+## 실제 생성·수정 파일
+
+- `admin-v2/modules/production-verification.js`
+- `admin-v2/modules/runtime-audit.js`
+- `admin-v2/index.html`
+- `admin-v2/MASTER_LOG_CURRENT.md`
 
 ## Repository 판정
 
-- Revenue Inventory Store 생성: PASS
-- Revenue Module 교체: PASS
-- index.html 로딩 연결: PASS
-- Runtime Audit 검사 연결: PASS
-- GitHub main 반영: PASS
-- Production 브라우저 동작: AUTO VERIFY 대상
+- Production Verification Module 생성: PASS
+- 메뉴 연결: PASS
+- script 로딩 순서 연결: PASS
+- Runtime Audit 검사 대상 연결: PASS
+- GitHub main 반영 및 파일 재조회: PASS
+- 실제 운영 브라우저 검사 결과: PENDING
 
 ## 다음 우선순위
 
-1. 통합 운영 대시보드에 각 센터 데이터 집계
-2. 승인 센터와 QA·배포 상태 연동
-3. 오류·중지 센터에 전 부서 실패 데이터 통합
-4. Production 브라우저 E2E 검증
-5. 외부 API 연결 구조 설계 및 진실성 검증
+1. 운영 검증 센터에서 실제 브라우저 전체 재검사 결과 확인
+2. 긴급 수정 버튼 → 워크플로 생성 → 화면 재렌더링 E2E 강화
+3. Deploy Inventory에 검사 이력 누적 저장
+4. 외부 API 연결 구조 및 Search Console·Analytics·AdSense 실데이터 수집
