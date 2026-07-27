@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 177,
-    "pass": 140,
-    "warning": 37,
+    "pass": 141,
+    "warning": 36,
     "fail": 0,
-    "average_score": 90.5,
+    "average_score": 90.6,
     "thin_under_2500_ko": 11,
-    "short_under_4500_ko": 128,
+    "short_under_4500_ko": 127,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -4007,32 +4007,29 @@
     {
       "path": "articles/small-business-closure-support.html",
       "url": "https://savingio.com/articles/small-business-closure-support.html",
-      "title": "폐업 소상공인 원스톱 지원 확인 | 세이빙이오(Savingio)",
-      "meta_description": "사업정리컨설팅·철거비·재취업 지원 등을 확인하는 방법입니다.",
+      "title": "폐업 소상공인 원스톱 지원 확인 2026 | Savingio",
+      "meta_description": "2026년 희망리턴패키지 원스톱폐업지원의 사업정리컨설팅, 점포철거비, 법률자문, 채무조정, 재취업·재창업 연계까지 신청 순서와 준비서류를 정리합니다.",
       "canonical": "https://savingio.com/articles/small-business-closure-support.html",
       "h1": [
-        "폐업 소상공인 원스톱 지원 확인"
+        "폐업 소상공인 원스톱 지원 확인 2026"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3129,
-      "words": 1100,
-      "internal_article_links": 16,
+      "h2_count": 21,
+      "h3_count": 1,
+      "korean_chars": 4500,
+      "words": 1505,
+      "internal_article_links": 14,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:33",
-        "CONTENT_SHORT_KO:3129"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 96,
+      "status": "PASS"
     },
     {
       "path": "articles/small-business-delivery-support.html",
