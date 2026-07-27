@@ -4,9 +4,9 @@
     "pass": 142,
     "warning": 35,
     "fail": 0,
-    "average_score": 90.6,
+    "average_score": 90.7,
     "thin_under_2500_ko": 11,
-    "short_under_4500_ko": 126,
+    "short_under_4500_ko": 125,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -222,16 +222,16 @@
       "path": "articles/automatic-payment-saving.html",
       "url": "https://savingio.com/articles/automatic-payment-saving.html",
       "title": "자동이체·자동결제 정리하는 방법, 매달 새는 고정비 찾기 | Savingio",
-      "meta_description": "계좌 자동이체, 카드 정기결제, 휴대폰·앱스토어 결제에 흩어진 고정비를 찾아 유지·변경·해지로 정리하는 순서를 5초·30초·5분 구조로 안내합니다.",
+      "meta_description": "계좌 자동이체, 카드 정기결제, 휴대폰·앱스토어 결제에 흩어진 고정비를 찾아 유지·변경·해지로 정리하고 해지 누락과 연체를 막는 실제 점검 순서를 안내합니다.",
       "canonical": "https://savingio.com/articles/automatic-payment-saving.html",
       "h1": [
         "자동이체·자동결제 정리하는 방법, 매달 새는 고정비 찾기"
       ],
-      "h2_count": 19,
-      "h3_count": 0,
-      "korean_chars": 4179,
-      "words": 1449,
-      "internal_article_links": 14,
+      "h2_count": 18,
+      "h3_count": 3,
+      "korean_chars": 4552,
+      "words": 1553,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 1,
@@ -241,10 +241,9 @@
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "FAQ_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:4179"
+        "FAQ_SCHEMA_MISSING"
       ],
-      "score": 88,
+      "score": 92,
       "status": "PASS"
     },
     {
