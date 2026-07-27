@@ -7,7 +7,7 @@
 |---|---|---|---|---|
 | 자동차 에어컨·연비 | `/articles/car-aircon-fuel-saving.html` | KEEP | `/articles/fuel-saving-driving-habits.html` | 301 완료 · 원본 파일 없음 확인 |
 | 자동차보험 절약 | `/articles/car-insurance-saving.html` | KEEP | 없음 | 유지 |
-| 자동차보험 자녀 할인 | `/articles/car-insurance-child-discount.html` | KEEP | 없음 | 유지 |
+| 자동차보험 자녀 할인 | `/articles/car-insurance-child-discount.html` | KEEP | 없음 | 유지 · 내부링크 점검 완료 |
 | 자동차보험 마일리지 환급 | `/articles/car-insurance-mileage-refund.html` | KEEP | `/articles/car-insurance-low-mileage-discount.html` | 301 완료 · 원본 파일 없음 확인 |
 | 자동차세 연납 | `/articles/car-tax-annual-payment.html` | KEEP | 없음 | 유지 |
 | 자동차세 조회·납부 | `/articles/car-tax-check-payment-guide.html` | KEEP | 없음 | 유지 |
@@ -28,9 +28,21 @@
 
 `/articles/insurance-auto-pay-discount.html`은 자동차보험 전용 글이 아니라 보험 전반의 납부수단·자동이체 관리 글이므로 `/articles/car-insurance-saving.html`로 통합하지 않는다. 잘못된 통합으로 검색 의도를 훼손하지 않도록 독립 유지한다.
 
+## 내부링크 점검
+
+`/articles/car-insurance-child-discount.html`의 관련글 영역에서 다음 연결을 확인했다.
+
+- 정상: `/articles/car-insurance-overpayment-refund.html`
+- 정상: `/articles/car-insurance-mileage-refund.html`
+- 정상: `/articles/car-insurance-saving.html`
+- 정상: `/articles/car-tax-annual-payment.html`
+- 수정 필요: `/articles/car-accident-insurance-premium-increase.html` — 현재 sitemap에 없는 URL로 확인되어 교체 대상
+
 ## 현재 결과
 
 - 자동차 관련 대표 검색 의도: 9개
 - 통합·리디렉션 완료 URL: 4개
 - 잘못된 통합 후보 철회: 1개
-- 다음 작업: 자동차보험 대표글과 마일리지·자녀 할인·과납 환급 글의 내부 링크 중복 및 끊김 점검
+- 내부링크 점검 완료 글: 1개
+- 발견된 수정 필요 링크: 1개
+- 다음 작업: 자녀할인 글의 존재하지 않는 사고 후 보험료 인상 링크를 실제 운영 URL로 교체
