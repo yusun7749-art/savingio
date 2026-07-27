@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3298,
-  "references_scanned": 62584,
+  "files_scanned": 3297,
+  "references_scanned": 62453,
   "counts": {
-    "broken_references": 2480,
+    "broken_references": 2481,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -2872,20 +2872,6 @@
       ]
     },
     {
-      "source": "articles/traffic-fines-difference-guide.html",
-      "reference": "/articles/car-insurance-low-mileage-discount.html",
-      "expected": [
-        "articles/car-insurance-low-mileage-discount.html"
-      ]
-    },
-    {
-      "source": "articles/traffic-fines-difference-guide.html",
-      "reference": "/articles/fuel-saving-driving-habits.html",
-      "expected": [
-        "articles/fuel-saving-driving-habits.html"
-      ]
-    },
-    {
       "source": "articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
@@ -4141,6 +4127,20 @@
       ]
     },
     {
+      "source": "factory/REPORTS/content-count-current.json",
+      "reference": "/articles/traffic-fine-check-payment-guide.html",
+      "expected": [
+        "articles/traffic-fine-check-payment-guide.html"
+      ]
+    },
+    {
+      "source": "factory/REPORTS/content-count-current.json",
+      "reference": "/articles/traffic-penalty-check-payment-guide.html",
+      "expected": [
+        "articles/traffic-penalty-check-payment-guide.html"
+      ]
+    },
+    {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "./admin-data.js",
       "expected": [
@@ -4656,6 +4656,13 @@
       "reference": "/articles/local-tax-payment-guide.html",
       "expected": [
         "articles/local-tax-payment-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
