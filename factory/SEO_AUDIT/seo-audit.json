@@ -1,7 +1,7 @@
 {
   "summary": {
-    "article_count": 201,
-    "pass": 143,
+    "article_count": 200,
+    "pass": 142,
     "warning": 57,
     "fail": 1,
     "average_score": 88.0,
@@ -388,33 +388,6 @@
         "CONTENT_SHORT_KO:3463"
       ],
       "score": 92,
-      "status": "PASS"
-    },
-    {
-      "path": "articles/bank-fees-to-avoid.html",
-      "url": "https://savingio.com/articles/bank-fees-to-avoid.html",
-      "title": "은행 수수료 아끼는 방법 총정리, ATM·이체 비용 줄이는 순서 | Savingio",
-      "meta_description": "ATM 출금, 타행이체, 자동이체, 해외결제처럼 자주 빠져나가는 은행 수수료를 확인하고 줄이는 방법을 5초 결론, 30초 질문, 단계별 점검 순서로 정리했습니다.",
-      "canonical": "https://savingio.com/articles/bank-fees-to-avoid.html",
-      "h1": [
-        "은행 수수료 아끼는 방법 총정리, ATM·이체 비용 줄이는 순서"
-      ],
-      "h2_count": 18,
-      "h3_count": 2,
-      "korean_chars": 5331,
-      "words": 1885,
-      "internal_article_links": 22,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": false,
-      "faq_schema": true,
-      "issues": [],
-      "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING"
-      ],
-      "score": 96,
       "status": "PASS"
     },
     {

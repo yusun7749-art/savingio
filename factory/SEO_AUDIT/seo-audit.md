@@ -1,7 +1,7 @@
 # Savingio Full SEO Audit
 
-- Articles: 201
-- PASS: 143
+- Articles: 200
+- PASS: 142
 - WARNING: 57
 - FAIL: 1
 - Average score: 88.0
