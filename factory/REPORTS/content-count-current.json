@@ -1,15 +1,10 @@
 {
   "report_date": "2026-07-27",
-  "article_html_files_remaining": 195,
+  "article_html_files_remaining": 194,
   "sitemap_article_urls_remaining": 178,
-  "article_files_missing_from_sitemap": 17,
-  "cluster_before": 3,
-  "cluster_after": 1,
-  "deleted_in_this_task": 2,
-  "representative_url": "/articles/traffic-fines-difference-guide.html",
-  "representative_sitemap_occurrences": 1,
+  "deleted_in_this_task": 1,
+  "representative_url": "/articles/property-tax-electronic-bill-2026.html",
   "deleted_urls": [
-    "/articles/traffic-fine-check-payment-guide.html",
-    "/articles/traffic-penalty-check-payment-guide.html"
+    "/articles/property-tax-electronic-notice-2026.html"
   ]
 }

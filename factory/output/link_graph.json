@@ -725,7 +725,7 @@
       "path": "articles/property-tax-electronic-bill-2026.html"
     },
     {
-      "id": "/articles/property-tax-electronic-notice-2026.html",
+      "id": "/articles/property-tax-electronic-bill-2026.html",
       "title": "페이지 이동 | 세이빙이오(Savingio)",
       "path": "articles/property-tax-electronic-notice-2026.html"
     },
@@ -20081,15 +20081,15 @@
       "target": "/calculators/"
     },
     {
-      "source": "/articles/property-tax-electronic-notice-2026.html",
+      "source": "/articles/property-tax-electronic-bill-2026.html",
       "target": "/images/logo.svg"
     },
     {
-      "source": "/articles/property-tax-electronic-notice-2026.html",
+      "source": "/articles/property-tax-electronic-bill-2026.html",
       "target": "/css/savingio-brain-navigation.css"
     },
     {
-      "source": "/articles/property-tax-electronic-notice-2026.html",
+      "source": "/articles/property-tax-electronic-bill-2026.html",
       "target": "/articles/property-tax-electronic-bill-2026.html"
     },
     {
@@ -29634,7 +29634,7 @@
       "path": "articles/property-tax-calculation-structure.html"
     },
     {
-      "id": "/articles/property-tax-electronic-notice-2026.html",
+      "id": "/articles/property-tax-electronic-bill-2026.html",
       "title": "페이지 이동 | 세이빙이오(Savingio)",
       "path": "articles/property-tax-electronic-notice-2026.html"
     },
@@ -30064,7 +30064,7 @@
     "/articles/property-tax-calculation-structure.html": 36,
     "/articles/property-tax-deadline.html": 36,
     "/articles/property-tax-electronic-bill-2026.html": 36,
-    "/articles/property-tax-electronic-notice-2026.html": 3,
+    "/articles/property-tax-electronic-bill-2026.html": 3,
     "/articles/property-tax-installment-application.html": 36,
     "/articles/property-tax-joint-ownership.html": 36,
     "/articles/property-tax-july-2026.html": 36,

@@ -2320,7 +2320,7 @@
     },
     {
       "source": "articles/property-tax-electronic-notice-2026.html",
-      "output": "factory/output/article_remodel_test/site/articles/property-tax-electronic-notice-2026.html",
+      "output": "factory/output/article_remodel_test/site/articles/property-tax-electronic-bill-2026.html",
       "transformed": true,
       "title": true,
       "meta_description": true,
