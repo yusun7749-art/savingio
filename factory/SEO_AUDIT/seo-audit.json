@@ -1,12 +1,12 @@
 {
   "summary": {
-    "article_count": 207,
+    "article_count": 206,
     "pass": 147,
-    "warning": 59,
+    "warning": 58,
     "fail": 1,
     "average_score": 88.0,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 156,
+    "short_under_4500_ko": 155,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -2077,36 +2077,6 @@
         "DUPLICATE_SEO_SIGNAL"
       ],
       "score": 62,
-      "status": "WARNING"
-    },
-    {
-      "path": "articles/energy-voucher-balance-use.html",
-      "url": "https://savingio.com/articles/energy-voucher-balance-use.html",
-      "title": "에너지바우처 잔액 조회와 사용 방법 | 세이빙이오(Savingio)",
-      "meta_description": "바우처 잔액을 확인하고 전기·가스요금 등에 사용하는 방법입니다.",
-      "canonical": "https://savingio.com/articles/energy-voucher-balance-use.html",
-      "h1": [
-        "에너지바우처 잔액 조회와 사용 방법"
-      ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3601,
-      "words": 1265,
-      "internal_article_links": 23,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:35",
-        "CONTENT_SHORT_KO:3601"
-      ],
-      "score": 80,
       "status": "WARNING"
     },
     {
