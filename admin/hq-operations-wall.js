@@ -81,41 +81,59 @@
     if (!wall) return;
     let bridgeSnapshot = null;
     let rendering = false;
+    let renderQueued = false;
 
     const render = async ({ refreshBridge = false } = {}) => {
       if (rendering) return;
       rendering = true;
-      if (refreshBridge || bridgeSnapshot === null) bridgeSnapshot = await inspectBridge();
+      try {
+        if (refreshBridge || bridgeSnapshot === null) bridgeSnapshot = await inspectBridge();
 
-      const jobs = readJobs();
-      const rows = readContentRows();
-      const state = deriveState({ jobs, projects: readProjects(), rows, bridge: bridgeSnapshot });
-      wall.innerHTML = `
-        <div class="hq-ops-head">
-          <div><p class="eyebrow">OPERATIONS WALL</p><h2>Savingio 통합 운영 현황</h2></div>
-          <div class="hq-ops-score"><span>운영 Health</span><strong>${state.score}</strong><span>/ 100</span></div>
-        </div>
-        <div class="hq-ops-grid">
-          ${state.cards.map(card => `
-            <article class="hq-ops-card" data-ops-key="${card.key}">
-              <div class="hq-ops-card-top"><span class="hq-ops-name">${card.name}</span><i class="hq-ops-led ${card.level}" aria-label="${card.level}"></i></div>
-              <span class="hq-ops-state">${card.state}</span>
-              <span class="hq-ops-meta">${card.meta}</span>
-            </article>`).join('')}
-        </div>
-        <div class="hq-ops-footer">
-          <div class="hq-ops-issue"><strong>오늘의 핵심 이슈</strong><span>${state.issue}</span></div>
-          <button class="hq-ops-refresh" type="button" data-ops-refresh><strong>상태 새로고침</strong><span>마지막 확인 ${formatTime()}</span></button>
-        </div>`;
-      rendering = false;
+        const jobs = readJobs();
+        const rows = readContentRows();
+        const state = deriveState({ jobs, projects: readProjects(), rows, bridge: bridgeSnapshot });
+        wall.innerHTML = `
+          <div class="hq-ops-head">
+            <div><p class="eyebrow">OPERATIONS WALL</p><h2>Savingio 통합 운영 현황</h2></div>
+            <div class="hq-ops-score"><span>운영 Health</span><strong>${state.score}</strong><span>/ 100</span></div>
+          </div>
+          <div class="hq-ops-grid">
+            ${state.cards.map(card => `
+              <article class="hq-ops-card" data-ops-key="${card.key}">
+                <div class="hq-ops-card-top"><span class="hq-ops-name">${card.name}</span><i class="hq-ops-led ${card.level}" aria-label="${card.level}"></i></div>
+                <span class="hq-ops-state">${card.state}</span>
+                <span class="hq-ops-meta">${card.meta}</span>
+              </article>`).join('')}
+          </div>
+          <div class="hq-ops-footer">
+            <div class="hq-ops-issue"><strong>오늘의 핵심 이슈</strong><span>${state.issue}</span></div>
+            <button class="hq-ops-refresh" type="button" data-ops-refresh><strong>상태 새로고침</strong><span>마지막 확인 ${formatTime()}</span></button>
+          </div>`;
+      } finally {
+        rendering = false;
+      }
+    };
+
+    const scheduleRender = options => {
+      if (renderQueued) return;
+      renderQueued = true;
+      window.requestAnimationFrame(() => {
+        renderQueued = false;
+        render(options);
+      });
     };
 
     wall.addEventListener('click', event => {
       if (event.target.closest('[data-ops-refresh]')) render({ refreshBridge: true });
     });
-    window.addEventListener('savingio:execution-queue-changed', () => render());
-    document.addEventListener('click', () => window.setTimeout(() => render(), 100), true);
-    new MutationObserver(() => window.requestAnimationFrame(() => render())).observe(document.body, { childList: true, subtree: true, characterData: true });
+    window.addEventListener('savingio:execution-queue-changed', () => scheduleRender());
+
+    const targets = [document.getElementById('projectList'), document.getElementById('contentApprovalRows')].filter(Boolean);
+    if (targets.length) {
+      const observer = new MutationObserver(() => scheduleRender());
+      targets.forEach(target => observer.observe(target, { childList: true, subtree: true, characterData: true }));
+    }
+
     render({ refreshBridge: true });
   });
 })();
