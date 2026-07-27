@@ -7,15 +7,17 @@ Savingio의 공식 기억 저장소입니다.
 ## 읽기 순서
 0. `000_EMERGENCY_ADMIN_RED_LOCK.md` — Admin/HQ/Explorer/리나 Assistant 최상위 절대 헌법
 1. `MEMORY_CONSTITUTION.md`
-2. `BOOT_ORDER.json`
-3. `MASTER_LOG_CURRENT.md`
-4. 현재 작업이 관리자 OS·모듈·워크플로이면 `MASTER_LOG_ADMIN_OS_CURRENT.md`
-5. 관리자 OS 작업이면 반드시 `SAVINGIO_OS_WORKBOARD.md`
-6. `04_HANDOVER/NEXT_TASK.md`
-7. 현재 작업과 관련된 분류 문서
-8. GitHub `main` 실제 파일과 최신 커밋 대조
+2. `SAVINGIO_WRITING_CONSTITUTION.md` — Savingio 전체 콘텐츠·통합·삭제·301·Ultimate Page 공식 글쓰기 헌법
+3. `BOOT_ORDER.json`
+4. `MASTER_LOG_CURRENT.md`
+5. 현재 작업이 관리자 OS·모듈·워크플로이면 `MASTER_LOG_ADMIN_OS_CURRENT.md`
+6. 관리자 OS 작업이면 반드시 `SAVINGIO_OS_WORKBOARD.md`
+7. `04_HANDOVER/NEXT_TASK.md`
+8. 현재 작업과 관련된 분류 문서
+9. GitHub `main` 실제 파일과 최신 커밋 대조
 
 > Admin 관련 작업에서 0번 RED LOCK을 읽지 않거나 위반한 변경은 완료가 아니라 회귀로 판정한다.
+> 콘텐츠 작업에서 `SAVINGIO_WRITING_CONSTITUTION.md`를 읽지 않거나 위반한 변경은 완료가 아니라 저가치 콘텐츠 회귀로 판정한다.
 
 ## 자동 분류
 - 완료·성공·릴리스 → `01_SUCCESS/`
