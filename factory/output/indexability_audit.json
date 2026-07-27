@@ -3,7 +3,7 @@
   "article_count": 219,
   "pass_count": 5,
   "duplicate_canonicals": {
-    "https://savingio.com/articles/전기요금-절약-c861d77ba6.html": [
+    "https://savingio.com/articles/electricity-bill-saving.html": [
       "#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
       "전기요금-절약-c861d77ba6.html"
     ]
@@ -11,7 +11,7 @@
   "articles": [
     {
       "path": "articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
-      "canonical": "https://savingio.com/articles/전기요금-절약-c861d77ba6.html",
+      "canonical": "https://savingio.com/articles/electricity-bill-saving.html",
       "pass": false,
       "checks": {
         "not_noindex": true,
@@ -3912,7 +3912,7 @@
     },
     {
       "path": "articles/전기요금-절약-c861d77ba6.html",
-      "canonical": "https://savingio.com/articles/전기요금-절약-c861d77ba6.html",
+      "canonical": "https://savingio.com/articles/electricity-bill-saving.html",
       "pass": true,
       "checks": {
         "not_noindex": true,

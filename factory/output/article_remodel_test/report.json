@@ -16,7 +16,7 @@
   "results": [
     {
       "source": "articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
-      "output": "factory/output/article_remodel_test/site/articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
+      "output": "factory/output/article_remodel_test/site/articles/electricity-bill-saving.html",
       "transformed": true,
       "title": true,
       "meta_description": true,
@@ -3504,7 +3504,7 @@
     },
     {
       "source": "articles/전기요금-절약-c861d77ba6.html",
-      "output": "factory/output/article_remodel_test/site/articles/전기요금-절약-c861d77ba6.html",
+      "output": "factory/output/article_remodel_test/site/articles/electricity-bill-saving.html",
       "transformed": true,
       "title": true,
       "meta_description": true,

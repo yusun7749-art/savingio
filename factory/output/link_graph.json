@@ -5,7 +5,7 @@
   "orphan_count": 30,
   "nodes": [
     {
-      "id": "/articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
+      "id": "/articles/electricity-bill-saving.html",
       "title": "전기요금 절약",
       "path": "articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html"
     },
@@ -1097,11 +1097,11 @@
   ],
   "edges": [
     {
-      "source": "/articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
+      "source": "/articles/electricity-bill-saving.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
+      "source": "/articles/electricity-bill-saving.html",
       "target": "/"
     },
     {
@@ -29544,7 +29544,7 @@
   "broken": [],
   "orphans": [
     {
-      "id": "/articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
+      "id": "/articles/electricity-bill-saving.html",
       "title": "전기요금 절약",
       "path": "articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html"
     },
@@ -29920,7 +29920,7 @@
     "/articles/youth-leap-account-contribution.html": 1
   },
   "outbound": {
-    "/articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html": 2,
+    "/articles/electricity-bill-saving.html": 2,
     "/articles/ai-side-hustles-beginner.html": 36,
     "/articles/air-conditioner-electricity-saving.html": 41,
     "/articles/aircon-dry-mode-electricity.html": 43,

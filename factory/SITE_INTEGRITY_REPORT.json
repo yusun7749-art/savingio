@@ -5521,7 +5521,7 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
-      "reference": "/mnt/data/v2018work/savingio-live/articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/electricity-bill-saving.html",
       "expected": [
         "mnt/data/v2018work/savingio-live/articles",
         "mnt/data/v2018work/savingio-live/articles/index.html"
@@ -12138,7 +12138,7 @@
     },
     {
       "source": "factory/output/article_audit.json",
-      "reference": "/mnt/data/v2018work/savingio-live/articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/electricity-bill-saving.html",
       "expected": [
         "mnt/data/v2018work/savingio-live/articles",
         "mnt/data/v2018work/savingio-live/articles/index.html"

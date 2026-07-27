@@ -56,7 +56,7 @@
       ]
     },
     "canonicals": {
-      "https://savingio.com/articles/전기요금-절약-c861d77ba6.html": [
+      "https://savingio.com/articles/electricity-bill-saving.html": [
         "articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
         "articles/전기요금-절약-c861d77ba6.html"
       ]
@@ -71,10 +71,10 @@
   "articles": [
     {
       "path": "articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
-      "url": "https://savingio.com/articles/전기요금-절약-c861d77ba6.html",
+      "url": "https://savingio.com/articles/electricity-bill-saving.html",
       "title": "전기요금 절약",
       "meta_description": "전기요금 절약의 적용 조건, 확인 순서, 주의점과 공식 근거를 한 번에 정리합니다.",
-      "canonical": "https://savingio.com/articles/전기요금-절약-c861d77ba6.html",
+      "canonical": "https://savingio.com/articles/electricity-bill-saving.html",
       "h1": [
         "전기요금 절약"
       ],
@@ -5504,10 +5504,10 @@
     },
     {
       "path": "articles/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f.html",
-      "url": "https://savingio.com/articles/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f.html",
+      "url": "https://savingio.com/articles/long-term-repair-reserve-refund-guide.html",
       "title": "장기수선충당금은 누가 내고, 세입자는 어떻게 돌려받나요? | 세이빙이오",
       "meta_description": "장기수선충당금의 법정 부담 주체와 세입자가 대신 납부한 금액을 이사할 때 확인·정산하는 순서를 정리했습니다.",
-      "canonical": "https://savingio.com/articles/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f.html",
+      "canonical": "https://savingio.com/articles/long-term-repair-reserve-refund-guide.html",
       "h1": [
         "장기수선충당금은 누가 내고, 세입자는 어떻게 돌려받나요?"
       ],
@@ -5535,10 +5535,10 @@
     },
     {
       "path": "articles/전기요금-절약-c861d77ba6.html",
-      "url": "https://savingio.com/articles/전기요금-절약-c861d77ba6.html",
+      "url": "https://savingio.com/articles/electricity-bill-saving.html",
       "title": "전기요금 절약",
       "meta_description": "전기요금 절약의 적용 조건, 확인 순서, 주의점과 공식 근거를 한 번에 정리합니다.",
-      "canonical": "https://savingio.com/articles/전기요금-절약-c861d77ba6.html",
+      "canonical": "https://savingio.com/articles/electricity-bill-saving.html",
       "h1": [
         "전기요금 절약"
       ],
