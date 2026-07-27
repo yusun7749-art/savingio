@@ -45,7 +45,7 @@
 - `articles/fixed-speed-aircon-saving.html` — 정속형 에어컨 전기세 절약 방법 (4,789자)
 - `articles/inverter-aircon-saving-guide.html` — 인버터 에어컨 전기세 절약 운전법, 켜고 끄는 기준부터 설정온도까지 (7,581자)
 - `articles/refrigerator-summer-electricity-saving.html` — 여름철 냉장고 전기세 절약 방법 (5,232자)
-- `articles/small-business-electricity-support.html` — 소상공인 전기요금 지원 확인법 (5,231자)
+- `articles/small-business-electricity-support.html` — 소상공인 전기요금 지원 확인법 (6,155자)
 - `articles/summer-electricity-tier-check-2026.html` — 여름철 전기요금 누진구간 확인과 사용량 관리 방법 (5,127자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
