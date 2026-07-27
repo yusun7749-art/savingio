@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3297,
-  "references_scanned": 61991,
+  "files_scanned": 3302,
+  "references_scanned": 62217,
   "counts": {
-    "broken_references": 2867,
+    "broken_references": 2915,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 1,
@@ -4346,6 +4346,342 @@
       "reference": "/articles/small-business-policy-fund-search.html",
       "expected": [
         "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/articles.html",
+      "expected": [
+        "articles/articles.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/articles/index.html",
+      "expected": [
+        "articles/articles/index.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/beginner-ai-side-hustles.html",
+      "expected": [
+        "articles/beginner-ai-side-hustles.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/credit-score-tips.html",
+      "expected": [
+        "articles/credit-score-tips.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/energy-voucher-application-2026.html",
+      "expected": [
+        "articles/energy-voucher-application-2026.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/energy-voucher-application.html",
+      "expected": [
+        "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/energy-voucher-balance-use-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-use-2026.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/government-benefit-alert-guide-2026.html",
+      "expected": [
+        "articles/government-benefit-alert-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/government-support-scam-warning-2026.html",
+      "expected": [
+        "articles/government-support-scam-warning-2026.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/health-insurance-refund.html",
+      "expected": [
+        "articles/health-insurance-refund.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/hidden-money-search.html",
+      "expected": [
+        "articles/hidden-money-search.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/hidden-refund-check.html",
+      "expected": [
+        "articles/hidden-refund-check.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/how-to-check-hidden-refunds.html",
+      "expected": [
+        "articles/how-to-check-hidden-refunds.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/how-to-lower-phone-bill.html",
+      "expected": [
+        "articles/how-to-lower-phone-bill.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/how-to-save-electricity-bill.html",
+      "expected": [
+        "articles/how-to-save-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/internet-bill-savings.html",
+      "expected": [
+        "articles/internet-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/online-income-ideas-for-beginners.html",
+      "expected": [
+        "articles/online-income-ideas-for-beginners.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/phone-bill-saving.html",
+      "expected": [
+        "articles/phone-bill-saving.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/property-tax-electronic-notice-2026.html",
+      "expected": [
+        "articles/property-tax-electronic-notice-2026.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/property-tax-july-checklist-2026.html",
+      "expected": [
+        "articles/property-tax-july-checklist-2026.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/reduce-electricity-bill.html",
+      "expected": [
+        "articles/reduce-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/salary-budget-guide.html",
+      "expected": [
+        "articles/salary-budget-guide.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/salary-management-guide.html",
+      "expected": [
+        "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/subscription-cleanup.html",
+      "expected": [
+        "articles/subscription-cleanup.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/subscription-saving.html",
+      "expected": [
+        "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/summer-electricity-usage-check-2026.html",
+      "expected": [
+        "articles/summer-electricity-usage-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/traffic-fine-check-payment-guide.html",
+      "expected": [
+        "articles/traffic-fine-check-payment-guide.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/traffic-penalty-check-payment-guide.html",
+      "expected": [
+        "articles/traffic-penalty-check-payment-guide.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/vat-final-return-deadline-2026.html",
+      "expected": [
+        "articles/vat-final-return-deadline-2026.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/vat-final-return-july-2026.html",
+      "expected": [
+        "articles/vat-final-return-july-2026.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/vat-input-tax-deduction-guide-2026.html",
+      "expected": [
+        "articles/vat-input-tax-deduction-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/vat-input-tax-deduction-items.html",
+      "expected": [
+        "articles/vat-input-tax-deduction-items.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/vat-zero-sales-filing.html",
+      "expected": [
+        "articles/vat-zero-sales-filing.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/water-bill-guide.html",
+      "expected": [
+        "articles/water-bill-guide.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f.html",
+      "expected": [
+        "articles/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json",
+      "reference": "/articles/전기요금-절약-c861d77ba6.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77ba6.html"
       ]
     },
     {
