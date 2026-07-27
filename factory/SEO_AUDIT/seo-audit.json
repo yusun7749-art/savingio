@@ -1,109 +1,28 @@
 {
   "summary": {
-    "article_count": 193,
+    "article_count": 179,
     "pass": 139,
-    "warning": 53,
-    "fail": 1,
-    "average_score": 88.3,
-    "thin_under_2500_ko": 24,
-    "short_under_4500_ko": 144,
+    "warning": 40,
+    "fail": 0,
+    "average_score": 90.3,
+    "thin_under_2500_ko": 11,
+    "short_under_4500_ko": 129,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
     "low_internal_links": 0,
-    "duplicate_title_groups": 2,
-    "duplicate_description_groups": 2,
-    "duplicate_canonical_groups": 1,
-    "duplicate_normalized_url_groups": 1
+    "duplicate_title_groups": 0,
+    "duplicate_description_groups": 0,
+    "duplicate_canonical_groups": 0,
+    "duplicate_normalized_url_groups": 0
   },
   "duplicates": {
-    "titles": {
-      "전기요금 절약": [
-        "articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
-        "articles/전기요금-절약-c861d77ba6.html"
-      ],
-      "페이지 이동 | 세이빙이오(Savingio)": [
-        "articles/beginner-ai-side-hustles.html",
-        "articles/credit-score-tips.html",
-        "articles/energy-voucher-balance-use-2026.html",
-        "articles/government-benefit-alert-guide-2026.html",
-        "articles/government-support-scam-warning-2026.html",
-        "articles/health-insurance-refund.html",
-        "articles/local-tax-refund.html",
-        "articles/online-income-ideas-for-beginners.html",
-        "articles/summer-electricity-usage-check-2026.html",
-        "articles/vat-final-return-deadline-2026.html",
-        "articles/vat-input-tax-deduction-guide-2026.html"
-      ]
-    },
-    "descriptions": {
-      "전기요금 절약의 적용 조건, 확인 순서, 주의점과 공식 근거를 한 번에 정리합니다.": [
-        "articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
-        "articles/전기요금-절약-c861d77ba6.html"
-      ],
-      "Savingio의 통합된 최신 페이지로 이동합니다.": [
-        "articles/beginner-ai-side-hustles.html",
-        "articles/credit-score-tips.html",
-        "articles/energy-voucher-balance-use-2026.html",
-        "articles/government-benefit-alert-guide-2026.html",
-        "articles/government-support-scam-warning-2026.html",
-        "articles/health-insurance-refund.html",
-        "articles/local-tax-refund.html",
-        "articles/online-income-ideas-for-beginners.html",
-        "articles/summer-electricity-usage-check-2026.html",
-        "articles/vat-final-return-deadline-2026.html",
-        "articles/vat-input-tax-deduction-guide-2026.html"
-      ]
-    },
-    "canonicals": {
-      "https://savingio.com/articles/electricity-bill-saving.html": [
-        "articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
-        "articles/전기요금-절약-c861d77ba6.html"
-      ]
-    },
-    "normalized_urls": {
-      "savingio.com/articles/전기요금-절약-c861d77ba6": [
-        "articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
-        "articles/전기요금-절약-c861d77ba6.html"
-      ]
-    }
+    "titles": {},
+    "descriptions": {},
+    "canonicals": {},
+    "normalized_urls": {}
   },
   "articles": [
-    {
-      "path": "articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
-      "url": "https://savingio.com/articles/electricity-bill-saving.html",
-      "title": "전기요금 절약",
-      "meta_description": "전기요금 절약의 적용 조건, 확인 순서, 주의점과 공식 근거를 한 번에 정리합니다.",
-      "canonical": "https://savingio.com/articles/electricity-bill-saving.html",
-      "h1": [
-        "전기요금 절약"
-      ],
-      "h2_count": 14,
-      "h3_count": 6,
-      "korean_chars": 1479,
-      "words": 547,
-      "internal_article_links": 5,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 0,
-      "article_schema": false,
-      "breadcrumb_schema": false,
-      "faq_schema": false,
-      "issues": [
-        "THIN_CONTENT_KO:1479"
-      ],
-      "warnings": [
-        "TITLE_LENGTH:7",
-        "META_DESCRIPTION_LENGTH:46",
-        "CANONICAL_PATH_MISMATCH",
-        "ARTICLE_SCHEMA_MISSING",
-        "BREADCRUMB_SCHEMA_MISSING",
-        "FAQ_SCHEMA_MISSING",
-        "DUPLICATE_SEO_SIGNAL"
-      ],
-      "score": 58,
-      "status": "FAIL"
-    },
     {
       "path": "articles/ai-side-hustles-beginner.html",
       "url": "https://savingio.com/articles/ai-side-hustles-beginner.html",
@@ -439,38 +358,6 @@
         "BREADCRUMB_SCHEMA_MISSING"
       ],
       "score": 84,
-      "status": "WARNING"
-    },
-    {
-      "path": "articles/beginner-ai-side-hustles.html",
-      "url": "https://savingio.com/articles/beginner-ai-side-hustles.html",
-      "title": "페이지 이동 | 세이빙이오(Savingio)",
-      "meta_description": "Savingio의 통합된 최신 페이지로 이동합니다.",
-      "canonical": "https://savingio.com/articles/beginner-ai-side-hustles.html",
-      "h1": [
-        "페이지 이동 | 세이빙이오(Savingio)"
-      ],
-      "h2_count": 1,
-      "h3_count": 0,
-      "korean_chars": 110,
-      "words": 45,
-      "internal_article_links": 3,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": false,
-      "issues": [
-        "NOINDEX",
-        "THIN_CONTENT_KO:110"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:28",
-        "H2_TOO_FEW:1",
-        "DUPLICATE_SEO_SIGNAL"
-      ],
-      "score": 62,
       "status": "WARNING"
     },
     {
@@ -1257,67 +1144,6 @@
       "status": "PASS"
     },
     {
-      "path": "articles/credit-score-management.html",
-      "url": "https://savingio.com/articles/credit-score-management.html",
-      "title": "신용점수 관리 방법, 떨어지는 이유부터 올리는 순서까지 | Savingio",
-      "meta_description": "NICE·KCB 신용점수가 다른 이유, 연체·카드·대출이 점수에 미치는 영향, 잘못 등록된 정보 확인과 현실적인 신용점수 관리 순서를 정리했습니다.",
-      "canonical": "https://savingio.com/articles/credit-score-management.html",
-      "h1": [
-        "신용점수 관리 방법, 떨어지는 이유부터 올리는 순서까지"
-      ],
-      "h2_count": 20,
-      "h3_count": 0,
-      "korean_chars": 2793,
-      "words": 970,
-      "internal_article_links": 12,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 1,
-      "article_schema": true,
-      "breadcrumb_schema": false,
-      "faq_schema": false,
-      "issues": [],
-      "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING",
-        "FAQ_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:2793"
-      ],
-      "score": 88,
-      "status": "PASS"
-    },
-    {
-      "path": "articles/credit-score-tips.html",
-      "url": "https://savingio.com/articles/credit-score-tips.html",
-      "title": "페이지 이동 | 세이빙이오(Savingio)",
-      "meta_description": "Savingio의 통합된 최신 페이지로 이동합니다.",
-      "canonical": "https://savingio.com/articles/credit-score-tips.html",
-      "h1": [
-        "페이지 이동 | 세이빙이오(Savingio)"
-      ],
-      "h2_count": 1,
-      "h3_count": 0,
-      "korean_chars": 106,
-      "words": 42,
-      "internal_article_links": 3,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": false,
-      "issues": [
-        "NOINDEX",
-        "THIN_CONTENT_KO:106"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:28",
-        "H2_TOO_FEW:1",
-        "DUPLICATE_SEO_SIGNAL"
-      ],
-      "score": 62,
-      "status": "WARNING"
-    },
-    {
       "path": "articles/culture-nuri-card-balance.html",
       "url": "https://savingio.com/articles/culture-nuri-card-balance.html",
       "title": "문화누리카드 잔액 조회와 사용처 확인, 남은 금액까지 쓰는 방법 | Savingio",
@@ -1987,38 +1813,6 @@
       "status": "PASS"
     },
     {
-      "path": "articles/energy-voucher-balance-use-2026.html",
-      "url": "https://savingio.com/articles/energy-voucher-balance-use-2026.html",
-      "title": "페이지 이동 | 세이빙이오(Savingio)",
-      "meta_description": "Savingio의 통합된 최신 페이지로 이동합니다.",
-      "canonical": "https://savingio.com/articles/energy-voucher-balance-use-2026.html",
-      "h1": [
-        "페이지 이동 | 세이빙이오(Savingio)"
-      ],
-      "h2_count": 1,
-      "h3_count": 0,
-      "korean_chars": 117,
-      "words": 46,
-      "internal_article_links": 3,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": false,
-      "issues": [
-        "NOINDEX",
-        "THIN_CONTENT_KO:117"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:28",
-        "H2_TOO_FEW:1",
-        "DUPLICATE_SEO_SIGNAL"
-      ],
-      "score": 62,
-      "status": "WARNING"
-    },
-    {
       "path": "articles/fan-aircon-combination-saving.html",
       "url": "https://savingio.com/articles/fan-aircon-combination-saving.html",
       "title": "선풍기와 에어컨 함께 쓰는 방법 | 세이빙이오(Savingio)",
@@ -2244,38 +2038,6 @@
       "status": "PASS"
     },
     {
-      "path": "articles/government-benefit-alert-guide-2026.html",
-      "url": "https://savingio.com/articles/government-benefit-alert-guide-2026.html",
-      "title": "페이지 이동 | 세이빙이오(Savingio)",
-      "meta_description": "Savingio의 통합된 최신 페이지로 이동합니다.",
-      "canonical": "https://savingio.com/articles/government-benefit-alert-guide-2026.html",
-      "h1": [
-        "페이지 이동 | 세이빙이오(Savingio)"
-      ],
-      "h2_count": 1,
-      "h3_count": 0,
-      "korean_chars": 118,
-      "words": 47,
-      "internal_article_links": 3,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": false,
-      "issues": [
-        "NOINDEX",
-        "THIN_CONTENT_KO:118"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:28",
-        "H2_TOO_FEW:1",
-        "DUPLICATE_SEO_SIGNAL"
-      ],
-      "score": 62,
-      "status": "WARNING"
-    },
-    {
       "path": "articles/government-benefit-alert-setup.html",
       "url": "https://savingio.com/articles/government-benefit-alert-setup.html",
       "title": "정부24 혜택알리미 설정 방법, 맞춤 혜택과 알림 수신 관리 | Savingio",
@@ -2359,38 +2121,6 @@
       ],
       "score": 92,
       "status": "PASS"
-    },
-    {
-      "path": "articles/government-support-scam-warning-2026.html",
-      "url": "https://savingio.com/articles/government-support-scam-warning-2026.html",
-      "title": "페이지 이동 | 세이빙이오(Savingio)",
-      "meta_description": "Savingio의 통합된 최신 페이지로 이동합니다.",
-      "canonical": "https://savingio.com/articles/government-support-scam-warning-2026.html",
-      "h1": [
-        "페이지 이동 | 세이빙이오(Savingio)"
-      ],
-      "h2_count": 1,
-      "h3_count": 0,
-      "korean_chars": 120,
-      "words": 48,
-      "internal_article_links": 3,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": false,
-      "issues": [
-        "NOINDEX",
-        "THIN_CONTENT_KO:120"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:28",
-        "H2_TOO_FEW:1",
-        "DUPLICATE_SEO_SIGNAL"
-      ],
-      "score": 62,
-      "status": "WARNING"
     },
     {
       "path": "articles/government24-benefit-check.html",
@@ -2530,38 +2260,6 @@
       ],
       "score": 92,
       "status": "PASS"
-    },
-    {
-      "path": "articles/health-insurance-refund.html",
-      "url": "https://savingio.com/articles/health-insurance-refund.html",
-      "title": "페이지 이동 | 세이빙이오(Savingio)",
-      "meta_description": "Savingio의 통합된 최신 페이지로 이동합니다.",
-      "canonical": "https://savingio.com/articles/health-insurance-refund.html",
-      "h1": [
-        "페이지 이동 | 세이빙이오(Savingio)"
-      ],
-      "h2_count": 1,
-      "h3_count": 0,
-      "korean_chars": 110,
-      "words": 43,
-      "internal_article_links": 3,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": false,
-      "issues": [
-        "NOINDEX",
-        "THIN_CONTENT_KO:110"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:28",
-        "H2_TOO_FEW:1",
-        "DUPLICATE_SEO_SIGNAL"
-      ],
-      "score": 62,
-      "status": "WARNING"
     },
     {
       "path": "articles/heating-bill-saving.html",
@@ -3015,38 +2713,6 @@
       "status": "PASS"
     },
     {
-      "path": "articles/local-tax-refund.html",
-      "url": "https://savingio.com/articles/local-tax-refund.html",
-      "title": "페이지 이동 | 세이빙이오(Savingio)",
-      "meta_description": "Savingio의 통합된 최신 페이지로 이동합니다.",
-      "canonical": "https://savingio.com/articles/local-tax-refund.html",
-      "h1": [
-        "페이지 이동 | 세이빙이오(Savingio)"
-      ],
-      "h2_count": 1,
-      "h3_count": 0,
-      "korean_chars": 108,
-      "words": 43,
-      "internal_article_links": 3,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": false,
-      "issues": [
-        "NOINDEX",
-        "THIN_CONTENT_KO:108"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:28",
-        "H2_TOO_FEW:1",
-        "DUPLICATE_SEO_SIGNAL"
-      ],
-      "score": 62,
-      "status": "WARNING"
-    },
-    {
       "path": "articles/long-term-care-insurance-application.html",
       "url": "https://savingio.com/articles/long-term-care-insurance-application.html",
       "title": "노인장기요양보험 신청 방법, 방문조사부터 등급판정까지 | 세이빙이오(Savingio)",
@@ -3073,6 +2739,37 @@
       ],
       "score": 92,
       "status": "PASS"
+    },
+    {
+      "path": "articles/long-term-repair-reserve-refund-guide.html",
+      "url": "https://savingio.com/articles/long-term-repair-reserve-refund-guide.html",
+      "title": "장기수선충당금은 누가 내고, 세입자는 어떻게 돌려받나요? | 세이빙이오",
+      "meta_description": "장기수선충당금의 법정 부담 주체와 세입자가 대신 납부한 금액을 이사할 때 확인·정산하는 순서를 정리했습니다.",
+      "canonical": "https://savingio.com/articles/long-term-repair-reserve-refund-guide.html",
+      "h1": [
+        "장기수선충당금은 누가 내고, 세입자는 어떻게 돌려받나요?"
+      ],
+      "h2_count": 7,
+      "h3_count": 0,
+      "korean_chars": 1075,
+      "words": 325,
+      "internal_article_links": 6,
+      "images": 0,
+      "missing_alt": 0,
+      "jsonld_count": 0,
+      "article_schema": false,
+      "breadcrumb_schema": false,
+      "faq_schema": false,
+      "issues": [
+        "THIN_CONTENT_KO:1075"
+      ],
+      "warnings": [
+        "ARTICLE_SCHEMA_MISSING",
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING"
+      ],
+      "score": 76,
+      "status": "WARNING"
     },
     {
       "path": "articles/low-income-cooling-support.html",
@@ -3463,38 +3160,6 @@
       ],
       "score": 92,
       "status": "PASS"
-    },
-    {
-      "path": "articles/online-income-ideas-for-beginners.html",
-      "url": "https://savingio.com/articles/online-income-ideas-for-beginners.html",
-      "title": "페이지 이동 | 세이빙이오(Savingio)",
-      "meta_description": "Savingio의 통합된 최신 페이지로 이동합니다.",
-      "canonical": "https://savingio.com/articles/online-income-ideas-for-beginners.html",
-      "h1": [
-        "페이지 이동 | 세이빙이오(Savingio)"
-      ],
-      "h2_count": 1,
-      "h3_count": 0,
-      "korean_chars": 110,
-      "words": 45,
-      "internal_article_links": 3,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": false,
-      "issues": [
-        "NOINDEX",
-        "THIN_CONTENT_KO:110"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:28",
-        "H2_TOO_FEW:1",
-        "DUPLICATE_SEO_SIGNAL"
-      ],
-      "score": 62,
-      "status": "WARNING"
     },
     {
       "path": "articles/over-60-benefits-guide.html",
@@ -4630,38 +4295,6 @@
       "status": "PASS"
     },
     {
-      "path": "articles/summer-electricity-usage-check-2026.html",
-      "url": "https://savingio.com/articles/summer-electricity-usage-check-2026.html",
-      "title": "페이지 이동 | 세이빙이오(Savingio)",
-      "meta_description": "Savingio의 통합된 최신 페이지로 이동합니다.",
-      "canonical": "https://savingio.com/articles/summer-electricity-usage-check-2026.html",
-      "h1": [
-        "페이지 이동 | 세이빙이오(Savingio)"
-      ],
-      "h2_count": 1,
-      "h3_count": 0,
-      "korean_chars": 119,
-      "words": 46,
-      "internal_article_links": 3,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": false,
-      "issues": [
-        "NOINDEX",
-        "THIN_CONTENT_KO:119"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:28",
-        "H2_TOO_FEW:1",
-        "DUPLICATE_SEO_SIGNAL"
-      ],
-      "score": 62,
-      "status": "WARNING"
-    },
-    {
       "path": "articles/summer-gas-bill-hot-water-saving.html",
       "url": "https://savingio.com/articles/summer-gas-bill-hot-water-saving.html",
       "title": "여름 가스요금 줄이는 온수 사용법 | 세이빙이오(Savingio)",
@@ -5012,97 +4645,32 @@
       "status": "WARNING"
     },
     {
-      "path": "articles/vat-final-return-deadline-2026.html",
-      "url": "https://savingio.com/articles/vat-final-return-deadline-2026.html",
-      "title": "페이지 이동 | 세이빙이오(Savingio)",
-      "meta_description": "Savingio의 통합된 최신 페이지로 이동합니다.",
-      "canonical": "https://savingio.com/articles/vat-final-return-deadline-2026.html",
-      "h1": [
-        "페이지 이동 | 세이빙이오(Savingio)"
-      ],
-      "h2_count": 1,
-      "h3_count": 0,
-      "korean_chars": 117,
-      "words": 46,
-      "internal_article_links": 3,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": false,
-      "issues": [
-        "NOINDEX",
-        "THIN_CONTENT_KO:117"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:28",
-        "H2_TOO_FEW:1",
-        "DUPLICATE_SEO_SIGNAL"
-      ],
-      "score": 62,
-      "status": "WARNING"
-    },
-    {
       "path": "articles/vat-input-tax-deduction-2026.html",
       "url": "https://savingio.com/articles/vat-input-tax-deduction-2026.html",
-      "title": "부가가치세 매입세액 공제 가능한 항목과 불공제 항목 정리 | 세이빙이오(Savingio)",
-      "meta_description": "사업자가 부가가치세 신고 때 자주 헷갈리는 매입세액 공제 가능 항목과 불공제 항목을 구분해 설명합니다.",
+      "title": "부가가치세 매입세액 공제·불공제 완벽 가이드 | Savingio",
+      "meta_description": "부가가치세 매입세액 공제 가능 항목과 불공제 항목을 사업 관련성, 적격증빙, 차량·접대비·면세사업·공통매입세액까지 한 페이지에서 확인합니다.",
       "canonical": "https://savingio.com/articles/vat-input-tax-deduction-2026.html",
       "h1": [
-        "부가가치세 매입세액 공제 가능한 항목과 불공제 항목 정리"
+        "부가가치세 매입세액 공제·불공제 완벽 가이드"
       ],
-      "h2_count": 13,
-      "h3_count": 4,
-      "korean_chars": 4082,
-      "words": 1455,
-      "internal_article_links": 39,
+      "h2_count": 21,
+      "h3_count": 11,
+      "korean_chars": 4542,
+      "words": 1461,
+      "internal_article_links": 16,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 1,
       "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "CONTENT_SHORT_KO:4082"
-      ],
-      "score": 84,
-      "status": "WARNING"
-    },
-    {
-      "path": "articles/vat-input-tax-deduction-guide-2026.html",
-      "url": "https://savingio.com/articles/vat-input-tax-deduction-guide-2026.html",
-      "title": "페이지 이동 | 세이빙이오(Savingio)",
-      "meta_description": "Savingio의 통합된 최신 페이지로 이동합니다.",
-      "canonical": "https://savingio.com/articles/vat-input-tax-deduction-guide-2026.html",
-      "h1": [
-        "페이지 이동 | 세이빙이오(Savingio)"
-      ],
-      "h2_count": 1,
-      "h3_count": 0,
-      "korean_chars": 122,
-      "words": 47,
-      "internal_article_links": 3,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": false,
-      "issues": [
-        "NOINDEX",
-        "THIN_CONTENT_KO:122"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:28",
-        "H2_TOO_FEW:1",
-        "DUPLICATE_SEO_SIGNAL"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING"
       ],
-      "score": 62,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/vat-input-tax-deduction-items.html",
@@ -5500,71 +5068,6 @@
         "CONTENT_SHORT_KO:3474"
       ],
       "score": 84,
-      "status": "WARNING"
-    },
-    {
-      "path": "articles/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f.html",
-      "url": "https://savingio.com/articles/long-term-repair-reserve-refund-guide.html",
-      "title": "장기수선충당금은 누가 내고, 세입자는 어떻게 돌려받나요? | 세이빙이오",
-      "meta_description": "장기수선충당금의 법정 부담 주체와 세입자가 대신 납부한 금액을 이사할 때 확인·정산하는 순서를 정리했습니다.",
-      "canonical": "https://savingio.com/articles/long-term-repair-reserve-refund-guide.html",
-      "h1": [
-        "장기수선충당금은 누가 내고, 세입자는 어떻게 돌려받나요?"
-      ],
-      "h2_count": 7,
-      "h3_count": 0,
-      "korean_chars": 1075,
-      "words": 325,
-      "internal_article_links": 6,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 0,
-      "article_schema": false,
-      "breadcrumb_schema": false,
-      "faq_schema": false,
-      "issues": [
-        "THIN_CONTENT_KO:1075"
-      ],
-      "warnings": [
-        "ARTICLE_SCHEMA_MISSING",
-        "BREADCRUMB_SCHEMA_MISSING",
-        "FAQ_SCHEMA_MISSING"
-      ],
-      "score": 76,
-      "status": "WARNING"
-    },
-    {
-      "path": "articles/전기요금-절약-c861d77ba6.html",
-      "url": "https://savingio.com/articles/electricity-bill-saving.html",
-      "title": "전기요금 절약",
-      "meta_description": "전기요금 절약의 적용 조건, 확인 순서, 주의점과 공식 근거를 한 번에 정리합니다.",
-      "canonical": "https://savingio.com/articles/electricity-bill-saving.html",
-      "h1": [
-        "전기요금 절약"
-      ],
-      "h2_count": 14,
-      "h3_count": 6,
-      "korean_chars": 1479,
-      "words": 547,
-      "internal_article_links": 5,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 0,
-      "article_schema": false,
-      "breadcrumb_schema": false,
-      "faq_schema": false,
-      "issues": [
-        "THIN_CONTENT_KO:1479"
-      ],
-      "warnings": [
-        "TITLE_LENGTH:7",
-        "META_DESCRIPTION_LENGTH:46",
-        "ARTICLE_SCHEMA_MISSING",
-        "BREADCRUMB_SCHEMA_MISSING",
-        "FAQ_SCHEMA_MISSING",
-        "DUPLICATE_SEO_SIGNAL"
-      ],
-      "score": 62,
       "status": "WARNING"
     }
   ]
