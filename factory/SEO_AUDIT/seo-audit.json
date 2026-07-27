@@ -1,12 +1,12 @@
 {
   "summary": {
-    "article_count": 199,
+    "article_count": 198,
     "pass": 142,
-    "warning": 56,
+    "warning": 55,
     "fail": 1,
-    "average_score": 88.0,
-    "thin_under_2500_ko": 27,
-    "short_under_4500_ko": 149,
+    "average_score": 88.2,
+    "thin_under_2500_ko": 26,
+    "short_under_4500_ko": 148,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -33,7 +33,6 @@
         "articles/online-income-ideas-for-beginners.html",
         "articles/property-tax-electronic-notice-2026.html",
         "articles/property-tax-july-checklist-2026.html",
-        "articles/reduce-electricity-bill.html",
         "articles/summer-electricity-usage-check-2026.html",
         "articles/vat-final-return-deadline-2026.html",
         "articles/vat-input-tax-deduction-guide-2026.html"
@@ -55,7 +54,6 @@
         "articles/online-income-ideas-for-beginners.html",
         "articles/property-tax-electronic-notice-2026.html",
         "articles/property-tax-july-checklist-2026.html",
-        "articles/reduce-electricity-bill.html",
         "articles/summer-electricity-usage-check-2026.html",
         "articles/vat-final-return-deadline-2026.html",
         "articles/vat-input-tax-deduction-guide-2026.html"
@@ -4016,38 +4014,6 @@
       ],
       "score": 88,
       "status": "PASS"
-    },
-    {
-      "path": "articles/reduce-electricity-bill.html",
-      "url": "https://savingio.com/articles/reduce-electricity-bill.html",
-      "title": "페이지 이동 | 세이빙이오(Savingio)",
-      "meta_description": "Savingio의 통합된 최신 페이지로 이동합니다.",
-      "canonical": "https://savingio.com/articles/reduce-electricity-bill.html",
-      "h1": [
-        "페이지 이동 | 세이빙이오(Savingio)"
-      ],
-      "h2_count": 1,
-      "h3_count": 0,
-      "korean_chars": 124,
-      "words": 47,
-      "internal_article_links": 3,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": false,
-      "issues": [
-        "NOINDEX",
-        "THIN_CONTENT_KO:124"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:28",
-        "H2_TOO_FEW:1",
-        "DUPLICATE_SEO_SIGNAL"
-      ],
-      "score": 62,
-      "status": "WARNING"
     },
     {
       "path": "articles/refrigerator-summer-electricity-saving.html",

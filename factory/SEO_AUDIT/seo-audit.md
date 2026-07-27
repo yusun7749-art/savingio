@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
-- Articles: 199
+- Articles: 198
 - PASS: 142
-- WARNING: 56
+- WARNING: 55
 - FAIL: 1
-- Average score: 88.0
-- Thin content (<2500 Korean chars): 27
-- Short content (<4500 Korean chars): 149
+- Average score: 88.2
+- Thin content (<2500 Korean chars): 26
+- Short content (<4500 Korean chars): 148
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -31,7 +31,6 @@
 | 62 | WARNING | `articles/online-income-ideas-for-beginners.html` | NOINDEX, THIN_CONTENT_KO:110, META_DESCRIPTION_LENGTH:28, H2_TOO_FEW:1, DUPLICATE_SEO_SIGNAL |
 | 62 | WARNING | `articles/property-tax-electronic-notice-2026.html` | NOINDEX, THIN_CONTENT_KO:112, META_DESCRIPTION_LENGTH:28, H2_TOO_FEW:1, DUPLICATE_SEO_SIGNAL |
 | 62 | WARNING | `articles/property-tax-july-checklist-2026.html` | NOINDEX, THIN_CONTENT_KO:113, META_DESCRIPTION_LENGTH:28, H2_TOO_FEW:1, DUPLICATE_SEO_SIGNAL |
-| 62 | WARNING | `articles/reduce-electricity-bill.html` | NOINDEX, THIN_CONTENT_KO:124, META_DESCRIPTION_LENGTH:28, H2_TOO_FEW:1, DUPLICATE_SEO_SIGNAL |
 | 62 | WARNING | `articles/summer-electricity-usage-check-2026.html` | NOINDEX, THIN_CONTENT_KO:119, META_DESCRIPTION_LENGTH:28, H2_TOO_FEW:1, DUPLICATE_SEO_SIGNAL |
 | 62 | WARNING | `articles/vat-final-return-deadline-2026.html` | NOINDEX, THIN_CONTENT_KO:117, META_DESCRIPTION_LENGTH:28, H2_TOO_FEW:1, DUPLICATE_SEO_SIGNAL |
 | 62 | WARNING | `articles/vat-input-tax-deduction-guide-2026.html` | NOINDEX, THIN_CONTENT_KO:122, META_DESCRIPTION_LENGTH:28, H2_TOO_FEW:1, DUPLICATE_SEO_SIGNAL |
@@ -100,3 +99,4 @@
 | 92 | PASS | `articles/basic-livelihood-discounts.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3233 |
 | 92 | PASS | `articles/beginner-money-management.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4014 |
 | 92 | PASS | `articles/benefit-scam-warning-2026.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
+| 92 | PASS | `articles/business-card-hometax-registration.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3440 |
