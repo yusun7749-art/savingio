@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3295,
-  "references_scanned": 62419,
+  "files_scanned": 3284,
+  "references_scanned": 62248,
   "counts": {
-    "broken_references": 2499,
+    "broken_references": 2708,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -1941,13 +1941,6 @@
       ]
     },
     {
-      "source": "articles/energy-voucher-balance-use-2026.html",
-      "reference": "/articles/energy-voucher-balance-check-2026.html",
-      "expected": [
-        "articles/energy-voucher-balance-check-2026.html"
-      ]
-    },
-    {
       "source": "articles/fan-aircon-combination-saving.html",
       "reference": "/categories/energy-saving.html",
       "expected": [
@@ -2379,6 +2372,13 @@
       "reference": "/articles/earned-income-tax-credit.html",
       "expected": [
         "articles/earned-income-tax-credit.html"
+      ]
+    },
+    {
+      "source": "articles/national-tax-refund.html",
+      "reference": "/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
       ]
     },
     {
@@ -3096,6 +3096,13 @@
       ]
     },
     {
+      "source": "calculators/electricity-cost.html",
+      "reference": "/articles/summer-electricity-usage-check-2026.html",
+      "expected": [
+        "articles/summer-electricity-usage-check-2026.html"
+      ]
+    },
+    {
       "source": "calculators/hourly-to-monthly.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
@@ -3132,6 +3139,20 @@
     },
     {
       "source": "categories/finance-credit.html",
+      "reference": "/articles/beginner-ai-side-hustles.html",
+      "expected": [
+        "articles/beginner-ai-side-hustles.html"
+      ]
+    },
+    {
+      "source": "categories/finance-credit.html",
+      "reference": "/articles/credit-score-tips.html",
+      "expected": [
+        "articles/credit-score-tips.html"
+      ]
+    },
+    {
+      "source": "categories/finance-credit.html",
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
         "articles/grocery-bill-savings.html"
@@ -3142,6 +3163,13 @@
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
+      ]
+    },
+    {
+      "source": "categories/finance-credit.html",
+      "reference": "/articles/online-income-ideas-for-beginners.html",
+      "expected": [
+        "articles/online-income-ideas-for-beginners.html"
       ]
     },
     {
@@ -3163,6 +3191,13 @@
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "categories/government-support.html",
+      "reference": "/articles/energy-voucher-balance-use-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-use-2026.html"
       ]
     },
     {
@@ -3191,6 +3226,20 @@
       "reference": "/articles/energy-voucher-online-application.html",
       "expected": [
         "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "categories/government-support.html",
+      "reference": "/articles/government-benefit-alert-guide-2026.html",
+      "expected": [
+        "articles/government-benefit-alert-guide-2026.html"
+      ]
+    },
+    {
+      "source": "categories/government-support.html",
+      "reference": "/articles/government-support-scam-warning-2026.html",
+      "expected": [
+        "articles/government-support-scam-warning-2026.html"
       ]
     },
     {
@@ -3272,9 +3321,23 @@
     },
     {
       "source": "categories/living-bills.html",
+      "reference": "/articles/summer-electricity-usage-check-2026.html",
+      "expected": [
+        "articles/summer-electricity-usage-check-2026.html"
+      ]
+    },
+    {
+      "source": "categories/living-bills.html",
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
+      ]
+    },
+    {
+      "source": "categories/tax-refund.html",
+      "reference": "/articles/health-insurance-refund.html",
+      "expected": [
+        "articles/health-insurance-refund.html"
       ]
     },
     {
@@ -3286,9 +3349,30 @@
     },
     {
       "source": "categories/tax-refund.html",
+      "reference": "/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
+      ]
+    },
+    {
+      "source": "categories/tax-refund.html",
+      "reference": "/articles/vat-final-return-deadline-2026.html",
+      "expected": [
+        "articles/vat-final-return-deadline-2026.html"
+      ]
+    },
+    {
+      "source": "categories/tax-refund.html",
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
+      ]
+    },
+    {
+      "source": "categories/tax-refund.html",
+      "reference": "/articles/vat-input-tax-deduction-guide-2026.html",
+      "expected": [
+        "articles/vat-input-tax-deduction-guide-2026.html"
       ]
     },
     {
@@ -3342,9 +3426,23 @@
     },
     {
       "source": "data/brain-navigation.json",
+      "reference": "/articles/health-insurance-refund.html",
+      "expected": [
+        "articles/health-insurance-refund.html"
+      ]
+    },
+    {
+      "source": "data/brain-navigation.json",
       "reference": "/articles/hidden-refund-check.html",
       "expected": [
         "articles/hidden-refund-check.html"
+      ]
+    },
+    {
+      "source": "data/brain-navigation.json",
+      "reference": "/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
       ]
     },
     {
@@ -3972,6 +4070,13 @@
     },
     {
       "source": "data/site-navigation-v2.json",
+      "reference": "/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
+      ]
+    },
+    {
+      "source": "data/site-navigation-v2.json",
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
         "articles/phone-bill-saving.html"
@@ -3996,6 +4101,13 @@
       "reference": "/articles/hidden-refund-check.html",
       "expected": [
         "articles/hidden-refund-check.html"
+      ]
+    },
+    {
+      "source": "data/site-navigation.json",
+      "reference": "/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
       ]
     },
     {
@@ -4138,6 +4250,174 @@
       "reference": "/articles/property-tax-july-checklist-2026.html",
       "expected": [
         "articles/property-tax-july-checklist-2026.html"
+      ]
+    },
+    {
+      "source": "factory/REPORTS/content-quality-consolidation-current.json",
+      "reference": "/articles/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f.html",
+      "expected": [
+        "articles/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f.html"
+      ]
+    },
+    {
+      "source": "factory/REPORTS/content-quality-consolidation-current.json",
+      "reference": "/articles/전기요금-절약-c861d77ba6.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77ba6.html"
+      ]
+    },
+    {
+      "source": "factory/REPORTS/unindexed-article-audit-current.json",
+      "reference": "/articles/beginner-ai-side-hustles.html",
+      "expected": [
+        "articles/beginner-ai-side-hustles.html"
+      ]
+    },
+    {
+      "source": "factory/REPORTS/unindexed-article-audit-current.json",
+      "reference": "/articles/credit-score-tips.html",
+      "expected": [
+        "articles/credit-score-tips.html"
+      ]
+    },
+    {
+      "source": "factory/REPORTS/unindexed-article-audit-current.json",
+      "reference": "/articles/energy-voucher-balance-use-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-use-2026.html"
+      ]
+    },
+    {
+      "source": "factory/REPORTS/unindexed-article-audit-current.json",
+      "reference": "/articles/government-benefit-alert-guide-2026.html",
+      "expected": [
+        "articles/government-benefit-alert-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/REPORTS/unindexed-article-audit-current.json",
+      "reference": "/articles/government-support-scam-warning-2026.html",
+      "expected": [
+        "articles/government-support-scam-warning-2026.html"
+      ]
+    },
+    {
+      "source": "factory/REPORTS/unindexed-article-audit-current.json",
+      "reference": "/articles/health-insurance-refund.html",
+      "expected": [
+        "articles/health-insurance-refund.html"
+      ]
+    },
+    {
+      "source": "factory/REPORTS/unindexed-article-audit-current.json",
+      "reference": "/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
+      ]
+    },
+    {
+      "source": "factory/REPORTS/unindexed-article-audit-current.json",
+      "reference": "/articles/online-income-ideas-for-beginners.html",
+      "expected": [
+        "articles/online-income-ideas-for-beginners.html"
+      ]
+    },
+    {
+      "source": "factory/REPORTS/unindexed-article-audit-current.json",
+      "reference": "/articles/summer-electricity-usage-check-2026.html",
+      "expected": [
+        "articles/summer-electricity-usage-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/REPORTS/unindexed-article-audit-current.json",
+      "reference": "/articles/vat-final-return-deadline-2026.html",
+      "expected": [
+        "articles/vat-final-return-deadline-2026.html"
+      ]
+    },
+    {
+      "source": "factory/REPORTS/unindexed-article-audit-current.json",
+      "reference": "/articles/vat-input-tax-deduction-guide-2026.html",
+      "expected": [
+        "articles/vat-input-tax-deduction-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/SEO_AUDIT/seo-audit.json",
+      "reference": "/articles/beginner-ai-side-hustles.html",
+      "expected": [
+        "articles/beginner-ai-side-hustles.html"
+      ]
+    },
+    {
+      "source": "factory/SEO_AUDIT/seo-audit.json",
+      "reference": "/articles/credit-score-tips.html",
+      "expected": [
+        "articles/credit-score-tips.html"
+      ]
+    },
+    {
+      "source": "factory/SEO_AUDIT/seo-audit.json",
+      "reference": "/articles/energy-voucher-balance-use-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-use-2026.html"
+      ]
+    },
+    {
+      "source": "factory/SEO_AUDIT/seo-audit.json",
+      "reference": "/articles/government-benefit-alert-guide-2026.html",
+      "expected": [
+        "articles/government-benefit-alert-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/SEO_AUDIT/seo-audit.json",
+      "reference": "/articles/government-support-scam-warning-2026.html",
+      "expected": [
+        "articles/government-support-scam-warning-2026.html"
+      ]
+    },
+    {
+      "source": "factory/SEO_AUDIT/seo-audit.json",
+      "reference": "/articles/health-insurance-refund.html",
+      "expected": [
+        "articles/health-insurance-refund.html"
+      ]
+    },
+    {
+      "source": "factory/SEO_AUDIT/seo-audit.json",
+      "reference": "/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
+      ]
+    },
+    {
+      "source": "factory/SEO_AUDIT/seo-audit.json",
+      "reference": "/articles/online-income-ideas-for-beginners.html",
+      "expected": [
+        "articles/online-income-ideas-for-beginners.html"
+      ]
+    },
+    {
+      "source": "factory/SEO_AUDIT/seo-audit.json",
+      "reference": "/articles/summer-electricity-usage-check-2026.html",
+      "expected": [
+        "articles/summer-electricity-usage-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/SEO_AUDIT/seo-audit.json",
+      "reference": "/articles/vat-final-return-deadline-2026.html",
+      "expected": [
+        "articles/vat-final-return-deadline-2026.html"
+      ]
+    },
+    {
+      "source": "factory/SEO_AUDIT/seo-audit.json",
+      "reference": "/articles/vat-input-tax-deduction-guide-2026.html",
+      "expected": [
+        "articles/vat-input-tax-deduction-guide-2026.html"
       ]
     },
     {
@@ -4775,6 +5055,13 @@
       "reference": "/articles/property-tax-electronic-notice-2026.html",
       "expected": [
         "articles/property-tax-electronic-notice-2026.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/property-tax-july-checklist-2026.html",
+      "expected": [
+        "articles/property-tax-july-checklist-2026.html"
       ]
     },
     {
@@ -5521,14 +5808,6 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
-      "reference": "/mnt/data/v2018work/savingio-live/articles/electricity-bill-saving.html",
-      "expected": [
-        "mnt/data/v2018work/savingio-live/articles",
-        "mnt/data/v2018work/savingio-live/articles/index.html"
-      ]
-    },
-    {
-      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/mnt/data/v2018work/savingio-live/articles/ai-side-hustles-beginner.html",
       "expected": [
         "mnt/data/v2018work/savingio-live/articles/ai-side-hustles-beginner.html"
@@ -5697,6 +5976,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/electricity-bill-saving.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/electricity-bill-saving.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/mnt/data/v2047_work/savingio-live/calculators/electricity-cost.html",
       "expected": [
         "mnt/data/v2047_work/savingio-live/calculators/electricity-cost.html"
@@ -5770,6 +6056,20 @@
       "reference": "https://savingio.com/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/beginner-ai-side-hustles.html",
+      "reference": "/articles/beginner-ai-side-hustles.html",
+      "expected": [
+        "articles/beginner-ai-side-hustles.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/beginner-ai-side-hustles.html",
+      "reference": "https://savingio.com/articles/beginner-ai-side-hustles.html",
+      "expected": [
+        "articles/beginner-ai-side-hustles.html"
       ]
     },
     {
@@ -5861,6 +6161,20 @@
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
         "articles/how-to-save-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/credit-score-tips.html",
+      "reference": "/articles/credit-score-tips.html",
+      "expected": [
+        "articles/credit-score-tips.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/credit-score-tips.html",
+      "reference": "https://savingio.com/articles/credit-score-tips.html",
+      "expected": [
+        "articles/credit-score-tips.html"
       ]
     },
     {
@@ -6029,6 +6343,20 @@
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-balance-use-2026.html",
+      "reference": "/articles/energy-voucher-balance-use-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-use-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-balance-use-2026.html",
+      "reference": "https://savingio.com/articles/energy-voucher-balance-use-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-use-2026.html"
       ]
     },
     {
@@ -6207,6 +6535,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/government-benefit-alert-guide-2026.html",
+      "reference": "/articles/government-benefit-alert-guide-2026.html",
+      "expected": [
+        "articles/government-benefit-alert-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/government-benefit-alert-guide-2026.html",
+      "reference": "https://savingio.com/articles/government-benefit-alert-guide-2026.html",
+      "expected": [
+        "articles/government-benefit-alert-guide-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/government-benefits-warning.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
@@ -6228,6 +6570,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/government-support-scam-warning-2026.html",
+      "reference": "/articles/government-support-scam-warning-2026.html",
+      "expected": [
+        "articles/government-support-scam-warning-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/government-support-scam-warning-2026.html",
+      "reference": "https://savingio.com/articles/government-support-scam-warning-2026.html",
+      "expected": [
+        "articles/government-support-scam-warning-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/grocery-bill-savings.html",
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
@@ -6246,6 +6602,20 @@
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
         "articles/how-to-save-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/health-insurance-refund.html",
+      "reference": "/articles/health-insurance-refund.html",
+      "expected": [
+        "articles/health-insurance-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/health-insurance-refund.html",
+      "reference": "https://savingio.com/articles/health-insurance-refund.html",
+      "expected": [
+        "articles/health-insurance-refund.html"
       ]
     },
     {
@@ -6438,6 +6808,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/local-tax-refund.html",
+      "reference": "/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/local-tax-refund.html",
+      "reference": "https://savingio.com/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/money-saving-habits.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -6463,6 +6847,20 @@
       "reference": "/articles/energy-voucher-online-application.html",
       "expected": [
         "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/online-income-ideas-for-beginners.html",
+      "reference": "/articles/online-income-ideas-for-beginners.html",
+      "expected": [
+        "articles/online-income-ideas-for-beginners.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/online-income-ideas-for-beginners.html",
+      "reference": "https://savingio.com/articles/online-income-ideas-for-beginners.html",
+      "expected": [
+        "articles/online-income-ideas-for-beginners.html"
       ]
     },
     {
@@ -6725,6 +7123,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/summer-electricity-usage-check-2026.html",
+      "reference": "/articles/summer-electricity-usage-check-2026.html",
+      "expected": [
+        "articles/summer-electricity-usage-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/summer-electricity-usage-check-2026.html",
+      "reference": "https://savingio.com/articles/summer-electricity-usage-check-2026.html",
+      "expected": [
+        "articles/summer-electricity-usage-check-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/summer-water-bill-spike-check.html",
       "reference": "/articles/water-bill-guide.html",
       "expected": [
@@ -6767,6 +7179,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/vat-final-return-deadline-2026.html",
+      "reference": "/articles/vat-final-return-deadline-2026.html",
+      "expected": [
+        "articles/vat-final-return-deadline-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/vat-final-return-deadline-2026.html",
+      "reference": "https://savingio.com/articles/vat-final-return-deadline-2026.html",
+      "expected": [
+        "articles/vat-final-return-deadline-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/vat-final-return-july-2026.html",
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
@@ -6778,6 +7204,20 @@
       "reference": "https://savingio.com/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/vat-input-tax-deduction-guide-2026.html",
+      "reference": "/articles/vat-input-tax-deduction-guide-2026.html",
+      "expected": [
+        "articles/vat-input-tax-deduction-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/vat-input-tax-deduction-guide-2026.html",
+      "reference": "https://savingio.com/articles/vat-input-tax-deduction-guide-2026.html",
+      "expected": [
+        "articles/vat-input-tax-deduction-guide-2026.html"
       ]
     },
     {
@@ -6900,6 +7340,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/beginner-ai-side-hustles.html",
+      "reference": "/articles/beginner-ai-side-hustles.html",
+      "expected": [
+        "articles/beginner-ai-side-hustles.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/beginner-ai-side-hustles.html",
+      "reference": "https://savingio.com/articles/beginner-ai-side-hustles.html",
+      "expected": [
+        "articles/beginner-ai-side-hustles.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/beginner-budget-plan.html",
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
@@ -6988,6 +7442,20 @@
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
         "articles/how-to-save-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/credit-score-tips.html",
+      "reference": "/articles/credit-score-tips.html",
+      "expected": [
+        "articles/credit-score-tips.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/credit-score-tips.html",
+      "reference": "https://savingio.com/articles/credit-score-tips.html",
+      "expected": [
+        "articles/credit-score-tips.html"
       ]
     },
     {
@@ -7156,6 +7624,20 @@
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-balance-use-2026.html",
+      "reference": "/articles/energy-voucher-balance-use-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-use-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-balance-use-2026.html",
+      "reference": "https://savingio.com/articles/energy-voucher-balance-use-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-use-2026.html"
       ]
     },
     {
@@ -7334,6 +7816,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/government-benefit-alert-guide-2026.html",
+      "reference": "/articles/government-benefit-alert-guide-2026.html",
+      "expected": [
+        "articles/government-benefit-alert-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/government-benefit-alert-guide-2026.html",
+      "reference": "https://savingio.com/articles/government-benefit-alert-guide-2026.html",
+      "expected": [
+        "articles/government-benefit-alert-guide-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/government-benefits-warning.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
@@ -7355,6 +7851,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/government-support-scam-warning-2026.html",
+      "reference": "/articles/government-support-scam-warning-2026.html",
+      "expected": [
+        "articles/government-support-scam-warning-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/government-support-scam-warning-2026.html",
+      "reference": "https://savingio.com/articles/government-support-scam-warning-2026.html",
+      "expected": [
+        "articles/government-support-scam-warning-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/grocery-bill-savings.html",
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
@@ -7373,6 +7883,20 @@
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
         "articles/how-to-save-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/health-insurance-refund.html",
+      "reference": "/articles/health-insurance-refund.html",
+      "expected": [
+        "articles/health-insurance-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/health-insurance-refund.html",
+      "reference": "https://savingio.com/articles/health-insurance-refund.html",
+      "expected": [
+        "articles/health-insurance-refund.html"
       ]
     },
     {
@@ -7565,6 +8089,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/local-tax-refund.html",
+      "reference": "/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/local-tax-refund.html",
+      "reference": "https://savingio.com/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/money-saving-habits.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -7590,6 +8128,20 @@
       "reference": "/articles/energy-voucher-online-application.html",
       "expected": [
         "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/online-income-ideas-for-beginners.html",
+      "reference": "/articles/online-income-ideas-for-beginners.html",
+      "expected": [
+        "articles/online-income-ideas-for-beginners.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/online-income-ideas-for-beginners.html",
+      "reference": "https://savingio.com/articles/online-income-ideas-for-beginners.html",
+      "expected": [
+        "articles/online-income-ideas-for-beginners.html"
       ]
     },
     {
@@ -7852,6 +8404,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/summer-electricity-usage-check-2026.html",
+      "reference": "/articles/summer-electricity-usage-check-2026.html",
+      "expected": [
+        "articles/summer-electricity-usage-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/summer-electricity-usage-check-2026.html",
+      "reference": "https://savingio.com/articles/summer-electricity-usage-check-2026.html",
+      "expected": [
+        "articles/summer-electricity-usage-check-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/summer-water-bill-spike-check.html",
       "reference": "/articles/water-bill-guide.html",
       "expected": [
@@ -7894,6 +8460,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/vat-final-return-deadline-2026.html",
+      "reference": "/articles/vat-final-return-deadline-2026.html",
+      "expected": [
+        "articles/vat-final-return-deadline-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/vat-final-return-deadline-2026.html",
+      "reference": "https://savingio.com/articles/vat-final-return-deadline-2026.html",
+      "expected": [
+        "articles/vat-final-return-deadline-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/vat-final-return-july-2026.html",
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
@@ -7905,6 +8485,20 @@
       "reference": "https://savingio.com/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/vat-input-tax-deduction-guide-2026.html",
+      "reference": "/articles/vat-input-tax-deduction-guide-2026.html",
+      "expected": [
+        "articles/vat-input-tax-deduction-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/vat-input-tax-deduction-guide-2026.html",
+      "reference": "https://savingio.com/articles/vat-input-tax-deduction-guide-2026.html",
+      "expected": [
+        "articles/vat-input-tax-deduction-guide-2026.html"
       ]
     },
     {
@@ -8027,6 +8621,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/beginner-ai-side-hustles.html",
+      "reference": "/articles/beginner-ai-side-hustles.html",
+      "expected": [
+        "articles/beginner-ai-side-hustles.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/beginner-ai-side-hustles.html",
+      "reference": "https://savingio.com/articles/beginner-ai-side-hustles.html",
+      "expected": [
+        "articles/beginner-ai-side-hustles.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/beginner-budget-plan.html",
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
@@ -8115,6 +8723,20 @@
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
         "articles/how-to-save-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/credit-score-tips.html",
+      "reference": "/articles/credit-score-tips.html",
+      "expected": [
+        "articles/credit-score-tips.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/credit-score-tips.html",
+      "reference": "https://savingio.com/articles/credit-score-tips.html",
+      "expected": [
+        "articles/credit-score-tips.html"
       ]
     },
     {
@@ -8283,6 +8905,20 @@
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-balance-use-2026.html",
+      "reference": "/articles/energy-voucher-balance-use-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-use-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-balance-use-2026.html",
+      "reference": "https://savingio.com/articles/energy-voucher-balance-use-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-use-2026.html"
       ]
     },
     {
@@ -8461,6 +9097,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/government-benefit-alert-guide-2026.html",
+      "reference": "/articles/government-benefit-alert-guide-2026.html",
+      "expected": [
+        "articles/government-benefit-alert-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/government-benefit-alert-guide-2026.html",
+      "reference": "https://savingio.com/articles/government-benefit-alert-guide-2026.html",
+      "expected": [
+        "articles/government-benefit-alert-guide-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/government-benefits-warning.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
@@ -8482,6 +9132,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/government-support-scam-warning-2026.html",
+      "reference": "/articles/government-support-scam-warning-2026.html",
+      "expected": [
+        "articles/government-support-scam-warning-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/government-support-scam-warning-2026.html",
+      "reference": "https://savingio.com/articles/government-support-scam-warning-2026.html",
+      "expected": [
+        "articles/government-support-scam-warning-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/grocery-bill-savings.html",
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
@@ -8500,6 +9164,20 @@
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
         "articles/how-to-save-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/health-insurance-refund.html",
+      "reference": "/articles/health-insurance-refund.html",
+      "expected": [
+        "articles/health-insurance-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/health-insurance-refund.html",
+      "reference": "https://savingio.com/articles/health-insurance-refund.html",
+      "expected": [
+        "articles/health-insurance-refund.html"
       ]
     },
     {
@@ -8692,6 +9370,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/local-tax-refund.html",
+      "reference": "/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/local-tax-refund.html",
+      "reference": "https://savingio.com/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/money-saving-habits.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -8717,6 +9409,20 @@
       "reference": "/articles/energy-voucher-online-application.html",
       "expected": [
         "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/online-income-ideas-for-beginners.html",
+      "reference": "/articles/online-income-ideas-for-beginners.html",
+      "expected": [
+        "articles/online-income-ideas-for-beginners.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/online-income-ideas-for-beginners.html",
+      "reference": "https://savingio.com/articles/online-income-ideas-for-beginners.html",
+      "expected": [
+        "articles/online-income-ideas-for-beginners.html"
       ]
     },
     {
@@ -8979,6 +9685,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/summer-electricity-usage-check-2026.html",
+      "reference": "/articles/summer-electricity-usage-check-2026.html",
+      "expected": [
+        "articles/summer-electricity-usage-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/summer-electricity-usage-check-2026.html",
+      "reference": "https://savingio.com/articles/summer-electricity-usage-check-2026.html",
+      "expected": [
+        "articles/summer-electricity-usage-check-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/summer-water-bill-spike-check.html",
       "reference": "/articles/water-bill-guide.html",
       "expected": [
@@ -9021,6 +9741,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/vat-final-return-deadline-2026.html",
+      "reference": "/articles/vat-final-return-deadline-2026.html",
+      "expected": [
+        "articles/vat-final-return-deadline-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/vat-final-return-deadline-2026.html",
+      "reference": "https://savingio.com/articles/vat-final-return-deadline-2026.html",
+      "expected": [
+        "articles/vat-final-return-deadline-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/vat-final-return-july-2026.html",
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
@@ -9032,6 +9766,20 @@
       "reference": "https://savingio.com/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/vat-input-tax-deduction-guide-2026.html",
+      "reference": "/articles/vat-input-tax-deduction-guide-2026.html",
+      "expected": [
+        "articles/vat-input-tax-deduction-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/vat-input-tax-deduction-guide-2026.html",
+      "reference": "https://savingio.com/articles/vat-input-tax-deduction-guide-2026.html",
+      "expected": [
+        "articles/vat-input-tax-deduction-guide-2026.html"
       ]
     },
     {
@@ -9154,6 +9902,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/beginner-ai-side-hustles.html",
+      "reference": "/articles/beginner-ai-side-hustles.html",
+      "expected": [
+        "articles/beginner-ai-side-hustles.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/beginner-ai-side-hustles.html",
+      "reference": "https://savingio.com/articles/beginner-ai-side-hustles.html",
+      "expected": [
+        "articles/beginner-ai-side-hustles.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/beginner-budget-plan.html",
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
@@ -9242,6 +10004,20 @@
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
         "articles/how-to-save-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/credit-score-tips.html",
+      "reference": "/articles/credit-score-tips.html",
+      "expected": [
+        "articles/credit-score-tips.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/credit-score-tips.html",
+      "reference": "https://savingio.com/articles/credit-score-tips.html",
+      "expected": [
+        "articles/credit-score-tips.html"
       ]
     },
     {
@@ -9410,6 +10186,20 @@
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-balance-use-2026.html",
+      "reference": "/articles/energy-voucher-balance-use-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-use-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-balance-use-2026.html",
+      "reference": "https://savingio.com/articles/energy-voucher-balance-use-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-use-2026.html"
       ]
     },
     {
@@ -9588,6 +10378,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/government-benefit-alert-guide-2026.html",
+      "reference": "/articles/government-benefit-alert-guide-2026.html",
+      "expected": [
+        "articles/government-benefit-alert-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/government-benefit-alert-guide-2026.html",
+      "reference": "https://savingio.com/articles/government-benefit-alert-guide-2026.html",
+      "expected": [
+        "articles/government-benefit-alert-guide-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/government-benefits-warning.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
@@ -9609,6 +10413,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/government-support-scam-warning-2026.html",
+      "reference": "/articles/government-support-scam-warning-2026.html",
+      "expected": [
+        "articles/government-support-scam-warning-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/government-support-scam-warning-2026.html",
+      "reference": "https://savingio.com/articles/government-support-scam-warning-2026.html",
+      "expected": [
+        "articles/government-support-scam-warning-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/grocery-bill-savings.html",
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
@@ -9627,6 +10445,20 @@
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
         "articles/how-to-save-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/health-insurance-refund.html",
+      "reference": "/articles/health-insurance-refund.html",
+      "expected": [
+        "articles/health-insurance-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/health-insurance-refund.html",
+      "reference": "https://savingio.com/articles/health-insurance-refund.html",
+      "expected": [
+        "articles/health-insurance-refund.html"
       ]
     },
     {
@@ -9819,6 +10651,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/local-tax-refund.html",
+      "reference": "/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/local-tax-refund.html",
+      "reference": "https://savingio.com/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/money-saving-habits.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -9844,6 +10690,20 @@
       "reference": "/articles/energy-voucher-online-application.html",
       "expected": [
         "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/online-income-ideas-for-beginners.html",
+      "reference": "/articles/online-income-ideas-for-beginners.html",
+      "expected": [
+        "articles/online-income-ideas-for-beginners.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/online-income-ideas-for-beginners.html",
+      "reference": "https://savingio.com/articles/online-income-ideas-for-beginners.html",
+      "expected": [
+        "articles/online-income-ideas-for-beginners.html"
       ]
     },
     {
@@ -10106,6 +10966,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/summer-electricity-usage-check-2026.html",
+      "reference": "/articles/summer-electricity-usage-check-2026.html",
+      "expected": [
+        "articles/summer-electricity-usage-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/summer-electricity-usage-check-2026.html",
+      "reference": "https://savingio.com/articles/summer-electricity-usage-check-2026.html",
+      "expected": [
+        "articles/summer-electricity-usage-check-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/summer-water-bill-spike-check.html",
       "reference": "/articles/water-bill-guide.html",
       "expected": [
@@ -10148,6 +11022,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/vat-final-return-deadline-2026.html",
+      "reference": "/articles/vat-final-return-deadline-2026.html",
+      "expected": [
+        "articles/vat-final-return-deadline-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/vat-final-return-deadline-2026.html",
+      "reference": "https://savingio.com/articles/vat-final-return-deadline-2026.html",
+      "expected": [
+        "articles/vat-final-return-deadline-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/vat-final-return-july-2026.html",
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
@@ -10159,6 +11047,20 @@
       "reference": "https://savingio.com/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/vat-input-tax-deduction-guide-2026.html",
+      "reference": "/articles/vat-input-tax-deduction-guide-2026.html",
+      "expected": [
+        "articles/vat-input-tax-deduction-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/vat-input-tax-deduction-guide-2026.html",
+      "reference": "https://savingio.com/articles/vat-input-tax-deduction-guide-2026.html",
+      "expected": [
+        "articles/vat-input-tax-deduction-guide-2026.html"
       ]
     },
     {
@@ -10281,6 +11183,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/beginner-ai-side-hustles.html",
+      "reference": "/articles/beginner-ai-side-hustles.html",
+      "expected": [
+        "articles/beginner-ai-side-hustles.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/beginner-ai-side-hustles.html",
+      "reference": "https://savingio.com/articles/beginner-ai-side-hustles.html",
+      "expected": [
+        "articles/beginner-ai-side-hustles.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/beginner-budget-plan.html",
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
@@ -10369,6 +11285,20 @@
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
         "articles/how-to-save-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/credit-score-tips.html",
+      "reference": "/articles/credit-score-tips.html",
+      "expected": [
+        "articles/credit-score-tips.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/credit-score-tips.html",
+      "reference": "https://savingio.com/articles/credit-score-tips.html",
+      "expected": [
+        "articles/credit-score-tips.html"
       ]
     },
     {
@@ -10537,6 +11467,20 @@
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-balance-use-2026.html",
+      "reference": "/articles/energy-voucher-balance-use-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-use-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-balance-use-2026.html",
+      "reference": "https://savingio.com/articles/energy-voucher-balance-use-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-use-2026.html"
       ]
     },
     {
@@ -10715,6 +11659,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/government-benefit-alert-guide-2026.html",
+      "reference": "/articles/government-benefit-alert-guide-2026.html",
+      "expected": [
+        "articles/government-benefit-alert-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/government-benefit-alert-guide-2026.html",
+      "reference": "https://savingio.com/articles/government-benefit-alert-guide-2026.html",
+      "expected": [
+        "articles/government-benefit-alert-guide-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/government-benefits-warning.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
@@ -10736,6 +11694,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/government-support-scam-warning-2026.html",
+      "reference": "/articles/government-support-scam-warning-2026.html",
+      "expected": [
+        "articles/government-support-scam-warning-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/government-support-scam-warning-2026.html",
+      "reference": "https://savingio.com/articles/government-support-scam-warning-2026.html",
+      "expected": [
+        "articles/government-support-scam-warning-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/grocery-bill-savings.html",
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
@@ -10754,6 +11726,20 @@
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
         "articles/how-to-save-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/health-insurance-refund.html",
+      "reference": "/articles/health-insurance-refund.html",
+      "expected": [
+        "articles/health-insurance-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/health-insurance-refund.html",
+      "reference": "https://savingio.com/articles/health-insurance-refund.html",
+      "expected": [
+        "articles/health-insurance-refund.html"
       ]
     },
     {
@@ -10946,6 +11932,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/local-tax-refund.html",
+      "reference": "/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/local-tax-refund.html",
+      "reference": "https://savingio.com/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/money-saving-habits.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -10971,6 +11971,20 @@
       "reference": "/articles/energy-voucher-online-application.html",
       "expected": [
         "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/online-income-ideas-for-beginners.html",
+      "reference": "/articles/online-income-ideas-for-beginners.html",
+      "expected": [
+        "articles/online-income-ideas-for-beginners.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/online-income-ideas-for-beginners.html",
+      "reference": "https://savingio.com/articles/online-income-ideas-for-beginners.html",
+      "expected": [
+        "articles/online-income-ideas-for-beginners.html"
       ]
     },
     {
@@ -11233,6 +12247,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/summer-electricity-usage-check-2026.html",
+      "reference": "/articles/summer-electricity-usage-check-2026.html",
+      "expected": [
+        "articles/summer-electricity-usage-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/summer-electricity-usage-check-2026.html",
+      "reference": "https://savingio.com/articles/summer-electricity-usage-check-2026.html",
+      "expected": [
+        "articles/summer-electricity-usage-check-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/summer-water-bill-spike-check.html",
       "reference": "/articles/water-bill-guide.html",
       "expected": [
@@ -11275,6 +12303,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/vat-final-return-deadline-2026.html",
+      "reference": "/articles/vat-final-return-deadline-2026.html",
+      "expected": [
+        "articles/vat-final-return-deadline-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/vat-final-return-deadline-2026.html",
+      "reference": "https://savingio.com/articles/vat-final-return-deadline-2026.html",
+      "expected": [
+        "articles/vat-final-return-deadline-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/vat-final-return-july-2026.html",
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
@@ -11286,6 +12328,20 @@
       "reference": "https://savingio.com/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/vat-input-tax-deduction-guide-2026.html",
+      "reference": "/articles/vat-input-tax-deduction-guide-2026.html",
+      "expected": [
+        "articles/vat-input-tax-deduction-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/vat-input-tax-deduction-guide-2026.html",
+      "reference": "https://savingio.com/articles/vat-input-tax-deduction-guide-2026.html",
+      "expected": [
+        "articles/vat-input-tax-deduction-guide-2026.html"
       ]
     },
     {
@@ -11783,6 +12839,13 @@
       ]
     },
     {
+      "source": "factory/config/calculator_action_rules.json",
+      "reference": "/articles/summer-electricity-usage-check-2026.html",
+      "expected": [
+        "articles/summer-electricity-usage-check-2026.html"
+      ]
+    },
+    {
       "source": "factory/config/calculator_formula_dna.json",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
@@ -12138,14 +13201,6 @@
     },
     {
       "source": "factory/output/article_audit.json",
-      "reference": "/mnt/data/v2018work/savingio-live/articles/electricity-bill-saving.html",
-      "expected": [
-        "mnt/data/v2018work/savingio-live/articles",
-        "mnt/data/v2018work/savingio-live/articles/index.html"
-      ]
-    },
-    {
-      "source": "factory/output/article_audit.json",
       "reference": "/mnt/data/v2018work/savingio-live/articles/ai-side-hustles-beginner.html",
       "expected": [
         "mnt/data/v2018work/savingio-live/articles/ai-side-hustles-beginner.html"
@@ -12313,10 +13368,31 @@
       ]
     },
     {
+      "source": "factory/output/article_audit.json",
+      "reference": "/mnt/data/v2018work/savingio-live/articles/electricity-bill-saving.html",
+      "expected": [
+        "mnt/data/v2018work/savingio-live/articles/electricity-bill-saving.html"
+      ]
+    },
+    {
       "source": "factory/output/article_catalog.json",
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
+      "reference": "/articles/beginner-ai-side-hustles.html",
+      "expected": [
+        "articles/beginner-ai-side-hustles.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
+      "reference": "/articles/credit-score-tips.html",
+      "expected": [
+        "articles/credit-score-tips.html"
       ]
     },
     {
@@ -12338,6 +13414,13 @@
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
+      "reference": "/articles/energy-voucher-balance-use-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-use-2026.html"
       ]
     },
     {
@@ -12370,9 +13453,30 @@
     },
     {
       "source": "factory/output/article_catalog.json",
+      "reference": "/articles/government-benefit-alert-guide-2026.html",
+      "expected": [
+        "articles/government-benefit-alert-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
+      "reference": "/articles/government-support-scam-warning-2026.html",
+      "expected": [
+        "articles/government-support-scam-warning-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
         "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
+      "reference": "/articles/health-insurance-refund.html",
+      "expected": [
+        "articles/health-insurance-refund.html"
       ]
     },
     {
@@ -12422,6 +13526,20 @@
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
+      "reference": "/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
+      "reference": "/articles/online-income-ideas-for-beginners.html",
+      "expected": [
+        "articles/online-income-ideas-for-beginners.html"
       ]
     },
     {
@@ -12482,9 +13600,30 @@
     },
     {
       "source": "factory/output/article_catalog.json",
+      "reference": "/articles/summer-electricity-usage-check-2026.html",
+      "expected": [
+        "articles/summer-electricity-usage-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
+      "reference": "/articles/vat-final-return-deadline-2026.html",
+      "expected": [
+        "articles/vat-final-return-deadline-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
+      "reference": "/articles/vat-input-tax-deduction-guide-2026.html",
+      "expected": [
+        "articles/vat-input-tax-deduction-guide-2026.html"
       ]
     },
     {
@@ -12510,6 +13649,20 @@
     },
     {
       "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/beginner-ai-side-hustles.html",
+      "expected": [
+        "articles/beginner-ai-side-hustles.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/credit-score-tips.html",
+      "expected": [
+        "articles/credit-score-tips.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
         "articles/energy-voucher-application-2026.html"
@@ -12527,6 +13680,13 @@
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/energy-voucher-balance-use-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-use-2026.html"
       ]
     },
     {
@@ -12559,9 +13719,30 @@
     },
     {
       "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/government-benefit-alert-guide-2026.html",
+      "expected": [
+        "articles/government-benefit-alert-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/government-support-scam-warning-2026.html",
+      "expected": [
+        "articles/government-support-scam-warning-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
         "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/health-insurance-refund.html",
+      "expected": [
+        "articles/health-insurance-refund.html"
       ]
     },
     {
@@ -12611,6 +13792,20 @@
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/online-income-ideas-for-beginners.html",
+      "expected": [
+        "articles/online-income-ideas-for-beginners.html"
       ]
     },
     {
@@ -12671,9 +13866,30 @@
     },
     {
       "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/summer-electricity-usage-check-2026.html",
+      "expected": [
+        "articles/summer-electricity-usage-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/vat-final-return-deadline-2026.html",
+      "expected": [
+        "articles/vat-final-return-deadline-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/vat-input-tax-deduction-guide-2026.html",
+      "expected": [
+        "articles/vat-input-tax-deduction-guide-2026.html"
       ]
     },
     {
@@ -12730,6 +13946,20 @@
       "reference": "https://savingio.com/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/beginner-ai-side-hustles.html",
+      "reference": "/articles/beginner-ai-side-hustles.html",
+      "expected": [
+        "articles/beginner-ai-side-hustles.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/beginner-ai-side-hustles.html",
+      "reference": "https://savingio.com/articles/beginner-ai-side-hustles.html",
+      "expected": [
+        "articles/beginner-ai-side-hustles.html"
       ]
     },
     {
@@ -12821,6 +14051,20 @@
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
         "articles/how-to-save-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/credit-score-tips.html",
+      "reference": "/articles/credit-score-tips.html",
+      "expected": [
+        "articles/credit-score-tips.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/credit-score-tips.html",
+      "reference": "https://savingio.com/articles/credit-score-tips.html",
+      "expected": [
+        "articles/credit-score-tips.html"
       ]
     },
     {
@@ -12989,6 +14233,20 @@
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-balance-use-2026.html",
+      "reference": "/articles/energy-voucher-balance-use-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-use-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-balance-use-2026.html",
+      "reference": "https://savingio.com/articles/energy-voucher-balance-use-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-use-2026.html"
       ]
     },
     {
@@ -13167,6 +14425,20 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/government-benefit-alert-guide-2026.html",
+      "reference": "/articles/government-benefit-alert-guide-2026.html",
+      "expected": [
+        "articles/government-benefit-alert-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/government-benefit-alert-guide-2026.html",
+      "reference": "https://savingio.com/articles/government-benefit-alert-guide-2026.html",
+      "expected": [
+        "articles/government-benefit-alert-guide-2026.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/government-benefits-warning.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
@@ -13188,6 +14460,20 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/government-support-scam-warning-2026.html",
+      "reference": "/articles/government-support-scam-warning-2026.html",
+      "expected": [
+        "articles/government-support-scam-warning-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/government-support-scam-warning-2026.html",
+      "reference": "https://savingio.com/articles/government-support-scam-warning-2026.html",
+      "expected": [
+        "articles/government-support-scam-warning-2026.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/grocery-bill-savings.html",
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
@@ -13206,6 +14492,20 @@
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
         "articles/how-to-save-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/health-insurance-refund.html",
+      "reference": "/articles/health-insurance-refund.html",
+      "expected": [
+        "articles/health-insurance-refund.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/health-insurance-refund.html",
+      "reference": "https://savingio.com/articles/health-insurance-refund.html",
+      "expected": [
+        "articles/health-insurance-refund.html"
       ]
     },
     {
@@ -13398,6 +14698,20 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/local-tax-refund.html",
+      "reference": "/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/local-tax-refund.html",
+      "reference": "https://savingio.com/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/money-saving-habits.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -13423,6 +14737,20 @@
       "reference": "/articles/energy-voucher-online-application.html",
       "expected": [
         "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/online-income-ideas-for-beginners.html",
+      "reference": "/articles/online-income-ideas-for-beginners.html",
+      "expected": [
+        "articles/online-income-ideas-for-beginners.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/online-income-ideas-for-beginners.html",
+      "reference": "https://savingio.com/articles/online-income-ideas-for-beginners.html",
+      "expected": [
+        "articles/online-income-ideas-for-beginners.html"
       ]
     },
     {
@@ -13685,6 +15013,20 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/summer-electricity-usage-check-2026.html",
+      "reference": "/articles/summer-electricity-usage-check-2026.html",
+      "expected": [
+        "articles/summer-electricity-usage-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/summer-electricity-usage-check-2026.html",
+      "reference": "https://savingio.com/articles/summer-electricity-usage-check-2026.html",
+      "expected": [
+        "articles/summer-electricity-usage-check-2026.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/summer-water-bill-spike-check.html",
       "reference": "/articles/water-bill-guide.html",
       "expected": [
@@ -13727,6 +15069,20 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/vat-final-return-deadline-2026.html",
+      "reference": "/articles/vat-final-return-deadline-2026.html",
+      "expected": [
+        "articles/vat-final-return-deadline-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/vat-final-return-deadline-2026.html",
+      "reference": "https://savingio.com/articles/vat-final-return-deadline-2026.html",
+      "expected": [
+        "articles/vat-final-return-deadline-2026.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/vat-final-return-july-2026.html",
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
@@ -13738,6 +15094,20 @@
       "reference": "https://savingio.com/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/vat-input-tax-deduction-guide-2026.html",
+      "reference": "/articles/vat-input-tax-deduction-guide-2026.html",
+      "expected": [
+        "articles/vat-input-tax-deduction-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/vat-input-tax-deduction-guide-2026.html",
+      "reference": "https://savingio.com/articles/vat-input-tax-deduction-guide-2026.html",
+      "expected": [
+        "articles/vat-input-tax-deduction-guide-2026.html"
       ]
     },
     {
@@ -16260,6 +17630,20 @@
     },
     {
       "source": "factory/output/link_graph.json",
+      "reference": "/articles/beginner-ai-side-hustles.html",
+      "expected": [
+        "articles/beginner-ai-side-hustles.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
+      "reference": "/articles/credit-score-tips.html",
+      "expected": [
+        "articles/credit-score-tips.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
         "articles/energy-voucher-application-2026.html"
@@ -16277,6 +17661,13 @@
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
+      "reference": "/articles/energy-voucher-balance-use-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-use-2026.html"
       ]
     },
     {
@@ -16309,9 +17700,30 @@
     },
     {
       "source": "factory/output/link_graph.json",
+      "reference": "/articles/government-benefit-alert-guide-2026.html",
+      "expected": [
+        "articles/government-benefit-alert-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
+      "reference": "/articles/government-support-scam-warning-2026.html",
+      "expected": [
+        "articles/government-support-scam-warning-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
         "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
+      "reference": "/articles/health-insurance-refund.html",
+      "expected": [
+        "articles/health-insurance-refund.html"
       ]
     },
     {
@@ -16361,6 +17773,20 @@
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
+      "reference": "/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
+      "reference": "/articles/online-income-ideas-for-beginners.html",
+      "expected": [
+        "articles/online-income-ideas-for-beginners.html"
       ]
     },
     {
@@ -16421,9 +17847,30 @@
     },
     {
       "source": "factory/output/link_graph.json",
+      "reference": "/articles/summer-electricity-usage-check-2026.html",
+      "expected": [
+        "articles/summer-electricity-usage-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
+      "reference": "/articles/vat-final-return-deadline-2026.html",
+      "expected": [
+        "articles/vat-final-return-deadline-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
+      "reference": "/articles/vat-input-tax-deduction-guide-2026.html",
+      "expected": [
+        "articles/vat-input-tax-deduction-guide-2026.html"
       ]
     },
     {
@@ -17415,9 +18862,23 @@
     },
     {
       "source": "js/brain-navigation.js",
+      "reference": "/articles/health-insurance-refund.html",
+      "expected": [
+        "articles/health-insurance-refund.html"
+      ]
+    },
+    {
+      "source": "js/brain-navigation.js",
       "reference": "/articles/hidden-refund-check.html",
       "expected": [
         "articles/hidden-refund-check.html"
+      ]
+    },
+    {
+      "source": "js/brain-navigation.js",
+      "reference": "/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
       ]
     },
     {
