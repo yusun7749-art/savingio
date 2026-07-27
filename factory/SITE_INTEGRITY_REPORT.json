@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3297,
-  "references_scanned": 62453,
+  "files_scanned": 3296,
+  "references_scanned": 62431,
   "counts": {
-    "broken_references": 2481,
+    "broken_references": 2482,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -4128,16 +4128,9 @@
     },
     {
       "source": "factory/REPORTS/content-count-current.json",
-      "reference": "/articles/traffic-fine-check-payment-guide.html",
+      "reference": "/articles/property-tax-electronic-notice-2026.html",
       "expected": [
-        "articles/traffic-fine-check-payment-guide.html"
-      ]
-    },
-    {
-      "source": "factory/REPORTS/content-count-current.json",
-      "reference": "/articles/traffic-penalty-check-payment-guide.html",
-      "expected": [
-        "articles/traffic-penalty-check-payment-guide.html"
+        "articles/property-tax-electronic-notice-2026.html"
       ]
     },
     {
@@ -4908,6 +4901,20 @@
       "reference": "/articles/tenant-landlord-repair-responsibility.html",
       "expected": [
         "articles/tenant-landlord-repair-responsibility.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/traffic-fine-check-payment-guide.html",
+      "expected": [
+        "articles/traffic-fine-check-payment-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/traffic-penalty-check-payment-guide.html",
+      "expected": [
+        "articles/traffic-penalty-check-payment-guide.html"
       ]
     },
     {
