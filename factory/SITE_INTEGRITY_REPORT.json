@@ -7,7 +7,7 @@
     "broken_references": 2368,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
-    "missing_sitemap_targets": 11,
+    "missing_sitemap_targets": 9,
     "publisher_id_drift": 0
   },
   "broken_references": [
@@ -4051,6 +4051,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/basic-livelihood-benefit-check.html",
       "expected": [
         "articles/basic-livelihood-benefit-check.html"
@@ -4733,6 +4740,13 @@
       "reference": "/articles/summer-electricity-bill-guide.html",
       "expected": [
         "articles/summer-electricity-bill-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -16841,20 +16855,6 @@
     },
     {
       "source": "sitemap.xml",
-      "reference": "/articles/subscription-cleanup.html",
-      "expected": [
-        "articles/subscription-cleanup.html"
-      ]
-    },
-    {
-      "source": "sitemap.xml",
-      "reference": "/articles/subscription-saving.html",
-      "expected": [
-        "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "sitemap.xml",
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
@@ -16937,8 +16937,6 @@
     "/articles/phone-bill-saving.html",
     "/articles/salary-budget-guide.html",
     "/articles/salary-management-guide.html",
-    "/articles/subscription-cleanup.html",
-    "/articles/subscription-saving.html",
     "/articles/vat-final-return-july-2026.html",
     "/articles/vat-zero-sales-filing.html",
     "/articles/water-bill-guide.html"
