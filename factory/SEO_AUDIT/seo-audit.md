@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
-- Articles: 178
-- PASS: 138
-- WARNING: 40
+- Articles: 177
+- PASS: 140
+- WARNING: 37
 - FAIL: 0
-- Average score: 90.3
+- Average score: 90.5
 - Thin content (<2500 Korean chars): 11
-- Short content (<4500 Korean chars): 129
+- Short content (<4500 Korean chars): 128
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -33,9 +33,6 @@
 | 80 | WARNING | `articles/single-parent-support-benefits.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3597 |
 | 80 | WARNING | `articles/small-business-closure-support.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:33, CONTENT_SHORT_KO:3129 |
 | 80 | WARNING | `articles/small-business-delivery-support.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3115 |
-| 80 | WARNING | `articles/small-business-electricity-support.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3604 |
-| 80 | WARNING | `articles/small-business-policy-fund-search.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:40, CONTENT_SHORT_KO:3123 |
-| 80 | WARNING | `articles/small-business-policy-fund.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:18, CONTENT_SHORT_KO:3123 |
 | 80 | WARNING | `articles/spending-habits-change.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:41, CONTENT_SHORT_KO:3160 |
 | 80 | WARNING | `articles/summer-gas-bill-hot-water-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3351 |
 | 80 | WARNING | `articles/summer-vacation-budget-plan.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3352 |
@@ -100,3 +97,6 @@
 | 92 | PASS | `articles/credit-card-billing-cycle-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/credit-score-habits.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3993 |
 | 92 | PASS | `articles/dehumidifier-electricity-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3813 |
+| 92 | PASS | `articles/earned-income-credit-account-change.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3220 |
+| 92 | PASS | `articles/earned-income-credit-payment.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4376 |
+| 92 | PASS | `articles/earned-income-credit-status-check.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3592 |
