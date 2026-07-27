@@ -2,12 +2,12 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3299,
-  "references_scanned": 62626,
+  "references_scanned": 62625,
   "counts": {
-    "broken_references": 2417,
+    "broken_references": 2416,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
-    "missing_sitemap_targets": 5,
+    "missing_sitemap_targets": 3,
     "publisher_id_drift": 0
   },
   "broken_references": [
@@ -4719,6 +4719,13 @@
       "reference": "/articles/property-tax-refund-correction.html",
       "expected": [
         "articles/property-tax-refund-correction.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/reduce-electricity-bill.html",
+      "expected": [
+        "articles/reduce-electricity-bill.html"
       ]
     },
     {
@@ -17184,20 +17191,6 @@
     },
     {
       "source": "sitemap.xml",
-      "reference": "/articles/salary-budget-guide.html",
-      "expected": [
-        "articles/salary-budget-guide.html"
-      ]
-    },
-    {
-      "source": "sitemap.xml",
-      "reference": "/articles/salary-management-guide.html",
-      "expected": [
-        "articles/salary-management-guide.html"
-      ]
-    },
-    {
-      "source": "sitemap.xml",
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
@@ -17274,8 +17267,6 @@
   "malformed_redirects": [],
   "broken_redirect_targets": [],
   "missing_sitemap_targets": [
-    "/articles/salary-budget-guide.html",
-    "/articles/salary-management-guide.html",
     "/articles/vat-final-return-july-2026.html",
     "/articles/vat-zero-sales-filing.html",
     "/articles/water-bill-guide.html"
