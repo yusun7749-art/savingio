@@ -1,0 +1,2838 @@
+{
+  "article_count": 180,
+  "candidate_pair_count": 353,
+  "cluster_count": 2,
+  "rules": {
+    "exact_body_duplicate": "본문 정규화 해시가 동일",
+    "strong_duplicate": "제목 유사도 0.62 이상 + 본문 유사도 0.58 이상",
+    "merge_candidate": "제목 유사도 0.48 이상 + 본문 유사도 0.42 이상",
+    "review_candidate": "제목 유사도 0.62 이상 또는 본문 유사도 0.72 이상"
+  },
+  "clusters": [
+    {
+      "group_id": "G001",
+      "size": 28,
+      "priority": 3,
+      "articles": [
+        {
+          "path": "articles/refrigerator-summer-electricity-saving.html",
+          "title": "여름철 냉장고 전기세 절약 방법 | 세이빙이오(Savingio)",
+          "h1": "여름철 냉장고 전기세 절약 방법",
+          "char_count": 5232
+        },
+        {
+          "path": "articles/revolving-cancellation-payoff.html",
+          "title": "리볼빙 해지와 잔액 상환 방법 | 세이빙이오(Savingio)",
+          "h1": "리볼빙 해지와 잔액 상환 방법",
+          "char_count": 4683
+        },
+        {
+          "path": "articles/savings-maturity-auto-renewal.html",
+          "title": "적금 만기 후 자동재예치 확인법 | 세이빙이오(Savingio)",
+          "h1": "적금 만기 후 자동재예치 확인법",
+          "char_count": 4713
+        },
+        {
+          "path": "articles/simplified-vat-checklist.html",
+          "title": "간이과세자 부가가치세 신고 체크리스트 | 세이빙이오(Savingio)",
+          "h1": "간이과세자 부가가치세 신고 체크리스트",
+          "char_count": 5827
+        },
+        {
+          "path": "articles/single-parent-support-benefits.html",
+          "title": "한부모가족 지원금 조회 방법 | 세이빙이오(Savingio)",
+          "h1": "한부모가족 지원금 조회 방법",
+          "char_count": 5243
+        },
+        {
+          "path": "articles/small-business-closure-support.html",
+          "title": "폐업 소상공인 원스톱 지원 확인 | 세이빙이오(Savingio)",
+          "h1": "폐업 소상공인 원스톱 지원 확인",
+          "char_count": 4518
+        },
+        {
+          "path": "articles/small-business-delivery-support.html",
+          "title": "소상공인 배달비 지원사업 찾는 방법 | 세이빙이오(Savingio)",
+          "h1": "소상공인 배달비 지원사업 찾는 방법",
+          "char_count": 4498
+        },
+        {
+          "path": "articles/small-business-electricity-support.html",
+          "title": "소상공인 전기요금 지원 확인법 | 세이빙이오(Savingio)",
+          "h1": "소상공인 전기요금 지원 확인법",
+          "char_count": 5231
+        },
+        {
+          "path": "articles/small-business-policy-fund-search.html",
+          "title": "소상공인 정책자금 확인 방법 | 세이빙이오(Savingio)",
+          "h1": "소상공인 정책자금 확인 방법",
+          "char_count": 4509
+        },
+        {
+          "path": "articles/small-business-policy-fund.html",
+          "title": "소상공인 정책자금 신청 순서 | 세이빙이오(Savingio)",
+          "h1": "소상공인 정책자금 신청 순서",
+          "char_count": 4509
+        },
+        {
+          "path": "articles/spending-habits-change.html",
+          "title": "소비 습관 바꾸는 방법 | 세이빙이오(Savingio)",
+          "h1": "소비 습관 바꾸는 방법",
+          "char_count": 4581
+        },
+        {
+          "path": "articles/summer-gas-bill-hot-water-saving.html",
+          "title": "여름 가스요금 줄이는 온수 사용법 | 세이빙이오(Savingio)",
+          "h1": "여름 가스요금 줄이는 온수 사용법",
+          "char_count": 4839
+        },
+        {
+          "path": "articles/summer-vacation-budget-plan.html",
+          "title": "여름 휴가비 예산 짜는 방법 | 세이빙이오(Savingio)",
+          "h1": "여름 휴가비 예산 짜는 방법",
+          "char_count": 4841
+        },
+        {
+          "path": "articles/summer-water-bill-spike-check.html",
+          "title": "여름철 수도요금 급증 원인 점검 | 세이빙이오(Savingio)",
+          "h1": "여름철 수도요금 급증 원인 점검",
+          "char_count": 4808
+        },
+        {
+          "path": "articles/tax-credit-late-application.html",
+          "title": "장려금 신청 누락 시 기한후 신청 방법 | 세이빙이오(Savingio)",
+          "h1": "장려금 신청 누락 시 기한후 신청 방법",
+          "char_count": 4993
+        },
+        {
+          "path": "articles/telecom-discount-guide.html",
+          "title": "통신비 할인 총정리 | 세이빙이오(Savingio)",
+          "h1": "통신비 할인 총정리",
+          "char_count": 4808
+        },
+        {
+          "path": "articles/travel-insurance-comparison.html",
+          "title": "여행자보험 가입 전 비교 항목 | 세이빙이오(Savingio)",
+          "h1": "여행자보험 가입 전 비교 항목",
+          "char_count": 4768
+        },
+        {
+          "path": "articles/unemployment-benefit-job-search.html",
+          "title": "실업급여 구직활동 인정 기준 | 세이빙이오(Savingio)",
+          "h1": "실업급여 구직활동 인정 기준",
+          "char_count": 4739
+        },
+        {
+          "path": "articles/vat-final-return-2026-july.html",
+          "title": "2026년 부가가치세 확정신고 방법과 공식 기한 확인 | 세이빙이오(Savingio)",
+          "h1": "2026년 부가가치세 확정신고 방법과 공식 기한 확인",
+          "char_count": 6006
+        },
+        {
+          "path": "articles/vat-input-tax-deduction-2026.html",
+          "title": "부가가치세 매입세액 공제 가능한 항목과 불공제 항목 정리 | 세이빙이오(Savingio)",
+          "h1": "부가가치세 매입세액 공제 가능한 항목과 불공제 항목 정리",
+          "char_count": 5950
+        },
+        {
+          "path": "articles/vat-input-tax-deduction-items.html",
+          "title": "부가가치세 매입세액 공제 항목과 불공제 구분법 | 세이빙이오(Savingio)",
+          "h1": "부가가치세 매입세액 공제 항목과 불공제 구분법",
+          "char_count": 5388
+        },
+        {
+          "path": "articles/vat-payment-extension-guide.html",
+          "title": "부가가치세 신고 후 납부기한 연장 신청 방법 | 세이빙이오(Savingio)",
+          "h1": "부가가치세 신고 후 납부기한 연장 신청 방법",
+          "char_count": 5851
+        },
+        {
+          "path": "articles/wetax-electronic-billing.html",
+          "title": "위택스 지방세 전자고지 신청 방법 | 세이빙이오(Savingio)",
+          "h1": "위택스 지방세 전자고지 신청 방법",
+          "char_count": 4405
+        },
+        {
+          "path": "articles/wetax-payment-history.html",
+          "title": "위택스 납부내역 확인 방법 | 세이빙이오(Savingio)",
+          "h1": "위택스 납부내역 확인 방법",
+          "char_count": 4386
+        },
+        {
+          "path": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "title": "노란우산공제 가입 전 확인사항 | 세이빙이오(Savingio)",
+          "h1": "노란우산공제 가입 전 확인사항",
+          "char_count": 4588
+        },
+        {
+          "path": "articles/youth-leap-account-contribution.html",
+          "title": "청년도약계좌 정부기여금 확인법 | 세이빙이오(Savingio)",
+          "h1": "청년도약계좌 정부기여금 확인법",
+          "char_count": 4842
+        },
+        {
+          "path": "articles/youth-savings-account-maintenance.html",
+          "title": "청년내일저축계좌 유지 조건 | 세이빙이오(Savingio)",
+          "h1": "청년내일저축계좌 유지 조건",
+          "char_count": 4821
+        },
+        {
+          "path": "articles/youth-support-programs.html",
+          "title": "청년 지원금 종류 한눈에 보기, 신청 전 확인할 기준 | 세이빙이오(Savingio)",
+          "h1": "청년 지원금 종류 한눈에 보기, 신청 전 확인할 기준",
+          "char_count": 5016
+        }
+      ],
+      "relationships": [
+        {
+          "a": "articles/vat-input-tax-deduction-2026.html",
+          "b": "articles/vat-input-tax-deduction-items.html",
+          "classification": "strong_duplicate",
+          "title_similarity": 0.6923,
+          "body_similarity": 0.6483
+        },
+        {
+          "a": "articles/small-business-policy-fund-search.html",
+          "b": "articles/small-business-policy-fund.html",
+          "classification": "strong_duplicate",
+          "title_similarity": 0.6667,
+          "body_similarity": 0.9982
+        },
+        {
+          "a": "articles/small-business-closure-support.html",
+          "b": "articles/small-business-electricity-support.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.4545,
+          "body_similarity": 0.844
+        },
+        {
+          "a": "articles/small-business-closure-support.html",
+          "b": "articles/small-business-delivery-support.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.3333,
+          "body_similarity": 0.9859
+        },
+        {
+          "a": "articles/small-business-delivery-support.html",
+          "b": "articles/small-business-electricity-support.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.3333,
+          "body_similarity": 0.8309
+        },
+        {
+          "a": "articles/simplified-vat-checklist.html",
+          "b": "articles/vat-payment-extension-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.25,
+          "body_similarity": 0.9953
+        },
+        {
+          "a": "articles/small-business-closure-support.html",
+          "b": "articles/small-business-policy-fund-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.25,
+          "body_similarity": 0.9871
+        },
+        {
+          "a": "articles/small-business-delivery-support.html",
+          "b": "articles/small-business-policy-fund-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.25,
+          "body_similarity": 0.9851
+        },
+        {
+          "a": "articles/small-business-electricity-support.html",
+          "b": "articles/small-business-policy-fund-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.25,
+          "body_similarity": 0.8432
+        },
+        {
+          "a": "articles/small-business-closure-support.html",
+          "b": "articles/small-business-policy-fund.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.2308,
+          "body_similarity": 0.9869
+        },
+        {
+          "a": "articles/small-business-delivery-support.html",
+          "b": "articles/small-business-policy-fund.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.2308,
+          "body_similarity": 0.9833
+        },
+        {
+          "a": "articles/small-business-electricity-support.html",
+          "b": "articles/small-business-policy-fund.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.2308,
+          "body_similarity": 0.8421
+        },
+        {
+          "a": "articles/wetax-electronic-billing.html",
+          "b": "articles/wetax-payment-history.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.2,
+          "body_similarity": 0.9911
+        },
+        {
+          "a": "articles/summer-gas-bill-hot-water-saving.html",
+          "b": "articles/summer-water-bill-spike-check.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.1765,
+          "body_similarity": 0.9498
+        },
+        {
+          "a": "articles/youth-leap-account-contribution.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.1667,
+          "body_similarity": 0.961
+        },
+        {
+          "a": "articles/simplified-vat-checklist.html",
+          "b": "articles/vat-final-return-2026-july.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.1429,
+          "body_similarity": 0.9572
+        },
+        {
+          "a": "articles/vat-final-return-2026-july.html",
+          "b": "articles/vat-payment-extension-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.1333,
+          "body_similarity": 0.9592
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/summer-water-bill-spike-check.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.1333,
+          "body_similarity": 0.9162
+        },
+        {
+          "a": "articles/simplified-vat-checklist.html",
+          "b": "articles/vat-input-tax-deduction-2026.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.125,
+          "body_similarity": 0.964
+        },
+        {
+          "a": "articles/single-parent-support-benefits.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.125,
+          "body_similarity": 0.9341
+        },
+        {
+          "a": "articles/vat-input-tax-deduction-2026.html",
+          "b": "articles/vat-payment-extension-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.1176,
+          "body_similarity": 0.9655
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/summer-gas-bill-hot-water-saving.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.1176,
+          "body_similarity": 0.9206
+        },
+        {
+          "a": "articles/summer-gas-bill-hot-water-saving.html",
+          "b": "articles/summer-vacation-budget-plan.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.1176,
+          "body_similarity": 0.836
+        },
+        {
+          "a": "articles/vat-final-return-2026-july.html",
+          "b": "articles/vat-input-tax-deduction-2026.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.1111,
+          "body_similarity": 0.9487
+        },
+        {
+          "a": "articles/vat-payment-extension-guide.html",
+          "b": "articles/wetax-payment-history.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0833,
+          "body_similarity": 0.8324
+        },
+        {
+          "a": "articles/travel-insurance-comparison.html",
+          "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0769,
+          "body_similarity": 0.8912
+        },
+        {
+          "a": "articles/small-business-policy-fund.html",
+          "b": "articles/wetax-electronic-billing.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0714,
+          "body_similarity": 0.9055
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0714,
+          "body_similarity": 0.8813
+        },
+        {
+          "a": "articles/tax-credit-late-application.html",
+          "b": "articles/wetax-electronic-billing.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0714,
+          "body_similarity": 0.8614
+        },
+        {
+          "a": "articles/small-business-policy-fund-search.html",
+          "b": "articles/unemployment-benefit-job-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0714,
+          "body_similarity": 0.8523
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0714,
+          "body_similarity": 0.8449
+        },
+        {
+          "a": "articles/single-parent-support-benefits.html",
+          "b": "articles/small-business-delivery-support.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0714,
+          "body_similarity": 0.8408
+        },
+        {
+          "a": "articles/small-business-electricity-support.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0714,
+          "body_similarity": 0.8394
+        },
+        {
+          "a": "articles/single-parent-support-benefits.html",
+          "b": "articles/small-business-closure-support.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0714,
+          "body_similarity": 0.8373
+        },
+        {
+          "a": "articles/vat-payment-extension-guide.html",
+          "b": "articles/wetax-electronic-billing.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0714,
+          "body_similarity": 0.8306
+        },
+        {
+          "a": "articles/single-parent-support-benefits.html",
+          "b": "articles/small-business-electricity-support.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0714,
+          "body_similarity": 0.7815
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/small-business-electricity-support.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0667,
+          "body_similarity": 0.9654
+        },
+        {
+          "a": "articles/small-business-policy-fund.html",
+          "b": "articles/tax-credit-late-application.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0667,
+          "body_similarity": 0.8564
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/small-business-electricity-support.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0667,
+          "body_similarity": 0.8249
+        },
+        {
+          "a": "articles/tax-credit-late-application.html",
+          "b": "articles/vat-payment-extension-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0667,
+          "body_similarity": 0.821
+        },
+        {
+          "a": "articles/small-business-policy-fund.html",
+          "b": "articles/vat-payment-extension-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0667,
+          "body_similarity": 0.8173
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/summer-vacation-budget-plan.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0667,
+          "body_similarity": 0.8013
+        },
+        {
+          "a": "articles/summer-vacation-budget-plan.html",
+          "b": "articles/summer-water-bill-spike-check.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0625,
+          "body_similarity": 0.8042
+        },
+        {
+          "a": "articles/youth-savings-account-maintenance.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0588,
+          "body_similarity": 0.9496
+        },
+        {
+          "a": "articles/youth-leap-account-contribution.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0588,
+          "body_similarity": 0.9386
+        },
+        {
+          "a": "articles/wetax-electronic-billing.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0588,
+          "body_similarity": 0.8469
+        },
+        {
+          "a": "articles/travel-insurance-comparison.html",
+          "b": "articles/vat-input-tax-deduction-2026.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0588,
+          "body_similarity": 0.8355
+        },
+        {
+          "a": "articles/tax-credit-late-application.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0556,
+          "body_similarity": 0.9272
+        },
+        {
+          "a": "articles/small-business-policy-fund.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0556,
+          "body_similarity": 0.8526
+        },
+        {
+          "a": "articles/small-business-closure-support.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0556,
+          "body_similarity": 0.8511
+        },
+        {
+          "a": "articles/small-business-delivery-support.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0556,
+          "body_similarity": 0.8509
+        },
+        {
+          "a": "articles/unemployment-benefit-job-search.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0556,
+          "body_similarity": 0.829
+        },
+        {
+          "a": "articles/tax-credit-late-application.html",
+          "b": "articles/vat-input-tax-deduction-2026.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0556,
+          "body_similarity": 0.8091
+        },
+        {
+          "a": "articles/small-business-electricity-support.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0556,
+          "body_similarity": 0.7931
+        },
+        {
+          "a": "articles/vat-payment-extension-guide.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0556,
+          "body_similarity": 0.7865
+        },
+        {
+          "a": "articles/small-business-policy-fund-search.html",
+          "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.9546
+        },
+        {
+          "a": "articles/small-business-policy-fund.html",
+          "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.9529
+        },
+        {
+          "a": "articles/small-business-delivery-support.html",
+          "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.941
+        },
+        {
+          "a": "articles/small-business-closure-support.html",
+          "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.9401
+        },
+        {
+          "a": "articles/tax-credit-late-application.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.9399
+        },
+        {
+          "a": "articles/tax-credit-late-application.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.9264
+        },
+        {
+          "a": "articles/small-business-policy-fund-search.html",
+          "b": "articles/wetax-payment-history.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.9252
+        },
+        {
+          "a": "articles/small-business-policy-fund.html",
+          "b": "articles/wetax-payment-history.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.9225
+        },
+        {
+          "a": "articles/single-parent-support-benefits.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.9175
+        },
+        {
+          "a": "articles/small-business-delivery-support.html",
+          "b": "articles/wetax-payment-history.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.917
+        },
+        {
+          "a": "articles/small-business-closure-support.html",
+          "b": "articles/wetax-payment-history.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.9158
+        },
+        {
+          "a": "articles/single-parent-support-benefits.html",
+          "b": "articles/tax-credit-late-application.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.9154
+        },
+        {
+          "a": "articles/single-parent-support-benefits.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.9089
+        },
+        {
+          "a": "articles/small-business-policy-fund-search.html",
+          "b": "articles/wetax-electronic-billing.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.9082
+        },
+        {
+          "a": "articles/small-business-policy-fund-search.html",
+          "b": "articles/spending-habits-change.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.9073
+        },
+        {
+          "a": "articles/wetax-payment-history.html",
+          "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.9051
+        },
+        {
+          "a": "articles/small-business-policy-fund.html",
+          "b": "articles/spending-habits-change.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.9041
+        },
+        {
+          "a": "articles/summer-gas-bill-hot-water-saving.html",
+          "b": "articles/telecom-discount-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.9009
+        },
+        {
+          "a": "articles/spending-habits-change.html",
+          "b": "articles/wetax-payment-history.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.9008
+        },
+        {
+          "a": "articles/small-business-delivery-support.html",
+          "b": "articles/wetax-electronic-billing.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.9006
+        },
+        {
+          "a": "articles/small-business-closure-support.html",
+          "b": "articles/wetax-electronic-billing.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8988
+        },
+        {
+          "a": "articles/spending-habits-change.html",
+          "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8981
+        },
+        {
+          "a": "articles/wetax-electronic-billing.html",
+          "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.898
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/small-business-policy-fund-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8975
+        },
+        {
+          "a": "articles/small-business-electricity-support.html",
+          "b": "articles/summer-gas-bill-hot-water-saving.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8973
+        },
+        {
+          "a": "articles/summer-water-bill-spike-check.html",
+          "b": "articles/telecom-discount-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8972
+        },
+        {
+          "a": "articles/spending-habits-change.html",
+          "b": "articles/wetax-electronic-billing.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8961
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8952
+        },
+        {
+          "a": "articles/small-business-electricity-support.html",
+          "b": "articles/summer-water-bill-spike-check.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8946
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/small-business-policy-fund.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8944
+        },
+        {
+          "a": "articles/small-business-delivery-support.html",
+          "b": "articles/spending-habits-change.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8907
+        },
+        {
+          "a": "articles/small-business-closure-support.html",
+          "b": "articles/spending-habits-change.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8889
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/spending-habits-change.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8883
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/wetax-payment-history.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8873
+        },
+        {
+          "a": "articles/spending-habits-change.html",
+          "b": "articles/summer-vacation-budget-plan.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8871
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/wetax-electronic-billing.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8853
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/telecom-discount-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8833
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/small-business-delivery-support.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8812
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/summer-vacation-budget-plan.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.88
+        },
+        {
+          "a": "articles/small-business-policy-fund-search.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8797
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/small-business-closure-support.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8795
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/small-business-policy-fund-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8794
+        },
+        {
+          "a": "articles/small-business-policy-fund.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8781
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/small-business-policy-fund.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8778
+        },
+        {
+          "a": "articles/small-business-closure-support.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8765
+        },
+        {
+          "a": "articles/small-business-electricity-support.html",
+          "b": "articles/telecom-discount-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8748
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/spending-habits-change.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8697
+        },
+        {
+          "a": "articles/small-business-delivery-support.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8694
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/travel-insurance-comparison.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8677
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8665
+        },
+        {
+          "a": "articles/small-business-policy-fund-search.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8642
+        },
+        {
+          "a": "articles/wetax-payment-history.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8633
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/small-business-closure-support.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8627
+        },
+        {
+          "a": "articles/small-business-policy-fund.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8621
+        },
+        {
+          "a": "articles/travel-insurance-comparison.html",
+          "b": "articles/wetax-payment-history.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8614
+        },
+        {
+          "a": "articles/small-business-closure-support.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8606
+        },
+        {
+          "a": "articles/small-business-policy-fund-search.html",
+          "b": "articles/travel-insurance-comparison.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8605
+        },
+        {
+          "a": "articles/wetax-payment-history.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8596
+        },
+        {
+          "a": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8596
+        },
+        {
+          "a": "articles/small-business-policy-fund-search.html",
+          "b": "articles/tax-credit-late-application.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8595
+        },
+        {
+          "a": "articles/small-business-delivery-support.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8594
+        },
+        {
+          "a": "articles/small-business-policy-fund.html",
+          "b": "articles/travel-insurance-comparison.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8589
+        },
+        {
+          "a": "articles/travel-insurance-comparison.html",
+          "b": "articles/wetax-electronic-billing.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8589
+        },
+        {
+          "a": "articles/small-business-policy-fund-search.html",
+          "b": "articles/telecom-discount-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8582
+        },
+        {
+          "a": "articles/small-business-delivery-support.html",
+          "b": "articles/tax-credit-late-application.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8581
+        },
+        {
+          "a": "articles/tax-credit-late-application.html",
+          "b": "articles/wetax-payment-history.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8574
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/small-business-delivery-support.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8569
+        },
+        {
+          "a": "articles/small-business-policy-fund.html",
+          "b": "articles/telecom-discount-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8566
+        },
+        {
+          "a": "articles/wetax-electronic-billing.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8564
+        },
+        {
+          "a": "articles/wetax-electronic-billing.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8561
+        },
+        {
+          "a": "articles/tax-credit-late-application.html",
+          "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8551
+        },
+        {
+          "a": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8549
+        },
+        {
+          "a": "articles/small-business-closure-support.html",
+          "b": "articles/tax-credit-late-application.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8545
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/wetax-payment-history.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8544
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/savings-maturity-auto-renewal.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8543
+        },
+        {
+          "a": "articles/small-business-policy-fund-search.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8542
+        },
+        {
+          "a": "articles/telecom-discount-guide.html",
+          "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8536
+        },
+        {
+          "a": "articles/small-business-delivery-support.html",
+          "b": "articles/travel-insurance-comparison.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8531
+        },
+        {
+          "a": "articles/small-business-closure-support.html",
+          "b": "articles/travel-insurance-comparison.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.853
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/telecom-discount-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8525
+        },
+        {
+          "a": "articles/small-business-closure-support.html",
+          "b": "articles/telecom-discount-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8507
+        },
+        {
+          "a": "articles/small-business-policy-fund.html",
+          "b": "articles/unemployment-benefit-job-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8507
+        },
+        {
+          "a": "articles/unemployment-benefit-job-search.html",
+          "b": "articles/wetax-payment-history.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8506
+        },
+        {
+          "a": "articles/spending-habits-change.html",
+          "b": "articles/telecom-discount-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8505
+        },
+        {
+          "a": "articles/spending-habits-change.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8505
+        },
+        {
+          "a": "articles/wetax-payment-history.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8503
+        },
+        {
+          "a": "articles/telecom-discount-guide.html",
+          "b": "articles/wetax-payment-history.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8501
+        },
+        {
+          "a": "articles/unemployment-benefit-job-search.html",
+          "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8501
+        },
+        {
+          "a": "articles/small-business-delivery-support.html",
+          "b": "articles/telecom-discount-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8498
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/wetax-electronic-billing.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8493
+        },
+        {
+          "a": "articles/small-business-delivery-support.html",
+          "b": "articles/unemployment-benefit-job-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.849
+        },
+        {
+          "a": "articles/small-business-closure-support.html",
+          "b": "articles/unemployment-benefit-job-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8488
+        },
+        {
+          "a": "articles/spending-habits-change.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8483
+        },
+        {
+          "a": "articles/unemployment-benefit-job-search.html",
+          "b": "articles/wetax-electronic-billing.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8481
+        },
+        {
+          "a": "articles/telecom-discount-guide.html",
+          "b": "articles/wetax-electronic-billing.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.848
+        },
+        {
+          "a": "articles/telecom-discount-guide.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8475
+        },
+        {
+          "a": "articles/travel-insurance-comparison.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8475
+        },
+        {
+          "a": "articles/spending-habits-change.html",
+          "b": "articles/travel-insurance-comparison.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8473
+        },
+        {
+          "a": "articles/tax-credit-late-application.html",
+          "b": "articles/travel-insurance-comparison.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8473
+        },
+        {
+          "a": "articles/single-parent-support-benefits.html",
+          "b": "articles/small-business-policy-fund-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8469
+        },
+        {
+          "a": "articles/spending-habits-change.html",
+          "b": "articles/unemployment-benefit-job-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8467
+        },
+        {
+          "a": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.846
+        },
+        {
+          "a": "articles/telecom-discount-guide.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8458
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/single-parent-support-benefits.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8448
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/travel-insurance-comparison.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8448
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8445
+        },
+        {
+          "a": "articles/spending-habits-change.html",
+          "b": "articles/tax-credit-late-application.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8433
+        },
+        {
+          "a": "articles/single-parent-support-benefits.html",
+          "b": "articles/small-business-policy-fund.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.843
+        },
+        {
+          "a": "articles/travel-insurance-comparison.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8429
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8428
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/tax-credit-late-application.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8425
+        },
+        {
+          "a": "articles/tax-credit-late-application.html",
+          "b": "articles/telecom-discount-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8424
+        },
+        {
+          "a": "articles/travel-insurance-comparison.html",
+          "b": "articles/unemployment-benefit-job-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.842
+        },
+        {
+          "a": "articles/telecom-discount-guide.html",
+          "b": "articles/travel-insurance-comparison.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8417
+        },
+        {
+          "a": "articles/spending-habits-change.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8415
+        },
+        {
+          "a": "articles/single-parent-support-benefits.html",
+          "b": "articles/wetax-payment-history.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8408
+        },
+        {
+          "a": "articles/single-parent-support-benefits.html",
+          "b": "articles/wetax-electronic-billing.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8374
+        },
+        {
+          "a": "articles/summer-vacation-budget-plan.html",
+          "b": "articles/wetax-payment-history.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8373
+        },
+        {
+          "a": "articles/unemployment-benefit-job-search.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8366
+        },
+        {
+          "a": "articles/travel-insurance-comparison.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8364
+        },
+        {
+          "a": "articles/small-business-policy-fund-search.html",
+          "b": "articles/summer-vacation-budget-plan.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8363
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/telecom-discount-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8361
+        },
+        {
+          "a": "articles/spending-habits-change.html",
+          "b": "articles/summer-gas-bill-hot-water-saving.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8358
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/unemployment-benefit-job-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8352
+        },
+        {
+          "a": "articles/telecom-discount-guide.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8345
+        },
+        {
+          "a": "articles/unemployment-benefit-job-search.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.834
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/unemployment-benefit-job-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8337
+        },
+        {
+          "a": "articles/summer-vacation-budget-plan.html",
+          "b": "articles/wetax-electronic-billing.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8337
+        },
+        {
+          "a": "articles/single-parent-support-benefits.html",
+          "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8336
+        },
+        {
+          "a": "articles/single-parent-support-benefits.html",
+          "b": "articles/spending-habits-change.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8334
+        },
+        {
+          "a": "articles/small-business-policy-fund.html",
+          "b": "articles/summer-vacation-budget-plan.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8332
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/tax-credit-late-application.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8331
+        },
+        {
+          "a": "articles/vat-final-return-2026-july.html",
+          "b": "articles/wetax-payment-history.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8331
+        },
+        {
+          "a": "articles/simplified-vat-checklist.html",
+          "b": "articles/wetax-payment-history.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.833
+        },
+        {
+          "a": "articles/summer-vacation-budget-plan.html",
+          "b": "articles/travel-insurance-comparison.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8326
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8317
+        },
+        {
+          "a": "articles/summer-vacation-budget-plan.html",
+          "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8314
+        },
+        {
+          "a": "articles/vat-final-return-2026-july.html",
+          "b": "articles/wetax-electronic-billing.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8313
+        },
+        {
+          "a": "articles/simplified-vat-checklist.html",
+          "b": "articles/wetax-electronic-billing.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8311
+        },
+        {
+          "a": "articles/small-business-policy-fund-search.html",
+          "b": "articles/summer-gas-bill-hot-water-saving.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8308
+        },
+        {
+          "a": "articles/summer-gas-bill-hot-water-saving.html",
+          "b": "articles/wetax-payment-history.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8303
+        },
+        {
+          "a": "articles/tax-credit-late-application.html",
+          "b": "articles/unemployment-benefit-job-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8302
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.83
+        },
+        {
+          "a": "articles/telecom-discount-guide.html",
+          "b": "articles/unemployment-benefit-job-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8295
+        },
+        {
+          "a": "articles/spending-habits-change.html",
+          "b": "articles/summer-water-bill-spike-check.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8294
+        },
+        {
+          "a": "articles/small-business-delivery-support.html",
+          "b": "articles/summer-vacation-budget-plan.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.829
+        },
+        {
+          "a": "articles/small-business-policy-fund.html",
+          "b": "articles/summer-gas-bill-hot-water-saving.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8287
+        },
+        {
+          "a": "articles/vat-input-tax-deduction-2026.html",
+          "b": "articles/wetax-payment-history.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8282
+        },
+        {
+          "a": "articles/small-business-closure-support.html",
+          "b": "articles/summer-vacation-budget-plan.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8274
+        },
+        {
+          "a": "articles/summer-gas-bill-hot-water-saving.html",
+          "b": "articles/wetax-electronic-billing.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8268
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/summer-vacation-budget-plan.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8266
+        },
+        {
+          "a": "articles/vat-input-tax-deduction-2026.html",
+          "b": "articles/wetax-electronic-billing.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8264
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/spending-habits-change.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8258
+        },
+        {
+          "a": "articles/single-parent-support-benefits.html",
+          "b": "articles/travel-insurance-comparison.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8255
+        },
+        {
+          "a": "articles/small-business-policy-fund-search.html",
+          "b": "articles/summer-water-bill-spike-check.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8255
+        },
+        {
+          "a": "articles/summer-vacation-budget-plan.html",
+          "b": "articles/telecom-discount-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8254
+        },
+        {
+          "a": "articles/summer-water-bill-spike-check.html",
+          "b": "articles/wetax-payment-history.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8251
+        },
+        {
+          "a": "articles/summer-vacation-budget-plan.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8248
+        },
+        {
+          "a": "articles/summer-vacation-budget-plan.html",
+          "b": "articles/unemployment-benefit-job-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8241
+        },
+        {
+          "a": "articles/small-business-policy-fund.html",
+          "b": "articles/summer-water-bill-spike-check.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8235
+        },
+        {
+          "a": "articles/single-parent-support-benefits.html",
+          "b": "articles/telecom-discount-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8232
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/single-parent-support-benefits.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.823
+        },
+        {
+          "a": "articles/small-business-closure-support.html",
+          "b": "articles/summer-gas-bill-hot-water-saving.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.823
+        },
+        {
+          "a": "articles/summer-vacation-budget-plan.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.823
+        },
+        {
+          "a": "articles/summer-vacation-budget-plan.html",
+          "b": "articles/tax-credit-late-application.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8228
+        },
+        {
+          "a": "articles/simplified-vat-checklist.html",
+          "b": "articles/travel-insurance-comparison.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8223
+        },
+        {
+          "a": "articles/summer-water-bill-spike-check.html",
+          "b": "articles/wetax-electronic-billing.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8221
+        },
+        {
+          "a": "articles/travel-insurance-comparison.html",
+          "b": "articles/vat-payment-extension-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8221
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/small-business-policy-fund-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8216
+        },
+        {
+          "a": "articles/summer-gas-bill-hot-water-saving.html",
+          "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8214
+        },
+        {
+          "a": "articles/simplified-vat-checklist.html",
+          "b": "articles/tax-credit-late-application.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8213
+        },
+        {
+          "a": "articles/small-business-delivery-support.html",
+          "b": "articles/summer-gas-bill-hot-water-saving.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8206
+        },
+        {
+          "a": "articles/summer-gas-bill-hot-water-saving.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8204
+        },
+        {
+          "a": "articles/small-business-policy-fund-search.html",
+          "b": "articles/vat-input-tax-deduction-2026.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8201
+        },
+        {
+          "a": "articles/small-business-policy-fund.html",
+          "b": "articles/vat-input-tax-deduction-2026.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.82
+        },
+        {
+          "a": "articles/small-business-policy-fund-search.html",
+          "b": "articles/vat-final-return-2026-july.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8195
+        },
+        {
+          "a": "articles/simplified-vat-checklist.html",
+          "b": "articles/small-business-policy-fund-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8194
+        },
+        {
+          "a": "articles/small-business-electricity-support.html",
+          "b": "articles/spending-habits-change.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8193
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/small-business-policy-fund.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8192
+        },
+        {
+          "a": "articles/simplified-vat-checklist.html",
+          "b": "articles/small-business-policy-fund.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8192
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/summer-gas-bill-hot-water-saving.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8191
+        },
+        {
+          "a": "articles/small-business-policy-fund-search.html",
+          "b": "articles/vat-payment-extension-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8188
+        },
+        {
+          "a": "articles/travel-insurance-comparison.html",
+          "b": "articles/vat-final-return-2026-july.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8188
+        },
+        {
+          "a": "articles/small-business-closure-support.html",
+          "b": "articles/summer-water-bill-spike-check.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8183
+        },
+        {
+          "a": "articles/small-business-policy-fund.html",
+          "b": "articles/vat-final-return-2026-july.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8171
+        },
+        {
+          "a": "articles/vat-final-return-2026-july.html",
+          "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.817
+        },
+        {
+          "a": "articles/summer-water-bill-spike-check.html",
+          "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8167
+        },
+        {
+          "a": "articles/vat-input-tax-deduction-2026.html",
+          "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8167
+        },
+        {
+          "a": "articles/simplified-vat-checklist.html",
+          "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8165
+        },
+        {
+          "a": "articles/summer-water-bill-spike-check.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8165
+        },
+        {
+          "a": "articles/small-business-delivery-support.html",
+          "b": "articles/summer-water-bill-spike-check.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8164
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/summer-gas-bill-hot-water-saving.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8163
+        },
+        {
+          "a": "articles/summer-vacation-budget-plan.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.816
+        },
+        {
+          "a": "articles/small-business-electricity-support.html",
+          "b": "articles/wetax-payment-history.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8151
+        },
+        {
+          "a": "articles/vat-payment-extension-guide.html",
+          "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.815
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8146
+        },
+        {
+          "a": "articles/summer-gas-bill-hot-water-saving.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8144
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/small-business-closure-support.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.814
+        },
+        {
+          "a": "articles/small-business-electricity-support.html",
+          "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.814
+        },
+        {
+          "a": "articles/small-business-delivery-support.html",
+          "b": "articles/vat-input-tax-deduction-2026.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8134
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/summer-water-bill-spike-check.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8129
+        },
+        {
+          "a": "articles/small-business-closure-support.html",
+          "b": "articles/vat-input-tax-deduction-2026.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8127
+        },
+        {
+          "a": "articles/small-business-delivery-support.html",
+          "b": "articles/vat-final-return-2026-july.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8127
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/wetax-payment-history.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8123
+        },
+        {
+          "a": "articles/simplified-vat-checklist.html",
+          "b": "articles/small-business-delivery-support.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8121
+        },
+        {
+          "a": "articles/summer-gas-bill-hot-water-saving.html",
+          "b": "articles/tax-credit-late-application.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.812
+        },
+        {
+          "a": "articles/simplified-vat-checklist.html",
+          "b": "articles/small-business-closure-support.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8119
+        },
+        {
+          "a": "articles/small-business-delivery-support.html",
+          "b": "articles/vat-payment-extension-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8116
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/summer-water-bill-spike-check.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8111
+        },
+        {
+          "a": "articles/tax-credit-late-application.html",
+          "b": "articles/vat-final-return-2026-july.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8109
+        },
+        {
+          "a": "articles/summer-water-bill-spike-check.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8106
+        },
+        {
+          "a": "articles/small-business-closure-support.html",
+          "b": "articles/vat-payment-extension-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.81
+        },
+        {
+          "a": "articles/small-business-closure-support.html",
+          "b": "articles/vat-final-return-2026-july.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8098
+        },
+        {
+          "a": "articles/single-parent-support-benefits.html",
+          "b": "articles/summer-vacation-budget-plan.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8097
+        },
+        {
+          "a": "articles/summer-gas-bill-hot-water-saving.html",
+          "b": "articles/travel-insurance-comparison.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8097
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/savings-maturity-auto-renewal.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8095
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/small-business-delivery-support.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8084
+        },
+        {
+          "a": "articles/simplified-vat-checklist.html",
+          "b": "articles/telecom-discount-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.808
+        },
+        {
+          "a": "articles/single-parent-support-benefits.html",
+          "b": "articles/unemployment-benefit-job-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.808
+        },
+        {
+          "a": "articles/summer-water-bill-spike-check.html",
+          "b": "articles/tax-credit-late-application.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8077
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/wetax-electronic-billing.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8074
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/vat-final-return-2026-july.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8068
+        },
+        {
+          "a": "articles/telecom-discount-guide.html",
+          "b": "articles/vat-input-tax-deduction-2026.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8067
+        },
+        {
+          "a": "articles/small-business-electricity-support.html",
+          "b": "articles/wetax-electronic-billing.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8064
+        },
+        {
+          "a": "articles/telecom-discount-guide.html",
+          "b": "articles/vat-payment-extension-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8062
+        },
+        {
+          "a": "articles/simplified-vat-checklist.html",
+          "b": "articles/unemployment-benefit-job-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8057
+        },
+        {
+          "a": "articles/small-business-electricity-support.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8055
+        },
+        {
+          "a": "articles/summer-water-bill-spike-check.html",
+          "b": "articles/travel-insurance-comparison.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8052
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/simplified-vat-checklist.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8049
+        },
+        {
+          "a": "articles/unemployment-benefit-job-search.html",
+          "b": "articles/vat-final-return-2026-july.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8049
+        },
+        {
+          "a": "articles/summer-gas-bill-hot-water-saving.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8048
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/vat-payment-extension-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8047
+        },
+        {
+          "a": "articles/simplified-vat-checklist.html",
+          "b": "articles/spending-habits-change.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8046
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8043
+        },
+        {
+          "a": "articles/spending-habits-change.html",
+          "b": "articles/vat-final-return-2026-july.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8042
+        },
+        {
+          "a": "articles/unemployment-benefit-job-search.html",
+          "b": "articles/vat-payment-extension-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8042
+        },
+        {
+          "a": "articles/spending-habits-change.html",
+          "b": "articles/vat-payment-extension-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8041
+        },
+        {
+          "a": "articles/simplified-vat-checklist.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8035
+        },
+        {
+          "a": "articles/unemployment-benefit-job-search.html",
+          "b": "articles/vat-input-tax-deduction-2026.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8029
+        },
+        {
+          "a": "articles/summer-gas-bill-hot-water-saving.html",
+          "b": "articles/unemployment-benefit-job-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8024
+        },
+        {
+          "a": "articles/vat-payment-extension-guide.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.802
+        },
+        {
+          "a": "articles/telecom-discount-guide.html",
+          "b": "articles/vat-final-return-2026-july.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8018
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/vat-input-tax-deduction-2026.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8016
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/revolving-cancellation-payoff.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.8
+        },
+        {
+          "a": "articles/revolving-cancellation-payoff.html",
+          "b": "articles/small-business-electricity-support.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7997
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7995
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/simplified-vat-checklist.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7995
+        },
+        {
+          "a": "articles/spending-habits-change.html",
+          "b": "articles/vat-input-tax-deduction-2026.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7991
+        },
+        {
+          "a": "articles/summer-water-bill-spike-check.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7991
+        },
+        {
+          "a": "articles/summer-water-bill-spike-check.html",
+          "b": "articles/unemployment-benefit-job-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7988
+        },
+        {
+          "a": "articles/vat-final-return-2026-july.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7983
+        },
+        {
+          "a": "articles/vat-input-tax-deduction-2026.html",
+          "b": "articles/youth-savings-account-maintenance.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.798
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/vat-payment-extension-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7977
+        },
+        {
+          "a": "articles/simplified-vat-checklist.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7977
+        },
+        {
+          "a": "articles/single-parent-support-benefits.html",
+          "b": "articles/summer-gas-bill-hot-water-saving.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7963
+        },
+        {
+          "a": "articles/vat-payment-extension-guide.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7958
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/vat-final-return-2026-july.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7956
+        },
+        {
+          "a": "articles/savings-maturity-auto-renewal.html",
+          "b": "articles/vat-input-tax-deduction-2026.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7955
+        },
+        {
+          "a": "articles/small-business-electricity-support.html",
+          "b": "articles/tax-credit-late-application.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7953
+        },
+        {
+          "a": "articles/vat-input-tax-deduction-2026.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.794
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/tax-credit-late-application.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7938
+        },
+        {
+          "a": "articles/vat-final-return-2026-july.html",
+          "b": "articles/youth-leap-account-contribution.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7925
+        },
+        {
+          "a": "articles/small-business-electricity-support.html",
+          "b": "articles/unemployment-benefit-job-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7906
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/travel-insurance-comparison.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7903
+        },
+        {
+          "a": "articles/single-parent-support-benefits.html",
+          "b": "articles/summer-water-bill-spike-check.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7902
+        },
+        {
+          "a": "articles/small-business-electricity-support.html",
+          "b": "articles/travel-insurance-comparison.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7892
+        },
+        {
+          "a": "articles/simplified-vat-checklist.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7884
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7872
+        },
+        {
+          "a": "articles/small-business-electricity-support.html",
+          "b": "articles/summer-vacation-budget-plan.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7869
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/unemployment-benefit-job-search.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7864
+        },
+        {
+          "a": "articles/vat-final-return-2026-july.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7855
+        },
+        {
+          "a": "articles/vat-input-tax-deduction-2026.html",
+          "b": "articles/youth-support-programs.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7847
+        },
+        {
+          "a": "articles/simplified-vat-checklist.html",
+          "b": "articles/summer-vacation-budget-plan.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7835
+        },
+        {
+          "a": "articles/summer-vacation-budget-plan.html",
+          "b": "articles/vat-payment-extension-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7831
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/single-parent-support-benefits.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7824
+        },
+        {
+          "a": "articles/summer-vacation-budget-plan.html",
+          "b": "articles/vat-final-return-2026-july.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7819
+        },
+        {
+          "a": "articles/single-parent-support-benefits.html",
+          "b": "articles/vat-payment-extension-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7813
+        },
+        {
+          "a": "articles/simplified-vat-checklist.html",
+          "b": "articles/single-parent-support-benefits.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7811
+        },
+        {
+          "a": "articles/single-parent-support-benefits.html",
+          "b": "articles/vat-final-return-2026-july.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7808
+        },
+        {
+          "a": "articles/single-parent-support-benefits.html",
+          "b": "articles/vat-input-tax-deduction-2026.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7787
+        },
+        {
+          "a": "articles/summer-vacation-budget-plan.html",
+          "b": "articles/vat-input-tax-deduction-2026.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7769
+        },
+        {
+          "a": "articles/simplified-vat-checklist.html",
+          "b": "articles/summer-gas-bill-hot-water-saving.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.776
+        },
+        {
+          "a": "articles/summer-gas-bill-hot-water-saving.html",
+          "b": "articles/vat-payment-extension-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7751
+        },
+        {
+          "a": "articles/summer-gas-bill-hot-water-saving.html",
+          "b": "articles/vat-final-return-2026-july.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7743
+        },
+        {
+          "a": "articles/summer-gas-bill-hot-water-saving.html",
+          "b": "articles/vat-input-tax-deduction-2026.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7712
+        },
+        {
+          "a": "articles/simplified-vat-checklist.html",
+          "b": "articles/summer-water-bill-spike-check.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.77
+        },
+        {
+          "a": "articles/summer-water-bill-spike-check.html",
+          "b": "articles/vat-payment-extension-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7691
+        },
+        {
+          "a": "articles/summer-water-bill-spike-check.html",
+          "b": "articles/vat-final-return-2026-july.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7674
+        },
+        {
+          "a": "articles/summer-water-bill-spike-check.html",
+          "b": "articles/vat-input-tax-deduction-2026.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7656
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/simplified-vat-checklist.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7601
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/vat-payment-extension-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7596
+        },
+        {
+          "a": "articles/simplified-vat-checklist.html",
+          "b": "articles/small-business-electricity-support.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7579
+        },
+        {
+          "a": "articles/small-business-electricity-support.html",
+          "b": "articles/vat-payment-extension-guide.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7561
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/vat-final-return-2026-july.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7546
+        },
+        {
+          "a": "articles/refrigerator-summer-electricity-saving.html",
+          "b": "articles/vat-input-tax-deduction-2026.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7545
+        },
+        {
+          "a": "articles/small-business-electricity-support.html",
+          "b": "articles/vat-input-tax-deduction-2026.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7532
+        },
+        {
+          "a": "articles/small-business-electricity-support.html",
+          "b": "articles/vat-final-return-2026-july.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.7525
+        }
+      ],
+      "decision_status": "pending_manual_review",
+      "recommended_next_step": "review_all_articles_in_group_then_choose_merge_keep_or_delete"
+    },
+    {
+      "group_id": "G002",
+      "size": 2,
+      "priority": 1,
+      "articles": [
+        {
+          "path": "articles/rental-contract-reporting-guide.html",
+          "title": "전월세 신고제 신고 방법과 준비서류 | 세이빙이오(Savingio)",
+          "h1": "전월세 신고제 신고 방법과 준비서류",
+          "char_count": 4984
+        },
+        {
+          "path": "articles/youth-housing-benefit-separate-payment.html",
+          "title": "청년 주거급여 분리지급 확인 방법 | 세이빙이오(Savingio)",
+          "h1": "청년 주거급여 분리지급 확인 방법",
+          "char_count": 5393
+        }
+      ],
+      "relationships": [
+        {
+          "a": "articles/rental-contract-reporting-guide.html",
+          "b": "articles/youth-housing-benefit-separate-payment.html",
+          "classification": "review_candidate",
+          "title_similarity": 0.0,
+          "body_similarity": 0.813
+        }
+      ],
+      "decision_status": "pending_manual_review",
+      "recommended_next_step": "review_all_articles_in_group_then_choose_merge_keep_or_delete"
+    }
+  ],
+  "standalone_articles": [
+    "articles/ai-side-hustles-beginner.html",
+    "articles/air-conditioner-electricity-saving.html",
+    "articles/aircon-dry-mode-electricity.html",
+    "articles/aircon-filter-cleaning-savings.html",
+    "articles/aircon-optimal-temperature-savings.html",
+    "articles/apartment-leak-emergency-response.html",
+    "articles/apartment-management-fee-summer.html",
+    "articles/automatic-payment-saving.html",
+    "articles/bank-account-budgeting.html",
+    "articles/bank-fee-saving.html",
+    "articles/basic-livelihood-discounts.html",
+    "articles/basic-pension-application-guide.html",
+    "articles/beginner-budget-plan.html",
+    "articles/beginner-money-management.html",
+    "articles/benefit-scam-warning-2026.html",
+    "articles/budget-app-guide.html",
+    "articles/building-land-property-tax.html",
+    "articles/business-card-hometax-registration.html",
+    "articles/business-closure-vat-order.html",
+    "articles/business-phone-expense-deduction.html",
+    "articles/business-vehicle-expense-basics.html",
+    "articles/cancel-unused-subscriptions.html",
+    "articles/car-aircon-fuel-saving.html",
+    "articles/car-insurance-child-discount.html",
+    "articles/car-insurance-mileage-refund.html",
+    "articles/car-insurance-overpayment-refund.html",
+    "articles/car-insurance-saving.html",
+    "articles/car-tax-annual-payment.html",
+    "articles/car-tax-check-payment-guide.html",
+    "articles/card-points-cashback-guide.html",
+    "articles/cash-advance-vs-card-loan.html",
+    "articles/cash-out-card-points.html",
+    "articles/cashback-apps-guide.html",
+    "articles/check-hidden-refunds.html",
+    "articles/child-allowance-guide.html",
+    "articles/child-tax-credit-status-check.html",
+    "articles/childcare-service-government-support.html",
+    "articles/cma-account-types-risk.html",
+    "articles/credit-card-billing-cycle-guide.html",
+    "articles/credit-score-habits.html",
+    "articles/culture-nuri-card-balance.html",
+    "articles/daily-liability-leak-insurance.html",
+    "articles/debit-card-vs-credit-card.html",
+    "articles/dehumidifier-electricity-saving.html",
+    "articles/deposit-protection-limit-guide.html",
+    "articles/deposit-return-guarantee-checklist.html",
+    "articles/dormant-deposit-insurance-search.html",
+    "articles/dryer-summer-electricity-saving.html",
+    "articles/duplicate-indemnity-insurance-check.html",
+    "articles/earned-income-credit-account-change.html",
+    "articles/earned-income-credit-payment.html",
+    "articles/earned-income-credit-status-check.html",
+    "articles/earned-income-tax-credit-korea.html",
+    "articles/education-benefit-eligibility.html",
+    "articles/education-expense-vs-benefit.html",
+    "articles/electricity-bill-easy-calculator-guide.html",
+    "articles/electricity-bill-saving.html",
+    "articles/electricity-discount-card-guide.html",
+    "articles/electronic-tax-invoice-penalty.html",
+    "articles/elementary-school-education-support.html",
+    "articles/emergency-fund-guide.html",
+    "articles/emergency-medical-support.html",
+    "articles/emergency-welfare-living-support.html",
+    "articles/energy-voucher-2026-application.html",
+    "articles/fan-aircon-combination-saving.html",
+    "articles/first-meeting-voucher-guide.html",
+    "articles/fixed-date-online-application.html",
+    "articles/fixed-speed-aircon-saving.html",
+    "articles/four-major-insurance-deduction-guide.html",
+    "articles/gas-bill-checklist.html",
+    "articles/general-vat-common-mistakes.html",
+    "articles/government-benefit-alert-2026.html",
+    "articles/government-benefit-alert-setup.html",
+    "articles/government-benefits-warning.html",
+    "articles/government-support-calendar.html",
+    "articles/government24-benefit-check.html",
+    "articles/grocery-saving-tips.html",
+    "articles/health-insurance-out-of-pocket-refund.html",
+    "articles/health-insurance-overpayment-refund.html",
+    "articles/health-insurance-refund-guide.html",
+    "articles/heating-bill-saving.html",
+    "articles/home-water-leak-self-check.html",
+    "articles/hometax-refund-status.html",
+    "articles/hometax-vat-sales-check.html",
+    "articles/housing-benefit-eligibility.html",
+    "articles/impulse-buying-control.html",
+    "articles/income-tax-filing-missed-consequences.html",
+    "articles/index.html",
+    "articles/insurance-auto-pay-discount.html",
+    "articles/insurance-surrender-value-check.html",
+    "articles/internet-bill-discount.html",
+    "articles/inverter-aircon-saving-guide.html",
+    "articles/irs-tax-refund-status.html",
+    "articles/lifelong-education-voucher-application.html",
+    "articles/loan-prepayment-fee-check.html",
+    "articles/loan-refinancing-check.html",
+    "articles/local-tax-refund-guide.html",
+    "articles/long-term-care-insurance-application.html",
+    "articles/long-term-repair-reserve-refund-guide.html",
+    "articles/low-income-cooling-support.html",
+    "articles/medical-bill-negotiation.html",
+    "articles/missing-property-tax-bill.html",
+    "articles/money-saving-habits.html",
+    "articles/monthly-budget-planner.html",
+    "articles/monthly-rent-tax-credit-documents.html",
+    "articles/national-employment-support-eligibility.html",
+    "articles/national-pension-additional-payment.html",
+    "articles/national-pension-old-age-benefit-guide.html",
+    "articles/national-pension-overpayment-refund.html",
+    "articles/national-scholarship-application.html",
+    "articles/national-tax-refund-account.html",
+    "articles/national-tax-refund.html",
+    "articles/near-poverty-certificate.html",
+    "articles/over-60-benefits-guide.html",
+    "articles/overdraft-account-guide.html",
+    "articles/parental-benefit-guide.html",
+    "articles/parking-account-rate-comparison.html",
+    "articles/peak-season-hotel-saving.html",
+    "articles/property-tax-bill-checklist-2026.html",
+    "articles/property-tax-calculation-structure.html",
+    "articles/property-tax-deadline.html",
+    "articles/property-tax-electronic-bill-2026.html",
+    "articles/property-tax-installment-application.html",
+    "articles/property-tax-joint-ownership.html",
+    "articles/property-tax-july-2026.html",
+    "articles/property-tax-july-september-difference.html",
+    "articles/property-tax-objection-guide.html",
+    "articles/property-tax-payment-certificate.html",
+    "articles/regional-development-bond-refund-guide.html",
+    "articles/rental-car-vacation-saving.html",
+    "articles/salary-slip-check-guide.html",
+    "articles/salary-take-home-easy-calculator-guide.html",
+    "articles/self-employed-income-tax-refund-check.html",
+    "articles/senior-job-application-guide.html",
+    "articles/severance-pay-calculation-guide.html",
+    "articles/severance-pay-easy-calculator-guide.html",
+    "articles/simple-receipt-expense-rules.html",
+    "articles/student-loan-repayment-guide.html",
+    "articles/subscription-audit-checklist.html",
+    "articles/subsidy24-benefit-search.html",
+    "articles/summer-electricity-tier-check-2026.html",
+    "articles/tax-invoice-vs-cash-receipt.html",
+    "articles/telecom-unclaimed-refund.html",
+    "articles/traffic-fines-difference-guide.html",
+    "articles/unemployment-benefit-checklist.html",
+    "articles/vat-sales-omission-check-2026.html",
+    "articles/vat-zero-sales-filing-2026.html",
+    "articles/vehicle-inspection-reservation-guide.html",
+    "articles/water-bill-saving.html",
+    "articles/weekly-holiday-pay-guide.html"
+  ]
+}

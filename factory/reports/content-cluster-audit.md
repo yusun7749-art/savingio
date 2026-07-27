@@ -1,0 +1,405 @@
+# Savingio 전체 콘텐츠 중복·유사도 분류 보고서
+
+- 전체 본문: **180개**
+- 검토 대상 쌍: **353개**
+- 그룹: **2개**
+
+> 이 보고서는 삭제를 자동 실행하지 않습니다. 각 그룹의 모든 글을 함께 읽고 대표 글 통합·독립 유지·삭제를 결정하기 위한 선분류 자료입니다.
+
+## G001 · 28개 글
+
+- `articles/refrigerator-summer-electricity-saving.html` — 여름철 냉장고 전기세 절약 방법 (5,232자)
+- `articles/revolving-cancellation-payoff.html` — 리볼빙 해지와 잔액 상환 방법 (4,683자)
+- `articles/savings-maturity-auto-renewal.html` — 적금 만기 후 자동재예치 확인법 (4,713자)
+- `articles/simplified-vat-checklist.html` — 간이과세자 부가가치세 신고 체크리스트 (5,827자)
+- `articles/single-parent-support-benefits.html` — 한부모가족 지원금 조회 방법 (5,243자)
+- `articles/small-business-closure-support.html` — 폐업 소상공인 원스톱 지원 확인 (4,518자)
+- `articles/small-business-delivery-support.html` — 소상공인 배달비 지원사업 찾는 방법 (4,498자)
+- `articles/small-business-electricity-support.html` — 소상공인 전기요금 지원 확인법 (5,231자)
+- `articles/small-business-policy-fund-search.html` — 소상공인 정책자금 확인 방법 (4,509자)
+- `articles/small-business-policy-fund.html` — 소상공인 정책자금 신청 순서 (4,509자)
+- `articles/spending-habits-change.html` — 소비 습관 바꾸는 방법 (4,581자)
+- `articles/summer-gas-bill-hot-water-saving.html` — 여름 가스요금 줄이는 온수 사용법 (4,839자)
+- `articles/summer-vacation-budget-plan.html` — 여름 휴가비 예산 짜는 방법 (4,841자)
+- `articles/summer-water-bill-spike-check.html` — 여름철 수도요금 급증 원인 점검 (4,808자)
+- `articles/tax-credit-late-application.html` — 장려금 신청 누락 시 기한후 신청 방법 (4,993자)
+- `articles/telecom-discount-guide.html` — 통신비 할인 총정리 (4,808자)
+- `articles/travel-insurance-comparison.html` — 여행자보험 가입 전 비교 항목 (4,768자)
+- `articles/unemployment-benefit-job-search.html` — 실업급여 구직활동 인정 기준 (4,739자)
+- `articles/vat-final-return-2026-july.html` — 2026년 부가가치세 확정신고 방법과 공식 기한 확인 (6,006자)
+- `articles/vat-input-tax-deduction-2026.html` — 부가가치세 매입세액 공제 가능한 항목과 불공제 항목 정리 (5,950자)
+- `articles/vat-input-tax-deduction-items.html` — 부가가치세 매입세액 공제 항목과 불공제 구분법 (5,388자)
+- `articles/vat-payment-extension-guide.html` — 부가가치세 신고 후 납부기한 연장 신청 방법 (5,851자)
+- `articles/wetax-electronic-billing.html` — 위택스 지방세 전자고지 신청 방법 (4,405자)
+- `articles/wetax-payment-history.html` — 위택스 납부내역 확인 방법 (4,386자)
+- `articles/yellow-umbrella-mutual-aid-guide.html` — 노란우산공제 가입 전 확인사항 (4,588자)
+- `articles/youth-leap-account-contribution.html` — 청년도약계좌 정부기여금 확인법 (4,842자)
+- `articles/youth-savings-account-maintenance.html` — 청년내일저축계좌 유지 조건 (4,821자)
+- `articles/youth-support-programs.html` — 청년 지원금 종류 한눈에 보기, 신청 전 확인할 기준 (5,016자)
+
+유사 관계:
+- **strong_duplicate** · 제목 0.69 · 본문 0.65 — `articles/vat-input-tax-deduction-2026.html` ↔ `articles/vat-input-tax-deduction-items.html`
+- **strong_duplicate** · 제목 0.67 · 본문 1.00 — `articles/small-business-policy-fund-search.html` ↔ `articles/small-business-policy-fund.html`
+- **review_candidate** · 제목 0.45 · 본문 0.84 — `articles/small-business-closure-support.html` ↔ `articles/small-business-electricity-support.html`
+- **review_candidate** · 제목 0.33 · 본문 0.99 — `articles/small-business-closure-support.html` ↔ `articles/small-business-delivery-support.html`
+- **review_candidate** · 제목 0.33 · 본문 0.83 — `articles/small-business-delivery-support.html` ↔ `articles/small-business-electricity-support.html`
+- **review_candidate** · 제목 0.25 · 본문 1.00 — `articles/simplified-vat-checklist.html` ↔ `articles/vat-payment-extension-guide.html`
+- **review_candidate** · 제목 0.25 · 본문 0.99 — `articles/small-business-closure-support.html` ↔ `articles/small-business-policy-fund-search.html`
+- **review_candidate** · 제목 0.25 · 본문 0.99 — `articles/small-business-delivery-support.html` ↔ `articles/small-business-policy-fund-search.html`
+- **review_candidate** · 제목 0.25 · 본문 0.84 — `articles/small-business-electricity-support.html` ↔ `articles/small-business-policy-fund-search.html`
+- **review_candidate** · 제목 0.23 · 본문 0.99 — `articles/small-business-closure-support.html` ↔ `articles/small-business-policy-fund.html`
+- **review_candidate** · 제목 0.23 · 본문 0.98 — `articles/small-business-delivery-support.html` ↔ `articles/small-business-policy-fund.html`
+- **review_candidate** · 제목 0.23 · 본문 0.84 — `articles/small-business-electricity-support.html` ↔ `articles/small-business-policy-fund.html`
+- **review_candidate** · 제목 0.20 · 본문 0.99 — `articles/wetax-electronic-billing.html` ↔ `articles/wetax-payment-history.html`
+- **review_candidate** · 제목 0.18 · 본문 0.95 — `articles/summer-gas-bill-hot-water-saving.html` ↔ `articles/summer-water-bill-spike-check.html`
+- **review_candidate** · 제목 0.17 · 본문 0.96 — `articles/youth-leap-account-contribution.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.14 · 본문 0.96 — `articles/simplified-vat-checklist.html` ↔ `articles/vat-final-return-2026-july.html`
+- **review_candidate** · 제목 0.13 · 본문 0.96 — `articles/vat-final-return-2026-july.html` ↔ `articles/vat-payment-extension-guide.html`
+- **review_candidate** · 제목 0.13 · 본문 0.92 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/summer-water-bill-spike-check.html`
+- **review_candidate** · 제목 0.12 · 본문 0.96 — `articles/simplified-vat-checklist.html` ↔ `articles/vat-input-tax-deduction-2026.html`
+- **review_candidate** · 제목 0.12 · 본문 0.93 — `articles/single-parent-support-benefits.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.12 · 본문 0.97 — `articles/vat-input-tax-deduction-2026.html` ↔ `articles/vat-payment-extension-guide.html`
+- **review_candidate** · 제목 0.12 · 본문 0.92 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/summer-gas-bill-hot-water-saving.html`
+- **review_candidate** · 제목 0.12 · 본문 0.84 — `articles/summer-gas-bill-hot-water-saving.html` ↔ `articles/summer-vacation-budget-plan.html`
+- **review_candidate** · 제목 0.11 · 본문 0.95 — `articles/vat-final-return-2026-july.html` ↔ `articles/vat-input-tax-deduction-2026.html`
+- **review_candidate** · 제목 0.08 · 본문 0.83 — `articles/vat-payment-extension-guide.html` ↔ `articles/wetax-payment-history.html`
+- **review_candidate** · 제목 0.08 · 본문 0.89 — `articles/travel-insurance-comparison.html` ↔ `articles/yellow-umbrella-mutual-aid-guide.html`
+- **review_candidate** · 제목 0.07 · 본문 0.91 — `articles/small-business-policy-fund.html` ↔ `articles/wetax-electronic-billing.html`
+- **review_candidate** · 제목 0.07 · 본문 0.88 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.07 · 본문 0.86 — `articles/tax-credit-late-application.html` ↔ `articles/wetax-electronic-billing.html`
+- **review_candidate** · 제목 0.07 · 본문 0.85 — `articles/small-business-policy-fund-search.html` ↔ `articles/unemployment-benefit-job-search.html`
+- **review_candidate** · 제목 0.07 · 본문 0.84 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.07 · 본문 0.84 — `articles/single-parent-support-benefits.html` ↔ `articles/small-business-delivery-support.html`
+- **review_candidate** · 제목 0.07 · 본문 0.84 — `articles/small-business-electricity-support.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.07 · 본문 0.84 — `articles/single-parent-support-benefits.html` ↔ `articles/small-business-closure-support.html`
+- **review_candidate** · 제목 0.07 · 본문 0.83 — `articles/vat-payment-extension-guide.html` ↔ `articles/wetax-electronic-billing.html`
+- **review_candidate** · 제목 0.07 · 본문 0.78 — `articles/single-parent-support-benefits.html` ↔ `articles/small-business-electricity-support.html`
+- **review_candidate** · 제목 0.07 · 본문 0.97 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/small-business-electricity-support.html`
+- **review_candidate** · 제목 0.07 · 본문 0.86 — `articles/small-business-policy-fund.html` ↔ `articles/tax-credit-late-application.html`
+- **review_candidate** · 제목 0.07 · 본문 0.82 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/small-business-electricity-support.html`
+- **review_candidate** · 제목 0.07 · 본문 0.82 — `articles/tax-credit-late-application.html` ↔ `articles/vat-payment-extension-guide.html`
+- **review_candidate** · 제목 0.07 · 본문 0.82 — `articles/small-business-policy-fund.html` ↔ `articles/vat-payment-extension-guide.html`
+- **review_candidate** · 제목 0.07 · 본문 0.80 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/summer-vacation-budget-plan.html`
+- **review_candidate** · 제목 0.06 · 본문 0.80 — `articles/summer-vacation-budget-plan.html` ↔ `articles/summer-water-bill-spike-check.html`
+- **review_candidate** · 제목 0.06 · 본문 0.95 — `articles/youth-savings-account-maintenance.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.06 · 본문 0.94 — `articles/youth-leap-account-contribution.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.06 · 본문 0.85 — `articles/wetax-electronic-billing.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.06 · 본문 0.84 — `articles/travel-insurance-comparison.html` ↔ `articles/vat-input-tax-deduction-2026.html`
+- **review_candidate** · 제목 0.06 · 본문 0.93 — `articles/tax-credit-late-application.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.06 · 본문 0.85 — `articles/small-business-policy-fund.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.06 · 본문 0.85 — `articles/small-business-closure-support.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.06 · 본문 0.85 — `articles/small-business-delivery-support.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.06 · 본문 0.83 — `articles/unemployment-benefit-job-search.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.06 · 본문 0.81 — `articles/tax-credit-late-application.html` ↔ `articles/vat-input-tax-deduction-2026.html`
+- **review_candidate** · 제목 0.06 · 본문 0.79 — `articles/small-business-electricity-support.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.06 · 본문 0.79 — `articles/vat-payment-extension-guide.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.00 · 본문 0.95 — `articles/small-business-policy-fund-search.html` ↔ `articles/yellow-umbrella-mutual-aid-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.95 — `articles/small-business-policy-fund.html` ↔ `articles/yellow-umbrella-mutual-aid-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.94 — `articles/small-business-delivery-support.html` ↔ `articles/yellow-umbrella-mutual-aid-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.94 — `articles/small-business-closure-support.html` ↔ `articles/yellow-umbrella-mutual-aid-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.94 — `articles/tax-credit-late-application.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.00 · 본문 0.93 — `articles/tax-credit-late-application.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.00 · 본문 0.93 — `articles/small-business-policy-fund-search.html` ↔ `articles/wetax-payment-history.html`
+- **review_candidate** · 제목 0.00 · 본문 0.92 — `articles/small-business-policy-fund.html` ↔ `articles/wetax-payment-history.html`
+- **review_candidate** · 제목 0.00 · 본문 0.92 — `articles/single-parent-support-benefits.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.00 · 본문 0.92 — `articles/small-business-delivery-support.html` ↔ `articles/wetax-payment-history.html`
+- **review_candidate** · 제목 0.00 · 본문 0.92 — `articles/small-business-closure-support.html` ↔ `articles/wetax-payment-history.html`
+- **review_candidate** · 제목 0.00 · 본문 0.92 — `articles/single-parent-support-benefits.html` ↔ `articles/tax-credit-late-application.html`
+- **review_candidate** · 제목 0.00 · 본문 0.91 — `articles/single-parent-support-benefits.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.00 · 본문 0.91 — `articles/small-business-policy-fund-search.html` ↔ `articles/wetax-electronic-billing.html`
+- **review_candidate** · 제목 0.00 · 본문 0.91 — `articles/small-business-policy-fund-search.html` ↔ `articles/spending-habits-change.html`
+- **review_candidate** · 제목 0.00 · 본문 0.91 — `articles/wetax-payment-history.html` ↔ `articles/yellow-umbrella-mutual-aid-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.90 — `articles/small-business-policy-fund.html` ↔ `articles/spending-habits-change.html`
+- **review_candidate** · 제목 0.00 · 본문 0.90 — `articles/summer-gas-bill-hot-water-saving.html` ↔ `articles/telecom-discount-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.90 — `articles/spending-habits-change.html` ↔ `articles/wetax-payment-history.html`
+- **review_candidate** · 제목 0.00 · 본문 0.90 — `articles/small-business-delivery-support.html` ↔ `articles/wetax-electronic-billing.html`
+- **review_candidate** · 제목 0.00 · 본문 0.90 — `articles/small-business-closure-support.html` ↔ `articles/wetax-electronic-billing.html`
+- **review_candidate** · 제목 0.00 · 본문 0.90 — `articles/spending-habits-change.html` ↔ `articles/yellow-umbrella-mutual-aid-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.90 — `articles/wetax-electronic-billing.html` ↔ `articles/yellow-umbrella-mutual-aid-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.90 — `articles/revolving-cancellation-payoff.html` ↔ `articles/small-business-policy-fund-search.html`
+- **review_candidate** · 제목 0.00 · 본문 0.90 — `articles/small-business-electricity-support.html` ↔ `articles/summer-gas-bill-hot-water-saving.html`
+- **review_candidate** · 제목 0.00 · 본문 0.90 — `articles/summer-water-bill-spike-check.html` ↔ `articles/telecom-discount-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.90 — `articles/spending-habits-change.html` ↔ `articles/wetax-electronic-billing.html`
+- **review_candidate** · 제목 0.00 · 본문 0.90 — `articles/revolving-cancellation-payoff.html` ↔ `articles/yellow-umbrella-mutual-aid-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.89 — `articles/small-business-electricity-support.html` ↔ `articles/summer-water-bill-spike-check.html`
+- **review_candidate** · 제목 0.00 · 본문 0.89 — `articles/revolving-cancellation-payoff.html` ↔ `articles/small-business-policy-fund.html`
+- **review_candidate** · 제목 0.00 · 본문 0.89 — `articles/small-business-delivery-support.html` ↔ `articles/spending-habits-change.html`
+- **review_candidate** · 제목 0.00 · 본문 0.89 — `articles/small-business-closure-support.html` ↔ `articles/spending-habits-change.html`
+- **review_candidate** · 제목 0.00 · 본문 0.89 — `articles/revolving-cancellation-payoff.html` ↔ `articles/spending-habits-change.html`
+- **review_candidate** · 제목 0.00 · 본문 0.89 — `articles/revolving-cancellation-payoff.html` ↔ `articles/wetax-payment-history.html`
+- **review_candidate** · 제목 0.00 · 본문 0.89 — `articles/spending-habits-change.html` ↔ `articles/summer-vacation-budget-plan.html`
+- **review_candidate** · 제목 0.00 · 본문 0.89 — `articles/revolving-cancellation-payoff.html` ↔ `articles/wetax-electronic-billing.html`
+- **review_candidate** · 제목 0.00 · 본문 0.88 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/telecom-discount-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.88 — `articles/revolving-cancellation-payoff.html` ↔ `articles/small-business-delivery-support.html`
+- **review_candidate** · 제목 0.00 · 본문 0.88 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/summer-vacation-budget-plan.html`
+- **review_candidate** · 제목 0.00 · 본문 0.88 — `articles/small-business-policy-fund-search.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.00 · 본문 0.88 — `articles/revolving-cancellation-payoff.html` ↔ `articles/small-business-closure-support.html`
+- **review_candidate** · 제목 0.00 · 본문 0.88 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/small-business-policy-fund-search.html`
+- **review_candidate** · 제목 0.00 · 본문 0.88 — `articles/small-business-policy-fund.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.00 · 본문 0.88 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/small-business-policy-fund.html`
+- **review_candidate** · 제목 0.00 · 본문 0.88 — `articles/small-business-closure-support.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.00 · 본문 0.87 — `articles/small-business-electricity-support.html` ↔ `articles/telecom-discount-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.87 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/spending-habits-change.html`
+- **review_candidate** · 제목 0.00 · 본문 0.87 — `articles/small-business-delivery-support.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.00 · 본문 0.87 — `articles/revolving-cancellation-payoff.html` ↔ `articles/travel-insurance-comparison.html`
+- **review_candidate** · 제목 0.00 · 본문 0.87 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/yellow-umbrella-mutual-aid-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.86 — `articles/small-business-policy-fund-search.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.00 · 본문 0.86 — `articles/wetax-payment-history.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.00 · 본문 0.86 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/small-business-closure-support.html`
+- **review_candidate** · 제목 0.00 · 본문 0.86 — `articles/small-business-policy-fund.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.00 · 본문 0.86 — `articles/travel-insurance-comparison.html` ↔ `articles/wetax-payment-history.html`
+- **review_candidate** · 제목 0.00 · 본문 0.86 — `articles/small-business-closure-support.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.00 · 본문 0.86 — `articles/small-business-policy-fund-search.html` ↔ `articles/travel-insurance-comparison.html`
+- **review_candidate** · 제목 0.00 · 본문 0.86 — `articles/wetax-payment-history.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.00 · 본문 0.86 — `articles/yellow-umbrella-mutual-aid-guide.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.00 · 본문 0.86 — `articles/small-business-policy-fund-search.html` ↔ `articles/tax-credit-late-application.html`
+- **review_candidate** · 제목 0.00 · 본문 0.86 — `articles/small-business-delivery-support.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.00 · 본문 0.86 — `articles/small-business-policy-fund.html` ↔ `articles/travel-insurance-comparison.html`
+- **review_candidate** · 제목 0.00 · 본문 0.86 — `articles/travel-insurance-comparison.html` ↔ `articles/wetax-electronic-billing.html`
+- **review_candidate** · 제목 0.00 · 본문 0.86 — `articles/small-business-policy-fund-search.html` ↔ `articles/telecom-discount-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.86 — `articles/small-business-delivery-support.html` ↔ `articles/tax-credit-late-application.html`
+- **review_candidate** · 제목 0.00 · 본문 0.86 — `articles/tax-credit-late-application.html` ↔ `articles/wetax-payment-history.html`
+- **review_candidate** · 제목 0.00 · 본문 0.86 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/small-business-delivery-support.html`
+- **review_candidate** · 제목 0.00 · 본문 0.86 — `articles/small-business-policy-fund.html` ↔ `articles/telecom-discount-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.86 — `articles/wetax-electronic-billing.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.00 · 본문 0.86 — `articles/wetax-electronic-billing.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.00 · 본문 0.86 — `articles/tax-credit-late-application.html` ↔ `articles/yellow-umbrella-mutual-aid-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/yellow-umbrella-mutual-aid-guide.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/small-business-closure-support.html` ↔ `articles/tax-credit-late-application.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/wetax-payment-history.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/revolving-cancellation-payoff.html` ↔ `articles/savings-maturity-auto-renewal.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/small-business-policy-fund-search.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/telecom-discount-guide.html` ↔ `articles/yellow-umbrella-mutual-aid-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/small-business-delivery-support.html` ↔ `articles/travel-insurance-comparison.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/small-business-closure-support.html` ↔ `articles/travel-insurance-comparison.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/telecom-discount-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/small-business-closure-support.html` ↔ `articles/telecom-discount-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/small-business-policy-fund.html` ↔ `articles/unemployment-benefit-job-search.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/unemployment-benefit-job-search.html` ↔ `articles/wetax-payment-history.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/spending-habits-change.html` ↔ `articles/telecom-discount-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/spending-habits-change.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/wetax-payment-history.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/telecom-discount-guide.html` ↔ `articles/wetax-payment-history.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/unemployment-benefit-job-search.html` ↔ `articles/yellow-umbrella-mutual-aid-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/small-business-delivery-support.html` ↔ `articles/telecom-discount-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/wetax-electronic-billing.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/small-business-delivery-support.html` ↔ `articles/unemployment-benefit-job-search.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/small-business-closure-support.html` ↔ `articles/unemployment-benefit-job-search.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/spending-habits-change.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/unemployment-benefit-job-search.html` ↔ `articles/wetax-electronic-billing.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/telecom-discount-guide.html` ↔ `articles/wetax-electronic-billing.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/telecom-discount-guide.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/travel-insurance-comparison.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/spending-habits-change.html` ↔ `articles/travel-insurance-comparison.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/tax-credit-late-application.html` ↔ `articles/travel-insurance-comparison.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/single-parent-support-benefits.html` ↔ `articles/small-business-policy-fund-search.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/spending-habits-change.html` ↔ `articles/unemployment-benefit-job-search.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/yellow-umbrella-mutual-aid-guide.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.00 · 본문 0.85 — `articles/telecom-discount-guide.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.00 · 본문 0.84 — `articles/revolving-cancellation-payoff.html` ↔ `articles/single-parent-support-benefits.html`
+- **review_candidate** · 제목 0.00 · 본문 0.84 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/travel-insurance-comparison.html`
+- **review_candidate** · 제목 0.00 · 본문 0.84 — `articles/revolving-cancellation-payoff.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.00 · 본문 0.84 — `articles/spending-habits-change.html` ↔ `articles/tax-credit-late-application.html`
+- **review_candidate** · 제목 0.00 · 본문 0.84 — `articles/single-parent-support-benefits.html` ↔ `articles/small-business-policy-fund.html`
+- **review_candidate** · 제목 0.00 · 본문 0.84 — `articles/travel-insurance-comparison.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.00 · 본문 0.84 — `articles/revolving-cancellation-payoff.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.00 · 본문 0.84 — `articles/revolving-cancellation-payoff.html` ↔ `articles/tax-credit-late-application.html`
+- **review_candidate** · 제목 0.00 · 본문 0.84 — `articles/tax-credit-late-application.html` ↔ `articles/telecom-discount-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.84 — `articles/travel-insurance-comparison.html` ↔ `articles/unemployment-benefit-job-search.html`
+- **review_candidate** · 제목 0.00 · 본문 0.84 — `articles/telecom-discount-guide.html` ↔ `articles/travel-insurance-comparison.html`
+- **review_candidate** · 제목 0.00 · 본문 0.84 — `articles/spending-habits-change.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.00 · 본문 0.84 — `articles/single-parent-support-benefits.html` ↔ `articles/wetax-payment-history.html`
+- **review_candidate** · 제목 0.00 · 본문 0.84 — `articles/single-parent-support-benefits.html` ↔ `articles/wetax-electronic-billing.html`
+- **review_candidate** · 제목 0.00 · 본문 0.84 — `articles/summer-vacation-budget-plan.html` ↔ `articles/wetax-payment-history.html`
+- **review_candidate** · 제목 0.00 · 본문 0.84 — `articles/unemployment-benefit-job-search.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.00 · 본문 0.84 — `articles/travel-insurance-comparison.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.00 · 본문 0.84 — `articles/small-business-policy-fund-search.html` ↔ `articles/summer-vacation-budget-plan.html`
+- **review_candidate** · 제목 0.00 · 본문 0.84 — `articles/revolving-cancellation-payoff.html` ↔ `articles/telecom-discount-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.84 — `articles/spending-habits-change.html` ↔ `articles/summer-gas-bill-hot-water-saving.html`
+- **review_candidate** · 제목 0.00 · 본문 0.84 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/unemployment-benefit-job-search.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/telecom-discount-guide.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/unemployment-benefit-job-search.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/revolving-cancellation-payoff.html` ↔ `articles/unemployment-benefit-job-search.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/summer-vacation-budget-plan.html` ↔ `articles/wetax-electronic-billing.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/single-parent-support-benefits.html` ↔ `articles/yellow-umbrella-mutual-aid-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/single-parent-support-benefits.html` ↔ `articles/spending-habits-change.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/small-business-policy-fund.html` ↔ `articles/summer-vacation-budget-plan.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/tax-credit-late-application.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/vat-final-return-2026-july.html` ↔ `articles/wetax-payment-history.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/simplified-vat-checklist.html` ↔ `articles/wetax-payment-history.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/summer-vacation-budget-plan.html` ↔ `articles/travel-insurance-comparison.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/revolving-cancellation-payoff.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/summer-vacation-budget-plan.html` ↔ `articles/yellow-umbrella-mutual-aid-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/vat-final-return-2026-july.html` ↔ `articles/wetax-electronic-billing.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/simplified-vat-checklist.html` ↔ `articles/wetax-electronic-billing.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/small-business-policy-fund-search.html` ↔ `articles/summer-gas-bill-hot-water-saving.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/summer-gas-bill-hot-water-saving.html` ↔ `articles/wetax-payment-history.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/tax-credit-late-application.html` ↔ `articles/unemployment-benefit-job-search.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/telecom-discount-guide.html` ↔ `articles/unemployment-benefit-job-search.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/spending-habits-change.html` ↔ `articles/summer-water-bill-spike-check.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/small-business-delivery-support.html` ↔ `articles/summer-vacation-budget-plan.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/small-business-policy-fund.html` ↔ `articles/summer-gas-bill-hot-water-saving.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/vat-input-tax-deduction-2026.html` ↔ `articles/wetax-payment-history.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/small-business-closure-support.html` ↔ `articles/summer-vacation-budget-plan.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/summer-gas-bill-hot-water-saving.html` ↔ `articles/wetax-electronic-billing.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/revolving-cancellation-payoff.html` ↔ `articles/summer-vacation-budget-plan.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/vat-input-tax-deduction-2026.html` ↔ `articles/wetax-electronic-billing.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/spending-habits-change.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/single-parent-support-benefits.html` ↔ `articles/travel-insurance-comparison.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/small-business-policy-fund-search.html` ↔ `articles/summer-water-bill-spike-check.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/summer-vacation-budget-plan.html` ↔ `articles/telecom-discount-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.83 — `articles/summer-water-bill-spike-check.html` ↔ `articles/wetax-payment-history.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/summer-vacation-budget-plan.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/summer-vacation-budget-plan.html` ↔ `articles/unemployment-benefit-job-search.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/small-business-policy-fund.html` ↔ `articles/summer-water-bill-spike-check.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/single-parent-support-benefits.html` ↔ `articles/telecom-discount-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/single-parent-support-benefits.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/small-business-closure-support.html` ↔ `articles/summer-gas-bill-hot-water-saving.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/summer-vacation-budget-plan.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/summer-vacation-budget-plan.html` ↔ `articles/tax-credit-late-application.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/simplified-vat-checklist.html` ↔ `articles/travel-insurance-comparison.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/summer-water-bill-spike-check.html` ↔ `articles/wetax-electronic-billing.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/travel-insurance-comparison.html` ↔ `articles/vat-payment-extension-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/small-business-policy-fund-search.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/summer-gas-bill-hot-water-saving.html` ↔ `articles/yellow-umbrella-mutual-aid-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/simplified-vat-checklist.html` ↔ `articles/tax-credit-late-application.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/small-business-delivery-support.html` ↔ `articles/summer-gas-bill-hot-water-saving.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/summer-gas-bill-hot-water-saving.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/small-business-policy-fund-search.html` ↔ `articles/vat-input-tax-deduction-2026.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/small-business-policy-fund.html` ↔ `articles/vat-input-tax-deduction-2026.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/small-business-policy-fund-search.html` ↔ `articles/vat-final-return-2026-july.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/simplified-vat-checklist.html` ↔ `articles/small-business-policy-fund-search.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/small-business-electricity-support.html` ↔ `articles/spending-habits-change.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/small-business-policy-fund.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/simplified-vat-checklist.html` ↔ `articles/small-business-policy-fund.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/revolving-cancellation-payoff.html` ↔ `articles/summer-gas-bill-hot-water-saving.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/small-business-policy-fund-search.html` ↔ `articles/vat-payment-extension-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/travel-insurance-comparison.html` ↔ `articles/vat-final-return-2026-july.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/small-business-closure-support.html` ↔ `articles/summer-water-bill-spike-check.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/small-business-policy-fund.html` ↔ `articles/vat-final-return-2026-july.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/vat-final-return-2026-july.html` ↔ `articles/yellow-umbrella-mutual-aid-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/summer-water-bill-spike-check.html` ↔ `articles/yellow-umbrella-mutual-aid-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/vat-input-tax-deduction-2026.html` ↔ `articles/yellow-umbrella-mutual-aid-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/simplified-vat-checklist.html` ↔ `articles/yellow-umbrella-mutual-aid-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/summer-water-bill-spike-check.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/small-business-delivery-support.html` ↔ `articles/summer-water-bill-spike-check.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/summer-gas-bill-hot-water-saving.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/summer-vacation-budget-plan.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.00 · 본문 0.82 — `articles/small-business-electricity-support.html` ↔ `articles/wetax-payment-history.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/vat-payment-extension-guide.html` ↔ `articles/yellow-umbrella-mutual-aid-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/summer-gas-bill-hot-water-saving.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/small-business-closure-support.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/small-business-electricity-support.html` ↔ `articles/yellow-umbrella-mutual-aid-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/small-business-delivery-support.html` ↔ `articles/vat-input-tax-deduction-2026.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/revolving-cancellation-payoff.html` ↔ `articles/summer-water-bill-spike-check.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/small-business-closure-support.html` ↔ `articles/vat-input-tax-deduction-2026.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/small-business-delivery-support.html` ↔ `articles/vat-final-return-2026-july.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/wetax-payment-history.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/simplified-vat-checklist.html` ↔ `articles/small-business-delivery-support.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/summer-gas-bill-hot-water-saving.html` ↔ `articles/tax-credit-late-application.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/simplified-vat-checklist.html` ↔ `articles/small-business-closure-support.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/small-business-delivery-support.html` ↔ `articles/vat-payment-extension-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/summer-water-bill-spike-check.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/tax-credit-late-application.html` ↔ `articles/vat-final-return-2026-july.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/summer-water-bill-spike-check.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/small-business-closure-support.html` ↔ `articles/vat-payment-extension-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/small-business-closure-support.html` ↔ `articles/vat-final-return-2026-july.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/single-parent-support-benefits.html` ↔ `articles/summer-vacation-budget-plan.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/summer-gas-bill-hot-water-saving.html` ↔ `articles/travel-insurance-comparison.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/savings-maturity-auto-renewal.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/small-business-delivery-support.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/simplified-vat-checklist.html` ↔ `articles/telecom-discount-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/single-parent-support-benefits.html` ↔ `articles/unemployment-benefit-job-search.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/summer-water-bill-spike-check.html` ↔ `articles/tax-credit-late-application.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/wetax-electronic-billing.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/revolving-cancellation-payoff.html` ↔ `articles/vat-final-return-2026-july.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/telecom-discount-guide.html` ↔ `articles/vat-input-tax-deduction-2026.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/small-business-electricity-support.html` ↔ `articles/wetax-electronic-billing.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/telecom-discount-guide.html` ↔ `articles/vat-payment-extension-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/simplified-vat-checklist.html` ↔ `articles/unemployment-benefit-job-search.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/small-business-electricity-support.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/summer-water-bill-spike-check.html` ↔ `articles/travel-insurance-comparison.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/revolving-cancellation-payoff.html` ↔ `articles/simplified-vat-checklist.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/unemployment-benefit-job-search.html` ↔ `articles/vat-final-return-2026-july.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/summer-gas-bill-hot-water-saving.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/revolving-cancellation-payoff.html` ↔ `articles/vat-payment-extension-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/simplified-vat-checklist.html` ↔ `articles/spending-habits-change.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/yellow-umbrella-mutual-aid-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/spending-habits-change.html` ↔ `articles/vat-final-return-2026-july.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/unemployment-benefit-job-search.html` ↔ `articles/vat-payment-extension-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/spending-habits-change.html` ↔ `articles/vat-payment-extension-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/simplified-vat-checklist.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/unemployment-benefit-job-search.html` ↔ `articles/vat-input-tax-deduction-2026.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/summer-gas-bill-hot-water-saving.html` ↔ `articles/unemployment-benefit-job-search.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/vat-payment-extension-guide.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/telecom-discount-guide.html` ↔ `articles/vat-final-return-2026-july.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/revolving-cancellation-payoff.html` ↔ `articles/vat-input-tax-deduction-2026.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/revolving-cancellation-payoff.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/revolving-cancellation-payoff.html` ↔ `articles/small-business-electricity-support.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/simplified-vat-checklist.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/spending-habits-change.html` ↔ `articles/vat-input-tax-deduction-2026.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/summer-water-bill-spike-check.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/summer-water-bill-spike-check.html` ↔ `articles/unemployment-benefit-job-search.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/vat-final-return-2026-july.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/vat-input-tax-deduction-2026.html` ↔ `articles/youth-savings-account-maintenance.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/vat-payment-extension-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/simplified-vat-checklist.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/single-parent-support-benefits.html` ↔ `articles/summer-gas-bill-hot-water-saving.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/vat-payment-extension-guide.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/vat-final-return-2026-july.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/savings-maturity-auto-renewal.html` ↔ `articles/vat-input-tax-deduction-2026.html`
+- **review_candidate** · 제목 0.00 · 본문 0.80 — `articles/small-business-electricity-support.html` ↔ `articles/tax-credit-late-application.html`
+- **review_candidate** · 제목 0.00 · 본문 0.79 — `articles/vat-input-tax-deduction-2026.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.00 · 본문 0.79 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/tax-credit-late-application.html`
+- **review_candidate** · 제목 0.00 · 본문 0.79 — `articles/vat-final-return-2026-july.html` ↔ `articles/youth-leap-account-contribution.html`
+- **review_candidate** · 제목 0.00 · 본문 0.79 — `articles/small-business-electricity-support.html` ↔ `articles/unemployment-benefit-job-search.html`
+- **review_candidate** · 제목 0.00 · 본문 0.79 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/travel-insurance-comparison.html`
+- **review_candidate** · 제목 0.00 · 본문 0.79 — `articles/single-parent-support-benefits.html` ↔ `articles/summer-water-bill-spike-check.html`
+- **review_candidate** · 제목 0.00 · 본문 0.79 — `articles/small-business-electricity-support.html` ↔ `articles/travel-insurance-comparison.html`
+- **review_candidate** · 제목 0.00 · 본문 0.79 — `articles/simplified-vat-checklist.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.00 · 본문 0.79 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.00 · 본문 0.79 — `articles/small-business-electricity-support.html` ↔ `articles/summer-vacation-budget-plan.html`
+- **review_candidate** · 제목 0.00 · 본문 0.79 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/unemployment-benefit-job-search.html`
+- **review_candidate** · 제목 0.00 · 본문 0.79 — `articles/vat-final-return-2026-july.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.00 · 본문 0.78 — `articles/vat-input-tax-deduction-2026.html` ↔ `articles/youth-support-programs.html`
+- **review_candidate** · 제목 0.00 · 본문 0.78 — `articles/simplified-vat-checklist.html` ↔ `articles/summer-vacation-budget-plan.html`
+- **review_candidate** · 제목 0.00 · 본문 0.78 — `articles/summer-vacation-budget-plan.html` ↔ `articles/vat-payment-extension-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.78 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/single-parent-support-benefits.html`
+- **review_candidate** · 제목 0.00 · 본문 0.78 — `articles/summer-vacation-budget-plan.html` ↔ `articles/vat-final-return-2026-july.html`
+- **review_candidate** · 제목 0.00 · 본문 0.78 — `articles/single-parent-support-benefits.html` ↔ `articles/vat-payment-extension-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.78 — `articles/simplified-vat-checklist.html` ↔ `articles/single-parent-support-benefits.html`
+- **review_candidate** · 제목 0.00 · 본문 0.78 — `articles/single-parent-support-benefits.html` ↔ `articles/vat-final-return-2026-july.html`
+- **review_candidate** · 제목 0.00 · 본문 0.78 — `articles/single-parent-support-benefits.html` ↔ `articles/vat-input-tax-deduction-2026.html`
+- **review_candidate** · 제목 0.00 · 본문 0.78 — `articles/summer-vacation-budget-plan.html` ↔ `articles/vat-input-tax-deduction-2026.html`
+- **review_candidate** · 제목 0.00 · 본문 0.78 — `articles/simplified-vat-checklist.html` ↔ `articles/summer-gas-bill-hot-water-saving.html`
+- **review_candidate** · 제목 0.00 · 본문 0.78 — `articles/summer-gas-bill-hot-water-saving.html` ↔ `articles/vat-payment-extension-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.77 — `articles/summer-gas-bill-hot-water-saving.html` ↔ `articles/vat-final-return-2026-july.html`
+- **review_candidate** · 제목 0.00 · 본문 0.77 — `articles/summer-gas-bill-hot-water-saving.html` ↔ `articles/vat-input-tax-deduction-2026.html`
+- **review_candidate** · 제목 0.00 · 본문 0.77 — `articles/simplified-vat-checklist.html` ↔ `articles/summer-water-bill-spike-check.html`
+- **review_candidate** · 제목 0.00 · 본문 0.77 — `articles/summer-water-bill-spike-check.html` ↔ `articles/vat-payment-extension-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.77 — `articles/summer-water-bill-spike-check.html` ↔ `articles/vat-final-return-2026-july.html`
+- **review_candidate** · 제목 0.00 · 본문 0.77 — `articles/summer-water-bill-spike-check.html` ↔ `articles/vat-input-tax-deduction-2026.html`
+- **review_candidate** · 제목 0.00 · 본문 0.76 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/simplified-vat-checklist.html`
+- **review_candidate** · 제목 0.00 · 본문 0.76 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/vat-payment-extension-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.76 — `articles/simplified-vat-checklist.html` ↔ `articles/small-business-electricity-support.html`
+- **review_candidate** · 제목 0.00 · 본문 0.76 — `articles/small-business-electricity-support.html` ↔ `articles/vat-payment-extension-guide.html`
+- **review_candidate** · 제목 0.00 · 본문 0.75 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/vat-final-return-2026-july.html`
+- **review_candidate** · 제목 0.00 · 본문 0.75 — `articles/refrigerator-summer-electricity-saving.html` ↔ `articles/vat-input-tax-deduction-2026.html`
+- **review_candidate** · 제목 0.00 · 본문 0.75 — `articles/small-business-electricity-support.html` ↔ `articles/vat-input-tax-deduction-2026.html`
+- **review_candidate** · 제목 0.00 · 본문 0.75 — `articles/small-business-electricity-support.html` ↔ `articles/vat-final-return-2026-july.html`
+
+**결정:** 미검토 — 그룹 전체 비교 후 통합/유지/삭제 결정
+
+## G002 · 2개 글
+
+- `articles/rental-contract-reporting-guide.html` — 전월세 신고제 신고 방법과 준비서류 (4,984자)
+- `articles/youth-housing-benefit-separate-payment.html` — 청년 주거급여 분리지급 확인 방법 (5,393자)
+
+유사 관계:
+- **review_candidate** · 제목 0.00 · 본문 0.81 — `articles/rental-contract-reporting-guide.html` ↔ `articles/youth-housing-benefit-separate-payment.html`
+
+**결정:** 미검토 — 그룹 전체 비교 후 통합/유지/삭제 결정
+
