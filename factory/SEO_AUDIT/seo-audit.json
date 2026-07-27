@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 177,
-    "pass": 141,
-    "warning": 36,
+    "pass": 142,
+    "warning": 35,
     "fail": 0,
     "average_score": 90.6,
     "thin_under_2500_ko": 11,
-    "short_under_4500_ko": 127,
+    "short_under_4500_ko": 126,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -4035,31 +4035,28 @@
       "path": "articles/small-business-delivery-support.html",
       "url": "https://savingio.com/articles/small-business-delivery-support.html",
       "title": "소상공인 배달비 지원사업 찾는 방법 | 세이빙이오(Savingio)",
-      "meta_description": "중앙정부와 지자체의 배달·택배비 지원 공고를 찾는 요령입니다.",
+      "meta_description": "종료된 소상공인 배달·택배비 지원사업의 수혜이력 확인부터 2026년 중앙정부·지자체 후속 공고를 찾는 순서, 증빙 준비와 사기 예방법까지 정리합니다.",
       "canonical": "https://savingio.com/articles/small-business-delivery-support.html",
       "h1": [
         "소상공인 배달비 지원사업 찾는 방법"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3115,
-      "words": 1095,
-      "internal_article_links": 16,
+      "h2_count": 21,
+      "h3_count": 0,
+      "korean_chars": 5294,
+      "words": 1757,
+      "internal_article_links": 13,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:34",
-        "CONTENT_SHORT_KO:3115"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 96,
+      "status": "PASS"
     },
     {
       "path": "articles/small-business-electricity-support.html",

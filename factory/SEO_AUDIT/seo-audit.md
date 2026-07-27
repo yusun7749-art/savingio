@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
 - Articles: 177
-- PASS: 141
-- WARNING: 36
+- PASS: 142
+- WARNING: 35
 - FAIL: 0
 - Average score: 90.6
 - Thin content (<2500 Korean chars): 11
-- Short content (<4500 Korean chars): 127
+- Short content (<4500 Korean chars): 126
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -31,7 +31,6 @@
 | 80 | WARNING | `articles/savings-maturity-auto-renewal.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3274 |
 | 80 | WARNING | `articles/simplified-vat-checklist.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:39, CONTENT_SHORT_KO:4003 |
 | 80 | WARNING | `articles/single-parent-support-benefits.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3597 |
-| 80 | WARNING | `articles/small-business-delivery-support.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3115 |
 | 80 | WARNING | `articles/spending-habits-change.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:41, CONTENT_SHORT_KO:3160 |
 | 80 | WARNING | `articles/summer-gas-bill-hot-water-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3351 |
 | 80 | WARNING | `articles/summer-vacation-budget-plan.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3352 |
@@ -100,3 +99,4 @@
 | 92 | PASS | `articles/earned-income-credit-payment.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4376 |
 | 92 | PASS | `articles/earned-income-credit-status-check.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3592 |
 | 92 | PASS | `articles/education-benefit-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3939 |
+| 92 | PASS | `articles/electricity-bill-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3243 |
