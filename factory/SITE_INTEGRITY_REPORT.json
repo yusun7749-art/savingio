@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3292,
-  "references_scanned": 61987,
+  "files_scanned": 3293,
+  "references_scanned": 61989,
   "counts": {
-    "broken_references": 2867,
+    "broken_references": 2868,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 1,
@@ -708,6 +708,13 @@
       "reference": "value, location.origin",
       "expected": [
         "admin/value, location.origin"
+      ]
+    },
+    {
+      "source": "admin/content-recovery-dashboard.js",
+      "reference": "/admin/content-recovery-progress.json",
+      "expected": [
+        "admin/content-recovery-progress.json"
       ]
     },
     {
