@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
+  <meta name="googlebot" content="noindex,nofollow,noarchive,nosnippet">
+  <title>Korea Quest Lab</title>
+  <style>
+    :root{--bg:#f7f3eb;--paper:#fffdf8;--ink:#17212b;--muted:#66717d;--line:#dfd8ca;--red:#e84343;--blue:#3157c8;--green:#198754;--gold:#f4c14e}
+    *{box-sizing:border-box} body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:linear-gradient(180deg,#f4efe5,#eef3f7);color:var(--ink)}
+    button,select{font:inherit} button{cursor:pointer}.app{width:min(1100px,100%);margin:auto;min-height:100vh;padding:24px}
+    .top{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:18px}.brand{display:flex;gap:12px;align-items:center}.mark{width:50px;height:50px;border-radius:16px;display:grid;place-items:center;background:linear-gradient(145deg,var(--red),var(--blue));color:white;font-size:25px}.brand h1{font-size:20px;margin:0}.brand p{margin:3px 0 0;color:var(--muted);font-size:13px}.lab{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:7px 10px;background:white}
+    .panel{background:rgba(255,253,248,.96);border:1px solid var(--line);border-radius:24px;padding:22px;box-shadow:0 18px 45px rgba(26,38,51,.08)}
+    .language-screen{text-align:center;padding:32px 10px}.language-screen h2{font-size:clamp(27px,5vw,48px);margin:0 0 10px}.language-screen p{color:var(--muted);margin:0 auto 26px;max-width:620px}.language-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;max-width:620px;margin:auto}.lang-btn{padding:17px;border:1px solid var(--line);border-radius:17px;background:#fff;text-align:left;display:flex;align-items:center;gap:12px}.lang-btn:hover,.lang-btn:focus{border-color:var(--blue);transform:translateY(-1px)}.flag{font-size:27px}.lang-name strong{display:block}.lang-name small{color:var(--muted)}
+    .game{display:none}.hud{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;margin-bottom:16px}.progress{height:10px;background:#e9e4da;border-radius:999px;overflow:hidden}.progress span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--blue),var(--red));transition:.35s}.stat{border:1px solid var(--line);background:#fff;border-radius:14px;padding:9px 12px;white-space:nowrap}
+    .scene{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(260px,.75fr);gap:18px}.world{min-height:470px;border-radius:22px;padding:24px;position:relative;overflow:hidden;background:linear-gradient(155deg,#dbeaff,#fff5db)}.world.subway{background:linear-gradient(155deg,#d7e9ff,#e8edf1)}.world.restaurant{background:linear-gradient(155deg,#ffe1cb,#fff5d8)}.world::after{content:"";position:absolute;width:230px;height:230px;border-radius:50%;right:-70px;top:-80px;background:rgba(255,255,255,.48)}.scene-icon{font-size:75px;margin:16px 0}.eyebrow{font-size:13px;text-transform:uppercase;letter-spacing:.12em;color:var(--blue);font-weight:700}.world h2{font-size:clamp(28px,4vw,44px);margin:6px 0}.world p{color:#3d4a56;max-width:600px}.speech{position:relative;z-index:1;background:#fff;border-radius:18px;padding:18px;margin-top:28px;border:1px solid rgba(0,0,0,.08)}.korean{font-size:25px;font-weight:700;margin-bottom:7px}.roman{color:var(--blue);font-size:14px}.meaning{color:var(--muted);margin-top:7px}.side{display:flex;flex-direction:column;gap:12px}.mission{border:1px solid var(--line);border-radius:18px;padding:17px;background:white}.mission h3{margin:0 0 8px}.mission p{margin:0;color:var(--muted)}.answers{display:grid;gap:9px}.answer{border:1px solid var(--line);border-radius:15px;padding:13px;background:white;text-align:left}.answer:hover{border-color:var(--blue)}.answer.correct{border-color:var(--green);background:#eefaf3}.answer.wrong{border-color:var(--red);background:#fff1f1}.feedback{min-height:76px;border-radius:15px;padding:13px;background:#f2f4f7;color:#34404c}.next{display:none;width:100%;border:0;border-radius:15px;padding:14px;background:var(--ink);color:#fff;font-weight:700}.toolbar{display:flex;justify-content:space-between;gap:8px;margin-top:16px}.ghost{border:1px solid var(--line);background:white;border-radius:13px;padding:10px 13px}.complete{text-align:center;display:none;padding:46px 10px}.complete .trophy{font-size:76px}.complete h2{font-size:38px;margin:10px}.learned{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:22px auto;max-width:760px}.phrase{border:1px solid var(--line);background:white;border-radius:16px;padding:15px}.phrase strong{display:block;font-size:19px}.phrase small{color:var(--muted)}
+    @media(max-width:760px){.app{padding:13px}.top{align-items:flex-start}.scene{grid-template-columns:1fr}.world{min-height:390px}.hud{grid-template-columns:1fr auto}.hud .stat:last-child{display:none}.language-grid,.learned{grid-template-columns:1fr}.panel{padding:14px}.world{padding:18px}.korean{font-size:22px}}
+  </style>
+</head>
+<body>
+<main class="app">
+  <header class="top">
+    <div class="brand"><div class="mark">🇰🇷</div><div><h1>Korea Quest</h1><p>Real-life Korean, one mission at a time</p></div></div>
+    <span class="lab">PRIVATE LAB · NOINDEX</span>
+  </header>
+
+  <section class="panel" id="languageScreen">
+    <div class="language-screen">
+      <div style="font-size:60px">🧳</div>
+      <h2>Choose your language</h2>
+      <p>Learn the Korean you will actually hear on the subway, in restaurants and during your trip. No English required.</p>
+      <div class="language-grid" id="languageGrid"></div>
+    </div>
+  </section>
+
+  <section class="game" id="gameScreen">
+    <div class="hud">
+      <div class="progress"><span id="progressBar"></span></div>
+      <div class="stat">⭐ <b id="xp">0</b> XP</div>
+      <div class="stat">🎒 Day 1</div>
+    </div>
+    <div class="panel">
+      <div class="scene">
+        <section class="world" id="world">
+          <div class="eyebrow" id="sceneLabel"></div>
+          <div class="scene-icon" id="sceneIcon"></div>
+          <h2 id="sceneTitle"></h2>
+          <p id="sceneIntro"></p>
+          <div class="speech">
+            <div class="korean" id="koreanLine"></div>
+            <div class="roman" id="romanLine"></div>
+            <div class="meaning" id="meaningLine"></div>
+          </div>
+        </section>
+        <aside class="side">
+          <div class="mission"><h3 id="missionTitle"></h3><p id="missionText"></p></div>
+          <div class="answers" id="answers"></div>
+          <div class="feedback" id="feedback" aria-live="polite"></div>
+          <button class="next" id="nextBtn" type="button"></button>
+        </aside>
+      </div>
+      <div class="toolbar">
+        <button class="ghost" id="restartBtn" type="button">↺ Restart</button>
+        <button class="ghost" id="languageBtn" type="button">🌍 Language</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel complete" id="completeScreen">
+    <div class="trophy">🏆</div><h2 id="completeTitle"></h2><p id="completeText"></p>
+    <div class="learned" id="learned"></div>
+    <button class="ghost" id="playAgain" type="button"></button>
+  </section>
+</main>
+<script>
+const languages={
+ en:{flag:'🇺🇸',name:'English',native:'English',mission:'Your mission',choose:'Choose your answer',correct:'Great! That sounds natural.',wrong:'Not quite. Try the expression a Korean traveler would use.',next:'Next mission',restart:'Restart',language:'Language',complete:'Day 1 complete!',completeText:'You survived the subway and ordered a meal in Korean.',again:'Play again'},
+ th:{flag:'🇹🇭',name:'ไทย',native:'ภาษาไทย',mission:'ภารกิจของคุณ',choose:'เลือกคำตอบ',correct:'เยี่ยม! ฟังดูเป็นธรรมชาติ',wrong:'ยังไม่ถูก ลองเลือกประโยคที่ใช้จริงในเกาหลี',next:'ภารกิจต่อไป',restart:'เริ่มใหม่',language:'ภาษา',complete:'วันที่ 1 สำเร็จ!',completeText:'คุณขึ้นรถไฟใต้ดินและสั่งอาหารด้วยภาษาเกาหลีได้แล้ว',again:'เล่นอีกครั้ง'},
+ id:{flag:'🇮🇩',name:'Indonesia',native:'Bahasa Indonesia',mission:'Misi kamu',choose:'Pilih jawaban',correct:'Bagus! Ungkapan itu terdengar alami.',wrong:'Belum tepat. Pilih ungkapan yang biasa dipakai di Korea.',next:'Misi berikutnya',restart:'Mulai lagi',language:'Bahasa',complete:'Hari pertama selesai!',completeText:'Kamu berhasil naik subway dan memesan makanan dalam bahasa Korea.',again:'Main lagi'},
+ vi:{flag:'🇻🇳',name:'Việt Nam',native:'Tiếng Việt',mission:'Nhiệm vụ',choose:'Chọn câu trả lời',correct:'Tuyệt! Câu đó nghe rất tự nhiên.',wrong:'Chưa đúng. Hãy chọn cách nói thường dùng ở Hàn Quốc.',next:'Nhiệm vụ tiếp theo',restart:'Chơi lại',language:'Ngôn ngữ',complete:'Hoàn thành ngày 1!',completeText:'Bạn đã đi tàu điện ngầm và gọi món bằng tiếng Hàn.',again:'Chơi lại'}
+};
+const scenes=[
+ {key:'subway',icon:'🚇',koTitle:'지하철 타기',romanTitle:'Jihacheol tagi',titles:{en:'Take the subway',th:'ขึ้นรถไฟใต้ดิน',id:'Naik subway',vi:'Đi tàu điện ngầm'},intros:{en:'You are at Seoul Station. You need to reach Hongdae.',th:'คุณอยู่ที่สถานีโซลและต้องไปฮงแด',id:'Kamu berada di Seoul Station dan ingin pergi ke Hongdae.',vi:'Bạn đang ở ga Seoul và cần đến Hongdae.'},ko:'홍대입구역에 가려면 어떻게 가요?',roman:'Hongdae-ipgu-yeoge garyeomyeon eotteoke gayo?',meanings:{en:'How do I get to Hongik University Station?',th:'ไปสถานีฮงแดอิปกูอย่างไรคะ/ครับ',id:'Bagaimana cara pergi ke Stasiun Hongik University?',vi:'Đi đến ga Hongik University như thế nào?'},mission:{en:'Ask a station worker for directions.',th:'ถามเจ้าหน้าที่ถึงเส้นทาง',id:'Tanyakan arah kepada petugas.',vi:'Hỏi nhân viên nhà ga đường đi.'},answers:[{ko:'홍대입구역에 가려면 어떻게 가요?',roman:'Hongdae-ipgu-yeoge garyeomyeon eotteoke gayo?',correct:true},{ko:'홍대입구역 주세요.',roman:'Hongdae-ipgu-yeok juseyo?'},{ko:'저는 홍대예요.',roman:'Jeoneun Hongdae-yeyo.'}]},
+ {key:'restaurant',icon:'🍲',koTitle:'식당에서 주문하기',romanTitle:'Sikdangeseo jumunhagi',titles:{en:'Order at a restaurant',th:'สั่งอาหารที่ร้าน',id:'Pesan di restoran',vi:'Gọi món tại nhà hàng'},intros:{en:'You enter a small Korean restaurant. The server asks what you want.',th:'คุณเข้าร้านอาหารเกาหลี พนักงานถามว่าต้องการสั่งอะไร',id:'Kamu masuk restoran Korea. Pelayan menanyakan pesanan.',vi:'Bạn vào một nhà hàng Hàn Quốc. Nhân viên hỏi bạn muốn gọi gì.'},ko:'비빔밥 하나 주세요.',roman:'Bibimbap hana juseyo.',meanings:{en:'One bibimbap, please.',th:'ขอบิบิมบับหนึ่งที่ค่ะ/ครับ',id:'Satu bibimbap, tolong.',vi:'Cho tôi một phần bibimbap.'},mission:{en:'Order one bibimbap politely.',th:'สั่งบิบิมบับหนึ่งที่อย่างสุภาพ',id:'Pesan satu bibimbap dengan sopan.',vi:'Gọi một phần bibimbap lịch sự.'},answers:[{ko:'비빔밥 하나 주세요.',roman:'Bibimbap hana juseyo.',correct:true},{ko:'비빔밥 있어요?',roman:'Bibimbap isseoyo?'},{ko:'나는 비빔밥.',roman:'Naneun bibimbap.'}]},
+ {key:'restaurant',icon:'💳',koTitle:'계산하기',romanTitle:'Gyesanhagi',titles:{en:'Pay the bill',th:'ชำระเงิน',id:'Bayar tagihan',vi:'Thanh toán'},intros:{en:'You finished eating and want to pay by card.',th:'คุณทานเสร็จแล้วและต้องการจ่ายด้วยบัตร',id:'Kamu selesai makan dan ingin membayar dengan kartu.',vi:'Bạn đã ăn xong và muốn thanh toán bằng thẻ.'},ko:'카드로 계산할게요.',roman:'Kadeuro gyesanhalgeyo.',meanings:{en:'I will pay by card.',th:'ขอจ่ายด้วยบัตรค่ะ/ครับ',id:'Saya akan bayar dengan kartu.',vi:'Tôi sẽ thanh toán bằng thẻ.'},mission:{en:'Tell the server you will pay by card.',th:'บอกพนักงานว่าคุณจะจ่ายด้วยบัตร',id:'Beri tahu pelayan bahwa kamu akan membayar dengan kartu.',vi:'Nói với nhân viên rằng bạn sẽ thanh toán bằng thẻ.'},answers:[{ko:'카드로 계산할게요.',roman:'Kadeuro gyesanhalgeyo.',correct:true},{ko:'카드 좋아요.',roman:'Kadeu joayo.'},{ko:'계산 어디예요?',roman:'Gyesan eodiyeyo?'}]}
+];
+let lang='en',index=0,xp=0,answered=false;
+const $=id=>document.getElementById(id);
+function buildLanguages(){const grid=$('languageGrid');grid.innerHTML='';Object.entries(languages).forEach(([code,l])=>{const b=document.createElement('button');b.className='lang-btn';b.type='button';b.innerHTML=`<span class="flag">${l.flag}</span><span class="lang-name"><strong>${l.native}</strong><small>${l.name}</small></span>`;b.addEventListener('click',()=>start(code));grid.appendChild(b)})}
+function start(code){lang=code;index=0;xp=0;$('languageScreen').style.display='none';$('completeScreen').style.display='none';$('gameScreen').style.display='block';render()}
+function render(){answered=false;const s=scenes[index],l=languages[lang];$('progressBar').style.width=`${index/scenes.length*100}%`;$('xp').textContent=xp;$('world').className=`world ${s.key}`;$('sceneLabel').textContent=`MISSION ${index+1} / ${scenes.length}`;$('sceneIcon').textContent=s.icon;$('sceneTitle').textContent=s.titles[lang];$('sceneIntro').textContent=s.intros[lang];$('koreanLine').textContent=s.ko;$('romanLine').textContent=s.roman;$('meaningLine').textContent=s.meanings[lang];$('missionTitle').textContent=l.mission;$('missionText').textContent=s.mission[lang];$('feedback').textContent=l.choose;$('nextBtn').textContent=l.next;$('nextBtn').style.display='none';$('restartBtn').textContent='↺ '+l.restart;$('languageBtn').textContent='🌍 '+l.language;const box=$('answers');box.innerHTML='';s.answers.forEach(a=>{const b=document.createElement('button');b.className='answer';b.type='button';b.innerHTML=`<strong>${a.ko}</strong><br><small>${a.roman}</small>`;b.addEventListener('click',()=>answer(b,a.correct));box.appendChild(b)})}
+function answer(button,correct){if(answered)return;if(correct){answered=true;xp+=100;button.classList.add('correct');$('feedback').textContent='✅ '+languages[lang].correct;$('xp').textContent=xp;$('nextBtn').style.display='block'}else{button.classList.add('wrong');$('feedback').textContent='💡 '+languages[lang].wrong}}
+function next(){if(index<scenes.length-1){index++;render()}else{finish()}}
+function finish(){$('gameScreen').style.display='none';$('completeScreen').style.display='block';$('completeTitle').textContent=languages[lang].complete;$('completeText').textContent=languages[lang].completeText;$('playAgain').textContent=languages[lang].again;$('learned').innerHTML=scenes.map(s=>`<div class="phrase"><strong>${s.ko}</strong><small>${s.roman}</small></div>`).join('')}
+$('nextBtn').addEventListener('click',next);$('restartBtn').addEventListener('click',()=>start(lang));$('languageBtn').addEventListener('click',()=>{$('gameScreen').style.display='none';$('languageScreen').style.display='block'});$('playAgain').addEventListener('click',()=>start(lang));buildLanguages();
+</script>
+</body>
+</html>
