@@ -6,7 +6,7 @@
   "counts": {
     "broken_references": 2260,
     "malformed_redirects": 0,
-    "broken_redirect_targets": 2,
+    "broken_redirect_targets": 0,
     "missing_sitemap_targets": 21,
     "publisher_id_drift": 0
   },
@@ -16173,18 +16173,7 @@
     }
   ],
   "malformed_redirects": [],
-  "broken_redirect_targets": [
-    {
-      "file": "_redirects",
-      "line": 24,
-      "target": "/articles/energy-voucher-application.html"
-    },
-    {
-      "file": "_redirects",
-      "line": 50,
-      "target": "/articles/energy-voucher-balance-check-2026.html"
-    }
-  ],
+  "broken_redirect_targets": [],
   "missing_sitemap_targets": [
     "/articles/energy-voucher-application-2026.html",
     "/articles/energy-voucher-application.html",
