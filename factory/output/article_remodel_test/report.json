@@ -3072,7 +3072,7 @@
     },
     {
       "source": "articles/traffic-fine-check-payment-guide.html",
-      "output": "factory/output/article_remodel_test/site/articles/traffic-fine-check-payment-guide.html",
+      "output": "factory/output/article_remodel_test/site/articles/traffic-fines-difference-guide.html",
       "transformed": true,
       "title": true,
       "meta_description": true,
@@ -3104,7 +3104,7 @@
     },
     {
       "source": "articles/traffic-penalty-check-payment-guide.html",
-      "output": "factory/output/article_remodel_test/site/articles/traffic-penalty-check-payment-guide.html",
+      "output": "factory/output/article_remodel_test/site/articles/traffic-fines-difference-guide.html",
       "transformed": true,
       "title": true,
       "meta_description": true,

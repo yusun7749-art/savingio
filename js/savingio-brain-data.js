@@ -76,7 +76,7 @@
       related: [['/articles/car-insurance-mileage-refund.html','마일리지 특약 환급'],['/articles/low-mileage-discount-check.html','저주행 특약 확인'],['/articles/car-maintenance-cost-saving.html','차량 유지비 절약'],['/articles/fuel-saving-driving-habits.html','주유비 아끼는 운전 습관']],
       official: ['교통 과태료와 범칙금은 경찰청 공식 조회 서비스에서 차량·운전자 정보를 확인하세요.','https://www.efine.go.kr','교통민원24 바로가기 →'],
       calculator: ['/calculators/','교통·자동차 계산기','월 차량 유지비와 과태료 지출을 함께 점검해 보세요.'],
-      category: [['/categories/car-transport.html','교통·자동차 전체'],['/articles/traffic-fine-check-payment-guide.html','과태료·범칙금'],['/articles/car-maintenance-cost-saving.html','자동차 관리'],['/articles/car-insurance-mileage-refund.html','자동차보험'],['/articles/fuel-saving-driving-habits.html','교통·운전']]
+      category: [['/categories/car-transport.html','교통·자동차 전체'],['/articles/traffic-fines-difference-guide.html','과태료·범칙금'],['/articles/car-maintenance-cost-saving.html','자동차 관리'],['/articles/car-insurance-mileage-refund.html','자동차보험'],['/articles/fuel-saving-driving-habits.html','교통·운전']]
     },
     '/articles/health-insurance-overpayment-refund': {
       kicker: '건강보험 · 환급',

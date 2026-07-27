@@ -960,7 +960,7 @@
       "path": "articles/telecom-unclaimed-refund.html"
     },
     {
-      "id": "/articles/traffic-fine-check-payment-guide.html",
+      "id": "/articles/traffic-fines-difference-guide.html",
       "title": "교통범칙금 조회·납부 방법, 경찰청 교통민원24에서 확인하는 순서",
       "path": "articles/traffic-fine-check-payment-guide.html"
     },
@@ -970,7 +970,7 @@
       "path": "articles/traffic-fines-difference-guide.html"
     },
     {
-      "id": "/articles/traffic-penalty-check-payment-guide.html",
+      "id": "/articles/traffic-fines-difference-guide.html",
       "title": "교통과태료 조회·납부 방법, 미납 과태료와 사전통지 확인 순서",
       "path": "articles/traffic-penalty-check-payment-guide.html"
     },
@@ -14230,7 +14230,7 @@
     },
     {
       "source": "/articles/hometax-vat-sales-check.html",
-      "target": "/articles/traffic-fine-check-payment-guide.html"
+      "target": "/articles/traffic-fines-difference-guide.html"
     },
     {
       "source": "/articles/hometax-vat-sales-check.html",
@@ -26141,95 +26141,95 @@
       "target": "/calculators/"
     },
     {
-      "source": "/articles/traffic-fine-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/css/calculator-drawer.css"
     },
     {
-      "source": "/articles/traffic-fine-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/images/logo.svg"
     },
     {
-      "source": "/articles/traffic-fine-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/css/savingio-brain-navigation.css"
     },
     {
-      "source": "/articles/traffic-fine-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/"
     },
     {
-      "source": "/articles/traffic-fine-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/"
     },
     {
-      "source": "/articles/traffic-fine-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/traffic-fine-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/categories/"
     },
     {
-      "source": "/articles/traffic-fine-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/traffic-fine-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/traffic-fine-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/"
     },
     {
-      "source": "/articles/traffic-fine-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/traffic-fine-check-payment-guide.html",
-      "target": "/articles/traffic-penalty-check-payment-guide.html"
-    },
-    {
-      "source": "/articles/traffic-fine-check-payment-guide.html",
-      "target": "/articles/car-tax-check-payment-guide.html"
-    },
-    {
-      "source": "/articles/traffic-fine-check-payment-guide.html",
-      "target": "/articles/vehicle-inspection-reservation-guide.html"
-    },
-    {
-      "source": "/articles/traffic-fine-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/articles/traffic-fines-difference-guide.html"
     },
     {
-      "source": "/articles/traffic-fine-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
+      "target": "/articles/car-tax-check-payment-guide.html"
+    },
+    {
+      "source": "/articles/traffic-fines-difference-guide.html",
+      "target": "/articles/vehicle-inspection-reservation-guide.html"
+    },
+    {
+      "source": "/articles/traffic-fines-difference-guide.html",
+      "target": "/articles/traffic-fines-difference-guide.html"
+    },
+    {
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/traffic-fine-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/traffic-fine-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/privacy.html"
     },
     {
-      "source": "/articles/traffic-fine-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/terms.html"
     },
     {
-      "source": "/articles/traffic-fine-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/cookie-policy.html"
     },
     {
-      "source": "/articles/traffic-fine-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/disclaimer.html"
     },
     {
-      "source": "/articles/traffic-fine-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/sitemap.xml"
     },
     {
-      "source": "/articles/traffic-fine-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/editorial-policy.html"
     },
     {
@@ -26290,11 +26290,11 @@
     },
     {
       "source": "/articles/traffic-fines-difference-guide.html",
-      "target": "/articles/traffic-fine-check-payment-guide.html"
+      "target": "/articles/traffic-fines-difference-guide.html"
     },
     {
       "source": "/articles/traffic-fines-difference-guide.html",
-      "target": "/articles/traffic-penalty-check-payment-guide.html"
+      "target": "/articles/traffic-fines-difference-guide.html"
     },
     {
       "source": "/articles/traffic-fines-difference-guide.html",
@@ -26306,11 +26306,11 @@
     },
     {
       "source": "/articles/traffic-fines-difference-guide.html",
-      "target": "/articles/traffic-fine-check-payment-guide.html"
+      "target": "/articles/traffic-fines-difference-guide.html"
     },
     {
       "source": "/articles/traffic-fines-difference-guide.html",
-      "target": "/articles/traffic-penalty-check-payment-guide.html"
+      "target": "/articles/traffic-fines-difference-guide.html"
     },
     {
       "source": "/articles/traffic-fines-difference-guide.html",
@@ -26349,95 +26349,95 @@
       "target": "/sitemap.xml"
     },
     {
-      "source": "/articles/traffic-penalty-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/css/calculator-drawer.css"
     },
     {
-      "source": "/articles/traffic-penalty-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/images/logo.svg"
     },
     {
-      "source": "/articles/traffic-penalty-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/css/savingio-brain-navigation.css"
     },
     {
-      "source": "/articles/traffic-penalty-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/"
     },
     {
-      "source": "/articles/traffic-penalty-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/"
     },
     {
-      "source": "/articles/traffic-penalty-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/traffic-penalty-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/categories/"
     },
     {
-      "source": "/articles/traffic-penalty-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/traffic-penalty-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/traffic-penalty-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/"
     },
     {
-      "source": "/articles/traffic-penalty-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/traffic-penalty-check-payment-guide.html",
-      "target": "/articles/traffic-fine-check-payment-guide.html"
-    },
-    {
-      "source": "/articles/traffic-penalty-check-payment-guide.html",
-      "target": "/articles/vehicle-inspection-reservation-guide.html"
-    },
-    {
-      "source": "/articles/traffic-penalty-check-payment-guide.html",
-      "target": "/articles/car-tax-check-payment-guide.html"
-    },
-    {
-      "source": "/articles/traffic-penalty-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/articles/traffic-fines-difference-guide.html"
     },
     {
-      "source": "/articles/traffic-penalty-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
+      "target": "/articles/vehicle-inspection-reservation-guide.html"
+    },
+    {
+      "source": "/articles/traffic-fines-difference-guide.html",
+      "target": "/articles/car-tax-check-payment-guide.html"
+    },
+    {
+      "source": "/articles/traffic-fines-difference-guide.html",
+      "target": "/articles/traffic-fines-difference-guide.html"
+    },
+    {
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/traffic-penalty-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/traffic-penalty-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/privacy.html"
     },
     {
-      "source": "/articles/traffic-penalty-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/terms.html"
     },
     {
-      "source": "/articles/traffic-penalty-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/cookie-policy.html"
     },
     {
-      "source": "/articles/traffic-penalty-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/disclaimer.html"
     },
     {
-      "source": "/articles/traffic-penalty-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/sitemap.xml"
     },
     {
-      "source": "/articles/traffic-penalty-check-payment-guide.html",
+      "source": "/articles/traffic-fines-difference-guide.html",
       "target": "/editorial-policy.html"
     },
     {
@@ -28110,7 +28110,7 @@
     },
     {
       "source": "/articles/vehicle-inspection-reservation-guide.html",
-      "target": "/articles/traffic-penalty-check-payment-guide.html"
+      "target": "/articles/traffic-fines-difference-guide.html"
     },
     {
       "source": "/articles/vehicle-inspection-reservation-guide.html",
@@ -29877,7 +29877,7 @@
     "/articles/water-bill-guide.html": 3,
     "/articles/health-insurance-overpayment-refund.html": 1,
     "/articles/severance-pay-calculation-guide.html": 1,
-    "/articles/traffic-fine-check-payment-guide.html": 4,
+    "/articles/traffic-fines-difference-guide.html": 4,
     "/articles/youth-housing-benefit-separate-payment.html": 1,
     "/articles/hidden-refund-check.html": 1,
     "/articles/internet-bill-discount.html": 2,
@@ -29911,7 +29911,7 @@
     "/articles/small-business-policy-fund-search.html": 4,
     "/articles/electronic-tax-invoice-penalty.html": 1,
     "/articles/telecom-unclaimed-refund.html": 1,
-    "/articles/traffic-penalty-check-payment-guide.html": 4,
+    "/articles/traffic-fines-difference-guide.html": 4,
     "/articles/traffic-fines-difference-guide.html": 2,
     "/articles/parking-account-rate-comparison.html": 1,
     "/articles/vat-final-return-2026-july.html": 4,
@@ -30111,9 +30111,9 @@
     "/articles/tax-invoice-vs-cash-receipt.html": 36,
     "/articles/telecom-discount-guide.html": 36,
     "/articles/telecom-unclaimed-refund.html": 34,
-    "/articles/traffic-fine-check-payment-guide.html": 23,
+    "/articles/traffic-fines-difference-guide.html": 23,
     "/articles/traffic-fines-difference-guide.html": 29,
-    "/articles/traffic-penalty-check-payment-guide.html": 23,
+    "/articles/traffic-fines-difference-guide.html": 23,
     "/articles/travel-insurance-comparison.html": 36,
     "/articles/unemployment-benefit-checklist.html": 31,
     "/articles/unemployment-benefit-job-search.html": 37,

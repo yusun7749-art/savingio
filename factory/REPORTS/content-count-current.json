@@ -1,0 +1,13 @@
+{
+  "report_date": "2026-07-27",
+  "article_html_files_remaining": 195,
+  "sitemap_article_urls_remaining": 180,
+  "cluster_before": 3,
+  "cluster_after": 1,
+  "deleted_in_this_task": 2,
+  "representative_url": "/articles/traffic-fines-difference-guide.html",
+  "deleted_urls": [
+    "/articles/traffic-fine-check-payment-guide.html",
+    "/articles/traffic-penalty-check-payment-guide.html"
+  ]
+}
