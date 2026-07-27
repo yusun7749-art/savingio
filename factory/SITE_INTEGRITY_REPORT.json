@@ -2,12 +2,12 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3301,
-  "references_scanned": 62666,
+  "references_scanned": 62665,
   "counts": {
-    "broken_references": 2366,
+    "broken_references": 2365,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
-    "missing_sitemap_targets": 7,
+    "missing_sitemap_targets": 6,
     "publisher_id_drift": 0
   },
   "broken_references": [
@@ -16820,13 +16820,6 @@
     },
     {
       "source": "sitemap.xml",
-      "reference": "/articles/internet-bill-savings.html",
-      "expected": [
-        "articles/internet-bill-savings.html"
-      ]
-    },
-    {
-      "source": "sitemap.xml",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
@@ -16918,7 +16911,6 @@
   "broken_redirect_targets": [],
   "missing_sitemap_targets": [
     "/articles/how-to-save-electricity-bill.html",
-    "/articles/internet-bill-savings.html",
     "/articles/salary-budget-guide.html",
     "/articles/salary-management-guide.html",
     "/articles/vat-final-return-july-2026.html",
