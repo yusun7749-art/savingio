@@ -1,13 +1,13 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3292,
-  "references_scanned": 62076,
+  "files_scanned": 3291,
+  "references_scanned": 62020,
   "counts": {
-    "broken_references": 2808,
+    "broken_references": 2868,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
-    "missing_sitemap_targets": 0,
+    "missing_sitemap_targets": 1,
     "publisher_id_drift": 0
   },
   "broken_references": [
@@ -2648,6 +2648,13 @@
       ]
     },
     {
+      "source": "articles/simple-receipt-expense-rules.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
       "source": "articles/simplified-vat-checklist.html",
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
@@ -2711,10 +2718,24 @@
       ]
     },
     {
+      "source": "articles/small-business-closure-support.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
       "source": "articles/small-business-delivery-support.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
+      ]
+    },
+    {
+      "source": "articles/small-business-delivery-support.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -2729,6 +2750,41 @@
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "articles/small-business-policy-fund.html",
+      "reference": "/articles/business-cash-flow-guide.html",
+      "expected": [
+        "articles/business-cash-flow-guide.html"
+      ]
+    },
+    {
+      "source": "articles/small-business-policy-fund.html",
+      "reference": "/articles/business-credit-score-guide.html",
+      "expected": [
+        "articles/business-credit-score-guide.html"
+      ]
+    },
+    {
+      "source": "articles/small-business-policy-fund.html",
+      "reference": "/articles/government-support-scam-warning-2026.html",
+      "expected": [
+        "articles/government-support-scam-warning-2026.html"
+      ]
+    },
+    {
+      "source": "articles/small-business-policy-fund.html",
+      "reference": "/articles/small-business-loan-guide.html",
+      "expected": [
+        "articles/small-business-loan-guide.html"
+      ]
+    },
+    {
+      "source": "articles/small-business-policy-fund.html",
+      "reference": "/articles/tax-arrears-check-guide.html",
+      "expected": [
+        "articles/tax-arrears-check-guide.html"
       ]
     },
     {
@@ -3019,6 +3075,20 @@
       ]
     },
     {
+      "source": "articles/wetax-payment-history.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
       "source": "articles/youth-housing-benefit-separate-payment.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -3205,6 +3275,13 @@
       "reference": "/articles/online-income-ideas-for-beginners.html",
       "expected": [
         "articles/online-income-ideas-for-beginners.html"
+      ]
+    },
+    {
+      "source": "categories/finance-credit.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -3636,6 +3713,13 @@
     },
     {
       "source": "data/savingio-brain-data.js",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.js",
       "reference": "/articles/subscription-cleanup.html",
       "expected": [
         "articles/subscription-cleanup.html"
@@ -3818,6 +3902,13 @@
     },
     {
       "source": "data/savingio-brain-data.json",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.json",
       "reference": "/articles/subscription-cleanup.html",
       "expected": [
         "articles/subscription-cleanup.html"
@@ -3933,6 +4024,13 @@
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "data/savingio-navigation-exclusions.json",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -4073,6 +4171,13 @@
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "data/savingio-search-index.json",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -4272,6 +4377,13 @@
       ]
     },
     {
+      "source": "factory/CONTENT_TAXONOMY_REPORT.json",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
       "source": "factory/QA_V2_019.json",
       "reference": "/articles/전기요금-절약-c861d77b.html\\",
       "expected": [
@@ -4397,6 +4509,13 @@
       "reference": "/articles/vat-input-tax-deduction-guide-2026.html",
       "expected": [
         "articles/vat-input-tax-deduction-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/SEO_AUDIT/seo-audit.json",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -7193,6 +7312,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/small-business-closure-support.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/small-business-delivery-support.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -7200,10 +7326,38 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/small-business-delivery-support.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/small-business-electricity-support.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/small-business-policy-fund-search.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/small-business-policy-fund-search.html",
+      "reference": "https://savingio.com/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/small-business-policy-fund.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -7442,6 +7596,13 @@
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/wetax-payment-history.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -8558,6 +8719,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/small-business-closure-support.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/small-business-delivery-support.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -8565,10 +8733,38 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/small-business-delivery-support.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/small-business-electricity-support.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/small-business-policy-fund-search.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/small-business-policy-fund-search.html",
+      "reference": "https://savingio.com/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/small-business-policy-fund.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -8807,6 +9003,13 @@
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/wetax-payment-history.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -9923,6 +10126,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/small-business-closure-support.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/small-business-delivery-support.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -9930,10 +10140,38 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/small-business-delivery-support.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/small-business-electricity-support.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/small-business-policy-fund-search.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/small-business-policy-fund-search.html",
+      "reference": "https://savingio.com/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/small-business-policy-fund.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -10172,6 +10410,13 @@
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/wetax-payment-history.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -11288,6 +11533,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/small-business-closure-support.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/small-business-delivery-support.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -11295,10 +11547,38 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/small-business-delivery-support.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/small-business-electricity-support.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/small-business-policy-fund-search.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/small-business-policy-fund-search.html",
+      "reference": "https://savingio.com/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/small-business-policy-fund.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -11537,6 +11817,13 @@
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/wetax-payment-history.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -12653,6 +12940,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/small-business-closure-support.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/small-business-delivery-support.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -12660,10 +12954,38 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/small-business-delivery-support.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/small-business-electricity-support.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/small-business-policy-fund-search.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/small-business-policy-fund-search.html",
+      "reference": "https://savingio.com/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/small-business-policy-fund.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -12905,6 +13227,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/wetax-payment-history.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/youth-leap-account-contribution.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
@@ -13079,6 +13408,13 @@
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -13284,6 +13620,13 @@
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -14118,6 +14461,13 @@
     },
     {
       "source": "factory/output/article_catalog.json",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
       "reference": "/articles/subscription-cleanup.html",
       "expected": [
         "articles/subscription-cleanup.html"
@@ -14387,6 +14737,13 @@
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -15552,6 +15909,13 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/small-business-closure-support.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/small-business-delivery-support.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -15559,10 +15923,38 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/small-business-delivery-support.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/small-business-electricity-support.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/small-business-policy-fund-search.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/small-business-policy-fund-search.html",
+      "reference": "https://savingio.com/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/small-business-policy-fund.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -15801,6 +16193,13 @@
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/wetax-payment-history.html",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -18491,6 +18890,13 @@
     },
     {
       "source": "factory/output/link_graph.json",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
       "reference": "/articles/subscription-cleanup.html",
       "expected": [
         "articles/subscription-cleanup.html"
@@ -19898,6 +20304,13 @@
     },
     {
       "source": "rss.xml",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "rss.xml",
       "reference": "/articles/subscription-cleanup.html",
       "expected": [
         "articles/subscription-cleanup.html"
@@ -19950,6 +20363,13 @@
       "reference": "https://savingio.com/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "sitemap.xml",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -20008,6 +20428,8 @@
   ],
   "malformed_redirects": [],
   "broken_redirect_targets": [],
-  "missing_sitemap_targets": [],
+  "missing_sitemap_targets": [
+    "/articles/small-business-policy-fund-search.html"
+  ],
   "publisher_id_drift": []
 }
