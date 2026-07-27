@@ -1,8 +1,8 @@
 # Savingio MASTER CONTENT MAP — 전체 주제 그룹 분류
 
-- 전체 본문: **180개**
+- 전체 본문: **179개**
 - 2개 이상 주제 그룹: **25개**
-- 그룹 내부 중복·통합 후보 관계: **4개**
+- 그룹 내부 중복·통합 후보 관계: **3개**
 - 단독 주제 글: **3개**
 
 > 삭제나 통합을 실행하지 않은 선분류 단계입니다. 각 그룹 전체를 한 번에 놓고 대표글·유지·흡수·삭제를 결정합니다.
@@ -52,7 +52,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G003 · 부가가치세 · 13개
+## G003 · 부가가치세 · 12개
 
 - `articles/business-closure-vat-order.html` — 사업자 폐업신고와 부가세 신고 순서, 폐업일 전후로 놓치기 쉬운 절차 (5,685자)
 - `articles/electronic-tax-invoice-penalty.html` — 전자세금계산서 가산세, 지연발급·미발급·미전송 차이 (5,723자)
@@ -63,13 +63,11 @@
 - `articles/tax-invoice-vs-cash-receipt.html` — 현금영수증 매출 조회 방법 (6,393자)
 - `articles/vat-final-return-2026-july.html` — 2026년 부가가치세 확정신고 방법과 공식 기한 확인 (6,006자)
 - `articles/vat-input-tax-deduction-2026.html` — 부가가치세 매입세액 공제·불공제 완벽 가이드 (6,388자)
-- `articles/vat-input-tax-deduction-items.html` — 부가가치세 매입세액 공제 항목과 불공제 구분법 (5,388자)
 - `articles/vat-payment-extension-guide.html` — 부가가치세 신고 후 납부기한 연장 신청 방법 (5,851자)
 - `articles/vat-sales-omission-check-2026.html` — 부가가치세 신고 전 매출 누락 확인 방법 (5,390자)
 - `articles/vat-zero-sales-filing-2026.html` — 매출이 없어도 부가가치세 신고해야 할까? 무실적 신고 방법 (5,295자)
 
-중복·통합 우선 검토 관계:
-- **merge_candidate** · 제목 0.67 · 본문 0.55 — `articles/vat-input-tax-deduction-2026.html` ↔ `articles/vat-input-tax-deduction-items.html`
+중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 

@@ -1,7 +1,7 @@
 {
-  "article_count": 180,
+  "article_count": 179,
   "topic_group_count": 25,
-  "candidate_pair_count": 4,
+  "candidate_pair_count": 3,
   "method": "topic-first grouping; title/body similarity only ranks articles inside the same topic group",
   "groups": [
     {
@@ -225,7 +225,7 @@
     {
       "group_id": "G003",
       "topic": "부가가치세",
-      "size": 13,
+      "size": 12,
       "articles": [
         {
           "path": "articles/business-closure-vat-order.html",
@@ -282,12 +282,6 @@
           "char_count": 6388
         },
         {
-          "path": "articles/vat-input-tax-deduction-items.html",
-          "title": "부가가치세 매입세액 공제 항목과 불공제 구분법 | 세이빙이오(Savingio)",
-          "h1": "부가가치세 매입세액 공제 항목과 불공제 구분법",
-          "char_count": 5388
-        },
-        {
           "path": "articles/vat-payment-extension-guide.html",
           "title": "부가가치세 신고 후 납부기한 연장 신청 방법 | 세이빙이오(Savingio)",
           "h1": "부가가치세 신고 후 납부기한 연장 신청 방법",
@@ -306,15 +300,7 @@
           "char_count": 5295
         }
       ],
-      "relationships": [
-        {
-          "a": "articles/vat-input-tax-deduction-2026.html",
-          "b": "articles/vat-input-tax-deduction-items.html",
-          "classification": "merge_candidate",
-          "title_similarity": 0.6667,
-          "body_similarity": 0.5493
-        }
-      ],
+      "relationships": [],
       "decision_status": "pending_group_review",
       "decision_options": [
         "대표글 통합",
