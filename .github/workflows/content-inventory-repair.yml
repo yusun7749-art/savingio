@@ -1,0 +1,43 @@
+name: Content Inventory Repair
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "factory/audit/repair_content_inventory.py"
+      - ".github/workflows/content-inventory-repair.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  repair-and-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Repair sitemap and search index from actual HTML
+        run: python factory/audit/repair_content_inventory.py
+
+      - name: Re-run full inventory audit
+        run: python factory/audit/content_inventory_audit.py
+
+      - name: Commit verified inventory repair
+        run: |
+          git config user.name "savingio-audit-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add sitemap.xml
+          git add data/savingio-search-index.json
+          git add factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json
+          git add factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.json
+          git add factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_AUDIT.md
+          if git diff --cached --quiet; then
+            echo "No repair changes"
+          else
+            git commit -m "V3.043 align sitemap search index and actual article inventory [skip ci]"
+            git push
+          fi
