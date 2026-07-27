@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3299,
-  "references_scanned": 62622,
+  "files_scanned": 3298,
+  "references_scanned": 62584,
   "counts": {
-    "broken_references": 2413,
+    "broken_references": 2480,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -2305,6 +2305,13 @@
       ]
     },
     {
+      "source": "articles/monthly-rent-tax-credit-documents.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
       "source": "articles/national-employment-support-eligibility.html",
       "reference": "/articles/employment-success-allowance.html",
       "expected": [
@@ -2351,6 +2358,13 @@
       "reference": "/categories/education-benefits.html",
       "expected": [
         "categories/education-benefits.html"
+      ]
+    },
+    {
+      "source": "articles/national-tax-refund-account.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -2767,6 +2781,13 @@
       ]
     },
     {
+      "source": "articles/tax-credit-late-application.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
       "source": "articles/tax-invoice-vs-cash-receipt.html",
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
@@ -2991,6 +3012,13 @@
       ]
     },
     {
+      "source": "articles/wetax-electronic-billing.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
       "source": "articles/youth-housing-benefit-separate-payment.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -3184,6 +3212,13 @@
       "reference": "/articles/hidden-refund-check.html",
       "expected": [
         "articles/hidden-refund-check.html"
+      ]
+    },
+    {
+      "source": "categories/government-support.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -3440,6 +3475,13 @@
     },
     {
       "source": "data/savingio-brain-data.js",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.js",
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
         "articles/phone-bill-saving.html"
@@ -3608,6 +3650,13 @@
     },
     {
       "source": "data/savingio-brain-data.json",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.json",
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
         "articles/phone-bill-saving.html"
@@ -3740,6 +3789,13 @@
       ]
     },
     {
+      "source": "data/savingio-navigation-exclusions.json",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
       "source": "data/savingio-search-index.json",
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
@@ -3842,6 +3898,13 @@
       "reference": "/articles/internet-bill-savings.html",
       "expected": [
         "articles/internet-bill-savings.html"
+      ]
+    },
+    {
+      "source": "data/savingio-search-index.json",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -4038,6 +4101,13 @@
       "reference": "/articles/how-to-check-hidden-refunds.html",
       "expected": [
         "articles/how-to-check-hidden-refunds.html"
+      ]
+    },
+    {
+      "source": "factory/CONTENT_TAXONOMY_REPORT.json",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -5731,6 +5801,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/check-hidden-refunds.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/childcare-service-government-support.html",
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
@@ -6102,6 +6179,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/government-benefits-warning.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/government-support-calendar.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -6305,6 +6389,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/local-tax-refund-claim.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/local-tax-refund-claim.html",
+      "reference": "https://savingio.com/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/local-tax-refund-guide.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/money-saving-habits.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -6316,6 +6421,13 @@
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
         "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/national-tax-refund.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -6578,6 +6690,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/tax-credit-late-application.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/telecom-unclaimed-refund.html",
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
@@ -6673,6 +6792,13 @@
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/wetax-electronic-billing.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -6785,6 +6911,13 @@
       "reference": "/articles/how-to-check-hidden-refunds.html",
       "expected": [
         "articles/how-to-check-hidden-refunds.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/check-hidden-refunds.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -7159,6 +7292,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/government-benefits-warning.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/government-support-calendar.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -7362,6 +7502,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/local-tax-refund-claim.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/local-tax-refund-claim.html",
+      "reference": "https://savingio.com/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/local-tax-refund-guide.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/money-saving-habits.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -7373,6 +7534,13 @@
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
         "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/national-tax-refund.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -7635,6 +7803,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/tax-credit-late-application.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/telecom-unclaimed-refund.html",
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
@@ -7730,6 +7905,13 @@
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/wetax-electronic-billing.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -7842,6 +8024,13 @@
       "reference": "/articles/how-to-check-hidden-refunds.html",
       "expected": [
         "articles/how-to-check-hidden-refunds.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/check-hidden-refunds.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -8216,6 +8405,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/government-benefits-warning.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/government-support-calendar.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -8419,6 +8615,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/local-tax-refund-claim.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/local-tax-refund-claim.html",
+      "reference": "https://savingio.com/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/local-tax-refund-guide.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/money-saving-habits.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -8430,6 +8647,13 @@
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
         "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/national-tax-refund.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -8692,6 +8916,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/tax-credit-late-application.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/telecom-unclaimed-refund.html",
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
@@ -8787,6 +9018,13 @@
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/wetax-electronic-billing.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -8899,6 +9137,13 @@
       "reference": "/articles/how-to-check-hidden-refunds.html",
       "expected": [
         "articles/how-to-check-hidden-refunds.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/check-hidden-refunds.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -9273,6 +9518,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/government-benefits-warning.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/government-support-calendar.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -9476,6 +9728,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/local-tax-refund-claim.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/local-tax-refund-claim.html",
+      "reference": "https://savingio.com/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/local-tax-refund-guide.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/money-saving-habits.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -9487,6 +9760,13 @@
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
         "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/national-tax-refund.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -9749,6 +10029,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/tax-credit-late-application.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/telecom-unclaimed-refund.html",
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
@@ -9844,6 +10131,13 @@
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/wetax-electronic-billing.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -9956,6 +10250,13 @@
       "reference": "/articles/how-to-check-hidden-refunds.html",
       "expected": [
         "articles/how-to-check-hidden-refunds.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/check-hidden-refunds.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -10330,6 +10631,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/government-benefits-warning.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/government-support-calendar.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -10533,6 +10841,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/local-tax-refund-claim.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/local-tax-refund-claim.html",
+      "reference": "https://savingio.com/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/local-tax-refund-guide.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/money-saving-habits.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -10544,6 +10873,13 @@
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
         "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/national-tax-refund.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -10806,6 +11142,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/tax-credit-late-application.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/telecom-unclaimed-refund.html",
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
@@ -10901,6 +11244,13 @@
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/wetax-electronic-billing.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -11043,6 +11393,13 @@
       "reference": "/articles/internet-bill-savings.html",
       "expected": [
         "articles/internet-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -11234,6 +11591,13 @@
       "reference": "/articles/internet-bill-savings.html",
       "expected": [
         "articles/internet-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -11957,6 +12321,13 @@
     },
     {
       "source": "factory/output/article_catalog.json",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
         "articles/phone-bill-saving.html"
@@ -12132,6 +12503,13 @@
     },
     {
       "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
         "articles/phone-bill-saving.html"
@@ -12296,6 +12674,13 @@
       "reference": "/articles/how-to-check-hidden-refunds.html",
       "expected": [
         "articles/how-to-check-hidden-refunds.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/check-hidden-refunds.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -12670,6 +13055,13 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/government-benefits-warning.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/government-support-calendar.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -12873,6 +13265,27 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/local-tax-refund-claim.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/local-tax-refund-claim.html",
+      "reference": "https://savingio.com/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/local-tax-refund-guide.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/money-saving-habits.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -12884,6 +13297,13 @@
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
         "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/national-tax-refund.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -13146,6 +13566,13 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/tax-credit-late-application.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/telecom-unclaimed-refund.html",
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
@@ -13241,6 +13668,13 @@
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/wetax-electronic-billing.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -13879,6 +14313,13 @@
     },
     {
       "source": "factory/output/drafts/#Uad6d#Uc138-#Ud658#Uae09#Uae08-#Uc870#Ud68c#Uc640-#Uc218#Ub839-#Ubc29#Ubc95-52402287-factory.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uad6d#Uc138-#Ud658#Uae09#Uae08-#Uc870#Ud68c#Uc640-#Uc218#Ub839-#Ubc29#Ubc95-52402287-factory.html",
       "reference": "/articles/국세-환급금-조회와-수령-방법-52402287.html",
       "expected": [
         "articles/국세-환급금-조회와-수령-방법-52402287.html"
@@ -13896,6 +14337,13 @@
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uad6d#Uc138-#Ud658#Uae09#Uae08-#Uc870#Ud68c#Uc640-#Uc218#Ub839-#Ubc29#Ubc95-52402287.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -14761,6 +15209,13 @@
     },
     {
       "source": "factory/output/drafts/국세-환급금-조회와-수령-방법-52402287-factory.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/국세-환급금-조회와-수령-방법-52402287-factory.html",
       "reference": "/articles/국세-환급금-조회와-수령-방법-52402287.html",
       "expected": [
         "articles/국세-환급금-조회와-수령-방법-52402287.html"
@@ -14778,6 +15233,13 @@
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/국세-환급금-조회와-수령-방법-52402287.html",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
@@ -15766,6 +16228,13 @@
       "reference": "/articles/internet-bill-savings.html",
       "expected": [
         "articles/internet-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
       ]
     },
     {
