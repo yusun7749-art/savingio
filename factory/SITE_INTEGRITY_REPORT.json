@@ -2,12 +2,12 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3299,
-  "references_scanned": 62625,
+  "references_scanned": 62622,
   "counts": {
-    "broken_references": 2416,
+    "broken_references": 2413,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
-    "missing_sitemap_targets": 3,
+    "missing_sitemap_targets": 0,
     "publisher_id_drift": 0
   },
   "broken_references": [
@@ -17190,27 +17190,6 @@
       ]
     },
     {
-      "source": "sitemap.xml",
-      "reference": "/articles/vat-final-return-july-2026.html",
-      "expected": [
-        "articles/vat-final-return-july-2026.html"
-      ]
-    },
-    {
-      "source": "sitemap.xml",
-      "reference": "/articles/vat-zero-sales-filing.html",
-      "expected": [
-        "articles/vat-zero-sales-filing.html"
-      ]
-    },
-    {
-      "source": "sitemap.xml",
-      "reference": "/articles/water-bill-guide.html",
-      "expected": [
-        "articles/water-bill-guide.html"
-      ]
-    },
-    {
       "source": "subscription-saving.html",
       "reference": "/articles/subscription-saving.html",
       "expected": [
@@ -17266,10 +17245,6 @@
   ],
   "malformed_redirects": [],
   "broken_redirect_targets": [],
-  "missing_sitemap_targets": [
-    "/articles/vat-final-return-july-2026.html",
-    "/articles/vat-zero-sales-filing.html",
-    "/articles/water-bill-guide.html"
-  ],
+  "missing_sitemap_targets": [],
   "publisher_id_drift": []
 }
