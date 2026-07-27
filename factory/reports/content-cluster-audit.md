@@ -280,7 +280,7 @@
 
 ## G019 · 기타 독립 주제 · 5개
 
-- `articles/automatic-payment-saving.html` — 자동이체·자동결제 정리하는 방법, 매달 새는 고정비 찾기 (5,970자)
+- `articles/automatic-payment-saving.html` — 자동이체·자동결제 정리하는 방법, 매달 새는 고정비 찾기 (6,464자)
 - `articles/check-hidden-refunds.html` — 미수령 환급금 조회 방법 (8,394자)
 - `articles/education-expense-vs-benefit.html` — 교육비 지원과 교육급여 차이 (4,921자)
 - `articles/index.html` — 돈이 되는 생활 정보 (96자)
