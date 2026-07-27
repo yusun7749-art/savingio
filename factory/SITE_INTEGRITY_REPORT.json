@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3306,
+  "files_scanned": 3307,
   "references_scanned": 62221,
   "counts": {
-    "broken_references": 2917,
+    "broken_references": 2916,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -1406,13 +1406,6 @@
       "reference": "/categories/housing-maintenance.html",
       "expected": [
         "categories/housing-maintenance.html"
-      ]
-    },
-    {
-      "source": "articles/automatic-payment-saving.html",
-      "reference": "/articles/bank-fees-to-avoid.html",
-      "expected": [
-        "articles/bank-fees-to-avoid.html"
       ]
     },
     {
