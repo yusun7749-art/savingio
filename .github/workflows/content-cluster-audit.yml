@@ -24,7 +24,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Build similarity clusters
+      - name: Build topic-first content map
         run: |
           python factory/audit/content_cluster_audit.py
           python - <<'PY'
@@ -33,8 +33,9 @@ jobs:
           p = Path('factory/reports/content-cluster-audit.json')
           data = json.loads(p.read_text(encoding='utf-8'))
           print('articles=', data['article_count'])
-          print('clusters=', data['cluster_count'])
+          print('topic_groups=', data['topic_group_count'])
           print('candidate_pairs=', data['candidate_pair_count'])
+          print('standalone_articles=', len(data['standalone_articles']))
           PY
       - name: Verify reports
         run: |
@@ -46,7 +47,7 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -f factory/reports/content-cluster-audit.json factory/reports/content-cluster-audit.md
           if ! git diff --cached --quiet; then
-            git commit -m 'Generate full content similarity clusters [skip ci]'
+            git commit -m 'Generate topic-first master content map [skip ci]'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
