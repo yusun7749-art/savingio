@@ -1,12 +1,12 @@
 {
   "summary": {
-    "article_count": 206,
-    "pass": 147,
+    "article_count": 202,
+    "pass": 143,
     "warning": 58,
     "fail": 1,
     "average_score": 88.0,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 155,
+    "short_under_4500_ko": 151,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -2020,34 +2020,6 @@
       "status": "PASS"
     },
     {
-      "path": "articles/energy-voucher-balance-check-2026.html",
-      "url": "https://savingio.com/articles/energy-voucher-balance-check-2026.html",
-      "title": "2026년 에너지바우처 잔액 조회와 사용처 확인 방법 | 세이빙이오(Savingio)",
-      "meta_description": "에너지바우처 선정 후 잔액 조회, 요금차감과 국민행복카드 사용 방식, 전기·가스·지역난방 등 사용 가능 항목과 남은 금액 확인 순서를 정리했습니다.",
-      "canonical": "https://savingio.com/articles/energy-voucher-balance-check-2026.html",
-      "h1": [
-        "2026년 에너지바우처 잔액 조회와 사용처 확인 방법"
-      ],
-      "h2_count": 18,
-      "h3_count": 0,
-      "korean_chars": 3941,
-      "words": 1262,
-      "internal_article_links": 12,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": false,
-      "faq_schema": true,
-      "issues": [],
-      "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3941"
-      ],
-      "score": 92,
-      "status": "PASS"
-    },
-    {
       "path": "articles/energy-voucher-balance-use-2026.html",
       "url": "https://savingio.com/articles/energy-voucher-balance-use-2026.html",
       "title": "페이지 이동 | 세이빙이오(Savingio)",
@@ -2078,93 +2050,6 @@
       ],
       "score": 62,
       "status": "WARNING"
-    },
-    {
-      "path": "articles/energy-voucher-documents.html",
-      "url": "https://savingio.com/articles/energy-voucher-documents.html",
-      "title": "에너지바우처 주민센터 신청 준비서류 | 세이빙이오(Savingio)",
-      "meta_description": "행정복지센터 방문 전 챙길 서류와 대리신청 시 유의점을 확인합니다.",
-      "canonical": "https://savingio.com/articles/energy-voucher-documents.html",
-      "h1": [
-        "에너지바우처 주민센터 신청 준비서류"
-      ],
-      "h2_count": 17,
-      "h3_count": 3,
-      "korean_chars": 3868,
-      "words": 1204,
-      "internal_article_links": 9,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": false,
-      "faq_schema": true,
-      "issues": [],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:37",
-        "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3868"
-      ],
-      "score": 88,
-      "status": "PASS"
-    },
-    {
-      "path": "articles/energy-voucher-eligibility-2026.html",
-      "url": "https://savingio.com/articles/energy-voucher-eligibility-2026.html",
-      "title": "2026 에너지바우처 신청 대상 확인법 | 세이빙이오(Savingio)",
-      "meta_description": "소득기준과 세대원 특성기준을 중심으로 신청 가능 여부를 점검합니다.",
-      "canonical": "https://savingio.com/articles/energy-voucher-eligibility-2026.html",
-      "h1": [
-        "2026 에너지바우처 신청 대상 확인법"
-      ],
-      "h2_count": 17,
-      "h3_count": 2,
-      "korean_chars": 3787,
-      "words": 1211,
-      "internal_article_links": 13,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": false,
-      "faq_schema": true,
-      "issues": [],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:37",
-        "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3787"
-      ],
-      "score": 88,
-      "status": "PASS"
-    },
-    {
-      "path": "articles/energy-voucher-online-application.html",
-      "url": "https://savingio.com/articles/energy-voucher-online-application.html",
-      "title": "에너지바우처 온라인 신청 방법 | 세이빙이오(Savingio)",
-      "meta_description": "복지로에서 에너지바우처를 온라인으로 신청하는 순서를 정리합니다.",
-      "canonical": "https://savingio.com/articles/energy-voucher-online-application.html",
-      "h1": [
-        "에너지바우처 온라인 신청 방법"
-      ],
-      "h2_count": 16,
-      "h3_count": 0,
-      "korean_chars": 4228,
-      "words": 1351,
-      "internal_article_links": 10,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": false,
-      "faq_schema": true,
-      "issues": [],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:35",
-        "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:4228"
-      ],
-      "score": 88,
-      "status": "PASS"
     },
     {
       "path": "articles/fan-aircon-combination-saving.html",

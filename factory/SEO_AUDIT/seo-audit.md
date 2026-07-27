@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
-- Articles: 206
-- PASS: 147
+- Articles: 202
+- PASS: 143
 - WARNING: 58
 - FAIL: 1
 - Average score: 88.0
 - Thin content (<2500 Korean chars): 28
-- Short content (<4500 Korean chars): 155
+- Short content (<4500 Korean chars): 151
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -84,9 +84,6 @@
 | 88 | PASS | `articles/credit-score-management.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2793 |
 | 88 | PASS | `articles/education-expense-vs-benefit.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3512 |
 | 88 | PASS | `articles/electricity-bill-easy-calculator-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3282 |
-| 88 | PASS | `articles/energy-voucher-documents.html` | META_DESCRIPTION_LENGTH:37, BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3868 |
-| 88 | PASS | `articles/energy-voucher-eligibility-2026.html` | META_DESCRIPTION_LENGTH:37, BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3787 |
-| 88 | PASS | `articles/energy-voucher-online-application.html` | META_DESCRIPTION_LENGTH:35, BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4228 |
 | 88 | PASS | `articles/government-benefits-warning.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3885 |
 | 88 | PASS | `articles/national-employment-support-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4077 |
 | 88 | PASS | `articles/property-tax-deadline.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3543 |
@@ -100,3 +97,6 @@
 | 92 | PASS | `articles/aircon-dry-mode-electricity.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3653 |
 | 92 | PASS | `articles/aircon-filter-cleaning-savings.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/aircon-optimal-temperature-savings.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
+| 92 | PASS | `articles/bank-account-budgeting.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
+| 92 | PASS | `articles/bank-fee-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3463 |
+| 92 | PASS | `articles/basic-livelihood-discounts.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3233 |
