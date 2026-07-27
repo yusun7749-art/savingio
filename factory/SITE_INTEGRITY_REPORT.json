@@ -1,13 +1,13 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3308,
-  "references_scanned": 62977,
+  "files_scanned": 3303,
+  "references_scanned": 62771,
   "counts": {
-    "broken_references": 1875,
+    "broken_references": 2255,
     "malformed_redirects": 0,
-    "broken_redirect_targets": 1,
-    "missing_sitemap_targets": 16,
+    "broken_redirect_targets": 2,
+    "missing_sitemap_targets": 21,
     "publisher_id_drift": 0
   },
   "broken_references": [
@@ -1801,31 +1801,10 @@
       ]
     },
     {
-      "source": "articles/energy-voucher-balance-use.html",
-      "reference": "/articles/energy-voucher-application-2026.html",
+      "source": "articles/energy-voucher-balance-use-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
-        "articles/energy-voucher-application-2026.html"
-      ]
-    },
-    {
-      "source": "articles/energy-voucher-balance-use.html",
-      "reference": "/articles/energy-voucher-application.html",
-      "expected": [
-        "articles/energy-voucher-application.html"
-      ]
-    },
-    {
-      "source": "articles/energy-voucher-documents.html",
-      "reference": "/articles/energy-voucher-application-2026.html",
-      "expected": [
-        "articles/energy-voucher-application-2026.html"
-      ]
-    },
-    {
-      "source": "articles/energy-voucher-eligibility-2026.html",
-      "reference": "/categories/insurance-health.html",
-      "expected": [
-        "categories/insurance-health.html"
+        "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
@@ -2396,6 +2375,20 @@
       ]
     },
     {
+      "source": "articles/revolving-cancellation-payoff.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "articles/revolving-cancellation-payoff.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
       "source": "articles/salary-slip-check-guide.html",
       "reference": "/articles/salary-management-guide.html",
       "expected": [
@@ -2407,6 +2400,20 @@
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "articles/savings-maturity-auto-renewal.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "articles/self-employed-income-tax-refund-check.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
@@ -2449,6 +2456,41 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "articles/single-parent-support-benefits.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "articles/single-parent-support-benefits.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "articles/single-parent-support-benefits.html",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "articles/single-parent-support-benefits.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "articles/single-parent-support-benefits.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
       ]
     },
     {
@@ -2802,6 +2844,48 @@
       ]
     },
     {
+      "source": "articles/youth-housing-benefit-separate-payment.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "articles/youth-housing-benefit-separate-payment.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "articles/youth-housing-benefit-separate-payment.html",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "articles/youth-housing-benefit-separate-payment.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "articles/youth-housing-benefit-separate-payment.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "articles/youth-leap-account-contribution.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
       "source": "benefits/index.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -2862,6 +2946,41 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "categories/government-support.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "categories/government-support.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "categories/government-support.html",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "categories/government-support.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "categories/government-support.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
       ]
     },
     {
@@ -3013,6 +3132,41 @@
     },
     {
       "source": "data/savingio-brain-data.js",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.js",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.js",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.js",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.js",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.js",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
@@ -3125,6 +3279,41 @@
     },
     {
       "source": "data/savingio-brain-data.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.json",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.json",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.json",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.json",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.json",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
@@ -3237,6 +3426,41 @@
     },
     {
       "source": "data/savingio-navigation-exclusions.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "data/savingio-navigation-exclusions.json",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "data/savingio-navigation-exclusions.json",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "data/savingio-navigation-exclusions.json",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "data/savingio-navigation-exclusions.json",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "data/savingio-navigation-exclusions.json",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
@@ -3268,6 +3492,41 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "data/savingio-search-index.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "data/savingio-search-index.json",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "data/savingio-search-index.json",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "data/savingio-search-index.json",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "data/savingio-search-index.json",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
       ]
     },
     {
@@ -3443,6 +3702,41 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/CONTENT_TAXONOMY_REPORT.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/CONTENT_TAXONOMY_REPORT.json",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/CONTENT_TAXONOMY_REPORT.json",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "factory/CONTENT_TAXONOMY_REPORT.json",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/CONTENT_TAXONOMY_REPORT.json",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
       ]
     },
     {
@@ -5073,6 +5367,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/culture-nuri-card-balance.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/culture-nuri-card-balance.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-2026-application.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -5087,6 +5395,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-2026-application.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-2026-application.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-application-2026.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -5098,6 +5420,20 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-application-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-application-2026.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
@@ -5123,6 +5459,27 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-application.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-application.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-application.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-application.html",
       "reference": "https://savingio.com/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
@@ -5136,10 +5493,73 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-balance-check-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-balance-check-2026.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-balance-check-2026.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-balance-check-2026.html",
+      "reference": "https://savingio.com/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-balance-use-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-balance-use.html",
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-balance-use.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-balance-use.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-balance-use.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-balance-use.html",
+      "reference": "https://savingio.com/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
       ]
     },
     {
@@ -5150,6 +5570,41 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-documents.html",
+      "reference": "https://savingio.com/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-eligibility-2026.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -5164,6 +5619,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-eligibility-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-eligibility-2026.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-eligibility-2026.html",
+      "reference": "https://savingio.com/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-online-application.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -5175,6 +5651,41 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-online-application.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-online-application.html",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-online-application.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-online-application.html",
+      "reference": "https://savingio.com/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/fixed-date-online-application.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
       ]
     },
     {
@@ -5196,6 +5707,13 @@
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
         "articles/energy-voucher-application-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/government-support-calendar.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
@@ -5381,6 +5899,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/near-poverty-certificate.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/peak-season-hotel-saving.html",
       "reference": "/articles/subscription-saving.html",
       "expected": [
@@ -5437,6 +5962,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/revolving-cancellation-payoff.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/revolving-cancellation-payoff.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/salary-budget-guide.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
@@ -5483,6 +6022,20 @@
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/savings-maturity-auto-renewal.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/self-employed-income-tax-refund-check.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
@@ -5661,6 +6214,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/youth-leap-account-contribution.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/air-conditioner-electricity-saving.html",
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
@@ -5738,6 +6298,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/culture-nuri-card-balance.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/culture-nuri-card-balance.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-2026-application.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -5752,6 +6326,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-2026-application.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-2026-application.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-application-2026.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -5763,6 +6351,20 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-application-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-application-2026.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
@@ -5788,6 +6390,27 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-application.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-application.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-application.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-application.html",
       "reference": "https://savingio.com/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
@@ -5801,10 +6424,73 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-balance-check-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-balance-check-2026.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-balance-check-2026.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-balance-check-2026.html",
+      "reference": "https://savingio.com/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-balance-use-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-balance-use.html",
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-balance-use.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-balance-use.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-balance-use.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-balance-use.html",
+      "reference": "https://savingio.com/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
       ]
     },
     {
@@ -5815,6 +6501,41 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-documents.html",
+      "reference": "https://savingio.com/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-eligibility-2026.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -5829,6 +6550,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-eligibility-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-eligibility-2026.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-eligibility-2026.html",
+      "reference": "https://savingio.com/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-online-application.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -5840,6 +6582,41 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-online-application.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-online-application.html",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-online-application.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-online-application.html",
+      "reference": "https://savingio.com/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/fixed-date-online-application.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
       ]
     },
     {
@@ -5861,6 +6638,13 @@
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
         "articles/energy-voucher-application-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/government-support-calendar.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
@@ -6046,6 +6830,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/near-poverty-certificate.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/peak-season-hotel-saving.html",
       "reference": "/articles/subscription-saving.html",
       "expected": [
@@ -6102,6 +6893,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/revolving-cancellation-payoff.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/revolving-cancellation-payoff.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/salary-budget-guide.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
@@ -6148,6 +6953,20 @@
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/savings-maturity-auto-renewal.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/self-employed-income-tax-refund-check.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
@@ -6326,6 +7145,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/youth-leap-account-contribution.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/air-conditioner-electricity-saving.html",
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
@@ -6403,6 +7229,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/culture-nuri-card-balance.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/culture-nuri-card-balance.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-2026-application.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -6417,6 +7257,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-2026-application.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-2026-application.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-application-2026.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -6428,6 +7282,20 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-application-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-application-2026.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
@@ -6453,6 +7321,27 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-application.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-application.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-application.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-application.html",
       "reference": "https://savingio.com/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
@@ -6466,10 +7355,73 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-balance-check-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-balance-check-2026.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-balance-check-2026.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-balance-check-2026.html",
+      "reference": "https://savingio.com/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-balance-use-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-balance-use.html",
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-balance-use.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-balance-use.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-balance-use.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-balance-use.html",
+      "reference": "https://savingio.com/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
       ]
     },
     {
@@ -6480,6 +7432,41 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-documents.html",
+      "reference": "https://savingio.com/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-eligibility-2026.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -6494,6 +7481,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-eligibility-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-eligibility-2026.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-eligibility-2026.html",
+      "reference": "https://savingio.com/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-online-application.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -6505,6 +7513,41 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-online-application.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-online-application.html",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-online-application.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-online-application.html",
+      "reference": "https://savingio.com/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/fixed-date-online-application.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
       ]
     },
     {
@@ -6526,6 +7569,13 @@
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
         "articles/energy-voucher-application-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/government-support-calendar.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
@@ -6711,6 +7761,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/near-poverty-certificate.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/peak-season-hotel-saving.html",
       "reference": "/articles/subscription-saving.html",
       "expected": [
@@ -6767,6 +7824,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/revolving-cancellation-payoff.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/revolving-cancellation-payoff.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/salary-budget-guide.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
@@ -6813,6 +7884,20 @@
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/savings-maturity-auto-renewal.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/self-employed-income-tax-refund-check.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
@@ -6991,6 +8076,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/youth-leap-account-contribution.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/air-conditioner-electricity-saving.html",
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
@@ -7068,6 +8160,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/culture-nuri-card-balance.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/culture-nuri-card-balance.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-2026-application.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -7082,6 +8188,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-2026-application.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-2026-application.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-application-2026.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -7093,6 +8213,20 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-application-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-application-2026.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
@@ -7118,6 +8252,27 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-application.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-application.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-application.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-application.html",
       "reference": "https://savingio.com/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
@@ -7131,10 +8286,73 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-balance-check-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-balance-check-2026.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-balance-check-2026.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-balance-check-2026.html",
+      "reference": "https://savingio.com/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-balance-use-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-balance-use.html",
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-balance-use.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-balance-use.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-balance-use.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-balance-use.html",
+      "reference": "https://savingio.com/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
       ]
     },
     {
@@ -7145,6 +8363,41 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-documents.html",
+      "reference": "https://savingio.com/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-eligibility-2026.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -7159,6 +8412,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-eligibility-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-eligibility-2026.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-eligibility-2026.html",
+      "reference": "https://savingio.com/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-online-application.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -7170,6 +8444,41 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-online-application.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-online-application.html",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-online-application.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-online-application.html",
+      "reference": "https://savingio.com/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/fixed-date-online-application.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
       ]
     },
     {
@@ -7191,6 +8500,13 @@
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
         "articles/energy-voucher-application-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/government-support-calendar.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
@@ -7376,6 +8692,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/near-poverty-certificate.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/peak-season-hotel-saving.html",
       "reference": "/articles/subscription-saving.html",
       "expected": [
@@ -7432,6 +8755,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/revolving-cancellation-payoff.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/revolving-cancellation-payoff.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/salary-budget-guide.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
@@ -7478,6 +8815,20 @@
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/savings-maturity-auto-renewal.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/self-employed-income-tax-refund-check.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
@@ -7656,6 +9007,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/youth-leap-account-contribution.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/air-conditioner-electricity-saving.html",
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
@@ -7733,6 +9091,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/culture-nuri-card-balance.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/culture-nuri-card-balance.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-2026-application.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -7747,6 +9119,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-2026-application.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-2026-application.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-application-2026.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -7758,6 +9144,20 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-application-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-application-2026.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
@@ -7783,6 +9183,27 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-application.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-application.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-application.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-application.html",
       "reference": "https://savingio.com/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
@@ -7796,10 +9217,73 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-balance-check-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-balance-check-2026.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-balance-check-2026.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-balance-check-2026.html",
+      "reference": "https://savingio.com/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-balance-use-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-balance-use.html",
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-balance-use.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-balance-use.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-balance-use.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-balance-use.html",
+      "reference": "https://savingio.com/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
       ]
     },
     {
@@ -7810,6 +9294,41 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-documents.html",
+      "reference": "https://savingio.com/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-eligibility-2026.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -7824,6 +9343,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-eligibility-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-eligibility-2026.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-eligibility-2026.html",
+      "reference": "https://savingio.com/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-online-application.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -7835,6 +9375,41 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-online-application.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-online-application.html",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-online-application.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-online-application.html",
+      "reference": "https://savingio.com/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/fixed-date-online-application.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
       ]
     },
     {
@@ -7856,6 +9431,13 @@
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
         "articles/energy-voucher-application-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/government-support-calendar.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
@@ -8041,6 +9623,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/near-poverty-certificate.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/peak-season-hotel-saving.html",
       "reference": "/articles/subscription-saving.html",
       "expected": [
@@ -8097,6 +9686,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/revolving-cancellation-payoff.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/revolving-cancellation-payoff.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/salary-budget-guide.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
@@ -8143,6 +9746,20 @@
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/savings-maturity-auto-renewal.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/self-employed-income-tax-refund-check.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
@@ -8321,6 +9938,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/youth-leap-account-contribution.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/inbox/20260716-235745/index.html",
       "reference": "${x[2]}",
       "expected": [
@@ -8355,6 +9979,41 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
       ]
     },
     {
@@ -8490,6 +10149,41 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
       ]
     },
     {
@@ -8669,6 +10363,13 @@
     },
     {
       "source": "factory/history/#Ub3c4#Uc2dc#Uac00#Uc2a4-#Uc694#Uae08-#Uc808#Uc57d#Uacfc-#Uac80#Uce68-#Ud655#Uc778-#Ubc29#Ubc95-da52d01c.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/history/#Ub3c4#Uc2dc#Uac00#Uc2a4-#Uc694#Uae08-#Uc808#Uc57d#Uacfc-#Uac80#Uce68-#Ud655#Uc778-#Ubc29#Ubc95-da52d01c.json",
       "reference": "/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
       "expected": [
         "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
@@ -8690,6 +10391,13 @@
     },
     {
       "source": "factory/history/#Uc544#Ud30c#Ud2b8-#Uad00#Ub9ac#Ube44-#Ud56d#Ubaa9#Ubcc4-#Ud655#Uc778-#Ubc29#Ubc95-c9789557.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/history/#Uc544#Ud30c#Ud2b8-#Uad00#Ub9ac#Ube44-#Ud56d#Ubaa9#Ubcc4-#Ud655#Uc778-#Ubc29#Ubc95-c9789557.json",
       "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
       "expected": [
         "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
@@ -8697,9 +10405,23 @@
     },
     {
       "source": "factory/history/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/history/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41.json",
       "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
       "expected": [
         "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/history/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
@@ -8725,6 +10447,13 @@
     },
     {
       "source": "factory/history/#Ud734#Uba74#Uc608#Uae08#Uacfc-#Uc228#Uc740-#Ubcf4#Ud5d8#Uae08-#Ucc3e#Ub294-#Ubc29#Ubc95-1e05d025.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/history/#Ud734#Uba74#Uc608#Uae08#Uacfc-#Uc228#Uc740-#Ubcf4#Ud5d8#Uae08-#Ucc3e#Ub294-#Ubc29#Ubc95-1e05d025.json",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
@@ -8742,6 +10471,13 @@
       "reference": "/articles/관리비-절약-8e9b7c5b.html",
       "expected": [
         "articles/관리비-절약-8e9b7c5b.html"
+      ]
+    },
+    {
+      "source": "factory/history/도시가스-요금-절약과-검침-확인-방법-da52d01c.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
@@ -8767,6 +10503,13 @@
     },
     {
       "source": "factory/history/아파트-관리비-항목별-확인-방법-c9789557.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/history/아파트-관리비-항목별-확인-방법-c9789557.json",
       "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
       "expected": [
         "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
@@ -8774,9 +10517,23 @@
     },
     {
       "source": "factory/history/자동이체-할인과-납부일-관리-방법-c93c4d41.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/history/자동이체-할인과-납부일-관리-방법-c93c4d41.json",
       "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
       "expected": [
         "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/history/장기수선충당금-반환받는-방법-8ea93de8.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
@@ -8798,6 +10555,13 @@
       "reference": "/articles/전기요금-절약-c861d77b.html",
       "expected": [
         "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/history/휴면예금과-숨은-보험금-찾는-방법-1e05d025.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
@@ -9087,6 +10851,41 @@
     },
     {
       "source": "factory/output/article_catalog.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
@@ -9195,6 +10994,41 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
       ]
     },
     {
@@ -9373,6 +11207,20 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/culture-nuri-card-balance.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/culture-nuri-card-balance.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/energy-voucher-2026-application.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -9387,6 +11235,20 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-2026-application.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-2026-application.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/energy-voucher-application-2026.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -9398,6 +11260,20 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-application-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-application-2026.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
@@ -9423,6 +11299,27 @@
     },
     {
       "source": "factory/output/article_remodel_test/site/articles/energy-voucher-application.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-application.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-application.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-application.html",
       "reference": "https://savingio.com/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
@@ -9436,10 +11333,73 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-balance-check-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-balance-check-2026.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-balance-check-2026.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-balance-check-2026.html",
+      "reference": "https://savingio.com/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-balance-use-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/energy-voucher-balance-use.html",
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-balance-use.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-balance-use.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-balance-use.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-balance-use.html",
+      "reference": "https://savingio.com/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
       ]
     },
     {
@@ -9450,6 +11410,41 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-documents.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-documents.html",
+      "reference": "https://savingio.com/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/energy-voucher-eligibility-2026.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -9464,6 +11459,27 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-eligibility-2026.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-eligibility-2026.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-eligibility-2026.html",
+      "reference": "https://savingio.com/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/energy-voucher-online-application.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -9475,6 +11491,41 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-online-application.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-online-application.html",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-online-application.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/energy-voucher-online-application.html",
+      "reference": "https://savingio.com/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/fixed-date-online-application.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
       ]
     },
     {
@@ -9496,6 +11547,13 @@
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
         "articles/energy-voucher-application-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/government-support-calendar.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
@@ -9681,6 +11739,13 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/near-poverty-certificate.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/peak-season-hotel-saving.html",
       "reference": "/articles/subscription-saving.html",
       "expected": [
@@ -9737,6 +11802,20 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/revolving-cancellation-payoff.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/revolving-cancellation-payoff.html",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/salary-budget-guide.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
@@ -9783,6 +11862,20 @@
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/savings-maturity-auto-renewal.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/self-employed-income-tax-refund-check.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
@@ -9958,6 +12051,13 @@
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/youth-leap-account-contribution.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
@@ -10498,9 +12598,23 @@
     },
     {
       "source": "factory/output/content_only_report.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/content_only_report.json",
       "reference": "/articles/월급-실수령액-계산-방법-305d9058.html",
       "expected": [
         "articles/월급-실수령액-계산-방법-305d9058.html"
+      ]
+    },
+    {
+      "source": "factory/output/draft.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
@@ -10561,6 +12675,13 @@
     },
     {
       "source": "factory/output/drafts/#Uad6d#Uc138-#Ud658#Uae09#Uae08-#Uc870#Ud68c#Uc640-#Uc218#Ub839-#Ubc29#Ubc95-52402287-factory.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uad6d#Uc138-#Ud658#Uae09#Uae08-#Uc870#Ud68c#Uc640-#Uc218#Ub839-#Ubc29#Ubc95-52402287-factory.html",
       "reference": "/articles/국세-환급금-조회와-수령-방법-52402287.html",
       "expected": [
         "articles/국세-환급금-조회와-수령-방법-52402287.html"
@@ -10575,6 +12696,13 @@
     },
     {
       "source": "factory/output/drafts/#Uad6d#Uc138-#Ud658#Uae09#Uae08-#Uc870#Ud68c#Uc640-#Uc218#Ub839-#Ubc29#Ubc95-52402287.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uad6d#Uc138-#Ud658#Uae09#Uae08-#Uc870#Ud68c#Uc640-#Uc218#Ub839-#Ubc29#Ubc95-52402287.html",
       "reference": "/articles/국세-환급금-조회와-수령-방법-52402287.html",
       "expected": [
         "articles/국세-환급금-조회와-수령-방법-52402287.html"
@@ -10617,6 +12745,13 @@
     },
     {
       "source": "factory/output/drafts/#Uae30#Ucd08#Uc5f0#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc608#Uc0c1-#Uae08#Uc561-4aeed037-factory.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uae30#Ucd08#Uc5f0#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc608#Uc0c1-#Uae08#Uc561-4aeed037-factory.html",
       "reference": "/articles/기초연금-신청-조건과-예상-금액-4aeed037.html",
       "expected": [
         "articles/기초연금-신청-조건과-예상-금액-4aeed037.html"
@@ -10631,6 +12766,13 @@
     },
     {
       "source": "factory/output/drafts/#Uae30#Ucd08#Uc5f0#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc608#Uc0c1-#Uae08#Uc561-4aeed037.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uae30#Ucd08#Uc5f0#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc608#Uc0c1-#Uae08#Uc561-4aeed037.html",
       "reference": "/articles/기초연금-신청-조건과-예상-금액-4aeed037.html",
       "expected": [
         "articles/기초연금-신청-조건과-예상-금액-4aeed037.html"
@@ -10645,6 +12787,13 @@
     },
     {
       "source": "factory/output/drafts/#Ub3c4#Uc2dc#Uac00#Uc2a4-#Uc694#Uae08-#Uc808#Uc57d#Uacfc-#Uac80#Uce68-#Ud655#Uc778-#Ubc29#Ubc95-da52d01c-factory.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Ub3c4#Uc2dc#Uac00#Uc2a4-#Uc694#Uae08-#Uc808#Uc57d#Uacfc-#Uac80#Uce68-#Ud655#Uc778-#Ubc29#Ubc95-da52d01c-factory.html",
       "reference": "/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
       "expected": [
         "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
@@ -10659,6 +12808,13 @@
     },
     {
       "source": "factory/output/drafts/#Ub3c4#Uc2dc#Uac00#Uc2a4-#Uc694#Uae08-#Uc808#Uc57d#Uacfc-#Uac80#Uce68-#Ud655#Uc778-#Ubc29#Ubc95-da52d01c.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Ub3c4#Uc2dc#Uac00#Uc2a4-#Uc694#Uae08-#Uc808#Uc57d#Uacfc-#Uac80#Uce68-#Ud655#Uc778-#Ubc29#Ubc95-da52d01c.html",
       "reference": "/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
       "expected": [
         "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
@@ -10715,6 +12871,13 @@
     },
     {
       "source": "factory/output/drafts/#Uc2e0#Uc6a9#Uce74#Ub4dc-#Ud3ec#Uc778#Ud2b8-#Ud604#Uae08#Ud654-#Ubc29#Ubc95-1c5c3966-factory.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc2e0#Uc6a9#Uce74#Ub4dc-#Ud3ec#Uc778#Ud2b8-#Ud604#Uae08#Ud654-#Ubc29#Ubc95-1c5c3966-factory.html",
       "reference": "/articles/신용카드-포인트-현금화-방법-1c5c3966.html",
       "expected": [
         "articles/신용카드-포인트-현금화-방법-1c5c3966.html"
@@ -10729,6 +12892,13 @@
     },
     {
       "source": "factory/output/drafts/#Uc2e0#Uc6a9#Uce74#Ub4dc-#Ud3ec#Uc778#Ud2b8-#Ud604#Uae08#Ud654-#Ubc29#Ubc95-1c5c3966.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc2e0#Uc6a9#Uce74#Ub4dc-#Ud3ec#Uc778#Ud2b8-#Ud604#Uae08#Ud654-#Ubc29#Ubc95-1c5c3966.html",
       "reference": "/articles/신용카드-포인트-현금화-방법-1c5c3966.html",
       "expected": [
         "articles/신용카드-포인트-현금화-방법-1c5c3966.html"
@@ -10743,6 +12913,13 @@
     },
     {
       "source": "factory/output/drafts/#Uc2e4#Uc5c5#Uae09#Uc5ec-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc808#Ucc28-d8a12400-factory.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc2e4#Uc5c5#Uae09#Uc5ec-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc808#Ucc28-d8a12400-factory.html",
       "reference": "/articles/실업급여-신청-조건과-절차-d8a12400.html",
       "expected": [
         "articles/실업급여-신청-조건과-절차-d8a12400.html"
@@ -10757,6 +12934,13 @@
     },
     {
       "source": "factory/output/drafts/#Uc2e4#Uc5c5#Uae09#Uc5ec-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc808#Ucc28-d8a12400.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc2e4#Uc5c5#Uae09#Uc5ec-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc808#Ucc28-d8a12400.html",
       "reference": "/articles/실업급여-신청-조건과-절차-d8a12400.html",
       "expected": [
         "articles/실업급여-신청-조건과-절차-d8a12400.html"
@@ -10771,6 +12955,13 @@
     },
     {
       "source": "factory/output/drafts/#Uc544#Ud30c#Ud2b8-#Uad00#Ub9ac#Ube44-#Ud56d#Ubaa9#Ubcc4-#Ud655#Uc778-#Ubc29#Ubc95-c9789557-factory.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc544#Ud30c#Ud2b8-#Uad00#Ub9ac#Ube44-#Ud56d#Ubaa9#Ubcc4-#Ud655#Uc778-#Ubc29#Ubc95-c9789557-factory.html",
       "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
       "expected": [
         "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
@@ -10785,6 +12976,13 @@
     },
     {
       "source": "factory/output/drafts/#Uc544#Ud30c#Ud2b8-#Uad00#Ub9ac#Ube44-#Ud56d#Ubaa9#Ubcc4-#Ud655#Uc778-#Ubc29#Ubc95-c9789557.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc544#Ud30c#Ud2b8-#Uad00#Ub9ac#Ube44-#Ud56d#Ubaa9#Ubcc4-#Ud655#Uc778-#Ubc29#Ubc95-c9789557.html",
       "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
       "expected": [
         "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
@@ -10813,6 +13011,20 @@
     },
     {
       "source": "factory/output/drafts/#Uc5d0#Ub108#Uc9c0#Ubc14#Uc6b0#Ucc98-#Uc2e0#Uccad-#Ub300#Uc0c1#Uacfc-#Ubc29#Ubc95-503ef955-factory.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc5d0#Ub108#Uc9c0#Ubc14#Uc6b0#Ucc98-#Uc2e0#Uccad-#Ub300#Uc0c1#Uacfc-#Ubc29#Ubc95-503ef955-factory.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc5d0#Ub108#Uc9c0#Ubc14#Uc6b0#Ucc98-#Uc2e0#Uccad-#Ub300#Uc0c1#Uacfc-#Ubc29#Ubc95-503ef955-factory.html",
       "reference": "/articles/에너지바우처-신청-대상과-방법-503ef955.html",
       "expected": [
         "articles/에너지바우처-신청-대상과-방법-503ef955.html"
@@ -10841,6 +13053,20 @@
     },
     {
       "source": "factory/output/drafts/#Uc5d0#Ub108#Uc9c0#Ubc14#Uc6b0#Ucc98-#Uc2e0#Uccad-#Ub300#Uc0c1#Uacfc-#Ubc29#Ubc95-503ef955.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc5d0#Ub108#Uc9c0#Ubc14#Uc6b0#Ucc98-#Uc2e0#Uccad-#Ub300#Uc0c1#Uacfc-#Ubc29#Ubc95-503ef955.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc5d0#Ub108#Uc9c0#Ubc14#Uc6b0#Ucc98-#Uc2e0#Uccad-#Ub300#Uc0c1#Uacfc-#Ubc29#Ubc95-503ef955.html",
       "reference": "/articles/에너지바우처-신청-대상과-방법-503ef955.html",
       "expected": [
         "articles/에너지바우처-신청-대상과-방법-503ef955.html"
@@ -10883,6 +13109,13 @@
     },
     {
       "source": "factory/output/drafts/#Uc6d4#Uae09-#Uc2e4#Uc218#Ub839#Uc561-#Uacc4#Uc0b0-#Ubc29#Ubc95-305d9058-factory.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc6d4#Uae09-#Uc2e4#Uc218#Ub839#Uc561-#Uacc4#Uc0b0-#Ubc29#Ubc95-305d9058-factory.html",
       "reference": "/articles/월급-실수령액-계산-방법-305d9058.html",
       "expected": [
         "articles/월급-실수령액-계산-방법-305d9058.html"
@@ -10897,6 +13130,13 @@
     },
     {
       "source": "factory/output/drafts/#Uc6d4#Uae09-#Uc2e4#Uc218#Ub839#Uc561-#Uacc4#Uc0b0-#Ubc29#Ubc95-305d9058.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc6d4#Uae09-#Uc2e4#Uc218#Ub839#Uc561-#Uacc4#Uc0b0-#Ubc29#Ubc95-305d9058.html",
       "reference": "/articles/월급-실수령액-계산-방법-305d9058.html",
       "expected": [
         "articles/월급-실수령액-계산-방법-305d9058.html"
@@ -10911,6 +13151,13 @@
     },
     {
       "source": "factory/output/drafts/#Uc790#Ub140#Uc7a5#Ub824#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc900#Ube44-#Uc11c#Ub958-b64950f4-factory.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc790#Ub140#Uc7a5#Ub824#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc900#Ube44-#Uc11c#Ub958-b64950f4-factory.html",
       "reference": "/articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html",
       "expected": [
         "articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html"
@@ -10925,6 +13172,13 @@
     },
     {
       "source": "factory/output/drafts/#Uc790#Ub140#Uc7a5#Ub824#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc900#Ube44-#Uc11c#Ub958-b64950f4.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc790#Ub140#Uc7a5#Ub824#Uae08-#Uc2e0#Uccad-#Uc870#Uac74#Uacfc-#Uc900#Ube44-#Uc11c#Ub958-b64950f4.html",
       "reference": "/articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html",
       "expected": [
         "articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html"
@@ -10939,6 +13193,13 @@
     },
     {
       "source": "factory/output/drafts/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41-factory.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41-factory.html",
       "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
       "expected": [
         "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
@@ -10953,6 +13214,13 @@
     },
     {
       "source": "factory/output/drafts/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41.html",
       "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
       "expected": [
         "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
@@ -10967,6 +13235,13 @@
     },
     {
       "source": "factory/output/drafts/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8-factory.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8-factory.html",
       "reference": "/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
       "expected": [
         "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
@@ -10977,6 +13252,13 @@
       "reference": "https://savingio.com/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
       "expected": [
         "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
@@ -11093,6 +13375,13 @@
     },
     {
       "source": "factory/output/drafts/#Ud1b5#Uc2e0#Ube44-#Uc120#Ud0dd#Uc57d#Uc815-#Ud560#Uc778-#Ud655#Uc778-#Ubc29#Ubc95-f3a6ecd2-factory.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Ud1b5#Uc2e0#Ube44-#Uc120#Ud0dd#Uc57d#Uc815-#Ud560#Uc778-#Ud655#Uc778-#Ubc29#Ubc95-f3a6ecd2-factory.html",
       "reference": "/articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html",
       "expected": [
         "articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html"
@@ -11107,6 +13396,13 @@
     },
     {
       "source": "factory/output/drafts/#Ud1b5#Uc2e0#Ube44-#Uc120#Ud0dd#Uc57d#Uc815-#Ud560#Uc778-#Ud655#Uc778-#Ubc29#Ubc95-f3a6ecd2.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Ud1b5#Uc2e0#Ube44-#Uc120#Ud0dd#Uc57d#Uc815-#Ud560#Uc778-#Ud655#Uc778-#Ubc29#Ubc95-f3a6ecd2.html",
       "reference": "/articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html",
       "expected": [
         "articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html"
@@ -11145,6 +13441,13 @@
       "reference": "https://savingio.com/articles/퇴직금-계산과-지급-기준-b30bc4f9.html",
       "expected": [
         "articles/퇴직금-계산과-지급-기준-b30bc4f9.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Ud734#Uba74#Uc608#Uae08#Uacfc-#Uc228#Uc740-#Ubcf4#Ud5d8#Uae08-#Ucc3e#Ub294-#Ubc29#Ubc95-1e05d025-factory.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
@@ -11166,6 +13469,13 @@
       "reference": "https://savingio.com/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
       "expected": [
         "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Ud734#Uba74#Uc608#Uae08#Uacfc-#Uc228#Uc740-#Ubcf4#Ud5d8#Uae08-#Ucc3e#Ub294-#Ubc29#Ubc95-1e05d025.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
@@ -11247,6 +13557,13 @@
     },
     {
       "source": "factory/output/drafts/국세-환급금-조회와-수령-방법-52402287-factory.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/국세-환급금-조회와-수령-방법-52402287-factory.html",
       "reference": "/articles/국세-환급금-조회와-수령-방법-52402287.html",
       "expected": [
         "articles/국세-환급금-조회와-수령-방법-52402287.html"
@@ -11261,6 +13578,13 @@
     },
     {
       "source": "factory/output/drafts/국세-환급금-조회와-수령-방법-52402287.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/국세-환급금-조회와-수령-방법-52402287.html",
       "reference": "/articles/국세-환급금-조회와-수령-방법-52402287.html",
       "expected": [
         "articles/국세-환급금-조회와-수령-방법-52402287.html"
@@ -11303,6 +13627,13 @@
     },
     {
       "source": "factory/output/drafts/기초연금-신청-조건과-예상-금액-4aeed037-factory.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/기초연금-신청-조건과-예상-금액-4aeed037-factory.html",
       "reference": "/articles/기초연금-신청-조건과-예상-금액-4aeed037.html",
       "expected": [
         "articles/기초연금-신청-조건과-예상-금액-4aeed037.html"
@@ -11317,6 +13648,13 @@
     },
     {
       "source": "factory/output/drafts/기초연금-신청-조건과-예상-금액-4aeed037.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/기초연금-신청-조건과-예상-금액-4aeed037.html",
       "reference": "/articles/기초연금-신청-조건과-예상-금액-4aeed037.html",
       "expected": [
         "articles/기초연금-신청-조건과-예상-금액-4aeed037.html"
@@ -11331,6 +13669,13 @@
     },
     {
       "source": "factory/output/drafts/도시가스-요금-절약과-검침-확인-방법-da52d01c-factory.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/도시가스-요금-절약과-검침-확인-방법-da52d01c-factory.html",
       "reference": "/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
       "expected": [
         "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
@@ -11345,6 +13690,13 @@
     },
     {
       "source": "factory/output/drafts/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
       "reference": "/articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html",
       "expected": [
         "articles/도시가스-요금-절약과-검침-확인-방법-da52d01c.html"
@@ -11401,6 +13753,13 @@
     },
     {
       "source": "factory/output/drafts/신용카드-포인트-현금화-방법-1c5c3966-factory.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/신용카드-포인트-현금화-방법-1c5c3966-factory.html",
       "reference": "/articles/신용카드-포인트-현금화-방법-1c5c3966.html",
       "expected": [
         "articles/신용카드-포인트-현금화-방법-1c5c3966.html"
@@ -11415,6 +13774,13 @@
     },
     {
       "source": "factory/output/drafts/신용카드-포인트-현금화-방법-1c5c3966.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/신용카드-포인트-현금화-방법-1c5c3966.html",
       "reference": "/articles/신용카드-포인트-현금화-방법-1c5c3966.html",
       "expected": [
         "articles/신용카드-포인트-현금화-방법-1c5c3966.html"
@@ -11429,6 +13795,13 @@
     },
     {
       "source": "factory/output/drafts/실업급여-신청-조건과-절차-d8a12400-factory.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/실업급여-신청-조건과-절차-d8a12400-factory.html",
       "reference": "/articles/실업급여-신청-조건과-절차-d8a12400.html",
       "expected": [
         "articles/실업급여-신청-조건과-절차-d8a12400.html"
@@ -11443,6 +13816,13 @@
     },
     {
       "source": "factory/output/drafts/실업급여-신청-조건과-절차-d8a12400.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/실업급여-신청-조건과-절차-d8a12400.html",
       "reference": "/articles/실업급여-신청-조건과-절차-d8a12400.html",
       "expected": [
         "articles/실업급여-신청-조건과-절차-d8a12400.html"
@@ -11457,6 +13837,13 @@
     },
     {
       "source": "factory/output/drafts/아파트-관리비-항목별-확인-방법-c9789557-factory.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/아파트-관리비-항목별-확인-방법-c9789557-factory.html",
       "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
       "expected": [
         "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
@@ -11471,6 +13858,13 @@
     },
     {
       "source": "factory/output/drafts/아파트-관리비-항목별-확인-방법-c9789557.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/아파트-관리비-항목별-확인-방법-c9789557.html",
       "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
       "expected": [
         "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
@@ -11499,6 +13893,20 @@
     },
     {
       "source": "factory/output/drafts/에너지바우처-신청-대상과-방법-503ef955-factory.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/에너지바우처-신청-대상과-방법-503ef955-factory.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/에너지바우처-신청-대상과-방법-503ef955-factory.html",
       "reference": "/articles/에너지바우처-신청-대상과-방법-503ef955.html",
       "expected": [
         "articles/에너지바우처-신청-대상과-방법-503ef955.html"
@@ -11527,6 +13935,20 @@
     },
     {
       "source": "factory/output/drafts/에너지바우처-신청-대상과-방법-503ef955.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/에너지바우처-신청-대상과-방법-503ef955.html",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/에너지바우처-신청-대상과-방법-503ef955.html",
       "reference": "/articles/에너지바우처-신청-대상과-방법-503ef955.html",
       "expected": [
         "articles/에너지바우처-신청-대상과-방법-503ef955.html"
@@ -11569,6 +13991,13 @@
     },
     {
       "source": "factory/output/drafts/월급-실수령액-계산-방법-305d9058-factory.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/월급-실수령액-계산-방법-305d9058-factory.html",
       "reference": "/articles/월급-실수령액-계산-방법-305d9058.html",
       "expected": [
         "articles/월급-실수령액-계산-방법-305d9058.html"
@@ -11583,6 +14012,13 @@
     },
     {
       "source": "factory/output/drafts/월급-실수령액-계산-방법-305d9058.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/월급-실수령액-계산-방법-305d9058.html",
       "reference": "/articles/월급-실수령액-계산-방법-305d9058.html",
       "expected": [
         "articles/월급-실수령액-계산-방법-305d9058.html"
@@ -11597,6 +14033,13 @@
     },
     {
       "source": "factory/output/drafts/자녀장려금-신청-조건과-준비-서류-b64950f4-factory.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/자녀장려금-신청-조건과-준비-서류-b64950f4-factory.html",
       "reference": "/articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html",
       "expected": [
         "articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html"
@@ -11611,6 +14054,13 @@
     },
     {
       "source": "factory/output/drafts/자녀장려금-신청-조건과-준비-서류-b64950f4.html",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/자녀장려금-신청-조건과-준비-서류-b64950f4.html",
       "reference": "/articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html",
       "expected": [
         "articles/자녀장려금-신청-조건과-준비-서류-b64950f4.html"
@@ -11625,6 +14075,13 @@
     },
     {
       "source": "factory/output/drafts/자동이체-할인과-납부일-관리-방법-c93c4d41-factory.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/자동이체-할인과-납부일-관리-방법-c93c4d41-factory.html",
       "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
       "expected": [
         "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
@@ -11635,6 +14092,13 @@
       "reference": "https://savingio.com/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
       "expected": [
         "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
@@ -11667,6 +14131,13 @@
     },
     {
       "source": "factory/output/drafts/장기수선충당금-반환받는-방법-8ea93de8-factory.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/장기수선충당금-반환받는-방법-8ea93de8-factory.html",
       "reference": "/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
       "expected": [
         "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
@@ -11681,6 +14152,13 @@
     },
     {
       "source": "factory/output/drafts/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/장기수선충당금-반환받는-방법-8ea93de8.html",
       "reference": "/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
       "expected": [
         "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
@@ -11779,6 +14257,13 @@
     },
     {
       "source": "factory/output/drafts/통신비-선택약정-할인-확인-방법-f3a6ecd2-factory.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/통신비-선택약정-할인-확인-방법-f3a6ecd2-factory.html",
       "reference": "/articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html",
       "expected": [
         "articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html"
@@ -11793,6 +14278,13 @@
     },
     {
       "source": "factory/output/drafts/통신비-선택약정-할인-확인-방법-f3a6ecd2.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/통신비-선택약정-할인-확인-방법-f3a6ecd2.html",
       "reference": "/articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html",
       "expected": [
         "articles/통신비-선택약정-할인-확인-방법-f3a6ecd2.html"
@@ -11831,6 +14323,13 @@
       "reference": "https://savingio.com/articles/퇴직금-계산과-지급-기준-b30bc4f9.html",
       "expected": [
         "articles/퇴직금-계산과-지급-기준-b30bc4f9.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/휴면예금과-숨은-보험금-찾는-방법-1e05d025-factory.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
@@ -11852,6 +14351,13 @@
       "reference": "https://savingio.com/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
       "expected": [
         "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
@@ -11976,6 +14482,41 @@
     },
     {
       "source": "factory/output/link_graph.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
@@ -12077,6 +14618,13 @@
       "reference": "/articles/전기요금-절약-c861d77b.html",
       "expected": [
         "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/output/related_links.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
@@ -12191,6 +14739,13 @@
     },
     {
       "source": "factory/output/run_report.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/run_report.json",
       "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
       "expected": [
         "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
@@ -12208,6 +14763,13 @@
       "reference": "/articles/factory-runner-integration.html",
       "expected": [
         "articles/factory-runner-integration.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Ub3c4#Uc2dc#Uac00#Uc2a4-#Uc694#Uae08-#Uc808#Uc57d#Uacfc-#Uac80#Uce68-#Ud655#Uc778-#Ubc29#Ubc95-da52d01c/article.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
@@ -12261,6 +14823,13 @@
     },
     {
       "source": "factory/output/staging/#Uc544#Ud30c#Ud2b8-#Uad00#Ub9ac#Ube44-#Ud56d#Ubaa9#Ubcc4-#Ud655#Uc778-#Ubc29#Ubc95-c9789557/article.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Uc544#Ud30c#Ud2b8-#Uad00#Ub9ac#Ube44-#Ud56d#Ubaa9#Ubcc4-#Ud655#Uc778-#Ubc29#Ubc95-c9789557/article.html",
       "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
       "expected": [
         "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
@@ -12282,6 +14851,13 @@
     },
     {
       "source": "factory/output/staging/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41/article.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41/article.html",
       "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
       "expected": [
         "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
@@ -12299,6 +14875,13 @@
       "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
       "expected": [
         "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8/article.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
@@ -12366,6 +14949,13 @@
     },
     {
       "source": "factory/output/staging/#Ud734#Uba74#Uc608#Uae08#Uacfc-#Uc228#Uc740-#Ubcf4#Ud5d8#Uae08-#Ucc3e#Ub294-#Ubc29#Ubc95-1e05d025/article.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Ud734#Uba74#Uc608#Uae08#Uacfc-#Uc228#Uc740-#Ubcf4#Ud5d8#Uae08-#Ucc3e#Ub294-#Ubc29#Ubc95-1e05d025/article.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
@@ -12390,6 +14980,13 @@
       "reference": "/articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html",
       "expected": [
         "articles/휴면예금과-숨은-보험금-찾는-방법-1e05d025.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/도시가스-요금-절약과-검침-확인-방법-da52d01c/article.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
@@ -12443,6 +15040,13 @@
     },
     {
       "source": "factory/output/staging/아파트-관리비-항목별-확인-방법-c9789557/article.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/아파트-관리비-항목별-확인-방법-c9789557/article.html",
       "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
       "expected": [
         "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
@@ -12464,6 +15068,13 @@
     },
     {
       "source": "factory/output/staging/자동이체-할인과-납부일-관리-방법-c93c4d41/article.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/자동이체-할인과-납부일-관리-방법-c93c4d41/article.html",
       "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
       "expected": [
         "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
@@ -12481,6 +15092,13 @@
       "reference": "/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
       "expected": [
         "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/장기수선충당금-반환받는-방법-8ea93de8/article.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
@@ -12544,6 +15162,13 @@
       "reference": "/articles/전기요금-절약-c861d77b.html",
       "expected": [
         "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/휴면예금과-숨은-보험금-찾는-방법-1e05d025/article.html",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
@@ -13334,6 +15959,41 @@
     },
     {
       "source": "sitemap.xml",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "sitemap.xml",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "sitemap.xml",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "sitemap.xml",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "sitemap.xml",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "sitemap.xml",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
@@ -13483,11 +16143,21 @@
       "file": "_redirects",
       "line": 24,
       "target": "/articles/energy-voucher-application.html"
+    },
+    {
+      "file": "_redirects",
+      "line": 50,
+      "target": "/articles/energy-voucher-balance-check-2026.html"
     }
   ],
   "missing_sitemap_targets": [
     "/articles/energy-voucher-application-2026.html",
     "/articles/energy-voucher-application.html",
+    "/articles/energy-voucher-balance-check-2026.html",
+    "/articles/energy-voucher-balance-use.html",
+    "/articles/energy-voucher-documents.html",
+    "/articles/energy-voucher-eligibility-2026.html",
+    "/articles/energy-voucher-online-application.html",
     "/articles/hidden-money-search.html",
     "/articles/hidden-refund-check.html",
     "/articles/how-to-check-hidden-refunds.html",
