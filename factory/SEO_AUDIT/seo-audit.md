@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
-- Articles: 202
+- Articles: 201
 - PASS: 143
-- WARNING: 58
+- WARNING: 57
 - FAIL: 1
 - Average score: 88.0
 - Thin content (<2500 Korean chars): 28
-- Short content (<4500 Korean chars): 151
+- Short content (<4500 Korean chars): 150
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -54,7 +54,6 @@
 | 80 | WARNING | `articles/small-business-policy-fund-search.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:40, CONTENT_SHORT_KO:3123 |
 | 80 | WARNING | `articles/small-business-policy-fund.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:18, CONTENT_SHORT_KO:3123 |
 | 80 | WARNING | `articles/spending-habits-change.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:41, CONTENT_SHORT_KO:3160 |
-| 80 | WARNING | `articles/summer-electricity-tier-check.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3642 |
 | 80 | WARNING | `articles/summer-gas-bill-hot-water-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3351 |
 | 80 | WARNING | `articles/summer-vacation-budget-plan.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3352 |
 | 80 | WARNING | `articles/summer-water-bill-spike-check.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:32, CONTENT_SHORT_KO:3329 |
@@ -100,3 +99,4 @@
 | 92 | PASS | `articles/bank-account-budgeting.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/bank-fee-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3463 |
 | 92 | PASS | `articles/basic-livelihood-discounts.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3233 |
+| 92 | PASS | `articles/beginner-money-management.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4014 |

@@ -1,12 +1,12 @@
 {
   "summary": {
-    "article_count": 202,
+    "article_count": 201,
     "pass": 143,
-    "warning": 58,
+    "warning": 57,
     "fail": 1,
     "average_score": 88.0,
     "thin_under_2500_ko": 28,
-    "short_under_4500_ko": 151,
+    "short_under_4500_ko": 150,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -4815,36 +4815,6 @@
       ],
       "score": 92,
       "status": "PASS"
-    },
-    {
-      "path": "articles/summer-electricity-tier-check.html",
-      "url": "https://savingio.com/articles/summer-electricity-tier-check.html",
-      "title": "폭염 시 전기요금 누진구간 확인법 | 세이빙이오(Savingio)",
-      "meta_description": "월 사용량과 누진구간을 확인해 예상요금을 관리하는 방법입니다.",
-      "canonical": "https://savingio.com/articles/summer-electricity-tier-check.html",
-      "h1": [
-        "폭염 시 전기요금 누진구간 확인법"
-      ],
-      "h2_count": 13,
-      "h3_count": 4,
-      "korean_chars": 3642,
-      "words": 1292,
-      "internal_article_links": 28,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:34",
-        "CONTENT_SHORT_KO:3642"
-      ],
-      "score": 80,
-      "status": "WARNING"
     },
     {
       "path": "articles/summer-electricity-usage-check-2026.html",
