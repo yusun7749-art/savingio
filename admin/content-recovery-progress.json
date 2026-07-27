@@ -1,11 +1,21 @@
 {
-  "version": "V3.038",
+  "version": "V3.039",
+  "baselineArticles": 220,
+  "currentPublishedArticles": 207,
+  "historicalRemovedOrExcluded": 13,
+  "historicalClassificationPending": 13,
   "rewritten": 0,
   "integrated": 0,
   "deleted": 0,
   "redirected": 0,
   "completedUltimate": 0,
   "inProgress": 1,
-  "currentTask": "전체 공개 글 검색 의도·중복·얇은 콘텐츠 전수 분석",
-  "updatedAt": "2026-07-27 KST"
+  "currentTask": "기존 13개 감소분의 통합·삭제·리디렉션 이력 분류 및 전체 검색 의도 감사",
+  "updatedAt": "2026-07-27 KST",
+  "countEvidence": {
+    "previousVerifiedPublicCount": 220,
+    "currentSearchIndexCount": 207,
+    "difference": 13,
+    "note": "13개는 현재 공개 검색 인덱스에서 제외된 수치다. 통합·삭제·리디렉션별 정확한 분류는 커밋과 파일 이력 감사 후 확정한다."
+  }
 }
