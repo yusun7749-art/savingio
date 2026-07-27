@@ -1,0 +1,49 @@
+name: Merge duplicate credit score articles
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  merge-credit-score:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Merge duplicate article
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          duplicate = Path('articles/credit-score-management.html')
+          if duplicate.exists():
+              duplicate.unlink()
+          sitemap = Path('sitemap.xml')
+          text = sitemap.read_text(encoding='utf-8')
+          text = text.replace('  <url><loc>https://savingio.com/articles/credit-score-management.html</loc></url>\n', '')
+          sitemap.write_text(text, encoding='utf-8')
+          redirects = Path('_redirects')
+          r = redirects.read_text(encoding='utf-8')
+          r = r.replace('/articles/credit-score-tips.html /articles/credit-score-management.html 301', '/articles/credit-score-tips.html /articles/credit-score-habits.html 301')
+          line = '/articles/credit-score-management.html /articles/credit-score-habits.html 301'
+          if line not in r:
+              r = r.rstrip() + '\n' + line + '\n'
+          redirects.write_text(r, encoding='utf-8')
+          PY
+      - name: Verify
+        run: |
+          test ! -f articles/credit-score-management.html
+          grep -q '/articles/credit-score-management.html /articles/credit-score-habits.html 301' _redirects
+          ! grep -q 'https://savingio.com/articles/credit-score-management.html</loc>' sitemap.xml
+          grep -q 'https://savingio.com/articles/credit-score-habits.html</loc>' sitemap.xml
+      - name: Commit results
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add articles/credit-score-management.html sitemap.xml _redirects
+          git diff --cached --quiet || git commit -m 'Consolidate credit score content into one guide'
+          git push
