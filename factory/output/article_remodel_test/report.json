@@ -3248,7 +3248,7 @@
     },
     {
       "source": "articles/vat-input-tax-deduction-items.html",
-      "output": "factory/output/article_remodel_test/site/articles/vat-input-tax-deduction-items.html",
+      "output": "factory/output/article_remodel_test/site/articles/vat-input-tax-deduction-2026.html",
       "transformed": true,
       "title": true,
       "meta_description": true,
