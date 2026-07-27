@@ -1,12 +1,12 @@
 {
   "summary": {
-    "article_count": 197,
-    "pass": 141,
+    "article_count": 195,
+    "pass": 139,
     "warning": 55,
     "fail": 1,
     "average_score": 88.1,
     "thin_under_2500_ko": 26,
-    "short_under_4500_ko": 148,
+    "short_under_4500_ko": 146,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -4934,34 +4934,6 @@
       "status": "WARNING"
     },
     {
-      "path": "articles/traffic-fine-check-payment-guide.html",
-      "url": "https://savingio.com/articles/traffic-fine-check-payment-guide.html",
-      "title": "교통범칙금 조회·납부 방법, 경찰청 교통민원24에서 확인하는 순서 | Savingio",
-      "meta_description": "교통범칙금 문자를 받았을 때 경찰청 교통민원24에서 위반내역, 운전자, 벌점, 납부기한을 확인하는 순서와 중복납부·스미싱 예방법을 정리했습니다.",
-      "canonical": "https://savingio.com/articles/traffic-fine-check-payment-guide.html",
-      "h1": [
-        "교통범칙금 조회·납부 방법, 경찰청 교통민원24에서 확인하는 순서"
-      ],
-      "h2_count": 13,
-      "h3_count": 0,
-      "korean_chars": 3315,
-      "words": 1088,
-      "internal_article_links": 10,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": false,
-      "faq_schema": true,
-      "issues": [],
-      "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3315"
-      ],
-      "score": 92,
-      "status": "PASS"
-    },
-    {
       "path": "articles/traffic-fines-difference-guide.html",
       "url": "https://savingio.com/articles/traffic-fines-difference-guide.html",
       "title": "교통 범칙금·과태료·벌금 차이와 조회·납부 방법 총정리 | Savingio",
@@ -4987,33 +4959,6 @@
         "CONTENT_SHORT_KO:3004"
       ],
       "score": 92,
-      "status": "PASS"
-    },
-    {
-      "path": "articles/traffic-penalty-check-payment-guide.html",
-      "url": "https://savingio.com/articles/traffic-penalty-check-payment-guide.html",
-      "title": "교통과태료 조회·납부 방법, 미납 과태료와 사전통지 확인 순서 | 세이빙이오(Savingio)",
-      "meta_description": "교통과태료 조회, 사전통지와 본고지 구분, 의견진술, 납부기한, 차량 이전 전 확인사항을 정리했습니다.",
-      "canonical": "https://savingio.com/articles/traffic-penalty-check-payment-guide.html",
-      "h1": [
-        "교통과태료 조회·납부 방법, 미납 과태료와 사전통지 확인 순서"
-      ],
-      "h2_count": 10,
-      "h3_count": 0,
-      "korean_chars": 3075,
-      "words": 979,
-      "internal_article_links": 9,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [],
-      "warnings": [
-        "CONTENT_SHORT_KO:3075"
-      ],
-      "score": 96,
       "status": "PASS"
     },
     {
