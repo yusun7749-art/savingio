@@ -1,13 +1,13 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3303,
-  "references_scanned": 62769,
+  "files_scanned": 3301,
+  "references_scanned": 62668,
   "counts": {
-    "broken_references": 2253,
+    "broken_references": 2368,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
-    "missing_sitemap_targets": 14,
+    "missing_sitemap_targets": 11,
     "publisher_id_drift": 0
   },
   "broken_references": [
@@ -1409,6 +1409,27 @@
       ]
     },
     {
+      "source": "articles/automatic-payment-saving.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "articles/bank-account-budgeting.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "articles/bank-fee-saving.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
       "source": "articles/basic-livelihood-discounts.html",
       "reference": "/articles/basic-livelihood-benefit-check.html",
       "expected": [
@@ -1427,6 +1448,20 @@
       "reference": "/articles/national-pension-guide.html",
       "expected": [
         "articles/national-pension-guide.html"
+      ]
+    },
+    {
+      "source": "articles/beginner-budget-plan.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "articles/beginner-money-management.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
       ]
     },
     {
@@ -1452,6 +1487,13 @@
     },
     {
       "source": "articles/business-closure-vat-order.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "articles/business-closure-vat-order.html",
       "reference": "/categories/side-income.html",
       "expected": [
         "categories/side-income.html"
@@ -1459,9 +1501,37 @@
     },
     {
       "source": "articles/business-phone-expense-deduction.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "articles/business-phone-expense-deduction.html",
       "reference": "/articles/business-expense-proof-guide.html",
       "expected": [
         "articles/business-expense-proof-guide.html"
+      ]
+    },
+    {
+      "source": "articles/business-vehicle-expense-basics.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "articles/cancel-unused-subscriptions.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "articles/car-aircon-fuel-saving.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
       ]
     },
     {
@@ -1493,6 +1563,20 @@
       ]
     },
     {
+      "source": "articles/car-tax-annual-payment.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "articles/car-tax-check-payment-guide.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
       "source": "articles/cash-out-card-points.html",
       "reference": "/articles/credit-card-annual-fee-check.html",
       "expected": [
@@ -1518,6 +1602,13 @@
       "reference": "/categories/refund-insurance.html",
       "expected": [
         "categories/refund-insurance.html"
+      ]
+    },
+    {
+      "source": "articles/child-allowance-guide.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
       ]
     },
     {
@@ -1613,6 +1704,13 @@
     },
     {
       "source": "articles/cma-account-types-risk.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "articles/cma-account-types-risk.html",
       "reference": "/articles/financial-product-comparison-guide.html",
       "expected": [
         "articles/financial-product-comparison-guide.html"
@@ -1623,6 +1721,13 @@
       "reference": "/articles/high-interest-savings-account.html",
       "expected": [
         "articles/high-interest-savings-account.html"
+      ]
+    },
+    {
+      "source": "articles/credit-card-billing-cycle-guide.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
       ]
     },
     {
@@ -1700,6 +1805,13 @@
       "reference": "/articles/standby-power-saving.html",
       "expected": [
         "articles/standby-power-saving.html"
+      ]
+    },
+    {
+      "source": "articles/deposit-protection-limit-guide.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
       ]
     },
     {
@@ -1784,6 +1896,13 @@
       "reference": "/articles/childcare-support-guide.html",
       "expected": [
         "articles/childcare-support-guide.html"
+      ]
+    },
+    {
+      "source": "articles/emergency-fund-guide.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
       ]
     },
     {
@@ -1931,6 +2050,13 @@
       "reference": "/categories/household-budget.html",
       "expected": [
         "categories/household-budget.html"
+      ]
+    },
+    {
+      "source": "articles/grocery-saving-tips.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
       ]
     },
     {
@@ -2229,6 +2355,13 @@
     },
     {
       "source": "articles/overdraft-account-guide.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "articles/overdraft-account-guide.html",
       "reference": "/articles/debt-repayment-priority.html",
       "expected": [
         "articles/debt-repayment-priority.html"
@@ -2365,6 +2498,13 @@
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
         "articles/how-to-save-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "articles/refrigerator-summer-electricity-saving.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -2508,6 +2648,13 @@
       ]
     },
     {
+      "source": "articles/small-business-electricity-support.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
       "source": "articles/spending-habits-change.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -2568,13 +2715,6 @@
       "reference": "/categories/living-cost.html",
       "expected": [
         "categories/living-cost.html"
-      ]
-    },
-    {
-      "source": "articles/summer-electricity-tier-check.html",
-      "reference": "/articles/how-to-save-electricity-bill.html",
-      "expected": [
-        "articles/how-to-save-electricity-bill.html"
       ]
     },
     {
@@ -2886,6 +3026,27 @@
       ]
     },
     {
+      "source": "articles/youth-leap-account-contribution.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "bank-fees-to-avoid.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "bank-fees-to-avoid.html",
+      "reference": "https://savingio.com/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
       "source": "benefits/index.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -2925,6 +3086,13 @@
       "reference": "/articles/subscription-cleanup.html",
       "expected": [
         "articles/subscription-cleanup.html"
+      ]
+    },
+    {
+      "source": "categories/finance-credit.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
       ]
     },
     {
@@ -3034,6 +3202,13 @@
     },
     {
       "source": "categories/living-bills.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "categories/living-bills.html",
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
@@ -3117,6 +3292,20 @@
       ]
     },
     {
+      "source": "data/electricity-knowledge-graph.json",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.js",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
       "source": "data/savingio-brain-data.js",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -3240,6 +3429,13 @@
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.js",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -3265,6 +3461,13 @@
     },
     {
       "source": "data/savingio-brain-data.json",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.json",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
         "articles/energy-voucher-application-2026.html"
@@ -3387,6 +3590,13 @@
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.json",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -3482,6 +3692,13 @@
     },
     {
       "source": "data/savingio-search-index.json",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "data/savingio-search-index.json",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
         "articles/energy-voucher-application-2026.html"
@@ -3604,6 +3821,13 @@
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "data/savingio-search-index.json",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -5340,9 +5564,30 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/bank-fee-saving.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/bank-fee-saving.html",
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/bank-fees-to-avoid.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/bank-fees-to-avoid.html",
+      "reference": "https://savingio.com/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
       ]
     },
     {
@@ -5381,6 +5626,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/cash-out-card-points.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/cashback-apps-guide.html",
       "reference": "/articles/how-to-check-hidden-refunds.html",
       "expected": [
@@ -5392,6 +5644,20 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/cma-account-types-risk.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/credit-card-billing-cycle-guide.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -5413,6 +5679,13 @@
       "reference": "/articles/energy-voucher-balance-use.html",
       "expected": [
         "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/dehumidifier-electricity-saving.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -6088,6 +6361,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/small-business-electricity-support.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/spending-habits-change.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -6141,6 +6421,27 @@
       "reference": "https://savingio.com/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/summer-electricity-tier-check-2026.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/summer-electricity-tier-check.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/summer-electricity-tier-check.html",
+      "reference": "https://savingio.com/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -6256,6 +6557,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/youth-leap-account-contribution.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/air-conditioner-electricity-saving.html",
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
@@ -6271,9 +6579,30 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/bank-fee-saving.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/bank-fee-saving.html",
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/bank-fees-to-avoid.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/bank-fees-to-avoid.html",
+      "reference": "https://savingio.com/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
       ]
     },
     {
@@ -6312,6 +6641,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/cash-out-card-points.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/cashback-apps-guide.html",
       "reference": "/articles/how-to-check-hidden-refunds.html",
       "expected": [
@@ -6323,6 +6659,20 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/cma-account-types-risk.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/credit-card-billing-cycle-guide.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -6344,6 +6694,13 @@
       "reference": "/articles/energy-voucher-balance-use.html",
       "expected": [
         "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/dehumidifier-electricity-saving.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -7019,6 +7376,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/small-business-electricity-support.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/spending-habits-change.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -7072,6 +7436,27 @@
       "reference": "https://savingio.com/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/summer-electricity-tier-check-2026.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/summer-electricity-tier-check.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/summer-electricity-tier-check.html",
+      "reference": "https://savingio.com/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -7187,6 +7572,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/youth-leap-account-contribution.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/air-conditioner-electricity-saving.html",
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
@@ -7202,9 +7594,30 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/bank-fee-saving.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/bank-fee-saving.html",
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/bank-fees-to-avoid.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/bank-fees-to-avoid.html",
+      "reference": "https://savingio.com/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
       ]
     },
     {
@@ -7243,6 +7656,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/cash-out-card-points.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/cashback-apps-guide.html",
       "reference": "/articles/how-to-check-hidden-refunds.html",
       "expected": [
@@ -7254,6 +7674,20 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/cma-account-types-risk.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/credit-card-billing-cycle-guide.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -7275,6 +7709,13 @@
       "reference": "/articles/energy-voucher-balance-use.html",
       "expected": [
         "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/dehumidifier-electricity-saving.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -7950,6 +8391,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/small-business-electricity-support.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/spending-habits-change.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -8003,6 +8451,27 @@
       "reference": "https://savingio.com/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/summer-electricity-tier-check-2026.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/summer-electricity-tier-check.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/summer-electricity-tier-check.html",
+      "reference": "https://savingio.com/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -8118,6 +8587,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/youth-leap-account-contribution.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/air-conditioner-electricity-saving.html",
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
@@ -8133,9 +8609,30 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/bank-fee-saving.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/bank-fee-saving.html",
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/bank-fees-to-avoid.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/bank-fees-to-avoid.html",
+      "reference": "https://savingio.com/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
       ]
     },
     {
@@ -8174,6 +8671,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/cash-out-card-points.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/cashback-apps-guide.html",
       "reference": "/articles/how-to-check-hidden-refunds.html",
       "expected": [
@@ -8185,6 +8689,20 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/cma-account-types-risk.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/credit-card-billing-cycle-guide.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -8206,6 +8724,13 @@
       "reference": "/articles/energy-voucher-balance-use.html",
       "expected": [
         "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/dehumidifier-electricity-saving.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -8881,6 +9406,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/small-business-electricity-support.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/spending-habits-change.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -8934,6 +9466,27 @@
       "reference": "https://savingio.com/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/summer-electricity-tier-check-2026.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/summer-electricity-tier-check.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/summer-electricity-tier-check.html",
+      "reference": "https://savingio.com/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -9049,6 +9602,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/youth-leap-account-contribution.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/air-conditioner-electricity-saving.html",
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
@@ -9064,9 +9624,30 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/bank-fee-saving.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/bank-fee-saving.html",
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/bank-fees-to-avoid.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/bank-fees-to-avoid.html",
+      "reference": "https://savingio.com/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
       ]
     },
     {
@@ -9105,6 +9686,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/cash-out-card-points.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/cashback-apps-guide.html",
       "reference": "/articles/how-to-check-hidden-refunds.html",
       "expected": [
@@ -9116,6 +9704,20 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/cma-account-types-risk.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/credit-card-billing-cycle-guide.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -9137,6 +9739,13 @@
       "reference": "/articles/energy-voucher-balance-use.html",
       "expected": [
         "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/dehumidifier-electricity-saving.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -9812,6 +10421,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/small-business-electricity-support.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/spending-habits-change.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -9865,6 +10481,27 @@
       "reference": "https://savingio.com/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/summer-electricity-tier-check-2026.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/summer-electricity-tier-check.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/summer-electricity-tier-check.html",
+      "reference": "https://savingio.com/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -9980,6 +10617,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/youth-leap-account-contribution.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
       "source": "factory/backups/inbox/20260716-235745/index.html",
       "reference": "${x[2]}",
       "expected": [
@@ -10000,6 +10644,13 @@
       "reference": "./css/style.css?v=9",
       "expected": [
         "factory/backups/inbox/20260716-235745/css/style.css"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
       ]
     },
     {
@@ -10126,6 +10777,13 @@
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -10174,6 +10832,13 @@
     },
     {
       "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
         "articles/energy-voucher-application-2026.html"
@@ -10296,6 +10961,13 @@
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -10872,6 +11544,13 @@
     },
     {
       "source": "factory/output/article_catalog.json",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
         "articles/energy-voucher-application-2026.html"
@@ -10994,6 +11673,13 @@
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -11019,6 +11705,13 @@
     },
     {
       "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
         "articles/energy-voucher-application-2026.html"
@@ -11141,6 +11834,13 @@
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -11180,9 +11880,30 @@
     },
     {
       "source": "factory/output/article_remodel_test/site/articles/bank-fee-saving.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/bank-fee-saving.html",
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/bank-fees-to-avoid.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/bank-fees-to-avoid.html",
+      "reference": "https://savingio.com/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
       ]
     },
     {
@@ -11221,6 +11942,13 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/cash-out-card-points.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/cashback-apps-guide.html",
       "reference": "/articles/how-to-check-hidden-refunds.html",
       "expected": [
@@ -11232,6 +11960,20 @@
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/cma-account-types-risk.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/credit-card-billing-cycle-guide.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -11253,6 +11995,13 @@
       "reference": "/articles/energy-voucher-balance-use.html",
       "expected": [
         "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/dehumidifier-electricity-saving.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -11928,6 +12677,13 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/small-business-electricity-support.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/spending-habits-change.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -11981,6 +12737,27 @@
       "reference": "https://savingio.com/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/summer-electricity-tier-check-2026.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/summer-electricity-tier-check.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/summer-electricity-tier-check.html",
+      "reference": "https://savingio.com/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -12093,6 +12870,13 @@
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/youth-leap-account-contribution.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -14503,6 +15287,13 @@
     },
     {
       "source": "factory/output/link_graph.json",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
         "articles/energy-voucher-application-2026.html"
@@ -14625,6 +15416,13 @@
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -15595,6 +16393,13 @@
     },
     {
       "source": "js/articles.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "js/articles.html",
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
         "articles/phone-bill-saving.html"
@@ -15704,6 +16509,13 @@
         "js/${href}",
         "js/${href}.html",
         "js/${href}/index.html"
+      ]
+    },
+    {
+      "source": "js/savingio-brain-data.js",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
       ]
     },
     {
@@ -15945,6 +16757,13 @@
     },
     {
       "source": "rss.xml",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "rss.xml",
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
@@ -15976,27 +16795,6 @@
       "reference": "https://savingio.com/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
-      ]
-    },
-    {
-      "source": "sitemap.xml",
-      "reference": "/articles/hidden-money-search.html",
-      "expected": [
-        "articles/hidden-money-search.html"
-      ]
-    },
-    {
-      "source": "sitemap.xml",
-      "reference": "/articles/hidden-refund-check.html",
-      "expected": [
-        "articles/hidden-refund-check.html"
-      ]
-    },
-    {
-      "source": "sitemap.xml",
-      "reference": "/articles/how-to-check-hidden-refunds.html",
-      "expected": [
-        "articles/how-to-check-hidden-refunds.html"
       ]
     },
     {
@@ -16121,14 +16919,18 @@
       "expected": [
         "articles/how-to-save-electricity-bill.html"
       ]
+    },
+    {
+      "source": "topics/electricity.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
     }
   ],
   "malformed_redirects": [],
   "broken_redirect_targets": [],
   "missing_sitemap_targets": [
-    "/articles/hidden-money-search.html",
-    "/articles/hidden-refund-check.html",
-    "/articles/how-to-check-hidden-refunds.html",
     "/articles/how-to-lower-phone-bill.html",
     "/articles/how-to-save-electricity-bill.html",
     "/articles/internet-bill-savings.html",
