@@ -1,12 +1,12 @@
 {
   "summary": {
-    "article_count": 194,
+    "article_count": 193,
     "pass": 139,
-    "warning": 54,
+    "warning": 53,
     "fail": 1,
-    "average_score": 88.2,
-    "thin_under_2500_ko": 25,
-    "short_under_4500_ko": 145,
+    "average_score": 88.3,
+    "thin_under_2500_ko": 24,
+    "short_under_4500_ko": 144,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -31,7 +31,6 @@
         "articles/health-insurance-refund.html",
         "articles/local-tax-refund.html",
         "articles/online-income-ideas-for-beginners.html",
-        "articles/property-tax-july-checklist-2026.html",
         "articles/summer-electricity-usage-check-2026.html",
         "articles/vat-final-return-deadline-2026.html",
         "articles/vat-input-tax-deduction-guide-2026.html"
@@ -51,7 +50,6 @@
         "articles/health-insurance-refund.html",
         "articles/local-tax-refund.html",
         "articles/online-income-ideas-for-beginners.html",
-        "articles/property-tax-july-checklist-2026.html",
         "articles/summer-electricity-usage-check-2026.html",
         "articles/vat-final-return-deadline-2026.html",
         "articles/vat-input-tax-deduction-guide-2026.html"
@@ -3834,38 +3832,6 @@
       ],
       "score": 88,
       "status": "PASS"
-    },
-    {
-      "path": "articles/property-tax-july-checklist-2026.html",
-      "url": "https://savingio.com/articles/property-tax-july-checklist-2026.html",
-      "title": "페이지 이동 | 세이빙이오(Savingio)",
-      "meta_description": "Savingio의 통합된 최신 페이지로 이동합니다.",
-      "canonical": "https://savingio.com/articles/property-tax-july-checklist-2026.html",
-      "h1": [
-        "페이지 이동 | 세이빙이오(Savingio)"
-      ],
-      "h2_count": 1,
-      "h3_count": 0,
-      "korean_chars": 113,
-      "words": 45,
-      "internal_article_links": 3,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": false,
-      "issues": [
-        "NOINDEX",
-        "THIN_CONTENT_KO:113"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:28",
-        "H2_TOO_FEW:1",
-        "DUPLICATE_SEO_SIGNAL"
-      ],
-      "score": 62,
-      "status": "WARNING"
     },
     {
       "path": "articles/property-tax-july-september-difference.html",
