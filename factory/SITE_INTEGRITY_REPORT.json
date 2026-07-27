@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3284,
-  "references_scanned": 62248,
+  "files_scanned": 3286,
+  "references_scanned": 62222,
   "counts": {
-    "broken_references": 2708,
+    "broken_references": 2823,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -1577,6 +1577,13 @@
       ]
     },
     {
+      "source": "articles/cash-advance-vs-card-loan.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
       "source": "articles/cash-out-card-points.html",
       "reference": "/articles/credit-card-annual-fee-check.html",
       "expected": [
@@ -1787,13 +1794,6 @@
       ]
     },
     {
-      "source": "articles/credit-score-management.html",
-      "reference": "/articles/debt-repayment-order-guide.html",
-      "expected": [
-        "articles/debt-repayment-order-guide.html"
-      ]
-    },
-    {
       "source": "articles/culture-nuri-card-balance.html",
       "reference": "/categories/welfare-benefits.html",
       "expected": [
@@ -1815,6 +1815,13 @@
       ]
     },
     {
+      "source": "articles/debit-card-vs-credit-card.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
       "source": "articles/dehumidifier-electricity-saving.html",
       "reference": "/articles/standby-power-saving.html",
       "expected": [
@@ -1826,6 +1833,13 @@
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "articles/deposit-protection-limit-guide.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -2250,6 +2264,13 @@
     },
     {
       "source": "articles/loan-prepayment-fee-check.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "articles/loan-prepayment-fee-check.html",
       "reference": "/articles/household-debt-repayment-plan.html",
       "expected": [
         "articles/household-debt-repayment-plan.html"
@@ -2260,6 +2281,13 @@
       "reference": "/articles/loan-interest-reduction-request.html",
       "expected": [
         "articles/loan-interest-reduction-request.html"
+      ]
+    },
+    {
+      "source": "articles/loan-refinancing-check.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -2393,6 +2421,13 @@
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "articles/overdraft-account-guide.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -2575,6 +2610,13 @@
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "articles/savings-maturity-auto-renewal.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -3110,6 +3152,20 @@
       ]
     },
     {
+      "source": "calculators/loan-payment.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "calculators/salary-net-pay.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
       "source": "calculators/salary-net-pay.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
@@ -3142,6 +3198,13 @@
       "reference": "/articles/beginner-ai-side-hustles.html",
       "expected": [
         "articles/beginner-ai-side-hustles.html"
+      ]
+    },
+    {
+      "source": "categories/finance-credit.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -3468,6 +3531,13 @@
     },
     {
       "source": "data/savingio-brain-data.js",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.js",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
         "articles/energy-voucher-application-2026.html"
@@ -3639,6 +3709,13 @@
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.json",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -3891,6 +3968,13 @@
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "data/savingio-search-index.json",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -4352,6 +4436,13 @@
     },
     {
       "source": "factory/SEO_AUDIT/seo-audit.json",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/SEO_AUDIT/seo-audit.json",
       "reference": "/articles/credit-score-tips.html",
       "expected": [
         "articles/credit-score-tips.html"
@@ -4478,6 +4569,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/beginner-ai-side-hustles.html",
+      "expected": [
+        "articles/beginner-ai-side-hustles.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/birth-support-benefits-guide.html",
       "expected": [
         "articles/birth-support-benefits-guide.html"
@@ -4579,6 +4677,13 @@
       "reference": "/articles/credit-information-check.html",
       "expected": [
         "articles/credit-information-check.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/credit-score-tips.html",
+      "expected": [
+        "articles/credit-score-tips.html"
       ]
     },
     {
@@ -4688,6 +4793,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/energy-voucher-balance-use-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-use-2026.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/energy-voucher-balance-use.html",
       "expected": [
         "articles/energy-voucher-balance-use.html"
@@ -4765,6 +4877,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/government-benefit-alert-guide-2026.html",
+      "expected": [
+        "articles/government-benefit-alert-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/government-benefit-check-guide.html",
       "expected": [
         "articles/government-benefit-check-guide.html"
@@ -4772,9 +4891,23 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/government-support-scam-warning-2026.html",
+      "expected": [
+        "articles/government-support-scam-warning-2026.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
         "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/health-insurance-refund.html",
+      "expected": [
+        "articles/health-insurance-refund.html"
       ]
     },
     {
@@ -4947,6 +5080,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/low-mileage-discount-check.html",
       "expected": [
         "articles/low-mileage-discount-check.html"
@@ -5013,6 +5153,13 @@
       "reference": "/articles/national-tomorrow-learning-card-guide.html",
       "expected": [
         "articles/national-tomorrow-learning-card-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/online-income-ideas-for-beginners.html",
+      "expected": [
+        "articles/online-income-ideas-for-beginners.html"
       ]
     },
     {
@@ -5192,6 +5339,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/summer-electricity-usage-check-2026.html",
+      "expected": [
+        "articles/summer-electricity-usage-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/tax-refund-scam-warning.html",
       "expected": [
         "articles/tax-refund-scam-warning.html"
@@ -5262,9 +5416,23 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/vat-final-return-deadline-2026.html",
+      "expected": [
+        "articles/vat-final-return-deadline-2026.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/vat-input-tax-deduction-guide-2026.html",
+      "expected": [
+        "articles/vat-input-tax-deduction-guide-2026.html"
       ]
     },
     {
@@ -5444,6 +5612,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f.html",
+      "expected": [
+        "articles/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html",
       "expected": [
         "articles/전기요금-누진제-계산과-절약-방법-cfa9a817.html"
@@ -5454,6 +5629,13 @@
       "reference": "/articles/전기요금-절약-c861d77b.html",
       "expected": [
         "articles/전기요금-절약-c861d77b.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/전기요금-절약-c861d77ba6.html",
+      "expected": [
+        "articles/전기요금-절약-c861d77ba6.html"
       ]
     },
     {
@@ -6053,6 +6235,13 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/bank-fees-to-avoid.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/bank-fees-to-avoid.html",
       "reference": "https://savingio.com/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
@@ -6088,6 +6277,13 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/beginner-money-management.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/beginner-money-management.html",
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
@@ -6119,6 +6315,13 @@
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/cash-out-card-points.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -6164,6 +6367,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/credit-score-management.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/credit-score-management.html",
+      "reference": "https://savingio.com/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/credit-score-tips.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/credit-score-tips.html",
       "reference": "/articles/credit-score-tips.html",
       "expected": [
@@ -6192,10 +6416,24 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/debit-card-vs-credit-card.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/dehumidifier-electricity-saving.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/deposit-protection-limit-guide.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -6787,6 +7025,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/loan-prepayment-fee-check.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/loan-refinancing-check.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/local-tax-refund-claim.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
@@ -6861,6 +7113,13 @@
       "reference": "https://savingio.com/articles/online-income-ideas-for-beginners.html",
       "expected": [
         "articles/online-income-ideas-for-beginners.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/overdraft-account-guide.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -6980,6 +7239,13 @@
       "reference": "https://savingio.com/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/salary-management-guide.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -7334,6 +7600,13 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/bank-fees-to-avoid.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/bank-fees-to-avoid.html",
       "reference": "https://savingio.com/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
@@ -7369,6 +7642,13 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/beginner-money-management.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/beginner-money-management.html",
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
@@ -7400,6 +7680,13 @@
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/cash-out-card-points.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -7445,6 +7732,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/credit-score-management.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/credit-score-management.html",
+      "reference": "https://savingio.com/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/credit-score-tips.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/credit-score-tips.html",
       "reference": "/articles/credit-score-tips.html",
       "expected": [
@@ -7473,10 +7781,24 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/debit-card-vs-credit-card.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/dehumidifier-electricity-saving.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/deposit-protection-limit-guide.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -8068,6 +8390,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/loan-prepayment-fee-check.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/loan-refinancing-check.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/local-tax-refund-claim.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
@@ -8142,6 +8478,13 @@
       "reference": "https://savingio.com/articles/online-income-ideas-for-beginners.html",
       "expected": [
         "articles/online-income-ideas-for-beginners.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/overdraft-account-guide.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -8261,6 +8604,13 @@
       "reference": "https://savingio.com/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/salary-management-guide.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -8615,6 +8965,13 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/bank-fees-to-avoid.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/bank-fees-to-avoid.html",
       "reference": "https://savingio.com/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
@@ -8650,6 +9007,13 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/beginner-money-management.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/beginner-money-management.html",
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
@@ -8681,6 +9045,13 @@
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/cash-out-card-points.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -8726,6 +9097,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/credit-score-management.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/credit-score-management.html",
+      "reference": "https://savingio.com/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/credit-score-tips.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/credit-score-tips.html",
       "reference": "/articles/credit-score-tips.html",
       "expected": [
@@ -8754,10 +9146,24 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/debit-card-vs-credit-card.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/dehumidifier-electricity-saving.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/deposit-protection-limit-guide.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -9349,6 +9755,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/loan-prepayment-fee-check.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/loan-refinancing-check.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/local-tax-refund-claim.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
@@ -9423,6 +9843,13 @@
       "reference": "https://savingio.com/articles/online-income-ideas-for-beginners.html",
       "expected": [
         "articles/online-income-ideas-for-beginners.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/overdraft-account-guide.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -9542,6 +9969,13 @@
       "reference": "https://savingio.com/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/salary-management-guide.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -9896,6 +10330,13 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/bank-fees-to-avoid.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/bank-fees-to-avoid.html",
       "reference": "https://savingio.com/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
@@ -9931,6 +10372,13 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/beginner-money-management.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/beginner-money-management.html",
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
@@ -9962,6 +10410,13 @@
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/cash-out-card-points.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -10007,6 +10462,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/credit-score-management.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/credit-score-management.html",
+      "reference": "https://savingio.com/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/credit-score-tips.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/credit-score-tips.html",
       "reference": "/articles/credit-score-tips.html",
       "expected": [
@@ -10035,10 +10511,24 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/debit-card-vs-credit-card.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/dehumidifier-electricity-saving.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/deposit-protection-limit-guide.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -10630,6 +11120,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/loan-prepayment-fee-check.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/loan-refinancing-check.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/local-tax-refund-claim.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
@@ -10704,6 +11208,13 @@
       "reference": "https://savingio.com/articles/online-income-ideas-for-beginners.html",
       "expected": [
         "articles/online-income-ideas-for-beginners.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/overdraft-account-guide.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -10823,6 +11334,13 @@
       "reference": "https://savingio.com/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/salary-management-guide.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -11177,6 +11695,13 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/bank-fees-to-avoid.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/bank-fees-to-avoid.html",
       "reference": "https://savingio.com/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
@@ -11212,6 +11737,13 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/beginner-money-management.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/beginner-money-management.html",
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
@@ -11243,6 +11775,13 @@
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/cash-out-card-points.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -11288,6 +11827,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/credit-score-management.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/credit-score-management.html",
+      "reference": "https://savingio.com/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/credit-score-tips.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/credit-score-tips.html",
       "reference": "/articles/credit-score-tips.html",
       "expected": [
@@ -11316,10 +11876,24 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/debit-card-vs-credit-card.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/dehumidifier-electricity-saving.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/deposit-protection-limit-guide.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -11911,6 +12485,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/loan-prepayment-fee-check.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/loan-refinancing-check.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/local-tax-refund-claim.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
@@ -11985,6 +12573,13 @@
       "reference": "https://savingio.com/articles/online-income-ideas-for-beginners.html",
       "expected": [
         "articles/online-income-ideas-for-beginners.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/overdraft-account-guide.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -12104,6 +12699,13 @@
       "reference": "https://savingio.com/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/salary-management-guide.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -12453,6 +13055,13 @@
     },
     {
       "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
         "articles/energy-voucher-application-2026.html"
@@ -12651,6 +13260,13 @@
     },
     {
       "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
         "articles/energy-voucher-application-2026.html"
@@ -12819,6 +13435,13 @@
     },
     {
       "source": "factory/config/calculator_action_rules.json",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/config/calculator_action_rules.json",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
@@ -12945,6 +13568,13 @@
     },
     {
       "source": "factory/history/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41.json",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/history/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41.json",
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
@@ -13053,6 +13683,13 @@
       "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
       "expected": [
         "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
+      ]
+    },
+    {
+      "source": "factory/history/자동이체-할인과-납부일-관리-방법-c93c4d41.json",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -13390,6 +14027,13 @@
     },
     {
       "source": "factory/output/article_catalog.json",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
       "reference": "/articles/credit-score-tips.html",
       "expected": [
         "articles/credit-score-tips.html"
@@ -13652,6 +14296,13 @@
       "reference": "/articles/beginner-ai-side-hustles.html",
       "expected": [
         "articles/beginner-ai-side-hustles.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -13943,6 +14594,13 @@
     },
     {
       "source": "factory/output/article_remodel_test/site/articles/bank-fees-to-avoid.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/bank-fees-to-avoid.html",
       "reference": "https://savingio.com/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
@@ -13978,6 +14636,13 @@
     },
     {
       "source": "factory/output/article_remodel_test/site/articles/beginner-money-management.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/beginner-money-management.html",
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
@@ -14009,6 +14674,13 @@
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/cash-out-card-points.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -14054,6 +14726,27 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/credit-score-management.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/credit-score-management.html",
+      "reference": "https://savingio.com/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/credit-score-tips.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/credit-score-tips.html",
       "reference": "/articles/credit-score-tips.html",
       "expected": [
@@ -14082,10 +14775,24 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/debit-card-vs-credit-card.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/dehumidifier-electricity-saving.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/deposit-protection-limit-guide.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -14677,6 +15384,20 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/loan-prepayment-fee-check.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/loan-refinancing-check.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/local-tax-refund-claim.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
@@ -14751,6 +15472,13 @@
       "reference": "https://savingio.com/articles/online-income-ideas-for-beginners.html",
       "expected": [
         "articles/online-income-ideas-for-beginners.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/overdraft-account-guide.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -14870,6 +15598,13 @@
       "reference": "https://savingio.com/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/salary-management-guide.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -16334,6 +17069,13 @@
     },
     {
       "source": "factory/output/drafts/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41-factory.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41-factory.html",
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
@@ -16351,6 +17093,13 @@
       "reference": "https://savingio.com/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
       "expected": [
         "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -17230,6 +17979,13 @@
     },
     {
       "source": "factory/output/drafts/자동이체-할인과-납부일-관리-방법-c93c4d41-factory.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/자동이체-할인과-납부일-관리-방법-c93c4d41-factory.html",
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
@@ -17247,6 +18003,13 @@
       "reference": "https://savingio.com/articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
       "expected": [
         "articles/자동이체-할인과-납부일-관리-방법-c93c4d41.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/자동이체-할인과-납부일-관리-방법-c93c4d41.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -17637,6 +18400,13 @@
     },
     {
       "source": "factory/output/link_graph.json",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
       "reference": "/articles/credit-score-tips.html",
       "expected": [
         "articles/credit-score-tips.html"
@@ -18013,6 +18783,13 @@
     },
     {
       "source": "factory/output/run_report.json",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/output/run_report.json",
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
@@ -18121,6 +18898,13 @@
       "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
       "expected": [
         "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Uc790#Ub3d9#Uc774#Uccb4-#Ud560#Uc778#Uacfc-#Ub0a9#Ubd80#Uc77c-#Uad00#Ub9ac-#Ubc29#Ubc95-c93c4d41/article.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -18338,6 +19122,13 @@
       "reference": "/articles/아파트-관리비-항목별-확인-방법-c9789557.html",
       "expected": [
         "articles/아파트-관리비-항목별-확인-방법-c9789557.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/자동이체-할인과-납부일-관리-방법-c93c4d41/article.html",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
@@ -18982,6 +19773,13 @@
     },
     {
       "source": "js/savingio-brain-data.js",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "js/savingio-brain-data.js",
       "reference": "/articles/fuel-saving-driving-habits.html",
       "expected": [
         "articles/fuel-saving-driving-habits.html"
@@ -19071,6 +19869,13 @@
         "js/${x[1]}",
         "js/${x[1]}.html",
         "js/${x[1]}/index.html"
+      ]
+    },
+    {
+      "source": "js/savingio-content-platform.js",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
