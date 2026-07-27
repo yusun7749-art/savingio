@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3291,
-  "references_scanned": 62025,
+  "files_scanned": 3292,
+  "references_scanned": 61987,
   "counts": {
-    "broken_references": 2873,
+    "broken_references": 2867,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 1,
@@ -2718,41 +2718,6 @@
       ]
     },
     {
-      "source": "articles/small-business-closure-support.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "articles/small-business-delivery-support.html",
-      "reference": "/articles/hidden-money-search.html",
-      "expected": [
-        "articles/hidden-money-search.html"
-      ]
-    },
-    {
-      "source": "articles/small-business-delivery-support.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "articles/small-business-electricity-support.html",
-      "reference": "/articles/how-to-save-electricity-bill.html",
-      "expected": [
-        "articles/how-to-save-electricity-bill.html"
-      ]
-    },
-    {
-      "source": "articles/small-business-electricity-support.html",
-      "reference": "/articles/summer-electricity-tier-check.html",
-      "expected": [
-        "articles/summer-electricity-tier-check.html"
-      ]
-    },
-    {
       "source": "articles/small-business-policy-fund.html",
       "reference": "/articles/business-cash-flow-guide.html",
       "expected": [
@@ -4509,13 +4474,6 @@
       "reference": "/articles/vat-input-tax-deduction-guide-2026.html",
       "expected": [
         "articles/vat-input-tax-deduction-guide-2026.html"
-      ]
-    },
-    {
-      "source": "factory/SEO_AUDIT/seo-audit.json",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
