@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3296,
-  "references_scanned": 62431,
+  "files_scanned": 3295,
+  "references_scanned": 62419,
   "counts": {
-    "broken_references": 2482,
+    "broken_references": 2499,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -3215,6 +3215,13 @@
       ]
     },
     {
+      "source": "categories/housing.html",
+      "reference": "/articles/property-tax-july-checklist-2026.html",
+      "expected": [
+        "articles/property-tax-july-checklist-2026.html"
+      ]
+    },
+    {
       "source": "categories/living-bills.html",
       "reference": "/articles/how-to-lower-phone-bill.html",
       "expected": [
@@ -4128,9 +4135,9 @@
     },
     {
       "source": "factory/REPORTS/content-count-current.json",
-      "reference": "/articles/property-tax-electronic-notice-2026.html",
+      "reference": "/articles/property-tax-july-checklist-2026.html",
       "expected": [
-        "articles/property-tax-electronic-notice-2026.html"
+        "articles/property-tax-july-checklist-2026.html"
       ]
     },
     {
@@ -4761,6 +4768,13 @@
       "reference": "/articles/property-tax-check-payment-guide.html",
       "expected": [
         "articles/property-tax-check-payment-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/property-tax-electronic-notice-2026.html",
+      "expected": [
+        "articles/property-tax-electronic-notice-2026.html"
       ]
     },
     {
@@ -6494,6 +6508,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/property-tax-july-checklist-2026.html",
+      "reference": "/articles/property-tax-july-checklist-2026.html",
+      "expected": [
+        "articles/property-tax-july-checklist-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/property-tax-july-checklist-2026.html",
+      "reference": "https://savingio.com/articles/property-tax-july-checklist-2026.html",
+      "expected": [
+        "articles/property-tax-july-checklist-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/reduce-electricity-bill.html",
       "reference": "/articles/reduce-electricity-bill.html",
       "expected": [
@@ -7604,6 +7632,20 @@
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/property-tax-july-checklist-2026.html",
+      "reference": "/articles/property-tax-july-checklist-2026.html",
+      "expected": [
+        "articles/property-tax-july-checklist-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/property-tax-july-checklist-2026.html",
+      "reference": "https://savingio.com/articles/property-tax-july-checklist-2026.html",
+      "expected": [
+        "articles/property-tax-july-checklist-2026.html"
       ]
     },
     {
@@ -8720,6 +8762,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/property-tax-july-checklist-2026.html",
+      "reference": "/articles/property-tax-july-checklist-2026.html",
+      "expected": [
+        "articles/property-tax-july-checklist-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/property-tax-july-checklist-2026.html",
+      "reference": "https://savingio.com/articles/property-tax-july-checklist-2026.html",
+      "expected": [
+        "articles/property-tax-july-checklist-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/reduce-electricity-bill.html",
       "reference": "/articles/reduce-electricity-bill.html",
       "expected": [
@@ -9833,6 +9889,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/property-tax-july-checklist-2026.html",
+      "reference": "/articles/property-tax-july-checklist-2026.html",
+      "expected": [
+        "articles/property-tax-july-checklist-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/property-tax-july-checklist-2026.html",
+      "reference": "https://savingio.com/articles/property-tax-july-checklist-2026.html",
+      "expected": [
+        "articles/property-tax-july-checklist-2026.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/reduce-electricity-bill.html",
       "reference": "/articles/reduce-electricity-bill.html",
       "expected": [
@@ -10943,6 +11013,20 @@
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/property-tax-july-checklist-2026.html",
+      "reference": "/articles/property-tax-july-checklist-2026.html",
+      "expected": [
+        "articles/property-tax-july-checklist-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/property-tax-july-checklist-2026.html",
+      "reference": "https://savingio.com/articles/property-tax-july-checklist-2026.html",
+      "expected": [
+        "articles/property-tax-july-checklist-2026.html"
       ]
     },
     {
@@ -12349,6 +12433,13 @@
     },
     {
       "source": "factory/output/article_catalog.json",
+      "reference": "/articles/property-tax-july-checklist-2026.html",
+      "expected": [
+        "articles/property-tax-july-checklist-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
       "reference": "/articles/reduce-electricity-bill.html",
       "expected": [
         "articles/reduce-electricity-bill.html"
@@ -12527,6 +12618,13 @@
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
         "articles/phone-bill-saving.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/property-tax-july-checklist-2026.html",
+      "expected": [
+        "articles/property-tax-july-checklist-2026.html"
       ]
     },
     {
@@ -13367,6 +13465,20 @@
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/property-tax-july-checklist-2026.html",
+      "reference": "/articles/property-tax-july-checklist-2026.html",
+      "expected": [
+        "articles/property-tax-july-checklist-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/property-tax-july-checklist-2026.html",
+      "reference": "https://savingio.com/articles/property-tax-july-checklist-2026.html",
+      "expected": [
+        "articles/property-tax-july-checklist-2026.html"
       ]
     },
     {
@@ -16256,6 +16368,13 @@
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
         "articles/phone-bill-saving.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
+      "reference": "/articles/property-tax-july-checklist-2026.html",
+      "expected": [
+        "articles/property-tax-july-checklist-2026.html"
       ]
     },
     {
