@@ -1,13 +1,13 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3300,
-  "references_scanned": 62639,
+  "files_scanned": 3299,
+  "references_scanned": 62626,
   "counts": {
-    "broken_references": 2401,
+    "broken_references": 2417,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
-    "missing_sitemap_targets": 6,
+    "missing_sitemap_targets": 5,
     "publisher_id_drift": 0
   },
   "broken_references": [
@@ -3216,6 +3216,13 @@
     },
     {
       "source": "categories/living-bills.html",
+      "reference": "/articles/reduce-electricity-bill.html",
+      "expected": [
+        "articles/reduce-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "categories/living-bills.html",
       "reference": "/articles/subscription-cleanup.html",
       "expected": [
         "articles/subscription-cleanup.html"
@@ -4411,6 +4418,13 @@
       "reference": "/articles/government-benefit-check-guide.html",
       "expected": [
         "articles/government-benefit-check-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
       ]
     },
     {
@@ -6347,6 +6361,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/reduce-electricity-bill.html",
+      "reference": "/articles/reduce-electricity-bill.html",
+      "expected": [
+        "articles/reduce-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/reduce-electricity-bill.html",
+      "reference": "https://savingio.com/articles/reduce-electricity-bill.html",
+      "expected": [
+        "articles/reduce-electricity-bill.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/rental-car-vacation-saving.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
@@ -7387,6 +7415,20 @@
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/reduce-electricity-bill.html",
+      "reference": "/articles/reduce-electricity-bill.html",
+      "expected": [
+        "articles/reduce-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/reduce-electricity-bill.html",
+      "reference": "https://savingio.com/articles/reduce-electricity-bill.html",
+      "expected": [
+        "articles/reduce-electricity-bill.html"
       ]
     },
     {
@@ -8433,6 +8475,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/reduce-electricity-bill.html",
+      "reference": "/articles/reduce-electricity-bill.html",
+      "expected": [
+        "articles/reduce-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/reduce-electricity-bill.html",
+      "reference": "https://savingio.com/articles/reduce-electricity-bill.html",
+      "expected": [
+        "articles/reduce-electricity-bill.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/rental-car-vacation-saving.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
@@ -9476,6 +9532,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/reduce-electricity-bill.html",
+      "reference": "/articles/reduce-electricity-bill.html",
+      "expected": [
+        "articles/reduce-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/reduce-electricity-bill.html",
+      "reference": "https://savingio.com/articles/reduce-electricity-bill.html",
+      "expected": [
+        "articles/reduce-electricity-bill.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/rental-car-vacation-saving.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
@@ -10516,6 +10586,20 @@
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/reduce-electricity-bill.html",
+      "reference": "/articles/reduce-electricity-bill.html",
+      "expected": [
+        "articles/reduce-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/reduce-electricity-bill.html",
+      "reference": "https://savingio.com/articles/reduce-electricity-bill.html",
+      "expected": [
+        "articles/reduce-electricity-bill.html"
       ]
     },
     {
@@ -11873,6 +11957,13 @@
     },
     {
       "source": "factory/output/article_catalog.json",
+      "reference": "/articles/reduce-electricity-bill.html",
+      "expected": [
+        "articles/reduce-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
@@ -12037,6 +12128,13 @@
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
         "articles/phone-bill-saving.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/reduce-electricity-bill.html",
+      "expected": [
+        "articles/reduce-electricity-bill.html"
       ]
     },
     {
@@ -12828,6 +12926,20 @@
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/reduce-electricity-bill.html",
+      "reference": "/articles/reduce-electricity-bill.html",
+      "expected": [
+        "articles/reduce-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/reduce-electricity-bill.html",
+      "reference": "https://savingio.com/articles/reduce-electricity-bill.html",
+      "expected": [
+        "articles/reduce-electricity-bill.html"
       ]
     },
     {
@@ -15658,6 +15770,13 @@
     },
     {
       "source": "factory/output/link_graph.json",
+      "reference": "/articles/reduce-electricity-bill.html",
+      "expected": [
+        "articles/reduce-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
@@ -17065,13 +17184,6 @@
     },
     {
       "source": "sitemap.xml",
-      "reference": "/articles/how-to-save-electricity-bill.html",
-      "expected": [
-        "articles/how-to-save-electricity-bill.html"
-      ]
-    },
-    {
-      "source": "sitemap.xml",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
@@ -17162,7 +17274,6 @@
   "malformed_redirects": [],
   "broken_redirect_targets": [],
   "missing_sitemap_targets": [
-    "/articles/how-to-save-electricity-bill.html",
     "/articles/salary-budget-guide.html",
     "/articles/salary-management-guide.html",
     "/articles/vat-final-return-july-2026.html",
