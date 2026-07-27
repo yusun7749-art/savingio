@@ -2,12 +2,12 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3303,
-  "references_scanned": 62776,
+  "references_scanned": 62769,
   "counts": {
-    "broken_references": 2260,
+    "broken_references": 2253,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
-    "missing_sitemap_targets": 21,
+    "missing_sitemap_targets": 14,
     "publisher_id_drift": 0
   },
   "broken_references": [
@@ -15980,55 +15980,6 @@
     },
     {
       "source": "sitemap.xml",
-      "reference": "/articles/energy-voucher-application-2026.html",
-      "expected": [
-        "articles/energy-voucher-application-2026.html"
-      ]
-    },
-    {
-      "source": "sitemap.xml",
-      "reference": "/articles/energy-voucher-application.html",
-      "expected": [
-        "articles/energy-voucher-application.html"
-      ]
-    },
-    {
-      "source": "sitemap.xml",
-      "reference": "/articles/energy-voucher-balance-check-2026.html",
-      "expected": [
-        "articles/energy-voucher-balance-check-2026.html"
-      ]
-    },
-    {
-      "source": "sitemap.xml",
-      "reference": "/articles/energy-voucher-balance-use.html",
-      "expected": [
-        "articles/energy-voucher-balance-use.html"
-      ]
-    },
-    {
-      "source": "sitemap.xml",
-      "reference": "/articles/energy-voucher-documents.html",
-      "expected": [
-        "articles/energy-voucher-documents.html"
-      ]
-    },
-    {
-      "source": "sitemap.xml",
-      "reference": "/articles/energy-voucher-eligibility-2026.html",
-      "expected": [
-        "articles/energy-voucher-eligibility-2026.html"
-      ]
-    },
-    {
-      "source": "sitemap.xml",
-      "reference": "/articles/energy-voucher-online-application.html",
-      "expected": [
-        "articles/energy-voucher-online-application.html"
-      ]
-    },
-    {
-      "source": "sitemap.xml",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
@@ -16175,13 +16126,6 @@
   "malformed_redirects": [],
   "broken_redirect_targets": [],
   "missing_sitemap_targets": [
-    "/articles/energy-voucher-application-2026.html",
-    "/articles/energy-voucher-application.html",
-    "/articles/energy-voucher-balance-check-2026.html",
-    "/articles/energy-voucher-balance-use.html",
-    "/articles/energy-voucher-documents.html",
-    "/articles/energy-voucher-eligibility-2026.html",
-    "/articles/energy-voucher-online-application.html",
     "/articles/hidden-money-search.html",
     "/articles/hidden-refund-check.html",
     "/articles/how-to-check-hidden-refunds.html",
