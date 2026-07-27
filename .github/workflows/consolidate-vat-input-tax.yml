@@ -1,0 +1,94 @@
+name: Consolidate VAT input tax duplicate
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/consolidate-vat-input-tax.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  consolidate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Consolidate duplicate URL
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          old_path = '/articles/vat-input-tax-deduction-items.html'
+          new_path = '/articles/vat-input-tax-deduction-2026.html'
+          old_url = f'https://savingio.com{old_path}'
+          new_url = f'https://savingio.com{new_path}'
+
+          redirects = Path('_redirects')
+          text = redirects.read_text(encoding='utf-8')
+          rule = f'{old_path} {new_path} 301'
+          if rule not in text:
+              text = text.rstrip() + '\n' + rule + '\n'
+              redirects.write_text(text, encoding='utf-8')
+
+          sitemap = Path('sitemap.xml')
+          text = sitemap.read_text(encoding='utf-8')
+          text = '\n'.join(line for line in text.splitlines() if old_url not in line) + '\n'
+          sitemap.write_text(text, encoding='utf-8')
+
+          duplicate = Path('articles/vat-input-tax-deduction-items.html')
+          if duplicate.exists():
+              duplicate.unlink()
+
+          skip_roots = {'.git', 'factory/reports', 'factory/MASTER_LOG'}
+          for path in Path('.').rglob('*'):
+              if not path.is_file() or path.suffix.lower() not in {'.html','.js','.json','.xml','.md'}:
+                  continue
+              rel = path.as_posix()
+              if rel.startswith('.git/') or rel.startswith('factory/reports/') or rel.startswith('factory/MASTER_LOG/'):
+                  continue
+              try:
+                  content = path.read_text(encoding='utf-8')
+              except UnicodeDecodeError:
+                  continue
+              changed = content.replace(old_url, new_url).replace(old_path, new_path)
+              if changed != content:
+                  path.write_text(changed, encoding='utf-8')
+
+          assert not duplicate.exists()
+          assert rule in redirects.read_text(encoding='utf-8')
+          assert old_url not in sitemap.read_text(encoding='utf-8')
+          PY
+      - name: Verify representative article
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from html.parser import HTMLParser
+          import re
+
+          path = Path('articles/vat-input-tax-deduction-2026.html')
+          html = path.read_text(encoding='utf-8')
+          visible = re.sub(r'<script\b[^>]*>.*?</script>', ' ', html, flags=re.I|re.S)
+          visible = re.sub(r'<style\b[^>]*>.*?</style>', ' ', visible, flags=re.I|re.S)
+          visible = re.sub(r'<[^>]+>', ' ', visible)
+          visible = re.sub(r'\s+', ' ', visible).strip()
+          assert len(visible) >= 5000, len(visible)
+          assert html.count('<h1') == 1
+          assert 'rel="canonical" href="https://savingio.com/articles/vat-input-tax-deduction-2026.html"' in html
+          assert html.count('class="rail-card"') == 5
+          print('visible_chars=', len(visible))
+          PY
+      - name: Commit consolidation
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m 'Remove duplicate VAT input tax article [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
