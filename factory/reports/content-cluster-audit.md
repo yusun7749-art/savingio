@@ -1,8 +1,8 @@
 # Savingio MASTER CONTENT MAP — 전체 주제 그룹 분류
 
-- 전체 본문: **179개**
+- 전체 본문: **178개**
 - 2개 이상 주제 그룹: **25개**
-- 그룹 내부 중복·통합 후보 관계: **3개**
+- 그룹 내부 중복·통합 후보 관계: **2개**
 - 단독 주제 글: **3개**
 
 > 삭제나 통합을 실행하지 않은 선분류 단계입니다. 각 그룹 전체를 한 번에 놓고 대표글·유지·흡수·삭제를 결정합니다.
@@ -88,23 +88,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G005 · 소상공인·사업자 · 8개
-
-- `articles/business-card-hometax-registration.html` — 사업용 신용카드 홈택스 등록 방법, 등록 뒤 매입내역까지 확인하는 순서 (4,870자)
-- `articles/business-phone-expense-deduction.html` — 사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리 (5,479자)
-- `articles/business-vehicle-expense-basics.html` — 사업용 차량 비용처리, 증빙부터 운행기록부까지 확인하는 순서 (5,920자)
-- `articles/small-business-closure-support.html` — 폐업 소상공인 원스톱 지원 확인 (4,518자)
-- `articles/small-business-delivery-support.html` — 소상공인 배달비 지원사업 찾는 방법 (4,498자)
-- `articles/small-business-policy-fund-search.html` — 소상공인 정책자금 확인 방법 (4,509자)
-- `articles/small-business-policy-fund.html` — 소상공인 정책자금 신청 순서 (4,509자)
-- `articles/yellow-umbrella-mutual-aid-guide.html` — 노란우산공제 가입 전 확인사항 (4,588자)
-
-중복·통합 우선 검토 관계:
-- **strong_duplicate** · 제목 0.67 · 본문 1.00 — `articles/small-business-policy-fund-search.html` ↔ `articles/small-business-policy-fund.html`
-
-**그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
-
-## G006 · 실업·고용·급여 · 8개
+## G005 · 실업·고용·급여 · 8개
 
 - `articles/four-major-insurance-deduction-guide.html` — 4대보험 공제액 확인 방법, 월급에서 얼마가 빠지는지 보는 기준 (4,903자)
 - `articles/national-employment-support-eligibility.html` — 국민취업지원제도 신청 자격 (5,724자)
@@ -119,7 +103,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G007 · 국세·환급 · 7개
+## G006 · 국세·환급 · 7개
 
 - `articles/hometax-refund-status.html` — 홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요 (3,814자)
 - `articles/income-tax-filing-missed-consequences.html` — 종합소득세 신고 안 하면 생기는 불이익과 기한후신고 방법 (8,342자)
@@ -133,7 +117,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G008 · 노인·연금·장기요양 · 7개
+## G007 · 노인·연금·장기요양 · 7개
 
 - `articles/basic-pension-application-guide.html` — 기초연금 신청 방법, 만 65세 준비서류·소득인정액·지급 확인 (2,940자)
 - `articles/long-term-care-insurance-application.html` — 노인장기요양보험 신청 방법, 방문조사부터 등급판정까지 (6,122자)
@@ -142,6 +126,20 @@
 - `articles/national-pension-overpayment-refund.html` — 국민연금 과오납금 조회와 환급 신청, 돌려받기 전 확인할 순서 (5,647자)
 - `articles/over-60-benefits-guide.html` — 60세 이상 받을 수 있는 혜택, 연금·건강·일자리·생활비 확인 순서 (4,285자)
 - `articles/senior-job-application-guide.html` — 노인일자리 신청 방법, 모집 시기와 사업 유형을 비교하는 체크리스트 (4,276자)
+
+중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
+
+**그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
+
+## G008 · 소상공인·사업자 · 7개
+
+- `articles/business-card-hometax-registration.html` — 사업용 신용카드 홈택스 등록 방법, 등록 뒤 매입내역까지 확인하는 순서 (4,870자)
+- `articles/business-phone-expense-deduction.html` — 사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리 (5,479자)
+- `articles/business-vehicle-expense-basics.html` — 사업용 차량 비용처리, 증빙부터 운행기록부까지 확인하는 순서 (5,920자)
+- `articles/small-business-closure-support.html` — 폐업 소상공인 원스톱 지원 확인 (4,518자)
+- `articles/small-business-delivery-support.html` — 소상공인 배달비 지원사업 찾는 방법 (4,498자)
+- `articles/small-business-policy-fund.html` — 소상공인 정책자금 확인·신청 순서 2026 (6,441자)
+- `articles/yellow-umbrella-mutual-aid-guide.html` — 노란우산공제 가입 전 확인사항 (4,588자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
 
