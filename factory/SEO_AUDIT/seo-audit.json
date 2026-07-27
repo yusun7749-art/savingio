@@ -4964,17 +4964,17 @@
     {
       "path": "articles/traffic-fines-difference-guide.html",
       "url": "https://savingio.com/articles/traffic-fines-difference-guide.html",
-      "title": "교통벌금·범칙금·과태료 차이, 고지서를 받았을 때 확인 순서 | Savingio",
-      "meta_description": "교통 위반 문자나 고지서를 받았을 때 범칙금·과태료·벌금의 차이, 운전자 확인, 조회·납부·의견진술 순서를 문제 해결 순서로 정리했습니다.",
+      "title": "교통 범칙금·과태료·벌금 차이와 조회·납부 방법 총정리 | Savingio",
+      "meta_description": "교통 위반 문자나 고지서를 받았을 때 범칙금·과태료·벌금의 차이, 운전자와 차량 명의자 책임, 교통민원24 조회, 납부·의견진술·이의신청 순서를 한 글에서 확인하세요.",
       "canonical": "https://savingio.com/articles/traffic-fines-difference-guide.html",
       "h1": [
-        "교통벌금·범칙금·과태료 차이, 고지서를 받았을 때 확인 순서"
+        "교통 범칙금·과태료·벌금 차이와 조회·납부 방법 총정리"
       ],
-      "h2_count": 16,
-      "h3_count": 0,
-      "korean_chars": 3695,
-      "words": 1228,
-      "internal_article_links": 22,
+      "h2_count": 17,
+      "h3_count": 3,
+      "korean_chars": 3004,
+      "words": 963,
+      "internal_article_links": 9,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 2,
@@ -4984,7 +4984,7 @@
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3695"
+        "CONTENT_SHORT_KO:3004"
       ],
       "score": 92,
       "status": "PASS"
