@@ -1,5 +1,5 @@
 {
-  "version": "V3.040",
+  "version": "V3.041",
   "baselineArticles": 220,
   "verifiedSitemapArticles": 176,
   "searchIndexArticles": 207,
@@ -15,7 +15,8 @@
   "completedUltimate": 0,
   "inProgress": 1,
   "replacementPaused": true,
-  "currentTask": "전체 사이트 재검수: 실제 운영 글·통합·삭제·301·검색 인덱스 이력 대조",
+  "auditPhase": "1/6 sitemap·검색 인덱스·301·실제 파일 대조",
+  "currentTask": "전체 사이트 재검수 진행 중: 실제 통합·삭제·전면 수정 이력 확정",
   "updatedAt": "2026-07-27 KST",
   "countEvidence": {
     "previousVerifiedBaseline": 220,
@@ -25,6 +26,6 @@
     "baselineVsSitemapDifference": 44,
     "redirectRulesTotal": 94,
     "articleRelatedRedirectRules": 82,
-    "note": "현재 운영 글 수는 검색 인덱스가 아니라 sitemap의 /articles/ URL 176개를 1차 검증 기준으로 사용한다. 301 규칙은 과거 경로 이전과 실제 콘텐츠 통합이 섞여 있으므로 통합·삭제 수치로 바로 환산하지 않는다. 파일 이력과 목적지 본문을 대조한 뒤 확정한다."
+    "note": "현재 운영 글 수는 아직 최종 확정하지 않는다. sitemap 176개와 실제 article HTML 파일, 검색 인덱스 207개, article 관련 301 규칙 82개를 대조한 뒤 통합·삭제·수정 수치를 확정한다."
   }
 }
