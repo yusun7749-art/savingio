@@ -2,12 +2,12 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3301,
-  "references_scanned": 62668,
+  "references_scanned": 62666,
   "counts": {
-    "broken_references": 2368,
+    "broken_references": 2366,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
-    "missing_sitemap_targets": 9,
+    "missing_sitemap_targets": 7,
     "publisher_id_drift": 0
   },
   "broken_references": [
@@ -16813,13 +16813,6 @@
     },
     {
       "source": "sitemap.xml",
-      "reference": "/articles/how-to-lower-phone-bill.html",
-      "expected": [
-        "articles/how-to-lower-phone-bill.html"
-      ]
-    },
-    {
-      "source": "sitemap.xml",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
         "articles/how-to-save-electricity-bill.html"
@@ -16830,13 +16823,6 @@
       "reference": "/articles/internet-bill-savings.html",
       "expected": [
         "articles/internet-bill-savings.html"
-      ]
-    },
-    {
-      "source": "sitemap.xml",
-      "reference": "/articles/phone-bill-saving.html",
-      "expected": [
-        "articles/phone-bill-saving.html"
       ]
     },
     {
@@ -16931,10 +16917,8 @@
   "malformed_redirects": [],
   "broken_redirect_targets": [],
   "missing_sitemap_targets": [
-    "/articles/how-to-lower-phone-bill.html",
     "/articles/how-to-save-electricity-bill.html",
     "/articles/internet-bill-savings.html",
-    "/articles/phone-bill-saving.html",
     "/articles/salary-budget-guide.html",
     "/articles/salary-management-guide.html",
     "/articles/vat-final-return-july-2026.html",
