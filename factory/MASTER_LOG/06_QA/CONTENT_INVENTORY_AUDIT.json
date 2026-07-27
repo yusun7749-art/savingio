@@ -1,0 +1,5843 @@
+{
+  "generatedAt": "2026-07-27T12:28:45.823269+00:00",
+  "counts": {
+    "articleHtmlFilesExcludingIndex": 177,
+    "sitemapArticleUrls": 178,
+    "searchIndexArticleItems": 203,
+    "redirectStubsPresent": 0,
+    "noindexArticleFiles": 0,
+    "articleRelated301Rules": 88,
+    "articleToArticle301Rules": 47,
+    "articleRedirectSourcesStillPresent": 0,
+    "articleRedirectSourcesAbsent": 47,
+    "uniqueDeletedArticlePathsInGitHistory": 49,
+    "keywordMatchedChangeCommits": 215
+  },
+  "sets": {
+    "sitemapMissingHtml": [
+      "/articles/small-business-policy-fund-search.html"
+    ],
+    "htmlNotInSitemap": [],
+    "indexNotInSitemap": [
+      "/articles/bank-fees-to-avoid.html",
+      "/articles/credit-score-management.html",
+      "/articles/energy-voucher-application-2026.html",
+      "/articles/energy-voucher-application.html",
+      "/articles/energy-voucher-balance-check-2026.html",
+      "/articles/energy-voucher-balance-use.html",
+      "/articles/energy-voucher-documents.html",
+      "/articles/energy-voucher-eligibility-2026.html",
+      "/articles/energy-voucher-online-application.html",
+      "/articles/grocery-bill-savings.html",
+      "/articles/hidden-money-search.html",
+      "/articles/hidden-refund-check.html",
+      "/articles/how-to-check-hidden-refunds.html",
+      "/articles/how-to-lower-phone-bill.html",
+      "/articles/how-to-save-electricity-bill.html",
+      "/articles/internet-bill-savings.html",
+      "/articles/local-tax-refund-claim.html",
+      "/articles/phone-bill-saving.html",
+      "/articles/salary-budget-guide.html",
+      "/articles/salary-management-guide.html",
+      "/articles/subscription-cleanup.html",
+      "/articles/subscription-saving.html",
+      "/articles/summer-electricity-tier-check.html",
+      "/articles/vat-final-return-july-2026.html",
+      "/articles/vat-zero-sales-filing.html",
+      "/articles/water-bill-guide.html"
+    ],
+    "sitemapNotInIndex": [
+      "/articles/car-insurance-saving.html"
+    ],
+    "indexMissingHtml": [
+      "/articles/bank-fees-to-avoid.html",
+      "/articles/credit-score-management.html",
+      "/articles/energy-voucher-application-2026.html",
+      "/articles/energy-voucher-application.html",
+      "/articles/energy-voucher-balance-check-2026.html",
+      "/articles/energy-voucher-balance-use.html",
+      "/articles/energy-voucher-documents.html",
+      "/articles/energy-voucher-eligibility-2026.html",
+      "/articles/energy-voucher-online-application.html",
+      "/articles/grocery-bill-savings.html",
+      "/articles/hidden-money-search.html",
+      "/articles/hidden-refund-check.html",
+      "/articles/how-to-check-hidden-refunds.html",
+      "/articles/how-to-lower-phone-bill.html",
+      "/articles/how-to-save-electricity-bill.html",
+      "/articles/internet-bill-savings.html",
+      "/articles/local-tax-refund-claim.html",
+      "/articles/phone-bill-saving.html",
+      "/articles/salary-budget-guide.html",
+      "/articles/salary-management-guide.html",
+      "/articles/small-business-policy-fund-search.html",
+      "/articles/subscription-cleanup.html",
+      "/articles/subscription-saving.html",
+      "/articles/summer-electricity-tier-check.html",
+      "/articles/vat-final-return-july-2026.html",
+      "/articles/vat-zero-sales-filing.html",
+      "/articles/water-bill-guide.html"
+    ],
+    "htmlNotInIndex": [
+      "/articles/car-insurance-saving.html"
+    ],
+    "deletedArticlePathsInGitHistory": [
+      "/\"articles/\\354\\236\\245\\352\\270\\260\\354\\210\\230\\354\\204\\240\\354\\266\\251\\353\\213\\271\\352\\270\\210-\\354\\206\\214\\354\\234\\240\\354\\236\\220-\\353\\266\\200\\353\\213\\264\\352\\263\\274-\\354\\236\\204\\354\\260\\250\\354\\235\\270-\\353\\260\\230\\355\\231\\230-\\355\\231\\225\\354\\235\\270-107af18f.html\"",
+      "/\"articles/\\354\\240\\204\\352\\270\\260\\354\\232\\224\\352\\270\\210-\\354\\240\\210\\354\\225\\275-c861d77ba6.html\"",
+      "/articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
+      "/articles/articles.html",
+      "/articles/articles/index.html",
+      "/articles/bank-fees-to-avoid.html",
+      "/articles/beginner-ai-side-hustles.html",
+      "/articles/credit-score-management.html",
+      "/articles/credit-score-tips.html",
+      "/articles/energy-voucher-application-2026.html",
+      "/articles/energy-voucher-application.html",
+      "/articles/energy-voucher-balance-check-2026.html",
+      "/articles/energy-voucher-balance-use-2026.html",
+      "/articles/energy-voucher-balance-use.html",
+      "/articles/energy-voucher-documents.html",
+      "/articles/energy-voucher-eligibility-2026.html",
+      "/articles/energy-voucher-online-application.html",
+      "/articles/government-benefit-alert-guide-2026.html",
+      "/articles/government-support-scam-warning-2026.html",
+      "/articles/grocery-bill-savings.html",
+      "/articles/health-insurance-refund.html",
+      "/articles/hidden-money-search.html",
+      "/articles/hidden-refund-check.html",
+      "/articles/how-to-check-hidden-refunds.html",
+      "/articles/how-to-lower-phone-bill.html",
+      "/articles/how-to-save-electricity-bill.html",
+      "/articles/internet-bill-savings.html",
+      "/articles/local-tax-refund-claim.html",
+      "/articles/local-tax-refund.html",
+      "/articles/online-income-ideas-for-beginners.html",
+      "/articles/phone-bill-saving.html",
+      "/articles/property-tax-electronic-notice-2026.html",
+      "/articles/property-tax-july-checklist-2026.html",
+      "/articles/reduce-electricity-bill.html",
+      "/articles/salary-budget-guide.html",
+      "/articles/salary-management-guide.html",
+      "/articles/small-business-policy-fund-search.html",
+      "/articles/subscription-cleanup.html",
+      "/articles/subscription-saving.html",
+      "/articles/summer-electricity-tier-check.html",
+      "/articles/summer-electricity-usage-check-2026.html",
+      "/articles/traffic-fine-check-payment-guide.html",
+      "/articles/traffic-penalty-check-payment-guide.html",
+      "/articles/vat-final-return-deadline-2026.html",
+      "/articles/vat-final-return-july-2026.html",
+      "/articles/vat-input-tax-deduction-guide-2026.html",
+      "/articles/vat-input-tax-deduction-items.html",
+      "/articles/vat-zero-sales-filing.html",
+      "/articles/water-bill-guide.html"
+    ]
+  },
+  "redirects": {
+    "presentSource": [],
+    "absentSource": [
+      {
+        "source": "/articles/beginner-ai-side-hustles.html",
+        "target": "/articles/ai-side-hustles-beginner.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/bank-fees-to-avoid.html",
+        "target": "/articles/bank-fee-saving.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/credit-score-tips.html",
+        "target": "/articles/credit-score-habits.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/energy-voucher-application-2026.html",
+        "target": "/articles/energy-voucher-2026-application.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/energy-voucher-application.html",
+        "target": "/articles/energy-voucher-2026-application.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/energy-voucher-balance-check-2026.html",
+        "target": "/articles/energy-voucher-2026-application.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/energy-voucher-balance-use.html",
+        "target": "/articles/energy-voucher-2026-application.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/energy-voucher-balance-use-2026.html",
+        "target": "/articles/energy-voucher-2026-application.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/energy-voucher-documents.html",
+        "target": "/articles/energy-voucher-2026-application.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/energy-voucher-eligibility-2026.html",
+        "target": "/articles/energy-voucher-2026-application.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/energy-voucher-online-application.html",
+        "target": "/articles/energy-voucher-2026-application.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/government-benefit-alert-guide-2026.html",
+        "target": "/articles/government-benefit-alert-2026.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/government-support-scam-warning-2026.html",
+        "target": "/articles/benefit-scam-warning-2026.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/health-insurance-refund.html",
+        "target": "/articles/health-insurance-refund-guide.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/local-tax-refund.html",
+        "target": "/articles/local-tax-refund-guide.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/online-income-ideas-for-beginners.html",
+        "target": "/articles/ai-side-hustles-beginner.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/property-tax-electronic-notice-2026.html",
+        "target": "/articles/property-tax-electronic-bill-2026.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/property-tax-july-checklist-2026.html",
+        "target": "/articles/property-tax-bill-checklist-2026.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/reduce-electricity-bill.html",
+        "target": "/articles/electricity-bill-saving.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/summer-electricity-usage-check-2026.html",
+        "target": "/articles/summer-electricity-tier-check-2026.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/summer-electricity-tier-check.html",
+        "target": "/articles/summer-electricity-tier-check-2026.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/vat-final-return-deadline-2026.html",
+        "target": "/articles/vat-final-return-2026-july.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/vat-input-tax-deduction-guide-2026.html",
+        "target": "/articles/vat-input-tax-deduction-2026.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/hidden-money-search.html",
+        "target": "/articles/check-hidden-refunds.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/hidden-refund-check.html",
+        "target": "/articles/check-hidden-refunds.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/how-to-check-hidden-refunds.html",
+        "target": "/articles/check-hidden-refunds.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/subscription-saving.html",
+        "target": "/articles/cancel-unused-subscriptions.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/subscription-cleanup.html",
+        "target": "/articles/cancel-unused-subscriptions.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/salary-management-guide.html",
+        "target": "/articles/beginner-money-management.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/salary-budget-guide.html",
+        "target": "/articles/monthly-budget-planner.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/phone-bill-saving.html",
+        "target": "/articles/telecom-discount-guide.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/how-to-lower-phone-bill.html",
+        "target": "/articles/telecom-discount-guide.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/internet-bill-savings.html",
+        "target": "/articles/internet-bill-discount.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/water-bill-guide.html",
+        "target": "/articles/water-bill-saving.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/how-to-save-electricity-bill.html",
+        "target": "/articles/electricity-bill-saving.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/vat-final-return-july-2026.html",
+        "target": "/articles/vat-final-return-2026-july.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/vat-zero-sales-filing.html",
+        "target": "/articles/vat-zero-sales-filing-2026.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/grocery-bill-savings.html",
+        "target": "/articles/grocery-saving-tips.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/local-tax-refund-claim.html",
+        "target": "/articles/local-tax-refund-guide.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/traffic-fine-check-payment-guide.html",
+        "target": "/articles/traffic-fines-difference-guide.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/traffic-penalty-check-payment-guide.html",
+        "target": "/articles/traffic-fines-difference-guide.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html",
+        "target": "/articles/electricity-bill-saving.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/전기요금-절약-c861d77ba6.html",
+        "target": "/articles/electricity-bill-saving.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/장기수선충당금-소유자-부담과-임차인-반환-확인-107af18f.html",
+        "target": "/articles/long-term-repair-reserve-refund-guide.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/credit-score-management.html",
+        "target": "/articles/credit-score-habits.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/vat-input-tax-deduction-items.html",
+        "target": "/articles/vat-input-tax-deduction-2026.html",
+        "status": "301"
+      },
+      {
+        "source": "/articles/small-business-policy-fund-search.html",
+        "target": "/articles/small-business-policy-fund.html",
+        "status": "301"
+      }
+    ]
+  },
+  "fileClassifications": [
+    {
+      "path": "/articles/ai-side-hustles-beginner.html",
+      "bytes": 31186,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/ai-side-hustles-beginner.html"
+    },
+    {
+      "path": "/articles/air-conditioner-electricity-saving.html",
+      "bytes": 31724,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/air-conditioner-electricity-saving.html"
+    },
+    {
+      "path": "/articles/aircon-dry-mode-electricity.html",
+      "bytes": 26928,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/aircon-dry-mode-electricity.html"
+    },
+    {
+      "path": "/articles/aircon-filter-cleaning-savings.html",
+      "bytes": 33051,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/aircon-filter-cleaning-savings.html"
+    },
+    {
+      "path": "/articles/aircon-optimal-temperature-savings.html",
+      "bytes": 35057,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/aircon-optimal-temperature-savings.html"
+    },
+    {
+      "path": "/articles/apartment-leak-emergency-response.html",
+      "bytes": 29103,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/apartment-leak-emergency-response.html"
+    },
+    {
+      "path": "/articles/apartment-management-fee-summer.html",
+      "bytes": 30312,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/apartment-management-fee-summer.html"
+    },
+    {
+      "path": "/articles/automatic-payment-saving.html",
+      "bytes": 30393,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/automatic-payment-saving.html"
+    },
+    {
+      "path": "/articles/bank-account-budgeting.html",
+      "bytes": 32279,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/bank-account-budgeting.html"
+    },
+    {
+      "path": "/articles/bank-fee-saving.html",
+      "bytes": 27730,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/bank-fee-saving.html"
+    },
+    {
+      "path": "/articles/basic-livelihood-discounts.html",
+      "bytes": 25378,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/basic-livelihood-discounts.html"
+    },
+    {
+      "path": "/articles/basic-pension-application-guide.html",
+      "bytes": 20876,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/basic-pension-application-guide.html"
+    },
+    {
+      "path": "/articles/beginner-budget-plan.html",
+      "bytes": 36700,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/beginner-budget-plan.html"
+    },
+    {
+      "path": "/articles/beginner-money-management.html",
+      "bytes": 31879,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/beginner-money-management.html"
+    },
+    {
+      "path": "/articles/benefit-scam-warning-2026.html",
+      "bytes": 34983,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/benefit-scam-warning-2026.html"
+    },
+    {
+      "path": "/articles/budget-app-guide.html",
+      "bytes": 21848,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/budget-app-guide.html"
+    },
+    {
+      "path": "/articles/building-land-property-tax.html",
+      "bytes": 37826,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/building-land-property-tax.html"
+    },
+    {
+      "path": "/articles/business-card-hometax-registration.html",
+      "bytes": 26905,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/business-card-hometax-registration.html"
+    },
+    {
+      "path": "/articles/business-closure-vat-order.html",
+      "bytes": 28441,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/business-closure-vat-order.html"
+    },
+    {
+      "path": "/articles/business-phone-expense-deduction.html",
+      "bytes": 27162,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/business-phone-expense-deduction.html"
+    },
+    {
+      "path": "/articles/business-vehicle-expense-basics.html",
+      "bytes": 29270,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/business-vehicle-expense-basics.html"
+    },
+    {
+      "path": "/articles/cancel-unused-subscriptions.html",
+      "bytes": 28015,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/cancel-unused-subscriptions.html"
+    },
+    {
+      "path": "/articles/car-aircon-fuel-saving.html",
+      "bytes": 33936,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/car-aircon-fuel-saving.html"
+    },
+    {
+      "path": "/articles/car-insurance-child-discount.html",
+      "bytes": 25826,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/car-insurance-child-discount.html"
+    },
+    {
+      "path": "/articles/car-insurance-mileage-refund.html",
+      "bytes": 24749,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/car-insurance-mileage-refund.html"
+    },
+    {
+      "path": "/articles/car-insurance-overpayment-refund.html",
+      "bytes": 33142,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/car-insurance-overpayment-refund.html"
+    },
+    {
+      "path": "/articles/car-insurance-saving.html",
+      "bytes": 26473,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/car-insurance-saving.html"
+    },
+    {
+      "path": "/articles/car-tax-annual-payment.html",
+      "bytes": 32170,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/car-tax-annual-payment.html"
+    },
+    {
+      "path": "/articles/car-tax-check-payment-guide.html",
+      "bytes": 27389,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/car-tax-check-payment-guide.html"
+    },
+    {
+      "path": "/articles/card-points-cashback-guide.html",
+      "bytes": 20515,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/card-points-cashback-guide.html"
+    },
+    {
+      "path": "/articles/cash-advance-vs-card-loan.html",
+      "bytes": 20380,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/cash-advance-vs-card-loan.html"
+    },
+    {
+      "path": "/articles/cash-out-card-points.html",
+      "bytes": 26262,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/cash-out-card-points.html"
+    },
+    {
+      "path": "/articles/cashback-apps-guide.html",
+      "bytes": 29366,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/cashback-apps-guide.html"
+    },
+    {
+      "path": "/articles/check-hidden-refunds.html",
+      "bytes": 32948,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/check-hidden-refunds.html"
+    },
+    {
+      "path": "/articles/child-allowance-guide.html",
+      "bytes": 25504,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/child-allowance-guide.html"
+    },
+    {
+      "path": "/articles/child-tax-credit-status-check.html",
+      "bytes": 29858,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/child-tax-credit-status-check.html"
+    },
+    {
+      "path": "/articles/childcare-service-government-support.html",
+      "bytes": 33498,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/childcare-service-government-support.html"
+    },
+    {
+      "path": "/articles/cma-account-types-risk.html",
+      "bytes": 31650,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/cma-account-types-risk.html"
+    },
+    {
+      "path": "/articles/credit-card-billing-cycle-guide.html",
+      "bytes": 30333,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/credit-card-billing-cycle-guide.html"
+    },
+    {
+      "path": "/articles/credit-score-habits.html",
+      "bytes": 26395,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/credit-score-habits.html"
+    },
+    {
+      "path": "/articles/culture-nuri-card-balance.html",
+      "bytes": 35107,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/culture-nuri-card-balance.html"
+    },
+    {
+      "path": "/articles/daily-liability-leak-insurance.html",
+      "bytes": 36151,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/daily-liability-leak-insurance.html"
+    },
+    {
+      "path": "/articles/debit-card-vs-credit-card.html",
+      "bytes": 33057,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/debit-card-vs-credit-card.html"
+    },
+    {
+      "path": "/articles/dehumidifier-electricity-saving.html",
+      "bytes": 28028,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/dehumidifier-electricity-saving.html"
+    },
+    {
+      "path": "/articles/deposit-protection-limit-guide.html",
+      "bytes": 33928,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/deposit-protection-limit-guide.html"
+    },
+    {
+      "path": "/articles/deposit-return-guarantee-checklist.html",
+      "bytes": 34455,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/deposit-return-guarantee-checklist.html"
+    },
+    {
+      "path": "/articles/dormant-deposit-insurance-search.html",
+      "bytes": 37418,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/dormant-deposit-insurance-search.html"
+    },
+    {
+      "path": "/articles/dryer-summer-electricity-saving.html",
+      "bytes": 30455,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/dryer-summer-electricity-saving.html"
+    },
+    {
+      "path": "/articles/duplicate-indemnity-insurance-check.html",
+      "bytes": 19702,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/duplicate-indemnity-insurance-check.html"
+    },
+    {
+      "path": "/articles/earned-income-credit-account-change.html",
+      "bytes": 24311,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/earned-income-credit-account-change.html"
+    },
+    {
+      "path": "/articles/earned-income-credit-payment.html",
+      "bytes": 33777,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/earned-income-credit-payment.html"
+    },
+    {
+      "path": "/articles/earned-income-credit-status-check.html",
+      "bytes": 25966,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/earned-income-credit-status-check.html"
+    },
+    {
+      "path": "/articles/earned-income-tax-credit-korea.html",
+      "bytes": 36091,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/earned-income-tax-credit-korea.html"
+    },
+    {
+      "path": "/articles/education-benefit-eligibility.html",
+      "bytes": 28113,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/education-benefit-eligibility.html"
+    },
+    {
+      "path": "/articles/education-expense-vs-benefit.html",
+      "bytes": 23989,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/education-expense-vs-benefit.html"
+    },
+    {
+      "path": "/articles/electricity-bill-easy-calculator-guide.html",
+      "bytes": 23603,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/electricity-bill-easy-calculator-guide.html"
+    },
+    {
+      "path": "/articles/electricity-bill-saving.html",
+      "bytes": 24120,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/electricity-bill-saving.html"
+    },
+    {
+      "path": "/articles/electricity-discount-card-guide.html",
+      "bytes": 28388,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/electricity-discount-card-guide.html"
+    },
+    {
+      "path": "/articles/electronic-tax-invoice-penalty.html",
+      "bytes": 27820,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/electronic-tax-invoice-penalty.html"
+    },
+    {
+      "path": "/articles/elementary-school-education-support.html",
+      "bytes": 19548,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/elementary-school-education-support.html"
+    },
+    {
+      "path": "/articles/emergency-fund-guide.html",
+      "bytes": 19059,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/emergency-fund-guide.html"
+    },
+    {
+      "path": "/articles/emergency-medical-support.html",
+      "bytes": 40467,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/emergency-medical-support.html"
+    },
+    {
+      "path": "/articles/emergency-welfare-living-support.html",
+      "bytes": 38869,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/emergency-welfare-living-support.html"
+    },
+    {
+      "path": "/articles/energy-voucher-2026-application.html",
+      "bytes": 35183,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/energy-voucher-2026-application.html"
+    },
+    {
+      "path": "/articles/fan-aircon-combination-saving.html",
+      "bytes": 22775,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/fan-aircon-combination-saving.html"
+    },
+    {
+      "path": "/articles/first-meeting-voucher-guide.html",
+      "bytes": 31777,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/first-meeting-voucher-guide.html"
+    },
+    {
+      "path": "/articles/fixed-date-online-application.html",
+      "bytes": 29584,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/fixed-date-online-application.html"
+    },
+    {
+      "path": "/articles/fixed-speed-aircon-saving.html",
+      "bytes": 25491,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/fixed-speed-aircon-saving.html"
+    },
+    {
+      "path": "/articles/four-major-insurance-deduction-guide.html",
+      "bytes": 25557,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/four-major-insurance-deduction-guide.html"
+    },
+    {
+      "path": "/articles/gas-bill-checklist.html",
+      "bytes": 25285,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/gas-bill-checklist.html"
+    },
+    {
+      "path": "/articles/general-vat-common-mistakes.html",
+      "bytes": 25265,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/general-vat-common-mistakes.html"
+    },
+    {
+      "path": "/articles/government-benefit-alert-2026.html",
+      "bytes": 33521,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/government-benefit-alert-2026.html"
+    },
+    {
+      "path": "/articles/government-benefit-alert-setup.html",
+      "bytes": 23445,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/government-benefit-alert-setup.html"
+    },
+    {
+      "path": "/articles/government-benefits-warning.html",
+      "bytes": 28282,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/government-benefits-warning.html"
+    },
+    {
+      "path": "/articles/government-support-calendar.html",
+      "bytes": 23490,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/government-support-calendar.html"
+    },
+    {
+      "path": "/articles/government24-benefit-check.html",
+      "bytes": 23362,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/government24-benefit-check.html"
+    },
+    {
+      "path": "/articles/grocery-saving-tips.html",
+      "bytes": 37249,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/grocery-saving-tips.html"
+    },
+    {
+      "path": "/articles/health-insurance-out-of-pocket-refund.html",
+      "bytes": 26061,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/health-insurance-out-of-pocket-refund.html"
+    },
+    {
+      "path": "/articles/health-insurance-overpayment-refund.html",
+      "bytes": 19560,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/health-insurance-overpayment-refund.html"
+    },
+    {
+      "path": "/articles/health-insurance-refund-guide.html",
+      "bytes": 26003,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/health-insurance-refund-guide.html"
+    },
+    {
+      "path": "/articles/heating-bill-saving.html",
+      "bytes": 26986,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/heating-bill-saving.html"
+    },
+    {
+      "path": "/articles/home-water-leak-self-check.html",
+      "bytes": 11010,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/home-water-leak-self-check.html"
+    },
+    {
+      "path": "/articles/hometax-refund-status.html",
+      "bytes": 23109,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/hometax-refund-status.html"
+    },
+    {
+      "path": "/articles/hometax-vat-sales-check.html",
+      "bytes": 22717,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/hometax-vat-sales-check.html"
+    },
+    {
+      "path": "/articles/housing-benefit-eligibility.html",
+      "bytes": 38961,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/housing-benefit-eligibility.html"
+    },
+    {
+      "path": "/articles/impulse-buying-control.html",
+      "bytes": 38081,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/impulse-buying-control.html"
+    },
+    {
+      "path": "/articles/income-tax-filing-missed-consequences.html",
+      "bytes": 33135,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/income-tax-filing-missed-consequences.html"
+    },
+    {
+      "path": "/articles/insurance-auto-pay-discount.html",
+      "bytes": 19777,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/insurance-auto-pay-discount.html"
+    },
+    {
+      "path": "/articles/insurance-surrender-value-check.html",
+      "bytes": 18911,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/insurance-surrender-value-check.html"
+    },
+    {
+      "path": "/articles/internet-bill-discount.html",
+      "bytes": 34645,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/internet-bill-discount.html"
+    },
+    {
+      "path": "/articles/inverter-aircon-saving-guide.html",
+      "bytes": 31249,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/inverter-aircon-saving-guide.html"
+    },
+    {
+      "path": "/articles/irs-tax-refund-status.html",
+      "bytes": 39012,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/irs-tax-refund-status.html"
+    },
+    {
+      "path": "/articles/lifelong-education-voucher-application.html",
+      "bytes": 22580,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/lifelong-education-voucher-application.html"
+    },
+    {
+      "path": "/articles/loan-prepayment-fee-check.html",
+      "bytes": 27255,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/loan-prepayment-fee-check.html"
+    },
+    {
+      "path": "/articles/loan-refinancing-check.html",
+      "bytes": 27380,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/loan-refinancing-check.html"
+    },
+    {
+      "path": "/articles/local-tax-refund-guide.html",
+      "bytes": 25416,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/local-tax-refund-guide.html"
+    },
+    {
+      "path": "/articles/long-term-care-insurance-application.html",
+      "bytes": 28093,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/long-term-care-insurance-application.html"
+    },
+    {
+      "path": "/articles/long-term-repair-reserve-refund-guide.html",
+      "bytes": 7182,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/long-term-repair-reserve-refund-guide.html"
+    },
+    {
+      "path": "/articles/low-income-cooling-support.html",
+      "bytes": 26540,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/low-income-cooling-support.html"
+    },
+    {
+      "path": "/articles/medical-bill-negotiation.html",
+      "bytes": 38293,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/medical-bill-negotiation.html"
+    },
+    {
+      "path": "/articles/missing-property-tax-bill.html",
+      "bytes": 36344,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/missing-property-tax-bill.html"
+    },
+    {
+      "path": "/articles/money-saving-habits.html",
+      "bytes": 30974,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/money-saving-habits.html"
+    },
+    {
+      "path": "/articles/monthly-budget-planner.html",
+      "bytes": 28431,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/monthly-budget-planner.html"
+    },
+    {
+      "path": "/articles/monthly-rent-tax-credit-documents.html",
+      "bytes": 33630,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/monthly-rent-tax-credit-documents.html"
+    },
+    {
+      "path": "/articles/national-employment-support-eligibility.html",
+      "bytes": 28682,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/national-employment-support-eligibility.html"
+    },
+    {
+      "path": "/articles/national-pension-additional-payment.html",
+      "bytes": 30387,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/national-pension-additional-payment.html"
+    },
+    {
+      "path": "/articles/national-pension-old-age-benefit-guide.html",
+      "bytes": 19098,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/national-pension-old-age-benefit-guide.html"
+    },
+    {
+      "path": "/articles/national-pension-overpayment-refund.html",
+      "bytes": 27765,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/national-pension-overpayment-refund.html"
+    },
+    {
+      "path": "/articles/national-scholarship-application.html",
+      "bytes": 25941,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/national-scholarship-application.html"
+    },
+    {
+      "path": "/articles/national-tax-refund-account.html",
+      "bytes": 28017,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/national-tax-refund-account.html"
+    },
+    {
+      "path": "/articles/national-tax-refund.html",
+      "bytes": 26604,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/national-tax-refund.html"
+    },
+    {
+      "path": "/articles/near-poverty-certificate.html",
+      "bytes": 29841,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/near-poverty-certificate.html"
+    },
+    {
+      "path": "/articles/over-60-benefits-guide.html",
+      "bytes": 24820,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/over-60-benefits-guide.html"
+    },
+    {
+      "path": "/articles/overdraft-account-guide.html",
+      "bytes": 28188,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/overdraft-account-guide.html"
+    },
+    {
+      "path": "/articles/parental-benefit-guide.html",
+      "bytes": 30848,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/parental-benefit-guide.html"
+    },
+    {
+      "path": "/articles/parking-account-rate-comparison.html",
+      "bytes": 33132,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/parking-account-rate-comparison.html"
+    },
+    {
+      "path": "/articles/peak-season-hotel-saving.html",
+      "bytes": 28908,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/peak-season-hotel-saving.html"
+    },
+    {
+      "path": "/articles/property-tax-bill-checklist-2026.html",
+      "bytes": 30171,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/property-tax-bill-checklist-2026.html"
+    },
+    {
+      "path": "/articles/property-tax-calculation-structure.html",
+      "bytes": 31268,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/property-tax-calculation-structure.html"
+    },
+    {
+      "path": "/articles/property-tax-deadline.html",
+      "bytes": 25594,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/property-tax-deadline.html"
+    },
+    {
+      "path": "/articles/property-tax-electronic-bill-2026.html",
+      "bytes": 36960,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/property-tax-electronic-bill-2026.html"
+    },
+    {
+      "path": "/articles/property-tax-installment-application.html",
+      "bytes": 33866,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/property-tax-installment-application.html"
+    },
+    {
+      "path": "/articles/property-tax-joint-ownership.html",
+      "bytes": 31809,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/property-tax-joint-ownership.html"
+    },
+    {
+      "path": "/articles/property-tax-july-2026.html",
+      "bytes": 28080,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/property-tax-july-2026.html"
+    },
+    {
+      "path": "/articles/property-tax-july-september-difference.html",
+      "bytes": 22594,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/property-tax-july-september-difference.html"
+    },
+    {
+      "path": "/articles/property-tax-objection-guide.html",
+      "bytes": 24384,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/property-tax-objection-guide.html"
+    },
+    {
+      "path": "/articles/property-tax-payment-certificate.html",
+      "bytes": 25432,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/property-tax-payment-certificate.html"
+    },
+    {
+      "path": "/articles/refrigerator-summer-electricity-saving.html",
+      "bytes": 29008,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/regional-development-bond-refund-guide.html",
+      "bytes": 22216,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/rental-car-vacation-saving.html",
+      "bytes": 25251,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/rental-car-vacation-saving.html"
+    },
+    {
+      "path": "/articles/rental-contract-reporting-guide.html",
+      "bytes": 24336,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/revolving-cancellation-payoff.html",
+      "bytes": 26262,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/salary-slip-check-guide.html",
+      "bytes": 24317,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/salary-take-home-easy-calculator-guide.html",
+      "bytes": 20283,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/salary-take-home-easy-calculator-guide.html"
+    },
+    {
+      "path": "/articles/savings-maturity-auto-renewal.html",
+      "bytes": 26147,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/self-employed-income-tax-refund-check.html",
+      "bytes": 35004,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/senior-job-application-guide.html",
+      "bytes": 21248,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/severance-pay-calculation-guide.html",
+      "bytes": 22572,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/severance-pay-easy-calculator-guide.html",
+      "bytes": 21173,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/severance-pay-easy-calculator-guide.html"
+    },
+    {
+      "path": "/articles/simple-receipt-expense-rules.html",
+      "bytes": 30609,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/simplified-vat-checklist.html",
+      "bytes": 31659,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/single-parent-support-benefits.html",
+      "bytes": 28127,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/small-business-closure-support.html",
+      "bytes": 30190,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/small-business-closure-support.html"
+    },
+    {
+      "path": "/articles/small-business-delivery-support.html",
+      "bytes": 33774,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/small-business-delivery-support.html"
+    },
+    {
+      "path": "/articles/small-business-electricity-support.html",
+      "bytes": 26463,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/small-business-electricity-support.html"
+    },
+    {
+      "path": "/articles/small-business-policy-fund.html",
+      "bytes": 30675,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/small-business-policy-fund.html"
+    },
+    {
+      "path": "/articles/spending-habits-change.html",
+      "bytes": 25768,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/student-loan-repayment-guide.html",
+      "bytes": 24211,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/subscription-audit-checklist.html",
+      "bytes": 26909,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/subsidy24-benefit-search.html",
+      "bytes": 24503,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/summer-electricity-tier-check-2026.html",
+      "bytes": 26151,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/summer-electricity-tier-check-2026.html"
+    },
+    {
+      "path": "/articles/summer-gas-bill-hot-water-saving.html",
+      "bytes": 26315,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/summer-vacation-budget-plan.html",
+      "bytes": 26445,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/summer-water-bill-spike-check.html",
+      "bytes": 26189,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/tax-credit-late-application.html",
+      "bytes": 26697,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/tax-invoice-vs-cash-receipt.html",
+      "bytes": 34021,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/telecom-discount-guide.html",
+      "bytes": 26123,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/telecom-unclaimed-refund.html",
+      "bytes": 22966,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/traffic-fines-difference-guide.html",
+      "bytes": 23271,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/traffic-fines-difference-guide.html"
+    },
+    {
+      "path": "/articles/travel-insurance-comparison.html",
+      "bytes": 26211,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/unemployment-benefit-checklist.html",
+      "bytes": 22455,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/unemployment-benefit-job-search.html",
+      "bytes": 25919,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/vat-final-return-2026-july.html",
+      "bytes": 32215,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/vat-input-tax-deduction-2026.html",
+      "bytes": 24146,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": "https://savingio.com/articles/vat-input-tax-deduction-2026.html"
+    },
+    {
+      "path": "/articles/vat-payment-extension-guide.html",
+      "bytes": 31754,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/vat-sales-omission-check-2026.html",
+      "bytes": 31527,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/vat-zero-sales-filing-2026.html",
+      "bytes": 31100,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/vehicle-inspection-reservation-guide.html",
+      "bytes": 26675,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/water-bill-saving.html",
+      "bytes": 29954,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/weekly-holiday-pay-guide.html",
+      "bytes": 23225,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/wetax-electronic-billing.html",
+      "bytes": 24730,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/wetax-payment-history.html",
+      "bytes": 24408,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/yellow-umbrella-mutual-aid-guide.html",
+      "bytes": 25863,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/youth-housing-benefit-separate-payment.html",
+      "bytes": 26850,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/youth-leap-account-contribution.html",
+      "bytes": 26176,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/youth-savings-account-maintenance.html",
+      "bytes": 26104,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    },
+    {
+      "path": "/articles/youth-support-programs.html",
+      "bytes": 26775,
+      "redirect_stub": false,
+      "noindex": false,
+      "canonical": null
+    }
+  ],
+  "deletionHistory": [
+    {
+      "commit": "b2f7911289d4a1c7ba248642f20aa835c1551953",
+      "date": "2026-07-27",
+      "message": "Remove duplicate small business policy fund article",
+      "path": "/articles/small-business-policy-fund-search.html"
+    },
+    {
+      "commit": "d18b45d35301eedd3fdfb02de3c1b188387f2d34",
+      "date": "2026-07-27",
+      "message": "Remove duplicate VAT input tax article [skip ci]",
+      "path": "/articles/vat-input-tax-deduction-items.html"
+    },
+    {
+      "commit": "1ca9e94ea5dc500aec15b255573abc6a2a74a4a8",
+      "date": "2026-07-27",
+      "message": "Consolidate credit score content into one guide",
+      "path": "/articles/credit-score-management.html"
+    },
+    {
+      "commit": "dd810b2b17c20fc9bb145f3146163a8595aeb10b",
+      "date": "2026-07-27",
+      "message": "Consolidate orphan duplicates and register substantive guides",
+      "path": "/articles/#Uc804#Uae30#Uc694#Uae08-#Uc808#Uc57d-c861d77ba6.html"
+    },
+    {
+      "commit": "dd810b2b17c20fc9bb145f3146163a8595aeb10b",
+      "date": "2026-07-27",
+      "message": "Consolidate orphan duplicates and register substantive guides",
+      "path": "/\"articles/\\354\\236\\245\\352\\270\\260\\354\\210\\230\\354\\204\\240\\354\\266\\251\\353\\213\\271\\352\\270\\210-\\354\\206\\214\\354\\234\\240\\354\\236\\220-\\353\\266\\200\\353\\213\\264\\352\\263\\274-\\354\\236\\204\\354\\260\\250\\354\\235\\270-\\353\\260\\230\\355\\231\\230-\\355\\231\\225\\354\\235\\270-107af18f.html\""
+    },
+    {
+      "commit": "dd810b2b17c20fc9bb145f3146163a8595aeb10b",
+      "date": "2026-07-27",
+      "message": "Consolidate orphan duplicates and register substantive guides",
+      "path": "/\"articles/\\354\\240\\204\\352\\270\\260\\354\\232\\224\\352\\270\\210-\\354\\240\\210\\354\\225\\275-c861d77ba6.html\""
+    },
+    {
+      "commit": "b96cd1f521d2ff343569253d43b58269710fce48",
+      "date": "2026-07-27",
+      "message": "Remove unindexed redirect-only article stubs",
+      "path": "/articles/beginner-ai-side-hustles.html"
+    },
+    {
+      "commit": "b96cd1f521d2ff343569253d43b58269710fce48",
+      "date": "2026-07-27",
+      "message": "Remove unindexed redirect-only article stubs",
+      "path": "/articles/credit-score-tips.html"
+    },
+    {
+      "commit": "b96cd1f521d2ff343569253d43b58269710fce48",
+      "date": "2026-07-27",
+      "message": "Remove unindexed redirect-only article stubs",
+      "path": "/articles/energy-voucher-balance-use-2026.html"
+    },
+    {
+      "commit": "b96cd1f521d2ff343569253d43b58269710fce48",
+      "date": "2026-07-27",
+      "message": "Remove unindexed redirect-only article stubs",
+      "path": "/articles/government-benefit-alert-guide-2026.html"
+    },
+    {
+      "commit": "b96cd1f521d2ff343569253d43b58269710fce48",
+      "date": "2026-07-27",
+      "message": "Remove unindexed redirect-only article stubs",
+      "path": "/articles/government-support-scam-warning-2026.html"
+    },
+    {
+      "commit": "b96cd1f521d2ff343569253d43b58269710fce48",
+      "date": "2026-07-27",
+      "message": "Remove unindexed redirect-only article stubs",
+      "path": "/articles/health-insurance-refund.html"
+    },
+    {
+      "commit": "b96cd1f521d2ff343569253d43b58269710fce48",
+      "date": "2026-07-27",
+      "message": "Remove unindexed redirect-only article stubs",
+      "path": "/articles/local-tax-refund.html"
+    },
+    {
+      "commit": "b96cd1f521d2ff343569253d43b58269710fce48",
+      "date": "2026-07-27",
+      "message": "Remove unindexed redirect-only article stubs",
+      "path": "/articles/online-income-ideas-for-beginners.html"
+    },
+    {
+      "commit": "b96cd1f521d2ff343569253d43b58269710fce48",
+      "date": "2026-07-27",
+      "message": "Remove unindexed redirect-only article stubs",
+      "path": "/articles/summer-electricity-usage-check-2026.html"
+    },
+    {
+      "commit": "b96cd1f521d2ff343569253d43b58269710fce48",
+      "date": "2026-07-27",
+      "message": "Remove unindexed redirect-only article stubs",
+      "path": "/articles/vat-final-return-deadline-2026.html"
+    },
+    {
+      "commit": "b96cd1f521d2ff343569253d43b58269710fce48",
+      "date": "2026-07-27",
+      "message": "Remove unindexed redirect-only article stubs",
+      "path": "/articles/vat-input-tax-deduction-guide-2026.html"
+    },
+    {
+      "commit": "13f14c067c44e9c7eab514a115c6f8f75a82876c",
+      "date": "2026-07-27",
+      "message": "Remove duplicate property tax July checklist redirect page",
+      "path": "/articles/property-tax-july-checklist-2026.html"
+    },
+    {
+      "commit": "7426bbd9d916a915c065b7c91b1a12cda139216b",
+      "date": "2026-07-27",
+      "message": "Remove retired property tax electronic notice stub",
+      "path": "/articles/property-tax-electronic-notice-2026.html"
+    },
+    {
+      "commit": "934d2f303871a7bb01d7642483eea130d0a15a1c",
+      "date": "2026-07-27",
+      "message": "Remove duplicate traffic penalty lookup article",
+      "path": "/articles/traffic-penalty-check-payment-guide.html"
+    },
+    {
+      "commit": "8a2b26a79ee86ca9903cace6d5fc963f510f676b",
+      "date": "2026-07-27",
+      "message": "Remove duplicate traffic fine lookup article",
+      "path": "/articles/traffic-fine-check-payment-guide.html"
+    },
+    {
+      "commit": "af569aac211382b6ccbe52d3735f54e16547063c",
+      "date": "2026-07-27",
+      "message": "Part019 remove duplicate local tax refund article",
+      "path": "/articles/local-tax-refund-claim.html"
+    },
+    {
+      "commit": "335dbe0799a1c2e5f53664f029520b37f17e2660",
+      "date": "2026-07-27",
+      "message": "Part016 remove electricity redirect stub duplicate",
+      "path": "/articles/reduce-electricity-bill.html"
+    },
+    {
+      "commit": "707bc84728189569838c63ae119e0624e6b371ec",
+      "date": "2026-07-27",
+      "message": "Part015 remove duplicate grocery bill article",
+      "path": "/articles/grocery-bill-savings.html"
+    },
+    {
+      "commit": "7a5a2e317eaa3e504568079bfb0a091b1da3b139",
+      "date": "2026-07-27",
+      "message": "Part012 remove duplicate bank fee article",
+      "path": "/articles/bank-fees-to-avoid.html"
+    },
+    {
+      "commit": "12d47cce50745ad0e88d90bc441efc30cf704c79",
+      "date": "2026-07-27",
+      "message": "Part011 remove duplicate summer electricity article",
+      "path": "/articles/summer-electricity-tier-check.html"
+    },
+    {
+      "commit": "b6f32de5585eba293f308119613ec4833bc84747",
+      "date": "2026-07-27",
+      "message": "Remove duplicate energy voucher online application article",
+      "path": "/articles/energy-voucher-online-application.html"
+    },
+    {
+      "commit": "c811ddf4b09d9683330dfc5b097fe9efe1ac57f8",
+      "date": "2026-07-27",
+      "message": "Remove duplicate energy voucher balance article",
+      "path": "/articles/energy-voucher-balance-check-2026.html"
+    },
+    {
+      "commit": "50c64ef838bcaf0ad242e7894e41c02e46b9c857",
+      "date": "2026-07-27",
+      "message": "Remove duplicate energy voucher documents article",
+      "path": "/articles/energy-voucher-documents.html"
+    },
+    {
+      "commit": "6e365b0fab587b3bfd38d2b004f1c41b2b91f0a5",
+      "date": "2026-07-27",
+      "message": "Remove duplicate energy voucher eligibility article",
+      "path": "/articles/energy-voucher-eligibility-2026.html"
+    },
+    {
+      "commit": "d90f7bad0e0bc1b5357200926c5dd9c6ef7c3a3c",
+      "date": "2026-07-27",
+      "message": "Remove duplicate thin energy voucher balance article",
+      "path": "/articles/energy-voucher-balance-use.html"
+    },
+    {
+      "commit": "f04d47874e5eb82195ba0f0bc4631e1fd9804502",
+      "date": "2026-07-22",
+      "message": "Remove duplicate phone bill article",
+      "path": "/articles/how-to-lower-phone-bill.html"
+    },
+    {
+      "commit": "e4b2606d720b73aea956a69ea281648dcc56b9ab",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article vat-zero-sales-filing",
+      "path": "/articles/vat-zero-sales-filing.html"
+    },
+    {
+      "commit": "ab4dc2bc9c8e534af0d1e5c738f9ff0901797f43",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article vat-final-return-july-2026",
+      "path": "/articles/vat-final-return-july-2026.html"
+    },
+    {
+      "commit": "11ccb93ca5a85c447ad72a0906b23d05cd199d39",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article how-to-save-electricity-bill",
+      "path": "/articles/how-to-save-electricity-bill.html"
+    },
+    {
+      "commit": "6e0c322a1602bdecb99e7c78decb6aed7b70f697",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article water-bill-guide",
+      "path": "/articles/water-bill-guide.html"
+    },
+    {
+      "commit": "2654e9882dc40f86eb146a2d7ce6e4fd44a0c108",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article internet-bill-savings",
+      "path": "/articles/internet-bill-savings.html"
+    },
+    {
+      "commit": "b0b8b10336122925dcc4c93d7b9acef8857e2ab5",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article phone-bill-saving",
+      "path": "/articles/phone-bill-saving.html"
+    },
+    {
+      "commit": "c44ab1cdd34d08d3c13cc0eab3dfaeeda28f6238",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article salary-budget-guide",
+      "path": "/articles/salary-budget-guide.html"
+    },
+    {
+      "commit": "775481c9a5969a94b69d405e92d1283fac7a8b01",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article salary-management-guide",
+      "path": "/articles/salary-management-guide.html"
+    },
+    {
+      "commit": "b91e57d78bfb6b2b933eced802edec353259e785",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article subscription-cleanup",
+      "path": "/articles/subscription-cleanup.html"
+    },
+    {
+      "commit": "cc7916afec9bc8eab23701a8b5d4bf30657c4e32",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article subscription-saving",
+      "path": "/articles/subscription-saving.html"
+    },
+    {
+      "commit": "c9ed43c85630b3d20771398441b3d962aac2c23e",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article how-to-check-hidden-refunds",
+      "path": "/articles/how-to-check-hidden-refunds.html"
+    },
+    {
+      "commit": "5b1ff84f0c02c9413999e866f68ca9388f72dcd7",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article hidden-refund-check",
+      "path": "/articles/hidden-refund-check.html"
+    },
+    {
+      "commit": "4fdbd7d7a2fe5fe7e4161a6d8b7fae2b79809bbb",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article hidden-money-search",
+      "path": "/articles/hidden-money-search.html"
+    },
+    {
+      "commit": "f535d17ea3bc68655fb248f9afc8ca7e3ba63f44",
+      "date": "2026-07-22",
+      "message": "Remove duplicate 2026 energy voucher article",
+      "path": "/articles/energy-voucher-application-2026.html"
+    },
+    {
+      "commit": "45909fa1953e4a2eefc85ccfff407c1222a3c984",
+      "date": "2026-07-22",
+      "message": "Remove duplicate energy voucher article",
+      "path": "/articles/energy-voucher-application.html"
+    },
+    {
+      "commit": "849ade0e927b7216b57c73100fc02644e2084a84",
+      "date": "2026-07-10",
+      "message": "Clean duplicate articles structure",
+      "path": "/articles/articles.html"
+    },
+    {
+      "commit": "849ade0e927b7216b57c73100fc02644e2084a84",
+      "date": "2026-07-10",
+      "message": "Clean duplicate articles structure",
+      "path": "/articles/articles/index.html"
+    }
+  ],
+  "changeEvidence": [
+    {
+      "commit": "1d96ce311ede9fbc59ce79f442b4464a62491ef1",
+      "date": "2026-07-27",
+      "message": "Rewrite small business delivery support guide for current status and constitution",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/small-business-delivery-support.html"
+        }
+      ]
+    },
+    {
+      "commit": "7b833253925e3bb364664c565a7e9764e287af60",
+      "date": "2026-07-27",
+      "message": "Rewrite small business closure support article for 2026",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/small-business-closure-support.html"
+        }
+      ]
+    },
+    {
+      "commit": "fb8a9c1ad9692c74494913824f9748e94fb440cf",
+      "date": "2026-07-27",
+      "message": "Rewrite small business electricity support guide for current eligibility and AdSense quality",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/small-business-electricity-support.html"
+        }
+      ]
+    },
+    {
+      "commit": "b2f7911289d4a1c7ba248642f20aa835c1551953",
+      "date": "2026-07-27",
+      "message": "Remove duplicate small business policy fund article",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/small-business-policy-fund-search.html"
+        }
+      ]
+    },
+    {
+      "commit": "75c5c985a047c843a516fd80b631c4a132f8784b",
+      "date": "2026-07-27",
+      "message": "Rewrite and consolidate small business policy fund guide",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/small-business-policy-fund.html"
+        }
+      ]
+    },
+    {
+      "commit": "76fa15d52adb296786a5e82655afa9cceeeb6827",
+      "date": "2026-07-27",
+      "message": "Rewrite VAT input tax guide to Savingio constitution",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/vat-input-tax-deduction-2026.html"
+        }
+      ]
+    },
+    {
+      "commit": "d18b45d35301eedd3fdfb02de3c1b188387f2d34",
+      "date": "2026-07-27",
+      "message": "Remove duplicate VAT input tax article [skip ci]",
+      "files": [
+        {
+          "status": "M",
+          "path": "_redirects"
+        },
+        {
+          "status": "M",
+          "path": "articles/self-employed-income-tax-refund-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/simplified-vat-checklist.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/tax-invoice-vs-cash-receipt.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-final-return-2026-july.html"
+        },
+        {
+          "status": "D",
+          "path": "articles/vat-input-tax-deduction-items.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-payment-extension-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-sales-omission-check-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-zero-sales-filing-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vehicle-inspection-reservation-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "data/savingio-search-index.json"
+        },
+        {
+          "status": "M",
+          "path": "sitemap.xml"
+        }
+      ]
+    },
+    {
+      "commit": "b96cd1f521d2ff343569253d43b58269710fce48",
+      "date": "2026-07-27",
+      "message": "Remove unindexed redirect-only article stubs",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/beginner-ai-side-hustles.html"
+        },
+        {
+          "status": "D",
+          "path": "articles/credit-score-tips.html"
+        },
+        {
+          "status": "D",
+          "path": "articles/energy-voucher-balance-use-2026.html"
+        },
+        {
+          "status": "D",
+          "path": "articles/government-benefit-alert-guide-2026.html"
+        },
+        {
+          "status": "D",
+          "path": "articles/government-support-scam-warning-2026.html"
+        },
+        {
+          "status": "D",
+          "path": "articles/health-insurance-refund.html"
+        },
+        {
+          "status": "D",
+          "path": "articles/local-tax-refund.html"
+        },
+        {
+          "status": "D",
+          "path": "articles/online-income-ideas-for-beginners.html"
+        },
+        {
+          "status": "D",
+          "path": "articles/summer-electricity-usage-check-2026.html"
+        },
+        {
+          "status": "D",
+          "path": "articles/vat-final-return-deadline-2026.html"
+        },
+        {
+          "status": "D",
+          "path": "articles/vat-input-tax-deduction-guide-2026.html"
+        }
+      ]
+    },
+    {
+      "commit": "13f14c067c44e9c7eab514a115c6f8f75a82876c",
+      "date": "2026-07-27",
+      "message": "Remove duplicate property tax July checklist redirect page",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/property-tax-july-checklist-2026.html"
+        }
+      ]
+    },
+    {
+      "commit": "7426bbd9d916a915c065b7c91b1a12cda139216b",
+      "date": "2026-07-27",
+      "message": "Remove retired property tax electronic notice stub",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/property-tax-electronic-notice-2026.html"
+        }
+      ]
+    },
+    {
+      "commit": "934d2f303871a7bb01d7642483eea130d0a15a1c",
+      "date": "2026-07-27",
+      "message": "Remove duplicate traffic penalty lookup article",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/traffic-penalty-check-payment-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "8a2b26a79ee86ca9903cace6d5fc963f510f676b",
+      "date": "2026-07-27",
+      "message": "Remove duplicate traffic fine lookup article",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/traffic-fine-check-payment-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "af569aac211382b6ccbe52d3735f54e16547063c",
+      "date": "2026-07-27",
+      "message": "Part019 remove duplicate local tax refund article",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/local-tax-refund-claim.html"
+        }
+      ]
+    },
+    {
+      "commit": "786fa8d5ef408adfc2b58c7e57128a08739c5f5c",
+      "date": "2026-07-27",
+      "message": "Part018 remove VAT and water duplicate URLs from sitemap",
+      "files": [
+        {
+          "status": "M",
+          "path": "sitemap.xml"
+        }
+      ]
+    },
+    {
+      "commit": "ededda6bdecfbe8e74adab34d38697ef63c74d10",
+      "date": "2026-07-27",
+      "message": "Part017 remove salary duplicate URLs from sitemap",
+      "files": [
+        {
+          "status": "M",
+          "path": "sitemap.xml"
+        }
+      ]
+    },
+    {
+      "commit": "dab04319ff16ccf794ae3295782ce37a3a701ca8",
+      "date": "2026-07-27",
+      "message": "Part016 remove electricity duplicate URLs from sitemap",
+      "files": [
+        {
+          "status": "M",
+          "path": "sitemap.xml"
+        }
+      ]
+    },
+    {
+      "commit": "335dbe0799a1c2e5f53664f029520b37f17e2660",
+      "date": "2026-07-27",
+      "message": "Part016 remove electricity redirect stub duplicate",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/reduce-electricity-bill.html"
+        }
+      ]
+    },
+    {
+      "commit": "75ee1a4723061e21e0bdcc13e3002189f91068b4",
+      "date": "2026-07-27",
+      "message": "Part015 remove grocery duplicate URL from sitemap",
+      "files": [
+        {
+          "status": "M",
+          "path": "sitemap.xml"
+        }
+      ]
+    },
+    {
+      "commit": "707bc84728189569838c63ae119e0624e6b371ec",
+      "date": "2026-07-27",
+      "message": "Part015 remove duplicate grocery bill article",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/grocery-bill-savings.html"
+        }
+      ]
+    },
+    {
+      "commit": "0a18177d870ab54f67811a478e87a8f7c5d4a0dd",
+      "date": "2026-07-27",
+      "message": "Part015 remove internet duplicate URL from sitemap",
+      "files": [
+        {
+          "status": "M",
+          "path": "sitemap.xml"
+        }
+      ]
+    },
+    {
+      "commit": "bb353ef31973a7b5f437d46609f98d42ea8401fc",
+      "date": "2026-07-27",
+      "message": "Part014 remove telecom duplicate URLs from sitemap",
+      "files": [
+        {
+          "status": "M",
+          "path": "sitemap.xml"
+        }
+      ]
+    },
+    {
+      "commit": "ec43970d1a729a4770f274b20e31a5cc272956ee",
+      "date": "2026-07-27",
+      "message": "Part013 remove subscription duplicate URLs from sitemap",
+      "files": [
+        {
+          "status": "M",
+          "path": "sitemap.xml"
+        }
+      ]
+    },
+    {
+      "commit": "797abeabc7134b612c63bd0282b9eb4cd04a3d04",
+      "date": "2026-07-27",
+      "message": "Part012 remove retired duplicate URLs from sitemap",
+      "files": [
+        {
+          "status": "M",
+          "path": "sitemap.xml"
+        }
+      ]
+    },
+    {
+      "commit": "7a5a2e317eaa3e504568079bfb0a091b1da3b139",
+      "date": "2026-07-27",
+      "message": "Part012 remove duplicate bank fee article",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/bank-fees-to-avoid.html"
+        }
+      ]
+    },
+    {
+      "commit": "12d47cce50745ad0e88d90bc441efc30cf704c79",
+      "date": "2026-07-27",
+      "message": "Part011 remove duplicate summer electricity article",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/summer-electricity-tier-check.html"
+        }
+      ]
+    },
+    {
+      "commit": "469ac94daaac3e0a41166a97abd48f350ae37ee2",
+      "date": "2026-07-27",
+      "message": "Refactor DUP-001 remove retired energy voucher URLs from sitemap",
+      "files": [
+        {
+          "status": "M",
+          "path": "sitemap.xml"
+        }
+      ]
+    },
+    {
+      "commit": "b6f32de5585eba293f308119613ec4833bc84747",
+      "date": "2026-07-27",
+      "message": "Remove duplicate energy voucher online application article",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/energy-voucher-online-application.html"
+        }
+      ]
+    },
+    {
+      "commit": "c811ddf4b09d9683330dfc5b097fe9efe1ac57f8",
+      "date": "2026-07-27",
+      "message": "Remove duplicate energy voucher balance article",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/energy-voucher-balance-check-2026.html"
+        }
+      ]
+    },
+    {
+      "commit": "50c64ef838bcaf0ad242e7894e41c02e46b9c857",
+      "date": "2026-07-27",
+      "message": "Remove duplicate energy voucher documents article",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/energy-voucher-documents.html"
+        }
+      ]
+    },
+    {
+      "commit": "6e365b0fab587b3bfd38d2b004f1c41b2b91f0a5",
+      "date": "2026-07-27",
+      "message": "Remove duplicate energy voucher eligibility article",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/energy-voucher-eligibility-2026.html"
+        }
+      ]
+    },
+    {
+      "commit": "d90f7bad0e0bc1b5357200926c5dd9c6ef7c3a3c",
+      "date": "2026-07-27",
+      "message": "Remove duplicate thin energy voucher balance article",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/energy-voucher-balance-use.html"
+        }
+      ]
+    },
+    {
+      "commit": "a7b0ef5755314c23dc35ac532fe5efbb524f65ad",
+      "date": "2026-07-23",
+      "message": "Rewrite property tax payment certificate guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/property-tax-payment-certificate.html"
+        }
+      ]
+    },
+    {
+      "commit": "ecb52141674b1b016e4a631862fd8a40cb7bbff7",
+      "date": "2026-07-22",
+      "message": "Rewrite property tax objection guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/property-tax-objection-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "5cf3ec0f04a4422e6af294c1637c43a50a8d78ea",
+      "date": "2026-07-22",
+      "message": "Rewrite property tax July September difference article",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/property-tax-july-september-difference.html"
+        }
+      ]
+    },
+    {
+      "commit": "1bda4e6b348895e3e58f21cfcce0bf439c6c76b1",
+      "date": "2026-07-22",
+      "message": "Rewrite 2026 July property tax guide",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/property-tax-july-2026.html"
+        }
+      ]
+    },
+    {
+      "commit": "a051679cf0262aa30efd5e872a908b5604ebea56",
+      "date": "2026-07-22",
+      "message": "Rewrite property tax joint ownership article",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/property-tax-joint-ownership.html"
+        }
+      ]
+    },
+    {
+      "commit": "7c2371992c1e1e2589b2de55bb8df378fb0df032",
+      "date": "2026-07-22",
+      "message": "Rewrite property tax installment application article",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/property-tax-installment-application.html"
+        }
+      ]
+    },
+    {
+      "commit": "2eaab5be9a9aed34b6303231639e162c461bf236",
+      "date": "2026-07-22",
+      "message": "Rewrite property tax electronic bill guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/property-tax-electronic-bill-2026.html"
+        }
+      ]
+    },
+    {
+      "commit": "7ddb78e03b2bae0ae46bb62a0602b87aade14f24",
+      "date": "2026-07-22",
+      "message": "Rewrite property tax electronic bill guide with locked article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/property-tax-electronic-bill-2026.html"
+        }
+      ]
+    },
+    {
+      "commit": "4a6c157a4dcb2067983a12ff67b5f0232020fabf",
+      "date": "2026-07-22",
+      "message": "Rewrite property tax deadline using locked article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/property-tax-deadline.html"
+        }
+      ]
+    },
+    {
+      "commit": "890daf348a4172ea3932be2276d0523781a8edcd",
+      "date": "2026-07-22",
+      "message": "Rewrite property tax deadline article with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/property-tax-deadline.html"
+        }
+      ]
+    },
+    {
+      "commit": "1142e8323529c00fdf6371a7b1a3266f0e8c3442",
+      "date": "2026-07-22",
+      "message": "Rewrite property tax calculation structure article",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/property-tax-calculation-structure.html"
+        }
+      ]
+    },
+    {
+      "commit": "30b146af8dc03ccfde91e0121469b31a1def274a",
+      "date": "2026-07-22",
+      "message": "Rewrite 2026 property tax bill checklist with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/property-tax-bill-checklist-2026.html"
+        }
+      ]
+    },
+    {
+      "commit": "cbd28275321d6155a6846c92f7866f47f1910b12",
+      "date": "2026-07-22",
+      "message": "Rewrite peak season hotel saving article with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/peak-season-hotel-saving.html"
+        }
+      ]
+    },
+    {
+      "commit": "8d874d5fb6276b395b647a875fd524301caf95ba",
+      "date": "2026-07-22",
+      "message": "Rewrite parking account comparison with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/parking-account-rate-comparison.html"
+        }
+      ]
+    },
+    {
+      "commit": "9a238b945edf635b7dcf384ac55acb63eb91948f",
+      "date": "2026-07-22",
+      "message": "Rewrite parental benefit page with master DNA layout",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/parental-benefit-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "f0691ef0988ad022dea00a2e8f34ab857b8ae63a",
+      "date": "2026-07-22",
+      "message": "Rewrite parental benefit guide to Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/parental-benefit-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "e8117442321d12629a297f31f344b21f160e8f06",
+      "date": "2026-07-22",
+      "message": "Rewrite parental benefit guide with Savingio master DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/parental-benefit-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "eb519d2745b53100409463c3b56d40175dce4781",
+      "date": "2026-07-22",
+      "message": "Rewrite overdraft account guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/overdraft-account-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "b02c0927b8155e6102a1c735d6642215d74ce60c",
+      "date": "2026-07-22",
+      "message": "Rewrite near-poverty certificate guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/near-poverty-certificate.html"
+        }
+      ]
+    },
+    {
+      "commit": "7f43cb1e4095e6d410867909842c189025589781",
+      "date": "2026-07-22",
+      "message": "Rewrite national tax refund account guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/national-tax-refund-account.html"
+        }
+      ]
+    },
+    {
+      "commit": "246a8f336f8beca523097395d5ae23efb5b56833",
+      "date": "2026-07-22",
+      "message": "Rewrite national employment support eligibility article with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/national-employment-support-eligibility.html"
+        }
+      ]
+    },
+    {
+      "commit": "f274d4ac7c3916515d9609ccf62b149bef663aa4",
+      "date": "2026-07-22",
+      "message": "Rewrite monthly rent tax credit documents with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/monthly-rent-tax-credit-documents.html"
+        }
+      ]
+    },
+    {
+      "commit": "b935925a0f2ccbe761721f3b39331e314370098c",
+      "date": "2026-07-22",
+      "message": "Rewrite local tax refund claim with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/local-tax-refund-claim.html"
+        }
+      ]
+    },
+    {
+      "commit": "da943fddcf7206352ea63cdb29679e5bbe832059",
+      "date": "2026-07-22",
+      "message": "Rewrite IRS refund status article with Savingio master DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/irs-tax-refund-status.html"
+        }
+      ]
+    },
+    {
+      "commit": "347eee9468e1998d17506619054670858b0ba0a1",
+      "date": "2026-07-22",
+      "message": "Rewrite IRS tax refund status article",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/irs-tax-refund-status.html"
+        }
+      ]
+    },
+    {
+      "commit": "2cacaa7135a7a5a2fb8dc84ae7965bc6b4f7dd3c",
+      "date": "2026-07-22",
+      "message": "Rewrite heating bill saving guide with Savingio article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/heating-bill-saving.html"
+        }
+      ]
+    },
+    {
+      "commit": "50865dcae4558179fe91e964d336c27cfb1192a2",
+      "date": "2026-07-22",
+      "message": "Rewrite grocery saving tips with Savingio article constitution",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/grocery-saving-tips.html"
+        }
+      ]
+    },
+    {
+      "commit": "e282b2d5a51716bc9d470693fd4adea6d495995a",
+      "date": "2026-07-22",
+      "message": "Rewrite government benefit warning with master article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/government-benefits-warning.html"
+        }
+      ]
+    },
+    {
+      "commit": "c1c7ef5829203fdb7f334a6de6e5b0141da22fb9",
+      "date": "2026-07-22",
+      "message": "Rewrite government benefits scam warning with Savingio article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/government-benefits-warning.html"
+        }
+      ]
+    },
+    {
+      "commit": "9fb3c68b8ba68968d7c4d40d79bb245a18b215d6",
+      "date": "2026-07-22",
+      "message": "Rewrite government benefit alert guide with Savingio article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/government-benefit-alert-2026.html"
+        }
+      ]
+    },
+    {
+      "commit": "cc14f13ac41fc18d1d40285374e42fa3d342889e",
+      "date": "2026-07-22",
+      "message": "Redirect removed duplicate article URLs",
+      "files": [
+        {
+          "status": "M",
+          "path": "_redirects"
+        }
+      ]
+    },
+    {
+      "commit": "f04d47874e5eb82195ba0f0bc4631e1fd9804502",
+      "date": "2026-07-22",
+      "message": "Remove duplicate phone bill article",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/how-to-lower-phone-bill.html"
+        }
+      ]
+    },
+    {
+      "commit": "e4b2606d720b73aea956a69ea281648dcc56b9ab",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article vat-zero-sales-filing",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/vat-zero-sales-filing.html"
+        }
+      ]
+    },
+    {
+      "commit": "ab4dc2bc9c8e534af0d1e5c738f9ff0901797f43",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article vat-final-return-july-2026",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/vat-final-return-july-2026.html"
+        }
+      ]
+    },
+    {
+      "commit": "11ccb93ca5a85c447ad72a0906b23d05cd199d39",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article how-to-save-electricity-bill",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/how-to-save-electricity-bill.html"
+        }
+      ]
+    },
+    {
+      "commit": "6e0c322a1602bdecb99e7c78decb6aed7b70f697",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article water-bill-guide",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/water-bill-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "2654e9882dc40f86eb146a2d7ce6e4fd44a0c108",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article internet-bill-savings",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/internet-bill-savings.html"
+        }
+      ]
+    },
+    {
+      "commit": "b0b8b10336122925dcc4c93d7b9acef8857e2ab5",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article phone-bill-saving",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/phone-bill-saving.html"
+        }
+      ]
+    },
+    {
+      "commit": "c44ab1cdd34d08d3c13cc0eab3dfaeeda28f6238",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article salary-budget-guide",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/salary-budget-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "775481c9a5969a94b69d405e92d1283fac7a8b01",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article salary-management-guide",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/salary-management-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "b91e57d78bfb6b2b933eced802edec353259e785",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article subscription-cleanup",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/subscription-cleanup.html"
+        }
+      ]
+    },
+    {
+      "commit": "cc7916afec9bc8eab23701a8b5d4bf30657c4e32",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article subscription-saving",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/subscription-saving.html"
+        }
+      ]
+    },
+    {
+      "commit": "c9ed43c85630b3d20771398441b3d962aac2c23e",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article how-to-check-hidden-refunds",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/how-to-check-hidden-refunds.html"
+        }
+      ]
+    },
+    {
+      "commit": "5b1ff84f0c02c9413999e866f68ca9388f72dcd7",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article hidden-refund-check",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/hidden-refund-check.html"
+        }
+      ]
+    },
+    {
+      "commit": "4fdbd7d7a2fe5fe7e4161a6d8b7fae2b79809bbb",
+      "date": "2026-07-22",
+      "message": "Remove duplicate article hidden-money-search",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/hidden-money-search.html"
+        }
+      ]
+    },
+    {
+      "commit": "f535d17ea3bc68655fb248f9afc8ca7e3ba63f44",
+      "date": "2026-07-22",
+      "message": "Remove duplicate 2026 energy voucher article",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/energy-voucher-application-2026.html"
+        }
+      ]
+    },
+    {
+      "commit": "45909fa1953e4a2eefc85ccfff407c1222a3c984",
+      "date": "2026-07-22",
+      "message": "Remove duplicate energy voucher article",
+      "files": [
+        {
+          "status": "D",
+          "path": "articles/energy-voucher-application.html"
+        }
+      ]
+    },
+    {
+      "commit": "7bbfd59902f1052690de20220d62edbd39bb834e",
+      "date": "2026-07-22",
+      "message": "Rewrite 2026 energy voucher guide to Savingio constitution",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-2026-application.html"
+        }
+      ]
+    },
+    {
+      "commit": "1652d8a9bada6a01e79f014cc4226f7497c6c2ae",
+      "date": "2026-07-22",
+      "message": "Rewrite earned income tax credit guide to Savingio constitution",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/earned-income-tax-credit-korea.html"
+        }
+      ]
+    },
+    {
+      "commit": "9bd1116532e9ae8b6ad91376c8730477ab7fac5c",
+      "date": "2026-07-22",
+      "message": "Rewrite daily liability leak insurance article to Savingio constitution",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/daily-liability-leak-insurance.html"
+        }
+      ]
+    },
+    {
+      "commit": "5d84e6ed149d737241bd45f672735962b1a7b8dc",
+      "date": "2026-07-22",
+      "message": "Rewrite culture nuri card guide to full Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/culture-nuri-card-balance.html"
+        }
+      ]
+    },
+    {
+      "commit": "daae396d2e395eb985b0aea47b7fdb3db5d10f57",
+      "date": "2026-07-22",
+      "message": "Rewrite culture nuri card balance guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/culture-nuri-card-balance.html"
+        }
+      ]
+    },
+    {
+      "commit": "a354865520252c3594b3fd210e88e227cb0cb274",
+      "date": "2026-07-22",
+      "message": "Rewrite credit score habits with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/credit-score-habits.html"
+        }
+      ]
+    },
+    {
+      "commit": "248ea65398f491dd055dfefc255149ddada2da46",
+      "date": "2026-07-22",
+      "message": "Rewrite card point cash-out guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/cash-out-card-points.html"
+        }
+      ]
+    },
+    {
+      "commit": "d898ffa030834f65dccf74f8b14eae687fbcb634",
+      "date": "2026-07-22",
+      "message": "Rewrite apartment leak emergency response article to Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/apartment-leak-emergency-response.html"
+        }
+      ]
+    },
+    {
+      "commit": "1d0c9f475db64c5cd371a64dc51f65358509676c",
+      "date": "2026-07-22",
+      "message": "Rewrite national tax refund article to Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/national-tax-refund.html"
+        }
+      ]
+    },
+    {
+      "commit": "581964b46beae72652ca60bfb17cc2a28555e4b9",
+      "date": "2026-07-22",
+      "message": "Rewrite national scholarship application article to Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/national-scholarship-application.html"
+        }
+      ]
+    },
+    {
+      "commit": "5141599faa04e0f1b13e84fad8ee12065c8f8715",
+      "date": "2026-07-22",
+      "message": "Rewrite money saving habits article to Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/money-saving-habits.html"
+        }
+      ]
+    },
+    {
+      "commit": "efc93d57b758086ae9a087f2e9f88f349d9570cc",
+      "date": "2026-07-22",
+      "message": "Rewrite missing property tax bill article to Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/missing-property-tax-bill.html"
+        }
+      ]
+    },
+    {
+      "commit": "afd1ea74e13cc752061d992062718abc65a497a7",
+      "date": "2026-07-22",
+      "message": "Rewrite medical bill negotiation article to Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/medical-bill-negotiation.html"
+        }
+      ]
+    },
+    {
+      "commit": "f3481da2ba7089553c24b469a7f2c7092be13c38",
+      "date": "2026-07-22",
+      "message": "Rewrite medical bill verification guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/medical-bill-negotiation.html"
+        }
+      ]
+    },
+    {
+      "commit": "c67cc24f2f8a887af6c65ba7a95dc625760f6fcf",
+      "date": "2026-07-22",
+      "message": "Rewrite low-income cooling support guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/low-income-cooling-support.html"
+        }
+      ]
+    },
+    {
+      "commit": "ad4468f8f6e7e21c22c9e99fd484f4f7da36cefd",
+      "date": "2026-07-22",
+      "message": "Rewrite long-term care insurance application guide",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/long-term-care-insurance-application.html"
+        }
+      ]
+    },
+    {
+      "commit": "2e18a70f959aef18a2410cd13551cb97edd60f82",
+      "date": "2026-07-22",
+      "message": "Rewrite local tax refund guide with Savingio article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/local-tax-refund-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "2988144b787a5cf593092c34e4f8e173f979acca",
+      "date": "2026-07-22",
+      "message": "Rewrite loan refinancing guide with Savingio article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/loan-refinancing-check.html"
+        }
+      ]
+    },
+    {
+      "commit": "5e54e899659fbae9c75ca2d956ad968980ffaa15",
+      "date": "2026-07-22",
+      "message": "Rewrite loan prepayment fee guide with Savingio article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/loan-prepayment-fee-check.html"
+        }
+      ]
+    },
+    {
+      "commit": "dd560c64b1e5b31d0a0af762ff3e3f5d7bd39425",
+      "date": "2026-07-22",
+      "message": "Rewrite lifelong education voucher guide to Savingio constitution",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/lifelong-education-voucher-application.html"
+        }
+      ]
+    },
+    {
+      "commit": "0a037024992b71995017441ee908093719c49d60",
+      "date": "2026-07-22",
+      "message": "Rewrite inverter air conditioner saving guide with Savingio article constitution",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/inverter-aircon-saving-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "5c01e6abbfa90d35b5af73c442f0ad65678f886c",
+      "date": "2026-07-22",
+      "message": "Rewrite internet bill discount guide with Savingio constitution",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/internet-bill-discount.html"
+        }
+      ]
+    },
+    {
+      "commit": "e35a80c353bfdef31eddbb5d981d4025b4c32aef",
+      "date": "2026-07-22",
+      "message": "Rewrite missed income tax filing guide to Savingio constitution",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/income-tax-filing-missed-consequences.html"
+        }
+      ]
+    },
+    {
+      "commit": "f694d7a86fa9e7fca5b9fb77daa0fddbe97510ad",
+      "date": "2026-07-22",
+      "message": "Rewrite housing benefit article to full Savingio constitution",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/housing-benefit-eligibility.html"
+        }
+      ]
+    },
+    {
+      "commit": "a2a132127f428a9aa0cbf2188bb94eb1c5aacf35",
+      "date": "2026-07-22",
+      "message": "Rewrite impulse buying article to Savingio constitution",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/impulse-buying-control.html"
+        }
+      ]
+    },
+    {
+      "commit": "36956893308ed6dd6f369bdea1dcf2164dd6f3f2",
+      "date": "2026-07-22",
+      "message": "Rewrite impulse buying control with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/impulse-buying-control.html"
+        }
+      ]
+    },
+    {
+      "commit": "1c17f0529ed9c031f96a60242265a20e0032e767",
+      "date": "2026-07-22",
+      "message": "Rewrite housing benefit eligibility with 2026 Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/housing-benefit-eligibility.html"
+        }
+      ]
+    },
+    {
+      "commit": "2172533c6405b39fd7e7f739692def9cfcc2073b",
+      "date": "2026-07-22",
+      "message": "Rewrite Hometax VAT sales check with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/hometax-vat-sales-check.html"
+        }
+      ]
+    },
+    {
+      "commit": "8550509f823cf284bd8f3ee653d5f0fc51cfadaf",
+      "date": "2026-07-22",
+      "message": "Rewrite Hometax refund status guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/hometax-refund-status.html"
+        }
+      ]
+    },
+    {
+      "commit": "11ed74362cd2bd3833f6c359d96e9ff63ed6e1f6",
+      "date": "2026-07-22",
+      "message": "Rewrite home water leak self-check with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/home-water-leak-self-check.html"
+        }
+      ]
+    },
+    {
+      "commit": "abff0dd9c12b9dcda0794b7cf21a7ca173c8363f",
+      "date": "2026-07-22",
+      "message": "Rewrite grocery bill savings article with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/grocery-bill-savings.html"
+        }
+      ]
+    },
+    {
+      "commit": "6c18d832f309fffdc12cade31e3e955591089f56",
+      "date": "2026-07-22",
+      "message": "Rewrite gas bill checklist with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/gas-bill-checklist.html"
+        }
+      ]
+    },
+    {
+      "commit": "0ea68295a141bd46ba7a235e88e680bd6b58aecc",
+      "date": "2026-07-22",
+      "message": "Rewrite fixed date online application guide",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/fixed-date-online-application.html"
+        }
+      ]
+    },
+    {
+      "commit": "a4f4efa953b919556d4658efcf4270815f1c2f41",
+      "date": "2026-07-22",
+      "message": "Rewrite first meeting voucher guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/first-meeting-voucher-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "a0c903cd355592c80fc3f557e1d550eed938fc0f",
+      "date": "2026-07-22",
+      "message": "Rewrite emergency welfare living support article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/emergency-welfare-living-support.html"
+        }
+      ]
+    },
+    {
+      "commit": "d4bd7338f261e3c6bb795e78a53f35c2e7d6b1db",
+      "date": "2026-07-22",
+      "message": "Expand emergency fund article right rail",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/emergency-fund-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "e851614781d418819ebb48b39f56e3cd87785c23",
+      "date": "2026-07-22",
+      "message": "Rewrite emergency medical support article with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/emergency-medical-support.html"
+        }
+      ]
+    },
+    {
+      "commit": "baa65dbae58d53a4a5fb0bee2638e703de7dd68d",
+      "date": "2026-07-22",
+      "message": "Replace emergency fund guide with Savingio article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/emergency-fund-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "65eaf3be593568cf107a2e37ee35732e491dde0f",
+      "date": "2026-07-22",
+      "message": "Rewrite elementary school education support guide with 2026 Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/elementary-school-education-support.html"
+        }
+      ]
+    },
+    {
+      "commit": "fb482e9832c3099b058c0f1e0041eeca23c8ec9b",
+      "date": "2026-07-22",
+      "message": "Rewrite electricity discount card guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/electricity-discount-card-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "d020d20d0722426c13ce1cc11f063fcc49c213bf",
+      "date": "2026-07-22",
+      "message": "Rewrite dryer summer electricity saving guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/dryer-summer-electricity-saving.html"
+        }
+      ]
+    },
+    {
+      "commit": "f2e2b7bcc80d85f69bb45306214b989c55a5e47e",
+      "date": "2026-07-22",
+      "message": "Rewrite dormant deposit and insurance search guide",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/dormant-deposit-insurance-search.html"
+        }
+      ]
+    },
+    {
+      "commit": "b6a728e44f893fca8220020e19b8d46674e5ee82",
+      "date": "2026-07-22",
+      "message": "Rewrite deposit return guarantee checklist with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/deposit-return-guarantee-checklist.html"
+        }
+      ]
+    },
+    {
+      "commit": "fa69e462e12a0163ac125fb9226efebab809b40e",
+      "date": "2026-07-22",
+      "message": "Rewrite deposit protection guide with Savingio constitution",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/deposit-protection-limit-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "49aac9686d4e4320c6a07278aba9918dce3496bf",
+      "date": "2026-07-21",
+      "message": "Remove unintended left rail blocks from three articles",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/credit-score-management.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/debit-card-vs-credit-card.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/dehumidifier-electricity-saving.html"
+        }
+      ]
+    },
+    {
+      "commit": "50ea3a499284329d60abeabcee14b6a142f3e7d8",
+      "date": "2026-07-21",
+      "message": "Remove unintended SITE EXPLORER labels",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/credit-score-management.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/debit-card-vs-credit-card.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/dehumidifier-electricity-saving.html"
+        }
+      ]
+    },
+    {
+      "commit": "2b6e0363fd63d8c25eff9699d62395fc18930fff",
+      "date": "2026-07-22",
+      "message": "Rewrite dehumidifier electricity saving article with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/dehumidifier-electricity-saving.html"
+        }
+      ]
+    },
+    {
+      "commit": "6a27a69041c5c1071b9cbea02ce6ae7362ab2f9d",
+      "date": "2026-07-22",
+      "message": "Rewrite debit vs credit card article with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/debit-card-vs-credit-card.html"
+        }
+      ]
+    },
+    {
+      "commit": "609ca8a5357815d0cbf8d62360504417e6a11f40",
+      "date": "2026-07-22",
+      "message": "Rewrite credit score management article with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/credit-score-management.html"
+        }
+      ]
+    },
+    {
+      "commit": "3bcdfab03da306aa9d8b9261d10c1085260fbe07",
+      "date": "2026-07-22",
+      "message": "Rewrite credit card billing cycle guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/credit-card-billing-cycle-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "346fdf0d22fba177ce0eaec449ea6d8cacbd2727",
+      "date": "2026-07-22",
+      "message": "Rewrite CMA account types and risk article",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/cma-account-types-risk.html"
+        }
+      ]
+    },
+    {
+      "commit": "a3a17d3b0ce79428cbe2cea6da2b1fd3968a99c1",
+      "date": "2026-07-22",
+      "message": "Rewrite unused subscriptions cancellation guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/cancel-unused-subscriptions.html"
+        }
+      ]
+    },
+    {
+      "commit": "e0d908a1861a5687e147332e4492b47dcf21ac87",
+      "date": "2026-07-22",
+      "message": "Rewrite building and land property tax article with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/building-land-property-tax.html"
+        }
+      ]
+    },
+    {
+      "commit": "ca4de1ea873ee5c2550e90aa09a933afea71b441",
+      "date": "2026-07-22",
+      "message": "Rewrite benefit scam warning article with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/benefit-scam-warning-2026.html"
+        }
+      ]
+    },
+    {
+      "commit": "5f8ebac3aa0c1a5c0311a751a953c73f799f95d4",
+      "date": "2026-07-22",
+      "message": "Rewrite benefit scam warning with Savingio article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/benefit-scam-warning-2026.html"
+        }
+      ]
+    },
+    {
+      "commit": "6b53c3dd79bce4fbc7bee5d6780d3f18a38234cc",
+      "date": "2026-07-22",
+      "message": "Rewrite fixed-speed aircon saving guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/fixed-speed-aircon-saving.html"
+        }
+      ]
+    },
+    {
+      "commit": "433ba97a3ed387b059438d1b911606d5287d663b",
+      "date": "2026-07-22",
+      "message": "Rewrite car tax annual payment guide with 2026 DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/car-tax-annual-payment.html"
+        }
+      ]
+    },
+    {
+      "commit": "0c0b6c72014a6633aad8e741f88cd1e55905010e",
+      "date": "2026-07-21",
+      "message": "Rewrite car insurance overpayment refund article with duplicate intent check",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/car-insurance-overpayment-refund.html"
+        }
+      ]
+    },
+    {
+      "commit": "bb743084ffd132a6defffa67c7b678b4831bff89",
+      "date": "2026-07-21",
+      "message": "Rewrite fan and air conditioner combination guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/fan-aircon-combination-saving.html"
+        }
+      ]
+    },
+    {
+      "commit": "80cf547acd71b5f3b3f3c578b5b3d48691c9505d",
+      "date": "2026-07-21",
+      "message": "Rewrite 2026 energy voucher application guide",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-2026-application.html"
+        }
+      ]
+    },
+    {
+      "commit": "525c1a2c2c43e115334ce7a57919b535f3e04bf2",
+      "date": "2026-07-21",
+      "message": "Rewrite 2026 energy voucher eligibility guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-eligibility-2026.html"
+        }
+      ]
+    },
+    {
+      "commit": "c7ae1fc745c30c9c1744623659ce55874e8f4e60",
+      "date": "2026-07-21",
+      "message": "Rewrite energy voucher online application guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-online-application.html"
+        }
+      ]
+    },
+    {
+      "commit": "113989f154190e33509cbcceff9399fb35285473",
+      "date": "2026-07-21",
+      "message": "Rewrite energy voucher documents guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-documents.html"
+        }
+      ]
+    },
+    {
+      "commit": "7f77653f17b2178d7866f250c8d9d3839e4abb35",
+      "date": "2026-07-21",
+      "message": "Rewrite energy voucher balance guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-balance-check-2026.html"
+        }
+      ]
+    },
+    {
+      "commit": "6fbc0ff69fe16c5b5a47e5e4e3deed65651b11d2",
+      "date": "2026-07-21",
+      "message": "Rewrite building and land property tax guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/building-land-property-tax.html"
+        }
+      ]
+    },
+    {
+      "commit": "44220a87f9a9ac26f6771589a2a7f23af6d51333",
+      "date": "2026-07-21",
+      "message": "Rewrite electricity bill saving article with unified Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/electricity-bill-saving.html"
+        }
+      ]
+    },
+    {
+      "commit": "89c3b9596320e06d748d6752ebe38cbadbb402d0",
+      "date": "2026-07-21",
+      "message": "Rewrite summer electricity tier guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/summer-electricity-tier-check-2026.html"
+        }
+      ]
+    },
+    {
+      "commit": "5dbdd52a0bec68aa2acdb0322ef6b81b0f80f7a4",
+      "date": "2026-07-21",
+      "message": "Rewrite electricity bill calculator guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/electricity-bill-easy-calculator-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "2b2216d0aaaf1477ee4e815f11f2a48a7da2f024",
+      "date": "2026-07-20",
+      "message": "Rewrite business vehicle expense guide with complete Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/business-vehicle-expense-basics.html"
+        }
+      ]
+    },
+    {
+      "commit": "cb396a1d8c4c9a5ae9394613b0c1c53df3eb438b",
+      "date": "2026-07-20",
+      "message": "Rewrite business phone expense deduction article with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/business-phone-expense-deduction.html"
+        }
+      ]
+    },
+    {
+      "commit": "02bbd262e7dc660e5c2e47b503a95cd3af398d28",
+      "date": "2026-07-20",
+      "message": "Rewrite business closure VAT guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/business-closure-vat-order.html"
+        }
+      ]
+    },
+    {
+      "commit": "00dcd733c92e3d8b64098bba009149e2a9002da7",
+      "date": "2026-07-20",
+      "message": "Rewrite business card Hometax guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/business-card-hometax-registration.html"
+        }
+      ]
+    },
+    {
+      "commit": "8d8423f13fd35195e7853fda42ccd393fe384e75",
+      "date": "2026-07-20",
+      "message": "Rewrite monthly budget planner with full Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/monthly-budget-planner.html"
+        }
+      ]
+    },
+    {
+      "commit": "ef5e26ab87773ef7909fefa3ca2ecbf36948ee93",
+      "date": "2026-07-20",
+      "message": "Rewrite budget app guide with Savingio article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/budget-app-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "89418e595293805b5e1e84829d37b32b97794e58",
+      "date": "2026-07-20",
+      "message": "Rewrite beginner money management with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/beginner-money-management.html"
+        }
+      ]
+    },
+    {
+      "commit": "2ca10c0afb5bdaf5bde360d408f25bc04ecccf6f",
+      "date": "2026-07-20",
+      "message": "Rewrite beginner budget plan with Savingio article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/beginner-budget-plan.html"
+        }
+      ]
+    },
+    {
+      "commit": "448f5a8a0df077e4726c7147665c04a92288b21b",
+      "date": "2026-07-20",
+      "message": "Rewrite bank fees to avoid article with fixed Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/bank-fees-to-avoid.html"
+        }
+      ]
+    },
+    {
+      "commit": "83bab665568da6254033722e5a94b0cb5427fb28",
+      "date": "2026-07-20",
+      "message": "Rewrite bank fee saving article with fixed Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/bank-fee-saving.html"
+        }
+      ]
+    },
+    {
+      "commit": "707a489b532c2d3200a39581768b841b2857a109",
+      "date": "2026-07-20",
+      "message": "Rewrite bank account budgeting article with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/bank-account-budgeting.html"
+        }
+      ]
+    },
+    {
+      "commit": "3c64b064fc89bce7aea862ae624dd552f6df97eb",
+      "date": "2026-07-20",
+      "message": "Rewrite automatic payment article with fixed Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/automatic-payment-saving.html"
+        }
+      ]
+    },
+    {
+      "commit": "73a0e4ed13baa51d6880eccfa77dc8646443db33",
+      "date": "2026-07-20",
+      "message": "Rewrite apartment management fee article with fixed Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/apartment-management-fee-summer.html"
+        }
+      ]
+    },
+    {
+      "commit": "fe8aae4dfdbc3e7428314e99e3c52e3933399bee",
+      "date": "2026-07-20",
+      "message": "Rewrite health insurance overpayment refund article with locked DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/health-insurance-overpayment-refund.html"
+        }
+      ]
+    },
+    {
+      "commit": "bdaa19092afff99a2b5ad122489fa28c682c10b8",
+      "date": "2026-07-20",
+      "message": "Rewrite insurance surrender value article with locked DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/insurance-surrender-value-check.html"
+        }
+      ]
+    },
+    {
+      "commit": "d11b11d7cf1ebd3c60c8cb1163a2a937364e0660",
+      "date": "2026-07-20",
+      "message": "Rewrite article 9 with locked Right Rail DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/insurance-auto-pay-discount.html"
+        }
+      ]
+    },
+    {
+      "commit": "c62be61c9f1ed82c8bd382a3d54c06b28214cfb7",
+      "date": "2026-07-20",
+      "message": "Rewrite C005 aircon optimal temperature article with locked Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/aircon-optimal-temperature-savings.html"
+        }
+      ]
+    },
+    {
+      "commit": "bfb1c31d1cf7b5e315ae955107d9f4ecd8e387d9",
+      "date": "2026-07-20",
+      "message": "Rewrite C004 aircon filter cleaning article with locked Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/aircon-filter-cleaning-savings.html"
+        }
+      ]
+    },
+    {
+      "commit": "a7408970bcd3b194e1e25fc8071b31c003e8409f",
+      "date": "2026-07-20",
+      "message": "Rewrite C003 aircon dry mode article with locked Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/aircon-dry-mode-electricity.html"
+        }
+      ]
+    },
+    {
+      "commit": "f5d82b1d546f580700415dc4c7f21da1ee95dd3e",
+      "date": "2026-07-20",
+      "message": "Rewrite C002 air conditioner electricity guide with locked article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/air-conditioner-electricity-saving.html"
+        }
+      ]
+    },
+    {
+      "commit": "6d032a9b43b23642f2fca06696474429dd0f95e0",
+      "date": "2026-07-20",
+      "message": "Rewrite C001 AI side hustle article with locked Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/ai-side-hustles-beginner.html"
+        }
+      ]
+    },
+    {
+      "commit": "72e586b3ec9d6ca80dc2a88afb5468256282e0ff",
+      "date": "2026-07-20",
+      "message": "Rewrite C001 AI side hustle guide with complete article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/ai-side-hustles-beginner.html"
+        }
+      ]
+    },
+    {
+      "commit": "7250e18b1e9ada9c5fc4f78b88445feb8bfb9186",
+      "date": "2026-07-20",
+      "message": "Rewrite over 60 benefits guide with common right rail DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/over-60-benefits-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "2f458f6361871e7d7d478c88c5f3fe5994c08fab",
+      "date": "2026-07-20",
+      "message": "Rewrite national pension overpayment refund article with A001 DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/national-pension-overpayment-refund.html"
+        }
+      ]
+    },
+    {
+      "commit": "696940ae2f76d6bb0b5d4406fea50607f1d1ac5c",
+      "date": "2026-07-20",
+      "message": "Rewrite national pension additional payment article with A001 DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/national-pension-additional-payment.html"
+        }
+      ]
+    },
+    {
+      "commit": "f0bdd3e0ef08e740b994799c08ffca6c6301611f",
+      "date": "2026-07-20",
+      "message": "Rewrite national pension old-age benefit guide with A001 DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/national-pension-old-age-benefit-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "ec43bd41d725938e434280419b74429b573e0ffa",
+      "date": "2026-07-20",
+      "message": "Rewrite basic pension application guide with unified article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/basic-pension-application-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "504b005d8bbe2d0817f219d185f857882921c2d8",
+      "date": "2026-07-20",
+      "message": "Rewrite basic livelihood discount guide with unified article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/basic-livelihood-discounts.html"
+        }
+      ]
+    },
+    {
+      "commit": "0e7eebc729cf75c2ace82db103f19e1ae06de8e5",
+      "date": "2026-07-20",
+      "message": "Rewrite government support calendar article with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/government-support-calendar.html"
+        }
+      ]
+    },
+    {
+      "commit": "94be9a68da182b155e019b8f7bad7b55d68925da",
+      "date": "2026-07-20",
+      "message": "Rewrite government benefit alert setup article with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/government-benefit-alert-setup.html"
+        }
+      ]
+    },
+    {
+      "commit": "f85a297522ac9db4b18ccf3aba39200ca9dfd51c",
+      "date": "2026-07-20",
+      "message": "Rewrite Government24 benefit check guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/government24-benefit-check.html"
+        }
+      ]
+    },
+    {
+      "commit": "20a1905b1ec7ccc6a31316da0e49e158abcffdf9",
+      "date": "2026-07-20",
+      "message": "Rewrite earned income credit account change guide",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/earned-income-credit-account-change.html"
+        }
+      ]
+    },
+    {
+      "commit": "c4a42af99dd936a04ecfd5bcdf58b96e759f392e",
+      "date": "2026-07-20",
+      "message": "Rewrite earned income credit status guide with Savingio article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/earned-income-credit-status-check.html"
+        }
+      ]
+    },
+    {
+      "commit": "19915947617b8601ffa5735b7c8dbe370a27279a",
+      "date": "2026-07-20",
+      "message": "Rewrite earned income credit payment article with locked DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/earned-income-credit-payment.html"
+        }
+      ]
+    },
+    {
+      "commit": "1de921a9030a0de72d3e4fcb3ea08ec689cbc29b",
+      "date": "2026-07-20",
+      "message": "Rewrite childcare service government support article with locked Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/childcare-service-government-support.html"
+        }
+      ]
+    },
+    {
+      "commit": "892ec6c1df2c2aca2d8d99c018b5ace2bd0e1656",
+      "date": "2026-07-20",
+      "message": "Rewrite child tax credit status guide using locked Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/child-tax-credit-status-check.html"
+        }
+      ]
+    },
+    {
+      "commit": "7ef1057002d152675ede2e2da7ed7c6fbbffaa4e",
+      "date": "2026-07-20",
+      "message": "Rewrite car aircon fuel saving article with full three-column layout",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/car-aircon-fuel-saving.html"
+        }
+      ]
+    },
+    {
+      "commit": "65b9534118ec6b0be26185249421986fbb2f286e",
+      "date": "2026-07-20",
+      "message": "Rewrite child allowance guide with 2026 Savingio article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/child-allowance-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "5dbb82823e26c9b9df719222825e7306173530ac",
+      "date": "2026-07-20",
+      "message": "Rewrite hidden refund guide with Savingio article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/check-hidden-refunds.html"
+        }
+      ]
+    },
+    {
+      "commit": "6d30e853addd2c8fabb76d033ad8325deee94df2",
+      "date": "2026-07-20",
+      "message": "Rewrite cashback apps guide as full 5000-character article",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/cashback-apps-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "cedd65b2068114c364fbbabaaf8f987bd49e8efd",
+      "date": "2026-07-20",
+      "message": "Rewrite card points cashback guide with Savingio problem-solving DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/card-points-cashback-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "05dfc6538cf6e9f1c45dc8999f6a83f5f831d8e6",
+      "date": "2026-07-20",
+      "message": "Rewrite card point cash out guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/cash-out-card-points.html"
+        }
+      ]
+    },
+    {
+      "commit": "26383a2c4a1ac07176f1d9fcf84151e6fddb5f0c",
+      "date": "2026-07-20",
+      "message": "Rewrite cash advance vs card loan article with Savingio problem-solving DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/cash-advance-vs-card-loan.html"
+        }
+      ]
+    },
+    {
+      "commit": "ff89581c0236fe33cc2ff0ec465e611e3434e891",
+      "date": "2026-07-20",
+      "message": "Rewrite traffic fine payment guide with approved article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/traffic-fine-check-payment-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "026e61cd86272028191b29283e6785b3a850f16f",
+      "date": "2026-07-20",
+      "message": "Rewrite business vehicle expense guide with approved article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/business-vehicle-expense-basics.html"
+        }
+      ]
+    },
+    {
+      "commit": "94a5c1563b04d57b980ee81eb1aacfe9a838b523",
+      "date": "2026-07-20",
+      "message": "Rewrite rental car vacation saving guide with article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/rental-car-vacation-saving.html"
+        }
+      ]
+    },
+    {
+      "commit": "63ca0c87e87d8dadb6b002f4eb112cd2b2839f4c",
+      "date": "2026-07-20",
+      "message": "Rewrite car insurance saving guide with approved article DNA",
+      "files": [
+        {
+          "status": "A",
+          "path": "articles/car-insurance-saving.html"
+        }
+      ]
+    },
+    {
+      "commit": "abf78ad2a202f8b09e12b9be45094b5b9bca7f37",
+      "date": "2026-07-20",
+      "message": "Part mileage article align canonical DNA and remove thumbnail metadata",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/car-insurance-mileage-refund.html"
+        }
+      ]
+    },
+    {
+      "commit": "5ae671f3237afb3f7b4b0a7b22e3f6f45ae330da",
+      "date": "2026-07-20",
+      "message": "V3.030 rewrite traffic fines guide with Savingio problem-solving DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/traffic-fines-difference-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "3acee3f111acd910fe97055bb115daa91975faa6",
+      "date": "2026-07-20",
+      "message": "Rewrite health insurance overpayment refund guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/health-insurance-overpayment-refund.html"
+        }
+      ]
+    },
+    {
+      "commit": "b1f2e147284774f13d543484ee1cafa8020d39b8",
+      "date": "2026-07-20",
+      "message": "Rewrite insurance surrender value guide with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/insurance-surrender-value-check.html"
+        }
+      ]
+    },
+    {
+      "commit": "5b832f178afd0d641190beae2eabc8e9b8e41fbc",
+      "date": "2026-07-20",
+      "message": "Rewrite insurance auto-pay discount article with Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/insurance-auto-pay-discount.html"
+        }
+      ]
+    },
+    {
+      "commit": "cec7afdc2bb23352ec4a63fd879a401591f5ae4e",
+      "date": "2026-07-20",
+      "message": "Rewrite duplicate indemnity insurance guide with full Savingio DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/duplicate-indemnity-insurance-check.html"
+        }
+      ]
+    },
+    {
+      "commit": "e0b2e845e4cf180510878307dc216b14cefc09e5",
+      "date": "2026-07-20",
+      "message": "Rewrite car tax lookup and payment guide with article DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/car-tax-check-payment-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "981b4117dd91924b89fea9c833d00452065d58e6",
+      "date": "2026-07-20",
+      "message": "Rewrite car tax annual payment article with latest DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/car-tax-annual-payment.html"
+        }
+      ]
+    },
+    {
+      "commit": "c83a6e4e832a774fab2677c0b8c285b3a31d96a2",
+      "date": "2026-07-20",
+      "message": "V3.021 rewrite car insurance mileage refund article",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/car-insurance-mileage-refund.html"
+        }
+      ]
+    },
+    {
+      "commit": "6e6d08243812a9806eb686bb714cc4ba1cff9675",
+      "date": "2026-07-20",
+      "message": "V3.030 rewrite child discount article with latest DNA",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/car-insurance-child-discount.html"
+        }
+      ]
+    },
+    {
+      "commit": "f30c63003c5e05108ff0aeeb2e15b9cccee1d843",
+      "date": "2026-07-20",
+      "message": "V3.030 remove overpayment article thumbnail",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/car-insurance-overpayment-refund.html"
+        }
+      ]
+    },
+    {
+      "commit": "c7b25e05c1aae0303459a6715c36dcfa24de51a8",
+      "date": "2026-07-19",
+      "message": "Remove car aircon thumbnail and image credits",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/car-aircon-fuel-saving.html"
+        }
+      ]
+    },
+    {
+      "commit": "1069ddfe2594f5b1594a61720169ff53c0fad394",
+      "date": "2026-07-17",
+      "message": "V3.021 누수 3개 콘텐츠 완성본 교체",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/apartment-leak-emergency-response.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/daily-liability-leak-insurance.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/home-water-leak-self-check.html"
+        }
+      ]
+    },
+    {
+      "commit": "df05e75be1573c93547de9da0d7320646208ea20",
+      "date": "2026-07-17",
+      "message": "V3.021 수도 누수 자가진단 완성본 교체",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/home-water-leak-self-check.html"
+        }
+      ]
+    },
+    {
+      "commit": "6d430230e38eb4e064bc97c5e2de541cc6e59bd5",
+      "date": "2026-07-17",
+      "message": "V3.021 일배책 누수 보험 완성본 교체",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/daily-liability-leak-insurance.html"
+        }
+      ]
+    },
+    {
+      "commit": "ae5a6117b3b08e94ccb641f56d6a5228bb94ef7b",
+      "date": "2026-07-17",
+      "message": "V3.021 누수 긴급 대응 완성본 교체",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/apartment-leak-emergency-response.html"
+        }
+      ]
+    },
+    {
+      "commit": "bb03137ccf7edc8d07b208a49b19796ca480c5b5",
+      "date": "2026-07-17",
+      "message": "V3.013 add articles/apartment-leak-emergency-response.html",
+      "files": [
+        {
+          "status": "A",
+          "path": "articles/apartment-leak-emergency-response.html"
+        }
+      ]
+    },
+    {
+      "commit": "a6354529275e8db0884c9502e1fd05ab0a83b1de",
+      "date": "2026-07-17",
+      "message": "V3.012 220개 인생 지도 통합 검색 복구",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/index.html"
+        },
+        {
+          "status": "A",
+          "path": "data/savingio-search-index.json"
+        }
+      ]
+    },
+    {
+      "commit": "224560855c40652a407457dc6a78b768cd4b0b94",
+      "date": "2026-07-13",
+      "message": "Part090 remove duplicate article explorer",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/electricity-bill-easy-calculator-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/electricity-bill-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/salary-take-home-easy-calculator-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/severance-pay-easy-calculator-guide.html"
+        }
+      ]
+    },
+    {
+      "commit": "7ba89247f911f36641b4e7af0a640d50b96eb7ab",
+      "date": "2026-07-12",
+      "message": "Fix redirect canonicals and remove redirect schemas",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/beginner-ai-side-hustles.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/credit-score-tips.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-balance-use-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/government-benefit-alert-guide-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/government-support-scam-warning-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/health-insurance-refund.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/local-tax-refund.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/online-income-ideas-for-beginners.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-electronic-notice-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-july-checklist-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/reduce-electricity-bill.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/summer-electricity-usage-check-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-final-return-deadline-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-input-tax-deduction-guide-2026.html"
+        }
+      ]
+    },
+    {
+      "commit": "f2249bb5ab266360101c192c052371e34497c3ad",
+      "date": "2026-07-12",
+      "message": "Sprint2 Fix012 remove duplicate HTML ids",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/ai-side-hustles-beginner.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/aircon-dry-mode-electricity.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/aircon-filter-cleaning-savings.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/aircon-optimal-temperature-savings.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/bank-account-budgeting.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/bank-fee-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/bank-fees-to-avoid.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/basic-livelihood-discounts.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/beginner-money-management.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/benefit-scam-warning-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/building-land-property-tax.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/business-card-hometax-registration.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/business-closure-vat-order.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/business-phone-expense-deduction.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/business-vehicle-expense-basics.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/car-aircon-fuel-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/car-insurance-child-discount.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/car-insurance-mileage-refund.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/car-insurance-overpayment-refund.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/car-tax-annual-payment.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/card-points-cashback-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/cash-advance-vs-card-loan.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/cash-out-card-points.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/cashback-apps-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/check-hidden-refunds.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/child-tax-credit-status-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/childcare-service-government-support.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/cma-account-types-risk.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/credit-card-billing-cycle-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/credit-score-habits.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/culture-nuri-card-balance.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/debit-card-vs-credit-card.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/dehumidifier-electricity-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/dormant-deposit-insurance-search.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/dryer-summer-electricity-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/duplicate-indemnity-insurance-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/earned-income-credit-account-change.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/earned-income-credit-payment.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/earned-income-credit-status-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/earned-income-tax-credit-korea.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/education-benefit-eligibility.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/education-expense-vs-benefit.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/electricity-discount-card-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/electronic-tax-invoice-penalty.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/elementary-school-education-support.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/emergency-welfare-living-support.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-2026-application.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-application-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-application.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-balance-check-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-balance-use.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-documents.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-eligibility-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-online-application.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/fan-aircon-combination-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/fixed-date-online-application.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/fixed-speed-aircon-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/four-major-insurance-deduction-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/general-vat-common-mistakes.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/government-benefit-alert-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/government-benefit-alert-setup.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/government-benefits-warning.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/government-support-calendar.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/government24-benefit-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/grocery-saving-tips.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/health-insurance-refund-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/heating-bill-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/hidden-money-search.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/hidden-refund-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/home-water-leak-self-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/hometax-refund-status.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/hometax-vat-sales-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/how-to-check-hidden-refunds.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/how-to-lower-phone-bill.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/how-to-save-electricity-bill.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/income-tax-filing-missed-consequences.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/insurance-auto-pay-discount.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/insurance-surrender-value-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/internet-bill-discount.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/inverter-aircon-saving-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/irs-tax-refund-status.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/lifelong-education-voucher-application.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/loan-refinancing-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/local-tax-refund-claim.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/local-tax-refund-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/low-income-cooling-support.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/missing-property-tax-bill.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/money-saving-habits.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/national-employment-support-eligibility.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/national-pension-additional-payment.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/national-pension-overpayment-refund.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/national-scholarship-application.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/national-tax-refund-account.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/national-tax-refund.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/near-poverty-certificate.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/parking-account-rate-comparison.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/peak-season-hotel-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-bill-checklist-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-calculation-structure.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-deadline.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-electronic-bill-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-installment-application.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-joint-ownership.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-july-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-july-september-difference.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-objection-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-payment-certificate.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/refrigerator-summer-electricity-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/rental-car-vacation-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/revolving-cancellation-payoff.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/salary-budget-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/salary-management-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/salary-slip-check-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/savings-maturity-auto-renewal.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/self-employed-income-tax-refund-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/severance-pay-calculation-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/simple-receipt-expense-rules.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/simplified-vat-checklist.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/single-parent-support-benefits.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/small-business-closure-support.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/small-business-delivery-support.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/small-business-electricity-support.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/small-business-policy-fund-search.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/small-business-policy-fund.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/spending-habits-change.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/student-loan-repayment-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/subscription-cleanup.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/subscription-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/subsidy24-benefit-search.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/summer-electricity-tier-check-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/summer-electricity-tier-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/summer-gas-bill-hot-water-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/summer-vacation-budget-plan.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/summer-water-bill-spike-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/tax-credit-late-application.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/tax-invoice-vs-cash-receipt.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/telecom-discount-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/telecom-unclaimed-refund.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/travel-insurance-comparison.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/unemployment-benefit-checklist.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/unemployment-benefit-job-search.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-final-return-2026-july.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-final-return-july-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-input-tax-deduction-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-input-tax-deduction-items.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-payment-extension-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-sales-omission-check-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-zero-sales-filing-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-zero-sales-filing.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/water-bill-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/weekly-holiday-pay-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/wetax-electronic-billing.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/wetax-payment-history.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/yellow-umbrella-mutual-aid-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/youth-leap-account-contribution.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/youth-savings-account-maintenance.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/youth-support-programs.html"
+        }
+      ]
+    },
+    {
+      "commit": "0a16414cebe049ee28f20452c6168f64f549e359",
+      "date": "2026-07-11",
+      "message": "Part014 rebuild all articles and remove exchange calculator",
+      "files": [
+        {
+          "status": "M",
+          "path": "articles/ai-side-hustles-beginner.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/air-conditioner-electricity-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/aircon-dry-mode-electricity.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/aircon-filter-cleaning-savings.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/aircon-optimal-temperature-savings.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/apartment-management-fee-summer.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/automatic-payment-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/bank-account-budgeting.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/bank-fee-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/bank-fees-to-avoid.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/basic-livelihood-discounts.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/beginner-ai-side-hustles.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/beginner-budget-plan.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/beginner-money-management.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/benefit-scam-warning-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/budget-app-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/building-land-property-tax.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/business-card-hometax-registration.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/business-closure-vat-order.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/business-phone-expense-deduction.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/business-vehicle-expense-basics.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/cancel-unused-subscriptions.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/car-aircon-fuel-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/car-insurance-child-discount.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/car-insurance-mileage-refund.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/car-insurance-overpayment-refund.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/car-tax-annual-payment.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/card-points-cashback-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/cash-advance-vs-card-loan.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/cash-out-card-points.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/cashback-apps-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/check-hidden-refunds.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/child-tax-credit-status-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/childcare-service-government-support.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/cma-account-types-risk.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/credit-card-billing-cycle-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/credit-score-habits.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/credit-score-management.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/credit-score-tips.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/culture-nuri-card-balance.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/debit-card-vs-credit-card.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/dehumidifier-electricity-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/deposit-protection-limit-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/deposit-return-guarantee-checklist.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/dormant-deposit-insurance-search.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/dryer-summer-electricity-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/duplicate-indemnity-insurance-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/earned-income-credit-account-change.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/earned-income-credit-payment.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/earned-income-credit-status-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/earned-income-tax-credit-korea.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/education-benefit-eligibility.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/education-expense-vs-benefit.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/electricity-bill-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/electricity-discount-card-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/electronic-tax-invoice-penalty.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/emergency-fund-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/emergency-medical-support.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/emergency-welfare-living-support.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-2026-application.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-application-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-application.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-balance-check-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-balance-use-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-balance-use.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-documents.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-eligibility-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/energy-voucher-online-application.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/fan-aircon-combination-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/fixed-date-online-application.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/fixed-speed-aircon-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/gas-bill-checklist.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/general-vat-common-mistakes.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/government-benefit-alert-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/government-benefit-alert-guide-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/government-benefit-alert-setup.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/government-benefits-warning.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/government-support-calendar.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/government-support-scam-warning-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/government24-benefit-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/grocery-bill-savings.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/grocery-saving-tips.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/health-insurance-out-of-pocket-refund.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/health-insurance-overpayment-refund.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/health-insurance-refund-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/health-insurance-refund.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/heating-bill-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/hidden-money-search.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/hidden-refund-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/home-water-leak-self-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/hometax-refund-status.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/hometax-vat-sales-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/housing-benefit-eligibility.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/how-to-check-hidden-refunds.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/how-to-lower-phone-bill.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/how-to-save-electricity-bill.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/impulse-buying-control.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/insurance-auto-pay-discount.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/insurance-surrender-value-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/internet-bill-discount.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/internet-bill-savings.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/inverter-aircon-saving-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/irs-tax-refund-status.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/loan-prepayment-fee-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/local-tax-refund-claim.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/local-tax-refund-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/local-tax-refund.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/low-income-cooling-support.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/medical-bill-negotiation.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/missing-property-tax-bill.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/money-saving-habits.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/monthly-budget-planner.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/monthly-rent-tax-credit-documents.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/national-employment-support-eligibility.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/national-pension-additional-payment.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/national-pension-overpayment-refund.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/national-tax-refund-account.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/national-tax-refund.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/near-poverty-certificate.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/online-income-ideas-for-beginners.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/parking-account-rate-comparison.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/peak-season-hotel-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/phone-bill-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-bill-checklist-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-calculation-structure.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-deadline.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-electronic-bill-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-electronic-notice-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-installment-application.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-joint-ownership.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-july-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-july-checklist-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-july-september-difference.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-objection-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/property-tax-payment-certificate.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/reduce-electricity-bill.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/refrigerator-summer-electricity-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/rental-car-vacation-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/rental-contract-reporting-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/revolving-cancellation-payoff.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/salary-budget-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/salary-management-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/savings-maturity-auto-renewal.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/self-employed-income-tax-refund-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/simple-receipt-expense-rules.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/simplified-vat-checklist.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/single-parent-support-benefits.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/small-business-closure-support.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/small-business-delivery-support.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/small-business-electricity-support.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/small-business-policy-fund-search.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/small-business-policy-fund.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/spending-habits-change.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/subscription-audit-checklist.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/subscription-cleanup.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/subscription-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/subsidy24-benefit-search.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/summer-electricity-tier-check-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/summer-electricity-tier-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/summer-electricity-usage-check-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/summer-gas-bill-hot-water-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/summer-vacation-budget-plan.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/summer-water-bill-spike-check.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/tax-credit-late-application.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/tax-invoice-vs-cash-receipt.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/telecom-discount-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/telecom-unclaimed-refund.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/travel-insurance-comparison.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/unemployment-benefit-checklist.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/unemployment-benefit-job-search.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-final-return-2026-july.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-final-return-deadline-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-final-return-july-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-input-tax-deduction-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-input-tax-deduction-guide-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-input-tax-deduction-items.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-payment-extension-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-sales-omission-check-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-zero-sales-filing-2026.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/vat-zero-sales-filing.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/water-bill-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/water-bill-saving.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/wetax-electronic-billing.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/wetax-payment-history.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/yellow-umbrella-mutual-aid-guide.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/youth-housing-benefit-separate-payment.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/youth-leap-account-contribution.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/youth-savings-account-maintenance.html"
+        },
+        {
+          "status": "M",
+          "path": "articles/youth-support-programs.html"
+        },
+        {
+          "status": "M",
+          "path": "sitemap.xml"
+        }
+      ]
+    }
+  ],
+  "interpretation": {
+    "actualCurrentHtmlCount": 177,
+    "publishedCandidateCount": 177,
+    "confirmedHistoricalDeletionCount": 49,
+    "confirmedArticleToArticleRedirectRuleCount": 47,
+    "warning": "301 규칙은 주소 정리와 실제 콘텐츠 통합이 섞일 수 있으므로 본문 비교 전 통합 완료 수치로 확정하지 않는다."
+  }
+}
