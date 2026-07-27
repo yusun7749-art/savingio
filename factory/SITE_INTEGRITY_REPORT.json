@@ -1,13 +1,13 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3302,
-  "references_scanned": 62217,
+  "files_scanned": 3304,
+  "references_scanned": 62221,
   "counts": {
-    "broken_references": 2915,
+    "broken_references": 2917,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
-    "missing_sitemap_targets": 1,
+    "missing_sitemap_targets": 0,
     "publisher_id_drift": 0
   },
   "broken_references": [
@@ -3999,195 +3999,6 @@
       ]
     },
     {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/bank-fees-to-avoid.html",
-      "expected": [
-        "articles/bank-fees-to-avoid.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/credit-score-management.html",
-      "expected": [
-        "articles/credit-score-management.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/energy-voucher-application-2026.html",
-      "expected": [
-        "articles/energy-voucher-application-2026.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/energy-voucher-application.html",
-      "expected": [
-        "articles/energy-voucher-application.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/energy-voucher-balance-check-2026.html",
-      "expected": [
-        "articles/energy-voucher-balance-check-2026.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/energy-voucher-balance-use.html",
-      "expected": [
-        "articles/energy-voucher-balance-use.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/energy-voucher-documents.html",
-      "expected": [
-        "articles/energy-voucher-documents.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/energy-voucher-eligibility-2026.html",
-      "expected": [
-        "articles/energy-voucher-eligibility-2026.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/energy-voucher-online-application.html",
-      "expected": [
-        "articles/energy-voucher-online-application.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/grocery-bill-savings.html",
-      "expected": [
-        "articles/grocery-bill-savings.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/hidden-money-search.html",
-      "expected": [
-        "articles/hidden-money-search.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/hidden-refund-check.html",
-      "expected": [
-        "articles/hidden-refund-check.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/how-to-check-hidden-refunds.html",
-      "expected": [
-        "articles/how-to-check-hidden-refunds.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/how-to-lower-phone-bill.html",
-      "expected": [
-        "articles/how-to-lower-phone-bill.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/how-to-save-electricity-bill.html",
-      "expected": [
-        "articles/how-to-save-electricity-bill.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/internet-bill-savings.html",
-      "expected": [
-        "articles/internet-bill-savings.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/local-tax-refund-claim.html",
-      "expected": [
-        "articles/local-tax-refund-claim.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/phone-bill-saving.html",
-      "expected": [
-        "articles/phone-bill-saving.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/salary-budget-guide.html",
-      "expected": [
-        "articles/salary-budget-guide.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/salary-management-guide.html",
-      "expected": [
-        "articles/salary-management-guide.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/subscription-cleanup.html",
-      "expected": [
-        "articles/subscription-cleanup.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/subscription-saving.html",
-      "expected": [
-        "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/summer-electricity-tier-check.html",
-      "expected": [
-        "articles/summer-electricity-tier-check.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/vat-final-return-july-2026.html",
-      "expected": [
-        "articles/vat-final-return-july-2026.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/vat-zero-sales-filing.html",
-      "expected": [
-        "articles/vat-zero-sales-filing.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/water-bill-guide.html",
-      "expected": [
-        "articles/water-bill-guide.html"
-      ]
-    },
-    {
       "source": "data/site-navigation-v2.json",
       "reference": "/articles/hidden-refund-check.html",
       "expected": [
@@ -4685,6 +4496,195 @@
       ]
     },
     {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/energy-voucher-application-2026.html",
+      "expected": [
+        "articles/energy-voucher-application-2026.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/energy-voucher-application.html",
+      "expected": [
+        "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/hidden-money-search.html",
+      "expected": [
+        "articles/hidden-money-search.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/hidden-refund-check.html",
+      "expected": [
+        "articles/hidden-refund-check.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/how-to-check-hidden-refunds.html",
+      "expected": [
+        "articles/how-to-check-hidden-refunds.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/how-to-lower-phone-bill.html",
+      "expected": [
+        "articles/how-to-lower-phone-bill.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/how-to-save-electricity-bill.html",
+      "expected": [
+        "articles/how-to-save-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/internet-bill-savings.html",
+      "expected": [
+        "articles/internet-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/phone-bill-saving.html",
+      "expected": [
+        "articles/phone-bill-saving.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/salary-budget-guide.html",
+      "expected": [
+        "articles/salary-budget-guide.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/salary-management-guide.html",
+      "expected": [
+        "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/subscription-cleanup.html",
+      "expected": [
+        "articles/subscription-cleanup.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/subscription-saving.html",
+      "expected": [
+        "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/vat-final-return-july-2026.html",
+      "expected": [
+        "articles/vat-final-return-july-2026.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/vat-zero-sales-filing.html",
+      "expected": [
+        "articles/vat-zero-sales-filing.html"
+      ]
+    },
+    {
+      "source": "factory/MASTER_LOG/06_QA/CONTENT_INVENTORY_REPAIR.json",
+      "reference": "/articles/water-bill-guide.html",
+      "expected": [
+        "articles/water-bill-guide.html"
+      ]
+    },
+    {
       "source": "factory/QA_V2_019.json",
       "reference": "/articles/전기요금-절약-c861d77b.html\\",
       "expected": [
@@ -4838,6 +4838,20 @@
       "reference": "/admin-v2/production-e2e.js",
       "expected": [
         "admin-v2/production-e2e.js"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/articles.html",
+      "expected": [
+        "articles/articles.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/articles/index.html",
+      "expected": [
+        "articles/articles/index.html"
       ]
     },
     {
@@ -5776,6 +5790,13 @@
       "reference": "/articles/vat-input-tax-deduction-guide-2026.html",
       "expected": [
         "articles/vat-input-tax-deduction-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/vat-input-tax-deduction-items.html",
+      "expected": [
+        "articles/vat-input-tax-deduction-items.html"
       ]
     },
     {
@@ -20695,13 +20716,6 @@
       ]
     },
     {
-      "source": "sitemap.xml",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
       "source": "subscription-saving.html",
       "reference": "/articles/subscription-saving.html",
       "expected": [
@@ -20757,8 +20771,6 @@
   ],
   "malformed_redirects": [],
   "broken_redirect_targets": [],
-  "missing_sitemap_targets": [
-    "/articles/small-business-policy-fund-search.html"
-  ],
+  "missing_sitemap_targets": [],
   "publisher_id_drift": []
 }
