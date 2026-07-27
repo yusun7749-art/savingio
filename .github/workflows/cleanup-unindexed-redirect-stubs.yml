@@ -1,0 +1,73 @@
+name: Cleanup unindexed redirect stubs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/cleanup-unindexed-redirect-stubs.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Remove unindexed redirect-only article stubs and write audit report
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json, re
+
+          sitemap_text = Path('sitemap.xml').read_text(encoding='utf-8')
+          indexed = set(re.findall(r'<loc>https://savingio\.com(/articles/[^<]+\.html)</loc>', sitemap_text))
+          deleted = []
+          substantive_missing = []
+
+          for path in sorted(Path('articles').glob('*.html')):
+              if path.name == 'index.html':
+                  continue
+              url = '/articles/' + path.name
+              if url in indexed:
+                  continue
+              text = path.read_text(encoding='utf-8', errors='ignore')
+              low = text.lower()
+              redirect_only = (
+                  'noindex' in low and
+                  ('http-equiv="refresh"' in low or "http-equiv='refresh'" in low) and
+                  ('통합된 페이지로 이동합니다' in text or '페이지 이동' in text)
+              )
+              if redirect_only:
+                  path.unlink()
+                  deleted.append(url)
+              else:
+                  substantive_missing.append(url)
+
+          report_dir = Path('factory/REPORTS')
+          report_dir.mkdir(parents=True, exist_ok=True)
+          report = {
+              'report_date': '2026-07-27',
+              'policy': 'Delete only sitemap-missing noindex redirect-only stubs; retain substantive pages for body-level merge review',
+              'deleted_redirect_stubs': deleted,
+              'deleted_redirect_stub_count': len(deleted),
+              'substantive_missing_from_sitemap': substantive_missing,
+              'substantive_missing_count': len(substantive_missing),
+              'article_html_files_remaining': len([p for p in Path('articles').glob('*.html') if p.name != 'index.html']),
+              'sitemap_article_urls_remaining': len(indexed)
+          }
+          (report_dir / 'unindexed-article-audit-current.json').write_text(
+              json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8'
+          )
+          PY
+      - name: Commit audit cleanup
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m "Remove unindexed redirect-only article stubs"
+          git push
