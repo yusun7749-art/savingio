@@ -6,7 +6,7 @@
 - FAIL: 0
 - Average score: 90.3
 - Thin content (<2500 Korean chars): 11
-- Short content (<4500 Korean chars): 128
+- Short content (<4500 Korean chars): 129
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -73,6 +73,7 @@
 | 88 | PASS | `articles/property-tax-payment-certificate.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3736 |
 | 88 | WARNING | `articles/severance-pay-calculation-guide.html` | THIN_CONTENT_KO:2464 |
 | 88 | WARNING | `articles/telecom-unclaimed-refund.html` | THIN_CONTENT_KO:2463 |
+| 88 | PASS | `articles/vat-input-tax-deduction-2026.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3231 |
 | 92 | PASS | `articles/ai-side-hustles-beginner.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/aircon-dry-mode-electricity.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3653 |
 | 92 | PASS | `articles/aircon-filter-cleaning-savings.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
@@ -99,4 +100,3 @@
 | 92 | PASS | `articles/credit-card-billing-cycle-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/credit-score-habits.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3993 |
 | 92 | PASS | `articles/dehumidifier-electricity-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3813 |
-| 92 | PASS | `articles/earned-income-credit-account-change.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3220 |

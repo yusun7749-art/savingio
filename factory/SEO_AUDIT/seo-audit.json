@@ -6,7 +6,7 @@
     "fail": 0,
     "average_score": 90.3,
     "thin_under_2500_ko": 11,
-    "short_under_4500_ko": 128,
+    "short_under_4500_ko": 129,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -4653,22 +4653,24 @@
       "h1": [
         "부가가치세 매입세액 공제·불공제 판단법 2026"
       ],
-      "h2_count": 22,
-      "h3_count": 17,
-      "korean_chars": 6438,
-      "words": 2062,
-      "internal_article_links": 17,
+      "h2_count": 20,
+      "h3_count": 12,
+      "korean_chars": 3231,
+      "words": 1067,
+      "internal_article_links": 11,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 2,
+      "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": true,
+      "faq_schema": false,
       "issues": [],
       "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3231"
       ],
-      "score": 96,
+      "score": 88,
       "status": "PASS"
     },
     {
