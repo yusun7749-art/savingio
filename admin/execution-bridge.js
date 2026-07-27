@@ -101,18 +101,7 @@
     document.head.appendChild(link);
   };
 
-  const loadScript = (src, marker) => {
-    if (document.querySelector(`script[${marker}]`)) return;
-    const script = document.createElement('script');
-    script.src = src;
-    script.async = false;
-    script.setAttribute(marker, 'true');
-    document.head.appendChild(script);
-  };
-
-  loadStyle('/admin/hq-layout-fix.css?v=20260727-1', 'data-hq-layout-fix');
-  loadStyle('/admin/hq-operations-wall.css?v=20260727-1', 'data-hq-operations-wall-style');
-  loadScript('/admin/lina-offline-briefing.js?v=20260727-1', 'data-lina-offline-briefing');
-  loadScript('/admin/hq-operations-wall.js?v=20260727-1', 'data-hq-operations-wall');
-  loadScript('/admin/lina-chat-core.js?v=20260727-2', 'data-lina-chat-core');
+  // Stabilization mode: keep the core Admin features only.
+  // Heavy dynamic dashboards/chat extensions are disabled until performance QA is complete.
+  loadStyle('/admin/hq-layout-fix.css?v=20260727-2', 'data-hq-layout-fix');
 })();
