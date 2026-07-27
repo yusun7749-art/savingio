@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3303,
-  "references_scanned": 62771,
+  "references_scanned": 62776,
   "counts": {
-    "broken_references": 2255,
+    "broken_references": 2260,
     "malformed_redirects": 0,
     "broken_redirect_targets": 2,
     "missing_sitemap_targets": 21,
@@ -4044,6 +4044,34 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/energy-voucher-eligibility.html",
       "expected": [
         "articles/energy-voucher-eligibility.html"
@@ -4054,6 +4082,13 @@
       "reference": "/articles/energy-voucher-guide.html",
       "expected": [
         "articles/energy-voucher-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
       ]
     },
     {
