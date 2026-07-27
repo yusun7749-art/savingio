@@ -62,14 +62,14 @@
 - `articles/simplified-vat-checklist.html` — 간이과세자 부가가치세 신고 체크리스트 (5,827자)
 - `articles/tax-invoice-vs-cash-receipt.html` — 현금영수증 매출 조회 방법 (6,393자)
 - `articles/vat-final-return-2026-july.html` — 2026년 부가가치세 확정신고 방법과 공식 기한 확인 (6,006자)
-- `articles/vat-input-tax-deduction-2026.html` — 부가가치세 매입세액 공제 가능한 항목과 불공제 항목 정리 (5,950자)
+- `articles/vat-input-tax-deduction-2026.html` — 부가가치세 매입세액 공제·불공제 완벽 가이드 (6,388자)
 - `articles/vat-input-tax-deduction-items.html` — 부가가치세 매입세액 공제 항목과 불공제 구분법 (5,388자)
 - `articles/vat-payment-extension-guide.html` — 부가가치세 신고 후 납부기한 연장 신청 방법 (5,851자)
 - `articles/vat-sales-omission-check-2026.html` — 부가가치세 신고 전 매출 누락 확인 방법 (5,390자)
 - `articles/vat-zero-sales-filing-2026.html` — 매출이 없어도 부가가치세 신고해야 할까? 무실적 신고 방법 (5,295자)
 
 중복·통합 우선 검토 관계:
-- **strong_duplicate** · 제목 0.69 · 본문 0.65 — `articles/vat-input-tax-deduction-2026.html` ↔ `articles/vat-input-tax-deduction-items.html`
+- **merge_candidate** · 제목 0.67 · 본문 0.55 — `articles/vat-input-tax-deduction-2026.html` ↔ `articles/vat-input-tax-deduction-items.html`
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 

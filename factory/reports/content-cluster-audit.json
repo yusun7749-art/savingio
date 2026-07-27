@@ -277,9 +277,9 @@
         },
         {
           "path": "articles/vat-input-tax-deduction-2026.html",
-          "title": "부가가치세 매입세액 공제 가능한 항목과 불공제 항목 정리 | 세이빙이오(Savingio)",
-          "h1": "부가가치세 매입세액 공제 가능한 항목과 불공제 항목 정리",
-          "char_count": 5950
+          "title": "부가가치세 매입세액 공제·불공제 완벽 가이드 | Savingio",
+          "h1": "부가가치세 매입세액 공제·불공제 완벽 가이드",
+          "char_count": 6388
         },
         {
           "path": "articles/vat-input-tax-deduction-items.html",
@@ -310,9 +310,9 @@
         {
           "a": "articles/vat-input-tax-deduction-2026.html",
           "b": "articles/vat-input-tax-deduction-items.html",
-          "classification": "strong_duplicate",
-          "title_similarity": 0.6923,
-          "body_similarity": 0.6483
+          "classification": "merge_candidate",
+          "title_similarity": 0.6667,
+          "body_similarity": 0.5493
         }
       ],
       "decision_status": "pending_group_review",
