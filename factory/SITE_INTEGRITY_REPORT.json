@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3286,
-  "references_scanned": 62222,
+  "files_scanned": 3288,
+  "references_scanned": 62223,
   "counts": {
-    "broken_references": 2823,
+    "broken_references": 2824,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 0,
@@ -4677,6 +4677,13 @@
       "reference": "/articles/credit-information-check.html",
       "expected": [
         "articles/credit-information-check.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
       ]
     },
     {
