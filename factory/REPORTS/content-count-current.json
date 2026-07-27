@@ -1,10 +1,12 @@
 {
   "report_date": "2026-07-27",
-  "article_html_files_remaining": 194,
+  "article_html_files_remaining": 193,
   "sitemap_article_urls_remaining": 178,
+  "article_files_missing_from_sitemap": 15,
   "deleted_in_this_task": 1,
-  "representative_url": "/articles/property-tax-electronic-bill-2026.html",
+  "cumulative_duplicate_deletions": 7,
+  "representative_url": "/articles/property-tax-bill-checklist-2026.html",
   "deleted_urls": [
-    "/articles/property-tax-electronic-notice-2026.html"
+    "/articles/property-tax-july-checklist-2026.html"
   ]
 }
