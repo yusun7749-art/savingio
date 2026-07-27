@@ -1,12 +1,12 @@
 {
   "summary": {
-    "article_count": 179,
-    "pass": 139,
+    "article_count": 178,
+    "pass": 138,
     "warning": 40,
     "fail": 0,
     "average_score": 90.3,
     "thin_under_2500_ko": 11,
-    "short_under_4500_ko": 129,
+    "short_under_4500_ko": 128,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -4647,54 +4647,26 @@
     {
       "path": "articles/vat-input-tax-deduction-2026.html",
       "url": "https://savingio.com/articles/vat-input-tax-deduction-2026.html",
-      "title": "부가가치세 매입세액 공제·불공제 완벽 가이드 | Savingio",
-      "meta_description": "부가가치세 매입세액 공제 가능 항목과 불공제 항목을 사업 관련성, 적격증빙, 차량·접대비·면세사업·공통매입세액까지 한 페이지에서 확인합니다.",
+      "title": "부가가치세 매입세액 공제·불공제 판단법 2026 | Savingio",
+      "meta_description": "사업용 카드, 세금계산서, 현금영수증, 차량비, 접대비, 과세·면세 공통비용까지 부가가치세 매입세액 공제 여부를 실제 신고 순서대로 확인합니다.",
       "canonical": "https://savingio.com/articles/vat-input-tax-deduction-2026.html",
       "h1": [
-        "부가가치세 매입세액 공제·불공제 완벽 가이드"
+        "부가가치세 매입세액 공제·불공제 판단법 2026"
       ],
-      "h2_count": 21,
-      "h3_count": 11,
-      "korean_chars": 4542,
-      "words": 1461,
-      "internal_article_links": 16,
+      "h2_count": 22,
+      "h3_count": 17,
+      "korean_chars": 6438,
+      "words": 2062,
+      "internal_article_links": 17,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 1,
+      "jsonld_count": 2,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": false,
-      "issues": [],
-      "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING",
-        "FAQ_SCHEMA_MISSING"
-      ],
-      "score": 92,
-      "status": "PASS"
-    },
-    {
-      "path": "articles/vat-input-tax-deduction-items.html",
-      "url": "https://savingio.com/articles/vat-input-tax-deduction-2026.html",
-      "title": "부가가치세 매입세액 공제 항목과 불공제 구분법 | 세이빙이오(Savingio)",
-      "meta_description": "사업자가 지출한 비용 중 부가가치세 매입세액을 공제받을 수 있는 항목과 증빙이 있어도 공제되지 않을 수 있는 비용을 구분합니다.",
-      "canonical": "https://savingio.com/articles/vat-input-tax-deduction-2026.html",
-      "h1": [
-        "부가가치세 매입세액 공제 항목과 불공제 구분법"
-      ],
-      "h2_count": 15,
-      "h3_count": 4,
-      "korean_chars": 3711,
-      "words": 1296,
-      "internal_article_links": 39,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:3711"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
       "score": 96,
       "status": "PASS"
