@@ -3,9 +3,14 @@ name: Run full content clustering audit
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: content-cluster-audit
+  cancel-in-progress: false
 
 jobs:
   audit:
@@ -15,8 +20,22 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - name: Build similarity clusters
-        run: python factory/audit/content_cluster_audit.py
+        run: |
+          python factory/audit/content_cluster_audit.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('factory/reports/content-cluster-audit.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          print('articles=', data['article_count'])
+          print('clusters=', data['cluster_count'])
+          print('candidate_pairs=', data['candidate_pair_count'])
+          PY
       - name: Verify reports
         run: |
           test -s factory/reports/content-cluster-audit.json
@@ -25,6 +44,9 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add factory/reports/content-cluster-audit.json factory/reports/content-cluster-audit.md
-          git diff --cached --quiet || git commit -m 'Generate full content similarity clusters'
-          git push
+          git add -f factory/reports/content-cluster-audit.json factory/reports/content-cluster-audit.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'Generate full content similarity clusters [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
