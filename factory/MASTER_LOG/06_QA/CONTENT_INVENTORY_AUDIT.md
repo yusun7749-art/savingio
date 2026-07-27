@@ -1,20 +1,20 @@
 # Savingio 전체 콘텐츠 재검수 보고서
 
-- 생성: 2026-07-27T12:28:45.823269+00:00
+- 생성: 2026-07-27T12:30:39.636147+00:00
 - 실제 article HTML: **177개**
-- sitemap article URL: **178개**
-- 검색 인덱스 article 항목: **203개**
+- sitemap article URL: **177개**
+- 검색 인덱스 article 항목: **177개**
 - Git 이력상 삭제된 고유 article 경로: **49개**
 - article→article 301 규칙: **47개**
 - 현재 파일이 남은 301 source: **0개**
 - 현재 파일이 없는 301 source: **47개**
 
 ## 불일치
-- sitemap에는 있으나 HTML 없음: 1개
+- sitemap에는 있으나 HTML 없음: 0개
 - HTML은 있으나 sitemap 제외: 0개
-- 검색 인덱스에는 있으나 sitemap 제외: 26개
-- sitemap에는 있으나 검색 인덱스 제외: 1개
-- 검색 인덱스에는 있으나 HTML 없음: 27개
+- 검색 인덱스에는 있으나 sitemap 제외: 0개
+- sitemap에는 있으나 검색 인덱스 제외: 0개
+- 검색 인덱스에는 있으나 HTML 없음: 0개
 
 ## 판정
 - 현재 실제 운영 후보는 sitemap과 HTML의 교집합 **177개**입니다.

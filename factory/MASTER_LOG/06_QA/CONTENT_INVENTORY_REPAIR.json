@@ -1,0 +1,39 @@
+{
+  "currentArticleHtml": 177,
+  "removedSitemapMissingHtml": [
+    "/articles/small-business-policy-fund-search.html"
+  ],
+  "removedSearchIndexMissingHtml": [
+    "/articles/bank-fees-to-avoid.html",
+    "/articles/credit-score-management.html",
+    "/articles/energy-voucher-application-2026.html",
+    "/articles/energy-voucher-application.html",
+    "/articles/energy-voucher-balance-check-2026.html",
+    "/articles/energy-voucher-balance-use.html",
+    "/articles/energy-voucher-documents.html",
+    "/articles/energy-voucher-eligibility-2026.html",
+    "/articles/energy-voucher-online-application.html",
+    "/articles/grocery-bill-savings.html",
+    "/articles/hidden-money-search.html",
+    "/articles/hidden-refund-check.html",
+    "/articles/how-to-check-hidden-refunds.html",
+    "/articles/how-to-lower-phone-bill.html",
+    "/articles/how-to-save-electricity-bill.html",
+    "/articles/internet-bill-savings.html",
+    "/articles/local-tax-refund-claim.html",
+    "/articles/phone-bill-saving.html",
+    "/articles/salary-budget-guide.html",
+    "/articles/salary-management-guide.html",
+    "/articles/small-business-policy-fund-search.html",
+    "/articles/subscription-cleanup.html",
+    "/articles/subscription-saving.html",
+    "/articles/summer-electricity-tier-check.html",
+    "/articles/vat-final-return-july-2026.html",
+    "/articles/vat-zero-sales-filing.html",
+    "/articles/water-bill-guide.html"
+  ],
+  "addedSearchIndexMissingEntry": [
+    "/articles/car-insurance-saving.html"
+  ],
+  "finalSearchIndexCount": 177
+}
