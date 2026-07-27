@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3301,
-  "references_scanned": 62665,
+  "files_scanned": 3300,
+  "references_scanned": 62639,
   "counts": {
-    "broken_references": 2365,
+    "broken_references": 2401,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 6,
@@ -1641,6 +1641,13 @@
     },
     {
       "source": "articles/child-tax-credit-status-check.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "articles/child-tax-credit-status-check.html",
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
         "articles/phone-bill-saving.html"
@@ -1658,6 +1665,13 @@
       "reference": "/categories/government-benefits.html",
       "expected": [
         "categories/government-benefits.html"
+      ]
+    },
+    {
+      "source": "articles/childcare-service-government-support.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
       ]
     },
     {
@@ -1826,6 +1840,13 @@
       "reference": "/articles/fuel-saving-driving-habits.html",
       "expected": [
         "articles/fuel-saving-driving-habits.html"
+      ]
+    },
+    {
+      "source": "articles/earned-income-credit-payment.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
       ]
     },
     {
@@ -2046,13 +2067,6 @@
       ]
     },
     {
-      "source": "articles/grocery-bill-savings.html",
-      "reference": "/categories/household-budget.html",
-      "expected": [
-        "categories/household-budget.html"
-      ]
-    },
-    {
       "source": "articles/grocery-saving-tips.html",
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
@@ -2134,6 +2148,13 @@
       "reference": "/articles/rent-tax-credit-guide.html",
       "expected": [
         "articles/rent-tax-credit-guide.html"
+      ]
+    },
+    {
+      "source": "articles/impulse-buying-control.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
       ]
     },
     {
@@ -3097,6 +3118,13 @@
     },
     {
       "source": "categories/finance-credit.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "categories/finance-credit.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
@@ -3356,6 +3384,13 @@
     },
     {
       "source": "data/savingio-brain-data.js",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.js",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
@@ -3517,6 +3552,13 @@
     },
     {
       "source": "data/savingio-brain-data.json",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.json",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
@@ -3744,6 +3786,13 @@
       "reference": "/articles/energy-voucher-online-application.html",
       "expected": [
         "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "data/savingio-search-index.json",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
       ]
     },
     {
@@ -5606,6 +5655,13 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/beginner-budget-plan.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/beginner-budget-plan.html",
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
@@ -6039,6 +6095,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/grocery-bill-savings.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/grocery-bill-savings.html",
+      "reference": "https://savingio.com/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/grocery-saving-tips.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -6218,6 +6288,13 @@
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
         "articles/how-to-save-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/monthly-budget-planner.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
       ]
     },
     {
@@ -6617,6 +6694,13 @@
       "reference": "https://savingio.com/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/beginner-budget-plan.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
       ]
     },
     {
@@ -7054,6 +7138,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/grocery-bill-savings.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/grocery-bill-savings.html",
+      "reference": "https://savingio.com/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/grocery-saving-tips.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -7233,6 +7331,13 @@
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
         "articles/how-to-save-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/monthly-budget-planner.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
       ]
     },
     {
@@ -7632,6 +7737,13 @@
       "reference": "https://savingio.com/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/beginner-budget-plan.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
       ]
     },
     {
@@ -8069,6 +8181,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/grocery-bill-savings.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/grocery-bill-savings.html",
+      "reference": "https://savingio.com/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/grocery-saving-tips.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -8248,6 +8374,13 @@
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
         "articles/how-to-save-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/monthly-budget-planner.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
       ]
     },
     {
@@ -8647,6 +8780,13 @@
       "reference": "https://savingio.com/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/beginner-budget-plan.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
       ]
     },
     {
@@ -9084,6 +9224,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/grocery-bill-savings.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/grocery-bill-savings.html",
+      "reference": "https://savingio.com/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/grocery-saving-tips.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -9263,6 +9417,13 @@
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
         "articles/how-to-save-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/monthly-budget-planner.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
       ]
     },
     {
@@ -9662,6 +9823,13 @@
       "reference": "https://savingio.com/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/beginner-budget-plan.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
       ]
     },
     {
@@ -10099,6 +10267,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/grocery-bill-savings.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/grocery-bill-savings.html",
+      "reference": "https://savingio.com/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/grocery-saving-tips.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -10278,6 +10460,13 @@
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
         "articles/how-to-save-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/monthly-budget-planner.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
       ]
     },
     {
@@ -10718,6 +10907,13 @@
     },
     {
       "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
@@ -10898,6 +11094,13 @@
       "reference": "/articles/energy-voucher-online-application.html",
       "expected": [
         "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
       ]
     },
     {
@@ -11614,6 +11817,13 @@
     },
     {
       "source": "factory/output/article_catalog.json",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
@@ -11775,6 +11985,13 @@
     },
     {
       "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
@@ -11918,6 +12135,13 @@
       "reference": "https://savingio.com/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/beginner-budget-plan.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
       ]
     },
     {
@@ -12355,6 +12579,20 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/grocery-bill-savings.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/grocery-bill-savings.html",
+      "reference": "https://savingio.com/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/grocery-saving-tips.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -12534,6 +12772,13 @@
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
         "articles/how-to-save-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/monthly-budget-planner.html",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
       ]
     },
     {
@@ -15353,6 +15598,13 @@
       "reference": "/articles/energy-voucher-online-application.html",
       "expected": [
         "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
       ]
     },
     {
