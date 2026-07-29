@@ -342,7 +342,7 @@
 - `articles/car-insurance-child-discount.html` — 자동차보험 자녀할인 특약, 태아부터 갱신까지 확인하는 순서 (5,003자)
 - `articles/car-insurance-mileage-refund.html` — 자동차보험 마일리지 특약 환급, 사진 등록부터 정산까지 확인하는 순서 (4,565자)
 - `articles/car-insurance-overpayment-refund.html` — 자동차보험료를 더 냈을 때, 과납보험료 확인부터 환급까지 (7,389자)
-- `articles/car-insurance-saving.html` — 자동차보험료 절약 방법, 갱신 전에 확인할 할인특약과 운전자 범위 (5,230자)
+- `articles/car-insurance-saving.html` — 자동차보험료 절약, 갱신 전에 비교할 운전자 범위·특약·담보 최종 가이드 (4,627자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
 
