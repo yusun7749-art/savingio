@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3295,
-  "references_scanned": 61956,
+  "references_scanned": 61927,
   "counts": {
-    "broken_references": 2913,
+    "broken_references": 2910,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 2,
@@ -1514,13 +1514,6 @@
       ]
     },
     {
-      "source": "articles/business-vehicle-expense-basics.html",
-      "reference": "/articles/bank-fees-to-avoid.html",
-      "expected": [
-        "articles/bank-fees-to-avoid.html"
-      ]
-    },
-    {
       "source": "articles/cancel-unused-subscriptions.html",
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
@@ -1553,20 +1546,6 @@
       "reference": "/articles/fuel-saving-driving-habits.html",
       "expected": [
         "articles/fuel-saving-driving-habits.html"
-      ]
-    },
-    {
-      "source": "articles/car-tax-annual-payment.html",
-      "reference": "/articles/bank-fees-to-avoid.html",
-      "expected": [
-        "articles/bank-fees-to-avoid.html"
-      ]
-    },
-    {
-      "source": "articles/car-tax-check-payment-guide.html",
-      "reference": "/articles/bank-fees-to-avoid.html",
-      "expected": [
-        "articles/bank-fees-to-avoid.html"
       ]
     },
     {
