@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3296,
-  "references_scanned": 61547,
+  "references_scanned": 61492,
   "counts": {
-    "broken_references": 3118,
+    "broken_references": 3121,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 7,
@@ -2747,16 +2747,44 @@
     },
     {
       "source": "articles/spending-habits-change.html",
-      "reference": "/articles/how-to-save-electricity-bill.html",
+      "reference": "/calculators/monthly-budget.html",
       "expected": [
-        "articles/how-to-save-electricity-bill.html"
+        "calculators/monthly-budget.html"
       ]
     },
     {
       "source": "articles/spending-habits-change.html",
-      "reference": "/articles/salary-budget-guide.html",
+      "reference": "/calculators/savings-goal.html",
       "expected": [
-        "articles/salary-budget-guide.html"
+        "calculators/savings-goal.html"
+      ]
+    },
+    {
+      "source": "articles/spending-habits-change.html",
+      "reference": "/categories/household-budget.html",
+      "expected": [
+        "categories/household-budget.html"
+      ]
+    },
+    {
+      "source": "articles/summer-electricity-tier-check-2026.html",
+      "reference": "/articles/aircon-filter-cleaning-saving.html",
+      "expected": [
+        "articles/aircon-filter-cleaning-saving.html"
+      ]
+    },
+    {
+      "source": "articles/summer-electricity-tier-check-2026.html",
+      "reference": "/articles/dehumidifier-electricity-cost.html",
+      "expected": [
+        "articles/dehumidifier-electricity-cost.html"
+      ]
+    },
+    {
+      "source": "articles/summer-electricity-tier-check-2026.html",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
@@ -2915,16 +2943,9 @@
     },
     {
       "source": "articles/vat-zero-sales-filing-2026.html",
-      "reference": "/articles/vat-final-return-july-2026.html",
+      "reference": "/js/savingio-article-unified-v3036.js?v=3038",
       "expected": [
-        "articles/vat-final-return-july-2026.html"
-      ]
-    },
-    {
-      "source": "articles/vat-zero-sales-filing-2026.html",
-      "reference": "/articles/vat-zero-sales-filing.html",
-      "expected": [
-        "articles/vat-zero-sales-filing.html"
+        "js/savingio-article-unified-v3036.js"
       ]
     },
     {
