@@ -82,16 +82,16 @@
       "path": "articles/aircon-dry-mode-electricity.html",
       "url": "https://savingio.com/articles/aircon-dry-mode-electricity.html",
       "title": "에어컨 제습모드 전기요금, 냉방보다 정말 덜 나올까? | Savingio",
-      "meta_description": "에어컨 제습모드가 냉방모드보다 전기요금이 적게 나오는지, 습도·온도·제품 방식에 따라 어떤 모드를 선택해야 하는지 실사용 기준으로 정리했습니다.",
+      "meta_description": "에어컨 제습모드와 냉방모드의 차이, 전기요금을 좌우하는 조건, 장마철과 폭염 상황별 선택 순서를 실제 사용 기준으로 정리합니다.",
       "canonical": "https://savingio.com/articles/aircon-dry-mode-electricity.html",
       "h1": [
         "에어컨 제습모드 전기요금, 냉방보다 정말 덜 나올까?"
       ],
-      "h2_count": 18,
-      "h3_count": 4,
-      "korean_chars": 3653,
-      "words": 1282,
-      "internal_article_links": 14,
+      "h2_count": 17,
+      "h3_count": 0,
+      "korean_chars": 3321,
+      "words": 1159,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 2,
@@ -101,7 +101,7 @@
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3653"
+        "CONTENT_SHORT_KO:3321"
       ],
       "score": 92,
       "status": "PASS"
