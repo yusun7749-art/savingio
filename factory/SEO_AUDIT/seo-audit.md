@@ -1,8 +1,8 @@
 # Savingio Full SEO Audit
 
 - Articles: 177
-- PASS: 143
-- WARNING: 34
+- PASS: 144
+- WARNING: 33
 - FAIL: 0
 - Average score: 90.7
 - Thin content (<2500 Korean chars): 11
@@ -47,7 +47,6 @@
 | 80 | WARNING | `articles/youth-savings-account-maintenance.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3354 |
 | 84 | WARNING | `articles/basic-pension-application-guide.html` | THIN_CONTENT_KO:2033, BREADCRUMB_SCHEMA_MISSING |
 | 84 | WARNING | `articles/card-points-cashback-guide.html` | THIN_CONTENT_KO:2291, BREADCRUMB_SCHEMA_MISSING |
-| 84 | WARNING | `articles/duplicate-indemnity-insurance-check.html` | ARTICLE_SCHEMA_MISSING, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3096 |
 | 84 | WARNING | `articles/fan-aircon-combination-saving.html` | META_DESCRIPTION_LENGTH:37, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2929 |
 | 84 | WARNING | `articles/unemployment-benefit-checklist.html` | THIN_CONTENT_KO:2442, META_DESCRIPTION_LENGTH:49 |
 | 84 | WARNING | `articles/vat-final-return-2026-july.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:4042 |
@@ -95,6 +94,7 @@
 | 92 | PASS | `articles/credit-card-billing-cycle-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/credit-score-habits.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3993 |
 | 92 | PASS | `articles/dehumidifier-electricity-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3813 |
+| 92 | PASS | `articles/duplicate-indemnity-insurance-check.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3933 |
 | 92 | PASS | `articles/earned-income-credit-account-change.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3220 |
 | 92 | PASS | `articles/earned-income-credit-payment.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4376 |
 | 92 | PASS | `articles/earned-income-credit-status-check.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3592 |

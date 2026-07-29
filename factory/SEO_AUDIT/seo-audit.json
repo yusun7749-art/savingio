@@ -1,8 +1,8 @@
 {
   "summary": {
     "article_count": 177,
-    "pass": 143,
-    "warning": 34,
+    "pass": 144,
+    "warning": 33,
     "fail": 0,
     "average_score": 90.7,
     "thin_under_2500_ko": 11,
@@ -1362,32 +1362,30 @@
     {
       "path": "articles/duplicate-indemnity-insurance-check.html",
       "url": "https://savingio.com/articles/duplicate-indemnity-insurance-check.html",
-      "title": "실손보험 중복가입 확인, 해지 전에 보장부터 비교하는 순서 | Savingio",
-      "meta_description": "개인실손과 단체실손 중복가입 여부를 확인하고 비례보상, 중지·재개 조건, 해지 전 보장 공백과 보험료를 비교하는 순서를 정리했습니다.",
+      "title": "실손보험 중복가입 확인부터 개인·단체실손 정리까지 최종 가이드 | Savingio",
+      "meta_description": "실손보험 중복가입 조회, 비례보상, 개인실손과 단체실손 비교, 중지·재개, 퇴직 전 확인, 해지 판단까지 한 페이지에서 해결합니다.",
       "canonical": "https://savingio.com/articles/duplicate-indemnity-insurance-check.html",
       "h1": [
-        "실손보험 중복가입 확인, 해지 전에 보장부터 비교하는 순서"
+        "실손보험 중복가입 확인부터 개인·단체실손 정리까지 최종 가이드"
       ],
-      "h2_count": 17,
-      "h3_count": 3,
-      "korean_chars": 3096,
-      "words": 1064,
-      "internal_article_links": 8,
+      "h2_count": 19,
+      "h3_count": 0,
+      "korean_chars": 3933,
+      "words": 1341,
+      "internal_article_links": 7,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 0,
-      "article_schema": false,
+      "jsonld_count": 2,
+      "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": false,
+      "faq_schema": true,
       "issues": [],
       "warnings": [
-        "ARTICLE_SCHEMA_MISSING",
         "BREADCRUMB_SCHEMA_MISSING",
-        "FAQ_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3096"
+        "CONTENT_SHORT_KO:3933"
       ],
-      "score": 84,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/earned-income-credit-account-change.html",
@@ -2235,17 +2233,17 @@
     {
       "path": "articles/health-insurance-refund-guide.html",
       "url": "https://savingio.com/articles/health-insurance-refund-guide.html",
-      "title": "건강보험 환급금 조회, 과오납과 본인부담상한액을 구분하는 순서 | Savingio",
-      "meta_description": "건강보험 환급금 조회 전 과오납 보험료, 본인부담상한액 초과금, 본인부담금 환급을 구분하고 신청·계좌·지급 상태까지 확인하는 순서를 정리했습니다.",
+      "title": "건강보험 환급금 조회부터 신청·입금 확인까지 최종 가이드 | Savingio",
+      "meta_description": "건강보험 과오납 환급, 본인부담상한액 초과금, 본인부담금 환급을 구분하고 공식 조회, 신청 계좌, 지급 상태, 보이스피싱 예방까지 한 페이지에서 확인합니다.",
       "canonical": "https://savingio.com/articles/health-insurance-refund-guide.html",
       "h1": [
-        "건강보험 환급금 조회, 과오납과 본인부담상한액을 구분하는 순서"
+        "건강보험 환급금 조회부터 신청·입금 확인까지 최종 가이드"
       ],
-      "h2_count": 16,
-      "h3_count": 1,
-      "korean_chars": 3503,
-      "words": 1167,
-      "internal_article_links": 17,
+      "h2_count": 20,
+      "h3_count": 3,
+      "korean_chars": 3604,
+      "words": 1242,
+      "internal_article_links": 7,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 2,
@@ -2255,7 +2253,7 @@
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3503"
+        "CONTENT_SHORT_KO:3604"
       ],
       "score": 92,
       "status": "PASS"
