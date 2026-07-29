@@ -4,9 +4,9 @@
 - PASS: 144
 - WARNING: 27
 - FAIL: 0
-- Average score: 91.0
+- Average score: 90.9
 - Thin content (<2500 Korean chars): 5
-- Short content (<4500 Korean chars): 115
+- Short content (<4500 Korean chars): 117
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -52,8 +52,10 @@
 | 88 | PASS | `articles/electricity-bill-easy-calculator-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3282 |
 | 88 | PASS | `articles/emergency-fund-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4275 |
 | 88 | PASS | `articles/government-benefits-warning.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3885 |
+| 88 | PASS | `articles/impulse-buying-control.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2744 |
 | 88 | PASS | `articles/insurance-auto-pay-discount.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4384 |
 | 88 | PASS | `articles/long-term-repair-reserve-refund-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4246 |
+| 88 | PASS | `articles/money-saving-habits.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3341 |
 | 88 | PASS | `articles/national-employment-support-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4077 |
 | 88 | PASS | `articles/property-tax-deadline.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3543 |
 | 88 | PASS | `articles/property-tax-july-2026.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4089 |
@@ -98,5 +100,3 @@
 | 92 | PASS | `articles/education-benefit-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3939 |
 | 92 | PASS | `articles/electricity-bill-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3243 |
 | 92 | PASS | `articles/electricity-discount-card-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4199 |
-| 92 | PASS | `articles/electronic-tax-invoice-penalty.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3997 |
-| 92 | PASS | `articles/elementary-school-education-support.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |

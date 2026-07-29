@@ -4,9 +4,9 @@
     "pass": 144,
     "warning": 27,
     "fail": 0,
-    "average_score": 91.0,
+    "average_score": 90.9,
     "thin_under_2500_ko": 5,
-    "short_under_4500_ko": 115,
+    "short_under_4500_ko": 117,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -2340,28 +2340,30 @@
     {
       "path": "articles/impulse-buying-control.html",
       "url": "https://savingio.com/articles/impulse-buying-control.html",
-      "title": "충동구매 줄이는 현실적인 방법, 결제 전 24시간 규칙부터 시작하세요 | 세이빙이오(Savingio)",
-      "meta_description": "충동구매를 줄이기 위해 결제 전 대기, 결제 환경 변경, 감정 소비 점검, 자유지출 한도, 반품과 미사용 기록까지 실제 생활에서 적용할 수 있는 순서를 정리했습니다.",
+      "title": "충동구매 줄이는 현실적인 방법, 결제 전 24시간 규칙부터 시작하세요 | Savingio",
+      "meta_description": "충동구매를 줄이기 위한 24시간 대기 규칙, 결제 환경 차단, 감정 소비 기록, 자유지출 한도, 반품과 재발 방지 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/impulse-buying-control.html",
       "h1": [
         "충동구매 줄이는 현실적인 방법, 결제 전 24시간 규칙부터 시작하세요"
       ],
-      "h2_count": 21,
-      "h3_count": 4,
-      "korean_chars": 6298,
-      "words": 2300,
-      "internal_article_links": 12,
+      "h2_count": 18,
+      "h3_count": 0,
+      "korean_chars": 2744,
+      "words": 1033,
+      "internal_article_links": 18,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 2,
+      "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": true,
+      "faq_schema": false,
       "issues": [],
       "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:2744"
       ],
-      "score": 96,
+      "score": 88,
       "status": "PASS"
     },
     {
@@ -2731,28 +2733,30 @@
     {
       "path": "articles/money-saving-habits.html",
       "url": "https://savingio.com/articles/money-saving-habits.html",
-      "title": "돈이 모이는 생활 습관 | 세이빙이오(Savingio)",
-      "meta_description": "월급이 들어와도 남지 않을 때 저축 자동이체, 생활비 한도, 고정비 점검, 비정기 지출 준비까지 돈이 모이는 생활 습관을 실제 실행 순서로 정리했습니다.",
+      "title": "돈이 모이는 생활 습관 | Savingio",
+      "meta_description": "월급이 들어와도 남지 않을 때 저축 자동이체, 생활비 한도, 고정비 점검, 비정기 지출 준비, 카드 사용 관리까지 돈이 모이는 생활 습관을 실행 순서로 정리했습니다.",
       "canonical": "https://savingio.com/articles/money-saving-habits.html",
       "h1": [
         "돈이 모이는 생활 습관"
       ],
-      "h2_count": 20,
+      "h2_count": 19,
       "h3_count": 0,
-      "korean_chars": 5095,
-      "words": 1804,
-      "internal_article_links": 6,
+      "korean_chars": 3341,
+      "words": 1222,
+      "internal_article_links": 18,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 2,
+      "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": true,
+      "faq_schema": false,
       "issues": [],
       "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3341"
       ],
-      "score": 96,
+      "score": 88,
       "status": "PASS"
     },
     {
