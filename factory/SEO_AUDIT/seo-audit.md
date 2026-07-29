@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
 - Articles: 171
-- PASS: 139
-- WARNING: 32
+- PASS: 141
+- WARNING: 30
 - FAIL: 0
-- Average score: 90.7
-- Thin content (<2500 Korean chars): 10
-- Short content (<4500 Korean chars): 119
+- Average score: 90.9
+- Thin content (<2500 Korean chars): 8
+- Short content (<4500 Korean chars): 117
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -20,7 +20,6 @@
 
 | Score | Status | Article | Main findings |
 |---:|---|---|---|
-| 76 | WARNING | `articles/home-water-leak-self-check.html` | THIN_CONTENT_KO:1368, ARTICLE_SCHEMA_MISSING, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/cash-advance-vs-card-loan.html` | THIN_CONTENT_KO:2434, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/elementary-school-education-support.html` | THIN_CONTENT_KO:2209, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/emergency-fund-guide.html` | THIN_CONTENT_KO:2106, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
@@ -44,7 +43,6 @@
 | 80 | WARNING | `articles/yellow-umbrella-mutual-aid-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3180 |
 | 80 | WARNING | `articles/youth-leap-account-contribution.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3372 |
 | 80 | WARNING | `articles/youth-savings-account-maintenance.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3354 |
-| 84 | WARNING | `articles/basic-pension-application-guide.html` | THIN_CONTENT_KO:2033, BREADCRUMB_SCHEMA_MISSING |
 | 84 | WARNING | `articles/card-points-cashback-guide.html` | THIN_CONTENT_KO:2291, BREADCRUMB_SCHEMA_MISSING |
 | 84 | WARNING | `articles/fan-aircon-combination-saving.html` | META_DESCRIPTION_LENGTH:37, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2929 |
 | 84 | WARNING | `articles/unemployment-benefit-checklist.html` | THIN_CONTENT_KO:2442, META_DESCRIPTION_LENGTH:49 |
@@ -75,6 +73,7 @@
 | 92 | PASS | `articles/bank-account-budgeting.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/bank-fee-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3463 |
 | 92 | PASS | `articles/basic-livelihood-discounts.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3233 |
+| 92 | PASS | `articles/basic-pension-application-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/beginner-money-management.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4014 |
 | 92 | PASS | `articles/benefit-scam-warning-2026.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/business-card-hometax-registration.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3440 |
@@ -100,3 +99,4 @@
 | 92 | PASS | `articles/earned-income-credit-status-check.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3592 |
 | 92 | PASS | `articles/education-benefit-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3939 |
 | 92 | PASS | `articles/electricity-bill-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3243 |
+| 92 | PASS | `articles/electricity-discount-card-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4199 |

@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 171,
-    "pass": 139,
-    "warning": 32,
+    "pass": 141,
+    "warning": 30,
     "fail": 0,
-    "average_score": 90.7,
-    "thin_under_2500_ko": 10,
-    "short_under_4500_ko": 119,
+    "average_score": 90.9,
+    "thin_under_2500_ko": 8,
+    "short_under_4500_ko": 117,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -335,30 +335,29 @@
       "path": "articles/basic-pension-application-guide.html",
       "url": "https://savingio.com/articles/basic-pension-application-guide.html",
       "title": "기초연금 신청 방법, 만 65세 준비서류·소득인정액·지급 확인 | Savingio",
-      "meta_description": "기초연금 신청 시기, 대상 확인, 소득인정액, 준비서류, 주민센터·복지로 신청 절차, 지급 확인과 탈락 후 재신청 방법을 정리했습니다.",
+      "meta_description": "2026년 기초연금 신청 시기, 선정기준액, 소득인정액, 준비서류, 주민센터·국민연금공단·복지로 신청 절차, 지급일, 감액, 탈락 후 이의신청까지 한 글에서 확인하세요.",
       "canonical": "https://savingio.com/articles/basic-pension-application-guide.html",
       "h1": [
         "기초연금 신청 방법, 만 65세 준비서류·소득인정액·지급 확인"
       ],
-      "h2_count": 14,
-      "h3_count": 4,
-      "korean_chars": 2033,
-      "words": 700,
-      "internal_article_links": 17,
+      "h2_count": 21,
+      "h3_count": 9,
+      "korean_chars": 5472,
+      "words": 1844,
+      "internal_article_links": 19,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 2,
+      "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": true,
-      "issues": [
-        "THIN_CONTENT_KO:2033"
-      ],
+      "faq_schema": false,
+      "issues": [],
       "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING"
       ],
-      "score": 84,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/beginner-budget-plan.html",
@@ -2233,32 +2232,29 @@
       "path": "articles/home-water-leak-self-check.html",
       "url": "https://savingio.com/articles/home-water-leak-self-check.html",
       "title": "수도 누수 자가진단, 계량기로 우리 집 누수 확인하는 방법 | 세이빙이오(Savingio)",
-      "meta_description": "수도요금이 갑자기 늘었을 때 수도계량기, 변기, 싱크대, 세탁기, 보일러와 바닥 배관을 순서대로 확인하는 누수 자가진단 방법을 정리했습니다.",
+      "meta_description": "수도요금이 갑자기 늘었을 때 수도계량기, 변기, 싱크대, 세탁기, 보일러와 바닥 배관을 순서대로 확인하는 누수 자가진단 방법과 수리·감면 준비를 안내합니다.",
       "canonical": "https://savingio.com/articles/home-water-leak-self-check.html",
       "h1": [
         "수도 누수 자가진단, 계량기로 우리 집 누수 확인하는 방법"
       ],
-      "h2_count": 12,
-      "h3_count": 0,
-      "korean_chars": 1368,
-      "words": 499,
-      "internal_article_links": 6,
+      "h2_count": 19,
+      "h3_count": 4,
+      "korean_chars": 4676,
+      "words": 1616,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 0,
-      "article_schema": false,
+      "jsonld_count": 1,
+      "article_schema": true,
       "breadcrumb_schema": false,
       "faq_schema": false,
-      "issues": [
-        "THIN_CONTENT_KO:1368"
-      ],
+      "issues": [],
       "warnings": [
-        "ARTICLE_SCHEMA_MISSING",
         "BREADCRUMB_SCHEMA_MISSING",
         "FAQ_SCHEMA_MISSING"
       ],
-      "score": 76,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/hometax-refund-status.html",
