@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 171,
-    "pass": 141,
-    "warning": 30,
+    "pass": 142,
+    "warning": 29,
     "fail": 0,
     "average_score": 90.9,
-    "thin_under_2500_ko": 8,
-    "short_under_4500_ko": 117,
+    "thin_under_2500_ko": 7,
+    "short_under_4500_ko": 116,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -2873,31 +2873,29 @@
       "path": "articles/national-pension-old-age-benefit-guide.html",
       "url": "https://savingio.com/articles/national-pension-old-age-benefit-guide.html",
       "title": "국민연금 노령연금 수급 기준, 언제부터 얼마를 받는지 확인하는 방법 | Savingio",
-      "meta_description": "국민연금 노령연금 가입기간 10년, 출생연도별 수급개시연령, 예상연금액 조회, 조기노령연금과 연기연금, 청구서류와 신청 순서를 쉽게 정리했습니다.",
+      "meta_description": "2026년 국민연금 노령연금 가입기간 10년, 출생연도별 수급개시연령, 예상연금액 조회, 조기노령연금·연기연금, 소득 감액, 신청서류와 지급일까지 한 글에서 확인하세요.",
       "canonical": "https://savingio.com/articles/national-pension-old-age-benefit-guide.html",
       "h1": [
         "국민연금 노령연금 수급 기준, 언제부터 얼마를 받는지 확인하는 방법"
       ],
-      "h2_count": 16,
-      "h3_count": 0,
-      "korean_chars": 2054,
-      "words": 696,
-      "internal_article_links": 8,
+      "h2_count": 20,
+      "h3_count": 5,
+      "korean_chars": 6125,
+      "words": 2023,
+      "internal_article_links": 20,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
       "faq_schema": false,
-      "issues": [
-        "THIN_CONTENT_KO:2054"
-      ],
+      "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
         "FAQ_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/national-pension-overpayment-refund.html",
