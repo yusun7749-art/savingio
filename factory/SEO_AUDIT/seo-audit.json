@@ -2490,17 +2490,17 @@
     {
       "path": "articles/insurance-surrender-value-check.html",
       "url": "https://savingio.com/articles/insurance-surrender-value-check.html",
-      "title": "보험 해지환급금 조회, 해지 전에 손실과 보장 공백 확인하는 순서 | Savingio",
-      "meta_description": "보험 해지환급금 조회부터 총 납입액, 대출 차감, 사라지는 보장과 해지 대안을 확인하는 순서를 정리했습니다.",
+      "title": "보험 해지환급금 조회부터 해지 결정까지, 손실·대출·보장 공백 최종 점검 | Savingio",
+      "meta_description": "보험 해지환급금 조회, 실제 입금액 계산, 보험계약대출 차감, 사라지는 보장, 감액·특약삭제·감액완납 대안, 재가입 공백까지 한 페이지에서 점검합니다.",
       "canonical": "https://savingio.com/articles/insurance-surrender-value-check.html",
       "h1": [
-        "보험 해지환급금 조회, 해지 전에 손실과 보장 공백 확인하는 순서"
+        "보험 해지환급금 조회부터 해지 결정까지, 손실·대출·보장 공백 최종 점검"
       ],
-      "h2_count": 17,
-      "h3_count": 0,
-      "korean_chars": 2618,
-      "words": 910,
-      "internal_article_links": 7,
+      "h2_count": 19,
+      "h3_count": 3,
+      "korean_chars": 4478,
+      "words": 1550,
+      "internal_article_links": 9,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 2,
@@ -2510,7 +2510,7 @@
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:2618"
+        "CONTENT_SHORT_KO:4478"
       ],
       "score": 92,
       "status": "PASS"
