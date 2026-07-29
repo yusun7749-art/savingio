@@ -809,17 +809,17 @@
     {
       "path": "articles/car-tax-check-payment-guide.html",
       "url": "https://savingio.com/articles/car-tax-check-payment-guide.html",
-      "title": "자동차세 조회·납부, 고지서가 없어도 확인하는 순서 | Savingio",
-      "meta_description": "자동차세 정기분·연납·체납·환급 여부를 위택스와 관할 지방정부에서 확인하고, 공동명의·차량 이전·말소·이중납부 상황까지 점검하는 순서를 정리했습니다.",
+      "title": "자동차세 조회·납부, 고지서 없이 체납·환급까지 확인하는 가이드 | Savingio",
+      "meta_description": "자동차세 정기분·연납·체납·환급을 위택스와 관할 지방정부에서 확인하고, 공동명의·차량 이전·말소·이중납부 상황까지 점검하는 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/car-tax-check-payment-guide.html",
       "h1": [
-        "자동차세 조회·납부, 고지서가 없어도 확인하는 순서"
+        "자동차세 조회·납부, 고지서 없이 체납·환급까지 확인하는 가이드"
       ],
-      "h2_count": 16,
-      "h3_count": 1,
-      "korean_chars": 3687,
-      "words": 1283,
-      "internal_article_links": 17,
+      "h2_count": 19,
+      "h3_count": 3,
+      "korean_chars": 3227,
+      "words": 1062,
+      "internal_article_links": 9,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 2,
@@ -829,7 +829,7 @@
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3687"
+        "CONTENT_SHORT_KO:3227"
       ],
       "score": 92,
       "status": "PASS"

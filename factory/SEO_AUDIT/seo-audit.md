@@ -86,7 +86,7 @@
 | 92 | PASS | `articles/car-insurance-mileage-refund.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:2969 |
 | 92 | PASS | `articles/car-insurance-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3213 |
 | 92 | PASS | `articles/car-tax-annual-payment.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:2938 |
-| 92 | PASS | `articles/car-tax-check-payment-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3687 |
+| 92 | PASS | `articles/car-tax-check-payment-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3227 |
 | 92 | PASS | `articles/cash-out-card-points.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3920 |
 | 92 | PASS | `articles/child-allowance-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3304 |
 | 92 | PASS | `articles/child-tax-credit-status-check.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4401 |
