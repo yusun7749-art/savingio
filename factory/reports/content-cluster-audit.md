@@ -1,6 +1,6 @@
 # Savingio MASTER CONTENT MAP — 전체 주제 그룹 분류
 
-- 전체 본문: **175개**
+- 전체 본문: **174개**
 - 2개 이상 주제 그룹: **25개**
 - 그룹 내부 중복·통합 후보 관계: **1개**
 - 단독 주제 글: **3개**
@@ -313,24 +313,23 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G022 · 통신비·구독 · 5개
-
-- `articles/cancel-unused-subscriptions.html` — 안 쓰는 구독서비스 해지하는 방법, 무료체험부터 자동결제까지 (6,958자)
-- `articles/internet-bill-discount.html` — 인터넷 요금 할인받는 방법, 약정·결합·재약정 점검 순서 (9,047자)
-- `articles/subscription-audit-checklist.html` — 구독서비스 점검 체크리스트, 한 달 10분으로 고정비 줄이기 (4,920자)
-- `articles/telecom-discount-guide.html` — 통신비 할인 총정리 (4,808자)
-- `articles/telecom-unclaimed-refund.html` — 통신비 미환급금 조회 방법 (3,573자)
-
-중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
-
-**그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
-
-## G023 · 자동차보험 · 4개
+## G022 · 자동차보험 · 4개
 
 - `articles/car-insurance-child-discount.html` — 자동차보험 자녀할인 특약, 태아·연령·증빙·중도변경 확인 가이드 (6,392자)
 - `articles/car-insurance-mileage-refund.html` — 자동차보험 마일리지 특약 환급, 사진 등록·주행거리·정산 확인 가이드 (7,145자)
 - `articles/car-insurance-overpayment-refund.html` — 자동차보험료를 더 냈을 때, 과납보험료 확인부터 환급까지 (7,379자)
 - `articles/car-insurance-saving.html` — 자동차보험료 절약, 갱신 전에 비교할 운전자 범위·특약·담보 최종 가이드 (4,627자)
+
+중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
+
+**그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
+
+## G023 · 통신비·구독 · 4개
+
+- `articles/cancel-unused-subscriptions.html` — 안 쓰는 구독서비스 해지하는 방법, 무료체험부터 자동결제까지 (6,958자)
+- `articles/internet-bill-discount.html` — 인터넷 요금 할인받는 방법, 약정·결합·재약정 점검 순서 (9,047자)
+- `articles/telecom-discount-guide.html` — 통신비 할인 총정리 (4,808자)
+- `articles/telecom-unclaimed-refund.html` — 통신비 미환급금 조회 방법 (3,573자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
 

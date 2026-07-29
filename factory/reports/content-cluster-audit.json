@@ -1,5 +1,5 @@
 {
-  "article_count": 175,
+  "article_count": 174,
   "topic_group_count": 25,
   "candidate_pair_count": 1,
   "method": "topic-first grouping; title/body similarity only ranks articles inside the same topic group",
@@ -1277,51 +1277,6 @@
     },
     {
       "group_id": "G022",
-      "topic": "통신비·구독",
-      "size": 5,
-      "articles": [
-        {
-          "path": "articles/cancel-unused-subscriptions.html",
-          "title": "안 쓰는 구독서비스 해지하는 방법, 무료체험부터 자동결제까지 | Savingio",
-          "h1": "안 쓰는 구독서비스 해지하는 방법, 무료체험부터 자동결제까지",
-          "char_count": 6958
-        },
-        {
-          "path": "articles/internet-bill-discount.html",
-          "title": "인터넷 요금 할인받는 방법, 약정·결합·재약정 점검 순서 | 세이빙이오(Savingio)",
-          "h1": "인터넷 요금 할인받는 방법, 약정·결합·재약정 점검 순서",
-          "char_count": 9047
-        },
-        {
-          "path": "articles/subscription-audit-checklist.html",
-          "title": "구독서비스 점검 체크리스트, 한 달 10분으로 고정비 줄이기 | 세이빙이오(Savingio)",
-          "h1": "구독서비스 점검 체크리스트, 한 달 10분으로 고정비 줄이기",
-          "char_count": 4920
-        },
-        {
-          "path": "articles/telecom-discount-guide.html",
-          "title": "통신비 할인 총정리 | 세이빙이오(Savingio)",
-          "h1": "통신비 할인 총정리",
-          "char_count": 4808
-        },
-        {
-          "path": "articles/telecom-unclaimed-refund.html",
-          "title": "통신비 미환급금 조회 방법 | 세이빙이오(Savingio)",
-          "h1": "통신비 미환급금 조회 방법",
-          "char_count": 3573
-        }
-      ],
-      "relationships": [],
-      "decision_status": "pending_group_review",
-      "decision_options": [
-        "대표글 통합",
-        "검색의도 분리 유지",
-        "내용 흡수 후 삭제",
-        "완전 중복 삭제"
-      ]
-    },
-    {
-      "group_id": "G023",
       "topic": "자동차보험",
       "size": 4,
       "articles": [
@@ -1348,6 +1303,45 @@
           "title": "자동차보험료 절약, 갱신 전에 비교할 운전자 범위·특약·담보 최종 가이드 | Savingio",
           "h1": "자동차보험료 절약, 갱신 전에 비교할 운전자 범위·특약·담보 최종 가이드",
           "char_count": 4627
+        }
+      ],
+      "relationships": [],
+      "decision_status": "pending_group_review",
+      "decision_options": [
+        "대표글 통합",
+        "검색의도 분리 유지",
+        "내용 흡수 후 삭제",
+        "완전 중복 삭제"
+      ]
+    },
+    {
+      "group_id": "G023",
+      "topic": "통신비·구독",
+      "size": 4,
+      "articles": [
+        {
+          "path": "articles/cancel-unused-subscriptions.html",
+          "title": "안 쓰는 구독서비스 해지하는 방법, 무료체험부터 자동결제까지 | Savingio",
+          "h1": "안 쓰는 구독서비스 해지하는 방법, 무료체험부터 자동결제까지",
+          "char_count": 6958
+        },
+        {
+          "path": "articles/internet-bill-discount.html",
+          "title": "인터넷 요금 할인받는 방법, 약정·결합·재약정 점검 순서 | 세이빙이오(Savingio)",
+          "h1": "인터넷 요금 할인받는 방법, 약정·결합·재약정 점검 순서",
+          "char_count": 9047
+        },
+        {
+          "path": "articles/telecom-discount-guide.html",
+          "title": "통신비 할인 총정리 | 세이빙이오(Savingio)",
+          "h1": "통신비 할인 총정리",
+          "char_count": 4808
+        },
+        {
+          "path": "articles/telecom-unclaimed-refund.html",
+          "title": "통신비 미환급금 조회 방법 | 세이빙이오(Savingio)",
+          "h1": "통신비 미환급금 조회 방법",
+          "char_count": 3573
         }
       ],
       "relationships": [],
