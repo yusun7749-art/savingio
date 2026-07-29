@@ -6,7 +6,7 @@
 - FAIL: 0
 - Average score: 90.6
 - Thin content (<2500 Korean chars): 7
-- Short content (<4500 Korean chars): 119
+- Short content (<4500 Korean chars): 117
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -55,11 +55,14 @@
 | 88 | PASS | `articles/building-land-property-tax.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3220 |
 | 88 | PASS | `articles/business-card-hometax-registration.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3659 |
 | 88 | PASS | `articles/business-closure-vat-order.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3294 |
+| 88 | PASS | `articles/business-phone-expense-deduction.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2590 |
 | 88 | PASS | `articles/car-insurance-saving.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3273 |
 | 88 | PASS | `articles/education-expense-vs-benefit.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3512 |
 | 88 | PASS | `articles/electricity-bill-easy-calculator-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3282 |
 | 88 | PASS | `articles/emergency-fund-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4275 |
+| 88 | PASS | `articles/general-vat-common-mistakes.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3542 |
 | 88 | PASS | `articles/government-benefits-warning.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3885 |
+| 88 | PASS | `articles/hometax-vat-sales-check.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3286 |
 | 88 | PASS | `articles/insurance-auto-pay-discount.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4384 |
 | 88 | PASS | `articles/long-term-repair-reserve-refund-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4246 |
 | 88 | PASS | `articles/monthly-budget-planner.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4348 |
@@ -72,7 +75,6 @@
 | 88 | WARNING | `articles/severance-pay-calculation-guide.html` | THIN_CONTENT_KO:2464 |
 | 88 | WARNING | `articles/telecom-unclaimed-refund.html` | THIN_CONTENT_KO:2463 |
 | 88 | PASS | `articles/traffic-fines-difference-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4212 |
-| 88 | PASS | `articles/vat-input-tax-deduction-2026.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3231 |
 | 92 | PASS | `articles/ai-side-hustles-beginner.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/aircon-dry-mode-electricity.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3653 |
 | 92 | PASS | `articles/aircon-filter-cleaning-savings.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
@@ -82,7 +84,6 @@
 | 92 | PASS | `articles/basic-livelihood-discounts.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3233 |
 | 92 | PASS | `articles/basic-pension-application-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/benefit-scam-warning-2026.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
-| 92 | PASS | `articles/business-phone-expense-deduction.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3828 |
 | 92 | PASS | `articles/business-vehicle-expense-basics.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4199 |
 | 92 | PASS | `articles/cancel-unused-subscriptions.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/car-aircon-fuel-saving.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
@@ -99,4 +100,3 @@
 | 92 | PASS | `articles/duplicate-indemnity-insurance-check.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3933 |
 | 92 | PASS | `articles/earned-income-credit-account-change.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3220 |
 | 92 | PASS | `articles/earned-income-credit-payment.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4376 |
-| 92 | PASS | `articles/earned-income-credit-status-check.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3592 |

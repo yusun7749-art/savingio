@@ -6,7 +6,7 @@
     "fail": 0,
     "average_score": 90.6,
     "thin_under_2500_ko": 7,
-    "short_under_4500_ko": 119,
+    "short_under_4500_ko": 117,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -565,28 +565,29 @@
       "path": "articles/business-phone-expense-deduction.html",
       "url": "https://savingio.com/articles/business-phone-expense-deduction.html",
       "title": "사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리 | Savingio",
-      "meta_description": "개인사업자가 휴대전화 요금, 인터넷, 단말기 할부금과 가족 명의 회선을 비용처리할 때 필요한 업무 관련성, 증빙, 부가세 공제와 장부 정리 방법을 안내합니다.",
+      "meta_description": "개인사업자가 휴대전화 요금, 인터넷, 단말기 대금과 가족 명의 회선을 비용처리할 때 필요한 업무 관련성, 사용 비율, 적격증빙, 부가세 공제와 장부 정리 순서를 안내합니다.",
       "canonical": "https://savingio.com/articles/business-phone-expense-deduction.html",
       "h1": [
         "사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리"
       ],
-      "h2_count": 18,
+      "h2_count": 19,
       "h3_count": 0,
-      "korean_chars": 3828,
-      "words": 1334,
-      "internal_article_links": 16,
+      "korean_chars": 2590,
+      "words": 897,
+      "internal_article_links": 9,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 2,
+      "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": true,
+      "faq_schema": false,
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3828"
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:2590"
       ],
-      "score": 92,
+      "score": 88,
       "status": "PASS"
     },
     {
@@ -1650,15 +1651,15 @@
       "path": "articles/electronic-tax-invoice-penalty.html",
       "url": "https://savingio.com/articles/electronic-tax-invoice-penalty.html",
       "title": "전자세금계산서 가산세, 지연발급·미발급·미전송 차이 | Savingio",
-      "meta_description": "2026년 기준 전자세금계산서 지연발급, 미발급, 종이발급, 지연전송, 미전송 가산세율과 수정세금계산서 처리 순서를 정리했습니다.",
+      "meta_description": "2026년 기준 전자세금계산서 지연발급, 미발급, 종이발급, 지연전송, 미전송 가산세율과 수정세금계산서 처리 순서를 실제 사례와 함께 정리했습니다.",
       "canonical": "https://savingio.com/articles/electronic-tax-invoice-penalty.html",
       "h1": [
         "전자세금계산서 가산세, 지연발급·미발급·미전송 차이"
       ],
-      "h2_count": 18,
-      "h3_count": 5,
-      "korean_chars": 3997,
-      "words": 1305,
+      "h2_count": 20,
+      "h3_count": 10,
+      "korean_chars": 5782,
+      "words": 1873,
       "internal_article_links": 7,
       "images": 0,
       "missing_alt": 0,
@@ -1668,10 +1669,9 @@
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3997"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 92,
+      "score": 96,
       "status": "PASS"
     },
     {
@@ -1991,23 +1991,24 @@
       "h1": [
         "일반과세자 부가가치세 신고에서 자주 하는 실수 12가지"
       ],
-      "h2_count": 17,
-      "h3_count": 12,
-      "korean_chars": 3318,
-      "words": 1084,
-      "internal_article_links": 6,
+      "h2_count": 19,
+      "h3_count": 15,
+      "korean_chars": 3542,
+      "words": 1172,
+      "internal_article_links": 9,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 2,
+      "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": true,
+      "faq_schema": false,
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3318"
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3542"
       ],
-      "score": 92,
+      "score": 88,
       "status": "PASS"
     },
     {
@@ -2298,23 +2299,24 @@
       "h1": [
         "홈택스 부가가치세 매출자료 확인 방법, 카드·현금영수증 누락까지 점검하세요"
       ],
-      "h2_count": 15,
-      "h3_count": 0,
-      "korean_chars": 2626,
-      "words": 841,
-      "internal_article_links": 7,
+      "h2_count": 18,
+      "h3_count": 4,
+      "korean_chars": 3286,
+      "words": 1047,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 2,
+      "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": true,
+      "faq_schema": false,
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:2626"
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3286"
       ],
-      "score": 92,
+      "score": 88,
       "status": "PASS"
     },
     {
@@ -4442,29 +4444,27 @@
       "path": "articles/vat-input-tax-deduction-2026.html",
       "url": "https://savingio.com/articles/vat-input-tax-deduction-2026.html",
       "title": "부가가치세 매입세액 공제·불공제 판단법 2026 | Savingio",
-      "meta_description": "사업용 카드, 세금계산서, 현금영수증, 차량비, 접대비, 과세·면세 공통비용까지 부가가치세 매입세액 공제 여부를 실제 신고 순서대로 확인합니다.",
+      "meta_description": "사업용 카드, 세금계산서, 현금영수증, 차량비, 접대비, 공통매입세액까지 2026년 부가가치세 매입세액 공제 여부를 실제 신고 순서대로 판단합니다.",
       "canonical": "https://savingio.com/articles/vat-input-tax-deduction-2026.html",
       "h1": [
         "부가가치세 매입세액 공제·불공제 판단법 2026"
       ],
-      "h2_count": 20,
-      "h3_count": 12,
-      "korean_chars": 3231,
-      "words": 1067,
-      "internal_article_links": 11,
+      "h2_count": 21,
+      "h3_count": 15,
+      "korean_chars": 6015,
+      "words": 1910,
+      "internal_article_links": 12,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 1,
+      "jsonld_count": 2,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": false,
+      "faq_schema": true,
       "issues": [],
       "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING",
-        "FAQ_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3231"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 88,
+      "score": 96,
       "status": "PASS"
     },
     {
