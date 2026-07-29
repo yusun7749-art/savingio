@@ -1,0 +1,953 @@
+{
+  "summary": {
+    "suspected_articles": 26,
+    "pairs": 90,
+    "clusters": 6,
+    "merge_candidates": 0,
+    "manual_review": 0,
+    "keep_both": 90,
+    "note": "자동 삭제는 하지 않으며 검색 의도와 URL 가치 확인 후 확정한다."
+  },
+  "clusters": [
+    [
+      "articles/benefit-scam-warning-2026.html",
+      "articles/government-benefits-warning.html"
+    ],
+    [
+      "articles/education-expense-vs-benefit.html",
+      "articles/elementary-school-education-support.html"
+    ],
+    [
+      "articles/property-tax-bill-checklist-2026.html",
+      "articles/property-tax-deadline.html"
+    ],
+    [
+      "articles/property-tax-july-2026.html",
+      "articles/property-tax-july-september-difference.html"
+    ],
+    [
+      "articles/refrigerator-summer-electricity-saving.html",
+      "articles/revolving-cancellation-payoff.html",
+      "articles/savings-maturity-auto-renewal.html",
+      "articles/single-parent-support-benefits.html",
+      "articles/summer-gas-bill-hot-water-saving.html",
+      "articles/summer-water-bill-spike-check.html",
+      "articles/tax-credit-late-application.html",
+      "articles/telecom-discount-guide.html",
+      "articles/travel-insurance-comparison.html",
+      "articles/unemployment-benefit-job-search.html",
+      "articles/wetax-electronic-billing.html",
+      "articles/wetax-payment-history.html",
+      "articles/yellow-umbrella-mutual-aid-guide.html",
+      "articles/youth-leap-account-contribution.html",
+      "articles/youth-savings-account-maintenance.html",
+      "articles/youth-support-programs.html"
+    ],
+    [
+      "articles/rental-contract-reporting-guide.html",
+      "articles/youth-housing-benefit-separate-payment.html"
+    ]
+  ],
+  "decisions": [
+    {
+      "a": "articles/wetax-electronic-billing.html",
+      "b": "articles/wetax-payment-history.html",
+      "body_score": 0.9446,
+      "title_overlap": 0.2,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/youth-leap-account-contribution.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "body_score": 0.9011,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/single-parent-support-benefits.html",
+      "b": "articles/youth-support-programs.html",
+      "body_score": 0.8655,
+      "title_overlap": 0.1,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/travel-insurance-comparison.html",
+      "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "body_score": 0.862,
+      "title_overlap": 0.1667,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/youth-savings-account-maintenance.html",
+      "b": "articles/youth-support-programs.html",
+      "body_score": 0.8484,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/youth-leap-account-contribution.html",
+      "b": "articles/youth-support-programs.html",
+      "body_score": 0.8416,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/savings-maturity-auto-renewal.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "body_score": 0.8376,
+      "title_overlap": 0.1667,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/single-parent-support-benefits.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "body_score": 0.8316,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/tax-credit-late-application.html",
+      "b": "articles/youth-support-programs.html",
+      "body_score": 0.8241,
+      "title_overlap": 0.0909,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/single-parent-support-benefits.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "body_score": 0.8235,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/single-parent-support-benefits.html",
+      "b": "articles/tax-credit-late-application.html",
+      "body_score": 0.8221,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/summer-gas-bill-hot-water-saving.html",
+      "b": "articles/summer-water-bill-spike-check.html",
+      "body_score": 0.8208,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/wetax-payment-history.html",
+      "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "body_score": 0.8195,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/tax-credit-late-application.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "body_score": 0.8156,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/tax-credit-late-application.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "body_score": 0.8143,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/wetax-payment-history.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "body_score": 0.7972,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/tax-credit-late-application.html",
+      "b": "articles/wetax-electronic-billing.html",
+      "body_score": 0.7964,
+      "title_overlap": 0.1429,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/wetax-payment-history.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "body_score": 0.7952,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "body_score": 0.793,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "body_score": 0.7916,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/revolving-cancellation-payoff.html",
+      "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "body_score": 0.7858,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/refrigerator-summer-electricity-saving.html",
+      "b": "articles/summer-water-bill-spike-check.html",
+      "body_score": 0.7855,
+      "title_overlap": 0.125,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/wetax-electronic-billing.html",
+      "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "body_score": 0.7853,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/wetax-electronic-billing.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "body_score": 0.7756,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/unemployment-benefit-job-search.html",
+      "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "body_score": 0.7747,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/travel-insurance-comparison.html",
+      "b": "articles/wetax-payment-history.html",
+      "body_score": 0.7739,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/wetax-electronic-billing.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "body_score": 0.7737,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/savings-maturity-auto-renewal.html",
+      "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "body_score": 0.7732,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/revolving-cancellation-payoff.html",
+      "b": "articles/wetax-payment-history.html",
+      "body_score": 0.7727,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/unemployment-benefit-job-search.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "body_score": 0.7725,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/unemployment-benefit-job-search.html",
+      "b": "articles/wetax-payment-history.html",
+      "body_score": 0.7711,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/unemployment-benefit-job-search.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "body_score": 0.7706,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/savings-maturity-auto-renewal.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "body_score": 0.7695,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/refrigerator-summer-electricity-saving.html",
+      "b": "articles/summer-gas-bill-hot-water-saving.html",
+      "body_score": 0.769,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/travel-insurance-comparison.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "body_score": 0.7669,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/revolving-cancellation-payoff.html",
+      "b": "articles/travel-insurance-comparison.html",
+      "body_score": 0.7658,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/travel-insurance-comparison.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "body_score": 0.7632,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/summer-gas-bill-hot-water-saving.html",
+      "b": "articles/telecom-discount-guide.html",
+      "body_score": 0.761,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/savings-maturity-auto-renewal.html",
+      "b": "articles/wetax-payment-history.html",
+      "body_score": 0.7586,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/travel-insurance-comparison.html",
+      "b": "articles/unemployment-benefit-job-search.html",
+      "body_score": 0.7579,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/summer-water-bill-spike-check.html",
+      "b": "articles/telecom-discount-guide.html",
+      "body_score": 0.754,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/wetax-electronic-billing.html",
+      "b": "articles/youth-support-programs.html",
+      "body_score": 0.7531,
+      "title_overlap": 0.0909,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/single-parent-support-benefits.html",
+      "b": "articles/wetax-payment-history.html",
+      "body_score": 0.7513,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/tax-credit-late-application.html",
+      "b": "articles/wetax-payment-history.html",
+      "body_score": 0.7511,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/wetax-payment-history.html",
+      "b": "articles/youth-support-programs.html",
+      "body_score": 0.7496,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/revolving-cancellation-payoff.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "body_score": 0.7495,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/revolving-cancellation-payoff.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "body_score": 0.748,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/single-parent-support-benefits.html",
+      "b": "articles/wetax-electronic-billing.html",
+      "body_score": 0.748,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/unemployment-benefit-job-search.html",
+      "b": "articles/wetax-electronic-billing.html",
+      "body_score": 0.7464,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/single-parent-support-benefits.html",
+      "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "body_score": 0.7455,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/savings-maturity-auto-renewal.html",
+      "b": "articles/unemployment-benefit-job-search.html",
+      "body_score": 0.7437,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/travel-insurance-comparison.html",
+      "b": "articles/wetax-electronic-billing.html",
+      "body_score": 0.7428,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/savings-maturity-auto-renewal.html",
+      "b": "articles/travel-insurance-comparison.html",
+      "body_score": 0.7419,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/revolving-cancellation-payoff.html",
+      "b": "articles/wetax-electronic-billing.html",
+      "body_score": 0.7411,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "b": "articles/youth-support-programs.html",
+      "body_score": 0.7406,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/rental-contract-reporting-guide.html",
+      "b": "articles/youth-housing-benefit-separate-payment.html",
+      "body_score": 0.7388,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/tax-credit-late-application.html",
+      "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "body_score": 0.7382,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/telecom-discount-guide.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "body_score": 0.7375,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/revolving-cancellation-payoff.html",
+      "b": "articles/savings-maturity-auto-renewal.html",
+      "body_score": 0.7367,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/telecom-discount-guide.html",
+      "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "body_score": 0.7362,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/telecom-discount-guide.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "body_score": 0.7347,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/unemployment-benefit-job-search.html",
+      "b": "articles/youth-support-programs.html",
+      "body_score": 0.7341,
+      "title_overlap": 0.0909,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/revolving-cancellation-payoff.html",
+      "b": "articles/single-parent-support-benefits.html",
+      "body_score": 0.734,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/revolving-cancellation-payoff.html",
+      "b": "articles/unemployment-benefit-job-search.html",
+      "body_score": 0.7324,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/savings-maturity-auto-renewal.html",
+      "b": "articles/wetax-electronic-billing.html",
+      "body_score": 0.7307,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/benefit-scam-warning-2026.html",
+      "b": "articles/government-benefits-warning.html",
+      "body_score": 0.7282,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/savings-maturity-auto-renewal.html",
+      "b": "articles/telecom-discount-guide.html",
+      "body_score": 0.7272,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/telecom-discount-guide.html",
+      "b": "articles/wetax-payment-history.html",
+      "body_score": 0.7263,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/tax-credit-late-application.html",
+      "b": "articles/unemployment-benefit-job-search.html",
+      "body_score": 0.7233,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/single-parent-support-benefits.html",
+      "b": "articles/unemployment-benefit-job-search.html",
+      "body_score": 0.7222,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/single-parent-support-benefits.html",
+      "b": "articles/travel-insurance-comparison.html",
+      "body_score": 0.7199,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/savings-maturity-auto-renewal.html",
+      "b": "articles/single-parent-support-benefits.html",
+      "body_score": 0.7186,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/savings-maturity-auto-renewal.html",
+      "b": "articles/youth-support-programs.html",
+      "body_score": 0.7172,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/education-expense-vs-benefit.html",
+      "b": "articles/elementary-school-education-support.html",
+      "body_score": 0.7164,
+      "title_overlap": 0.2,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/summer-water-bill-spike-check.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "body_score": 0.7163,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/summer-water-bill-spike-check.html",
+      "b": "articles/wetax-payment-history.html",
+      "body_score": 0.7156,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/summer-water-bill-spike-check.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "body_score": 0.7155,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/travel-insurance-comparison.html",
+      "b": "articles/youth-support-programs.html",
+      "body_score": 0.7149,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/telecom-discount-guide.html",
+      "b": "articles/travel-insurance-comparison.html",
+      "body_score": 0.7143,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/summer-gas-bill-hot-water-saving.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "body_score": 0.7133,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/summer-gas-bill-hot-water-saving.html",
+      "b": "articles/wetax-payment-history.html",
+      "body_score": 0.7131,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/property-tax-bill-checklist-2026.html",
+      "b": "articles/property-tax-deadline.html",
+      "body_score": 0.7125,
+      "title_overlap": 0.1667,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/summer-gas-bill-hot-water-saving.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "body_score": 0.7125,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/summer-water-bill-spike-check.html",
+      "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "body_score": 0.7122,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/telecom-discount-guide.html",
+      "b": "articles/unemployment-benefit-job-search.html",
+      "body_score": 0.7113,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/summer-gas-bill-hot-water-saving.html",
+      "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "body_score": 0.7097,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/property-tax-july-2026.html",
+      "b": "articles/property-tax-july-september-difference.html",
+      "body_score": 0.7092,
+      "title_overlap": 0.1,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/tax-credit-late-application.html",
+      "b": "articles/travel-insurance-comparison.html",
+      "body_score": 0.7089,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/refrigerator-summer-electricity-saving.html",
+      "b": "articles/telecom-discount-guide.html",
+      "body_score": 0.7081,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    },
+    {
+      "a": "articles/savings-maturity-auto-renewal.html",
+      "b": "articles/tax-credit-late-application.html",
+      "body_score": 0.7054,
+      "title_overlap": 0.0,
+      "decision": "KEEP_BOTH",
+      "recommended_keep": "",
+      "recommended_retire": "",
+      "reason": "공통 템플릿 영향 가능성이 높고 제목 검색 의도가 구분됨"
+    }
+  ]
+}

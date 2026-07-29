@@ -1,0 +1,122 @@
+{
+  "summary": {
+    "article_count": 171,
+    "minimum_characters": 4200,
+    "keep_4200_or_more": 155,
+    "review_under_4200": 16
+  },
+  "articles_under_4200": [
+    {
+      "path": "articles/spending-habits-change.html",
+      "h1": "소비 습관 바꾸는 방법, 지출을 참기보다 구조를 바꾸세요",
+      "char_count": 3025,
+      "needs_review": true,
+      "status": "재점검"
+    },
+    {
+      "path": "articles/card-points-cashback-guide.html",
+      "h1": "카드 포인트와 캐시백 활용법, 혜택보다 먼저 확인할 것",
+      "char_count": 3322,
+      "needs_review": true,
+      "status": "재점검"
+    },
+    {
+      "path": "articles/impulse-buying-control.html",
+      "h1": "충동구매 줄이는 현실적인 방법, 결제 전 24시간 규칙부터 시작하세요",
+      "char_count": 3459,
+      "needs_review": true,
+      "status": "재점검"
+    },
+    {
+      "path": "articles/cash-advance-vs-card-loan.html",
+      "h1": "현금서비스와 카드론 차이, 급하게 돈이 필요할 때 먼저 확인할 것",
+      "char_count": 3472,
+      "needs_review": true,
+      "status": "재점검"
+    },
+    {
+      "path": "articles/unemployment-benefit-checklist.html",
+      "h1": "실업급여 신청 전 확인할 조건과 준비서류 체크리스트",
+      "char_count": 3491,
+      "needs_review": true,
+      "status": "재점검"
+    },
+    {
+      "path": "articles/severance-pay-calculation-guide.html",
+      "h1": "퇴직금 계산 방법, 평균임금과 재직기간을 확인하는 순서",
+      "char_count": 3515,
+      "needs_review": true,
+      "status": "재점검"
+    },
+    {
+      "path": "articles/telecom-unclaimed-refund.html",
+      "h1": "통신비 미환급금 조회 방법",
+      "char_count": 3573,
+      "needs_review": true,
+      "status": "재점검"
+    },
+    {
+      "path": "articles/money-saving-habits.html",
+      "h1": "돈이 모이는 생활 습관",
+      "char_count": 3576,
+      "needs_review": true,
+      "status": "재점검"
+    },
+    {
+      "path": "articles/weekly-holiday-pay-guide.html",
+      "h1": "주휴수당 조건과 계산 방법, 내가 받을 수 있는지 확인하는 순서",
+      "char_count": 3657,
+      "needs_review": true,
+      "status": "재점검"
+    },
+    {
+      "path": "articles/business-phone-expense-deduction.html",
+      "h1": "사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리",
+      "char_count": 3710,
+      "needs_review": true,
+      "status": "재점검"
+    },
+    {
+      "path": "articles/government24-benefit-check.html",
+      "h1": "정부24 보조금24 혜택 조회 방법, 나와 가족 지원금 찾기",
+      "char_count": 3724,
+      "needs_review": true,
+      "status": "재점검"
+    },
+    {
+      "path": "articles/hometax-refund-status.html",
+      "h1": "홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요",
+      "char_count": 3814,
+      "needs_review": true,
+      "status": "재점검"
+    },
+    {
+      "path": "articles/government-benefit-alert-setup.html",
+      "h1": "정부24 혜택알리미 설정 방법, 맞춤 혜택과 알림 수신 관리",
+      "char_count": 3962,
+      "needs_review": true,
+      "status": "재점검"
+    },
+    {
+      "path": "articles/student-loan-repayment-guide.html",
+      "h1": "학자금대출 상환 방법과 부담 줄이는 순서",
+      "char_count": 3973,
+      "needs_review": true,
+      "status": "재점검"
+    },
+    {
+      "path": "articles/salary-slip-check-guide.html",
+      "h1": "급여명세서 확인 방법, 월급에서 빠진 돈을 항목별로 보는 순서",
+      "char_count": 4068,
+      "needs_review": true,
+      "status": "재점검"
+    },
+    {
+      "path": "articles/government-support-calendar.html",
+      "h1": "정부지원금 신청 일정 관리 방법, 마감일·갱신일 놓치지 않는 달력 만들기",
+      "char_count": 4129,
+      "needs_review": true,
+      "status": "재점검"
+    }
+  ]
+}
