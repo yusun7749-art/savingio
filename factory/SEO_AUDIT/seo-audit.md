@@ -79,7 +79,7 @@
 | 92 | PASS | `articles/business-card-hometax-registration.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3440 |
 | 92 | PASS | `articles/business-closure-vat-order.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4015 |
 | 92 | PASS | `articles/business-phone-expense-deduction.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3828 |
-| 92 | PASS | `articles/business-vehicle-expense-basics.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4199 |
+| 92 | PASS | `articles/business-vehicle-expense-basics.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3508 |
 | 92 | PASS | `articles/cancel-unused-subscriptions.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/car-aircon-fuel-saving.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/car-insurance-child-discount.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3031 |

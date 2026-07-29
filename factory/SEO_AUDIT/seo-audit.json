@@ -586,17 +586,17 @@
     {
       "path": "articles/business-vehicle-expense-basics.html",
       "url": "https://savingio.com/articles/business-vehicle-expense-basics.html",
-      "title": "사업용 차량 비용처리, 증빙부터 운행기록부까지 확인하는 순서 | Savingio",
-      "meta_description": "개인사업자와 법인이 사업용 차량 구입비·리스료·렌트료·유류비·보험료·수리비를 비용처리할 때 확인해야 할 차량 유형, 업무전용보험, 운행기록부, 부가세와 증빙 관리 순서를 정리했습니다.",
+      "title": "사업용 차량 비용처리, 보험·운행기록부·증빙 확인 가이드 | Savingio",
+      "meta_description": "개인사업자와 법인의 사업용 차량 구입·리스·렌트, 유류비·보험료·수선비, 업무전용자동차보험, 운행기록부, 부가세와 증빙 관리 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/business-vehicle-expense-basics.html",
       "h1": [
-        "사업용 차량 비용처리, 증빙부터 운행기록부까지 확인하는 순서"
+        "사업용 차량 비용처리, 보험·운행기록부·증빙 확인 가이드"
       ],
-      "h2_count": 17,
+      "h2_count": 19,
       "h3_count": 3,
-      "korean_chars": 4199,
-      "words": 1342,
-      "internal_article_links": 17,
+      "korean_chars": 3508,
+      "words": 1131,
+      "internal_article_links": 9,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 2,
@@ -606,7 +606,7 @@
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:4199"
+        "CONTENT_SHORT_KO:3508"
       ],
       "score": 92,
       "status": "PASS"
