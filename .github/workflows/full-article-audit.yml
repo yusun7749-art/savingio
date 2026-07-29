@@ -1,0 +1,36 @@
+name: Full Article Audit
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'factory/full_article_audit.py'
+      - '.github/workflows/full-article-audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run full article audit
+        run: python factory/full_article_audit.py
+      - name: Commit audit reports
+        run: |
+          if git diff --quiet; then
+            echo 'No report changes.'
+            exit 0
+          fi
+          git config user.name 'savingio-audit-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add factory/FULL_ARTICLE_AUDIT
+          git commit -m 'Audit: classify all articles by completion, length, duplicates and broken links [skip ci]'
+          git push
