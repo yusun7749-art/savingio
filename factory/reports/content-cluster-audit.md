@@ -2,7 +2,7 @@
 
 - 전체 본문: **177개**
 - 2개 이상 주제 그룹: **25개**
-- 그룹 내부 중복·통합 후보 관계: **1개**
+- 그룹 내부 중복·통합 후보 관계: **2개**
 - 단독 주제 글: **3개**
 
 > 삭제나 통합을 실행하지 않은 선분류 단계입니다. 각 그룹 전체를 한 번에 놓고 대표글·유지·흡수·삭제를 결정합니다.
@@ -328,11 +328,12 @@
 ## G023 · 건강보험·의료비 환급 · 4개
 
 - `articles/emergency-medical-support.html` — 긴급복지 의료지원 신청 방법 (9,379자)
-- `articles/health-insurance-out-of-pocket-refund.html` — 본인부담상한제 환급금, 대상·제외항목·신청 순서 (4,960자)
+- `articles/health-insurance-out-of-pocket-refund.html` — 본인부담상한제 환급금, 대상·제외항목·신청·입금 확인 가이드 (5,054자)
 - `articles/health-insurance-refund-guide.html` — 건강보험 환급금 조회부터 신청·입금 확인까지 최종 가이드 (5,138자)
 - `articles/medical-bill-negotiation.html` — 병원비가 너무 많이 나왔을 때 확인·정정·환불 요청 방법 (9,613자)
 
-중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
+중복·통합 우선 검토 관계:
+- **merge_candidate** · 제목 0.40 · 본문 0.56 — `articles/health-insurance-out-of-pocket-refund.html` ↔ `articles/health-insurance-refund-guide.html`
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 

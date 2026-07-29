@@ -1,7 +1,7 @@
 {
   "article_count": 177,
   "topic_group_count": 25,
-  "candidate_pair_count": 1,
+  "candidate_pair_count": 2,
   "method": "topic-first grouping; title/body similarity only ranks articles inside the same topic group",
   "groups": [
     {
@@ -1333,9 +1333,9 @@
         },
         {
           "path": "articles/health-insurance-out-of-pocket-refund.html",
-          "title": "본인부담상한제 환급금, 대상·제외항목·신청 순서 | Savingio",
-          "h1": "본인부담상한제 환급금, 대상·제외항목·신청 순서",
-          "char_count": 4960
+          "title": "본인부담상한제 환급금, 대상·제외항목·신청·입금 확인 가이드 | Savingio",
+          "h1": "본인부담상한제 환급금, 대상·제외항목·신청·입금 확인 가이드",
+          "char_count": 5054
         },
         {
           "path": "articles/health-insurance-refund-guide.html",
@@ -1350,7 +1350,15 @@
           "char_count": 9613
         }
       ],
-      "relationships": [],
+      "relationships": [
+        {
+          "a": "articles/health-insurance-out-of-pocket-refund.html",
+          "b": "articles/health-insurance-refund-guide.html",
+          "classification": "merge_candidate",
+          "title_similarity": 0.4,
+          "body_similarity": 0.5634
+        }
+      ],
       "decision_status": "pending_group_review",
       "decision_options": [
         "대표글 통합",
