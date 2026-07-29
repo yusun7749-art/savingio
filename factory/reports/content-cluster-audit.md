@@ -328,7 +328,7 @@
 
 ## G023 · 통신비·구독 · 5개
 
-- `articles/cancel-unused-subscriptions.html` — 안 쓰는 구독서비스 해지하는 방법, 무료체험부터 자동결제까지 (6,062자)
+- `articles/cancel-unused-subscriptions.html` — 안 쓰는 구독서비스 해지하는 방법, 무료체험부터 자동결제까지 (6,958자)
 - `articles/internet-bill-discount.html` — 인터넷 요금 할인받는 방법, 약정·결합·재약정 점검 순서 (9,047자)
 - `articles/subscription-audit-checklist.html` — 구독서비스 점검 체크리스트, 한 달 10분으로 고정비 줄이기 (4,920자)
 - `articles/telecom-discount-guide.html` — 통신비 할인 총정리 (4,808자)
