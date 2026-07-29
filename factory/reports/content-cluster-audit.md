@@ -75,7 +75,7 @@
 
 - `articles/bank-account-budgeting.html` — 통장 나누기로 예산 관리하기, 월급날부터 자동으로 돈을 나누는 방법 (6,979자)
 - `articles/beginner-budget-plan.html` — 초보자를 위한 예산 계획, 월급이 어디로 사라지는지 찾는 순서 (5,987자)
-- `articles/beginner-money-management.html` — 처음 시작하는 돈 관리 방법, 월급을 지키는 순서 (5,816자)
+- `articles/beginner-money-management.html` — 처음 시작하는 돈 관리 방법, 월급을 지키는 순서 (5,292자)
 - `articles/budget-app-guide.html` — 가계부 앱 고르는 방법, 자동연동보다 중요한 기준 (3,656자)
 - `articles/emergency-fund-guide.html` — 비상금 얼마가 적당할까? 생활비 1개월부터 만드는 현실적인 순서 (6,231자)
 - `articles/impulse-buying-control.html` — 충동구매 줄이는 현실적인 방법, 결제 전 24시간 규칙부터 시작하세요 (3,459자)
