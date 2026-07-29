@@ -259,7 +259,7 @@
 - `articles/emergency-medical-support.html` — 긴급복지 의료지원 신청 방법 (9,379자)
 - `articles/health-insurance-out-of-pocket-refund.html` — 본인부담상한제 환급금, 대상·제외항목·신청 순서 (4,960자)
 - `articles/health-insurance-overpayment-refund.html` — 건강보험료 과오납 환급, 이중납부부터 자격변동까지 확인하는 순서 (3,975자)
-- `articles/health-insurance-refund-guide.html` — 건강보험 환급금 조회, 과오납과 본인부담상한액을 구분하는 순서 (4,925자)
+- `articles/health-insurance-refund-guide.html` — 건강보험 환급금 조회부터 신청·입금 확인까지 최종 가이드 (5,138자)
 - `articles/medical-bill-negotiation.html` — 병원비가 너무 많이 나왔을 때 확인·정정·환불 요청 방법 (9,613자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
