@@ -340,7 +340,7 @@
 ## G024 · 자동차보험 · 4개
 
 - `articles/car-insurance-child-discount.html` — 자동차보험 자녀할인 특약, 태아·연령·증빙·중도변경 확인 가이드 (4,332자)
-- `articles/car-insurance-mileage-refund.html` — 자동차보험 마일리지 특약 환급, 사진 등록부터 정산까지 확인하는 순서 (4,565자)
+- `articles/car-insurance-mileage-refund.html` — 자동차보험 마일리지 특약 환급, 사진 등록·주행거리·정산 확인 가이드 (4,248자)
 - `articles/car-insurance-overpayment-refund.html` — 자동차보험료를 더 냈을 때, 과납보험료 확인부터 환급까지 (7,389자)
 - `articles/car-insurance-saving.html` — 자동차보험료 절약, 갱신 전에 비교할 운전자 범위·특약·담보 최종 가이드 (4,627자)
 
