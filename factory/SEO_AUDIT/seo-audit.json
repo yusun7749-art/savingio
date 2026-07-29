@@ -4495,28 +4495,29 @@
     {
       "path": "articles/vat-sales-omission-check-2026.html",
       "url": "https://savingio.com/articles/vat-sales-omission-check-2026.html",
-      "title": "부가가치세 신고 전 매출 누락 확인 방법 | 세이빙이오(Savingio)",
-      "meta_description": "카드매출·현금영수증·전자세금계산서·배달앱·오픈마켓 정산자료를 같은 기간으로 맞춰 매출 누락과 중복을 줄이는 실무 점검법입니다.",
+      "title": "부가가치세 신고 전 매출 누락 확인 방법 | Savingio",
+      "meta_description": "전자세금계산서·카드·현금영수증·계좌·배달앱·오픈마켓 정산자료를 같은 기간으로 맞춰 부가가치세 매출 누락과 중복을 찾는 실무 점검 순서입니다.",
       "canonical": "https://savingio.com/articles/vat-sales-omission-check-2026.html",
       "h1": [
         "부가가치세 신고 전 매출 누락 확인 방법"
       ],
-      "h2_count": 14,
-      "h3_count": 3,
-      "korean_chars": 3671,
-      "words": 1281,
-      "internal_article_links": 39,
+      "h2_count": 19,
+      "h3_count": 4,
+      "korean_chars": 3540,
+      "words": 1147,
+      "internal_article_links": 11,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:3671"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3540"
       ],
-      "score": 96,
+      "score": 92,
       "status": "PASS"
     },
     {
