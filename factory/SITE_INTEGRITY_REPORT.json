@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3296,
-  "references_scanned": 61788,
+  "references_scanned": 61793,
   "counts": {
-    "broken_references": 3131,
+    "broken_references": 3137,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 7,
@@ -4884,6 +4884,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/child-care-service-guide.html",
+      "expected": [
+        "articles/child-care-service-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/childcare-support-guide.html",
       "expected": [
         "articles/childcare-support-guide.html"
@@ -4926,6 +4933,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/credit-card-revolving-guide.html",
+      "expected": [
+        "articles/credit-card-revolving-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/credit-information-check.html",
       "expected": [
         "articles/credit-information-check.html"
@@ -4957,6 +4971,13 @@
       "reference": "/articles/daycare-fee-support-guide.html",
       "expected": [
         "articles/daycare-fee-support-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/debt-adjustment-guide.html",
+      "expected": [
+        "articles/debt-adjustment-guide.html"
       ]
     },
     {
@@ -5020,6 +5041,13 @@
       "reference": "/articles/electricity-guide.html",
       "expected": [
         "articles/electricity-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/elementary-after-school-care.html",
+      "expected": [
+        "articles/elementary-after-school-care.html"
       ]
     },
     {
@@ -5234,6 +5262,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/household-budget-guide.html",
+      "expected": [
+        "articles/household-budget-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/household-debt-repayment-plan.html",
       "expected": [
         "articles/household-debt-repayment-plan.html"
@@ -5321,6 +5356,13 @@
       "reference": "/articles/lease-contract-report.html",
       "expected": [
         "articles/lease-contract-report.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/loan-interest-reduction-guide.html",
+      "expected": [
+        "articles/loan-interest-reduction-guide.html"
       ]
     },
     {
