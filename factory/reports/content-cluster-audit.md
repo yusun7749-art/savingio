@@ -2,7 +2,7 @@
 
 - 전체 본문: **177개**
 - 2개 이상 주제 그룹: **25개**
-- 그룹 내부 중복·통합 후보 관계: **2개**
+- 그룹 내부 중복·통합 후보 관계: **1개**
 - 단독 주제 글: **3개**
 
 > 삭제나 통합을 실행하지 않은 선분류 단계입니다. 각 그룹 전체를 한 번에 놓고 대표글·유지·흡수·삭제를 결정합니다.
@@ -135,7 +135,7 @@
 
 - `articles/business-card-hometax-registration.html` — 사업용 신용카드 홈택스 등록 방법, 등록 뒤 매입내역까지 확인하는 순서 (4,870자)
 - `articles/business-phone-expense-deduction.html` — 사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리 (5,479자)
-- `articles/business-vehicle-expense-basics.html` — 사업용 차량 비용처리, 보험·운행기록부·증빙 확인 가이드 (4,985자)
+- `articles/business-vehicle-expense-basics.html` — 사업용 차량 비용처리, 증빙부터 운행기록부까지 확인하는 순서 (5,920자)
 - `articles/small-business-closure-support.html` — 폐업 소상공인 원스톱 지원 확인 2026 (6,465자)
 - `articles/small-business-delivery-support.html` — 소상공인 배달비 지원사업 찾는 방법 (7,596자)
 - `articles/small-business-policy-fund.html` — 소상공인 정책자금 확인·신청 순서 2026 (6,441자)
@@ -166,7 +166,7 @@
 - `articles/car-tax-check-payment-guide.html` — 자동차세 조회·납부, 고지서 없이 체납·환급까지 확인하는 가이드 (4,557자)
 - `articles/regional-development-bond-refund-guide.html` — 자동차 채권 환급금 조회 방법, 지역개발채권 만기상환 확인 순서 (4,373자)
 - `articles/rental-car-vacation-saving.html` — 휴가철 렌터카 비용 절약, 보험·연료·반납 조건까지 비교하는 순서 (4,694자)
-- `articles/traffic-fines-difference-guide.html` — 교통 범칙금·과태료·벌금 차이, 조회·납부·이의신청 가이드 (4,985자)
+- `articles/traffic-fines-difference-guide.html` — 교통 범칙금·과태료·벌금 차이와 조회·납부 방법 총정리 (4,207자)
 - `articles/vehicle-inspection-reservation-guide.html` — 자동차 검사 예약·검사기간 확인 방법, 과태료 전에 준비할 순서 (5,180자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
@@ -328,12 +328,11 @@
 ## G023 · 건강보험·의료비 환급 · 4개
 
 - `articles/emergency-medical-support.html` — 긴급복지 의료지원 신청 방법 (9,379자)
-- `articles/health-insurance-out-of-pocket-refund.html` — 본인부담상한제 환급금, 대상·제외항목·신청·입금 확인 가이드 (5,054자)
+- `articles/health-insurance-out-of-pocket-refund.html` — 본인부담상한제 환급금, 대상·제외항목·신청 순서 (4,960자)
 - `articles/health-insurance-refund-guide.html` — 건강보험 환급금 조회부터 신청·입금 확인까지 최종 가이드 (5,138자)
 - `articles/medical-bill-negotiation.html` — 병원비가 너무 많이 나왔을 때 확인·정정·환불 요청 방법 (9,613자)
 
-중복·통합 우선 검토 관계:
-- **merge_candidate** · 제목 0.40 · 본문 0.56 — `articles/health-insurance-out-of-pocket-refund.html` ↔ `articles/health-insurance-refund-guide.html`
+중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
