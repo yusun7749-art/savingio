@@ -1,6 +1,6 @@
 # Savingio MASTER CONTENT MAP — 전체 주제 그룹 분류
 
-- 전체 본문: **174개**
+- 전체 본문: **173개**
 - 2개 이상 주제 그룹: **25개**
 - 그룹 내부 중복·통합 후보 관계: **1개**
 - 단독 주제 글: **3개**
@@ -103,21 +103,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G006 · 국세·환급 · 7개
-
-- `articles/hometax-refund-status.html` — 홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요 (3,814자)
-- `articles/income-tax-filing-missed-consequences.html` — 종합소득세 신고 안 하면 생기는 불이익과 기한후신고 방법 (8,342자)
-- `articles/irs-tax-refund-status.html` — 세금 환급 진행상태 확인 방법 (9,867자)
-- `articles/national-tax-refund-account.html` — 국세환급금 지급계좌 등록 방법 (4,953자)
-- `articles/national-tax-refund.html` — 국세 환급금 조회 방법 (5,499자)
-- `articles/self-employed-income-tax-refund-check.html` — 종합소득세 신고 대상 확인 방법 (6,603자)
-- `articles/tax-credit-late-application.html` — 장려금 신청 누락 시 기한후 신청 방법 (4,993자)
-
-중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
-
-**그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
-
-## G007 · 노인·연금·장기요양 · 7개
+## G006 · 노인·연금·장기요양 · 7개
 
 - `articles/basic-pension-application-guide.html` — 기초연금 신청 방법, 만 65세 준비서류·소득인정액·지급 확인 (2,940자)
 - `articles/long-term-care-insurance-application.html` — 노인장기요양보험 신청 방법, 방문조사부터 등급판정까지 (6,122자)
@@ -131,7 +117,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G008 · 소상공인·사업자 · 7개
+## G007 · 소상공인·사업자 · 7개
 
 - `articles/business-card-hometax-registration.html` — 사업용 신용카드 홈택스 등록 방법, 등록 뒤 매입내역까지 확인하는 순서 (4,870자)
 - `articles/business-phone-expense-deduction.html` — 사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리 (5,479자)
@@ -145,7 +131,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G009 · 아동·가족 지원 · 7개
+## G008 · 아동·가족 지원 · 7개
 
 - `articles/child-allowance-guide.html` — 아동수당 신청 방법, 지급이 누락되지 않게 확인하는 체크리스트 (4,709자)
 - `articles/childcare-service-government-support.html` — 아이돌봄서비스 정부지원 신청 방법, 자격 판정부터 이용까지 (6,142자)
@@ -159,7 +145,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G010 · 자동차세·교통 · 7개
+## G009 · 자동차세·교통 · 7개
 
 - `articles/car-aircon-fuel-saving.html` — 여름철 자동차 에어컨 연비 절약법, 차 안을 빨리 식히는 순서 (7,212자)
 - `articles/car-tax-annual-payment.html` — 2026 자동차세 연납, 신청 시기·5% 공제·환급 확인 가이드 (4,462자)
@@ -173,7 +159,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G011 · 정부지원 조회 · 7개
+## G010 · 정부지원 조회 · 7개
 
 - `articles/benefit-scam-warning-2026.html` — 지원금 문자 사기 구별 방법, 링크 누르기 전 확인할 7가지 (9,284자)
 - `articles/government-benefit-alert-2026.html` — “남들은 받았다는데 나는 왜 몰랐을까?” 정부24 혜택알리미 확인 순서 (7,541자)
@@ -187,7 +173,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G012 · 주거·임대차 · 7개
+## G011 · 주거·임대차 · 7개
 
 - `articles/apartment-leak-emergency-response.html` — 아랫집 누수 연락을 받았을 때, 윗집이 바로 할 일 (6,699자)
 - `articles/deposit-return-guarantee-checklist.html` — 전세보증금 반환보증 가입 전 체크리스트 (7,759자)
@@ -201,7 +187,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G013 · 가스·수도·관리비 · 6개
+## G012 · 가스·수도·관리비 · 6개
 
 - `articles/apartment-management-fee-summer.html` — 아파트 관리비가 갑자기 많이 나왔을 때 확인할 항목과 줄이는 방법 (5,983자)
 - `articles/gas-bill-checklist.html` — 도시가스 요금 절약과 고지서 점검 방법 (4,624자)
@@ -209,6 +195,19 @@
 - `articles/summer-gas-bill-hot-water-saving.html` — 여름 가스요금 줄이는 온수 사용법 (4,839자)
 - `articles/summer-water-bill-spike-check.html` — 여름철 수도요금 급증 원인 점검 (4,808자)
 - `articles/water-bill-saving.html` — 수도요금 절약 방법, 누수 확인부터 사용량 줄이기까지 (5,552자)
+
+중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
+
+**그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
+
+## G013 · 국세·환급 · 6개
+
+- `articles/hometax-refund-status.html` — 홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요 (3,814자)
+- `articles/income-tax-filing-missed-consequences.html` — 종합소득세 신고 안 하면 생기는 불이익과 기한후신고 방법 (8,342자)
+- `articles/national-tax-refund-account.html` — 국세환급금 지급계좌 등록 방법 (4,953자)
+- `articles/national-tax-refund.html` — 국세 환급금 조회 방법 (5,499자)
+- `articles/self-employed-income-tax-refund-check.html` — 종합소득세 신고 대상 확인 방법 (6,603자)
+- `articles/tax-credit-late-application.html` — 장려금 신청 누락 시 기한후 신청 방법 (4,993자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
 
