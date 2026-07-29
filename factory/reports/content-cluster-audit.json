@@ -1,5 +1,5 @@
 {
-  "article_count": 173,
+  "article_count": 172,
   "topic_group_count": 25,
   "candidate_pair_count": 1,
   "method": "topic-first grouping; title/body similarity only ranks articles inside the same topic group",
@@ -677,63 +677,6 @@
     },
     {
       "group_id": "G010",
-      "topic": "정부지원 조회",
-      "size": 7,
-      "articles": [
-        {
-          "path": "articles/benefit-scam-warning-2026.html",
-          "title": "지원금 문자 사기 구별 방법, 링크 누르기 전 확인할 7가지 | Savingio",
-          "h1": "지원금 문자 사기 구별 방법, 링크 누르기 전 확인할 7가지",
-          "char_count": 9284
-        },
-        {
-          "path": "articles/government-benefit-alert-2026.html",
-          "title": "정부24 혜택알리미 2026, 받을 수 있는 지원금 찾는 순서 | Savingio",
-          "h1": "“남들은 받았다는데 나는 왜 몰랐을까?” 정부24 혜택알리미 확인 순서",
-          "char_count": 7541
-        },
-        {
-          "path": "articles/government-benefit-alert-setup.html",
-          "title": "정부24 혜택알리미 설정 방법, 맞춤 혜택과 알림 수신 관리 | Savingio",
-          "h1": "정부24 혜택알리미 설정 방법, 맞춤 혜택과 알림 수신 관리",
-          "char_count": 3962
-        },
-        {
-          "path": "articles/government-benefits-warning.html",
-          "title": "정부지원금 조회 시 주의할 점 | Savingio",
-          "h1": "정부지원금 조회 시 주의할 점",
-          "char_count": 5559
-        },
-        {
-          "path": "articles/government-support-calendar.html",
-          "title": "정부지원금 신청 일정 관리 방법, 마감일·갱신일 놓치지 않는 달력 만들기 | Savingio",
-          "h1": "정부지원금 신청 일정 관리 방법, 마감일·갱신일 놓치지 않는 달력 만들기",
-          "char_count": 4129
-        },
-        {
-          "path": "articles/government24-benefit-check.html",
-          "title": "정부24 보조금24 혜택 조회 방법, 나와 가족 지원금 찾기 | Savingio",
-          "h1": "정부24 보조금24 혜택 조회 방법, 나와 가족 지원금 찾기",
-          "char_count": 3724
-        },
-        {
-          "path": "articles/subsidy24-benefit-search.html",
-          "title": "보조금24에서 받을 수 있는 지원금 찾기 | 세이빙이오(Savingio)",
-          "h1": "보조금24에서 받을 수 있는 지원금 찾기",
-          "char_count": 4104
-        }
-      ],
-      "relationships": [],
-      "decision_status": "pending_group_review",
-      "decision_options": [
-        "대표글 통합",
-        "검색의도 분리 유지",
-        "내용 흡수 후 삭제",
-        "완전 중복 삭제"
-      ]
-    },
-    {
-      "group_id": "G011",
       "topic": "주거·임대차",
       "size": 7,
       "articles": [
@@ -790,7 +733,7 @@
       ]
     },
     {
-      "group_id": "G012",
+      "group_id": "G011",
       "topic": "가스·수도·관리비",
       "size": 6,
       "articles": [
@@ -841,7 +784,7 @@
       ]
     },
     {
-      "group_id": "G013",
+      "group_id": "G012",
       "topic": "국세·환급",
       "size": 6,
       "articles": [
@@ -892,7 +835,7 @@
       ]
     },
     {
-      "group_id": "G014",
+      "group_id": "G013",
       "topic": "신용점수·부채",
       "size": 6,
       "articles": [
@@ -943,7 +886,7 @@
       ]
     },
     {
-      "group_id": "G015",
+      "group_id": "G014",
       "topic": "은행·예금",
       "size": 6,
       "articles": [
@@ -982,6 +925,57 @@
           "title": "적금 만기 후 자동재예치 확인법 | 세이빙이오(Savingio)",
           "h1": "적금 만기 후 자동재예치 확인법",
           "char_count": 4713
+        }
+      ],
+      "relationships": [],
+      "decision_status": "pending_group_review",
+      "decision_options": [
+        "대표글 통합",
+        "검색의도 분리 유지",
+        "내용 흡수 후 삭제",
+        "완전 중복 삭제"
+      ]
+    },
+    {
+      "group_id": "G015",
+      "topic": "정부지원 조회",
+      "size": 6,
+      "articles": [
+        {
+          "path": "articles/benefit-scam-warning-2026.html",
+          "title": "지원금 문자 사기 구별 방법, 링크 누르기 전 확인할 7가지 | Savingio",
+          "h1": "지원금 문자 사기 구별 방법, 링크 누르기 전 확인할 7가지",
+          "char_count": 9284
+        },
+        {
+          "path": "articles/government-benefit-alert-2026.html",
+          "title": "정부24 혜택알리미 2026, 받을 수 있는 지원금 찾는 순서 | Savingio",
+          "h1": "“남들은 받았다는데 나는 왜 몰랐을까?” 정부24 혜택알리미 확인 순서",
+          "char_count": 7541
+        },
+        {
+          "path": "articles/government-benefit-alert-setup.html",
+          "title": "정부24 혜택알리미 설정 방법, 맞춤 혜택과 알림 수신 관리 | Savingio",
+          "h1": "정부24 혜택알리미 설정 방법, 맞춤 혜택과 알림 수신 관리",
+          "char_count": 3962
+        },
+        {
+          "path": "articles/government-benefits-warning.html",
+          "title": "정부지원금 조회 시 주의할 점 | Savingio",
+          "h1": "정부지원금 조회 시 주의할 점",
+          "char_count": 5559
+        },
+        {
+          "path": "articles/government-support-calendar.html",
+          "title": "정부지원금 신청 일정 관리 방법, 마감일·갱신일 놓치지 않는 달력 만들기 | Savingio",
+          "h1": "정부지원금 신청 일정 관리 방법, 마감일·갱신일 놓치지 않는 달력 만들기",
+          "char_count": 4129
+        },
+        {
+          "path": "articles/government24-benefit-check.html",
+          "title": "정부24 보조금24 혜택 조회 방법, 나와 가족 지원금 찾기 | Savingio",
+          "h1": "정부24 보조금24 혜택 조회 방법, 나와 가족 지원금 찾기",
+          "char_count": 3724
         }
       ],
       "relationships": [],

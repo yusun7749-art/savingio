@@ -1,6 +1,6 @@
 # Savingio MASTER CONTENT MAP — 전체 주제 그룹 분류
 
-- 전체 본문: **173개**
+- 전체 본문: **172개**
 - 2개 이상 주제 그룹: **25개**
 - 그룹 내부 중복·통합 후보 관계: **1개**
 - 단독 주제 글: **3개**
@@ -159,21 +159,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G010 · 정부지원 조회 · 7개
-
-- `articles/benefit-scam-warning-2026.html` — 지원금 문자 사기 구별 방법, 링크 누르기 전 확인할 7가지 (9,284자)
-- `articles/government-benefit-alert-2026.html` — “남들은 받았다는데 나는 왜 몰랐을까?” 정부24 혜택알리미 확인 순서 (7,541자)
-- `articles/government-benefit-alert-setup.html` — 정부24 혜택알리미 설정 방법, 맞춤 혜택과 알림 수신 관리 (3,962자)
-- `articles/government-benefits-warning.html` — 정부지원금 조회 시 주의할 점 (5,559자)
-- `articles/government-support-calendar.html` — 정부지원금 신청 일정 관리 방법, 마감일·갱신일 놓치지 않는 달력 만들기 (4,129자)
-- `articles/government24-benefit-check.html` — 정부24 보조금24 혜택 조회 방법, 나와 가족 지원금 찾기 (3,724자)
-- `articles/subsidy24-benefit-search.html` — 보조금24에서 받을 수 있는 지원금 찾기 (4,104자)
-
-중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
-
-**그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
-
-## G011 · 주거·임대차 · 7개
+## G010 · 주거·임대차 · 7개
 
 - `articles/apartment-leak-emergency-response.html` — 아랫집 누수 연락을 받았을 때, 윗집이 바로 할 일 (6,699자)
 - `articles/deposit-return-guarantee-checklist.html` — 전세보증금 반환보증 가입 전 체크리스트 (7,759자)
@@ -187,7 +173,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G012 · 가스·수도·관리비 · 6개
+## G011 · 가스·수도·관리비 · 6개
 
 - `articles/apartment-management-fee-summer.html` — 아파트 관리비가 갑자기 많이 나왔을 때 확인할 항목과 줄이는 방법 (5,983자)
 - `articles/gas-bill-checklist.html` — 도시가스 요금 절약과 고지서 점검 방법 (4,624자)
@@ -200,7 +186,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G013 · 국세·환급 · 6개
+## G012 · 국세·환급 · 6개
 
 - `articles/hometax-refund-status.html` — 홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요 (3,814자)
 - `articles/income-tax-filing-missed-consequences.html` — 종합소득세 신고 안 하면 생기는 불이익과 기한후신고 방법 (8,342자)
@@ -213,7 +199,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G014 · 신용점수·부채 · 6개
+## G013 · 신용점수·부채 · 6개
 
 - `articles/cash-advance-vs-card-loan.html` — 현금서비스와 카드론 차이, 급하게 돈이 필요할 때 먼저 확인할 것 (3,472자)
 - `articles/credit-score-habits.html` — 신용점수를 지키는 생활 습관, 연체 없이 관리하는 현실적인 방법 (5,674자)
@@ -226,7 +212,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G015 · 은행·예금 · 6개
+## G014 · 은행·예금 · 6개
 
 - `articles/bank-fee-saving.html` — 은행 수수료 아끼는 방법, 이체·ATM·환전 비용을 줄이는 확인 순서 (5,118자)
 - `articles/cma-account-types-risk.html` — CMA 통장 종류와 원금손실 가능성 (7,542자)
@@ -234,6 +220,19 @@
 - `articles/dormant-deposit-insurance-search.html` — 휴면예금과 휴면보험금 찾는 방법 (8,078자)
 - `articles/parking-account-rate-comparison.html` — 파킹통장 금리 비교할 때 볼 항목 (7,333자)
 - `articles/savings-maturity-auto-renewal.html` — 적금 만기 후 자동재예치 확인법 (4,713자)
+
+중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
+
+**그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
+
+## G015 · 정부지원 조회 · 6개
+
+- `articles/benefit-scam-warning-2026.html` — 지원금 문자 사기 구별 방법, 링크 누르기 전 확인할 7가지 (9,284자)
+- `articles/government-benefit-alert-2026.html` — “남들은 받았다는데 나는 왜 몰랐을까?” 정부24 혜택알리미 확인 순서 (7,541자)
+- `articles/government-benefit-alert-setup.html` — 정부24 혜택알리미 설정 방법, 맞춤 혜택과 알림 수신 관리 (3,962자)
+- `articles/government-benefits-warning.html` — 정부지원금 조회 시 주의할 점 (5,559자)
+- `articles/government-support-calendar.html` — 정부지원금 신청 일정 관리 방법, 마감일·갱신일 놓치지 않는 달력 만들기 (4,129자)
+- `articles/government24-benefit-check.html` — 정부24 보조금24 혜택 조회 방법, 나와 가족 지원금 찾기 (3,724자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
 
