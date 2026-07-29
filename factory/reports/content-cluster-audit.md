@@ -105,10 +105,10 @@
 
 ## G006 · 노인·연금·장기요양 · 7개
 
-- `articles/basic-pension-application-guide.html` — 기초연금 신청 방법, 만 65세 준비서류·소득인정액·지급 확인 (2,940자)
+- `articles/basic-pension-application-guide.html` — 기초연금 신청 방법, 만 65세 준비서류·소득인정액·지급 확인 (7,896자)
 - `articles/long-term-care-insurance-application.html` — 노인장기요양보험 신청 방법, 방문조사부터 등급판정까지 (6,122자)
 - `articles/national-pension-additional-payment.html` — 국민연금 추후납부 신청, 가입기간이 부족할 때 확인할 조건과 계산 순서 (6,404자)
-- `articles/national-pension-old-age-benefit-guide.html` — 국민연금 노령연금 수급 기준, 언제부터 얼마를 받는지 확인하는 방법 (3,011자)
+- `articles/national-pension-old-age-benefit-guide.html` — 국민연금 노령연금 수급 기준, 언제부터 얼마를 받는지 확인하는 방법 (8,836자)
 - `articles/national-pension-overpayment-refund.html` — 국민연금 과오납금 조회와 환급 신청, 돌려받기 전 확인할 순서 (5,647자)
 - `articles/over-60-benefits-guide.html` — 60세 이상 받을 수 있는 혜택, 연금·건강·일자리·생활비 확인 순서 (4,285자)
 - `articles/senior-job-application-guide.html` — 노인일자리 신청 방법, 모집 시기와 사업 유형을 비교하는 체크리스트 (4,276자)
