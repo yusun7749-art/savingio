@@ -1,6 +1,6 @@
 (function(){
 'use strict';
-const VERSION='20260725-lab-hidden1';
+const VERSION='20260729-home-restore2';
 const ITEMS=[
  {label:'홈',href:'/'},{label:'생활정보',href:'/articles/'},{label:'계산기',href:'/calculators/'},
  {label:'사이트 탐색',href:'/categories/'},{label:'About',href:'/about.html'}
@@ -42,17 +42,29 @@ function installSearchBridge(){
  const query=new URLSearchParams(location.search).get('q');
  if(query!==null){input.value=query;requestAnimationFrame(()=>setTimeout(()=>fireSearch(input),0));}
 }
+function explorerAllowed(){
+ return path.startsWith('/articles/')||path==='/articles'||path.startsWith('/categories/')||path==='/categories';
+}
+function removeExplorer(){
+ document.querySelectorAll('#savingio-brain-nav,.sbn-mobile-btn,.sbn-backdrop').forEach(node=>node.remove());
+ document.documentElement.classList.remove('savingio-brain-ready');
+ document.body.classList.remove('sbn-open');
+}
 async function install(){
- addCss(`/css/savingio-tokens.css?v=${VERSION}`,'savingioTokens');
- addCss(`/css/savingio-master-template.css?v=${VERSION}`,'savingioMaster');
- addCss(`/css/savingio-components.css?v=${VERSION}`,'savingioComponents');
- addCss(`/css/savingio-brain-navigation.css?v=${VERSION}`,'savingioExplorer');
  const header=document.querySelector('.site-header .header-inner,.savingio-dna-header-inner,.top .wrap.nav');
  if(header){
   header.querySelectorAll('.nav,.savingio-platform-nav,.savingio-unified-nav').forEach(n=>n.remove());
   header.insertAdjacentHTML('beforeend',markup('savingio-platform-nav'));
  }
  installSearchBridge();
+ if(!explorerAllowed()){
+  removeExplorer();
+  return true;
+ }
+ addCss(`/css/savingio-tokens.css?v=${VERSION}`,'savingioTokens');
+ addCss(`/css/savingio-master-template.css?v=${VERSION}`,'savingioMaster');
+ addCss(`/css/savingio-components.css?v=${VERSION}`,'savingioComponents');
+ addCss(`/css/savingio-brain-navigation.css?v=${VERSION}`,'savingioExplorer');
  await addScript(`/js/savingio-template-engine.js?v=${VERSION}`,'savingioTemplateEngine');
  if(!window.SAVINGIO_BRAIN_DATA)await addScript(`/data/savingio-brain-data.js?v=${VERSION}`,'savingioBrainData');
  if(!document.querySelector('script[src*="savingio-brain-navigation.js"]'))await addScript(`/js/savingio-brain-navigation.js?v=${VERSION}`,'savingioBrainEngine');
