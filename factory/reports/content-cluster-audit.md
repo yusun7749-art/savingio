@@ -1,6 +1,6 @@
 # Savingio MASTER CONTENT MAP — 전체 주제 그룹 분류
 
-- 전체 본문: **176개**
+- 전체 본문: **175개**
 - 2개 이상 주제 그룹: **25개**
 - 그룹 내부 중복·통합 후보 관계: **1개**
 - 단독 주제 글: **3개**
@@ -325,23 +325,22 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G023 · 건강보험·의료비 환급 · 4개
-
-- `articles/emergency-medical-support.html` — 긴급복지 의료지원 신청 방법 (9,379자)
-- `articles/health-insurance-out-of-pocket-refund.html` — 본인부담상한제 환급금, 대상·제외항목·신청 순서 (4,960자)
-- `articles/health-insurance-refund-guide.html` — 건강보험 환급금 조회부터 신청·입금 확인까지 최종 가이드 (5,138자)
-- `articles/medical-bill-negotiation.html` — 병원비가 너무 많이 나왔을 때 확인·정정·환불 요청 방법 (9,613자)
-
-중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
-
-**그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
-
-## G024 · 자동차보험 · 4개
+## G023 · 자동차보험 · 4개
 
 - `articles/car-insurance-child-discount.html` — 자동차보험 자녀할인 특약, 태아·연령·증빙·중도변경 확인 가이드 (6,392자)
 - `articles/car-insurance-mileage-refund.html` — 자동차보험 마일리지 특약 환급, 사진 등록·주행거리·정산 확인 가이드 (7,145자)
 - `articles/car-insurance-overpayment-refund.html` — 자동차보험료를 더 냈을 때, 과납보험료 확인부터 환급까지 (7,379자)
 - `articles/car-insurance-saving.html` — 자동차보험료 절약, 갱신 전에 비교할 운전자 범위·특약·담보 최종 가이드 (4,627자)
+
+중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
+
+**그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
+
+## G024 · 건강보험·의료비 환급 · 3개
+
+- `articles/emergency-medical-support.html` — 긴급복지 의료지원 신청 방법 (9,379자)
+- `articles/health-insurance-refund-guide.html` — 건강보험 환급금 조회부터 신청·입금 확인까지 최종 가이드 (5,138자)
+- `articles/medical-bill-negotiation.html` — 병원비가 너무 많이 나왔을 때 확인·정정·환불 요청 방법 (9,613자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
 

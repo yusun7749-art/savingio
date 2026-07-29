@@ -1,5 +1,5 @@
 {
-  "article_count": 176,
+  "article_count": 175,
   "topic_group_count": 25,
   "candidate_pair_count": 1,
   "method": "topic-first grouping; title/body similarity only ranks articles inside the same topic group",
@@ -1322,45 +1322,6 @@
     },
     {
       "group_id": "G023",
-      "topic": "건강보험·의료비 환급",
-      "size": 4,
-      "articles": [
-        {
-          "path": "articles/emergency-medical-support.html",
-          "title": "긴급복지 의료지원 신청 방법 | 세이빙이오(Savingio)",
-          "h1": "긴급복지 의료지원 신청 방법",
-          "char_count": 9379
-        },
-        {
-          "path": "articles/health-insurance-out-of-pocket-refund.html",
-          "title": "본인부담상한제 환급금, 대상·제외항목·신청 순서 | Savingio",
-          "h1": "본인부담상한제 환급금, 대상·제외항목·신청 순서",
-          "char_count": 4960
-        },
-        {
-          "path": "articles/health-insurance-refund-guide.html",
-          "title": "건강보험 환급금 조회부터 신청·입금 확인까지 최종 가이드 | Savingio",
-          "h1": "건강보험 환급금 조회부터 신청·입금 확인까지 최종 가이드",
-          "char_count": 5138
-        },
-        {
-          "path": "articles/medical-bill-negotiation.html",
-          "title": "병원비가 너무 많이 나왔을 때 확인·정정·환불 요청 방법 | 세이빙이오(Savingio)",
-          "h1": "병원비가 너무 많이 나왔을 때 확인·정정·환불 요청 방법",
-          "char_count": 9613
-        }
-      ],
-      "relationships": [],
-      "decision_status": "pending_group_review",
-      "decision_options": [
-        "대표글 통합",
-        "검색의도 분리 유지",
-        "내용 흡수 후 삭제",
-        "완전 중복 삭제"
-      ]
-    },
-    {
-      "group_id": "G024",
       "topic": "자동차보험",
       "size": 4,
       "articles": [
@@ -1387,6 +1348,39 @@
           "title": "자동차보험료 절약, 갱신 전에 비교할 운전자 범위·특약·담보 최종 가이드 | Savingio",
           "h1": "자동차보험료 절약, 갱신 전에 비교할 운전자 범위·특약·담보 최종 가이드",
           "char_count": 4627
+        }
+      ],
+      "relationships": [],
+      "decision_status": "pending_group_review",
+      "decision_options": [
+        "대표글 통합",
+        "검색의도 분리 유지",
+        "내용 흡수 후 삭제",
+        "완전 중복 삭제"
+      ]
+    },
+    {
+      "group_id": "G024",
+      "topic": "건강보험·의료비 환급",
+      "size": 3,
+      "articles": [
+        {
+          "path": "articles/emergency-medical-support.html",
+          "title": "긴급복지 의료지원 신청 방법 | 세이빙이오(Savingio)",
+          "h1": "긴급복지 의료지원 신청 방법",
+          "char_count": 9379
+        },
+        {
+          "path": "articles/health-insurance-refund-guide.html",
+          "title": "건강보험 환급금 조회부터 신청·입금 확인까지 최종 가이드 | Savingio",
+          "h1": "건강보험 환급금 조회부터 신청·입금 확인까지 최종 가이드",
+          "char_count": 5138
+        },
+        {
+          "path": "articles/medical-bill-negotiation.html",
+          "title": "병원비가 너무 많이 나왔을 때 확인·정정·환불 요청 방법 | 세이빙이오(Savingio)",
+          "h1": "병원비가 너무 많이 나왔을 때 확인·정정·환불 요청 방법",
+          "char_count": 9613
         }
       ],
       "relationships": [],
