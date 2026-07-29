@@ -135,7 +135,7 @@
 
 - `articles/business-card-hometax-registration.html` — 사업용 신용카드 홈택스 등록 방법, 등록 뒤 매입내역까지 확인하는 순서 (4,870자)
 - `articles/business-phone-expense-deduction.html` — 사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리 (5,479자)
-- `articles/business-vehicle-expense-basics.html` — 사업용 차량 비용처리, 증빙부터 운행기록부까지 확인하는 순서 (5,920자)
+- `articles/business-vehicle-expense-basics.html` — 사업용 차량 비용처리, 보험·운행기록부·증빙 확인 가이드 (4,985자)
 - `articles/small-business-closure-support.html` — 폐업 소상공인 원스톱 지원 확인 2026 (6,465자)
 - `articles/small-business-delivery-support.html` — 소상공인 배달비 지원사업 찾는 방법 (7,596자)
 - `articles/small-business-policy-fund.html` — 소상공인 정책자금 확인·신청 순서 2026 (6,441자)
