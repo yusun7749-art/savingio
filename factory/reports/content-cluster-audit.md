@@ -57,7 +57,7 @@
 - `articles/business-closure-vat-order.html` — 사업자 폐업신고와 부가세 신고 순서, 폐업일 전후로 놓치기 쉬운 절차 (4,697자)
 - `articles/electronic-tax-invoice-penalty.html` — 전자세금계산서 가산세, 지연발급·미발급·미전송 차이 (5,723자)
 - `articles/general-vat-common-mistakes.html` — 일반과세자 부가가치세 신고에서 자주 하는 실수 12가지 (4,736자)
-- `articles/hometax-vat-sales-check.html` — 홈택스 부가가치세 매출자료 확인 방법, 카드·현금영수증 누락까지 점검하세요 (3,708자)
+- `articles/hometax-vat-sales-check.html` — 홈택스 부가가치세 매출자료 확인 방법, 카드·현금영수증 누락까지 점검하세요 (4,623자)
 - `articles/simple-receipt-expense-rules.html` — 사업자 비용처리 가능한 항목 총정리 (5,883자)
 - `articles/simplified-vat-checklist.html` — 간이과세자 부가가치세 신고 체크리스트 (5,827자)
 - `articles/tax-invoice-vs-cash-receipt.html` — 현금영수증 매출 조회 방법 (6,393자)
