@@ -1,13 +1,13 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3298,
-  "references_scanned": 61954,
+  "files_scanned": 3296,
+  "references_scanned": 61891,
   "counts": {
-    "broken_references": 2911,
+    "broken_references": 2991,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
-    "missing_sitemap_targets": 2,
+    "missing_sitemap_targets": 4,
     "publisher_id_drift": 0
   },
   "broken_references": [
@@ -1927,6 +1927,13 @@
       ]
     },
     {
+      "source": "articles/emergency-medical-support.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
       "source": "articles/emergency-welfare-living-support.html",
       "reference": "/articles/unemployment-benefit-application.html",
       "expected": [
@@ -2067,17 +2074,10 @@
       ]
     },
     {
-      "source": "articles/health-insurance-out-of-pocket-refund.html",
-      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "source": "articles/health-insurance-refund-guide.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
       "expected": [
-        "articles/health-insurance-overpayment-refund.html"
-      ]
-    },
-    {
-      "source": "articles/health-insurance-out-of-pocket-refund.html",
-      "reference": "/categories/insurance-refund.html",
-      "expected": [
-        "categories/insurance-refund.html"
+        "articles/health-insurance-out-of-pocket-refund.html"
       ]
     },
     {
@@ -2313,6 +2313,13 @@
     },
     {
       "source": "articles/long-term-care-insurance-application.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "articles/long-term-care-insurance-application.html",
       "reference": "/articles/health-insurance-overpayment-refund.html",
       "expected": [
         "articles/health-insurance-overpayment-refund.html"
@@ -2330,6 +2337,13 @@
       "reference": "/categories/insurance-health.html",
       "expected": [
         "categories/insurance-health.html"
+      ]
+    },
+    {
+      "source": "articles/medical-bill-negotiation.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
       ]
     },
     {
@@ -2624,6 +2638,13 @@
       "reference": "/articles/energy-voucher-balance-use.html",
       "expected": [
         "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "articles/revolving-cancellation-payoff.html",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
       ]
     },
     {
@@ -2960,6 +2981,13 @@
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "articles/travel-insurance-comparison.html",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
       ]
     },
     {
@@ -3362,6 +3390,13 @@
       ]
     },
     {
+      "source": "categories/government-support.html",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
+      ]
+    },
+    {
       "source": "categories/housing.html",
       "reference": "/articles/internet-bill-savings.html",
       "expected": [
@@ -3436,6 +3471,13 @@
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
+      ]
+    },
+    {
+      "source": "categories/tax-refund.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
       ]
     },
     {
@@ -3643,6 +3685,13 @@
     },
     {
       "source": "data/savingio-brain-data.js",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.js",
       "reference": "/articles/health-insurance-overpayment-refund.html",
       "expected": [
         "articles/health-insurance-overpayment-refund.html"
@@ -3695,6 +3744,13 @@
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.js",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
       ]
     },
     {
@@ -3839,6 +3895,13 @@
     },
     {
       "source": "data/savingio-brain-data.json",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.json",
       "reference": "/articles/health-insurance-overpayment-refund.html",
       "expected": [
         "articles/health-insurance-overpayment-refund.html"
@@ -3891,6 +3954,13 @@
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.json",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
       ]
     },
     {
@@ -4126,6 +4196,13 @@
     },
     {
       "source": "data/savingio-search-index.json",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "data/savingio-search-index.json",
       "reference": "/articles/health-insurance-overpayment-refund.html",
       "expected": [
         "articles/health-insurance-overpayment-refund.html"
@@ -4178,6 +4255,13 @@
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "data/savingio-search-index.json",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
       ]
     },
     {
@@ -4544,6 +4628,20 @@
       "reference": "/articles/vat-input-tax-deduction-guide-2026.html",
       "expected": [
         "articles/vat-input-tax-deduction-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/SEO_AUDIT/seo-audit.json",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "factory/SEO_AUDIT/seo-audit.json",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
       ]
     },
     {
@@ -6521,6 +6619,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/emergency-medical-support.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/energy-voucher-2026-application.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -6927,6 +7032,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/health-insurance-out-of-pocket-refund.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/health-insurance-out-of-pocket-refund.html",
+      "reference": "https://savingio.com/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/health-insurance-overpayment-refund.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/health-insurance-overpayment-refund.html",
       "reference": "/articles/health-insurance-overpayment-refund.html",
       "expected": [
@@ -6938,6 +7064,13 @@
       "reference": "https://savingio.com/articles/health-insurance-overpayment-refund.html",
       "expected": [
         "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/health-insurance-refund-guide.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
       ]
     },
     {
@@ -7179,6 +7312,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/low-income-cooling-support.html",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/low-income-cooling-support.html",
+      "reference": "https://savingio.com/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/medical-bill-negotiation.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/money-saving-habits.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -7190,6 +7344,13 @@
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
         "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/national-employment-support-eligibility.html",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
       ]
     },
     {
@@ -7949,6 +8110,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/emergency-medical-support.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/energy-voucher-2026-application.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -8355,6 +8523,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/health-insurance-out-of-pocket-refund.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/health-insurance-out-of-pocket-refund.html",
+      "reference": "https://savingio.com/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/health-insurance-overpayment-refund.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/health-insurance-overpayment-refund.html",
       "reference": "/articles/health-insurance-overpayment-refund.html",
       "expected": [
@@ -8366,6 +8555,13 @@
       "reference": "https://savingio.com/articles/health-insurance-overpayment-refund.html",
       "expected": [
         "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/health-insurance-refund-guide.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
       ]
     },
     {
@@ -8607,6 +8803,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/low-income-cooling-support.html",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/low-income-cooling-support.html",
+      "reference": "https://savingio.com/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/medical-bill-negotiation.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/money-saving-habits.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -8618,6 +8835,13 @@
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
         "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/national-employment-support-eligibility.html",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
       ]
     },
     {
@@ -9377,6 +9601,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/emergency-medical-support.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/energy-voucher-2026-application.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -9783,6 +10014,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/health-insurance-out-of-pocket-refund.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/health-insurance-out-of-pocket-refund.html",
+      "reference": "https://savingio.com/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/health-insurance-overpayment-refund.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/health-insurance-overpayment-refund.html",
       "reference": "/articles/health-insurance-overpayment-refund.html",
       "expected": [
@@ -9794,6 +10046,13 @@
       "reference": "https://savingio.com/articles/health-insurance-overpayment-refund.html",
       "expected": [
         "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/health-insurance-refund-guide.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
       ]
     },
     {
@@ -10035,6 +10294,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/low-income-cooling-support.html",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/low-income-cooling-support.html",
+      "reference": "https://savingio.com/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/medical-bill-negotiation.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/money-saving-habits.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -10046,6 +10326,13 @@
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
         "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/national-employment-support-eligibility.html",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
       ]
     },
     {
@@ -10805,6 +11092,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/emergency-medical-support.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/energy-voucher-2026-application.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -11211,6 +11505,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/health-insurance-out-of-pocket-refund.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/health-insurance-out-of-pocket-refund.html",
+      "reference": "https://savingio.com/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/health-insurance-overpayment-refund.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/health-insurance-overpayment-refund.html",
       "reference": "/articles/health-insurance-overpayment-refund.html",
       "expected": [
@@ -11222,6 +11537,13 @@
       "reference": "https://savingio.com/articles/health-insurance-overpayment-refund.html",
       "expected": [
         "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/health-insurance-refund-guide.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
       ]
     },
     {
@@ -11463,6 +11785,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/low-income-cooling-support.html",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/low-income-cooling-support.html",
+      "reference": "https://savingio.com/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/medical-bill-negotiation.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/money-saving-habits.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -11474,6 +11817,13 @@
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
         "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/national-employment-support-eligibility.html",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
       ]
     },
     {
@@ -12233,6 +12583,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/emergency-medical-support.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/energy-voucher-2026-application.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -12639,6 +12996,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/health-insurance-out-of-pocket-refund.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/health-insurance-out-of-pocket-refund.html",
+      "reference": "https://savingio.com/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/health-insurance-overpayment-refund.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/health-insurance-overpayment-refund.html",
       "reference": "/articles/health-insurance-overpayment-refund.html",
       "expected": [
@@ -12650,6 +13028,13 @@
       "reference": "https://savingio.com/articles/health-insurance-overpayment-refund.html",
       "expected": [
         "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/health-insurance-refund-guide.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
       ]
     },
     {
@@ -12891,6 +13276,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/low-income-cooling-support.html",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/low-income-cooling-support.html",
+      "reference": "https://savingio.com/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/medical-bill-negotiation.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/money-saving-habits.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -12902,6 +13308,13 @@
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
         "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/national-employment-support-eligibility.html",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
       ]
     },
     {
@@ -13517,6 +13930,13 @@
     },
     {
       "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
       "reference": "/articles/health-insurance-overpayment-refund.html",
       "expected": [
         "articles/health-insurance-overpayment-refund.html"
@@ -13569,6 +13989,13 @@
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
       ]
     },
     {
@@ -13736,6 +14163,13 @@
     },
     {
       "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
       "reference": "/articles/health-insurance-overpayment-refund.html",
       "expected": [
         "articles/health-insurance-overpayment-refund.html"
@@ -13788,6 +14222,13 @@
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
       ]
     },
     {
@@ -14559,6 +15000,13 @@
     },
     {
       "source": "factory/output/article_catalog.json",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
       "reference": "/articles/health-insurance-overpayment-refund.html",
       "expected": [
         "articles/health-insurance-overpayment-refund.html"
@@ -14625,6 +15073,13 @@
       "reference": "/articles/local-tax-refund.html",
       "expected": [
         "articles/local-tax-refund.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
       ]
     },
     {
@@ -14846,6 +15301,13 @@
     },
     {
       "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
       "reference": "/articles/health-insurance-overpayment-refund.html",
       "expected": [
         "articles/health-insurance-overpayment-refund.html"
@@ -14912,6 +15374,13 @@
       "reference": "/articles/local-tax-refund.html",
       "expected": [
         "articles/local-tax-refund.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
       ]
     },
     {
@@ -15262,6 +15731,13 @@
       "reference": "/articles/credit-score-management.html",
       "expected": [
         "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/emergency-medical-support.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
       ]
     },
     {
@@ -15671,6 +16147,27 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/health-insurance-out-of-pocket-refund.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/health-insurance-out-of-pocket-refund.html",
+      "reference": "https://savingio.com/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/health-insurance-overpayment-refund.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/health-insurance-overpayment-refund.html",
       "reference": "/articles/health-insurance-overpayment-refund.html",
       "expected": [
@@ -15682,6 +16179,13 @@
       "reference": "https://savingio.com/articles/health-insurance-overpayment-refund.html",
       "expected": [
         "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/health-insurance-refund-guide.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
       ]
     },
     {
@@ -15923,6 +16427,27 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/low-income-cooling-support.html",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/low-income-cooling-support.html",
+      "reference": "https://savingio.com/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/medical-bill-negotiation.html",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/money-saving-habits.html",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
@@ -15934,6 +16459,13 @@
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
         "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/national-employment-support-eligibility.html",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
       ]
     },
     {
@@ -19051,6 +19583,13 @@
     },
     {
       "source": "factory/output/link_graph.json",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
       "reference": "/articles/health-insurance-overpayment-refund.html",
       "expected": [
         "articles/health-insurance-overpayment-refund.html"
@@ -19117,6 +19656,13 @@
       "reference": "/articles/local-tax-refund.html",
       "expected": [
         "articles/local-tax-refund.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
       ]
     },
     {
@@ -20661,9 +21207,23 @@
     },
     {
       "source": "sitemap.xml",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "sitemap.xml",
       "reference": "/articles/health-insurance-overpayment-refund.html",
       "expected": [
         "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "sitemap.xml",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
       ]
     },
     {
@@ -20730,7 +21290,9 @@
   "malformed_redirects": [],
   "broken_redirect_targets": [],
   "missing_sitemap_targets": [
+    "/articles/health-insurance-out-of-pocket-refund.html",
     "/articles/health-insurance-overpayment-refund.html",
+    "/articles/low-income-cooling-support.html",
     "/articles/small-business-policy-fund-search.html"
   ],
   "publisher_id_drift": []
