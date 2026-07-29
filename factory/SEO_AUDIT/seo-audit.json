@@ -4,9 +4,9 @@
     "pass": 142,
     "warning": 35,
     "fail": 0,
-    "average_score": 90.6,
+    "average_score": 90.7,
     "thin_under_2500_ko": 11,
-    "short_under_4500_ko": 126,
+    "short_under_4500_ko": 125,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -222,15 +222,15 @@
       "path": "articles/automatic-payment-saving.html",
       "url": "https://savingio.com/articles/automatic-payment-saving.html",
       "title": "자동이체·자동결제 정리하는 방법, 매달 새는 고정비 찾기 | Savingio",
-      "meta_description": "계좌 자동이체, 카드 정기결제, 휴대폰·앱스토어 결제에 흩어진 고정비를 찾아 유지·변경·해지로 정리하는 순서를 5초·30초·5분 구조로 안내합니다.",
+      "meta_description": "계좌 자동이체, 카드 정기결제, 휴대폰·앱스토어 결제에 흩어진 고정비를 전수 확인하고 유지·변경·해지로 정리하는 최종 가이드입니다.",
       "canonical": "https://savingio.com/articles/automatic-payment-saving.html",
       "h1": [
         "자동이체·자동결제 정리하는 방법, 매달 새는 고정비 찾기"
       ],
-      "h2_count": 19,
-      "h3_count": 0,
-      "korean_chars": 4179,
-      "words": 1449,
+      "h2_count": 21,
+      "h3_count": 5,
+      "korean_chars": 4458,
+      "words": 1498,
       "internal_article_links": 14,
       "images": 0,
       "missing_alt": 0,
@@ -242,7 +242,7 @@
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
         "FAQ_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:4179"
+        "CONTENT_SHORT_KO:4458"
       ],
       "score": 88,
       "status": "PASS"
@@ -615,15 +615,15 @@
       "path": "articles/cancel-unused-subscriptions.html",
       "url": "https://savingio.com/articles/cancel-unused-subscriptions.html",
       "title": "안 쓰는 구독서비스 해지하는 방법, 무료체험부터 자동결제까지 | Savingio",
-      "meta_description": "카드·계좌·휴대폰·Apple·Google Play에 흩어진 정기구독을 찾고, 무료체험 자동전환과 중복 결제를 해지한 뒤 재결제를 막는 순서를 안내합니다.",
+      "meta_description": "Apple·Google Play·웹사이트·통신사에서 구독 결제처를 찾고 무료체험 자동전환, 해지, 환불, 재결제 대응까지 해결하는 전문 가이드입니다.",
       "canonical": "https://savingio.com/articles/cancel-unused-subscriptions.html",
       "h1": [
         "안 쓰는 구독서비스 해지하는 방법, 무료체험부터 자동결제까지"
       ],
-      "h2_count": 20,
-      "h3_count": 5,
-      "korean_chars": 4156,
-      "words": 1434,
+      "h2_count": 21,
+      "h3_count": 10,
+      "korean_chars": 4757,
+      "words": 1644,
       "internal_article_links": 14,
       "images": 0,
       "missing_alt": 0,
@@ -634,10 +634,9 @@
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "FAQ_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:4156"
+        "FAQ_SCHEMA_MISSING"
       ],
-      "score": 88,
+      "score": 92,
       "status": "PASS"
     },
     {
