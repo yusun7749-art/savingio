@@ -1,10 +1,10 @@
 {
   "summary": {
     "article_count": 171,
-    "pass": 143,
-    "warning": 28,
+    "pass": 145,
+    "warning": 26,
     "fail": 0,
-    "average_score": 90.7,
+    "average_score": 90.8,
     "thin_under_2500_ko": 7,
     "short_under_4500_ko": 115,
     "missing_meta": 0,
@@ -4209,28 +4209,29 @@
     {
       "path": "articles/tax-invoice-vs-cash-receipt.html",
       "url": "https://savingio.com/articles/tax-invoice-vs-cash-receipt.html",
-      "title": "현금영수증 매출 조회 방법 | 세이빙이오(Savingio)",
-      "meta_description": "홈택스에서 현금영수증 매출을 조회하고 카드·계좌·플랫폼 자료와 대조해 누락과 중복을 찾는 방법을 안내합니다.",
+      "title": "현금영수증 매출 조회 방법, 누락·중복까지 확인하는 순서 | Savingio",
+      "meta_description": "홈택스에서 현금영수증 매출을 조회하고 카드매출, 계좌입금, 배달앱·오픈마켓 정산자료와 대조해 누락·중복·취소 거래를 찾는 실무 순서를 정리합니다.",
       "canonical": "https://savingio.com/articles/tax-invoice-vs-cash-receipt.html",
       "h1": [
-        "현금영수증 매출 조회 방법"
+        "현금영수증 매출 조회 방법, 누락·중복까지 확인하는 순서"
       ],
-      "h2_count": 16,
-      "h3_count": 4,
-      "korean_chars": 4419,
-      "words": 1509,
-      "internal_article_links": 39,
+      "h2_count": 20,
+      "h3_count": 9,
+      "korean_chars": 4473,
+      "words": 1394,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:4419"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:4473"
       ],
-      "score": 96,
+      "score": 92,
       "status": "PASS"
     },
     {
@@ -4411,31 +4412,30 @@
     {
       "path": "articles/vat-final-return-2026-july.html",
       "url": "https://savingio.com/articles/vat-final-return-2026-july.html",
-      "title": "2026년 부가가치세 확정신고 방법과 공식 기한 확인 | 세이빙이오(Savingio)",
-      "meta_description": "2026년 1기 부가가치세 확정신고 대상, 신고기한, 준비자료, 홈택스 신고 순서와 자주 하는 실수를 정리했습니다.",
+      "title": "2026년 1기 부가가치세 확정신고 방법과 기한 | Savingio",
+      "meta_description": "2026년 제1기 부가가치세 확정신고 대상, 과세기간, 신고·납부기한, 홈택스 제출 순서, 매출·매입 누락 점검과 예정고지 차감 방법을 실무 기준으로 정리합니다.",
       "canonical": "https://savingio.com/articles/vat-final-return-2026-july.html",
       "h1": [
-        "2026년 부가가치세 확정신고 방법과 공식 기한 확인"
+        "2026년 1기 부가가치세 확정신고 방법과 공식 기한"
       ],
-      "h2_count": 13,
-      "h3_count": 4,
-      "korean_chars": 4042,
-      "words": 1448,
-      "internal_article_links": 39,
+      "h2_count": 17,
+      "h3_count": 6,
+      "korean_chars": 3382,
+      "words": 1084,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:4042"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3382"
       ],
-      "score": 84,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/vat-input-tax-deduction-2026.html",
@@ -4467,32 +4467,30 @@
     {
       "path": "articles/vat-payment-extension-guide.html",
       "url": "https://savingio.com/articles/vat-payment-extension-guide.html",
-      "title": "부가가치세 신고 후 납부기한 연장 신청 방법 | 세이빙이오(Savingio)",
-      "meta_description": "일시적 자금난이 있을 때 납부기한 연장 가능 여부와 신청 경로를 확인합니다.",
+      "title": "부가가치세 납부기한 연장 신청 방법, 신고와 납부를 나눠 처리하세요 | Savingio",
+      "meta_description": "부가가치세 신고는 기한 안에 마치고 납부만 연장하려는 사업자를 위해 신청 사유, 홈택스 경로, 증빙, 담보, 분납, 승인 전 주의사항과 2026년 직권연장 대상을 정리합니다.",
       "canonical": "https://savingio.com/articles/vat-payment-extension-guide.html",
       "h1": [
         "부가가치세 신고 후 납부기한 연장 신청 방법"
       ],
-      "h2_count": 13,
+      "h2_count": 18,
       "h3_count": 4,
-      "korean_chars": 4009,
-      "words": 1427,
-      "internal_article_links": 39,
+      "korean_chars": 4070,
+      "words": 1361,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:42",
-        "CONTENT_SHORT_KO:4009"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:4070"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/vat-sales-omission-check-2026.html",
