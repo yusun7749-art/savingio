@@ -2,7 +2,7 @@
 
 - 전체 본문: **177개**
 - 2개 이상 주제 그룹: **25개**
-- 그룹 내부 중복·통합 후보 관계: **2개**
+- 그룹 내부 중복·통합 후보 관계: **1개**
 - 단독 주제 글: **3개**
 
 > 삭제나 통합을 실행하지 않은 선분류 단계입니다. 각 그룹 전체를 한 번에 놓고 대표글·유지·흡수·삭제를 결정합니다.
@@ -162,15 +162,14 @@
 ## G010 · 자동차세·교통 · 7개
 
 - `articles/car-aircon-fuel-saving.html` — 여름철 자동차 에어컨 연비 절약법, 차 안을 빨리 식히는 순서 (7,212자)
-- `articles/car-tax-annual-payment.html` — 자동차세 연납, 5% 공제와 신청 시기 확인하는 순서 (6,927자)
+- `articles/car-tax-annual-payment.html` — 2026 자동차세 연납, 신청 시기·5% 공제·환급 확인 가이드 (4,462자)
 - `articles/car-tax-check-payment-guide.html` — 자동차세 조회·납부, 고지서가 없어도 확인하는 순서 (5,265자)
 - `articles/regional-development-bond-refund-guide.html` — 자동차 채권 환급금 조회 방법, 지역개발채권 만기상환 확인 순서 (4,373자)
 - `articles/rental-car-vacation-saving.html` — 휴가철 렌터카 비용 절약, 보험·연료·반납 조건까지 비교하는 순서 (4,694자)
 - `articles/traffic-fines-difference-guide.html` — 교통 범칙금·과태료·벌금 차이와 조회·납부 방법 총정리 (4,207자)
 - `articles/vehicle-inspection-reservation-guide.html` — 자동차 검사 예약·검사기간 확인 방법, 과태료 전에 준비할 순서 (5,180자)
 
-중복·통합 우선 검토 관계:
-- **merge_candidate** · 제목 0.40 · 본문 0.54 — `articles/car-tax-annual-payment.html` ↔ `articles/car-tax-check-payment-guide.html`
+중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 

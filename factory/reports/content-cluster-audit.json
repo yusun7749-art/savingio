@@ -1,7 +1,7 @@
 {
   "article_count": 177,
   "topic_group_count": 25,
-  "candidate_pair_count": 2,
+  "candidate_pair_count": 1,
   "method": "topic-first grouping; title/body similarity only ranks articles inside the same topic group",
   "groups": [
     {
@@ -688,9 +688,9 @@
         },
         {
           "path": "articles/car-tax-annual-payment.html",
-          "title": "자동차세 연납, 5% 공제와 신청 시기 확인하는 순서 | Savingio",
-          "h1": "자동차세 연납, 5% 공제와 신청 시기 확인하는 순서",
-          "char_count": 6927
+          "title": "2026 자동차세 연납, 신청 시기·5% 공제·환급 확인 가이드 | Savingio",
+          "h1": "2026 자동차세 연납, 신청 시기·5% 공제·환급 확인 가이드",
+          "char_count": 4462
         },
         {
           "path": "articles/car-tax-check-payment-guide.html",
@@ -723,15 +723,7 @@
           "char_count": 5180
         }
       ],
-      "relationships": [
-        {
-          "a": "articles/car-tax-annual-payment.html",
-          "b": "articles/car-tax-check-payment-guide.html",
-          "classification": "merge_candidate",
-          "title_similarity": 0.4,
-          "body_similarity": 0.5379
-        }
-      ],
+      "relationships": [],
       "decision_status": "pending_group_review",
       "decision_options": [
         "대표글 통합",
