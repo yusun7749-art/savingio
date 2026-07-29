@@ -62,7 +62,7 @@
 - `articles/simplified-vat-checklist.html` — 간이과세자 부가가치세 신고 체크리스트 (5,827자)
 - `articles/tax-invoice-vs-cash-receipt.html` — 현금영수증 매출 조회 방법 (6,393자)
 - `articles/vat-final-return-2026-july.html` — 2026년 부가가치세 확정신고 방법과 공식 기한 확인 (6,006자)
-- `articles/vat-input-tax-deduction-2026.html` — 부가가치세 매입세액 공제·불공제 판단법 2026 (4,618자)
+- `articles/vat-input-tax-deduction-2026.html` — 부가가치세 매입세액 공제·불공제 판단법 2026 (8,432자)
 - `articles/vat-payment-extension-guide.html` — 부가가치세 신고 후 납부기한 연장 신청 방법 (5,851자)
 - `articles/vat-sales-omission-check-2026.html` — 부가가치세 신고 전 매출 누락 확인 방법 (5,390자)
 - `articles/vat-zero-sales-filing-2026.html` — 매출이 없어도 부가가치세 신고해야 할까? 무실적 신고 방법 (5,295자)
