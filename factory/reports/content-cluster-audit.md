@@ -164,7 +164,7 @@
 - `articles/apartment-leak-emergency-response.html` — 아랫집 누수 연락을 받았을 때, 윗집이 바로 할 일 (6,699자)
 - `articles/deposit-return-guarantee-checklist.html` — 전세보증금 반환보증 가입 전 체크리스트 (7,759자)
 - `articles/fixed-date-online-application.html` — 확정일자 온라인 신청 방법 (5,606자)
-- `articles/home-water-leak-self-check.html` — 수도 누수 자가진단, 계량기로 우리 집 누수 확인하는 방법 (2,027자)
+- `articles/home-water-leak-self-check.html` — 수도 누수 자가진단, 계량기로 우리 집 누수 확인하는 방법 (6,691자)
 - `articles/long-term-repair-reserve-refund-guide.html` — 장기수선충당금 반환, 세입자가 이사할 때 돌려받는 순서 (5,844자)
 - `articles/monthly-rent-tax-credit-documents.html` — 월세 세액공제 준비서류와 확인 순서 (7,623자)
 - `articles/rental-contract-reporting-guide.html` — 전월세 신고제 신고 방법과 준비서류 (4,984자)
