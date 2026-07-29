@@ -166,7 +166,7 @@
 - `articles/car-tax-check-payment-guide.html` — 자동차세 조회·납부, 고지서 없이 체납·환급까지 확인하는 가이드 (4,557자)
 - `articles/regional-development-bond-refund-guide.html` — 자동차 채권 환급금 조회 방법, 지역개발채권 만기상환 확인 순서 (4,373자)
 - `articles/rental-car-vacation-saving.html` — 휴가철 렌터카 비용 절약, 보험·연료·반납 조건까지 비교하는 순서 (4,694자)
-- `articles/traffic-fines-difference-guide.html` — 교통 범칙금·과태료·벌금 차이와 조회·납부 방법 총정리 (4,207자)
+- `articles/traffic-fines-difference-guide.html` — 교통 범칙금·과태료·벌금 차이와 조회·납부 방법 총정리 (5,848자)
 - `articles/vehicle-inspection-reservation-guide.html` — 자동차 검사 예약·검사기간 확인 방법, 과태료 전에 준비할 순서 (5,180자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
