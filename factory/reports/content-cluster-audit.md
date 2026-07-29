@@ -295,7 +295,7 @@
 - `articles/daily-liability-leak-insurance.html` — 일배책 누수 보험 처리, 아랫집 피해 접수부터 합의까지 (8,632자)
 - `articles/duplicate-indemnity-insurance-check.html` — 실손보험 중복가입 확인, 해지 전에 보장부터 비교하는 순서 (4,418자)
 - `articles/insurance-auto-pay-discount.html` — 보험료 자동이체 할인, 바꾸기 전에 실제 납부액부터 비교하세요 (6,189자)
-- `articles/insurance-surrender-value-check.html` — 보험 해지환급금 조회, 해지 전에 손실과 보장 공백 확인하는 순서 (3,762자)
+- `articles/insurance-surrender-value-check.html` — 보험 해지환급금 조회부터 해지 결정까지, 손실·대출·보장 공백 최종 점검 (6,407자)
 - `articles/travel-insurance-comparison.html` — 여행자보험 가입 전 비교 항목 (4,768자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
