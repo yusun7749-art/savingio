@@ -1,0 +1,4391 @@
+{
+  "summary": {
+    "article_count": 171,
+    "completed": 25,
+    "normal_needs_dna": 12,
+    "under_5000": 60,
+    "duplicate_suspected_articles": 26,
+    "duplicate_pairs": 90,
+    "broken_link_articles": 101,
+    "broken_links_total": 244,
+    "thresholds": {
+      "minimum_visible_characters": 5000,
+      "duplicate_cosine": 0.7
+    }
+  },
+  "articles": [
+    {
+      "path": "articles/ai-side-hustles-beginner.html",
+      "url": "https://savingio.com/articles/ai-side-hustles-beginner.html",
+      "title": "초보자를 위한 AI 부업 시작 방법, 첫 수익까지 현실적인 순서 | Savingio",
+      "h1": "초보자를 위한 AI 부업 시작 방법, 첫 수익까지 현실적인 순서",
+      "char_count": 7074,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/car-insurance-low-mileage-discount.html",
+        "/articles/fuel-saving-driving-habits.html",
+        "/categories/side-income.html"
+      ],
+      "broken_link_count": 3,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/air-conditioner-electricity-saving.html",
+      "url": "https://savingio.com/articles/air-conditioner-electricity-saving.html",
+      "title": "에어컨 전기요금 줄이는 방법, 우리 집에 맞는 냉방 순서 | Savingio",
+      "h1": "에어컨 전기요금 줄이는 방법, 우리 집에 맞는 냉방 순서",
+      "char_count": 6780,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/car-insurance-low-mileage-discount.html",
+        "/articles/fuel-saving-driving-habits.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/aircon-dry-mode-electricity.html",
+      "url": "https://savingio.com/articles/aircon-dry-mode-electricity.html",
+      "title": "에어컨 제습모드 전기요금, 냉방보다 정말 덜 나올까? | Savingio",
+      "h1": "에어컨 제습모드 전기요금, 냉방보다 정말 덜 나올까?",
+      "char_count": 4717,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/aircon-filter-cleaning-savings.html",
+      "url": "https://savingio.com/articles/aircon-filter-cleaning-savings.html",
+      "title": "에어컨 필터 청소로 전기요금 줄이는 방법, 냉방이 약할 때 확인 순서 | Savingio",
+      "h1": "에어컨 필터 청소로 전기요금 줄이는 방법, 냉방이 약할 때 확인 순서",
+      "char_count": 7657,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/car-insurance-low-mileage-discount.html",
+        "/articles/fuel-saving-driving-habits.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/aircon-optimal-temperature-savings.html",
+      "url": "https://savingio.com/articles/aircon-optimal-temperature-savings.html",
+      "title": "에어컨 적정 온도는 몇 도일까? 전기요금과 쾌적함을 함께 잡는 설정 순서 | Savingio",
+      "h1": "에어컨 적정 온도는 몇 도일까? 전기요금과 쾌적함을 함께 잡는 설정 순서",
+      "char_count": 4211,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/apartment-leak-emergency-response.html",
+      "url": "https://savingio.com/articles/apartment-leak-emergency-response.html",
+      "title": "아랫집 누수 연락을 받았을 때, 윗집이 바로 할 일 | 세이빙이오",
+      "h1": "아랫집 누수 연락을 받았을 때, 윗집이 바로 할 일",
+      "char_count": 6699,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/home-insurance-coverage-check.html",
+        "/articles/insurance-claim-documents.html",
+        "/articles/tenant-landlord-repair-responsibility.html",
+        "/categories/housing-maintenance.html"
+      ],
+      "broken_link_count": 4,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/apartment-management-fee-summer.html",
+      "url": "https://savingio.com/articles/apartment-management-fee-summer.html",
+      "title": "아파트 관리비가 갑자기 많이 나왔을 때 확인할 항목과 줄이는 방법 | Savingio",
+      "h1": "아파트 관리비가 갑자기 많이 나왔을 때 확인할 항목과 줄이는 방법",
+      "char_count": 5983,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "정상",
+      "priority": "P3"
+    },
+    {
+      "path": "articles/automatic-payment-saving.html",
+      "url": "https://savingio.com/articles/automatic-payment-saving.html",
+      "title": "자동이체·자동결제 정리하는 방법, 매달 새는 고정비 찾기 | Savingio",
+      "h1": "자동이체·자동결제 정리하는 방법, 매달 새는 고정비 찾기",
+      "char_count": 6466,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/bank-fees-to-avoid.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "30초"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/bank-account-budgeting.html",
+      "url": "https://savingio.com/articles/bank-account-budgeting.html",
+      "title": "통장 나누기로 예산 관리하기, 월급날부터 자동으로 돈을 나누는 방법 | Savingio",
+      "h1": "통장 나누기로 예산 관리하기, 월급날부터 자동으로 돈을 나누는 방법",
+      "char_count": 6979,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/bank-fees-to-avoid.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/bank-fee-saving.html",
+      "url": "https://savingio.com/articles/bank-fee-saving.html",
+      "title": "은행 수수료 아끼는 방법, 이체·ATM·환전 비용을 줄이는 확인 순서 | Savingio",
+      "h1": "은행 수수료 아끼는 방법, 이체·ATM·환전 비용을 줄이는 확인 순서",
+      "char_count": 5118,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/bank-fees-to-avoid.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/basic-livelihood-discounts.html",
+      "url": "https://savingio.com/articles/basic-livelihood-discounts.html",
+      "title": "기초생활수급자 생활요금 감면 신청 방법, 전기·가스·통신 할인 확인 | Savingio",
+      "h1": "기초생활수급자 생활요금 감면 신청 방법, 전기·가스·통신 할인 확인",
+      "char_count": 4580,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/basic-livelihood-benefit-check.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/basic-pension-application-guide.html",
+      "url": "https://savingio.com/articles/basic-pension-application-guide.html",
+      "title": "기초연금 신청 방법, 만 65세 준비서류·소득인정액·지급 확인 | Savingio",
+      "h1": "기초연금 신청 방법, 만 65세 준비서류·소득인정액·지급 확인",
+      "char_count": 7896,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/basic-pension-eligibility.html",
+        "/articles/national-pension-guide.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/beginner-budget-plan.html",
+      "url": "https://savingio.com/articles/beginner-budget-plan.html",
+      "title": "초보자를 위한 예산 계획, 월급이 어디로 사라지는지 찾는 순서 | Savingio",
+      "h1": "초보자를 위한 예산 계획, 월급이 어디로 사라지는지 찾는 순서",
+      "char_count": 5987,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/beginner-money-management.html",
+      "url": "https://savingio.com/articles/beginner-money-management.html",
+      "title": "처음 시작하는 돈 관리 방법, 월급을 지키는 순서 | Savingio",
+      "h1": "처음 시작하는 돈 관리 방법, 월급을 지키는 순서",
+      "char_count": 5292,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/benefit-scam-warning-2026.html",
+      "url": "https://savingio.com/articles/benefit-scam-warning-2026.html",
+      "title": "지원금 문자 사기 구별 방법, 링크 누르기 전 확인할 7가지 | Savingio",
+      "h1": "지원금 문자 사기 구별 방법, 링크 누르기 전 확인할 7가지",
+      "char_count": 9284,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/government-benefits-warning.html",
+          "score": 0.7282
+        }
+      ],
+      "final_status": "중복 의심",
+      "priority": "P1"
+    },
+    {
+      "path": "articles/budget-app-guide.html",
+      "url": "https://savingio.com/articles/budget-app-guide.html",
+      "title": "가계부 앱 고르는 방법, 자동연동보다 중요한 기준 | Savingio",
+      "h1": "가계부 앱 고르는 방법, 자동연동보다 중요한 기준",
+      "char_count": 6076,
+      "under_5000": false,
+      "broken_links": [
+        "/calculators/monthly-budget.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/building-land-property-tax.html",
+      "url": "https://savingio.com/articles/building-land-property-tax.html",
+      "title": "건축물 재산세와 토지 재산세 차이, 고지서 두 장이 왔을 때 확인 순서 | Savingio",
+      "h1": "건축물 재산세와 토지 재산세 차이, 고지서 두 장이 왔을 때 확인 순서",
+      "char_count": 4677,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/business-card-hometax-registration.html",
+      "url": "https://savingio.com/articles/business-card-hometax-registration.html",
+      "title": "사업용 신용카드 홈택스 등록 방법, 등록 뒤 매입내역까지 확인하는 순서 | Savingio",
+      "h1": "사업용 신용카드 홈택스 등록 방법, 등록 뒤 매입내역까지 확인하는 순서",
+      "char_count": 5183,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/business-closure-vat-order.html",
+      "url": "https://savingio.com/articles/business-closure-vat-order.html",
+      "title": "사업자 폐업신고와 부가세 신고 순서, 폐업일 전후로 놓치기 쉬운 절차 | Savingio",
+      "h1": "사업자 폐업신고와 부가세 신고 순서, 폐업일 전후로 놓치기 쉬운 절차",
+      "char_count": 4697,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/business-phone-expense-deduction.html",
+      "url": "https://savingio.com/articles/business-phone-expense-deduction.html",
+      "title": "사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리 | Savingio",
+      "h1": "사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리",
+      "char_count": 3710,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/business-vehicle-expense-basics.html",
+      "url": "https://savingio.com/articles/business-vehicle-expense-basics.html",
+      "title": "사업용 차량 비용처리, 증빙부터 운행기록부까지 확인하는 순서 | Savingio",
+      "h1": "사업용 차량 비용처리, 증빙부터 운행기록부까지 확인하는 순서",
+      "char_count": 5920,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/bank-fees-to-avoid.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/cancel-unused-subscriptions.html",
+      "url": "https://savingio.com/articles/cancel-unused-subscriptions.html",
+      "title": "안 쓰는 구독서비스 해지하는 방법, 무료체험부터 자동결제까지 | Savingio",
+      "h1": "안 쓰는 구독서비스 해지하는 방법, 무료체험부터 자동결제까지",
+      "char_count": 6958,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/bank-fees-to-avoid.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "30초"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/car-aircon-fuel-saving.html",
+      "url": "https://savingio.com/articles/car-aircon-fuel-saving.html",
+      "title": "여름철 자동차 에어컨 연비 절약법, 차 안을 빨리 식히는 순서 | Savingio",
+      "h1": "여름철 자동차 에어컨 연비 절약법, 차 안을 빨리 식히는 순서",
+      "char_count": 7212,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/bank-fees-to-avoid.html",
+        "/articles/car-insurance-low-mileage-discount.html",
+        "/articles/car-tire-pressure-fuel-efficiency.html",
+        "/articles/fuel-saving-driving-habits.html"
+      ],
+      "broken_link_count": 4,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/car-insurance-child-discount.html",
+      "url": "https://savingio.com/articles/car-insurance-child-discount.html",
+      "title": "자동차보험 자녀할인 특약, 태아·연령·증빙·중도변경 확인 가이드 | Savingio",
+      "h1": "자동차보험 자녀할인 특약, 태아·연령·증빙·중도변경 확인 가이드",
+      "char_count": 6392,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/car-insurance-mileage-refund.html",
+      "url": "https://savingio.com/articles/car-insurance-mileage-refund.html",
+      "title": "자동차보험 마일리지 특약 환급, 사진 등록·주행거리·정산 확인 가이드 | Savingio",
+      "h1": "자동차보험 마일리지 특약 환급, 사진 등록·주행거리·정산 확인 가이드",
+      "char_count": 7145,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/car-insurance-overpayment-refund.html",
+      "url": "https://savingio.com/articles/car-insurance-overpayment-refund.html",
+      "title": "자동차보험료를 더 냈을 때, 과납보험료 확인부터 환급까지 | Savingio",
+      "h1": "자동차보험료를 더 냈을 때, 과납보험료 확인부터 환급까지",
+      "char_count": 7379,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/car-insurance-saving.html",
+      "url": "https://savingio.com/articles/car-insurance-saving.html",
+      "title": "자동차보험료 절약, 갱신 전에 비교할 운전자 범위·특약·담보 최종 가이드 | Savingio",
+      "h1": "자동차보험료 절약, 갱신 전에 비교할 운전자 범위·특약·담보 최종 가이드",
+      "char_count": 4684,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/car-tax-annual-payment.html",
+      "url": "https://savingio.com/articles/car-tax-annual-payment.html",
+      "title": "2026 자동차세 연납, 신청 시기·5% 공제·환급 확인 가이드 | Savingio",
+      "h1": "2026 자동차세 연납, 신청 시기·5% 공제·환급 확인 가이드",
+      "char_count": 4462,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/car-tax-check-payment-guide.html",
+      "url": "https://savingio.com/articles/car-tax-check-payment-guide.html",
+      "title": "자동차세 조회·납부, 고지서 없이 체납·환급까지 확인하는 가이드 | Savingio",
+      "h1": "자동차세 조회·납부, 고지서 없이 체납·환급까지 확인하는 가이드",
+      "char_count": 4557,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/card-points-cashback-guide.html",
+      "url": "https://savingio.com/articles/card-points-cashback-guide.html",
+      "title": "카드 포인트와 캐시백 활용법, 혜택보다 먼저 확인할 것 | Savingio",
+      "h1": "카드 포인트와 캐시백 활용법, 혜택보다 먼저 확인할 것",
+      "char_count": 3322,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/cash-advance-vs-card-loan.html",
+      "url": "https://savingio.com/articles/cash-advance-vs-card-loan.html",
+      "title": "현금서비스와 카드론 차이, 급하게 돈이 필요할 때 먼저 확인할 것 | Savingio",
+      "h1": "현금서비스와 카드론 차이, 급하게 돈이 필요할 때 먼저 확인할 것",
+      "char_count": 3472,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/credit-score-management.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/cash-out-card-points.html",
+      "url": "https://savingio.com/articles/cash-out-card-points.html",
+      "title": "카드 포인트 현금화 방법, 흩어진 포인트를 계좌로 받는 순서 | Savingio",
+      "h1": "카드 포인트 현금화 방법, 흩어진 포인트를 계좌로 받는 순서",
+      "char_count": 5555,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/credit-card-annual-fee-check.html",
+        "/articles/dormant-account-find.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/cashback-apps-guide.html",
+      "url": "https://savingio.com/articles/cashback-apps-guide.html",
+      "title": "캐시백 앱 활용 가이드, 적립보다 먼저 확인할 것 | Savingio",
+      "h1": "캐시백 앱 활용 가이드, 적립 금액보다 먼저 확인할 것",
+      "char_count": 7263,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "정상",
+      "priority": "P3"
+    },
+    {
+      "path": "articles/check-hidden-refunds.html",
+      "url": "https://savingio.com/articles/check-hidden-refunds.html",
+      "title": "미수령 환급금 조회 방법 | Savingio",
+      "h1": "미수령 환급금 조회 방법",
+      "char_count": 8394,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/health-insurance-overpayment-refund.html",
+        "/articles/hidden-money-search.html",
+        "/categories/refund-insurance.html"
+      ],
+      "broken_link_count": 3,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/child-allowance-guide.html",
+      "url": "https://savingio.com/articles/child-allowance-guide.html",
+      "title": "아동수당 신청 방법, 지급이 누락되지 않게 확인하는 체크리스트 | Savingio",
+      "h1": "아동수당 신청 방법, 지급이 누락되지 않게 확인하는 체크리스트",
+      "char_count": 4709,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/bank-fees-to-avoid.html",
+        "/categories/banking.html",
+        "/categories/communication.html",
+        "/categories/insurance.html",
+        "/categories/utility-bills.html"
+      ],
+      "broken_link_count": 5,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/child-tax-credit-status-check.html",
+      "url": "https://savingio.com/articles/child-tax-credit-status-check.html",
+      "title": "자녀장려금 심사결과 확인 방법, 지급액과 감액 사유 보는 순서 | Savingio",
+      "h1": "자녀장려금 심사결과 확인 방법, 지급액과 감액 사유 보는 순서",
+      "char_count": 6173,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/grocery-bill-savings.html",
+        "/articles/phone-bill-saving.html",
+        "/calculators/annual-income.html",
+        "/categories/government-benefits.html"
+      ],
+      "broken_link_count": 4,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/childcare-service-government-support.html",
+      "url": "https://savingio.com/articles/childcare-service-government-support.html",
+      "title": "아이돌봄서비스 정부지원 신청 방법, 자격 판정부터 이용까지 | Savingio",
+      "h1": "아이돌봄서비스 정부지원 신청 방법, 자격 판정부터 이용까지",
+      "char_count": 6142,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/grocery-bill-savings.html",
+        "/calculators/childcare-cost.html",
+        "/calculators/monthly-budget.html",
+        "/categories/benefits.html",
+        "/categories/education-childcare.html",
+        "/categories/household.html"
+      ],
+      "broken_link_count": 6,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/cma-account-types-risk.html",
+      "url": "https://savingio.com/articles/cma-account-types-risk.html",
+      "title": "CMA 통장 종류와 원금손실 가능성 | Savingio",
+      "h1": "CMA 통장 종류와 원금손실 가능성",
+      "char_count": 7542,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/bank-deposit-protection-limit.html",
+        "/articles/bank-fees-to-avoid.html",
+        "/articles/financial-product-comparison-guide.html",
+        "/articles/high-interest-savings-account.html"
+      ],
+      "broken_link_count": 4,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/credit-card-billing-cycle-guide.html",
+      "url": "https://savingio.com/articles/credit-card-billing-cycle-guide.html",
+      "title": "신용카드 결제일별 이용기간 확인법 | Savingio",
+      "h1": "신용카드 결제일별 이용기간 확인법",
+      "char_count": 6874,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/bank-fees-to-avoid.html",
+        "/articles/credit-card-annual-fee-refund.html",
+        "/articles/credit-card-interest-free-installment-guide.html"
+      ],
+      "broken_link_count": 3,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/credit-score-habits.html",
+      "url": "https://savingio.com/articles/credit-score-habits.html",
+      "title": "신용점수를 지키는 생활 습관, 연체 없이 관리하는 현실적인 방법 | Savingio",
+      "h1": "신용점수를 지키는 생활 습관, 연체 없이 관리하는 현실적인 방법",
+      "char_count": 5674,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/card-payment-date-guide.html",
+        "/articles/credit-card-limit-management.html",
+        "/articles/credit-information-check.html",
+        "/articles/debt-repayment-order.html"
+      ],
+      "broken_link_count": 4,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/culture-nuri-card-balance.html",
+      "url": "https://savingio.com/articles/culture-nuri-card-balance.html",
+      "title": "문화누리카드 잔액 조회와 사용처 확인, 남은 금액까지 쓰는 방법 | Savingio",
+      "h1": "문화누리카드 잔액 조회와 사용처 확인, 남은 금액까지 쓰는 방법",
+      "char_count": 8417,
+      "under_5000": false,
+      "broken_links": [
+        "/categories/welfare-benefits.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/daily-liability-leak-insurance.html",
+      "url": "https://savingio.com/articles/daily-liability-leak-insurance.html",
+      "title": "일배책 누수 보험 처리, 아랫집 피해 접수부터 합의까지 | Savingio",
+      "h1": "일배책 누수 보험 처리, 아랫집 피해 접수부터 합의까지",
+      "char_count": 8632,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/home-fire-insurance-guide.html",
+        "/categories/insurance.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/debit-card-vs-credit-card.html",
+      "url": "https://savingio.com/articles/debit-card-vs-credit-card.html",
+      "title": "체크카드와 신용카드 비교 | Savingio",
+      "h1": "체크카드와 신용카드 비교",
+      "char_count": 7296,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/credit-score-management.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/dehumidifier-electricity-saving.html",
+      "url": "https://savingio.com/articles/dehumidifier-electricity-saving.html",
+      "title": "제습기 전기요금 계산과 절약법 | Savingio",
+      "h1": "제습기 전기요금 계산과 절약법",
+      "char_count": 5557,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/standby-power-saving.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/deposit-protection-limit-guide.html",
+      "url": "https://savingio.com/articles/deposit-protection-limit-guide.html",
+      "title": "예금자보호제도 총정리 | Savingio",
+      "h1": "예금자보호제도 총정리",
+      "char_count": 7356,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/bank-fees-to-avoid.html",
+        "/articles/credit-score-management.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/deposit-return-guarantee-checklist.html",
+      "url": "https://savingio.com/articles/deposit-return-guarantee-checklist.html",
+      "title": "전세보증금 반환보증 가입 전 체크리스트 | Savingio",
+      "h1": "전세보증금 반환보증 가입 전 체크리스트",
+      "char_count": 7759,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "정상",
+      "priority": "P3"
+    },
+    {
+      "path": "articles/dormant-deposit-insurance-search.html",
+      "url": "https://savingio.com/articles/dormant-deposit-insurance-search.html",
+      "title": "휴면예금과 휴면보험금 찾는 방법 | Savingio",
+      "h1": "휴면예금과 휴면보험금 찾는 방법",
+      "char_count": 8078,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/dryer-summer-electricity-saving.html",
+      "url": "https://savingio.com/articles/dryer-summer-electricity-saving.html",
+      "title": "건조기 여름 전기세 절약 방법 | Savingio",
+      "h1": "건조기 여름 전기세 절약 방법",
+      "char_count": 6436,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/duplicate-indemnity-insurance-check.html",
+      "url": "https://savingio.com/articles/duplicate-indemnity-insurance-check.html",
+      "title": "실손보험 중복가입 확인부터 개인·단체실손 정리까지 최종 가이드 | Savingio",
+      "h1": "실손보험 중복가입 확인부터 개인·단체실손 정리까지 최종 가이드",
+      "char_count": 5605,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/earned-income-credit-account-change.html",
+      "url": "https://savingio.com/articles/earned-income-credit-account-change.html",
+      "title": "근로장려금 지급계좌 변경 방법, 홈택스 신청과 입금 오류 대응 | Savingio",
+      "h1": "근로장려금 지급계좌 변경 방법, 홈택스 신청과 입금 오류 대응",
+      "char_count": 4645,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/earned-income-credit-payment.html",
+      "url": "https://savingio.com/articles/earned-income-credit-payment.html",
+      "title": "근로장려금 지급일 확인 방법, 정기·반기 입금 시기와 조회 순서 | Savingio",
+      "h1": "근로장려금 지급일 확인 방법, 정기·반기 입금 시기와 조회 순서",
+      "char_count": 6219,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/car-insurance-low-mileage-discount.html",
+        "/articles/fuel-saving-driving-habits.html",
+        "/articles/grocery-bill-savings.html",
+        "/articles/phone-bill-saving.html",
+        "/categories/benefits.html",
+        "/categories/finance.html"
+      ],
+      "broken_link_count": 6,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/earned-income-credit-status-check.html",
+      "url": "https://savingio.com/articles/earned-income-credit-status-check.html",
+      "title": "근로장려금 심사진행상황 조회 방법, 심사중·결정완료 상태 해석 | Savingio",
+      "h1": "근로장려금 심사진행상황 조회 방법, 심사중·결정완료 상태 해석",
+      "char_count": 5137,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/earned-income-tax-credit-korea.html",
+      "url": "https://savingio.com/articles/earned-income-tax-credit-korea.html",
+      "title": "2026 근로장려금 신청 대상과 지급일, 놓쳤을 때 확인 순서 | Savingio",
+      "h1": "2026 근로장려금 신청 대상과 지급일, 놓쳤을 때 확인 순서",
+      "char_count": 8559,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/unclaimed-refund-check.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/education-benefit-eligibility.html",
+      "url": "https://savingio.com/articles/education-benefit-eligibility.html",
+      "title": "교육급여 신청 방법과 수급자격 확인 | Savingio",
+      "h1": "교육급여 신청 방법과 수급자격 확인",
+      "char_count": 5536,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/education-expense-vs-benefit.html",
+      "url": "https://savingio.com/articles/education-expense-vs-benefit.html",
+      "title": "교육비 지원과 교육급여 차이 | Savingio",
+      "h1": "교육비 지원과 교육급여 차이",
+      "char_count": 4921,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/elementary-school-education-support.html",
+          "score": 0.7144
+        }
+      ],
+      "final_status": "5천자 미달 / 중복 의심",
+      "priority": "P1"
+    },
+    {
+      "path": "articles/electricity-bill-easy-calculator-guide.html",
+      "url": "https://savingio.com/articles/electricity-bill-easy-calculator-guide.html",
+      "title": "전기 사용량만으로 이번 달 예상 전기요금 확인하는 방법 | 세이빙이오(Savingio)",
+      "h1": "전기 사용량만으로 이번 달 예상 전기요금 확인하는 방법",
+      "char_count": 4756,
+      "under_5000": true,
+      "broken_links": [
+        "/categories/living-cost.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/electricity-bill-saving.html",
+      "url": "https://savingio.com/articles/electricity-bill-saving.html",
+      "title": "전기요금 절약 방법, 고지서부터 가전 사용량까지 확인하는 순서 | 세이빙이오(Savingio)",
+      "h1": "전기요금 절약 방법, 고지서부터 가전 사용량까지 확인하는 순서",
+      "char_count": 4645,
+      "under_5000": true,
+      "broken_links": [
+        "/categories/living-cost.html",
+        "/categories/utility-bills.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/electricity-discount-card-guide.html",
+      "url": "https://savingio.com/articles/electricity-discount-card-guide.html",
+      "title": "전기요금 할인카드 제대로 고르는 방법 | Savingio",
+      "h1": "전기요금 할인카드 제대로 고르는 방법",
+      "char_count": 6028,
+      "under_5000": false,
+      "broken_links": [
+        "/categories/electricity-utility.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/electronic-tax-invoice-penalty.html",
+      "url": "https://savingio.com/articles/electronic-tax-invoice-penalty.html",
+      "title": "전자세금계산서 가산세, 지연발급·미발급·미전송 차이 | Savingio",
+      "h1": "전자세금계산서 가산세, 지연발급·미발급·미전송 차이",
+      "char_count": 8286,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/elementary-school-education-support.html",
+      "url": "https://savingio.com/articles/elementary-school-education-support.html",
+      "title": "초등학생 교육비 지원 총정리, 교육급여·방과후·돌봄 신청법 | Savingio",
+      "h1": "초등학생 교육비 지원 총정리, 교육급여·방과후·돌봄 신청법",
+      "char_count": 9508,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/child-care-service-guide.html",
+        "/articles/childcare-support-guide.html",
+        "/articles/elementary-after-school-care.html"
+      ],
+      "broken_link_count": 3,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [
+        {
+          "path": "articles/education-expense-vs-benefit.html",
+          "score": 0.7144
+        }
+      ],
+      "final_status": "중복 의심 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/emergency-fund-guide.html",
+      "url": "https://savingio.com/articles/emergency-fund-guide.html",
+      "title": "비상금 얼마가 적당할까? 생활비 1개월부터 만드는 현실적인 순서 | Savingio",
+      "h1": "비상금 얼마가 적당할까? 생활비 1개월부터 만드는 현실적인 순서",
+      "char_count": 6231,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/credit-card-revolving-guide.html",
+        "/articles/debt-adjustment-guide.html",
+        "/articles/household-budget-guide.html",
+        "/articles/loan-interest-reduction-guide.html"
+      ],
+      "broken_link_count": 4,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/emergency-medical-support.html",
+      "url": "https://savingio.com/articles/emergency-medical-support.html",
+      "title": "긴급복지 의료지원 신청 방법 | 세이빙이오(Savingio)",
+      "h1": "긴급복지 의료지원 신청 방법",
+      "char_count": 9379,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/health-insurance-out-of-pocket-refund.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/emergency-welfare-living-support.html",
+      "url": "https://savingio.com/articles/emergency-welfare-living-support.html",
+      "title": "긴급복지 생계지원 신청 조건 | 세이빙이오(Savingio)",
+      "h1": "긴급복지 생계지원 신청 조건",
+      "char_count": 8755,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/unemployment-benefit-application.html",
+        "/articles/utility-bill-support.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/energy-voucher-2026-application.html",
+      "url": "https://savingio.com/articles/energy-voucher-2026-application.html",
+      "title": "2026 에너지바우처 신청 대상과 금액, 사용기간까지 한 번에 | Savingio",
+      "h1": "2026 에너지바우처 신청 대상과 금액, 사용기간까지 한 번에",
+      "char_count": 8095,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/fan-aircon-combination-saving.html",
+      "url": "https://savingio.com/articles/fan-aircon-combination-saving.html",
+      "title": "선풍기와 에어컨 함께 쓰는 방법 | 세이빙이오(Savingio)",
+      "h1": "선풍기와 에어컨 함께 쓰는 방법",
+      "char_count": 4214,
+      "under_5000": true,
+      "broken_links": [
+        "/categories/energy-saving.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/first-meeting-voucher-guide.html",
+      "url": "https://savingio.com/articles/first-meeting-voucher-guide.html",
+      "title": "첫만남이용권 신청과 사용 방법, 결제 전에 확인할 제한사항 | 세이빙이오(Savingio)",
+      "h1": "첫만남이용권 신청과 사용 방법, 결제 전에 확인할 제한사항",
+      "char_count": 6147,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/diaper-formula-support-guide.html",
+        "/articles/electricity-bill-childbirth-discount.html",
+        "/articles/maternity-leave-benefit.html",
+        "/articles/pregnancy-childbirth-medical-support.html"
+      ],
+      "broken_link_count": 4,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/fixed-date-online-application.html",
+      "url": "https://savingio.com/articles/fixed-date-online-application.html",
+      "title": "확정일자 온라인 신청 방법 | 세이빙이오(Savingio)",
+      "h1": "확정일자 온라인 신청 방법",
+      "char_count": 5606,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/jeonse-deposit-protection.html",
+        "/articles/lease-contract-report.html",
+        "/articles/move-in-report-online.html",
+        "/articles/registry-copy-check.html"
+      ],
+      "broken_link_count": 4,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/fixed-speed-aircon-saving.html",
+      "url": "https://savingio.com/articles/fixed-speed-aircon-saving.html",
+      "title": "정속형 에어컨 전기세 절약 방법 | 세이빙이오(Savingio)",
+      "h1": "정속형 에어컨 전기세 절약 방법",
+      "char_count": 4789,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/four-major-insurance-deduction-guide.html",
+      "url": "https://savingio.com/articles/four-major-insurance-deduction-guide.html",
+      "title": "4대보험 공제액 확인 방법, 월급에서 얼마가 빠지는지 보는 기준 | 세이빙이오(Savingio)",
+      "h1": "4대보험 공제액 확인 방법, 월급에서 얼마가 빠지는지 보는 기준",
+      "char_count": 4903,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/salary-statement-check-guide.html",
+        "/articles/salary-tax-deduction-guide.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/gas-bill-checklist.html",
+      "url": "https://savingio.com/articles/gas-bill-checklist.html",
+      "title": "도시가스 요금 절약과 고지서 점검 방법 | 세이빙이오(Savingio)",
+      "h1": "도시가스 요금 절약과 고지서 점검 방법",
+      "char_count": 4624,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/energy-voucher-guide.html",
+        "/articles/heating-cost-saving-guide.html",
+        "/categories/utility-bills.html"
+      ],
+      "broken_link_count": 3,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/general-vat-common-mistakes.html",
+      "url": "https://savingio.com/articles/general-vat-common-mistakes.html",
+      "title": "일반과세자 부가가치세 신고에서 자주 하는 실수 12가지 | 세이빙이오(Savingio)",
+      "h1": "일반과세자 부가가치세 신고에서 자주 하는 실수 12가지",
+      "char_count": 5055,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/government-benefit-alert-2026.html",
+      "url": "https://savingio.com/articles/government-benefit-alert-2026.html",
+      "title": "정부24 혜택알리미 2026, 받을 수 있는 지원금 찾는 순서 | Savingio",
+      "h1": "“남들은 받았다는데 나는 왜 몰랐을까?” 정부24 혜택알리미 확인 순서",
+      "char_count": 7541,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/subsidy24-benefit-search.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/government-benefit-alert-setup.html",
+      "url": "https://savingio.com/articles/government-benefit-alert-setup.html",
+      "title": "정부24 혜택알리미 설정 방법, 맞춤 혜택과 알림 수신 관리 | Savingio",
+      "h1": "정부24 혜택알리미 설정 방법, 맞춤 혜택과 알림 수신 관리",
+      "char_count": 3962,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/government-benefits-warning.html",
+      "url": "https://savingio.com/articles/government-benefits-warning.html",
+      "title": "정부지원금 조회 시 주의할 점 | Savingio",
+      "h1": "정부지원금 조회 시 주의할 점",
+      "char_count": 5559,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/subsidy24-benefit-search.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/benefit-scam-warning-2026.html",
+          "score": 0.7282
+        }
+      ],
+      "final_status": "중복 의심 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/government-support-calendar.html",
+      "url": "https://savingio.com/articles/government-support-calendar.html",
+      "title": "정부지원금 신청 일정 관리 방법, 마감일·갱신일 놓치지 않는 달력 만들기 | Savingio",
+      "h1": "정부지원금 신청 일정 관리 방법, 마감일·갱신일 놓치지 않는 달력 만들기",
+      "char_count": 4129,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/government24-benefit-check.html",
+      "url": "https://savingio.com/articles/government24-benefit-check.html",
+      "title": "정부24 보조금24 혜택 조회 방법, 나와 가족 지원금 찾기 | Savingio",
+      "h1": "정부24 보조금24 혜택 조회 방법, 나와 가족 지원금 찾기",
+      "char_count": 3724,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/grocery-saving-tips.html",
+      "url": "https://savingio.com/articles/grocery-saving-tips.html",
+      "title": "장보기 전에 꼭 확인할 식비 절약법, 냉장고부터 예산까지 | Savingio",
+      "h1": "장보기 전에 꼭 확인할 식비 절약법, 냉장고부터 예산까지",
+      "char_count": 7680,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/bank-fees-to-avoid.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/health-insurance-refund-guide.html",
+      "url": "https://savingio.com/articles/health-insurance-refund-guide.html",
+      "title": "건강보험 환급금 조회부터 신청·입금 확인까지 최종 가이드 | Savingio",
+      "h1": "건강보험 환급금 조회부터 신청·입금 확인까지 최종 가이드",
+      "char_count": 5138,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/health-insurance-out-of-pocket-refund.html",
+        "/articles/health-insurance-overpayment-refund.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/heating-bill-saving.html",
+      "url": "https://savingio.com/articles/heating-bill-saving.html",
+      "title": "난방비 절약 방법 12가지, 보일러 설정부터 창문 단열까지 | Savingio",
+      "h1": "난방비 절약 방법 12가지, 보일러 설정부터 창문 단열까지",
+      "char_count": 4481,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/home-water-leak-self-check.html",
+      "url": "https://savingio.com/articles/home-water-leak-self-check.html",
+      "title": "수도 누수 자가진단, 계량기로 우리 집 누수 확인하는 방법 | 세이빙이오(Savingio)",
+      "h1": "수도 누수 자가진단, 계량기로 우리 집 누수 확인하는 방법",
+      "char_count": 6691,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/hometax-refund-status.html",
+      "url": "https://savingio.com/articles/hometax-refund-status.html",
+      "title": "홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요 | 세이빙이오(Savingio)",
+      "h1": "홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요",
+      "char_count": 3814,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/income-tax-refund-check.html",
+        "/articles/tax-refund-scam-warning.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/hometax-vat-sales-check.html",
+      "url": "https://savingio.com/articles/hometax-vat-sales-check.html",
+      "title": "홈택스 부가가치세 매출자료 확인 방법, 카드·현금영수증 누락까지 점검하세요 | 세이빙이오(Savingio)",
+      "h1": "홈택스 부가가치세 매출자료 확인 방법, 카드·현금영수증 누락까지 점검하세요",
+      "char_count": 4623,
+      "under_5000": true,
+      "broken_links": [
+        "/calculators/vat-calculator.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/housing-benefit-eligibility.html",
+      "url": "https://savingio.com/articles/housing-benefit-eligibility.html",
+      "title": "2026 주거급여 신청 자격, 소득인정액과 지원금 확인 방법 | 세이빙이오(Savingio)",
+      "h1": "2026 주거급여 신청 자격, 소득인정액과 지원금 확인 방법",
+      "char_count": 10512,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/energy-voucher-eligibility.html",
+        "/articles/heating-cost-support.html",
+        "/articles/housing-benefit-application.html",
+        "/articles/rent-tax-credit-guide.html"
+      ],
+      "broken_link_count": 4,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/impulse-buying-control.html",
+      "url": "https://savingio.com/articles/impulse-buying-control.html",
+      "title": "충동구매 줄이는 현실적인 방법, 결제 전 24시간 규칙부터 시작하세요 | Savingio",
+      "h1": "충동구매 줄이는 현실적인 방법, 결제 전 24시간 규칙부터 시작하세요",
+      "char_count": 3459,
+      "under_5000": true,
+      "broken_links": [
+        "/categories/household-budget.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/income-tax-filing-missed-consequences.html",
+      "url": "https://savingio.com/articles/income-tax-filing-missed-consequences.html",
+      "title": "종합소득세 신고 안 하면 생기는 불이익과 기한후신고 방법 | 세이빙이오(Savingio)",
+      "h1": "종합소득세 신고 안 하면 생기는 불이익과 기한후신고 방법",
+      "char_count": 8342,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/freelancer-income-tax-refund.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/insurance-auto-pay-discount.html",
+      "url": "https://savingio.com/articles/insurance-auto-pay-discount.html",
+      "title": "보험료 자동이체 할인, 바꾸기 전에 실제 납부액부터 비교하세요 | Savingio",
+      "h1": "보험료 자동이체 할인, 바꾸기 전에 실제 납부액부터 비교하세요",
+      "char_count": 6189,
+      "under_5000": false,
+      "broken_links": [
+        "/categories/insurance.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/insurance-surrender-value-check.html",
+      "url": "https://savingio.com/articles/insurance-surrender-value-check.html",
+      "title": "보험 해지환급금 조회부터 해지 결정까지, 손실·대출·보장 공백 최종 점검 | Savingio",
+      "h1": "보험 해지환급금 조회부터 해지 결정까지, 손실·대출·보장 공백 최종 점검",
+      "char_count": 6407,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/internet-bill-discount.html",
+      "url": "https://savingio.com/articles/internet-bill-discount.html",
+      "title": "인터넷 요금 할인받는 방법, 약정·결합·재약정 점검 순서 | 세이빙이오(Savingio)",
+      "h1": "인터넷 요금 할인받는 방법, 약정·결합·재약정 점검 순서",
+      "char_count": 9047,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/mobile-plan-saving.html",
+        "/articles/moving-cost-saving.html",
+        "/articles/subscription-audit.html"
+      ],
+      "broken_link_count": 3,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/inverter-aircon-saving-guide.html",
+      "url": "https://savingio.com/articles/inverter-aircon-saving-guide.html",
+      "title": "인버터 에어컨 전기세 절약 운전법, 켜고 끄는 기준부터 설정온도까지 | 세이빙이오(Savingio)",
+      "h1": "인버터 에어컨 전기세 절약 운전법, 켜고 끄는 기준부터 설정온도까지",
+      "char_count": 7581,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/summer-electricity-bill-guide.html",
+        "/categories/electricity.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/lifelong-education-voucher-application.html",
+      "url": "https://savingio.com/articles/lifelong-education-voucher-application.html",
+      "title": "2026 평생교육이용권 신청 방법, 대상·사용처·카드 발급까지 | 세이빙이오(Savingio)",
+      "h1": "2026 평생교육이용권 신청 방법, 대상·사용처·카드 발급까지",
+      "char_count": 4284,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/cultural-nuri-card-guide.html",
+        "/articles/education-expense-tax-credit.html",
+        "/articles/government-benefit-check-guide.html",
+        "/articles/national-tomorrow-learning-card-guide.html"
+      ],
+      "broken_link_count": 4,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/loan-prepayment-fee-check.html",
+      "url": "https://savingio.com/articles/loan-prepayment-fee-check.html",
+      "title": "대출 중도상환수수료 확인법, 지금 갚는 게 이득인지 계산하는 순서 | 세이빙이오(Savingio)",
+      "h1": "대출 중도상환수수료 확인법, 지금 갚는 게 이득인지 계산하는 순서",
+      "char_count": 5968,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/credit-score-management.html",
+        "/articles/household-debt-repayment-plan.html",
+        "/articles/loan-interest-reduction-request.html"
+      ],
+      "broken_link_count": 3,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/loan-refinancing-check.html",
+      "url": "https://savingio.com/articles/loan-refinancing-check.html",
+      "title": "대출 갈아타기 전 확인할 것, 금리보다 중요한 총비용 계산법 | 세이빙이오(Savingio)",
+      "h1": "대출 갈아타기 전 확인할 것, 금리보다 중요한 총비용 계산법",
+      "char_count": 5853,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/credit-score-management.html",
+        "/articles/loan-interest-reduction-request.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/local-tax-refund-guide.html",
+      "url": "https://savingio.com/articles/local-tax-refund-guide.html",
+      "title": "지방세 환급금 조회와 신청 방법, 위택스에서 놓친 돈 찾는 순서 | 세이빙이오(Savingio)",
+      "h1": "지방세 환급금 조회와 신청 방법, 위택스에서 놓친 돈 찾는 순서",
+      "char_count": 5319,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/health-insurance-overpayment-refund.html",
+        "/categories/tax-benefits.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/long-term-care-insurance-application.html",
+      "url": "https://savingio.com/articles/long-term-care-insurance-application.html",
+      "title": "노인장기요양보험 신청 방법, 방문조사부터 등급판정까지 | 세이빙이오(Savingio)",
+      "h1": "노인장기요양보험 신청 방법, 방문조사부터 등급판정까지",
+      "char_count": 6122,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/health-insurance-out-of-pocket-refund.html",
+        "/articles/health-insurance-overpayment-refund.html",
+        "/articles/medical-expense-tax-deduction.html",
+        "/categories/insurance-health.html"
+      ],
+      "broken_link_count": 4,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/long-term-repair-reserve-refund-guide.html",
+      "url": "https://savingio.com/articles/long-term-repair-reserve-refund-guide.html",
+      "title": "장기수선충당금 반환, 세입자가 이사할 때 돌려받는 순서 | Savingio",
+      "h1": "장기수선충당금 반환, 세입자가 이사할 때 돌려받는 순서",
+      "char_count": 5844,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/medical-bill-negotiation.html",
+      "url": "https://savingio.com/articles/medical-bill-negotiation.html",
+      "title": "병원비가 너무 많이 나왔을 때 확인·정정·환불 요청 방법 | 세이빙이오(Savingio)",
+      "h1": "병원비가 너무 많이 나왔을 때 확인·정정·환불 요청 방법",
+      "char_count": 9613,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/health-insurance-out-of-pocket-refund.html",
+        "/articles/health-insurance-overpayment-refund.html",
+        "/categories/health-insurance.html"
+      ],
+      "broken_link_count": 3,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/missing-property-tax-bill.html",
+      "url": "https://savingio.com/articles/missing-property-tax-bill.html",
+      "title": "재산세 고지서가 안 왔을 때 확인 방법 | 세이빙이오(Savingio)",
+      "h1": "재산세 고지서가 안 왔을 때 확인 방법",
+      "char_count": 9145,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/health-insurance-overpayment-refund.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/money-saving-habits.html",
+      "url": "https://savingio.com/articles/money-saving-habits.html",
+      "title": "돈이 모이는 생활 습관 | Savingio",
+      "h1": "돈이 모이는 생활 습관",
+      "char_count": 3576,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/monthly-budget-planner.html",
+      "url": "https://savingio.com/articles/monthly-budget-planner.html",
+      "title": "월 예산표 만드는 방법, 월급날부터 다음 급여일까지 관리하세요 | Savingio",
+      "h1": "월 예산표 만드는 방법, 월급날부터 다음 급여일까지 관리하세요",
+      "char_count": 6252,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/monthly-rent-tax-credit-documents.html",
+      "url": "https://savingio.com/articles/monthly-rent-tax-credit-documents.html",
+      "title": "월세 세액공제 준비서류와 확인 순서 | Savingio",
+      "h1": "월세 세액공제 준비서류와 확인 순서",
+      "char_count": 7623,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/irs-tax-refund-status.html",
+        "/articles/local-tax-refund-claim.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/national-employment-support-eligibility.html",
+      "url": "https://savingio.com/articles/national-employment-support-eligibility.html",
+      "title": "국민취업지원제도 신청 자격 | 세이빙이오(Savingio)",
+      "h1": "국민취업지원제도 신청 자격",
+      "char_count": 5724,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/employment-success-allowance.html",
+        "/articles/job-training-card-guide.html",
+        "/articles/national-employment-support-application.html",
+        "/articles/unemployment-benefit-eligibility.html"
+      ],
+      "broken_link_count": 4,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/national-pension-additional-payment.html",
+      "url": "https://savingio.com/articles/national-pension-additional-payment.html",
+      "title": "국민연금 추후납부 신청, 가입기간이 부족할 때 확인할 조건과 계산 순서 | Savingio",
+      "h1": "국민연금 추후납부 신청, 가입기간이 부족할 때 확인할 조건과 계산 순서",
+      "char_count": 6404,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "정상",
+      "priority": "P3"
+    },
+    {
+      "path": "articles/national-pension-old-age-benefit-guide.html",
+      "url": "https://savingio.com/articles/national-pension-old-age-benefit-guide.html",
+      "title": "국민연금 노령연금 수급 기준, 언제부터 얼마를 받는지 확인하는 방법 | Savingio",
+      "h1": "국민연금 노령연금 수급 기준, 언제부터 얼마를 받는지 확인하는 방법",
+      "char_count": 8836,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/national-pension-overpayment-refund.html",
+      "url": "https://savingio.com/articles/national-pension-overpayment-refund.html",
+      "title": "국민연금 과오납금 조회와 환급 신청, 돌려받기 전 확인할 순서 | Savingio",
+      "h1": "국민연금 과오납금 조회와 환급 신청, 돌려받기 전 확인할 순서",
+      "char_count": 5647,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "정상",
+      "priority": "P3"
+    },
+    {
+      "path": "articles/national-scholarship-application.html",
+      "url": "https://savingio.com/articles/national-scholarship-application.html",
+      "title": "국가장학금 신청 방법과 확인사항 | 세이빙이오(Savingio)",
+      "h1": "국가장학금 신청 방법과 확인사항",
+      "char_count": 5466,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/education-expense-tax-credit.html",
+        "/articles/youth-benefits-guide.html",
+        "/categories/education-benefits.html"
+      ],
+      "broken_link_count": 3,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/national-tax-refund-account.html",
+      "url": "https://savingio.com/articles/national-tax-refund-account.html",
+      "title": "국세환급금 지급계좌 등록 방법 | 세이빙이오(Savingio)",
+      "h1": "국세환급금 지급계좌 등록 방법",
+      "char_count": 4953,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/irs-tax-refund-status.html",
+        "/articles/local-tax-refund-claim.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/national-tax-refund.html",
+      "url": "https://savingio.com/articles/national-tax-refund.html",
+      "title": "국세 환급금 조회 방법 | 세이빙이오(Savingio)",
+      "h1": "국세 환급금 조회 방법",
+      "char_count": 5499,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/comprehensive-income-tax-refund.html",
+        "/articles/earned-income-tax-credit.html",
+        "/articles/local-tax-refund.html",
+        "/articles/year-end-tax-settlement-refund.html"
+      ],
+      "broken_link_count": 4,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/near-poverty-certificate.html",
+      "url": "https://savingio.com/articles/near-poverty-certificate.html",
+      "title": "차상위계층 확인서 발급 방법 | 세이빙이오(Savingio)",
+      "h1": "차상위계층 확인서 발급 방법",
+      "char_count": 5687,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "정상",
+      "priority": "P3"
+    },
+    {
+      "path": "articles/over-60-benefits-guide.html",
+      "url": "https://savingio.com/articles/over-60-benefits-guide.html",
+      "title": "60세 이상 받을 수 있는 혜택, 연금·건강·일자리·생활비 확인 순서 | Savingio",
+      "h1": "60세 이상 받을 수 있는 혜택, 연금·건강·일자리·생활비 확인 순서",
+      "char_count": 4285,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/overdraft-account-guide.html",
+      "url": "https://savingio.com/articles/overdraft-account-guide.html",
+      "title": "마이너스통장 사용 시 주의사항 | 세이빙이오(Savingio)",
+      "h1": "마이너스통장 사용 시 주의사항",
+      "char_count": 5005,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/bank-fees-to-avoid.html",
+        "/articles/credit-score-management.html",
+        "/articles/debt-repayment-priority.html",
+        "/articles/loan-interest-reduction-request.html",
+        "/articles/loan-refinancing-guide.html"
+      ],
+      "broken_link_count": 5,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/parental-benefit-guide.html",
+      "url": "https://savingio.com/articles/parental-benefit-guide.html",
+      "title": "부모급여 신청 방법, 출생 후 놓치지 말아야 할 확인 순서 | Savingio",
+      "h1": "부모급여 신청 방법, 출생 후 놓치지 말아야 할 확인 순서",
+      "char_count": 7114,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/birth-support-benefits-guide.html",
+        "/articles/daycare-fee-support-guide.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/parking-account-rate-comparison.html",
+      "url": "https://savingio.com/articles/parking-account-rate-comparison.html",
+      "title": "파킹통장 금리 비교할 때 볼 항목 | Savingio",
+      "h1": "파킹통장 금리 비교할 때 볼 항목",
+      "char_count": 7333,
+      "under_5000": false,
+      "broken_links": [
+        "/categories/finance.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/peak-season-hotel-saving.html",
+      "url": "https://savingio.com/articles/peak-season-hotel-saving.html",
+      "title": "성수기 숙박비 절약 예약 전략 | Savingio",
+      "h1": "성수기 숙박비 절약 예약 전략",
+      "char_count": 6683,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/card-overseas-payment-fee.html",
+        "/articles/flight-ticket-saving.html",
+        "/articles/travel-budget-planning.html",
+        "/articles/travel-insurance-claim-guide.html",
+        "/categories/travel-living.html"
+      ],
+      "broken_link_count": 5,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/property-tax-bill-checklist-2026.html",
+      "url": "https://savingio.com/articles/property-tax-bill-checklist-2026.html",
+      "title": "재산세 고지서 확인 체크리스트 2026 | Savingio",
+      "h1": "재산세 고지서 확인 체크리스트 2026",
+      "char_count": 6978,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/property-tax-deadline.html",
+          "score": 0.7125
+        }
+      ],
+      "final_status": "중복 의심",
+      "priority": "P1"
+    },
+    {
+      "path": "articles/property-tax-calculation-structure.html",
+      "url": "https://savingio.com/articles/property-tax-calculation-structure.html",
+      "title": "재산세 과세표준과 세액 계산 구조 | Savingio",
+      "h1": "재산세 과세표준과 세액 계산 구조",
+      "char_count": 7198,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "정상",
+      "priority": "P3"
+    },
+    {
+      "path": "articles/property-tax-deadline.html",
+      "url": "https://savingio.com/articles/property-tax-deadline.html",
+      "title": "재산세 납부기한과 감면 대상 | 세이빙이오(Savingio)",
+      "h1": "재산세 납부기한과 감면 대상",
+      "char_count": 5053,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/property-tax-bill-checklist-2026.html",
+          "score": 0.7125
+        }
+      ],
+      "final_status": "중복 의심",
+      "priority": "P1"
+    },
+    {
+      "path": "articles/property-tax-electronic-bill-2026.html",
+      "url": "https://savingio.com/articles/property-tax-electronic-bill-2026.html",
+      "title": "위택스 재산세 전자고지 신청 방법 | Savingio",
+      "h1": "위택스 재산세 전자고지 신청 방법",
+      "char_count": 9207,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "정상",
+      "priority": "P3"
+    },
+    {
+      "path": "articles/property-tax-installment-application.html",
+      "url": "https://savingio.com/articles/property-tax-installment-application.html",
+      "title": "재산세 분납 신청 조건과 방법 | Savingio",
+      "h1": "재산세 분납 신청 조건과 방법",
+      "char_count": 8181,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "정상",
+      "priority": "P3"
+    },
+    {
+      "path": "articles/property-tax-joint-ownership.html",
+      "url": "https://savingio.com/articles/property-tax-joint-ownership.html",
+      "title": "재산세 공동명의 납부 기준 | Savingio",
+      "h1": "재산세 공동명의 납부 기준",
+      "char_count": 7394,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/property-tax-payment-methods.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/property-tax-july-2026.html",
+      "url": "https://savingio.com/articles/property-tax-july-2026.html",
+      "title": "2026년 7월 재산세 납부 대상과 기간 | Savingio",
+      "h1": "2026년 7월 재산세 납부 대상과 기간",
+      "char_count": 6128,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/property-tax-appeal-guide.html",
+        "/articles/property-tax-check-payment-guide.html",
+        "/articles/property-tax-refund-correction.html"
+      ],
+      "broken_link_count": 3,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/property-tax-july-september-difference.html",
+          "score": 0.7092
+        }
+      ],
+      "final_status": "중복 의심 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/property-tax-july-september-difference.html",
+      "url": "https://savingio.com/articles/property-tax-july-september-difference.html",
+      "title": "주택분 재산세 7월과 9월 차이 | Savingio",
+      "h1": "주택분 재산세 7월과 9월 차이",
+      "char_count": 5275,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/property-tax-july-2026.html",
+          "score": 0.7092
+        }
+      ],
+      "final_status": "중복 의심",
+      "priority": "P1"
+    },
+    {
+      "path": "articles/property-tax-objection-guide.html",
+      "url": "https://savingio.com/articles/property-tax-objection-guide.html",
+      "title": "재산세 이의신청과 과세전적부심 차이 | Savingio",
+      "h1": "재산세 이의신청과 과세전적부심 차이",
+      "char_count": 5763,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/property-tax-overpayment-refund.html",
+        "/articles/property-tax-payment-guide.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/property-tax-payment-certificate.html",
+      "url": "https://savingio.com/articles/property-tax-payment-certificate.html",
+      "title": "재산세 납부증명서 발급 방법 | Savingio",
+      "h1": "재산세 납부증명서 발급 방법",
+      "char_count": 5351,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/local-tax-payment-guide.html",
+        "/articles/property-tax-overpayment-refund.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/refrigerator-summer-electricity-saving.html",
+      "url": "https://savingio.com/articles/refrigerator-summer-electricity-saving.html",
+      "title": "여름철 냉장고 전기세 절약 방법 | 세이빙이오(Savingio)",
+      "h1": "여름철 냉장고 전기세 절약 방법",
+      "char_count": 5232,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/how-to-save-electricity-bill.html",
+        "/articles/summer-electricity-tier-check.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/summer-gas-bill-hot-water-saving.html",
+          "score": 0.769
+        },
+        {
+          "path": "articles/summer-water-bill-spike-check.html",
+          "score": 0.7855
+        },
+        {
+          "path": "articles/telecom-discount-guide.html",
+          "score": 0.7081
+        }
+      ],
+      "final_status": "중복 의심 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/regional-development-bond-refund-guide.html",
+      "url": "https://savingio.com/articles/regional-development-bond-refund-guide.html",
+      "title": "자동차 채권 환급금 조회 방법, 지역개발채권 만기상환 확인 순서 | 세이빙이오(Savingio)",
+      "h1": "자동차 채권 환급금 조회 방법, 지역개발채권 만기상환 확인 순서",
+      "char_count": 4373,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/hidden-money-search.html",
+        "/articles/subsidy24-benefit-search.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [
+        "작성·검수",
+        "5초 결론",
+        "30초",
+        "목차",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/rental-car-vacation-saving.html",
+      "url": "https://savingio.com/articles/rental-car-vacation-saving.html",
+      "title": "휴가철 렌터카 비용 절약, 보험·연료·반납 조건까지 비교하는 순서 | Savingio",
+      "h1": "휴가철 렌터카 비용 절약, 보험·연료·반납 조건까지 비교하는 순서",
+      "char_count": 4694,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/rental-contract-reporting-guide.html",
+      "url": "https://savingio.com/articles/rental-contract-reporting-guide.html",
+      "title": "전월세 신고제 신고 방법과 준비서류 | 세이빙이오(Savingio)",
+      "h1": "전월세 신고제 신고 방법과 준비서류",
+      "char_count": 4984,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "작성·검수",
+        "5초 결론",
+        "30초",
+        "목차",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/youth-housing-benefit-separate-payment.html",
+          "score": 0.7388
+        }
+      ],
+      "final_status": "5천자 미달 / 중복 의심",
+      "priority": "P1"
+    },
+    {
+      "path": "articles/revolving-cancellation-payoff.html",
+      "url": "https://savingio.com/articles/revolving-cancellation-payoff.html",
+      "title": "리볼빙 해지와 잔액 상환 방법 | 세이빙이오(Savingio)",
+      "h1": "리볼빙 해지와 잔액 상환 방법",
+      "char_count": 4683,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/energy-voucher-balance-check-2026.html",
+        "/articles/energy-voucher-balance-use.html",
+        "/articles/low-income-cooling-support.html"
+      ],
+      "broken_link_count": 3,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/savings-maturity-auto-renewal.html",
+          "score": 0.7367
+        },
+        {
+          "path": "articles/single-parent-support-benefits.html",
+          "score": 0.734
+        },
+        {
+          "path": "articles/travel-insurance-comparison.html",
+          "score": 0.7658
+        },
+        {
+          "path": "articles/unemployment-benefit-job-search.html",
+          "score": 0.7324
+        },
+        {
+          "path": "articles/wetax-electronic-billing.html",
+          "score": 0.7411
+        },
+        {
+          "path": "articles/wetax-payment-history.html",
+          "score": 0.7727
+        },
+        {
+          "path": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "score": 0.7858
+        },
+        {
+          "path": "articles/youth-leap-account-contribution.html",
+          "score": 0.748
+        },
+        {
+          "path": "articles/youth-savings-account-maintenance.html",
+          "score": 0.7495
+        }
+      ],
+      "final_status": "5천자 미달 / 중복 의심 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/salary-slip-check-guide.html",
+      "url": "https://savingio.com/articles/salary-slip-check-guide.html",
+      "title": "급여명세서 확인 방법, 월급에서 빠진 돈을 항목별로 보는 순서 | 세이빙이오(Savingio)",
+      "h1": "급여명세서 확인 방법, 월급에서 빠진 돈을 항목별로 보는 순서",
+      "char_count": 4068,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/salary-management-guide.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/salary-take-home-easy-calculator-guide.html",
+      "url": "https://savingio.com/articles/salary-take-home-easy-calculator-guide.html",
+      "title": "세전 월급만 입력해 예상 실수령액 확인하는 방법 | 세이빙이오(Savingio)",
+      "h1": "세전 월급만 입력해 예상 실수령액 확인하는 방법",
+      "char_count": 4387,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/salary-management-guide.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "작성·검수",
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/savings-maturity-auto-renewal.html",
+      "url": "https://savingio.com/articles/savings-maturity-auto-renewal.html",
+      "title": "적금 만기 후 자동재예치 확인법 | 세이빙이오(Savingio)",
+      "h1": "적금 만기 후 자동재예치 확인법",
+      "char_count": 4713,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/credit-score-management.html",
+        "/articles/energy-voucher-eligibility-2026.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/revolving-cancellation-payoff.html",
+          "score": 0.7367
+        },
+        {
+          "path": "articles/single-parent-support-benefits.html",
+          "score": 0.7186
+        },
+        {
+          "path": "articles/tax-credit-late-application.html",
+          "score": 0.7054
+        },
+        {
+          "path": "articles/telecom-discount-guide.html",
+          "score": 0.7272
+        },
+        {
+          "path": "articles/travel-insurance-comparison.html",
+          "score": 0.7419
+        },
+        {
+          "path": "articles/unemployment-benefit-job-search.html",
+          "score": 0.7437
+        },
+        {
+          "path": "articles/wetax-electronic-billing.html",
+          "score": 0.7307
+        },
+        {
+          "path": "articles/wetax-payment-history.html",
+          "score": 0.7586
+        },
+        {
+          "path": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "score": 0.7732
+        },
+        {
+          "path": "articles/youth-leap-account-contribution.html",
+          "score": 0.8376
+        },
+        {
+          "path": "articles/youth-savings-account-maintenance.html",
+          "score": 0.7695
+        },
+        {
+          "path": "articles/youth-support-programs.html",
+          "score": 0.7172
+        }
+      ],
+      "final_status": "5천자 미달 / 중복 의심 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/self-employed-income-tax-refund-check.html",
+      "url": "https://savingio.com/articles/self-employed-income-tax-refund-check.html",
+      "title": "종합소득세 신고 대상 확인 방법 | 세이빙이오(Savingio)",
+      "h1": "종합소득세 신고 대상 확인 방법",
+      "char_count": 6603,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/energy-voucher-eligibility-2026.html",
+        "/articles/vat-final-return-july-2026.html",
+        "/articles/vat-zero-sales-filing.html"
+      ],
+      "broken_link_count": 3,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/senior-job-application-guide.html",
+      "url": "https://savingio.com/articles/senior-job-application-guide.html",
+      "title": "노인일자리 신청 방법, 모집 시기와 사업 유형을 비교하는 체크리스트 | 세이빙이오(Savingio)",
+      "h1": "노인일자리 신청 방법, 모집 시기와 사업 유형을 비교하는 체크리스트",
+      "char_count": 4276,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "작성·검수",
+        "5초 결론",
+        "30초",
+        "목차",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/severance-pay-calculation-guide.html",
+      "url": "https://savingio.com/articles/severance-pay-calculation-guide.html",
+      "title": "퇴직금 계산 방법, 평균임금과 재직기간을 확인하는 순서 | 세이빙이오(Savingio)",
+      "h1": "퇴직금 계산 방법, 평균임금과 재직기간을 확인하는 순서",
+      "char_count": 3515,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/severance-pay-easy-calculator-guide.html",
+      "url": "https://savingio.com/articles/severance-pay-easy-calculator-guide.html",
+      "title": "퇴직금, 입사일과 월급만으로 빠르게 확인하는 방법 | 세이빙이오(Savingio)",
+      "h1": "퇴직금, 입사일과 월급만으로 빠르게 확인하는 방법",
+      "char_count": 4727,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "작성·검수",
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/simple-receipt-expense-rules.html",
+      "url": "https://savingio.com/articles/simple-receipt-expense-rules.html",
+      "title": "사업자 비용처리 가능한 항목 총정리 | Savingio",
+      "h1": "사업자 비용처리 가능한 항목 총정리",
+      "char_count": 9165,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "정상",
+      "priority": "P3"
+    },
+    {
+      "path": "articles/simplified-vat-checklist.html",
+      "url": "https://savingio.com/articles/simplified-vat-checklist.html",
+      "title": "간이과세자 부가가치세 신고 체크리스트 | Savingio",
+      "h1": "간이과세자 부가가치세 신고 체크리스트",
+      "char_count": 7358,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/single-parent-support-benefits.html",
+      "url": "https://savingio.com/articles/single-parent-support-benefits.html",
+      "title": "한부모가족 지원금 조회 방법 | 세이빙이오(Savingio)",
+      "h1": "한부모가족 지원금 조회 방법",
+      "char_count": 5243,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/energy-voucher-application-2026.html",
+        "/articles/energy-voucher-application.html",
+        "/articles/energy-voucher-balance-check-2026.html",
+        "/articles/energy-voucher-balance-use.html",
+        "/articles/energy-voucher-documents.html",
+        "/articles/energy-voucher-eligibility-2026.html",
+        "/articles/energy-voucher-online-application.html"
+      ],
+      "broken_link_count": 7,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/revolving-cancellation-payoff.html",
+          "score": 0.734
+        },
+        {
+          "path": "articles/savings-maturity-auto-renewal.html",
+          "score": 0.7186
+        },
+        {
+          "path": "articles/tax-credit-late-application.html",
+          "score": 0.8221
+        },
+        {
+          "path": "articles/travel-insurance-comparison.html",
+          "score": 0.7199
+        },
+        {
+          "path": "articles/unemployment-benefit-job-search.html",
+          "score": 0.7222
+        },
+        {
+          "path": "articles/wetax-electronic-billing.html",
+          "score": 0.748
+        },
+        {
+          "path": "articles/wetax-payment-history.html",
+          "score": 0.7513
+        },
+        {
+          "path": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "score": 0.7455
+        },
+        {
+          "path": "articles/youth-leap-account-contribution.html",
+          "score": 0.8235
+        },
+        {
+          "path": "articles/youth-savings-account-maintenance.html",
+          "score": 0.8316
+        },
+        {
+          "path": "articles/youth-support-programs.html",
+          "score": 0.8655
+        }
+      ],
+      "final_status": "중복 의심 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/small-business-closure-support.html",
+      "url": "https://savingio.com/articles/small-business-closure-support.html",
+      "title": "폐업 소상공인 원스톱 지원 확인 2026 | Savingio",
+      "h1": "폐업 소상공인 원스톱 지원 확인 2026",
+      "char_count": 6465,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "정상",
+      "priority": "P3"
+    },
+    {
+      "path": "articles/small-business-delivery-support.html",
+      "url": "https://savingio.com/articles/small-business-delivery-support.html",
+      "title": "소상공인 배달비 지원사업 찾는 방법 | 세이빙이오(Savingio)",
+      "h1": "소상공인 배달비 지원사업 찾는 방법",
+      "char_count": 7596,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "정상",
+      "priority": "P3"
+    },
+    {
+      "path": "articles/small-business-electricity-support.html",
+      "url": "https://savingio.com/articles/small-business-electricity-support.html",
+      "title": "소상공인 전기요금 지원 확인법 | 2026년 공고·대상·서류·신청 순서 | Savingio",
+      "h1": "소상공인 전기요금 지원 확인법",
+      "char_count": 6155,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/subsidy24-benefit-search.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "related",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/small-business-policy-fund.html",
+      "url": "https://savingio.com/articles/small-business-policy-fund.html",
+      "title": "소상공인 정책자금 확인·신청 순서 2026 | Savingio",
+      "h1": "소상공인 정책자금 확인·신청 순서 2026",
+      "char_count": 6441,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/business-cash-flow-guide.html",
+        "/articles/business-credit-score-guide.html",
+        "/articles/government-support-scam-warning-2026.html",
+        "/articles/small-business-loan-guide.html",
+        "/articles/tax-arrears-check-guide.html"
+      ],
+      "broken_link_count": 5,
+      "dna_missing": [
+        "목차"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/spending-habits-change.html",
+      "url": "https://savingio.com/articles/spending-habits-change.html",
+      "title": "소비 습관 바꾸는 방법, 지출을 참기보다 구조를 바꾸세요 | Savingio",
+      "h1": "소비 습관 바꾸는 방법, 지출을 참기보다 구조를 바꾸세요",
+      "char_count": 3025,
+      "under_5000": true,
+      "broken_links": [
+        "/calculators/monthly-budget.html",
+        "/calculators/savings-goal.html",
+        "/categories/household-budget.html"
+      ],
+      "broken_link_count": 3,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/student-loan-repayment-guide.html",
+      "url": "https://savingio.com/articles/student-loan-repayment-guide.html",
+      "title": "학자금대출 상환 방법과 부담 줄이는 순서 | 세이빙이오(Savingio)",
+      "h1": "학자금대출 상환 방법과 부담 줄이는 순서",
+      "char_count": 3973,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/summer-electricity-tier-check-2026.html",
+      "url": "https://savingio.com/articles/summer-electricity-tier-check-2026.html",
+      "title": "여름철 전기요금 누진구간 확인과 사용량 관리 방법 | Savingio",
+      "h1": "여름철 전기요금 누진구간 확인과 사용량 관리 방법",
+      "char_count": 5471,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/aircon-filter-cleaning-saving.html",
+        "/articles/dehumidifier-electricity-cost.html",
+        "/articles/summer-electricity-tier-check.html",
+        "/categories/living-cost.html"
+      ],
+      "broken_link_count": 4,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/summer-gas-bill-hot-water-saving.html",
+      "url": "https://savingio.com/articles/summer-gas-bill-hot-water-saving.html",
+      "title": "여름 가스요금 줄이는 온수 사용법 | 세이빙이오(Savingio)",
+      "h1": "여름 가스요금 줄이는 온수 사용법",
+      "char_count": 4839,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/water-bill-guide.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/refrigerator-summer-electricity-saving.html",
+          "score": 0.769
+        },
+        {
+          "path": "articles/summer-water-bill-spike-check.html",
+          "score": 0.8208
+        },
+        {
+          "path": "articles/telecom-discount-guide.html",
+          "score": 0.761
+        },
+        {
+          "path": "articles/wetax-payment-history.html",
+          "score": 0.7131
+        },
+        {
+          "path": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "score": 0.7097
+        },
+        {
+          "path": "articles/youth-leap-account-contribution.html",
+          "score": 0.7133
+        },
+        {
+          "path": "articles/youth-savings-account-maintenance.html",
+          "score": 0.7125
+        }
+      ],
+      "final_status": "5천자 미달 / 중복 의심 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/summer-vacation-budget-plan.html",
+      "url": "https://savingio.com/articles/summer-vacation-budget-plan.html",
+      "title": "여름 휴가비 예산 짜는 방법, 여행 후 카드값까지 계산하세요 | Savingio",
+      "h1": "여름 휴가비 예산 짜는 방법, 여행 후 카드값까지 계산하세요",
+      "char_count": 4588,
+      "under_5000": true,
+      "broken_links": [
+        "/categories/household-budget.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/summer-water-bill-spike-check.html",
+      "url": "https://savingio.com/articles/summer-water-bill-spike-check.html",
+      "title": "여름철 수도요금 급증 원인 점검 | 세이빙이오(Savingio)",
+      "h1": "여름철 수도요금 급증 원인 점검",
+      "char_count": 4808,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/water-bill-guide.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/refrigerator-summer-electricity-saving.html",
+          "score": 0.7855
+        },
+        {
+          "path": "articles/summer-gas-bill-hot-water-saving.html",
+          "score": 0.8208
+        },
+        {
+          "path": "articles/telecom-discount-guide.html",
+          "score": 0.754
+        },
+        {
+          "path": "articles/wetax-payment-history.html",
+          "score": 0.7156
+        },
+        {
+          "path": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "score": 0.7122
+        },
+        {
+          "path": "articles/youth-leap-account-contribution.html",
+          "score": 0.7163
+        },
+        {
+          "path": "articles/youth-savings-account-maintenance.html",
+          "score": 0.7155
+        }
+      ],
+      "final_status": "5천자 미달 / 중복 의심 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/tax-credit-late-application.html",
+      "url": "https://savingio.com/articles/tax-credit-late-application.html",
+      "title": "장려금 신청 누락 시 기한후 신청 방법 | 세이빙이오(Savingio)",
+      "h1": "장려금 신청 누락 시 기한후 신청 방법",
+      "char_count": 4993,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/hidden-money-search.html",
+        "/articles/local-tax-refund-claim.html",
+        "/articles/subsidy24-benefit-search.html"
+      ],
+      "broken_link_count": 3,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/savings-maturity-auto-renewal.html",
+          "score": 0.7054
+        },
+        {
+          "path": "articles/single-parent-support-benefits.html",
+          "score": 0.8221
+        },
+        {
+          "path": "articles/travel-insurance-comparison.html",
+          "score": 0.7089
+        },
+        {
+          "path": "articles/unemployment-benefit-job-search.html",
+          "score": 0.7233
+        },
+        {
+          "path": "articles/wetax-electronic-billing.html",
+          "score": 0.7964
+        },
+        {
+          "path": "articles/wetax-payment-history.html",
+          "score": 0.7511
+        },
+        {
+          "path": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "score": 0.7382
+        },
+        {
+          "path": "articles/youth-leap-account-contribution.html",
+          "score": 0.8143
+        },
+        {
+          "path": "articles/youth-savings-account-maintenance.html",
+          "score": 0.8156
+        },
+        {
+          "path": "articles/youth-support-programs.html",
+          "score": 0.8241
+        }
+      ],
+      "final_status": "5천자 미달 / 중복 의심 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/tax-invoice-vs-cash-receipt.html",
+      "url": "https://savingio.com/articles/tax-invoice-vs-cash-receipt.html",
+      "title": "현금영수증 매출 조회 방법, 누락·중복까지 확인하는 순서 | Savingio",
+      "h1": "현금영수증 매출 조회 방법, 누락·중복까지 확인하는 순서",
+      "char_count": 6314,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/telecom-discount-guide.html",
+      "url": "https://savingio.com/articles/telecom-discount-guide.html",
+      "title": "통신비 할인 총정리 | 세이빙이오(Savingio)",
+      "h1": "통신비 할인 총정리",
+      "char_count": 4808,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/how-to-lower-phone-bill.html",
+        "/articles/internet-bill-savings.html",
+        "/articles/phone-bill-saving.html",
+        "/articles/subscription-audit-checklist.html",
+        "/articles/subscription-cleanup.html",
+        "/articles/subscription-saving.html"
+      ],
+      "broken_link_count": 6,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/refrigerator-summer-electricity-saving.html",
+          "score": 0.7081
+        },
+        {
+          "path": "articles/savings-maturity-auto-renewal.html",
+          "score": 0.7272
+        },
+        {
+          "path": "articles/summer-gas-bill-hot-water-saving.html",
+          "score": 0.761
+        },
+        {
+          "path": "articles/summer-water-bill-spike-check.html",
+          "score": 0.754
+        },
+        {
+          "path": "articles/travel-insurance-comparison.html",
+          "score": 0.7143
+        },
+        {
+          "path": "articles/unemployment-benefit-job-search.html",
+          "score": 0.7113
+        },
+        {
+          "path": "articles/wetax-payment-history.html",
+          "score": 0.7263
+        },
+        {
+          "path": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "score": 0.7362
+        },
+        {
+          "path": "articles/youth-leap-account-contribution.html",
+          "score": 0.7347
+        },
+        {
+          "path": "articles/youth-savings-account-maintenance.html",
+          "score": 0.7375
+        }
+      ],
+      "final_status": "5천자 미달 / 중복 의심 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/telecom-unclaimed-refund.html",
+      "url": "https://savingio.com/articles/telecom-unclaimed-refund.html",
+      "title": "통신비 미환급금 조회 방법 | 세이빙이오(Savingio)",
+      "h1": "통신비 미환급금 조회 방법",
+      "char_count": 3573,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/how-to-lower-phone-bill.html",
+        "/articles/internet-bill-savings.html",
+        "/articles/phone-bill-saving.html",
+        "/articles/subscription-audit-checklist.html",
+        "/articles/subscription-cleanup.html",
+        "/articles/subscription-saving.html"
+      ],
+      "broken_link_count": 6,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/traffic-fines-difference-guide.html",
+      "url": "https://savingio.com/articles/traffic-fines-difference-guide.html",
+      "title": "교통 범칙금·과태료·벌금 차이와 조회·납부 방법 총정리 | Savingio",
+      "h1": "교통 범칙금·과태료·벌금 차이와 조회·납부 방법 총정리",
+      "char_count": 5848,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/travel-insurance-comparison.html",
+      "url": "https://savingio.com/articles/travel-insurance-comparison.html",
+      "title": "여행자보험 가입 전 비교 항목 | 세이빙이오(Savingio)",
+      "h1": "여행자보험 가입 전 비교 항목",
+      "char_count": 4768,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/low-income-cooling-support.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/revolving-cancellation-payoff.html",
+          "score": 0.7658
+        },
+        {
+          "path": "articles/savings-maturity-auto-renewal.html",
+          "score": 0.7419
+        },
+        {
+          "path": "articles/single-parent-support-benefits.html",
+          "score": 0.7199
+        },
+        {
+          "path": "articles/tax-credit-late-application.html",
+          "score": 0.7089
+        },
+        {
+          "path": "articles/telecom-discount-guide.html",
+          "score": 0.7143
+        },
+        {
+          "path": "articles/unemployment-benefit-job-search.html",
+          "score": 0.7579
+        },
+        {
+          "path": "articles/wetax-electronic-billing.html",
+          "score": 0.7428
+        },
+        {
+          "path": "articles/wetax-payment-history.html",
+          "score": 0.7739
+        },
+        {
+          "path": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "score": 0.862
+        },
+        {
+          "path": "articles/youth-leap-account-contribution.html",
+          "score": 0.7632
+        },
+        {
+          "path": "articles/youth-savings-account-maintenance.html",
+          "score": 0.7669
+        },
+        {
+          "path": "articles/youth-support-programs.html",
+          "score": 0.7149
+        }
+      ],
+      "final_status": "5천자 미달 / 중복 의심 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/unemployment-benefit-checklist.html",
+      "url": "https://savingio.com/articles/unemployment-benefit-checklist.html",
+      "title": "실업급여 신청 전 확인할 조건과 준비서류 체크리스트 | 세이빙이오(Savingio)",
+      "h1": "실업급여 신청 전 확인할 조건과 준비서류 체크리스트",
+      "char_count": 3491,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/unemployment-benefit-job-search.html",
+      "url": "https://savingio.com/articles/unemployment-benefit-job-search.html",
+      "title": "실업급여 구직활동 인정 기준 | 세이빙이오(Savingio)",
+      "h1": "실업급여 구직활동 인정 기준",
+      "char_count": 4739,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/salary-budget-guide.html",
+        "/articles/salary-management-guide.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/revolving-cancellation-payoff.html",
+          "score": 0.7324
+        },
+        {
+          "path": "articles/savings-maturity-auto-renewal.html",
+          "score": 0.7437
+        },
+        {
+          "path": "articles/single-parent-support-benefits.html",
+          "score": 0.7222
+        },
+        {
+          "path": "articles/tax-credit-late-application.html",
+          "score": 0.7233
+        },
+        {
+          "path": "articles/telecom-discount-guide.html",
+          "score": 0.7113
+        },
+        {
+          "path": "articles/travel-insurance-comparison.html",
+          "score": 0.7579
+        },
+        {
+          "path": "articles/wetax-electronic-billing.html",
+          "score": 0.7464
+        },
+        {
+          "path": "articles/wetax-payment-history.html",
+          "score": 0.7711
+        },
+        {
+          "path": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "score": 0.7747
+        },
+        {
+          "path": "articles/youth-leap-account-contribution.html",
+          "score": 0.7706
+        },
+        {
+          "path": "articles/youth-savings-account-maintenance.html",
+          "score": 0.7725
+        },
+        {
+          "path": "articles/youth-support-programs.html",
+          "score": 0.7341
+        }
+      ],
+      "final_status": "5천자 미달 / 중복 의심 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/vat-final-return-2026-july.html",
+      "url": "https://savingio.com/articles/vat-final-return-2026-july.html",
+      "title": "2026년 1기 부가가치세 확정신고 방법과 기한 | Savingio",
+      "h1": "2026년 1기 부가가치세 확정신고 방법과 공식 기한",
+      "char_count": 4854,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/vat-input-tax-deduction-2026.html",
+      "url": "https://savingio.com/articles/vat-input-tax-deduction-2026.html",
+      "title": "부가가치세 매입세액 공제·불공제 판단법 2026 | Savingio",
+      "h1": "부가가치세 매입세액 공제·불공제 판단법 2026",
+      "char_count": 8432,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/vat-payment-extension-guide.html",
+      "url": "https://savingio.com/articles/vat-payment-extension-guide.html",
+      "title": "부가가치세 납부기한 연장 신청 방법, 신고와 납부를 나눠 처리하세요 | Savingio",
+      "h1": "부가가치세 신고 후 납부기한 연장 신청 방법",
+      "char_count": 5785,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/vat-sales-omission-check-2026.html",
+      "url": "https://savingio.com/articles/vat-sales-omission-check-2026.html",
+      "title": "부가가치세 신고 전 매출 누락 확인 방법 | Savingio",
+      "h1": "부가가치세 신고 전 매출 누락 확인 방법",
+      "char_count": 5030,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "완료",
+      "priority": "DONE"
+    },
+    {
+      "path": "articles/vat-zero-sales-filing-2026.html",
+      "url": "https://savingio.com/articles/vat-zero-sales-filing-2026.html",
+      "title": "매출이 없어도 부가가치세 신고해야 할까? 무실적 신고 방법 | Savingio",
+      "h1": "매출이 없어도 부가가치세 신고해야 할까? 무실적 신고 방법",
+      "char_count": 4903,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [],
+      "dna_complete": true,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달",
+      "priority": "P2"
+    },
+    {
+      "path": "articles/vehicle-inspection-reservation-guide.html",
+      "url": "https://savingio.com/articles/vehicle-inspection-reservation-guide.html",
+      "title": "자동차 검사 예약·검사기간 확인 방법, 과태료 전에 준비할 순서 | 세이빙이오(Savingio)",
+      "h1": "자동차 검사 예약·검사기간 확인 방법, 과태료 전에 준비할 순서",
+      "char_count": 5180,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/vat-final-return-july-2026.html",
+        "/articles/vat-zero-sales-filing.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [
+        "작성·검수",
+        "5초 결론",
+        "30초",
+        "목차",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/water-bill-saving.html",
+      "url": "https://savingio.com/articles/water-bill-saving.html",
+      "title": "수도요금 절약 방법, 누수 확인부터 사용량 줄이기까지 | 세이빙이오(Savingio)",
+      "h1": "수도요금 절약 방법, 누수 확인부터 사용량 줄이기까지",
+      "char_count": 5552,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/water-bill-guide.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/weekly-holiday-pay-guide.html",
+      "url": "https://savingio.com/articles/weekly-holiday-pay-guide.html",
+      "title": "주휴수당 조건과 계산 방법, 내가 받을 수 있는지 확인하는 순서 | 세이빙이오(Savingio)",
+      "h1": "주휴수당 조건과 계산 방법, 내가 받을 수 있는지 확인하는 순서",
+      "char_count": 3657,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/salary-management-guide.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [],
+      "final_status": "5천자 미달 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/wetax-electronic-billing.html",
+      "url": "https://savingio.com/articles/wetax-electronic-billing.html",
+      "title": "위택스 지방세 전자고지 신청 방법 | 세이빙이오(Savingio)",
+      "h1": "위택스 지방세 전자고지 신청 방법",
+      "char_count": 4405,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/local-tax-refund-claim.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/revolving-cancellation-payoff.html",
+          "score": 0.7411
+        },
+        {
+          "path": "articles/savings-maturity-auto-renewal.html",
+          "score": 0.7307
+        },
+        {
+          "path": "articles/single-parent-support-benefits.html",
+          "score": 0.748
+        },
+        {
+          "path": "articles/tax-credit-late-application.html",
+          "score": 0.7964
+        },
+        {
+          "path": "articles/travel-insurance-comparison.html",
+          "score": 0.7428
+        },
+        {
+          "path": "articles/unemployment-benefit-job-search.html",
+          "score": 0.7464
+        },
+        {
+          "path": "articles/wetax-payment-history.html",
+          "score": 0.9446
+        },
+        {
+          "path": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "score": 0.7853
+        },
+        {
+          "path": "articles/youth-leap-account-contribution.html",
+          "score": 0.7756
+        },
+        {
+          "path": "articles/youth-savings-account-maintenance.html",
+          "score": 0.7737
+        },
+        {
+          "path": "articles/youth-support-programs.html",
+          "score": 0.7531
+        }
+      ],
+      "final_status": "5천자 미달 / 중복 의심 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/wetax-payment-history.html",
+      "url": "https://savingio.com/articles/wetax-payment-history.html",
+      "title": "위택스 납부내역 확인 방법 | 세이빙이오(Savingio)",
+      "h1": "위택스 납부내역 확인 방법",
+      "char_count": 4386,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/small-business-policy-fund-search.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/revolving-cancellation-payoff.html",
+          "score": 0.7727
+        },
+        {
+          "path": "articles/savings-maturity-auto-renewal.html",
+          "score": 0.7586
+        },
+        {
+          "path": "articles/single-parent-support-benefits.html",
+          "score": 0.7513
+        },
+        {
+          "path": "articles/summer-gas-bill-hot-water-saving.html",
+          "score": 0.7131
+        },
+        {
+          "path": "articles/summer-water-bill-spike-check.html",
+          "score": 0.7156
+        },
+        {
+          "path": "articles/tax-credit-late-application.html",
+          "score": 0.7511
+        },
+        {
+          "path": "articles/telecom-discount-guide.html",
+          "score": 0.7263
+        },
+        {
+          "path": "articles/travel-insurance-comparison.html",
+          "score": 0.7739
+        },
+        {
+          "path": "articles/unemployment-benefit-job-search.html",
+          "score": 0.7711
+        },
+        {
+          "path": "articles/wetax-electronic-billing.html",
+          "score": 0.9446
+        },
+        {
+          "path": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "score": 0.8195
+        },
+        {
+          "path": "articles/youth-leap-account-contribution.html",
+          "score": 0.7972
+        },
+        {
+          "path": "articles/youth-savings-account-maintenance.html",
+          "score": 0.7952
+        },
+        {
+          "path": "articles/youth-support-programs.html",
+          "score": 0.7496
+        }
+      ],
+      "final_status": "5천자 미달 / 중복 의심 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "url": "https://savingio.com/articles/yellow-umbrella-mutual-aid-guide.html",
+      "title": "노란우산공제 가입 전 확인사항 | 세이빙이오(Savingio)",
+      "h1": "노란우산공제 가입 전 확인사항",
+      "char_count": 4588,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/small-business-policy-fund-search.html"
+      ],
+      "broken_link_count": 1,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/revolving-cancellation-payoff.html",
+          "score": 0.7858
+        },
+        {
+          "path": "articles/savings-maturity-auto-renewal.html",
+          "score": 0.7732
+        },
+        {
+          "path": "articles/single-parent-support-benefits.html",
+          "score": 0.7455
+        },
+        {
+          "path": "articles/summer-gas-bill-hot-water-saving.html",
+          "score": 0.7097
+        },
+        {
+          "path": "articles/summer-water-bill-spike-check.html",
+          "score": 0.7122
+        },
+        {
+          "path": "articles/tax-credit-late-application.html",
+          "score": 0.7382
+        },
+        {
+          "path": "articles/telecom-discount-guide.html",
+          "score": 0.7362
+        },
+        {
+          "path": "articles/travel-insurance-comparison.html",
+          "score": 0.862
+        },
+        {
+          "path": "articles/unemployment-benefit-job-search.html",
+          "score": 0.7747
+        },
+        {
+          "path": "articles/wetax-electronic-billing.html",
+          "score": 0.7853
+        },
+        {
+          "path": "articles/wetax-payment-history.html",
+          "score": 0.8195
+        },
+        {
+          "path": "articles/youth-leap-account-contribution.html",
+          "score": 0.793
+        },
+        {
+          "path": "articles/youth-savings-account-maintenance.html",
+          "score": 0.7916
+        },
+        {
+          "path": "articles/youth-support-programs.html",
+          "score": 0.7406
+        }
+      ],
+      "final_status": "5천자 미달 / 중복 의심 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/youth-housing-benefit-separate-payment.html",
+      "url": "https://savingio.com/articles/youth-housing-benefit-separate-payment.html",
+      "title": "청년 주거급여 분리지급 확인 방법 | 세이빙이오(Savingio)",
+      "h1": "청년 주거급여 분리지급 확인 방법",
+      "char_count": 5393,
+      "under_5000": false,
+      "broken_links": [
+        "/articles/energy-voucher-application-2026.html",
+        "/articles/energy-voucher-application.html",
+        "/articles/energy-voucher-balance-check-2026.html",
+        "/articles/energy-voucher-balance-use.html",
+        "/articles/energy-voucher-documents.html",
+        "/articles/energy-voucher-eligibility-2026.html",
+        "/articles/energy-voucher-online-application.html"
+      ],
+      "broken_link_count": 7,
+      "dna_missing": [
+        "작성·검수",
+        "5초 결론",
+        "30초",
+        "목차",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/rental-contract-reporting-guide.html",
+          "score": 0.7388
+        }
+      ],
+      "final_status": "중복 의심 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/youth-leap-account-contribution.html",
+      "url": "https://savingio.com/articles/youth-leap-account-contribution.html",
+      "title": "청년도약계좌 정부기여금 확인법 | 세이빙이오(Savingio)",
+      "h1": "청년도약계좌 정부기여금 확인법",
+      "char_count": 4842,
+      "under_5000": true,
+      "broken_links": [
+        "/articles/energy-voucher-eligibility-2026.html",
+        "/articles/summer-electricity-tier-check.html"
+      ],
+      "broken_link_count": 2,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/revolving-cancellation-payoff.html",
+          "score": 0.748
+        },
+        {
+          "path": "articles/savings-maturity-auto-renewal.html",
+          "score": 0.8376
+        },
+        {
+          "path": "articles/single-parent-support-benefits.html",
+          "score": 0.8235
+        },
+        {
+          "path": "articles/summer-gas-bill-hot-water-saving.html",
+          "score": 0.7133
+        },
+        {
+          "path": "articles/summer-water-bill-spike-check.html",
+          "score": 0.7163
+        },
+        {
+          "path": "articles/tax-credit-late-application.html",
+          "score": 0.8143
+        },
+        {
+          "path": "articles/telecom-discount-guide.html",
+          "score": 0.7347
+        },
+        {
+          "path": "articles/travel-insurance-comparison.html",
+          "score": 0.7632
+        },
+        {
+          "path": "articles/unemployment-benefit-job-search.html",
+          "score": 0.7706
+        },
+        {
+          "path": "articles/wetax-electronic-billing.html",
+          "score": 0.7756
+        },
+        {
+          "path": "articles/wetax-payment-history.html",
+          "score": 0.7972
+        },
+        {
+          "path": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "score": 0.793
+        },
+        {
+          "path": "articles/youth-savings-account-maintenance.html",
+          "score": 0.9011
+        },
+        {
+          "path": "articles/youth-support-programs.html",
+          "score": 0.8416
+        }
+      ],
+      "final_status": "5천자 미달 / 중복 의심 / 깨진 링크",
+      "priority": "P0"
+    },
+    {
+      "path": "articles/youth-savings-account-maintenance.html",
+      "url": "https://savingio.com/articles/youth-savings-account-maintenance.html",
+      "title": "청년내일저축계좌 유지 조건 | 세이빙이오(Savingio)",
+      "h1": "청년내일저축계좌 유지 조건",
+      "char_count": 4821,
+      "under_5000": true,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/revolving-cancellation-payoff.html",
+          "score": 0.7495
+        },
+        {
+          "path": "articles/savings-maturity-auto-renewal.html",
+          "score": 0.7695
+        },
+        {
+          "path": "articles/single-parent-support-benefits.html",
+          "score": 0.8316
+        },
+        {
+          "path": "articles/summer-gas-bill-hot-water-saving.html",
+          "score": 0.7125
+        },
+        {
+          "path": "articles/summer-water-bill-spike-check.html",
+          "score": 0.7155
+        },
+        {
+          "path": "articles/tax-credit-late-application.html",
+          "score": 0.8156
+        },
+        {
+          "path": "articles/telecom-discount-guide.html",
+          "score": 0.7375
+        },
+        {
+          "path": "articles/travel-insurance-comparison.html",
+          "score": 0.7669
+        },
+        {
+          "path": "articles/unemployment-benefit-job-search.html",
+          "score": 0.7725
+        },
+        {
+          "path": "articles/wetax-electronic-billing.html",
+          "score": 0.7737
+        },
+        {
+          "path": "articles/wetax-payment-history.html",
+          "score": 0.7952
+        },
+        {
+          "path": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "score": 0.7916
+        },
+        {
+          "path": "articles/youth-leap-account-contribution.html",
+          "score": 0.9011
+        },
+        {
+          "path": "articles/youth-support-programs.html",
+          "score": 0.8484
+        }
+      ],
+      "final_status": "5천자 미달 / 중복 의심",
+      "priority": "P1"
+    },
+    {
+      "path": "articles/youth-support-programs.html",
+      "url": "https://savingio.com/articles/youth-support-programs.html",
+      "title": "청년 지원금 종류 한눈에 보기, 신청 전 확인할 기준 | 세이빙이오(Savingio)",
+      "h1": "청년 지원금 종류 한눈에 보기, 신청 전 확인할 기준",
+      "char_count": 5016,
+      "under_5000": false,
+      "broken_links": [],
+      "broken_link_count": 0,
+      "dna_missing": [
+        "5초 결론",
+        "30초",
+        "right-rail"
+      ],
+      "dna_complete": false,
+      "duplicate_candidates": [
+        {
+          "path": "articles/savings-maturity-auto-renewal.html",
+          "score": 0.7172
+        },
+        {
+          "path": "articles/single-parent-support-benefits.html",
+          "score": 0.8655
+        },
+        {
+          "path": "articles/tax-credit-late-application.html",
+          "score": 0.8241
+        },
+        {
+          "path": "articles/travel-insurance-comparison.html",
+          "score": 0.7149
+        },
+        {
+          "path": "articles/unemployment-benefit-job-search.html",
+          "score": 0.7341
+        },
+        {
+          "path": "articles/wetax-electronic-billing.html",
+          "score": 0.7531
+        },
+        {
+          "path": "articles/wetax-payment-history.html",
+          "score": 0.7496
+        },
+        {
+          "path": "articles/yellow-umbrella-mutual-aid-guide.html",
+          "score": 0.7406
+        },
+        {
+          "path": "articles/youth-leap-account-contribution.html",
+          "score": 0.8416
+        },
+        {
+          "path": "articles/youth-savings-account-maintenance.html",
+          "score": 0.8484
+        }
+      ],
+      "final_status": "중복 의심",
+      "priority": "P1"
+    }
+  ],
+  "duplicate_pairs": [
+    {
+      "a": "articles/benefit-scam-warning-2026.html",
+      "b": "articles/government-benefits-warning.html",
+      "score": 0.7282
+    },
+    {
+      "a": "articles/education-expense-vs-benefit.html",
+      "b": "articles/elementary-school-education-support.html",
+      "score": 0.7144
+    },
+    {
+      "a": "articles/property-tax-bill-checklist-2026.html",
+      "b": "articles/property-tax-deadline.html",
+      "score": 0.7125
+    },
+    {
+      "a": "articles/property-tax-july-2026.html",
+      "b": "articles/property-tax-july-september-difference.html",
+      "score": 0.7092
+    },
+    {
+      "a": "articles/refrigerator-summer-electricity-saving.html",
+      "b": "articles/summer-gas-bill-hot-water-saving.html",
+      "score": 0.769
+    },
+    {
+      "a": "articles/refrigerator-summer-electricity-saving.html",
+      "b": "articles/summer-water-bill-spike-check.html",
+      "score": 0.7855
+    },
+    {
+      "a": "articles/refrigerator-summer-electricity-saving.html",
+      "b": "articles/telecom-discount-guide.html",
+      "score": 0.7081
+    },
+    {
+      "a": "articles/rental-contract-reporting-guide.html",
+      "b": "articles/youth-housing-benefit-separate-payment.html",
+      "score": 0.7388
+    },
+    {
+      "a": "articles/revolving-cancellation-payoff.html",
+      "b": "articles/savings-maturity-auto-renewal.html",
+      "score": 0.7367
+    },
+    {
+      "a": "articles/revolving-cancellation-payoff.html",
+      "b": "articles/single-parent-support-benefits.html",
+      "score": 0.734
+    },
+    {
+      "a": "articles/revolving-cancellation-payoff.html",
+      "b": "articles/travel-insurance-comparison.html",
+      "score": 0.7658
+    },
+    {
+      "a": "articles/revolving-cancellation-payoff.html",
+      "b": "articles/unemployment-benefit-job-search.html",
+      "score": 0.7324
+    },
+    {
+      "a": "articles/revolving-cancellation-payoff.html",
+      "b": "articles/wetax-electronic-billing.html",
+      "score": 0.7411
+    },
+    {
+      "a": "articles/revolving-cancellation-payoff.html",
+      "b": "articles/wetax-payment-history.html",
+      "score": 0.7727
+    },
+    {
+      "a": "articles/revolving-cancellation-payoff.html",
+      "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "score": 0.7858
+    },
+    {
+      "a": "articles/revolving-cancellation-payoff.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "score": 0.748
+    },
+    {
+      "a": "articles/revolving-cancellation-payoff.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "score": 0.7495
+    },
+    {
+      "a": "articles/savings-maturity-auto-renewal.html",
+      "b": "articles/single-parent-support-benefits.html",
+      "score": 0.7186
+    },
+    {
+      "a": "articles/savings-maturity-auto-renewal.html",
+      "b": "articles/tax-credit-late-application.html",
+      "score": 0.7054
+    },
+    {
+      "a": "articles/savings-maturity-auto-renewal.html",
+      "b": "articles/telecom-discount-guide.html",
+      "score": 0.7272
+    },
+    {
+      "a": "articles/savings-maturity-auto-renewal.html",
+      "b": "articles/travel-insurance-comparison.html",
+      "score": 0.7419
+    },
+    {
+      "a": "articles/savings-maturity-auto-renewal.html",
+      "b": "articles/unemployment-benefit-job-search.html",
+      "score": 0.7437
+    },
+    {
+      "a": "articles/savings-maturity-auto-renewal.html",
+      "b": "articles/wetax-electronic-billing.html",
+      "score": 0.7307
+    },
+    {
+      "a": "articles/savings-maturity-auto-renewal.html",
+      "b": "articles/wetax-payment-history.html",
+      "score": 0.7586
+    },
+    {
+      "a": "articles/savings-maturity-auto-renewal.html",
+      "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "score": 0.7732
+    },
+    {
+      "a": "articles/savings-maturity-auto-renewal.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "score": 0.8376
+    },
+    {
+      "a": "articles/savings-maturity-auto-renewal.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "score": 0.7695
+    },
+    {
+      "a": "articles/savings-maturity-auto-renewal.html",
+      "b": "articles/youth-support-programs.html",
+      "score": 0.7172
+    },
+    {
+      "a": "articles/single-parent-support-benefits.html",
+      "b": "articles/tax-credit-late-application.html",
+      "score": 0.8221
+    },
+    {
+      "a": "articles/single-parent-support-benefits.html",
+      "b": "articles/travel-insurance-comparison.html",
+      "score": 0.7199
+    },
+    {
+      "a": "articles/single-parent-support-benefits.html",
+      "b": "articles/unemployment-benefit-job-search.html",
+      "score": 0.7222
+    },
+    {
+      "a": "articles/single-parent-support-benefits.html",
+      "b": "articles/wetax-electronic-billing.html",
+      "score": 0.748
+    },
+    {
+      "a": "articles/single-parent-support-benefits.html",
+      "b": "articles/wetax-payment-history.html",
+      "score": 0.7513
+    },
+    {
+      "a": "articles/single-parent-support-benefits.html",
+      "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "score": 0.7455
+    },
+    {
+      "a": "articles/single-parent-support-benefits.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "score": 0.8235
+    },
+    {
+      "a": "articles/single-parent-support-benefits.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "score": 0.8316
+    },
+    {
+      "a": "articles/single-parent-support-benefits.html",
+      "b": "articles/youth-support-programs.html",
+      "score": 0.8655
+    },
+    {
+      "a": "articles/summer-gas-bill-hot-water-saving.html",
+      "b": "articles/summer-water-bill-spike-check.html",
+      "score": 0.8208
+    },
+    {
+      "a": "articles/summer-gas-bill-hot-water-saving.html",
+      "b": "articles/telecom-discount-guide.html",
+      "score": 0.761
+    },
+    {
+      "a": "articles/summer-gas-bill-hot-water-saving.html",
+      "b": "articles/wetax-payment-history.html",
+      "score": 0.7131
+    },
+    {
+      "a": "articles/summer-gas-bill-hot-water-saving.html",
+      "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "score": 0.7097
+    },
+    {
+      "a": "articles/summer-gas-bill-hot-water-saving.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "score": 0.7133
+    },
+    {
+      "a": "articles/summer-gas-bill-hot-water-saving.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "score": 0.7125
+    },
+    {
+      "a": "articles/summer-water-bill-spike-check.html",
+      "b": "articles/telecom-discount-guide.html",
+      "score": 0.754
+    },
+    {
+      "a": "articles/summer-water-bill-spike-check.html",
+      "b": "articles/wetax-payment-history.html",
+      "score": 0.7156
+    },
+    {
+      "a": "articles/summer-water-bill-spike-check.html",
+      "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "score": 0.7122
+    },
+    {
+      "a": "articles/summer-water-bill-spike-check.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "score": 0.7163
+    },
+    {
+      "a": "articles/summer-water-bill-spike-check.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "score": 0.7155
+    },
+    {
+      "a": "articles/tax-credit-late-application.html",
+      "b": "articles/travel-insurance-comparison.html",
+      "score": 0.7089
+    },
+    {
+      "a": "articles/tax-credit-late-application.html",
+      "b": "articles/unemployment-benefit-job-search.html",
+      "score": 0.7233
+    },
+    {
+      "a": "articles/tax-credit-late-application.html",
+      "b": "articles/wetax-electronic-billing.html",
+      "score": 0.7964
+    },
+    {
+      "a": "articles/tax-credit-late-application.html",
+      "b": "articles/wetax-payment-history.html",
+      "score": 0.7511
+    },
+    {
+      "a": "articles/tax-credit-late-application.html",
+      "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "score": 0.7382
+    },
+    {
+      "a": "articles/tax-credit-late-application.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "score": 0.8143
+    },
+    {
+      "a": "articles/tax-credit-late-application.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "score": 0.8156
+    },
+    {
+      "a": "articles/tax-credit-late-application.html",
+      "b": "articles/youth-support-programs.html",
+      "score": 0.8241
+    },
+    {
+      "a": "articles/telecom-discount-guide.html",
+      "b": "articles/travel-insurance-comparison.html",
+      "score": 0.7143
+    },
+    {
+      "a": "articles/telecom-discount-guide.html",
+      "b": "articles/unemployment-benefit-job-search.html",
+      "score": 0.7113
+    },
+    {
+      "a": "articles/telecom-discount-guide.html",
+      "b": "articles/wetax-payment-history.html",
+      "score": 0.7263
+    },
+    {
+      "a": "articles/telecom-discount-guide.html",
+      "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "score": 0.7362
+    },
+    {
+      "a": "articles/telecom-discount-guide.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "score": 0.7347
+    },
+    {
+      "a": "articles/telecom-discount-guide.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "score": 0.7375
+    },
+    {
+      "a": "articles/travel-insurance-comparison.html",
+      "b": "articles/unemployment-benefit-job-search.html",
+      "score": 0.7579
+    },
+    {
+      "a": "articles/travel-insurance-comparison.html",
+      "b": "articles/wetax-electronic-billing.html",
+      "score": 0.7428
+    },
+    {
+      "a": "articles/travel-insurance-comparison.html",
+      "b": "articles/wetax-payment-history.html",
+      "score": 0.7739
+    },
+    {
+      "a": "articles/travel-insurance-comparison.html",
+      "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "score": 0.862
+    },
+    {
+      "a": "articles/travel-insurance-comparison.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "score": 0.7632
+    },
+    {
+      "a": "articles/travel-insurance-comparison.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "score": 0.7669
+    },
+    {
+      "a": "articles/travel-insurance-comparison.html",
+      "b": "articles/youth-support-programs.html",
+      "score": 0.7149
+    },
+    {
+      "a": "articles/unemployment-benefit-job-search.html",
+      "b": "articles/wetax-electronic-billing.html",
+      "score": 0.7464
+    },
+    {
+      "a": "articles/unemployment-benefit-job-search.html",
+      "b": "articles/wetax-payment-history.html",
+      "score": 0.7711
+    },
+    {
+      "a": "articles/unemployment-benefit-job-search.html",
+      "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "score": 0.7747
+    },
+    {
+      "a": "articles/unemployment-benefit-job-search.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "score": 0.7706
+    },
+    {
+      "a": "articles/unemployment-benefit-job-search.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "score": 0.7725
+    },
+    {
+      "a": "articles/unemployment-benefit-job-search.html",
+      "b": "articles/youth-support-programs.html",
+      "score": 0.7341
+    },
+    {
+      "a": "articles/wetax-electronic-billing.html",
+      "b": "articles/wetax-payment-history.html",
+      "score": 0.9446
+    },
+    {
+      "a": "articles/wetax-electronic-billing.html",
+      "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "score": 0.7853
+    },
+    {
+      "a": "articles/wetax-electronic-billing.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "score": 0.7756
+    },
+    {
+      "a": "articles/wetax-electronic-billing.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "score": 0.7737
+    },
+    {
+      "a": "articles/wetax-electronic-billing.html",
+      "b": "articles/youth-support-programs.html",
+      "score": 0.7531
+    },
+    {
+      "a": "articles/wetax-payment-history.html",
+      "b": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "score": 0.8195
+    },
+    {
+      "a": "articles/wetax-payment-history.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "score": 0.7972
+    },
+    {
+      "a": "articles/wetax-payment-history.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "score": 0.7952
+    },
+    {
+      "a": "articles/wetax-payment-history.html",
+      "b": "articles/youth-support-programs.html",
+      "score": 0.7496
+    },
+    {
+      "a": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "b": "articles/youth-leap-account-contribution.html",
+      "score": 0.793
+    },
+    {
+      "a": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "score": 0.7916
+    },
+    {
+      "a": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "b": "articles/youth-support-programs.html",
+      "score": 0.7406
+    },
+    {
+      "a": "articles/youth-leap-account-contribution.html",
+      "b": "articles/youth-savings-account-maintenance.html",
+      "score": 0.9011
+    },
+    {
+      "a": "articles/youth-leap-account-contribution.html",
+      "b": "articles/youth-support-programs.html",
+      "score": 0.8416
+    },
+    {
+      "a": "articles/youth-savings-account-maintenance.html",
+      "b": "articles/youth-support-programs.html",
+      "score": 0.8484
+    }
+  ]
+}
