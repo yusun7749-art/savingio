@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 171,
-    "pass": 142,
-    "warning": 29,
+    "pass": 143,
+    "warning": 28,
     "fail": 0,
-    "average_score": 90.6,
+    "average_score": 90.7,
     "thin_under_2500_ko": 7,
-    "short_under_4500_ko": 116,
+    "short_under_4500_ko": 115,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -3837,32 +3837,29 @@
     {
       "path": "articles/simplified-vat-checklist.html",
       "url": "https://savingio.com/articles/simplified-vat-checklist.html",
-      "title": "간이과세자 부가가치세 신고 체크리스트 | 세이빙이오(Savingio)",
-      "meta_description": "간이과세자가 신고 전에 확인해야 할 매출자료와 공제 항목을 정리합니다.",
+      "title": "간이과세자 부가가치세 신고 체크리스트 | Savingio",
+      "meta_description": "2026년 간이과세자가 부가가치세 신고 전에 확인해야 할 과세기간, 매출 누락, 세금계산서 발급 여부, 매입자료, 공제·납부의무 면제, 홈택스 제출 순서를 실제 체크리스트로 정리합니다.",
       "canonical": "https://savingio.com/articles/simplified-vat-checklist.html",
       "h1": [
         "간이과세자 부가가치세 신고 체크리스트"
       ],
-      "h2_count": 13,
-      "h3_count": 4,
-      "korean_chars": 4003,
-      "words": 1409,
-      "internal_article_links": 39,
+      "h2_count": 20,
+      "h3_count": 10,
+      "korean_chars": 5285,
+      "words": 1604,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:39",
-        "CONTENT_SHORT_KO:4003"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 96,
+      "status": "PASS"
     },
     {
       "path": "articles/single-parent-support-benefits.html",
