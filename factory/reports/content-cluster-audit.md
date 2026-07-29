@@ -77,7 +77,7 @@
 - `articles/beginner-budget-plan.html` — 초보자를 위한 예산 계획, 월급이 어디로 사라지는지 찾는 순서 (5,987자)
 - `articles/beginner-money-management.html` — 처음 시작하는 돈 관리 방법, 월급을 지키는 순서 (5,292자)
 - `articles/budget-app-guide.html` — 가계부 앱 고르는 방법, 자동연동보다 중요한 기준 (6,076자)
-- `articles/emergency-fund-guide.html` — 비상금 얼마가 적당할까? 생활비 1개월부터 만드는 현실적인 순서 (6,231자)
+- `articles/emergency-fund-guide.html` — 비상금 얼마가 적당할까? 생활비 1개월부터 만드는 현실적인 순서 (6,229자)
 - `articles/impulse-buying-control.html` — 충동구매 줄이는 현실적인 방법, 결제 전 24시간 규칙부터 시작하세요 (3,459자)
 - `articles/money-saving-habits.html` — 돈이 모이는 생활 습관 (3,576자)
 - `articles/monthly-budget-planner.html` — 월 예산표 만드는 방법, 월급날부터 다음 급여일까지 관리하세요 (6,252자)
@@ -105,7 +105,7 @@
 
 ## G006 · 노인·연금·장기요양 · 7개
 
-- `articles/basic-pension-application-guide.html` — 기초연금 신청 방법, 만 65세 준비서류·소득인정액·지급 확인 (7,896자)
+- `articles/basic-pension-application-guide.html` — 기초연금 신청 방법, 만 65세 준비서류·소득인정액·지급 확인 (7,895자)
 - `articles/long-term-care-insurance-application.html` — 노인장기요양보험 신청 방법, 방문조사부터 등급판정까지 (6,122자)
 - `articles/national-pension-additional-payment.html` — 국민연금 추후납부 신청, 가입기간이 부족할 때 확인할 조건과 계산 순서 (6,404자)
 - `articles/national-pension-old-age-benefit-guide.html` — 국민연금 노령연금 수급 기준, 언제부터 얼마를 받는지 확인하는 방법 (8,836자)
@@ -136,7 +136,7 @@
 - `articles/child-allowance-guide.html` — 아동수당 신청 방법, 지급이 누락되지 않게 확인하는 체크리스트 (4,709자)
 - `articles/childcare-service-government-support.html` — 아이돌봄서비스 정부지원 신청 방법, 자격 판정부터 이용까지 (6,142자)
 - `articles/education-benefit-eligibility.html` — 교육급여 신청 방법과 수급자격 확인 (5,536자)
-- `articles/elementary-school-education-support.html` — 초등학생 교육비 지원 총정리, 교육급여·방과후·돌봄 신청법 (9,508자)
+- `articles/elementary-school-education-support.html` — 초등학생 교육비 지원 총정리, 교육급여·방과후·돌봄 신청법 (9,506자)
 - `articles/first-meeting-voucher-guide.html` — 첫만남이용권 신청과 사용 방법, 결제 전에 확인할 제한사항 (6,147자)
 - `articles/parental-benefit-guide.html` — 부모급여 신청 방법, 출생 후 놓치지 말아야 할 확인 순서 (7,114자)
 - `articles/single-parent-support-benefits.html` — 한부모가족 지원금 조회 방법 (5,243자)
@@ -240,7 +240,7 @@
 
 ## G016 · 청년 지원 · 6개
 
-- `articles/national-scholarship-application.html` — 국가장학금 신청 방법과 확인사항 (5,466자)
+- `articles/national-scholarship-application.html` — 국가장학금 신청 방법과 확인사항 (5,465자)
 - `articles/student-loan-repayment-guide.html` — 학자금대출 상환 방법과 부담 줄이는 순서 (3,973자)
 - `articles/youth-housing-benefit-separate-payment.html` — 청년 주거급여 분리지급 확인 방법 (5,393자)
 - `articles/youth-leap-account-contribution.html` — 청년도약계좌 정부기여금 확인법 (4,842자)
@@ -292,7 +292,7 @@
 - `articles/culture-nuri-card-balance.html` — 문화누리카드 잔액 조회와 사용처 확인, 남은 금액까지 쓰는 방법 (8,417자)
 - `articles/emergency-welfare-living-support.html` — 긴급복지 생계지원 신청 조건 (8,755자)
 - `articles/housing-benefit-eligibility.html` — 2026 주거급여 신청 자격, 소득인정액과 지원금 확인 방법 (10,512자)
-- `articles/lifelong-education-voucher-application.html` — 2026 평생교육이용권 신청 방법, 대상·사용처·카드 발급까지 (4,284자)
+- `articles/lifelong-education-voucher-application.html` — 2026 평생교육이용권 신청 방법, 대상·사용처·카드 발급까지 (4,281자)
 - `articles/near-poverty-certificate.html` — 차상위계층 확인서 발급 방법 (5,687자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
