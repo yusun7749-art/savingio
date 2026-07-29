@@ -136,7 +136,7 @@
 - `articles/child-allowance-guide.html` — 아동수당 신청 방법, 지급이 누락되지 않게 확인하는 체크리스트 (4,709자)
 - `articles/childcare-service-government-support.html` — 아이돌봄서비스 정부지원 신청 방법, 자격 판정부터 이용까지 (6,142자)
 - `articles/education-benefit-eligibility.html` — 교육급여 신청 방법과 수급자격 확인 (5,536자)
-- `articles/elementary-school-education-support.html` — 초등학생 교육비 지원 총정리, 교육급여·방과후·돌봄 신청법 (3,166자)
+- `articles/elementary-school-education-support.html` — 초등학생 교육비 지원 총정리, 교육급여·방과후·돌봄 신청법 (9,508자)
 - `articles/first-meeting-voucher-guide.html` — 첫만남이용권 신청과 사용 방법, 결제 전에 확인할 제한사항 (6,147자)
 - `articles/parental-benefit-guide.html` — 부모급여 신청 방법, 출생 후 놓치지 말아야 할 확인 순서 (7,114자)
 - `articles/single-parent-support-benefits.html` — 한부모가족 지원금 조회 방법 (5,243자)
