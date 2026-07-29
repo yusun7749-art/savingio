@@ -1,12 +1,12 @@
 {
   "summary": {
-    "article_count": 177,
-    "pass": 144,
+    "article_count": 176,
+    "pass": 143,
     "warning": 33,
     "fail": 0,
     "average_score": 90.7,
     "thin_under_2500_ko": 11,
-    "short_under_4500_ko": 125,
+    "short_under_4500_ko": 124,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -670,16 +670,16 @@
     {
       "path": "articles/car-insurance-child-discount.html",
       "url": "https://savingio.com/articles/car-insurance-child-discount.html",
-      "title": "자동차보험 자녀할인 특약, 태아부터 갱신까지 확인하는 순서 | Savingio",
-      "meta_description": "자동차보험 자녀할인 특약의 태아 포함 여부, 자녀 연령, 기명피보험자 관계, 증빙서류, 중도 변경과 갱신 시 확인 순서를 정리했습니다.",
+      "title": "자동차보험 자녀할인 특약, 태아·연령·증빙·중도변경 확인 가이드 | Savingio",
+      "meta_description": "자동차보험 자녀할인 특약의 태아 인정 여부, 자녀 연령, 가족관계, 증빙서류, 중도 가입과 환급, 갱신 시 확인 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/car-insurance-child-discount.html",
       "h1": [
-        "자동차보험 자녀할인 특약, 태아부터 갱신까지 확인하는 순서"
+        "자동차보험 자녀할인 특약, 태아·연령·증빙·중도변경 확인 가이드"
       ],
-      "h2_count": 17,
-      "h3_count": 0,
-      "korean_chars": 3539,
-      "words": 1222,
+      "h2_count": 19,
+      "h3_count": 4,
+      "korean_chars": 3031,
+      "words": 1052,
       "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
@@ -690,7 +690,7 @@
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3539"
+        "CONTENT_SHORT_KO:3031"
       ],
       "score": 92,
       "status": "PASS"
@@ -753,17 +753,17 @@
     {
       "path": "articles/car-insurance-saving.html",
       "url": "https://savingio.com/articles/car-insurance-saving.html",
-      "title": "자동차보험료 절약 방법, 갱신 전에 확인할 할인특약과 운전자 범위 | Savingio",
-      "meta_description": "자동차보험 갱신 전 운전자 범위, 연령 조건, 마일리지·자녀·안전운전 특약, 자기부담금과 담보를 순서대로 점검해 보험료를 줄이는 방법을 정리했습니다.",
+      "title": "자동차보험료 절약, 갱신 전에 비교할 운전자 범위·특약·담보 최종 가이드 | Savingio",
+      "meta_description": "자동차보험 갱신 전 운전자 범위, 연령 조건, 마일리지·자녀·안전운전 특약, 담보와 자기부담금, 결제 조건을 같은 기준으로 비교하는 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/car-insurance-saving.html",
       "h1": [
-        "자동차보험료 절약 방법, 갱신 전에 확인할 할인특약과 운전자 범위"
+        "자동차보험료 절약, 갱신 전에 비교할 운전자 범위·특약·담보 최종 가이드"
       ],
-      "h2_count": 14,
-      "h3_count": 2,
-      "korean_chars": 3668,
-      "words": 1277,
-      "internal_article_links": 8,
+      "h2_count": 19,
+      "h3_count": 4,
+      "korean_chars": 3213,
+      "words": 1139,
+      "internal_article_links": 9,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 2,
@@ -773,7 +773,7 @@
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3668"
+        "CONTENT_SHORT_KO:3213"
       ],
       "score": 92,
       "status": "PASS"
@@ -2198,34 +2198,6 @@
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
         "CONTENT_SHORT_KO:3548"
-      ],
-      "score": 92,
-      "status": "PASS"
-    },
-    {
-      "path": "articles/health-insurance-overpayment-refund.html",
-      "url": "https://savingio.com/articles/health-insurance-overpayment-refund.html",
-      "title": "건강보험료 과오납 환급, 이중납부부터 자격변동까지 확인하는 순서 | Savingio",
-      "meta_description": "건강보험료 과오납 환급금 조회부터 이중납부, 직장·지역 자격변동, 미납 상계와 실제 입금 확인 순서를 정리했습니다.",
-      "canonical": "https://savingio.com/articles/health-insurance-overpayment-refund.html",
-      "h1": [
-        "건강보험료 과오납 환급, 이중납부부터 자격변동까지 확인하는 순서"
-      ],
-      "h2_count": 17,
-      "h3_count": 0,
-      "korean_chars": 2783,
-      "words": 927,
-      "internal_article_links": 7,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": false,
-      "faq_schema": true,
-      "issues": [],
-      "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:2783"
       ],
       "score": 92,
       "status": "PASS"

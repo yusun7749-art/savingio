@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
-- Articles: 177
-- PASS: 144
+- Articles: 176
+- PASS: 143
 - WARNING: 33
 - FAIL: 0
 - Average score: 90.7
 - Thin content (<2500 Korean chars): 11
-- Short content (<4500 Korean chars): 125
+- Short content (<4500 Korean chars): 124
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -82,9 +82,9 @@
 | 92 | PASS | `articles/business-vehicle-expense-basics.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4199 |
 | 92 | PASS | `articles/cancel-unused-subscriptions.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/car-aircon-fuel-saving.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
-| 92 | PASS | `articles/car-insurance-child-discount.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3539 |
+| 92 | PASS | `articles/car-insurance-child-discount.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3031 |
 | 92 | PASS | `articles/car-insurance-mileage-refund.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3156 |
-| 92 | PASS | `articles/car-insurance-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3668 |
+| 92 | PASS | `articles/car-insurance-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3213 |
 | 92 | PASS | `articles/car-tax-check-payment-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3687 |
 | 92 | PASS | `articles/cash-out-card-points.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3920 |
 | 92 | PASS | `articles/child-allowance-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3304 |
