@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3295,
-  "references_scanned": 61756,
+  "files_scanned": 3296,
+  "references_scanned": 61764,
   "counts": {
-    "broken_references": 3131,
+    "broken_references": 3130,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 7,
@@ -4740,13 +4740,6 @@
       "reference": "/articles/vat-input-tax-deduction-guide-2026.html",
       "expected": [
         "articles/vat-input-tax-deduction-guide-2026.html"
-      ]
-    },
-    {
-      "source": "factory/SEO_AUDIT/seo-audit.json",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
