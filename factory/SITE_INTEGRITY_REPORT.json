@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3296,
-  "references_scanned": 61793,
+  "references_scanned": 61780,
   "counts": {
-    "broken_references": 3137,
+    "broken_references": 3136,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 7,
@@ -1448,13 +1448,6 @@
       "reference": "/articles/national-pension-guide.html",
       "expected": [
         "articles/national-pension-guide.html"
-      ]
-    },
-    {
-      "source": "articles/beginner-budget-plan.html",
-      "reference": "/articles/bank-fees-to-avoid.html",
-      "expected": [
-        "articles/bank-fees-to-avoid.html"
       ]
     },
     {
