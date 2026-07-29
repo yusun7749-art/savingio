@@ -50,6 +50,7 @@
 | 88 | PASS | `articles/apartment-management-fee-summer.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4224 |
 | 88 | PASS | `articles/automatic-payment-saving.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4458 |
 | 88 | PASS | `articles/beginner-budget-plan.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4148 |
+| 88 | PASS | `articles/beginner-money-management.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3665 |
 | 88 | PASS | `articles/budget-app-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2501 |
 | 88 | PASS | `articles/education-expense-vs-benefit.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3512 |
 | 88 | PASS | `articles/electricity-bill-easy-calculator-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3282 |
@@ -76,7 +77,6 @@
 | 92 | PASS | `articles/bank-fee-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3463 |
 | 92 | PASS | `articles/basic-livelihood-discounts.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3233 |
 | 92 | PASS | `articles/basic-pension-application-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
-| 92 | PASS | `articles/beginner-money-management.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4014 |
 | 92 | PASS | `articles/benefit-scam-warning-2026.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/business-card-hometax-registration.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3440 |
 | 92 | PASS | `articles/business-closure-vat-order.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4015 |

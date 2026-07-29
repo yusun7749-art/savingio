@@ -392,28 +392,29 @@
       "path": "articles/beginner-money-management.html",
       "url": "https://savingio.com/articles/beginner-money-management.html",
       "title": "처음 시작하는 돈 관리 방법, 월급을 지키는 순서 | Savingio",
-      "meta_description": "통장만 여러 개 만들다 포기했다면 수입 확인, 필수비 분리, 생활비 한도, 비상금, 부채 점검 순서로 시작하세요. 초보자가 월급을 지키는 돈 관리 방법을 5초 결론부터 단계별로 정리했습니다.",
+      "meta_description": "처음 돈 관리를 시작할 때 실수령액 확인, 필수비 분리, 생활비 한도, 비정기 지출 준비, 비상금과 부채 관리까지 월급을 지키는 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/beginner-money-management.html",
       "h1": [
         "처음 시작하는 돈 관리 방법, 월급을 지키는 순서"
       ],
-      "h2_count": 18,
+      "h2_count": 19,
       "h3_count": 0,
-      "korean_chars": 4014,
-      "words": 1449,
-      "internal_article_links": 22,
+      "korean_chars": 3665,
+      "words": 1311,
+      "internal_article_links": 11,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 2,
+      "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": true,
+      "faq_schema": false,
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:4014"
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3665"
       ],
-      "score": 92,
+      "score": 88,
       "status": "PASS"
     },
     {
