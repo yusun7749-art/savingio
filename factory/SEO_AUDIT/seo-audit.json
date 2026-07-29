@@ -449,16 +449,16 @@
       "path": "articles/budget-app-guide.html",
       "url": "https://savingio.com/articles/budget-app-guide.html",
       "title": "가계부 앱 고르는 방법, 자동연동보다 중요한 기준 | Savingio",
-      "meta_description": "가계부 앱은 기능이 많다고 오래 쓰는 것이 아닙니다. 자동연동 범위, 분류 수정, 예산 알림, 데이터 내보내기, 탈퇴 절차를 확인하고 내 생활에 맞는 앱을 고르는 순서를 정리했습니다.",
+      "meta_description": "가계부 앱을 고를 때 자동연동 개수보다 기록 목적, 분류 수정, 예산 알림, 데이터 내보내기, 권한 해제와 탈퇴 절차를 먼저 확인하는 방법을 정리했습니다.",
       "canonical": "https://savingio.com/articles/budget-app-guide.html",
       "h1": [
         "가계부 앱 고르는 방법, 자동연동보다 중요한 기준"
       ],
-      "h2_count": 16,
+      "h2_count": 19,
       "h3_count": 0,
-      "korean_chars": 2501,
-      "words": 910,
-      "internal_article_links": 15,
+      "korean_chars": 4235,
+      "words": 1504,
+      "internal_article_links": 12,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 1,
@@ -469,7 +469,7 @@
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
         "FAQ_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:2501"
+        "CONTENT_SHORT_KO:4235"
       ],
       "score": 88,
       "status": "PASS"
