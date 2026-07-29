@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
 - Articles: 171
-- PASS: 145
-- WARNING: 26
+- PASS: 146
+- WARNING: 25
 - FAIL: 0
 - Average score: 90.8
 - Thin content (<2500 Korean chars): 8
-- Short content (<4500 Korean chars): 115
+- Short content (<4500 Korean chars): 116
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -29,7 +29,6 @@
 | 80 | WARNING | `articles/single-parent-support-benefits.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3597 |
 | 80 | WARNING | `articles/spending-habits-change.html` | THIN_CONTENT_KO:2060, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/summer-gas-bill-hot-water-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3351 |
-| 80 | WARNING | `articles/summer-vacation-budget-plan.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3352 |
 | 80 | WARNING | `articles/summer-water-bill-spike-check.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:32, CONTENT_SHORT_KO:3329 |
 | 80 | WARNING | `articles/tax-credit-late-application.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3449 |
 | 80 | WARNING | `articles/telecom-discount-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:10, CONTENT_SHORT_KO:3320 |
@@ -44,6 +43,7 @@
 | 84 | WARNING | `articles/fan-aircon-combination-saving.html` | META_DESCRIPTION_LENGTH:37, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2929 |
 | 84 | WARNING | `articles/unemployment-benefit-checklist.html` | THIN_CONTENT_KO:2442, META_DESCRIPTION_LENGTH:49 |
 | 84 | WARNING | `articles/youth-support-programs.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:3474 |
+| 88 | PASS | `articles/aircon-optimal-temperature-savings.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2908 |
 | 88 | PASS | `articles/apartment-management-fee-summer.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4224 |
 | 88 | PASS | `articles/automatic-payment-saving.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4458 |
 | 88 | PASS | `articles/beginner-budget-plan.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4148 |
@@ -75,7 +75,6 @@
 | 92 | PASS | `articles/ai-side-hustles-beginner.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/aircon-dry-mode-electricity.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3653 |
 | 92 | PASS | `articles/aircon-filter-cleaning-savings.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
-| 92 | PASS | `articles/aircon-optimal-temperature-savings.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/bank-account-budgeting.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/bank-fee-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3463 |
 | 92 | PASS | `articles/basic-livelihood-discounts.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3233 |
@@ -100,3 +99,4 @@
 | 92 | PASS | `articles/earned-income-credit-status-check.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3592 |
 | 92 | PASS | `articles/education-benefit-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3939 |
 | 92 | PASS | `articles/electricity-bill-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3243 |
+| 92 | PASS | `articles/electricity-discount-card-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4199 |

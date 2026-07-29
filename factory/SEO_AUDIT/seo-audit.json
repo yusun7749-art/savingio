@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 171,
-    "pass": 145,
-    "warning": 26,
+    "pass": 146,
+    "warning": 25,
     "fail": 0,
     "average_score": 90.8,
     "thin_under_2500_ko": 8,
-    "short_under_4500_ko": 115,
+    "short_under_4500_ko": 116,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -138,16 +138,16 @@
       "path": "articles/aircon-optimal-temperature-savings.html",
       "url": "https://savingio.com/articles/aircon-optimal-temperature-savings.html",
       "title": "에어컨 적정 온도는 몇 도일까? 전기요금과 쾌적함을 함께 잡는 설정 순서 | Savingio",
-      "meta_description": "에어컨 온도를 몇 도로 맞춰야 할지 헷갈릴 때 실내 습도, 외부 기온, 인원, 공간 크기와 생활 패턴을 함께 보고 전기요금과 쾌적함을 조절하는 현실적인 순서를 안내합니다.",
+      "meta_description": "에어컨 적정 온도를 습도, 외부 기온, 공간 크기, 인원, 취침 환경과 전기 사용량을 함께 보며 찾는 현실적인 순서를 안내합니다.",
       "canonical": "https://savingio.com/articles/aircon-optimal-temperature-savings.html",
       "h1": [
         "에어컨 적정 온도는 몇 도일까? 전기요금과 쾌적함을 함께 잡는 설정 순서"
       ],
-      "h2_count": 20,
+      "h2_count": 18,
       "h3_count": 0,
-      "korean_chars": 6102,
-      "words": 2208,
-      "internal_article_links": 16,
+      "korean_chars": 2908,
+      "words": 1060,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 1,
@@ -157,9 +157,10 @@
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "FAQ_SCHEMA_MISSING"
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:2908"
       ],
-      "score": 92,
+      "score": 88,
       "status": "PASS"
     },
     {
@@ -4119,32 +4120,30 @@
     {
       "path": "articles/summer-vacation-budget-plan.html",
       "url": "https://savingio.com/articles/summer-vacation-budget-plan.html",
-      "title": "여름 휴가비 예산 짜는 방법 | 세이빙이오(Savingio)",
-      "meta_description": "교통·숙박·식비·입장료를 나눠 휴가 예산을 현실적으로 세웁니다.",
+      "title": "여름 휴가비 예산 짜는 방법, 여행 후 카드값까지 계산하세요 | Savingio",
+      "meta_description": "여름휴가 예산을 교통·숙박·식비·관광·쇼핑·예비비로 나누고, 예약 전부터 여행 후 카드결제일까지 관리하는 현실적인 방법을 정리합니다.",
       "canonical": "https://savingio.com/articles/summer-vacation-budget-plan.html",
       "h1": [
-        "여름 휴가비 예산 짜는 방법"
+        "여름 휴가비 예산 짜는 방법, 여행 후 카드값까지 계산하세요"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3352,
-      "words": 1175,
-      "internal_article_links": 17,
+      "h2_count": 19,
+      "h3_count": 0,
+      "korean_chars": 3181,
+      "words": 1099,
+      "internal_article_links": 13,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:35",
-        "CONTENT_SHORT_KO:3352"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3181"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/summer-water-bill-spike-check.html",
