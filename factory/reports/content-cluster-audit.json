@@ -1,5 +1,5 @@
 {
-  "article_count": 177,
+  "article_count": 176,
   "topic_group_count": 25,
   "candidate_pair_count": 1,
   "method": "topic-first grouping; title/body similarity only ranks articles inside the same topic group",
@@ -1401,7 +1401,7 @@
     {
       "group_id": "G025",
       "topic": "에너지·생활요금 지원",
-      "size": 3,
+      "size": 2,
       "articles": [
         {
           "path": "articles/basic-livelihood-discounts.html",
@@ -1414,12 +1414,6 @@
           "title": "2026 에너지바우처 신청 대상과 금액, 사용기간까지 한 번에 | Savingio",
           "h1": "2026 에너지바우처 신청 대상과 금액, 사용기간까지 한 번에",
           "char_count": 8095
-        },
-        {
-          "path": "articles/low-income-cooling-support.html",
-          "title": "저소득층 냉방비 지원 신청 방법, 2026 에너지바우처 대상과 금액 | 세이빙이오(Savingio)",
-          "h1": "저소득층 냉방비 지원 신청 방법, 2026 에너지바우처 대상과 금액",
-          "char_count": 5603
         }
       ],
       "relationships": [],
