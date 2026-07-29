@@ -1,13 +1,13 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3296,
-  "references_scanned": 61891,
+  "files_scanned": 3295,
+  "references_scanned": 61845,
   "counts": {
-    "broken_references": 2991,
+    "broken_references": 3039,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
-    "missing_sitemap_targets": 4,
+    "missing_sitemap_targets": 5,
     "publisher_id_drift": 0
   },
   "broken_references": [
@@ -2816,41 +2816,6 @@
       ]
     },
     {
-      "source": "articles/subscription-audit-checklist.html",
-      "reference": "/articles/how-to-lower-phone-bill.html",
-      "expected": [
-        "articles/how-to-lower-phone-bill.html"
-      ]
-    },
-    {
-      "source": "articles/subscription-audit-checklist.html",
-      "reference": "/articles/internet-bill-savings.html",
-      "expected": [
-        "articles/internet-bill-savings.html"
-      ]
-    },
-    {
-      "source": "articles/subscription-audit-checklist.html",
-      "reference": "/articles/phone-bill-saving.html",
-      "expected": [
-        "articles/phone-bill-saving.html"
-      ]
-    },
-    {
-      "source": "articles/subscription-audit-checklist.html",
-      "reference": "/articles/subscription-cleanup.html",
-      "expected": [
-        "articles/subscription-cleanup.html"
-      ]
-    },
-    {
-      "source": "articles/subscription-audit-checklist.html",
-      "reference": "/articles/subscription-saving.html",
-      "expected": [
-        "articles/subscription-saving.html"
-      ]
-    },
-    {
       "source": "articles/subsidy24-benefit-search.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -2936,6 +2901,13 @@
     },
     {
       "source": "articles/telecom-discount-guide.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "articles/telecom-discount-guide.html",
       "reference": "/articles/subscription-cleanup.html",
       "expected": [
         "articles/subscription-cleanup.html"
@@ -2967,6 +2939,13 @@
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
         "articles/phone-bill-saving.html"
+      ]
+    },
+    {
+      "source": "articles/telecom-unclaimed-refund.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
       ]
     },
     {
@@ -3440,6 +3419,13 @@
     },
     {
       "source": "categories/living-bills.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "categories/living-bills.html",
       "reference": "/articles/subscription-cleanup.html",
       "expected": [
         "articles/subscription-cleanup.html"
@@ -3783,6 +3769,13 @@
     },
     {
       "source": "data/savingio-brain-data.js",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.js",
       "reference": "/articles/subscription-cleanup.html",
       "expected": [
         "articles/subscription-cleanup.html"
@@ -3993,6 +3986,13 @@
     },
     {
       "source": "data/savingio-brain-data.json",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.json",
       "reference": "/articles/subscription-cleanup.html",
       "expected": [
         "articles/subscription-cleanup.html"
@@ -4290,6 +4290,13 @@
       "reference": "/articles/small-business-policy-fund-search.html",
       "expected": [
         "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "data/savingio-search-index.json",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
       ]
     },
     {
@@ -4642,6 +4649,13 @@
       "reference": "/articles/low-income-cooling-support.html",
       "expected": [
         "articles/low-income-cooling-support.html"
+      ]
+    },
+    {
+      "source": "factory/SEO_AUDIT/seo-audit.json",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
       ]
     },
     {
@@ -5059,6 +5073,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/health-insurance-overpayment-refund.html",
       "expected": [
         "articles/health-insurance-overpayment-refund.html"
@@ -5244,6 +5265,13 @@
       "reference": "/articles/local-tax-refund.html",
       "expected": [
         "articles/local-tax-refund.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
       ]
     },
     {
@@ -6395,6 +6423,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/automatic-payment-saving.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/bank-fee-saving.html",
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
@@ -6490,6 +6525,13 @@
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
         "articles/phone-bill-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/cancel-unused-subscriptions.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
       ]
     },
     {
@@ -7221,6 +7263,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/impulse-buying-control.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/internet-bill-discount.html",
       "reference": "/articles/how-to-lower-phone-bill.html",
       "expected": [
@@ -7634,6 +7683,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/subscription-audit-checklist.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/subscription-audit-checklist.html",
+      "reference": "https://savingio.com/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/subscription-cleanup.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/subscription-cleanup.html",
       "reference": "/articles/subscription-cleanup.html",
       "expected": [
@@ -7886,6 +7956,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/automatic-payment-saving.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/bank-fee-saving.html",
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
@@ -7981,6 +8058,13 @@
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
         "articles/phone-bill-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/cancel-unused-subscriptions.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
       ]
     },
     {
@@ -8712,6 +8796,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/impulse-buying-control.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/internet-bill-discount.html",
       "reference": "/articles/how-to-lower-phone-bill.html",
       "expected": [
@@ -9125,6 +9216,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/subscription-audit-checklist.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/subscription-audit-checklist.html",
+      "reference": "https://savingio.com/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/subscription-cleanup.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/subscription-cleanup.html",
       "reference": "/articles/subscription-cleanup.html",
       "expected": [
@@ -9377,6 +9489,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/automatic-payment-saving.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/bank-fee-saving.html",
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
@@ -9472,6 +9591,13 @@
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
         "articles/phone-bill-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/cancel-unused-subscriptions.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
       ]
     },
     {
@@ -10203,6 +10329,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/impulse-buying-control.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/internet-bill-discount.html",
       "reference": "/articles/how-to-lower-phone-bill.html",
       "expected": [
@@ -10616,6 +10749,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/subscription-audit-checklist.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/subscription-audit-checklist.html",
+      "reference": "https://savingio.com/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/subscription-cleanup.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/subscription-cleanup.html",
       "reference": "/articles/subscription-cleanup.html",
       "expected": [
@@ -10868,6 +11022,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/automatic-payment-saving.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/bank-fee-saving.html",
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
@@ -10963,6 +11124,13 @@
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
         "articles/phone-bill-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/cancel-unused-subscriptions.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
       ]
     },
     {
@@ -11694,6 +11862,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/impulse-buying-control.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/internet-bill-discount.html",
       "reference": "/articles/how-to-lower-phone-bill.html",
       "expected": [
@@ -12107,6 +12282,27 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/subscription-audit-checklist.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/subscription-audit-checklist.html",
+      "reference": "https://savingio.com/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/subscription-cleanup.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/subscription-cleanup.html",
       "reference": "/articles/subscription-cleanup.html",
       "expected": [
@@ -12359,6 +12555,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/automatic-payment-saving.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/bank-fee-saving.html",
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
@@ -12454,6 +12657,13 @@
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
         "articles/phone-bill-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/cancel-unused-subscriptions.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
       ]
     },
     {
@@ -13185,6 +13395,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/impulse-buying-control.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/internet-bill-discount.html",
       "reference": "/articles/how-to-lower-phone-bill.html",
       "expected": [
@@ -13595,6 +13812,27 @@
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
         "articles/phone-bill-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/subscription-audit-checklist.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/subscription-audit-checklist.html",
+      "reference": "https://savingio.com/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/subscription-cleanup.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
       ]
     },
     {
@@ -14028,6 +14266,13 @@
     },
     {
       "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
       "reference": "/articles/subscription-cleanup.html",
       "expected": [
         "articles/subscription-cleanup.html"
@@ -14257,6 +14502,13 @@
       "reference": "/articles/small-business-policy-fund-search.html",
       "expected": [
         "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
       ]
     },
     {
@@ -15133,6 +15385,13 @@
     },
     {
       "source": "factory/output/article_catalog.json",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
       "reference": "/articles/subscription-cleanup.html",
       "expected": [
         "articles/subscription-cleanup.html"
@@ -15434,6 +15693,13 @@
     },
     {
       "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
       "reference": "/articles/subscription-cleanup.html",
       "expected": [
         "articles/subscription-cleanup.html"
@@ -15507,6 +15773,13 @@
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
         "articles/phone-bill-saving.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/automatic-payment-saving.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
       ]
     },
     {
@@ -15605,6 +15878,13 @@
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
         "articles/phone-bill-saving.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/cancel-unused-subscriptions.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
       ]
     },
     {
@@ -16336,6 +16616,13 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/impulse-buying-control.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/internet-bill-discount.html",
       "reference": "/articles/how-to-lower-phone-bill.html",
       "expected": [
@@ -16746,6 +17033,27 @@
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
         "articles/phone-bill-saving.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/subscription-audit-checklist.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/subscription-audit-checklist.html",
+      "reference": "https://savingio.com/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/subscription-cleanup.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
       ]
     },
     {
@@ -19716,6 +20024,13 @@
     },
     {
       "source": "factory/output/link_graph.json",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
       "reference": "/articles/subscription-cleanup.html",
       "expected": [
         "articles/subscription-cleanup.html"
@@ -20726,6 +21041,13 @@
       ]
     },
     {
+      "source": "guides/index.html",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
       "source": "hidden-refund-check.html",
       "reference": "/articles/hidden-refund-check.html",
       "expected": [
@@ -21151,6 +21473,13 @@
     },
     {
       "source": "rss.xml",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "rss.xml",
       "reference": "/articles/subscription-cleanup.html",
       "expected": [
         "articles/subscription-cleanup.html"
@@ -21234,6 +21563,13 @@
       ]
     },
     {
+      "source": "sitemap.xml",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
       "source": "subscription-saving.html",
       "reference": "/articles/subscription-saving.html",
       "expected": [
@@ -21293,7 +21629,8 @@
     "/articles/health-insurance-out-of-pocket-refund.html",
     "/articles/health-insurance-overpayment-refund.html",
     "/articles/low-income-cooling-support.html",
-    "/articles/small-business-policy-fund-search.html"
+    "/articles/small-business-policy-fund-search.html",
+    "/articles/subscription-audit-checklist.html"
   ],
   "publisher_id_drift": []
 }
