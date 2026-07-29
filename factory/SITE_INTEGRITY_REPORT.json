@@ -1,13 +1,13 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3296,
-  "references_scanned": 61993,
+  "files_scanned": 3295,
+  "references_scanned": 61961,
   "counts": {
-    "broken_references": 2868,
+    "broken_references": 2914,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
-    "missing_sitemap_targets": 1,
+    "missing_sitemap_targets": 2,
     "publisher_id_drift": 0
   },
   "broken_references": [
@@ -1599,6 +1599,13 @@
     },
     {
       "source": "articles/check-hidden-refunds.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "articles/check-hidden-refunds.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
@@ -2082,6 +2089,13 @@
     },
     {
       "source": "articles/health-insurance-out-of-pocket-refund.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "articles/health-insurance-out-of-pocket-refund.html",
       "reference": "/categories/insurance-refund.html",
       "expected": [
         "categories/insurance-refund.html"
@@ -2089,9 +2103,9 @@
     },
     {
       "source": "articles/health-insurance-refund-guide.html",
-      "reference": "/articles/hidden-refund-check.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
       "expected": [
-        "articles/hidden-refund-check.html"
+        "articles/health-insurance-overpayment-refund.html"
       ]
     },
     {
@@ -2306,9 +2320,23 @@
     },
     {
       "source": "articles/local-tax-refund-guide.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "articles/local-tax-refund-guide.html",
       "reference": "/categories/tax-benefits.html",
       "expected": [
         "categories/tax-benefits.html"
+      ]
+    },
+    {
+      "source": "articles/long-term-care-insurance-application.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
       ]
     },
     {
@@ -2327,9 +2355,23 @@
     },
     {
       "source": "articles/medical-bill-negotiation.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "articles/medical-bill-negotiation.html",
       "reference": "/categories/health-insurance.html",
       "expected": [
         "categories/health-insurance.html"
+      ]
+    },
+    {
+      "source": "articles/missing-property-tax-bill.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
       ]
     },
     {
@@ -3419,6 +3461,13 @@
     },
     {
       "source": "categories/tax-refund.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "categories/tax-refund.html",
       "reference": "/articles/health-insurance-refund.html",
       "expected": [
         "articles/health-insurance-refund.html"
@@ -3615,6 +3664,13 @@
     },
     {
       "source": "data/savingio-brain-data.js",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.js",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
@@ -3804,6 +3860,13 @@
     },
     {
       "source": "data/savingio-brain-data.json",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.json",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
@@ -3972,6 +4035,13 @@
     },
     {
       "source": "data/savingio-navigation-exclusions.json",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "data/savingio-navigation-exclusions.json",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
@@ -4073,6 +4143,13 @@
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
         "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "data/savingio-search-index.json",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
       ]
     },
     {
@@ -4322,6 +4399,13 @@
     },
     {
       "source": "factory/CONTENT_TAXONOMY_REPORT.json",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "factory/CONTENT_TAXONOMY_REPORT.json",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
@@ -4481,6 +4565,13 @@
       "reference": "/articles/vat-input-tax-deduction-guide-2026.html",
       "expected": [
         "articles/vat-input-tax-deduction-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/SEO_AUDIT/seo-audit.json",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
       ]
     },
     {
@@ -6857,6 +6948,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/health-insurance-overpayment-refund.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/health-insurance-overpayment-refund.html",
+      "reference": "https://savingio.com/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/health-insurance-refund.html",
       "reference": "/articles/health-insurance-refund.html",
       "expected": [
@@ -6917,6 +7022,13 @@
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/hometax-refund-status.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
       ]
     },
     {
@@ -8264,6 +8376,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/health-insurance-overpayment-refund.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/health-insurance-overpayment-refund.html",
+      "reference": "https://savingio.com/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/health-insurance-refund.html",
       "reference": "/articles/health-insurance-refund.html",
       "expected": [
@@ -8324,6 +8450,13 @@
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/hometax-refund-status.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
       ]
     },
     {
@@ -9671,6 +9804,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/health-insurance-overpayment-refund.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/health-insurance-overpayment-refund.html",
+      "reference": "https://savingio.com/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/health-insurance-refund.html",
       "reference": "/articles/health-insurance-refund.html",
       "expected": [
@@ -9731,6 +9878,13 @@
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/hometax-refund-status.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
       ]
     },
     {
@@ -11078,6 +11232,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/health-insurance-overpayment-refund.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/health-insurance-overpayment-refund.html",
+      "reference": "https://savingio.com/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/health-insurance-refund.html",
       "reference": "/articles/health-insurance-refund.html",
       "expected": [
@@ -11138,6 +11306,13 @@
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/hometax-refund-status.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
       ]
     },
     {
@@ -12485,6 +12660,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/health-insurance-overpayment-refund.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/health-insurance-overpayment-refund.html",
+      "reference": "https://savingio.com/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/health-insurance-refund.html",
       "reference": "/articles/health-insurance-refund.html",
       "expected": [
@@ -12545,6 +12734,13 @@
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/hometax-refund-status.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
       ]
     },
     {
@@ -13342,6 +13538,13 @@
     },
     {
       "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
@@ -13550,6 +13753,13 @@
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
         "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
       ]
     },
     {
@@ -13834,6 +14044,13 @@
     },
     {
       "source": "factory/history/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8.json",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "factory/history/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8.json",
       "reference": "/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
       "expected": [
         "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
@@ -13949,6 +14166,13 @@
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/history/장기수선충당금-반환받는-방법-8ea93de8.json",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
       ]
     },
     {
@@ -14356,6 +14580,13 @@
     },
     {
       "source": "factory/output/article_catalog.json",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
       "reference": "/articles/health-insurance-refund.html",
       "expected": [
         "articles/health-insurance-refund.html"
@@ -14632,6 +14863,13 @@
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
         "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
       ]
     },
     {
@@ -15454,6 +15692,20 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/health-insurance-overpayment-refund.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/health-insurance-overpayment-refund.html",
+      "reference": "https://savingio.com/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/health-insurance-refund.html",
       "reference": "/articles/health-insurance-refund.html",
       "expected": [
@@ -15514,6 +15766,13 @@
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/hometax-refund-status.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
       ]
     },
     {
@@ -17426,6 +17685,13 @@
     },
     {
       "source": "factory/output/drafts/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8-factory.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8-factory.html",
       "reference": "/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
       "expected": [
         "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
@@ -17443,6 +17709,13 @@
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
       ]
     },
     {
@@ -18350,6 +18623,13 @@
     },
     {
       "source": "factory/output/drafts/장기수선충당금-반환받는-방법-8ea93de8-factory.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/장기수선충당금-반환받는-방법-8ea93de8-factory.html",
       "reference": "/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
       "expected": [
         "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
@@ -18367,6 +18647,13 @@
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/drafts/장기수선충당금-반환받는-방법-8ea93de8.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
       ]
     },
     {
@@ -18781,6 +19068,13 @@
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
         "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
       ]
     },
     {
@@ -19245,6 +19539,13 @@
     },
     {
       "source": "factory/output/staging/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8/article.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/#Uc7a5#Uae30#Uc218#Uc120#Ucda9#Ub2f9#Uae08-#Ubc18#Ud658#Ubc1b#Ub294-#Ubc29#Ubc95-8ea93de8/article.html",
       "reference": "/articles/장기수선충당금-반환받는-방법-8ea93de8.html",
       "expected": [
         "articles/장기수선충당금-반환받는-방법-8ea93de8.html"
@@ -19465,6 +19766,13 @@
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/staging/장기수선충당금-반환받는-방법-8ea93de8/article.html",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
       ]
     },
     {
@@ -20088,6 +20396,13 @@
     },
     {
       "source": "js/savingio-brain-data.js",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "js/savingio-brain-data.js",
       "reference": "/articles/loan-interest-saving.html",
       "expected": [
         "articles/loan-interest-saving.html"
@@ -20367,6 +20682,13 @@
     },
     {
       "source": "sitemap.xml",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "sitemap.xml",
       "reference": "/articles/small-business-policy-fund-search.html",
       "expected": [
         "articles/small-business-policy-fund-search.html"
@@ -20429,6 +20751,7 @@
   "malformed_redirects": [],
   "broken_redirect_targets": [],
   "missing_sitemap_targets": [
+    "/articles/health-insurance-overpayment-refund.html",
     "/articles/small-business-policy-fund-search.html"
   ],
   "publisher_id_drift": []
