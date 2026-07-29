@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
 - Articles: 171
-- PASS: 142
-- WARNING: 29
+- PASS: 143
+- WARNING: 28
 - FAIL: 0
-- Average score: 90.9
-- Thin content (<2500 Korean chars): 7
-- Short content (<4500 Korean chars): 116
+- Average score: 91.0
+- Thin content (<2500 Korean chars): 6
+- Short content (<4500 Korean chars): 115
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -21,7 +21,6 @@
 | Score | Status | Article | Main findings |
 |---:|---|---|---|
 | 80 | WARNING | `articles/cash-advance-vs-card-loan.html` | THIN_CONTENT_KO:2434, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
-| 80 | WARNING | `articles/elementary-school-education-support.html` | THIN_CONTENT_KO:2209, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/emergency-fund-guide.html` | THIN_CONTENT_KO:2106, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/refrigerator-summer-electricity-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:27, CONTENT_SHORT_KO:3593 |
 | 80 | WARNING | `articles/revolving-cancellation-payoff.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3234 |
@@ -100,3 +99,4 @@
 | 92 | PASS | `articles/electricity-bill-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3243 |
 | 92 | PASS | `articles/electricity-discount-card-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4199 |
 | 92 | PASS | `articles/electronic-tax-invoice-penalty.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3997 |
+| 92 | PASS | `articles/elementary-school-education-support.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |

@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 171,
-    "pass": 142,
-    "warning": 29,
+    "pass": 143,
+    "warning": 28,
     "fail": 0,
-    "average_score": 90.9,
-    "thin_under_2500_ko": 7,
-    "short_under_4500_ko": 116,
+    "average_score": 91.0,
+    "thin_under_2500_ko": 6,
+    "short_under_4500_ko": 115,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -1670,31 +1670,29 @@
       "path": "articles/elementary-school-education-support.html",
       "url": "https://savingio.com/articles/elementary-school-education-support.html",
       "title": "초등학생 교육비 지원 총정리, 교육급여·방과후·돌봄 신청법 | Savingio",
-      "meta_description": "2026년 초등학생 가정이 확인할 교육급여, 초중고 학생교육비, 방과후학교 자유수강권, 교육정보화, 늘봄·돌봄과 지역별 지원 신청 순서를 정리했습니다.",
+      "meta_description": "2026년 초등학생 교육급여 50만 2천 원, 초중고 학생교육비, 방과후학교 자유수강권, 교육정보화, 늘봄·돌봄, 신청서류와 탈락 후 대응까지 한 글에서 확인하세요.",
       "canonical": "https://savingio.com/articles/elementary-school-education-support.html",
       "h1": [
         "초등학생 교육비 지원 총정리, 교육급여·방과후·돌봄 신청법"
       ],
-      "h2_count": 17,
-      "h3_count": 4,
-      "korean_chars": 2209,
-      "words": 729,
-      "internal_article_links": 13,
+      "h2_count": 20,
+      "h3_count": 14,
+      "korean_chars": 6734,
+      "words": 2169,
+      "internal_article_links": 21,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
       "faq_schema": false,
-      "issues": [
-        "THIN_CONTENT_KO:2209"
-      ],
+      "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
         "FAQ_SCHEMA_MISSING"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/emergency-fund-guide.html",
