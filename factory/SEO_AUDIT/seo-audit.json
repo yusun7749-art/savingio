@@ -4523,28 +4523,29 @@
     {
       "path": "articles/vat-zero-sales-filing-2026.html",
       "url": "https://savingio.com/articles/vat-zero-sales-filing-2026.html",
-      "title": "매출이 없어도 부가가치세 신고해야 할까? 무실적 신고 방법 | 세이빙이오(Savingio)",
-      "meta_description": "사업자등록은 유지 중이지만 매출과 매입이 없는 기간에 부가가치세 무실적 신고가 필요한 이유와 확인 순서를 정리했습니다.",
+      "title": "매출이 없어도 부가가치세 신고해야 할까? 무실적 신고 방법 | Savingio",
+      "meta_description": "사업자등록은 유지 중이지만 매출이 없는 기간에 부가가치세 무실적 신고가 필요한지, 매입·취소·플랫폼 자료를 확인하고 홈택스에서 제출하는 순서를 정리합니다.",
       "canonical": "https://savingio.com/articles/vat-zero-sales-filing-2026.html",
       "h1": [
         "매출이 없어도 부가가치세 신고해야 할까? 무실적 신고 방법"
       ],
-      "h2_count": 15,
-      "h3_count": 4,
-      "korean_chars": 3624,
-      "words": 1286,
-      "internal_article_links": 39,
+      "h2_count": 17,
+      "h3_count": 8,
+      "korean_chars": 3487,
+      "words": 1110,
+      "internal_article_links": 11,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:3624"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3487"
       ],
-      "score": 96,
+      "score": 92,
       "status": "PASS"
     },
     {
