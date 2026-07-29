@@ -4,7 +4,7 @@
 - PASS: 142
 - WARNING: 29
 - FAIL: 0
-- Average score: 90.7
+- Average score: 90.6
 - Thin content (<2500 Korean chars): 7
 - Short content (<4500 Korean chars): 119
 - Missing meta: 0
@@ -53,6 +53,8 @@
 | 88 | PASS | `articles/beginner-money-management.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3665 |
 | 88 | PASS | `articles/budget-app-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4235 |
 | 88 | PASS | `articles/building-land-property-tax.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3220 |
+| 88 | PASS | `articles/business-card-hometax-registration.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3659 |
+| 88 | PASS | `articles/business-closure-vat-order.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3294 |
 | 88 | PASS | `articles/car-insurance-saving.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3273 |
 | 88 | PASS | `articles/education-expense-vs-benefit.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3512 |
 | 88 | PASS | `articles/electricity-bill-easy-calculator-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3282 |
@@ -80,8 +82,6 @@
 | 92 | PASS | `articles/basic-livelihood-discounts.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3233 |
 | 92 | PASS | `articles/basic-pension-application-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/benefit-scam-warning-2026.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
-| 92 | PASS | `articles/business-card-hometax-registration.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3440 |
-| 92 | PASS | `articles/business-closure-vat-order.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4015 |
 | 92 | PASS | `articles/business-phone-expense-deduction.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3828 |
 | 92 | PASS | `articles/business-vehicle-expense-basics.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4199 |
 | 92 | PASS | `articles/cancel-unused-subscriptions.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
