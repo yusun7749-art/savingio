@@ -1,10 +1,10 @@
 {
   "summary": {
     "article_count": 171,
-    "pass": 145,
-    "warning": 26,
+    "pass": 146,
+    "warning": 25,
     "fail": 0,
-    "average_score": 90.8,
+    "average_score": 90.9,
     "thin_under_2500_ko": 7,
     "short_under_4500_ko": 115,
     "missing_meta": 0,
@@ -4004,32 +4004,30 @@
     {
       "path": "articles/spending-habits-change.html",
       "url": "https://savingio.com/articles/spending-habits-change.html",
-      "title": "소비 습관 바꾸는 방법 | 세이빙이오(Savingio)",
-      "meta_description": "지출 기록과 구매 기준을 활용해 소비 습관을 현실적으로 바꾸는 방법입니다.",
+      "title": "소비 습관 바꾸는 방법, 지출을 참기보다 구조를 바꾸세요 | Savingio",
+      "meta_description": "소비 습관을 현실적으로 바꾸기 위해 지출 기록, 구매 기준, 주간 생활비, 결제 환경, 감정 소비, 가족 규칙과 30일 실행 순서를 정리합니다.",
       "canonical": "https://savingio.com/articles/spending-habits-change.html",
       "h1": [
-        "소비 습관 바꾸는 방법"
+        "소비 습관 바꾸는 방법, 지출을 참기보다 구조를 바꾸세요"
       ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3160,
-      "words": 1122,
-      "internal_article_links": 17,
+      "h2_count": 20,
+      "h3_count": 0,
+      "korean_chars": 3886,
+      "words": 1391,
+      "internal_article_links": 13,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:41",
-        "CONTENT_SHORT_KO:3160"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3886"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/student-loan-repayment-guide.html",

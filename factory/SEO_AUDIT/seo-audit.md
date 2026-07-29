@@ -1,10 +1,10 @@
 # Savingio Full SEO Audit
 
 - Articles: 171
-- PASS: 145
-- WARNING: 26
+- PASS: 146
+- WARNING: 25
 - FAIL: 0
-- Average score: 90.8
+- Average score: 90.9
 - Thin content (<2500 Korean chars): 7
 - Short content (<4500 Korean chars): 115
 - Missing meta: 0
@@ -27,7 +27,6 @@
 | 80 | WARNING | `articles/revolving-cancellation-payoff.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3234 |
 | 80 | WARNING | `articles/savings-maturity-auto-renewal.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3274 |
 | 80 | WARNING | `articles/single-parent-support-benefits.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3597 |
-| 80 | WARNING | `articles/spending-habits-change.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:41, CONTENT_SHORT_KO:3160 |
 | 80 | WARNING | `articles/summer-gas-bill-hot-water-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3351 |
 | 80 | WARNING | `articles/summer-vacation-budget-plan.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3352 |
 | 80 | WARNING | `articles/summer-water-bill-spike-check.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:32, CONTENT_SHORT_KO:3329 |
@@ -100,3 +99,4 @@
 | 92 | PASS | `articles/earned-income-credit-status-check.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3592 |
 | 92 | PASS | `articles/education-benefit-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3939 |
 | 92 | PASS | `articles/electricity-bill-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3243 |
+| 92 | PASS | `articles/electricity-discount-card-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4199 |
