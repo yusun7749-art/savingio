@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3296,
-  "references_scanned": 61770,
+  "references_scanned": 61788,
   "counts": {
-    "broken_references": 3127,
+    "broken_references": 3131,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 7,
@@ -1914,16 +1914,51 @@
     },
     {
       "source": "articles/elementary-school-education-support.html",
+      "reference": "/articles/child-care-service-guide.html",
+      "expected": [
+        "articles/child-care-service-guide.html"
+      ]
+    },
+    {
+      "source": "articles/elementary-school-education-support.html",
       "reference": "/articles/childcare-support-guide.html",
       "expected": [
         "articles/childcare-support-guide.html"
       ]
     },
     {
-      "source": "articles/emergency-fund-guide.html",
-      "reference": "/articles/bank-fees-to-avoid.html",
+      "source": "articles/elementary-school-education-support.html",
+      "reference": "/articles/elementary-after-school-care.html",
       "expected": [
-        "articles/bank-fees-to-avoid.html"
+        "articles/elementary-after-school-care.html"
+      ]
+    },
+    {
+      "source": "articles/emergency-fund-guide.html",
+      "reference": "/articles/credit-card-revolving-guide.html",
+      "expected": [
+        "articles/credit-card-revolving-guide.html"
+      ]
+    },
+    {
+      "source": "articles/emergency-fund-guide.html",
+      "reference": "/articles/debt-adjustment-guide.html",
+      "expected": [
+        "articles/debt-adjustment-guide.html"
+      ]
+    },
+    {
+      "source": "articles/emergency-fund-guide.html",
+      "reference": "/articles/household-budget-guide.html",
+      "expected": [
+        "articles/household-budget-guide.html"
+      ]
+    },
+    {
+      "source": "articles/emergency-fund-guide.html",
+      "reference": "/articles/loan-interest-reduction-guide.html",
+      "expected": [
+        "articles/loan-interest-reduction-guide.html"
       ]
     },
     {
@@ -2141,13 +2176,6 @@
       "reference": "/articles/rent-tax-credit-guide.html",
       "expected": [
         "articles/rent-tax-credit-guide.html"
-      ]
-    },
-    {
-      "source": "articles/impulse-buying-control.html",
-      "reference": "/articles/grocery-bill-savings.html",
-      "expected": [
-        "articles/grocery-bill-savings.html"
       ]
     },
     {
