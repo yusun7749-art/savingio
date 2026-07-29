@@ -301,7 +301,7 @@
 
 ## G021 · 카드·포인트·캐시백 · 5개
 
-- `articles/card-points-cashback-guide.html` — 카드 포인트와 캐시백 활용법, 혜택보다 먼저 확인할 것 (3,322자)
+- `articles/card-points-cashback-guide.html` — 카드 포인트와 캐시백 활용법, 혜택보다 먼저 확인할 것 (5,450자)
 - `articles/cash-out-card-points.html` — 카드 포인트 현금화 방법, 흩어진 포인트를 계좌로 받는 순서 (5,555자)
 - `articles/cashback-apps-guide.html` — 캐시백 앱 활용 가이드, 적립 금액보다 먼저 확인할 것 (7,263자)
 - `articles/credit-card-billing-cycle-guide.html` — 신용카드 결제일별 이용기간 확인법 (6,874자)
