@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3296,
-  "references_scanned": 61780,
+  "references_scanned": 61617,
   "counts": {
-    "broken_references": 3136,
+    "broken_references": 3121,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 7,
@@ -1451,59 +1451,10 @@
       ]
     },
     {
-      "source": "articles/beginner-money-management.html",
-      "reference": "/articles/bank-fees-to-avoid.html",
+      "source": "articles/budget-app-guide.html",
+      "reference": "/calculators/monthly-budget.html",
       "expected": [
-        "articles/bank-fees-to-avoid.html"
-      ]
-    },
-    {
-      "source": "articles/building-land-property-tax.html",
-      "reference": "/articles/property-tax-payment-guide.html",
-      "expected": [
-        "articles/property-tax-payment-guide.html"
-      ]
-    },
-    {
-      "source": "articles/business-card-hometax-registration.html",
-      "reference": "/calculators/income-tax.html",
-      "expected": [
-        "calculators/income-tax.html"
-      ]
-    },
-    {
-      "source": "articles/business-card-hometax-registration.html",
-      "reference": "/categories/side-income.html",
-      "expected": [
-        "categories/side-income.html"
-      ]
-    },
-    {
-      "source": "articles/business-closure-vat-order.html",
-      "reference": "/articles/bank-fees-to-avoid.html",
-      "expected": [
-        "articles/bank-fees-to-avoid.html"
-      ]
-    },
-    {
-      "source": "articles/business-closure-vat-order.html",
-      "reference": "/categories/side-income.html",
-      "expected": [
-        "categories/side-income.html"
-      ]
-    },
-    {
-      "source": "articles/business-phone-expense-deduction.html",
-      "reference": "/articles/bank-fees-to-avoid.html",
-      "expected": [
-        "articles/bank-fees-to-avoid.html"
-      ]
-    },
-    {
-      "source": "articles/business-phone-expense-deduction.html",
-      "reference": "/articles/business-expense-proof-guide.html",
-      "expected": [
-        "articles/business-expense-proof-guide.html"
+        "calculators/monthly-budget.html"
       ]
     },
     {
@@ -2081,20 +2032,6 @@
       ]
     },
     {
-      "source": "articles/general-vat-common-mistakes.html",
-      "reference": "/articles/business-expense-proof-guide.html",
-      "expected": [
-        "articles/business-expense-proof-guide.html"
-      ]
-    },
-    {
-      "source": "articles/general-vat-common-mistakes.html",
-      "reference": "/articles/vat-return-guide.html",
-      "expected": [
-        "articles/vat-return-guide.html"
-      ]
-    },
-    {
       "source": "articles/government-benefit-alert-2026.html",
       "reference": "/articles/subsidy24-benefit-search.html",
       "expected": [
@@ -2141,6 +2078,13 @@
       "reference": "/articles/tax-refund-scam-warning.html",
       "expected": [
         "articles/tax-refund-scam-warning.html"
+      ]
+    },
+    {
+      "source": "articles/hometax-vat-sales-check.html",
+      "reference": "/calculators/vat-calculator.html",
+      "expected": [
+        "calculators/vat-calculator.html"
       ]
     },
     {
@@ -2711,27 +2655,6 @@
       ]
     },
     {
-      "source": "articles/simple-receipt-expense-rules.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "articles/simplified-vat-checklist.html",
-      "reference": "/articles/vat-final-return-july-2026.html",
-      "expected": [
-        "articles/vat-final-return-july-2026.html"
-      ]
-    },
-    {
-      "source": "articles/simplified-vat-checklist.html",
-      "reference": "/articles/vat-zero-sales-filing.html",
-      "expected": [
-        "articles/vat-zero-sales-filing.html"
-      ]
-    },
-    {
       "source": "articles/single-parent-support-benefits.html",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
@@ -2886,20 +2809,6 @@
       ]
     },
     {
-      "source": "articles/tax-invoice-vs-cash-receipt.html",
-      "reference": "/articles/vat-final-return-july-2026.html",
-      "expected": [
-        "articles/vat-final-return-july-2026.html"
-      ]
-    },
-    {
-      "source": "articles/tax-invoice-vs-cash-receipt.html",
-      "reference": "/articles/vat-zero-sales-filing.html",
-      "expected": [
-        "articles/vat-zero-sales-filing.html"
-      ]
-    },
-    {
       "source": "articles/telecom-discount-guide.html",
       "reference": "/articles/how-to-lower-phone-bill.html",
       "expected": [
@@ -3002,20 +2911,6 @@
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
-      ]
-    },
-    {
-      "source": "articles/vat-final-return-2026-july.html",
-      "reference": "/articles/vat-final-return-july-2026.html",
-      "expected": [
-        "articles/vat-final-return-july-2026.html"
-      ]
-    },
-    {
-      "source": "articles/vat-final-return-2026-july.html",
-      "reference": "/articles/vat-zero-sales-filing.html",
-      "expected": [
-        "articles/vat-zero-sales-filing.html"
       ]
     },
     {
