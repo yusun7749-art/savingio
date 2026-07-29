@@ -6,7 +6,7 @@
     "fail": 0,
     "average_score": 90.6,
     "thin_under_2500_ko": 7,
-    "short_under_4500_ko": 117,
+    "short_under_4500_ko": 116,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -3810,26 +3810,26 @@
     {
       "path": "articles/simple-receipt-expense-rules.html",
       "url": "https://savingio.com/articles/simple-receipt-expense-rules.html",
-      "title": "사업자 비용처리 가능한 항목 총정리 | 세이빙이오(Savingio)",
-      "meta_description": "사업자가 비용처리할 때 확인해야 할 사업 관련성, 적격증빙, 계정과목, 개인 사용분 구분 원칙을 실제 사례와 함께 정리했습니다.",
+      "title": "사업자 비용처리 가능한 항목 총정리 | Savingio",
+      "meta_description": "개인사업자와 법인이 비용처리할 때 확인해야 할 사업 관련성, 적격증빙, 3만원 기준, 개인 사용분 구분, 차량비·식대·통신비·임차료·광고비 처리 원칙을 실제 사례로 정리합니다.",
       "canonical": "https://savingio.com/articles/simple-receipt-expense-rules.html",
       "h1": [
         "사업자 비용처리 가능한 항목 총정리"
       ],
-      "h2_count": 16,
-      "h3_count": 9,
-      "korean_chars": 4115,
-      "words": 1390,
-      "internal_article_links": 16,
+      "h2_count": 21,
+      "h3_count": 21,
+      "korean_chars": 6459,
+      "words": 2178,
+      "internal_article_links": 11,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:4115"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
       "score": 96,
       "status": "PASS"
