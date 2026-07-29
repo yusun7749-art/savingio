@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3295,
-  "references_scanned": 61927,
+  "files_scanned": 3296,
+  "references_scanned": 61944,
   "counts": {
-    "broken_references": 2910,
+    "broken_references": 2911,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 2,
@@ -1511,6 +1511,13 @@
       "reference": "/articles/business-expense-proof-guide.html",
       "expected": [
         "articles/business-expense-proof-guide.html"
+      ]
+    },
+    {
+      "source": "articles/business-vehicle-expense-basics.html",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
       ]
     },
     {
