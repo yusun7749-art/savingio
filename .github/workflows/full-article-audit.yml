@@ -8,6 +8,8 @@ on:
       - 'factory/second_link_audit.py'
       - 'factory/unique_404_pattern_audit.py'
       - 'factory/remove_live_404_links.py'
+      - 'factory/duplicate_content_review.py'
+      - 'factory/content_quality_4200_audit.py'
       - '.github/workflows/full-article-audit.yml'
   workflow_dispatch:
 
@@ -41,6 +43,10 @@ jobs:
         run: python factory/second_link_audit.py
       - name: Re-run unique 404 pattern audit after cleanup
         run: python factory/unique_404_pattern_audit.py
+      - name: Run duplicate content precision review
+        run: python factory/duplicate_content_review.py
+      - name: Run 4200 character content audit
+        run: python factory/content_quality_4200_audit.py
 
       - name: Verify no live 404 references remain
         run: |
@@ -57,13 +63,13 @@ jobs:
 
       - name: Commit cleaned articles and audit reports
         run: |
-          if [ -z "$(git status --porcelain articles factory/FULL_ARTICLE_AUDIT factory/SECOND_LINK_AUDIT factory/UNIQUE_404_PATTERN_AUDIT factory/REMOVE_404_LINKS)" ]; then
+          if [ -z "$(git status --porcelain articles factory/FULL_ARTICLE_AUDIT factory/SECOND_LINK_AUDIT factory/UNIQUE_404_PATTERN_AUDIT factory/REMOVE_404_LINKS factory/DUPLICATE_CONTENT_REVIEW factory/CONTENT_4200_AUDIT)" ]; then
             echo 'No cleanup or report changes.'
             exit 0
           fi
           git config user.name 'savingio-audit-bot'
           git config user.email 'actions@users.noreply.github.com'
           git add articles
-          git add -f factory/FULL_ARTICLE_AUDIT factory/SECOND_LINK_AUDIT factory/UNIQUE_404_PATTERN_AUDIT factory/REMOVE_404_LINKS
-          git commit -m 'Fix: remove verified 404 links and refresh audits [skip ci]'
+          git add -f factory/FULL_ARTICLE_AUDIT factory/SECOND_LINK_AUDIT factory/UNIQUE_404_PATTERN_AUDIT factory/REMOVE_404_LINKS factory/DUPLICATE_CONTENT_REVIEW factory/CONTENT_4200_AUDIT
+          git commit -m 'Audit: classify duplicate content and apply 4200 review threshold [skip ci]'
           git push
