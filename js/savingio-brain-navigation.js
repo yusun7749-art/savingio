@@ -1,9 +1,44 @@
 (async()=>{
 'use strict';
-const VERSION='20260729-search-restore1';
+const VERSION='20260730-article-layout-lock1';
 const loadScript=(src,key)=>new Promise(resolve=>{if(window[key])return resolve();const s=document.createElement('script');s.src=src;s.defer=true;s.onload=resolve;s.onerror=resolve;document.head.appendChild(s);});
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const addCss=(href,id)=>{if(document.getElementById(id))return;const l=document.createElement('link');l.id=id;l.rel='stylesheet';l.href=href;document.head.appendChild(l);};
+const RESTORE_PATHS=new Set([
+'/articles/long-term-repair-reserve-refund-guide.html',
+'/articles/home-water-leak-self-check.html',
+'/articles/basic-pension-application-guide.html',
+'/articles/national-pension-old-age-benefit-guide.html',
+'/articles/elementary-school-education-support.html',
+'/articles/emergency-fund-guide.html',
+'/articles/impulse-buying-control.html',
+'/articles/money-saving-habits.html'
+]);
+function restoreLockedArticleLayout(){
+ if(!RESTORE_PATHS.has(location.pathname))return;
+ document.body.classList.remove('pension-three-column','education-three-column','emergency-three-column','impulse-three-column','money-habits-three-column');
+ document.body.classList.add('savingio-article-dna');
+ document.querySelectorAll('aside.left-explorer').forEach(n=>n.remove());
+ const shell=document.querySelector('.page-shell,.pension-shell,.education-shell,.emergency-shell,.impulse-shell,.money-shell');
+ if(shell){
+  shell.dataset.savingioLayoutRestored='true';
+  shell.style.setProperty('width','auto','important');
+  shell.style.setProperty('max-width','1180px','important');
+  shell.style.setProperty('margin','0 auto','important');
+  shell.style.setProperty('padding','0 24px 80px','important');
+  shell.style.setProperty('display','grid','important');
+  shell.style.setProperty('grid-template-columns','minmax(0,760px) 270px','important');
+  shell.style.setProperty('gap','54px','important');
+  shell.style.setProperty('align-items','start','important');
+ }
+ const article=document.querySelector('.article-column');
+ if(article){article.style.setProperty('grid-column','1','important');article.style.setProperty('width','auto','important');article.style.setProperty('min-width','0','important');}
+ const rail=document.querySelector('.right-rail');
+ if(rail){rail.style.setProperty('grid-column','2','important');rail.style.setProperty('width','270px','important');rail.style.setProperty('display','block','important');rail.style.setProperty('position','sticky','important');rail.style.setProperty('top','24px','important');rail.style.setProperty('padding-top','118px','important');}
+ if(!document.getElementById('savingioArticleLayoutRestore')){
+  const style=document.createElement('style');style.id='savingioArticleLayoutRestore';style.textContent='@media(max-width:980px){[data-savingio-layout-restored="true"]{display:block!important;max-width:820px!important;padding:0 24px 80px!important}[data-savingio-layout-restored="true"] .right-rail{position:static!important;width:auto!important;padding-top:20px!important;display:grid!important;grid-template-columns:1fr 1fr!important;gap:0 28px!important}}@media(max-width:700px){[data-savingio-layout-restored="true"]{padding:0 18px 60px!important}[data-savingio-layout-restored="true"] .right-rail{grid-template-columns:1fr!important}}';document.head.appendChild(style);
+ }
+}
 function installHeader(){let h=document.querySelector('.savingio-dna-header,.site-header');if(!h){h=document.createElement('header');document.body.prepend(h);}h.className='savingio-dna-header';h.innerHTML='<div class="savingio-dna-header-inner"><a class="savingio-dna-logo" href="/">Savingio</a><nav class="savingio-dna-nav" aria-label="Savingio 주요 메뉴"><a href="/">홈</a><a href="/calculators/">계산기</a><a href="/lab/" class="lab-link">Savingio Lab</a><a href="/categories/">사이트 탐색</a><a href="/about.html">About</a></nav></div>';}
 function card(record){const a=document.createElement('a');a.className='article-card';a.href=record.href;a.innerHTML=`<span class="card-category">${esc(record.category||'생활정보')}</span><h2>${esc(record.title)}</h2><p>${esc(record.description||'관련 내용을 확인합니다.')}</p><b>읽기 →</b>`;return a;}
 function initDirectory(registry){const grid=document.getElementById('articleGrid'),input=document.getElementById('articleSearch'),count=document.getElementById('resultCount'),pager=document.querySelector('.pager');if(!grid||!input||!count)return;const pipeline=window.SavingioSearchCore.createPipeline(registry.records);let query=new URLSearchParams(location.search).get('q')||'',page=1,timer=0,lastQuery=null,lastResults=[];const pageSize=12;
@@ -14,5 +49,5 @@ function initExplorer(registry){document.querySelectorAll('#savingio-brain-nav,.
 const categoriesView=()=>{tree.innerHTML=categories.map(c=>`<details class="sbn-large" data-category="${esc(c)}"><summary><span class="sbn-large-title">${esc(c)}</span><span class="sbn-count">${map.get(c).length}</span></summary><ul class="sbn-items"></ul></details>`).join('');tree.querySelectorAll('details').forEach(d=>d.addEventListener('toggle',()=>{if(!d.open||d.dataset.loaded)return;const f=document.createDocumentFragment();(map.get(d.dataset.category)||[]).forEach(r=>{const li=document.createElement('li'),a=document.createElement('a');a.href=r.href;a.textContent=r.title;li.appendChild(a);f.appendChild(li);});d.querySelector('ul').appendChild(f);d.dataset.loaded='1';},{passive:true}));status.textContent='카테고리를 선택하거나 검색해 글을 찾으세요';};
 const search=q=>{const rows=pipeline.search(q,'전체');status.textContent=`검색 결과 ${rows.length}개`;tree.innerHTML=rows.slice(0,20).map(({record:r})=>`<a class="sbn-result-card" href="${esc(r.href)}"><span class="sbn-result-path">${esc(r.category)}</span><strong>${esc(r.title)}</strong><span>${esc(r.description||'관련 내용을 확인합니다.')}</span></a>`).join('')||'<div class="sbn-empty">검색 결과가 없습니다.</div>';};let t=0;input.addEventListener('input',()=>{clearTimeout(t);t=setTimeout(()=>input.value.trim()?search(input.value.trim()):categoriesView(),250);},{passive:true});categoriesView();const btn=document.createElement('button');btn.className='sbn-mobile-btn';btn.type='button';btn.textContent='문제 찾기';document.body.appendChild(btn);const back=document.createElement('div');back.className='sbn-backdrop';document.body.appendChild(back);btn.onclick=()=>document.body.classList.add('sbn-open');const close=()=>document.body.classList.remove('sbn-open');nav.querySelector('.sbn-close').onclick=close;back.onclick=close;document.documentElement.classList.add('savingio-brain-ready');}
 addCss(`/css/savingio-tokens.css?v=${VERSION}`,'savingioTokens');addCss(`/css/savingio-master-template.css?v=${VERSION}`,'savingioMaster');addCss(`/css/savingio-components.css?v=${VERSION}`,'savingioComponents');addCss(`/css/savingio-brain-navigation.css?v=${VERSION}`,'savingioExplorer');addCss(`/css/savingio-page-engine.css?v=${VERSION}`,'savingioPageEngine');addCss(`/css/savingio-explorer-lock.css?v=${VERSION}`,'savingioExplorerLock');
-if(document.readyState==='loading')await new Promise(r=>document.addEventListener('DOMContentLoaded',r,{once:true}));installHeader();document.querySelectorAll('.search-box .category-row').forEach(n=>n.remove());await Promise.all([loadScript(`/js/savingio-search-core.js?v=${VERSION}`,'SavingioSearchCore'),loadScript(`/js/savingio-article-registry.js?v=${VERSION}`,'SavingioArticleRegistry')]);const registry=await window.SavingioArticleRegistry.load();window.SavingioSearchRegistry=registry;initDirectory(registry);initExplorer(registry);loadScript(`/js/savingio-search-lock.js?v=${VERSION}`,'SavingioSearchLock');
+if(document.readyState==='loading')await new Promise(r=>document.addEventListener('DOMContentLoaded',r,{once:true}));restoreLockedArticleLayout();installHeader();document.querySelectorAll('.search-box .category-row').forEach(n=>n.remove());await Promise.all([loadScript(`/js/savingio-search-core.js?v=${VERSION}`,'SavingioSearchCore'),loadScript(`/js/savingio-article-registry.js?v=${VERSION}`,'SavingioArticleRegistry')]);const registry=await window.SavingioArticleRegistry.load();window.SavingioSearchRegistry=registry;initDirectory(registry);initExplorer(registry);loadScript(`/js/savingio-search-lock.js?v=${VERSION}`,'SavingioSearchLock');
 })();
