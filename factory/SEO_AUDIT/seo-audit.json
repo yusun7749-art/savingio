@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 171,
-    "pass": 143,
-    "warning": 28,
+    "pass": 142,
+    "warning": 29,
     "fail": 0,
-    "average_score": 90.9,
-    "thin_under_2500_ko": 6,
-    "short_under_4500_ko": 117,
+    "average_score": 90.8,
+    "thin_under_2500_ko": 7,
+    "short_under_4500_ko": 118,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -363,27 +363,29 @@
       "path": "articles/beginner-budget-plan.html",
       "url": "https://savingio.com/articles/beginner-budget-plan.html",
       "title": "초보자를 위한 예산 계획, 월급이 어디로 사라지는지 찾는 순서 | Savingio",
-      "meta_description": "월급이 들어와도 남는 돈이 없다면 가계부부터 쓰기보다 고정비, 생활비, 비상금 순서로 예산을 나누세요. 초보자가 한 달 예산을 실제로 만드는 방법을 5초 결론부터 단계별로 정리했습니다.",
+      "meta_description": "가계부를 오래 쓰지 못해도 시작할 수 있는 초보 예산 계획입니다. 실수령액 확인, 고정비·생활비·비정기 지출 분리, 첫 비상금, 카드 사용액 관리와 첫 달 점검 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/beginner-budget-plan.html",
       "h1": [
         "초보자를 위한 예산 계획, 월급이 어디로 사라지는지 찾는 순서"
       ],
-      "h2_count": 19,
+      "h2_count": 20,
       "h3_count": 0,
-      "korean_chars": 5386,
-      "words": 1937,
-      "internal_article_links": 22,
+      "korean_chars": 4148,
+      "words": 1468,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 2,
+      "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": true,
+      "faq_schema": false,
       "issues": [],
       "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:4148"
       ],
-      "score": 96,
+      "score": 88,
       "status": "PASS"
     },
     {
@@ -2740,11 +2742,41 @@
       "h1": [
         "돈이 모이는 생활 습관"
       ],
+      "h2_count": 18,
+      "h3_count": 0,
+      "korean_chars": 2445,
+      "words": 894,
+      "internal_article_links": 10,
+      "images": 0,
+      "missing_alt": 0,
+      "jsonld_count": 1,
+      "article_schema": true,
+      "breadcrumb_schema": false,
+      "faq_schema": false,
+      "issues": [
+        "THIN_CONTENT_KO:2445"
+      ],
+      "warnings": [
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING"
+      ],
+      "score": 80,
+      "status": "WARNING"
+    },
+    {
+      "path": "articles/monthly-budget-planner.html",
+      "url": "https://savingio.com/articles/monthly-budget-planner.html",
+      "title": "월 예산표 만드는 방법, 월급날부터 다음 급여일까지 관리하세요 | Savingio",
+      "meta_description": "급여일 기준으로 고정비, 생활비, 저축, 비정기 지출과 예비비를 배치하고 카드 사용액과 불규칙 수입까지 반영하는 현실적인 월 예산표 작성법을 정리했습니다.",
+      "canonical": "https://savingio.com/articles/monthly-budget-planner.html",
+      "h1": [
+        "월 예산표 만드는 방법, 월급날부터 다음 급여일까지 관리하세요"
+      ],
       "h2_count": 19,
       "h3_count": 0,
-      "korean_chars": 3341,
-      "words": 1222,
-      "internal_article_links": 18,
+      "korean_chars": 4348,
+      "words": 1502,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 1,
@@ -2755,37 +2787,9 @@
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
         "FAQ_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3341"
+        "CONTENT_SHORT_KO:4348"
       ],
       "score": 88,
-      "status": "PASS"
-    },
-    {
-      "path": "articles/monthly-budget-planner.html",
-      "url": "https://savingio.com/articles/monthly-budget-planner.html",
-      "title": "월 예산표 만드는 방법, 월급날부터 다음 급여일까지 관리하세요 | Savingio",
-      "meta_description": "월급이 들어와도 남는 돈이 없다면 급여일 기준으로 고정비, 생활비, 저축, 예비비의 이동 순서를 먼저 정하세요. 월 예산표를 실제 생활에 맞게 만드는 방법을 단계별로 정리했습니다.",
-      "canonical": "https://savingio.com/articles/monthly-budget-planner.html",
-      "h1": [
-        "월 예산표 만드는 방법, 월급날부터 다음 급여일까지 관리하세요"
-      ],
-      "h2_count": 18,
-      "h3_count": 0,
-      "korean_chars": 3575,
-      "words": 1247,
-      "internal_article_links": 14,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": false,
-      "faq_schema": true,
-      "issues": [],
-      "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3575"
-      ],
-      "score": 92,
       "status": "PASS"
     },
     {
