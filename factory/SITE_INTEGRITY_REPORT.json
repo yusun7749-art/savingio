@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3293,
-  "references_scanned": 61754,
+  "files_scanned": 3294,
+  "references_scanned": 61756,
   "counts": {
-    "broken_references": 3129,
+    "broken_references": 3131,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 7,
@@ -5297,6 +5297,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/jeonse-deposit-protection.html",
       "expected": [
         "articles/jeonse-deposit-protection.html"
@@ -5622,6 +5629,13 @@
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/subsidy24-benefit-search.html",
+      "expected": [
+        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
