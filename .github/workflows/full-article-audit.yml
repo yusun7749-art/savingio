@@ -25,12 +25,12 @@ jobs:
         run: python factory/full_article_audit.py
       - name: Commit audit reports
         run: |
-          if git diff --quiet; then
+          if [ -z "$(git status --porcelain factory/FULL_ARTICLE_AUDIT)" ]; then
             echo 'No report changes.'
             exit 0
           fi
           git config user.name 'savingio-audit-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add factory/FULL_ARTICLE_AUDIT
+          git add -f factory/FULL_ARTICLE_AUDIT
           git commit -m 'Audit: classify all articles by completion, length, duplicates and broken links [skip ci]'
           git push
