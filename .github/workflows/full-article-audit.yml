@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'factory/full_article_audit.py'
+      - 'factory/second_link_audit.py'
       - '.github/workflows/full-article-audit.yml'
   workflow_dispatch:
 
@@ -23,14 +24,16 @@ jobs:
           python-version: '3.12'
       - name: Run full article audit
         run: python factory/full_article_audit.py
+      - name: Run second-stage link audit
+        run: python factory/second_link_audit.py
       - name: Commit audit reports
         run: |
-          if [ -z "$(git status --porcelain factory/FULL_ARTICLE_AUDIT)" ]; then
+          if [ -z "$(git status --porcelain factory/FULL_ARTICLE_AUDIT factory/SECOND_LINK_AUDIT)" ]; then
             echo 'No report changes.'
             exit 0
           fi
           git config user.name 'savingio-audit-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add -f factory/FULL_ARTICLE_AUDIT
-          git commit -m 'Audit: classify all articles by completion, length, duplicates and broken links [skip ci]'
+          git add -f factory/FULL_ARTICLE_AUDIT factory/SECOND_LINK_AUDIT
+          git commit -m 'Audit: refresh article and second-stage link reports [skip ci]'
           git push
