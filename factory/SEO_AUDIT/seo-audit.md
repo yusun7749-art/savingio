@@ -66,6 +66,7 @@
 | 88 | PASS | `articles/property-tax-payment-certificate.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3736 |
 | 88 | WARNING | `articles/severance-pay-calculation-guide.html` | THIN_CONTENT_KO:2464 |
 | 88 | WARNING | `articles/telecom-unclaimed-refund.html` | THIN_CONTENT_KO:2463 |
+| 88 | PASS | `articles/traffic-fines-difference-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4212 |
 | 88 | PASS | `articles/vat-input-tax-deduction-2026.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3231 |
 | 92 | PASS | `articles/ai-side-hustles-beginner.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/aircon-dry-mode-electricity.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3653 |
@@ -79,7 +80,7 @@
 | 92 | PASS | `articles/business-card-hometax-registration.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3440 |
 | 92 | PASS | `articles/business-closure-vat-order.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4015 |
 | 92 | PASS | `articles/business-phone-expense-deduction.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3828 |
-| 92 | PASS | `articles/business-vehicle-expense-basics.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3508 |
+| 92 | PASS | `articles/business-vehicle-expense-basics.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4199 |
 | 92 | PASS | `articles/cancel-unused-subscriptions.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/car-aircon-fuel-saving.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/car-insurance-child-discount.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3031 |
@@ -99,4 +100,3 @@
 | 92 | PASS | `articles/earned-income-credit-account-change.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3220 |
 | 92 | PASS | `articles/earned-income-credit-payment.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4376 |
 | 92 | PASS | `articles/earned-income-credit-status-check.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3592 |
-| 92 | PASS | `articles/education-benefit-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3939 |

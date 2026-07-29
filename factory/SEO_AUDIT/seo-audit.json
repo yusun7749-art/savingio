@@ -586,17 +586,17 @@
     {
       "path": "articles/business-vehicle-expense-basics.html",
       "url": "https://savingio.com/articles/business-vehicle-expense-basics.html",
-      "title": "사업용 차량 비용처리, 보험·운행기록부·증빙 확인 가이드 | Savingio",
-      "meta_description": "개인사업자와 법인의 사업용 차량 구입·리스·렌트, 유류비·보험료·수선비, 업무전용자동차보험, 운행기록부, 부가세와 증빙 관리 순서를 정리했습니다.",
+      "title": "사업용 차량 비용처리, 증빙부터 운행기록부까지 확인하는 순서 | Savingio",
+      "meta_description": "개인사업자와 법인이 사업용 차량 구입비·리스료·렌트료·유류비·보험료·수리비를 비용처리할 때 확인해야 할 차량 유형, 업무전용보험, 운행기록부, 부가세와 증빙 관리 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/business-vehicle-expense-basics.html",
       "h1": [
-        "사업용 차량 비용처리, 보험·운행기록부·증빙 확인 가이드"
+        "사업용 차량 비용처리, 증빙부터 운행기록부까지 확인하는 순서"
       ],
-      "h2_count": 19,
+      "h2_count": 17,
       "h3_count": 3,
-      "korean_chars": 3508,
-      "words": 1131,
-      "internal_article_links": 9,
+      "korean_chars": 4199,
+      "words": 1342,
+      "internal_article_links": 17,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 2,
@@ -606,7 +606,7 @@
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3508"
+        "CONTENT_SHORT_KO:4199"
       ],
       "score": 92,
       "status": "PASS"
@@ -2178,17 +2178,17 @@
     {
       "path": "articles/health-insurance-out-of-pocket-refund.html",
       "url": "https://savingio.com/articles/health-insurance-out-of-pocket-refund.html",
-      "title": "본인부담상한제 환급금, 대상·제외항목·신청·입금 확인 가이드 | Savingio",
-      "meta_description": "본인부담상한제 환급금의 대상, 건강보험 적용 본인부담금, 비급여 등 제외항목, 사전급여·사후환급 차이, 조회·신청·입금 확인 순서를 정리했습니다.",
+      "title": "본인부담상한제 환급금, 대상·제외항목·신청 순서 | Savingio",
+      "meta_description": "본인부담상한제 환급금이 생기는 기준부터 비급여 등 제외항목, 사전급여·사후환급 차이, 조회와 신청 순서를 문제 해결형으로 정리했습니다.",
       "canonical": "https://savingio.com/articles/health-insurance-out-of-pocket-refund.html",
       "h1": [
-        "본인부담상한제 환급금, 대상·제외항목·신청·입금 확인 가이드"
+        "본인부담상한제 환급금, 대상·제외항목·신청 순서"
       ],
-      "h2_count": 20,
-      "h3_count": 4,
-      "korean_chars": 3620,
+      "h2_count": 16,
+      "h3_count": 0,
+      "korean_chars": 3548,
       "words": 1175,
-      "internal_article_links": 9,
+      "internal_article_links": 12,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 2,
@@ -2198,7 +2198,7 @@
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3620"
+        "CONTENT_SHORT_KO:3548"
       ],
       "score": 92,
       "status": "PASS"
@@ -4430,29 +4430,30 @@
     {
       "path": "articles/traffic-fines-difference-guide.html",
       "url": "https://savingio.com/articles/traffic-fines-difference-guide.html",
-      "title": "교통 범칙금·과태료·벌금 차이, 조회·납부·이의신청 가이드 | Savingio",
-      "meta_description": "교통 범칙금·과태료·벌금의 차이, 운전자와 차량 소유자 책임, 벌점, 교통민원24 조회, 납부·의견진술·이의신청 순서를 정리했습니다.",
+      "title": "교통 범칙금·과태료·벌금 차이와 조회·납부 방법 총정리 | Savingio",
+      "meta_description": "교통 위반 문자나 고지서를 받았을 때 범칙금·과태료·벌금의 차이, 운전자와 차량 명의자 책임, 교통민원24 조회, 납부·의견진술·이의신청 순서를 한 글에서 확인하세요.",
       "canonical": "https://savingio.com/articles/traffic-fines-difference-guide.html",
       "h1": [
-        "교통 범칙금·과태료·벌금 차이, 조회·납부·이의신청 가이드"
+        "교통 범칙금·과태료·벌금 차이와 조회·납부 방법 총정리"
       ],
       "h2_count": 20,
       "h3_count": 3,
-      "korean_chars": 3558,
-      "words": 1129,
+      "korean_chars": 4212,
+      "words": 1342,
       "internal_article_links": 9,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 2,
+      "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": true,
+      "faq_schema": false,
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3558"
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:4212"
       ],
-      "score": 92,
+      "score": 88,
       "status": "PASS"
     },
     {
