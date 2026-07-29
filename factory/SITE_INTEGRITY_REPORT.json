@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3296,
-  "references_scanned": 61764,
+  "references_scanned": 61770,
   "counts": {
-    "broken_references": 3130,
+    "broken_references": 3127,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 7,
@@ -2099,27 +2099,6 @@
       "reference": "/articles/health-insurance-overpayment-refund.html",
       "expected": [
         "articles/health-insurance-overpayment-refund.html"
-      ]
-    },
-    {
-      "source": "articles/home-water-leak-self-check.html",
-      "reference": "/articles/water-leak-emergency-response.html",
-      "expected": [
-        "articles/water-leak-emergency-response.html"
-      ]
-    },
-    {
-      "source": "articles/home-water-leak-self-check.html",
-      "reference": "/articles/water-leak-liability-insurance.html",
-      "expected": [
-        "articles/water-leak-liability-insurance.html"
-      ]
-    },
-    {
-      "source": "articles/home-water-leak-self-check.html",
-      "reference": "/categories/housing-maintenance.html",
-      "expected": [
-        "categories/housing-maintenance.html"
       ]
     },
     {
