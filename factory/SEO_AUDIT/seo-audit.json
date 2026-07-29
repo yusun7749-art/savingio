@@ -1,11 +1,11 @@
 {
   "summary": {
     "article_count": 171,
-    "pass": 143,
-    "warning": 28,
+    "pass": 144,
+    "warning": 27,
     "fail": 0,
     "average_score": 91.0,
-    "thin_under_2500_ko": 6,
+    "thin_under_2500_ko": 5,
     "short_under_4500_ko": 115,
     "missing_meta": 0,
     "missing_canonical": 0,
@@ -1698,31 +1698,30 @@
       "path": "articles/emergency-fund-guide.html",
       "url": "https://savingio.com/articles/emergency-fund-guide.html",
       "title": "비상금 얼마가 적당할까? 생활비 1개월부터 만드는 현실적인 순서 | Savingio",
-      "meta_description": "월급이 빠듯한 가정도 시작할 수 있는 비상금 목표액 계산법, 생활비 1개월·3개월·6개월 단계, 통장 분리, 고금리 빚과 병행하는 순서를 정리했습니다.",
+      "meta_description": "비상금 목표액 계산법, 생활비 1개월·3개월·6개월 단계, 고금리 부채와 병행하는 순서, 보관 계좌, 사용 기준과 다시 채우는 방법까지 정리했습니다.",
       "canonical": "https://savingio.com/articles/emergency-fund-guide.html",
       "h1": [
         "비상금 얼마가 적당할까? 생활비 1개월부터 만드는 현실적인 순서"
       ],
-      "h2_count": 16,
-      "h3_count": 0,
-      "korean_chars": 2106,
-      "words": 740,
-      "internal_article_links": 14,
+      "h2_count": 20,
+      "h3_count": 5,
+      "korean_chars": 4275,
+      "words": 1464,
+      "internal_article_links": 21,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
       "faq_schema": false,
-      "issues": [
-        "THIN_CONTENT_KO:2106"
-      ],
+      "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "FAQ_SCHEMA_MISSING"
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:4275"
       ],
-      "score": 80,
-      "status": "WARNING"
+      "score": 88,
+      "status": "PASS"
     },
     {
       "path": "articles/emergency-medical-support.html",
