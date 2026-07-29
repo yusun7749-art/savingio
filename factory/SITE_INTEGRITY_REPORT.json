@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3296,
-  "references_scanned": 61492,
+  "references_scanned": 61474,
   "counts": {
-    "broken_references": 3121,
+    "broken_references": 3122,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 7,
@@ -1361,20 +1361,6 @@
     },
     {
       "source": "articles/aircon-filter-cleaning-savings.html",
-      "reference": "/articles/fuel-saving-driving-habits.html",
-      "expected": [
-        "articles/fuel-saving-driving-habits.html"
-      ]
-    },
-    {
-      "source": "articles/aircon-optimal-temperature-savings.html",
-      "reference": "/articles/car-insurance-low-mileage-discount.html",
-      "expected": [
-        "articles/car-insurance-low-mileage-discount.html"
-      ]
-    },
-    {
-      "source": "articles/aircon-optimal-temperature-savings.html",
       "reference": "/articles/fuel-saving-driving-habits.html",
       "expected": [
         "articles/fuel-saving-driving-habits.html"
@@ -2803,9 +2789,9 @@
     },
     {
       "source": "articles/summer-vacation-budget-plan.html",
-      "reference": "/articles/salary-budget-guide.html",
+      "reference": "/categories/household-budget.html",
       "expected": [
-        "articles/salary-budget-guide.html"
+        "categories/household-budget.html"
       ]
     },
     {
@@ -4660,6 +4646,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/aircon-filter-cleaning-saving.html",
+      "expected": [
+        "articles/aircon-filter-cleaning-saving.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/bank-deposit-protection-limit.html",
       "expected": [
         "articles/bank-deposit-protection-limit.html"
@@ -4880,6 +4873,13 @@
       "reference": "/articles/debt-repayment-priority.html",
       "expected": [
         "articles/debt-repayment-priority.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/dehumidifier-electricity-cost.html",
+      "expected": [
+        "articles/dehumidifier-electricity-cost.html"
       ]
     },
     {
@@ -5986,6 +5986,13 @@
       "reference": "/calculators/percent.html",
       "expected": [
         "calculators/percent.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/calculators/savings-goal.html",
+      "expected": [
+        "calculators/savings-goal.html"
       ]
     },
     {
