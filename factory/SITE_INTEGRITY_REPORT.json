@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3296,
-  "references_scanned": 61988,
+  "references_scanned": 61993,
   "counts": {
-    "broken_references": 2867,
+    "broken_references": 2868,
     "malformed_redirects": 0,
     "broken_redirect_targets": 0,
     "missing_sitemap_targets": 1,
@@ -2176,6 +2176,13 @@
       "reference": "/articles/freelancer-income-tax-refund.html",
       "expected": [
         "articles/freelancer-income-tax-refund.html"
+      ]
+    },
+    {
+      "source": "articles/insurance-auto-pay-discount.html",
+      "reference": "/categories/insurance.html",
+      "expected": [
+        "categories/insurance.html"
       ]
     },
     {
