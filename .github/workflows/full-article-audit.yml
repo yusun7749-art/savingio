@@ -7,6 +7,7 @@ on:
       - 'factory/full_article_audit.py'
       - 'factory/second_link_audit.py'
       - 'factory/unique_404_pattern_audit.py'
+      - 'factory/remove_live_404_links.py'
       - '.github/workflows/full-article-audit.yml'
   workflow_dispatch:
 
@@ -23,20 +24,46 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Run full article audit
+
+      - name: Run full article audit before cleanup
         run: python factory/full_article_audit.py
-      - name: Run second-stage link audit
+      - name: Run second-stage link audit before cleanup
         run: python factory/second_link_audit.py
-      - name: Run unique 404 pattern audit
+      - name: Run unique 404 pattern audit before cleanup
         run: python factory/unique_404_pattern_audit.py
-      - name: Commit audit reports
+
+      - name: Remove verified live 404 links
+        run: python factory/remove_live_404_links.py
+
+      - name: Re-run full article audit after cleanup
+        run: python factory/full_article_audit.py
+      - name: Re-run second-stage link audit after cleanup
+        run: python factory/second_link_audit.py
+      - name: Re-run unique 404 pattern audit after cleanup
+        run: python factory/unique_404_pattern_audit.py
+
+      - name: Verify no live 404 references remain
         run: |
-          if [ -z "$(git status --porcelain factory/FULL_ARTICLE_AUDIT factory/SECOND_LINK_AUDIT factory/UNIQUE_404_PATTERN_AUDIT)" ]; then
-            echo 'No report changes.'
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report = Path('factory/SECOND_LINK_AUDIT/second-link-audit.json')
+          data = json.loads(report.read_text(encoding='utf-8'))
+          count = int(data.get('summary', {}).get('actual_404_references', -1))
+          print(f'actual_404_references={count}')
+          if count != 0:
+              raise SystemExit(f'Cleanup incomplete: {count} LIVE_404 references remain')
+          PY
+
+      - name: Commit cleaned articles and audit reports
+        run: |
+          if [ -z "$(git status --porcelain articles factory/FULL_ARTICLE_AUDIT factory/SECOND_LINK_AUDIT factory/UNIQUE_404_PATTERN_AUDIT factory/REMOVE_404_LINKS)" ]; then
+            echo 'No cleanup or report changes.'
             exit 0
           fi
           git config user.name 'savingio-audit-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add -f factory/FULL_ARTICLE_AUDIT factory/SECOND_LINK_AUDIT factory/UNIQUE_404_PATTERN_AUDIT
-          git commit -m 'Audit: refresh article, link, and 404 pattern reports [skip ci]'
+          git add articles
+          git add -f factory/FULL_ARTICLE_AUDIT factory/SECOND_LINK_AUDIT factory/UNIQUE_404_PATTERN_AUDIT factory/REMOVE_404_LINKS
+          git commit -m 'Fix: remove verified 404 links and refresh audits [skip ci]'
           git push
