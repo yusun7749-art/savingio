@@ -59,7 +59,7 @@
 - `articles/general-vat-common-mistakes.html` — 일반과세자 부가가치세 신고에서 자주 하는 실수 12가지 (5,055자)
 - `articles/hometax-vat-sales-check.html` — 홈택스 부가가치세 매출자료 확인 방법, 카드·현금영수증 누락까지 점검하세요 (4,623자)
 - `articles/simple-receipt-expense-rules.html` — 사업자 비용처리 가능한 항목 총정리 (9,165자)
-- `articles/simplified-vat-checklist.html` — 간이과세자 부가가치세 신고 체크리스트 (5,827자)
+- `articles/simplified-vat-checklist.html` — 간이과세자 부가가치세 신고 체크리스트 (7,358자)
 - `articles/tax-invoice-vs-cash-receipt.html` — 현금영수증 매출 조회 방법 (6,393자)
 - `articles/vat-final-return-2026-july.html` — 2026년 부가가치세 확정신고 방법과 공식 기한 확인 (6,006자)
 - `articles/vat-input-tax-deduction-2026.html` — 부가가치세 매입세액 공제·불공제 판단법 2026 (8,432자)
