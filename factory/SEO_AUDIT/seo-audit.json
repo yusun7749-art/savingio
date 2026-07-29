@@ -4,9 +4,9 @@
     "pass": 142,
     "warning": 29,
     "fail": 0,
-    "average_score": 90.8,
+    "average_score": 90.7,
     "thin_under_2500_ko": 7,
-    "short_under_4500_ko": 118,
+    "short_under_4500_ko": 119,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -477,28 +477,30 @@
     {
       "path": "articles/building-land-property-tax.html",
       "url": "https://savingio.com/articles/building-land-property-tax.html",
-      "title": "건축물 재산세와 토지 재산세 차이, 고지서 확인부터 납부까지 | 세이빙이오(Savingio)",
-      "meta_description": "건축물 재산세와 토지 재산세가 따로 고지되는 이유, 6월 1일 소유 기준, 7월·9월 납부 시기, 고지서 비교법, 매매·공동명의·오류 대응 순서를 안내합니다.",
+      "title": "건축물 재산세와 토지 재산세 차이, 고지서 두 장이 왔을 때 확인 순서 | Savingio",
+      "meta_description": "같은 주소로 재산세 고지서가 두 장 왔을 때 건축물분과 토지분의 차이, 6월 1일 소유 기준, 7월·9월 납부 시기, 공동명의와 매매 후 고지 대응 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/building-land-property-tax.html",
       "h1": [
-        "건축물 재산세와 토지 재산세 차이, 고지서 확인부터 납부까지"
+        "건축물 재산세와 토지 재산세 차이, 고지서 두 장이 왔을 때 확인 순서"
       ],
-      "h2_count": 21,
-      "h3_count": 5,
-      "korean_chars": 6707,
-      "words": 2261,
-      "internal_article_links": 9,
+      "h2_count": 18,
+      "h3_count": 0,
+      "korean_chars": 3220,
+      "words": 1131,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 2,
+      "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": true,
+      "faq_schema": false,
       "issues": [],
       "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3220"
       ],
-      "score": 96,
+      "score": 88,
       "status": "PASS"
     },
     {
@@ -754,28 +756,29 @@
       "path": "articles/car-insurance-saving.html",
       "url": "https://savingio.com/articles/car-insurance-saving.html",
       "title": "자동차보험료 절약, 갱신 전에 비교할 운전자 범위·특약·담보 최종 가이드 | Savingio",
-      "meta_description": "자동차보험 갱신 전 운전자 범위, 연령 조건, 마일리지·자녀·안전운전 특약, 담보와 자기부담금, 결제 조건을 같은 기준으로 비교하는 순서를 정리했습니다.",
+      "meta_description": "자동차보험 갱신 전 운전자 범위, 연령 조건, 할인특약, 담보와 자기부담금, 결제 조건을 같은 기준으로 비교해 보장 공백 없이 보험료를 줄이는 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/car-insurance-saving.html",
       "h1": [
         "자동차보험료 절약, 갱신 전에 비교할 운전자 범위·특약·담보 최종 가이드"
       ],
-      "h2_count": 19,
-      "h3_count": 4,
-      "korean_chars": 3213,
-      "words": 1139,
-      "internal_article_links": 9,
+      "h2_count": 18,
+      "h3_count": 3,
+      "korean_chars": 3273,
+      "words": 1141,
+      "internal_article_links": 11,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 2,
+      "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": true,
+      "faq_schema": false,
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3213"
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3273"
       ],
-      "score": 92,
+      "score": 88,
       "status": "PASS"
     },
     {
