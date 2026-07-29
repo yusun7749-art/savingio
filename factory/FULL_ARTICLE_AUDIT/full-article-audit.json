@@ -1,13 +1,13 @@
 {
   "summary": {
     "article_count": 171,
-    "completed": 25,
-    "normal_needs_dna": 12,
+    "completed": 39,
+    "normal_needs_dna": 28,
     "under_5000": 60,
     "duplicate_suspected_articles": 26,
     "duplicate_pairs": 90,
-    "broken_link_articles": 101,
-    "broken_links_total": 244,
+    "broken_link_articles": 57,
+    "broken_links_total": 99,
     "thresholds": {
       "minimum_visible_characters": 5000,
       "duplicate_cosine": 0.7
@@ -21,17 +21,13 @@
       "h1": "초보자를 위한 AI 부업 시작 방법, 첫 수익까지 현실적인 순서",
       "char_count": 7074,
       "under_5000": false,
-      "broken_links": [
-        "/articles/car-insurance-low-mileage-discount.html",
-        "/articles/fuel-saving-driving-habits.html",
-        "/categories/side-income.html"
-      ],
-      "broken_link_count": 3,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "완료",
+      "priority": "DONE"
     },
     {
       "path": "articles/air-conditioner-electricity-saving.html",
@@ -40,18 +36,15 @@
       "h1": "에어컨 전기요금 줄이는 방법, 우리 집에 맞는 냉방 순서",
       "char_count": 6780,
       "under_5000": false,
-      "broken_links": [
-        "/articles/car-insurance-low-mileage-discount.html",
-        "/articles/fuel-saving-driving-habits.html"
-      ],
-      "broken_link_count": 2,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [
         "목차"
       ],
       "dna_complete": false,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "정상",
+      "priority": "P3"
     },
     {
       "path": "articles/aircon-dry-mode-electricity.html",
@@ -75,18 +68,15 @@
       "h1": "에어컨 필터 청소로 전기요금 줄이는 방법, 냉방이 약할 때 확인 순서",
       "char_count": 7657,
       "under_5000": false,
-      "broken_links": [
-        "/articles/car-insurance-low-mileage-discount.html",
-        "/articles/fuel-saving-driving-habits.html"
-      ],
-      "broken_link_count": 2,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [
         "목차"
       ],
       "dna_complete": false,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "정상",
+      "priority": "P3"
     },
     {
       "path": "articles/aircon-optimal-temperature-savings.html",
@@ -110,18 +100,13 @@
       "h1": "아랫집 누수 연락을 받았을 때, 윗집이 바로 할 일",
       "char_count": 6699,
       "under_5000": false,
-      "broken_links": [
-        "/articles/home-insurance-coverage-check.html",
-        "/articles/insurance-claim-documents.html",
-        "/articles/tenant-landlord-repair-responsibility.html",
-        "/categories/housing-maintenance.html"
-      ],
-      "broken_link_count": 4,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "완료",
+      "priority": "DONE"
     },
     {
       "path": "articles/apartment-management-fee-summer.html",
@@ -204,33 +189,28 @@
       "h1": "기초생활수급자 생활요금 감면 신청 방법, 전기·가스·통신 할인 확인",
       "char_count": 4580,
       "under_5000": true,
-      "broken_links": [
-        "/articles/basic-livelihood-benefit-check.html"
-      ],
-      "broken_link_count": 1,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
-      "final_status": "5천자 미달 / 깨진 링크",
-      "priority": "P0"
+      "final_status": "5천자 미달",
+      "priority": "P2"
     },
     {
       "path": "articles/basic-pension-application-guide.html",
       "url": "https://savingio.com/articles/basic-pension-application-guide.html",
       "title": "기초연금 신청 방법, 만 65세 준비서류·소득인정액·지급 확인 | Savingio",
       "h1": "기초연금 신청 방법, 만 65세 준비서류·소득인정액·지급 확인",
-      "char_count": 7896,
+      "char_count": 7895,
       "under_5000": false,
-      "broken_links": [
-        "/articles/basic-pension-eligibility.html",
-        "/articles/national-pension-guide.html"
-      ],
-      "broken_link_count": 2,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "완료",
+      "priority": "DONE"
     },
     {
       "path": "articles/beginner-budget-plan.html",
@@ -291,15 +271,13 @@
       "h1": "가계부 앱 고르는 방법, 자동연동보다 중요한 기준",
       "char_count": 6076,
       "under_5000": false,
-      "broken_links": [
-        "/calculators/monthly-budget.html"
-      ],
-      "broken_link_count": 1,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "완료",
+      "priority": "DONE"
     },
     {
       "path": "articles/building-land-property-tax.html",
@@ -405,12 +383,9 @@
       "char_count": 7212,
       "under_5000": false,
       "broken_links": [
-        "/articles/bank-fees-to-avoid.html",
-        "/articles/car-insurance-low-mileage-discount.html",
-        "/articles/car-tire-pressure-fuel-efficiency.html",
-        "/articles/fuel-saving-driving-habits.html"
+        "/articles/bank-fees-to-avoid.html"
       ],
-      "broken_link_count": 4,
+      "broken_link_count": 1,
       "dna_missing": [
         "목차"
       ],
@@ -552,16 +527,13 @@
       "h1": "카드 포인트 현금화 방법, 흩어진 포인트를 계좌로 받는 순서",
       "char_count": 5555,
       "under_5000": false,
-      "broken_links": [
-        "/articles/credit-card-annual-fee-check.html",
-        "/articles/dormant-account-find.html"
-      ],
-      "broken_link_count": 2,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "완료",
+      "priority": "DONE"
     },
     {
       "path": "articles/cashback-apps-guide.html",
@@ -589,10 +561,9 @@
       "under_5000": false,
       "broken_links": [
         "/articles/health-insurance-overpayment-refund.html",
-        "/articles/hidden-money-search.html",
-        "/categories/refund-insurance.html"
+        "/articles/hidden-money-search.html"
       ],
-      "broken_link_count": 3,
+      "broken_link_count": 2,
       "dna_missing": [
         "목차"
       ],
@@ -609,13 +580,9 @@
       "char_count": 4709,
       "under_5000": true,
       "broken_links": [
-        "/articles/bank-fees-to-avoid.html",
-        "/categories/banking.html",
-        "/categories/communication.html",
-        "/categories/insurance.html",
-        "/categories/utility-bills.html"
+        "/articles/bank-fees-to-avoid.html"
       ],
-      "broken_link_count": 5,
+      "broken_link_count": 1,
       "dna_missing": [
         "목차"
       ],
@@ -633,11 +600,9 @@
       "under_5000": false,
       "broken_links": [
         "/articles/grocery-bill-savings.html",
-        "/articles/phone-bill-saving.html",
-        "/calculators/annual-income.html",
-        "/categories/government-benefits.html"
+        "/articles/phone-bill-saving.html"
       ],
-      "broken_link_count": 4,
+      "broken_link_count": 2,
       "dna_missing": [
         "목차"
       ],
@@ -654,14 +619,9 @@
       "char_count": 6142,
       "under_5000": false,
       "broken_links": [
-        "/articles/grocery-bill-savings.html",
-        "/calculators/childcare-cost.html",
-        "/calculators/monthly-budget.html",
-        "/categories/benefits.html",
-        "/categories/education-childcare.html",
-        "/categories/household.html"
+        "/articles/grocery-bill-savings.html"
       ],
-      "broken_link_count": 6,
+      "broken_link_count": 1,
       "dna_missing": [
         "목차"
       ],
@@ -678,12 +638,9 @@
       "char_count": 7542,
       "under_5000": false,
       "broken_links": [
-        "/articles/bank-deposit-protection-limit.html",
-        "/articles/bank-fees-to-avoid.html",
-        "/articles/financial-product-comparison-guide.html",
-        "/articles/high-interest-savings-account.html"
+        "/articles/bank-fees-to-avoid.html"
       ],
-      "broken_link_count": 4,
+      "broken_link_count": 1,
       "dna_missing": [
         "목차"
       ],
@@ -700,11 +657,9 @@
       "char_count": 6874,
       "under_5000": false,
       "broken_links": [
-        "/articles/bank-fees-to-avoid.html",
-        "/articles/credit-card-annual-fee-refund.html",
-        "/articles/credit-card-interest-free-installment-guide.html"
+        "/articles/bank-fees-to-avoid.html"
       ],
-      "broken_link_count": 3,
+      "broken_link_count": 1,
       "dna_missing": [
         "목차"
       ],
@@ -720,20 +675,15 @@
       "h1": "신용점수를 지키는 생활 습관, 연체 없이 관리하는 현실적인 방법",
       "char_count": 5674,
       "under_5000": false,
-      "broken_links": [
-        "/articles/card-payment-date-guide.html",
-        "/articles/credit-card-limit-management.html",
-        "/articles/credit-information-check.html",
-        "/articles/debt-repayment-order.html"
-      ],
-      "broken_link_count": 4,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [
         "목차"
       ],
       "dna_complete": false,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "정상",
+      "priority": "P3"
     },
     {
       "path": "articles/culture-nuri-card-balance.html",
@@ -742,15 +692,13 @@
       "h1": "문화누리카드 잔액 조회와 사용처 확인, 남은 금액까지 쓰는 방법",
       "char_count": 8417,
       "under_5000": false,
-      "broken_links": [
-        "/categories/welfare-benefits.html"
-      ],
-      "broken_link_count": 1,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "완료",
+      "priority": "DONE"
     },
     {
       "path": "articles/daily-liability-leak-insurance.html",
@@ -759,16 +707,13 @@
       "h1": "일배책 누수 보험 처리, 아랫집 피해 접수부터 합의까지",
       "char_count": 8632,
       "under_5000": false,
-      "broken_links": [
-        "/articles/home-fire-insurance-guide.html",
-        "/categories/insurance.html"
-      ],
-      "broken_link_count": 2,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "완료",
+      "priority": "DONE"
     },
     {
       "path": "articles/debit-card-vs-credit-card.html",
@@ -796,17 +741,15 @@
       "h1": "제습기 전기요금 계산과 절약법",
       "char_count": 5557,
       "under_5000": false,
-      "broken_links": [
-        "/articles/standby-power-saving.html"
-      ],
-      "broken_link_count": 1,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [
         "목차"
       ],
       "dna_complete": false,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "정상",
+      "priority": "P3"
     },
     {
       "path": "articles/deposit-protection-limit-guide.html",
@@ -913,14 +856,10 @@
       "char_count": 6219,
       "under_5000": false,
       "broken_links": [
-        "/articles/car-insurance-low-mileage-discount.html",
-        "/articles/fuel-saving-driving-habits.html",
         "/articles/grocery-bill-savings.html",
-        "/articles/phone-bill-saving.html",
-        "/categories/benefits.html",
-        "/categories/finance.html"
+        "/articles/phone-bill-saving.html"
       ],
-      "broken_link_count": 6,
+      "broken_link_count": 2,
       "dna_missing": [
         "목차"
       ],
@@ -951,15 +890,13 @@
       "h1": "2026 근로장려금 신청 대상과 지급일, 놓쳤을 때 확인 순서",
       "char_count": 8559,
       "under_5000": false,
-      "broken_links": [
-        "/articles/unclaimed-refund-check.html"
-      ],
-      "broken_link_count": 1,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "완료",
+      "priority": "DONE"
     },
     {
       "path": "articles/education-benefit-eligibility.html",
@@ -992,7 +929,7 @@
       "duplicate_candidates": [
         {
           "path": "articles/elementary-school-education-support.html",
-          "score": 0.7144
+          "score": 0.7164
         }
       ],
       "final_status": "5천자 미달 / 중복 의심",
@@ -1005,17 +942,15 @@
       "h1": "전기 사용량만으로 이번 달 예상 전기요금 확인하는 방법",
       "char_count": 4756,
       "under_5000": true,
-      "broken_links": [
-        "/categories/living-cost.html"
-      ],
-      "broken_link_count": 1,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [
         "목차"
       ],
       "dna_complete": false,
       "duplicate_candidates": [],
-      "final_status": "5천자 미달 / 깨진 링크",
-      "priority": "P0"
+      "final_status": "5천자 미달",
+      "priority": "P2"
     },
     {
       "path": "articles/electricity-bill-saving.html",
@@ -1024,18 +959,15 @@
       "h1": "전기요금 절약 방법, 고지서부터 가전 사용량까지 확인하는 순서",
       "char_count": 4645,
       "under_5000": true,
-      "broken_links": [
-        "/categories/living-cost.html",
-        "/categories/utility-bills.html"
-      ],
-      "broken_link_count": 2,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [
         "목차"
       ],
       "dna_complete": false,
       "duplicate_candidates": [],
-      "final_status": "5천자 미달 / 깨진 링크",
-      "priority": "P0"
+      "final_status": "5천자 미달",
+      "priority": "P2"
     },
     {
       "path": "articles/electricity-discount-card-guide.html",
@@ -1044,17 +976,15 @@
       "h1": "전기요금 할인카드 제대로 고르는 방법",
       "char_count": 6028,
       "under_5000": false,
-      "broken_links": [
-        "/categories/electricity-utility.html"
-      ],
-      "broken_link_count": 1,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [
         "목차"
       ],
       "dna_complete": false,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "정상",
+      "priority": "P3"
     },
     {
       "path": "articles/electronic-tax-invoice-penalty.html",
@@ -1076,46 +1006,37 @@
       "url": "https://savingio.com/articles/elementary-school-education-support.html",
       "title": "초등학생 교육비 지원 총정리, 교육급여·방과후·돌봄 신청법 | Savingio",
       "h1": "초등학생 교육비 지원 총정리, 교육급여·방과후·돌봄 신청법",
-      "char_count": 9508,
+      "char_count": 9506,
       "under_5000": false,
-      "broken_links": [
-        "/articles/child-care-service-guide.html",
-        "/articles/childcare-support-guide.html",
-        "/articles/elementary-after-school-care.html"
-      ],
-      "broken_link_count": 3,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [
         {
           "path": "articles/education-expense-vs-benefit.html",
-          "score": 0.7144
+          "score": 0.7164
         }
       ],
-      "final_status": "중복 의심 / 깨진 링크",
-      "priority": "P0"
+      "final_status": "중복 의심",
+      "priority": "P1"
     },
     {
       "path": "articles/emergency-fund-guide.html",
       "url": "https://savingio.com/articles/emergency-fund-guide.html",
       "title": "비상금 얼마가 적당할까? 생활비 1개월부터 만드는 현실적인 순서 | Savingio",
       "h1": "비상금 얼마가 적당할까? 생활비 1개월부터 만드는 현실적인 순서",
-      "char_count": 6231,
+      "char_count": 6229,
       "under_5000": false,
-      "broken_links": [
-        "/articles/credit-card-revolving-guide.html",
-        "/articles/debt-adjustment-guide.html",
-        "/articles/household-budget-guide.html",
-        "/articles/loan-interest-reduction-guide.html"
-      ],
-      "broken_link_count": 4,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [
         "목차"
       ],
       "dna_complete": false,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "정상",
+      "priority": "P3"
     },
     {
       "path": "articles/emergency-medical-support.html",
@@ -1143,18 +1064,15 @@
       "h1": "긴급복지 생계지원 신청 조건",
       "char_count": 8755,
       "under_5000": false,
-      "broken_links": [
-        "/articles/unemployment-benefit-application.html",
-        "/articles/utility-bill-support.html"
-      ],
-      "broken_link_count": 2,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [
         "목차"
       ],
       "dna_complete": false,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "정상",
+      "priority": "P3"
     },
     {
       "path": "articles/energy-voucher-2026-application.html",
@@ -1178,17 +1096,15 @@
       "h1": "선풍기와 에어컨 함께 쓰는 방법",
       "char_count": 4214,
       "under_5000": true,
-      "broken_links": [
-        "/categories/energy-saving.html"
-      ],
-      "broken_link_count": 1,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [
         "목차"
       ],
       "dna_complete": false,
       "duplicate_candidates": [],
-      "final_status": "5천자 미달 / 깨진 링크",
-      "priority": "P0"
+      "final_status": "5천자 미달",
+      "priority": "P2"
     },
     {
       "path": "articles/first-meeting-voucher-guide.html",
@@ -1197,20 +1113,15 @@
       "h1": "첫만남이용권 신청과 사용 방법, 결제 전에 확인할 제한사항",
       "char_count": 6147,
       "under_5000": false,
-      "broken_links": [
-        "/articles/diaper-formula-support-guide.html",
-        "/articles/electricity-bill-childbirth-discount.html",
-        "/articles/maternity-leave-benefit.html",
-        "/articles/pregnancy-childbirth-medical-support.html"
-      ],
-      "broken_link_count": 4,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [
         "목차"
       ],
       "dna_complete": false,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "정상",
+      "priority": "P3"
     },
     {
       "path": "articles/fixed-date-online-application.html",
@@ -1219,20 +1130,15 @@
       "h1": "확정일자 온라인 신청 방법",
       "char_count": 5606,
       "under_5000": false,
-      "broken_links": [
-        "/articles/jeonse-deposit-protection.html",
-        "/articles/lease-contract-report.html",
-        "/articles/move-in-report-online.html",
-        "/articles/registry-copy-check.html"
-      ],
-      "broken_link_count": 4,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [
         "목차"
       ],
       "dna_complete": false,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "정상",
+      "priority": "P3"
     },
     {
       "path": "articles/fixed-speed-aircon-saving.html",
@@ -1258,16 +1164,13 @@
       "h1": "4대보험 공제액 확인 방법, 월급에서 얼마가 빠지는지 보는 기준",
       "char_count": 4903,
       "under_5000": true,
-      "broken_links": [
-        "/articles/salary-statement-check-guide.html",
-        "/articles/salary-tax-deduction-guide.html"
-      ],
-      "broken_link_count": 2,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
-      "final_status": "5천자 미달 / 깨진 링크",
-      "priority": "P0"
+      "final_status": "5천자 미달",
+      "priority": "P2"
     },
     {
       "path": "articles/gas-bill-checklist.html",
@@ -1276,17 +1179,13 @@
       "h1": "도시가스 요금 절약과 고지서 점검 방법",
       "char_count": 4624,
       "under_5000": true,
-      "broken_links": [
-        "/articles/energy-voucher-guide.html",
-        "/articles/heating-cost-saving-guide.html",
-        "/categories/utility-bills.html"
-      ],
-      "broken_link_count": 3,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
-      "final_status": "5천자 미달 / 깨진 링크",
-      "priority": "P0"
+      "final_status": "5천자 미달",
+      "priority": "P2"
     },
     {
       "path": "articles/general-vat-common-mistakes.html",
@@ -1465,16 +1364,13 @@
       "h1": "홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요",
       "char_count": 3814,
       "under_5000": true,
-      "broken_links": [
-        "/articles/income-tax-refund-check.html",
-        "/articles/tax-refund-scam-warning.html"
-      ],
-      "broken_link_count": 2,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
-      "final_status": "5천자 미달 / 깨진 링크",
-      "priority": "P0"
+      "final_status": "5천자 미달",
+      "priority": "P2"
     },
     {
       "path": "articles/hometax-vat-sales-check.html",
@@ -1483,15 +1379,13 @@
       "h1": "홈택스 부가가치세 매출자료 확인 방법, 카드·현금영수증 누락까지 점검하세요",
       "char_count": 4623,
       "under_5000": true,
-      "broken_links": [
-        "/calculators/vat-calculator.html"
-      ],
-      "broken_link_count": 1,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
-      "final_status": "5천자 미달 / 깨진 링크",
-      "priority": "P0"
+      "final_status": "5천자 미달",
+      "priority": "P2"
     },
     {
       "path": "articles/housing-benefit-eligibility.html",
@@ -1500,18 +1394,13 @@
       "h1": "2026 주거급여 신청 자격, 소득인정액과 지원금 확인 방법",
       "char_count": 10512,
       "under_5000": false,
-      "broken_links": [
-        "/articles/energy-voucher-eligibility.html",
-        "/articles/heating-cost-support.html",
-        "/articles/housing-benefit-application.html",
-        "/articles/rent-tax-credit-guide.html"
-      ],
-      "broken_link_count": 4,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "완료",
+      "priority": "DONE"
     },
     {
       "path": "articles/impulse-buying-control.html",
@@ -1520,15 +1409,13 @@
       "h1": "충동구매 줄이는 현실적인 방법, 결제 전 24시간 규칙부터 시작하세요",
       "char_count": 3459,
       "under_5000": true,
-      "broken_links": [
-        "/categories/household-budget.html"
-      ],
-      "broken_link_count": 1,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
-      "final_status": "5천자 미달 / 깨진 링크",
-      "priority": "P0"
+      "final_status": "5천자 미달",
+      "priority": "P2"
     },
     {
       "path": "articles/income-tax-filing-missed-consequences.html",
@@ -1537,15 +1424,13 @@
       "h1": "종합소득세 신고 안 하면 생기는 불이익과 기한후신고 방법",
       "char_count": 8342,
       "under_5000": false,
-      "broken_links": [
-        "/articles/freelancer-income-tax-refund.html"
-      ],
-      "broken_link_count": 1,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "완료",
+      "priority": "DONE"
     },
     {
       "path": "articles/insurance-auto-pay-discount.html",
@@ -1554,15 +1439,13 @@
       "h1": "보험료 자동이체 할인, 바꾸기 전에 실제 납부액부터 비교하세요",
       "char_count": 6189,
       "under_5000": false,
-      "broken_links": [
-        "/categories/insurance.html"
-      ],
-      "broken_link_count": 1,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "완료",
+      "priority": "DONE"
     },
     {
       "path": "articles/insurance-surrender-value-check.html",
@@ -1586,17 +1469,13 @@
       "h1": "인터넷 요금 할인받는 방법, 약정·결합·재약정 점검 순서",
       "char_count": 9047,
       "under_5000": false,
-      "broken_links": [
-        "/articles/mobile-plan-saving.html",
-        "/articles/moving-cost-saving.html",
-        "/articles/subscription-audit.html"
-      ],
-      "broken_link_count": 3,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "완료",
+      "priority": "DONE"
     },
     {
       "path": "articles/inverter-aircon-saving-guide.html",
@@ -1605,36 +1484,28 @@
       "h1": "인버터 에어컨 전기세 절약 운전법, 켜고 끄는 기준부터 설정온도까지",
       "char_count": 7581,
       "under_5000": false,
-      "broken_links": [
-        "/articles/summer-electricity-bill-guide.html",
-        "/categories/electricity.html"
-      ],
-      "broken_link_count": 2,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "완료",
+      "priority": "DONE"
     },
     {
       "path": "articles/lifelong-education-voucher-application.html",
       "url": "https://savingio.com/articles/lifelong-education-voucher-application.html",
       "title": "2026 평생교육이용권 신청 방법, 대상·사용처·카드 발급까지 | 세이빙이오(Savingio)",
       "h1": "2026 평생교육이용권 신청 방법, 대상·사용처·카드 발급까지",
-      "char_count": 4284,
+      "char_count": 4281,
       "under_5000": true,
-      "broken_links": [
-        "/articles/cultural-nuri-card-guide.html",
-        "/articles/education-expense-tax-credit.html",
-        "/articles/government-benefit-check-guide.html",
-        "/articles/national-tomorrow-learning-card-guide.html"
-      ],
-      "broken_link_count": 4,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
-      "final_status": "5천자 미달 / 깨진 링크",
-      "priority": "P0"
+      "final_status": "5천자 미달",
+      "priority": "P2"
     },
     {
       "path": "articles/loan-prepayment-fee-check.html",
@@ -1644,11 +1515,9 @@
       "char_count": 5968,
       "under_5000": false,
       "broken_links": [
-        "/articles/credit-score-management.html",
-        "/articles/household-debt-repayment-plan.html",
-        "/articles/loan-interest-reduction-request.html"
+        "/articles/credit-score-management.html"
       ],
-      "broken_link_count": 3,
+      "broken_link_count": 1,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
@@ -1663,10 +1532,9 @@
       "char_count": 5853,
       "under_5000": false,
       "broken_links": [
-        "/articles/credit-score-management.html",
-        "/articles/loan-interest-reduction-request.html"
+        "/articles/credit-score-management.html"
       ],
-      "broken_link_count": 2,
+      "broken_link_count": 1,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
@@ -1681,10 +1549,9 @@
       "char_count": 5319,
       "under_5000": false,
       "broken_links": [
-        "/articles/health-insurance-overpayment-refund.html",
-        "/categories/tax-benefits.html"
+        "/articles/health-insurance-overpayment-refund.html"
       ],
-      "broken_link_count": 2,
+      "broken_link_count": 1,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
@@ -1700,11 +1567,9 @@
       "under_5000": false,
       "broken_links": [
         "/articles/health-insurance-out-of-pocket-refund.html",
-        "/articles/health-insurance-overpayment-refund.html",
-        "/articles/medical-expense-tax-deduction.html",
-        "/categories/insurance-health.html"
+        "/articles/health-insurance-overpayment-refund.html"
       ],
-      "broken_link_count": 4,
+      "broken_link_count": 2,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
@@ -1735,10 +1600,9 @@
       "under_5000": false,
       "broken_links": [
         "/articles/health-insurance-out-of-pocket-refund.html",
-        "/articles/health-insurance-overpayment-refund.html",
-        "/categories/health-insurance.html"
+        "/articles/health-insurance-overpayment-refund.html"
       ],
-      "broken_link_count": 3,
+      "broken_link_count": 2,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
@@ -1800,10 +1664,9 @@
       "char_count": 7623,
       "under_5000": false,
       "broken_links": [
-        "/articles/irs-tax-refund-status.html",
         "/articles/local-tax-refund-claim.html"
       ],
-      "broken_link_count": 2,
+      "broken_link_count": 1,
       "dna_missing": [
         "목차"
       ],
@@ -1819,20 +1682,15 @@
       "h1": "국민취업지원제도 신청 자격",
       "char_count": 5724,
       "under_5000": false,
-      "broken_links": [
-        "/articles/employment-success-allowance.html",
-        "/articles/job-training-card-guide.html",
-        "/articles/national-employment-support-application.html",
-        "/articles/unemployment-benefit-eligibility.html"
-      ],
-      "broken_link_count": 4,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [
         "목차"
       ],
       "dna_complete": false,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "정상",
+      "priority": "P3"
     },
     {
       "path": "articles/national-pension-additional-payment.html",
@@ -1888,19 +1746,15 @@
       "url": "https://savingio.com/articles/national-scholarship-application.html",
       "title": "국가장학금 신청 방법과 확인사항 | 세이빙이오(Savingio)",
       "h1": "국가장학금 신청 방법과 확인사항",
-      "char_count": 5466,
+      "char_count": 5465,
       "under_5000": false,
-      "broken_links": [
-        "/articles/education-expense-tax-credit.html",
-        "/articles/youth-benefits-guide.html",
-        "/categories/education-benefits.html"
-      ],
-      "broken_link_count": 3,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "완료",
+      "priority": "DONE"
     },
     {
       "path": "articles/national-tax-refund-account.html",
@@ -1910,10 +1764,9 @@
       "char_count": 4953,
       "under_5000": true,
       "broken_links": [
-        "/articles/irs-tax-refund-status.html",
         "/articles/local-tax-refund-claim.html"
       ],
-      "broken_link_count": 2,
+      "broken_link_count": 1,
       "dna_missing": [
         "목차"
       ],
@@ -1930,12 +1783,9 @@
       "char_count": 5499,
       "under_5000": false,
       "broken_links": [
-        "/articles/comprehensive-income-tax-refund.html",
-        "/articles/earned-income-tax-credit.html",
-        "/articles/local-tax-refund.html",
-        "/articles/year-end-tax-settlement-refund.html"
+        "/articles/local-tax-refund.html"
       ],
-      "broken_link_count": 4,
+      "broken_link_count": 1,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
@@ -1985,12 +1835,9 @@
       "under_5000": false,
       "broken_links": [
         "/articles/bank-fees-to-avoid.html",
-        "/articles/credit-score-management.html",
-        "/articles/debt-repayment-priority.html",
-        "/articles/loan-interest-reduction-request.html",
-        "/articles/loan-refinancing-guide.html"
+        "/articles/credit-score-management.html"
       ],
-      "broken_link_count": 5,
+      "broken_link_count": 2,
       "dna_missing": [
         "목차"
       ],
@@ -2006,18 +1853,15 @@
       "h1": "부모급여 신청 방법, 출생 후 놓치지 말아야 할 확인 순서",
       "char_count": 7114,
       "under_5000": false,
-      "broken_links": [
-        "/articles/birth-support-benefits-guide.html",
-        "/articles/daycare-fee-support-guide.html"
-      ],
-      "broken_link_count": 2,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [
         "목차"
       ],
       "dna_complete": false,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "정상",
+      "priority": "P3"
     },
     {
       "path": "articles/parking-account-rate-comparison.html",
@@ -2026,17 +1870,15 @@
       "h1": "파킹통장 금리 비교할 때 볼 항목",
       "char_count": 7333,
       "under_5000": false,
-      "broken_links": [
-        "/categories/finance.html"
-      ],
-      "broken_link_count": 1,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [
         "목차"
       ],
       "dna_complete": false,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "정상",
+      "priority": "P3"
     },
     {
       "path": "articles/peak-season-hotel-saving.html",
@@ -2045,21 +1887,15 @@
       "h1": "성수기 숙박비 절약 예약 전략",
       "char_count": 6683,
       "under_5000": false,
-      "broken_links": [
-        "/articles/card-overseas-payment-fee.html",
-        "/articles/flight-ticket-saving.html",
-        "/articles/travel-budget-planning.html",
-        "/articles/travel-insurance-claim-guide.html",
-        "/categories/travel-living.html"
-      ],
-      "broken_link_count": 5,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [
         "목차"
       ],
       "dna_complete": false,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "정상",
+      "priority": "P3"
     },
     {
       "path": "articles/property-tax-bill-checklist-2026.html",
@@ -2163,17 +1999,15 @@
       "h1": "재산세 공동명의 납부 기준",
       "char_count": 7394,
       "under_5000": false,
-      "broken_links": [
-        "/articles/property-tax-payment-methods.html"
-      ],
-      "broken_link_count": 1,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [
         "목차"
       ],
       "dna_complete": false,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "정상",
+      "priority": "P3"
     },
     {
       "path": "articles/property-tax-july-2026.html",
@@ -2182,12 +2016,8 @@
       "h1": "2026년 7월 재산세 납부 대상과 기간",
       "char_count": 6128,
       "under_5000": false,
-      "broken_links": [
-        "/articles/property-tax-appeal-guide.html",
-        "/articles/property-tax-check-payment-guide.html",
-        "/articles/property-tax-refund-correction.html"
-      ],
-      "broken_link_count": 3,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [
         "목차"
       ],
@@ -2198,8 +2028,8 @@
           "score": 0.7092
         }
       ],
-      "final_status": "중복 의심 / 깨진 링크",
-      "priority": "P0"
+      "final_status": "중복 의심",
+      "priority": "P1"
     },
     {
       "path": "articles/property-tax-july-september-difference.html",
@@ -2230,18 +2060,15 @@
       "h1": "재산세 이의신청과 과세전적부심 차이",
       "char_count": 5763,
       "under_5000": false,
-      "broken_links": [
-        "/articles/property-tax-overpayment-refund.html",
-        "/articles/property-tax-payment-guide.html"
-      ],
-      "broken_link_count": 2,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [
         "목차"
       ],
       "dna_complete": false,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "정상",
+      "priority": "P3"
     },
     {
       "path": "articles/property-tax-payment-certificate.html",
@@ -2250,18 +2077,15 @@
       "h1": "재산세 납부증명서 발급 방법",
       "char_count": 5351,
       "under_5000": false,
-      "broken_links": [
-        "/articles/local-tax-payment-guide.html",
-        "/articles/property-tax-overpayment-refund.html"
-      ],
-      "broken_link_count": 2,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [
         "목차"
       ],
       "dna_complete": false,
       "duplicate_candidates": [],
-      "final_status": "깨진 링크",
-      "priority": "P0"
+      "final_status": "정상",
+      "priority": "P3"
     },
     {
       "path": "articles/refrigerator-summer-electricity-saving.html",
@@ -2786,13 +2610,9 @@
       "char_count": 6441,
       "under_5000": false,
       "broken_links": [
-        "/articles/business-cash-flow-guide.html",
-        "/articles/business-credit-score-guide.html",
-        "/articles/government-support-scam-warning-2026.html",
-        "/articles/small-business-loan-guide.html",
-        "/articles/tax-arrears-check-guide.html"
+        "/articles/government-support-scam-warning-2026.html"
       ],
-      "broken_link_count": 5,
+      "broken_link_count": 1,
       "dna_missing": [
         "목차"
       ],
@@ -2808,17 +2628,13 @@
       "h1": "소비 습관 바꾸는 방법, 지출을 참기보다 구조를 바꾸세요",
       "char_count": 3025,
       "under_5000": true,
-      "broken_links": [
-        "/calculators/monthly-budget.html",
-        "/calculators/savings-goal.html",
-        "/categories/household-budget.html"
-      ],
-      "broken_link_count": 3,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
-      "final_status": "5천자 미달 / 깨진 링크",
-      "priority": "P0"
+      "final_status": "5천자 미달",
+      "priority": "P2"
     },
     {
       "path": "articles/student-loan-repayment-guide.html",
@@ -2847,12 +2663,9 @@
       "char_count": 5471,
       "under_5000": false,
       "broken_links": [
-        "/articles/aircon-filter-cleaning-saving.html",
-        "/articles/dehumidifier-electricity-cost.html",
-        "/articles/summer-electricity-tier-check.html",
-        "/categories/living-cost.html"
+        "/articles/summer-electricity-tier-check.html"
       ],
-      "broken_link_count": 4,
+      "broken_link_count": 1,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
@@ -2916,15 +2729,13 @@
       "h1": "여름 휴가비 예산 짜는 방법, 여행 후 카드값까지 계산하세요",
       "char_count": 4588,
       "under_5000": true,
-      "broken_links": [
-        "/categories/household-budget.html"
-      ],
-      "broken_link_count": 1,
+      "broken_links": [],
+      "broken_link_count": 0,
       "dna_missing": [],
       "dna_complete": true,
       "duplicate_candidates": [],
-      "final_status": "5천자 미달 / 깨진 링크",
-      "priority": "P0"
+      "final_status": "5천자 미달",
+      "priority": "P2"
     },
     {
       "path": "articles/summer-water-bill-spike-check.html",
@@ -3945,7 +3756,7 @@
     {
       "a": "articles/education-expense-vs-benefit.html",
       "b": "articles/elementary-school-education-support.html",
-      "score": 0.7144
+      "score": 0.7164
     },
     {
       "a": "articles/property-tax-bill-checklist-2026.html",
