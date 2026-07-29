@@ -65,7 +65,7 @@
 - `articles/vat-input-tax-deduction-2026.html` — 부가가치세 매입세액 공제·불공제 판단법 2026 (8,432자)
 - `articles/vat-payment-extension-guide.html` — 부가가치세 신고 후 납부기한 연장 신청 방법 (5,785자)
 - `articles/vat-sales-omission-check-2026.html` — 부가가치세 신고 전 매출 누락 확인 방법 (5,030자)
-- `articles/vat-zero-sales-filing-2026.html` — 매출이 없어도 부가가치세 신고해야 할까? 무실적 신고 방법 (5,295자)
+- `articles/vat-zero-sales-filing-2026.html` — 매출이 없어도 부가가치세 신고해야 할까? 무실적 신고 방법 (4,903자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
 
