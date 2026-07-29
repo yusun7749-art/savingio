@@ -1,11 +1,11 @@
 {
   "summary": {
     "article_count": 171,
-    "pass": 146,
-    "warning": 25,
+    "pass": 145,
+    "warning": 26,
     "fail": 0,
-    "average_score": 90.9,
-    "thin_under_2500_ko": 7,
+    "average_score": 90.8,
+    "thin_under_2500_ko": 8,
     "short_under_4500_ko": 115,
     "missing_meta": 0,
     "missing_canonical": 0,
@@ -4010,24 +4010,26 @@
       "h1": [
         "소비 습관 바꾸는 방법, 지출을 참기보다 구조를 바꾸세요"
       ],
-      "h2_count": 20,
+      "h2_count": 18,
       "h3_count": 0,
-      "korean_chars": 3886,
-      "words": 1391,
-      "internal_article_links": 13,
+      "korean_chars": 2060,
+      "words": 759,
+      "internal_article_links": 11,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 2,
+      "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": true,
-      "issues": [],
+      "faq_schema": false,
+      "issues": [
+        "THIN_CONTENT_KO:2060"
+      ],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3886"
+        "FAQ_SCHEMA_MISSING"
       ],
-      "score": 92,
-      "status": "PASS"
+      "score": 80,
+      "status": "WARNING"
     },
     {
       "path": "articles/student-loan-repayment-guide.html",
