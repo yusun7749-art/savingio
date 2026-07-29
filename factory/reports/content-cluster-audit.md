@@ -54,7 +54,7 @@
 
 ## G003 · 부가가치세 · 12개
 
-- `articles/business-closure-vat-order.html` — 사업자 폐업신고와 부가세 신고 순서, 폐업일 전후로 놓치기 쉬운 절차 (5,685자)
+- `articles/business-closure-vat-order.html` — 사업자 폐업신고와 부가세 신고 순서, 폐업일 전후로 놓치기 쉬운 절차 (4,697자)
 - `articles/electronic-tax-invoice-penalty.html` — 전자세금계산서 가산세, 지연발급·미발급·미전송 차이 (5,723자)
 - `articles/general-vat-common-mistakes.html` — 일반과세자 부가가치세 신고에서 자주 하는 실수 12가지 (4,736자)
 - `articles/hometax-vat-sales-check.html` — 홈택스 부가가치세 매출자료 확인 방법, 카드·현금영수증 누락까지 점검하세요 (3,708자)
@@ -120,7 +120,7 @@
 ## G007 · 소상공인·사업자 · 7개
 
 - `articles/business-card-hometax-registration.html` — 사업용 신용카드 홈택스 등록 방법, 등록 뒤 매입내역까지 확인하는 순서 (5,183자)
-- `articles/business-phone-expense-deduction.html` — 사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리 (5,479자)
+- `articles/business-phone-expense-deduction.html` — 사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리 (3,710자)
 - `articles/business-vehicle-expense-basics.html` — 사업용 차량 비용처리, 증빙부터 운행기록부까지 확인하는 순서 (5,920자)
 - `articles/small-business-closure-support.html` — 폐업 소상공인 원스톱 지원 확인 2026 (6,465자)
 - `articles/small-business-delivery-support.html` — 소상공인 배달비 지원사업 찾는 방법 (7,596자)
