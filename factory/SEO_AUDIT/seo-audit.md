@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
-- Articles: 172
+- Articles: 171
 - PASS: 139
-- WARNING: 33
+- WARNING: 32
 - FAIL: 0
 - Average score: 90.7
-- Thin content (<2500 Korean chars): 11
-- Short content (<4500 Korean chars): 120
+- Thin content (<2500 Korean chars): 10
+- Short content (<4500 Korean chars): 119
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -21,7 +21,6 @@
 | Score | Status | Article | Main findings |
 |---:|---|---|---|
 | 76 | WARNING | `articles/home-water-leak-self-check.html` | THIN_CONTENT_KO:1368, ARTICLE_SCHEMA_MISSING, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
-| 76 | WARNING | `articles/long-term-repair-reserve-refund-guide.html` | THIN_CONTENT_KO:1075, ARTICLE_SCHEMA_MISSING, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/cash-advance-vs-card-loan.html` | THIN_CONTENT_KO:2434, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/elementary-school-education-support.html` | THIN_CONTENT_KO:2209, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/emergency-fund-guide.html` | THIN_CONTENT_KO:2106, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
@@ -58,6 +57,7 @@
 | 88 | PASS | `articles/electricity-bill-easy-calculator-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3282 |
 | 88 | PASS | `articles/government-benefits-warning.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3885 |
 | 88 | PASS | `articles/insurance-auto-pay-discount.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4384 |
+| 88 | PASS | `articles/long-term-repair-reserve-refund-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4246 |
 | 88 | PASS | `articles/national-employment-support-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4077 |
 | 88 | PASS | `articles/property-tax-deadline.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3543 |
 | 88 | PASS | `articles/property-tax-july-2026.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4089 |
