@@ -1,12 +1,12 @@
 {
   "summary": {
-    "article_count": 176,
-    "pass": 143,
+    "article_count": 172,
+    "pass": 139,
     "warning": 33,
     "fail": 0,
     "average_score": 90.7,
     "thin_under_2500_ko": 11,
-    "short_under_4500_ko": 124,
+    "short_under_4500_ko": 120,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -703,11 +703,11 @@
       "h1": [
         "자동차보험 마일리지 특약 환급, 사진 등록·주행거리·정산 확인 가이드"
       ],
-      "h2_count": 18,
+      "h2_count": 20,
       "h3_count": 5,
-      "korean_chars": 2969,
-      "words": 1042,
-      "internal_article_links": 9,
+      "korean_chars": 5017,
+      "words": 1760,
+      "internal_article_links": 11,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 2,
@@ -716,10 +716,9 @@
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:2969"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 92,
+      "score": 96,
       "status": "PASS"
     },
     {
@@ -2175,34 +2174,6 @@
       "status": "PASS"
     },
     {
-      "path": "articles/health-insurance-out-of-pocket-refund.html",
-      "url": "https://savingio.com/articles/health-insurance-out-of-pocket-refund.html",
-      "title": "본인부담상한제 환급금, 대상·제외항목·신청 순서 | Savingio",
-      "meta_description": "본인부담상한제 환급금이 생기는 기준부터 비급여 등 제외항목, 사전급여·사후환급 차이, 조회와 신청 순서를 문제 해결형으로 정리했습니다.",
-      "canonical": "https://savingio.com/articles/health-insurance-out-of-pocket-refund.html",
-      "h1": [
-        "본인부담상한제 환급금, 대상·제외항목·신청 순서"
-      ],
-      "h2_count": 16,
-      "h3_count": 0,
-      "korean_chars": 3548,
-      "words": 1175,
-      "internal_article_links": 12,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": false,
-      "faq_schema": true,
-      "issues": [],
-      "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3548"
-      ],
-      "score": 92,
-      "status": "PASS"
-    },
-    {
       "path": "articles/health-insurance-refund-guide.html",
       "url": "https://savingio.com/articles/health-insurance-refund-guide.html",
       "title": "건강보험 환급금 조회부터 신청·입금 확인까지 최종 가이드 | Savingio",
@@ -2542,33 +2513,6 @@
       "status": "PASS"
     },
     {
-      "path": "articles/irs-tax-refund-status.html",
-      "url": "https://savingio.com/articles/irs-tax-refund-status.html",
-      "title": "세금 환급 진행상태 확인 방법 | Savingio",
-      "meta_description": "IRS 연방 세금 환급 진행상태를 Where’s My Refund, IRS 온라인 계정, IRS2Go로 확인하는 방법과 지연·승인·송금·환급 추적 대응 순서를 정리했습니다.",
-      "canonical": "https://savingio.com/articles/irs-tax-refund-status.html",
-      "h1": [
-        "세금 환급 진행상태 확인 방법"
-      ],
-      "h2_count": 22,
-      "h3_count": 8,
-      "korean_chars": 5888,
-      "words": 2261,
-      "internal_article_links": 11,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": false,
-      "faq_schema": true,
-      "issues": [],
-      "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING"
-      ],
-      "score": 96,
-      "status": "PASS"
-    },
-    {
       "path": "articles/lifelong-education-voucher-application.html",
       "url": "https://savingio.com/articles/lifelong-education-voucher-application.html",
       "title": "2026 평생교육이용권 신청 방법, 대상·사용처·카드 발급까지 | 세이빙이오(Savingio)",
@@ -2738,34 +2682,6 @@
       ],
       "score": 76,
       "status": "WARNING"
-    },
-    {
-      "path": "articles/low-income-cooling-support.html",
-      "url": "https://savingio.com/articles/low-income-cooling-support.html",
-      "title": "저소득층 냉방비 지원 신청 방법, 2026 에너지바우처 대상과 금액 | 세이빙이오(Savingio)",
-      "meta_description": "2026년 저소득층 냉방비 지원의 핵심인 에너지바우처 신청 대상, 세대원 특성기준, 지원금액, 신청기간, 행정복지센터·복지로 신청 방법과 전기요금 차감 순서를 정리했습니다.",
-      "canonical": "https://savingio.com/articles/low-income-cooling-support.html",
-      "h1": [
-        "저소득층 냉방비 지원 신청 방법, 2026 에너지바우처 대상과 금액"
-      ],
-      "h2_count": 20,
-      "h3_count": 1,
-      "korean_chars": 3840,
-      "words": 1222,
-      "internal_article_links": 7,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 2,
-      "article_schema": true,
-      "breadcrumb_schema": false,
-      "faq_schema": true,
-      "issues": [],
-      "warnings": [
-        "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3840"
-      ],
-      "score": 92,
-      "status": "PASS"
     },
     {
       "path": "articles/medical-bill-negotiation.html",
@@ -4135,33 +4051,6 @@
       "issues": [],
       "warnings": [
         "CONTENT_SHORT_KO:2768"
-      ],
-      "score": 96,
-      "status": "PASS"
-    },
-    {
-      "path": "articles/subscription-audit-checklist.html",
-      "url": "https://savingio.com/articles/subscription-audit-checklist.html",
-      "title": "구독서비스 점검 체크리스트, 한 달 10분으로 고정비 줄이기 | 세이빙이오(Savingio)",
-      "meta_description": "영상·음악·앱·클라우드·멤버십 구독을 매달 빠르게 점검하고 중복결제와 자동갱신을 막는 체크리스트입니다.",
-      "canonical": "https://savingio.com/articles/subscription-audit-checklist.html",
-      "h1": [
-        "구독서비스 점검 체크리스트, 한 달 10분으로 고정비 줄이기"
-      ],
-      "h2_count": 15,
-      "h3_count": 0,
-      "korean_chars": 3397,
-      "words": 1173,
-      "internal_article_links": 17,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [],
-      "warnings": [
-        "CONTENT_SHORT_KO:3397"
       ],
       "score": 96,
       "status": "PASS"
