@@ -1,8 +1,8 @@
 {
   "summary": {
     "article_count": 177,
-    "pass": 142,
-    "warning": 35,
+    "pass": 143,
+    "warning": 34,
     "fail": 0,
     "average_score": 90.7,
     "thin_under_2500_ko": 11,
@@ -2462,31 +2462,30 @@
       "path": "articles/insurance-auto-pay-discount.html",
       "url": "https://savingio.com/articles/insurance-auto-pay-discount.html",
       "title": "보험료 자동이체 할인, 바꾸기 전에 실제 납부액부터 비교하세요 | Savingio",
-      "meta_description": "보험료 자동이체 할인 대상 여부, 계좌이체와 카드납부 비교, 출금일 변경, 미납 예방과 변경 후 확인 순서를 정리했습니다.",
+      "meta_description": "보험료 자동이체 할인 여부, 계좌이체와 카드납부 비교, 출금일 변경, 미납·실효 예방, 변경 적용 회차와 첫 출금 확인 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/insurance-auto-pay-discount.html",
       "h1": [
         "보험료 자동이체 할인, 바꾸기 전에 실제 납부액부터 비교하세요"
       ],
-      "h2_count": 17,
-      "h3_count": 3,
-      "korean_chars": 3168,
-      "words": 1100,
-      "internal_article_links": 8,
+      "h2_count": 19,
+      "h3_count": 4,
+      "korean_chars": 4384,
+      "words": 1516,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 0,
-      "article_schema": false,
+      "jsonld_count": 1,
+      "article_schema": true,
       "breadcrumb_schema": false,
       "faq_schema": false,
       "issues": [],
       "warnings": [
-        "ARTICLE_SCHEMA_MISSING",
         "BREADCRUMB_SCHEMA_MISSING",
         "FAQ_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3168"
+        "CONTENT_SHORT_KO:4384"
       ],
-      "score": 84,
-      "status": "WARNING"
+      "score": 88,
+      "status": "PASS"
     },
     {
       "path": "articles/insurance-surrender-value-check.html",
