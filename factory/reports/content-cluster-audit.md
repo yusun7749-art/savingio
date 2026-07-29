@@ -9,7 +9,7 @@
 
 ## G001 · 재산세·지방세 · 15개
 
-- `articles/building-land-property-tax.html` — 건축물 재산세와 토지 재산세 차이, 고지서 확인부터 납부까지 (9,660자)
+- `articles/building-land-property-tax.html` — 건축물 재산세와 토지 재산세 차이, 고지서 두 장이 왔을 때 확인 순서 (4,677자)
 - `articles/local-tax-refund-guide.html` — 지방세 환급금 조회와 신청 방법, 위택스에서 놓친 돈 찾는 순서 (5,319자)
 - `articles/missing-property-tax-bill.html` — 재산세 고지서가 안 왔을 때 확인 방법 (9,145자)
 - `articles/property-tax-bill-checklist-2026.html` — 재산세 고지서 확인 체크리스트 2026 (6,978자)
