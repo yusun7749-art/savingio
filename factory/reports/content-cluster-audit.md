@@ -1,6 +1,6 @@
 # Savingio MASTER CONTENT MAP — 전체 주제 그룹 분류
 
-- 전체 본문: **178개**
+- 전체 본문: **177개**
 - 2개 이상 주제 그룹: **25개**
 - 그룹 내부 중복·통합 후보 관계: **2개**
 - 단독 주제 글: **3개**
@@ -254,19 +254,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G017 · 건강보험·의료비 환급 · 5개
-
-- `articles/emergency-medical-support.html` — 긴급복지 의료지원 신청 방법 (9,379자)
-- `articles/health-insurance-out-of-pocket-refund.html` — 본인부담상한제 환급금, 대상·제외항목·신청 순서 (4,960자)
-- `articles/health-insurance-overpayment-refund.html` — 건강보험료 과오납 환급, 이중납부부터 자격변동까지 확인하는 순서 (3,975자)
-- `articles/health-insurance-refund-guide.html` — 건강보험 환급금 조회부터 신청·입금 확인까지 최종 가이드 (5,138자)
-- `articles/medical-bill-negotiation.html` — 병원비가 너무 많이 나왔을 때 확인·정정·환불 요청 방법 (9,613자)
-
-중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
-
-**그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
-
-## G018 · 근로장려금 · 5개
+## G017 · 근로장려금 · 5개
 
 - `articles/child-tax-credit-status-check.html` — 자녀장려금 심사결과 확인 방법, 지급액과 감액 사유 보는 순서 (6,173자)
 - `articles/earned-income-credit-account-change.html` — 근로장려금 지급계좌 변경 방법, 홈택스 신청과 입금 오류 대응 (4,645자)
@@ -278,7 +266,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G019 · 기타 독립 주제 · 5개
+## G018 · 기타 독립 주제 · 5개
 
 - `articles/automatic-payment-saving.html` — 자동이체·자동결제 정리하는 방법, 매달 새는 고정비 찾기 (6,466자)
 - `articles/check-hidden-refunds.html` — 미수령 환급금 조회 방법 (8,394자)
@@ -290,7 +278,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G020 · 보험 점검 · 5개
+## G019 · 보험 점검 · 5개
 
 - `articles/daily-liability-leak-insurance.html` — 일배책 누수 보험 처리, 아랫집 피해 접수부터 합의까지 (8,632자)
 - `articles/duplicate-indemnity-insurance-check.html` — 실손보험 중복가입 확인부터 개인·단체실손 정리까지 최종 가이드 (5,605자)
@@ -302,7 +290,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G021 · 저소득·복지 · 5개
+## G020 · 저소득·복지 · 5개
 
 - `articles/culture-nuri-card-balance.html` — 문화누리카드 잔액 조회와 사용처 확인, 남은 금액까지 쓰는 방법 (8,417자)
 - `articles/emergency-welfare-living-support.html` — 긴급복지 생계지원 신청 조건 (8,755자)
@@ -314,7 +302,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G022 · 카드·포인트·캐시백 · 5개
+## G021 · 카드·포인트·캐시백 · 5개
 
 - `articles/card-points-cashback-guide.html` — 카드 포인트와 캐시백 활용법, 혜택보다 먼저 확인할 것 (3,322자)
 - `articles/cash-out-card-points.html` — 카드 포인트 현금화 방법, 흩어진 포인트를 계좌로 받는 순서 (5,555자)
@@ -326,13 +314,24 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G023 · 통신비·구독 · 5개
+## G022 · 통신비·구독 · 5개
 
 - `articles/cancel-unused-subscriptions.html` — 안 쓰는 구독서비스 해지하는 방법, 무료체험부터 자동결제까지 (6,958자)
 - `articles/internet-bill-discount.html` — 인터넷 요금 할인받는 방법, 약정·결합·재약정 점검 순서 (9,047자)
 - `articles/subscription-audit-checklist.html` — 구독서비스 점검 체크리스트, 한 달 10분으로 고정비 줄이기 (4,920자)
 - `articles/telecom-discount-guide.html` — 통신비 할인 총정리 (4,808자)
 - `articles/telecom-unclaimed-refund.html` — 통신비 미환급금 조회 방법 (3,573자)
+
+중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
+
+**그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
+
+## G023 · 건강보험·의료비 환급 · 4개
+
+- `articles/emergency-medical-support.html` — 긴급복지 의료지원 신청 방법 (9,379자)
+- `articles/health-insurance-out-of-pocket-refund.html` — 본인부담상한제 환급금, 대상·제외항목·신청 순서 (4,960자)
+- `articles/health-insurance-refund-guide.html` — 건강보험 환급금 조회부터 신청·입금 확인까지 최종 가이드 (5,138자)
+- `articles/medical-bill-negotiation.html` — 병원비가 너무 많이 나왔을 때 확인·정정·환불 요청 방법 (9,613자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
 
