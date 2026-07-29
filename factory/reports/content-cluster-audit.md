@@ -33,7 +33,7 @@
 ## G002 · 전기요금·에어컨 · 15개
 
 - `articles/air-conditioner-electricity-saving.html` — 에어컨 전기요금 줄이는 방법, 우리 집에 맞는 냉방 순서 (6,780자)
-- `articles/aircon-dry-mode-electricity.html` — 에어컨 제습모드 전기요금, 냉방보다 정말 덜 나올까? (5,209자)
+- `articles/aircon-dry-mode-electricity.html` — 에어컨 제습모드 전기요금, 냉방보다 정말 덜 나올까? (4,717자)
 - `articles/aircon-filter-cleaning-savings.html` — 에어컨 필터 청소로 전기요금 줄이는 방법, 냉방이 약할 때 확인 순서 (7,657자)
 - `articles/aircon-optimal-temperature-savings.html` — 에어컨 적정 온도는 몇 도일까? 전기요금과 쾌적함을 함께 잡는 설정 순서 (4,211자)
 - `articles/dehumidifier-electricity-saving.html` — 제습기 전기요금 계산과 절약법 (5,557자)
