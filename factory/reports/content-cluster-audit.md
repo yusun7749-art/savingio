@@ -241,7 +241,7 @@
 ## G016 · 청년 지원 · 6개
 
 - `articles/national-scholarship-application.html` — 국가장학금 신청 방법과 확인사항 (5,465자)
-- `articles/student-loan-repayment-guide.html` — 학자금대출 상환 방법과 부담 줄이는 순서 (3,973자)
+- `articles/student-loan-repayment-guide.html` — 학자금대출 상환 방법과 부담 줄이는 순서 (5,217자)
 - `articles/youth-housing-benefit-separate-payment.html` — 청년 주거급여 분리지급 확인 방법 (5,393자)
 - `articles/youth-leap-account-contribution.html` — 청년도약계좌 정부기여금 확인법 (4,842자)
 - `articles/youth-savings-account-maintenance.html` — 청년내일저축계좌 유지 조건 (4,821자)
