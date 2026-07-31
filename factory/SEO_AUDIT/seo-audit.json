@@ -2097,16 +2097,16 @@
       "path": "articles/government-support-calendar.html",
       "url": "https://savingio.com/articles/government-support-calendar.html",
       "title": "정부지원금 신청 일정 관리 방법, 마감일·갱신일 놓치지 않는 달력 만들기 | Savingio",
-      "meta_description": "정부지원금 신청 시작일, 서류 준비일, 제출 목표일, 보완일, 갱신일, 지급 확인일을 달력으로 관리하는 실전 방법을 정리했습니다.",
+      "meta_description": "정부지원금 신청 시작일, 서류 준비일, 제출 목표일, 보완일, 결과·지급 확인일, 갱신일을 달력으로 관리하는 실전 방법입니다.",
       "canonical": "https://savingio.com/articles/government-support-calendar.html",
       "h1": [
         "정부지원금 신청 일정 관리 방법, 마감일·갱신일 놓치지 않는 달력 만들기"
       ],
-      "h2_count": 17,
-      "h3_count": 4,
-      "korean_chars": 2772,
-      "words": 1018,
-      "internal_article_links": 11,
+      "h2_count": 18,
+      "h3_count": 3,
+      "korean_chars": 3150,
+      "words": 1146,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 1,
@@ -2117,7 +2117,7 @@
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
         "FAQ_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:2772"
+        "CONTENT_SHORT_KO:3150"
       ],
       "score": 88,
       "status": "PASS"
