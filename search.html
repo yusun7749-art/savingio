@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Savingio 전체 검색</title>
+<meta name="description" content="Savingio의 생활정보 전체를 검색합니다.">
+<link rel="canonical" href="https://savingio.com/search.html">
+<link rel="icon" href="/images/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/css/style.css?v=20">
+<link rel="stylesheet" href="/css/service-portal.css?v=20">
+<link rel="stylesheet" href="/css/savingio-article-unified-v3036.css?v=20260731-search-final1">
+<style>
+:root{--sv-navy:#132744;--sv-ink:#2d3033;--sv-gold:#b98238}body{margin:0;color:var(--sv-ink);background:#faf7f1}.info-shell{max-width:1120px;margin:auto;padding:116px 28px 80px}.info-hero{padding:12px 0 20px}.info-hero h1{font-family:"Noto Serif KR",serif;font-size:clamp(38px,4.5vw,58px);line-height:1.3;letter-spacing:-2.4px;margin:0 0 12px}.info-hero p{font-size:16px;color:#5f646a;margin:0}.search-box{margin-top:16px}.search-row{display:grid;grid-template-columns:minmax(0,1fr) 58px;gap:10px}.search-box input{width:100%;height:58px;box-sizing:border-box;padding:0 20px;border:1px solid rgba(19,39,68,.13);border-radius:16px;background:#fff;font-size:15px}.search-row button{border:0;border-radius:16px;background:#132744;color:#fff;font-size:18px;cursor:pointer}.result-head{display:flex;justify-content:space-between;margin:28px 0 10px;color:#5e646b;font-size:13px}.result-head strong{color:var(--sv-navy);font-size:15px}.article-grid{display:grid;grid-template-columns:1fr;border-top:1px solid rgba(19,39,68,.12)}.article-card{display:grid;grid-template-columns:150px minmax(0,1fr) auto;grid-template-areas:"category title link" "category desc link";align-items:center;column-gap:24px;padding:24px 4px;border-bottom:1px solid rgba(19,39,68,.10);text-decoration:none;color:var(--sv-ink)}.article-card .card-category{grid-area:category;color:var(--sv-gold);font-size:12px;font-weight:700}.article-card h2{grid-area:title;margin:0;font-size:19px;line-height:1.45;color:var(--sv-navy)}.article-card p{grid-area:desc;margin:7px 0 0;color:#70757b;font-size:13px;line-height:1.6}.article-card b{grid-area:link;color:var(--sv-navy);font-size:12px;white-space:nowrap}.pager{display:flex;justify-content:center;gap:8px;margin:28px 0}.pager button{min-width:40px;height:40px;border:1px solid #d5deeb;border-radius:10px;background:#fff}.pager button.active{background:var(--sv-navy);color:#fff}@media(max-width:760px){.info-shell{padding:92px 16px 58px}.article-card{grid-template-columns:1fr auto;grid-template-areas:"category link" "title title" "desc desc";row-gap:7px}}
+</style>
+</head>
+<body>
+<header class="site-header"></header>
+<main class="info-shell">
+<section class="info-hero"><h1>Savingio 전체 검색</h1><p>정확한 제목을 몰라도 비슷한 생활 표현으로 찾을 수 있습니다.</p></section>
+<section class="search-box"><form id="standaloneSearch" class="search-row"><input id="articleSearch" type="search" placeholder="예: 누수, 관리비, 자동차보험, 과태료, 환급" autocomplete="off"><button type="submit" aria-label="검색">⌕</button></form></section>
+<div class="result-head"><strong id="resultCount">정보를 불러오는 중입니다</strong><span>한 페이지에 12개씩 표시</span></div>
+<section class="article-grid" id="articleGrid" aria-live="polite"></section><nav class="pager" aria-label="검색 결과 페이지"></nav>
+</main>
+<script src="/js/savingio-directory-search-v2.js?v=20260731-search-final1"></script>
+<script>
+(function(){var f=document.getElementById('standaloneSearch'),i=document.getElementById('articleSearch');if(!f||!i)return;f.addEventListener('submit',function(e){e.preventDefault();var q=i.value.trim();var u=new URL(location.href);q?u.searchParams.set('q',q):u.searchParams.delete('q');history.replaceState(null,'',u);i.dispatchEvent(new Event('input',{bubbles:true}));});})();
+</script>
+</body>
+</html>
