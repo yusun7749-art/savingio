@@ -49,7 +49,7 @@
 - 겹치면 제목·도입부·내부 링크 역할을 분리
 - 동일 의도와 내용이 확인될 때만 통합 검토
 
-## 이번 대화에서 실제 완료된 GitHub 작업
+## 실제 완료된 GitHub 작업
 
 ### `articles/cash-advance-vs-card-loan.html`
 - 실제 수정 커밋: `bf886349d4a4fa3c9deec15447c5f59aac007dca`
@@ -63,6 +63,20 @@
 - 고용보험 이력, 이직 사유, 이직확인서, 신청·실업인정 흐름 재구성
 - 자진퇴사 예외, 소득 신고, FAQ, 체크리스트, 공식 확인처 보강
 - URL과 H1 유지
+
+### `articles/severance-pay-calculation-guide.html`
+- 실제 수정 커밋: `b122877f013e2595485b5c2a24e9da97c602c400`
+- 수정 후 blob SHA: `2f49627984cf3f8bf91f32127be685baf6cc629b`
+- 수정 파일 재조회 확인 완료
+- 기존 잘린 자동 요약과 중복 목차 제거
+- URL, 파일명, H1, 정부지원 카테고리 유지
+- 평균임금과 통상임금 차이, 계속근로기간, 1년·주 15시간 기본조건 보강
+- 퇴직금 공식과 실제 계산 사례, 상여금·연차수당, 휴직·중간정산, 14일 지급기한 보강
+- 고용노동부 노동포털 계산기와 국가법령정보센터 공식 확인처 연결
+- 비교표, 체크리스트, FAQ, 문제 해결 사슬형 관련 글 구성
+- Brain Navigation 자산 유지: `/data/savingio-brain-data.js?v=17`, `/js/savingio-brain-navigation.js?v=17`
+- 오른쪽 카드 5개 목적과 순서 유지
+- 다음 대상: `articles/telecom-unclaimed-refund.html`
 
 ## 이번 대화의 오류와 교정
 - GitHub 쓰기 기능이 활성화되어 있는데도 수정할 수 없다고 답한 것은 잘못이었다.
@@ -104,17 +118,13 @@ Breadcrumb → H1 → Lead → 작성·검수 → 핵심 요약 → 내 상황 �
 본문 상단의 불필요한 `<figure class="thumb">`는 제거 유지한다.
 
 ## 현재 즉시 대상
-`articles/severance-pay-calculation-guide.html`
+`articles/telecom-unclaimed-refund.html`
 
 확인 항목:
 - 현재 실제 본문 길이
-- 평균임금·통상임금 설명
-- 계속근로기간과 1년 미만 예외
-- 계산 공식과 실제 사례
-- 상여금·연차수당 포함 설명
-- 중간정산과 지급기한
-- 퇴직금 계산기 연결
-- 공식기관 링크
+- 미환급금 발생 원인과 통신사별 조회 경로
+- 공식 조회·신청처와 개인정보 주의
+- 환급 대상·소멸 관련 단정 금지
 - FAQ·표·체크리스트
 - 내부 링크·Navigation·오른쪽 카드 5개
 
@@ -125,16 +135,15 @@ Breadcrumb → H1 → Lead → 작성·검수 → 핵심 요약 → 내 상황 �
 - blob SHA 확인
 
 그다음 순서:
-1. `telecom-unclaimed-refund.html`
-2. `money-saving-habits.html`
-3. `weekly-holiday-pay-guide.html`
-4. `business-phone-expense-deduction.html`
-5. `government24-benefit-check.html`
-6. `hometax-refund-status.html`
-7. `government-benefit-alert-setup.html`
-8. `student-loan-repayment-guide.html`
-9. `salary-slip-check-guide.html`
-10. `government-support-calendar.html`
+1. `money-saving-habits.html`
+2. `weekly-holiday-pay-guide.html`
+3. `business-phone-expense-deduction.html`
+4. `government24-benefit-check.html`
+5. `hometax-refund-status.html`
+6. `government-benefit-alert-setup.html`
+7. `student-loan-repayment-guide.html`
+8. `salary-slip-check-guide.html`
+9. `government-support-calendar.html`
 
 ## 보고 형식
 - PASS ✅: 수정·커밋·재조회 완료
@@ -145,4 +154,4 @@ Breadcrumb → H1 → Lead → 작성·검수 → 핵심 요약 → 내 상황 �
 반드시 수정 파일, 커밋 SHA, blob SHA, 보강 내용, 링크·Navigation·카테고리 검증, 남은 문제, 다음 대상을 기록한다.
 
 ## 새 대화 재시작 문구
-`Savingio 애드센스 재승인 작업 이어서 시작. GitHub yusun7749-art/savingio main 기준으로 factory/MASTER_LOG/MASTER_LOG_HANDOVER_2026-07-31_CONTENT_AUDIT.md와 MASTER_LOG_CURRENT.md를 먼저 읽고 최신 main과 비교해. 전체 171개를 다시 보지 말고 4,200자 미만 감사 대상 16개를 한 글씩 실제 수정·커밋·재조회해. 현재 대상은 articles/severance-pay-calculation-guide.html이다. 이후 중복 의심 26개 검색 의도 검토 → 내부 링크·Navigation·카테고리 QA → Search Console → 애드센스 재심사 순서로 진행해. 커밋과 재조회가 있을 때만 PASS라고 보고해.`
+`Savingio 애드센스 재승인 작업 이어서 시작. GitHub yusun7749-art/savingio main 기준으로 factory/MASTER_LOG/MASTER_LOG_HANDOVER_2026-07-31_CONTENT_AUDIT.md와 MASTER_LOG_CURRENT.md를 먼저 읽고 최신 main과 비교해. 전체 171개를 다시 보지 말고 4,200자 미만 감사 대상 16개를 한 글씩 실제 수정·커밋·재조회해. 현재 대상은 articles/telecom-unclaimed-refund.html이다. 이후 중복 의심 26개 검색 의도 검토 → 내부 링크·Navigation·카테고리 QA → Search Console → 애드센스 재심사 순서로 진행해. 커밋과 재조회가 있을 때만 PASS라고 보고해.`
