@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
-- Articles: 171
+- Articles: 155
 - PASS: 153
-- WARNING: 18
+- WARNING: 2
 - FAIL: 0
-- Average score: 91.2
+- Average score: 92.3
 - Thin content (<2500 Korean chars): 0
-- Short content (<4500 Korean chars): 109
+- Short content (<4500 Korean chars): 93
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -20,24 +20,8 @@
 
 | Score | Status | Article | Main findings |
 |---:|---|---|---|
-| 80 | WARNING | `articles/refrigerator-summer-electricity-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:27, CONTENT_SHORT_KO:3593 |
-| 80 | WARNING | `articles/revolving-cancellation-payoff.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3234 |
-| 80 | WARNING | `articles/savings-maturity-auto-renewal.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3274 |
-| 80 | WARNING | `articles/single-parent-support-benefits.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3597 |
-| 80 | WARNING | `articles/summer-gas-bill-hot-water-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3351 |
-| 80 | WARNING | `articles/summer-water-bill-spike-check.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:32, CONTENT_SHORT_KO:3329 |
-| 80 | WARNING | `articles/tax-credit-late-application.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3449 |
-| 80 | WARNING | `articles/telecom-discount-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:10, CONTENT_SHORT_KO:3320 |
-| 80 | WARNING | `articles/travel-insurance-comparison.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:33, CONTENT_SHORT_KO:3298 |
-| 80 | WARNING | `articles/unemployment-benefit-job-search.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:31, CONTENT_SHORT_KO:3315 |
-| 80 | WARNING | `articles/wetax-electronic-billing.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3065 |
-| 80 | WARNING | `articles/wetax-payment-history.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:14, CONTENT_SHORT_KO:3050 |
-| 80 | WARNING | `articles/yellow-umbrella-mutual-aid-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3180 |
-| 80 | WARNING | `articles/youth-leap-account-contribution.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3372 |
-| 80 | WARNING | `articles/youth-savings-account-maintenance.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3354 |
 | 84 | WARNING | `articles/fan-aircon-combination-saving.html` | META_DESCRIPTION_LENGTH:37, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2929 |
 | 84 | WARNING | `articles/national-employment-support-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, INTERNAL_ARTICLE_LINKS_LOW:2, CONTENT_SHORT_KO:4077 |
-| 84 | WARNING | `articles/youth-support-programs.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:3474 |
 | 88 | PASS | `articles/aircon-optimal-temperature-savings.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2908 |
 | 88 | PASS | `articles/apartment-management-fee-summer.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4224 |
 | 88 | PASS | `articles/automatic-payment-saving.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4458 |
@@ -95,8 +79,24 @@
 | 92 | PASS | `articles/earned-income-credit-account-change.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3220 |
 | 92 | PASS | `articles/earned-income-credit-payment.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4376 |
 | 92 | PASS | `articles/earned-income-credit-status-check.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3592 |
-| 92 | PASS | `articles/education-benefit-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3939 |
+| 92 | PASS | `articles/education-benefit-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3907 |
 | 92 | PASS | `articles/electricity-bill-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3243 |
 | 92 | PASS | `articles/electricity-discount-card-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4199 |
 | 92 | PASS | `articles/elementary-school-education-support.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/first-meeting-voucher-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4360 |
+| 92 | PASS | `articles/fixed-speed-aircon-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3368 |
+| 92 | PASS | `articles/four-major-insurance-deduction-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3282 |
+| 92 | PASS | `articles/gas-bill-checklist.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3268 |
+| 92 | PASS | `articles/government-benefit-alert-setup.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3919 |
+| 92 | PASS | `articles/health-insurance-refund-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3604 |
+| 92 | PASS | `articles/heating-bill-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3130 |
+| 92 | PASS | `articles/home-water-leak-self-check.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
+| 92 | PASS | `articles/hometax-refund-status.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3387 |
+| 92 | PASS | `articles/housing-benefit-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
+| 92 | PASS | `articles/impulse-buying-control.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3961 |
+| 92 | PASS | `articles/income-tax-filing-missed-consequences.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
+| 92 | PASS | `articles/insurance-surrender-value-check.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4478 |
+| 92 | PASS | `articles/internet-bill-discount.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
+| 92 | PASS | `articles/inverter-aircon-saving-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
+| 92 | PASS | `articles/loan-prepayment-fee-check.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4158 |
+| 92 | PASS | `articles/loan-refinancing-check.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4100 |

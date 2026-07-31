@@ -1,12 +1,12 @@
 {
   "summary": {
-    "article_count": 171,
+    "article_count": 155,
     "pass": 153,
-    "warning": 18,
+    "warning": 2,
     "fail": 0,
-    "average_score": 91.2,
+    "average_score": 92.3,
     "thin_under_2500_ko": 0,
-    "short_under_4500_ko": 109,
+    "short_under_4500_ko": 93,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -1512,9 +1512,9 @@
       ],
       "h2_count": 18,
       "h3_count": 4,
-      "korean_chars": 3939,
-      "words": 1255,
-      "internal_article_links": 6,
+      "korean_chars": 3907,
+      "words": 1245,
+      "internal_article_links": 5,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 2,
@@ -1524,7 +1524,7 @@
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3939"
+        "CONTENT_SHORT_KO:3907"
       ],
       "score": 92,
       "status": "PASS"
@@ -3474,34 +3474,6 @@
       "status": "PASS"
     },
     {
-      "path": "articles/refrigerator-summer-electricity-saving.html",
-      "title": "여름철 냉장고 전기세 절약 방법 | 세이빙이오(Savingio)",
-      "meta_description": "냉장고 온도·적재량·문 여닫기 습관을 점검합니다.",
-      "h1": [
-        "여름철 냉장고 전기세 절약 방법"
-      ],
-      "h2_count": 13,
-      "h3_count": 4,
-      "korean_chars": 3593,
-      "words": 1285,
-      "internal_article_links": 28,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:27",
-        "CONTENT_SHORT_KO:3593"
-      ],
-      "score": 80,
-      "status": "WARNING"
-    },
-    {
       "path": "articles/regional-development-bond-refund-guide.html",
       "url": "https://savingio.com/articles/regional-development-bond-refund-guide.html",
       "title": "자동차 채권 환급금 조회 방법, 지역개발채권 만기상환 확인 순서 | 세이빙이오(Savingio)",
@@ -3512,9 +3484,9 @@
       ],
       "h2_count": 9,
       "h3_count": 0,
-      "korean_chars": 3082,
-      "words": 1026,
-      "internal_article_links": 13,
+      "korean_chars": 3063,
+      "words": 1016,
+      "internal_article_links": 12,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 3,
@@ -3523,7 +3495,7 @@
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:3082"
+        "CONTENT_SHORT_KO:3063"
       ],
       "score": 96,
       "status": "PASS"
@@ -3584,34 +3556,6 @@
       "status": "PASS"
     },
     {
-      "path": "articles/revolving-cancellation-payoff.html",
-      "title": "리볼빙 해지와 잔액 상환 방법 | 세이빙이오(Savingio)",
-      "meta_description": "일부결제금액이월약정의 비용과 해지 후 상환 계획을 정리합니다.",
-      "h1": [
-        "리볼빙 해지와 잔액 상환 방법"
-      ],
-      "h2_count": 13,
-      "h3_count": 4,
-      "korean_chars": 3234,
-      "words": 1139,
-      "internal_article_links": 16,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:34",
-        "CONTENT_SHORT_KO:3234"
-      ],
-      "score": 80,
-      "status": "WARNING"
-    },
-    {
       "path": "articles/salary-slip-check-guide.html",
       "url": "https://savingio.com/articles/salary-slip-check-guide.html",
       "title": "급여명세서 확인 방법, 월급에서 빠진 돈을 항목별로 보는 순서 | Savingio",
@@ -3668,34 +3612,6 @@
       "status": "PASS"
     },
     {
-      "path": "articles/savings-maturity-auto-renewal.html",
-      "title": "적금 만기 후 자동재예치 확인법 | 세이빙이오(Savingio)",
-      "meta_description": "적금 만기 뒤 적용 금리와 자동재예치 설정을 확인하는 방법입니다.",
-      "h1": [
-        "적금 만기 후 자동재예치 확인법"
-      ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3274,
-      "words": 1137,
-      "internal_article_links": 16,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:36",
-        "CONTENT_SHORT_KO:3274"
-      ],
-      "score": 80,
-      "status": "WARNING"
-    },
-    {
       "path": "articles/self-employed-income-tax-refund-check.html",
       "url": "https://savingio.com/articles/self-employed-income-tax-refund-check.html",
       "title": "종합소득세 신고 대상 확인 방법 | 세이빙이오(Savingio)",
@@ -3723,28 +3639,29 @@
     {
       "path": "articles/senior-job-application-guide.html",
       "url": "https://savingio.com/articles/senior-job-application-guide.html",
-      "title": "노인일자리 신청 방법, 모집 시기와 사업 유형을 비교하는 체크리스트 | 세이빙이오(Savingio)",
-      "meta_description": "노인일자리 모집 확인, 참여 조건, 공익활동·사회서비스형·시장형 차이, 신청서류와 면접 준비를 정리했습니다.",
+      "title": "노인일자리 신청 방법, 모집 시기와 사업 유형을 비교하는 체크리스트 | Savingio",
+      "meta_description": "노인일자리 모집 확인부터 공공형·사회서비스형·민간형 차이, 신청서류, 선발 제외, 면접과 배치 후 확인사항까지 실제 신청 순서로 정리했습니다.",
       "canonical": "https://savingio.com/articles/senior-job-application-guide.html",
       "h1": [
         "노인일자리 신청 방법, 모집 시기와 사업 유형을 비교하는 체크리스트"
       ],
-      "h2_count": 9,
-      "h3_count": 0,
-      "korean_chars": 3017,
-      "words": 987,
-      "internal_article_links": 8,
+      "h2_count": 16,
+      "h3_count": 3,
+      "korean_chars": 3384,
+      "words": 1080,
+      "internal_article_links": 9,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:3017"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3384"
       ],
-      "score": 96,
+      "score": 92,
       "status": "PASS"
     },
     {
@@ -3758,9 +3675,9 @@
       ],
       "h2_count": 20,
       "h3_count": 6,
-      "korean_chars": 5505,
-      "words": 1727,
-      "internal_article_links": 11,
+      "korean_chars": 5497,
+      "words": 1724,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 2,
@@ -3785,9 +3702,9 @@
       ],
       "h2_count": 17,
       "h3_count": 2,
-      "korean_chars": 3338,
-      "words": 1113,
-      "internal_article_links": 10,
+      "korean_chars": 3322,
+      "words": 1106,
+      "internal_article_links": 9,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 3,
@@ -3796,7 +3713,7 @@
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:3338"
+        "CONTENT_SHORT_KO:3322"
       ],
       "score": 96,
       "status": "PASS"
@@ -3854,34 +3771,6 @@
       ],
       "score": 96,
       "status": "PASS"
-    },
-    {
-      "path": "articles/single-parent-support-benefits.html",
-      "title": "한부모가족 지원금 조회 방법 | 세이빙이오(Savingio)",
-      "meta_description": "한부모가족이 정부24와 복지로에서 확인할 주요 지원을 정리합니다.",
-      "h1": [
-        "한부모가족 지원금 조회 방법"
-      ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3597,
-      "words": 1268,
-      "internal_article_links": 23,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:36",
-        "CONTENT_SHORT_KO:3597"
-      ],
-      "score": 80,
-      "status": "WARNING"
     },
     {
       "path": "articles/small-business-closure-support.html",
@@ -4059,9 +3948,9 @@
       ],
       "h2_count": 19,
       "h3_count": 3,
-      "korean_chars": 3826,
-      "words": 1312,
-      "internal_article_links": 9,
+      "korean_chars": 3821,
+      "words": 1310,
+      "internal_article_links": 8,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 2,
@@ -4071,38 +3960,10 @@
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3826"
+        "CONTENT_SHORT_KO:3821"
       ],
       "score": 92,
       "status": "PASS"
-    },
-    {
-      "path": "articles/summer-gas-bill-hot-water-saving.html",
-      "title": "여름 가스요금 줄이는 온수 사용법 | 세이빙이오(Savingio)",
-      "meta_description": "샤워와 설거지 온수 사용량을 줄여 가스비를 아끼는 방법입니다.",
-      "h1": [
-        "여름 가스요금 줄이는 온수 사용법"
-      ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3351,
-      "words": 1170,
-      "internal_article_links": 15,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:34",
-        "CONTENT_SHORT_KO:3351"
-      ],
-      "score": 80,
-      "status": "WARNING"
     },
     {
       "path": "articles/summer-vacation-budget-plan.html",
@@ -4133,62 +3994,6 @@
       "status": "PASS"
     },
     {
-      "path": "articles/summer-water-bill-spike-check.html",
-      "title": "여름철 수도요금 급증 원인 점검 | 세이빙이오(Savingio)",
-      "meta_description": "누수·사용량 증가·검침 오류 가능성을 차례대로 확인합니다.",
-      "h1": [
-        "여름철 수도요금 급증 원인 점검"
-      ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3329,
-      "words": 1163,
-      "internal_article_links": 15,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:32",
-        "CONTENT_SHORT_KO:3329"
-      ],
-      "score": 80,
-      "status": "WARNING"
-    },
-    {
-      "path": "articles/tax-credit-late-application.html",
-      "title": "장려금 신청 누락 시 기한후 신청 방법 | 세이빙이오(Savingio)",
-      "meta_description": "정기신청을 놓쳤을 때 기한후 신청 절차와 유의점을 정리합니다.",
-      "h1": [
-        "장려금 신청 누락 시 기한후 신청 방법"
-      ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3449,
-      "words": 1217,
-      "internal_article_links": 15,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:34",
-        "CONTENT_SHORT_KO:3449"
-      ],
-      "score": 80,
-      "status": "WARNING"
-    },
-    {
       "path": "articles/tax-invoice-vs-cash-receipt.html",
       "url": "https://savingio.com/articles/tax-invoice-vs-cash-receipt.html",
       "title": "현금영수증 매출 조회 방법, 누락·중복까지 확인하는 순서 | Savingio",
@@ -4215,34 +4020,6 @@
       ],
       "score": 92,
       "status": "PASS"
-    },
-    {
-      "path": "articles/telecom-discount-guide.html",
-      "title": "통신비 할인 총정리 | 세이빙이오(Savingio)",
-      "meta_description": "통신비 할인 총정리",
-      "h1": [
-        "통신비 할인 총정리"
-      ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3320,
-      "words": 1158,
-      "internal_article_links": 18,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:10",
-        "CONTENT_SHORT_KO:3320"
-      ],
-      "score": 80,
-      "status": "WARNING"
     },
     {
       "path": "articles/telecom-unclaimed-refund.html",
@@ -4302,34 +4079,6 @@
       "status": "PASS"
     },
     {
-      "path": "articles/travel-insurance-comparison.html",
-      "title": "여행자보험 가입 전 비교 항목 | 세이빙이오(Savingio)",
-      "meta_description": "해외·국내 여행자보험의 보장 범위와 자기부담금 확인법입니다.",
-      "h1": [
-        "여행자보험 가입 전 비교 항목"
-      ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3298,
-      "words": 1149,
-      "internal_article_links": 16,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:33",
-        "CONTENT_SHORT_KO:3298"
-      ],
-      "score": 80,
-      "status": "WARNING"
-    },
-    {
       "path": "articles/unemployment-benefit-checklist.html",
       "url": "https://savingio.com/articles/unemployment-benefit-checklist.html",
       "title": "실업급여 신청 전 확인할 조건과 준비서류 체크리스트 | Savingio",
@@ -4340,9 +4089,9 @@
       ],
       "h2_count": 20,
       "h3_count": 5,
-      "korean_chars": 4740,
-      "words": 1529,
-      "internal_article_links": 11,
+      "korean_chars": 4696,
+      "words": 1515,
+      "internal_article_links": 9,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 2,
@@ -4355,34 +4104,6 @@
       ],
       "score": 96,
       "status": "PASS"
-    },
-    {
-      "path": "articles/unemployment-benefit-job-search.html",
-      "title": "실업급여 구직활동 인정 기준 | 세이빙이오(Savingio)",
-      "meta_description": "실업인정일에 인정되는 구직활동과 증빙 방법을 정리합니다.",
-      "h1": [
-        "실업급여 구직활동 인정 기준"
-      ],
-      "h2_count": 13,
-      "h3_count": 4,
-      "korean_chars": 3315,
-      "words": 1121,
-      "internal_article_links": 11,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:31",
-        "CONTENT_SHORT_KO:3315"
-      ],
-      "score": 80,
-      "status": "WARNING"
     },
     {
       "path": "articles/vat-final-return-2026-july.html",
@@ -4561,9 +4282,9 @@
       ],
       "h2_count": 14,
       "h3_count": 6,
-      "korean_chars": 3870,
-      "words": 1346,
-      "internal_article_links": 15,
+      "korean_chars": 3805,
+      "words": 1320,
+      "internal_article_links": 12,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 3,
@@ -4572,7 +4293,7 @@
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:3870"
+        "CONTENT_SHORT_KO:3805"
       ],
       "score": 96,
       "status": "PASS"
@@ -4605,90 +4326,6 @@
       "status": "PASS"
     },
     {
-      "path": "articles/wetax-electronic-billing.html",
-      "title": "위택스 지방세 전자고지 신청 방법 | 세이빙이오(Savingio)",
-      "meta_description": "종이 고지서 대신 모바일·전자고지를 신청하는 절차를 안내합니다.",
-      "h1": [
-        "위택스 지방세 전자고지 신청 방법"
-      ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3065,
-      "words": 1062,
-      "internal_article_links": 10,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:35",
-        "CONTENT_SHORT_KO:3065"
-      ],
-      "score": 80,
-      "status": "WARNING"
-    },
-    {
-      "path": "articles/wetax-payment-history.html",
-      "title": "위택스 납부내역 확인 방법 | 세이빙이오(Savingio)",
-      "meta_description": "위택스 납부내역 확인 방법",
-      "h1": [
-        "위택스 납부내역 확인 방법"
-      ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3050,
-      "words": 1058,
-      "internal_article_links": 10,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:14",
-        "CONTENT_SHORT_KO:3050"
-      ],
-      "score": 80,
-      "status": "WARNING"
-    },
-    {
-      "path": "articles/yellow-umbrella-mutual-aid-guide.html",
-      "title": "노란우산공제 가입 전 확인사항 | 세이빙이오(Savingio)",
-      "meta_description": "소득공제, 납입 부담, 중도해지 불이익을 가입 전에 점검합니다.",
-      "h1": [
-        "노란우산공제 가입 전 확인사항"
-      ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3180,
-      "words": 1110,
-      "internal_article_links": 16,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:35",
-        "CONTENT_SHORT_KO:3180"
-      ],
-      "score": 80,
-      "status": "WARNING"
-    },
-    {
       "path": "articles/youth-housing-benefit-separate-payment.html",
       "url": "https://savingio.com/articles/youth-housing-benefit-separate-payment.html",
       "title": "청년 주거급여 분리지급 확인 방법 | 세이빙이오(Savingio)",
@@ -4699,9 +4336,9 @@
       ],
       "h2_count": 12,
       "h3_count": 1,
-      "korean_chars": 3775,
-      "words": 1289,
-      "internal_article_links": 21,
+      "korean_chars": 3759,
+      "words": 1282,
+      "internal_article_links": 20,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 3,
@@ -4710,93 +4347,10 @@
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:3775"
+        "CONTENT_SHORT_KO:3759"
       ],
       "score": 96,
       "status": "PASS"
-    },
-    {
-      "path": "articles/youth-leap-account-contribution.html",
-      "title": "청년도약계좌 정부기여금 확인법 | 세이빙이오(Savingio)",
-      "meta_description": "소득구간에 따른 정부기여금과 유지 조건을 확인하는 방법입니다.",
-      "h1": [
-        "청년도약계좌 정부기여금 확인법"
-      ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3372,
-      "words": 1155,
-      "internal_article_links": 13,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:34",
-        "CONTENT_SHORT_KO:3372"
-      ],
-      "score": 80,
-      "status": "WARNING"
-    },
-    {
-      "path": "articles/youth-savings-account-maintenance.html",
-      "title": "청년내일저축계좌 유지 조건 | 세이빙이오(Savingio)",
-      "meta_description": "근로활동, 교육 이수, 자금사용계획서 등 유지 요건을 정리합니다.",
-      "h1": [
-        "청년내일저축계좌 유지 조건"
-      ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3354,
-      "words": 1150,
-      "internal_article_links": 13,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "META_DESCRIPTION_LENGTH:36",
-        "CONTENT_SHORT_KO:3354"
-      ],
-      "score": 80,
-      "status": "WARNING"
-    },
-    {
-      "path": "articles/youth-support-programs.html",
-      "title": "청년 지원금 종류 한눈에 보기, 신청 전 확인할 기준 | 세이빙이오(Savingio)",
-      "meta_description": "청년 대상 지원제도는 지역과 조건에 따라 달라지므로 먼저 확인해야 할 기준을 정리했습니다.",
-      "h1": [
-        "청년 지원금 종류 한눈에 보기, 신청 전 확인할 기준"
-      ],
-      "h2_count": 12,
-      "h3_count": 4,
-      "korean_chars": 3474,
-      "words": 1214,
-      "internal_article_links": 13,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 3,
-      "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [
-        "GENERIC_TEMPLATE_TEXT:4"
-      ],
-      "warnings": [
-        "CONTENT_SHORT_KO:3474"
-      ],
-      "score": 84,
-      "status": "WARNING"
     }
   ]
 }
