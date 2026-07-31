@@ -97,7 +97,7 @@
 - `articles/severance-pay-easy-calculator-guide.html` — 퇴직금, 입사일과 월급만으로 빠르게 확인하는 방법 (4,727자)
 - `articles/unemployment-benefit-checklist.html` — 실업급여 신청 전 확인할 조건과 준비서류 체크리스트 (6,692자)
 - `articles/unemployment-benefit-job-search.html` — 실업급여 구직활동 인정 기준 (4,739자)
-- `articles/weekly-holiday-pay-guide.html` — 주휴수당 조건과 계산 방법, 내가 받을 수 있는지 확인하는 순서 (3,657자)
+- `articles/weekly-holiday-pay-guide.html` — 주휴수당 조건과 계산 방법, 내가 받을 수 있는지 확인하는 순서 (7,068자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
 
