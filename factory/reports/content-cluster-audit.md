@@ -79,7 +79,7 @@
 - `articles/budget-app-guide.html` — 가계부 앱 고르는 방법, 자동연동보다 중요한 기준 (6,076자)
 - `articles/emergency-fund-guide.html` — 비상금 얼마가 적당할까? 생활비 1개월부터 만드는 현실적인 순서 (6,229자)
 - `articles/impulse-buying-control.html` — 충동구매 줄이는 현실적인 방법, 결제 전 24시간 규칙부터 시작하세요 (5,829자)
-- `articles/money-saving-habits.html` — 돈이 모이는 생활 습관 (3,576자)
+- `articles/money-saving-habits.html` — 돈이 모이는 생활 습관 (4,894자)
 - `articles/monthly-budget-planner.html` — 월 예산표 만드는 방법, 월급날부터 다음 급여일까지 관리하세요 (6,252자)
 - `articles/spending-habits-change.html` — 소비 습관 바꾸는 방법, 지출을 참기보다 구조를 바꾸세요 (7,305자)
 - `articles/summer-vacation-budget-plan.html` — 여름 휴가비 예산 짜는 방법, 여행 후 카드값까지 계산하세요 (4,588자)
