@@ -1,12 +1,12 @@
 # Savingio Full SEO Audit
 
 - Articles: 171
-- PASS: 149
-- WARNING: 22
+- PASS: 150
+- WARNING: 21
 - FAIL: 0
-- Average score: 91.0
-- Thin content (<2500 Korean chars): 4
-- Short content (<4500 Korean chars): 114
+- Average score: 91.1
+- Thin content (<2500 Korean chars): 3
+- Short content (<4500 Korean chars): 113
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -38,7 +38,6 @@
 | 80 | WARNING | `articles/youth-savings-account-maintenance.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3354 |
 | 84 | WARNING | `articles/fan-aircon-combination-saving.html` | META_DESCRIPTION_LENGTH:37, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2929 |
 | 84 | WARNING | `articles/national-employment-support-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, INTERNAL_ARTICLE_LINKS_LOW:2, CONTENT_SHORT_KO:4077 |
-| 84 | WARNING | `articles/unemployment-benefit-checklist.html` | THIN_CONTENT_KO:2442, META_DESCRIPTION_LENGTH:49 |
 | 84 | WARNING | `articles/youth-support-programs.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:3474 |
 | 88 | PASS | `articles/aircon-optimal-temperature-savings.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2908 |
 | 88 | PASS | `articles/apartment-management-fee-summer.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4224 |
@@ -100,3 +99,4 @@
 | 92 | PASS | `articles/education-benefit-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3939 |
 | 92 | PASS | `articles/electricity-bill-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3243 |
 | 92 | PASS | `articles/electricity-discount-card-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4199 |
+| 92 | PASS | `articles/elementary-school-education-support.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |

@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 171,
-    "pass": 149,
-    "warning": 22,
+    "pass": 150,
+    "warning": 21,
     "fail": 0,
-    "average_score": 91.0,
-    "thin_under_2500_ko": 4,
-    "short_under_4500_ko": 114,
+    "average_score": 91.1,
+    "thin_under_2500_ko": 3,
+    "short_under_4500_ko": 113,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -4349,31 +4349,29 @@
     {
       "path": "articles/unemployment-benefit-checklist.html",
       "url": "https://savingio.com/articles/unemployment-benefit-checklist.html",
-      "title": "실업급여 신청 전 확인할 조건과 준비서류 체크리스트 | 세이빙이오(Savingio)",
-      "meta_description": "고용보험 가입기간, 이직 사유, 구직활동, 이직확인서와 신청 절차를 순서대로 확인합니다.",
+      "title": "실업급여 신청 전 확인할 조건과 준비서류 체크리스트 | Savingio",
+      "meta_description": "실업급여 신청 전 고용보험 가입기간, 피보험단위기간, 이직 사유, 이직확인서, 구직신청, 실업인정과 준비서류를 한글 체크리스트로 확인하세요.",
       "canonical": "https://savingio.com/articles/unemployment-benefit-checklist.html",
       "h1": [
         "실업급여 신청 전 확인할 조건과 준비서류 체크리스트"
       ],
-      "h2_count": 14,
-      "h3_count": 0,
-      "korean_chars": 2442,
-      "words": 801,
-      "internal_article_links": 7,
+      "h2_count": 20,
+      "h3_count": 5,
+      "korean_chars": 4740,
+      "words": 1529,
+      "internal_article_links": 11,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "THIN_CONTENT_KO:2442"
-      ],
+      "issues": [],
       "warnings": [
-        "META_DESCRIPTION_LENGTH:49"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "score": 84,
-      "status": "WARNING"
+      "score": 96,
+      "status": "PASS"
     },
     {
       "path": "articles/unemployment-benefit-job-search.html",
