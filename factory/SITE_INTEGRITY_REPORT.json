@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3320,
-  "references_scanned": 61585,
+  "references_scanned": 61590,
   "counts": {
-    "broken_references": 3035,
+    "broken_references": 3037,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 7,
@@ -1325,6 +1325,13 @@
       ]
     },
     {
+      "source": "articles/business-phone-expense-deduction.html",
+      "reference": "/articles/business-expense-proof-guide.html",
+      "expected": [
+        "articles/business-expense-proof-guide.html"
+      ]
+    },
+    {
       "source": "articles/business-vehicle-expense-basics.html",
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
@@ -1893,9 +1900,16 @@
     },
     {
       "source": "articles/weekly-holiday-pay-guide.html",
-      "reference": "/articles/salary-management-guide.html",
+      "reference": "/articles/minimum-wage-guide.html",
       "expected": [
-        "articles/salary-management-guide.html"
+        "articles/minimum-wage-guide.html"
+      ]
+    },
+    {
+      "source": "articles/weekly-holiday-pay-guide.html",
+      "reference": "/articles/overtime-pay-calculation.html",
+      "expected": [
+        "articles/overtime-pay-calculation.html"
       ]
     },
     {
