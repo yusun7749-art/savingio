@@ -770,7 +770,6 @@
       "path": "articles/reduce-electricity-bill.html"
     },
     {
-      "id": "/articles/refrigerator-summer-electricity-saving.html",
       "title": "여름철 냉장고 전기세 절약 방법",
       "path": "articles/refrigerator-summer-electricity-saving.html"
     },
@@ -790,7 +789,6 @@
       "path": "articles/rental-contract-reporting-guide.html"
     },
     {
-      "id": "/articles/revolving-cancellation-payoff.html",
       "title": "리볼빙 해지와 잔액 상환 방법",
       "path": "articles/revolving-cancellation-payoff.html"
     },
@@ -815,7 +813,6 @@
       "path": "articles/salary-take-home-easy-calculator-guide.html"
     },
     {
-      "id": "/articles/savings-maturity-auto-renewal.html",
       "title": "적금 만기 후 자동재예치 확인법",
       "path": "articles/savings-maturity-auto-renewal.html"
     },
@@ -850,7 +847,6 @@
       "path": "articles/simplified-vat-checklist.html"
     },
     {
-      "id": "/articles/single-parent-support-benefits.html",
       "title": "한부모가족 지원금 조회 방법",
       "path": "articles/single-parent-support-benefits.html"
     },
@@ -925,7 +921,6 @@
       "path": "articles/summer-electricity-usage-check-2026.html"
     },
     {
-      "id": "/articles/summer-gas-bill-hot-water-saving.html",
       "title": "여름 가스요금 줄이는 온수 사용법",
       "path": "articles/summer-gas-bill-hot-water-saving.html"
     },
@@ -935,12 +930,10 @@
       "path": "articles/summer-vacation-budget-plan.html"
     },
     {
-      "id": "/articles/summer-water-bill-spike-check.html",
       "title": "여름철 수도요금 급증 원인 점검",
       "path": "articles/summer-water-bill-spike-check.html"
     },
     {
-      "id": "/articles/tax-credit-late-application.html",
       "title": "장려금 신청 누락 시 기한후 신청 방법",
       "path": "articles/tax-credit-late-application.html"
     },
@@ -950,7 +943,6 @@
       "path": "articles/tax-invoice-vs-cash-receipt.html"
     },
     {
-      "id": "/articles/telecom-discount-guide.html",
       "title": "통신비 할인 총정리",
       "path": "articles/telecom-discount-guide.html"
     },
@@ -975,7 +967,6 @@
       "path": "articles/traffic-penalty-check-payment-guide.html"
     },
     {
-      "id": "/articles/travel-insurance-comparison.html",
       "title": "여행자보험 가입 전 비교 항목",
       "path": "articles/travel-insurance-comparison.html"
     },
@@ -985,7 +976,6 @@
       "path": "articles/unemployment-benefit-checklist.html"
     },
     {
-      "id": "/articles/unemployment-benefit-job-search.html",
       "title": "실업급여 구직활동 인정 기준",
       "path": "articles/unemployment-benefit-job-search.html"
     },
@@ -1060,17 +1050,14 @@
       "path": "articles/weekly-holiday-pay-guide.html"
     },
     {
-      "id": "/articles/wetax-electronic-billing.html",
       "title": "위택스 지방세 전자고지 신청 방법",
       "path": "articles/wetax-electronic-billing.html"
     },
     {
-      "id": "/articles/wetax-payment-history.html",
       "title": "위택스 납부내역 확인 방법",
       "path": "articles/wetax-payment-history.html"
     },
     {
-      "id": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "title": "노란우산공제 가입 전 확인사항",
       "path": "articles/yellow-umbrella-mutual-aid-guide.html"
     },
@@ -1080,17 +1067,14 @@
       "path": "articles/youth-housing-benefit-separate-payment.html"
     },
     {
-      "id": "/articles/youth-leap-account-contribution.html",
       "title": "청년도약계좌 정부기여금 확인법",
       "path": "articles/youth-leap-account-contribution.html"
     },
     {
-      "id": "/articles/youth-savings-account-maintenance.html",
       "title": "청년내일저축계좌 유지 조건",
       "path": "articles/youth-savings-account-maintenance.html"
     },
     {
-      "id": "/articles/youth-support-programs.html",
       "title": "청년 지원금 종류 한눈에 보기, 신청 전 확인할 기준",
       "path": "articles/youth-support-programs.html"
     }
@@ -1834,7 +1818,6 @@
     },
     {
       "source": "/articles/aircon-optimal-temperature-savings.html",
-      "target": "/articles/summer-gas-bill-hot-water-saving.html"
     },
     {
       "source": "/articles/aircon-optimal-temperature-savings.html",
@@ -2278,7 +2261,6 @@
     },
     {
       "source": "/articles/bank-account-budgeting.html",
-      "target": "/articles/savings-maturity-auto-renewal.html"
     },
     {
       "source": "/articles/bank-account-budgeting.html",
@@ -3234,11 +3216,9 @@
     },
     {
       "source": "/articles/benefit-scam-warning-2026.html",
-      "target": "/articles/youth-support-programs.html"
     },
     {
       "source": "/articles/benefit-scam-warning-2026.html",
-      "target": "/articles/single-parent-support-benefits.html"
     },
     {
       "source": "/articles/benefit-scam-warning-2026.html",
@@ -3962,7 +3942,6 @@
     },
     {
       "source": "/articles/business-phone-expense-deduction.html",
-      "target": "/articles/telecom-discount-guide.html"
     },
     {
       "source": "/articles/business-phone-expense-deduction.html",
@@ -4378,7 +4357,6 @@
     },
     {
       "source": "/articles/car-aircon-fuel-saving.html",
-      "target": "/articles/refrigerator-summer-electricity-saving.html"
     },
     {
       "source": "/articles/car-aircon-fuel-saving.html",
@@ -4942,7 +4920,6 @@
     },
     {
       "source": "/articles/car-tax-annual-payment.html",
-      "target": "/articles/telecom-discount-guide.html"
     },
     {
       "source": "/articles/car-tax-annual-payment.html",
@@ -5074,7 +5051,6 @@
     },
     {
       "source": "/articles/car-tax-check-payment-guide.html",
-      "target": "/articles/wetax-payment-history.html"
     },
     {
       "source": "/articles/car-tax-check-payment-guide.html",
@@ -6134,7 +6110,6 @@
     },
     {
       "source": "/articles/childcare-service-government-support.html",
-      "target": "/articles/single-parent-support-benefits.html"
     },
     {
       "source": "/articles/childcare-service-government-support.html",
@@ -6410,7 +6385,6 @@
     },
     {
       "source": "/articles/credit-card-billing-cycle-guide.html",
-      "target": "/articles/savings-maturity-auto-renewal.html"
     },
     {
       "source": "/articles/credit-card-billing-cycle-guide.html",
@@ -7006,7 +6980,6 @@
     },
     {
       "source": "/articles/debit-card-vs-credit-card.html",
-      "target": "/articles/travel-insurance-comparison.html"
     },
     {
       "source": "/articles/debit-card-vs-credit-card.html",
@@ -7710,7 +7683,6 @@
     },
     {
       "source": "/articles/dryer-summer-electricity-saving.html",
-      "target": "/articles/refrigerator-summer-electricity-saving.html"
     },
     {
       "source": "/articles/dryer-summer-electricity-saving.html",
@@ -7882,7 +7854,6 @@
     },
     {
       "source": "/articles/duplicate-indemnity-insurance-check.html",
-      "target": "/articles/travel-insurance-comparison.html"
     },
     {
       "source": "/articles/duplicate-indemnity-insurance-check.html",
@@ -8450,7 +8421,6 @@
     },
     {
       "source": "/articles/earned-income-tax-credit-korea.html",
-      "target": "/articles/tax-credit-late-application.html"
     },
     {
       "source": "/articles/earned-income-tax-credit-korea.html",
@@ -9806,7 +9776,6 @@
     },
     {
       "source": "/articles/emergency-welfare-living-support.html",
-      "target": "/articles/youth-savings-account-maintenance.html"
     },
     {
       "source": "/articles/emergency-welfare-living-support.html",
@@ -11382,7 +11351,6 @@
     },
     {
       "source": "/articles/fixed-date-online-application.html",
-      "target": "/articles/wetax-electronic-billing.html"
     },
     {
       "source": "/articles/fixed-date-online-application.html",
@@ -11810,7 +11778,6 @@
     },
     {
       "source": "/articles/gas-bill-checklist.html",
-      "target": "/articles/summer-gas-bill-hot-water-saving.html"
     },
     {
       "source": "/articles/gas-bill-checklist.html",
@@ -12262,7 +12229,6 @@
     },
     {
       "source": "/articles/government-benefit-alert-setup.html",
-      "target": "/articles/single-parent-support-benefits.html"
     },
     {
       "source": "/articles/government-benefit-alert-setup.html",
@@ -12402,7 +12368,6 @@
     },
     {
       "source": "/articles/government-benefits-warning.html",
-      "target": "/articles/single-parent-support-benefits.html"
     },
     {
       "source": "/articles/government-benefits-warning.html",
@@ -13506,7 +13471,6 @@
     },
     {
       "source": "/articles/heating-bill-saving.html",
-      "target": "/articles/refrigerator-summer-electricity-saving.html"
     },
     {
       "source": "/articles/heating-bill-saving.html",
@@ -15226,7 +15190,6 @@
     },
     {
       "source": "/articles/insurance-auto-pay-discount.html",
-      "target": "/articles/savings-maturity-auto-renewal.html"
     },
     {
       "source": "/articles/insurance-auto-pay-discount.html",
@@ -15370,7 +15333,6 @@
     },
     {
       "source": "/articles/insurance-surrender-value-check.html",
-      "target": "/articles/yellow-umbrella-mutual-aid-guide.html"
     },
     {
       "source": "/articles/insurance-surrender-value-check.html",
@@ -16114,7 +16076,6 @@
     },
     {
       "source": "/articles/lifelong-education-voucher-application.html",
-      "target": "/articles/youth-support-programs.html"
     },
     {
       "source": "/articles/lifelong-education-voucher-application.html",
@@ -17726,7 +17687,6 @@
     },
     {
       "source": "/articles/national-employment-support-eligibility.html",
-      "target": "/articles/wetax-electronic-billing.html"
     },
     {
       "source": "/articles/national-employment-support-eligibility.html",
@@ -18246,7 +18206,6 @@
     },
     {
       "source": "/articles/national-scholarship-application.html",
-      "target": "/articles/youth-support-programs.html"
     },
     {
       "source": "/articles/national-scholarship-application.html",
@@ -19146,7 +19105,6 @@
     },
     {
       "source": "/articles/parking-account-rate-comparison.html",
-      "target": "/articles/travel-insurance-comparison.html"
     },
     {
       "source": "/articles/parking-account-rate-comparison.html",
@@ -20006,7 +19964,6 @@
     },
     {
       "source": "/articles/property-tax-electronic-bill-2026.html",
-      "target": "/articles/wetax-electronic-billing.html"
     },
     {
       "source": "/articles/property-tax-electronic-bill-2026.html",
@@ -20981,175 +20938,132 @@
       "target": "/articles/electricity-bill-saving.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/css/calculator-drawer.css"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/images/logo.svg"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/css/savingio-brain-navigation.css"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/css/electricity-topic.css"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/categories/living-bills.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/articles/dryer-summer-electricity-saving.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/articles/fixed-speed-aircon-saving.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/articles/inverter-aircon-saving-guide.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/articles/summer-electricity-tier-check-2026.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/topics/electricity.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/articles/summer-electricity-tier-check-2026.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/calculators/electricity.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/articles/air-conditioner-electricity-saving.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/articles/electricity-discount-card-guide.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/articles/electricity-bill-saving.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/privacy.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/terms.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/cookie-policy.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/disclaimer.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/sitemap.xml"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/calculators/salary.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/calculators/weekly-pay.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/calculators/severance.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/calculators/annual-leave.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/calculators/percentage.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/calculators/vat.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/calculators/loan.html"
     },
     {
-      "source": "/articles/refrigerator-summer-electricity-saving.html",
       "target": "/calculators/"
     },
     {
@@ -21497,151 +21411,114 @@
       "target": "/calculators/"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/css/calculator-drawer.css"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/images/logo.svg"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/css/savingio-brain-navigation.css"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/categories/finance-credit.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/articles/energy-voucher-balance-use.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/articles/energy-voucher-balance-check-2026.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/articles/energy-voucher-balance-check-2026.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/articles/student-loan-repayment-guide.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/calculators/loan.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/privacy.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/terms.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/cookie-policy.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/disclaimer.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/sitemap.xml"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/calculators/salary.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/calculators/weekly-pay.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/calculators/severance.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/calculators/annual-leave.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/calculators/percentage.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/calculators/vat.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/calculators/loan.html"
     },
     {
-      "source": "/articles/revolving-cancellation-payoff.html",
       "target": "/calculators/"
     },
     {
@@ -22161,147 +22038,111 @@
       "target": "/privacy.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/css/calculator-drawer.css"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/images/logo.svg"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/css/savingio-brain-navigation.css"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/categories/finance-credit.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/articles/credit-card-billing-cycle-guide.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/articles/insurance-auto-pay-discount.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/articles/energy-voucher-eligibility-2026.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/articles/small-business-electricity-support.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/privacy.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/terms.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/cookie-policy.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/disclaimer.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/sitemap.xml"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/calculators/salary.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/calculators/weekly-pay.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/calculators/severance.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/calculators/annual-leave.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/calculators/percentage.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/calculators/vat.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/calculators/loan.html"
     },
     {
-      "source": "/articles/savings-maturity-auto-renewal.html",
       "target": "/calculators/"
     },
     {
@@ -23049,147 +22890,111 @@
       "target": "/calculators/"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/css/calculator-drawer.css"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/images/logo.svg"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/css/savingio-brain-navigation.css"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/categories/housing.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/articles/government-benefit-alert-2026.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/articles/government-benefit-alert-setup.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/articles/government-benefit-alert-2026.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/articles/benefit-scam-warning-2026.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/privacy.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/terms.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/cookie-policy.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/disclaimer.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/sitemap.xml"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/calculators/salary.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/calculators/weekly-pay.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/calculators/severance.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/calculators/annual-leave.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/calculators/percentage.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/calculators/vat.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/calculators/loan.html"
     },
     {
-      "source": "/articles/single-parent-support-benefits.html",
       "target": "/calculators/"
     },
     {
@@ -24866,7 +24671,6 @@
     },
     {
       "source": "/articles/summer-electricity-tier-check-2026.html",
-      "target": "/articles/refrigerator-summer-electricity-saving.html"
     },
     {
       "source": "/articles/summer-electricity-tier-check-2026.html",
@@ -25141,147 +24945,111 @@
       "target": "/articles/summer-electricity-tier-check-2026.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/css/calculator-drawer.css"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/images/logo.svg"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/css/savingio-brain-navigation.css"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/categories/living-bills.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/articles/aircon-optimal-temperature-savings.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/articles/summer-electricity-tier-check-2026.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/articles/dryer-summer-electricity-saving.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/articles/air-conditioner-electricity-saving.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/privacy.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/terms.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/cookie-policy.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/disclaimer.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/sitemap.xml"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/calculators/salary.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/calculators/weekly-pay.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/calculators/severance.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/calculators/annual-leave.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/calculators/percentage.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/calculators/vat.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/calculators/loan.html"
     },
     {
-      "source": "/articles/summer-gas-bill-hot-water-saving.html",
       "target": "/calculators/"
     },
     {
@@ -25354,7 +25122,6 @@
     },
     {
       "source": "/articles/summer-vacation-budget-plan.html",
-      "target": "/articles/summer-gas-bill-hot-water-saving.html"
     },
     {
       "source": "/articles/summer-vacation-budget-plan.html",
@@ -25429,291 +25196,218 @@
       "target": "/calculators/"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/css/calculator-drawer.css"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/images/logo.svg"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/css/savingio-brain-navigation.css"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/categories/living-bills.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/articles/summer-electricity-tier-check-2026.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/articles/summer-electricity-tier-check-2026.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/articles/water-bill-guide.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
-      "target": "/articles/refrigerator-summer-electricity-saving.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/privacy.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/terms.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/cookie-policy.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/disclaimer.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/sitemap.xml"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/calculators/salary.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/calculators/weekly-pay.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/calculators/severance.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/calculators/annual-leave.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/calculators/percentage.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/calculators/vat.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/calculators/loan.html"
     },
     {
-      "source": "/articles/summer-water-bill-spike-check.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/css/calculator-drawer.css"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/images/logo.svg"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/css/savingio-brain-navigation.css"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/categories/government-support.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/articles/vat-sales-omission-check-2026.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/articles/earned-income-credit-account-change.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/articles/earned-income-tax-credit-korea.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/articles/local-tax-refund-claim.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/privacy.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/terms.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/cookie-policy.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/disclaimer.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/sitemap.xml"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/calculators/salary.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/calculators/weekly-pay.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/calculators/severance.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/calculators/annual-leave.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/calculators/percentage.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/calculators/vat.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/calculators/loan.html"
     },
     {
-      "source": "/articles/tax-credit-late-application.html",
       "target": "/calculators/"
     },
     {
@@ -25861,147 +25555,111 @@
       "target": "/calculators/"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/css/calculator-drawer.css"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/images/logo.svg"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/css/savingio-brain-navigation.css"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/categories/living-bills.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/articles/car-tax-annual-payment.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/articles/telecom-unclaimed-refund.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/articles/business-phone-expense-deduction.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/articles/insurance-auto-pay-discount.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/privacy.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/terms.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/cookie-policy.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/disclaimer.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/sitemap.xml"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/calculators/salary.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/calculators/weekly-pay.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/calculators/severance.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/calculators/annual-leave.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/calculators/percentage.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/calculators/vat.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/calculators/loan.html"
     },
     {
-      "source": "/articles/telecom-discount-guide.html",
       "target": "/calculators/"
     },
     {
@@ -26441,147 +26099,110 @@
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/css/calculator-drawer.css"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/images/logo.svg"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/css/savingio-brain-navigation.css"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/categories/car-transport.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
-      "target": "/articles/yellow-umbrella-mutual-aid-guide.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/articles/parking-account-rate-comparison.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/articles/deposit-return-guarantee-checklist.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/articles/vat-input-tax-deduction-2026.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/privacy.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/terms.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/cookie-policy.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/disclaimer.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/sitemap.xml"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/calculators/salary.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/calculators/weekly-pay.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/calculators/severance.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/calculators/annual-leave.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/calculators/percentage.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/calculators/vat.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/calculators/loan.html"
     },
     {
-      "source": "/articles/travel-insurance-comparison.html",
       "target": "/calculators/"
     },
     {
@@ -26709,151 +26330,114 @@
       "target": "/calculators/"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/css/calculator-drawer.css"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/images/logo.svg"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/css/savingio-brain-navigation.css"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/categories/government-support.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/articles/unemployment-benefit-checklist.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/articles/salary-management-guide.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/articles/four-major-insurance-deduction-guide.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/articles/salary-budget-guide.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/calculators/salary.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/privacy.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/terms.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/cookie-policy.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/disclaimer.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/sitemap.xml"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/calculators/salary.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/calculators/weekly-pay.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/calculators/severance.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/calculators/annual-leave.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/calculators/percentage.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/calculators/vat.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/calculators/loan.html"
     },
     {
-      "source": "/articles/unemployment-benefit-job-search.html",
       "target": "/calculators/"
     },
     {
@@ -28218,7 +27802,6 @@
     },
     {
       "source": "/articles/water-bill-guide.html",
-      "target": "/articles/summer-water-bill-spike-check.html"
     },
     {
       "source": "/articles/water-bill-guide.html",
@@ -28362,7 +27945,6 @@
     },
     {
       "source": "/articles/water-bill-saving.html",
-      "target": "/articles/summer-water-bill-spike-check.html"
     },
     {
       "source": "/articles/water-bill-saving.html",
@@ -28565,435 +28147,324 @@
       "target": "/calculators/"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/css/calculator-drawer.css"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/images/logo.svg"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/css/savingio-brain-navigation.css"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/categories/tax-refund.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/articles/property-tax-electronic-bill-2026.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/articles/property-tax-electronic-bill-2026.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
-      "target": "/articles/wetax-payment-history.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/articles/local-tax-refund-claim.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/privacy.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/terms.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/cookie-policy.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/disclaimer.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/sitemap.xml"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/calculators/salary.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/calculators/weekly-pay.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/calculators/severance.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/calculators/annual-leave.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/calculators/percentage.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/calculators/vat.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/calculators/loan.html"
     },
     {
-      "source": "/articles/wetax-electronic-billing.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/css/calculator-drawer.css"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/images/logo.svg"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/css/savingio-brain-navigation.css"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/categories/tax-refund.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
-      "target": "/articles/wetax-electronic-billing.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/articles/property-tax-electronic-bill-2026.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/articles/property-tax-electronic-bill-2026.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/articles/small-business-policy-fund-search.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/privacy.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/terms.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/cookie-policy.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/disclaimer.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/sitemap.xml"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/calculators/salary.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/calculators/weekly-pay.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/calculators/severance.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/calculators/annual-leave.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/calculators/percentage.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/calculators/vat.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/calculators/loan.html"
     },
     {
-      "source": "/articles/wetax-payment-history.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/css/calculator-drawer.css"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/images/logo.svg"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/css/savingio-brain-navigation.css"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/categories/finance-credit.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/articles/insurance-surrender-value-check.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
-      "target": "/articles/travel-insurance-comparison.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/articles/national-scholarship-application.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/articles/deposit-return-guarantee-checklist.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/privacy.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/terms.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/cookie-policy.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/disclaimer.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/sitemap.xml"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/calculators/salary.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/calculators/weekly-pay.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/calculators/severance.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/calculators/annual-leave.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/calculators/percentage.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/calculators/vat.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/calculators/loan.html"
     },
     {
-      "source": "/articles/yellow-umbrella-mutual-aid-guide.html",
       "target": "/calculators/"
     },
     {
@@ -29109,435 +28580,323 @@
       "target": "/calculators/"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/css/calculator-drawer.css"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/images/logo.svg"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/css/savingio-brain-navigation.css"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/categories/government-support.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/articles/energy-voucher-eligibility-2026.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/articles/small-business-electricity-support.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/articles/summer-electricity-tier-check.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
-      "target": "/articles/savings-maturity-auto-renewal.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/privacy.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/terms.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/cookie-policy.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/disclaimer.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/sitemap.xml"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/calculators/salary.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/calculators/weekly-pay.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/calculators/severance.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/calculators/annual-leave.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/calculators/percentage.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/calculators/vat.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/calculators/loan.html"
     },
     {
-      "source": "/articles/youth-leap-account-contribution.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/css/calculator-drawer.css"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/images/logo.svg"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/css/savingio-brain-navigation.css"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/categories/government-support.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/articles/emergency-welfare-living-support.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
-      "target": "/articles/youth-leap-account-contribution.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
-      "target": "/articles/single-parent-support-benefits.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/articles/earned-income-credit-account-change.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/privacy.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/terms.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/cookie-policy.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/disclaimer.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/sitemap.xml"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/calculators/salary.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/calculators/weekly-pay.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/calculators/severance.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/calculators/annual-leave.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/calculators/percentage.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/calculators/vat.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/calculators/loan.html"
     },
     {
-      "source": "/articles/youth-savings-account-maintenance.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/css/calculator-drawer.css"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/images/logo.svg"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/css/savingio-brain-navigation.css"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/articles/"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/calculators/"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/categories/government-support.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/articles/benefit-scam-warning-2026.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/articles/benefit-scam-warning-2026.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
-      "target": "/articles/single-parent-support-benefits.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/articles/government-benefit-alert-setup.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/about.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/editorial-policy.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/contact.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/privacy.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/terms.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/cookie-policy.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/disclaimer.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/sitemap.xml"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/calculators/salary.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/calculators/weekly-pay.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/calculators/severance.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/calculators/annual-leave.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/calculators/percentage.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/calculators/vat.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/calculators/loan.html"
     },
     {
-      "source": "/articles/youth-support-programs.html",
       "target": "/calculators/"
     }
   ],
@@ -29654,7 +29013,6 @@
       "path": "articles/regional-development-bond-refund-guide.html"
     },
     {
-      "id": "/articles/revolving-cancellation-payoff.html",
       "title": "리볼빙 해지와 잔액 상환 방법",
       "path": "articles/revolving-cancellation-payoff.html"
     },
@@ -29679,7 +29037,6 @@
       "path": "articles/summer-electricity-usage-check-2026.html"
     },
     {
-      "id": "/articles/unemployment-benefit-job-search.html",
       "title": "실업급여 구직활동 인정 기준",
       "path": "articles/unemployment-benefit-job-search.html"
     },
@@ -29734,7 +29091,6 @@
     "/articles/fixed-speed-aircon-saving.html": 7,
     "/articles/inverter-aircon-saving-guide.html": 7,
     "/articles/aircon-dry-mode-electricity.html": 6,
-    "/articles/summer-gas-bill-hot-water-saving.html": 3,
     "/categories/housing.html": 18,
     "/articles/water-bill-saving.html": 3,
     "/articles/cancel-unused-subscriptions.html": 7,
@@ -29743,7 +29099,6 @@
     "/articles/bank-fee-saving.html": 5,
     "/articles/summer-vacation-budget-plan.html": 5,
     "/articles/cma-account-types-risk.html": 4,
-    "/articles/savings-maturity-auto-renewal.html": 4,
     "/articles/bank-fees-to-avoid.html": 3,
     "/articles/heating-bill-saving.html": 5,
     "/articles/subscription-saving.html": 5,
@@ -29763,8 +29118,6 @@
     "/articles/emergency-fund-guide.html": 6,
     "/articles/grocery-bill-savings.html": 2,
     "/articles/benefit-scam-warning-2026.html": 6,
-    "/articles/youth-support-programs.html": 3,
-    "/articles/single-parent-support-benefits.html": 6,
     "/articles/government-benefit-alert-setup.html": 4,
     "/articles/spending-habits-change.html": 6,
     "/articles/automatic-payment-saving.html": 6,
@@ -29784,10 +29137,8 @@
     "/articles/vat-payment-extension-guide.html": 7,
     "/articles/simple-receipt-expense-rules.html": 4,
     "/articles/business-closure-vat-order.html": 3,
-    "/articles/telecom-discount-guide.html": 2,
     "/articles/business-card-hometax-registration.html": 5,
     "/articles/internet-bill-savings.html": 4,
-    "/articles/refrigerator-summer-electricity-saving.html": 5,
     "/articles/fan-aircon-combination-saving.html": 1,
     "/articles/car-insurance-mileage-refund.html": 6,
     "/articles/car-insurance-overpayment-refund.html": 4,
@@ -29798,7 +29149,6 @@
     "/articles/irs-tax-refund-status.html": 3,
     "/articles/car-tax-check-payment-guide.html": 9,
     "/articles/car-tax-annual-payment.html": 3,
-    "/articles/wetax-payment-history.html": 2,
     "/articles/cashback-apps-guide.html": 1,
     "/articles/education-expense-vs-benefit.html": 3,
     "/articles/building-land-property-tax.html": 4,
@@ -29826,7 +29176,6 @@
     "/articles/energy-voucher-balance-check-2026.html": 12,
     "/articles/lifelong-education-voucher-application.html": 1,
     "/articles/energy-voucher-balance-use.html": 6,
-    "/articles/travel-insurance-comparison.html": 4,
     "/articles/small-business-electricity-support.html": 11,
     "/articles/rental-contract-reporting-guide.html": 4,
     "/articles/housing-benefit-eligibility.html": 4,
@@ -29838,7 +29187,6 @@
     "/categories/work-salary.html": 6,
     "/articles/earned-income-credit-account-change.html": 6,
     "/articles/child-tax-credit-status-check.html": 2,
-    "/articles/tax-credit-late-application.html": 1,
     "/articles/childcare-service-government-support.html": 7,
     "/articles/elementary-school-education-support.html": 2,
     "/articles/cash-advance-vs-card-loan.html": 1,
@@ -29849,14 +29197,12 @@
     "/articles/tax-invoice-vs-cash-receipt.html": 1,
     "/articles/national-pension-overpayment-refund.html": 4,
     "/articles/health-insurance-out-of-pocket-refund.html": 4,
-    "/articles/youth-savings-account-maintenance.html": 1,
     "/articles/emergency-medical-support.html": 3,
     "/articles/energy-voucher-application-2026.html": 6,
     "/articles/energy-voucher-eligibility-2026.html": 9,
     "/articles/energy-voucher-2026-application.html": 1,
     "/articles/energy-voucher-online-application.html": 5,
     "/articles/energy-voucher-documents.html": 1,
-    "/articles/wetax-electronic-billing.html": 4,
     "/articles/hidden-money-search.html": 3,
     "/articles/vat-sales-omission-check-2026.html": 10,
     "/articles/vat-zero-sales-filing-2026.html": 8,
@@ -29884,7 +29230,6 @@
     "/articles/gas-bill-checklist.html": 2,
     "/articles/how-to-lower-phone-bill.html": 2,
     "/articles/self-employed-income-tax-refund-check.html": 1,
-    "/articles/yellow-umbrella-mutual-aid-guide.html": 2,
     "/articles/national-scholarship-application.html": 4,
     "/articles/apartment-management-fee-summer.html": 2,
     "/articles/basic-pension-application-guide.html": 5,
@@ -29915,9 +29260,7 @@
     "/articles/traffic-fines-difference-guide.html": 2,
     "/articles/parking-account-rate-comparison.html": 1,
     "/articles/vat-final-return-2026-july.html": 4,
-    "/articles/summer-water-bill-spike-check.html": 2,
     "/articles/home-water-leak-self-check.html": 3,
-    "/articles/youth-leap-account-contribution.html": 1
   },
   "outbound": {
     "/articles/electricity-bill-saving.html": 2,
@@ -30073,23 +29416,19 @@
     "/articles/property-tax-objection-guide.html": 36,
     "/articles/property-tax-payment-certificate.html": 36,
     "/articles/reduce-electricity-bill.html": 3,
-    "/articles/refrigerator-summer-electricity-saving.html": 43,
     "/articles/regional-development-bond-refund-guide.html": 22,
     "/articles/rental-car-vacation-saving.html": 36,
     "/articles/rental-contract-reporting-guide.html": 28,
-    "/articles/revolving-cancellation-payoff.html": 37,
     "/articles/salary-budget-guide.html": 37,
     "/articles/salary-management-guide.html": 37,
     "/articles/salary-slip-check-guide.html": 31,
     "/articles/salary-take-home-easy-calculator-guide.html": 24,
-    "/articles/savings-maturity-auto-renewal.html": 36,
     "/articles/self-employed-income-tax-refund-check.html": 36,
     "/articles/senior-job-application-guide.html": 22,
     "/articles/severance-pay-calculation-guide.html": 31,
     "/articles/severance-pay-easy-calculator-guide.html": 24,
     "/articles/simple-receipt-expense-rules.html": 36,
     "/articles/simplified-vat-checklist.html": 37,
-    "/articles/single-parent-support-benefits.html": 36,
     "/articles/small-business-closure-support.html": 36,
     "/articles/small-business-delivery-support.html": 36,
     "/articles/small-business-electricity-support.html": 43,
@@ -30104,19 +29443,13 @@
     "/articles/summer-electricity-tier-check-2026.html": 43,
     "/articles/summer-electricity-tier-check.html": 43,
     "/articles/summer-electricity-usage-check-2026.html": 3,
-    "/articles/summer-gas-bill-hot-water-saving.html": 36,
     "/articles/summer-vacation-budget-plan.html": 36,
-    "/articles/summer-water-bill-spike-check.html": 36,
-    "/articles/tax-credit-late-application.html": 36,
     "/articles/tax-invoice-vs-cash-receipt.html": 36,
-    "/articles/telecom-discount-guide.html": 36,
     "/articles/telecom-unclaimed-refund.html": 34,
     "/articles/traffic-fines-difference-guide.html": 23,
     "/articles/traffic-fines-difference-guide.html": 29,
     "/articles/traffic-fines-difference-guide.html": 23,
-    "/articles/travel-insurance-comparison.html": 36,
     "/articles/unemployment-benefit-checklist.html": 31,
-    "/articles/unemployment-benefit-job-search.html": 37,
     "/articles/vat-final-return-2026-july.html": 37,
     "/articles/vat-final-return-deadline-2026.html": 3,
     "/articles/vat-final-return-july-2026.html": 37,
@@ -30131,12 +29464,6 @@
     "/articles/water-bill-guide.html": 36,
     "/articles/water-bill-saving.html": 36,
     "/articles/weekly-holiday-pay-guide.html": 31,
-    "/articles/wetax-electronic-billing.html": 36,
-    "/articles/wetax-payment-history.html": 36,
-    "/articles/yellow-umbrella-mutual-aid-guide.html": 36,
     "/articles/youth-housing-benefit-separate-payment.html": 28,
-    "/articles/youth-leap-account-contribution.html": 36,
-    "/articles/youth-savings-account-maintenance.html": 36,
-    "/articles/youth-support-programs.html": 36
   }
 }

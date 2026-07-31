@@ -1,0 +1,740 @@
+{
+  "task": "remove-merged-broken-legacy-pages",
+  "deleted_count": 16,
+  "deleted": [
+    {
+      "path": "articles/refrigerator-summer-electricity-saving.html",
+      "reason": "unfinished-blue-template",
+      "representative": "https://savingio.com/articles/refrigerator-summer-electricity-saving.html",
+      "canonical": "https://savingio.com/articles/refrigerator-summer-electricity-saving.html",
+      "bytes": 29008
+    },
+    {
+      "path": "articles/revolving-cancellation-payoff.html",
+      "reason": "unfinished-blue-template",
+      "representative": "https://savingio.com/articles/revolving-cancellation-payoff.html",
+      "canonical": "https://savingio.com/articles/revolving-cancellation-payoff.html",
+      "bytes": 26262
+    },
+    {
+      "path": "articles/savings-maturity-auto-renewal.html",
+      "reason": "unfinished-blue-template",
+      "representative": "https://savingio.com/articles/savings-maturity-auto-renewal.html",
+      "canonical": "https://savingio.com/articles/savings-maturity-auto-renewal.html",
+      "bytes": 26147
+    },
+    {
+      "path": "articles/single-parent-support-benefits.html",
+      "reason": "unfinished-blue-template",
+      "representative": "https://savingio.com/articles/single-parent-support-benefits.html",
+      "canonical": "https://savingio.com/articles/single-parent-support-benefits.html",
+      "bytes": 28127
+    },
+    {
+      "path": "articles/summer-gas-bill-hot-water-saving.html",
+      "reason": "unfinished-blue-template",
+      "representative": "https://savingio.com/articles/summer-gas-bill-hot-water-saving.html",
+      "canonical": "https://savingio.com/articles/summer-gas-bill-hot-water-saving.html",
+      "bytes": 26315
+    },
+    {
+      "path": "articles/summer-water-bill-spike-check.html",
+      "reason": "unfinished-blue-template",
+      "representative": "https://savingio.com/articles/summer-water-bill-spike-check.html",
+      "canonical": "https://savingio.com/articles/summer-water-bill-spike-check.html",
+      "bytes": 26189
+    },
+    {
+      "path": "articles/tax-credit-late-application.html",
+      "reason": "unfinished-blue-template",
+      "representative": "https://savingio.com/articles/tax-credit-late-application.html",
+      "canonical": "https://savingio.com/articles/tax-credit-late-application.html",
+      "bytes": 26697
+    },
+    {
+      "path": "articles/telecom-discount-guide.html",
+      "reason": "unfinished-blue-template",
+      "representative": "https://savingio.com/articles/telecom-discount-guide.html",
+      "canonical": "https://savingio.com/articles/telecom-discount-guide.html",
+      "bytes": 26123
+    },
+    {
+      "path": "articles/travel-insurance-comparison.html",
+      "reason": "unfinished-blue-template",
+      "representative": "https://savingio.com/articles/travel-insurance-comparison.html",
+      "canonical": "https://savingio.com/articles/travel-insurance-comparison.html",
+      "bytes": 26211
+    },
+    {
+      "path": "articles/unemployment-benefit-job-search.html",
+      "reason": "unfinished-blue-template",
+      "representative": "https://savingio.com/articles/unemployment-benefit-job-search.html",
+      "canonical": "https://savingio.com/articles/unemployment-benefit-job-search.html",
+      "bytes": 25919
+    },
+    {
+      "path": "articles/wetax-electronic-billing.html",
+      "reason": "unfinished-blue-template",
+      "representative": "https://savingio.com/articles/wetax-electronic-billing.html",
+      "canonical": "https://savingio.com/articles/wetax-electronic-billing.html",
+      "bytes": 24730
+    },
+    {
+      "path": "articles/wetax-payment-history.html",
+      "reason": "unfinished-blue-template",
+      "representative": "https://savingio.com/articles/wetax-payment-history.html",
+      "canonical": "https://savingio.com/articles/wetax-payment-history.html",
+      "bytes": 24408
+    },
+    {
+      "path": "articles/yellow-umbrella-mutual-aid-guide.html",
+      "reason": "unfinished-blue-template",
+      "representative": "https://savingio.com/articles/yellow-umbrella-mutual-aid-guide.html",
+      "canonical": "https://savingio.com/articles/yellow-umbrella-mutual-aid-guide.html",
+      "bytes": 25863
+    },
+    {
+      "path": "articles/youth-leap-account-contribution.html",
+      "reason": "unfinished-blue-template",
+      "representative": "https://savingio.com/articles/youth-leap-account-contribution.html",
+      "canonical": "https://savingio.com/articles/youth-leap-account-contribution.html",
+      "bytes": 26176
+    },
+    {
+      "path": "articles/youth-savings-account-maintenance.html",
+      "reason": "unfinished-blue-template",
+      "representative": "https://savingio.com/articles/youth-savings-account-maintenance.html",
+      "canonical": "https://savingio.com/articles/youth-savings-account-maintenance.html",
+      "bytes": 26104
+    },
+    {
+      "path": "articles/youth-support-programs.html",
+      "reason": "unfinished-blue-template",
+      "representative": "https://savingio.com/articles/youth-support-programs.html",
+      "canonical": "https://savingio.com/articles/youth-support-programs.html",
+      "bytes": 26775
+    }
+  ],
+  "reference_files_updated": [
+    "articles/education-benefit-eligibility.html",
+    "articles/regional-development-bond-refund-guide.html",
+    "articles/severance-pay-calculation-guide.html",
+    "articles/severance-pay-easy-calculator-guide.html",
+    "articles/summer-electricity-tier-check-2026.html",
+    "articles/unemployment-benefit-checklist.html",
+    "articles/water-bill-saving.html",
+    "articles/youth-housing-benefit-separate-payment.html",
+    "categories/car-transport.html",
+    "categories/finance-credit.html",
+    "categories/government-support.html",
+    "categories/housing.html",
+    "categories/living-bills.html",
+    "categories/tax-refund.html",
+    "data/brain-navigation.json",
+    "data/electricity-knowledge-graph.json",
+    "data/savingio-brain-data.js",
+    "data/savingio-brain-data.json",
+    "data/savingio-navigation-exclusions.json",
+    "data/savingio-search-index.json",
+    "factory/CONTENT_TAXONOMY_REPORT.json",
+    "factory/FULL_ARTICLE_AUDIT/full-article-audit.json",
+    "factory/SECOND_LINK_AUDIT/second-link-audit.json",
+    "factory/SEO_AUDIT/seo-audit.json",
+    "factory/SITE_INTEGRITY_REPORT.json",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/aircon-optimal-temperature-savings.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/bank-account-budgeting.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/benefit-scam-warning-2026.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/business-phone-expense-deduction.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/car-aircon-fuel-saving.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/car-tax-annual-payment.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/car-tax-check-payment-guide.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/childcare-service-government-support.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/credit-card-billing-cycle-guide.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/debit-card-vs-credit-card.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/dryer-summer-electricity-saving.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/duplicate-indemnity-insurance-check.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/earned-income-tax-credit-korea.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/emergency-welfare-living-support.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/fixed-date-online-application.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/gas-bill-checklist.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/government-benefit-alert-setup.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/government-benefits-warning.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/heating-bill-saving.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/insurance-auto-pay-discount.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/insurance-surrender-value-check.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/lifelong-education-voucher-application.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/national-employment-support-eligibility.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/national-scholarship-application.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/parking-account-rate-comparison.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/property-tax-electronic-bill-2026.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/summer-electricity-tier-check-2026.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/summer-vacation-budget-plan.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/summer-water-bill-spike-check.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/travel-insurance-comparison.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/water-bill-guide.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/water-bill-saving.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/wetax-electronic-billing.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/wetax-payment-history.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/yellow-umbrella-mutual-aid-guide.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/youth-leap-account-contribution.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/youth-savings-account-maintenance.html",
+    "factory/backups/article_remodel/20260716-015303-205670/articles/youth-support-programs.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/aircon-optimal-temperature-savings.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/bank-account-budgeting.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/benefit-scam-warning-2026.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/business-phone-expense-deduction.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/car-aircon-fuel-saving.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/car-tax-annual-payment.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/car-tax-check-payment-guide.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/childcare-service-government-support.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/credit-card-billing-cycle-guide.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/debit-card-vs-credit-card.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/dryer-summer-electricity-saving.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/duplicate-indemnity-insurance-check.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/earned-income-tax-credit-korea.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/emergency-welfare-living-support.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/fixed-date-online-application.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/gas-bill-checklist.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/government-benefit-alert-setup.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/government-benefits-warning.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/heating-bill-saving.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/insurance-auto-pay-discount.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/insurance-surrender-value-check.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/lifelong-education-voucher-application.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/national-employment-support-eligibility.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/national-scholarship-application.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/parking-account-rate-comparison.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/property-tax-electronic-bill-2026.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/summer-electricity-tier-check-2026.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/summer-vacation-budget-plan.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/summer-water-bill-spike-check.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/travel-insurance-comparison.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/water-bill-guide.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/water-bill-saving.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/wetax-electronic-billing.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/wetax-payment-history.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/yellow-umbrella-mutual-aid-guide.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/youth-leap-account-contribution.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/youth-savings-account-maintenance.html",
+    "factory/backups/article_remodel/20260716-021336-920855/articles/youth-support-programs.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/aircon-optimal-temperature-savings.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/bank-account-budgeting.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/benefit-scam-warning-2026.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/business-phone-expense-deduction.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/car-aircon-fuel-saving.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/car-tax-annual-payment.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/car-tax-check-payment-guide.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/childcare-service-government-support.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/credit-card-billing-cycle-guide.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/debit-card-vs-credit-card.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/dryer-summer-electricity-saving.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/duplicate-indemnity-insurance-check.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/earned-income-tax-credit-korea.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/emergency-welfare-living-support.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/fixed-date-online-application.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/gas-bill-checklist.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/government-benefit-alert-setup.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/government-benefits-warning.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/heating-bill-saving.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/insurance-auto-pay-discount.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/insurance-surrender-value-check.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/lifelong-education-voucher-application.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/national-employment-support-eligibility.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/national-scholarship-application.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/parking-account-rate-comparison.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/property-tax-electronic-bill-2026.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/summer-electricity-tier-check-2026.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/summer-vacation-budget-plan.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/summer-water-bill-spike-check.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/travel-insurance-comparison.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/water-bill-guide.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/water-bill-saving.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/wetax-electronic-billing.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/wetax-payment-history.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/yellow-umbrella-mutual-aid-guide.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/youth-leap-account-contribution.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/youth-savings-account-maintenance.html",
+    "factory/backups/article_remodel/20260716-095014-661843/articles/youth-support-programs.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/aircon-optimal-temperature-savings.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/bank-account-budgeting.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/benefit-scam-warning-2026.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/business-phone-expense-deduction.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/car-aircon-fuel-saving.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/car-tax-annual-payment.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/car-tax-check-payment-guide.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/childcare-service-government-support.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/credit-card-billing-cycle-guide.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/debit-card-vs-credit-card.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/dryer-summer-electricity-saving.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/duplicate-indemnity-insurance-check.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/earned-income-tax-credit-korea.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/emergency-welfare-living-support.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/fixed-date-online-application.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/gas-bill-checklist.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/government-benefit-alert-setup.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/government-benefits-warning.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/heating-bill-saving.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/insurance-auto-pay-discount.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/insurance-surrender-value-check.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/lifelong-education-voucher-application.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/national-employment-support-eligibility.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/national-scholarship-application.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/parking-account-rate-comparison.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/property-tax-electronic-bill-2026.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/summer-electricity-tier-check-2026.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/summer-vacation-budget-plan.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/summer-water-bill-spike-check.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/travel-insurance-comparison.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/water-bill-guide.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/water-bill-saving.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/wetax-electronic-billing.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/wetax-payment-history.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/yellow-umbrella-mutual-aid-guide.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/youth-leap-account-contribution.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/youth-savings-account-maintenance.html",
+    "factory/backups/article_remodel/20260716-102343-794984/articles/youth-support-programs.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/aircon-optimal-temperature-savings.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/bank-account-budgeting.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/benefit-scam-warning-2026.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/business-phone-expense-deduction.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/car-aircon-fuel-saving.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/car-tax-annual-payment.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/car-tax-check-payment-guide.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/childcare-service-government-support.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/credit-card-billing-cycle-guide.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/debit-card-vs-credit-card.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/dryer-summer-electricity-saving.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/duplicate-indemnity-insurance-check.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/earned-income-tax-credit-korea.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/emergency-welfare-living-support.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/fixed-date-online-application.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/gas-bill-checklist.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/government-benefit-alert-setup.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/government-benefits-warning.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/heating-bill-saving.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/insurance-auto-pay-discount.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/insurance-surrender-value-check.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/lifelong-education-voucher-application.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/national-employment-support-eligibility.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/national-scholarship-application.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/parking-account-rate-comparison.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/property-tax-electronic-bill-2026.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/summer-electricity-tier-check-2026.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/summer-vacation-budget-plan.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/summer-water-bill-spike-check.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/travel-insurance-comparison.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/water-bill-guide.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/water-bill-saving.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/wetax-electronic-billing.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/wetax-payment-history.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/yellow-umbrella-mutual-aid-guide.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/youth-leap-account-contribution.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/youth-savings-account-maintenance.html",
+    "factory/backups/article_remodel/20260716-174344-940117/articles/youth-support-programs.html",
+    "factory/output/article_catalog.json",
+    "factory/output/article_connection_batches/manifest.json",
+    "factory/output/article_remodel_test/report.json",
+    "factory/output/article_remodel_test/site/articles/aircon-optimal-temperature-savings.html",
+    "factory/output/article_remodel_test/site/articles/bank-account-budgeting.html",
+    "factory/output/article_remodel_test/site/articles/benefit-scam-warning-2026.html",
+    "factory/output/article_remodel_test/site/articles/business-phone-expense-deduction.html",
+    "factory/output/article_remodel_test/site/articles/car-aircon-fuel-saving.html",
+    "factory/output/article_remodel_test/site/articles/car-tax-annual-payment.html",
+    "factory/output/article_remodel_test/site/articles/car-tax-check-payment-guide.html",
+    "factory/output/article_remodel_test/site/articles/childcare-service-government-support.html",
+    "factory/output/article_remodel_test/site/articles/credit-card-billing-cycle-guide.html",
+    "factory/output/article_remodel_test/site/articles/debit-card-vs-credit-card.html",
+    "factory/output/article_remodel_test/site/articles/dryer-summer-electricity-saving.html",
+    "factory/output/article_remodel_test/site/articles/duplicate-indemnity-insurance-check.html",
+    "factory/output/article_remodel_test/site/articles/earned-income-tax-credit-korea.html",
+    "factory/output/article_remodel_test/site/articles/emergency-welfare-living-support.html",
+    "factory/output/article_remodel_test/site/articles/fixed-date-online-application.html",
+    "factory/output/article_remodel_test/site/articles/gas-bill-checklist.html",
+    "factory/output/article_remodel_test/site/articles/government-benefit-alert-setup.html",
+    "factory/output/article_remodel_test/site/articles/government-benefits-warning.html",
+    "factory/output/article_remodel_test/site/articles/heating-bill-saving.html",
+    "factory/output/article_remodel_test/site/articles/insurance-auto-pay-discount.html",
+    "factory/output/article_remodel_test/site/articles/insurance-surrender-value-check.html",
+    "factory/output/article_remodel_test/site/articles/lifelong-education-voucher-application.html",
+    "factory/output/article_remodel_test/site/articles/national-employment-support-eligibility.html",
+    "factory/output/article_remodel_test/site/articles/national-scholarship-application.html",
+    "factory/output/article_remodel_test/site/articles/parking-account-rate-comparison.html",
+    "factory/output/article_remodel_test/site/articles/property-tax-electronic-bill-2026.html",
+    "factory/output/article_remodel_test/site/articles/summer-electricity-tier-check-2026.html",
+    "factory/output/article_remodel_test/site/articles/summer-vacation-budget-plan.html",
+    "factory/output/article_remodel_test/site/articles/summer-water-bill-spike-check.html",
+    "factory/output/article_remodel_test/site/articles/travel-insurance-comparison.html",
+    "factory/output/article_remodel_test/site/articles/water-bill-guide.html",
+    "factory/output/article_remodel_test/site/articles/water-bill-saving.html",
+    "factory/output/article_remodel_test/site/articles/wetax-electronic-billing.html",
+    "factory/output/article_remodel_test/site/articles/wetax-payment-history.html",
+    "factory/output/article_remodel_test/site/articles/yellow-umbrella-mutual-aid-guide.html",
+    "factory/output/article_remodel_test/site/articles/youth-leap-account-contribution.html",
+    "factory/output/article_remodel_test/site/articles/youth-savings-account-maintenance.html",
+    "factory/output/article_remodel_test/site/articles/youth-support-programs.html",
+    "factory/output/auto_git_deploy_report.json",
+    "factory/output/link_graph.json",
+    "js/brain-navigation.js",
+    "js/savingio-content-platform.js",
+    "sitemap.xml"
+  ],
+  "broken_article_references_after_cleanup": {
+    "data/brain-navigation.json": [
+      "/articles/energy-voucher-application.html",
+      "/articles/health-insurance-refund.html",
+      "/articles/hidden-refund-check.html",
+      "/articles/local-tax-refund.html",
+      "/articles/phone-bill-saving.html"
+    ],
+    "data/savingio-search-index.json": [
+      "/articles/bank-fees-to-avoid.html",
+      "/articles/credit-score-management.html",
+      "/articles/energy-voucher-application-2026.html",
+      "/articles/energy-voucher-application.html",
+      "/articles/energy-voucher-balance-check-2026.html",
+      "/articles/energy-voucher-balance-use.html",
+      "/articles/energy-voucher-documents.html",
+      "/articles/energy-voucher-eligibility-2026.html",
+      "/articles/energy-voucher-online-application.html",
+      "/articles/grocery-bill-savings.html",
+      "/articles/health-insurance-out-of-pocket-refund.html",
+      "/articles/health-insurance-overpayment-refund.html",
+      "/articles/hidden-money-search.html",
+      "/articles/hidden-refund-check.html",
+      "/articles/how-to-check-hidden-refunds.html",
+      "/articles/how-to-lower-phone-bill.html",
+      "/articles/how-to-save-electricity-bill.html",
+      "/articles/internet-bill-savings.html",
+      "/articles/irs-tax-refund-status.html",
+      "/articles/local-tax-refund-claim.html",
+      "/articles/low-income-cooling-support.html",
+      "/articles/phone-bill-saving.html",
+      "/articles/salary-budget-guide.html",
+      "/articles/salary-management-guide.html",
+      "/articles/small-business-policy-fund-search.html",
+      "/articles/subscription-audit-checklist.html",
+      "/articles/subscription-cleanup.html",
+      "/articles/subscription-saving.html",
+      "/articles/subsidy24-benefit-search.html",
+      "/articles/summer-electricity-tier-check.html",
+      "/articles/vat-final-return-july-2026.html",
+      "/articles/vat-zero-sales-filing.html",
+      "/articles/water-bill-guide.html"
+    ],
+    "data/article-configs.json": [
+      "/articles/salary-management-guide.html"
+    ],
+    "data/savingio-navigation-exclusions.json": [
+      "/articles/energy-voucher-application-2026.html",
+      "/articles/energy-voucher-application.html",
+      "/articles/energy-voucher-balance-check-2026.html",
+      "/articles/energy-voucher-balance-use.html",
+      "/articles/energy-voucher-documents.html",
+      "/articles/energy-voucher-eligibility-2026.html",
+      "/articles/energy-voucher-online-application.html",
+      "/articles/health-insurance-overpayment-refund.html",
+      "/articles/hidden-money-search.html",
+      "/articles/hidden-refund-check.html",
+      "/articles/how-to-check-hidden-refunds.html",
+      "/articles/irs-tax-refund-status.html",
+      "/articles/local-tax-refund-claim.html",
+      "/articles/small-business-policy-fund-search.html",
+      "/articles/subsidy24-benefit-search.html"
+    ],
+    "data/site-navigation.json": [
+      "/articles/hidden-refund-check.html",
+      "/articles/local-tax-refund.html",
+      "/articles/phone-bill-saving.html",
+      "/articles/salary-management-guide.html"
+    ],
+    "data/electricity-knowledge-graph.json": [
+      "/articles/summer-electricity-tier-check.html"
+    ],
+    "data/savingio-brain-data.json": [
+      "/articles/bank-fees-to-avoid.html",
+      "/articles/credit-score-management.html",
+      "/articles/energy-voucher-application-2026.html",
+      "/articles/energy-voucher-application.html",
+      "/articles/energy-voucher-balance-check-2026.html",
+      "/articles/energy-voucher-balance-use.html",
+      "/articles/energy-voucher-documents.html",
+      "/articles/energy-voucher-eligibility-2026.html",
+      "/articles/energy-voucher-online-application.html",
+      "/articles/grocery-bill-savings.html",
+      "/articles/health-insurance-out-of-pocket-refund.html",
+      "/articles/health-insurance-overpayment-refund.html",
+      "/articles/hidden-money-search.html",
+      "/articles/hidden-refund-check.html",
+      "/articles/how-to-check-hidden-refunds.html",
+      "/articles/how-to-lower-phone-bill.html",
+      "/articles/how-to-save-electricity-bill.html",
+      "/articles/internet-bill-savings.html",
+      "/articles/irs-tax-refund-status.html",
+      "/articles/local-tax-refund-claim.html",
+      "/articles/low-income-cooling-support.html",
+      "/articles/phone-bill-saving.html",
+      "/articles/salary-budget-guide.html",
+      "/articles/salary-management-guide.html",
+      "/articles/small-business-policy-fund-search.html",
+      "/articles/subscription-audit-checklist.html",
+      "/articles/subscription-cleanup.html",
+      "/articles/subscription-saving.html",
+      "/articles/subsidy24-benefit-search.html",
+      "/articles/summer-electricity-tier-check.html",
+      "/articles/vat-final-return-july-2026.html",
+      "/articles/vat-zero-sales-filing.html",
+      "/articles/water-bill-guide.html"
+    ],
+    "data/site-navigation-v2.json": [
+      "/articles/hidden-refund-check.html",
+      "/articles/local-tax-refund.html",
+      "/articles/phone-bill-saving.html",
+      "/articles/salary-management-guide.html"
+    ],
+    "data/article-configs-v2.json": [
+      "/articles/salary-management-guide.html"
+    ],
+    "js/article-navigation.js": [
+      "/articles/health-insurance-overpayment-refund"
+    ],
+    "js/articles.html": [
+      "/articles/#bill-savings",
+      "/articles/#online-income",
+      "/articles/#refunds",
+      "/articles/bank-fees-to-avoid.html",
+      "/articles/irs-tax-refund-status.html",
+      "/articles/phone-bill-saving.html"
+    ],
+    "js/savingio-brain-data.js": [
+      "/articles/bank-fees-to-avoid.html",
+      "/articles/car-maintenance-cost-saving.html",
+      "/articles/cashback-apps-guide.html#checklist",
+      "/articles/credit-score-management.html",
+      "/articles/fuel-saving-driving-habits.html",
+      "/articles/health-insurance-overpayment-refund",
+      "/articles/health-insurance-overpayment-refund.html",
+      "/articles/loan-interest-saving.html",
+      "/articles/low-mileage-discount-check.html",
+      "/articles/medical-expense-refund-guide.html",
+      "/articles/traffic-fine-check-payment-guide"
+    ],
+    "js/savingio-content-platform.js": [
+      "/articles/credit-score-management.html",
+      "/articles/salary-management-guide.html"
+    ],
+    "categories/finance-credit.html": [
+      "/articles/bank-fees-to-avoid.html",
+      "/articles/beginner-ai-side-hustles.html",
+      "/articles/credit-score-management.html",
+      "/articles/credit-score-tips.html",
+      "/articles/grocery-bill-savings.html",
+      "/articles/hidden-money-search.html",
+      "/articles/online-income-ideas-for-beginners.html",
+      "/articles/small-business-policy-fund-search.html"
+    ],
+    "categories/government-support.html": [
+      "/articles/energy-voucher-application-2026.html",
+      "/articles/energy-voucher-application.html",
+      "/articles/energy-voucher-balance-check-2026.html",
+      "/articles/energy-voucher-balance-use-2026.html",
+      "/articles/energy-voucher-balance-use.html",
+      "/articles/energy-voucher-documents.html",
+      "/articles/energy-voucher-eligibility-2026.html",
+      "/articles/energy-voucher-online-application.html",
+      "/articles/government-benefit-alert-guide-2026.html",
+      "/articles/government-support-scam-warning-2026.html",
+      "/articles/hidden-refund-check.html",
+      "/articles/irs-tax-refund-status.html",
+      "/articles/local-tax-refund-claim.html",
+      "/articles/low-income-cooling-support.html",
+      "/articles/subsidy24-benefit-search.html"
+    ],
+    "categories/housing.html": [
+      "/articles/internet-bill-savings.html",
+      "/articles/property-tax-july-checklist-2026.html"
+    ],
+    "categories/tax-refund.html": [
+      "/articles/health-insurance-out-of-pocket-refund.html",
+      "/articles/health-insurance-overpayment-refund.html",
+      "/articles/health-insurance-refund.html",
+      "/articles/how-to-check-hidden-refunds.html",
+      "/articles/local-tax-refund.html",
+      "/articles/vat-final-return-deadline-2026.html",
+      "/articles/vat-final-return-july-2026.html",
+      "/articles/vat-input-tax-deduction-guide-2026.html",
+      "/articles/vat-zero-sales-filing.html"
+    ],
+    "categories/work-salary.html": [
+      "/articles/salary-budget-guide.html",
+      "/articles/salary-management-guide.html"
+    ],
+    "categories/living-bills.html": [
+      "/articles/how-to-lower-phone-bill.html",
+      "/articles/how-to-save-electricity-bill.html",
+      "/articles/phone-bill-saving.html",
+      "/articles/reduce-electricity-bill.html",
+      "/articles/subscription-audit-checklist.html",
+      "/articles/subscription-cleanup.html",
+      "/articles/subscription-saving.html",
+      "/articles/summer-electricity-tier-check.html",
+      "/articles/summer-electricity-usage-check-2026.html",
+      "/articles/water-bill-guide.html"
+    ],
+    "articles/government-benefit-alert-2026.html": [
+      "/articles/subsidy24-benefit-search.html"
+    ],
+    "articles/small-business-electricity-support.html": [
+      "/articles/subsidy24-benefit-search.html"
+    ],
+    "articles/earned-income-credit-payment.html": [
+      "/articles/grocery-bill-savings.html",
+      "/articles/phone-bill-saving.html"
+    ],
+    "articles/medical-bill-negotiation.html": [
+      "/articles/health-insurance-out-of-pocket-refund.html",
+      "/articles/health-insurance-overpayment-refund.html"
+    ],
+    "articles/self-employed-income-tax-refund-check.html": [
+      "/articles/energy-voucher-eligibility-2026.html",
+      "/articles/vat-final-return-july-2026.html",
+      "/articles/vat-zero-sales-filing.html"
+    ],
+    "articles/national-tax-refund-account.html": [
+      "/articles/local-tax-refund-claim.html"
+    ],
+    "articles/weekly-holiday-pay-guide.html": [
+      "/articles/minimum-wage-guide.html",
+      "/articles/overtime-pay-calculation.html"
+    ],
+    "articles/loan-refinancing-check.html": [
+      "/articles/credit-score-management.html"
+    ],
+    "articles/grocery-saving-tips.html": [
+      "/articles/bank-fees-to-avoid.html"
+    ],
+    "articles/youth-housing-benefit-separate-payment.html": [
+      "/articles/energy-voucher-application-2026.html",
+      "/articles/energy-voucher-application.html",
+      "/articles/energy-voucher-balance-check-2026.html",
+      "/articles/energy-voucher-balance-use.html",
+      "/articles/energy-voucher-documents.html",
+      "/articles/energy-voucher-eligibility-2026.html",
+      "/articles/energy-voucher-online-application.html"
+    ],
+    "articles/overdraft-account-guide.html": [
+      "/articles/bank-fees-to-avoid.html",
+      "/articles/credit-score-management.html"
+    ],
+    "articles/summer-electricity-tier-check-2026.html": [
+      "/articles/summer-electricity-tier-check.html"
+    ],
+    "articles/student-loan-repayment-guide.html": [
+      "/articles/credit-score-recovery.html",
+      "/articles/debt-repayment-strategy.html",
+      "/articles/monthly-budget-plan.html"
+    ],
+    "articles/water-bill-saving.html": [
+      "/articles/water-bill-guide.html"
+    ],
+    "articles/monthly-rent-tax-credit-documents.html": [
+      "/articles/local-tax-refund-claim.html"
+    ],
+    "articles/check-hidden-refunds.html": [
+      "/articles/health-insurance-overpayment-refund.html",
+      "/articles/hidden-money-search.html"
+    ],
+    "articles/business-vehicle-expense-basics.html": [
+      "/articles/bank-fees-to-avoid.html"
+    ],
+    "articles/cancel-unused-subscriptions.html": [
+      "/articles/bank-fees-to-avoid.html"
+    ],
+    "articles/business-phone-expense-deduction.html": [
+      "/articles/business-expense-proof-guide.html"
+    ],
+    "articles/deposit-protection-limit-guide.html": [
+      "/articles/bank-fees-to-avoid.html",
+      "/articles/credit-score-management.html"
+    ],
+    "articles/vehicle-inspection-reservation-guide.html": [
+      "/articles/vat-final-return-july-2026.html",
+      "/articles/vat-zero-sales-filing.html"
+    ],
+    "articles/childcare-service-government-support.html": [
+      "/articles/grocery-bill-savings.html"
+    ],
+    "articles/long-term-care-insurance-application.html": [
+      "/articles/health-insurance-out-of-pocket-refund.html",
+      "/articles/health-insurance-overpayment-refund.html"
+    ],
+    "articles/health-insurance-refund-guide.html": [
+      "/articles/health-insurance-out-of-pocket-refund.html",
+      "/articles/health-insurance-overpayment-refund.html"
+    ],
+    "articles/small-business-policy-fund.html": [
+      "/articles/government-support-scam-warning-2026.html"
+    ],
+    "articles/cash-advance-vs-card-loan.html": [
+      "/articles/credit-score-management.html"
+    ],
+    "articles/car-aircon-fuel-saving.html": [
+      "/articles/bank-fees-to-avoid.html"
+    ],
+    "articles/salary-take-home-easy-calculator-guide.html": [
+      "/articles/salary-management-guide.html"
+    ],
+    "articles/loan-prepayment-fee-check.html": [
+      "/articles/credit-score-management.html"
+    ],
+    "articles/credit-card-billing-cycle-guide.html": [
+      "/articles/bank-fees-to-avoid.html"
+    ],
+    "articles/local-tax-refund-guide.html": [
+      "/articles/health-insurance-overpayment-refund.html"
+    ],
+    "articles/automatic-payment-saving.html": [
+      "/articles/bank-fees-to-avoid.html"
+    ],
+    "articles/car-insurance-overpayment-refund.html": [
+      "/articles/car-insurance-overpayment-refund.svg"
+    ],
+    "articles/national-tax-refund.html": [
+      "/articles/local-tax-refund.html"
+    ],
+    "articles/emergency-medical-support.html": [
+      "/articles/health-insurance-out-of-pocket-refund.html"
+    ],
+    "articles/bank-fee-saving.html": [
+      "/articles/bank-fees-to-avoid.html"
+    ],
+    "articles/missing-property-tax-bill.html": [
+      "/articles/health-insurance-overpayment-refund.html"
+    ],
+    "articles/cma-account-types-risk.html": [
+      "/articles/bank-fees-to-avoid.html"
+    ],
+    "articles/child-allowance-guide.html": [
+      "/articles/bank-fees-to-avoid.html"
+    ],
+    "articles/regional-development-bond-refund-guide.html": [
+      "/articles/hidden-money-search.html",
+      "/articles/subsidy24-benefit-search.html"
+    ],
+    "articles/bank-account-budgeting.html": [
+      "/articles/bank-fees-to-avoid.html"
+    ],
+    "articles/debit-card-vs-credit-card.html": [
+      "/articles/credit-score-management.html"
+    ],
+    "articles/child-tax-credit-status-check.html": [
+      "/articles/grocery-bill-savings.html",
+      "/articles/phone-bill-saving.html"
+    ]
+  },
+  "rules": [
+    "delete source HTML already mapped to another representative article in _redirects",
+    "delete canonical/client redirect stubs",
+    "delete unfinished blue common-template pages only when both generic copy and legacy-blue signatures match",
+    "remove retired titles and URLs from Explorer/search/category/sitemap references"
+  ]
+}

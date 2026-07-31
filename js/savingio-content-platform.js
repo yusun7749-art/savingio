@@ -56,7 +56,6 @@
       ['비상금 마련 가이드','/articles/emergency-fund-guide.html']
     ],
     'annual-leave.html': [
-      ['실업급여 구직활동 인정 기준','/articles/unemployment-benefit-job-search.html'],
       ['월급 관리 가이드','/articles/salary-management-guide.html'],
       ['근로장려금 신청 가이드','/articles/earned-income-tax-credit-korea.html']
     ],
@@ -67,7 +66,6 @@
     ],
     'loan.html': [
       ['신용점수 관리 방법','/articles/credit-score-management.html'],
-      ['리볼빙 해지와 잔액 상환 방법','/articles/revolving-cancellation-payoff.html'],
       ['대출 중도상환수수료 확인 방법','/articles/loan-prepayment-fee-check.html']
     ]
   };

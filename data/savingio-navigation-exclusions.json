@@ -72,21 +72,13 @@
     "/articles/regional-development-bond-refund-guide.html",
     "/articles/senior-job-application-guide.html",
     "/articles/simple-receipt-expense-rules.html",
-    "/articles/single-parent-support-benefits.html",
     "/articles/small-business-closure-support.html",
     "/articles/small-business-delivery-support.html",
     "/articles/small-business-policy-fund-search.html",
     "/articles/small-business-policy-fund.html",
     "/articles/student-loan-repayment-guide.html",
     "/articles/subsidy24-benefit-search.html",
-    "/articles/tax-credit-late-application.html",
-    "/articles/wetax-electronic-billing.html",
-    "/articles/wetax-payment-history.html",
-    "/articles/yellow-umbrella-mutual-aid-guide.html",
     "/articles/youth-housing-benefit-separate-payment.html",
-    "/articles/youth-leap-account-contribution.html",
-    "/articles/youth-savings-account-maintenance.html",
-    "/articles/youth-support-programs.html",
     "/calculators/cost-rate.html",
     "/calculators/margin.html"
   ],
@@ -436,7 +428,6 @@
       "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
       "reason": "label terms absent from article: 전체, 보완"
     },
-    "/articles/single-parent-support-benefits.html": {
       "title": "한부모가족 지원금 조회 방법",
       "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
       "reason": "label terms absent from article: 전체, 보완"
@@ -471,22 +462,18 @@
       "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
       "reason": "label terms absent from article: 전체, 보완"
     },
-    "/articles/tax-credit-late-application.html": {
       "title": "장려금 신청 누락 시 기한후 신청 방법",
       "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
       "reason": "label terms absent from article: 전체, 보완"
     },
-    "/articles/wetax-electronic-billing.html": {
       "title": "위택스 지방세 전자고지 신청 방법",
       "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
       "reason": "label terms absent from article: 전체, 보완"
     },
-    "/articles/wetax-payment-history.html": {
       "title": "위택스 납부내역 확인 방법",
       "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
       "reason": "label terms absent from article: 전체, 보완"
     },
-    "/articles/yellow-umbrella-mutual-aid-guide.html": {
       "title": "노란우산공제 가입 전 확인사항",
       "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
       "reason": "label terms absent from article: 전체, 보완"
@@ -496,17 +483,14 @@
       "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
       "reason": "label terms absent from article: 전체, 보완"
     },
-    "/articles/youth-leap-account-contribution.html": {
       "title": "청년도약계좌 정부기여금 확인법",
       "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
       "reason": "label terms absent from article: 전체, 보완"
     },
-    "/articles/youth-savings-account-maintenance.html": {
       "title": "청년내일저축계좌 유지 조건",
       "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
       "reason": "label terms absent from article: 전체, 보완"
     },
-    "/articles/youth-support-programs.html": {
       "title": "청년 지원금 종류 한눈에 보기, 신청 전 확인할 기준",
       "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
       "reason": "label terms absent from article: 전체, 보완"

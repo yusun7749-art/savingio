@@ -7095,14 +7095,12 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-use.html",
       "expected": [
         "articles/energy-voucher-balance-use.html"
@@ -7165,7 +7163,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/savings-maturity-auto-renewal.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
@@ -7361,14 +7358,12 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/summer-water-bill-spike-check.html",
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/tax-credit-late-application.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
@@ -7382,14 +7377,12 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
@@ -7501,28 +7494,24 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/wetax-electronic-billing.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/wetax-payment-history.html",
       "reference": "/articles/small-business-policy-fund-search.html",
       "expected": [
         "articles/small-business-policy-fund-search.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/youth-leap-account-contribution.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/youth-leap-account-contribution.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
@@ -8698,14 +8687,12 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-use.html",
       "expected": [
         "articles/energy-voucher-balance-use.html"
@@ -8768,7 +8755,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/savings-maturity-auto-renewal.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
@@ -8964,14 +8950,12 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/summer-water-bill-spike-check.html",
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/tax-credit-late-application.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
@@ -8985,14 +8969,12 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
@@ -9104,28 +9086,24 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/wetax-electronic-billing.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/wetax-payment-history.html",
       "reference": "/articles/small-business-policy-fund-search.html",
       "expected": [
         "articles/small-business-policy-fund-search.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/youth-leap-account-contribution.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/youth-leap-account-contribution.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
@@ -10301,14 +10279,12 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-use.html",
       "expected": [
         "articles/energy-voucher-balance-use.html"
@@ -10371,7 +10347,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/savings-maturity-auto-renewal.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
@@ -10567,14 +10542,12 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/summer-water-bill-spike-check.html",
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/tax-credit-late-application.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
@@ -10588,14 +10561,12 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
@@ -10707,28 +10678,24 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/wetax-electronic-billing.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/wetax-payment-history.html",
       "reference": "/articles/small-business-policy-fund-search.html",
       "expected": [
         "articles/small-business-policy-fund-search.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/youth-leap-account-contribution.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/youth-leap-account-contribution.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
@@ -11904,14 +11871,12 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-use.html",
       "expected": [
         "articles/energy-voucher-balance-use.html"
@@ -11974,7 +11939,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/savings-maturity-auto-renewal.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
@@ -12170,14 +12134,12 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/summer-water-bill-spike-check.html",
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/tax-credit-late-application.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
@@ -12191,14 +12153,12 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
@@ -12310,28 +12270,24 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/wetax-electronic-billing.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/wetax-payment-history.html",
       "reference": "/articles/small-business-policy-fund-search.html",
       "expected": [
         "articles/small-business-policy-fund-search.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/youth-leap-account-contribution.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/youth-leap-account-contribution.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
@@ -13507,14 +13463,12 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-use.html",
       "expected": [
         "articles/energy-voucher-balance-use.html"
@@ -13577,7 +13531,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/savings-maturity-auto-renewal.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
@@ -13773,14 +13726,12 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/summer-water-bill-spike-check.html",
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/tax-credit-late-application.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
@@ -13794,14 +13745,12 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
@@ -13913,28 +13862,24 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/wetax-electronic-billing.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/wetax-payment-history.html",
       "reference": "/articles/small-business-policy-fund-search.html",
       "expected": [
         "articles/small-business-policy-fund-search.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/youth-leap-account-contribution.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/youth-leap-account-contribution.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
@@ -16854,14 +16799,12 @@
       ]
     },
     {
-      "source": "factory/output/article_remodel_test/site/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
-      "source": "factory/output/article_remodel_test/site/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-use.html",
       "expected": [
         "articles/energy-voucher-balance-use.html"
@@ -16924,7 +16867,6 @@
       ]
     },
     {
-      "source": "factory/output/article_remodel_test/site/articles/savings-maturity-auto-renewal.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
@@ -17120,14 +17062,12 @@
       ]
     },
     {
-      "source": "factory/output/article_remodel_test/site/articles/summer-water-bill-spike-check.html",
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
       ]
     },
     {
-      "source": "factory/output/article_remodel_test/site/articles/tax-credit-late-application.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
@@ -17141,14 +17081,12 @@
       ]
     },
     {
-      "source": "factory/output/article_remodel_test/site/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
       ]
     },
     {
-      "source": "factory/output/article_remodel_test/site/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
@@ -17260,28 +17198,24 @@
       ]
     },
     {
-      "source": "factory/output/article_remodel_test/site/articles/wetax-electronic-billing.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
       ]
     },
     {
-      "source": "factory/output/article_remodel_test/site/articles/wetax-payment-history.html",
       "reference": "/articles/small-business-policy-fund-search.html",
       "expected": [
         "articles/small-business-policy-fund-search.html"
       ]
     },
     {
-      "source": "factory/output/article_remodel_test/site/articles/youth-leap-account-contribution.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
-      "source": "factory/output/article_remodel_test/site/articles/youth-leap-account-contribution.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
