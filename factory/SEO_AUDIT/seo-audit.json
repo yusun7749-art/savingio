@@ -4031,27 +4031,28 @@
       "path": "articles/student-loan-repayment-guide.html",
       "url": "https://savingio.com/articles/student-loan-repayment-guide.html",
       "title": "학자금대출 상환 방법과 부담 줄이는 순서 | 세이빙이오(Savingio)",
-      "meta_description": "취업 후 상환 학자금대출과 일반상환 학자금대출의 차이, 납부 확인과 중도상환 전에 볼 항목을 정리했습니다.",
+      "meta_description": "취업 후 상환 학자금대출과 일반 상환 학자금대출의 차이, 자발적·의무상환, 원리금 납부, 중도상환, 연체 전 대응과 상환유예 확인 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/student-loan-repayment-guide.html",
       "h1": [
         "학자금대출 상환 방법과 부담 줄이는 순서"
       ],
-      "h2_count": 13,
-      "h3_count": 0,
-      "korean_chars": 2768,
-      "words": 966,
-      "internal_article_links": 15,
+      "h2_count": 17,
+      "h3_count": 6,
+      "korean_chars": 3728,
+      "words": 1210,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:2768"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3728"
       ],
-      "score": 96,
+      "score": 92,
       "status": "PASS"
     },
     {
