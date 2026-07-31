@@ -1,0 +1,35 @@
+name: Build UI remediation queue
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'factory/build_ui_remediation_queue.py'
+      - 'factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json'
+      - '.github/workflows/build-ui-remediation-queue.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build exact remediation queue
+        run: python factory/build_ui_remediation_queue.py
+      - name: Commit queue
+        run: |
+          git config user.name 'savingio-audit-bot'
+          git config user.email 'savingio-audit-bot@users.noreply.github.com'
+          git add factory/QA/UI_REMEDIATION_QUEUE.json factory/QA/UI_REMEDIATION_QUEUE.md
+          if git diff --cached --quiet; then
+            echo 'No queue changes'
+            exit 0
+          fi
+          git commit -m 'Build exact blue card and DNA remediation queue [skip ci]'
+          git push
