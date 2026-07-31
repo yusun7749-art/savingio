@@ -3,7 +3,7 @@
   "summary": {
     "articles_scanned": 155,
     "article_problem_pages": 155,
-    "explorer_missing_pages": 113,
+    "explorer_missing_pages": 0,
     "blue_ui_pages": 8,
     "card_ui_pages": 9,
     "generic_template_pages": 0,
@@ -24,13 +24,11 @@
       "h1": "초보자를 위한 AI 부업 시작 방법, 첫 수익까지 현실적인 순서",
       "visible_chars": 7074,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -53,13 +51,11 @@
       "h1": "에어컨 전기요금 줄이는 방법, 우리 집에 맞는 냉방 순서",
       "visible_chars": 6780,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -83,13 +79,11 @@
       "h1": "에어컨 제습모드 전기요금, 냉방보다 정말 덜 나올까?",
       "visible_chars": 4717,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -108,13 +102,11 @@
       "h1": "에어컨 필터 청소로 전기요금 줄이는 방법, 냉방이 약할 때 확인 순서",
       "visible_chars": 7657,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -138,13 +130,11 @@
       "h1": "에어컨 적정 온도는 몇 도일까? 전기요금과 쾌적함을 함께 잡는 설정 순서",
       "visible_chars": 4211,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -163,13 +153,11 @@
       "h1": "아랫집 누수 연락을 받았을 때, 윗집이 바로 할 일",
       "visible_chars": 6699,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -192,13 +180,11 @@
       "h1": "아파트 관리비가 갑자기 많이 나왔을 때 확인할 항목과 줄이는 방법",
       "visible_chars": 5983,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -222,13 +208,11 @@
       "h1": "자동이체·자동결제 정리하는 방법, 매달 새는 고정비 찾기",
       "visible_chars": 6466,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -247,13 +231,11 @@
       "h1": "통장 나누기로 예산 관리하기, 월급날부터 자동으로 돈을 나누는 방법",
       "visible_chars": 6979,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -277,13 +259,11 @@
       "h1": "은행 수수료 아끼는 방법, 이체·ATM·환전 비용을 줄이는 확인 순서",
       "visible_chars": 5118,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -307,13 +287,11 @@
       "h1": "기초생활수급자 생활요금 감면 신청 방법, 전기·가스·통신 할인 확인",
       "visible_chars": 4580,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -337,13 +315,11 @@
       "h1": "기초연금 신청 방법, 만 65세 준비서류·소득인정액·지급 확인",
       "visible_chars": 7895,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -362,13 +338,11 @@
       "h1": "초보자를 위한 예산 계획, 월급이 어디로 사라지는지 찾는 순서",
       "visible_chars": 5987,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -387,13 +361,11 @@
       "h1": "처음 시작하는 돈 관리 방법, 월급을 지키는 순서",
       "visible_chars": 5292,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -412,13 +384,11 @@
       "h1": "지원금 문자 사기 구별 방법, 링크 누르기 전 확인할 7가지",
       "visible_chars": 9284,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -441,13 +411,11 @@
       "h1": "가계부 앱 고르는 방법, 자동연동보다 중요한 기준",
       "visible_chars": 6076,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -466,13 +434,11 @@
       "h1": "건축물 재산세와 토지 재산세 차이, 고지서 두 장이 왔을 때 확인 순서",
       "visible_chars": 4677,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -491,13 +457,11 @@
       "h1": "사업용 신용카드 홈택스 등록 방법, 등록 뒤 매입내역까지 확인하는 순서",
       "visible_chars": 5183,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -516,13 +480,11 @@
       "h1": "사업자 폐업신고와 부가세 신고 순서, 폐업일 전후로 놓치기 쉬운 절차",
       "visible_chars": 4697,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -564,13 +526,11 @@
       "h1": "사업용 차량 비용처리, 증빙부터 운행기록부까지 확인하는 순서",
       "visible_chars": 5920,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -594,13 +554,11 @@
       "h1": "안 쓰는 구독서비스 해지하는 방법, 무료체험부터 자동결제까지",
       "visible_chars": 6958,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -619,13 +577,11 @@
       "h1": "여름철 자동차 에어컨 연비 절약법, 차 안을 빨리 식히는 순서",
       "visible_chars": 7212,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -649,13 +605,11 @@
       "h1": "자동차보험 자녀할인 특약, 태아·연령·증빙·중도변경 확인 가이드",
       "visible_chars": 6392,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -697,13 +651,11 @@
       "h1": "자동차보험료를 더 냈을 때, 과납보험료 확인부터 환급까지",
       "visible_chars": 7379,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -722,13 +674,11 @@
       "h1": "자동차보험료 절약, 갱신 전에 비교할 운전자 범위·특약·담보 최종 가이드",
       "visible_chars": 4684,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -816,13 +766,11 @@
       "h1": "현금서비스와 카드론 차이, 급하게 돈이 필요할 때 먼저 확인할 것",
       "visible_chars": 6447,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -841,13 +789,11 @@
       "h1": "카드 포인트 현금화 방법, 흩어진 포인트를 계좌로 받는 순서",
       "visible_chars": 5555,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -872,13 +818,11 @@
       "h1": "캐시백 앱 활용 가이드, 적립 금액보다 먼저 확인할 것",
       "visible_chars": 7263,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -904,13 +848,11 @@
       "h1": "미수령 환급금 조회 방법",
       "visible_chars": 8394,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -936,13 +878,11 @@
       "h1": "아동수당 신청 방법, 지급이 누락되지 않게 확인하는 체크리스트",
       "visible_chars": 4709,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -966,13 +906,11 @@
       "h1": "자녀장려금 심사결과 확인 방법, 지급액과 감액 사유 보는 순서",
       "visible_chars": 6173,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -996,13 +934,11 @@
       "h1": "아이돌봄서비스 정부지원 신청 방법, 자격 판정부터 이용까지",
       "visible_chars": 6142,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -1026,13 +962,11 @@
       "h1": "CMA 통장 종류와 원금손실 가능성",
       "visible_chars": 7542,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -1056,13 +990,11 @@
       "h1": "신용카드 결제일별 이용기간 확인법",
       "visible_chars": 6874,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -1088,13 +1020,11 @@
       "h1": "신용점수를 지키는 생활 습관, 연체 없이 관리하는 현실적인 방법",
       "visible_chars": 5674,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -1119,13 +1049,11 @@
       "h1": "문화누리카드 잔액 조회와 사용처 확인, 남은 금액까지 쓰는 방법",
       "visible_chars": 8417,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -1150,13 +1078,11 @@
       "h1": "일배책 누수 보험 처리, 아랫집 피해 접수부터 합의까지",
       "visible_chars": 8632,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -1237,13 +1163,11 @@
       "h1": "예금자보호제도 총정리",
       "visible_chars": 7356,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -1354,13 +1278,11 @@
       "h1": "실손보험 중복가입 확인부터 개인·단체실손 정리까지 최종 가이드",
       "visible_chars": 5605,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -1379,13 +1301,11 @@
       "h1": "근로장려금 지급계좌 변경 방법, 홈택스 신청과 입금 오류 대응",
       "visible_chars": 4645,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -1409,13 +1329,11 @@
       "h1": "근로장려금 지급일 확인 방법, 정기·반기 입금 시기와 조회 순서",
       "visible_chars": 6219,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -1439,13 +1357,11 @@
       "h1": "근로장려금 심사진행상황 조회 방법, 심사중·결정완료 상태 해석",
       "visible_chars": 5137,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -1469,13 +1385,11 @@
       "h1": "2026 근로장려금 신청 대상과 지급일, 놓쳤을 때 확인 순서",
       "visible_chars": 8559,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -1530,13 +1444,11 @@
       "h1": "교육비 지원과 교육급여 차이",
       "visible_chars": 4921,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -1562,13 +1474,11 @@
       "h1": "전기 사용량만으로 이번 달 예상 전기요금 확인하는 방법",
       "visible_chars": 4756,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -1620,13 +1530,11 @@
       "h1": "전기요금 할인카드 제대로 고르는 방법",
       "visible_chars": 6028,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -1652,13 +1560,11 @@
       "h1": "전자세금계산서 가산세, 지연발급·미발급·미전송 차이",
       "visible_chars": 8286,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -1684,13 +1590,11 @@
       "h1": "초등학생 교육비 지원 총정리, 교육급여·방과후·돌봄 신청법",
       "visible_chars": 9506,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -1709,13 +1613,11 @@
       "h1": "비상금 얼마가 적당할까? 생활비 1개월부터 만드는 현실적인 순서",
       "visible_chars": 6229,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -1789,13 +1691,11 @@
       "h1": "2026 에너지바우처 신청 대상과 금액, 사용기간까지 한 번에",
       "visible_chars": 8095,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -1820,13 +1720,11 @@
       "h1": "선풍기와 에어컨 함께 쓰는 방법",
       "visible_chars": 4214,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -1908,13 +1806,11 @@
       "h1": "정속형 에어컨 전기세 절약 방법",
       "visible_chars": 4789,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -1940,13 +1836,11 @@
       "h1": "4대보험 공제액 확인 방법, 월급에서 얼마가 빠지는지 보는 기준",
       "visible_chars": 4903,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -1972,13 +1866,11 @@
       "h1": "도시가스 요금 절약과 고지서 점검 방법",
       "visible_chars": 4624,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2002,13 +1894,11 @@
       "h1": "일반과세자 부가가치세 신고에서 자주 하는 실수 12가지",
       "visible_chars": 5055,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2027,13 +1917,11 @@
       "h1": "“남들은 받았다는데 나는 왜 몰랐을까?” 정부24 혜택알리미 확인 순서",
       "visible_chars": 7541,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2057,13 +1945,11 @@
       "h1": "정부24 혜택알리미 설정 방법, 맞춤 혜택과 알림 수신 관리",
       "visible_chars": 5695,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2153,13 +2039,11 @@
       "h1": "장보기 전에 꼭 확인할 식비 절약법, 냉장고부터 예산까지",
       "visible_chars": 7680,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2183,13 +2067,11 @@
       "h1": "건강보험 환급금 조회부터 신청·입금 확인까지 최종 가이드",
       "visible_chars": 5138,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2208,13 +2090,11 @@
       "h1": "난방비 절약 방법 12가지, 보일러 설정부터 창문 단열까지",
       "visible_chars": 4481,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2240,13 +2120,11 @@
       "h1": "수도 누수 자가진단, 계량기로 우리 집 누수 확인하는 방법",
       "visible_chars": 6691,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2288,13 +2166,11 @@
       "h1": "홈택스 부가가치세 매출자료 확인 방법, 카드·현금영수증 누락까지 점검하세요",
       "visible_chars": 4623,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2313,13 +2189,11 @@
       "h1": "2026 주거급여 신청 자격, 소득인정액과 지원금 확인 방법",
       "visible_chars": 10512,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2345,13 +2219,11 @@
       "h1": "충동구매 줄이는 현실적인 방법, 결제 전 24시간 규칙부터 시작하세요",
       "visible_chars": 5829,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2370,13 +2242,11 @@
       "h1": "종합소득세 신고 안 하면 생기는 불이익과 기한후신고 방법",
       "visible_chars": 8342,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2402,13 +2272,11 @@
       "h1": "보험료 자동이체 할인, 바꾸기 전에 실제 납부액부터 비교하세요",
       "visible_chars": 6189,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2427,13 +2295,11 @@
       "h1": "보험 해지환급금 조회부터 해지 결정까지, 손실·대출·보장 공백 최종 점검",
       "visible_chars": 6407,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2452,13 +2318,11 @@
       "h1": "인터넷 요금 할인받는 방법, 약정·결합·재약정 점검 순서",
       "visible_chars": 9047,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2483,13 +2347,11 @@
       "h1": "인버터 에어컨 전기세 절약 운전법, 켜고 끄는 기준부터 설정온도까지",
       "visible_chars": 7581,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2515,13 +2377,11 @@
       "h1": "2026 평생교육이용권 신청 방법, 대상·사용처·카드 발급까지",
       "visible_chars": 4281,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2547,13 +2407,11 @@
       "h1": "대출 중도상환수수료 확인법, 지금 갚는 게 이득인지 계산하는 순서",
       "visible_chars": 5968,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2579,13 +2437,11 @@
       "h1": "대출 갈아타기 전 확인할 것, 금리보다 중요한 총비용 계산법",
       "visible_chars": 5853,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2611,13 +2467,11 @@
       "h1": "지방세 환급금 조회와 신청 방법, 위택스에서 놓친 돈 찾는 순서",
       "visible_chars": 5319,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2643,13 +2497,11 @@
       "h1": "노인장기요양보험 신청 방법, 방문조사부터 등급판정까지",
       "visible_chars": 6122,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2675,13 +2527,11 @@
       "h1": "장기수선충당금 반환, 세입자가 이사할 때 돌려받는 순서",
       "visible_chars": 5844,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2700,13 +2550,11 @@
       "h1": "병원비가 너무 많이 나왔을 때 확인·정정·환불 요청 방법",
       "visible_chars": 9613,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2729,13 +2577,11 @@
       "h1": "재산세 고지서가 안 왔을 때 확인 방법",
       "visible_chars": 9145,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2782,13 +2628,11 @@
       "h1": "월 예산표 만드는 방법, 월급날부터 다음 급여일까지 관리하세요",
       "visible_chars": 6252,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2807,13 +2651,11 @@
       "h1": "월세 세액공제 준비서류와 확인 순서",
       "visible_chars": 7623,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2837,13 +2679,11 @@
       "h1": "국민취업지원제도 신청 자격",
       "visible_chars": 5724,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2868,13 +2708,11 @@
       "h1": "국민연금 추후납부 신청, 가입기간이 부족할 때 확인할 조건과 계산 순서",
       "visible_chars": 6404,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2900,13 +2738,11 @@
       "h1": "국민연금 노령연금 수급 기준, 언제부터 얼마를 받는지 확인하는 방법",
       "visible_chars": 8836,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2925,13 +2761,11 @@
       "h1": "국민연금 과오납금 조회와 환급 신청, 돌려받기 전 확인할 순서",
       "visible_chars": 5647,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2957,13 +2791,11 @@
       "h1": "국가장학금 신청 방법과 확인사항",
       "visible_chars": 5465,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -2988,13 +2820,11 @@
       "h1": "국세환급금 지급계좌 등록 방법",
       "visible_chars": 4953,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -3019,13 +2849,11 @@
       "h1": "국세 환급금 조회 방법",
       "visible_chars": 5499,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -3048,13 +2876,11 @@
       "h1": "차상위계층 확인서 발급 방법",
       "visible_chars": 5687,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -3079,13 +2905,11 @@
       "h1": "60세 이상 받을 수 있는 혜택, 연금·건강·일자리·생활비 확인 순서",
       "visible_chars": 4285,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -3109,13 +2933,11 @@
       "h1": "마이너스통장 사용 시 주의사항",
       "visible_chars": 5005,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -3140,13 +2962,11 @@
       "h1": "부모급여 신청 방법, 출생 후 놓치지 말아야 할 확인 순서",
       "visible_chars": 7114,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -3167,13 +2987,11 @@
       "h1": "파킹통장 금리 비교할 때 볼 항목",
       "visible_chars": 7333,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -3192,13 +3010,11 @@
       "h1": "성수기 숙박비 절약 예약 전략",
       "visible_chars": 6683,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -3217,13 +3033,11 @@
       "h1": "재산세 고지서 확인 체크리스트 2026",
       "visible_chars": 6978,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -3246,13 +3060,11 @@
       "h1": "재산세 과세표준과 세액 계산 구조",
       "visible_chars": 7198,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -3363,13 +3175,11 @@
       "h1": "2026년 7월 재산세 납부 대상과 기간",
       "visible_chars": 6128,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -3388,13 +3198,11 @@
       "h1": "주택분 재산세 7월과 9월 차이",
       "visible_chars": 5275,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -3413,13 +3221,11 @@
       "h1": "재산세 이의신청과 과세전적부심 차이",
       "visible_chars": 5763,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -3438,13 +3244,11 @@
       "h1": "재산세 납부증명서 발급 방법",
       "visible_chars": 5351,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -3502,13 +3306,11 @@
       "h1": "휴가철 렌터카 비용 절약, 보험·연료·반납 조건까지 비교하는 순서",
       "visible_chars": 4694,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -3773,13 +3575,11 @@
       "h1": "사업자 비용처리 가능한 항목 총정리",
       "visible_chars": 9165,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -3798,13 +3598,11 @@
       "h1": "간이과세자 부가가치세 신고 체크리스트",
       "visible_chars": 7358,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -3823,13 +3621,11 @@
       "h1": "폐업 소상공인 원스톱 지원 확인 2026",
       "visible_chars": 6465,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -3848,13 +3644,11 @@
       "h1": "소상공인 배달비 지원사업 찾는 방법",
       "visible_chars": 7596,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -3873,13 +3667,11 @@
       "h1": "소상공인 전기요금 지원 확인법",
       "visible_chars": 6155,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [
         "blue-hex",
         "old-blue-gradient",
@@ -3902,13 +3694,11 @@
       "h1": "소상공인 정책자금 확인·신청 순서 2026",
       "visible_chars": 6441,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -3973,13 +3763,11 @@
       "h1": "여름철 전기요금 누진구간 확인과 사용량 관리 방법",
       "visible_chars": 5464,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -3998,13 +3786,11 @@
       "h1": "여름 휴가비 예산 짜는 방법, 여행 후 카드값까지 계산하세요",
       "visible_chars": 4588,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -4023,13 +3809,11 @@
       "h1": "현금영수증 매출 조회 방법, 누락·중복까지 확인하는 순서",
       "visible_chars": 6314,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -4120,13 +3904,11 @@
       "h1": "2026년 1기 부가가치세 확정신고 방법과 공식 기한",
       "visible_chars": 4854,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -4145,13 +3927,11 @@
       "h1": "부가가치세 매입세액 공제·불공제 판단법 2026",
       "visible_chars": 8432,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -4170,13 +3950,11 @@
       "h1": "부가가치세 신고 후 납부기한 연장 신청 방법",
       "visible_chars": 5785,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -4195,13 +3973,11 @@
       "h1": "부가가치세 신고 전 매출 누락 확인 방법",
       "visible_chars": 5030,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
@@ -4220,13 +3996,11 @@
       "h1": "매출이 없어도 부가가치세 신고해야 할까? 무실적 신고 방법",
       "visible_chars": 4903,
       "explorer": {
-        "data": false,
+        "data": true,
         "js": true,
         "css": true
       },
-      "explorer_missing": [
-        "data"
-      ],
+      "explorer_missing": [],
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
