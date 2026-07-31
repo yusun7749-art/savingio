@@ -1,0 +1,36 @@
+name: Repair missing article Explorer
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'factory/repair_missing_explorer.py'
+      - '.github/workflows/repair-missing-explorer.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Inject Explorer scripts into missing article pages
+        run: python factory/repair_missing_explorer.py
+      - name: Commit repaired pages
+        run: |
+          if git diff --quiet; then
+            echo "No missing Explorer pages"
+            exit 0
+          fi
+          git config user.name "savingio-audit-bot"
+          git config user.email "savingio-audit-bot@users.noreply.github.com"
+          git add articles factory/QA/MISSING_EXPLORER_REPAIR.txt
+          git commit -m "Repair article pages missing Explorer [skip ci]"
+          git push
