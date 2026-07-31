@@ -268,7 +268,7 @@
 - `articles/automatic-payment-saving.html` — 자동이체·자동결제 정리하는 방법, 매달 새는 고정비 찾기 (6,466자)
 - `articles/check-hidden-refunds.html` — 미수령 환급금 조회 방법 (8,394자)
 - `articles/education-expense-vs-benefit.html` — 교육비 지원과 교육급여 차이 (4,921자)
-- `articles/index.html` — 돈이 되는 생활 정보 (96자)
+- `articles/index.html` — 돈이 되는 생활 정보 (127자)
 - `articles/salary-take-home-easy-calculator-guide.html` — 세전 월급만 입력해 예상 실수령액 확인하는 방법 (4,387자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
