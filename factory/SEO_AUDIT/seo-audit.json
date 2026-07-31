@@ -2040,16 +2040,16 @@
       "path": "articles/government-benefit-alert-setup.html",
       "url": "https://savingio.com/articles/government-benefit-alert-setup.html",
       "title": "정부24 혜택알리미 설정 방법, 맞춤 혜택과 알림 수신 관리 | Savingio",
-      "meta_description": "정부24 혜택알리미에서 나의 혜택, 관심 혜택, 발견 혜택을 확인하고 서비스 이용동의와 알림 수신동의를 관리하는 방법을 정리했습니다.",
+      "meta_description": "정부24 혜택알리미에서 나의 혜택, 관심, 발견 혜택을 확인하고 서비스 이용동의, 관심 서비스, 국민비서·앱 알림 수신 설정을 점검하는 방법을 정리했습니다.",
       "canonical": "https://savingio.com/articles/government-benefit-alert-setup.html",
       "h1": [
         "정부24 혜택알리미 설정 방법, 맞춤 혜택과 알림 수신 관리"
       ],
-      "h2_count": 16,
-      "h3_count": 1,
-      "korean_chars": 2720,
-      "words": 955,
-      "internal_article_links": 10,
+      "h2_count": 19,
+      "h3_count": 3,
+      "korean_chars": 3919,
+      "words": 1363,
+      "internal_article_links": 9,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 2,
@@ -2059,7 +2059,7 @@
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:2720"
+        "CONTENT_SHORT_KO:3919"
       ],
       "score": 92,
       "status": "PASS"
