@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3319,
-  "references_scanned": 61591,
+  "files_scanned": 3320,
+  "references_scanned": 61592,
   "counts": {
-    "broken_references": 3040,
+    "broken_references": 3041,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 7,
@@ -5552,6 +5552,13 @@
       "reference": "/categories/insurance.html",
       "expected": [
         "categories/insurance.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/categories/living-budget.html",
+      "expected": [
+        "categories/living-budget.html"
       ]
     },
     {
