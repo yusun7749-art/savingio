@@ -1,11 +1,11 @@
 {
   "summary": {
     "article_count": 155,
-    "pass": 153,
-    "warning": 2,
+    "pass": 152,
+    "warning": 3,
     "fail": 0,
-    "average_score": 92.2,
-    "thin_under_2500_ko": 0,
+    "average_score": 92.1,
+    "thin_under_2500_ko": 1,
     "short_under_4500_ko": 93,
     "missing_meta": 0,
     "missing_canonical": 0,
@@ -3533,29 +3533,32 @@
     {
       "path": "articles/rental-contract-reporting-guide.html",
       "url": "https://savingio.com/articles/rental-contract-reporting-guide.html",
-      "title": "전월세 신고제 신고 방법과 준비서류 | 세이빙이오(Savingio)",
-      "meta_description": "임대차계약 체결·변경·해제 시 신고 대상과 계약서 준비, 온라인 신고와 처리 결과 확인 순서를 정리했습니다.",
+      "title": "전월세 신고제 신고 방법과 준비서류 | Savingio",
+      "meta_description": "주택 임대차계약 신고 대상, 신고기한, 온라인·방문 신고, 계약 변경·해제, 전입신고와 확정일자 차이, 준비서류를 실제 처리 순서로 정리했습니다.",
       "canonical": "https://savingio.com/articles/rental-contract-reporting-guide.html",
       "h1": [
         "전월세 신고제 신고 방법과 준비서류"
       ],
-      "h2_count": 12,
-      "h3_count": 1,
-      "korean_chars": 3528,
-      "words": 1184,
-      "internal_article_links": 7,
+      "h2_count": 16,
+      "h3_count": 0,
+      "korean_chars": 2341,
+      "words": 770,
+      "internal_article_links": 9,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 1,
       "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [],
-      "warnings": [
-        "CONTENT_SHORT_KO:3528"
+      "breadcrumb_schema": false,
+      "faq_schema": false,
+      "issues": [
+        "THIN_CONTENT_KO:2341"
       ],
-      "score": 96,
-      "status": "PASS"
+      "warnings": [
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING"
+      ],
+      "score": 80,
+      "status": "WARNING"
     },
     {
       "path": "articles/salary-slip-check-guide.html",
