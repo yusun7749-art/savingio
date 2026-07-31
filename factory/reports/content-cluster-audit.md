@@ -93,7 +93,7 @@
 - `articles/four-major-insurance-deduction-guide.html` — 4대보험 공제액 확인 방법, 월급에서 얼마가 빠지는지 보는 기준 (4,903자)
 - `articles/national-employment-support-eligibility.html` — 국민취업지원제도 신청 자격 (5,724자)
 - `articles/salary-slip-check-guide.html` — 급여명세서 확인 방법, 월급에서 빠진 돈을 항목별로 보는 순서 (4,068자)
-- `articles/severance-pay-calculation-guide.html` — 퇴직금 계산 방법, 평균임금과 재직기간을 확인하는 순서 (3,515자)
+- `articles/severance-pay-calculation-guide.html` — 퇴직금 계산 방법, 평균임금과 재직기간을 확인하는 순서 (7,752자)
 - `articles/severance-pay-easy-calculator-guide.html` — 퇴직금, 입사일과 월급만으로 빠르게 확인하는 방법 (4,727자)
 - `articles/unemployment-benefit-checklist.html` — 실업급여 신청 전 확인할 조건과 준비서류 체크리스트 (6,692자)
 - `articles/unemployment-benefit-job-search.html` — 실업급여 구직활동 인정 기준 (4,739자)
