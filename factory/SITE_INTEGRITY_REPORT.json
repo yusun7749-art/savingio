@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3320,
-  "references_scanned": 61591,
+  "references_scanned": 61582,
   "counts": {
-    "broken_references": 3041,
+    "broken_references": 3035,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 7,
@@ -1837,48 +1837,6 @@
     },
     {
       "source": "articles/telecom-discount-guide.html",
-      "reference": "/articles/subscription-saving.html",
-      "expected": [
-        "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "articles/telecom-unclaimed-refund.html",
-      "reference": "/articles/how-to-lower-phone-bill.html",
-      "expected": [
-        "articles/how-to-lower-phone-bill.html"
-      ]
-    },
-    {
-      "source": "articles/telecom-unclaimed-refund.html",
-      "reference": "/articles/internet-bill-savings.html",
-      "expected": [
-        "articles/internet-bill-savings.html"
-      ]
-    },
-    {
-      "source": "articles/telecom-unclaimed-refund.html",
-      "reference": "/articles/phone-bill-saving.html",
-      "expected": [
-        "articles/phone-bill-saving.html"
-      ]
-    },
-    {
-      "source": "articles/telecom-unclaimed-refund.html",
-      "reference": "/articles/subscription-audit-checklist.html",
-      "expected": [
-        "articles/subscription-audit-checklist.html"
-      ]
-    },
-    {
-      "source": "articles/telecom-unclaimed-refund.html",
-      "reference": "/articles/subscription-cleanup.html",
-      "expected": [
-        "articles/subscription-cleanup.html"
-      ]
-    },
-    {
-      "source": "articles/telecom-unclaimed-refund.html",
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
