@@ -1,0 +1,36 @@
+name: Remove merged alias pages
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'factory/remove_merged_alias_pages.py'
+      - '.github/workflows/remove-merged-alias-pages.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  remove:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Delete merged alias HTML and stale references
+        run: python factory/remove_merged_alias_pages.py
+      - name: Commit verified removals
+        run: |
+          if git diff --quiet; then
+            echo "No merged alias pages found"
+            exit 0
+          fi
+          git config user.name "savingio-audit-bot"
+          git config user.email "savingio-audit-bot@users.noreply.github.com"
+          git add articles data js categories factory/QA
+          git commit -m "Delete merged alias article pages and stale references [skip ci]"
+          git push
