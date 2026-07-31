@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3320,
-  "references_scanned": 61580,
+  "references_scanned": 61586,
   "counts": {
-    "broken_references": 3041,
+    "broken_references": 3046,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 7,
@@ -1479,13 +1479,6 @@
       ]
     },
     {
-      "source": "articles/government-benefits-warning.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
-      ]
-    },
-    {
       "source": "articles/grocery-saving-tips.html",
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
@@ -1756,6 +1749,27 @@
       "reference": "/articles/government-support-scam-warning-2026.html",
       "expected": [
         "articles/government-support-scam-warning-2026.html"
+      ]
+    },
+    {
+      "source": "articles/spending-habits-change.html",
+      "reference": "/calculators/monthly-budget.html",
+      "expected": [
+        "calculators/monthly-budget.html"
+      ]
+    },
+    {
+      "source": "articles/spending-habits-change.html",
+      "reference": "/calculators/savings-goal.html",
+      "expected": [
+        "calculators/savings-goal.html"
+      ]
+    },
+    {
+      "source": "articles/spending-habits-change.html",
+      "reference": "/categories/household-budget.html",
+      "expected": [
+        "categories/household-budget.html"
       ]
     },
     {
@@ -4240,6 +4254,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/credit-score-recovery.html",
+      "expected": [
+        "articles/credit-score-recovery.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/credit-score-tips.html",
       "expected": [
         "articles/credit-score-tips.html"
@@ -4285,6 +4306,13 @@
       "reference": "/articles/debt-repayment-priority.html",
       "expected": [
         "articles/debt-repayment-priority.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/debt-repayment-strategy.html",
+      "expected": [
+        "articles/debt-repayment-strategy.html"
       ]
     },
     {
@@ -4747,6 +4775,13 @@
       "reference": "/articles/mobile-plan-saving.html",
       "expected": [
         "articles/mobile-plan-saving.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/monthly-budget-plan.html",
+      "expected": [
+        "articles/monthly-budget-plan.html"
       ]
     },
     {
