@@ -95,7 +95,7 @@
 - `articles/salary-slip-check-guide.html` — 급여명세서 확인 방법, 월급에서 빠진 돈을 항목별로 보는 순서 (4,068자)
 - `articles/severance-pay-calculation-guide.html` — 퇴직금 계산 방법, 평균임금과 재직기간을 확인하는 순서 (3,515자)
 - `articles/severance-pay-easy-calculator-guide.html` — 퇴직금, 입사일과 월급만으로 빠르게 확인하는 방법 (4,727자)
-- `articles/unemployment-benefit-checklist.html` — 실업급여 신청 전 확인할 조건과 준비서류 체크리스트 (3,491자)
+- `articles/unemployment-benefit-checklist.html` — 실업급여 신청 전 확인할 조건과 준비서류 체크리스트 (6,692자)
 - `articles/unemployment-benefit-job-search.html` — 실업급여 구직활동 인정 기준 (4,739자)
 - `articles/weekly-holiday-pay-guide.html` — 주휴수당 조건과 계산 방법, 내가 받을 수 있는지 확인하는 순서 (3,657자)
 
