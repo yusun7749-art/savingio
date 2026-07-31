@@ -231,7 +231,7 @@
 - `articles/government-benefit-alert-2026.html` — “남들은 받았다는데 나는 왜 몰랐을까?” 정부24 혜택알리미 확인 순서 (7,541자)
 - `articles/government-benefit-alert-setup.html` — 정부24 혜택알리미 설정 방법, 맞춤 혜택과 알림 수신 관리 (5,695자)
 - `articles/government-benefits-warning.html` — 정부지원금 조회 시 주의할 점 (5,559자)
-- `articles/government-support-calendar.html` — 정부지원금 신청 일정 관리 방법, 마감일·갱신일 놓치지 않는 달력 만들기 (4,060자)
+- `articles/government-support-calendar.html` — 정부지원금 신청 일정 관리 방법, 마감일·갱신일 놓치지 않는 달력 만들기 (4,635자)
 - `articles/government24-benefit-check.html` — 정부24 보조금24 혜택 조회 방법, 나와 가족 지원금 찾기 (5,468자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
