@@ -93,7 +93,7 @@
 - `articles/national-pension-old-age-benefit-guide.html` — 국민연금 노령연금 수급 기준, 언제부터 얼마를 받는지 확인하는 방법 (8,836자)
 - `articles/national-pension-overpayment-refund.html` — 국민연금 과오납금 조회와 환급 신청, 돌려받기 전 확인할 순서 (5,647자)
 - `articles/over-60-benefits-guide.html` — 60세 이상 받을 수 있는 혜택, 연금·건강·일자리·생활비 확인 순서 (4,285자)
-- `articles/senior-job-application-guide.html` — 노인일자리 신청 방법, 모집 시기와 사업 유형을 비교하는 체크리스트 (4,276자)
+- `articles/senior-job-application-guide.html` — 노인일자리 신청 방법, 모집 시기와 사업 유형을 비교하는 체크리스트 (4,778자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
 
