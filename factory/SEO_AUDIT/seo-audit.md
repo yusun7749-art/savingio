@@ -4,7 +4,7 @@
 - PASS: 153
 - WARNING: 2
 - FAIL: 0
-- Average score: 92.3
+- Average score: 92.2
 - Thin content (<2500 Korean chars): 0
 - Short content (<4500 Korean chars): 93
 - Missing meta: 0
@@ -52,6 +52,7 @@
 | 88 | PASS | `articles/property-tax-july-september-difference.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3559 |
 | 88 | PASS | `articles/property-tax-objection-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4066 |
 | 88 | PASS | `articles/property-tax-payment-certificate.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3736 |
+| 88 | PASS | `articles/regional-development-bond-refund-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3397 |
 | 88 | PASS | `articles/salary-slip-check-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3362 |
 | 88 | PASS | `articles/traffic-fines-difference-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4212 |
 | 92 | PASS | `articles/ai-side-hustles-beginner.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
@@ -99,4 +100,3 @@
 | 92 | PASS | `articles/internet-bill-discount.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/inverter-aircon-saving-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/loan-prepayment-fee-check.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4158 |
-| 92 | PASS | `articles/loan-refinancing-check.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4100 |

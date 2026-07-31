@@ -4,7 +4,7 @@
     "pass": 153,
     "warning": 2,
     "fail": 0,
-    "average_score": 92.3,
+    "average_score": 92.2,
     "thin_under_2500_ko": 0,
     "short_under_4500_ko": 93,
     "missing_meta": 0,
@@ -3476,28 +3476,30 @@
     {
       "path": "articles/regional-development-bond-refund-guide.html",
       "url": "https://savingio.com/articles/regional-development-bond-refund-guide.html",
-      "title": "자동차 채권 환급금 조회 방법, 지역개발채권 만기상환 확인 순서 | 세이빙이오(Savingio)",
-      "meta_description": "자동차 등록 때 매입한 지역개발채권·도시철도채권의 즉시매도와 보유 여부, 만기, 환급 조회와 소멸시효 확인 방법을 정리했습니다.",
+      "title": "자동차 채권 환급금 조회 방법, 지역개발채권 만기상환 확인 순서 | Savingio",
+      "meta_description": "자동차 등록 때 매입한 지역개발채권·도시철도채권의 즉시매도 여부, 보유 채권 조회, 만기와 소멸시효, 취급은행, 상속·법인 명의까지 실제 확인 순서로 정리했습니다.",
       "canonical": "https://savingio.com/articles/regional-development-bond-refund-guide.html",
       "h1": [
         "자동차 채권 환급금 조회 방법, 지역개발채권 만기상환 확인 순서"
       ],
-      "h2_count": 9,
-      "h3_count": 0,
-      "korean_chars": 3063,
-      "words": 1016,
-      "internal_article_links": 12,
+      "h2_count": 17,
+      "h3_count": 3,
+      "korean_chars": 3397,
+      "words": 1143,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 1,
       "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
+      "breadcrumb_schema": false,
+      "faq_schema": false,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:3063"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3397"
       ],
-      "score": 96,
+      "score": 88,
       "status": "PASS"
     },
     {
