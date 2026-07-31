@@ -135,7 +135,7 @@
 - `articles/home-water-leak-self-check.html` — 수도 누수 자가진단, 계량기로 우리 집 누수 확인하는 방법 (6,691자)
 - `articles/long-term-repair-reserve-refund-guide.html` — 장기수선충당금 반환, 세입자가 이사할 때 돌려받는 순서 (5,844자)
 - `articles/monthly-rent-tax-credit-documents.html` — 월세 세액공제 준비서류와 확인 순서 (7,623자)
-- `articles/rental-contract-reporting-guide.html` — 전월세 신고제 신고 방법과 준비서류 (4,984자)
+- `articles/rental-contract-reporting-guide.html` — 전월세 신고제 신고 방법과 준비서류 (3,308자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
 
