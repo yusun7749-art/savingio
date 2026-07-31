@@ -1,0 +1,38 @@
+name: Audit card-style article UI
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'articles/**.html'
+      - 'topics/**.html'
+      - 'factory/audit_card_ui.py'
+      - '.github/workflows/audit-card-ui.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Scan all article and topic HTML
+        run: python factory/audit_card_ui.py
+      - name: Commit audit report
+        run: |
+          if git diff --quiet -- factory/QA/CARD_UI_AUDIT.json factory/QA/CARD_UI_AUDIT.md; then
+            echo 'No report changes'
+            exit 0
+          fi
+          git config user.name 'savingio-audit-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add factory/QA/CARD_UI_AUDIT.json factory/QA/CARD_UI_AUDIT.md
+          git commit -m 'Update card UI audit report'
+          git push
