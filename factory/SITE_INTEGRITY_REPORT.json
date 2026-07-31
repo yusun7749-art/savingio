@@ -1,12 +1,12 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3328,
-  "references_scanned": 61603,
+  "files_scanned": 3317,
+  "references_scanned": 60245,
   "counts": {
-    "broken_references": 3047,
+    "broken_references": 3294,
     "malformed_redirects": 0,
-    "broken_redirect_targets": 1,
+    "broken_redirect_targets": 5,
     "missing_sitemap_targets": 7,
     "publisher_id_drift": 0
   },
@@ -1598,20 +1598,6 @@
       ]
     },
     {
-      "source": "articles/refrigerator-summer-electricity-saving.html",
-      "reference": "/articles/how-to-save-electricity-bill.html",
-      "expected": [
-        "articles/how-to-save-electricity-bill.html"
-      ]
-    },
-    {
-      "source": "articles/refrigerator-summer-electricity-saving.html",
-      "reference": "/articles/summer-electricity-tier-check.html",
-      "expected": [
-        "articles/summer-electricity-tier-check.html"
-      ]
-    },
-    {
       "source": "articles/regional-development-bond-refund-guide.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -1626,45 +1612,10 @@
       ]
     },
     {
-      "source": "articles/revolving-cancellation-payoff.html",
-      "reference": "/articles/energy-voucher-balance-check-2026.html",
-      "expected": [
-        "articles/energy-voucher-balance-check-2026.html"
-      ]
-    },
-    {
-      "source": "articles/revolving-cancellation-payoff.html",
-      "reference": "/articles/energy-voucher-balance-use.html",
-      "expected": [
-        "articles/energy-voucher-balance-use.html"
-      ]
-    },
-    {
-      "source": "articles/revolving-cancellation-payoff.html",
-      "reference": "/articles/low-income-cooling-support.html",
-      "expected": [
-        "articles/low-income-cooling-support.html"
-      ]
-    },
-    {
       "source": "articles/salary-take-home-easy-calculator-guide.html",
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
-      ]
-    },
-    {
-      "source": "articles/savings-maturity-auto-renewal.html",
-      "reference": "/articles/credit-score-management.html",
-      "expected": [
-        "articles/credit-score-management.html"
-      ]
-    },
-    {
-      "source": "articles/savings-maturity-auto-renewal.html",
-      "reference": "/articles/energy-voucher-eligibility-2026.html",
-      "expected": [
-        "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
@@ -1686,55 +1637,6 @@
       "reference": "/articles/vat-zero-sales-filing.html",
       "expected": [
         "articles/vat-zero-sales-filing.html"
-      ]
-    },
-    {
-      "source": "articles/single-parent-support-benefits.html",
-      "reference": "/articles/energy-voucher-application-2026.html",
-      "expected": [
-        "articles/energy-voucher-application-2026.html"
-      ]
-    },
-    {
-      "source": "articles/single-parent-support-benefits.html",
-      "reference": "/articles/energy-voucher-application.html",
-      "expected": [
-        "articles/energy-voucher-application.html"
-      ]
-    },
-    {
-      "source": "articles/single-parent-support-benefits.html",
-      "reference": "/articles/energy-voucher-balance-check-2026.html",
-      "expected": [
-        "articles/energy-voucher-balance-check-2026.html"
-      ]
-    },
-    {
-      "source": "articles/single-parent-support-benefits.html",
-      "reference": "/articles/energy-voucher-balance-use.html",
-      "expected": [
-        "articles/energy-voucher-balance-use.html"
-      ]
-    },
-    {
-      "source": "articles/single-parent-support-benefits.html",
-      "reference": "/articles/energy-voucher-documents.html",
-      "expected": [
-        "articles/energy-voucher-documents.html"
-      ]
-    },
-    {
-      "source": "articles/single-parent-support-benefits.html",
-      "reference": "/articles/energy-voucher-eligibility-2026.html",
-      "expected": [
-        "articles/energy-voucher-eligibility-2026.html"
-      ]
-    },
-    {
-      "source": "articles/single-parent-support-benefits.html",
-      "reference": "/articles/energy-voucher-online-application.html",
-      "expected": [
-        "articles/energy-voucher-online-application.html"
       ]
     },
     {
@@ -1801,104 +1703,6 @@
       ]
     },
     {
-      "source": "articles/summer-gas-bill-hot-water-saving.html",
-      "reference": "/articles/water-bill-guide.html",
-      "expected": [
-        "articles/water-bill-guide.html"
-      ]
-    },
-    {
-      "source": "articles/summer-water-bill-spike-check.html",
-      "reference": "/articles/water-bill-guide.html",
-      "expected": [
-        "articles/water-bill-guide.html"
-      ]
-    },
-    {
-      "source": "articles/tax-credit-late-application.html",
-      "reference": "/articles/hidden-money-search.html",
-      "expected": [
-        "articles/hidden-money-search.html"
-      ]
-    },
-    {
-      "source": "articles/tax-credit-late-application.html",
-      "reference": "/articles/local-tax-refund-claim.html",
-      "expected": [
-        "articles/local-tax-refund-claim.html"
-      ]
-    },
-    {
-      "source": "articles/tax-credit-late-application.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
-      ]
-    },
-    {
-      "source": "articles/telecom-discount-guide.html",
-      "reference": "/articles/how-to-lower-phone-bill.html",
-      "expected": [
-        "articles/how-to-lower-phone-bill.html"
-      ]
-    },
-    {
-      "source": "articles/telecom-discount-guide.html",
-      "reference": "/articles/internet-bill-savings.html",
-      "expected": [
-        "articles/internet-bill-savings.html"
-      ]
-    },
-    {
-      "source": "articles/telecom-discount-guide.html",
-      "reference": "/articles/phone-bill-saving.html",
-      "expected": [
-        "articles/phone-bill-saving.html"
-      ]
-    },
-    {
-      "source": "articles/telecom-discount-guide.html",
-      "reference": "/articles/subscription-audit-checklist.html",
-      "expected": [
-        "articles/subscription-audit-checklist.html"
-      ]
-    },
-    {
-      "source": "articles/telecom-discount-guide.html",
-      "reference": "/articles/subscription-cleanup.html",
-      "expected": [
-        "articles/subscription-cleanup.html"
-      ]
-    },
-    {
-      "source": "articles/telecom-discount-guide.html",
-      "reference": "/articles/subscription-saving.html",
-      "expected": [
-        "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "articles/travel-insurance-comparison.html",
-      "reference": "/articles/low-income-cooling-support.html",
-      "expected": [
-        "articles/low-income-cooling-support.html"
-      ]
-    },
-    {
-      "source": "articles/unemployment-benefit-job-search.html",
-      "reference": "/articles/salary-budget-guide.html",
-      "expected": [
-        "articles/salary-budget-guide.html"
-      ]
-    },
-    {
-      "source": "articles/unemployment-benefit-job-search.html",
-      "reference": "/articles/salary-management-guide.html",
-      "expected": [
-        "articles/salary-management-guide.html"
-      ]
-    },
-    {
       "source": "articles/vat-zero-sales-filing-2026.html",
       "reference": "/js/savingio-article-unified-v3036.js?v=3038",
       "expected": [
@@ -1938,27 +1742,6 @@
       "reference": "/articles/overtime-pay-calculation.html",
       "expected": [
         "articles/overtime-pay-calculation.html"
-      ]
-    },
-    {
-      "source": "articles/wetax-electronic-billing.html",
-      "reference": "/articles/local-tax-refund-claim.html",
-      "expected": [
-        "articles/local-tax-refund-claim.html"
-      ]
-    },
-    {
-      "source": "articles/wetax-payment-history.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "articles/yellow-umbrella-mutual-aid-guide.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -2011,20 +1794,6 @@
       ]
     },
     {
-      "source": "articles/youth-leap-account-contribution.html",
-      "reference": "/articles/energy-voucher-eligibility-2026.html",
-      "expected": [
-        "articles/energy-voucher-eligibility-2026.html"
-      ]
-    },
-    {
-      "source": "articles/youth-leap-account-contribution.html",
-      "reference": "/articles/summer-electricity-tier-check.html",
-      "expected": [
-        "articles/summer-electricity-tier-check.html"
-      ]
-    },
-    {
       "source": "bank-fees-to-avoid.html",
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
@@ -2043,6 +1812,20 @@
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
         "articles/energy-voucher-application-2026.html"
+      ]
+    },
+    {
+      "source": "benefits/index.html",
+      "reference": "/articles/single-parent-support-benefits.html",
+      "expected": [
+        "articles/single-parent-support-benefits.html"
+      ]
+    },
+    {
+      "source": "benefits/index.html",
+      "reference": "/articles/youth-support-programs.html",
+      "expected": [
+        "articles/youth-support-programs.html"
       ]
     },
     {
@@ -2484,237 +2267,6 @@
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/bank-fees-to-avoid.html",
-      "expected": [
-        "articles/bank-fees-to-avoid.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/credit-score-management.html",
-      "expected": [
-        "articles/credit-score-management.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/energy-voucher-application-2026.html",
-      "expected": [
-        "articles/energy-voucher-application-2026.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/energy-voucher-application.html",
-      "expected": [
-        "articles/energy-voucher-application.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/energy-voucher-balance-check-2026.html",
-      "expected": [
-        "articles/energy-voucher-balance-check-2026.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/energy-voucher-balance-use.html",
-      "expected": [
-        "articles/energy-voucher-balance-use.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/energy-voucher-documents.html",
-      "expected": [
-        "articles/energy-voucher-documents.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/energy-voucher-eligibility-2026.html",
-      "expected": [
-        "articles/energy-voucher-eligibility-2026.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/energy-voucher-online-application.html",
-      "expected": [
-        "articles/energy-voucher-online-application.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/grocery-bill-savings.html",
-      "expected": [
-        "articles/grocery-bill-savings.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
-      "expected": [
-        "articles/health-insurance-out-of-pocket-refund.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/health-insurance-overpayment-refund.html",
-      "expected": [
-        "articles/health-insurance-overpayment-refund.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/hidden-money-search.html",
-      "expected": [
-        "articles/hidden-money-search.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/hidden-refund-check.html",
-      "expected": [
-        "articles/hidden-refund-check.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/how-to-check-hidden-refunds.html",
-      "expected": [
-        "articles/how-to-check-hidden-refunds.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/how-to-lower-phone-bill.html",
-      "expected": [
-        "articles/how-to-lower-phone-bill.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/how-to-save-electricity-bill.html",
-      "expected": [
-        "articles/how-to-save-electricity-bill.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/internet-bill-savings.html",
-      "expected": [
-        "articles/internet-bill-savings.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/local-tax-refund-claim.html",
-      "expected": [
-        "articles/local-tax-refund-claim.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/low-income-cooling-support.html",
-      "expected": [
-        "articles/low-income-cooling-support.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/phone-bill-saving.html",
-      "expected": [
-        "articles/phone-bill-saving.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/salary-budget-guide.html",
-      "expected": [
-        "articles/salary-budget-guide.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/salary-management-guide.html",
-      "expected": [
-        "articles/salary-management-guide.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/subscription-audit-checklist.html",
-      "expected": [
-        "articles/subscription-audit-checklist.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/subscription-cleanup.html",
-      "expected": [
-        "articles/subscription-cleanup.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/subscription-saving.html",
-      "expected": [
-        "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/summer-electricity-tier-check.html",
-      "expected": [
-        "articles/summer-electricity-tier-check.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/vat-final-return-july-2026.html",
-      "expected": [
-        "articles/vat-final-return-july-2026.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/vat-zero-sales-filing.html",
-      "expected": [
-        "articles/vat-zero-sales-filing.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.js",
-      "reference": "/articles/water-bill-guide.html",
-      "expected": [
-        "articles/water-bill-guide.html"
       ]
     },
     {
@@ -3688,6 +3240,524 @@
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/bank-fees-to-avoid.html",
+      "expected": [
+        "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/beginner-ai-side-hustles.html",
+      "expected": [
+        "articles/beginner-ai-side-hustles.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/business-expense-proof-guide.html",
+      "expected": [
+        "articles/business-expense-proof-guide.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/car-insurance-overpayment-refund.svg",
+      "expected": [
+        "articles/car-insurance-overpayment-refund.svg"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/car-maintenance-cost-saving.html",
+      "expected": [
+        "articles/car-maintenance-cost-saving.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/credit-score-management.html",
+      "expected": [
+        "articles/credit-score-management.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/credit-score-recovery.html",
+      "expected": [
+        "articles/credit-score-recovery.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/credit-score-tips.html",
+      "expected": [
+        "articles/credit-score-tips.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/debt-repayment-strategy.html",
+      "expected": [
+        "articles/debt-repayment-strategy.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/energy-voucher-application-2026.html",
+      "expected": [
+        "articles/energy-voucher-application-2026.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/energy-voucher-application.html",
+      "expected": [
+        "articles/energy-voucher-application.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/energy-voucher-balance-check-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/energy-voucher-balance-use-2026.html",
+      "expected": [
+        "articles/energy-voucher-balance-use-2026.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/energy-voucher-balance-use.html",
+      "expected": [
+        "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/energy-voucher-documents.html",
+      "expected": [
+        "articles/energy-voucher-documents.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "expected": [
+        "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/energy-voucher-online-application.html",
+      "expected": [
+        "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/fuel-saving-driving-habits.html",
+      "expected": [
+        "articles/fuel-saving-driving-habits.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/government-benefit-alert-guide-2026.html",
+      "expected": [
+        "articles/government-benefit-alert-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/government-support-scam-warning-2026.html",
+      "expected": [
+        "articles/government-support-scam-warning-2026.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/grocery-bill-savings.html",
+      "expected": [
+        "articles/grocery-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/health-insurance-refund.html",
+      "expected": [
+        "articles/health-insurance-refund.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/hidden-money-search.html",
+      "expected": [
+        "articles/hidden-money-search.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/hidden-refund-check.html",
+      "expected": [
+        "articles/hidden-refund-check.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/how-to-check-hidden-refunds.html",
+      "expected": [
+        "articles/how-to-check-hidden-refunds.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/how-to-lower-phone-bill.html",
+      "expected": [
+        "articles/how-to-lower-phone-bill.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/how-to-save-electricity-bill.html",
+      "expected": [
+        "articles/how-to-save-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/internet-bill-savings.html",
+      "expected": [
+        "articles/internet-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/loan-interest-saving.html",
+      "expected": [
+        "articles/loan-interest-saving.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/local-tax-refund.html",
+      "expected": [
+        "articles/local-tax-refund.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/low-mileage-discount-check.html",
+      "expected": [
+        "articles/low-mileage-discount-check.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/medical-expense-refund-guide.html",
+      "expected": [
+        "articles/medical-expense-refund-guide.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/minimum-wage-guide.html",
+      "expected": [
+        "articles/minimum-wage-guide.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/monthly-budget-plan.html",
+      "expected": [
+        "articles/monthly-budget-plan.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/online-income-ideas-for-beginners.html",
+      "expected": [
+        "articles/online-income-ideas-for-beginners.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/overtime-pay-calculation.html",
+      "expected": [
+        "articles/overtime-pay-calculation.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/phone-bill-saving.html",
+      "expected": [
+        "articles/phone-bill-saving.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/property-tax-july-checklist-2026.html",
+      "expected": [
+        "articles/property-tax-july-checklist-2026.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/reduce-electricity-bill.html",
+      "expected": [
+        "articles/reduce-electricity-bill.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/refrigerator-summer-electricity-saving.html",
+      "expected": [
+        "articles/refrigerator-summer-electricity-saving.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/revolving-cancellation-payoff.html",
+      "expected": [
+        "articles/revolving-cancellation-payoff.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/salary-budget-guide.html",
+      "expected": [
+        "articles/salary-budget-guide.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/salary-management-guide.html",
+      "expected": [
+        "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/savings-maturity-auto-renewal.html",
+      "expected": [
+        "articles/savings-maturity-auto-renewal.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/single-parent-support-benefits.html",
+      "expected": [
+        "articles/single-parent-support-benefits.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/subscription-cleanup.html",
+      "expected": [
+        "articles/subscription-cleanup.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/subscription-saving.html",
+      "expected": [
+        "articles/subscription-saving.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/subsidy24-benefit-search.html",
+      "expected": [
+        "articles/subsidy24-benefit-search.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/summer-electricity-tier-check.html",
+      "expected": [
+        "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/summer-electricity-usage-check-2026.html",
+      "expected": [
+        "articles/summer-electricity-usage-check-2026.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/summer-gas-bill-hot-water-saving.html",
+      "expected": [
+        "articles/summer-gas-bill-hot-water-saving.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/summer-water-bill-spike-check.html",
+      "expected": [
+        "articles/summer-water-bill-spike-check.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/tax-credit-late-application.html",
+      "expected": [
+        "articles/tax-credit-late-application.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/telecom-discount-guide.html",
+      "expected": [
+        "articles/telecom-discount-guide.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/travel-insurance-comparison.html",
+      "expected": [
+        "articles/travel-insurance-comparison.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/unemployment-benefit-job-search.html",
+      "expected": [
+        "articles/unemployment-benefit-job-search.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/vat-final-return-deadline-2026.html",
+      "expected": [
+        "articles/vat-final-return-deadline-2026.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/vat-final-return-july-2026.html",
+      "expected": [
+        "articles/vat-final-return-july-2026.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/vat-input-tax-deduction-guide-2026.html",
+      "expected": [
+        "articles/vat-input-tax-deduction-guide-2026.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/vat-zero-sales-filing.html",
+      "expected": [
+        "articles/vat-zero-sales-filing.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/water-bill-guide.html",
+      "expected": [
+        "articles/water-bill-guide.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/wetax-electronic-billing.html",
+      "expected": [
+        "articles/wetax-electronic-billing.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/wetax-payment-history.html",
+      "expected": [
+        "articles/wetax-payment-history.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/yellow-umbrella-mutual-aid-guide.html",
+      "expected": [
+        "articles/yellow-umbrella-mutual-aid-guide.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/youth-leap-account-contribution.html",
+      "expected": [
+        "articles/youth-leap-account-contribution.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/youth-savings-account-maintenance.html",
+      "expected": [
+        "articles/youth-savings-account-maintenance.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/youth-support-programs.html",
+      "expected": [
+        "articles/youth-support-programs.html"
       ]
     },
     {
@@ -7081,6 +7151,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/refrigerator-summer-electricity-saving.html",
+      "reference": "/articles/refrigerator-summer-electricity-saving.html",
+      "expected": [
+        "articles/refrigerator-summer-electricity-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/refrigerator-summer-electricity-saving.html",
+      "reference": "https://savingio.com/articles/refrigerator-summer-electricity-saving.html",
+      "expected": [
+        "articles/refrigerator-summer-electricity-saving.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/rental-car-vacation-saving.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
@@ -7095,15 +7179,31 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-use.html",
       "expected": [
         "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/revolving-cancellation-payoff.html",
+      "reference": "/articles/revolving-cancellation-payoff.html",
+      "expected": [
+        "articles/revolving-cancellation-payoff.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/revolving-cancellation-payoff.html",
+      "reference": "https://savingio.com/articles/revolving-cancellation-payoff.html",
+      "expected": [
+        "articles/revolving-cancellation-payoff.html"
       ]
     },
     {
@@ -7163,9 +7263,24 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/savings-maturity-auto-renewal.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/savings-maturity-auto-renewal.html",
+      "reference": "/articles/savings-maturity-auto-renewal.html",
+      "expected": [
+        "articles/savings-maturity-auto-renewal.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/savings-maturity-auto-renewal.html",
+      "reference": "https://savingio.com/articles/savings-maturity-auto-renewal.html",
+      "expected": [
+        "articles/savings-maturity-auto-renewal.html"
       ]
     },
     {
@@ -7180,6 +7295,20 @@
       "reference": "/articles/vat-zero-sales-filing.html",
       "expected": [
         "articles/vat-zero-sales-filing.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/single-parent-support-benefits.html",
+      "reference": "/articles/single-parent-support-benefits.html",
+      "expected": [
+        "articles/single-parent-support-benefits.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/single-parent-support-benefits.html",
+      "reference": "https://savingio.com/articles/single-parent-support-benefits.html",
+      "expected": [
+        "articles/single-parent-support-benefits.html"
       ]
     },
     {
@@ -7358,15 +7487,73 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/summer-gas-bill-hot-water-saving.html",
+      "reference": "/articles/summer-gas-bill-hot-water-saving.html",
+      "expected": [
+        "articles/summer-gas-bill-hot-water-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/summer-gas-bill-hot-water-saving.html",
+      "reference": "https://savingio.com/articles/summer-gas-bill-hot-water-saving.html",
+      "expected": [
+        "articles/summer-gas-bill-hot-water-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/summer-water-bill-spike-check.html",
+      "reference": "/articles/summer-water-bill-spike-check.html",
+      "expected": [
+        "articles/summer-water-bill-spike-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/summer-water-bill-spike-check.html",
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/summer-water-bill-spike-check.html",
+      "reference": "https://savingio.com/articles/summer-water-bill-spike-check.html",
+      "expected": [
+        "articles/summer-water-bill-spike-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/tax-credit-late-application.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/tax-credit-late-application.html",
+      "reference": "/articles/tax-credit-late-application.html",
+      "expected": [
+        "articles/tax-credit-late-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/tax-credit-late-application.html",
+      "reference": "https://savingio.com/articles/tax-credit-late-application.html",
+      "expected": [
+        "articles/tax-credit-late-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/telecom-discount-guide.html",
+      "reference": "/articles/telecom-discount-guide.html",
+      "expected": [
+        "articles/telecom-discount-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/telecom-discount-guide.html",
+      "reference": "https://savingio.com/articles/telecom-discount-guide.html",
+      "expected": [
+        "articles/telecom-discount-guide.html"
       ]
     },
     {
@@ -7377,15 +7564,45 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/travel-insurance-comparison.html",
+      "reference": "/articles/travel-insurance-comparison.html",
+      "expected": [
+        "articles/travel-insurance-comparison.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/travel-insurance-comparison.html",
+      "reference": "https://savingio.com/articles/travel-insurance-comparison.html",
+      "expected": [
+        "articles/travel-insurance-comparison.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/unemployment-benefit-job-search.html",
+      "reference": "/articles/unemployment-benefit-job-search.html",
+      "expected": [
+        "articles/unemployment-benefit-job-search.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/unemployment-benefit-job-search.html",
+      "reference": "https://savingio.com/articles/unemployment-benefit-job-search.html",
+      "expected": [
+        "articles/unemployment-benefit-job-search.html"
       ]
     },
     {
@@ -7494,27 +7711,115 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/wetax-electronic-billing.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/wetax-electronic-billing.html",
+      "reference": "/articles/wetax-electronic-billing.html",
+      "expected": [
+        "articles/wetax-electronic-billing.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/wetax-electronic-billing.html",
+      "reference": "https://savingio.com/articles/wetax-electronic-billing.html",
+      "expected": [
+        "articles/wetax-electronic-billing.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/wetax-payment-history.html",
       "reference": "/articles/small-business-policy-fund-search.html",
       "expected": [
         "articles/small-business-policy-fund-search.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/wetax-payment-history.html",
+      "reference": "/articles/wetax-payment-history.html",
+      "expected": [
+        "articles/wetax-payment-history.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/wetax-payment-history.html",
+      "reference": "https://savingio.com/articles/wetax-payment-history.html",
+      "expected": [
+        "articles/wetax-payment-history.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/yellow-umbrella-mutual-aid-guide.html",
+      "reference": "/articles/yellow-umbrella-mutual-aid-guide.html",
+      "expected": [
+        "articles/yellow-umbrella-mutual-aid-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/yellow-umbrella-mutual-aid-guide.html",
+      "reference": "https://savingio.com/articles/yellow-umbrella-mutual-aid-guide.html",
+      "expected": [
+        "articles/yellow-umbrella-mutual-aid-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/youth-leap-account-contribution.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/youth-leap-account-contribution.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/youth-leap-account-contribution.html",
+      "reference": "/articles/youth-leap-account-contribution.html",
+      "expected": [
+        "articles/youth-leap-account-contribution.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/youth-leap-account-contribution.html",
+      "reference": "https://savingio.com/articles/youth-leap-account-contribution.html",
+      "expected": [
+        "articles/youth-leap-account-contribution.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/youth-savings-account-maintenance.html",
+      "reference": "/articles/youth-savings-account-maintenance.html",
+      "expected": [
+        "articles/youth-savings-account-maintenance.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/youth-savings-account-maintenance.html",
+      "reference": "https://savingio.com/articles/youth-savings-account-maintenance.html",
+      "expected": [
+        "articles/youth-savings-account-maintenance.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/youth-support-programs.html",
+      "reference": "/articles/youth-support-programs.html",
+      "expected": [
+        "articles/youth-support-programs.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/youth-support-programs.html",
+      "reference": "https://savingio.com/articles/youth-support-programs.html",
+      "expected": [
+        "articles/youth-support-programs.html"
       ]
     },
     {
@@ -8673,6 +8978,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/refrigerator-summer-electricity-saving.html",
+      "reference": "/articles/refrigerator-summer-electricity-saving.html",
+      "expected": [
+        "articles/refrigerator-summer-electricity-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/refrigerator-summer-electricity-saving.html",
+      "reference": "https://savingio.com/articles/refrigerator-summer-electricity-saving.html",
+      "expected": [
+        "articles/refrigerator-summer-electricity-saving.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/rental-car-vacation-saving.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
@@ -8687,15 +9006,31 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-use.html",
       "expected": [
         "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/revolving-cancellation-payoff.html",
+      "reference": "/articles/revolving-cancellation-payoff.html",
+      "expected": [
+        "articles/revolving-cancellation-payoff.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/revolving-cancellation-payoff.html",
+      "reference": "https://savingio.com/articles/revolving-cancellation-payoff.html",
+      "expected": [
+        "articles/revolving-cancellation-payoff.html"
       ]
     },
     {
@@ -8755,9 +9090,24 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/savings-maturity-auto-renewal.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/savings-maturity-auto-renewal.html",
+      "reference": "/articles/savings-maturity-auto-renewal.html",
+      "expected": [
+        "articles/savings-maturity-auto-renewal.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/savings-maturity-auto-renewal.html",
+      "reference": "https://savingio.com/articles/savings-maturity-auto-renewal.html",
+      "expected": [
+        "articles/savings-maturity-auto-renewal.html"
       ]
     },
     {
@@ -8772,6 +9122,20 @@
       "reference": "/articles/vat-zero-sales-filing.html",
       "expected": [
         "articles/vat-zero-sales-filing.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/single-parent-support-benefits.html",
+      "reference": "/articles/single-parent-support-benefits.html",
+      "expected": [
+        "articles/single-parent-support-benefits.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/single-parent-support-benefits.html",
+      "reference": "https://savingio.com/articles/single-parent-support-benefits.html",
+      "expected": [
+        "articles/single-parent-support-benefits.html"
       ]
     },
     {
@@ -8950,15 +9314,73 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/summer-gas-bill-hot-water-saving.html",
+      "reference": "/articles/summer-gas-bill-hot-water-saving.html",
+      "expected": [
+        "articles/summer-gas-bill-hot-water-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/summer-gas-bill-hot-water-saving.html",
+      "reference": "https://savingio.com/articles/summer-gas-bill-hot-water-saving.html",
+      "expected": [
+        "articles/summer-gas-bill-hot-water-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/summer-water-bill-spike-check.html",
+      "reference": "/articles/summer-water-bill-spike-check.html",
+      "expected": [
+        "articles/summer-water-bill-spike-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/summer-water-bill-spike-check.html",
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/summer-water-bill-spike-check.html",
+      "reference": "https://savingio.com/articles/summer-water-bill-spike-check.html",
+      "expected": [
+        "articles/summer-water-bill-spike-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/tax-credit-late-application.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/tax-credit-late-application.html",
+      "reference": "/articles/tax-credit-late-application.html",
+      "expected": [
+        "articles/tax-credit-late-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/tax-credit-late-application.html",
+      "reference": "https://savingio.com/articles/tax-credit-late-application.html",
+      "expected": [
+        "articles/tax-credit-late-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/telecom-discount-guide.html",
+      "reference": "/articles/telecom-discount-guide.html",
+      "expected": [
+        "articles/telecom-discount-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/telecom-discount-guide.html",
+      "reference": "https://savingio.com/articles/telecom-discount-guide.html",
+      "expected": [
+        "articles/telecom-discount-guide.html"
       ]
     },
     {
@@ -8969,15 +9391,45 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/travel-insurance-comparison.html",
+      "reference": "/articles/travel-insurance-comparison.html",
+      "expected": [
+        "articles/travel-insurance-comparison.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/travel-insurance-comparison.html",
+      "reference": "https://savingio.com/articles/travel-insurance-comparison.html",
+      "expected": [
+        "articles/travel-insurance-comparison.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/unemployment-benefit-job-search.html",
+      "reference": "/articles/unemployment-benefit-job-search.html",
+      "expected": [
+        "articles/unemployment-benefit-job-search.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/unemployment-benefit-job-search.html",
+      "reference": "https://savingio.com/articles/unemployment-benefit-job-search.html",
+      "expected": [
+        "articles/unemployment-benefit-job-search.html"
       ]
     },
     {
@@ -9086,27 +9538,115 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/wetax-electronic-billing.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/wetax-electronic-billing.html",
+      "reference": "/articles/wetax-electronic-billing.html",
+      "expected": [
+        "articles/wetax-electronic-billing.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/wetax-electronic-billing.html",
+      "reference": "https://savingio.com/articles/wetax-electronic-billing.html",
+      "expected": [
+        "articles/wetax-electronic-billing.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/wetax-payment-history.html",
       "reference": "/articles/small-business-policy-fund-search.html",
       "expected": [
         "articles/small-business-policy-fund-search.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/wetax-payment-history.html",
+      "reference": "/articles/wetax-payment-history.html",
+      "expected": [
+        "articles/wetax-payment-history.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/wetax-payment-history.html",
+      "reference": "https://savingio.com/articles/wetax-payment-history.html",
+      "expected": [
+        "articles/wetax-payment-history.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/yellow-umbrella-mutual-aid-guide.html",
+      "reference": "/articles/yellow-umbrella-mutual-aid-guide.html",
+      "expected": [
+        "articles/yellow-umbrella-mutual-aid-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/yellow-umbrella-mutual-aid-guide.html",
+      "reference": "https://savingio.com/articles/yellow-umbrella-mutual-aid-guide.html",
+      "expected": [
+        "articles/yellow-umbrella-mutual-aid-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/youth-leap-account-contribution.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/youth-leap-account-contribution.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/youth-leap-account-contribution.html",
+      "reference": "/articles/youth-leap-account-contribution.html",
+      "expected": [
+        "articles/youth-leap-account-contribution.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/youth-leap-account-contribution.html",
+      "reference": "https://savingio.com/articles/youth-leap-account-contribution.html",
+      "expected": [
+        "articles/youth-leap-account-contribution.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/youth-savings-account-maintenance.html",
+      "reference": "/articles/youth-savings-account-maintenance.html",
+      "expected": [
+        "articles/youth-savings-account-maintenance.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/youth-savings-account-maintenance.html",
+      "reference": "https://savingio.com/articles/youth-savings-account-maintenance.html",
+      "expected": [
+        "articles/youth-savings-account-maintenance.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/youth-support-programs.html",
+      "reference": "/articles/youth-support-programs.html",
+      "expected": [
+        "articles/youth-support-programs.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/youth-support-programs.html",
+      "reference": "https://savingio.com/articles/youth-support-programs.html",
+      "expected": [
+        "articles/youth-support-programs.html"
       ]
     },
     {
@@ -10265,6 +10805,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/refrigerator-summer-electricity-saving.html",
+      "reference": "/articles/refrigerator-summer-electricity-saving.html",
+      "expected": [
+        "articles/refrigerator-summer-electricity-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/refrigerator-summer-electricity-saving.html",
+      "reference": "https://savingio.com/articles/refrigerator-summer-electricity-saving.html",
+      "expected": [
+        "articles/refrigerator-summer-electricity-saving.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/rental-car-vacation-saving.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
@@ -10279,15 +10833,31 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-use.html",
       "expected": [
         "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/revolving-cancellation-payoff.html",
+      "reference": "/articles/revolving-cancellation-payoff.html",
+      "expected": [
+        "articles/revolving-cancellation-payoff.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/revolving-cancellation-payoff.html",
+      "reference": "https://savingio.com/articles/revolving-cancellation-payoff.html",
+      "expected": [
+        "articles/revolving-cancellation-payoff.html"
       ]
     },
     {
@@ -10347,9 +10917,24 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/savings-maturity-auto-renewal.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/savings-maturity-auto-renewal.html",
+      "reference": "/articles/savings-maturity-auto-renewal.html",
+      "expected": [
+        "articles/savings-maturity-auto-renewal.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/savings-maturity-auto-renewal.html",
+      "reference": "https://savingio.com/articles/savings-maturity-auto-renewal.html",
+      "expected": [
+        "articles/savings-maturity-auto-renewal.html"
       ]
     },
     {
@@ -10364,6 +10949,20 @@
       "reference": "/articles/vat-zero-sales-filing.html",
       "expected": [
         "articles/vat-zero-sales-filing.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/single-parent-support-benefits.html",
+      "reference": "/articles/single-parent-support-benefits.html",
+      "expected": [
+        "articles/single-parent-support-benefits.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/single-parent-support-benefits.html",
+      "reference": "https://savingio.com/articles/single-parent-support-benefits.html",
+      "expected": [
+        "articles/single-parent-support-benefits.html"
       ]
     },
     {
@@ -10542,15 +11141,73 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/summer-gas-bill-hot-water-saving.html",
+      "reference": "/articles/summer-gas-bill-hot-water-saving.html",
+      "expected": [
+        "articles/summer-gas-bill-hot-water-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/summer-gas-bill-hot-water-saving.html",
+      "reference": "https://savingio.com/articles/summer-gas-bill-hot-water-saving.html",
+      "expected": [
+        "articles/summer-gas-bill-hot-water-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/summer-water-bill-spike-check.html",
+      "reference": "/articles/summer-water-bill-spike-check.html",
+      "expected": [
+        "articles/summer-water-bill-spike-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/summer-water-bill-spike-check.html",
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/summer-water-bill-spike-check.html",
+      "reference": "https://savingio.com/articles/summer-water-bill-spike-check.html",
+      "expected": [
+        "articles/summer-water-bill-spike-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/tax-credit-late-application.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/tax-credit-late-application.html",
+      "reference": "/articles/tax-credit-late-application.html",
+      "expected": [
+        "articles/tax-credit-late-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/tax-credit-late-application.html",
+      "reference": "https://savingio.com/articles/tax-credit-late-application.html",
+      "expected": [
+        "articles/tax-credit-late-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/telecom-discount-guide.html",
+      "reference": "/articles/telecom-discount-guide.html",
+      "expected": [
+        "articles/telecom-discount-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/telecom-discount-guide.html",
+      "reference": "https://savingio.com/articles/telecom-discount-guide.html",
+      "expected": [
+        "articles/telecom-discount-guide.html"
       ]
     },
     {
@@ -10561,15 +11218,45 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/travel-insurance-comparison.html",
+      "reference": "/articles/travel-insurance-comparison.html",
+      "expected": [
+        "articles/travel-insurance-comparison.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/travel-insurance-comparison.html",
+      "reference": "https://savingio.com/articles/travel-insurance-comparison.html",
+      "expected": [
+        "articles/travel-insurance-comparison.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/unemployment-benefit-job-search.html",
+      "reference": "/articles/unemployment-benefit-job-search.html",
+      "expected": [
+        "articles/unemployment-benefit-job-search.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/unemployment-benefit-job-search.html",
+      "reference": "https://savingio.com/articles/unemployment-benefit-job-search.html",
+      "expected": [
+        "articles/unemployment-benefit-job-search.html"
       ]
     },
     {
@@ -10678,27 +11365,115 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/wetax-electronic-billing.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/wetax-electronic-billing.html",
+      "reference": "/articles/wetax-electronic-billing.html",
+      "expected": [
+        "articles/wetax-electronic-billing.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/wetax-electronic-billing.html",
+      "reference": "https://savingio.com/articles/wetax-electronic-billing.html",
+      "expected": [
+        "articles/wetax-electronic-billing.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/wetax-payment-history.html",
       "reference": "/articles/small-business-policy-fund-search.html",
       "expected": [
         "articles/small-business-policy-fund-search.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/wetax-payment-history.html",
+      "reference": "/articles/wetax-payment-history.html",
+      "expected": [
+        "articles/wetax-payment-history.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/wetax-payment-history.html",
+      "reference": "https://savingio.com/articles/wetax-payment-history.html",
+      "expected": [
+        "articles/wetax-payment-history.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/yellow-umbrella-mutual-aid-guide.html",
+      "reference": "/articles/yellow-umbrella-mutual-aid-guide.html",
+      "expected": [
+        "articles/yellow-umbrella-mutual-aid-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/yellow-umbrella-mutual-aid-guide.html",
+      "reference": "https://savingio.com/articles/yellow-umbrella-mutual-aid-guide.html",
+      "expected": [
+        "articles/yellow-umbrella-mutual-aid-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/youth-leap-account-contribution.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/youth-leap-account-contribution.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/youth-leap-account-contribution.html",
+      "reference": "/articles/youth-leap-account-contribution.html",
+      "expected": [
+        "articles/youth-leap-account-contribution.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/youth-leap-account-contribution.html",
+      "reference": "https://savingio.com/articles/youth-leap-account-contribution.html",
+      "expected": [
+        "articles/youth-leap-account-contribution.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/youth-savings-account-maintenance.html",
+      "reference": "/articles/youth-savings-account-maintenance.html",
+      "expected": [
+        "articles/youth-savings-account-maintenance.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/youth-savings-account-maintenance.html",
+      "reference": "https://savingio.com/articles/youth-savings-account-maintenance.html",
+      "expected": [
+        "articles/youth-savings-account-maintenance.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/youth-support-programs.html",
+      "reference": "/articles/youth-support-programs.html",
+      "expected": [
+        "articles/youth-support-programs.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/youth-support-programs.html",
+      "reference": "https://savingio.com/articles/youth-support-programs.html",
+      "expected": [
+        "articles/youth-support-programs.html"
       ]
     },
     {
@@ -11857,6 +12632,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/refrigerator-summer-electricity-saving.html",
+      "reference": "/articles/refrigerator-summer-electricity-saving.html",
+      "expected": [
+        "articles/refrigerator-summer-electricity-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/refrigerator-summer-electricity-saving.html",
+      "reference": "https://savingio.com/articles/refrigerator-summer-electricity-saving.html",
+      "expected": [
+        "articles/refrigerator-summer-electricity-saving.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/rental-car-vacation-saving.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
@@ -11871,15 +12660,31 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-use.html",
       "expected": [
         "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/revolving-cancellation-payoff.html",
+      "reference": "/articles/revolving-cancellation-payoff.html",
+      "expected": [
+        "articles/revolving-cancellation-payoff.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/revolving-cancellation-payoff.html",
+      "reference": "https://savingio.com/articles/revolving-cancellation-payoff.html",
+      "expected": [
+        "articles/revolving-cancellation-payoff.html"
       ]
     },
     {
@@ -11939,9 +12744,24 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/savings-maturity-auto-renewal.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/savings-maturity-auto-renewal.html",
+      "reference": "/articles/savings-maturity-auto-renewal.html",
+      "expected": [
+        "articles/savings-maturity-auto-renewal.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/savings-maturity-auto-renewal.html",
+      "reference": "https://savingio.com/articles/savings-maturity-auto-renewal.html",
+      "expected": [
+        "articles/savings-maturity-auto-renewal.html"
       ]
     },
     {
@@ -11956,6 +12776,20 @@
       "reference": "/articles/vat-zero-sales-filing.html",
       "expected": [
         "articles/vat-zero-sales-filing.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/single-parent-support-benefits.html",
+      "reference": "/articles/single-parent-support-benefits.html",
+      "expected": [
+        "articles/single-parent-support-benefits.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/single-parent-support-benefits.html",
+      "reference": "https://savingio.com/articles/single-parent-support-benefits.html",
+      "expected": [
+        "articles/single-parent-support-benefits.html"
       ]
     },
     {
@@ -12134,15 +12968,73 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/summer-gas-bill-hot-water-saving.html",
+      "reference": "/articles/summer-gas-bill-hot-water-saving.html",
+      "expected": [
+        "articles/summer-gas-bill-hot-water-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/summer-gas-bill-hot-water-saving.html",
+      "reference": "https://savingio.com/articles/summer-gas-bill-hot-water-saving.html",
+      "expected": [
+        "articles/summer-gas-bill-hot-water-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/summer-water-bill-spike-check.html",
+      "reference": "/articles/summer-water-bill-spike-check.html",
+      "expected": [
+        "articles/summer-water-bill-spike-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/summer-water-bill-spike-check.html",
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/summer-water-bill-spike-check.html",
+      "reference": "https://savingio.com/articles/summer-water-bill-spike-check.html",
+      "expected": [
+        "articles/summer-water-bill-spike-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/tax-credit-late-application.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/tax-credit-late-application.html",
+      "reference": "/articles/tax-credit-late-application.html",
+      "expected": [
+        "articles/tax-credit-late-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/tax-credit-late-application.html",
+      "reference": "https://savingio.com/articles/tax-credit-late-application.html",
+      "expected": [
+        "articles/tax-credit-late-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/telecom-discount-guide.html",
+      "reference": "/articles/telecom-discount-guide.html",
+      "expected": [
+        "articles/telecom-discount-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/telecom-discount-guide.html",
+      "reference": "https://savingio.com/articles/telecom-discount-guide.html",
+      "expected": [
+        "articles/telecom-discount-guide.html"
       ]
     },
     {
@@ -12153,15 +13045,45 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/travel-insurance-comparison.html",
+      "reference": "/articles/travel-insurance-comparison.html",
+      "expected": [
+        "articles/travel-insurance-comparison.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/travel-insurance-comparison.html",
+      "reference": "https://savingio.com/articles/travel-insurance-comparison.html",
+      "expected": [
+        "articles/travel-insurance-comparison.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/unemployment-benefit-job-search.html",
+      "reference": "/articles/unemployment-benefit-job-search.html",
+      "expected": [
+        "articles/unemployment-benefit-job-search.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/unemployment-benefit-job-search.html",
+      "reference": "https://savingio.com/articles/unemployment-benefit-job-search.html",
+      "expected": [
+        "articles/unemployment-benefit-job-search.html"
       ]
     },
     {
@@ -12270,27 +13192,115 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/wetax-electronic-billing.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/wetax-electronic-billing.html",
+      "reference": "/articles/wetax-electronic-billing.html",
+      "expected": [
+        "articles/wetax-electronic-billing.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/wetax-electronic-billing.html",
+      "reference": "https://savingio.com/articles/wetax-electronic-billing.html",
+      "expected": [
+        "articles/wetax-electronic-billing.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/wetax-payment-history.html",
       "reference": "/articles/small-business-policy-fund-search.html",
       "expected": [
         "articles/small-business-policy-fund-search.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/wetax-payment-history.html",
+      "reference": "/articles/wetax-payment-history.html",
+      "expected": [
+        "articles/wetax-payment-history.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/wetax-payment-history.html",
+      "reference": "https://savingio.com/articles/wetax-payment-history.html",
+      "expected": [
+        "articles/wetax-payment-history.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/yellow-umbrella-mutual-aid-guide.html",
+      "reference": "/articles/yellow-umbrella-mutual-aid-guide.html",
+      "expected": [
+        "articles/yellow-umbrella-mutual-aid-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/yellow-umbrella-mutual-aid-guide.html",
+      "reference": "https://savingio.com/articles/yellow-umbrella-mutual-aid-guide.html",
+      "expected": [
+        "articles/yellow-umbrella-mutual-aid-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/youth-leap-account-contribution.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/youth-leap-account-contribution.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/youth-leap-account-contribution.html",
+      "reference": "/articles/youth-leap-account-contribution.html",
+      "expected": [
+        "articles/youth-leap-account-contribution.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/youth-leap-account-contribution.html",
+      "reference": "https://savingio.com/articles/youth-leap-account-contribution.html",
+      "expected": [
+        "articles/youth-leap-account-contribution.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/youth-savings-account-maintenance.html",
+      "reference": "/articles/youth-savings-account-maintenance.html",
+      "expected": [
+        "articles/youth-savings-account-maintenance.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/youth-savings-account-maintenance.html",
+      "reference": "https://savingio.com/articles/youth-savings-account-maintenance.html",
+      "expected": [
+        "articles/youth-savings-account-maintenance.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/youth-support-programs.html",
+      "reference": "/articles/youth-support-programs.html",
+      "expected": [
+        "articles/youth-support-programs.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/youth-support-programs.html",
+      "reference": "https://savingio.com/articles/youth-support-programs.html",
+      "expected": [
+        "articles/youth-support-programs.html"
       ]
     },
     {
@@ -13449,6 +14459,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/refrigerator-summer-electricity-saving.html",
+      "reference": "/articles/refrigerator-summer-electricity-saving.html",
+      "expected": [
+        "articles/refrigerator-summer-electricity-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/refrigerator-summer-electricity-saving.html",
+      "reference": "https://savingio.com/articles/refrigerator-summer-electricity-saving.html",
+      "expected": [
+        "articles/refrigerator-summer-electricity-saving.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/rental-car-vacation-saving.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
@@ -13463,15 +14487,31 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-use.html",
       "expected": [
         "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/revolving-cancellation-payoff.html",
+      "reference": "/articles/revolving-cancellation-payoff.html",
+      "expected": [
+        "articles/revolving-cancellation-payoff.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/revolving-cancellation-payoff.html",
+      "reference": "https://savingio.com/articles/revolving-cancellation-payoff.html",
+      "expected": [
+        "articles/revolving-cancellation-payoff.html"
       ]
     },
     {
@@ -13531,9 +14571,24 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/savings-maturity-auto-renewal.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/savings-maturity-auto-renewal.html",
+      "reference": "/articles/savings-maturity-auto-renewal.html",
+      "expected": [
+        "articles/savings-maturity-auto-renewal.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/savings-maturity-auto-renewal.html",
+      "reference": "https://savingio.com/articles/savings-maturity-auto-renewal.html",
+      "expected": [
+        "articles/savings-maturity-auto-renewal.html"
       ]
     },
     {
@@ -13548,6 +14603,20 @@
       "reference": "/articles/vat-zero-sales-filing.html",
       "expected": [
         "articles/vat-zero-sales-filing.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/single-parent-support-benefits.html",
+      "reference": "/articles/single-parent-support-benefits.html",
+      "expected": [
+        "articles/single-parent-support-benefits.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/single-parent-support-benefits.html",
+      "reference": "https://savingio.com/articles/single-parent-support-benefits.html",
+      "expected": [
+        "articles/single-parent-support-benefits.html"
       ]
     },
     {
@@ -13726,15 +14795,73 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/summer-gas-bill-hot-water-saving.html",
+      "reference": "/articles/summer-gas-bill-hot-water-saving.html",
+      "expected": [
+        "articles/summer-gas-bill-hot-water-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/summer-gas-bill-hot-water-saving.html",
+      "reference": "https://savingio.com/articles/summer-gas-bill-hot-water-saving.html",
+      "expected": [
+        "articles/summer-gas-bill-hot-water-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/summer-water-bill-spike-check.html",
+      "reference": "/articles/summer-water-bill-spike-check.html",
+      "expected": [
+        "articles/summer-water-bill-spike-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/summer-water-bill-spike-check.html",
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/summer-water-bill-spike-check.html",
+      "reference": "https://savingio.com/articles/summer-water-bill-spike-check.html",
+      "expected": [
+        "articles/summer-water-bill-spike-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/tax-credit-late-application.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/tax-credit-late-application.html",
+      "reference": "/articles/tax-credit-late-application.html",
+      "expected": [
+        "articles/tax-credit-late-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/tax-credit-late-application.html",
+      "reference": "https://savingio.com/articles/tax-credit-late-application.html",
+      "expected": [
+        "articles/tax-credit-late-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/telecom-discount-guide.html",
+      "reference": "/articles/telecom-discount-guide.html",
+      "expected": [
+        "articles/telecom-discount-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/telecom-discount-guide.html",
+      "reference": "https://savingio.com/articles/telecom-discount-guide.html",
+      "expected": [
+        "articles/telecom-discount-guide.html"
       ]
     },
     {
@@ -13745,15 +14872,45 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/travel-insurance-comparison.html",
+      "reference": "/articles/travel-insurance-comparison.html",
+      "expected": [
+        "articles/travel-insurance-comparison.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/travel-insurance-comparison.html",
+      "reference": "https://savingio.com/articles/travel-insurance-comparison.html",
+      "expected": [
+        "articles/travel-insurance-comparison.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/unemployment-benefit-job-search.html",
+      "reference": "/articles/unemployment-benefit-job-search.html",
+      "expected": [
+        "articles/unemployment-benefit-job-search.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/unemployment-benefit-job-search.html",
+      "reference": "https://savingio.com/articles/unemployment-benefit-job-search.html",
+      "expected": [
+        "articles/unemployment-benefit-job-search.html"
       ]
     },
     {
@@ -13862,27 +15019,115 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/wetax-electronic-billing.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/wetax-electronic-billing.html",
+      "reference": "/articles/wetax-electronic-billing.html",
+      "expected": [
+        "articles/wetax-electronic-billing.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/wetax-electronic-billing.html",
+      "reference": "https://savingio.com/articles/wetax-electronic-billing.html",
+      "expected": [
+        "articles/wetax-electronic-billing.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/wetax-payment-history.html",
       "reference": "/articles/small-business-policy-fund-search.html",
       "expected": [
         "articles/small-business-policy-fund-search.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/wetax-payment-history.html",
+      "reference": "/articles/wetax-payment-history.html",
+      "expected": [
+        "articles/wetax-payment-history.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/wetax-payment-history.html",
+      "reference": "https://savingio.com/articles/wetax-payment-history.html",
+      "expected": [
+        "articles/wetax-payment-history.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/yellow-umbrella-mutual-aid-guide.html",
+      "reference": "/articles/yellow-umbrella-mutual-aid-guide.html",
+      "expected": [
+        "articles/yellow-umbrella-mutual-aid-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/yellow-umbrella-mutual-aid-guide.html",
+      "reference": "https://savingio.com/articles/yellow-umbrella-mutual-aid-guide.html",
+      "expected": [
+        "articles/yellow-umbrella-mutual-aid-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/youth-leap-account-contribution.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/youth-leap-account-contribution.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/youth-leap-account-contribution.html",
+      "reference": "/articles/youth-leap-account-contribution.html",
+      "expected": [
+        "articles/youth-leap-account-contribution.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/youth-leap-account-contribution.html",
+      "reference": "https://savingio.com/articles/youth-leap-account-contribution.html",
+      "expected": [
+        "articles/youth-leap-account-contribution.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/youth-savings-account-maintenance.html",
+      "reference": "/articles/youth-savings-account-maintenance.html",
+      "expected": [
+        "articles/youth-savings-account-maintenance.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/youth-savings-account-maintenance.html",
+      "reference": "https://savingio.com/articles/youth-savings-account-maintenance.html",
+      "expected": [
+        "articles/youth-savings-account-maintenance.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/youth-support-programs.html",
+      "reference": "/articles/youth-support-programs.html",
+      "expected": [
+        "articles/youth-support-programs.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/youth-support-programs.html",
+      "reference": "https://savingio.com/articles/youth-support-programs.html",
+      "expected": [
+        "articles/youth-support-programs.html"
       ]
     },
     {
@@ -14064,6 +15309,20 @@
     },
     {
       "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/refrigerator-summer-electricity-saving.html",
+      "expected": [
+        "articles/refrigerator-summer-electricity-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/revolving-cancellation-payoff.html",
+      "expected": [
+        "articles/revolving-cancellation-payoff.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
@@ -14074,6 +15333,20 @@
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/savings-maturity-auto-renewal.html",
+      "expected": [
+        "articles/savings-maturity-auto-renewal.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/single-parent-support-benefits.html",
+      "expected": [
+        "articles/single-parent-support-benefits.html"
       ]
     },
     {
@@ -14120,6 +15393,48 @@
     },
     {
       "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/summer-gas-bill-hot-water-saving.html",
+      "expected": [
+        "articles/summer-gas-bill-hot-water-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/summer-water-bill-spike-check.html",
+      "expected": [
+        "articles/summer-water-bill-spike-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/tax-credit-late-application.html",
+      "expected": [
+        "articles/tax-credit-late-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/telecom-discount-guide.html",
+      "expected": [
+        "articles/telecom-discount-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/travel-insurance-comparison.html",
+      "expected": [
+        "articles/travel-insurance-comparison.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/unemployment-benefit-job-search.html",
+      "expected": [
+        "articles/unemployment-benefit-job-search.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
@@ -14137,6 +15452,48 @@
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/wetax-electronic-billing.html",
+      "expected": [
+        "articles/wetax-electronic-billing.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/wetax-payment-history.html",
+      "expected": [
+        "articles/wetax-payment-history.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/yellow-umbrella-mutual-aid-guide.html",
+      "expected": [
+        "articles/yellow-umbrella-mutual-aid-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/youth-leap-account-contribution.html",
+      "expected": [
+        "articles/youth-leap-account-contribution.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/youth-savings-account-maintenance.html",
+      "expected": [
+        "articles/youth-savings-account-maintenance.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/youth-support-programs.html",
+      "expected": [
+        "articles/youth-support-programs.html"
       ]
     },
     {
@@ -14318,6 +15675,20 @@
     },
     {
       "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/refrigerator-summer-electricity-saving.html",
+      "expected": [
+        "articles/refrigerator-summer-electricity-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/revolving-cancellation-payoff.html",
+      "expected": [
+        "articles/revolving-cancellation-payoff.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
@@ -14328,6 +15699,20 @@
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/savings-maturity-auto-renewal.html",
+      "expected": [
+        "articles/savings-maturity-auto-renewal.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/single-parent-support-benefits.html",
+      "expected": [
+        "articles/single-parent-support-benefits.html"
       ]
     },
     {
@@ -14374,6 +15759,48 @@
     },
     {
       "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/summer-gas-bill-hot-water-saving.html",
+      "expected": [
+        "articles/summer-gas-bill-hot-water-saving.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/summer-water-bill-spike-check.html",
+      "expected": [
+        "articles/summer-water-bill-spike-check.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/tax-credit-late-application.html",
+      "expected": [
+        "articles/tax-credit-late-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/telecom-discount-guide.html",
+      "expected": [
+        "articles/telecom-discount-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/travel-insurance-comparison.html",
+      "expected": [
+        "articles/travel-insurance-comparison.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/unemployment-benefit-job-search.html",
+      "expected": [
+        "articles/unemployment-benefit-job-search.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
@@ -14391,6 +15818,48 @@
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/wetax-electronic-billing.html",
+      "expected": [
+        "articles/wetax-electronic-billing.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/wetax-payment-history.html",
+      "expected": [
+        "articles/wetax-payment-history.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/yellow-umbrella-mutual-aid-guide.html",
+      "expected": [
+        "articles/yellow-umbrella-mutual-aid-guide.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/youth-leap-account-contribution.html",
+      "expected": [
+        "articles/youth-leap-account-contribution.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/youth-savings-account-maintenance.html",
+      "expected": [
+        "articles/youth-savings-account-maintenance.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/youth-support-programs.html",
+      "expected": [
+        "articles/youth-support-programs.html"
       ]
     },
     {
@@ -16785,6 +18254,20 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/refrigerator-summer-electricity-saving.html",
+      "reference": "/articles/refrigerator-summer-electricity-saving.html",
+      "expected": [
+        "articles/refrigerator-summer-electricity-saving.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/refrigerator-summer-electricity-saving.html",
+      "reference": "https://savingio.com/articles/refrigerator-summer-electricity-saving.html",
+      "expected": [
+        "articles/refrigerator-summer-electricity-saving.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/rental-car-vacation-saving.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
@@ -16799,15 +18282,31 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/revolving-cancellation-payoff.html",
       "reference": "/articles/energy-voucher-balance-use.html",
       "expected": [
         "articles/energy-voucher-balance-use.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/revolving-cancellation-payoff.html",
+      "reference": "/articles/revolving-cancellation-payoff.html",
+      "expected": [
+        "articles/revolving-cancellation-payoff.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/revolving-cancellation-payoff.html",
+      "reference": "https://savingio.com/articles/revolving-cancellation-payoff.html",
+      "expected": [
+        "articles/revolving-cancellation-payoff.html"
       ]
     },
     {
@@ -16867,9 +18366,24 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/savings-maturity-auto-renewal.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/savings-maturity-auto-renewal.html",
+      "reference": "/articles/savings-maturity-auto-renewal.html",
+      "expected": [
+        "articles/savings-maturity-auto-renewal.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/savings-maturity-auto-renewal.html",
+      "reference": "https://savingio.com/articles/savings-maturity-auto-renewal.html",
+      "expected": [
+        "articles/savings-maturity-auto-renewal.html"
       ]
     },
     {
@@ -16884,6 +18398,20 @@
       "reference": "/articles/vat-zero-sales-filing.html",
       "expected": [
         "articles/vat-zero-sales-filing.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/single-parent-support-benefits.html",
+      "reference": "/articles/single-parent-support-benefits.html",
+      "expected": [
+        "articles/single-parent-support-benefits.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/single-parent-support-benefits.html",
+      "reference": "https://savingio.com/articles/single-parent-support-benefits.html",
+      "expected": [
+        "articles/single-parent-support-benefits.html"
       ]
     },
     {
@@ -17062,15 +18590,73 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/summer-gas-bill-hot-water-saving.html",
+      "reference": "/articles/summer-gas-bill-hot-water-saving.html",
+      "expected": [
+        "articles/summer-gas-bill-hot-water-saving.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/summer-gas-bill-hot-water-saving.html",
+      "reference": "https://savingio.com/articles/summer-gas-bill-hot-water-saving.html",
+      "expected": [
+        "articles/summer-gas-bill-hot-water-saving.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/summer-water-bill-spike-check.html",
+      "reference": "/articles/summer-water-bill-spike-check.html",
+      "expected": [
+        "articles/summer-water-bill-spike-check.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/summer-water-bill-spike-check.html",
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/summer-water-bill-spike-check.html",
+      "reference": "https://savingio.com/articles/summer-water-bill-spike-check.html",
+      "expected": [
+        "articles/summer-water-bill-spike-check.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/tax-credit-late-application.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/tax-credit-late-application.html",
+      "reference": "/articles/tax-credit-late-application.html",
+      "expected": [
+        "articles/tax-credit-late-application.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/tax-credit-late-application.html",
+      "reference": "https://savingio.com/articles/tax-credit-late-application.html",
+      "expected": [
+        "articles/tax-credit-late-application.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/telecom-discount-guide.html",
+      "reference": "/articles/telecom-discount-guide.html",
+      "expected": [
+        "articles/telecom-discount-guide.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/telecom-discount-guide.html",
+      "reference": "https://savingio.com/articles/telecom-discount-guide.html",
+      "expected": [
+        "articles/telecom-discount-guide.html"
       ]
     },
     {
@@ -17081,15 +18667,45 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/travel-insurance-comparison.html",
+      "reference": "/articles/travel-insurance-comparison.html",
+      "expected": [
+        "articles/travel-insurance-comparison.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/travel-insurance-comparison.html",
+      "reference": "https://savingio.com/articles/travel-insurance-comparison.html",
+      "expected": [
+        "articles/travel-insurance-comparison.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/unemployment-benefit-job-search.html",
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/unemployment-benefit-job-search.html",
+      "reference": "/articles/unemployment-benefit-job-search.html",
+      "expected": [
+        "articles/unemployment-benefit-job-search.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/unemployment-benefit-job-search.html",
+      "reference": "https://savingio.com/articles/unemployment-benefit-job-search.html",
+      "expected": [
+        "articles/unemployment-benefit-job-search.html"
       ]
     },
     {
@@ -17198,27 +18814,115 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/wetax-electronic-billing.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/wetax-electronic-billing.html",
+      "reference": "/articles/wetax-electronic-billing.html",
+      "expected": [
+        "articles/wetax-electronic-billing.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/wetax-electronic-billing.html",
+      "reference": "https://savingio.com/articles/wetax-electronic-billing.html",
+      "expected": [
+        "articles/wetax-electronic-billing.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/wetax-payment-history.html",
       "reference": "/articles/small-business-policy-fund-search.html",
       "expected": [
         "articles/small-business-policy-fund-search.html"
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/wetax-payment-history.html",
+      "reference": "/articles/wetax-payment-history.html",
+      "expected": [
+        "articles/wetax-payment-history.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/wetax-payment-history.html",
+      "reference": "https://savingio.com/articles/wetax-payment-history.html",
+      "expected": [
+        "articles/wetax-payment-history.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/yellow-umbrella-mutual-aid-guide.html",
+      "reference": "/articles/yellow-umbrella-mutual-aid-guide.html",
+      "expected": [
+        "articles/yellow-umbrella-mutual-aid-guide.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/yellow-umbrella-mutual-aid-guide.html",
+      "reference": "https://savingio.com/articles/yellow-umbrella-mutual-aid-guide.html",
+      "expected": [
+        "articles/yellow-umbrella-mutual-aid-guide.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/youth-leap-account-contribution.html",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/youth-leap-account-contribution.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/youth-leap-account-contribution.html",
+      "reference": "/articles/youth-leap-account-contribution.html",
+      "expected": [
+        "articles/youth-leap-account-contribution.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/youth-leap-account-contribution.html",
+      "reference": "https://savingio.com/articles/youth-leap-account-contribution.html",
+      "expected": [
+        "articles/youth-leap-account-contribution.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/youth-savings-account-maintenance.html",
+      "reference": "/articles/youth-savings-account-maintenance.html",
+      "expected": [
+        "articles/youth-savings-account-maintenance.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/youth-savings-account-maintenance.html",
+      "reference": "https://savingio.com/articles/youth-savings-account-maintenance.html",
+      "expected": [
+        "articles/youth-savings-account-maintenance.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/youth-support-programs.html",
+      "reference": "/articles/youth-support-programs.html",
+      "expected": [
+        "articles/youth-support-programs.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/youth-support-programs.html",
+      "reference": "https://savingio.com/articles/youth-support-programs.html",
+      "expected": [
+        "articles/youth-support-programs.html"
       ]
     },
     {
@@ -20983,9 +22687,23 @@
     },
     {
       "source": "guides/index.html",
+      "reference": "/articles/single-parent-support-benefits.html",
+      "expected": [
+        "articles/single-parent-support-benefits.html"
+      ]
+    },
+    {
+      "source": "guides/index.html",
       "reference": "/articles/subscription-audit-checklist.html",
       "expected": [
         "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "guides/index.html",
+      "reference": "/articles/telecom-discount-guide.html",
+      "expected": [
+        "articles/telecom-discount-guide.html"
       ]
     },
     {
@@ -21060,41 +22778,6 @@
       "reference": "${item.url}",
       "expected": [
         "js/${item.url}"
-      ]
-    },
-    {
-      "source": "js/brain-navigation.js",
-      "reference": "/articles/energy-voucher-application.html",
-      "expected": [
-        "articles/energy-voucher-application.html"
-      ]
-    },
-    {
-      "source": "js/brain-navigation.js",
-      "reference": "/articles/health-insurance-refund.html",
-      "expected": [
-        "articles/health-insurance-refund.html"
-      ]
-    },
-    {
-      "source": "js/brain-navigation.js",
-      "reference": "/articles/hidden-refund-check.html",
-      "expected": [
-        "articles/hidden-refund-check.html"
-      ]
-    },
-    {
-      "source": "js/brain-navigation.js",
-      "reference": "/articles/local-tax-refund.html",
-      "expected": [
-        "articles/local-tax-refund.html"
-      ]
-    },
-    {
-      "source": "js/brain-navigation.js",
-      "reference": "/articles/phone-bill-saving.html",
-      "expected": [
-        "articles/phone-bill-saving.html"
       ]
     },
     {
@@ -21435,6 +23118,13 @@
     },
     {
       "source": "rss.xml",
+      "reference": "/articles/single-parent-support-benefits.html",
+      "expected": [
+        "articles/single-parent-support-benefits.html"
+      ]
+    },
+    {
+      "source": "rss.xml",
       "reference": "/articles/small-business-policy-fund-search.html",
       "expected": [
         "articles/small-business-policy-fund-search.html"
@@ -21477,6 +23167,48 @@
     },
     {
       "source": "rss.xml",
+      "reference": "/articles/summer-gas-bill-hot-water-saving.html",
+      "expected": [
+        "articles/summer-gas-bill-hot-water-saving.html"
+      ]
+    },
+    {
+      "source": "rss.xml",
+      "reference": "/articles/summer-water-bill-spike-check.html",
+      "expected": [
+        "articles/summer-water-bill-spike-check.html"
+      ]
+    },
+    {
+      "source": "rss.xml",
+      "reference": "/articles/tax-credit-late-application.html",
+      "expected": [
+        "articles/tax-credit-late-application.html"
+      ]
+    },
+    {
+      "source": "rss.xml",
+      "reference": "/articles/telecom-discount-guide.html",
+      "expected": [
+        "articles/telecom-discount-guide.html"
+      ]
+    },
+    {
+      "source": "rss.xml",
+      "reference": "/articles/travel-insurance-comparison.html",
+      "expected": [
+        "articles/travel-insurance-comparison.html"
+      ]
+    },
+    {
+      "source": "rss.xml",
+      "reference": "/articles/unemployment-benefit-job-search.html",
+      "expected": [
+        "articles/unemployment-benefit-job-search.html"
+      ]
+    },
+    {
+      "source": "rss.xml",
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
@@ -21494,6 +23226,48 @@
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
+      ]
+    },
+    {
+      "source": "rss.xml",
+      "reference": "/articles/wetax-electronic-billing.html",
+      "expected": [
+        "articles/wetax-electronic-billing.html"
+      ]
+    },
+    {
+      "source": "rss.xml",
+      "reference": "/articles/wetax-payment-history.html",
+      "expected": [
+        "articles/wetax-payment-history.html"
+      ]
+    },
+    {
+      "source": "rss.xml",
+      "reference": "/articles/yellow-umbrella-mutual-aid-guide.html",
+      "expected": [
+        "articles/yellow-umbrella-mutual-aid-guide.html"
+      ]
+    },
+    {
+      "source": "rss.xml",
+      "reference": "/articles/youth-leap-account-contribution.html",
+      "expected": [
+        "articles/youth-leap-account-contribution.html"
+      ]
+    },
+    {
+      "source": "rss.xml",
+      "reference": "/articles/youth-savings-account-maintenance.html",
+      "expected": [
+        "articles/youth-savings-account-maintenance.html"
+      ]
+    },
+    {
+      "source": "rss.xml",
+      "reference": "/articles/youth-support-programs.html",
+      "expected": [
+        "articles/youth-support-programs.html"
       ]
     },
     {
@@ -21607,9 +23381,30 @@
     },
     {
       "source": "topics/electricity.html",
+      "reference": "/articles/refrigerator-summer-electricity-saving.html",
+      "expected": [
+        "articles/refrigerator-summer-electricity-saving.html"
+      ]
+    },
+    {
+      "source": "topics/electricity.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
+      ]
+    },
+    {
+      "source": "youth-support-programs.html",
+      "reference": "/articles/youth-support-programs.html",
+      "expected": [
+        "articles/youth-support-programs.html"
+      ]
+    },
+    {
+      "source": "youth-support-programs.html",
+      "reference": "https://savingio.com/articles/youth-support-programs.html",
+      "expected": [
+        "articles/youth-support-programs.html"
       ]
     }
   ],
@@ -21619,6 +23414,26 @@
       "file": "_redirects",
       "line": 34,
       "target": "/articles/irs-tax-refund-status.html"
+    },
+    {
+      "file": "_redirects",
+      "line": 40,
+      "target": "/articles/telecom-discount-guide.html"
+    },
+    {
+      "file": "_redirects",
+      "line": 45,
+      "target": "/articles/youth-support-programs.html"
+    },
+    {
+      "file": "_redirects",
+      "line": 88,
+      "target": "/articles/telecom-discount-guide.html"
+    },
+    {
+      "file": "_redirects",
+      "line": 89,
+      "target": "/articles/telecom-discount-guide.html"
     }
   ],
   "missing_sitemap_targets": [
