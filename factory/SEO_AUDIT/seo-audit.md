@@ -1,16 +1,16 @@
 # Savingio Full SEO Audit
 
 - Articles: 171
-- PASS: 146
-- WARNING: 25
+- PASS: 149
+- WARNING: 22
 - FAIL: 0
-- Average score: 90.8
-- Thin content (<2500 Korean chars): 8
-- Short content (<4500 Korean chars): 116
+- Average score: 91.0
+- Thin content (<2500 Korean chars): 4
+- Short content (<4500 Korean chars): 114
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
-- Low internal article links: 0
+- Low internal article links: 5
 - Duplicate title groups: 0
 - Duplicate description groups: 0
 - Duplicate canonical groups: 0
@@ -20,14 +20,11 @@
 
 | Score | Status | Article | Main findings |
 |---:|---|---|---|
-| 80 | WARNING | `articles/cash-advance-vs-card-loan.html` | THIN_CONTENT_KO:2434, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
-| 80 | WARNING | `articles/impulse-buying-control.html` | THIN_CONTENT_KO:2334, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/money-saving-habits.html` | THIN_CONTENT_KO:2445, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/refrigerator-summer-electricity-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:27, CONTENT_SHORT_KO:3593 |
 | 80 | WARNING | `articles/revolving-cancellation-payoff.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3234 |
 | 80 | WARNING | `articles/savings-maturity-auto-renewal.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3274 |
 | 80 | WARNING | `articles/single-parent-support-benefits.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3597 |
-| 80 | WARNING | `articles/spending-habits-change.html` | THIN_CONTENT_KO:2060, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/summer-gas-bill-hot-water-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3351 |
 | 80 | WARNING | `articles/summer-water-bill-spike-check.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:32, CONTENT_SHORT_KO:3329 |
 | 80 | WARNING | `articles/tax-credit-late-application.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3449 |
@@ -39,8 +36,8 @@
 | 80 | WARNING | `articles/yellow-umbrella-mutual-aid-guide.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:35, CONTENT_SHORT_KO:3180 |
 | 80 | WARNING | `articles/youth-leap-account-contribution.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3372 |
 | 80 | WARNING | `articles/youth-savings-account-maintenance.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3354 |
-| 84 | WARNING | `articles/card-points-cashback-guide.html` | THIN_CONTENT_KO:2291, BREADCRUMB_SCHEMA_MISSING |
 | 84 | WARNING | `articles/fan-aircon-combination-saving.html` | META_DESCRIPTION_LENGTH:37, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2929 |
+| 84 | WARNING | `articles/national-employment-support-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, INTERNAL_ARTICLE_LINKS_LOW:2, CONTENT_SHORT_KO:4077 |
 | 84 | WARNING | `articles/unemployment-benefit-checklist.html` | THIN_CONTENT_KO:2442, META_DESCRIPTION_LENGTH:49 |
 | 84 | WARNING | `articles/youth-support-programs.html` | GENERIC_TEMPLATE_TEXT:4, CONTENT_SHORT_KO:3474 |
 | 88 | PASS | `articles/aircon-optimal-temperature-savings.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2908 |
@@ -54,16 +51,19 @@
 | 88 | PASS | `articles/business-closure-vat-order.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3294 |
 | 88 | PASS | `articles/business-phone-expense-deduction.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2590 |
 | 88 | PASS | `articles/car-insurance-saving.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3273 |
+| 88 | PASS | `articles/credit-score-habits.html` | BREADCRUMB_SCHEMA_MISSING, INTERNAL_ARTICLE_LINKS_LOW:2, CONTENT_SHORT_KO:3993 |
 | 88 | PASS | `articles/education-expense-vs-benefit.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3512 |
 | 88 | PASS | `articles/electricity-bill-easy-calculator-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3282 |
 | 88 | PASS | `articles/emergency-fund-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4275 |
+| 88 | PASS | `articles/fixed-date-online-application.html` | BREADCRUMB_SCHEMA_MISSING, INTERNAL_ARTICLE_LINKS_LOW:2, CONTENT_SHORT_KO:4019 |
 | 88 | PASS | `articles/general-vat-common-mistakes.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3542 |
 | 88 | PASS | `articles/government-benefits-warning.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3885 |
 | 88 | PASS | `articles/hometax-vat-sales-check.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3286 |
 | 88 | PASS | `articles/insurance-auto-pay-discount.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4384 |
+| 88 | PASS | `articles/lifelong-education-voucher-application.html` | BREADCRUMB_SCHEMA_MISSING, INTERNAL_ARTICLE_LINKS_LOW:2, CONTENT_SHORT_KO:2916 |
 | 88 | PASS | `articles/long-term-repair-reserve-refund-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4246 |
 | 88 | PASS | `articles/monthly-budget-planner.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4348 |
-| 88 | PASS | `articles/national-employment-support-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4077 |
+| 88 | PASS | `articles/peak-season-hotel-saving.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, INTERNAL_ARTICLE_LINKS_LOW:2 |
 | 88 | PASS | `articles/property-tax-deadline.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3543 |
 | 88 | PASS | `articles/property-tax-july-2026.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4089 |
 | 88 | PASS | `articles/property-tax-july-september-difference.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3559 |
@@ -85,13 +85,13 @@
 | 92 | PASS | `articles/car-aircon-fuel-saving.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/car-tax-annual-payment.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:2938 |
 | 92 | PASS | `articles/car-tax-check-payment-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3227 |
+| 92 | PASS | `articles/card-points-cashback-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3788 |
 | 92 | PASS | `articles/cash-out-card-points.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3920 |
 | 92 | PASS | `articles/child-allowance-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3304 |
 | 92 | PASS | `articles/child-tax-credit-status-check.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4401 |
 | 92 | PASS | `articles/childcare-service-government-support.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4417 |
 | 92 | PASS | `articles/cma-account-types-risk.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/credit-card-billing-cycle-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
-| 92 | PASS | `articles/credit-score-habits.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3993 |
 | 92 | PASS | `articles/dehumidifier-electricity-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3813 |
 | 92 | PASS | `articles/duplicate-indemnity-insurance-check.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3933 |
 | 92 | PASS | `articles/earned-income-credit-account-change.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3220 |
