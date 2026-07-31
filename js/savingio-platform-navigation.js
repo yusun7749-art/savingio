@@ -1,7 +1,7 @@
 (function(){
 'use strict';
-const VERSION='20260731-search-route-fix2';
-const DIRECTORY='/articles/index.html';
+const VERSION='20260731-search-final1';
+const DIRECTORY='/search.html';
 const ITEMS=[
  {label:'홈',href:'/'},{label:'생활정보',href:DIRECTORY},{label:'계산기',href:'/calculators/'},
  {label:'사이트 탐색',href:'/categories/'},{label:'About',href:'/about.html'}
@@ -13,38 +13,11 @@ function addScript(src,key){return new Promise(resolve=>{if(document.querySelect
 function current(href){if(href==='/')return path==='/';return path.startsWith(href.replace(/index\.html$/,'').replace(/\.html$/,''))}
 function markup(cls){return `<nav class="${cls}" aria-label="Savingio 주요 메뉴">${ITEMS.map(i=>`<a href="${esc(i.href)}"${current(i.href)?' aria-current="page"':''}>${esc(i.label)}</a>`).join('')}</nav>`}
 function openDirectory(value){const q=String(value||'').trim();if(!q)return false;window.location.assign(DIRECTORY+'?q='+encodeURIComponent(q));return true;}
-function fireSearch(input){
- const value=input.value.trim();
- input.value=value;
- ['input','change','keyup'].forEach(type=>input.dispatchEvent(new Event(type,{bubbles:true})));
- const url=new URL(location.href);
- if(value)url.searchParams.set('q',value);else url.searchParams.delete('q');
- history.replaceState(null,'',url.pathname+url.search+url.hash);
-}
+function fireSearch(input){const value=input.value.trim();input.value=value;if(window.SavingioDirectorySearch?.setQuery){window.SavingioDirectorySearch.setQuery(value);return}input.dispatchEvent(new Event('input',{bubbles:true}));}
 function installSearchBridge(){
- document.querySelectorAll('form.search').forEach(form=>{
-  form.action=DIRECTORY;form.method='get';
-  const input=form.querySelector('input[type="search"]');
-  if(!input)return;
-  input.name='q';
-  if(form.dataset.routeFixed)return;
-  form.dataset.routeFixed='1';
-  form.addEventListener('submit',event=>{event.preventDefault();event.stopImmediatePropagation();const value=input.value.trim();input.value=value;if(!value){input.focus();return}openDirectory(value);},true);
- });
- const input=document.getElementById('articleSearch');
- if(!input)return;
- const box=input.closest('.search-box');
- if(box&&!box.querySelector('.savingio-article-search-row')){
-  const row=document.createElement('div');row.className='savingio-article-search-row';
-  input.parentNode.insertBefore(row,input);row.appendChild(input);
-  const button=document.createElement('button');button.type='button';button.className='savingio-article-search-button';button.setAttribute('aria-label','생활정보 검색');button.innerHTML='<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>';
-  row.appendChild(button);
-  button.addEventListener('click',()=>fireSearch(input));
-  input.addEventListener('keydown',event=>{if(event.key==='Enter'){event.preventDefault();fireSearch(input);}});
-  const style=document.createElement('style');style.textContent='.savingio-article-search-row{display:grid;grid-template-columns:minmax(0,1fr) 58px;gap:10px;align-items:center}.savingio-article-search-row #articleSearch{width:100%;margin:0}.savingio-article-search-button{height:58px;border:0;border-radius:16px;background:#132744;color:#fff;display:grid;place-items:center;cursor:pointer}.savingio-article-search-button:hover{filter:brightness(1.08)}@media(max-width:560px){.savingio-article-search-row{grid-template-columns:minmax(0,1fr) 52px}.savingio-article-search-button{height:52px}}';document.head.appendChild(style);
- }
- const query=new URLSearchParams(location.search).get('q');
- if(query!==null){input.value=query;requestAnimationFrame(()=>setTimeout(()=>fireSearch(input),0));}
+ document.querySelectorAll('form.search').forEach(form=>{form.action=DIRECTORY;form.method='get';const input=form.querySelector('input[type="search"]');if(!input)return;input.name='q';if(form.dataset.routeFixed)return;form.dataset.routeFixed='1';form.addEventListener('submit',event=>{event.preventDefault();event.stopImmediatePropagation();const value=input.value.trim();input.value=value;if(!value){input.focus();return}openDirectory(value);},true);});
+ const input=document.getElementById('articleSearch');if(!input)return;
+ const query=new URLSearchParams(location.search).get('q');if(query!==null){input.value=query;requestAnimationFrame(()=>setTimeout(()=>fireSearch(input),0));}
 }
 function explorerAllowed(){return path.startsWith('/articles/')||path==='/articles'||path.startsWith('/categories/')||path==='/categories';}
 function removeExplorer(){document.querySelectorAll('#savingio-brain-nav,.sbn-mobile-btn,.sbn-backdrop').forEach(node=>node.remove());document.documentElement.classList.remove('savingio-brain-ready');document.body.classList.remove('sbn-open');}
