@@ -1,13 +1,112 @@
 {
-  "article_count": 172,
+  "article_count": 156,
   "topic_group_count": 25,
   "candidate_pair_count": 1,
   "method": "topic-first grouping; title/body similarity only ranks articles inside the same topic group",
   "groups": [
     {
       "group_id": "G001",
+      "topic": "전기요금·에어컨",
+      "size": 14,
+      "articles": [
+        {
+          "path": "articles/air-conditioner-electricity-saving.html",
+          "title": "에어컨 전기요금 줄이는 방법, 우리 집에 맞는 냉방 순서 | Savingio",
+          "h1": "에어컨 전기요금 줄이는 방법, 우리 집에 맞는 냉방 순서",
+          "char_count": 6780
+        },
+        {
+          "path": "articles/aircon-dry-mode-electricity.html",
+          "title": "에어컨 제습모드 전기요금, 냉방보다 정말 덜 나올까? | Savingio",
+          "h1": "에어컨 제습모드 전기요금, 냉방보다 정말 덜 나올까?",
+          "char_count": 4717
+        },
+        {
+          "path": "articles/aircon-filter-cleaning-savings.html",
+          "title": "에어컨 필터 청소로 전기요금 줄이는 방법, 냉방이 약할 때 확인 순서 | Savingio",
+          "h1": "에어컨 필터 청소로 전기요금 줄이는 방법, 냉방이 약할 때 확인 순서",
+          "char_count": 7657
+        },
+        {
+          "path": "articles/aircon-optimal-temperature-savings.html",
+          "title": "에어컨 적정 온도는 몇 도일까? 전기요금과 쾌적함을 함께 잡는 설정 순서 | Savingio",
+          "h1": "에어컨 적정 온도는 몇 도일까? 전기요금과 쾌적함을 함께 잡는 설정 순서",
+          "char_count": 4211
+        },
+        {
+          "path": "articles/dehumidifier-electricity-saving.html",
+          "title": "제습기 전기요금 계산과 절약법 | Savingio",
+          "h1": "제습기 전기요금 계산과 절약법",
+          "char_count": 5557
+        },
+        {
+          "path": "articles/dryer-summer-electricity-saving.html",
+          "title": "건조기 여름 전기세 절약 방법 | Savingio",
+          "h1": "건조기 여름 전기세 절약 방법",
+          "char_count": 6436
+        },
+        {
+          "path": "articles/electricity-bill-easy-calculator-guide.html",
+          "title": "전기 사용량만으로 이번 달 예상 전기요금 확인하는 방법 | 세이빙이오(Savingio)",
+          "h1": "전기 사용량만으로 이번 달 예상 전기요금 확인하는 방법",
+          "char_count": 4756
+        },
+        {
+          "path": "articles/electricity-bill-saving.html",
+          "title": "전기요금 절약 방법, 고지서부터 가전 사용량까지 확인하는 순서 | 세이빙이오(Savingio)",
+          "h1": "전기요금 절약 방법, 고지서부터 가전 사용량까지 확인하는 순서",
+          "char_count": 4645
+        },
+        {
+          "path": "articles/electricity-discount-card-guide.html",
+          "title": "전기요금 할인카드 제대로 고르는 방법 | Savingio",
+          "h1": "전기요금 할인카드 제대로 고르는 방법",
+          "char_count": 6028
+        },
+        {
+          "path": "articles/fan-aircon-combination-saving.html",
+          "title": "선풍기와 에어컨 함께 쓰는 방법 | 세이빙이오(Savingio)",
+          "h1": "선풍기와 에어컨 함께 쓰는 방법",
+          "char_count": 4214
+        },
+        {
+          "path": "articles/fixed-speed-aircon-saving.html",
+          "title": "정속형 에어컨 전기세 절약 방법 | 세이빙이오(Savingio)",
+          "h1": "정속형 에어컨 전기세 절약 방법",
+          "char_count": 4789
+        },
+        {
+          "path": "articles/inverter-aircon-saving-guide.html",
+          "title": "인버터 에어컨 전기세 절약 운전법, 켜고 끄는 기준부터 설정온도까지 | 세이빙이오(Savingio)",
+          "h1": "인버터 에어컨 전기세 절약 운전법, 켜고 끄는 기준부터 설정온도까지",
+          "char_count": 7581
+        },
+        {
+          "path": "articles/small-business-electricity-support.html",
+          "title": "소상공인 전기요금 지원 확인법 | 2026년 공고·대상·서류·신청 순서 | Savingio",
+          "h1": "소상공인 전기요금 지원 확인법",
+          "char_count": 6155
+        },
+        {
+          "path": "articles/summer-electricity-tier-check-2026.html",
+          "title": "여름철 전기요금 누진구간 확인과 사용량 관리 방법 | Savingio",
+          "h1": "여름철 전기요금 누진구간 확인과 사용량 관리 방법",
+          "char_count": 5464
+        }
+      ],
+      "relationships": [],
+      "decision_status": "pending_group_review",
+      "decision_options": [
+        "대표글 통합",
+        "검색의도 분리 유지",
+        "내용 흡수 후 삭제",
+        "완전 중복 삭제"
+      ]
+    },
+    {
+      "group_id": "G002",
       "topic": "재산세·지방세",
-      "size": 15,
+      "size": 13,
       "articles": [
         {
           "path": "articles/building-land-property-tax.html",
@@ -86,18 +185,6 @@
           "title": "재산세 납부증명서 발급 방법 | Savingio",
           "h1": "재산세 납부증명서 발급 방법",
           "char_count": 5351
-        },
-        {
-          "path": "articles/wetax-electronic-billing.html",
-          "title": "위택스 지방세 전자고지 신청 방법 | 세이빙이오(Savingio)",
-          "h1": "위택스 지방세 전자고지 신청 방법",
-          "char_count": 4405
-        },
-        {
-          "path": "articles/wetax-payment-history.html",
-          "title": "위택스 납부내역 확인 방법 | 세이빙이오(Savingio)",
-          "h1": "위택스 납부내역 확인 방법",
-          "char_count": 4386
         }
       ],
       "relationships": [
@@ -109,111 +196,6 @@
           "body_similarity": 0.5375
         }
       ],
-      "decision_status": "pending_group_review",
-      "decision_options": [
-        "대표글 통합",
-        "검색의도 분리 유지",
-        "내용 흡수 후 삭제",
-        "완전 중복 삭제"
-      ]
-    },
-    {
-      "group_id": "G002",
-      "topic": "전기요금·에어컨",
-      "size": 15,
-      "articles": [
-        {
-          "path": "articles/air-conditioner-electricity-saving.html",
-          "title": "에어컨 전기요금 줄이는 방법, 우리 집에 맞는 냉방 순서 | Savingio",
-          "h1": "에어컨 전기요금 줄이는 방법, 우리 집에 맞는 냉방 순서",
-          "char_count": 6780
-        },
-        {
-          "path": "articles/aircon-dry-mode-electricity.html",
-          "title": "에어컨 제습모드 전기요금, 냉방보다 정말 덜 나올까? | Savingio",
-          "h1": "에어컨 제습모드 전기요금, 냉방보다 정말 덜 나올까?",
-          "char_count": 4717
-        },
-        {
-          "path": "articles/aircon-filter-cleaning-savings.html",
-          "title": "에어컨 필터 청소로 전기요금 줄이는 방법, 냉방이 약할 때 확인 순서 | Savingio",
-          "h1": "에어컨 필터 청소로 전기요금 줄이는 방법, 냉방이 약할 때 확인 순서",
-          "char_count": 7657
-        },
-        {
-          "path": "articles/aircon-optimal-temperature-savings.html",
-          "title": "에어컨 적정 온도는 몇 도일까? 전기요금과 쾌적함을 함께 잡는 설정 순서 | Savingio",
-          "h1": "에어컨 적정 온도는 몇 도일까? 전기요금과 쾌적함을 함께 잡는 설정 순서",
-          "char_count": 4211
-        },
-        {
-          "path": "articles/dehumidifier-electricity-saving.html",
-          "title": "제습기 전기요금 계산과 절약법 | Savingio",
-          "h1": "제습기 전기요금 계산과 절약법",
-          "char_count": 5557
-        },
-        {
-          "path": "articles/dryer-summer-electricity-saving.html",
-          "title": "건조기 여름 전기세 절약 방법 | Savingio",
-          "h1": "건조기 여름 전기세 절약 방법",
-          "char_count": 6436
-        },
-        {
-          "path": "articles/electricity-bill-easy-calculator-guide.html",
-          "title": "전기 사용량만으로 이번 달 예상 전기요금 확인하는 방법 | 세이빙이오(Savingio)",
-          "h1": "전기 사용량만으로 이번 달 예상 전기요금 확인하는 방법",
-          "char_count": 4756
-        },
-        {
-          "path": "articles/electricity-bill-saving.html",
-          "title": "전기요금 절약 방법, 고지서부터 가전 사용량까지 확인하는 순서 | 세이빙이오(Savingio)",
-          "h1": "전기요금 절약 방법, 고지서부터 가전 사용량까지 확인하는 순서",
-          "char_count": 4645
-        },
-        {
-          "path": "articles/electricity-discount-card-guide.html",
-          "title": "전기요금 할인카드 제대로 고르는 방법 | Savingio",
-          "h1": "전기요금 할인카드 제대로 고르는 방법",
-          "char_count": 6028
-        },
-        {
-          "path": "articles/fan-aircon-combination-saving.html",
-          "title": "선풍기와 에어컨 함께 쓰는 방법 | 세이빙이오(Savingio)",
-          "h1": "선풍기와 에어컨 함께 쓰는 방법",
-          "char_count": 4214
-        },
-        {
-          "path": "articles/fixed-speed-aircon-saving.html",
-          "title": "정속형 에어컨 전기세 절약 방법 | 세이빙이오(Savingio)",
-          "h1": "정속형 에어컨 전기세 절약 방법",
-          "char_count": 4789
-        },
-        {
-          "path": "articles/inverter-aircon-saving-guide.html",
-          "title": "인버터 에어컨 전기세 절약 운전법, 켜고 끄는 기준부터 설정온도까지 | 세이빙이오(Savingio)",
-          "h1": "인버터 에어컨 전기세 절약 운전법, 켜고 끄는 기준부터 설정온도까지",
-          "char_count": 7581
-        },
-        {
-          "path": "articles/refrigerator-summer-electricity-saving.html",
-          "title": "여름철 냉장고 전기세 절약 방법 | 세이빙이오(Savingio)",
-          "h1": "여름철 냉장고 전기세 절약 방법",
-          "char_count": 5232
-        },
-        {
-          "path": "articles/small-business-electricity-support.html",
-          "title": "소상공인 전기요금 지원 확인법 | 2026년 공고·대상·서류·신청 순서 | Savingio",
-          "h1": "소상공인 전기요금 지원 확인법",
-          "char_count": 6155
-        },
-        {
-          "path": "articles/summer-electricity-tier-check-2026.html",
-          "title": "여름철 전기요금 누진구간 확인과 사용량 관리 방법 | Savingio",
-          "h1": "여름철 전기요금 누진구간 확인과 사용량 관리 방법",
-          "char_count": 5471
-        }
-      ],
-      "relationships": [],
       "decision_status": "pending_group_review",
       "decision_options": [
         "대표글 통합",
@@ -386,69 +368,6 @@
     },
     {
       "group_id": "G005",
-      "topic": "실업·고용·급여",
-      "size": 8,
-      "articles": [
-        {
-          "path": "articles/four-major-insurance-deduction-guide.html",
-          "title": "4대보험 공제액 확인 방법, 월급에서 얼마가 빠지는지 보는 기준 | 세이빙이오(Savingio)",
-          "h1": "4대보험 공제액 확인 방법, 월급에서 얼마가 빠지는지 보는 기준",
-          "char_count": 4903
-        },
-        {
-          "path": "articles/national-employment-support-eligibility.html",
-          "title": "국민취업지원제도 신청 자격 | 세이빙이오(Savingio)",
-          "h1": "국민취업지원제도 신청 자격",
-          "char_count": 5724
-        },
-        {
-          "path": "articles/salary-slip-check-guide.html",
-          "title": "급여명세서 확인 방법, 월급에서 빠진 돈을 항목별로 보는 순서 | Savingio",
-          "h1": "급여명세서 확인 방법, 월급에서 빠진 돈을 항목별로 보는 순서",
-          "char_count": 4731
-        },
-        {
-          "path": "articles/severance-pay-calculation-guide.html",
-          "title": "퇴직금 계산 방법, 평균임금과 재직기간을 확인하는 순서 | 세이빙이오(Savingio)",
-          "h1": "퇴직금 계산 방법, 평균임금과 재직기간을 확인하는 순서",
-          "char_count": 7752
-        },
-        {
-          "path": "articles/severance-pay-easy-calculator-guide.html",
-          "title": "퇴직금, 입사일과 월급만으로 빠르게 확인하는 방법 | 세이빙이오(Savingio)",
-          "h1": "퇴직금, 입사일과 월급만으로 빠르게 확인하는 방법",
-          "char_count": 4727
-        },
-        {
-          "path": "articles/unemployment-benefit-checklist.html",
-          "title": "실업급여 신청 전 확인할 조건과 준비서류 체크리스트 | Savingio",
-          "h1": "실업급여 신청 전 확인할 조건과 준비서류 체크리스트",
-          "char_count": 6692
-        },
-        {
-          "path": "articles/unemployment-benefit-job-search.html",
-          "title": "실업급여 구직활동 인정 기준 | 세이빙이오(Savingio)",
-          "h1": "실업급여 구직활동 인정 기준",
-          "char_count": 4739
-        },
-        {
-          "path": "articles/weekly-holiday-pay-guide.html",
-          "title": "주휴수당 조건과 계산 방법, 내가 받을 수 있는지 확인하는 순서 | 세이빙이오(Savingio)",
-          "h1": "주휴수당 조건과 계산 방법, 내가 받을 수 있는지 확인하는 순서",
-          "char_count": 7068
-        }
-      ],
-      "relationships": [],
-      "decision_status": "pending_group_review",
-      "decision_options": [
-        "대표글 통합",
-        "검색의도 분리 유지",
-        "내용 흡수 후 삭제",
-        "완전 중복 삭제"
-      ]
-    },
-    {
-      "group_id": "G006",
       "topic": "노인·연금·장기요양",
       "size": 7,
       "articles": [
@@ -505,121 +424,64 @@
       ]
     },
     {
+      "group_id": "G006",
+      "topic": "실업·고용·급여",
+      "size": 7,
+      "articles": [
+        {
+          "path": "articles/four-major-insurance-deduction-guide.html",
+          "title": "4대보험 공제액 확인 방법, 월급에서 얼마가 빠지는지 보는 기준 | 세이빙이오(Savingio)",
+          "h1": "4대보험 공제액 확인 방법, 월급에서 얼마가 빠지는지 보는 기준",
+          "char_count": 4903
+        },
+        {
+          "path": "articles/national-employment-support-eligibility.html",
+          "title": "국민취업지원제도 신청 자격 | 세이빙이오(Savingio)",
+          "h1": "국민취업지원제도 신청 자격",
+          "char_count": 5724
+        },
+        {
+          "path": "articles/salary-slip-check-guide.html",
+          "title": "급여명세서 확인 방법, 월급에서 빠진 돈을 항목별로 보는 순서 | Savingio",
+          "h1": "급여명세서 확인 방법, 월급에서 빠진 돈을 항목별로 보는 순서",
+          "char_count": 4731
+        },
+        {
+          "path": "articles/severance-pay-calculation-guide.html",
+          "title": "퇴직금 계산 방법, 평균임금과 재직기간을 확인하는 순서 | 세이빙이오(Savingio)",
+          "h1": "퇴직금 계산 방법, 평균임금과 재직기간을 확인하는 순서",
+          "char_count": 7741
+        },
+        {
+          "path": "articles/severance-pay-easy-calculator-guide.html",
+          "title": "퇴직금, 입사일과 월급만으로 빠르게 확인하는 방법 | 세이빙이오(Savingio)",
+          "h1": "퇴직금, 입사일과 월급만으로 빠르게 확인하는 방법",
+          "char_count": 4702
+        },
+        {
+          "path": "articles/unemployment-benefit-checklist.html",
+          "title": "실업급여 신청 전 확인할 조건과 준비서류 체크리스트 | Savingio",
+          "h1": "실업급여 신청 전 확인할 조건과 준비서류 체크리스트",
+          "char_count": 6633
+        },
+        {
+          "path": "articles/weekly-holiday-pay-guide.html",
+          "title": "주휴수당 조건과 계산 방법, 내가 받을 수 있는지 확인하는 순서 | 세이빙이오(Savingio)",
+          "h1": "주휴수당 조건과 계산 방법, 내가 받을 수 있는지 확인하는 순서",
+          "char_count": 7068
+        }
+      ],
+      "relationships": [],
+      "decision_status": "pending_group_review",
+      "decision_options": [
+        "대표글 통합",
+        "검색의도 분리 유지",
+        "내용 흡수 후 삭제",
+        "완전 중복 삭제"
+      ]
+    },
+    {
       "group_id": "G007",
-      "topic": "소상공인·사업자",
-      "size": 7,
-      "articles": [
-        {
-          "path": "articles/business-card-hometax-registration.html",
-          "title": "사업용 신용카드 홈택스 등록 방법, 등록 뒤 매입내역까지 확인하는 순서 | Savingio",
-          "h1": "사업용 신용카드 홈택스 등록 방법, 등록 뒤 매입내역까지 확인하는 순서",
-          "char_count": 5183
-        },
-        {
-          "path": "articles/business-phone-expense-deduction.html",
-          "title": "사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리 | Savingio",
-          "h1": "사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리",
-          "char_count": 7311
-        },
-        {
-          "path": "articles/business-vehicle-expense-basics.html",
-          "title": "사업용 차량 비용처리, 증빙부터 운행기록부까지 확인하는 순서 | Savingio",
-          "h1": "사업용 차량 비용처리, 증빙부터 운행기록부까지 확인하는 순서",
-          "char_count": 5920
-        },
-        {
-          "path": "articles/small-business-closure-support.html",
-          "title": "폐업 소상공인 원스톱 지원 확인 2026 | Savingio",
-          "h1": "폐업 소상공인 원스톱 지원 확인 2026",
-          "char_count": 6465
-        },
-        {
-          "path": "articles/small-business-delivery-support.html",
-          "title": "소상공인 배달비 지원사업 찾는 방법 | 세이빙이오(Savingio)",
-          "h1": "소상공인 배달비 지원사업 찾는 방법",
-          "char_count": 7596
-        },
-        {
-          "path": "articles/small-business-policy-fund.html",
-          "title": "소상공인 정책자금 확인·신청 순서 2026 | Savingio",
-          "h1": "소상공인 정책자금 확인·신청 순서 2026",
-          "char_count": 6441
-        },
-        {
-          "path": "articles/yellow-umbrella-mutual-aid-guide.html",
-          "title": "노란우산공제 가입 전 확인사항 | 세이빙이오(Savingio)",
-          "h1": "노란우산공제 가입 전 확인사항",
-          "char_count": 4588
-        }
-      ],
-      "relationships": [],
-      "decision_status": "pending_group_review",
-      "decision_options": [
-        "대표글 통합",
-        "검색의도 분리 유지",
-        "내용 흡수 후 삭제",
-        "완전 중복 삭제"
-      ]
-    },
-    {
-      "group_id": "G008",
-      "topic": "아동·가족 지원",
-      "size": 7,
-      "articles": [
-        {
-          "path": "articles/child-allowance-guide.html",
-          "title": "아동수당 신청 방법, 지급이 누락되지 않게 확인하는 체크리스트 | Savingio",
-          "h1": "아동수당 신청 방법, 지급이 누락되지 않게 확인하는 체크리스트",
-          "char_count": 4709
-        },
-        {
-          "path": "articles/childcare-service-government-support.html",
-          "title": "아이돌봄서비스 정부지원 신청 방법, 자격 판정부터 이용까지 | Savingio",
-          "h1": "아이돌봄서비스 정부지원 신청 방법, 자격 판정부터 이용까지",
-          "char_count": 6142
-        },
-        {
-          "path": "articles/education-benefit-eligibility.html",
-          "title": "교육급여 신청 방법과 수급자격 확인 | Savingio",
-          "h1": "교육급여 신청 방법과 수급자격 확인",
-          "char_count": 5536
-        },
-        {
-          "path": "articles/elementary-school-education-support.html",
-          "title": "초등학생 교육비 지원 총정리, 교육급여·방과후·돌봄 신청법 | Savingio",
-          "h1": "초등학생 교육비 지원 총정리, 교육급여·방과후·돌봄 신청법",
-          "char_count": 9506
-        },
-        {
-          "path": "articles/first-meeting-voucher-guide.html",
-          "title": "첫만남이용권 신청과 사용 방법, 결제 전에 확인할 제한사항 | 세이빙이오(Savingio)",
-          "h1": "첫만남이용권 신청과 사용 방법, 결제 전에 확인할 제한사항",
-          "char_count": 6147
-        },
-        {
-          "path": "articles/parental-benefit-guide.html",
-          "title": "부모급여 신청 방법, 출생 후 놓치지 말아야 할 확인 순서 | Savingio",
-          "h1": "부모급여 신청 방법, 출생 후 놓치지 말아야 할 확인 순서",
-          "char_count": 7114
-        },
-        {
-          "path": "articles/single-parent-support-benefits.html",
-          "title": "한부모가족 지원금 조회 방법 | 세이빙이오(Savingio)",
-          "h1": "한부모가족 지원금 조회 방법",
-          "char_count": 5243
-        }
-      ],
-      "relationships": [],
-      "decision_status": "pending_group_review",
-      "decision_options": [
-        "대표글 통합",
-        "검색의도 분리 유지",
-        "내용 흡수 후 삭제",
-        "완전 중복 삭제"
-      ]
-    },
-    {
-      "group_id": "G009",
       "topic": "자동차세·교통",
       "size": 7,
       "articles": [
@@ -645,7 +507,7 @@
           "path": "articles/regional-development-bond-refund-guide.html",
           "title": "자동차 채권 환급금 조회 방법, 지역개발채권 만기상환 확인 순서 | 세이빙이오(Savingio)",
           "h1": "자동차 채권 환급금 조회 방법, 지역개발채권 만기상환 확인 순서",
-          "char_count": 4373
+          "char_count": 4342
         },
         {
           "path": "articles/rental-car-vacation-saving.html",
@@ -676,7 +538,7 @@
       ]
     },
     {
-      "group_id": "G010",
+      "group_id": "G008",
       "topic": "주거·임대차",
       "size": 7,
       "articles": [
@@ -733,211 +595,109 @@
       ]
     },
     {
+      "group_id": "G009",
+      "topic": "소상공인·사업자",
+      "size": 6,
+      "articles": [
+        {
+          "path": "articles/business-card-hometax-registration.html",
+          "title": "사업용 신용카드 홈택스 등록 방법, 등록 뒤 매입내역까지 확인하는 순서 | Savingio",
+          "h1": "사업용 신용카드 홈택스 등록 방법, 등록 뒤 매입내역까지 확인하는 순서",
+          "char_count": 5183
+        },
+        {
+          "path": "articles/business-phone-expense-deduction.html",
+          "title": "사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리 | Savingio",
+          "h1": "사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리",
+          "char_count": 7311
+        },
+        {
+          "path": "articles/business-vehicle-expense-basics.html",
+          "title": "사업용 차량 비용처리, 증빙부터 운행기록부까지 확인하는 순서 | Savingio",
+          "h1": "사업용 차량 비용처리, 증빙부터 운행기록부까지 확인하는 순서",
+          "char_count": 5920
+        },
+        {
+          "path": "articles/small-business-closure-support.html",
+          "title": "폐업 소상공인 원스톱 지원 확인 2026 | Savingio",
+          "h1": "폐업 소상공인 원스톱 지원 확인 2026",
+          "char_count": 6465
+        },
+        {
+          "path": "articles/small-business-delivery-support.html",
+          "title": "소상공인 배달비 지원사업 찾는 방법 | 세이빙이오(Savingio)",
+          "h1": "소상공인 배달비 지원사업 찾는 방법",
+          "char_count": 7596
+        },
+        {
+          "path": "articles/small-business-policy-fund.html",
+          "title": "소상공인 정책자금 확인·신청 순서 2026 | Savingio",
+          "h1": "소상공인 정책자금 확인·신청 순서 2026",
+          "char_count": 6441
+        }
+      ],
+      "relationships": [],
+      "decision_status": "pending_group_review",
+      "decision_options": [
+        "대표글 통합",
+        "검색의도 분리 유지",
+        "내용 흡수 후 삭제",
+        "완전 중복 삭제"
+      ]
+    },
+    {
+      "group_id": "G010",
+      "topic": "아동·가족 지원",
+      "size": 6,
+      "articles": [
+        {
+          "path": "articles/child-allowance-guide.html",
+          "title": "아동수당 신청 방법, 지급이 누락되지 않게 확인하는 체크리스트 | Savingio",
+          "h1": "아동수당 신청 방법, 지급이 누락되지 않게 확인하는 체크리스트",
+          "char_count": 4709
+        },
+        {
+          "path": "articles/childcare-service-government-support.html",
+          "title": "아이돌봄서비스 정부지원 신청 방법, 자격 판정부터 이용까지 | Savingio",
+          "h1": "아이돌봄서비스 정부지원 신청 방법, 자격 판정부터 이용까지",
+          "char_count": 6142
+        },
+        {
+          "path": "articles/education-benefit-eligibility.html",
+          "title": "교육급여 신청 방법과 수급자격 확인 | Savingio",
+          "h1": "교육급여 신청 방법과 수급자격 확인",
+          "char_count": 5493
+        },
+        {
+          "path": "articles/elementary-school-education-support.html",
+          "title": "초등학생 교육비 지원 총정리, 교육급여·방과후·돌봄 신청법 | Savingio",
+          "h1": "초등학생 교육비 지원 총정리, 교육급여·방과후·돌봄 신청법",
+          "char_count": 9506
+        },
+        {
+          "path": "articles/first-meeting-voucher-guide.html",
+          "title": "첫만남이용권 신청과 사용 방법, 결제 전에 확인할 제한사항 | 세이빙이오(Savingio)",
+          "h1": "첫만남이용권 신청과 사용 방법, 결제 전에 확인할 제한사항",
+          "char_count": 6147
+        },
+        {
+          "path": "articles/parental-benefit-guide.html",
+          "title": "부모급여 신청 방법, 출생 후 놓치지 말아야 할 확인 순서 | Savingio",
+          "h1": "부모급여 신청 방법, 출생 후 놓치지 말아야 할 확인 순서",
+          "char_count": 7114
+        }
+      ],
+      "relationships": [],
+      "decision_status": "pending_group_review",
+      "decision_options": [
+        "대표글 통합",
+        "검색의도 분리 유지",
+        "내용 흡수 후 삭제",
+        "완전 중복 삭제"
+      ]
+    },
+    {
       "group_id": "G011",
-      "topic": "가스·수도·관리비",
-      "size": 6,
-      "articles": [
-        {
-          "path": "articles/apartment-management-fee-summer.html",
-          "title": "아파트 관리비가 갑자기 많이 나왔을 때 확인할 항목과 줄이는 방법 | Savingio",
-          "h1": "아파트 관리비가 갑자기 많이 나왔을 때 확인할 항목과 줄이는 방법",
-          "char_count": 5983
-        },
-        {
-          "path": "articles/gas-bill-checklist.html",
-          "title": "도시가스 요금 절약과 고지서 점검 방법 | 세이빙이오(Savingio)",
-          "h1": "도시가스 요금 절약과 고지서 점검 방법",
-          "char_count": 4624
-        },
-        {
-          "path": "articles/heating-bill-saving.html",
-          "title": "난방비 절약 방법 12가지, 보일러 설정부터 창문 단열까지 | Savingio",
-          "h1": "난방비 절약 방법 12가지, 보일러 설정부터 창문 단열까지",
-          "char_count": 4481
-        },
-        {
-          "path": "articles/summer-gas-bill-hot-water-saving.html",
-          "title": "여름 가스요금 줄이는 온수 사용법 | 세이빙이오(Savingio)",
-          "h1": "여름 가스요금 줄이는 온수 사용법",
-          "char_count": 4839
-        },
-        {
-          "path": "articles/summer-water-bill-spike-check.html",
-          "title": "여름철 수도요금 급증 원인 점검 | 세이빙이오(Savingio)",
-          "h1": "여름철 수도요금 급증 원인 점검",
-          "char_count": 4808
-        },
-        {
-          "path": "articles/water-bill-saving.html",
-          "title": "수도요금 절약 방법, 누수 확인부터 사용량 줄이기까지 | 세이빙이오(Savingio)",
-          "h1": "수도요금 절약 방법, 누수 확인부터 사용량 줄이기까지",
-          "char_count": 5552
-        }
-      ],
-      "relationships": [],
-      "decision_status": "pending_group_review",
-      "decision_options": [
-        "대표글 통합",
-        "검색의도 분리 유지",
-        "내용 흡수 후 삭제",
-        "완전 중복 삭제"
-      ]
-    },
-    {
-      "group_id": "G012",
-      "topic": "국세·환급",
-      "size": 6,
-      "articles": [
-        {
-          "path": "articles/hometax-refund-status.html",
-          "title": "홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요 | 세이빙이오(Savingio)",
-          "h1": "홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요",
-          "char_count": 4772
-        },
-        {
-          "path": "articles/income-tax-filing-missed-consequences.html",
-          "title": "종합소득세 신고 안 하면 생기는 불이익과 기한후신고 방법 | 세이빙이오(Savingio)",
-          "h1": "종합소득세 신고 안 하면 생기는 불이익과 기한후신고 방법",
-          "char_count": 8342
-        },
-        {
-          "path": "articles/national-tax-refund-account.html",
-          "title": "국세환급금 지급계좌 등록 방법 | 세이빙이오(Savingio)",
-          "h1": "국세환급금 지급계좌 등록 방법",
-          "char_count": 4953
-        },
-        {
-          "path": "articles/national-tax-refund.html",
-          "title": "국세 환급금 조회 방법 | 세이빙이오(Savingio)",
-          "h1": "국세 환급금 조회 방법",
-          "char_count": 5499
-        },
-        {
-          "path": "articles/self-employed-income-tax-refund-check.html",
-          "title": "종합소득세 신고 대상 확인 방법 | 세이빙이오(Savingio)",
-          "h1": "종합소득세 신고 대상 확인 방법",
-          "char_count": 6603
-        },
-        {
-          "path": "articles/tax-credit-late-application.html",
-          "title": "장려금 신청 누락 시 기한후 신청 방법 | 세이빙이오(Savingio)",
-          "h1": "장려금 신청 누락 시 기한후 신청 방법",
-          "char_count": 4993
-        }
-      ],
-      "relationships": [],
-      "decision_status": "pending_group_review",
-      "decision_options": [
-        "대표글 통합",
-        "검색의도 분리 유지",
-        "내용 흡수 후 삭제",
-        "완전 중복 삭제"
-      ]
-    },
-    {
-      "group_id": "G013",
-      "topic": "신용점수·부채",
-      "size": 6,
-      "articles": [
-        {
-          "path": "articles/cash-advance-vs-card-loan.html",
-          "title": "현금서비스와 카드론 차이, 급하게 돈이 필요할 때 먼저 확인할 것 | Savingio",
-          "h1": "현금서비스와 카드론 차이, 급하게 돈이 필요할 때 먼저 확인할 것",
-          "char_count": 6447
-        },
-        {
-          "path": "articles/credit-score-habits.html",
-          "title": "신용점수를 지키는 생활 습관, 연체 없이 관리하는 현실적인 방법 | Savingio",
-          "h1": "신용점수를 지키는 생활 습관, 연체 없이 관리하는 현실적인 방법",
-          "char_count": 5674
-        },
-        {
-          "path": "articles/loan-prepayment-fee-check.html",
-          "title": "대출 중도상환수수료 확인법, 지금 갚는 게 이득인지 계산하는 순서 | 세이빙이오(Savingio)",
-          "h1": "대출 중도상환수수료 확인법, 지금 갚는 게 이득인지 계산하는 순서",
-          "char_count": 5968
-        },
-        {
-          "path": "articles/loan-refinancing-check.html",
-          "title": "대출 갈아타기 전 확인할 것, 금리보다 중요한 총비용 계산법 | 세이빙이오(Savingio)",
-          "h1": "대출 갈아타기 전 확인할 것, 금리보다 중요한 총비용 계산법",
-          "char_count": 5853
-        },
-        {
-          "path": "articles/overdraft-account-guide.html",
-          "title": "마이너스통장 사용 시 주의사항 | 세이빙이오(Savingio)",
-          "h1": "마이너스통장 사용 시 주의사항",
-          "char_count": 5005
-        },
-        {
-          "path": "articles/revolving-cancellation-payoff.html",
-          "title": "리볼빙 해지와 잔액 상환 방법 | 세이빙이오(Savingio)",
-          "h1": "리볼빙 해지와 잔액 상환 방법",
-          "char_count": 4683
-        }
-      ],
-      "relationships": [],
-      "decision_status": "pending_group_review",
-      "decision_options": [
-        "대표글 통합",
-        "검색의도 분리 유지",
-        "내용 흡수 후 삭제",
-        "완전 중복 삭제"
-      ]
-    },
-    {
-      "group_id": "G014",
-      "topic": "은행·예금",
-      "size": 6,
-      "articles": [
-        {
-          "path": "articles/bank-fee-saving.html",
-          "title": "은행 수수료 아끼는 방법, 이체·ATM·환전 비용을 줄이는 확인 순서 | Savingio",
-          "h1": "은행 수수료 아끼는 방법, 이체·ATM·환전 비용을 줄이는 확인 순서",
-          "char_count": 5118
-        },
-        {
-          "path": "articles/cma-account-types-risk.html",
-          "title": "CMA 통장 종류와 원금손실 가능성 | Savingio",
-          "h1": "CMA 통장 종류와 원금손실 가능성",
-          "char_count": 7542
-        },
-        {
-          "path": "articles/deposit-protection-limit-guide.html",
-          "title": "예금자보호제도 총정리 | Savingio",
-          "h1": "예금자보호제도 총정리",
-          "char_count": 7356
-        },
-        {
-          "path": "articles/dormant-deposit-insurance-search.html",
-          "title": "휴면예금과 휴면보험금 찾는 방법 | Savingio",
-          "h1": "휴면예금과 휴면보험금 찾는 방법",
-          "char_count": 8078
-        },
-        {
-          "path": "articles/parking-account-rate-comparison.html",
-          "title": "파킹통장 금리 비교할 때 볼 항목 | Savingio",
-          "h1": "파킹통장 금리 비교할 때 볼 항목",
-          "char_count": 7333
-        },
-        {
-          "path": "articles/savings-maturity-auto-renewal.html",
-          "title": "적금 만기 후 자동재예치 확인법 | 세이빙이오(Savingio)",
-          "h1": "적금 만기 후 자동재예치 확인법",
-          "char_count": 4713
-        }
-      ],
-      "relationships": [],
-      "decision_status": "pending_group_review",
-      "decision_options": [
-        "대표글 통합",
-        "검색의도 분리 유지",
-        "내용 흡수 후 삭제",
-        "완전 중복 삭제"
-      ]
-    },
-    {
-      "group_id": "G015",
       "topic": "정부지원 조회",
       "size": 6,
       "articles": [
@@ -988,45 +748,39 @@
       ]
     },
     {
-      "group_id": "G016",
-      "topic": "청년 지원",
-      "size": 6,
+      "group_id": "G012",
+      "topic": "국세·환급",
+      "size": 5,
       "articles": [
         {
-          "path": "articles/national-scholarship-application.html",
-          "title": "국가장학금 신청 방법과 확인사항 | 세이빙이오(Savingio)",
-          "h1": "국가장학금 신청 방법과 확인사항",
-          "char_count": 5465
+          "path": "articles/hometax-refund-status.html",
+          "title": "홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요 | 세이빙이오(Savingio)",
+          "h1": "홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요",
+          "char_count": 4772
         },
         {
-          "path": "articles/student-loan-repayment-guide.html",
-          "title": "학자금대출 상환 방법과 부담 줄이는 순서 | 세이빙이오(Savingio)",
-          "h1": "학자금대출 상환 방법과 부담 줄이는 순서",
-          "char_count": 5217
+          "path": "articles/income-tax-filing-missed-consequences.html",
+          "title": "종합소득세 신고 안 하면 생기는 불이익과 기한후신고 방법 | 세이빙이오(Savingio)",
+          "h1": "종합소득세 신고 안 하면 생기는 불이익과 기한후신고 방법",
+          "char_count": 8342
         },
         {
-          "path": "articles/youth-housing-benefit-separate-payment.html",
-          "title": "청년 주거급여 분리지급 확인 방법 | 세이빙이오(Savingio)",
-          "h1": "청년 주거급여 분리지급 확인 방법",
-          "char_count": 5393
+          "path": "articles/national-tax-refund-account.html",
+          "title": "국세환급금 지급계좌 등록 방법 | 세이빙이오(Savingio)",
+          "h1": "국세환급금 지급계좌 등록 방법",
+          "char_count": 4953
         },
         {
-          "path": "articles/youth-leap-account-contribution.html",
-          "title": "청년도약계좌 정부기여금 확인법 | 세이빙이오(Savingio)",
-          "h1": "청년도약계좌 정부기여금 확인법",
-          "char_count": 4842
+          "path": "articles/national-tax-refund.html",
+          "title": "국세 환급금 조회 방법 | 세이빙이오(Savingio)",
+          "h1": "국세 환급금 조회 방법",
+          "char_count": 5499
         },
         {
-          "path": "articles/youth-savings-account-maintenance.html",
-          "title": "청년내일저축계좌 유지 조건 | 세이빙이오(Savingio)",
-          "h1": "청년내일저축계좌 유지 조건",
-          "char_count": 4821
-        },
-        {
-          "path": "articles/youth-support-programs.html",
-          "title": "청년 지원금 종류 한눈에 보기, 신청 전 확인할 기준 | 세이빙이오(Savingio)",
-          "h1": "청년 지원금 종류 한눈에 보기, 신청 전 확인할 기준",
-          "char_count": 5016
+          "path": "articles/self-employed-income-tax-refund-check.html",
+          "title": "종합소득세 신고 대상 확인 방법 | 세이빙이오(Savingio)",
+          "h1": "종합소득세 신고 대상 확인 방법",
+          "char_count": 6603
         }
       ],
       "relationships": [],
@@ -1039,7 +793,7 @@
       ]
     },
     {
-      "group_id": "G017",
+      "group_id": "G013",
       "topic": "근로장려금",
       "size": 5,
       "articles": [
@@ -1084,7 +838,7 @@
       ]
     },
     {
-      "group_id": "G018",
+      "group_id": "G014",
       "topic": "기타 독립 주제",
       "size": 5,
       "articles": [
@@ -1129,39 +883,39 @@
       ]
     },
     {
-      "group_id": "G019",
-      "topic": "보험 점검",
+      "group_id": "G015",
+      "topic": "신용점수·부채",
       "size": 5,
       "articles": [
         {
-          "path": "articles/daily-liability-leak-insurance.html",
-          "title": "일배책 누수 보험 처리, 아랫집 피해 접수부터 합의까지 | Savingio",
-          "h1": "일배책 누수 보험 처리, 아랫집 피해 접수부터 합의까지",
-          "char_count": 8632
+          "path": "articles/cash-advance-vs-card-loan.html",
+          "title": "현금서비스와 카드론 차이, 급하게 돈이 필요할 때 먼저 확인할 것 | Savingio",
+          "h1": "현금서비스와 카드론 차이, 급하게 돈이 필요할 때 먼저 확인할 것",
+          "char_count": 6447
         },
         {
-          "path": "articles/duplicate-indemnity-insurance-check.html",
-          "title": "실손보험 중복가입 확인부터 개인·단체실손 정리까지 최종 가이드 | Savingio",
-          "h1": "실손보험 중복가입 확인부터 개인·단체실손 정리까지 최종 가이드",
-          "char_count": 5605
+          "path": "articles/credit-score-habits.html",
+          "title": "신용점수를 지키는 생활 습관, 연체 없이 관리하는 현실적인 방법 | Savingio",
+          "h1": "신용점수를 지키는 생활 습관, 연체 없이 관리하는 현실적인 방법",
+          "char_count": 5674
         },
         {
-          "path": "articles/insurance-auto-pay-discount.html",
-          "title": "보험료 자동이체 할인, 바꾸기 전에 실제 납부액부터 비교하세요 | Savingio",
-          "h1": "보험료 자동이체 할인, 바꾸기 전에 실제 납부액부터 비교하세요",
-          "char_count": 6189
+          "path": "articles/loan-prepayment-fee-check.html",
+          "title": "대출 중도상환수수료 확인법, 지금 갚는 게 이득인지 계산하는 순서 | 세이빙이오(Savingio)",
+          "h1": "대출 중도상환수수료 확인법, 지금 갚는 게 이득인지 계산하는 순서",
+          "char_count": 5968
         },
         {
-          "path": "articles/insurance-surrender-value-check.html",
-          "title": "보험 해지환급금 조회부터 해지 결정까지, 손실·대출·보장 공백 최종 점검 | Savingio",
-          "h1": "보험 해지환급금 조회부터 해지 결정까지, 손실·대출·보장 공백 최종 점검",
-          "char_count": 6407
+          "path": "articles/loan-refinancing-check.html",
+          "title": "대출 갈아타기 전 확인할 것, 금리보다 중요한 총비용 계산법 | 세이빙이오(Savingio)",
+          "h1": "대출 갈아타기 전 확인할 것, 금리보다 중요한 총비용 계산법",
+          "char_count": 5853
         },
         {
-          "path": "articles/travel-insurance-comparison.html",
-          "title": "여행자보험 가입 전 비교 항목 | 세이빙이오(Savingio)",
-          "h1": "여행자보험 가입 전 비교 항목",
-          "char_count": 4768
+          "path": "articles/overdraft-account-guide.html",
+          "title": "마이너스통장 사용 시 주의사항 | 세이빙이오(Savingio)",
+          "h1": "마이너스통장 사용 시 주의사항",
+          "char_count": 5005
         }
       ],
       "relationships": [],
@@ -1174,7 +928,52 @@
       ]
     },
     {
-      "group_id": "G020",
+      "group_id": "G016",
+      "topic": "은행·예금",
+      "size": 5,
+      "articles": [
+        {
+          "path": "articles/bank-fee-saving.html",
+          "title": "은행 수수료 아끼는 방법, 이체·ATM·환전 비용을 줄이는 확인 순서 | Savingio",
+          "h1": "은행 수수료 아끼는 방법, 이체·ATM·환전 비용을 줄이는 확인 순서",
+          "char_count": 5118
+        },
+        {
+          "path": "articles/cma-account-types-risk.html",
+          "title": "CMA 통장 종류와 원금손실 가능성 | Savingio",
+          "h1": "CMA 통장 종류와 원금손실 가능성",
+          "char_count": 7542
+        },
+        {
+          "path": "articles/deposit-protection-limit-guide.html",
+          "title": "예금자보호제도 총정리 | Savingio",
+          "h1": "예금자보호제도 총정리",
+          "char_count": 7356
+        },
+        {
+          "path": "articles/dormant-deposit-insurance-search.html",
+          "title": "휴면예금과 휴면보험금 찾는 방법 | Savingio",
+          "h1": "휴면예금과 휴면보험금 찾는 방법",
+          "char_count": 8078
+        },
+        {
+          "path": "articles/parking-account-rate-comparison.html",
+          "title": "파킹통장 금리 비교할 때 볼 항목 | Savingio",
+          "h1": "파킹통장 금리 비교할 때 볼 항목",
+          "char_count": 7333
+        }
+      ],
+      "relationships": [],
+      "decision_status": "pending_group_review",
+      "decision_options": [
+        "대표글 통합",
+        "검색의도 분리 유지",
+        "내용 흡수 후 삭제",
+        "완전 중복 삭제"
+      ]
+    },
+    {
+      "group_id": "G017",
       "topic": "저소득·복지",
       "size": 5,
       "articles": [
@@ -1219,7 +1018,7 @@
       ]
     },
     {
-      "group_id": "G021",
+      "group_id": "G018",
       "topic": "카드·포인트·캐시백",
       "size": 5,
       "articles": [
@@ -1264,7 +1063,85 @@
       ]
     },
     {
-      "group_id": "G022",
+      "group_id": "G019",
+      "topic": "가스·수도·관리비",
+      "size": 4,
+      "articles": [
+        {
+          "path": "articles/apartment-management-fee-summer.html",
+          "title": "아파트 관리비가 갑자기 많이 나왔을 때 확인할 항목과 줄이는 방법 | Savingio",
+          "h1": "아파트 관리비가 갑자기 많이 나왔을 때 확인할 항목과 줄이는 방법",
+          "char_count": 5983
+        },
+        {
+          "path": "articles/gas-bill-checklist.html",
+          "title": "도시가스 요금 절약과 고지서 점검 방법 | 세이빙이오(Savingio)",
+          "h1": "도시가스 요금 절약과 고지서 점검 방법",
+          "char_count": 4624
+        },
+        {
+          "path": "articles/heating-bill-saving.html",
+          "title": "난방비 절약 방법 12가지, 보일러 설정부터 창문 단열까지 | Savingio",
+          "h1": "난방비 절약 방법 12가지, 보일러 설정부터 창문 단열까지",
+          "char_count": 4481
+        },
+        {
+          "path": "articles/water-bill-saving.html",
+          "title": "수도요금 절약 방법, 누수 확인부터 사용량 줄이기까지 | 세이빙이오(Savingio)",
+          "h1": "수도요금 절약 방법, 누수 확인부터 사용량 줄이기까지",
+          "char_count": 5456
+        }
+      ],
+      "relationships": [],
+      "decision_status": "pending_group_review",
+      "decision_options": [
+        "대표글 통합",
+        "검색의도 분리 유지",
+        "내용 흡수 후 삭제",
+        "완전 중복 삭제"
+      ]
+    },
+    {
+      "group_id": "G020",
+      "topic": "보험 점검",
+      "size": 4,
+      "articles": [
+        {
+          "path": "articles/daily-liability-leak-insurance.html",
+          "title": "일배책 누수 보험 처리, 아랫집 피해 접수부터 합의까지 | Savingio",
+          "h1": "일배책 누수 보험 처리, 아랫집 피해 접수부터 합의까지",
+          "char_count": 8632
+        },
+        {
+          "path": "articles/duplicate-indemnity-insurance-check.html",
+          "title": "실손보험 중복가입 확인부터 개인·단체실손 정리까지 최종 가이드 | Savingio",
+          "h1": "실손보험 중복가입 확인부터 개인·단체실손 정리까지 최종 가이드",
+          "char_count": 5605
+        },
+        {
+          "path": "articles/insurance-auto-pay-discount.html",
+          "title": "보험료 자동이체 할인, 바꾸기 전에 실제 납부액부터 비교하세요 | Savingio",
+          "h1": "보험료 자동이체 할인, 바꾸기 전에 실제 납부액부터 비교하세요",
+          "char_count": 6189
+        },
+        {
+          "path": "articles/insurance-surrender-value-check.html",
+          "title": "보험 해지환급금 조회부터 해지 결정까지, 손실·대출·보장 공백 최종 점검 | Savingio",
+          "h1": "보험 해지환급금 조회부터 해지 결정까지, 손실·대출·보장 공백 최종 점검",
+          "char_count": 6407
+        }
+      ],
+      "relationships": [],
+      "decision_status": "pending_group_review",
+      "decision_options": [
+        "대표글 통합",
+        "검색의도 분리 유지",
+        "내용 흡수 후 삭제",
+        "완전 중복 삭제"
+      ]
+    },
+    {
+      "group_id": "G021",
       "topic": "자동차보험",
       "size": 4,
       "articles": [
@@ -1303,46 +1180,7 @@
       ]
     },
     {
-      "group_id": "G023",
-      "topic": "통신비·구독",
-      "size": 4,
-      "articles": [
-        {
-          "path": "articles/cancel-unused-subscriptions.html",
-          "title": "안 쓰는 구독서비스 해지하는 방법, 무료체험부터 자동결제까지 | Savingio",
-          "h1": "안 쓰는 구독서비스 해지하는 방법, 무료체험부터 자동결제까지",
-          "char_count": 6958
-        },
-        {
-          "path": "articles/internet-bill-discount.html",
-          "title": "인터넷 요금 할인받는 방법, 약정·결합·재약정 점검 순서 | 세이빙이오(Savingio)",
-          "h1": "인터넷 요금 할인받는 방법, 약정·결합·재약정 점검 순서",
-          "char_count": 9047
-        },
-        {
-          "path": "articles/telecom-discount-guide.html",
-          "title": "통신비 할인 총정리 | 세이빙이오(Savingio)",
-          "h1": "통신비 할인 총정리",
-          "char_count": 4808
-        },
-        {
-          "path": "articles/telecom-unclaimed-refund.html",
-          "title": "통신비 미환급금 조회 방법 | 세이빙이오(Savingio)",
-          "h1": "통신비 미환급금 조회 방법",
-          "char_count": 5418
-        }
-      ],
-      "relationships": [],
-      "decision_status": "pending_group_review",
-      "decision_options": [
-        "대표글 통합",
-        "검색의도 분리 유지",
-        "내용 흡수 후 삭제",
-        "완전 중복 삭제"
-      ]
-    },
-    {
-      "group_id": "G024",
+      "group_id": "G022",
       "topic": "건강보험·의료비 환급",
       "size": 3,
       "articles": [
@@ -1363,6 +1201,72 @@
           "title": "병원비가 너무 많이 나왔을 때 확인·정정·환불 요청 방법 | 세이빙이오(Savingio)",
           "h1": "병원비가 너무 많이 나왔을 때 확인·정정·환불 요청 방법",
           "char_count": 9613
+        }
+      ],
+      "relationships": [],
+      "decision_status": "pending_group_review",
+      "decision_options": [
+        "대표글 통합",
+        "검색의도 분리 유지",
+        "내용 흡수 후 삭제",
+        "완전 중복 삭제"
+      ]
+    },
+    {
+      "group_id": "G023",
+      "topic": "청년 지원",
+      "size": 3,
+      "articles": [
+        {
+          "path": "articles/national-scholarship-application.html",
+          "title": "국가장학금 신청 방법과 확인사항 | 세이빙이오(Savingio)",
+          "h1": "국가장학금 신청 방법과 확인사항",
+          "char_count": 5465
+        },
+        {
+          "path": "articles/student-loan-repayment-guide.html",
+          "title": "학자금대출 상환 방법과 부담 줄이는 순서 | 세이빙이오(Savingio)",
+          "h1": "학자금대출 상환 방법과 부담 줄이는 순서",
+          "char_count": 5217
+        },
+        {
+          "path": "articles/youth-housing-benefit-separate-payment.html",
+          "title": "청년 주거급여 분리지급 확인 방법 | 세이빙이오(Savingio)",
+          "h1": "청년 주거급여 분리지급 확인 방법",
+          "char_count": 5367
+        }
+      ],
+      "relationships": [],
+      "decision_status": "pending_group_review",
+      "decision_options": [
+        "대표글 통합",
+        "검색의도 분리 유지",
+        "내용 흡수 후 삭제",
+        "완전 중복 삭제"
+      ]
+    },
+    {
+      "group_id": "G024",
+      "topic": "통신비·구독",
+      "size": 3,
+      "articles": [
+        {
+          "path": "articles/cancel-unused-subscriptions.html",
+          "title": "안 쓰는 구독서비스 해지하는 방법, 무료체험부터 자동결제까지 | Savingio",
+          "h1": "안 쓰는 구독서비스 해지하는 방법, 무료체험부터 자동결제까지",
+          "char_count": 6958
+        },
+        {
+          "path": "articles/internet-bill-discount.html",
+          "title": "인터넷 요금 할인받는 방법, 약정·결합·재약정 점검 순서 | 세이빙이오(Savingio)",
+          "h1": "인터넷 요금 할인받는 방법, 약정·결합·재약정 점검 순서",
+          "char_count": 9047
+        },
+        {
+          "path": "articles/telecom-unclaimed-refund.html",
+          "title": "통신비 미환급금 조회 방법 | 세이빙이오(Savingio)",
+          "h1": "통신비 미환급금 조회 방법",
+          "char_count": 5418
         }
       ],
       "relationships": [],
