@@ -3830,26 +3830,26 @@
       "path": "articles/small-business-electricity-support.html",
       "url": "https://savingio.com/articles/small-business-electricity-support.html",
       "title": "소상공인 전기요금 지원 확인법 | 2026년 공고·대상·서류·신청 순서 | Savingio",
-      "meta_description": "소상공인 전기요금 지원을 찾을 때 2024년 한시 특별지원과 2026년 현재 공고를 구분하고, 대상 여부·직접계약자와 비계약사용자·준비서류·신청 순서·사기 예방법까지 한 페이지에서 확인합니다.",
+      "meta_description": "소상공인 전기요금 지원을 찾을 때 과거 한시사업과 현재 공고를 구분하고, 대상 여부·계약 형태·준비서류·신청 순서·사기 예방법까지 확인하는 방법을 정리했습니다.",
       "canonical": "https://savingio.com/articles/small-business-electricity-support.html",
       "h1": [
         "소상공인 전기요금 지원 확인법"
       ],
       "h2_count": 14,
-      "h3_count": 4,
-      "korean_chars": 4343,
-      "words": 1424,
-      "internal_article_links": 16,
+      "h3_count": 3,
+      "korean_chars": 2921,
+      "words": 962,
+      "internal_article_links": 9,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": false,
+      "breadcrumb_schema": false,
+      "faq_schema": true,
       "issues": [],
       "warnings": [
-        "FAQ_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:4343"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:2921"
       ],
       "score": 92,
       "status": "PASS"
