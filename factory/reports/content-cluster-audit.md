@@ -188,7 +188,7 @@
 
 ## G012 · 국세·환급 · 6개
 
-- `articles/hometax-refund-status.html` — 홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요 (3,814자)
+- `articles/hometax-refund-status.html` — 홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요 (4,772자)
 - `articles/income-tax-filing-missed-consequences.html` — 종합소득세 신고 안 하면 생기는 불이익과 기한후신고 방법 (8,342자)
 - `articles/national-tax-refund-account.html` — 국세환급금 지급계좌 등록 방법 (4,953자)
 - `articles/national-tax-refund.html` — 국세 환급금 조회 방법 (5,499자)
