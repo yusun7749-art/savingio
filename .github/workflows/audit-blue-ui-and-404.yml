@@ -1,11 +1,17 @@
-name: Audit blue UI and missing article links
+name: Full AdSense structure audit
 on:
   push:
     branches: [main]
     paths:
       - 'articles/**'
+      - 'topics/**'
+      - 'calculators/**'
+      - 'categories/**'
       - 'data/**'
       - 'js/**'
+      - 'css/**'
+      - 'index.html'
+      - 'search.html'
       - 'factory/audit_blue_ui_and_missing_pages.py'
       - '.github/workflows/audit-blue-ui-and-404.yml'
   workflow_dispatch:
@@ -19,16 +25,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Run audit
+      - name: Run full audit
         run: python factory/audit_blue_ui_and_missing_pages.py
       - name: Commit reports
         run: |
-          if git diff --quiet -- factory/QA/BLUE_UI_AND_404_AUDIT.json factory/QA/BLUE_UI_AND_404_AUDIT.md; then
+          if git diff --quiet -- factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.md; then
             echo 'No report changes'
             exit 0
           fi
           git config user.name 'savingio-audit-bot'
           git config user.email 'savingio-audit-bot@users.noreply.github.com'
-          git add factory/QA/BLUE_UI_AND_404_AUDIT.json factory/QA/BLUE_UI_AND_404_AUDIT.md
-          git commit -m 'Audit blue UI templates and missing article links [skip ci]'
+          git add factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.md
+          git commit -m 'Audit all Savingio pages for AdSense structure [skip ci]'
           git push
