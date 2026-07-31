@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3320,
-  "references_scanned": 61598,
+  "references_scanned": 61580,
   "counts": {
-    "broken_references": 3039,
+    "broken_references": 3041,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 7,
@@ -1654,13 +1654,6 @@
       ]
     },
     {
-      "source": "articles/salary-slip-check-guide.html",
-      "reference": "/articles/salary-management-guide.html",
-      "expected": [
-        "articles/salary-management-guide.html"
-      ]
-    },
-    {
       "source": "articles/salary-take-home-easy-calculator-guide.html",
       "reference": "/articles/salary-management-guide.html",
       "expected": [
@@ -1763,6 +1756,27 @@
       "reference": "/articles/government-support-scam-warning-2026.html",
       "expected": [
         "articles/government-support-scam-warning-2026.html"
+      ]
+    },
+    {
+      "source": "articles/student-loan-repayment-guide.html",
+      "reference": "/articles/credit-score-recovery.html",
+      "expected": [
+        "articles/credit-score-recovery.html"
+      ]
+    },
+    {
+      "source": "articles/student-loan-repayment-guide.html",
+      "reference": "/articles/debt-repayment-strategy.html",
+      "expected": [
+        "articles/debt-repayment-strategy.html"
+      ]
+    },
+    {
+      "source": "articles/student-loan-repayment-guide.html",
+      "reference": "/articles/monthly-budget-plan.html",
+      "expected": [
+        "articles/monthly-budget-plan.html"
       ]
     },
     {
