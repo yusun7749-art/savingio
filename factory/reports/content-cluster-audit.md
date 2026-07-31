@@ -327,7 +327,7 @@
 - `articles/cancel-unused-subscriptions.html` — 안 쓰는 구독서비스 해지하는 방법, 무료체험부터 자동결제까지 (6,958자)
 - `articles/internet-bill-discount.html` — 인터넷 요금 할인받는 방법, 약정·결합·재약정 점검 순서 (9,047자)
 - `articles/telecom-discount-guide.html` — 통신비 할인 총정리 (4,808자)
-- `articles/telecom-unclaimed-refund.html` — 통신비 미환급금 조회 방법 (3,573자)
+- `articles/telecom-unclaimed-refund.html` — 통신비 미환급금 조회 방법 (5,418자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
 
