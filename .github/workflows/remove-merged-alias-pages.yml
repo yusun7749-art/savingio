@@ -21,16 +21,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Delete merged alias HTML and stale references
+      - name: Delete merged, broken and unfinished legacy pages
         run: python factory/remove_merged_alias_pages.py
-      - name: Commit verified removals
+      - name: Commit verified removals and stale navigation cleanup
         run: |
           if git diff --quiet; then
-            echo "No merged alias pages found"
+            echo "No merged, broken or legacy pages found"
             exit 0
           fi
           git config user.name "savingio-audit-bot"
           git config user.email "savingio-audit-bot@users.noreply.github.com"
-          git add articles data js categories factory/QA
-          git commit -m "Delete merged alias article pages and stale references [skip ci]"
+          git add -A
+          git commit -m "Delete merged and unfinished article pages; clean Explorer refs [skip ci]"
           git push
