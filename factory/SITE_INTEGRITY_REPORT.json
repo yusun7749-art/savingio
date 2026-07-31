@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3319,
-  "references_scanned": 61582,
+  "references_scanned": 61591,
   "counts": {
-    "broken_references": 3039,
+    "broken_references": 3040,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 7,
@@ -1497,6 +1497,13 @@
       "reference": "/articles/health-insurance-overpayment-refund.html",
       "expected": [
         "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "articles/impulse-buying-control.html",
+      "reference": "/categories/living-budget.html",
+      "expected": [
+        "categories/living-budget.html"
       ]
     },
     {
