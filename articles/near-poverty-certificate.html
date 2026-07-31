@@ -48,4 +48,4 @@
 <footer><div class="footer-inner">© Savingio · <a href="/about.html">소개</a> · <a href="/editorial-policy.html">운영 원칙</a> · <a href="/privacy.html">개인정보처리방침</a> · <a href="/contact.html">문의</a></div></footer>
 <script src="/js/savingio-brain-data.js?v=12"></script><script src="/js/savingio-brain-navigation.js?v=12"></script>
 <script>document.addEventListener('DOMContentLoaded',()=>{const result=document.getElementById('finder-result');const checks=[...document.querySelectorAll('.situation-grid input[type="checkbox"]')];const update=()=>{const selected=checks.filter(x=>x.checked).map(x=>x.dataset.message);result.innerHTML=selected.length?selected.map((text,i)=>`${i+1}. ${text}`).join('<br>'):'항목을 선택하면 먼저 해야 할 행동이 여기에 표시됩니다.'};checks.forEach(x=>x.addEventListener('change',update))});</script>
-</body></html>
+<script src="/data/savingio-brain-data.js?v=20260801-full-repair"></script></body></html>
