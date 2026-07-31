@@ -1,12 +1,12 @@
 {
   "summary": {
     "article_count": 171,
-    "pass": 150,
-    "warning": 21,
+    "pass": 151,
+    "warning": 20,
     "fail": 0,
     "average_score": 91.1,
-    "thin_under_2500_ko": 3,
-    "short_under_4500_ko": 113,
+    "thin_under_2500_ko": 2,
+    "short_under_4500_ko": 112,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -3757,28 +3757,28 @@
       "path": "articles/severance-pay-calculation-guide.html",
       "url": "https://savingio.com/articles/severance-pay-calculation-guide.html",
       "title": "퇴직금 계산 방법, 평균임금과 재직기간을 확인하는 순서 | 세이빙이오(Savingio)",
-      "meta_description": "퇴직금 대상 여부, 계속근로기간, 평균임금, 상여금과 수당 반영 여부를 확인하는 방법입니다.",
+      "meta_description": "퇴직금 계산 공식, 평균임금과 통상임금 차이, 계속근로기간, 상여금·연차수당 반영, 중간정산과 지급기한을 실제 확인 순서대로 정리했습니다.",
       "canonical": "https://savingio.com/articles/severance-pay-calculation-guide.html",
       "h1": [
         "퇴직금 계산 방법, 평균임금과 재직기간을 확인하는 순서"
       ],
-      "h2_count": 14,
-      "h3_count": 0,
-      "korean_chars": 2464,
-      "words": 808,
-      "internal_article_links": 7,
+      "h2_count": 20,
+      "h3_count": 6,
+      "korean_chars": 5505,
+      "words": 1727,
+      "internal_article_links": 11,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "THIN_CONTENT_KO:2464"
+      "issues": [],
+      "warnings": [
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
-      "warnings": [],
-      "score": 88,
-      "status": "WARNING"
+      "score": 96,
+      "status": "PASS"
     },
     {
       "path": "articles/severance-pay-easy-calculator-guide.html",
