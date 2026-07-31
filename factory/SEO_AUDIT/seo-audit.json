@@ -1,11 +1,11 @@
 {
   "summary": {
     "article_count": 171,
-    "pass": 151,
-    "warning": 20,
+    "pass": 152,
+    "warning": 19,
     "fail": 0,
     "average_score": 91.1,
-    "thin_under_2500_ko": 2,
+    "thin_under_2500_ko": 1,
     "short_under_4500_ko": 112,
     "missing_meta": 0,
     "missing_canonical": 0,
@@ -4264,28 +4264,29 @@
       "path": "articles/telecom-unclaimed-refund.html",
       "url": "https://savingio.com/articles/telecom-unclaimed-refund.html",
       "title": "통신비 미환급금 조회 방법 | 세이빙이오(Savingio)",
-      "meta_description": "휴대전화와 유선통신 해지·번호이동 뒤 남은 미환급액을 안전하게 조회하고 돌려받는 방법입니다.",
+      "meta_description": "휴대전화·인터넷·유선전화 해지나 번호이동 뒤 남은 통신 미환급액을 스마트초이스와 통신사에서 조회하고 환급받는 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/telecom-unclaimed-refund.html",
       "h1": [
         "통신비 미환급금 조회 방법"
       ],
-      "h2_count": 12,
-      "h3_count": 0,
-      "korean_chars": 2463,
-      "words": 860,
-      "internal_article_links": 17,
+      "h2_count": 19,
+      "h3_count": 4,
+      "korean_chars": 3853,
+      "words": 1255,
+      "internal_article_links": 12,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
-      "issues": [
-        "THIN_CONTENT_KO:2463"
+      "issues": [],
+      "warnings": [
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3853"
       ],
-      "warnings": [],
-      "score": 88,
-      "status": "WARNING"
+      "score": 92,
+      "status": "PASS"
     },
     {
       "path": "articles/traffic-fines-difference-guide.html",

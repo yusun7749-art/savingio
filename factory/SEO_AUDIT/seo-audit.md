@@ -1,11 +1,11 @@
 # Savingio Full SEO Audit
 
 - Articles: 171
-- PASS: 151
-- WARNING: 20
+- PASS: 152
+- WARNING: 19
 - FAIL: 0
 - Average score: 91.1
-- Thin content (<2500 Korean chars): 2
+- Thin content (<2500 Korean chars): 1
 - Short content (<4500 Korean chars): 112
 - Missing meta: 0
 - Missing canonical: 0
@@ -68,7 +68,6 @@
 | 88 | PASS | `articles/property-tax-july-september-difference.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3559 |
 | 88 | PASS | `articles/property-tax-objection-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4066 |
 | 88 | PASS | `articles/property-tax-payment-certificate.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3736 |
-| 88 | WARNING | `articles/telecom-unclaimed-refund.html` | THIN_CONTENT_KO:2463 |
 | 88 | PASS | `articles/traffic-fines-difference-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4212 |
 | 92 | PASS | `articles/ai-side-hustles-beginner.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/aircon-dry-mode-electricity.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3321 |
@@ -100,3 +99,4 @@
 | 92 | PASS | `articles/electricity-discount-card-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4199 |
 | 92 | PASS | `articles/elementary-school-education-support.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/first-meeting-voucher-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4360 |
+| 92 | PASS | `articles/fixed-speed-aircon-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3368 |
