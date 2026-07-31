@@ -1,6 +1,6 @@
 (function(){
 'use strict';
-const VERSION='20260729-home-restore2';
+const VERSION='20260731-search-route-fix1';
 const ITEMS=[
  {label:'홈',href:'/'},{label:'생활정보',href:'/articles/'},{label:'계산기',href:'/calculators/'},
  {label:'사이트 탐색',href:'/categories/'},{label:'About',href:'/about.html'}
@@ -11,6 +11,7 @@ function addCss(href,key){if(document.querySelector(`link[data-${key}]`))return;
 function addScript(src,key){return new Promise(resolve=>{if(document.querySelector(`script[data-${key}]`)){resolve();return}const s=document.createElement('script');s.src=src;s.dataset[key]='true';s.onload=resolve;s.onerror=resolve;document.body.appendChild(s)})}
 function current(href){if(href==='/')return path==='/';return path.startsWith(href.replace(/index\.html$/,'').replace(/\.html$/,''))}
 function markup(cls){return `<nav class="${cls}" aria-label="Savingio 주요 메뉴">${ITEMS.map(i=>`<a href="${esc(i.href)}"${current(i.href)?' aria-current="page"':''}>${esc(i.label)}</a>`).join('')}</nav>`}
+function openDirectory(value){const q=String(value||'').trim();if(!q)return false;window.location.href='/articles/?q='+encodeURIComponent(q);return true;}
 function fireSearch(input){
  const value=input.value.trim();
  input.value=value;
@@ -25,7 +26,9 @@ function installSearchBridge(){
   const input=form.querySelector('input[type="search"]');
   if(!input)return;
   input.name='q';
-  form.addEventListener('submit',event=>{input.value=input.value.trim();if(!input.value){event.preventDefault();input.focus();}});
+  if(form.dataset.routeFixed)return;
+  form.dataset.routeFixed='1';
+  form.addEventListener('submit',event=>{event.preventDefault();const value=input.value.trim();input.value=value;if(!value){input.focus();return}openDirectory(value);});
  });
  const input=document.getElementById('articleSearch');
  if(!input)return;
