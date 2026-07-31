@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3320,
-  "references_scanned": 61589,
+  "files_scanned": 3321,
+  "references_scanned": 61591,
   "counts": {
-    "broken_references": 3046,
+    "broken_references": 3048,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 7,
@@ -21374,6 +21374,20 @@
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
+      ]
+    },
+    {
+      "source": "js/savingio-directory-search-v2.js",
+      "reference": "${esc(r.href)}",
+      "expected": [
+        "js/${esc(r.href)}"
+      ]
+    },
+    {
+      "source": "js/savingio-directory-search-v2.js",
+      "reference": "location.href",
+      "expected": [
+        "js/location.href"
       ]
     },
     {
