@@ -21,16 +21,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Inject Explorer scripts into missing article pages
+      - name: Inject all missing Explorer assets
         run: python factory/repair_missing_explorer.py
-      - name: Commit repaired pages
+      - name: Commit repaired pages and report
         run: |
-          if git diff --quiet; then
-            echo "No missing Explorer pages"
-            exit 0
-          fi
           git config user.name "savingio-audit-bot"
           git config user.email "savingio-audit-bot@users.noreply.github.com"
           git add articles factory/QA/MISSING_EXPLORER_REPAIR.txt
-          git commit -m "Repair article pages missing Explorer [skip ci]"
+          if git diff --cached --quiet; then
+            echo "No missing Explorer assets"
+            exit 0
+          fi
+          git commit -m "Repair all missing Explorer assets [skip ci]"
           git push
+# full-repair-trigger: 2026-08-01
