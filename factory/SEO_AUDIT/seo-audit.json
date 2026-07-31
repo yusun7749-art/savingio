@@ -4,7 +4,7 @@
     "pass": 153,
     "warning": 18,
     "fail": 0,
-    "average_score": 91.2,
+    "average_score": 91.1,
     "thin_under_2500_ko": 0,
     "short_under_4500_ko": 110,
     "missing_meta": 0,
@@ -2097,28 +2097,29 @@
       "path": "articles/government-support-calendar.html",
       "url": "https://savingio.com/articles/government-support-calendar.html",
       "title": "정부지원금 신청 일정 관리 방법, 마감일·갱신일 놓치지 않는 달력 만들기 | Savingio",
-      "meta_description": "정부지원금 신청일, 서류 준비일, 갱신일, 지급 확인일을 Google Calendar와 휴대폰 캘린더로 관리하는 방법을 정리했습니다.",
+      "meta_description": "정부지원금 신청 시작일, 서류 준비일, 제출 목표일, 보완일, 갱신일, 지급 확인일을 달력으로 관리하는 실전 방법을 정리했습니다.",
       "canonical": "https://savingio.com/articles/government-support-calendar.html",
       "h1": [
         "정부지원금 신청 일정 관리 방법, 마감일·갱신일 놓치지 않는 달력 만들기"
       ],
-      "h2_count": 16,
-      "h3_count": 3,
-      "korean_chars": 2790,
-      "words": 1017,
-      "internal_article_links": 8,
+      "h2_count": 17,
+      "h3_count": 4,
+      "korean_chars": 2772,
+      "words": 1018,
+      "internal_article_links": 11,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 2,
+      "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": true,
+      "faq_schema": false,
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:2790"
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:2772"
       ],
-      "score": 92,
+      "score": 88,
       "status": "PASS"
     },
     {
@@ -3618,28 +3619,30 @@
     {
       "path": "articles/salary-slip-check-guide.html",
       "url": "https://savingio.com/articles/salary-slip-check-guide.html",
-      "title": "급여명세서 확인 방법, 월급에서 빠진 돈을 항목별로 보는 순서 | 세이빙이오(Savingio)",
-      "meta_description": "기본급·수당·비과세 항목·4대보험·소득세를 나눠 급여명세서와 실제 입금액을 확인하는 방법입니다.",
+      "title": "급여명세서 확인 방법, 월급에서 빠진 돈을 항목별로 보는 순서 | Savingio",
+      "meta_description": "급여명세서의 기본급, 수당, 연장·야간·휴일근로, 4대보험, 소득세와 기타 공제를 확인하고 오류가 있을 때 대응하는 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/salary-slip-check-guide.html",
       "h1": [
         "급여명세서 확인 방법, 월급에서 빠진 돈을 항목별로 보는 순서"
       ],
-      "h2_count": 14,
-      "h3_count": 0,
-      "korean_chars": 2835,
-      "words": 939,
+      "h2_count": 18,
+      "h3_count": 5,
+      "korean_chars": 3362,
+      "words": 1038,
       "internal_article_links": 8,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 1,
       "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
+      "breadcrumb_schema": false,
+      "faq_schema": false,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:2835"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3362"
       ],
-      "score": 96,
+      "score": 88,
       "status": "PASS"
     },
     {
