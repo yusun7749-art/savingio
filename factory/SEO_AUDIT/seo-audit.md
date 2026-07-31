@@ -4,9 +4,9 @@
 - PASS: 153
 - WARNING: 18
 - FAIL: 0
-- Average score: 91.1
+- Average score: 91.2
 - Thin content (<2500 Korean chars): 0
-- Short content (<4500 Korean chars): 110
+- Short content (<4500 Korean chars): 109
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
@@ -54,7 +54,7 @@
 | 88 | PASS | `articles/emergency-fund-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4275 |
 | 88 | PASS | `articles/fixed-date-online-application.html` | BREADCRUMB_SCHEMA_MISSING, INTERNAL_ARTICLE_LINKS_LOW:2, CONTENT_SHORT_KO:4019 |
 | 88 | PASS | `articles/general-vat-common-mistakes.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3542 |
-| 88 | PASS | `articles/government-benefits-warning.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3885 |
+| 88 | PASS | `articles/government-benefits-warning.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4116 |
 | 88 | PASS | `articles/government-support-calendar.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2628 |
 | 88 | PASS | `articles/government24-benefit-check.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3743 |
 | 88 | PASS | `articles/hometax-vat-sales-check.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3286 |
@@ -84,7 +84,6 @@
 | 92 | PASS | `articles/car-aircon-fuel-saving.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/car-tax-annual-payment.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:2938 |
 | 92 | PASS | `articles/car-tax-check-payment-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3227 |
-| 92 | PASS | `articles/card-points-cashback-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3788 |
 | 92 | PASS | `articles/cash-out-card-points.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3920 |
 | 92 | PASS | `articles/child-allowance-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3304 |
 | 92 | PASS | `articles/child-tax-credit-status-check.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4401 |
@@ -100,3 +99,4 @@
 | 92 | PASS | `articles/electricity-bill-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3243 |
 | 92 | PASS | `articles/electricity-discount-card-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4199 |
 | 92 | PASS | `articles/elementary-school-education-support.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
+| 92 | PASS | `articles/first-meeting-voucher-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4360 |
