@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3322,
-  "references_scanned": 61603,
+  "references_scanned": 61605,
   "counts": {
-    "broken_references": 3048,
+    "broken_references": 3047,
     "malformed_redirects": 0,
     "broken_redirect_targets": 1,
     "missing_sitemap_targets": 7,
@@ -21669,13 +21669,6 @@
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
-      ]
-    },
-    {
-      "source": "topics/electricity.html",
-      "reference": "/articles/how-to-save-electricity-bill.html",
-      "expected": [
-        "articles/how-to-save-electricity-bill.html"
       ]
     },
     {
