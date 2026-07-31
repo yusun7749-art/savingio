@@ -1,0 +1,685 @@
+{
+  "summary": {
+    "blue_ui_pages": 8,
+    "card_ui_pages": 9,
+    "dna_problem_pages": 58,
+    "unique_pages_to_review": 59
+  },
+  "queue": [
+    {
+      "path": "articles/regional-development-bond-refund-guide.html",
+      "h1": "자동차 채권 환급금 조회 방법, 지역개발채권 만기상환 확인 순서",
+      "blue_reasons": [
+        "blue-hex",
+        "old-blue-gradient",
+        "blue-brand-var"
+      ],
+      "card_reasons": [
+        "summary-grid",
+        "hero-actions"
+      ],
+      "missing_dna": [
+        "editorial",
+        "summary",
+        "situation",
+        "related"
+      ],
+      "visible_chars": 4342
+    },
+    {
+      "path": "articles/rental-contract-reporting-guide.html",
+      "h1": "전월세 신고제 신고 방법과 준비서류",
+      "blue_reasons": [
+        "blue-hex",
+        "old-blue-gradient",
+        "blue-brand-var"
+      ],
+      "card_reasons": [
+        "summary-grid",
+        "hero-actions"
+      ],
+      "missing_dna": [
+        "editorial",
+        "summary",
+        "situation",
+        "related"
+      ],
+      "visible_chars": 4984
+    },
+    {
+      "path": "articles/self-employed-income-tax-refund-check.html",
+      "h1": "종합소득세 신고 대상 확인 방법",
+      "blue_reasons": [
+        "blue-hex",
+        "old-blue-gradient",
+        "blue-brand-var"
+      ],
+      "card_reasons": [
+        "summary-grid",
+        "related-card",
+        "hero-actions",
+        "info-card",
+        "three-second-summary"
+      ],
+      "missing_dna": [
+        "summary",
+        "situation"
+      ],
+      "visible_chars": 6603
+    },
+    {
+      "path": "articles/senior-job-application-guide.html",
+      "h1": "노인일자리 신청 방법, 모집 시기와 사업 유형을 비교하는 체크리스트",
+      "blue_reasons": [
+        "blue-hex",
+        "old-blue-gradient",
+        "blue-brand-var"
+      ],
+      "card_reasons": [
+        "summary-grid",
+        "hero-actions"
+      ],
+      "missing_dna": [
+        "editorial",
+        "summary",
+        "situation",
+        "related"
+      ],
+      "visible_chars": 4276
+    },
+    {
+      "path": "articles/vehicle-inspection-reservation-guide.html",
+      "h1": "자동차 검사 예약·검사기간 확인 방법, 과태료 전에 준비할 순서",
+      "blue_reasons": [
+        "blue-hex",
+        "old-blue-gradient",
+        "blue-brand-var"
+      ],
+      "card_reasons": [
+        "summary-grid",
+        "hero-actions"
+      ],
+      "missing_dna": [
+        "editorial",
+        "summary",
+        "situation",
+        "related"
+      ],
+      "visible_chars": 5180
+    },
+    {
+      "path": "articles/water-bill-saving.html",
+      "h1": "수도요금 절약 방법, 누수 확인부터 사용량 줄이기까지",
+      "blue_reasons": [
+        "blue-hex",
+        "old-blue-gradient",
+        "blue-brand-var"
+      ],
+      "card_reasons": [
+        "summary-grid",
+        "related-card",
+        "hero-actions",
+        "three-second-summary"
+      ],
+      "missing_dna": [
+        "summary",
+        "related"
+      ],
+      "visible_chars": 5456
+    },
+    {
+      "path": "articles/youth-housing-benefit-separate-payment.html",
+      "h1": "청년 주거급여 분리지급 확인 방법",
+      "blue_reasons": [
+        "blue-hex",
+        "old-blue-gradient",
+        "blue-brand-var"
+      ],
+      "card_reasons": [
+        "summary-grid",
+        "hero-actions"
+      ],
+      "missing_dna": [
+        "editorial",
+        "summary",
+        "situation",
+        "related"
+      ],
+      "visible_chars": 5367
+    },
+    {
+      "path": "articles/small-business-electricity-support.html",
+      "h1": "소상공인 전기요금 지원 확인법",
+      "blue_reasons": [
+        "blue-hex",
+        "old-blue-gradient",
+        "blue-brand-var"
+      ],
+      "card_reasons": [],
+      "missing_dna": [],
+      "visible_chars": 6155
+    },
+    {
+      "path": "articles/salary-take-home-easy-calculator-guide.html",
+      "h1": "세전 월급만 입력해 예상 실수령액 확인하는 방법",
+      "blue_reasons": [],
+      "card_reasons": [
+        "summary-grid",
+        "related-card",
+        "hero-actions"
+      ],
+      "missing_dna": [
+        "editorial",
+        "summary",
+        "related"
+      ],
+      "visible_chars": 4387
+    },
+    {
+      "path": "articles/severance-pay-easy-calculator-guide.html",
+      "h1": "퇴직금, 입사일과 월급만으로 빠르게 확인하는 방법",
+      "blue_reasons": [],
+      "card_reasons": [
+        "summary-grid",
+        "related-card",
+        "hero-actions"
+      ],
+      "missing_dna": [
+        "editorial",
+        "summary",
+        "related"
+      ],
+      "visible_chars": 4702
+    },
+    {
+      "path": "articles/benefit-scam-warning-2026.html",
+      "h1": "지원금 문자 사기 구별 방법, 링크 누르기 전 확인할 7가지",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 9284
+    },
+    {
+      "path": "articles/cash-out-card-points.html",
+      "h1": "카드 포인트 현금화 방법, 흩어진 포인트를 계좌로 받는 순서",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 5555
+    },
+    {
+      "path": "articles/cashback-apps-guide.html",
+      "h1": "캐시백 앱 활용 가이드, 적립 금액보다 먼저 확인할 것",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 7263
+    },
+    {
+      "path": "articles/check-hidden-refunds.html",
+      "h1": "미수령 환급금 조회 방법",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 8394
+    },
+    {
+      "path": "articles/cma-account-types-risk.html",
+      "h1": "CMA 통장 종류와 원금손실 가능성",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 7542
+    },
+    {
+      "path": "articles/credit-card-billing-cycle-guide.html",
+      "h1": "신용카드 결제일별 이용기간 확인법",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 6874
+    },
+    {
+      "path": "articles/credit-score-habits.html",
+      "h1": "신용점수를 지키는 생활 습관, 연체 없이 관리하는 현실적인 방법",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 5674
+    },
+    {
+      "path": "articles/culture-nuri-card-balance.html",
+      "h1": "문화누리카드 잔액 조회와 사용처 확인, 남은 금액까지 쓰는 방법",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 8417
+    },
+    {
+      "path": "articles/daily-liability-leak-insurance.html",
+      "h1": "일배책 누수 보험 처리, 아랫집 피해 접수부터 합의까지",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 8632
+    },
+    {
+      "path": "articles/debit-card-vs-credit-card.html",
+      "h1": "체크카드와 신용카드 비교",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 7296
+    },
+    {
+      "path": "articles/dehumidifier-electricity-saving.html",
+      "h1": "제습기 전기요금 계산과 절약법",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 5557
+    },
+    {
+      "path": "articles/deposit-protection-limit-guide.html",
+      "h1": "예금자보호제도 총정리",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 7356
+    },
+    {
+      "path": "articles/deposit-return-guarantee-checklist.html",
+      "h1": "전세보증금 반환보증 가입 전 체크리스트",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 7759
+    },
+    {
+      "path": "articles/dormant-deposit-insurance-search.html",
+      "h1": "휴면예금과 휴면보험금 찾는 방법",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 8078
+    },
+    {
+      "path": "articles/dryer-summer-electricity-saving.html",
+      "h1": "건조기 여름 전기세 절약 방법",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 6436
+    },
+    {
+      "path": "articles/earned-income-tax-credit-korea.html",
+      "h1": "2026 근로장려금 신청 대상과 지급일, 놓쳤을 때 확인 순서",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 8559
+    },
+    {
+      "path": "articles/education-benefit-eligibility.html",
+      "h1": "교육급여 신청 방법과 수급자격 확인",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 5493
+    },
+    {
+      "path": "articles/education-expense-vs-benefit.html",
+      "h1": "교육비 지원과 교육급여 차이",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 4921
+    },
+    {
+      "path": "articles/electricity-discount-card-guide.html",
+      "h1": "전기요금 할인카드 제대로 고르는 방법",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 6028
+    },
+    {
+      "path": "articles/electronic-tax-invoice-penalty.html",
+      "h1": "전자세금계산서 가산세, 지연발급·미발급·미전송 차이",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 8286
+    },
+    {
+      "path": "articles/emergency-medical-support.html",
+      "h1": "긴급복지 의료지원 신청 방법",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 9379
+    },
+    {
+      "path": "articles/emergency-welfare-living-support.html",
+      "h1": "긴급복지 생계지원 신청 조건",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 8755
+    },
+    {
+      "path": "articles/energy-voucher-2026-application.html",
+      "h1": "2026 에너지바우처 신청 대상과 금액, 사용기간까지 한 번에",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 8095
+    },
+    {
+      "path": "articles/first-meeting-voucher-guide.html",
+      "h1": "첫만남이용권 신청과 사용 방법, 결제 전에 확인할 제한사항",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 6147
+    },
+    {
+      "path": "articles/fixed-date-online-application.html",
+      "h1": "확정일자 온라인 신청 방법",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 5606
+    },
+    {
+      "path": "articles/fixed-speed-aircon-saving.html",
+      "h1": "정속형 에어컨 전기세 절약 방법",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 4789
+    },
+    {
+      "path": "articles/four-major-insurance-deduction-guide.html",
+      "h1": "4대보험 공제액 확인 방법, 월급에서 얼마가 빠지는지 보는 기준",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 4903
+    },
+    {
+      "path": "articles/heating-bill-saving.html",
+      "h1": "난방비 절약 방법 12가지, 보일러 설정부터 창문 단열까지",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 4481
+    },
+    {
+      "path": "articles/housing-benefit-eligibility.html",
+      "h1": "2026 주거급여 신청 자격, 소득인정액과 지원금 확인 방법",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 10512
+    },
+    {
+      "path": "articles/income-tax-filing-missed-consequences.html",
+      "h1": "종합소득세 신고 안 하면 생기는 불이익과 기한후신고 방법",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 8342
+    },
+    {
+      "path": "articles/internet-bill-discount.html",
+      "h1": "인터넷 요금 할인받는 방법, 약정·결합·재약정 점검 순서",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 9047
+    },
+    {
+      "path": "articles/inverter-aircon-saving-guide.html",
+      "h1": "인버터 에어컨 전기세 절약 운전법, 켜고 끄는 기준부터 설정온도까지",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 7581
+    },
+    {
+      "path": "articles/lifelong-education-voucher-application.html",
+      "h1": "2026 평생교육이용권 신청 방법, 대상·사용처·카드 발급까지",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 4281
+    },
+    {
+      "path": "articles/loan-prepayment-fee-check.html",
+      "h1": "대출 중도상환수수료 확인법, 지금 갚는 게 이득인지 계산하는 순서",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 5968
+    },
+    {
+      "path": "articles/loan-refinancing-check.html",
+      "h1": "대출 갈아타기 전 확인할 것, 금리보다 중요한 총비용 계산법",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 5853
+    },
+    {
+      "path": "articles/local-tax-refund-guide.html",
+      "h1": "지방세 환급금 조회와 신청 방법, 위택스에서 놓친 돈 찾는 순서",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 5319
+    },
+    {
+      "path": "articles/long-term-care-insurance-application.html",
+      "h1": "노인장기요양보험 신청 방법, 방문조사부터 등급판정까지",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 6122
+    },
+    {
+      "path": "articles/medical-bill-negotiation.html",
+      "h1": "병원비가 너무 많이 나왔을 때 확인·정정·환불 요청 방법",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 9613
+    },
+    {
+      "path": "articles/missing-property-tax-bill.html",
+      "h1": "재산세 고지서가 안 왔을 때 확인 방법",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 9145
+    },
+    {
+      "path": "articles/monthly-rent-tax-credit-documents.html",
+      "h1": "월세 세액공제 준비서류와 확인 순서",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 7623
+    },
+    {
+      "path": "articles/national-employment-support-eligibility.html",
+      "h1": "국민취업지원제도 신청 자격",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 5724
+    },
+    {
+      "path": "articles/national-pension-additional-payment.html",
+      "h1": "국민연금 추후납부 신청, 가입기간이 부족할 때 확인할 조건과 계산 순서",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 6404
+    },
+    {
+      "path": "articles/national-pension-overpayment-refund.html",
+      "h1": "국민연금 과오납금 조회와 환급 신청, 돌려받기 전 확인할 순서",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 5647
+    },
+    {
+      "path": "articles/national-scholarship-application.html",
+      "h1": "국가장학금 신청 방법과 확인사항",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 5465
+    },
+    {
+      "path": "articles/national-tax-refund-account.html",
+      "h1": "국세환급금 지급계좌 등록 방법",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 4953
+    },
+    {
+      "path": "articles/near-poverty-certificate.html",
+      "h1": "차상위계층 확인서 발급 방법",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 5687
+    },
+    {
+      "path": "articles/overdraft-account-guide.html",
+      "h1": "마이너스통장 사용 시 주의사항",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 5005
+    },
+    {
+      "path": "articles/property-tax-bill-checklist-2026.html",
+      "h1": "재산세 고지서 확인 체크리스트 2026",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 6978
+    },
+    {
+      "path": "articles/rental-car-vacation-saving.html",
+      "h1": "휴가철 렌터카 비용 절약, 보험·연료·반납 조건까지 비교하는 순서",
+      "blue_reasons": [],
+      "card_reasons": [],
+      "missing_dna": [
+        "related"
+      ],
+      "visible_chars": 4694
+    }
+  ]
+}
