@@ -6,7 +6,7 @@
     "fail": 0,
     "average_score": 91.2,
     "thin_under_2500_ko": 0,
-    "short_under_4500_ko": 112,
+    "short_under_4500_ko": 111,
     "missing_meta": 0,
     "missing_canonical": 0,
     "bad_h1": 0,
@@ -4599,25 +4599,25 @@
       "path": "articles/weekly-holiday-pay-guide.html",
       "url": "https://savingio.com/articles/weekly-holiday-pay-guide.html",
       "title": "주휴수당 조건과 계산 방법, 내가 받을 수 있는지 확인하는 순서 | 세이빙이오(Savingio)",
-      "meta_description": "주 소정근로시간, 개근 여부, 시급과 근무표를 기준으로 주휴수당 대상과 계산 방법을 확인합니다.",
+      "meta_description": "2026년 기준 주휴수당 지급 조건, 주 15시간 판단, 개근·결근·지각 차이, 단시간 근로자 계산식, 월급 포함 여부와 미지급 대응 순서를 실제 사례로 설명합니다.",
       "canonical": "https://savingio.com/articles/weekly-holiday-pay-guide.html",
       "h1": [
         "주휴수당 조건과 계산 방법, 내가 받을 수 있는지 확인하는 순서"
       ],
-      "h2_count": 14,
-      "h3_count": 0,
-      "korean_chars": 2577,
-      "words": 836,
-      "internal_article_links": 8,
+      "h2_count": 20,
+      "h3_count": 4,
+      "korean_chars": 4940,
+      "words": 1599,
+      "internal_article_links": 11,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:2577"
+        "BREADCRUMB_SCHEMA_MISSING"
       ],
       "score": 96,
       "status": "PASS"

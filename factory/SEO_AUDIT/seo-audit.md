@@ -6,7 +6,7 @@
 - FAIL: 0
 - Average score: 91.2
 - Thin content (<2500 Korean chars): 0
-- Short content (<4500 Korean chars): 112
+- Short content (<4500 Korean chars): 111
 - Missing meta: 0
 - Missing canonical: 0
 - Bad H1 count: 0
