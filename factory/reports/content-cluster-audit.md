@@ -201,7 +201,7 @@
 
 ## G013 · 신용점수·부채 · 6개
 
-- `articles/cash-advance-vs-card-loan.html` — 현금서비스와 카드론 차이, 급하게 돈이 필요할 때 먼저 확인할 것 (3,472자)
+- `articles/cash-advance-vs-card-loan.html` — 현금서비스와 카드론 차이, 급하게 돈이 필요할 때 먼저 확인할 것 (6,447자)
 - `articles/credit-score-habits.html` — 신용점수를 지키는 생활 습관, 연체 없이 관리하는 현실적인 방법 (5,674자)
 - `articles/loan-prepayment-fee-check.html` — 대출 중도상환수수료 확인법, 지금 갚는 게 이득인지 계산하는 순서 (5,968자)
 - `articles/loan-refinancing-check.html` — 대출 갈아타기 전 확인할 것, 금리보다 중요한 총비용 계산법 (5,853자)
