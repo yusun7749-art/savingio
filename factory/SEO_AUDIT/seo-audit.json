@@ -2265,16 +2265,16 @@
       "path": "articles/hometax-refund-status.html",
       "url": "https://savingio.com/articles/hometax-refund-status.html",
       "title": "홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요 | 세이빙이오(Savingio)",
-      "meta_description": "홈택스에서 국세 환급 진행상황과 환급금 지급 여부를 확인하는 방법, 조회 결과가 없거나 지급이 늦을 때 점검할 항목과 환급계좌 등록 순서를 정리했습니다.",
+      "meta_description": "홈택스에서 국세 환급 진행상황과 지급 여부를 확인하는 순서, 환급계좌 등록, 미수령환급금, 체납 충당, 지방소득세 환급 구분까지 정리했습니다.",
       "canonical": "https://savingio.com/articles/hometax-refund-status.html",
       "h1": [
         "홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요"
       ],
-      "h2_count": 15,
-      "h3_count": 0,
-      "korean_chars": 2645,
-      "words": 945,
-      "internal_article_links": 5,
+      "h2_count": 18,
+      "h3_count": 3,
+      "korean_chars": 3387,
+      "words": 1131,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
       "jsonld_count": 2,
@@ -2284,7 +2284,7 @@
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:2645"
+        "CONTENT_SHORT_KO:3387"
       ],
       "score": 92,
       "status": "PASS"
