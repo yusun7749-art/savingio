@@ -38,3 +38,4 @@ jobs:
           git add factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.md
           git commit -m 'Audit all Savingio pages for AdSense structure [skip ci]'
           git push
+# audit-trigger: 2026-08-01T07:00+09:00
