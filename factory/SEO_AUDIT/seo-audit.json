@@ -2125,28 +2125,29 @@
       "path": "articles/government24-benefit-check.html",
       "url": "https://savingio.com/articles/government24-benefit-check.html",
       "title": "정부24 보조금24 혜택 조회 방법, 나와 가족 지원금 찾기 | Savingio",
-      "meta_description": "정부24 보조금24에서 나의 혜택, 가족 맞춤안내, 간편 찾기, 전체 혜택을 이용해 받을 수 있는 지원제도를 확인하는 방법을 정리했습니다.",
+      "meta_description": "정부24 혜택알리미에서 나의 혜택, 관심·발견, 간편찾기, 전체 혜택과 가족등록을 이용해 받을 수 있는 지원제도를 찾고 신청 전 조건을 검증하는 방법을 안내합니다.",
       "canonical": "https://savingio.com/articles/government24-benefit-check.html",
       "h1": [
         "정부24 보조금24 혜택 조회 방법, 나와 가족 지원금 찾기"
       ],
-      "h2_count": 16,
+      "h2_count": 19,
       "h3_count": 3,
-      "korean_chars": 2537,
-      "words": 898,
-      "internal_article_links": 10,
+      "korean_chars": 3743,
+      "words": 1272,
+      "internal_article_links": 8,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 2,
+      "jsonld_count": 1,
       "article_schema": true,
       "breadcrumb_schema": false,
-      "faq_schema": true,
+      "faq_schema": false,
       "issues": [],
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:2537"
+        "FAQ_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3743"
       ],
-      "score": 92,
+      "score": 88,
       "status": "PASS"
     },
     {
