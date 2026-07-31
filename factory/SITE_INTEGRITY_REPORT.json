@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3317,
-  "references_scanned": 60245,
+  "references_scanned": 60184,
   "counts": {
-    "broken_references": 3294,
+    "broken_references": 3296,
     "malformed_redirects": 0,
     "broken_redirect_targets": 5,
     "missing_sitemap_targets": 7,
@@ -2914,111 +2914,6 @@
       ]
     },
     {
-      "source": "factory/CONTENT_TAXONOMY_REPORT.json",
-      "reference": "/articles/energy-voucher-application-2026.html",
-      "expected": [
-        "articles/energy-voucher-application-2026.html"
-      ]
-    },
-    {
-      "source": "factory/CONTENT_TAXONOMY_REPORT.json",
-      "reference": "/articles/energy-voucher-application.html",
-      "expected": [
-        "articles/energy-voucher-application.html"
-      ]
-    },
-    {
-      "source": "factory/CONTENT_TAXONOMY_REPORT.json",
-      "reference": "/articles/energy-voucher-balance-check-2026.html",
-      "expected": [
-        "articles/energy-voucher-balance-check-2026.html"
-      ]
-    },
-    {
-      "source": "factory/CONTENT_TAXONOMY_REPORT.json",
-      "reference": "/articles/energy-voucher-balance-use.html",
-      "expected": [
-        "articles/energy-voucher-balance-use.html"
-      ]
-    },
-    {
-      "source": "factory/CONTENT_TAXONOMY_REPORT.json",
-      "reference": "/articles/energy-voucher-documents.html",
-      "expected": [
-        "articles/energy-voucher-documents.html"
-      ]
-    },
-    {
-      "source": "factory/CONTENT_TAXONOMY_REPORT.json",
-      "reference": "/articles/energy-voucher-eligibility-2026.html",
-      "expected": [
-        "articles/energy-voucher-eligibility-2026.html"
-      ]
-    },
-    {
-      "source": "factory/CONTENT_TAXONOMY_REPORT.json",
-      "reference": "/articles/energy-voucher-online-application.html",
-      "expected": [
-        "articles/energy-voucher-online-application.html"
-      ]
-    },
-    {
-      "source": "factory/CONTENT_TAXONOMY_REPORT.json",
-      "reference": "/articles/health-insurance-overpayment-refund.html",
-      "expected": [
-        "articles/health-insurance-overpayment-refund.html"
-      ]
-    },
-    {
-      "source": "factory/CONTENT_TAXONOMY_REPORT.json",
-      "reference": "/articles/hidden-money-search.html",
-      "expected": [
-        "articles/hidden-money-search.html"
-      ]
-    },
-    {
-      "source": "factory/CONTENT_TAXONOMY_REPORT.json",
-      "reference": "/articles/hidden-refund-check.html",
-      "expected": [
-        "articles/hidden-refund-check.html"
-      ]
-    },
-    {
-      "source": "factory/CONTENT_TAXONOMY_REPORT.json",
-      "reference": "/articles/how-to-check-hidden-refunds.html",
-      "expected": [
-        "articles/how-to-check-hidden-refunds.html"
-      ]
-    },
-    {
-      "source": "factory/CONTENT_TAXONOMY_REPORT.json",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
-      "source": "factory/CONTENT_TAXONOMY_REPORT.json",
-      "reference": "/articles/local-tax-refund-claim.html",
-      "expected": [
-        "articles/local-tax-refund-claim.html"
-      ]
-    },
-    {
-      "source": "factory/CONTENT_TAXONOMY_REPORT.json",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/CONTENT_TAXONOMY_REPORT.json",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
-      ]
-    },
-    {
       "source": "factory/FULL_ARTICLE_AUDIT/full-article-audit.json",
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
@@ -4226,6 +4121,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/car-insurance-overpayment-refund.svg",
+      "expected": [
+        "articles/car-insurance-overpayment-refund.svg"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/car-maintenance-cost-saving.html",
       "expected": [
         "articles/car-maintenance-cost-saving.html"
@@ -4989,6 +4891,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/refrigerator-summer-electricity-saving.html",
+      "expected": [
+        "articles/refrigerator-summer-electricity-saving.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/registry-copy-check.html",
       "expected": [
         "articles/registry-copy-check.html"
@@ -4999,6 +4908,13 @@
       "reference": "/articles/rent-tax-credit-guide.html",
       "expected": [
         "articles/rent-tax-credit-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/revolving-cancellation-payoff.html",
+      "expected": [
+        "articles/revolving-cancellation-payoff.html"
       ]
     },
     {
@@ -5034,6 +4950,20 @@
       "reference": "/articles/sample.html",
       "expected": [
         "articles/sample.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/savings-maturity-auto-renewal.html",
+      "expected": [
+        "articles/savings-maturity-auto-renewal.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/single-parent-support-benefits.html",
+      "expected": [
+        "articles/single-parent-support-benefits.html"
       ]
     },
     {
@@ -5115,6 +5045,20 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/summer-gas-bill-hot-water-saving.html",
+      "expected": [
+        "articles/summer-gas-bill-hot-water-saving.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/summer-water-bill-spike-check.html",
+      "expected": [
+        "articles/summer-water-bill-spike-check.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/tax-arrears-check-guide.html",
       "expected": [
         "articles/tax-arrears-check-guide.html"
@@ -5122,9 +5066,23 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/tax-credit-late-application.html",
+      "expected": [
+        "articles/tax-credit-late-application.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/tax-refund-scam-warning.html",
       "expected": [
         "articles/tax-refund-scam-warning.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/telecom-discount-guide.html",
+      "expected": [
+        "articles/telecom-discount-guide.html"
       ]
     },
     {
@@ -5164,6 +5122,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/travel-insurance-comparison.html",
+      "expected": [
+        "articles/travel-insurance-comparison.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/unclaimed-refund-check.html",
       "expected": [
         "articles/unclaimed-refund-check.html"
@@ -5181,6 +5146,13 @@
       "reference": "/articles/unemployment-benefit-eligibility.html",
       "expected": [
         "articles/unemployment-benefit-eligibility.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/unemployment-benefit-job-search.html",
+      "expected": [
+        "articles/unemployment-benefit-job-search.html"
       ]
     },
     {
@@ -5248,6 +5220,20 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/wetax-electronic-billing.html",
+      "expected": [
+        "articles/wetax-electronic-billing.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/wetax-payment-history.html",
+      "expected": [
+        "articles/wetax-payment-history.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/year-end-tax-settlement-refund.html",
       "expected": [
         "articles/year-end-tax-settlement-refund.html"
@@ -5255,9 +5241,37 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/yellow-umbrella-mutual-aid-guide.html",
+      "expected": [
+        "articles/yellow-umbrella-mutual-aid-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/youth-benefits-guide.html",
       "expected": [
         "articles/youth-benefits-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/youth-leap-account-contribution.html",
+      "expected": [
+        "articles/youth-leap-account-contribution.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/youth-savings-account-maintenance.html",
+      "expected": [
+        "articles/youth-savings-account-maintenance.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/youth-support-programs.html",
+      "expected": [
+        "articles/youth-support-programs.html"
       ]
     },
     {
