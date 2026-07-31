@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500;600;700&display=swap');
 
+/*
+ * Savingio Calculator Master DNA LOCK
+ * Left: Savingio search tree
+ * Center: each calculator's original form/result
+ * Right: all-calculator navigation
+ * Reference: /calculators/salary
+ */
 html,body.sv2-body{margin:0!important;padding:0!important;width:100%!important;max-width:none!important;overflow-x:hidden!important}
 html body.savingio-calculator-page{margin:0!important;padding:0!important;width:100%!important;max-width:none!important}
 html body.savingio-calculator-page>header.site-header,
@@ -45,7 +52,18 @@ html body.savingio-calculator-page>.sv2-calculator-layout>.sv2-calculator-tree{
   max-width:100%!important;
   box-sizing:border-box!important;
 }
-html body.savingio-calculator-page>.sv2-calculator-layout>.sv2-shell{width:100%!important;padding:0!important}
+/* 중앙 계산기 내용은 페이지별 기존 구조와 계산 로직을 그대로 유지한다. */
+html body.savingio-calculator-page>.sv2-calculator-layout>.sv2-shell{
+  grid-column:2!important;
+  width:100%!important;
+  padding:0!important;
+}
+html body.savingio-calculator-page>.sv2-calculator-layout>.sv2-search-tree-slot{grid-column:1!important}
+html body.savingio-calculator-page>.sv2-calculator-layout>.sv2-calculator-tree{
+  grid-column:3!important;
+  position:sticky!important;
+  top:18px!important;
+}
 html body.savingio-calculator-page .sv2-search-tree-slot #savingio-brain-nav,
 html body.savingio-calculator-page #savingio-brain-nav.sv2-embedded-search-tree{
   position:static!important;
@@ -76,6 +94,8 @@ html body.savingio-calculator-page .sv2-hero h1{
     width:min(940px,calc(100vw - 28px))!important;
     grid-template-columns:210px minmax(0,702px)!important;
   }
+  html body.savingio-calculator-page>.sv2-calculator-layout>.sv2-search-tree-slot{grid-column:1!important}
+  html body.savingio-calculator-page>.sv2-calculator-layout>.sv2-shell{grid-column:2!important}
   html body.savingio-calculator-page>.sv2-calculator-layout>.sv2-calculator-tree{
     grid-column:1/-1!important;
     position:static!important;
@@ -90,7 +110,8 @@ html body.savingio-calculator-page .sv2-hero h1{
     grid-template-columns:1fr!important;
   }
   html body.savingio-calculator-page>.sv2-calculator-layout>.sv2-search-tree-slot,
-  html body.savingio-calculator-page>.sv2-calculator-layout>.sv2-calculator-tree{position:static!important}
+  html body.savingio-calculator-page>.sv2-calculator-layout>.sv2-shell,
+  html body.savingio-calculator-page>.sv2-calculator-layout>.sv2-calculator-tree{grid-column:1!important;position:static!important}
   html body.savingio-calculator-page>.sv2-calculator-layout>.sv2-calculator-tree{grid-template-columns:repeat(2,1fr)!important}
 }
 @media(max-width:700px){
