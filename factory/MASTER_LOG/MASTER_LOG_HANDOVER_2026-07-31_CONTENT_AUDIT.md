@@ -76,7 +76,19 @@
 - 비교표, 체크리스트, FAQ, 문제 해결 사슬형 관련 글 구성
 - Brain Navigation 자산 유지: `/data/savingio-brain-data.js?v=17`, `/js/savingio-brain-navigation.js?v=17`
 - 오른쪽 카드 5개 목적과 순서 유지
-- 다음 대상: `articles/telecom-unclaimed-refund.html`
+
+### `articles/telecom-unclaimed-refund.html`
+- 실제 수정 커밋: `a903d5c9eb7218541a2c83567cadeb134b0d2367`
+- 수정 후 blob SHA: `be6e9221132938e9d7e31337531aac7e2ab752d2`
+- 수정 파일 재조회 확인 완료
+- 기존 일반론 중심 자동 요약과 중복 목차 제거
+- URL, 파일명, H1, 세금·환급 카테고리 유지
+- 미환급액 발생 원인, 조회 대상과 제한 대상, 통신 4사와 알뜰폰 확인 흐름 보강
+- 스마트초이스 공식 조회·환급 신청, 본인 명의 계좌, 최종 금액 변동 가능성 설명
+- 개인정보·보이스피싱 주의, 실제 사례, 비교표, 체크리스트, FAQ, 공식 확인처 보강
+- Brain Navigation 자산 유지: `/data/savingio-brain-data.js?v=17`, `/js/savingio-brain-navigation.js?v=17`
+- 오른쪽 카드 5개 목적과 순서 유지
+- 다음 대상: `articles/money-saving-habits.html`
 
 ## 이번 대화의 오류와 교정
 - GitHub 쓰기 기능이 활성화되어 있는데도 수정할 수 없다고 답한 것은 잘못이었다.
@@ -118,13 +130,12 @@ Breadcrumb → H1 → Lead → 작성·검수 → 핵심 요약 → 내 상황 �
 본문 상단의 불필요한 `<figure class="thumb">`는 제거 유지한다.
 
 ## 현재 즉시 대상
-`articles/telecom-unclaimed-refund.html`
+`articles/money-saving-habits.html`
 
 확인 항목:
 - 현재 실제 본문 길이
-- 미환급금 발생 원인과 통신사별 조회 경로
-- 공식 조회·신청처와 개인정보 주의
-- 환급 대상·소멸 관련 단정 금지
+- 추상적인 절약 조언이 아닌 실제 행동 설계
+- 고정비·변동비·자동이체·소비기록·실행 루틴
 - FAQ·표·체크리스트
 - 내부 링크·Navigation·오른쪽 카드 5개
 
@@ -135,15 +146,14 @@ Breadcrumb → H1 → Lead → 작성·검수 → 핵심 요약 → 내 상황 �
 - blob SHA 확인
 
 그다음 순서:
-1. `money-saving-habits.html`
-2. `weekly-holiday-pay-guide.html`
-3. `business-phone-expense-deduction.html`
-4. `government24-benefit-check.html`
-5. `hometax-refund-status.html`
-6. `government-benefit-alert-setup.html`
-7. `student-loan-repayment-guide.html`
-8. `salary-slip-check-guide.html`
-9. `government-support-calendar.html`
+1. `weekly-holiday-pay-guide.html`
+2. `business-phone-expense-deduction.html`
+3. `government24-benefit-check.html`
+4. `hometax-refund-status.html`
+5. `government-benefit-alert-setup.html`
+6. `student-loan-repayment-guide.html`
+7. `salary-slip-check-guide.html`
+8. `government-support-calendar.html`
 
 ## 보고 형식
 - PASS ✅: 수정·커밋·재조회 완료
@@ -154,4 +164,4 @@ Breadcrumb → H1 → Lead → 작성·검수 → 핵심 요약 → 내 상황 �
 반드시 수정 파일, 커밋 SHA, blob SHA, 보강 내용, 링크·Navigation·카테고리 검증, 남은 문제, 다음 대상을 기록한다.
 
 ## 새 대화 재시작 문구
-`Savingio 애드센스 재승인 작업 이어서 시작. GitHub yusun7749-art/savingio main 기준으로 factory/MASTER_LOG/MASTER_LOG_HANDOVER_2026-07-31_CONTENT_AUDIT.md와 MASTER_LOG_CURRENT.md를 먼저 읽고 최신 main과 비교해. 전체 171개를 다시 보지 말고 4,200자 미만 감사 대상 16개를 한 글씩 실제 수정·커밋·재조회해. 현재 대상은 articles/telecom-unclaimed-refund.html이다. 이후 중복 의심 26개 검색 의도 검토 → 내부 링크·Navigation·카테고리 QA → Search Console → 애드센스 재심사 순서로 진행해. 커밋과 재조회가 있을 때만 PASS라고 보고해.`
+`Savingio 애드센스 재승인 작업 이어서 시작. GitHub yusun7749-art/savingio main 기준으로 factory/MASTER_LOG/MASTER_LOG_HANDOVER_2026-07-31_CONTENT_AUDIT.md와 MASTER_LOG_CURRENT.md를 먼저 읽고 최신 main과 비교해. 전체 171개를 다시 보지 말고 4,200자 미만 감사 대상 16개를 한 글씩 실제 수정·커밋·재조회해. 현재 대상은 articles/money-saving-habits.html이다. 이후 중복 의심 26개 검색 의도 검토 → 내부 링크·Navigation·카테고리 QA → Search Console → 애드센스 재심사 순서로 진행해. 커밋과 재조회가 있을 때만 PASS라고 보고해.`
