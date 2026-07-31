@@ -1,11 +1,11 @@
 # Savingio Full SEO Audit
 
 - Articles: 171
-- PASS: 152
-- WARNING: 19
+- PASS: 153
+- WARNING: 18
 - FAIL: 0
-- Average score: 91.1
-- Thin content (<2500 Korean chars): 1
+- Average score: 91.2
+- Thin content (<2500 Korean chars): 0
 - Short content (<4500 Korean chars): 112
 - Missing meta: 0
 - Missing canonical: 0
@@ -20,7 +20,6 @@
 
 | Score | Status | Article | Main findings |
 |---:|---|---|---|
-| 80 | WARNING | `articles/money-saving-habits.html` | THIN_CONTENT_KO:2445, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/refrigerator-summer-electricity-saving.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:27, CONTENT_SHORT_KO:3593 |
 | 80 | WARNING | `articles/revolving-cancellation-payoff.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:34, CONTENT_SHORT_KO:3234 |
 | 80 | WARNING | `articles/savings-maturity-auto-renewal.html` | GENERIC_TEMPLATE_TEXT:4, META_DESCRIPTION_LENGTH:36, CONTENT_SHORT_KO:3274 |
@@ -100,3 +99,4 @@
 | 92 | PASS | `articles/elementary-school-education-support.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/first-meeting-voucher-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4360 |
 | 92 | PASS | `articles/fixed-speed-aircon-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3368 |
+| 92 | PASS | `articles/four-major-insurance-deduction-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3282 |
