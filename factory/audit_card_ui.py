@@ -4,6 +4,7 @@ import json
 import re
 from pathlib import Path
 
+AUDIT_VERSION = "2026-08-01.1"
 ROOT = Path(__file__).resolve().parents[1]
 TARGET_DIRS = [ROOT / "articles", ROOT / "topics"]
 REPORT_DIR = ROOT / "factory" / "QA"
@@ -23,9 +24,7 @@ PATTERNS = {
     "old-soft-card-css": r"\.card\s*,\s*\.notice\s*,\s*\.toc\s*,\s*\.check\s*\{",
 }
 
-EXCLUDE = {
-    ROOT / "articles" / "index.html",
-}
+EXCLUDE = {ROOT / "articles" / "index.html"}
 
 
 def scan_file(path: Path) -> dict | None:
@@ -69,6 +68,7 @@ def main() -> None:
     REPORT_DIR.mkdir(parents=True, exist_ok=True)
     payload = {
         "audit": "remaining-card-style-ui",
+        "version": AUDIT_VERSION,
         "scanned_html": scanned,
         "flagged_html": len(rows),
         "rule": "본문 카드형 UI를 사용하지 않는 Savingio 글쓰기 헌법 기준",
@@ -81,6 +81,7 @@ def main() -> None:
     lines = [
         "# Savingio 카드형 UI 잔존 감사",
         "",
+        f"- 감사 버전: `{AUDIT_VERSION}`",
         f"- 검사 HTML: **{scanned}개**",
         f"- 카드형 UI 의심: **{len(rows)}개**",
         "- 범위: `articles/*.html`, `topics/*.html` (`articles/index.html` 제외)",
