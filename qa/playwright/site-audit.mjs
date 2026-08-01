@@ -195,7 +195,7 @@ const md = [
   `- 데스크톱 검사: **${payload.pagesScanned}개**`,
   `- 데스크톱 문제: **${payload.pageProblems}개**`,
   `- 모바일 핵심 화면 검사: **${payload.mobilePagesScanned}개**`,
-  `- 모바일 문제: **${payload.mobileProblems}개**`,
+  `- 모바일 문제: **${payload.mobileProblems.length}개**`,
   `- 동작 검사: **${payload.interactionChecks}개**`,
   `- 동작 실패: **${payload.interactionFailures}개**`,
   `- 최종 판정: **${payload.pass ? 'PASS' : 'FAIL'}**`, '',
