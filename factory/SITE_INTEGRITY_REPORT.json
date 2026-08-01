@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3332,
-  "references_scanned": 60317,
+  "files_scanned": 3333,
+  "references_scanned": 60324,
   "counts": {
-    "broken_references": 3363,
+    "broken_references": 3255,
     "malformed_redirects": 0,
     "broken_redirect_targets": 5,
     "missing_sitemap_targets": 7,
@@ -1304,164 +1304,10 @@
       ]
     },
     {
-      "source": "articles/automatic-payment-saving.html",
-      "reference": "/articles/bank-fees-to-avoid.html",
-      "expected": [
-        "articles/bank-fees-to-avoid.html"
-      ]
-    },
-    {
-      "source": "articles/bank-account-budgeting.html",
-      "reference": "/articles/bank-fees-to-avoid.html",
-      "expected": [
-        "articles/bank-fees-to-avoid.html"
-      ]
-    },
-    {
-      "source": "articles/bank-fee-saving.html",
-      "reference": "/articles/bank-fees-to-avoid.html",
-      "expected": [
-        "articles/bank-fees-to-avoid.html"
-      ]
-    },
-    {
-      "source": "articles/business-phone-expense-deduction.html",
-      "reference": "/articles/business-expense-proof-guide.html",
-      "expected": [
-        "articles/business-expense-proof-guide.html"
-      ]
-    },
-    {
-      "source": "articles/business-vehicle-expense-basics.html",
-      "reference": "/articles/bank-fees-to-avoid.html",
-      "expected": [
-        "articles/bank-fees-to-avoid.html"
-      ]
-    },
-    {
-      "source": "articles/cancel-unused-subscriptions.html",
-      "reference": "/articles/bank-fees-to-avoid.html",
-      "expected": [
-        "articles/bank-fees-to-avoid.html"
-      ]
-    },
-    {
-      "source": "articles/car-aircon-fuel-saving.html",
-      "reference": "/articles/bank-fees-to-avoid.html",
-      "expected": [
-        "articles/bank-fees-to-avoid.html"
-      ]
-    },
-    {
-      "source": "articles/cash-advance-vs-card-loan.html",
-      "reference": "/articles/credit-score-management.html",
-      "expected": [
-        "articles/credit-score-management.html"
-      ]
-    },
-    {
-      "source": "articles/check-hidden-refunds.html",
-      "reference": "/articles/health-insurance-overpayment-refund.html",
-      "expected": [
-        "articles/health-insurance-overpayment-refund.html"
-      ]
-    },
-    {
-      "source": "articles/check-hidden-refunds.html",
-      "reference": "/articles/hidden-money-search.html",
-      "expected": [
-        "articles/hidden-money-search.html"
-      ]
-    },
-    {
-      "source": "articles/child-allowance-guide.html",
-      "reference": "/articles/bank-fees-to-avoid.html",
-      "expected": [
-        "articles/bank-fees-to-avoid.html"
-      ]
-    },
-    {
-      "source": "articles/child-tax-credit-status-check.html",
-      "reference": "/articles/grocery-bill-savings.html",
-      "expected": [
-        "articles/grocery-bill-savings.html"
-      ]
-    },
-    {
-      "source": "articles/child-tax-credit-status-check.html",
-      "reference": "/articles/phone-bill-saving.html",
-      "expected": [
-        "articles/phone-bill-saving.html"
-      ]
-    },
-    {
-      "source": "articles/childcare-service-government-support.html",
-      "reference": "/articles/grocery-bill-savings.html",
-      "expected": [
-        "articles/grocery-bill-savings.html"
-      ]
-    },
-    {
-      "source": "articles/cma-account-types-risk.html",
-      "reference": "/articles/bank-fees-to-avoid.html",
-      "expected": [
-        "articles/bank-fees-to-avoid.html"
-      ]
-    },
-    {
-      "source": "articles/credit-card-billing-cycle-guide.html",
-      "reference": "/articles/bank-fees-to-avoid.html",
-      "expected": [
-        "articles/bank-fees-to-avoid.html"
-      ]
-    },
-    {
-      "source": "articles/debit-card-vs-credit-card.html",
-      "reference": "/articles/credit-score-management.html",
-      "expected": [
-        "articles/credit-score-management.html"
-      ]
-    },
-    {
-      "source": "articles/deposit-protection-limit-guide.html",
-      "reference": "/articles/bank-fees-to-avoid.html",
-      "expected": [
-        "articles/bank-fees-to-avoid.html"
-      ]
-    },
-    {
-      "source": "articles/deposit-protection-limit-guide.html",
-      "reference": "/articles/credit-score-management.html",
-      "expected": [
-        "articles/credit-score-management.html"
-      ]
-    },
-    {
-      "source": "articles/earned-income-credit-payment.html",
-      "reference": "/articles/grocery-bill-savings.html",
-      "expected": [
-        "articles/grocery-bill-savings.html"
-      ]
-    },
-    {
-      "source": "articles/earned-income-credit-payment.html",
-      "reference": "/articles/phone-bill-saving.html",
-      "expected": [
-        "articles/phone-bill-saving.html"
-      ]
-    },
-    {
       "source": "articles/earned-income-credit-status-check.html",
       "reference": "/js/article-layout-dna.js?v=1",
       "expected": [
         "js/article-layout-dna.js"
-      ]
-    },
-    {
-      "source": "articles/emergency-medical-support.html",
-      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
-      "expected": [
-        "articles/health-insurance-out-of-pocket-refund.html"
       ]
     },
     {
@@ -1472,276 +1318,10 @@
       ]
     },
     {
-      "source": "articles/government-benefit-alert-2026.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
-      ]
-    },
-    {
-      "source": "articles/grocery-saving-tips.html",
-      "reference": "/articles/bank-fees-to-avoid.html",
-      "expected": [
-        "articles/bank-fees-to-avoid.html"
-      ]
-    },
-    {
-      "source": "articles/health-insurance-refund-guide.html",
-      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
-      "expected": [
-        "articles/health-insurance-out-of-pocket-refund.html"
-      ]
-    },
-    {
-      "source": "articles/health-insurance-refund-guide.html",
-      "reference": "/articles/health-insurance-overpayment-refund.html",
-      "expected": [
-        "articles/health-insurance-overpayment-refund.html"
-      ]
-    },
-    {
-      "source": "articles/impulse-buying-control.html",
-      "reference": "/categories/living-budget.html",
-      "expected": [
-        "categories/living-budget.html"
-      ]
-    },
-    {
-      "source": "articles/loan-prepayment-fee-check.html",
-      "reference": "/articles/credit-score-management.html",
-      "expected": [
-        "articles/credit-score-management.html"
-      ]
-    },
-    {
-      "source": "articles/loan-refinancing-check.html",
-      "reference": "/articles/credit-score-management.html",
-      "expected": [
-        "articles/credit-score-management.html"
-      ]
-    },
-    {
-      "source": "articles/local-tax-refund-guide.html",
-      "reference": "/articles/health-insurance-overpayment-refund.html",
-      "expected": [
-        "articles/health-insurance-overpayment-refund.html"
-      ]
-    },
-    {
-      "source": "articles/long-term-care-insurance-application.html",
-      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
-      "expected": [
-        "articles/health-insurance-out-of-pocket-refund.html"
-      ]
-    },
-    {
-      "source": "articles/long-term-care-insurance-application.html",
-      "reference": "/articles/health-insurance-overpayment-refund.html",
-      "expected": [
-        "articles/health-insurance-overpayment-refund.html"
-      ]
-    },
-    {
-      "source": "articles/medical-bill-negotiation.html",
-      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
-      "expected": [
-        "articles/health-insurance-out-of-pocket-refund.html"
-      ]
-    },
-    {
-      "source": "articles/medical-bill-negotiation.html",
-      "reference": "/articles/health-insurance-overpayment-refund.html",
-      "expected": [
-        "articles/health-insurance-overpayment-refund.html"
-      ]
-    },
-    {
-      "source": "articles/missing-property-tax-bill.html",
-      "reference": "/articles/health-insurance-overpayment-refund.html",
-      "expected": [
-        "articles/health-insurance-overpayment-refund.html"
-      ]
-    },
-    {
-      "source": "articles/monthly-rent-tax-credit-documents.html",
-      "reference": "/articles/local-tax-refund-claim.html",
-      "expected": [
-        "articles/local-tax-refund-claim.html"
-      ]
-    },
-    {
-      "source": "articles/national-tax-refund-account.html",
-      "reference": "/articles/local-tax-refund-claim.html",
-      "expected": [
-        "articles/local-tax-refund-claim.html"
-      ]
-    },
-    {
-      "source": "articles/national-tax-refund.html",
-      "reference": "/articles/local-tax-refund.html",
-      "expected": [
-        "articles/local-tax-refund.html"
-      ]
-    },
-    {
-      "source": "articles/overdraft-account-guide.html",
-      "reference": "/articles/bank-fees-to-avoid.html",
-      "expected": [
-        "articles/bank-fees-to-avoid.html"
-      ]
-    },
-    {
-      "source": "articles/overdraft-account-guide.html",
-      "reference": "/articles/credit-score-management.html",
-      "expected": [
-        "articles/credit-score-management.html"
-      ]
-    },
-    {
-      "source": "articles/regional-development-bond-refund-guide.html",
-      "reference": "/calculators/car-tax.html",
-      "expected": [
-        "calculators/car-tax.html"
-      ]
-    },
-    {
-      "source": "articles/regional-development-bond-refund-guide.html",
-      "reference": "/categories/car.html",
-      "expected": [
-        "categories/car.html"
-      ]
-    },
-    {
-      "source": "articles/rental-contract-reporting-guide.html",
-      "reference": "/articles/moving-address-change-checklist.html",
-      "expected": [
-        "articles/moving-address-change-checklist.html"
-      ]
-    },
-    {
-      "source": "articles/rental-contract-reporting-guide.html",
-      "reference": "/articles/rental-contract-special-clauses.html",
-      "expected": [
-        "articles/rental-contract-special-clauses.html"
-      ]
-    },
-    {
-      "source": "articles/salary-take-home-easy-calculator-guide.html",
-      "reference": "/calculators/freelancer-withholding.html",
-      "expected": [
-        "calculators/freelancer-withholding.html"
-      ]
-    },
-    {
-      "source": "articles/severance-pay-easy-calculator-guide.html",
-      "reference": "/categories/work-income.html",
-      "expected": [
-        "categories/work-income.html"
-      ]
-    },
-    {
-      "source": "articles/small-business-policy-fund.html",
-      "reference": "/articles/government-support-scam-warning-2026.html",
-      "expected": [
-        "articles/government-support-scam-warning-2026.html"
-      ]
-    },
-    {
-      "source": "articles/spending-habits-change.html",
-      "reference": "/calculators/monthly-budget.html",
-      "expected": [
-        "calculators/monthly-budget.html"
-      ]
-    },
-    {
-      "source": "articles/spending-habits-change.html",
-      "reference": "/calculators/savings-goal.html",
-      "expected": [
-        "calculators/savings-goal.html"
-      ]
-    },
-    {
-      "source": "articles/spending-habits-change.html",
-      "reference": "/categories/household-budget.html",
-      "expected": [
-        "categories/household-budget.html"
-      ]
-    },
-    {
-      "source": "articles/student-loan-repayment-guide.html",
-      "reference": "/articles/credit-score-recovery.html",
-      "expected": [
-        "articles/credit-score-recovery.html"
-      ]
-    },
-    {
-      "source": "articles/student-loan-repayment-guide.html",
-      "reference": "/articles/debt-repayment-strategy.html",
-      "expected": [
-        "articles/debt-repayment-strategy.html"
-      ]
-    },
-    {
-      "source": "articles/student-loan-repayment-guide.html",
-      "reference": "/articles/monthly-budget-plan.html",
-      "expected": [
-        "articles/monthly-budget-plan.html"
-      ]
-    },
-    {
-      "source": "articles/summer-electricity-tier-check-2026.html",
-      "reference": "/articles/summer-electricity-tier-check.html",
-      "expected": [
-        "articles/summer-electricity-tier-check.html"
-      ]
-    },
-    {
       "source": "articles/vat-zero-sales-filing-2026.html",
       "reference": "/js/savingio-article-unified-v3036.js?v=3038",
       "expected": [
         "js/savingio-article-unified-v3036.js"
-      ]
-    },
-    {
-      "source": "articles/vehicle-inspection-reservation-guide.html",
-      "reference": "/categories/car.html",
-      "expected": [
-        "categories/car.html"
-      ]
-    },
-    {
-      "source": "articles/water-bill-saving.html",
-      "reference": "/articles/upstairs-water-leak-response.html",
-      "expected": [
-        "articles/upstairs-water-leak-response.html"
-      ]
-    },
-    {
-      "source": "articles/water-bill-saving.html",
-      "reference": "/categories/living-expense.html",
-      "expected": [
-        "categories/living-expense.html"
-      ]
-    },
-    {
-      "source": "articles/weekly-holiday-pay-guide.html",
-      "reference": "/articles/minimum-wage-guide.html",
-      "expected": [
-        "articles/minimum-wage-guide.html"
-      ]
-    },
-    {
-      "source": "articles/weekly-holiday-pay-guide.html",
-      "reference": "/articles/overtime-pay-calculation.html",
-      "expected": [
-        "articles/overtime-pay-calculation.html"
-      ]
-    },
-    {
-      "source": "articles/youth-housing-benefit-separate-payment.html",
-      "reference": "/articles/youth-support-programs.html",
-      "expected": [
-        "articles/youth-support-programs.html"
       ]
     },
     {
@@ -1833,328 +1413,6 @@
       "reference": "/articles/subscription-cleanup.html",
       "expected": [
         "articles/subscription-cleanup.html"
-      ]
-    },
-    {
-      "source": "categories/finance-credit.html",
-      "reference": "/articles/bank-fees-to-avoid.html",
-      "expected": [
-        "articles/bank-fees-to-avoid.html"
-      ]
-    },
-    {
-      "source": "categories/finance-credit.html",
-      "reference": "/articles/beginner-ai-side-hustles.html",
-      "expected": [
-        "articles/beginner-ai-side-hustles.html"
-      ]
-    },
-    {
-      "source": "categories/finance-credit.html",
-      "reference": "/articles/credit-score-management.html",
-      "expected": [
-        "articles/credit-score-management.html"
-      ]
-    },
-    {
-      "source": "categories/finance-credit.html",
-      "reference": "/articles/credit-score-tips.html",
-      "expected": [
-        "articles/credit-score-tips.html"
-      ]
-    },
-    {
-      "source": "categories/finance-credit.html",
-      "reference": "/articles/grocery-bill-savings.html",
-      "expected": [
-        "articles/grocery-bill-savings.html"
-      ]
-    },
-    {
-      "source": "categories/finance-credit.html",
-      "reference": "/articles/hidden-money-search.html",
-      "expected": [
-        "articles/hidden-money-search.html"
-      ]
-    },
-    {
-      "source": "categories/finance-credit.html",
-      "reference": "/articles/online-income-ideas-for-beginners.html",
-      "expected": [
-        "articles/online-income-ideas-for-beginners.html"
-      ]
-    },
-    {
-      "source": "categories/finance-credit.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "categories/government-support.html",
-      "reference": "/articles/energy-voucher-application-2026.html",
-      "expected": [
-        "articles/energy-voucher-application-2026.html"
-      ]
-    },
-    {
-      "source": "categories/government-support.html",
-      "reference": "/articles/energy-voucher-application.html",
-      "expected": [
-        "articles/energy-voucher-application.html"
-      ]
-    },
-    {
-      "source": "categories/government-support.html",
-      "reference": "/articles/energy-voucher-balance-check-2026.html",
-      "expected": [
-        "articles/energy-voucher-balance-check-2026.html"
-      ]
-    },
-    {
-      "source": "categories/government-support.html",
-      "reference": "/articles/energy-voucher-balance-use-2026.html",
-      "expected": [
-        "articles/energy-voucher-balance-use-2026.html"
-      ]
-    },
-    {
-      "source": "categories/government-support.html",
-      "reference": "/articles/energy-voucher-balance-use.html",
-      "expected": [
-        "articles/energy-voucher-balance-use.html"
-      ]
-    },
-    {
-      "source": "categories/government-support.html",
-      "reference": "/articles/energy-voucher-documents.html",
-      "expected": [
-        "articles/energy-voucher-documents.html"
-      ]
-    },
-    {
-      "source": "categories/government-support.html",
-      "reference": "/articles/energy-voucher-eligibility-2026.html",
-      "expected": [
-        "articles/energy-voucher-eligibility-2026.html"
-      ]
-    },
-    {
-      "source": "categories/government-support.html",
-      "reference": "/articles/energy-voucher-online-application.html",
-      "expected": [
-        "articles/energy-voucher-online-application.html"
-      ]
-    },
-    {
-      "source": "categories/government-support.html",
-      "reference": "/articles/government-benefit-alert-guide-2026.html",
-      "expected": [
-        "articles/government-benefit-alert-guide-2026.html"
-      ]
-    },
-    {
-      "source": "categories/government-support.html",
-      "reference": "/articles/government-support-scam-warning-2026.html",
-      "expected": [
-        "articles/government-support-scam-warning-2026.html"
-      ]
-    },
-    {
-      "source": "categories/government-support.html",
-      "reference": "/articles/hidden-refund-check.html",
-      "expected": [
-        "articles/hidden-refund-check.html"
-      ]
-    },
-    {
-      "source": "categories/government-support.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
-      "source": "categories/government-support.html",
-      "reference": "/articles/local-tax-refund-claim.html",
-      "expected": [
-        "articles/local-tax-refund-claim.html"
-      ]
-    },
-    {
-      "source": "categories/government-support.html",
-      "reference": "/articles/low-income-cooling-support.html",
-      "expected": [
-        "articles/low-income-cooling-support.html"
-      ]
-    },
-    {
-      "source": "categories/government-support.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
-      ]
-    },
-    {
-      "source": "categories/housing.html",
-      "reference": "/articles/internet-bill-savings.html",
-      "expected": [
-        "articles/internet-bill-savings.html"
-      ]
-    },
-    {
-      "source": "categories/housing.html",
-      "reference": "/articles/property-tax-july-checklist-2026.html",
-      "expected": [
-        "articles/property-tax-july-checklist-2026.html"
-      ]
-    },
-    {
-      "source": "categories/living-bills.html",
-      "reference": "/articles/how-to-lower-phone-bill.html",
-      "expected": [
-        "articles/how-to-lower-phone-bill.html"
-      ]
-    },
-    {
-      "source": "categories/living-bills.html",
-      "reference": "/articles/how-to-save-electricity-bill.html",
-      "expected": [
-        "articles/how-to-save-electricity-bill.html"
-      ]
-    },
-    {
-      "source": "categories/living-bills.html",
-      "reference": "/articles/phone-bill-saving.html",
-      "expected": [
-        "articles/phone-bill-saving.html"
-      ]
-    },
-    {
-      "source": "categories/living-bills.html",
-      "reference": "/articles/reduce-electricity-bill.html",
-      "expected": [
-        "articles/reduce-electricity-bill.html"
-      ]
-    },
-    {
-      "source": "categories/living-bills.html",
-      "reference": "/articles/subscription-audit-checklist.html",
-      "expected": [
-        "articles/subscription-audit-checklist.html"
-      ]
-    },
-    {
-      "source": "categories/living-bills.html",
-      "reference": "/articles/subscription-cleanup.html",
-      "expected": [
-        "articles/subscription-cleanup.html"
-      ]
-    },
-    {
-      "source": "categories/living-bills.html",
-      "reference": "/articles/subscription-saving.html",
-      "expected": [
-        "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "categories/living-bills.html",
-      "reference": "/articles/summer-electricity-tier-check.html",
-      "expected": [
-        "articles/summer-electricity-tier-check.html"
-      ]
-    },
-    {
-      "source": "categories/living-bills.html",
-      "reference": "/articles/summer-electricity-usage-check-2026.html",
-      "expected": [
-        "articles/summer-electricity-usage-check-2026.html"
-      ]
-    },
-    {
-      "source": "categories/living-bills.html",
-      "reference": "/articles/water-bill-guide.html",
-      "expected": [
-        "articles/water-bill-guide.html"
-      ]
-    },
-    {
-      "source": "categories/tax-refund.html",
-      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
-      "expected": [
-        "articles/health-insurance-out-of-pocket-refund.html"
-      ]
-    },
-    {
-      "source": "categories/tax-refund.html",
-      "reference": "/articles/health-insurance-overpayment-refund.html",
-      "expected": [
-        "articles/health-insurance-overpayment-refund.html"
-      ]
-    },
-    {
-      "source": "categories/tax-refund.html",
-      "reference": "/articles/health-insurance-refund.html",
-      "expected": [
-        "articles/health-insurance-refund.html"
-      ]
-    },
-    {
-      "source": "categories/tax-refund.html",
-      "reference": "/articles/how-to-check-hidden-refunds.html",
-      "expected": [
-        "articles/how-to-check-hidden-refunds.html"
-      ]
-    },
-    {
-      "source": "categories/tax-refund.html",
-      "reference": "/articles/local-tax-refund.html",
-      "expected": [
-        "articles/local-tax-refund.html"
-      ]
-    },
-    {
-      "source": "categories/tax-refund.html",
-      "reference": "/articles/vat-final-return-deadline-2026.html",
-      "expected": [
-        "articles/vat-final-return-deadline-2026.html"
-      ]
-    },
-    {
-      "source": "categories/tax-refund.html",
-      "reference": "/articles/vat-final-return-july-2026.html",
-      "expected": [
-        "articles/vat-final-return-july-2026.html"
-      ]
-    },
-    {
-      "source": "categories/tax-refund.html",
-      "reference": "/articles/vat-input-tax-deduction-guide-2026.html",
-      "expected": [
-        "articles/vat-input-tax-deduction-guide-2026.html"
-      ]
-    },
-    {
-      "source": "categories/tax-refund.html",
-      "reference": "/articles/vat-zero-sales-filing.html",
-      "expected": [
-        "articles/vat-zero-sales-filing.html"
-      ]
-    },
-    {
-      "source": "categories/work-salary.html",
-      "reference": "/articles/salary-budget-guide.html",
-      "expected": [
-        "articles/salary-budget-guide.html"
-      ]
-    },
-    {
-      "source": "categories/work-salary.html",
-      "reference": "/articles/salary-management-guide.html",
-      "expected": [
-        "articles/salary-management-guide.html"
       ]
     },
     {
@@ -3089,462 +2347,462 @@
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/beginner-ai-side-hustles.html",
       "expected": [
         "articles/beginner-ai-side-hustles.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/business-expense-proof-guide.html",
       "expected": [
         "articles/business-expense-proof-guide.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/credit-score-management.html",
       "expected": [
         "articles/credit-score-management.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/credit-score-recovery.html",
       "expected": [
         "articles/credit-score-recovery.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/credit-score-tips.html",
       "expected": [
         "articles/credit-score-tips.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/debt-repayment-strategy.html",
       "expected": [
         "articles/debt-repayment-strategy.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
         "articles/energy-voucher-application-2026.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/energy-voucher-application.html",
       "expected": [
         "articles/energy-voucher-application.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/energy-voucher-balance-check-2026.html",
       "expected": [
         "articles/energy-voucher-balance-check-2026.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/energy-voucher-balance-use-2026.html",
       "expected": [
         "articles/energy-voucher-balance-use-2026.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/energy-voucher-balance-use.html",
       "expected": [
         "articles/energy-voucher-balance-use.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/energy-voucher-documents.html",
       "expected": [
         "articles/energy-voucher-documents.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/energy-voucher-eligibility-2026.html",
       "expected": [
         "articles/energy-voucher-eligibility-2026.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/energy-voucher-online-application.html",
       "expected": [
         "articles/energy-voucher-online-application.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/government-benefit-alert-guide-2026.html",
       "expected": [
         "articles/government-benefit-alert-guide-2026.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/government-support-scam-warning-2026.html",
       "expected": [
         "articles/government-support-scam-warning-2026.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/grocery-bill-savings.html",
       "expected": [
         "articles/grocery-bill-savings.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/health-insurance-out-of-pocket-refund.html",
       "expected": [
         "articles/health-insurance-out-of-pocket-refund.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/health-insurance-overpayment-refund.html",
       "expected": [
         "articles/health-insurance-overpayment-refund.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/health-insurance-refund.html",
       "expected": [
         "articles/health-insurance-refund.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
         "articles/hidden-money-search.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/hidden-refund-check.html",
       "expected": [
         "articles/hidden-refund-check.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/how-to-check-hidden-refunds.html",
       "expected": [
         "articles/how-to-check-hidden-refunds.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/how-to-lower-phone-bill.html",
       "expected": [
         "articles/how-to-lower-phone-bill.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/how-to-save-electricity-bill.html",
       "expected": [
         "articles/how-to-save-electricity-bill.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/internet-bill-savings.html",
       "expected": [
         "articles/internet-bill-savings.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/irs-tax-refund-status.html",
       "expected": [
         "articles/irs-tax-refund-status.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/local-tax-refund.html",
       "expected": [
         "articles/local-tax-refund.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/low-income-cooling-support.html",
       "expected": [
         "articles/low-income-cooling-support.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/minimum-wage-guide.html",
       "expected": [
         "articles/minimum-wage-guide.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/monthly-budget-plan.html",
       "expected": [
         "articles/monthly-budget-plan.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/moving-address-change-checklist.html",
       "expected": [
         "articles/moving-address-change-checklist.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/online-income-ideas-for-beginners.html",
       "expected": [
         "articles/online-income-ideas-for-beginners.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/overtime-pay-calculation.html",
       "expected": [
         "articles/overtime-pay-calculation.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/phone-bill-saving.html",
       "expected": [
         "articles/phone-bill-saving.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/property-tax-july-checklist-2026.html",
       "expected": [
         "articles/property-tax-july-checklist-2026.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/reduce-electricity-bill.html",
       "expected": [
         "articles/reduce-electricity-bill.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/refrigerator-summer-electricity-saving.html",
       "expected": [
         "articles/refrigerator-summer-electricity-saving.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/rental-contract-special-clauses.html",
       "expected": [
         "articles/rental-contract-special-clauses.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/salary-budget-guide.html",
       "expected": [
         "articles/salary-budget-guide.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/small-business-policy-fund-search.html",
       "expected": [
         "articles/small-business-policy-fund-search.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/subscription-audit-checklist.html",
       "expected": [
         "articles/subscription-audit-checklist.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/subscription-cleanup.html",
       "expected": [
         "articles/subscription-cleanup.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/subsidy24-benefit-search.html",
       "expected": [
         "articles/subsidy24-benefit-search.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/summer-electricity-usage-check-2026.html",
       "expected": [
         "articles/summer-electricity-usage-check-2026.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/upstairs-water-leak-response.html",
       "expected": [
         "articles/upstairs-water-leak-response.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/vat-final-return-deadline-2026.html",
       "expected": [
         "articles/vat-final-return-deadline-2026.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/vat-final-return-july-2026.html",
       "expected": [
         "articles/vat-final-return-july-2026.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/vat-input-tax-deduction-guide-2026.html",
       "expected": [
         "articles/vat-input-tax-deduction-guide-2026.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/vat-zero-sales-filing.html",
       "expected": [
         "articles/vat-zero-sales-filing.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/water-bill-guide.html",
       "expected": [
         "articles/water-bill-guide.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/youth-support-programs.html",
       "expected": [
         "articles/youth-support-programs.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/calculators/car-tax.html",
       "expected": [
         "calculators/car-tax.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/calculators/freelancer-withholding.html",
       "expected": [
         "calculators/freelancer-withholding.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/calculators/monthly-budget.html",
       "expected": [
         "calculators/monthly-budget.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/calculators/savings-goal.html",
       "expected": [
         "calculators/savings-goal.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/categories/car.html",
       "expected": [
         "categories/car.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/categories/household-budget.html",
       "expected": [
         "categories/household-budget.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/categories/living-budget.html",
       "expected": [
         "categories/living-budget.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/categories/living-expense.html",
       "expected": [
         "categories/living-expense.html"
       ]
     },
     {
-      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/categories/work-income.html",
       "expected": [
         "categories/work-income.html"
@@ -23860,20 +23118,6 @@
       "reference": "/articles/salary-management-guide.html",
       "expected": [
         "articles/salary-management-guide.html"
-      ]
-    },
-    {
-      "source": "topics/electricity.html",
-      "reference": "/articles/refrigerator-summer-electricity-saving.html",
-      "expected": [
-        "articles/refrigerator-summer-electricity-saving.html"
-      ]
-    },
-    {
-      "source": "topics/electricity.html",
-      "reference": "/articles/summer-electricity-tier-check.html",
-      "expected": [
-        "articles/summer-electricity-tier-check.html"
       ]
     },
     {
