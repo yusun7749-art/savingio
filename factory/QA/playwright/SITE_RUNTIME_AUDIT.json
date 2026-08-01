@@ -1,246 +1,14 @@
 {
-  "generatedAt": "2026-08-01T09:57:03.979Z",
+  "generatedAt": "2026-08-01T10:51:13.391Z",
   "baseUrl": "https://savingio.com",
-  "pagesScanned": 202,
-  "pageProblems": 9,
+  "pagesScanned": 199,
+  "pageProblems": 0,
   "mobilePagesScanned": 9,
-  "mobileProblems": [
-    {
-      "url": "https://savingio.com/search.html",
-      "status": 200,
-      "title": "Savingio 전체 검색",
-      "h1Count": 1,
-      "canonical": "https://savingio.com/search.html",
-      "hasHeader": true,
-      "hasFooter": false,
-      "hasExplorer": false,
-      "horizontalOverflow": false,
-      "emptyMain": false,
-      "brokenImages": [],
-      "consoleErrors": [],
-      "failedRequests": [],
-      "badResponses": [],
-      "error": null
-    }
-  ],
+  "mobileProblems": [],
   "interactionChecks": 12,
   "interactionFailures": 0,
-  "pass": false,
-  "problems": [
-    {
-      "url": "https://savingio.com/search.html",
-      "status": 200,
-      "title": "Savingio 전체 검색",
-      "h1Count": 1,
-      "canonical": "https://savingio.com/search.html",
-      "hasHeader": true,
-      "hasFooter": false,
-      "hasExplorer": false,
-      "horizontalOverflow": false,
-      "emptyMain": false,
-      "brokenImages": [],
-      "consoleErrors": [],
-      "failedRequests": [],
-      "badResponses": [],
-      "error": null
-    },
-    {
-      "url": "https://savingio.com/articles/earned-income-credit-status-check.html",
-      "status": 200,
-      "title": "근로장려금 심사진행상황 조회 방법, 심사중·결정완료 상태 해석 | Savingio",
-      "h1Count": 1,
-      "canonical": "https://savingio.com/articles/earned-income-credit-status-check.html",
-      "hasHeader": true,
-      "hasFooter": true,
-      "hasExplorer": false,
-      "horizontalOverflow": false,
-      "emptyMain": false,
-      "brokenImages": [],
-      "consoleErrors": [
-        "Failed to load resource: the server responded with a status of 404 ()",
-        "Refused to execute script from 'https://savingio.com/js/article-layout-dna.js?v=1' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
-      ],
-      "failedRequests": [
-        {
-          "url": "https://savingio.com/js/article-layout-dna.js?v=1",
-          "error": "net::ERR_ABORTED"
-        }
-      ],
-      "badResponses": [
-        {
-          "url": "https://savingio.com/js/article-layout-dna.js?v=1",
-          "status": 404
-        }
-      ],
-      "error": null
-    },
-    {
-      "url": "https://savingio.com/articles/gas-bill-checklist.html",
-      "status": 200,
-      "title": "도시가스 요금 절약과 고지서 점검 방법 | 세이빙이오(Savingio)",
-      "h1Count": 1,
-      "canonical": "https://savingio.com/articles/gas-bill-checklist.html",
-      "hasHeader": true,
-      "hasFooter": true,
-      "hasExplorer": false,
-      "horizontalOverflow": false,
-      "emptyMain": false,
-      "brokenImages": [],
-      "consoleErrors": [
-        "Failed to load resource: the server responded with a status of 404 ()",
-        "Refused to execute script from 'https://savingio.com/js/savingio-brain-navigation-data.js?v=12' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
-      ],
-      "failedRequests": [
-        {
-          "url": "https://savingio.com/js/savingio-brain-navigation-data.js?v=12",
-          "error": "net::ERR_ABORTED"
-        }
-      ],
-      "badResponses": [
-        {
-          "url": "https://savingio.com/js/savingio-brain-navigation-data.js?v=12",
-          "status": 404
-        }
-      ],
-      "error": null
-    },
-    {
-      "url": "https://savingio.com/articles/irs-tax-refund-status.html",
-      "status": 404,
-      "title": "페이지를 찾을 수 없습니다 | 세이빙이오(Savingio)",
-      "h1Count": 1,
-      "canonical": "https://savingio.com/404.html",
-      "hasHeader": true,
-      "hasFooter": true,
-      "hasExplorer": false,
-      "horizontalOverflow": false,
-      "emptyMain": false,
-      "brokenImages": [],
-      "consoleErrors": [
-        "Failed to load resource: the server responded with a status of 404 ()"
-      ],
-      "failedRequests": [],
-      "badResponses": [
-        {
-          "url": "https://savingio.com/articles/irs-tax-refund-status.html",
-          "status": 404
-        }
-      ],
-      "error": null
-    },
-    {
-      "url": "https://savingio.com/articles/small-business-policy-fund-search.html",
-      "status": 404,
-      "title": "페이지를 찾을 수 없습니다 | 세이빙이오(Savingio)",
-      "h1Count": 1,
-      "canonical": "https://savingio.com/404.html",
-      "hasHeader": true,
-      "hasFooter": true,
-      "hasExplorer": false,
-      "horizontalOverflow": false,
-      "emptyMain": false,
-      "brokenImages": [],
-      "consoleErrors": [
-        "Failed to load resource: the server responded with a status of 404 ()"
-      ],
-      "failedRequests": [],
-      "badResponses": [
-        {
-          "url": "https://savingio.com/articles/small-business-policy-fund-search.html",
-          "status": 404
-        }
-      ],
-      "error": null
-    },
-    {
-      "url": "https://savingio.com/articles/subsidy24-benefit-search.html",
-      "status": 404,
-      "title": "페이지를 찾을 수 없습니다 | 세이빙이오(Savingio)",
-      "h1Count": 1,
-      "canonical": "https://savingio.com/404.html",
-      "hasHeader": true,
-      "hasFooter": true,
-      "hasExplorer": false,
-      "horizontalOverflow": false,
-      "emptyMain": false,
-      "brokenImages": [],
-      "consoleErrors": [
-        "Failed to load resource: the server responded with a status of 404 ()"
-      ],
-      "failedRequests": [],
-      "badResponses": [
-        {
-          "url": "https://savingio.com/articles/subsidy24-benefit-search.html",
-          "status": 404
-        }
-      ],
-      "error": null
-    },
-    {
-      "url": "https://savingio.com/articles/vat-zero-sales-filing-2026.html",
-      "status": 200,
-      "title": "매출이 없어도 부가가치세 신고해야 할까? 무실적 신고 방법 | Savingio",
-      "h1Count": 1,
-      "canonical": "https://savingio.com/articles/vat-zero-sales-filing-2026.html",
-      "hasHeader": true,
-      "hasFooter": true,
-      "hasExplorer": false,
-      "horizontalOverflow": false,
-      "emptyMain": false,
-      "brokenImages": [],
-      "consoleErrors": [
-        "Failed to load resource: the server responded with a status of 404 ()",
-        "Refused to execute script from 'https://savingio.com/js/savingio-article-unified-v3036.js?v=3038' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
-      ],
-      "failedRequests": [
-        {
-          "url": "https://savingio.com/js/savingio-article-unified-v3036.js?v=3038",
-          "error": "net::ERR_ABORTED"
-        }
-      ],
-      "badResponses": [
-        {
-          "url": "https://savingio.com/js/savingio-article-unified-v3036.js?v=3038",
-          "status": 404
-        }
-      ],
-      "error": null
-    },
-    {
-      "url": "https://savingio.com/benefits/basic-livelihood.html",
-      "status": 200,
-      "title": "기초생활수급 확인 순서 | Savingio",
-      "h1Count": 1,
-      "canonical": "https://savingio.com/benefits/basic-livelihood.html",
-      "hasHeader": true,
-      "hasFooter": false,
-      "hasExplorer": false,
-      "horizontalOverflow": false,
-      "emptyMain": false,
-      "brokenImages": [],
-      "consoleErrors": [],
-      "failedRequests": [],
-      "badResponses": [],
-      "error": null
-    },
-    {
-      "url": "https://savingio.com/benefits/over-60.html",
-      "status": 200,
-      "title": "60세 이상 복지 혜택 확인 순서 | Savingio",
-      "h1Count": 1,
-      "canonical": "https://savingio.com/benefits/over-60.html",
-      "hasHeader": true,
-      "hasFooter": false,
-      "hasExplorer": false,
-      "horizontalOverflow": false,
-      "emptyMain": false,
-      "brokenImages": [],
-      "consoleErrors": [],
-      "failedRequests": [],
-      "badResponses": [],
-      "error": null
-    }
-  ],
+  "pass": true,
+  "problems": [],
   "interactions": [
     {
       "type": "home-link",
@@ -359,7 +127,7 @@
       "h1Count": 1,
       "canonical": "https://savingio.com/search.html",
       "hasHeader": true,
-      "hasFooter": false,
+      "hasFooter": true,
       "hasExplorer": false,
       "horizontalOverflow": false,
       "emptyMain": false,
@@ -1316,22 +1084,9 @@
       "horizontalOverflow": false,
       "emptyMain": false,
       "brokenImages": [],
-      "consoleErrors": [
-        "Failed to load resource: the server responded with a status of 404 ()",
-        "Refused to execute script from 'https://savingio.com/js/article-layout-dna.js?v=1' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
-      ],
-      "failedRequests": [
-        {
-          "url": "https://savingio.com/js/article-layout-dna.js?v=1",
-          "error": "net::ERR_ABORTED"
-        }
-      ],
-      "badResponses": [
-        {
-          "url": "https://savingio.com/js/article-layout-dna.js?v=1",
-          "status": 404
-        }
-      ],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": [],
       "error": null
     },
     {
@@ -1618,22 +1373,9 @@
       "horizontalOverflow": false,
       "emptyMain": false,
       "brokenImages": [],
-      "consoleErrors": [
-        "Failed to load resource: the server responded with a status of 404 ()",
-        "Refused to execute script from 'https://savingio.com/js/savingio-brain-navigation-data.js?v=12' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
-      ],
-      "failedRequests": [
-        {
-          "url": "https://savingio.com/js/savingio-brain-navigation-data.js?v=12",
-          "error": "net::ERR_ABORTED"
-        }
-      ],
-      "badResponses": [
-        {
-          "url": "https://savingio.com/js/savingio-brain-navigation-data.js?v=12",
-          "status": 404
-        }
-      ],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": [],
       "error": null
     },
     {
@@ -1991,30 +1733,6 @@
       "consoleErrors": [],
       "failedRequests": [],
       "badResponses": [],
-      "error": null
-    },
-    {
-      "url": "https://savingio.com/articles/irs-tax-refund-status.html",
-      "status": 404,
-      "title": "페이지를 찾을 수 없습니다 | 세이빙이오(Savingio)",
-      "h1Count": 1,
-      "canonical": "https://savingio.com/404.html",
-      "hasHeader": true,
-      "hasFooter": true,
-      "hasExplorer": false,
-      "horizontalOverflow": false,
-      "emptyMain": false,
-      "brokenImages": [],
-      "consoleErrors": [
-        "Failed to load resource: the server responded with a status of 404 ()"
-      ],
-      "failedRequests": [],
-      "badResponses": [
-        {
-          "url": "https://savingio.com/articles/irs-tax-refund-status.html",
-          "status": 404
-        }
-      ],
       "error": null
     },
     {
@@ -2800,30 +2518,6 @@
       "error": null
     },
     {
-      "url": "https://savingio.com/articles/small-business-policy-fund-search.html",
-      "status": 404,
-      "title": "페이지를 찾을 수 없습니다 | 세이빙이오(Savingio)",
-      "h1Count": 1,
-      "canonical": "https://savingio.com/404.html",
-      "hasHeader": true,
-      "hasFooter": true,
-      "hasExplorer": false,
-      "horizontalOverflow": false,
-      "emptyMain": false,
-      "brokenImages": [],
-      "consoleErrors": [
-        "Failed to load resource: the server responded with a status of 404 ()"
-      ],
-      "failedRequests": [],
-      "badResponses": [
-        {
-          "url": "https://savingio.com/articles/small-business-policy-fund-search.html",
-          "status": 404
-        }
-      ],
-      "error": null
-    },
-    {
       "url": "https://savingio.com/articles/small-business-policy-fund.html",
       "status": 200,
       "title": "소상공인 정책자금 확인·신청 순서 2026 | Savingio",
@@ -2889,30 +2583,6 @@
       "consoleErrors": [],
       "failedRequests": [],
       "badResponses": [],
-      "error": null
-    },
-    {
-      "url": "https://savingio.com/articles/subsidy24-benefit-search.html",
-      "status": 404,
-      "title": "페이지를 찾을 수 없습니다 | 세이빙이오(Savingio)",
-      "h1Count": 1,
-      "canonical": "https://savingio.com/404.html",
-      "hasHeader": true,
-      "hasFooter": true,
-      "hasExplorer": false,
-      "horizontalOverflow": false,
-      "emptyMain": false,
-      "brokenImages": [],
-      "consoleErrors": [
-        "Failed to load resource: the server responded with a status of 404 ()"
-      ],
-      "failedRequests": [],
-      "badResponses": [
-        {
-          "url": "https://savingio.com/articles/subsidy24-benefit-search.html",
-          "status": 404
-        }
-      ],
       "error": null
     },
     {
@@ -3097,22 +2767,9 @@
       "horizontalOverflow": false,
       "emptyMain": false,
       "brokenImages": [],
-      "consoleErrors": [
-        "Failed to load resource: the server responded with a status of 404 ()",
-        "Refused to execute script from 'https://savingio.com/js/savingio-article-unified-v3036.js?v=3038' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
-      ],
-      "failedRequests": [
-        {
-          "url": "https://savingio.com/js/savingio-article-unified-v3036.js?v=3038",
-          "error": "net::ERR_ABORTED"
-        }
-      ],
-      "badResponses": [
-        {
-          "url": "https://savingio.com/js/savingio-article-unified-v3036.js?v=3038",
-          "status": 404
-        }
-      ],
+      "consoleErrors": [],
+      "failedRequests": [],
+      "badResponses": [],
       "error": null
     },
     {
@@ -3207,7 +2864,7 @@
       "h1Count": 1,
       "canonical": "https://savingio.com/benefits/basic-livelihood.html",
       "hasHeader": true,
-      "hasFooter": false,
+      "hasFooter": true,
       "hasExplorer": false,
       "horizontalOverflow": false,
       "emptyMain": false,
@@ -3224,7 +2881,7 @@
       "h1Count": 1,
       "canonical": "https://savingio.com/benefits/over-60.html",
       "hasHeader": true,
-      "hasFooter": false,
+      "hasFooter": true,
       "hasExplorer": false,
       "horizontalOverflow": false,
       "emptyMain": false,
