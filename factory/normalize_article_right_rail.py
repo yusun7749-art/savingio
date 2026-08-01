@@ -25,7 +25,10 @@ FALLBACKS = [
 ]
 
 ASIDE_RE = re.compile(r'(<aside\b[^>]*class=["\'][^"\']*\bright-rail\b[^"\']*["\'][^>]*>)(.*?)(</aside>)', re.I | re.S)
-SECTION_RE = re.compile(r'<section\b[^>]*class=["\'][^"\']*\brail-section\b[^"\']*["\'][^>]*>.*?</section>', re.I | re.S)
+SECTION_RE = re.compile(
+    r'<(?P<tag>section|div)\b[^>]*class=["\'][^"\']*\brail-section\b[^"\']*["\'][^>]*>.*?</(?P=tag)>',
+    re.I | re.S,
+)
 KICKER_RE = re.compile(r'<span\b[^>]*class=["\'][^"\']*\brail-kicker\b[^"\']*["\'][^>]*>.*?</span>', re.I | re.S)
 
 
@@ -38,6 +41,10 @@ def normalize_section(section: str, label: str) -> str:
     return section[: open_end + 1] + kicker + section[open_end + 1 :]
 
 
+def section_inner(section: str) -> str:
+    return re.sub(r'^<(?:section|div)\b[^>]*>|</(?:section|div)>$', '', section, flags=re.I | re.S)
+
+
 def normalize_article(path: Path) -> dict:
     text = path.read_text(encoding='utf-8', errors='ignore')
     m = ASIDE_RE.search(text)
@@ -45,7 +52,7 @@ def normalize_article(path: Path) -> dict:
         return {"path": path.relative_to(ROOT).as_posix(), "status": "skipped_no_right_rail"}
 
     body = m.group(2)
-    sections = SECTION_RE.findall(body)
+    sections = [match.group(0) for match in SECTION_RE.finditer(body)]
     if not sections:
         return {"path": path.relative_to(ROOT).as_posix(), "status": "skipped_no_sections"}
 
@@ -58,12 +65,9 @@ def normalize_article(path: Path) -> dict:
             normalized.append(f'<section class="rail-section"><span class="rail-kicker">{LABELS[idx]}</span>{FALLBACKS[idx]}</section>')
 
     if len(sections) > 5:
-        extras = sections[5:]
-        extra_inner = ''.join(
-            re.sub(r'^<section\b[^>]*>|</section>$', '', item, flags=re.I | re.S)
-            for item in extras
-        )
-        normalized[4] = normalized[4].replace('</section>', f'<div class="rail-extra">{extra_inner}</div></section>', 1)
+        extra_inner = ''.join(section_inner(item) for item in sections[5:])
+        closing = '</div>' if normalized[4].lstrip().lower().startswith('<div') else '</section>'
+        normalized[4] = normalized[4].replace(closing, f'<div class="rail-extra">{extra_inner}</div>{closing}', 1)
 
     new_aside = m.group(1) + ''.join(normalized) + m.group(3)
     new_text = text[: m.start()] + new_aside + text[m.end() :]
@@ -95,5 +99,3 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
-
-# workflow-trigger: 2026-08-01T14:38+09:00
