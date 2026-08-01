@@ -1,15 +1,15 @@
 {
   "audit": "savingio-full-adsense-structural-audit",
   "summary": {
-    "articles_scanned": 158,
-    "article_problem_pages": 3,
-    "explorer_missing_pages": 3,
+    "articles_scanned": 155,
+    "article_problem_pages": 0,
+    "explorer_missing_pages": 0,
     "blue_ui_pages": 0,
     "card_ui_pages": 0,
     "generic_template_pages": 0,
-    "article_dna_problem_pages": 3,
-    "right_rail_problem_pages": 3,
-    "canonical_problem_pages": 3,
+    "article_dna_problem_pages": 0,
+    "right_rail_problem_pages": 0,
+    "canonical_problem_pages": 0,
     "figure_thumb_pages": 0,
     "duplicate_h1_values": 0,
     "topics_scanned": 1,
@@ -18,146 +18,7 @@
     "calculator_problem_pages": 0,
     "missing_internal_links": 0
   },
-  "article_problems": [
-    {
-      "path": "articles/irs-tax-refund-status.html",
-      "h1": "",
-      "visible_chars": 46,
-      "explorer": {
-        "data": false,
-        "js": false,
-        "css": false
-      },
-      "explorer_missing": [
-        "data",
-        "js",
-        "css"
-      ],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [
-        "breadcrumb",
-        "h1",
-        "lead",
-        "editorial",
-        "summary",
-        "situation",
-        "toc",
-        "table",
-        "checklist",
-        "faq",
-        "related",
-        "footer"
-      ],
-      "right_rail_missing": [
-        "지금 해야 할 행동",
-        "계산기/점검도구",
-        "같은 카테고리 글",
-        "함께 볼 관련 글",
-        "다음 단계/주의사항"
-      ],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/hometax-refund-status.html",
-      "canonical_problem": true,
-      "figure_thumb": false,
-      "duplicate_h1_count": 0,
-      "duplicate_toc_count": 0,
-      "duplicate_editorial_count": 0
-    },
-    {
-      "path": "articles/small-business-policy-fund-search.html",
-      "h1": "",
-      "visible_chars": 44,
-      "explorer": {
-        "data": false,
-        "js": false,
-        "css": false
-      },
-      "explorer_missing": [
-        "data",
-        "js",
-        "css"
-      ],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [
-        "breadcrumb",
-        "h1",
-        "lead",
-        "editorial",
-        "summary",
-        "situation",
-        "toc",
-        "table",
-        "checklist",
-        "faq",
-        "related",
-        "footer"
-      ],
-      "right_rail_missing": [
-        "지금 해야 할 행동",
-        "계산기/점검도구",
-        "같은 카테고리 글",
-        "함께 볼 관련 글",
-        "다음 단계/주의사항"
-      ],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/small-business-policy-fund.html",
-      "canonical_problem": true,
-      "figure_thumb": false,
-      "duplicate_h1_count": 0,
-      "duplicate_toc_count": 0,
-      "duplicate_editorial_count": 0
-    },
-    {
-      "path": "articles/subsidy24-benefit-search.html",
-      "h1": "",
-      "visible_chars": 46,
-      "explorer": {
-        "data": false,
-        "js": false,
-        "css": false
-      },
-      "explorer_missing": [
-        "data",
-        "js",
-        "css"
-      ],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [
-        "breadcrumb",
-        "h1",
-        "lead",
-        "editorial",
-        "summary",
-        "situation",
-        "toc",
-        "table",
-        "checklist",
-        "faq",
-        "related",
-        "footer"
-      ],
-      "right_rail_missing": [
-        "지금 해야 할 행동",
-        "계산기/점검도구",
-        "같은 카테고리 글",
-        "함께 볼 관련 글",
-        "다음 단계/주의사항"
-      ],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/government24-benefit-check.html",
-      "canonical_problem": true,
-      "figure_thumb": false,
-      "duplicate_h1_count": 0,
-      "duplicate_toc_count": 0,
-      "duplicate_editorial_count": 0
-    }
-  ],
+  "article_problems": [],
   "topic_problems": [],
   "calculator_problems": [],
   "missing_internal_links": [],
