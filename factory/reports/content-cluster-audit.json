@@ -1,5 +1,5 @@
 {
-  "article_count": 159,
+  "article_count": 158,
   "topic_group_count": 25,
   "candidate_pair_count": 2,
   "method": "topic-first grouping; title/body similarity only ranks articles inside the same topic group",
@@ -718,57 +718,6 @@
     },
     {
       "group_id": "G011",
-      "topic": "국세·환급",
-      "size": 6,
-      "articles": [
-        {
-          "path": "articles/hometax-refund-status.html",
-          "title": "홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요 | 세이빙이오(Savingio)",
-          "h1": "홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요",
-          "char_count": 4772
-        },
-        {
-          "path": "articles/income-tax-filing-missed-consequences.html",
-          "title": "종합소득세 신고 안 하면 생기는 불이익과 기한후신고 방법 | 세이빙이오(Savingio)",
-          "h1": "종합소득세 신고 안 하면 생기는 불이익과 기한후신고 방법",
-          "char_count": 8358
-        },
-        {
-          "path": "articles/irs-tax-refund-status.html",
-          "title": "환급 진행 조회 안내 | Savingio",
-          "h1": "",
-          "char_count": 46
-        },
-        {
-          "path": "articles/national-tax-refund-account.html",
-          "title": "국세환급금 지급계좌 등록 방법 | 세이빙이오(Savingio)",
-          "h1": "국세환급금 지급계좌 등록 방법",
-          "char_count": 4963
-        },
-        {
-          "path": "articles/national-tax-refund.html",
-          "title": "국세 환급금 조회 방법 | 세이빙이오(Savingio)",
-          "h1": "국세 환급금 조회 방법",
-          "char_count": 5515
-        },
-        {
-          "path": "articles/self-employed-income-tax-refund-check.html",
-          "title": "종합소득세 신고 대상 확인 방법 | Savingio",
-          "h1": "종합소득세 신고 대상 확인 방법",
-          "char_count": 4770
-        }
-      ],
-      "relationships": [],
-      "decision_status": "pending_group_review",
-      "decision_options": [
-        "대표글 통합",
-        "검색의도 분리 유지",
-        "내용 흡수 후 삭제",
-        "완전 중복 삭제"
-      ]
-    },
-    {
-      "group_id": "G012",
       "topic": "아동·가족 지원",
       "size": 6,
       "articles": [
@@ -807,6 +756,51 @@
           "title": "부모급여 신청 방법, 출생 후 놓치지 말아야 할 확인 순서 | Savingio",
           "h1": "부모급여 신청 방법, 출생 후 놓치지 말아야 할 확인 순서",
           "char_count": 7113
+        }
+      ],
+      "relationships": [],
+      "decision_status": "pending_group_review",
+      "decision_options": [
+        "대표글 통합",
+        "검색의도 분리 유지",
+        "내용 흡수 후 삭제",
+        "완전 중복 삭제"
+      ]
+    },
+    {
+      "group_id": "G012",
+      "topic": "국세·환급",
+      "size": 5,
+      "articles": [
+        {
+          "path": "articles/hometax-refund-status.html",
+          "title": "홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요 | 세이빙이오(Savingio)",
+          "h1": "홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요",
+          "char_count": 4772
+        },
+        {
+          "path": "articles/income-tax-filing-missed-consequences.html",
+          "title": "종합소득세 신고 안 하면 생기는 불이익과 기한후신고 방법 | 세이빙이오(Savingio)",
+          "h1": "종합소득세 신고 안 하면 생기는 불이익과 기한후신고 방법",
+          "char_count": 8358
+        },
+        {
+          "path": "articles/national-tax-refund-account.html",
+          "title": "국세환급금 지급계좌 등록 방법 | 세이빙이오(Savingio)",
+          "h1": "국세환급금 지급계좌 등록 방법",
+          "char_count": 4963
+        },
+        {
+          "path": "articles/national-tax-refund.html",
+          "title": "국세 환급금 조회 방법 | 세이빙이오(Savingio)",
+          "h1": "국세 환급금 조회 방법",
+          "char_count": 5515
+        },
+        {
+          "path": "articles/self-employed-income-tax-refund-check.html",
+          "title": "종합소득세 신고 대상 확인 방법 | Savingio",
+          "h1": "종합소득세 신고 대상 확인 방법",
+          "char_count": 4770
         }
       ],
       "relationships": [],

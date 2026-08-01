@@ -1,6 +1,6 @@
 # Savingio MASTER CONTENT MAP — 전체 주제 그룹 분류
 
-- 전체 본문: **159개**
+- 전체 본문: **158개**
 - 2개 이상 주제 그룹: **25개**
 - 그룹 내부 중복·통합 후보 관계: **2개**
 - 단독 주제 글: **3개**
@@ -170,20 +170,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G011 · 국세·환급 · 6개
-
-- `articles/hometax-refund-status.html` — 홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요 (4,772자)
-- `articles/income-tax-filing-missed-consequences.html` — 종합소득세 신고 안 하면 생기는 불이익과 기한후신고 방법 (8,358자)
-- `articles/irs-tax-refund-status.html` — 환급 진행 조회 안내 | Savingio (46자)
-- `articles/national-tax-refund-account.html` — 국세환급금 지급계좌 등록 방법 (4,963자)
-- `articles/national-tax-refund.html` — 국세 환급금 조회 방법 (5,515자)
-- `articles/self-employed-income-tax-refund-check.html` — 종합소득세 신고 대상 확인 방법 (4,770자)
-
-중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
-
-**그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
-
-## G012 · 아동·가족 지원 · 6개
+## G011 · 아동·가족 지원 · 6개
 
 - `articles/child-allowance-guide.html` — 아동수당 신청 방법, 지급이 누락되지 않게 확인하는 체크리스트 (4,717자)
 - `articles/childcare-service-government-support.html` — 아이돌봄서비스 정부지원 신청 방법, 자격 판정부터 이용까지 (6,140자)
@@ -191,6 +178,18 @@
 - `articles/elementary-school-education-support.html` — 초등학생 교육비 지원 총정리, 교육급여·방과후·돌봄 신청법 (9,506자)
 - `articles/first-meeting-voucher-guide.html` — 첫만남이용권 신청과 사용 방법, 결제 전에 확인할 제한사항 (6,153자)
 - `articles/parental-benefit-guide.html` — 부모급여 신청 방법, 출생 후 놓치지 말아야 할 확인 순서 (7,113자)
+
+중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
+
+**그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
+
+## G012 · 국세·환급 · 5개
+
+- `articles/hometax-refund-status.html` — 홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요 (4,772자)
+- `articles/income-tax-filing-missed-consequences.html` — 종합소득세 신고 안 하면 생기는 불이익과 기한후신고 방법 (8,358자)
+- `articles/national-tax-refund-account.html` — 국세환급금 지급계좌 등록 방법 (4,963자)
+- `articles/national-tax-refund.html` — 국세 환급금 조회 방법 (5,515자)
+- `articles/self-employed-income-tax-refund-check.html` — 종합소득세 신고 대상 확인 방법 (4,770자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
 
