@@ -3,13 +3,13 @@
 ## 요약
 
 - articles_scanned: **155**
-- article_problem_pages: **88**
+- article_problem_pages: **15**
 - explorer_missing_pages: **0**
 - blue_ui_pages: **0**
 - card_ui_pages: **0**
 - generic_template_pages: **0**
-- article_dna_problem_pages: **48**
-- right_rail_problem_pages: **88**
+- article_dna_problem_pages: **0**
+- right_rail_problem_pages: **15**
 - canonical_problem_pages: **0**
 - figure_thumb_pages: **0**
 - duplicate_h1_values: **0**
@@ -23,92 +23,19 @@
 
 | 파일 | Explorer | 파란 UI | 카드 UI | DNA 누락 | 우측 5영역 | canonical |
 |---|---|---|---|---|---|---|
-| `articles/ai-side-hustles-beginner.html` | - | - | - | - | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/air-conditioner-electricity-saving.html` | - | - | - | - | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/aircon-filter-cleaning-savings.html` | - | - | - | - | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/apartment-leak-emergency-response.html` | - | - | - | - | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/apartment-management-fee-summer.html` | - | - | - | - | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/bank-account-budgeting.html` | - | - | - | - | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/bank-fee-saving.html` | - | - | - | - | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/basic-livelihood-discounts.html` | - | - | - | - | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
+| `articles/basic-livelihood-discounts.html` | - | - | - | - | 함께 볼 관련 글, 다음 단계/주의사항 | - |
 | `articles/beginner-budget-plan.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
 | `articles/beginner-money-management.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/benefit-scam-warning-2026.html` | - | - | - | related | 계산기/점검도구, 함께 볼 관련 글 | - |
-| `articles/business-vehicle-expense-basics.html` | - | - | - | - | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/car-aircon-fuel-saving.html` | - | - | - | - | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/cash-out-card-points.html` | - | - | - | related | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/cashback-apps-guide.html` | - | - | - | related | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/check-hidden-refunds.html` | - | - | - | related | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/child-allowance-guide.html` | - | - | - | - | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/child-tax-credit-status-check.html` | - | - | - | - | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/childcare-service-government-support.html` | - | - | - | - | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/cma-account-types-risk.html` | - | - | - | related | 같은 카테고리 글, 함께 볼 관련 글 | - |
-| `articles/credit-card-billing-cycle-guide.html` | - | - | - | related | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/credit-score-habits.html` | - | - | - | related | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/culture-nuri-card-balance.html` | - | - | - | related | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/daily-liability-leak-insurance.html` | - | - | - | related | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/debit-card-vs-credit-card.html` | - | - | - | related | 같은 카테고리 글, 함께 볼 관련 글 | - |
-| `articles/dehumidifier-electricity-saving.html` | - | - | - | related | 같은 카테고리 글, 함께 볼 관련 글 | - |
-| `articles/deposit-protection-limit-guide.html` | - | - | - | related | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/deposit-return-guarantee-checklist.html` | - | - | - | related | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글 | - |
-| `articles/dormant-deposit-insurance-search.html` | - | - | - | related | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글 | - |
-| `articles/dryer-summer-electricity-saving.html` | - | - | - | related | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/earned-income-credit-account-change.html` | - | - | - | - | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/earned-income-credit-payment.html` | - | - | - | - | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/earned-income-credit-status-check.html` | - | - | - | - | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/earned-income-tax-credit-korea.html` | - | - | - | related | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/education-benefit-eligibility.html` | - | - | - | related | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/education-expense-vs-benefit.html` | - | - | - | related | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/electricity-bill-easy-calculator-guide.html` | - | - | - | - | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/electricity-bill-saving.html` | - | - | - | - | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/electricity-discount-card-guide.html` | - | - | - | related | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/electronic-tax-invoice-penalty.html` | - | - | - | related | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/emergency-medical-support.html` | - | - | - | related | 계산기/점검도구, 함께 볼 관련 글 | - |
-| `articles/emergency-welfare-living-support.html` | - | - | - | related | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글 | - |
-| `articles/energy-voucher-2026-application.html` | - | - | - | related | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/fan-aircon-combination-saving.html` | - | - | - | - | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/first-meeting-voucher-guide.html` | - | - | - | related | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글 | - |
-| `articles/fixed-date-online-application.html` | - | - | - | related | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/fixed-speed-aircon-saving.html` | - | - | - | related | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/four-major-insurance-deduction-guide.html` | - | - | - | related | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/gas-bill-checklist.html` | - | - | - | - | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/government-benefit-alert-2026.html` | - | - | - | - | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/government-benefit-alert-setup.html` | - | - | - | - | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
+| `articles/check-hidden-refunds.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
+| `articles/government-benefit-alert-setup.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
 | `articles/government24-benefit-check.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/grocery-saving-tips.html` | - | - | - | - | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/heating-bill-saving.html` | - | - | - | related | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/home-water-leak-self-check.html` | - | - | - | - | 계산기/점검도구 | - |
-| `articles/housing-benefit-eligibility.html` | - | - | - | related | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/income-tax-filing-missed-consequences.html` | - | - | - | related | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/internet-bill-discount.html` | - | - | - | related | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글 | - |
-| `articles/inverter-aircon-saving-guide.html` | - | - | - | related | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/lifelong-education-voucher-application.html` | - | - | - | related | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/loan-prepayment-fee-check.html` | - | - | - | related | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/loan-refinancing-check.html` | - | - | - | related | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/local-tax-refund-guide.html` | - | - | - | related | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/long-term-care-insurance-application.html` | - | - | - | - | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/medical-bill-negotiation.html` | - | - | - | related | 함께 볼 관련 글 | - |
-| `articles/missing-property-tax-bill.html` | - | - | - | related | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글 | - |
 | `articles/monthly-budget-planner.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/monthly-rent-tax-credit-documents.html` | - | - | - | related | 같은 카테고리 글, 함께 볼 관련 글 | - |
-| `articles/national-employment-support-eligibility.html` | - | - | - | related | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/national-pension-additional-payment.html` | - | - | - | related | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/national-pension-overpayment-refund.html` | - | - | - | related | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/national-scholarship-application.html` | - | - | - | related | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/national-tax-refund-account.html` | - | - | - | related | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/national-tax-refund.html` | - | - | - | - | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/near-poverty-certificate.html` | - | - | - | related | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/over-60-benefits-guide.html` | - | - | - | - | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/overdraft-account-guide.html` | - | - | - | related | 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/parental-benefit-guide.html` | - | - | - | - | 계산기/점검도구, 함께 볼 관련 글 | - |
-| `articles/property-tax-bill-checklist-2026.html` | - | - | - | related | 함께 볼 관련 글 | - |
+| `articles/over-60-benefits-guide.html` | - | - | - | - | 다음 단계/주의사항 | - |
 | `articles/regional-development-bond-refund-guide.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/rental-car-vacation-saving.html` | - | - | - | related | 지금 해야 할 행동, 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
 | `articles/salary-slip-check-guide.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
 | `articles/severance-pay-calculation-guide.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
 | `articles/student-loan-repayment-guide.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
 | `articles/telecom-unclaimed-refund.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/traffic-fines-difference-guide.html` | - | - | - | - | 같은 카테고리 글, 함께 볼 관련 글 | - |
 | `articles/unemployment-benefit-checklist.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
 | `articles/vehicle-inspection-reservation-guide.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
 
