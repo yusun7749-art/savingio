@@ -1,6 +1,6 @@
 # Savingio MASTER CONTENT MAP — 전체 주제 그룹 분류
 
-- 전체 본문: **157개**
+- 전체 본문: **156개**
 - 2개 이상 주제 그룹: **25개**
 - 그룹 내부 중복·통합 후보 관계: **1개**
 - 단독 주제 글: **3개**
@@ -127,21 +127,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G008 · 정부지원 조회 · 7개
-
-- `articles/benefit-scam-warning-2026.html` — 지원금 문자 사기 구별 방법, 링크 누르기 전 확인할 7가지 (9,295자)
-- `articles/government-benefit-alert-2026.html` — “남들은 받았다는데 나는 왜 몰랐을까?” 정부24 혜택알리미 확인 순서 (7,585자)
-- `articles/government-benefit-alert-setup.html` — 정부24 혜택알리미 설정 방법, 맞춤 혜택과 알림 수신 관리 (5,746자)
-- `articles/government-benefits-warning.html` — 정부지원금 조회 시 주의할 점 (5,896자)
-- `articles/government-support-calendar.html` — 정부지원금 신청 일정 관리 방법, 마감일·갱신일 놓치지 않는 달력 만들기 (3,933자)
-- `articles/government24-benefit-check.html` — 정부24 보조금24 혜택 조회 방법, 나와 가족 지원금 찾기 (5,453자)
-- `articles/subsidy24-benefit-search.html` — 정부24 혜택 조회 안내 | Savingio (46자)
-
-중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
-
-**그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
-
-## G009 · 주거·임대차 · 7개
+## G008 · 주거·임대차 · 7개
 
 - `articles/apartment-leak-emergency-response.html` — 아랫집 누수 연락을 받았을 때, 윗집이 바로 할 일 (6,730자)
 - `articles/deposit-return-guarantee-checklist.html` — 전세보증금 반환보증 가입 전 체크리스트 (7,761자)
@@ -155,7 +141,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G010 · 소상공인·사업자 · 6개
+## G009 · 소상공인·사업자 · 6개
 
 - `articles/business-card-hometax-registration.html` — 사업용 신용카드 홈택스 등록 방법, 등록 뒤 매입내역까지 확인하는 순서 (5,223자)
 - `articles/business-phone-expense-deduction.html` — 사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리 (7,291자)
@@ -168,7 +154,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G011 · 아동·가족 지원 · 6개
+## G010 · 아동·가족 지원 · 6개
 
 - `articles/child-allowance-guide.html` — 아동수당 신청 방법, 지급이 누락되지 않게 확인하는 체크리스트 (4,717자)
 - `articles/childcare-service-government-support.html` — 아이돌봄서비스 정부지원 신청 방법, 자격 판정부터 이용까지 (6,140자)
@@ -176,6 +162,19 @@
 - `articles/elementary-school-education-support.html` — 초등학생 교육비 지원 총정리, 교육급여·방과후·돌봄 신청법 (9,506자)
 - `articles/first-meeting-voucher-guide.html` — 첫만남이용권 신청과 사용 방법, 결제 전에 확인할 제한사항 (6,153자)
 - `articles/parental-benefit-guide.html` — 부모급여 신청 방법, 출생 후 놓치지 말아야 할 확인 순서 (7,113자)
+
+중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
+
+**그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
+
+## G011 · 정부지원 조회 · 6개
+
+- `articles/benefit-scam-warning-2026.html` — 지원금 문자 사기 구별 방법, 링크 누르기 전 확인할 7가지 (9,295자)
+- `articles/government-benefit-alert-2026.html` — “남들은 받았다는데 나는 왜 몰랐을까?” 정부24 혜택알리미 확인 순서 (7,585자)
+- `articles/government-benefit-alert-setup.html` — 정부24 혜택알리미 설정 방법, 맞춤 혜택과 알림 수신 관리 (5,746자)
+- `articles/government-benefits-warning.html` — 정부지원금 조회 시 주의할 점 (5,896자)
+- `articles/government-support-calendar.html` — 정부지원금 신청 일정 관리 방법, 마감일·갱신일 놓치지 않는 달력 만들기 (3,933자)
+- `articles/government24-benefit-check.html` — 정부24 보조금24 혜택 조회 방법, 나와 가족 지원금 찾기 (5,453자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
 
