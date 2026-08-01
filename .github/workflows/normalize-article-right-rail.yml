@@ -1,0 +1,30 @@
+name: Normalize article right rail
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'factory/normalize_article_right_rail.py'
+permissions:
+  contents: write
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Normalize five-purpose article rails
+        run: python factory/normalize_article_right_rail.py
+      - name: Commit normalized articles and report
+        run: |
+          git config user.name 'savingio-qa-bot'
+          git config user.email 'savingio-qa-bot@users.noreply.github.com'
+          git add articles factory/QA/RIGHT_RAIL_NORMALIZATION.json
+          if git diff --cached --quiet; then
+            echo 'No article rail changes'
+            exit 0
+          fi
+          git commit -m 'Normalize article right rails to five required purposes [skip ci]'
+          git push
