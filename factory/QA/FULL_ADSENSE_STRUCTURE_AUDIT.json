@@ -2,20 +2,20 @@
   "audit": "savingio-full-adsense-structural-audit",
   "summary": {
     "articles_scanned": 155,
-    "article_problem_pages": 155,
+    "article_problem_pages": 88,
     "explorer_missing_pages": 0,
     "blue_ui_pages": 0,
     "card_ui_pages": 0,
     "generic_template_pages": 0,
-    "article_dna_problem_pages": 49,
-    "right_rail_problem_pages": 155,
+    "article_dna_problem_pages": 48,
+    "right_rail_problem_pages": 88,
     "canonical_problem_pages": 0,
     "figure_thumb_pages": 0,
     "duplicate_h1_values": 0,
     "topics_scanned": 1,
-    "topic_problem_pages": 1,
+    "topic_problem_pages": 0,
     "calculators_scanned": 28,
-    "calculator_problem_pages": 28,
+    "calculator_problem_pages": 18,
     "missing_internal_links": 109
   },
   "article_problems": [
@@ -36,7 +36,8 @@
       "right_rail_missing": [
         "지금 해야 할 행동",
         "같은 카테고리 글",
-        "함께 볼 관련 글"
+        "함께 볼 관련 글",
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/ai-side-hustles-beginner.html",
@@ -64,33 +65,10 @@
         "지금 해야 할 행동",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/air-conditioner-electricity-saving.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/aircon-dry-mode-electricity.html",
-      "h1": "에어컨 제습모드 전기요금, 냉방보다 정말 덜 나올까?",
-      "visible_chars": 4717,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/aircon-dry-mode-electricity.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -115,33 +93,10 @@
         "지금 해야 할 행동",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/aircon-filter-cleaning-savings.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/aircon-optimal-temperature-savings.html",
-      "h1": "에어컨 적정 온도는 몇 도일까? 전기요금과 쾌적함을 함께 잡는 설정 순서",
-      "visible_chars": 4211,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/aircon-optimal-temperature-savings.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -163,9 +118,11 @@
       "generic_reasons": [],
       "missing_dna": [],
       "right_rail_missing": [
+        "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/apartment-leak-emergency-response.html",
@@ -193,33 +150,10 @@
         "지금 해야 할 행동",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/apartment-management-fee-summer.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/automatic-payment-saving.html",
-      "h1": "자동이체·자동결제 정리하는 방법, 매달 새는 고정비 찾기",
-      "visible_chars": 6466,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/automatic-payment-saving.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -244,7 +178,7 @@
         "지금 해야 할 행동",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/bank-account-budgeting.html",
@@ -270,9 +204,10 @@
       "missing_dna": [],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/bank-fee-saving.html",
@@ -298,35 +233,13 @@
       "missing_dna": [],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/basic-livelihood-discounts.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/basic-pension-application-guide.html",
-      "h1": "기초연금 신청 방법, 만 65세 준비서류·소득인정액·지급 확인",
-      "visible_chars": 7895,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/basic-pension-application-guide.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -347,7 +260,12 @@
       "card_reasons": [],
       "generic_reasons": [],
       "missing_dna": [],
-      "right_rail_missing": [],
+      "right_rail_missing": [
+        "계산기/점검도구",
+        "같은 카테고리 글",
+        "함께 볼 관련 글",
+        "다음 단계/주의사항"
+      ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/beginner-budget-plan.html",
       "canonical_problem": false,
@@ -370,7 +288,12 @@
       "card_reasons": [],
       "generic_reasons": [],
       "missing_dna": [],
-      "right_rail_missing": [],
+      "right_rail_missing": [
+        "계산기/점검도구",
+        "같은 카테고리 글",
+        "함께 볼 관련 글",
+        "다음 단계/주의사항"
+      ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/beginner-money-management.html",
       "canonical_problem": false,
@@ -396,125 +319,11 @@
         "related"
       ],
       "right_rail_missing": [
+        "계산기/점검도구",
         "함께 볼 관련 글"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/benefit-scam-warning-2026.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/budget-app-guide.html",
-      "h1": "가계부 앱 고르는 방법, 자동연동보다 중요한 기준",
-      "visible_chars": 6076,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/budget-app-guide.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/building-land-property-tax.html",
-      "h1": "건축물 재산세와 토지 재산세 차이, 고지서 두 장이 왔을 때 확인 순서",
-      "visible_chars": 4677,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/building-land-property-tax.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/business-card-hometax-registration.html",
-      "h1": "사업용 신용카드 홈택스 등록 방법, 등록 뒤 매입내역까지 확인하는 순서",
-      "visible_chars": 5183,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/business-card-hometax-registration.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/business-closure-vat-order.html",
-      "h1": "사업자 폐업신고와 부가세 신고 순서, 폐업일 전후로 놓치기 쉬운 절차",
-      "visible_chars": 4697,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/business-closure-vat-order.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/business-phone-expense-deduction.html",
-      "h1": "사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리",
-      "visible_chars": 7311,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/business-phone-expense-deduction.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -539,33 +348,10 @@
         "지금 해야 할 행동",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/business-vehicle-expense-basics.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/cancel-unused-subscriptions.html",
-      "h1": "안 쓰는 구독서비스 해지하는 방법, 무료체험부터 자동결제까지",
-      "visible_chars": 6958,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/cancel-unused-subscriptions.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -590,194 +376,10 @@
         "지금 해야 할 행동",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/car-aircon-fuel-saving.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/car-insurance-child-discount.html",
-      "h1": "자동차보험 자녀할인 특약, 태아·연령·증빙·중도변경 확인 가이드",
-      "visible_chars": 6392,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/car-insurance-child-discount.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/car-insurance-mileage-refund.html",
-      "h1": "자동차보험 마일리지 특약 환급, 사진 등록·주행거리·정산 확인 가이드",
-      "visible_chars": 7145,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/car-insurance-mileage-refund.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/car-insurance-overpayment-refund.html",
-      "h1": "자동차보험료를 더 냈을 때, 과납보험료 확인부터 환급까지",
-      "visible_chars": 7379,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/car-insurance-overpayment-refund.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/car-insurance-saving.html",
-      "h1": "자동차보험료 절약, 갱신 전에 비교할 운전자 범위·특약·담보 최종 가이드",
-      "visible_chars": 4684,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/car-insurance-saving.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/car-tax-annual-payment.html",
-      "h1": "2026 자동차세 연납, 신청 시기·5% 공제·환급 확인 가이드",
-      "visible_chars": 4462,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/car-tax-annual-payment.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/car-tax-check-payment-guide.html",
-      "h1": "자동차세 조회·납부, 고지서 없이 체납·환급까지 확인하는 가이드",
-      "visible_chars": 4557,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/car-tax-check-payment-guide.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/card-points-cashback-guide.html",
-      "h1": "카드 포인트와 캐시백 활용법, 혜택보다 먼저 확인할 것",
-      "visible_chars": 7127,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/card-points-cashback-guide.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/cash-advance-vs-card-loan.html",
-      "h1": "현금서비스와 카드론 차이, 급하게 돈이 필요할 때 먼저 확인할 것",
-      "visible_chars": 6447,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/cash-advance-vs-card-loan.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -801,9 +403,11 @@
         "related"
       ],
       "right_rail_missing": [
+        "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/cash-out-card-points.html",
@@ -831,9 +435,10 @@
       ],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/cashback-apps-guide.html",
@@ -861,9 +466,10 @@
       ],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/check-hidden-refunds.html",
@@ -889,9 +495,10 @@
       "missing_dna": [],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/child-allowance-guide.html",
@@ -919,7 +526,7 @@
         "지금 해야 할 행동",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/child-tax-credit-status-check.html",
@@ -945,9 +552,10 @@
       "missing_dna": [],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/childcare-service-government-support.html",
@@ -1003,9 +611,10 @@
       ],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/credit-card-billing-cycle-guide.html",
@@ -1032,9 +641,11 @@
         "related"
       ],
       "right_rail_missing": [
+        "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/credit-score-habits.html",
@@ -1061,9 +672,11 @@
         "related"
       ],
       "right_rail_missing": [
+        "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/culture-nuri-card-balance.html",
@@ -1090,9 +703,11 @@
         "related"
       ],
       "right_rail_missing": [
+        "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/daily-liability-leak-insurance.html",
@@ -1175,9 +790,10 @@
         "related"
       ],
       "right_rail_missing": [
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/deposit-protection-limit-guide.html",
@@ -1204,6 +820,7 @@
         "related"
       ],
       "right_rail_missing": [
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글"
       ],
@@ -1232,6 +849,7 @@
         "related"
       ],
       "right_rail_missing": [
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글"
       ],
@@ -1263,33 +881,10 @@
         "지금 해야 할 행동",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/dryer-summer-electricity-saving.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/duplicate-indemnity-insurance-check.html",
-      "h1": "실손보험 중복가입 확인부터 개인·단체실손 정리까지 최종 가이드",
-      "visible_chars": 5605,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/duplicate-indemnity-insurance-check.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -1312,9 +907,10 @@
       "missing_dna": [],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/earned-income-credit-account-change.html",
@@ -1342,7 +938,7 @@
         "지금 해야 할 행동",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/earned-income-credit-payment.html",
@@ -1368,9 +964,10 @@
       "missing_dna": [],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/earned-income-credit-status-check.html",
@@ -1397,9 +994,11 @@
         "related"
       ],
       "right_rail_missing": [
+        "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/earned-income-tax-credit-korea.html",
@@ -1427,9 +1026,10 @@
       ],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/education-benefit-eligibility.html",
@@ -1459,7 +1059,7 @@
         "지금 해야 할 행동",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/education-expense-vs-benefit.html",
@@ -1487,7 +1087,7 @@
         "지금 해야 할 행동",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/electricity-bill-easy-calculator-guide.html",
@@ -1513,9 +1113,10 @@
       "missing_dna": [],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/electricity-bill-saving.html",
@@ -1545,7 +1146,7 @@
         "지금 해야 할 행동",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/electricity-discount-card-guide.html",
@@ -1575,56 +1176,10 @@
         "지금 해야 할 행동",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/electronic-tax-invoice-penalty.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/elementary-school-education-support.html",
-      "h1": "초등학생 교육비 지원 총정리, 교육급여·방과후·돌봄 신청법",
-      "visible_chars": 9506,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/elementary-school-education-support.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/emergency-fund-guide.html",
-      "h1": "비상금 얼마가 적당할까? 생활비 1개월부터 만드는 현실적인 순서",
-      "visible_chars": 6229,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/emergency-fund-guide.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -1648,6 +1203,7 @@
         "related"
       ],
       "right_rail_missing": [
+        "계산기/점검도구",
         "함께 볼 관련 글"
       ],
       "right_rail_order_ok": false,
@@ -1675,6 +1231,7 @@
         "related"
       ],
       "right_rail_missing": [
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글"
       ],
@@ -1703,9 +1260,11 @@
         "related"
       ],
       "right_rail_missing": [
+        "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/energy-voucher-2026-application.html",
@@ -1733,7 +1292,7 @@
         "지금 해야 할 행동",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/fan-aircon-combination-saving.html",
@@ -1760,6 +1319,7 @@
         "related"
       ],
       "right_rail_missing": [
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글"
       ],
@@ -1789,9 +1349,10 @@
       ],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/fixed-date-online-application.html",
@@ -1821,7 +1382,7 @@
         "지금 해야 할 행동",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/fixed-speed-aircon-saving.html",
@@ -1851,7 +1412,7 @@
         "지금 해야 할 행동",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/four-major-insurance-deduction-guide.html",
@@ -1877,35 +1438,13 @@
       "missing_dna": [],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/gas-bill-checklist.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/general-vat-common-mistakes.html",
-      "h1": "일반과세자 부가가치세 신고에서 자주 하는 실수 12가지",
-      "visible_chars": 5055,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/general-vat-common-mistakes.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -1928,9 +1467,10 @@
       "missing_dna": [],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/government-benefit-alert-2026.html",
@@ -1955,56 +1495,14 @@
       "generic_reasons": [],
       "missing_dna": [],
       "right_rail_missing": [
-        "지금 해야 할 행동"
+        "지금 해야 할 행동",
+        "계산기/점검도구",
+        "같은 카테고리 글",
+        "함께 볼 관련 글",
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/government-benefit-alert-setup.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/government-benefits-warning.html",
-      "h1": "정부지원금 조회 시 주의할 점",
-      "visible_chars": 5845,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/government-benefits-warning.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/government-support-calendar.html",
-      "h1": "정부지원금 신청 일정 관리 방법, 마감일·갱신일 놓치지 않는 달력 만들기",
-      "visible_chars": 3882,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/government-support-calendar.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -2025,7 +1523,12 @@
       "card_reasons": [],
       "generic_reasons": [],
       "missing_dna": [],
-      "right_rail_missing": [],
+      "right_rail_missing": [
+        "계산기/점검도구",
+        "같은 카테고리 글",
+        "함께 볼 관련 글",
+        "다음 단계/주의사항"
+      ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/government24-benefit-check.html",
       "canonical_problem": false,
@@ -2052,33 +1555,10 @@
         "지금 해야 할 행동",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/grocery-saving-tips.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/health-insurance-refund-guide.html",
-      "h1": "건강보험 환급금 조회부터 신청·입금 확인까지 최종 가이드",
-      "visible_chars": 5138,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/health-insurance-refund-guide.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -2105,7 +1585,7 @@
         "지금 해야 할 행동",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/heating-bill-saving.html",
@@ -2129,55 +1609,11 @@
       "card_reasons": [],
       "generic_reasons": [],
       "missing_dna": [],
-      "right_rail_missing": [],
+      "right_rail_missing": [
+        "계산기/점검도구"
+      ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/home-water-leak-self-check.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/hometax-refund-status.html",
-      "h1": "홈택스 환급 진행상황 조회 방법, 지급 지연 원인까지 확인하세요",
-      "visible_chars": 4772,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/hometax-refund-status.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/hometax-vat-sales-check.html",
-      "h1": "홈택스 부가가치세 매출자료 확인 방법, 카드·현금영수증 누락까지 점검하세요",
-      "visible_chars": 4623,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/hometax-vat-sales-check.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -2202,35 +1638,13 @@
       ],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/housing-benefit-eligibility.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/impulse-buying-control.html",
-      "h1": "충동구매 줄이는 현실적인 방법, 결제 전 24시간 규칙부터 시작하세요",
-      "visible_chars": 5829,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/impulse-buying-control.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -2255,58 +1669,13 @@
       ],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/income-tax-filing-missed-consequences.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/insurance-auto-pay-discount.html",
-      "h1": "보험료 자동이체 할인, 바꾸기 전에 실제 납부액부터 비교하세요",
-      "visible_chars": 6189,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/insurance-auto-pay-discount.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/insurance-surrender-value-check.html",
-      "h1": "보험 해지환급금 조회부터 해지 결정까지, 손실·대출·보장 공백 최종 점검",
-      "visible_chars": 6407,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/insurance-surrender-value-check.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -2331,6 +1700,7 @@
       ],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글"
       ],
@@ -2362,7 +1732,7 @@
         "지금 해야 할 행동",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/inverter-aircon-saving-guide.html",
@@ -2390,9 +1760,10 @@
       ],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/lifelong-education-voucher-application.html",
@@ -2420,9 +1791,10 @@
       ],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/loan-prepayment-fee-check.html",
@@ -2450,9 +1822,10 @@
       ],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/loan-refinancing-check.html",
@@ -2480,9 +1853,10 @@
       ],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/local-tax-refund-guide.html",
@@ -2505,40 +1879,16 @@
       "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
-      "missing_dna": [
-        "related"
-      ],
+      "missing_dna": [],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/long-term-care-insurance-application.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/long-term-repair-reserve-refund-guide.html",
-      "h1": "장기수선충당금 반환, 세입자가 이사할 때 돌려받는 순서",
-      "visible_chars": 5844,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/long-term-repair-reserve-refund-guide.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -2589,34 +1939,12 @@
         "related"
       ],
       "right_rail_missing": [
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/missing-property-tax-bill.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/money-saving-habits.html",
-      "h1": "돈이 모이는 생활 습관",
-      "visible_chars": 4894,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/money-saving-habits.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -2637,7 +1965,12 @@
       "card_reasons": [],
       "generic_reasons": [],
       "missing_dna": [],
-      "right_rail_missing": [],
+      "right_rail_missing": [
+        "계산기/점검도구",
+        "같은 카테고리 글",
+        "함께 볼 관련 글",
+        "다음 단계/주의사항"
+      ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/monthly-budget-planner.html",
       "canonical_problem": false,
@@ -2691,9 +2024,10 @@
         "related"
       ],
       "right_rail_missing": [
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/national-employment-support-eligibility.html",
@@ -2721,35 +2055,13 @@
       ],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/national-pension-additional-payment.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/national-pension-old-age-benefit-guide.html",
-      "h1": "국민연금 노령연금 수급 기준, 언제부터 얼마를 받는지 확인하는 방법",
-      "visible_chars": 8836,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/national-pension-old-age-benefit-guide.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -2774,9 +2086,10 @@
       ],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/national-pension-overpayment-refund.html",
@@ -2803,9 +2116,11 @@
         "related"
       ],
       "right_rail_missing": [
+        "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/national-scholarship-application.html",
@@ -2832,9 +2147,10 @@
         "related"
       ],
       "right_rail_missing": [
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/national-tax-refund-account.html",
@@ -2859,9 +2175,11 @@
       "generic_reasons": [],
       "missing_dna": [],
       "right_rail_missing": [
+        "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/national-tax-refund.html",
@@ -2888,9 +2206,10 @@
         "related"
       ],
       "right_rail_missing": [
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/near-poverty-certificate.html",
@@ -2918,7 +2237,7 @@
         "지금 해야 할 행동",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/over-60-benefits-guide.html",
@@ -2947,7 +2266,7 @@
       "right_rail_missing": [
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/overdraft-account-guide.html",
@@ -2972,56 +2291,11 @@
       "generic_reasons": [],
       "missing_dna": [],
       "right_rail_missing": [
+        "계산기/점검도구",
         "함께 볼 관련 글"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/parental-benefit-guide.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/parking-account-rate-comparison.html",
-      "h1": "파킹통장 금리 비교할 때 볼 항목",
-      "visible_chars": 7333,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/parking-account-rate-comparison.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/peak-season-hotel-saving.html",
-      "h1": "성수기 숙박비 절약 예약 전략",
-      "visible_chars": 6683,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/peak-season-hotel-saving.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -3056,213 +2330,6 @@
       "duplicate_editorial_count": 2
     },
     {
-      "path": "articles/property-tax-calculation-structure.html",
-      "h1": "재산세 과세표준과 세액 계산 구조",
-      "visible_chars": 7198,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/property-tax-calculation-structure.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/property-tax-deadline.html",
-      "h1": "재산세 납부기한과 감면 대상",
-      "visible_chars": 5053,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/property-tax-deadline.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/property-tax-electronic-bill-2026.html",
-      "h1": "위택스 재산세 전자고지 신청 방법",
-      "visible_chars": 9207,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/property-tax-electronic-bill-2026.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/property-tax-installment-application.html",
-      "h1": "재산세 분납 신청 조건과 방법",
-      "visible_chars": 8181,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/property-tax-installment-application.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/property-tax-joint-ownership.html",
-      "h1": "재산세 공동명의 납부 기준",
-      "visible_chars": 7394,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/property-tax-joint-ownership.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/property-tax-july-2026.html",
-      "h1": "2026년 7월 재산세 납부 대상과 기간",
-      "visible_chars": 6128,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/property-tax-july-2026.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/property-tax-july-september-difference.html",
-      "h1": "주택분 재산세 7월과 9월 차이",
-      "visible_chars": 5275,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/property-tax-july-september-difference.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/property-tax-objection-guide.html",
-      "h1": "재산세 이의신청과 과세전적부심 차이",
-      "visible_chars": 5763,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/property-tax-objection-guide.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/property-tax-payment-certificate.html",
-      "h1": "재산세 납부증명서 발급 방법",
-      "visible_chars": 5351,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/property-tax-payment-certificate.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
       "path": "articles/regional-development-bond-refund-guide.html",
       "h1": "자동차 채권 환급금 조회 방법, 지역개발채권 만기상환 확인 순서",
       "visible_chars": 4803,
@@ -3276,7 +2343,12 @@
       "card_reasons": [],
       "generic_reasons": [],
       "missing_dna": [],
-      "right_rail_missing": [],
+      "right_rail_missing": [
+        "계산기/점검도구",
+        "같은 카테고리 글",
+        "함께 볼 관련 글",
+        "다음 단계/주의사항"
+      ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/regional-development-bond-refund-guide.html",
       "canonical_problem": false,
@@ -3303,35 +2375,13 @@
       ],
       "right_rail_missing": [
         "지금 해야 할 행동",
+        "계산기/점검도구",
         "같은 카테고리 글",
         "함께 볼 관련 글",
-        "다음 단계"
+        "다음 단계/주의사항"
       ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/rental-car-vacation-saving.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/rental-contract-reporting-guide.html",
-      "h1": "전월세 신고제 신고 방법과 준비서류",
-      "visible_chars": 3308,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/rental-contract-reporting-guide.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -3352,78 +2402,14 @@
       "card_reasons": [],
       "generic_reasons": [],
       "missing_dna": [],
-      "right_rail_missing": [],
+      "right_rail_missing": [
+        "계산기/점검도구",
+        "같은 카테고리 글",
+        "함께 볼 관련 글",
+        "다음 단계/주의사항"
+      ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/salary-slip-check-guide.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/salary-take-home-easy-calculator-guide.html",
-      "h1": "세전 월급만 입력해 예상 실수령액 확인하는 방법",
-      "visible_chars": 3245,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/salary-take-home-easy-calculator-guide.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/self-employed-income-tax-refund-check.html",
-      "h1": "종합소득세 신고 대상 확인 방법",
-      "visible_chars": 4785,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/self-employed-income-tax-refund-check.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/senior-job-application-guide.html",
-      "h1": "노인일자리 신청 방법, 모집 시기와 사업 유형을 비교하는 체크리스트",
-      "visible_chars": 4778,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/senior-job-application-guide.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -3444,193 +2430,14 @@
       "card_reasons": [],
       "generic_reasons": [],
       "missing_dna": [],
-      "right_rail_missing": [],
+      "right_rail_missing": [
+        "계산기/점검도구",
+        "같은 카테고리 글",
+        "함께 볼 관련 글",
+        "다음 단계/주의사항"
+      ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/severance-pay-calculation-guide.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/severance-pay-easy-calculator-guide.html",
-      "h1": "퇴직금, 입사일과 월급만으로 빠르게 확인하는 방법",
-      "visible_chars": 4130,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/severance-pay-easy-calculator-guide.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/simple-receipt-expense-rules.html",
-      "h1": "사업자 비용처리 가능한 항목 총정리",
-      "visible_chars": 9165,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/simple-receipt-expense-rules.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/simplified-vat-checklist.html",
-      "h1": "간이과세자 부가가치세 신고 체크리스트",
-      "visible_chars": 7358,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/simplified-vat-checklist.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/small-business-closure-support.html",
-      "h1": "폐업 소상공인 원스톱 지원 확인 2026",
-      "visible_chars": 6465,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/small-business-closure-support.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/small-business-delivery-support.html",
-      "h1": "소상공인 배달비 지원사업 찾는 방법",
-      "visible_chars": 7596,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/small-business-delivery-support.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/small-business-electricity-support.html",
-      "h1": "소상공인 전기요금 지원 확인법",
-      "visible_chars": 4160,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/small-business-electricity-support.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/small-business-policy-fund.html",
-      "h1": "소상공인 정책자금 확인·신청 순서 2026",
-      "visible_chars": 6441,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/small-business-policy-fund.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/spending-habits-change.html",
-      "h1": "소비 습관 바꾸는 방법, 지출을 참기보다 구조를 바꾸세요",
-      "visible_chars": 7167,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/spending-habits-change.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -3651,78 +2458,14 @@
       "card_reasons": [],
       "generic_reasons": [],
       "missing_dna": [],
-      "right_rail_missing": [],
+      "right_rail_missing": [
+        "계산기/점검도구",
+        "같은 카테고리 글",
+        "함께 볼 관련 글",
+        "다음 단계/주의사항"
+      ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/student-loan-repayment-guide.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/summer-electricity-tier-check-2026.html",
-      "h1": "여름철 전기요금 누진구간 확인과 사용량 관리 방법",
-      "visible_chars": 5464,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/summer-electricity-tier-check-2026.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/summer-vacation-budget-plan.html",
-      "h1": "여름 휴가비 예산 짜는 방법, 여행 후 카드값까지 계산하세요",
-      "visible_chars": 4588,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/summer-vacation-budget-plan.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/tax-invoice-vs-cash-receipt.html",
-      "h1": "현금영수증 매출 조회 방법, 누락·중복까지 확인하는 순서",
-      "visible_chars": 6314,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/tax-invoice-vs-cash-receipt.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -3743,7 +2486,12 @@
       "card_reasons": [],
       "generic_reasons": [],
       "missing_dna": [],
-      "right_rail_missing": [],
+      "right_rail_missing": [
+        "계산기/점검도구",
+        "같은 카테고리 글",
+        "함께 볼 관련 글",
+        "다음 단계/주의사항"
+      ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/telecom-unclaimed-refund.html",
       "canonical_problem": false,
@@ -3792,124 +2540,14 @@
       "card_reasons": [],
       "generic_reasons": [],
       "missing_dna": [],
-      "right_rail_missing": [],
+      "right_rail_missing": [
+        "계산기/점검도구",
+        "같은 카테고리 글",
+        "함께 볼 관련 글",
+        "다음 단계/주의사항"
+      ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/unemployment-benefit-checklist.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/vat-final-return-2026-july.html",
-      "h1": "2026년 1기 부가가치세 확정신고 방법과 공식 기한",
-      "visible_chars": 4854,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/vat-final-return-2026-july.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/vat-input-tax-deduction-2026.html",
-      "h1": "부가가치세 매입세액 공제·불공제 판단법 2026",
-      "visible_chars": 8432,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/vat-input-tax-deduction-2026.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/vat-payment-extension-guide.html",
-      "h1": "부가가치세 신고 후 납부기한 연장 신청 방법",
-      "visible_chars": 5785,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/vat-payment-extension-guide.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/vat-sales-omission-check-2026.html",
-      "h1": "부가가치세 신고 전 매출 누락 확인 방법",
-      "visible_chars": 5030,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/vat-sales-omission-check-2026.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/vat-zero-sales-filing-2026.html",
-      "h1": "매출이 없어도 부가가치세 신고해야 할까? 무실적 신고 방법",
-      "visible_chars": 4903,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/vat-zero-sales-filing-2026.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
@@ -3930,7 +2568,12 @@
       "card_reasons": [],
       "generic_reasons": [],
       "missing_dna": [],
-      "right_rail_missing": [],
+      "right_rail_missing": [
+        "계산기/점검도구",
+        "같은 카테고리 글",
+        "함께 볼 관련 글",
+        "다음 단계/주의사항"
+      ],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/vehicle-inspection-reservation-guide.html",
       "canonical_problem": false,
@@ -3938,216 +2581,86 @@
       "duplicate_h1_count": 1,
       "duplicate_toc_count": 1,
       "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/water-bill-saving.html",
-      "h1": "수도요금 절약 방법, 누수 확인부터 사용량 줄이기까지",
-      "visible_chars": 4040,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/water-bill-saving.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/weekly-holiday-pay-guide.html",
-      "h1": "주휴수당 조건과 계산 방법, 내가 받을 수 있는지 확인하는 순서",
-      "visible_chars": 7068,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/weekly-holiday-pay-guide.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
-    },
-    {
-      "path": "articles/youth-housing-benefit-separate-payment.html",
-      "h1": "청년 주거급여 분리지급 확인 방법",
-      "visible_chars": 4389,
-      "explorer": {
-        "data": true,
-        "js": true,
-        "css": true
-      },
-      "explorer_missing": [],
-      "blue_reasons": [],
-      "card_reasons": [],
-      "generic_reasons": [],
-      "missing_dna": [],
-      "right_rail_missing": [],
-      "right_rail_order_ok": false,
-      "canonical": "https://savingio.com/articles/youth-housing-benefit-separate-payment.html",
-      "canonical_problem": false,
-      "figure_thumb": false,
-      "duplicate_h1_count": 1,
-      "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 2
     }
   ],
-  "topic_problems": [
-    {
-      "path": "topics/electricity.html",
-      "h1": "전기요금, 어디서부터 확인해야 할까요?",
-      "blue_reasons": [],
-      "card_reasons": [
-        "topic-card"
-      ],
-      "explorer_missing": [],
-      "old_layout": false
-    }
-  ],
+  "topic_problems": [],
   "calculator_problems": [
     {
       "path": "calculators/annual-leave.html",
       "missing": [
-        "master_css",
-        "center_layout",
-        "right_directory"
+        "sv2_shell"
       ],
-      "template_match_score": 1,
+      "template_match_score": 6,
       "blue_reasons": [],
       "card_reasons": []
     },
     {
       "path": "calculators/benefit-scam-risk-check.html",
       "missing": [
-        "master_css",
-        "left_explorer",
-        "center_layout",
-        "right_directory"
+        "body_data_calculator",
+        "sv2_shell",
+        "calculator_engine",
+        "calculator_configs",
+        "brain_data",
+        "brain_js",
+        "brain_css"
       ],
       "template_match_score": 0,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/bmi.html",
-      "missing": [
-        "center_layout",
-        "right_directory"
-      ],
-      "template_match_score": 2,
       "blue_reasons": [],
       "card_reasons": []
     },
     {
       "path": "calculators/car-insurance-renewal-check.html",
       "missing": [
-        "master_css",
-        "left_explorer",
-        "center_layout",
-        "right_directory"
+        "body_data_calculator",
+        "sv2_shell",
+        "calculator_engine",
+        "calculator_configs",
+        "brain_data",
+        "brain_js",
+        "brain_css"
       ],
       "template_match_score": 0,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/cost-rate.html",
-      "missing": [
-        "center_layout",
-        "right_directory"
-      ],
-      "template_match_score": 2,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/dday.html",
-      "missing": [
-        "center_layout",
-        "right_directory"
-      ],
-      "template_match_score": 2,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/discount.html",
-      "missing": [
-        "master_css",
-        "center_layout",
-        "right_directory"
-      ],
-      "template_match_score": 1,
       "blue_reasons": [],
       "card_reasons": []
     },
     {
       "path": "calculators/electricity-cost.html",
       "missing": [
-        "master_css",
-        "left_explorer",
-        "center_layout",
-        "right_directory"
+        "body_data_calculator",
+        "sv2_shell",
+        "calculator_engine",
+        "calculator_configs",
+        "brain_data",
+        "brain_js",
+        "brain_css"
       ],
       "template_match_score": 0,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/electricity.html",
-      "missing": [
-        "center_layout",
-        "right_directory"
-      ],
-      "template_match_score": 2,
       "blue_reasons": [],
       "card_reasons": []
     },
     {
       "path": "calculators/exchange-rate.html",
       "missing": [
-        "master_css",
-        "center_layout",
-        "right_directory"
+        "body_data_calculator",
+        "sv2_shell",
+        "calculator_engine",
+        "calculator_configs"
       ],
-      "template_match_score": 0,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/fuel-efficiency.html",
-      "missing": [
-        "center_layout",
-        "right_directory"
-      ],
-      "template_match_score": 2,
+      "template_match_score": 3,
       "blue_reasons": [],
       "card_reasons": []
     },
     {
       "path": "calculators/hourly-to-monthly.html",
       "missing": [
-        "master_css",
-        "left_explorer",
-        "center_layout",
-        "right_directory"
+        "body_data_calculator",
+        "sv2_shell",
+        "calculator_engine",
+        "calculator_configs",
+        "brain_data",
+        "brain_js",
+        "brain_css"
       ],
       "template_match_score": 0,
       "blue_reasons": [],
@@ -4156,32 +2669,37 @@
     {
       "path": "calculators/hourly.html",
       "missing": [
-        "master_css",
-        "center_layout",
-        "right_directory"
+        "body_data_calculator",
+        "sv2_shell",
+        "calculator_engine",
+        "calculator_configs"
       ],
-      "template_match_score": 0,
+      "template_match_score": 3,
       "blue_reasons": [],
       "card_reasons": []
     },
     {
       "path": "calculators/leave.html",
       "missing": [
-        "master_css",
-        "center_layout",
-        "right_directory"
+        "body_data_calculator",
+        "sv2_shell",
+        "calculator_engine",
+        "calculator_configs"
       ],
-      "template_match_score": 0,
+      "template_match_score": 3,
       "blue_reasons": [],
       "card_reasons": []
     },
     {
       "path": "calculators/loan-payment.html",
       "missing": [
-        "master_css",
-        "left_explorer",
-        "center_layout",
-        "right_directory"
+        "body_data_calculator",
+        "sv2_shell",
+        "calculator_engine",
+        "calculator_configs",
+        "brain_data",
+        "brain_js",
+        "brain_css"
       ],
       "template_match_score": 0,
       "blue_reasons": [],
@@ -4190,75 +2708,46 @@
     {
       "path": "calculators/loan.html",
       "missing": [
-        "master_css",
-        "center_layout",
-        "right_directory"
+        "sv2_shell"
       ],
-      "template_match_score": 1,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/margin.html",
-      "missing": [
-        "center_layout",
-        "right_directory"
-      ],
-      "template_match_score": 2,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/ovulation.html",
-      "missing": [
-        "center_layout",
-        "right_directory"
-      ],
-      "template_match_score": 2,
+      "template_match_score": 6,
       "blue_reasons": [],
       "card_reasons": []
     },
     {
       "path": "calculators/percentage.html",
       "missing": [
-        "master_css",
-        "center_layout",
-        "right_directory"
+        "sv2_shell"
       ],
-      "template_match_score": 1,
+      "template_match_score": 6,
       "blue_reasons": [],
       "card_reasons": []
     },
     {
       "path": "calculators/salary-net-pay.html",
       "missing": [
-        "master_css",
-        "left_explorer",
-        "center_layout",
-        "right_directory"
+        "body_data_calculator",
+        "sv2_shell",
+        "calculator_engine",
+        "calculator_configs",
+        "brain_data",
+        "brain_js",
+        "brain_css"
       ],
       "template_match_score": 0,
       "blue_reasons": [],
       "card_reasons": []
     },
     {
-      "path": "calculators/salary.html",
-      "missing": [
-        "master_css",
-        "center_layout",
-        "right_directory"
-      ],
-      "template_match_score": 1,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
       "path": "calculators/severance-pay.html",
       "missing": [
-        "master_css",
-        "left_explorer",
-        "center_layout",
-        "right_directory"
+        "body_data_calculator",
+        "sv2_shell",
+        "calculator_engine",
+        "calculator_configs",
+        "brain_data",
+        "brain_js",
+        "brain_css"
       ],
       "template_match_score": 0,
       "blue_reasons": [],
@@ -4267,66 +2756,54 @@
     {
       "path": "calculators/severance.html",
       "missing": [
-        "master_css",
-        "center_layout",
-        "right_directory"
+        "sv2_shell"
       ],
-      "template_match_score": 1,
+      "template_match_score": 6,
       "blue_reasons": [],
       "card_reasons": []
     },
     {
       "path": "calculators/traffic-fine-response-check.html",
       "missing": [
-        "master_css",
-        "left_explorer",
-        "center_layout",
-        "right_directory"
+        "body_data_calculator",
+        "sv2_shell",
+        "calculator_engine",
+        "calculator_configs",
+        "brain_data",
+        "brain_js",
+        "brain_css"
       ],
       "template_match_score": 0,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/unit-converter.html",
-      "missing": [
-        "center_layout",
-        "right_directory"
-      ],
-      "template_match_score": 2,
       "blue_reasons": [],
       "card_reasons": []
     },
     {
       "path": "calculators/vat.html",
       "missing": [
-        "master_css",
-        "center_layout",
-        "right_directory"
+        "sv2_shell"
       ],
-      "template_match_score": 1,
+      "template_match_score": 6,
       "blue_reasons": [],
       "card_reasons": []
     },
     {
       "path": "calculators/weekly-pay.html",
       "missing": [
-        "master_css",
-        "center_layout",
-        "right_directory"
+        "sv2_shell"
       ],
-      "template_match_score": 1,
+      "template_match_score": 6,
       "blue_reasons": [],
       "card_reasons": []
     },
     {
       "path": "calculators/weekpay.html",
       "missing": [
-        "master_css",
-        "center_layout",
-        "right_directory"
+        "body_data_calculator",
+        "sv2_shell",
+        "calculator_engine",
+        "calculator_configs"
       ],
-      "template_match_score": 0,
+      "template_match_score": 3,
       "blue_reasons": [],
       "card_reasons": []
     }
