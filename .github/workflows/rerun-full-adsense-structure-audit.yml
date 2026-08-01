@@ -1,0 +1,50 @@
+name: Rerun Full AdSense Structure Audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/rerun-full-adsense-structure-audit.yml'
+      - 'articles/**'
+      - 'topics/**'
+      - 'calculators/**'
+      - 'data/savingio-brain-data.json'
+      - 'data/savingio-search-index.json'
+      - 'data/savingio-navigation-exclusions.json'
+      - 'data/savingio-brain-data.js'
+      - 'js/savingio-article-registry.js'
+      - 'factory/audit_blue_ui_and_missing_pages.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: savingio-full-adsense-structure-audit
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run full structural audit
+        run: python factory/audit_blue_ui_and_missing_pages.py
+      - name: Commit refreshed audit reports
+        run: |
+          git config user.name 'savingio-structure-audit-bot'
+          git config user.email 'savingio-structure-audit-bot@users.noreply.github.com'
+          git add factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.md factory/QA/FULL_AUDIT_RUN_STATUS.txt || true
+          if git diff --cached --quiet; then
+            echo 'No audit report changes'
+            exit 0
+          fi
+          git commit -m 'Refresh full AdSense structural audit [skip ci]'
+          git pull --rebase origin main
+          git push origin HEAD:main
