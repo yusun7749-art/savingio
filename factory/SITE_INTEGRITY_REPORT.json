@@ -1,12 +1,12 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3356,
-  "references_scanned": 60718,
+  "files_scanned": 3355,
+  "references_scanned": 60716,
   "counts": {
-    "broken_references": 3109,
+    "broken_references": 3152,
     "malformed_redirects": 0,
-    "broken_redirect_targets": 4,
+    "broken_redirect_targets": 5,
     "missing_sitemap_targets": 4,
     "publisher_id_drift": 0
   },
@@ -1536,6 +1536,13 @@
     },
     {
       "source": "data/savingio-brain-data.json",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
+      "source": "data/savingio-brain-data.json",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
@@ -1697,6 +1704,13 @@
     },
     {
       "source": "data/savingio-navigation-exclusions.json",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
+      "source": "data/savingio-navigation-exclusions.json",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
@@ -1826,6 +1840,13 @@
       "reference": "/articles/internet-bill-savings.html",
       "expected": [
         "articles/internet-bill-savings.html"
+      ]
+    },
+    {
+      "source": "data/savingio-search-index.json",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
       ]
     },
     {
@@ -2390,6 +2411,13 @@
     },
     {
       "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
+      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
@@ -2848,6 +2876,13 @@
       "reference": "/articles/internet-bill-savings.html",
       "expected": [
         "articles/internet-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
       ]
     },
     {
@@ -5674,6 +5709,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/car-insurance-mileage-refund.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/cash-out-card-points.html",
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
@@ -6325,6 +6367,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/hometax-refund-status.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/how-to-check-hidden-refunds.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -6451,6 +6500,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/irs-tax-refund-status.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/irs-tax-refund-status.html",
+      "reference": "https://savingio.com/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/loan-prepayment-fee-check.html",
       "reference": "/articles/credit-score-management.html",
       "expected": [
@@ -6553,6 +6616,13 @@
       "reference": "/articles/energy-voucher-online-application.html",
       "expected": [
         "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/near-poverty-certificate.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
       ]
     },
     {
@@ -7389,6 +7459,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/car-insurance-mileage-refund.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/cash-out-card-points.html",
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
@@ -8040,6 +8117,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/hometax-refund-status.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/how-to-check-hidden-refunds.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -8166,6 +8250,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/irs-tax-refund-status.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/irs-tax-refund-status.html",
+      "reference": "https://savingio.com/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/loan-prepayment-fee-check.html",
       "reference": "/articles/credit-score-management.html",
       "expected": [
@@ -8268,6 +8366,13 @@
       "reference": "/articles/energy-voucher-online-application.html",
       "expected": [
         "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/near-poverty-certificate.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
       ]
     },
     {
@@ -9104,6 +9209,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/car-insurance-mileage-refund.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/cash-out-card-points.html",
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
@@ -9755,6 +9867,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/hometax-refund-status.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/how-to-check-hidden-refunds.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -9881,6 +10000,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/irs-tax-refund-status.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/irs-tax-refund-status.html",
+      "reference": "https://savingio.com/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/loan-prepayment-fee-check.html",
       "reference": "/articles/credit-score-management.html",
       "expected": [
@@ -9983,6 +10116,13 @@
       "reference": "/articles/energy-voucher-online-application.html",
       "expected": [
         "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/near-poverty-certificate.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
       ]
     },
     {
@@ -10819,6 +10959,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/car-insurance-mileage-refund.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/cash-out-card-points.html",
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
@@ -11470,6 +11617,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/hometax-refund-status.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/how-to-check-hidden-refunds.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -11596,6 +11750,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/irs-tax-refund-status.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/irs-tax-refund-status.html",
+      "reference": "https://savingio.com/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/loan-prepayment-fee-check.html",
       "reference": "/articles/credit-score-management.html",
       "expected": [
@@ -11698,6 +11866,13 @@
       "reference": "/articles/energy-voucher-online-application.html",
       "expected": [
         "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/near-poverty-certificate.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
       ]
     },
     {
@@ -12534,6 +12709,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/car-insurance-mileage-refund.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/cash-out-card-points.html",
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
@@ -13185,6 +13367,13 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/hometax-refund-status.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/how-to-check-hidden-refunds.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -13311,6 +13500,20 @@
       ]
     },
     {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/irs-tax-refund-status.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/irs-tax-refund-status.html",
+      "reference": "https://savingio.com/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/loan-prepayment-fee-check.html",
       "reference": "/articles/credit-score-management.html",
       "expected": [
@@ -13413,6 +13616,13 @@
       "reference": "/articles/energy-voucher-online-application.html",
       "expected": [
         "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/near-poverty-certificate.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
       ]
     },
     {
@@ -14273,6 +14483,13 @@
     },
     {
       "source": "factory/backups/inbox/20260716-235745/index.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260716-235745/index.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
@@ -14614,6 +14831,13 @@
       "reference": "/articles/internet-bill-savings.html",
       "expected": [
         "articles/internet-bill-savings.html"
+      ]
+    },
+    {
+      "source": "factory/backups/inbox/20260717-001256/index.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
       ]
     },
     {
@@ -15574,6 +15798,13 @@
     },
     {
       "source": "factory/output/article_catalog.json",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_catalog.json",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
@@ -15875,6 +16106,13 @@
     },
     {
       "source": "factory/output/article_connection_batches/manifest.json",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_connection_batches/manifest.json",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
@@ -16130,6 +16368,13 @@
       "reference": "/articles/subscription-audit-checklist.html",
       "expected": [
         "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/car-insurance-mileage-refund.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
       ]
     },
     {
@@ -16784,6 +17029,13 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/hometax-refund-status.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/how-to-check-hidden-refunds.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -16910,6 +17162,20 @@
       ]
     },
     {
+      "source": "factory/output/article_remodel_test/site/articles/irs-tax-refund-status.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/irs-tax-refund-status.html",
+      "reference": "https://savingio.com/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
       "source": "factory/output/article_remodel_test/site/articles/loan-prepayment-fee-check.html",
       "reference": "/articles/credit-score-management.html",
       "expected": [
@@ -17012,6 +17278,13 @@
       "reference": "/articles/energy-voucher-online-application.html",
       "expected": [
         "articles/energy-voucher-online-application.html"
+      ]
+    },
+    {
+      "source": "factory/output/article_remodel_test/site/articles/near-poverty-certificate.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
       ]
     },
     {
@@ -20381,6 +20654,13 @@
     },
     {
       "source": "factory/output/link_graph.json",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
+      "source": "factory/output/link_graph.json",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
@@ -21496,6 +21776,20 @@
       ]
     },
     {
+      "source": "irs-tax-refund-status.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
+      "source": "irs-tax-refund-status.html",
+      "reference": "https://savingio.com/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
       "source": "js/article-navigation.js",
       "reference": "${href}",
       "expected": [
@@ -21518,6 +21812,13 @@
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
+      ]
+    },
+    {
+      "source": "js/articles.html",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
       ]
     },
     {
@@ -22115,6 +22416,11 @@
   ],
   "malformed_redirects": [],
   "broken_redirect_targets": [
+    {
+      "file": "_redirects",
+      "line": 34,
+      "target": "/articles/irs-tax-refund-status.html"
+    },
     {
       "file": "_redirects",
       "line": 40,
