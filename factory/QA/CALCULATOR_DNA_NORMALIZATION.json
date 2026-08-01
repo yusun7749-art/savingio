@@ -1,0 +1,158 @@
+{
+  "config_keys": [
+    "bmi",
+    "costRate",
+    "dday",
+    "discount",
+    "electricity",
+    "fuel",
+    "leave",
+    "loan",
+    "margin",
+    "ovulation",
+    "percentage",
+    "salary",
+    "severance",
+    "unit",
+    "vat",
+    "weekly"
+  ],
+  "normalized": 21,
+  "unchanged": 0,
+  "skipped": 7,
+  "files": [
+    {
+      "file": "annual-leave.html",
+      "status": "normalized",
+      "key": "leave"
+    },
+    {
+      "file": "benefit-scam-risk-check.html",
+      "status": "skipped_no_config"
+    },
+    {
+      "file": "bmi.html",
+      "status": "normalized",
+      "key": "bmi"
+    },
+    {
+      "file": "car-insurance-renewal-check.html",
+      "status": "skipped_no_config"
+    },
+    {
+      "file": "cost-rate.html",
+      "status": "normalized",
+      "key": "costRate"
+    },
+    {
+      "file": "dday.html",
+      "status": "normalized",
+      "key": "dday"
+    },
+    {
+      "file": "discount.html",
+      "status": "normalized",
+      "key": "discount"
+    },
+    {
+      "file": "electricity-cost.html",
+      "status": "normalized",
+      "key": "electricity"
+    },
+    {
+      "file": "electricity.html",
+      "status": "normalized",
+      "key": "electricity"
+    },
+    {
+      "file": "exchange-rate.html",
+      "status": "skipped_no_config"
+    },
+    {
+      "file": "fuel-efficiency.html",
+      "status": "normalized",
+      "key": "fuel"
+    },
+    {
+      "file": "hourly-to-monthly.html",
+      "status": "skipped_no_config"
+    },
+    {
+      "file": "hourly.html",
+      "status": "skipped_no_config"
+    },
+    {
+      "file": "leave.html",
+      "status": "normalized",
+      "key": "leave"
+    },
+    {
+      "file": "loan-payment.html",
+      "status": "normalized",
+      "key": "loan"
+    },
+    {
+      "file": "loan.html",
+      "status": "normalized",
+      "key": "loan"
+    },
+    {
+      "file": "margin.html",
+      "status": "normalized",
+      "key": "margin"
+    },
+    {
+      "file": "ovulation.html",
+      "status": "normalized",
+      "key": "ovulation"
+    },
+    {
+      "file": "percentage.html",
+      "status": "normalized",
+      "key": "percentage"
+    },
+    {
+      "file": "salary-net-pay.html",
+      "status": "normalized",
+      "key": "salary"
+    },
+    {
+      "file": "salary.html",
+      "status": "normalized",
+      "key": "salary"
+    },
+    {
+      "file": "severance-pay.html",
+      "status": "normalized",
+      "key": "severance"
+    },
+    {
+      "file": "severance.html",
+      "status": "normalized",
+      "key": "severance"
+    },
+    {
+      "file": "traffic-fine-response-check.html",
+      "status": "skipped_no_config"
+    },
+    {
+      "file": "unit-converter.html",
+      "status": "normalized",
+      "key": "unit"
+    },
+    {
+      "file": "vat.html",
+      "status": "normalized",
+      "key": "vat"
+    },
+    {
+      "file": "weekly-pay.html",
+      "status": "normalized",
+      "key": "weekly"
+    },
+    {
+      "file": "weekpay.html",
+      "status": "skipped_no_config"
+    }
+  ]
+}
