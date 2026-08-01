@@ -32,55 +32,45 @@ SECTION_RE = re.compile(
 KICKER_RE = re.compile(r'<span\b[^>]*class=["\'][^"\']*\brail-kicker\b[^"\']*["\'][^>]*>.*?</span>', re.I | re.S)
 
 
-def normalize_section(section: str, label: str) -> str:
-    section = KICKER_RE.sub('', section)
-    open_end = section.find('>')
-    if open_end < 0:
-        return section
-    kicker = f'<span class="rail-kicker">{label}</span>'
-    return section[: open_end + 1] + kicker + section[open_end + 1 :]
+def normalize_section(item: str, label: str) -> str:
+    item = KICKER_RE.sub('', item)
+    inner = re.sub(r'^<(?:section|div)\b[^>]*>|</(?:section|div)>$', '', item, flags=re.I | re.S)
+    return f'<section class="rail-section"><span class="rail-kicker">{label}</span>{inner}</section>'
 
 
-def section_inner(section: str) -> str:
-    return re.sub(r'^<(?:section|div)\b[^>]*>|</(?:section|div)>$', '', section, flags=re.I | re.S)
+def section_inner(item: str) -> str:
+    return re.sub(r'^<(?:section|div)\b[^>]*>|</(?:section|div)>$', '', item, flags=re.I | re.S)
 
 
 def normalize_article(path: Path) -> dict:
     text = path.read_text(encoding='utf-8', errors='ignore')
-    m = ASIDE_RE.search(text)
-    if not m:
+    match = ASIDE_RE.search(text)
+    if not match:
         return {"path": path.relative_to(ROOT).as_posix(), "status": "skipped_no_right_rail"}
 
-    body = m.group(2)
-    sections = [match.group(0) for match in SECTION_RE.finditer(body)]
-    if not sections:
+    items = [m.group(0) for m in SECTION_RE.finditer(match.group(2))]
+    if not items:
         return {"path": path.relative_to(ROOT).as_posix(), "status": "skipped_no_sections"}
 
-    original_count = len(sections)
+    before = len(items)
     normalized: list[str] = []
-    for idx in range(5):
-        if idx < len(sections):
-            normalized.append(normalize_section(sections[idx], LABELS[idx]))
+    for index in range(5):
+        if index < before:
+            normalized.append(normalize_section(items[index], LABELS[index]))
         else:
-            normalized.append(f'<section class="rail-section"><span class="rail-kicker">{LABELS[idx]}</span>{FALLBACKS[idx]}</section>')
+            normalized.append(f'<section class="rail-section"><span class="rail-kicker">{LABELS[index]}</span>{FALLBACKS[index]}</section>')
 
-    if len(sections) > 5:
-        extra_inner = ''.join(section_inner(item) for item in sections[5:])
-        closing = '</div>' if normalized[4].lstrip().lower().startswith('<div') else '</section>'
-        normalized[4] = normalized[4].replace(closing, f'<div class="rail-extra">{extra_inner}</div>{closing}', 1)
+    if before > 5:
+        extras = ''.join(section_inner(item) for item in items[5:])
+        normalized[4] = normalized[4].replace('</section>', f'<div class="rail-extra">{extras}</div></section>', 1)
 
-    new_aside = m.group(1) + ''.join(normalized) + m.group(3)
-    new_text = text[: m.start()] + new_aside + text[m.end() :]
-    if new_text == text:
-        return {"path": path.relative_to(ROOT).as_posix(), "status": "unchanged", "sections": original_count}
+    replacement = match.group(1) + ''.join(normalized) + match.group(3)
+    updated = text[:match.start()] + replacement + text[match.end():]
+    if updated == text:
+        return {"path": path.relative_to(ROOT).as_posix(), "status": "unchanged", "sections": before}
 
-    path.write_text(new_text, encoding='utf-8')
-    return {
-        "path": path.relative_to(ROOT).as_posix(),
-        "status": "normalized",
-        "before_sections": original_count,
-        "after_sections": 5,
-    }
+    path.write_text(updated, encoding='utf-8')
+    return {"path": path.relative_to(ROOT).as_posix(), "status": "normalized", "before_sections": before, "after_sections": 5}
 
 
 def main() -> None:
