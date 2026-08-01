@@ -95,3 +95,5 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
+
+# workflow-trigger: 2026-08-01T14:38+09:00
