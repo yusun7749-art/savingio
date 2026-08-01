@@ -1,0 +1,117 @@
+name: Fix runtime audit findings
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fix-runtime-audit-findings.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Repair audited runtime problems
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          # 1) Remove deleted URLs from sitemap.
+          sitemap = Path('sitemap.xml')
+          text = sitemap.read_text(encoding='utf-8')
+          removed_urls = [
+              'https://savingio.com/articles/irs-tax-refund-status.html',
+              'https://savingio.com/articles/small-business-policy-fund-search.html',
+              'https://savingio.com/articles/subsidy24-benefit-search.html',
+          ]
+          for url in removed_urls:
+              text = re.sub(rf'\s*<url><loc>{re.escape(url)}</loc></url>\s*', '\n', text)
+          sitemap.write_text(text, encoding='utf-8')
+
+          # 2) Preserve old URLs with direct 301 redirects to live representative pages.
+          redirects = Path('_redirects')
+          r = redirects.read_text(encoding='utf-8')
+          mapping = {
+              '/articles/irs-tax-refund-status.html': '/articles/hometax-refund-status.html',
+              '/articles/small-business-policy-fund-search.html': '/articles/small-business-policy-fund.html',
+              '/articles/subsidy24-benefit-search.html': '/articles/government24-benefit-check.html',
+          }
+          lines = r.splitlines()
+          output = []
+          seen = set()
+          for line in lines:
+              stripped = line.strip()
+              source = stripped.split()[0] if stripped else ''
+              if source in mapping:
+                  if source not in seen:
+                      output.append(f'{source} {mapping[source]} 301')
+                      seen.add(source)
+              else:
+                  output.append(line)
+          for source, target in mapping.items():
+              if source not in seen:
+                  output.append(f'{source} {target} 301')
+          redirects.write_text('\n'.join(output).rstrip() + '\n', encoding='utf-8')
+
+          # 3) Remove three stale script requests that return HTML 404 responses.
+          stale_scripts = {
+              Path('articles/earned-income-credit-status-check.html'): r'<script[^>]+src=["\']/js/article-layout-dna\.js\?v=1["\'][^>]*>\s*</script>',
+              Path('articles/gas-bill-checklist.html'): r'<script[^>]+src=["\']/js/savingio-brain-navigation-data\.js\?v=12["\'][^>]*>\s*</script>',
+              Path('articles/vat-zero-sales-filing-2026.html'): r'<script[^>]+src=["\']/js/savingio-article-unified-v3036\.js\?v=3038["\'][^>]*>\s*</script>',
+          }
+          for path, pattern in stale_scripts.items():
+              html = path.read_text(encoding='utf-8')
+              html = re.sub(pattern, '', html, flags=re.I)
+              path.write_text(html, encoding='utf-8')
+
+          # 4) Add a consistent footer to standalone search/benefit pages when missing.
+          footer = '''<footer class="site-footer"><div class="footer-inner"><a href="/">Savingio 홈</a> · <a href="/articles/">전체 글</a> · <a href="/categories/">사이트 탐색</a> · <a href="/calculators/">계산기</a> · <a href="/about.html">About</a> · <a href="/privacy.html">개인정보처리방침</a></div></footer>'''
+          for name in ['search.html', 'benefits/basic-livelihood.html', 'benefits/over-60.html']:
+              path = Path(name)
+              html = path.read_text(encoding='utf-8')
+              if not re.search(r'<footer\b', html, flags=re.I):
+                  html = re.sub(r'</body>', footer + '\n</body>', html, count=1, flags=re.I)
+                  path.write_text(html, encoding='utf-8')
+
+          # 5) Fix the Markdown report mobile count bug.
+          audit = Path('qa/playwright/site-audit.mjs')
+          source = audit.read_text(encoding='utf-8')
+          source = source.replace('`- 모바일 문제: **${payload.mobileProblems}개**`', '`- 모바일 문제: **${payload.mobileProblems.length}개**`')
+          audit.write_text(source, encoding='utf-8')
+          PY
+
+      - name: Verify repairs
+        run: |
+          ! grep -q 'articles/irs-tax-refund-status.html</loc>' sitemap.xml
+          ! grep -q 'articles/small-business-policy-fund-search.html</loc>' sitemap.xml
+          ! grep -q 'articles/subsidy24-benefit-search.html</loc>' sitemap.xml
+          grep -q '/articles/irs-tax-refund-status.html /articles/hometax-refund-status.html 301' _redirects
+          grep -q '/articles/small-business-policy-fund-search.html /articles/small-business-policy-fund.html 301' _redirects
+          grep -q '/articles/subsidy24-benefit-search.html /articles/government24-benefit-check.html 301' _redirects
+          ! grep -q '/js/article-layout-dna.js?v=1' articles/earned-income-credit-status-check.html
+          ! grep -q '/js/savingio-brain-navigation-data.js?v=12' articles/gas-bill-checklist.html
+          ! grep -q '/js/savingio-article-unified-v3036.js?v=3038' articles/vat-zero-sales-filing-2026.html
+          grep -q '<footer' search.html
+          grep -q '<footer' benefits/basic-livelihood.html
+          grep -q '<footer' benefits/over-60.html
+          grep -q 'payload.mobileProblems.length' qa/playwright/site-audit.mjs
+
+      - name: Commit repaired files
+        run: |
+          git config user.name 'savingio-runtime-fix-bot'
+          git config user.email 'savingio-runtime-fix-bot@users.noreply.github.com'
+          git add sitemap.xml _redirects search.html benefits/basic-livelihood.html benefits/over-60.html \
+            articles/earned-income-credit-status-check.html articles/gas-bill-checklist.html \
+            articles/vat-zero-sales-filing-2026.html qa/playwright/site-audit.mjs
+          git diff --cached --quiet || git commit -m 'Fix Playwright runtime audit findings [skip ci]'
+          git pull --rebase origin main
+          git push
