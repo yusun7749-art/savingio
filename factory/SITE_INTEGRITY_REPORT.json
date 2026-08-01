@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3320,
-  "references_scanned": 60396,
+  "files_scanned": 3327,
+  "references_scanned": 60439,
   "counts": {
-    "broken_references": 3353,
+    "broken_references": 3355,
     "malformed_redirects": 0,
     "broken_redirect_targets": 5,
     "missing_sitemap_targets": 7,
@@ -1599,51 +1599,44 @@
     },
     {
       "source": "articles/regional-development-bond-refund-guide.html",
-      "reference": "/articles/hidden-money-search.html",
+      "reference": "/calculators/car-tax.html",
       "expected": [
-        "articles/hidden-money-search.html"
+        "calculators/car-tax.html"
       ]
     },
     {
       "source": "articles/regional-development-bond-refund-guide.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
+      "reference": "/categories/car.html",
       "expected": [
-        "articles/subsidy24-benefit-search.html"
+        "categories/car.html"
+      ]
+    },
+    {
+      "source": "articles/rental-contract-reporting-guide.html",
+      "reference": "/articles/moving-address-change-checklist.html",
+      "expected": [
+        "articles/moving-address-change-checklist.html"
+      ]
+    },
+    {
+      "source": "articles/rental-contract-reporting-guide.html",
+      "reference": "/articles/rental-contract-special-clauses.html",
+      "expected": [
+        "articles/rental-contract-special-clauses.html"
       ]
     },
     {
       "source": "articles/salary-take-home-easy-calculator-guide.html",
-      "reference": "/articles/salary-management-guide.html",
+      "reference": "/calculators/freelancer-withholding.html",
       "expected": [
-        "articles/salary-management-guide.html"
+        "calculators/freelancer-withholding.html"
       ]
     },
     {
-      "source": "articles/self-employed-income-tax-refund-check.html",
-      "reference": "/articles/energy-voucher-eligibility-2026.html",
+      "source": "articles/severance-pay-easy-calculator-guide.html",
+      "reference": "/categories/work-income.html",
       "expected": [
-        "articles/energy-voucher-eligibility-2026.html"
-      ]
-    },
-    {
-      "source": "articles/self-employed-income-tax-refund-check.html",
-      "reference": "/articles/vat-final-return-july-2026.html",
-      "expected": [
-        "articles/vat-final-return-july-2026.html"
-      ]
-    },
-    {
-      "source": "articles/self-employed-income-tax-refund-check.html",
-      "reference": "/articles/vat-zero-sales-filing.html",
-      "expected": [
-        "articles/vat-zero-sales-filing.html"
-      ]
-    },
-    {
-      "source": "articles/small-business-electricity-support.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
+        "categories/work-income.html"
       ]
     },
     {
@@ -1711,23 +1704,23 @@
     },
     {
       "source": "articles/vehicle-inspection-reservation-guide.html",
-      "reference": "/articles/vat-final-return-july-2026.html",
+      "reference": "/categories/car.html",
       "expected": [
-        "articles/vat-final-return-july-2026.html"
-      ]
-    },
-    {
-      "source": "articles/vehicle-inspection-reservation-guide.html",
-      "reference": "/articles/vat-zero-sales-filing.html",
-      "expected": [
-        "articles/vat-zero-sales-filing.html"
+        "categories/car.html"
       ]
     },
     {
       "source": "articles/water-bill-saving.html",
-      "reference": "/articles/water-bill-guide.html",
+      "reference": "/articles/upstairs-water-leak-response.html",
       "expected": [
-        "articles/water-bill-guide.html"
+        "articles/upstairs-water-leak-response.html"
+      ]
+    },
+    {
+      "source": "articles/water-bill-saving.html",
+      "reference": "/categories/living-expense.html",
+      "expected": [
+        "categories/living-expense.html"
       ]
     },
     {
@@ -1746,51 +1739,9 @@
     },
     {
       "source": "articles/youth-housing-benefit-separate-payment.html",
-      "reference": "/articles/energy-voucher-application-2026.html",
+      "reference": "/articles/youth-support-programs.html",
       "expected": [
-        "articles/energy-voucher-application-2026.html"
-      ]
-    },
-    {
-      "source": "articles/youth-housing-benefit-separate-payment.html",
-      "reference": "/articles/energy-voucher-application.html",
-      "expected": [
-        "articles/energy-voucher-application.html"
-      ]
-    },
-    {
-      "source": "articles/youth-housing-benefit-separate-payment.html",
-      "reference": "/articles/energy-voucher-balance-check-2026.html",
-      "expected": [
-        "articles/energy-voucher-balance-check-2026.html"
-      ]
-    },
-    {
-      "source": "articles/youth-housing-benefit-separate-payment.html",
-      "reference": "/articles/energy-voucher-balance-use.html",
-      "expected": [
-        "articles/energy-voucher-balance-use.html"
-      ]
-    },
-    {
-      "source": "articles/youth-housing-benefit-separate-payment.html",
-      "reference": "/articles/energy-voucher-documents.html",
-      "expected": [
-        "articles/energy-voucher-documents.html"
-      ]
-    },
-    {
-      "source": "articles/youth-housing-benefit-separate-payment.html",
-      "reference": "/articles/energy-voucher-eligibility-2026.html",
-      "expected": [
-        "articles/energy-voucher-eligibility-2026.html"
-      ]
-    },
-    {
-      "source": "articles/youth-housing-benefit-separate-payment.html",
-      "reference": "/articles/energy-voucher-online-application.html",
-      "expected": [
-        "articles/energy-voucher-online-application.html"
+        "articles/youth-support-programs.html"
       ]
     },
     {
@@ -3370,6 +3321,13 @@
     },
     {
       "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "reference": "/articles/moving-address-change-checklist.html",
+      "expected": [
+        "articles/moving-address-change-checklist.html"
+      ]
+    },
+    {
+      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
       "reference": "/articles/online-income-ideas-for-beginners.html",
       "expected": [
         "articles/online-income-ideas-for-beginners.html"
@@ -3408,6 +3366,13 @@
       "reference": "/articles/refrigerator-summer-electricity-saving.html",
       "expected": [
         "articles/refrigerator-summer-electricity-saving.html"
+      ]
+    },
+    {
+      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "reference": "/articles/rental-contract-special-clauses.html",
+      "expected": [
+        "articles/rental-contract-special-clauses.html"
       ]
     },
     {
@@ -3475,6 +3440,13 @@
     },
     {
       "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "reference": "/articles/upstairs-water-leak-response.html",
+      "expected": [
+        "articles/upstairs-water-leak-response.html"
+      ]
+    },
+    {
+      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
       "reference": "/articles/vat-final-return-deadline-2026.html",
       "expected": [
         "articles/vat-final-return-deadline-2026.html"
@@ -3510,6 +3482,27 @@
     },
     {
       "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "reference": "/articles/youth-support-programs.html",
+      "expected": [
+        "articles/youth-support-programs.html"
+      ]
+    },
+    {
+      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "reference": "/calculators/car-tax.html",
+      "expected": [
+        "calculators/car-tax.html"
+      ]
+    },
+    {
+      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "reference": "/calculators/freelancer-withholding.html",
+      "expected": [
+        "calculators/freelancer-withholding.html"
+      ]
+    },
+    {
+      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
       "reference": "/calculators/monthly-budget.html",
       "expected": [
         "calculators/monthly-budget.html"
@@ -3524,6 +3517,13 @@
     },
     {
       "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "reference": "/categories/car.html",
+      "expected": [
+        "categories/car.html"
+      ]
+    },
+    {
+      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
       "reference": "/categories/household-budget.html",
       "expected": [
         "categories/household-budget.html"
@@ -3534,6 +3534,20 @@
       "reference": "/categories/living-budget.html",
       "expected": [
         "categories/living-budget.html"
+      ]
+    },
+    {
+      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "reference": "/categories/living-expense.html",
+      "expected": [
+        "categories/living-expense.html"
+      ]
+    },
+    {
+      "source": "factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json",
+      "reference": "/categories/work-income.html",
+      "expected": [
+        "categories/work-income.html"
       ]
     },
     {
