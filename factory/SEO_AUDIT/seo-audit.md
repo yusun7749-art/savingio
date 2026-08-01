@@ -4,7 +4,7 @@
 - PASS: 152
 - WARNING: 3
 - FAIL: 0
-- Average score: 92.1
+- Average score: 92.0
 - Thin content (<2500 Korean chars): 1
 - Short content (<4500 Korean chars): 94
 - Missing meta: 0
