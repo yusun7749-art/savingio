@@ -16,7 +16,7 @@
 - topics_scanned: **1**
 - topic_problem_pages: **0**
 - calculators_scanned: **28**
-- calculator_problem_pages: **18**
+- calculator_problem_pages: **7**
 - missing_internal_links: **0**
 
 ## Article 문제 페이지
@@ -33,23 +33,12 @@
 
 | 파일 | 현재 기본틀 누락 | 점수 | 파란 UI |
 |---|---|---:|---|
-| `calculators/annual-leave.html` | sv2_shell | 6/7 | - |
 | `calculators/benefit-scam-risk-check.html` | body_data_calculator, sv2_shell, calculator_engine, calculator_configs, brain_data, brain_js, brain_css | 0/7 | - |
 | `calculators/car-insurance-renewal-check.html` | body_data_calculator, sv2_shell, calculator_engine, calculator_configs, brain_data, brain_js, brain_css | 0/7 | - |
-| `calculators/electricity-cost.html` | body_data_calculator, sv2_shell, calculator_engine, calculator_configs, brain_data, brain_js, brain_css | 0/7 | - |
 | `calculators/exchange-rate.html` | body_data_calculator, sv2_shell, calculator_engine, calculator_configs | 3/7 | - |
 | `calculators/hourly-to-monthly.html` | body_data_calculator, sv2_shell, calculator_engine, calculator_configs, brain_data, brain_js, brain_css | 0/7 | - |
 | `calculators/hourly.html` | body_data_calculator, sv2_shell, calculator_engine, calculator_configs | 3/7 | - |
-| `calculators/leave.html` | body_data_calculator, sv2_shell, calculator_engine, calculator_configs | 3/7 | - |
-| `calculators/loan-payment.html` | body_data_calculator, sv2_shell, calculator_engine, calculator_configs, brain_data, brain_js, brain_css | 0/7 | - |
-| `calculators/loan.html` | sv2_shell | 6/7 | - |
-| `calculators/percentage.html` | sv2_shell | 6/7 | - |
-| `calculators/salary-net-pay.html` | body_data_calculator, sv2_shell, calculator_engine, calculator_configs, brain_data, brain_js, brain_css | 0/7 | - |
-| `calculators/severance-pay.html` | body_data_calculator, sv2_shell, calculator_engine, calculator_configs, brain_data, brain_js, brain_css | 0/7 | - |
-| `calculators/severance.html` | sv2_shell | 6/7 | - |
 | `calculators/traffic-fine-response-check.html` | body_data_calculator, sv2_shell, calculator_engine, calculator_configs, brain_data, brain_js, brain_css | 0/7 | - |
-| `calculators/vat.html` | sv2_shell | 6/7 | - |
-| `calculators/weekly-pay.html` | sv2_shell | 6/7 | - |
 | `calculators/weekpay.html` | body_data_calculator, sv2_shell, calculator_engine, calculator_configs | 3/7 | - |
 
 ## 존재하지 않는 내부 링크

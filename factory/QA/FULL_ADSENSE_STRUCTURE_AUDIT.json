@@ -15,21 +15,12 @@
     "topics_scanned": 1,
     "topic_problem_pages": 0,
     "calculators_scanned": 28,
-    "calculator_problem_pages": 18,
+    "calculator_problem_pages": 7,
     "missing_internal_links": 0
   },
   "article_problems": [],
   "topic_problems": [],
   "calculator_problems": [
-    {
-      "path": "calculators/annual-leave.html",
-      "missing": [
-        "sv2_shell"
-      ],
-      "template_match_score": 6,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
     {
       "path": "calculators/benefit-scam-risk-check.html",
       "missing": [
@@ -47,21 +38,6 @@
     },
     {
       "path": "calculators/car-insurance-renewal-check.html",
-      "missing": [
-        "body_data_calculator",
-        "sv2_shell",
-        "calculator_engine",
-        "calculator_configs",
-        "brain_data",
-        "brain_js",
-        "brain_css"
-      ],
-      "template_match_score": 0,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/electricity-cost.html",
       "missing": [
         "body_data_calculator",
         "sv2_shell",
@@ -115,90 +91,6 @@
       "card_reasons": []
     },
     {
-      "path": "calculators/leave.html",
-      "missing": [
-        "body_data_calculator",
-        "sv2_shell",
-        "calculator_engine",
-        "calculator_configs"
-      ],
-      "template_match_score": 3,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/loan-payment.html",
-      "missing": [
-        "body_data_calculator",
-        "sv2_shell",
-        "calculator_engine",
-        "calculator_configs",
-        "brain_data",
-        "brain_js",
-        "brain_css"
-      ],
-      "template_match_score": 0,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/loan.html",
-      "missing": [
-        "sv2_shell"
-      ],
-      "template_match_score": 6,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/percentage.html",
-      "missing": [
-        "sv2_shell"
-      ],
-      "template_match_score": 6,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/salary-net-pay.html",
-      "missing": [
-        "body_data_calculator",
-        "sv2_shell",
-        "calculator_engine",
-        "calculator_configs",
-        "brain_data",
-        "brain_js",
-        "brain_css"
-      ],
-      "template_match_score": 0,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/severance-pay.html",
-      "missing": [
-        "body_data_calculator",
-        "sv2_shell",
-        "calculator_engine",
-        "calculator_configs",
-        "brain_data",
-        "brain_js",
-        "brain_css"
-      ],
-      "template_match_score": 0,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/severance.html",
-      "missing": [
-        "sv2_shell"
-      ],
-      "template_match_score": 6,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
       "path": "calculators/traffic-fine-response-check.html",
       "missing": [
         "body_data_calculator",
@@ -210,24 +102,6 @@
         "brain_css"
       ],
       "template_match_score": 0,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/vat.html",
-      "missing": [
-        "sv2_shell"
-      ],
-      "template_match_score": 6,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/weekly-pay.html",
-      "missing": [
-        "sv2_shell"
-      ],
-      "template_match_score": 6,
       "blue_reasons": [],
       "card_reasons": []
     },
