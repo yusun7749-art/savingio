@@ -1,6 +1,6 @@
 exit_code=0
-commit=729d8e4fcebef18df2d85f8b746976895e4db131
-run_id=30687628860
-generated_at=2026-08-01T06:22:59Z
+commit=bc5697637abe0f86043d50b0b864bd1a0bd9530e
+run_id=30688036629
+generated_at=2026-08-01T06:35:57Z
 --- output ---
-{"articles_scanned": 155, "article_problem_pages": 14, "explorer_missing_pages": 0, "blue_ui_pages": 0, "card_ui_pages": 0, "generic_template_pages": 0, "article_dna_problem_pages": 0, "right_rail_problem_pages": 14, "canonical_problem_pages": 0, "figure_thumb_pages": 0, "duplicate_h1_values": 0, "topics_scanned": 1, "topic_problem_pages": 0, "calculators_scanned": 28, "calculator_problem_pages": 18, "missing_internal_links": 109}
+{"articles_scanned": 155, "article_problem_pages": 0, "explorer_missing_pages": 0, "blue_ui_pages": 0, "card_ui_pages": 0, "generic_template_pages": 0, "article_dna_problem_pages": 0, "right_rail_problem_pages": 0, "canonical_problem_pages": 0, "figure_thumb_pages": 0, "duplicate_h1_values": 0, "topics_scanned": 1, "topic_problem_pages": 0, "calculators_scanned": 28, "calculator_problem_pages": 18, "missing_internal_links": 0}

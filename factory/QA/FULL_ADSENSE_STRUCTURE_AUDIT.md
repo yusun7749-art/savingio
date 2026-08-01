@@ -3,13 +3,13 @@
 ## 요약
 
 - articles_scanned: **155**
-- article_problem_pages: **14**
+- article_problem_pages: **0**
 - explorer_missing_pages: **0**
 - blue_ui_pages: **0**
 - card_ui_pages: **0**
 - generic_template_pages: **0**
 - article_dna_problem_pages: **0**
-- right_rail_problem_pages: **14**
+- right_rail_problem_pages: **0**
 - canonical_problem_pages: **0**
 - figure_thumb_pages: **0**
 - duplicate_h1_values: **0**
@@ -23,20 +23,6 @@
 
 | 파일 | Explorer | 파란 UI | 카드 UI | DNA 누락 | 우측 5영역 | canonical |
 |---|---|---|---|---|---|---|
-| `articles/basic-livelihood-discounts.html` | - | - | - | - | 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/beginner-budget-plan.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/beginner-money-management.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/government-benefit-alert-setup.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/government24-benefit-check.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/monthly-budget-planner.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/over-60-benefits-guide.html` | - | - | - | - | 다음 단계/주의사항 | - |
-| `articles/regional-development-bond-refund-guide.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/salary-slip-check-guide.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/severance-pay-calculation-guide.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/student-loan-repayment-guide.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/telecom-unclaimed-refund.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/unemployment-benefit-checklist.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
-| `articles/vehicle-inspection-reservation-guide.html` | - | - | - | - | 계산기/점검도구, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계/주의사항 | - |
 
 ## Topic 문제 페이지
 

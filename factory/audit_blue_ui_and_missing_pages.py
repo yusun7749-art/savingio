@@ -114,9 +114,13 @@ def visual_card_reasons(text: str) -> list[str]:
 
 
 def rail_section(text: str) -> str:
-    matches = re.findall(r"<(?:aside|div)[^>]+class=[\"'][^\"']*(?:right-rail|right\b|sidebar)[^\"']*[\"'][^>]*>(.*?)</(?:aside|div)>", text, re.I | re.S)
-    return max(matches, key=len) if matches else ""
-
+    # Keep opening and closing tags paired. The old mixed-tag pattern
+    # stopped an aside at the first nested div and produced false errors.
+    aside = re.search(r"<aside[^>]+class=[\"'][^\"']*(?:right-rail|right\b|sidebar)[^\"']*[\"'][^>]*>(.*?)</aside>", text, re.I | re.S)
+    if aside:
+        return aside.group(1)
+    div = re.search(r"<div[^>]+class=[\"'][^\"']*(?:right-rail|right\b|sidebar)[^\"']*[\"'][^>]*>(.*?)</div>", text, re.I | re.S)
+    return div.group(1) if div else ""
 
 def scan_rail(text: str) -> tuple[list[str], bool]:
     area = rail_section(text)
