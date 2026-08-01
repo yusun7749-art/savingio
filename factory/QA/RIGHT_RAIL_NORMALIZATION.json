@@ -1,7 +1,7 @@
 {
   "scanned": 155,
-  "normalized": 9,
-  "unchanged": 146,
+  "normalized": 24,
+  "unchanged": 131,
   "skipped": 0,
   "results": [
     {
@@ -46,9 +46,8 @@
     },
     {
       "path": "articles/bank-account-budgeting.html",
-      "status": "normalized",
-      "before_sections": 5,
-      "after_sections": 5
+      "status": "unchanged",
+      "sections": 5
     },
     {
       "path": "articles/bank-fee-saving.html",
@@ -57,13 +56,15 @@
     },
     {
       "path": "articles/basic-livelihood-discounts.html",
-      "status": "unchanged",
-      "sections": 5
+      "status": "normalized",
+      "before_sections": 5,
+      "after_sections": 5
     },
     {
       "path": "articles/basic-pension-application-guide.html",
-      "status": "unchanged",
-      "sections": 5
+      "status": "normalized",
+      "before_sections": 5,
+      "after_sections": 5
     },
     {
       "path": "articles/beginner-budget-plan.html",
@@ -82,28 +83,33 @@
     },
     {
       "path": "articles/budget-app-guide.html",
-      "status": "unchanged",
-      "sections": 5
+      "status": "normalized",
+      "before_sections": 5,
+      "after_sections": 5
     },
     {
       "path": "articles/building-land-property-tax.html",
-      "status": "unchanged",
-      "sections": 5
+      "status": "normalized",
+      "before_sections": 5,
+      "after_sections": 5
     },
     {
       "path": "articles/business-card-hometax-registration.html",
-      "status": "unchanged",
-      "sections": 5
+      "status": "normalized",
+      "before_sections": 5,
+      "after_sections": 5
     },
     {
       "path": "articles/business-closure-vat-order.html",
-      "status": "unchanged",
-      "sections": 5
+      "status": "normalized",
+      "before_sections": 5,
+      "after_sections": 5
     },
     {
       "path": "articles/business-phone-expense-deduction.html",
-      "status": "unchanged",
-      "sections": 5
+      "status": "normalized",
+      "before_sections": 5,
+      "after_sections": 5
     },
     {
       "path": "articles/business-vehicle-expense-basics.html",
@@ -137,8 +143,9 @@
     },
     {
       "path": "articles/car-insurance-saving.html",
-      "status": "unchanged",
-      "sections": 5
+      "status": "normalized",
+      "before_sections": 5,
+      "after_sections": 5
     },
     {
       "path": "articles/car-tax-annual-payment.html",
@@ -157,8 +164,9 @@
     },
     {
       "path": "articles/cash-advance-vs-card-loan.html",
-      "status": "unchanged",
-      "sections": 5
+      "status": "normalized",
+      "before_sections": 5,
+      "after_sections": 5
     },
     {
       "path": "articles/cash-out-card-points.html",
@@ -173,14 +181,13 @@
     {
       "path": "articles/check-hidden-refunds.html",
       "status": "normalized",
-      "before_sections": 2,
+      "before_sections": 5,
       "after_sections": 5
     },
     {
       "path": "articles/child-allowance-guide.html",
-      "status": "normalized",
-      "before_sections": 5,
-      "after_sections": 5
+      "status": "unchanged",
+      "sections": 5
     },
     {
       "path": "articles/child-tax-credit-status-check.html",
@@ -189,9 +196,8 @@
     },
     {
       "path": "articles/childcare-service-government-support.html",
-      "status": "normalized",
-      "before_sections": 5,
-      "after_sections": 5
+      "status": "unchanged",
+      "sections": 5
     },
     {
       "path": "articles/cma-account-types-risk.html",
@@ -305,13 +311,15 @@
     },
     {
       "path": "articles/elementary-school-education-support.html",
-      "status": "unchanged",
-      "sections": 5
+      "status": "normalized",
+      "before_sections": 5,
+      "after_sections": 5
     },
     {
       "path": "articles/emergency-fund-guide.html",
-      "status": "unchanged",
-      "sections": 5
+      "status": "normalized",
+      "before_sections": 5,
+      "after_sections": 5
     },
     {
       "path": "articles/emergency-medical-support.html",
@@ -420,20 +428,19 @@
     },
     {
       "path": "articles/housing-benefit-eligibility.html",
-      "status": "normalized",
-      "before_sections": 5,
-      "after_sections": 5
-    },
-    {
-      "path": "articles/impulse-buying-control.html",
       "status": "unchanged",
       "sections": 5
     },
     {
-      "path": "articles/income-tax-filing-missed-consequences.html",
+      "path": "articles/impulse-buying-control.html",
       "status": "normalized",
       "before_sections": 5,
       "after_sections": 5
+    },
+    {
+      "path": "articles/income-tax-filing-missed-consequences.html",
+      "status": "unchanged",
+      "sections": 5
     },
     {
       "path": "articles/insurance-auto-pay-discount.html",
@@ -447,15 +454,13 @@
     },
     {
       "path": "articles/internet-bill-discount.html",
-      "status": "normalized",
-      "before_sections": 5,
-      "after_sections": 5
+      "status": "unchanged",
+      "sections": 5
     },
     {
       "path": "articles/inverter-aircon-saving-guide.html",
-      "status": "normalized",
-      "before_sections": 5,
-      "after_sections": 5
+      "status": "unchanged",
+      "sections": 5
     },
     {
       "path": "articles/lifelong-education-voucher-application.html",
@@ -499,8 +504,9 @@
     },
     {
       "path": "articles/money-saving-habits.html",
-      "status": "unchanged",
-      "sections": 5
+      "status": "normalized",
+      "before_sections": 5,
+      "after_sections": 5
     },
     {
       "path": "articles/monthly-budget-planner.html",
@@ -524,8 +530,9 @@
     },
     {
       "path": "articles/national-pension-old-age-benefit-guide.html",
-      "status": "unchanged",
-      "sections": 5
+      "status": "normalized",
+      "before_sections": 5,
+      "after_sections": 5
     },
     {
       "path": "articles/national-pension-overpayment-refund.html",
@@ -554,9 +561,8 @@
     },
     {
       "path": "articles/over-60-benefits-guide.html",
-      "status": "normalized",
-      "before_sections": 5,
-      "after_sections": 5
+      "status": "unchanged",
+      "sections": 5
     },
     {
       "path": "articles/overdraft-account-guide.html",
@@ -640,8 +646,9 @@
     },
     {
       "path": "articles/rental-contract-reporting-guide.html",
-      "status": "unchanged",
-      "sections": 5
+      "status": "normalized",
+      "before_sections": 5,
+      "after_sections": 5
     },
     {
       "path": "articles/salary-slip-check-guide.html",
@@ -650,18 +657,21 @@
     },
     {
       "path": "articles/salary-take-home-easy-calculator-guide.html",
-      "status": "unchanged",
-      "sections": 5
+      "status": "normalized",
+      "before_sections": 5,
+      "after_sections": 5
     },
     {
       "path": "articles/self-employed-income-tax-refund-check.html",
-      "status": "unchanged",
-      "sections": 5
+      "status": "normalized",
+      "before_sections": 5,
+      "after_sections": 5
     },
     {
       "path": "articles/senior-job-application-guide.html",
-      "status": "unchanged",
-      "sections": 5
+      "status": "normalized",
+      "before_sections": 5,
+      "after_sections": 5
     },
     {
       "path": "articles/severance-pay-calculation-guide.html",
@@ -670,8 +680,9 @@
     },
     {
       "path": "articles/severance-pay-easy-calculator-guide.html",
-      "status": "unchanged",
-      "sections": 5
+      "status": "normalized",
+      "before_sections": 5,
+      "after_sections": 5
     },
     {
       "path": "articles/simple-receipt-expense-rules.html",
@@ -695,8 +706,9 @@
     },
     {
       "path": "articles/small-business-electricity-support.html",
-      "status": "unchanged",
-      "sections": 5
+      "status": "normalized",
+      "before_sections": 5,
+      "after_sections": 5
     },
     {
       "path": "articles/small-business-policy-fund.html",
@@ -775,18 +787,21 @@
     },
     {
       "path": "articles/water-bill-saving.html",
-      "status": "unchanged",
-      "sections": 5
+      "status": "normalized",
+      "before_sections": 5,
+      "after_sections": 5
     },
     {
       "path": "articles/weekly-holiday-pay-guide.html",
-      "status": "unchanged",
-      "sections": 5
+      "status": "normalized",
+      "before_sections": 5,
+      "after_sections": 5
     },
     {
       "path": "articles/youth-housing-benefit-separate-payment.html",
-      "status": "unchanged",
-      "sections": 5
+      "status": "normalized",
+      "before_sections": 5,
+      "after_sections": 5
     }
   ]
 }
