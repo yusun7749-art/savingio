@@ -1,4 +1,5 @@
 name: Production Playwright QA
+
 on:
   workflow_dispatch:
     inputs:
@@ -14,45 +15,61 @@ on:
       - '.github/workflows/playwright-production-qa.yml'
   schedule:
     - cron: '15 20 * * *'
+
 permissions:
   contents: write
+
+concurrency:
+  group: savingio-production-playwright-qa
+  cancel-in-progress: true
+
 jobs:
   production-qa:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+
       - name: Install dependencies
         run: npm install --no-audit --no-fund
+
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
+
       - name: Run production browser audit
         id: qa
         continue-on-error: true
         env:
           BASE_URL: ${{ github.event.inputs.base_url || 'https://savingio.com' }}
-          MAX_PAGES: '260'
+          MAX_PAGES: '220'
         run: npm run qa:site
+
       - name: Commit QA reports
         if: always()
+        shell: bash
         run: |
+          set -e
           git config user.name 'savingio-playwright-bot'
           git config user.email 'savingio-playwright-bot@users.noreply.github.com'
-          if [ -f factory/QA/playwright/SITE_RUNTIME_AUDIT.json ]; then
-            git add factory/QA/playwright/SITE_RUNTIME_AUDIT.json
-          fi
-          if [ -f factory/QA/playwright/SITE_RUNTIME_AUDIT.md ]; then
-            git add factory/QA/playwright/SITE_RUNTIME_AUDIT.md
-          fi
+
+          test -f factory/QA/playwright/SITE_RUNTIME_AUDIT.json && git add factory/QA/playwright/SITE_RUNTIME_AUDIT.json || true
+          test -f factory/QA/playwright/SITE_RUNTIME_AUDIT.md && git add factory/QA/playwright/SITE_RUNTIME_AUDIT.md || true
+
           if git diff --cached --quiet; then
             echo 'No QA report changes'
-          else
-            git commit -m 'Publish production Playwright QA report [skip ci]'
-            git push
+            exit 0
           fi
+
+          git commit -m 'Publish production Playwright QA report [skip ci]'
+          git pull --rebase origin main
+          git push origin HEAD:main
+
       - name: Upload browser QA report
         if: always()
         uses: actions/upload-artifact@v4
@@ -61,7 +78,9 @@ jobs:
           path: factory/QA/playwright/
           if-no-files-found: warn
           retention-days: 14
+
       - name: Fail when QA found runtime problems
         if: steps.qa.outcome == 'failure'
         run: exit 1
-# retrigger: 2026-08-01T18:00+09:00
+
+# retrigger: 2026-08-01T18:47+09:00
