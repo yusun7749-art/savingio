@@ -1,0 +1,880 @@
+{
+  "status": "completed_with_warnings",
+  "html_files_changed": 52,
+  "html_links_fixed": 138,
+  "registry_items_removed": 13,
+  "js_files_changed": 0,
+  "js_routes_fixed": 0,
+  "html_files": [
+    {
+      "file": "articles/automatic-payment-saving.html",
+      "changes": [
+        {
+          "old": "/articles/bank-fees-to-avoid.html",
+          "new": "/search.html?q=%ED%94%BC%ED%95%A0%20%EC%88%98%20%EC%9E%88%EB%8A%94%20%EC%9D%80%ED%96%89%20%EC%88%98%EC%88%98%EB%A3%8C%20%ED%99%95%EC%9D%B8%20%EC%9E%91%EA%B2%8C%20%EB%B0%98%EB%B3%B5%EB%90%98%EB%8A%94%20%EC%9D%B4%EC%B2%B4%C2%B7ATM%20%EB%B9%84%EC%9A%A9%EB%8F%84%20%ED%95%A8%EA%BB%98%20%EC%A0%90%EA%B2%80%ED%95%98%EC%84%B8%EC%9A%94."
+        },
+        {
+          "old": "/articles/bank-fees-to-avoid.html",
+          "new": "/search.html?q=%EC%9D%80%ED%96%89%20%EC%88%98%EC%88%98%EB%A3%8C%20%EC%A4%84%EC%9D%B4%EA%B8%B0"
+        }
+      ]
+    },
+    {
+      "file": "articles/bank-account-budgeting.html",
+      "changes": [
+        {
+          "old": "/articles/bank-fees-to-avoid.html",
+          "new": "/search.html?q=%ED%94%BC%ED%95%A0%20%EC%88%98%20%EC%9E%88%EB%8A%94%20%EC%9D%80%ED%96%89%20%EC%88%98%EC%88%98%EB%A3%8C%20%EC%97%AC%EB%9F%AC%20%EA%B3%84%EC%A2%8C%EB%A5%BC%20%EC%9A%B4%EC%98%81%ED%95%A0%20%EB%95%8C%20%EC%83%9D%EA%B8%B8%20%EC%88%98%20%EC%9E%88%EB%8A%94%20%EC%9D%B4%EC%B2%B4%C2%B7ATM%20%EC%88%98%EC%88%98%EB%A3%8C%EB%A5%BC%20%ED%99%95%EC%9D%B8%ED%95%98%EC%84%B8%EC%9A%94."
+        },
+        {
+          "old": "/articles/bank-fees-to-avoid.html",
+          "new": "/search.html?q=%EC%9D%80%ED%96%89%20%EC%88%98%EC%88%98%EB%A3%8C%20%ED%94%BC%ED%95%98%EA%B8%B0"
+        },
+        {
+          "old": "/articles/bank-fees-to-avoid.html",
+          "new": "/search.html?q=%EC%9D%80%ED%96%89%20%EC%88%98%EC%88%98%EB%A3%8C%20%ED%94%BC%ED%95%98%EA%B8%B0"
+        }
+      ]
+    },
+    {
+      "file": "articles/bank-fee-saving.html",
+      "changes": [
+        {
+          "old": "/articles/bank-fees-to-avoid.html",
+          "new": "/search.html?q=%ED%94%BC%ED%95%B4%EC%95%BC%20%ED%95%A0%20%EC%9D%80%ED%96%89%20%EC%88%98%EC%88%98%EB%A3%8C%20%EC%A2%85%EB%A5%98%20%EC%9C%A0%EC%A7%80%EB%B9%84%C2%B7%EC%9D%B4%EC%B2%B4%C2%B7ATM%20%EB%93%B1%20%EB%B0%98%EB%B3%B5%EB%90%98%EB%8A%94%20%EB%B9%84%EC%9A%A9%EC%9D%84%20%ED%95%AD%EB%AA%A9%EB%B3%84%EB%A1%9C%20%EC%A0%90%EA%B2%80%ED%95%98%EC%84%B8%EC%9A%94."
+        },
+        {
+          "old": "/articles/bank-fees-to-avoid.html",
+          "new": "/search.html?q=%ED%94%BC%ED%95%B4%EC%95%BC%20%ED%95%A0%20%EC%9D%80%ED%96%89%20%EC%88%98%EC%88%98%EB%A3%8C"
+        },
+        {
+          "old": "/articles/bank-fees-to-avoid.html",
+          "new": "/search.html?q=%EC%9D%80%ED%96%89%20%EB%B9%84%EC%9A%A9%20%EC%A0%90%EA%B2%80"
+        }
+      ]
+    },
+    {
+      "file": "articles/business-phone-expense-deduction.html",
+      "changes": [
+        {
+          "old": "/articles/business-expense-proof-guide.html",
+          "new": "/search.html?q=%EC%82%AC%EC%97%85%20%EA%B2%BD%EB%B9%84%20%EC%A6%9D%EB%B9%99%20%EC%A0%95%EB%A6%AC"
+        }
+      ]
+    },
+    {
+      "file": "articles/business-vehicle-expense-basics.html",
+      "changes": [
+        {
+          "old": "/articles/bank-fees-to-avoid.html",
+          "new": "/search.html?q=%ED%94%BC%ED%95%A0%20%EC%88%98%20%EC%9E%88%EB%8A%94%20%EC%9D%80%ED%96%89%20%EC%88%98%EC%88%98%EB%A3%8C"
+        }
+      ]
+    },
+    {
+      "file": "articles/cancel-unused-subscriptions.html",
+      "changes": [
+        {
+          "old": "/articles/bank-fees-to-avoid.html",
+          "new": "/search.html?q=%EC%9E%91%EA%B2%8C%20%EB%B0%98%EB%B3%B5%EB%90%98%EB%8A%94%20%EC%9D%80%ED%96%89%20%EC%88%98%EC%88%98%EB%A3%8C%20%ED%99%95%EC%9D%B8%20%EA%B5%AC%EB%8F%85%20%EB%8B%A4%EC%9D%8C%EC%9C%BC%EB%A1%9C%20%EB%86%93%EC%B9%98%EA%B8%B0%20%EC%89%AC%EC%9A%B4%20%EB%B0%98%EB%B3%B5%20%EB%B9%84%EC%9A%A9%EC%9D%84%20%EC%A0%90%EA%B2%80%ED%95%98%EC%84%B8%EC%9A%94."
+        },
+        {
+          "old": "/articles/bank-fees-to-avoid.html",
+          "new": "/search.html?q=%EC%9D%80%ED%96%89%20%EC%88%98%EC%88%98%EB%A3%8C%20%EC%A4%84%EC%9D%B4%EA%B8%B0"
+        }
+      ]
+    },
+    {
+      "file": "articles/car-aircon-fuel-saving.html",
+      "changes": [
+        {
+          "old": "/articles/bank-fees-to-avoid.html",
+          "new": "/search.html?q=%ED%94%BC%ED%95%A0%20%EC%88%98%20%EC%9E%88%EB%8A%94%20%EC%9D%80%ED%96%89%20%EC%88%98%EC%88%98%EB%A3%8C"
+        }
+      ]
+    },
+    {
+      "file": "articles/cash-advance-vs-card-loan.html",
+      "changes": [
+        {
+          "old": "/articles/credit-score-management.html",
+          "new": "/search.html?q=%EC%8B%A0%EC%9A%A9%EC%A0%90%EC%88%98%20%EA%B4%80%EB%A6%AC%20%EB%B0%A9%EB%B2%95%20%EB%8C%80%EC%B6%9C%20%EC%A0%84%ED%9B%84%20%ED%99%95%EC%9D%B8%ED%95%A0%20%EC%8B%A0%EC%9A%A9%EA%B4%80%EB%A6%AC%20%EC%8A%B5%EA%B4%80%EA%B3%BC%20%EC%A0%90%EA%B2%80%20%EC%88%9C%EC%84%9C%EC%9E%85%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/credit-score-management.html",
+          "new": "/search.html?q=%EC%8B%A0%EC%9A%A9%EC%A0%90%EC%88%98%20%EA%B4%80%EB%A6%AC"
+        }
+      ]
+    },
+    {
+      "file": "articles/check-hidden-refunds.html",
+      "changes": [
+        {
+          "old": "/articles/health-insurance-overpayment-refund.html",
+          "new": "/search.html?q=%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%EB%A3%8C%20%EA%B3%BC%EC%98%A4%EB%82%A9%20%ED%99%98%EA%B8%89%20%EC%9E%90%EA%B2%A9%20%EB%B3%80%EB%8F%99%EA%B3%BC%20%EC%9D%B4%EC%A4%91%20%EB%82%A9%EB%B6%80%20%ED%9B%84%20%ED%99%95%EC%9D%B8%ED%95%A0%20%ED%95%AD%EB%AA%A9"
+        },
+        {
+          "old": "/articles/hidden-money-search.html",
+          "new": "/search.html?q=%EC%88%A8%EC%9D%80%20%EB%8F%88%20%EC%B0%BE%EA%B8%B0"
+        }
+      ]
+    },
+    {
+      "file": "articles/child-allowance-guide.html",
+      "changes": [
+        {
+          "old": "/articles/bank-fees-to-avoid.html",
+          "new": "/search.html?q=%ED%94%BC%ED%95%A0%20%EC%88%98%20%EC%9E%88%EB%8A%94%20%EC%9D%80%ED%96%89%20%EC%88%98%EC%88%98%EB%A3%8C"
+        }
+      ]
+    },
+    {
+      "file": "articles/child-tax-credit-status-check.html",
+      "changes": [
+        {
+          "old": "/articles/grocery-bill-savings.html",
+          "new": "/search.html?q=%EC%8B%9D%EB%B9%84%20%EC%A4%84%EC%9D%B4%EB%8A%94%20%EC%B2%B4%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%8A%B8"
+        },
+        {
+          "old": "/articles/phone-bill-saving.html",
+          "new": "/search.html?q=%ED%86%B5%EC%8B%A0%EB%B9%84%20%EC%A0%88%EC%95%BD%20%EB%B0%A9%EB%B2%95"
+        }
+      ]
+    },
+    {
+      "file": "articles/childcare-service-government-support.html",
+      "changes": [
+        {
+          "old": "/articles/grocery-bill-savings.html",
+          "new": "/search.html?q=%EC%8B%9D%EB%B9%84%20%EC%A4%84%EC%9D%B4%EB%8A%94%20%EB%B0%A9%EB%B2%95"
+        }
+      ]
+    },
+    {
+      "file": "articles/cma-account-types-risk.html",
+      "changes": [
+        {
+          "old": "/articles/bank-fees-to-avoid.html",
+          "new": "/search.html?q=%EC%9D%80%ED%96%89%20%EC%88%98%EC%88%98%EB%A3%8C%20%EC%A4%84%EC%9D%B4%EA%B8%B0"
+        }
+      ]
+    },
+    {
+      "file": "articles/credit-card-billing-cycle-guide.html",
+      "changes": [
+        {
+          "old": "/articles/bank-fees-to-avoid.html",
+          "new": "/search.html?q=%EC%9D%80%ED%96%89%20%EC%88%98%EC%88%98%EB%A3%8C%20%EC%A4%84%EC%9D%B4%EA%B8%B0"
+        }
+      ]
+    },
+    {
+      "file": "articles/debit-card-vs-credit-card.html",
+      "changes": [
+        {
+          "old": "/articles/credit-score-management.html",
+          "new": "/search.html?q=%EC%8B%A0%EC%9A%A9%EC%A0%90%EC%88%98%20%EA%B4%80%EB%A6%AC%20%EB%B0%A9%EB%B2%95%20%EC%97%B0%EC%B2%B4%EC%99%80%20%EC%B9%B4%EB%93%9C%20%EC%82%AC%EC%9A%A9%EC%9D%B4%20%EC%8B%A0%EC%9A%A9%EC%97%90%20%EB%AF%B8%EC%B9%98%EB%8A%94%20%EC%98%81%ED%96%A5%20%EC%A0%90%EA%B2%80"
+        },
+        {
+          "old": "/articles/credit-score-management.html",
+          "new": "/search.html?q=%EC%8B%A0%EC%9A%A9%EC%A0%90%EC%88%98%20%EA%B4%80%EB%A6%AC"
+        }
+      ]
+    },
+    {
+      "file": "articles/deposit-protection-limit-guide.html",
+      "changes": [
+        {
+          "old": "/articles/credit-score-management.html",
+          "new": "/search.html?q=%EC%8B%A0%EC%9A%A9%EC%A0%90%EC%88%98%20%EA%B4%80%EB%A6%AC%20%EB%B0%A9%EB%B2%95%20%EC%98%88%EA%B8%88%EA%B3%BC%20%EB%8C%80%EC%B6%9C%EC%9D%84%20%ED%95%A8%EA%BB%98%20%EA%B4%80%EB%A6%AC%ED%95%A0%20%EB%95%8C%20%ED%99%95%EC%9D%B8%ED%95%A0%20%EC%88%9C%EC%84%9C%EB%A5%BC%20%EC%82%B4%ED%8E%B4%EB%B4%85%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/credit-score-management.html",
+          "new": "/search.html?q=%EC%8B%A0%EC%9A%A9%EC%A0%90%EC%88%98%20%EA%B4%80%EB%A6%AC"
+        },
+        {
+          "old": "/articles/bank-fees-to-avoid.html",
+          "new": "/search.html?q=%EC%9D%80%ED%96%89%20%EC%88%98%EC%88%98%EB%A3%8C%20%EC%A4%84%EC%9D%B4%EA%B8%B0"
+        }
+      ]
+    },
+    {
+      "file": "articles/earned-income-credit-payment.html",
+      "changes": [
+        {
+          "old": "/articles/grocery-bill-savings.html",
+          "new": "/search.html?q=%EC%9E%A5%EB%B3%B4%EA%B8%B0%20%EB%B9%84%EC%9A%A9%20%EC%A4%84%EC%9D%B4%EA%B8%B0"
+        },
+        {
+          "old": "/articles/phone-bill-saving.html",
+          "new": "/search.html?q=%ED%86%B5%EC%8B%A0%EB%B9%84%20%EC%A0%88%EC%95%BD"
+        }
+      ]
+    },
+    {
+      "file": "articles/emergency-medical-support.html",
+      "changes": [
+        {
+          "old": "/articles/health-insurance-out-of-pocket-refund.html",
+          "new": "/search.html?q=%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EC%83%81%ED%95%9C%EC%A0%9C%20%ED%99%98%EA%B8%89%EA%B8%88%20%ED%99%95%EC%9D%B8%20%EB%B0%A9%EB%B2%95%20%EC%97%B0%EA%B0%84%20%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%20%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EC%95%A1%EC%9D%B4%20%EA%B8%B0%EC%A4%80%EC%9D%84%20%EB%84%98%EC%97%88%EB%8A%94%EC%A7%80%20%ED%99%95%EC%9D%B8%ED%95%98%EC%84%B8%EC%9A%94."
+        },
+        {
+          "old": "/articles/health-insurance-out-of-pocket-refund.html",
+          "new": "/search.html?q=%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EC%83%81%ED%95%9C%EC%A0%9C%20%ED%99%98%EA%B8%89%EA%B8%88"
+        }
+      ]
+    },
+    {
+      "file": "articles/government-benefit-alert-2026.html",
+      "changes": [
+        {
+          "old": "/articles/subsidy24-benefit-search.html",
+          "new": "/search.html?q=%EB%B3%B4%EC%A1%B0%EA%B8%8824%20%ED%98%9C%ED%83%9D%20%EA%B2%80%EC%83%89%20%EB%B0%A9%EB%B2%95%20%EC%A1%B0%EA%B1%B4%EB%B3%84%EB%A1%9C%20%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85%EC%9D%84%20%EC%A2%81%ED%98%80%20%EC%B0%BE%EB%8A%94%20%EB%B0%A9%EB%B2%95"
+        },
+        {
+          "old": "/articles/subsidy24-benefit-search.html",
+          "new": "/search.html?q=%EB%B3%B4%EC%A1%B0%EA%B8%8824%20%EA%B2%80%EC%83%89"
+        }
+      ]
+    },
+    {
+      "file": "articles/grocery-saving-tips.html",
+      "changes": [
+        {
+          "old": "/articles/bank-fees-to-avoid.html",
+          "new": "/search.html?q=%ED%94%BC%ED%95%A0%20%EC%88%98%20%EC%9E%88%EB%8A%94%20%EC%9D%80%ED%96%89%20%EC%88%98%EC%88%98%EB%A3%8C"
+        }
+      ]
+    },
+    {
+      "file": "articles/health-insurance-refund-guide.html",
+      "changes": [
+        {
+          "old": "/articles/health-insurance-overpayment-refund.html",
+          "new": "/search.html?q=%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%EB%A3%8C%20%EA%B3%BC%EC%98%A4%EB%82%A9%20%ED%99%98%EA%B8%89%20%ED%99%95%EC%9D%B8%20%EB%B3%B4%ED%97%98%EB%A3%8C%EB%A5%BC%20%EB%8D%94%20%EB%82%B8%20%EC%9B%90%EC%9D%B8%EA%B3%BC%20%EC%83%81%EA%B3%84%20%EB%82%B4%EC%97%AD%EC%9D%84%20%ED%99%95%EC%9D%B8%ED%95%A9%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/health-insurance-out-of-pocket-refund.html",
+          "new": "/search.html?q=%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EC%83%81%ED%95%9C%EC%95%A1%20%ED%99%98%EA%B8%89%20%ED%99%95%EC%9D%B8%20%EC%9D%98%EB%A3%8C%EB%B9%84%20%ED%99%98%EA%B8%89%20%EB%8C%80%EC%83%81%EA%B3%BC%20%EC%A0%9C%EC%99%B8%20%ED%95%AD%EB%AA%A9%EC%9D%84%20%EC%82%B4%ED%8E%B4%EB%B4%85%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/health-insurance-overpayment-refund.html",
+          "new": "/search.html?q=%EB%B3%B4%ED%97%98%EB%A3%8C%20%EA%B3%BC%EC%98%A4%EB%82%A9%20%ED%99%98%EA%B8%89%20%EC%9D%B4%EC%A4%91%EB%82%A9%EB%B6%80%EC%99%80%20%EC%9E%90%EA%B2%A9%EB%B3%80%EB%8F%99%EC%9D%84%20%ED%99%95%EC%9D%B8%ED%95%A9%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/health-insurance-out-of-pocket-refund.html",
+          "new": "/search.html?q=%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EC%83%81%ED%95%9C%EC%95%A1%20%ED%99%98%EA%B8%89%20%EC%9D%98%EB%A3%8C%EB%B9%84%20%ED%99%98%EA%B8%89%20%EB%8C%80%EC%83%81%EA%B3%BC%20%EC%A0%9C%EC%99%B8%20%ED%95%AD%EB%AA%A9%EC%9D%84%20%ED%99%95%EC%9D%B8%ED%95%A9%EB%8B%88%EB%8B%A4."
+        }
+      ]
+    },
+    {
+      "file": "articles/impulse-buying-control.html",
+      "changes": [
+        {
+          "old": "/categories/living-budget.html",
+          "new": "/search.html?q=%EC%83%9D%ED%99%9C%EB%B9%84%C2%B7%EA%B0%80%EA%B3%84"
+        },
+        {
+          "old": "/categories/living-budget.html",
+          "new": "/search.html?q=%EC%83%9D%ED%99%9C%EB%B9%84%C2%B7%EA%B0%80%EA%B3%84%20%EB%8D%94%EB%B3%B4%EA%B8%B0"
+        }
+      ]
+    },
+    {
+      "file": "articles/loan-prepayment-fee-check.html",
+      "changes": [
+        {
+          "old": "/articles/credit-score-management.html",
+          "new": "/search.html?q=%EC%8B%A0%EC%9A%A9%EC%A0%90%EC%88%98%20%EA%B4%80%EB%A6%AC%20%EB%B0%A9%EB%B2%95"
+        },
+        {
+          "old": "/articles/credit-score-management.html",
+          "new": "/search.html?q=%EC%8B%A0%EC%9A%A9%EC%A0%90%EC%88%98%20%EA%B4%80%EB%A6%AC"
+        }
+      ]
+    },
+    {
+      "file": "articles/loan-refinancing-check.html",
+      "changes": [
+        {
+          "old": "/articles/credit-score-management.html",
+          "new": "/search.html?q=%EC%8B%A0%EC%9A%A9%EC%A0%90%EC%88%98%20%EA%B4%80%EB%A6%AC%20%EB%B0%A9%EB%B2%95"
+        },
+        {
+          "old": "/articles/credit-score-management.html",
+          "new": "/search.html?q=%EC%8B%A0%EC%9A%A9%EC%A0%90%EC%88%98%20%EA%B4%80%EB%A6%AC"
+        }
+      ]
+    },
+    {
+      "file": "articles/local-tax-refund-guide.html",
+      "changes": [
+        {
+          "old": "/articles/health-insurance-overpayment-refund.html",
+          "new": "/search.html?q=%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%EB%A3%8C%20%EA%B3%BC%EC%98%A4%EB%82%A9%20%ED%99%98%EA%B8%89%20%ED%99%95%EC%9D%B8%20%EB%B3%B4%ED%97%98%EB%A3%8C%EB%A5%BC%20%EB%8D%94%20%EB%83%88%EC%9D%84%20%EB%95%8C%20%EC%A1%B0%ED%9A%8C%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95%EC%9E%85%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/health-insurance-overpayment-refund.html",
+          "new": "/search.html?q=%EA%B3%BC%EC%98%A4%EB%82%A9%20%ED%99%98%EA%B8%89"
+        }
+      ]
+    },
+    {
+      "file": "articles/long-term-care-insurance-application.html",
+      "changes": [
+        {
+          "old": "/articles/health-insurance-out-of-pocket-refund.html",
+          "new": "/search.html?q=%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%20%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EC%83%81%ED%95%9C%EC%95%A1%20%ED%99%98%EA%B8%89%20%EC%9D%98%EB%A3%8C%EB%B9%84%EA%B0%80%20%EB%A7%8E%EC%9D%B4%20%EB%82%98%EC%99%94%EC%9D%84%20%EB%95%8C%20%ED%99%98%EA%B8%89%20%EA%B0%80%EB%8A%A5%EC%84%B1%EC%9D%84%20%ED%99%95%EC%9D%B8%ED%95%A9%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/health-insurance-overpayment-refund.html",
+          "new": "/search.html?q=%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%EB%A3%8C%20%EA%B3%BC%EC%98%A4%EB%82%A9%20%ED%99%98%EA%B8%89%20%EB%B3%B4%ED%97%98%EB%A3%8C%EB%A5%BC%20%EB%8D%94%20%EB%83%88%EC%9D%84%20%EB%95%8C%20%EC%A1%B0%ED%9A%8C%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95%EC%9E%85%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/health-insurance-out-of-pocket-refund.html",
+          "new": "/search.html?q=%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EC%83%81%ED%95%9C%20%ED%99%98%EA%B8%89"
+        },
+        {
+          "old": "/articles/health-insurance-overpayment-refund.html",
+          "new": "/search.html?q=%EB%B3%B4%ED%97%98%EB%A3%8C%20%EA%B3%BC%EC%98%A4%EB%82%A9"
+        }
+      ]
+    },
+    {
+      "file": "articles/medical-bill-negotiation.html",
+      "changes": [
+        {
+          "old": "/articles/health-insurance-out-of-pocket-refund.html",
+          "new": "/search.html?q=%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EC%83%81%ED%95%9C%EC%95%A1%20%EC%B4%88%EA%B3%BC%EA%B8%88%20%ED%99%98%EA%B8%89%20%ED%99%95%EC%9D%B8%20%EB%B3%91%EC%9B%90%EB%B9%84%20%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EC%95%A1%EC%9D%B4%20%EC%97%B0%EA%B0%84%20%EC%83%81%ED%95%9C%EC%9D%84%20%EB%84%98%EC%97%88%EB%8A%94%EC%A7%80%20%ED%99%95%EC%9D%B8%ED%95%A9%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/health-insurance-overpayment-refund.html",
+          "new": "/search.html?q=%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%EB%A3%8C%20%EA%B3%BC%EC%98%A4%EB%82%A9%20%ED%99%98%EA%B8%89%EA%B8%88%20%ED%99%95%EC%9D%B8%20%EC%A7%84%EB%A3%8C%EB%B9%84%EA%B0%80%20%EC%95%84%EB%8B%88%EB%9D%BC%20%EB%B3%B4%ED%97%98%EB%A3%8C%EB%A5%BC%20%EB%8D%94%20%EB%82%B8%20%EA%B2%BD%EC%9A%B0%EC%9D%98%20%ED%99%98%EA%B8%89%20%EA%B2%BD%EB%A1%9C%EC%9E%85%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/health-insurance-out-of-pocket-refund.html",
+          "new": "/search.html?q=%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EC%83%81%ED%95%9C%EC%95%A1%20%EC%B4%88%EA%B3%BC%EA%B8%88%20%ED%99%98%EA%B8%89"
+        },
+        {
+          "old": "/articles/health-insurance-overpayment-refund.html",
+          "new": "/search.html?q=%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%EB%A3%8C%20%EA%B3%BC%EC%98%A4%EB%82%A9%20%ED%99%98%EA%B8%89"
+        }
+      ]
+    },
+    {
+      "file": "articles/missing-property-tax-bill.html",
+      "changes": [
+        {
+          "old": "/articles/health-insurance-overpayment-refund.html",
+          "new": "/search.html?q=%EC%9E%98%EB%AA%BB%20%EB%82%B8%20%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%EB%A3%8C%20%ED%99%98%EA%B8%89%20%ED%99%95%EC%9D%B8%20%EC%9D%B4%EC%A4%91%EB%82%A9%EB%B6%80%EB%82%98%20%EA%B3%BC%EC%98%A4%EB%82%A9%EC%9D%B4%20%EC%9D%98%EC%8B%AC%EB%90%A0%20%EB%95%8C%20%ED%99%98%EA%B8%89%20%EC%A0%88%EC%B0%A8%EB%A5%BC%20%ED%99%95%EC%9D%B8%ED%95%A9%EB%8B%88%EB%8B%A4."
+        }
+      ]
+    },
+    {
+      "file": "articles/monthly-rent-tax-credit-documents.html",
+      "changes": [
+        {
+          "old": "/articles/local-tax-refund-claim.html",
+          "new": "/search.html?q=%EC%A7%80%EB%B0%A9%EC%84%B8%20%ED%99%98%EA%B8%89%EA%B8%88%20%EC%A1%B0%ED%9A%8C%EC%99%80%20%EC%8B%A0%EC%B2%AD%20%EB%B0%A9%EB%B2%95%20%EC%9E%98%EB%AA%BB%20%EB%82%B8%20%EC%A7%80%EB%B0%A9%EC%84%B8%EB%82%98%20%ED%99%98%EA%B8%89%20%EC%95%88%EB%82%B4%EB%A5%BC%20%ED%99%95%EC%9D%B8%ED%95%98%EB%8A%94%20%EC%88%9C%EC%84%9C"
+        },
+        {
+          "old": "/articles/local-tax-refund-claim.html",
+          "new": "/search.html?q=%EC%A7%80%EB%B0%A9%EC%84%B8%20%ED%99%98%EA%B8%89%EA%B8%88%20%EC%8B%A0%EC%B2%AD"
+        }
+      ]
+    },
+    {
+      "file": "articles/national-tax-refund-account.html",
+      "changes": [
+        {
+          "old": "/articles/local-tax-refund-claim.html",
+          "new": "/search.html?q=%EC%A7%80%EB%B0%A9%EC%84%B8%20%ED%99%98%EA%B8%89%EA%B8%88%20%EC%A1%B0%ED%9A%8C%EC%99%80%20%EC%8B%A0%EC%B2%AD%20%EA%B5%AD%EC%84%B8%EC%99%80%20%EB%B3%84%EB%8F%84%EB%A1%9C%20%EC%A7%80%EB%B0%A9%EC%84%B8%20%ED%99%98%EA%B8%89%EA%B8%88%EB%8F%84%20%ED%99%95%EC%9D%B8%ED%95%98%EC%84%B8%EC%9A%94."
+        },
+        {
+          "old": "/articles/local-tax-refund-claim.html",
+          "new": "/search.html?q=%EC%A7%80%EB%B0%A9%EC%84%B8%20%ED%99%98%EA%B8%89%EA%B8%88%20%EC%8B%A0%EC%B2%AD"
+        }
+      ]
+    },
+    {
+      "file": "articles/national-tax-refund.html",
+      "changes": [
+        {
+          "old": "/articles/local-tax-refund.html",
+          "new": "/search.html?q=%EC%A7%80%EB%B0%A9%EC%84%B8%20%ED%99%98%EA%B8%89%EA%B8%88%20%EC%A1%B0%ED%9A%8C%20%EA%B5%AD%EC%84%B8%EA%B0%80%20%EC%95%84%EB%8B%8C%20%EC%A7%80%EB%B0%A9%EC%84%B8%20%ED%99%98%EA%B8%89%EC%9D%80%20%EC%9C%84%ED%83%9D%EC%8A%A4%EC%97%90%EC%84%9C%20%ED%99%95%EC%9D%B8%ED%95%A9%EB%8B%88%EB%8B%A4."
+        }
+      ]
+    },
+    {
+      "file": "articles/overdraft-account-guide.html",
+      "changes": [
+        {
+          "old": "/articles/credit-score-management.html",
+          "new": "/search.html?q=%EC%8B%A0%EC%9A%A9%EC%A0%90%EC%88%98%20%EA%B4%80%EB%A6%AC%20%EB%B0%A9%EB%B2%95%20%EB%8C%80%EC%B6%9C%EC%9E%94%EC%95%A1%EA%B3%BC%20%EC%B9%B4%EB%93%9C%20%EC%82%AC%EC%9A%A9%EC%9D%84%20%ED%95%A8%EA%BB%98%20%EA%B4%80%EB%A6%AC%ED%95%98%EB%8A%94%20%EC%88%9C%EC%84%9C%EB%A5%BC%20%ED%99%95%EC%9D%B8%ED%95%98%EC%84%B8%EC%9A%94."
+        },
+        {
+          "old": "/articles/credit-score-management.html",
+          "new": "/search.html?q=%EC%8B%A0%EC%9A%A9%EC%A0%90%EC%88%98%20%EA%B4%80%EB%A6%AC"
+        },
+        {
+          "old": "/articles/bank-fees-to-avoid.html",
+          "new": "/search.html?q=%EC%9D%80%ED%96%89%20%EC%88%98%EC%88%98%EB%A3%8C%20%EC%A4%84%EC%9D%B4%EA%B8%B0"
+        }
+      ]
+    },
+    {
+      "file": "articles/regional-development-bond-refund-guide.html",
+      "changes": [
+        {
+          "old": "/categories/car.html",
+          "new": "/search.html?q=%EC%9E%90%EB%8F%99%EC%B0%A8%C2%B7%EA%B5%90%ED%86%B5"
+        },
+        {
+          "old": "/calculators/car-tax.html",
+          "new": "/search.html?q=%EC%9E%90%EB%8F%99%EC%B0%A8%EC%84%B8%20%EA%B3%84%EC%82%B0%EA%B8%B0"
+        }
+      ]
+    },
+    {
+      "file": "articles/rental-contract-reporting-guide.html",
+      "changes": [
+        {
+          "old": "/articles/rental-contract-special-clauses.html",
+          "new": "/search.html?q=%EC%9E%84%EB%8C%80%EC%B0%A8%EA%B3%84%EC%95%BD%20%ED%8A%B9%EC%95%BD%20%ED%99%95%EC%9D%B8%EB%B2%95%20%EA%B3%84%EC%95%BD%20%EC%A0%84%EC%97%90%20%EB%B6%84%EC%9F%81%EC%9D%84%20%EC%A4%84%EC%9D%B4%EB%8A%94%20%EB%AC%B8%EA%B5%AC"
+        },
+        {
+          "old": "/articles/moving-address-change-checklist.html",
+          "new": "/search.html?q=%EC%9D%B4%EC%82%AC%20%ED%9B%84%20%EC%A3%BC%EC%86%8C%EB%B3%80%EA%B2%BD%20%EC%B2%B4%ED%81%AC"
+        },
+        {
+          "old": "/articles/rental-contract-special-clauses.html",
+          "new": "/search.html?q=%EC%9E%84%EB%8C%80%EC%B0%A8%20%ED%8A%B9%EC%95%BD%20%ED%99%95%EC%9D%B8"
+        }
+      ]
+    },
+    {
+      "file": "articles/salary-take-home-easy-calculator-guide.html",
+      "changes": [
+        {
+          "old": "/calculators/freelancer-withholding.html",
+          "new": "/search.html?q=3.3%25%20%EA%B3%84%EC%82%B0%EA%B8%B0"
+        }
+      ]
+    },
+    {
+      "file": "articles/severance-pay-easy-calculator-guide.html",
+      "changes": [
+        {
+          "old": "/categories/work-income.html",
+          "new": "/search.html?q=%EC%A7%81%EC%9E%A5%C2%B7%EA%B8%89%EC%97%AC"
+        }
+      ]
+    },
+    {
+      "file": "articles/small-business-policy-fund.html",
+      "changes": [
+        {
+          "old": "/articles/government-support-scam-warning-2026.html",
+          "new": "/search.html?q=%EC%A0%95%EB%B6%80%EC%A7%80%EC%9B%90%EA%B8%88%20%EC%82%AC%EC%B9%AD%20%EB%AC%B8%EC%9E%90%20%EA%B5%AC%EB%B3%84%EB%B2%95%20%EC%88%98%EC%88%98%EB%A3%8C%C2%B7%EC%9B%90%EA%B2%A9%EC%A0%9C%EC%96%B4%C2%B7%EA%B0%9C%EC%9D%B8%EA%B3%84%EC%A2%8C%20%EC%86%A1%EA%B8%88%20%EC%9A%94%EA%B5%AC%EB%A5%BC%20%ED%94%BC%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95"
+        },
+        {
+          "old": "/articles/government-support-scam-warning-2026.html",
+          "new": "/search.html?q=%EC%A0%95%EB%B6%80%EC%A7%80%EC%9B%90%EA%B8%88%20%EC%82%AC%EC%B9%AD%20%EC%A3%BC%EC%9D%98"
+        }
+      ]
+    },
+    {
+      "file": "articles/spending-habits-change.html",
+      "changes": [
+        {
+          "old": "/categories/household-budget.html",
+          "new": "/search.html?q=%EC%83%9D%ED%99%9C%EB%B9%84%C2%B7%EA%B0%80%EA%B3%84"
+        },
+        {
+          "old": "/categories/household-budget.html",
+          "new": "/search.html?q=%EC%83%9D%ED%99%9C%EB%B9%84%C2%B7%EA%B0%80%EA%B3%84%20%EB%8D%94%EB%B3%B4%EA%B8%B0"
+        },
+        {
+          "old": "/calculators/monthly-budget.html",
+          "new": "/search.html?q=%EC%9B%94%20%EC%98%88%EC%82%B0%20%EA%B3%84%EC%82%B0%EA%B8%B0"
+        },
+        {
+          "old": "/calculators/savings-goal.html",
+          "new": "/search.html?q=%EC%A0%80%EC%B6%95%20%EB%AA%A9%ED%91%9C%20%EA%B3%84%EC%82%B0%EA%B8%B0"
+        }
+      ]
+    },
+    {
+      "file": "articles/student-loan-repayment-guide.html",
+      "changes": [
+        {
+          "old": "/articles/debt-repayment-strategy.html",
+          "new": "/search.html?q=%EB%B6%80%EC%B1%84%20%EC%83%81%ED%99%98%20%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%20%ED%95%99%EC%9E%90%EA%B8%88%EB%8C%80%EC%B6%9C%EA%B3%BC%20%EA%B3%A0%EA%B8%88%EB%A6%AC%20%EB%B6%80%EC%B1%84%EB%A5%BC%20%ED%95%A8%EA%BB%98%20%EC%A0%95%EB%A6%AC%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95"
+        },
+        {
+          "old": "/articles/debt-repayment-strategy.html",
+          "new": "/search.html?q=%EB%B6%80%EC%B1%84%20%EC%83%81%ED%99%98%20%EC%A0%84%EB%9E%B5"
+        },
+        {
+          "old": "/articles/credit-score-recovery.html",
+          "new": "/search.html?q=%EC%8B%A0%EC%9A%A9%EC%A0%90%EC%88%98%20%ED%9A%8C%EB%B3%B5"
+        },
+        {
+          "old": "/articles/monthly-budget-plan.html",
+          "new": "/search.html?q=%EC%9B%94%20%EC%83%9D%ED%99%9C%EB%B9%84%20%EC%98%88%EC%82%B0"
+        }
+      ]
+    },
+    {
+      "file": "articles/summer-electricity-tier-check-2026.html",
+      "changes": [
+        {
+          "old": "/articles/summer-electricity-tier-check.html",
+          "new": "/search.html?q=%ED%8F%AD%EC%97%BC%20%EC%8B%9C%20%EB%88%84%EC%A7%84%EA%B5%AC%EA%B0%84%20%ED%99%95%EC%9D%B8"
+        }
+      ]
+    },
+    {
+      "file": "articles/vehicle-inspection-reservation-guide.html",
+      "changes": [
+        {
+          "old": "/categories/car.html",
+          "new": "/search.html?q=%EC%9E%90%EB%8F%99%EC%B0%A8%C2%B7%EA%B5%90%ED%86%B5"
+        }
+      ]
+    },
+    {
+      "file": "articles/water-bill-saving.html",
+      "changes": [
+        {
+          "old": "/categories/living-expense.html",
+          "new": "/search.html?q=%EC%83%9D%ED%99%9C%EC%9A%94%EA%B8%88"
+        },
+        {
+          "old": "/articles/upstairs-water-leak-response.html",
+          "new": "/search.html?q=%EC%95%84%EB%9E%AB%EC%A7%91%EC%97%90%EC%84%9C%20%EB%88%84%EC%88%98%20%EC%97%B0%EB%9D%BD%EC%9D%B4%20%EC%99%94%EC%9D%84%20%EB%95%8C%20%EC%9C%97%EC%A7%91%EC%9D%B4%20%EB%B0%94%EB%A1%9C%20%ED%95%B4%EC%95%BC%20%ED%95%A0%20%EC%A1%B0%EC%B9%98"
+        }
+      ]
+    },
+    {
+      "file": "articles/weekly-holiday-pay-guide.html",
+      "changes": [
+        {
+          "old": "/articles/minimum-wage-guide.html",
+          "new": "/search.html?q=%EC%B5%9C%EC%A0%80%EC%9E%84%EA%B8%88%20%EB%AF%B8%EB%8B%AC%20%EC%97%AC%EB%B6%80%EB%A5%BC%20%ED%99%95%EC%9D%B8%ED%95%98%EB%8A%94%20%EC%88%9C%EC%84%9C"
+        },
+        {
+          "old": "/articles/overtime-pay-calculation.html",
+          "new": "/search.html?q=%EC%97%B0%EC%9E%A5%C2%B7%EC%95%BC%EA%B0%84%C2%B7%ED%9C%B4%EC%9D%BC%EA%B7%BC%EB%A1%9C%EC%88%98%EB%8B%B9%20%EA%B3%84%EC%82%B0%20%EB%B0%A9%EB%B2%95"
+        },
+        {
+          "old": "/articles/minimum-wage-guide.html",
+          "new": "/search.html?q=%EC%B5%9C%EC%A0%80%EC%9E%84%EA%B8%88%20%ED%99%95%EC%9D%B8"
+        }
+      ]
+    },
+    {
+      "file": "articles/youth-housing-benefit-separate-payment.html",
+      "changes": [
+        {
+          "old": "/articles/youth-support-programs.html",
+          "new": "/search.html?q=%EC%B2%AD%EB%85%84%20%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85%20%EC%A0%84%EC%B2%B4%20%ED%9D%90%EB%A6%84%20%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0%20%EC%A3%BC%EA%B1%B0%C2%B7%EC%B7%A8%EC%97%85%C2%B7%EA%B8%88%EC%9C%B5%20%EC%A7%80%EC%9B%90%EC%9D%98%20%EA%B2%80%EC%83%89%20%EC%9D%98%EB%8F%84%EB%A5%BC%20%EB%B6%84%EB%A6%AC%ED%95%B4%20%EB%B4%85%EB%8B%88%EB%8B%A4."
+        }
+      ]
+    },
+    {
+      "file": "calculators/hourly-to-monthly.html",
+      "changes": [
+        {
+          "old": "/articles/salary-budget-guide.html",
+          "new": "/search.html?q=%EC%9B%94%EA%B8%89%20%EA%B4%80%EB%A6%AC%20%EB%B0%A9%EB%B2%95%20%EB%B3%B4%EA%B8%B0%20%E2%86%92"
+        }
+      ]
+    },
+    {
+      "file": "categories/finance-credit.html",
+      "changes": [
+        {
+          "old": "/articles/bank-fees-to-avoid.html",
+          "new": "/search.html?q=%EC%9D%80%ED%96%89%20%EC%88%98%EC%88%98%EB%A3%8C%20%EC%95%84%EB%81%BC%EB%8A%94%20%EB%B0%A9%EB%B2%95%20%EC%B4%9D%EC%A0%95%EB%A6%AC%20%EA%B3%84%EC%A2%8C%20%EC%9C%A0%EC%A7%80%EB%B9%84%2C%20%EC%9D%B4%EC%B2%B4%20%EC%88%98%EC%88%98%EB%A3%8C%2C%20ATM%20%EC%88%98%EC%88%98%EB%A3%8C%20%EB%93%B1%20%ED%94%BC%ED%95%A0%20%EC%88%98%20%EC%9E%88%EB%8A%94%20%EC%9D%80%ED%96%89%20%EB%B9%84%EC%9A%A9%EC%9D%84%20%EC%A4%84%EC%9D%B4%EB%8A%94%20%EB%B0%A9%EB%B2%95%EC%9E%85%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/beginner-ai-side-hustles.html",
+          "new": "/search.html?q=%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9D%B4%EB%8F%99%20%7C%20%EC%84%B8%EC%9D%B4%EB%B9%99%EC%9D%B4%EC%98%A4%28Savingio%29%20Savingio%EC%9D%98%20%ED%86%B5%ED%95%A9%EB%90%9C%20%EC%B5%9C%EC%8B%A0%20%ED%8E%98%EC%9D%B4%EC%A7%80%EB%A1%9C%20%EC%9D%B4%EB%8F%99%ED%95%A9%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/credit-score-management.html",
+          "new": "/search.html?q=%EC%8B%A0%EC%9A%A9%EC%A0%90%EC%88%98%20%EA%B4%80%EB%A6%AC%20%EB%B0%A9%EB%B2%95%20%EC%8B%A0%EC%9A%A9%EC%A0%90%EC%88%98%EB%A5%BC%20%EB%8B%A8%EA%B8%B0%EA%B0%84%EC%97%90%20%EC%98%AC%EB%A0%A4%EC%A4%80%EB%8B%A4%EB%8A%94%20%EA%B4%91%EA%B3%A0%EB%B3%B4%EB%8B%A4%20%EC%97%B0%EC%B2%B4%20%EC%98%88%EB%B0%A9%2C%20%ED%95%9C%EB%8F%84%20%EA%B4%80%EB%A6%AC%2C%20%EB%8C%80%EC%B6%9C%20%EC%A0%95%EB%A6%AC%EB%A5%BC%20%ED%86%B5%ED%95%B4%20%EC%A0%90%EC%88%98%EB%A5%BC%20%EC%95%88%EC%A0%95%EC%A0%81%EC%9C%BC%EB%A1%9C%20%EA%B4%80%EB%A6%AC%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95%EC%9D%84%20%EC%84%A4%EB%AA%85%ED%95%A9%EB%8B%88"
+        },
+        {
+          "old": "/articles/credit-score-tips.html",
+          "new": "/search.html?q=%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9D%B4%EB%8F%99%20%7C%20%EC%84%B8%EC%9D%B4%EB%B9%99%EC%9D%B4%EC%98%A4%28Savingio%29%20Savingio%EC%9D%98%20%ED%86%B5%ED%95%A9%EB%90%9C%20%EC%B5%9C%EC%8B%A0%20%ED%8E%98%EC%9D%B4%EC%A7%80%EB%A1%9C%20%EC%9D%B4%EB%8F%99%ED%95%A9%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/grocery-bill-savings.html",
+          "new": "/search.html?q=%EC%8B%9D%EB%B9%84%20%EC%A4%84%EC%9D%B4%EB%8A%94%20%ED%98%84%EC%8B%A4%EC%A0%81%EC%9D%B8%20%EB%B0%A9%EB%B2%95%2C%20%EC%9E%A5%EB%B3%B4%EA%B8%B0%20%EC%A0%84%EB%B6%80%ED%84%B0%20%EB%83%89%EC%9E%A5%EA%B3%A0%EA%B9%8C%EC%A7%80%20%EB%B0%94%EA%BE%B8%EC%84%B8%EC%9A%94%20%EC%99%B8%EC%8B%9D%EB%B9%84%EC%99%80%20%EC%9E%A5%EB%B3%B4%EA%B8%B0%20%EB%B9%84%EC%9A%A9%EC%9D%B4%20%ED%95%A8%EA%BB%98%20%EC%98%A4%EB%A5%BC%20%EB%95%8C%20%EC%8B%9D%EB%B9%84%EB%A5%BC%20%EC%A4%84%EC%9D%B4%EB%A0%A4%EB%A9%B4%20%ED%95%A0%EC%9D%B8%EB%B3%B4%EB%8B%A4%20%EA%B5%AC%EB%A7%A4%20%EC%88%9C%EC%84%9C%EC%99%80%20%EB%B3%B4%EA%B4%80%20"
+        },
+        {
+          "old": "/articles/hidden-money-search.html",
+          "new": "/search.html?q=%EC%88%A8%EC%9D%80%20%EB%8F%88%20%EC%B0%BE%EB%8A%94%20%EB%B0%A9%EB%B2%95%20%EC%88%A8%EC%9D%80%20%EB%8F%88%20%EC%B0%BE%EB%8A%94%20%EB%B0%A9%EB%B2%95"
+        },
+        {
+          "old": "/articles/online-income-ideas-for-beginners.html",
+          "new": "/search.html?q=%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9D%B4%EB%8F%99%20%7C%20%EC%84%B8%EC%9D%B4%EB%B9%99%EC%9D%B4%EC%98%A4%28Savingio%29%20Savingio%EC%9D%98%20%ED%86%B5%ED%95%A9%EB%90%9C%20%EC%B5%9C%EC%8B%A0%20%ED%8E%98%EC%9D%B4%EC%A7%80%EB%A1%9C%20%EC%9D%B4%EB%8F%99%ED%95%A9%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/small-business-policy-fund-search.html",
+          "new": "/search.html?q=%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8%20%EC%A0%95%EC%B1%85%EC%9E%90%EA%B8%88%20%ED%99%95%EC%9D%B8%20%EB%B0%A9%EB%B2%95%20%EA%B3%B5%EC%8B%9D%20%EC%A0%95%EC%B1%85%EC%9E%90%EA%B8%88%20%EA%B3%B5%EA%B3%A0%EB%A5%BC%20%EC%B0%BE%EA%B3%A0%20%EC%A7%80%EC%9B%90%20%EB%8C%80%EC%83%81%EA%B3%BC%20%EC%A0%91%EC%88%98%20%EC%9D%BC%EC%A0%95%EC%9D%84%20%ED%99%95%EC%9D%B8%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95%EC%9E%85%EB%8B%88%EB%8B%A4."
+        }
+      ]
+    },
+    {
+      "file": "categories/government-support.html",
+      "changes": [
+        {
+          "old": "/articles/energy-voucher-application-2026.html",
+          "new": "/search.html?q=2026%EB%85%84%20%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98%20%EC%8B%A0%EC%B2%AD%20%EB%B0%A9%EB%B2%95%EA%B3%BC%20%EC%8B%A0%EC%B2%AD%EA%B8%B0%EA%B0%84%202026%EB%85%84%20%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98%20%EC%8B%A0%EC%B2%AD%EA%B8%B0%EA%B0%84%2C%20%EC%A7%80%EC%9B%90%EB%8C%80%EC%83%81%20%ED%99%95%EC%9D%B8%20%EA%B8%B0%EC%A4%80%2C%20%EB%B3%B5%EC%A7%80%EB%A1%9C%20%EC%98%A8%EB%9D%BC%EC%9D%B8%20%EC%8B%A0%EC%B2%AD%EA%B3%BC%20%ED%96%89%EC%A0%95%EB%B3%B5%EC%A7%80%EC%84%BC%ED%84%B0%20%EB%B0%A9%EB%AC%B8%20%EC%8B%A0%EC%B2%AD"
+        },
+        {
+          "old": "/articles/energy-voucher-application.html",
+          "new": "/search.html?q=%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98%20%EC%8B%A0%EC%B2%AD%20%EB%B0%A9%EB%B2%95%20%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98%20%EC%A7%80%EC%9B%90%20%EB%8C%80%EC%83%81%EA%B3%BC%20%EC%8B%A0%EC%B2%AD%20%EC%A0%88%EC%B0%A8%2C%20%EC%82%AC%EC%9A%A9%20%EB%B0%A9%EB%B2%95%EC%9D%84%20%ED%95%9C%20%EB%B2%88%EC%97%90%20%ED%99%95%EC%9D%B8%ED%95%A9%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/energy-voucher-balance-check-2026.html",
+          "new": "/search.html?q=2026%EB%85%84%20%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98%20%EC%9E%94%EC%95%A1%20%EC%A1%B0%ED%9A%8C%EC%99%80%20%EC%82%AC%EC%9A%A9%EC%B2%98%20%ED%99%95%EC%9D%B8%20%EB%B0%A9%EB%B2%95%20%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98%20%EC%84%A0%EC%A0%95%20%ED%9B%84%20%EC%9E%94%EC%95%A1%20%EC%A1%B0%ED%9A%8C%2C%20%EC%9A%94%EA%B8%88%EC%B0%A8%EA%B0%90%EA%B3%BC%20%EC%B9%B4%EB%93%9C%20%EC%82%AC%EC%9A%A9%20%EB%B0%A9%EC%8B%9D%2C%20%EC%A0%84%EA%B8%B0%C2%B7%EA%B0%80%EC%8A%A4%C2%B7%EC%A7%80%EC%97%AD%EB%82%9C%EB%B0%A9%20%EB%93%B1%20%EC%82%AC%EC%9A%A9"
+        },
+        {
+          "old": "/articles/energy-voucher-balance-use-2026.html",
+          "new": "/search.html?q=%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9D%B4%EB%8F%99%20%7C%20%EC%84%B8%EC%9D%B4%EB%B9%99%EC%9D%B4%EC%98%A4%28Savingio%29%20Savingio%EC%9D%98%20%ED%86%B5%ED%95%A9%EB%90%9C%20%EC%B5%9C%EC%8B%A0%20%ED%8E%98%EC%9D%B4%EC%A7%80%EB%A1%9C%20%EC%9D%B4%EB%8F%99%ED%95%A9%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/energy-voucher-balance-use.html",
+          "new": "/search.html?q=%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98%20%EC%9E%94%EC%95%A1%20%EC%A1%B0%ED%9A%8C%EC%99%80%20%EC%82%AC%EC%9A%A9%20%EB%B0%A9%EB%B2%95%20%EB%B0%94%EC%9A%B0%EC%B2%98%20%EC%9E%94%EC%95%A1%EC%9D%84%20%ED%99%95%EC%9D%B8%ED%95%98%EA%B3%A0%20%EC%A0%84%EA%B8%B0%C2%B7%EA%B0%80%EC%8A%A4%EC%9A%94%EA%B8%88%20%EB%93%B1%EC%97%90%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95%EC%9E%85%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/energy-voucher-documents.html",
+          "new": "/search.html?q=%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98%20%EC%A3%BC%EB%AF%BC%EC%84%BC%ED%84%B0%20%EC%8B%A0%EC%B2%AD%20%EC%A4%80%EB%B9%84%EC%84%9C%EB%A5%98%20%ED%96%89%EC%A0%95%EB%B3%B5%EC%A7%80%EC%84%BC%ED%84%B0%20%EB%B0%A9%EB%AC%B8%20%EC%A0%84%20%EC%B1%99%EA%B8%B8%20%EC%84%9C%EB%A5%98%EC%99%80%20%EB%8C%80%EB%A6%AC%EC%8B%A0%EC%B2%AD%20%EC%8B%9C%20%EC%9C%A0%EC%9D%98%EC%A0%90%EC%9D%84%20%ED%99%95%EC%9D%B8%ED%95%A9%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/energy-voucher-eligibility-2026.html",
+          "new": "/search.html?q=2026%20%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98%20%EC%8B%A0%EC%B2%AD%20%EB%8C%80%EC%83%81%20%ED%99%95%EC%9D%B8%EB%B2%95%20%EC%86%8C%EB%93%9D%EA%B8%B0%EC%A4%80%EA%B3%BC%20%EC%84%B8%EB%8C%80%EC%9B%90%20%ED%8A%B9%EC%84%B1%EA%B8%B0%EC%A4%80%EC%9D%84%20%EC%A4%91%EC%8B%AC%EC%9C%BC%EB%A1%9C%20%EC%8B%A0%EC%B2%AD%20%EA%B0%80%EB%8A%A5%20%EC%97%AC%EB%B6%80%EB%A5%BC%20%EC%A0%90%EA%B2%80%ED%95%A9%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/energy-voucher-online-application.html",
+          "new": "/search.html?q=%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98%20%EC%98%A8%EB%9D%BC%EC%9D%B8%20%EC%8B%A0%EC%B2%AD%20%EB%B0%A9%EB%B2%95%20%EB%B3%B5%EC%A7%80%EB%A1%9C%EC%97%90%EC%84%9C%20%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98%EB%A5%BC%20%EC%98%A8%EB%9D%BC%EC%9D%B8%EC%9C%BC%EB%A1%9C%20%EC%8B%A0%EC%B2%AD%ED%95%98%EB%8A%94%20%EC%88%9C%EC%84%9C%EB%A5%BC%20%EC%A0%95%EB%A6%AC%ED%95%A9%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/government-benefit-alert-guide-2026.html",
+          "new": "/search.html?q=%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9D%B4%EB%8F%99%20%7C%20%EC%84%B8%EC%9D%B4%EB%B9%99%EC%9D%B4%EC%98%A4%28Savingio%29%20Savingio%EC%9D%98%20%ED%86%B5%ED%95%A9%EB%90%9C%20%EC%B5%9C%EC%8B%A0%20%ED%8E%98%EC%9D%B4%EC%A7%80%EB%A1%9C%20%EC%9D%B4%EB%8F%99%ED%95%A9%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/government-support-scam-warning-2026.html",
+          "new": "/search.html?q=%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9D%B4%EB%8F%99%20%7C%20%EC%84%B8%EC%9D%B4%EB%B9%99%EC%9D%B4%EC%98%A4%28Savingio%29%20Savingio%EC%9D%98%20%ED%86%B5%ED%95%A9%EB%90%9C%20%EC%B5%9C%EC%8B%A0%20%ED%8E%98%EC%9D%B4%EC%A7%80%EB%A1%9C%20%EC%9D%B4%EB%8F%99%ED%95%A9%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/hidden-refund-check.html",
+          "new": "/search.html?q=%EC%88%A8%EC%9D%80%20%ED%99%98%EA%B8%89%EA%B8%88%20%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0%20%EB%86%93%EC%B9%98%EA%B3%A0%20%EC%9E%88%EB%8D%98%20%ED%99%98%EA%B8%89%EA%B8%88%EA%B3%BC%20%EB%AF%B8%EC%88%98%EB%A0%B9%20%EA%B8%88%EC%95%A1%EC%9D%84%20%EA%B3%B5%EC%8B%9D%20%EC%82%AC%EC%9D%B4%ED%8A%B8%EC%97%90%EC%84%9C%20%ED%99%95%EC%9D%B8%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95%EC%9E%85%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/irs-tax-refund-status.html",
+          "new": "/search.html?q=%EC%84%B8%EA%B8%88%20%ED%99%98%EA%B8%89%20%EC%A7%84%ED%96%89%EC%83%81%ED%83%9C%20%ED%99%95%EC%9D%B8%20%EB%B0%A9%EB%B2%95%20%EC%84%B8%EA%B8%88%20%ED%99%98%EA%B8%89%20%EC%8B%A0%EC%B2%AD%20%ED%9B%84%20%EC%A7%84%ED%96%89%EC%83%81%ED%83%9C%EC%99%80%20%EC%A7%80%EA%B8%89%20%EC%97%AC%EB%B6%80%EB%A5%BC%20%ED%99%95%EC%9D%B8%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95%EC%9D%84%20%EC%A0%95%EB%A6%AC%ED%96%88%EC%8A%B5%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/local-tax-refund-claim.html",
+          "new": "/search.html?q=%EC%A7%80%EB%B0%A9%EC%84%B8%20%ED%99%98%EA%B8%89%EA%B8%88%20%EC%A1%B0%ED%9A%8C%EC%99%80%20%EC%8B%A0%EC%B2%AD%20%EB%B0%A9%EB%B2%95%20%EC%9C%84%ED%83%9D%EC%8A%A4%EC%97%90%EC%84%9C%20%EC%A7%80%EB%B0%A9%EC%84%B8%20%ED%99%98%EA%B8%89%EA%B8%88%EC%9D%84%20%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B3%A0%20%EA%B3%84%EC%A2%8C%EB%A1%9C%20%EB%B0%9B%EB%8A%94%20%EC%A0%88%EC%B0%A8%EC%9E%85%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/low-income-cooling-support.html",
+          "new": "/search.html?q=%EC%A0%80%EC%86%8C%EB%93%9D%EC%B8%B5%20%EB%83%89%EB%B0%A9%EB%B9%84%20%EC%A7%80%EC%9B%90%20%ED%99%95%EC%9D%B8%20%EB%B0%A9%EB%B2%95%20%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98%EC%99%80%20%EC%A7%80%EC%9E%90%EC%B2%B4%20%EB%83%89%EB%B0%A9%EB%B9%84%20%EC%A7%80%EC%9B%90%EC%9D%84%20%ED%95%A8%EA%BB%98%20%ED%99%95%EC%9D%B8%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95%EC%9E%85%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/subsidy24-benefit-search.html",
+          "new": "/search.html?q=%EB%B3%B4%EC%A1%B0%EA%B8%8824%EC%97%90%EC%84%9C%20%EB%B0%9B%EC%9D%84%20%EC%88%98%20%EC%9E%88%EB%8A%94%20%EC%A7%80%EC%9B%90%EA%B8%88%20%EC%B0%BE%EA%B8%B0%20%EB%B3%B4%EC%A1%B0%EA%B8%8824%20%EB%A7%9E%EC%B6%A4%ED%98%9C%ED%83%9D%EC%97%90%EC%84%9C%20%EA%B0%9C%EC%9D%B8%C2%B7%EA%B0%80%EA%B5%AC%20%EC%83%81%ED%99%A9%EC%97%90%20%EB%A7%9E%EB%8A%94%20%EC%A4%91%EC%95%99%EC%A0%95%EB%B6%80%EC%99%80%20%EC%A7%80%EC%9E%90%EC%B2%B4%20%EC%A7%80%EC%9B%90%EC%9D%84%20%EC%B0%BE%EB%8A%94%20%EB%B0%A9%EB%B2%95%EC%9E%85%EB%8B%88%EB%8B%A4."
+        }
+      ]
+    },
+    {
+      "file": "categories/housing.html",
+      "changes": [
+        {
+          "old": "/articles/internet-bill-savings.html",
+          "new": "/search.html?q=%EC%9D%B8%ED%84%B0%EB%84%B7%20%EC%9A%94%EA%B8%88%20%EC%A4%84%EC%9D%B4%EB%8A%94%20%EB%B0%A9%EB%B2%95%2C%20%EC%9E%AC%EC%95%BD%EC%A0%95%20%EC%A0%84%EC%97%90%20%EA%BC%AD%20%ED%99%95%EC%9D%B8%ED%95%A0%207%EA%B0%80%EC%A7%80%20%EC%9D%B8%ED%84%B0%EB%84%B7%C2%B7TV%20%EA%B2%B0%ED%95%A9%2C%20%EC%95%BD%EC%A0%95%20%EB%A7%8C%EB%A3%8C%2C%20%EC%9E%A5%EB%B9%84%20%EC%9E%84%EB%8C%80%EB%A3%8C%2C%20%EC%86%8D%EB%8F%84%2C%20%EC%9E%AC%EC%95%BD%EC%A0%95%20%ED%98%9C%ED%83%9D%EC%9D%84%20%EB%B9%84%EA%B5%90%ED%95%B4%20%EB%B6%88%ED%95%84%EC%9A%94%ED%95%9C%20%ED%86%B5"
+        },
+        {
+          "old": "/articles/property-tax-july-checklist-2026.html",
+          "new": "/search.html?q=%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9D%B4%EB%8F%99%20%7C%20%EC%84%B8%EC%9D%B4%EB%B9%99%EC%9D%B4%EC%98%A4%28Savingio%29%20Savingio%EC%9D%98%20%ED%86%B5%ED%95%A9%EB%90%9C%20%EC%B5%9C%EC%8B%A0%20%ED%8E%98%EC%9D%B4%EC%A7%80%EB%A1%9C%20%EC%9D%B4%EB%8F%99%ED%95%A9%EB%8B%88%EB%8B%A4."
+        }
+      ]
+    },
+    {
+      "file": "categories/living-bills.html",
+      "changes": [
+        {
+          "old": "/articles/how-to-lower-phone-bill.html",
+          "new": "/search.html?q=%ED%9C%B4%EB%8C%80%EC%A0%84%ED%99%94%20%EC%9A%94%EA%B8%88%20%EB%82%AE%EC%B6%94%EB%8A%94%20%EB%B0%A9%EB%B2%95%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%82%AC%EC%9A%A9%EB%9F%89%EA%B3%BC%20%EB%B6%80%EA%B0%80%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A5%BC%20%EC%A0%90%EA%B2%80%ED%95%B4%20%ED%9C%B4%EB%8C%80%EC%A0%84%ED%99%94%20%EC%9A%94%EA%B8%88%EC%9D%84%20%EB%82%AE%EC%B6%94%EB%8A%94%20%EB%B0%A9%EB%B2%95%EC%9E%85%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/how-to-save-electricity-bill.html",
+          "new": "/search.html?q=%EC%A0%84%EA%B8%B0%EC%9A%94%EA%B8%88%EC%9D%84%20%EB%82%AE%EC%B6%94%EB%8A%94%20%EC%83%9D%ED%99%9C%20%EC%8A%B5%EA%B4%80%20%EA%B0%80%EC%A0%84%EC%A0%9C%ED%92%88%EB%B3%84%20%EC%86%8C%EB%B9%84%EC%A0%84%EB%A0%A5%EA%B3%BC%20%EC%82%AC%EC%9A%A9%EC%8B%9C%EA%B0%84%EC%9D%84%20%EC%A0%90%EA%B2%80%ED%95%B4%20%EC%A0%84%EA%B8%B0%EC%9A%94%EA%B8%88%EC%9D%84%20%EC%A4%84%EC%9D%B4%EB%8A%94%20%EB%B0%A9%EB%B2%95%EC%9E%85%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/phone-bill-saving.html",
+          "new": "/search.html?q=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%9A%94%EA%B8%88%20%EC%A4%84%EC%9D%B4%EB%8A%94%20%EB%B0%A9%EB%B2%95%2C%20%EC%95%BD%EC%A0%95%C2%B7%EA%B2%B0%ED%95%A9%C2%B7%EB%B6%80%EA%B0%80%EC%84%9C%EB%B9%84%EC%8A%A4%EB%B6%80%ED%84%B0%20%ED%99%95%EC%9D%B8%ED%95%98%EC%84%B8%EC%9A%94%20%ED%86%B5%EC%8B%A0%EC%9A%94%EA%B8%88%20%EA%B3%A0%EC%A7%80%EC%84%9C%EB%A5%BC%20%EC%9D%BD%EB%8A%94%20%EB%B2%95%EB%B6%80%ED%84%B0%20%EC%9A%94%EA%B8%88%EC%A0%9C%20%EC%A1%B0%EC%A0%95%2C%20%EC%84%A0%ED%83%9D%EC%95%BD%EC%A0%95%2C%20%EA%B0%80%EC%A1%B1%EA%B2%B0%ED%95%A9%2C%20%EB%B6%80%EA%B0%80%EC%84%9C%EB%B9%84%EC%8A%A4%2C%20%EB%8B%A8"
+        },
+        {
+          "old": "/articles/reduce-electricity-bill.html",
+          "new": "/search.html?q=%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9D%B4%EB%8F%99%20%7C%20%EC%84%B8%EC%9D%B4%EB%B9%99%EC%9D%B4%EC%98%A4%28Savingio%29%20Savingio%EC%9D%98%20%ED%86%B5%ED%95%A9%EB%90%9C%20%EC%B5%9C%EC%8B%A0%20%ED%8E%98%EC%9D%B4%EC%A7%80%EB%A1%9C%20%EC%9D%B4%EB%8F%99%ED%95%A9%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/subscription-audit-checklist.html",
+          "new": "/search.html?q=%EA%B5%AC%EB%8F%85%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%A0%90%EA%B2%80%20%EC%B2%B4%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%8A%B8%2C%20%ED%95%9C%20%EB%8B%AC%2010%EB%B6%84%EC%9C%BC%EB%A1%9C%20%EA%B3%A0%EC%A0%95%EB%B9%84%20%EC%A4%84%EC%9D%B4%EA%B8%B0%20%EC%98%81%EC%83%81%C2%B7%EC%9D%8C%EC%95%85%C2%B7%EC%95%B1%C2%B7%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%C2%B7%EB%A9%A4%EB%B2%84%EC%8B%AD%20%EA%B5%AC%EB%8F%85%EC%9D%84%20%EB%A7%A4%EB%8B%AC%20%EB%B9%A0%EB%A5%B4%EA%B2%8C%20%EC%A0%90%EA%B2%80%ED%95%98%EA%B3%A0%20%EC%A4%91%EB%B3%B5%EA%B2%B0%EC%A0%9C%EC%99%80%20%EC%9E%90%EB%8F%99%EA%B0%B1%EC%8B%A0%EC%9D%84%20%EB%A7%89"
+        },
+        {
+          "old": "/articles/subscription-cleanup.html",
+          "new": "/search.html?q=%EA%B5%AC%EB%8F%85%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%A0%95%EB%A6%AC%EB%A1%9C%20%EA%B3%A0%EC%A0%95%EB%B9%84%20%EC%A4%84%EC%9D%B4%EA%B8%B0%20%EA%B5%AC%EB%8F%85%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%A0%95%EB%A6%AC%EB%A1%9C%20%EA%B3%A0%EC%A0%95%EB%B9%84%20%EC%A4%84%EC%9D%B4%EA%B8%B0"
+        },
+        {
+          "old": "/articles/subscription-saving.html",
+          "new": "/search.html?q=%EC%A0%95%EA%B8%B0%EA%B5%AC%EB%8F%85%20%EB%B9%84%EC%9A%A9%20%EC%A0%88%EC%95%BD%20%EB%B0%A9%EB%B2%95%20%EC%A0%95%EA%B8%B0%EA%B5%AC%EB%8F%85%20%EA%B2%B0%EC%A0%9C%EC%9D%BC%EA%B3%BC%20%EC%82%AC%EC%9A%A9%20%EB%B9%88%EB%8F%84%EB%A5%BC%20%EC%A0%90%EA%B2%80%ED%95%B4%20%EA%B3%A0%EC%A0%95%EB%B9%84%EB%A5%BC%20%EC%A4%84%EC%9D%B4%EB%8A%94%20%EB%B0%A9%EB%B2%95%EC%9E%85%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/summer-electricity-tier-check.html",
+          "new": "/search.html?q=%ED%8F%AD%EC%97%BC%20%EC%8B%9C%20%EC%A0%84%EA%B8%B0%EC%9A%94%EA%B8%88%20%EB%88%84%EC%A7%84%EA%B5%AC%EA%B0%84%20%ED%99%95%EC%9D%B8%EB%B2%95%20%EC%9B%94%20%EC%82%AC%EC%9A%A9%EB%9F%89%EA%B3%BC%20%EB%88%84%EC%A7%84%EA%B5%AC%EA%B0%84%EC%9D%84%20%ED%99%95%EC%9D%B8%ED%95%B4%20%EC%98%88%EC%83%81%EC%9A%94%EA%B8%88%EC%9D%84%20%EA%B4%80%EB%A6%AC%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95%EC%9E%85%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/summer-electricity-usage-check-2026.html",
+          "new": "/search.html?q=%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9D%B4%EB%8F%99%20%7C%20%EC%84%B8%EC%9D%B4%EB%B9%99%EC%9D%B4%EC%98%A4%28Savingio%29%20Savingio%EC%9D%98%20%ED%86%B5%ED%95%A9%EB%90%9C%20%EC%B5%9C%EC%8B%A0%20%ED%8E%98%EC%9D%B4%EC%A7%80%EB%A1%9C%20%EC%9D%B4%EB%8F%99%ED%95%A9%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/water-bill-guide.html",
+          "new": "/search.html?q=%EC%88%98%EB%8F%84%EC%9A%94%EA%B8%88%20%EB%88%84%EC%A7%84%EC%A0%9C%20%EC%89%BD%EA%B2%8C%20%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0%20%EC%88%98%EB%8F%84%EC%9A%94%EA%B8%88%20%EB%88%84%EC%A7%84%EC%A0%9C%20%EC%89%BD%EA%B2%8C%20%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0%20%EC%95%88%EB%82%B4"
+        }
+      ]
+    },
+    {
+      "file": "categories/tax-refund.html",
+      "changes": [
+        {
+          "old": "/articles/health-insurance-out-of-pocket-refund.html",
+          "new": "/search.html?q=%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EC%83%81%ED%95%9C%EC%A0%9C%20%ED%99%98%EA%B8%89%EA%B8%88%20%ED%99%95%EC%9D%B8%20%EB%B0%A9%EB%B2%95%20%ED%95%9C%20%ED%95%B4%20%EB%8F%99%EC%95%88%20%EB%B6%80%EB%8B%B4%ED%95%9C%20%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%20%EC%A0%81%EC%9A%A9%20%EC%9D%98%EB%A3%8C%EB%B9%84%EA%B0%80%20%EA%B0%9C%EC%9D%B8%EB%B3%84%20%EC%83%81%ED%95%9C%EC%95%A1%EC%9D%84%20%EB%84%98%EC%97%88%EB%8A%94%EC%A7%80%20%ED%99%95%EC%9D%B8%ED%95%98%EA%B3%A0%20%ED%99%98%EA%B8%89%20%EC%8B%A0%EC%B2%AD%EA%B9%8C%EC%A7%80%20%EC%9D%B4%EC%96%B4%EA%B0%80%EB%8A%94%20%EC%88%9C%EC%84%9C%EC%9E%85%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/health-insurance-overpayment-refund.html",
+          "new": "/search.html?q=%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%EB%A3%8C%20%EA%B3%BC%EC%98%A4%EB%82%A9%20%ED%99%98%EA%B8%89%20%EC%8B%A0%EC%B2%AD%20%EB%B0%A9%EB%B2%95%20%EC%9D%B4%EC%A4%91%EB%82%A9%EB%B6%80%EC%99%80%20%EC%9E%90%EA%B2%A9%EB%B3%80%EB%8F%99%EC%9C%BC%EB%A1%9C%20%EB%B0%9C%EC%83%9D%ED%95%9C%20%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%EB%A3%8C%20%EA%B3%BC%EC%98%A4%EB%82%A9%EC%9D%84%20%ED%99%95%EC%9D%B8%ED%95%98%EA%B3%A0%20%ED%99%98%EA%B8%89%20%EC%8B%A0%EC%B2%AD%20%EC%A0%84%20%EC%A0%90%EA%B2%80%ED%95%A0%20%ED%95%AD%EB%AA%A9%EC%9D%84%20%EC%A0%95%EB%A6%AC%ED%96%88%EC%8A%B5%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/health-insurance-refund.html",
+          "new": "/search.html?q=%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9D%B4%EB%8F%99%20%7C%20%EC%84%B8%EC%9D%B4%EB%B9%99%EC%9D%B4%EC%98%A4%28Savingio%29%20Savingio%EC%9D%98%20%ED%86%B5%ED%95%A9%EB%90%9C%20%EC%B5%9C%EC%8B%A0%20%ED%8E%98%EC%9D%B4%EC%A7%80%EB%A1%9C%20%EC%9D%B4%EB%8F%99%ED%95%A9%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/how-to-check-hidden-refunds.html",
+          "new": "/search.html?q=%EC%88%A8%EC%9D%80%20%EB%8F%88%20%EC%B0%BE%EA%B8%B0%20%EB%8B%A8%EA%B3%84%EB%B3%84%20%EA%B0%80%EC%9D%B4%EB%93%9C%20%EA%B5%AD%EC%84%B8%EC%99%80%20%EC%A7%80%EB%B0%A9%EC%84%B8%2C%20%EB%B3%B4%ED%97%98%2C%20%ED%86%B5%EC%8B%A0%EB%B9%84%20%EB%93%B1%20%EC%88%A8%EC%9D%80%20%ED%99%98%EA%B8%89%EA%B8%88%EC%9D%84%20%EC%88%9C%EC%84%9C%EB%8C%80%EB%A1%9C%20%ED%99%95%EC%9D%B8%ED%95%A9%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/local-tax-refund.html",
+          "new": "/search.html?q=%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9D%B4%EB%8F%99%20%7C%20%EC%84%B8%EC%9D%B4%EB%B9%99%EC%9D%B4%EC%98%A4%28Savingio%29%20Savingio%EC%9D%98%20%ED%86%B5%ED%95%A9%EB%90%9C%20%EC%B5%9C%EC%8B%A0%20%ED%8E%98%EC%9D%B4%EC%A7%80%EB%A1%9C%20%EC%9D%B4%EB%8F%99%ED%95%A9%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/vat-final-return-deadline-2026.html",
+          "new": "/search.html?q=%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9D%B4%EB%8F%99%20%7C%20%EC%84%B8%EC%9D%B4%EB%B9%99%EC%9D%B4%EC%98%A4%28Savingio%29%20Savingio%EC%9D%98%20%ED%86%B5%ED%95%A9%EB%90%9C%20%EC%B5%9C%EC%8B%A0%20%ED%8E%98%EC%9D%B4%EC%A7%80%EB%A1%9C%20%EC%9D%B4%EB%8F%99%ED%95%A9%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/vat-final-return-july-2026.html",
+          "new": "/search.html?q=2026%EB%85%84%207%EC%9B%94%20%EB%B6%80%EA%B0%80%EA%B0%80%EC%B9%98%EC%84%B8%20%ED%99%95%EC%A0%95%EC%8B%A0%EA%B3%A0%20%EB%8C%80%EC%83%81%EA%B3%BC%20%EC%A4%80%EB%B9%84%EC%84%9C%EB%A5%98%207%EC%9B%94%20%EB%B6%80%EA%B0%80%EA%B0%80%EC%B9%98%EC%84%B8%20%ED%99%95%EC%A0%95%EC%8B%A0%EA%B3%A0%EB%A5%BC%20%EC%95%9E%EB%91%90%EA%B3%A0%20%EB%8C%80%EC%83%81%EC%9E%90%2C%20%EC%A4%80%EB%B9%84%EC%84%9C%EB%A5%98%2C%20%EC%8B%A0%EA%B3%A0%20%EC%88%9C%EC%84%9C%EB%A5%BC%20%ED%95%9C%20%EB%B2%88%EC%97%90%20%ED%99%95%EC%9D%B8%ED%95%A9%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/vat-input-tax-deduction-guide-2026.html",
+          "new": "/search.html?q=%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9D%B4%EB%8F%99%20%7C%20%EC%84%B8%EC%9D%B4%EB%B9%99%EC%9D%B4%EC%98%A4%28Savingio%29%20Savingio%EC%9D%98%20%ED%86%B5%ED%95%A9%EB%90%9C%20%EC%B5%9C%EC%8B%A0%20%ED%8E%98%EC%9D%B4%EC%A7%80%EB%A1%9C%20%EC%9D%B4%EB%8F%99%ED%95%A9%EB%8B%88%EB%8B%A4."
+        },
+        {
+          "old": "/articles/vat-zero-sales-filing.html",
+          "new": "/search.html?q=%EB%B6%80%EA%B0%80%EA%B0%80%EC%B9%98%EC%84%B8%20%EB%AC%B4%EC%8B%A4%EC%A0%81%20%EC%8B%A0%EA%B3%A0%20%EB%B0%A9%EB%B2%95%20%EB%A7%A4%EC%B6%9C%EC%9D%B4%20%EC%97%86%EC%97%88%EB%8D%98%20%EC%82%AC%EC%97%85%EC%9E%90%EB%8F%84%20%ED%99%95%EC%9D%B8%ED%95%B4%EC%95%BC%20%ED%95%A0%20%EB%AC%B4%EC%8B%A4%EC%A0%81%20%EC%8B%A0%EA%B3%A0%20%EC%A0%88%EC%B0%A8%EB%A5%BC%20%EC%84%A4%EB%AA%85%ED%95%A9%EB%8B%88%EB%8B%A4."
+        }
+      ]
+    },
+    {
+      "file": "categories/work-salary.html",
+      "changes": [
+        {
+          "old": "/articles/salary-budget-guide.html",
+          "new": "/search.html?q=%EC%9B%94%EA%B8%89%20%EA%B4%80%EB%A6%AC%20%EC%B2%B4%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%EC%9B%94%EA%B8%89%20%EA%B4%80%EB%A6%AC%20%EC%B2%B4%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%8A%B8"
+        },
+        {
+          "old": "/articles/salary-management-guide.html",
+          "new": "/search.html?q=%EC%9B%94%EA%B8%89%20%EA%B4%80%EB%A6%AC%20%EA%B0%80%EC%9D%B4%EB%93%9C%20%EC%9B%94%EA%B8%89%EC%9D%BC%EC%9D%84%20%EA%B8%B0%EC%A4%80%EC%9C%BC%EB%A1%9C%20%EC%83%9D%ED%99%9C%EB%B9%84%EC%99%80%20%EC%A0%80%EC%B6%95%2C%20%EB%B9%84%EC%83%81%EA%B8%88%EC%9D%84%20%EB%82%98%EB%88%84%EB%8A%94%20%EA%B4%80%EB%A6%AC%20%EB%B0%A9%EB%B2%95%EC%9E%85%EB%8B%88%EB%8B%A4."
+        }
+      ]
+    },
+    {
+      "file": "topics/electricity.html",
+      "changes": [
+        {
+          "old": "/articles/summer-electricity-tier-check.html",
+          "new": "/search.html?q=%ED%8F%AD%EC%97%BC%20%EC%8B%9C%20%EC%A0%84%EA%B8%B0%EC%9A%94%EA%B8%88%20%EB%88%84%EC%A7%84%EA%B5%AC%EA%B0%84%20%ED%99%95%EC%9D%B8%EB%B2%95%20%EB%83%89%EB%B0%A9%20%EC%82%AC%EC%9A%A9%EC%9D%B4%20%EB%8A%98%EC%97%88%EC%9D%84%20%EB%95%8C%20%EA%B5%AC%EA%B0%84%20%EB%B3%80%ED%99%94%EB%A5%BC%20%ED%99%95%EC%9D%B8%ED%95%A9%EB%8B%88%EB%8B%A4.%20%EA%B8%80%20%EB%B3%B4%EA%B8%B0%20%E2%86%92"
+        },
+        {
+          "old": "/articles/refrigerator-summer-electricity-saving.html",
+          "new": "/search.html?q=%EB%83%89%EC%9E%A5%EA%B3%A0%20%EC%A0%84%EA%B8%B0%EC%84%B8%20%EC%A0%88%EC%95%BD%20%EC%98%A8%EB%8F%84%C2%B7%EB%AC%B8%20%EC%97%B4%EB%A6%BC%C2%B7%EC%84%A4%EC%B9%98%20%EA%B0%84%EA%B2%A9%EC%9D%84%20%EC%A0%90%EA%B2%80%ED%95%A9%EB%8B%88%EB%8B%A4.%20%EA%B8%80%20%EB%B3%B4%EA%B8%B0%20%E2%86%92"
+        }
+      ]
+    }
+  ],
+  "removed_registry_items": [
+    {
+      "title": "폭염 시 전기요금 누진구간 확인법",
+      "href": "/articles/summer-electricity-tier-check.html"
+    },
+    {
+      "title": "전기요금을 낮추는 생활 습관",
+      "href": "/articles/how-to-save-electricity-bill.html"
+    },
+    {
+      "title": "수도요금 누진제 쉽게 이해하기",
+      "href": "/articles/water-bill-guide.html"
+    },
+    {
+      "title": "구독서비스 점검 체크리스트, 한 달 10분으로 고정비 줄이기",
+      "href": "/articles/subscription-audit-checklist.html"
+    },
+    {
+      "title": "구독서비스 정리로 고정비 줄이기",
+      "href": "/articles/subscription-cleanup.html"
+    },
+    {
+      "title": "정기구독 비용 절약 방법",
+      "href": "/articles/subscription-saving.html"
+    },
+    {
+      "title": "휴대전화 요금 낮추는 방법",
+      "href": "/articles/how-to-lower-phone-bill.html"
+    },
+    {
+      "title": "휴대폰 요금 줄이는 방법, 약정·결합·부가서비스부터 확인하세요",
+      "href": "/articles/phone-bill-saving.html"
+    },
+    {
+      "title": "인터넷 요금 줄이는 방법, 재약정 전에 꼭 확인할 7가지",
+      "href": "/articles/internet-bill-savings.html"
+    },
+    {
+      "title": "월급 관리 체크리스트",
+      "href": "/articles/salary-budget-guide.html"
+    },
+    {
+      "title": "식비 줄이는 현실적인 방법, 장보기 전부터 냉장고까지 바꾸세요",
+      "href": "/articles/grocery-bill-savings.html"
+    },
+    {
+      "title": "은행 수수료 아끼는 방법 총정리",
+      "href": "/articles/bank-fees-to-avoid.html"
+    },
+    {
+      "title": "신용점수 관리 방법",
+      "href": "/articles/credit-score-management.html"
+    }
+  ],
+  "js_files": [],
+  "warnings": [
+    "JSON registry skipped: [Errno 36] File name too long: '/home/runner/work/savingio/savingio/…33754 tokens truncated…확인 32. 종합소득세 신고 안 하면 어떻게 될까 다음 확인 재산·자동차세 재산세 주택분 재산세 7월과 9월 차이 주택분 재산세가 나뉘어 부과되는 이유와 확인 포인트를 설명합니다. 주택세금'"
+  ]
+}
