@@ -1,12 +1,12 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3347,
-  "references_scanned": 60709,
+  "files_scanned": 3353,
+  "references_scanned": 60720,
   "counts": {
-    "broken_references": 3247,
+    "broken_references": 3109,
     "malformed_redirects": 0,
-    "broken_redirect_targets": 5,
+    "broken_redirect_targets": 4,
     "missing_sitemap_targets": 4,
     "publisher_id_drift": 0
   },
@@ -1536,13 +1536,6 @@
     },
     {
       "source": "data/savingio-brain-data.json",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.json",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
@@ -1578,13 +1571,6 @@
     },
     {
       "source": "data/savingio-brain-data.json",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.json",
       "reference": "/articles/subscription-audit-checklist.html",
       "expected": [
         "articles/subscription-audit-checklist.html"
@@ -1602,13 +1588,6 @@
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "data/savingio-brain-data.json",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -1718,30 +1697,9 @@
     },
     {
       "source": "data/savingio-navigation-exclusions.json",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
-      "source": "data/savingio-navigation-exclusions.json",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
-      ]
-    },
-    {
-      "source": "data/savingio-navigation-exclusions.json",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "data/savingio-navigation-exclusions.json",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -1872,13 +1830,6 @@
     },
     {
       "source": "data/savingio-search-index.json",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
@@ -1914,13 +1865,6 @@
     },
     {
       "source": "data/savingio-search-index.json",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
       "reference": "/articles/subscription-audit-checklist.html",
       "expected": [
         "articles/subscription-audit-checklist.html"
@@ -1938,13 +1882,6 @@
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "data/savingio-search-index.json",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -2215,13 +2152,6 @@
     },
     {
       "source": "factory/FULL_ARTICLE_AUDIT/full-article-audit.json",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/FULL_ARTICLE_AUDIT/full-article-audit.json",
       "reference": "/articles/subscription-audit-checklist.html",
       "expected": [
         "articles/subscription-audit-checklist.html"
@@ -2239,13 +2169,6 @@
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "factory/FULL_ARTICLE_AUDIT/full-article-audit.json",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -2467,13 +2390,6 @@
     },
     {
       "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
-      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
@@ -2579,13 +2495,6 @@
     },
     {
       "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
       "reference": "/articles/subscription-audit-checklist.html",
       "expected": [
         "articles/subscription-audit-checklist.html"
@@ -2603,13 +2512,6 @@
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "factory/QA/INTERNAL_LINK_REMEDIATION.json",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -2950,13 +2852,6 @@
     },
     {
       "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
-      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
       "reference": "/articles/loan-interest-saving.html",
       "expected": [
         "articles/loan-interest-saving.html"
@@ -3090,13 +2985,6 @@
     },
     {
       "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
       "reference": "/articles/subscription-audit-checklist.html",
       "expected": [
         "articles/subscription-audit-checklist.html"
@@ -3114,13 +3002,6 @@
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "factory/QA/MERGED_ALIAS_REMOVAL.json",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -3582,13 +3463,6 @@
     },
     {
       "source": "factory/SECOND_LINK_AUDIT/second-link-audit.json",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/SECOND_LINK_AUDIT/second-link-audit.json",
       "reference": "/articles/subscription-audit-checklist.html",
       "expected": [
         "articles/subscription-audit-checklist.html"
@@ -3606,13 +3480,6 @@
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "factory/SECOND_LINK_AUDIT/second-link-audit.json",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -4261,13 +4128,6 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
-      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/jeonse-deposit-protection.html",
       "expected": [
         "articles/jeonse-deposit-protection.html"
@@ -4625,13 +4485,6 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/standby-power-saving.html",
       "expected": [
         "articles/standby-power-saving.html"
@@ -4663,13 +4516,6 @@
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "factory/SITE_INTEGRITY_REPORT.json",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -5828,13 +5674,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/car-insurance-mileage-refund.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/cash-out-card-points.html",
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
@@ -6304,13 +6143,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/government-benefit-alert-2026.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/government-benefit-alert-guide-2026.html",
       "reference": "/articles/government-benefit-alert-guide-2026.html",
       "expected": [
@@ -6357,13 +6189,6 @@
       "reference": "https://savingio.com/articles/government-support-scam-warning-2026.html",
       "expected": [
         "articles/government-support-scam-warning-2026.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/government24-benefit-check.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -6500,13 +6325,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/hometax-refund-status.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/how-to-check-hidden-refunds.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -6525,13 +6343,6 @@
       "reference": "/articles/how-to-check-hidden-refunds.html",
       "expected": [
         "articles/how-to-check-hidden-refunds.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/how-to-check-hidden-refunds.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -6640,20 +6451,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/irs-tax-refund-status.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/irs-tax-refund-status.html",
-      "reference": "https://savingio.com/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/loan-prepayment-fee-check.html",
       "reference": "/articles/credit-score-management.html",
       "expected": [
@@ -6756,13 +6553,6 @@
       "reference": "/articles/energy-voucher-online-application.html",
       "expected": [
         "articles/energy-voucher-online-application.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/near-poverty-certificate.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
       ]
     },
     {
@@ -7018,13 +6808,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/small-business-closure-support.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/small-business-delivery-support.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -7032,38 +6815,10 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/small-business-delivery-support.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/small-business-electricity-support.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/small-business-policy-fund-search.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/small-business-policy-fund-search.html",
-      "reference": "https://savingio.com/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/small-business-policy-fund.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -7141,20 +6896,6 @@
       "reference": "https://savingio.com/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/subsidy24-benefit-search.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/subsidy24-benefit-search.html",
-      "reference": "https://savingio.com/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -7439,13 +7180,6 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-015303-205670/articles/wetax-payment-history.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-015303-205670/articles/wetax-payment-history.html",
       "reference": "/articles/wetax-payment-history.html",
       "expected": [
         "articles/wetax-payment-history.html"
@@ -7652,13 +7386,6 @@
       "reference": "/articles/subscription-audit-checklist.html",
       "expected": [
         "articles/subscription-audit-checklist.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/car-insurance-mileage-refund.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
       ]
     },
     {
@@ -8131,13 +7858,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/government-benefit-alert-2026.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/government-benefit-alert-guide-2026.html",
       "reference": "/articles/government-benefit-alert-guide-2026.html",
       "expected": [
@@ -8184,13 +7904,6 @@
       "reference": "https://savingio.com/articles/government-support-scam-warning-2026.html",
       "expected": [
         "articles/government-support-scam-warning-2026.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/government24-benefit-check.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -8327,13 +8040,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/hometax-refund-status.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/how-to-check-hidden-refunds.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -8352,13 +8058,6 @@
       "reference": "/articles/how-to-check-hidden-refunds.html",
       "expected": [
         "articles/how-to-check-hidden-refunds.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/how-to-check-hidden-refunds.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -8467,20 +8166,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/irs-tax-refund-status.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/irs-tax-refund-status.html",
-      "reference": "https://savingio.com/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/loan-prepayment-fee-check.html",
       "reference": "/articles/credit-score-management.html",
       "expected": [
@@ -8583,13 +8268,6 @@
       "reference": "/articles/energy-voucher-online-application.html",
       "expected": [
         "articles/energy-voucher-online-application.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/near-poverty-certificate.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
       ]
     },
     {
@@ -8845,13 +8523,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/small-business-closure-support.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/small-business-delivery-support.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -8859,38 +8530,10 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/small-business-delivery-support.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/small-business-electricity-support.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/small-business-policy-fund-search.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/small-business-policy-fund-search.html",
-      "reference": "https://savingio.com/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/small-business-policy-fund.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -8968,20 +8611,6 @@
       "reference": "https://savingio.com/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/subsidy24-benefit-search.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/subsidy24-benefit-search.html",
-      "reference": "https://savingio.com/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -9266,13 +8895,6 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-021336-920855/articles/wetax-payment-history.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-021336-920855/articles/wetax-payment-history.html",
       "reference": "/articles/wetax-payment-history.html",
       "expected": [
         "articles/wetax-payment-history.html"
@@ -9479,13 +9101,6 @@
       "reference": "/articles/subscription-audit-checklist.html",
       "expected": [
         "articles/subscription-audit-checklist.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/car-insurance-mileage-refund.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
       ]
     },
     {
@@ -9958,13 +9573,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/government-benefit-alert-2026.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/government-benefit-alert-guide-2026.html",
       "reference": "/articles/government-benefit-alert-guide-2026.html",
       "expected": [
@@ -10011,13 +9619,6 @@
       "reference": "https://savingio.com/articles/government-support-scam-warning-2026.html",
       "expected": [
         "articles/government-support-scam-warning-2026.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/government24-benefit-check.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -10154,13 +9755,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/hometax-refund-status.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/how-to-check-hidden-refunds.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -10179,13 +9773,6 @@
       "reference": "/articles/how-to-check-hidden-refunds.html",
       "expected": [
         "articles/how-to-check-hidden-refunds.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/how-to-check-hidden-refunds.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -10294,20 +9881,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/irs-tax-refund-status.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/irs-tax-refund-status.html",
-      "reference": "https://savingio.com/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/loan-prepayment-fee-check.html",
       "reference": "/articles/credit-score-management.html",
       "expected": [
@@ -10410,13 +9983,6 @@
       "reference": "/articles/energy-voucher-online-application.html",
       "expected": [
         "articles/energy-voucher-online-application.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/near-poverty-certificate.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
       ]
     },
     {
@@ -10672,13 +10238,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/small-business-closure-support.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/small-business-delivery-support.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -10686,38 +10245,10 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/small-business-delivery-support.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/small-business-electricity-support.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/small-business-policy-fund-search.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/small-business-policy-fund-search.html",
-      "reference": "https://savingio.com/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/small-business-policy-fund.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -10795,20 +10326,6 @@
       "reference": "https://savingio.com/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/subsidy24-benefit-search.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/subsidy24-benefit-search.html",
-      "reference": "https://savingio.com/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -11093,13 +10610,6 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-095014-661843/articles/wetax-payment-history.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-095014-661843/articles/wetax-payment-history.html",
       "reference": "/articles/wetax-payment-history.html",
       "expected": [
         "articles/wetax-payment-history.html"
@@ -11306,13 +10816,6 @@
       "reference": "/articles/subscription-audit-checklist.html",
       "expected": [
         "articles/subscription-audit-checklist.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/car-insurance-mileage-refund.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
       ]
     },
     {
@@ -11785,13 +11288,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/government-benefit-alert-2026.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/government-benefit-alert-guide-2026.html",
       "reference": "/articles/government-benefit-alert-guide-2026.html",
       "expected": [
@@ -11838,13 +11334,6 @@
       "reference": "https://savingio.com/articles/government-support-scam-warning-2026.html",
       "expected": [
         "articles/government-support-scam-warning-2026.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/government24-benefit-check.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -11981,13 +11470,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/hometax-refund-status.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/how-to-check-hidden-refunds.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -12006,13 +11488,6 @@
       "reference": "/articles/how-to-check-hidden-refunds.html",
       "expected": [
         "articles/how-to-check-hidden-refunds.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/how-to-check-hidden-refunds.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -12121,20 +11596,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/irs-tax-refund-status.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/irs-tax-refund-status.html",
-      "reference": "https://savingio.com/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/loan-prepayment-fee-check.html",
       "reference": "/articles/credit-score-management.html",
       "expected": [
@@ -12237,13 +11698,6 @@
       "reference": "/articles/energy-voucher-online-application.html",
       "expected": [
         "articles/energy-voucher-online-application.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/near-poverty-certificate.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
       ]
     },
     {
@@ -12499,13 +11953,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/small-business-closure-support.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/small-business-delivery-support.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -12513,38 +11960,10 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/small-business-delivery-support.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/small-business-electricity-support.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/small-business-policy-fund-search.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/small-business-policy-fund-search.html",
-      "reference": "https://savingio.com/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/small-business-policy-fund.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -12622,20 +12041,6 @@
       "reference": "https://savingio.com/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/subsidy24-benefit-search.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/subsidy24-benefit-search.html",
-      "reference": "https://savingio.com/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -12920,13 +12325,6 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-102343-794984/articles/wetax-payment-history.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-102343-794984/articles/wetax-payment-history.html",
       "reference": "/articles/wetax-payment-history.html",
       "expected": [
         "articles/wetax-payment-history.html"
@@ -13133,13 +12531,6 @@
       "reference": "/articles/subscription-audit-checklist.html",
       "expected": [
         "articles/subscription-audit-checklist.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/car-insurance-mileage-refund.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
       ]
     },
     {
@@ -13612,13 +13003,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/government-benefit-alert-2026.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/government-benefit-alert-guide-2026.html",
       "reference": "/articles/government-benefit-alert-guide-2026.html",
       "expected": [
@@ -13665,13 +13049,6 @@
       "reference": "https://savingio.com/articles/government-support-scam-warning-2026.html",
       "expected": [
         "articles/government-support-scam-warning-2026.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/government24-benefit-check.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -13808,13 +13185,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/hometax-refund-status.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/how-to-check-hidden-refunds.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -13833,13 +13203,6 @@
       "reference": "/articles/how-to-check-hidden-refunds.html",
       "expected": [
         "articles/how-to-check-hidden-refunds.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/how-to-check-hidden-refunds.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -13948,20 +13311,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/irs-tax-refund-status.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/irs-tax-refund-status.html",
-      "reference": "https://savingio.com/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/loan-prepayment-fee-check.html",
       "reference": "/articles/credit-score-management.html",
       "expected": [
@@ -14064,13 +13413,6 @@
       "reference": "/articles/energy-voucher-online-application.html",
       "expected": [
         "articles/energy-voucher-online-application.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/near-poverty-certificate.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
       ]
     },
     {
@@ -14326,13 +13668,6 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/small-business-closure-support.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/small-business-delivery-support.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -14340,38 +13675,10 @@
       ]
     },
     {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/small-business-delivery-support.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/small-business-electricity-support.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/small-business-policy-fund-search.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/small-business-policy-fund-search.html",
-      "reference": "https://savingio.com/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/small-business-policy-fund.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -14449,20 +13756,6 @@
       "reference": "https://savingio.com/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/subsidy24-benefit-search.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/subsidy24-benefit-search.html",
-      "reference": "https://savingio.com/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -14747,13 +14040,6 @@
     },
     {
       "source": "factory/backups/article_remodel/20260716-174344-940117/articles/wetax-payment-history.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/backups/article_remodel/20260716-174344-940117/articles/wetax-payment-history.html",
       "reference": "/articles/wetax-payment-history.html",
       "expected": [
         "articles/wetax-payment-history.html"
@@ -14987,13 +14273,6 @@
     },
     {
       "source": "factory/backups/inbox/20260716-235745/index.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
-      "source": "factory/backups/inbox/20260716-235745/index.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
@@ -15057,13 +14336,6 @@
     },
     {
       "source": "factory/backups/inbox/20260716-235745/index.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/backups/inbox/20260716-235745/index.html",
       "reference": "/articles/subscription-audit-checklist.html",
       "expected": [
         "articles/subscription-audit-checklist.html"
@@ -15081,13 +14353,6 @@
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "factory/backups/inbox/20260716-235745/index.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -15353,13 +14618,6 @@
     },
     {
       "source": "factory/backups/inbox/20260717-001256/index.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
-      "source": "factory/backups/inbox/20260717-001256/index.html",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
@@ -15423,13 +14681,6 @@
     },
     {
       "source": "factory/backups/inbox/20260717-001256/index.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/backups/inbox/20260717-001256/index.html",
       "reference": "/articles/subscription-audit-checklist.html",
       "expected": [
         "articles/subscription-audit-checklist.html"
@@ -15447,13 +14698,6 @@
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "factory/backups/inbox/20260717-001256/index.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -16330,13 +15574,6 @@
     },
     {
       "source": "factory/output/article_catalog.json",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
-      "source": "factory/output/article_catalog.json",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
@@ -16400,13 +15637,6 @@
     },
     {
       "source": "factory/output/article_catalog.json",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/output/article_catalog.json",
       "reference": "/articles/subscription-audit-checklist.html",
       "expected": [
         "articles/subscription-audit-checklist.html"
@@ -16424,13 +15654,6 @@
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "factory/output/article_catalog.json",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -16652,13 +15875,6 @@
     },
     {
       "source": "factory/output/article_connection_batches/manifest.json",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
-      "source": "factory/output/article_connection_batches/manifest.json",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
@@ -16722,13 +15938,6 @@
     },
     {
       "source": "factory/output/article_connection_batches/manifest.json",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/output/article_connection_batches/manifest.json",
       "reference": "/articles/subscription-audit-checklist.html",
       "expected": [
         "articles/subscription-audit-checklist.html"
@@ -16746,13 +15955,6 @@
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "factory/output/article_connection_batches/manifest.json",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -16928,13 +16130,6 @@
       "reference": "/articles/subscription-audit-checklist.html",
       "expected": [
         "articles/subscription-audit-checklist.html"
-      ]
-    },
-    {
-      "source": "factory/output/article_remodel_test/site/articles/car-insurance-mileage-refund.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
       ]
     },
     {
@@ -17407,13 +16602,6 @@
       ]
     },
     {
-      "source": "factory/output/article_remodel_test/site/articles/government-benefit-alert-2026.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
-      ]
-    },
-    {
       "source": "factory/output/article_remodel_test/site/articles/government-benefit-alert-guide-2026.html",
       "reference": "/articles/government-benefit-alert-guide-2026.html",
       "expected": [
@@ -17460,13 +16648,6 @@
       "reference": "https://savingio.com/articles/government-support-scam-warning-2026.html",
       "expected": [
         "articles/government-support-scam-warning-2026.html"
-      ]
-    },
-    {
-      "source": "factory/output/article_remodel_test/site/articles/government24-benefit-check.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -17603,13 +16784,6 @@
       ]
     },
     {
-      "source": "factory/output/article_remodel_test/site/articles/hometax-refund-status.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
       "source": "factory/output/article_remodel_test/site/articles/how-to-check-hidden-refunds.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -17628,13 +16802,6 @@
       "reference": "/articles/how-to-check-hidden-refunds.html",
       "expected": [
         "articles/how-to-check-hidden-refunds.html"
-      ]
-    },
-    {
-      "source": "factory/output/article_remodel_test/site/articles/how-to-check-hidden-refunds.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -17743,20 +16910,6 @@
       ]
     },
     {
-      "source": "factory/output/article_remodel_test/site/articles/irs-tax-refund-status.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
-      "source": "factory/output/article_remodel_test/site/articles/irs-tax-refund-status.html",
-      "reference": "https://savingio.com/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
       "source": "factory/output/article_remodel_test/site/articles/loan-prepayment-fee-check.html",
       "reference": "/articles/credit-score-management.html",
       "expected": [
@@ -17859,13 +17012,6 @@
       "reference": "/articles/energy-voucher-online-application.html",
       "expected": [
         "articles/energy-voucher-online-application.html"
-      ]
-    },
-    {
-      "source": "factory/output/article_remodel_test/site/articles/near-poverty-certificate.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
       ]
     },
     {
@@ -18121,13 +17267,6 @@
       ]
     },
     {
-      "source": "factory/output/article_remodel_test/site/articles/small-business-closure-support.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
       "source": "factory/output/article_remodel_test/site/articles/small-business-delivery-support.html",
       "reference": "/articles/hidden-money-search.html",
       "expected": [
@@ -18135,38 +17274,10 @@
       ]
     },
     {
-      "source": "factory/output/article_remodel_test/site/articles/small-business-delivery-support.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
       "source": "factory/output/article_remodel_test/site/articles/small-business-electricity-support.html",
       "reference": "/articles/summer-electricity-tier-check.html",
       "expected": [
         "articles/summer-electricity-tier-check.html"
-      ]
-    },
-    {
-      "source": "factory/output/article_remodel_test/site/articles/small-business-policy-fund-search.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/output/article_remodel_test/site/articles/small-business-policy-fund-search.html",
-      "reference": "https://savingio.com/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/output/article_remodel_test/site/articles/small-business-policy-fund.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -18244,20 +17355,6 @@
       "reference": "https://savingio.com/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "factory/output/article_remodel_test/site/articles/subsidy24-benefit-search.html",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
-      ]
-    },
-    {
-      "source": "factory/output/article_remodel_test/site/articles/subsidy24-benefit-search.html",
-      "reference": "https://savingio.com/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -18538,13 +17635,6 @@
       "reference": "https://savingio.com/articles/wetax-electronic-billing.html",
       "expected": [
         "articles/wetax-electronic-billing.html"
-      ]
-    },
-    {
-      "source": "factory/output/article_remodel_test/site/articles/wetax-payment-history.html",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
       ]
     },
     {
@@ -21291,13 +20381,6 @@
     },
     {
       "source": "factory/output/link_graph.json",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
-      "source": "factory/output/link_graph.json",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
@@ -21361,13 +20444,6 @@
     },
     {
       "source": "factory/output/link_graph.json",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/output/link_graph.json",
       "reference": "/articles/subscription-audit-checklist.html",
       "expected": [
         "articles/subscription-audit-checklist.html"
@@ -21385,13 +20461,6 @@
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "factory/output/link_graph.json",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -22427,20 +21496,6 @@
       ]
     },
     {
-      "source": "irs-tax-refund-status.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
-      "source": "irs-tax-refund-status.html",
-      "reference": "https://savingio.com/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
       "source": "js/article-navigation.js",
       "reference": "${href}",
       "expected": [
@@ -22463,13 +21518,6 @@
       "reference": "/articles/bank-fees-to-avoid.html",
       "expected": [
         "articles/bank-fees-to-avoid.html"
-      ]
-    },
-    {
-      "source": "js/articles.html",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
       ]
     },
     {
@@ -22831,13 +21879,6 @@
     },
     {
       "source": "rss.xml",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "rss.xml",
       "reference": "/articles/subscription-audit-checklist.html",
       "expected": [
         "articles/subscription-audit-checklist.html"
@@ -22855,13 +21896,6 @@
       "reference": "/articles/subscription-saving.html",
       "expected": [
         "articles/subscription-saving.html"
-      ]
-    },
-    {
-      "source": "rss.xml",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -23081,11 +22115,6 @@
   ],
   "malformed_redirects": [],
   "broken_redirect_targets": [
-    {
-      "file": "_redirects",
-      "line": 34,
-      "target": "/articles/irs-tax-refund-status.html"
-    },
     {
       "file": "_redirects",
       "line": 40,
