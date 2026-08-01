@@ -1,0 +1,40 @@
+{
+  "normalized": 7,
+  "files": [
+    {
+      "file": "benefit-scam-risk-check.html",
+      "status": "normalized",
+      "key": "benefitScam"
+    },
+    {
+      "file": "car-insurance-renewal-check.html",
+      "status": "normalized",
+      "key": "carInsuranceRenewal"
+    },
+    {
+      "file": "exchange-rate.html",
+      "status": "normalized",
+      "key": "exchange"
+    },
+    {
+      "file": "hourly-to-monthly.html",
+      "status": "normalized",
+      "key": "hourly"
+    },
+    {
+      "file": "hourly.html",
+      "status": "normalized",
+      "key": "hourly"
+    },
+    {
+      "file": "traffic-fine-response-check.html",
+      "status": "normalized",
+      "key": "trafficFine"
+    },
+    {
+      "file": "weekpay.html",
+      "status": "normalized",
+      "key": "weekly"
+    }
+  ]
+}
