@@ -15,109 +15,12 @@
     "topics_scanned": 1,
     "topic_problem_pages": 0,
     "calculators_scanned": 28,
-    "calculator_problem_pages": 7,
+    "calculator_problem_pages": 0,
     "missing_internal_links": 0
   },
   "article_problems": [],
   "topic_problems": [],
-  "calculator_problems": [
-    {
-      "path": "calculators/benefit-scam-risk-check.html",
-      "missing": [
-        "body_data_calculator",
-        "sv2_shell",
-        "calculator_engine",
-        "calculator_configs",
-        "brain_data",
-        "brain_js",
-        "brain_css"
-      ],
-      "template_match_score": 0,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/car-insurance-renewal-check.html",
-      "missing": [
-        "body_data_calculator",
-        "sv2_shell",
-        "calculator_engine",
-        "calculator_configs",
-        "brain_data",
-        "brain_js",
-        "brain_css"
-      ],
-      "template_match_score": 0,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/exchange-rate.html",
-      "missing": [
-        "body_data_calculator",
-        "sv2_shell",
-        "calculator_engine",
-        "calculator_configs"
-      ],
-      "template_match_score": 3,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/hourly-to-monthly.html",
-      "missing": [
-        "body_data_calculator",
-        "sv2_shell",
-        "calculator_engine",
-        "calculator_configs",
-        "brain_data",
-        "brain_js",
-        "brain_css"
-      ],
-      "template_match_score": 0,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/hourly.html",
-      "missing": [
-        "body_data_calculator",
-        "sv2_shell",
-        "calculator_engine",
-        "calculator_configs"
-      ],
-      "template_match_score": 3,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/traffic-fine-response-check.html",
-      "missing": [
-        "body_data_calculator",
-        "sv2_shell",
-        "calculator_engine",
-        "calculator_configs",
-        "brain_data",
-        "brain_js",
-        "brain_css"
-      ],
-      "template_match_score": 0,
-      "blue_reasons": [],
-      "card_reasons": []
-    },
-    {
-      "path": "calculators/weekpay.html",
-      "missing": [
-        "body_data_calculator",
-        "sv2_shell",
-        "calculator_engine",
-        "calculator_configs"
-      ],
-      "template_match_score": 3,
-      "blue_reasons": [],
-      "card_reasons": []
-    }
-  ],
+  "calculator_problems": [],
   "missing_internal_links": [],
   "duplicate_h1_values": []
 }
