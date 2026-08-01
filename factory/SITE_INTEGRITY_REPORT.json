@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3327,
-  "references_scanned": 60439,
+  "references_scanned": 60447,
   "counts": {
-    "broken_references": 3355,
+    "broken_references": 3363,
     "malformed_redirects": 0,
     "broken_redirect_targets": 5,
     "missing_sitemap_targets": 7,
@@ -5178,6 +5178,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/moving-address-change-checklist.html",
+      "expected": [
+        "articles/moving-address-change-checklist.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/articles/moving-cost-saving.html",
       "expected": [
         "articles/moving-cost-saving.html"
@@ -5321,6 +5328,13 @@
       "reference": "/articles/rent-tax-credit-guide.html",
       "expected": [
         "articles/rent-tax-credit-guide.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/rental-contract-special-clauses.html",
+      "expected": [
+        "articles/rental-contract-special-clauses.html"
       ]
     },
     {
@@ -5566,6 +5580,13 @@
       "reference": "/articles/unemployment-benefit-job-search.html",
       "expected": [
         "articles/unemployment-benefit-job-search.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/articles/upstairs-water-leak-response.html",
+      "expected": [
+        "articles/upstairs-water-leak-response.html"
       ]
     },
     {
@@ -5913,9 +5934,23 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/calculators/car-tax.html",
+      "expected": [
+        "calculators/car-tax.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/calculators/childcare-cost.html",
       "expected": [
         "calculators/childcare-cost.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/calculators/freelancer-withholding.html",
+      "expected": [
+        "calculators/freelancer-withholding.html"
       ]
     },
     {
@@ -5979,6 +6014,13 @@
       "reference": "/categories/benefits.html",
       "expected": [
         "categories/benefits.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/categories/car.html",
+      "expected": [
+        "categories/car.html"
       ]
     },
     {
@@ -6102,6 +6144,13 @@
     },
     {
       "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/categories/living-expense.html",
+      "expected": [
+        "categories/living-expense.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
       "reference": "/categories/pension.html",
       "expected": [
         "categories/pension.html"
@@ -6154,6 +6203,13 @@
       "reference": "/categories/welfare-benefits.html",
       "expected": [
         "categories/welfare-benefits.html"
+      ]
+    },
+    {
+      "source": "factory/SITE_INTEGRITY_REPORT.json",
+      "reference": "/categories/work-income.html",
+      "expected": [
+        "categories/work-income.html"
       ]
     },
     {
