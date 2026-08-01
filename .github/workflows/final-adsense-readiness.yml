@@ -1,0 +1,144 @@
+name: Final AdSense Readiness
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'about.html'
+      - 'contact.html'
+      - 'privacy.html'
+      - 'robots.txt'
+      - 'sitemap.xml'
+      - 'ads.txt'
+      - 'index.html'
+      - 'factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json'
+      - 'factory/QA/playwright/SITE_RUNTIME_AUDIT.json'
+      - '.github/workflows/final-adsense-readiness.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: savingio-final-adsense-readiness
+  cancel-in-progress: true
+
+jobs:
+  final-readiness:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run final AdSense readiness gate
+        id: audit
+        continue-on-error: true
+        run: |
+          mkdir -p factory/QA/final-adsense
+          node <<'NODE'
+          const fs = require('fs');
+          const path = require('path');
+
+          const root = process.cwd();
+          const rows = [];
+          let failures = 0;
+
+          const requiredFiles = [
+            'index.html',
+            'about.html',
+            'contact.html',
+            'privacy.html',
+            'robots.txt',
+            'sitemap.xml',
+            'ads.txt',
+            'factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json',
+            'factory/QA/playwright/SITE_RUNTIME_AUDIT.json'
+          ];
+
+          for (const rel of requiredFiles) {
+            const ok = fs.existsSync(path.join(root, rel));
+            rows.push(`${rel} exists=${ok}`);
+            if (!ok) failures++;
+          }
+
+          const read = rel => fs.existsSync(path.join(root, rel)) ? fs.readFileSync(path.join(root, rel), 'utf8') : '';
+          const ads = read('ads.txt');
+          const robots = read('robots.txt');
+          const sitemap = read('sitemap.xml');
+          const index = read('index.html');
+
+          const publisherOk = ads.includes('pub-7605193583747751');
+          rows.push(`ads.txt publisher_ok=${publisherOk}`);
+          if (!publisherOk) failures++;
+
+          const robotsOk = /Sitemap:\s*https:\/\/savingio\.com\/sitemap\.xml/i.test(robots);
+          rows.push(`robots sitemap_reference_ok=${robotsOk}`);
+          if (!robotsOk) failures++;
+
+          const sitemapOk = /<urlset\b/i.test(sitemap) && /https:\/\/savingio\.com\//i.test(sitemap);
+          rows.push(`sitemap format_ok=${sitemapOk}`);
+          if (!sitemapOk) failures++;
+
+          const navOk = ['about.html','contact.html','privacy.html'].every(x => index.includes(x));
+          rows.push(`home trust_links_ok=${navOk}`);
+          if (!navOk) failures++;
+
+          try {
+            const structure = JSON.parse(read('factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json'));
+            const s = structure.summary || {};
+            const structureOk = [
+              s.article_problem_pages,
+              s.explorer_missing_pages,
+              s.blue_ui_pages,
+              s.card_ui_pages,
+              s.article_dna_problem_pages,
+              s.right_rail_problem_pages,
+              s.canonical_problem_pages,
+              s.topic_problem_pages,
+              s.calculator_problem_pages,
+              s.missing_internal_links
+            ].every(v => Number(v || 0) === 0);
+            rows.push(`structure_audit_ok=${structureOk}`);
+            if (!structureOk) failures++;
+          } catch (error) {
+            rows.push(`structure_audit_error=${error.message}`);
+            failures++;
+          }
+
+          try {
+            const runtime = JSON.parse(read('factory/QA/playwright/SITE_RUNTIME_AUDIT.json'));
+            const runtimeOk = Number(runtime.pageProblems || 0) === 0;
+            rows.push(`runtime_audit_ok=${runtimeOk} pages_scanned=${runtime.pagesScanned || 0}`);
+            if (!runtimeOk) failures++;
+          } catch (error) {
+            rows.push(`runtime_audit_error=${error.message}`);
+            failures++;
+          }
+
+          const verdict = failures === 0 ? 'PASS' : 'FAIL';
+          const report = `# Final AdSense Readiness\n\n- generated: ${new Date().toISOString()}\n- failures: ${failures}\n- verdict: ${verdict}\n\n${rows.map(r => '- ' + r).join('\n')}\n`;
+          fs.writeFileSync('factory/QA/final-adsense/RESULT.md', report);
+          fs.writeFileSync('factory/QA/final-adsense/RESULT.json', JSON.stringify({generatedAt:new Date().toISOString(), failures, verdict, checks: rows}, null, 2));
+          if (failures) process.exitCode = 1;
+          NODE
+
+      - name: Commit final readiness report
+        if: always()
+        run: |
+          git config user.name 'savingio-adsense-qa-bot'
+          git config user.email 'savingio-adsense-qa-bot@users.noreply.github.com'
+          git add factory/QA/final-adsense/RESULT.md factory/QA/final-adsense/RESULT.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Publish final AdSense readiness report [skip ci]'
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Fail when final gate is not ready
+        if: steps.audit.outcome == 'failure'
+        run: exit 1
