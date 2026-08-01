@@ -1,13 +1,13 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3343,
-  "references_scanned": 60504,
+  "files_scanned": 3346,
+  "references_scanned": 60716,
   "counts": {
-    "broken_references": 3248,
+    "broken_references": 3253,
     "malformed_redirects": 0,
     "broken_redirect_targets": 5,
-    "missing_sitemap_targets": 7,
+    "missing_sitemap_targets": 4,
     "publisher_id_drift": 0
   },
   "broken_references": [
@@ -1301,27 +1301,6 @@
       "reference": "location.href",
       "expected": [
         "admin/location.href"
-      ]
-    },
-    {
-      "source": "articles/earned-income-credit-status-check.html",
-      "reference": "/js/article-layout-dna.js?v=1",
-      "expected": [
-        "js/article-layout-dna.js"
-      ]
-    },
-    {
-      "source": "articles/gas-bill-checklist.html",
-      "reference": "/js/savingio-brain-navigation-data.js?v=12",
-      "expected": [
-        "js/savingio-brain-navigation-data.js"
-      ]
-    },
-    {
-      "source": "articles/vat-zero-sales-filing-2026.html",
-      "reference": "/js/savingio-article-unified-v3036.js?v=3038",
-      "expected": [
-        "js/savingio-article-unified-v3036.js"
       ]
     },
     {
@@ -3275,6 +3254,83 @@
       "reference": "/articles/youth-support-programs.html",
       "expected": [
         "articles/youth-support-programs.html"
+      ]
+    },
+    {
+      "source": "factory/QA/playwright/SITE_RUNTIME_AUDIT.json",
+      "reference": "/articles/health-insurance-out-of-pocket-refund.html",
+      "expected": [
+        "articles/health-insurance-out-of-pocket-refund.html"
+      ]
+    },
+    {
+      "source": "factory/QA/playwright/SITE_RUNTIME_AUDIT.json",
+      "reference": "/articles/health-insurance-overpayment-refund.html",
+      "expected": [
+        "articles/health-insurance-overpayment-refund.html"
+      ]
+    },
+    {
+      "source": "factory/QA/playwright/SITE_RUNTIME_AUDIT.json",
+      "reference": "/articles/irs-tax-refund-status.html",
+      "expected": [
+        "articles/irs-tax-refund-status.html"
+      ]
+    },
+    {
+      "source": "factory/QA/playwright/SITE_RUNTIME_AUDIT.json",
+      "reference": "/articles/local-tax-refund-claim.html",
+      "expected": [
+        "articles/local-tax-refund-claim.html"
+      ]
+    },
+    {
+      "source": "factory/QA/playwright/SITE_RUNTIME_AUDIT.json",
+      "reference": "/articles/low-income-cooling-support.html",
+      "expected": [
+        "articles/low-income-cooling-support.html"
+      ]
+    },
+    {
+      "source": "factory/QA/playwright/SITE_RUNTIME_AUDIT.json",
+      "reference": "/articles/small-business-policy-fund-search.html",
+      "expected": [
+        "articles/small-business-policy-fund-search.html"
+      ]
+    },
+    {
+      "source": "factory/QA/playwright/SITE_RUNTIME_AUDIT.json",
+      "reference": "/articles/subscription-audit-checklist.html",
+      "expected": [
+        "articles/subscription-audit-checklist.html"
+      ]
+    },
+    {
+      "source": "factory/QA/playwright/SITE_RUNTIME_AUDIT.json",
+      "reference": "/articles/subsidy24-benefit-search.html",
+      "expected": [
+        "articles/subsidy24-benefit-search.html"
+      ]
+    },
+    {
+      "source": "factory/QA/playwright/SITE_RUNTIME_AUDIT.json",
+      "reference": "/js/article-layout-dna.js?v=1",
+      "expected": [
+        "js/article-layout-dna.js"
+      ]
+    },
+    {
+      "source": "factory/QA/playwright/SITE_RUNTIME_AUDIT.json",
+      "reference": "/js/savingio-article-unified-v3036.js?v=3038",
+      "expected": [
+        "js/savingio-article-unified-v3036.js"
+      ]
+    },
+    {
+      "source": "factory/QA/playwright/SITE_RUNTIME_AUDIT.json",
+      "reference": "/js/savingio-brain-navigation-data.js?v=12",
+      "expected": [
+        "js/savingio-brain-navigation-data.js"
       ]
     },
     {
@@ -22999,13 +23055,6 @@
     },
     {
       "source": "sitemap.xml",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
-      "source": "sitemap.xml",
       "reference": "/articles/low-income-cooling-support.html",
       "expected": [
         "articles/low-income-cooling-support.html"
@@ -23013,23 +23062,9 @@
     },
     {
       "source": "sitemap.xml",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "sitemap.xml",
       "reference": "/articles/subscription-audit-checklist.html",
       "expected": [
         "articles/subscription-audit-checklist.html"
-      ]
-    },
-    {
-      "source": "sitemap.xml",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
       ]
     },
     {
@@ -23117,11 +23152,8 @@
   "missing_sitemap_targets": [
     "/articles/health-insurance-out-of-pocket-refund.html",
     "/articles/health-insurance-overpayment-refund.html",
-    "/articles/irs-tax-refund-status.html",
     "/articles/low-income-cooling-support.html",
-    "/articles/small-business-policy-fund-search.html",
-    "/articles/subscription-audit-checklist.html",
-    "/articles/subsidy24-benefit-search.html"
+    "/articles/subscription-audit-checklist.html"
   ],
   "publisher_id_drift": []
 }
