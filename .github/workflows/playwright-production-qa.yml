@@ -25,9 +25,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
       - name: Install dependencies
-        run: npm install
+        run: npm install --no-audit --no-fund
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
       - name: Run production browser audit
@@ -38,10 +37,16 @@ jobs:
           MAX_PAGES: '260'
         run: npm run qa:site
       - name: Commit QA reports
+        if: always()
         run: |
           git config user.name 'savingio-playwright-bot'
           git config user.email 'savingio-playwright-bot@users.noreply.github.com'
-          git add factory/QA/playwright/SITE_RUNTIME_AUDIT.json factory/QA/playwright/SITE_RUNTIME_AUDIT.md
+          if [ -f factory/QA/playwright/SITE_RUNTIME_AUDIT.json ]; then
+            git add factory/QA/playwright/SITE_RUNTIME_AUDIT.json
+          fi
+          if [ -f factory/QA/playwright/SITE_RUNTIME_AUDIT.md ]; then
+            git add factory/QA/playwright/SITE_RUNTIME_AUDIT.md
+          fi
           if git diff --cached --quiet; then
             echo 'No QA report changes'
           else
@@ -49,10 +54,12 @@ jobs:
             git push
           fi
       - name: Upload browser QA report
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: savingio-production-qa
           path: factory/QA/playwright/
+          if-no-files-found: warn
           retention-days: 14
       - name: Fail when QA found runtime problems
         if: steps.qa.outcome == 'failure'
