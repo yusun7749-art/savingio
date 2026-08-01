@@ -1,31 +1,29 @@
 # Savingio Full SEO Audit
 
-- Articles: 157
-- PASS: 149
-- WARNING: 6
-- FAIL: 2
-- Average score: 90.9
-- Thin content (<2500 Korean chars): 4
-- Short content (<4500 Korean chars): 95
-- Missing meta: 2
+- Articles: 156
+- PASS: 150
+- WARNING: 5
+- FAIL: 1
+- Average score: 91.3
+- Thin content (<2500 Korean chars): 3
+- Short content (<4500 Korean chars): 94
+- Missing meta: 1
 - Missing canonical: 0
-- Bad H1 count: 2
-- Low internal article links: 11
+- Bad H1 count: 1
+- Low internal article links: 10
 - Duplicate title groups: 0
 - Duplicate description groups: 0
-- Duplicate canonical groups: 2
-- Duplicate normalized URL groups: 2
+- Duplicate canonical groups: 1
+- Duplicate normalized URL groups: 1
 
 ## Lowest-scoring articles
 
 | Score | Status | Article | Main findings |
 |---:|---|---|---|
-| 26 | FAIL | `articles/small-business-policy-fund-search.html` | META_DESCRIPTION_MISSING, NOINDEX, H1_COUNT:0, THIN_CONTENT_KO:26, CANONICAL_PATH_MISMATCH |
 | 26 | FAIL | `articles/subsidy24-benefit-search.html` | META_DESCRIPTION_MISSING, NOINDEX, H1_COUNT:0, THIN_CONTENT_KO:22, CANONICAL_PATH_MISMATCH |
 | 80 | WARNING | `articles/rental-contract-reporting-guide.html` | THIN_CONTENT_KO:2341, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/salary-take-home-easy-calculator-guide.html` | THIN_CONTENT_KO:2244, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 82 | WARNING | `articles/government24-benefit-check.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3743, DUPLICATE_SEO_SIGNAL |
-| 82 | WARNING | `articles/small-business-policy-fund.html` | BREADCRUMB_SCHEMA_MISSING, INTERNAL_ARTICLE_LINKS_LOW:2, CONTENT_SHORT_KO:4468, DUPLICATE_SEO_SIGNAL |
 | 84 | WARNING | `articles/fan-aircon-combination-saving.html` | META_DESCRIPTION_LENGTH:37, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3006 |
 | 84 | WARNING | `articles/national-employment-support-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, INTERNAL_ARTICLE_LINKS_LOW:2, CONTENT_SHORT_KO:4082 |
 | 88 | PASS | `articles/aircon-optimal-temperature-savings.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2943 |
@@ -62,6 +60,7 @@
 | 88 | PASS | `articles/property-tax-payment-certificate.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3736 |
 | 88 | PASS | `articles/regional-development-bond-refund-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3397 |
 | 88 | PASS | `articles/salary-slip-check-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3397 |
+| 88 | PASS | `articles/small-business-policy-fund.html` | BREADCRUMB_SCHEMA_MISSING, INTERNAL_ARTICLE_LINKS_LOW:2, CONTENT_SHORT_KO:4468 |
 | 88 | PASS | `articles/traffic-fines-difference-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4221 |
 | 92 | PASS | `articles/ai-side-hustles-beginner.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/aircon-dry-mode-electricity.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3356 |
@@ -100,3 +99,4 @@
 | 92 | PASS | `articles/health-insurance-refund-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3639 |
 | 92 | PASS | `articles/heating-bill-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3156 |
 | 92 | PASS | `articles/home-water-leak-self-check.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
+| 92 | PASS | `articles/hometax-refund-status.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3387 |

@@ -1,20 +1,20 @@
 {
   "summary": {
-    "article_count": 157,
-    "pass": 149,
-    "warning": 6,
-    "fail": 2,
-    "average_score": 90.9,
-    "thin_under_2500_ko": 4,
-    "short_under_4500_ko": 95,
-    "missing_meta": 2,
+    "article_count": 156,
+    "pass": 150,
+    "warning": 5,
+    "fail": 1,
+    "average_score": 91.3,
+    "thin_under_2500_ko": 3,
+    "short_under_4500_ko": 94,
+    "missing_meta": 1,
     "missing_canonical": 0,
-    "bad_h1": 2,
-    "low_internal_links": 11,
+    "bad_h1": 1,
+    "low_internal_links": 10,
     "duplicate_title_groups": 0,
     "duplicate_description_groups": 0,
-    "duplicate_canonical_groups": 2,
-    "duplicate_normalized_url_groups": 2
+    "duplicate_canonical_groups": 1,
+    "duplicate_normalized_url_groups": 1
   },
   "duplicates": {
     "titles": {},
@@ -23,20 +23,12 @@
       "https://savingio.com/articles/government24-benefit-check.html": [
         "articles/government24-benefit-check.html",
         "articles/subsidy24-benefit-search.html"
-      ],
-      "https://savingio.com/articles/small-business-policy-fund.html": [
-        "articles/small-business-policy-fund-search.html",
-        "articles/small-business-policy-fund.html"
       ]
     },
     "normalized_urls": {
       "savingio.com/articles/government24-benefit-check": [
         "articles/government24-benefit-check.html",
         "articles/subsidy24-benefit-search.html"
-      ],
-      "savingio.com/articles/small-business-policy-fund": [
-        "articles/small-business-policy-fund-search.html",
-        "articles/small-business-policy-fund.html"
       ]
     }
   },
@@ -3888,41 +3880,6 @@
       "status": "PASS"
     },
     {
-      "path": "articles/small-business-policy-fund-search.html",
-      "url": "https://savingio.com/articles/small-business-policy-fund.html",
-      "title": "소상공인 정책자금 안내 | Savingio",
-      "meta_description": "",
-      "canonical": "https://savingio.com/articles/small-business-policy-fund.html",
-      "h1": [],
-      "h2_count": 0,
-      "h3_count": 0,
-      "korean_chars": 26,
-      "words": 9,
-      "internal_article_links": 1,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 0,
-      "article_schema": false,
-      "breadcrumb_schema": false,
-      "faq_schema": false,
-      "issues": [
-        "META_DESCRIPTION_MISSING",
-        "NOINDEX",
-        "H1_COUNT:0",
-        "THIN_CONTENT_KO:26"
-      ],
-      "warnings": [
-        "CANONICAL_PATH_MISMATCH",
-        "H2_TOO_FEW:0",
-        "ARTICLE_SCHEMA_MISSING",
-        "BREADCRUMB_SCHEMA_MISSING",
-        "INTERNAL_ARTICLE_LINKS_LOW:1",
-        "DUPLICATE_SEO_SIGNAL"
-      ],
-      "score": 26,
-      "status": "FAIL"
-    },
-    {
       "path": "articles/small-business-policy-fund.html",
       "url": "https://savingio.com/articles/small-business-policy-fund.html",
       "title": "소상공인 정책자금 확인·신청 순서 2026 | Savingio",
@@ -3946,11 +3903,10 @@
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
         "INTERNAL_ARTICLE_LINKS_LOW:2",
-        "CONTENT_SHORT_KO:4468",
-        "DUPLICATE_SEO_SIGNAL"
+        "CONTENT_SHORT_KO:4468"
       ],
-      "score": 82,
-      "status": "WARNING"
+      "score": 88,
+      "status": "PASS"
     },
     {
       "path": "articles/spending-habits-change.html",
