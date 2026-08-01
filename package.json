@@ -1,0 +1,11 @@
+{
+  "name": "savingio-site-qa",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "qa:site": "node qa/playwright/site-audit.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.54.0"
+  }
+}
