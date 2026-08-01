@@ -4,7 +4,7 @@
     "pass": 151,
     "warning": 4,
     "fail": 0,
-    "average_score": 91.9,
+    "average_score": 91.8,
     "thin_under_2500_ko": 2,
     "short_under_4500_ko": 94,
     "missing_meta": 0,
@@ -3705,28 +3705,29 @@
     {
       "path": "articles/severance-pay-easy-calculator-guide.html",
       "url": "https://savingio.com/articles/severance-pay-easy-calculator-guide.html",
-      "title": "퇴직금, 입사일과 월급만으로 빠르게 확인하는 방법 | 세이빙이오(Savingio)",
-      "meta_description": "퇴직을 앞두고 회사가 알려준 금액이 맞는지 궁금할 때, 입사일·퇴사일·세전 월급만으로 예상 퇴직금을 확인하고 결과를 검토하는 방법입니다.",
+      "title": "퇴직금, 입사일과 월급만으로 빠르게 확인하는 방법 | Savingio",
+      "meta_description": "입사일·퇴사일·세전 월급으로 예상 퇴직금을 확인하고 평균임금, 계속근로기간, 상여금·연차수당, 지급기한과 회사 산정내역을 비교하는 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/severance-pay-easy-calculator-guide.html",
       "h1": [
         "퇴직금, 입사일과 월급만으로 빠르게 확인하는 방법"
       ],
       "h2_count": 17,
-      "h3_count": 2,
-      "korean_chars": 3322,
-      "words": 1106,
-      "internal_article_links": 9,
+      "h3_count": 0,
+      "korean_chars": 2874,
+      "words": 916,
+      "internal_article_links": 11,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:3322"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:2874"
       ],
-      "score": 96,
+      "score": 92,
       "status": "PASS"
     },
     {
