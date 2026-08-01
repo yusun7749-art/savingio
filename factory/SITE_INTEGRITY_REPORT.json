@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3347,
-  "references_scanned": 60716,
+  "references_scanned": 60709,
   "counts": {
-    "broken_references": 3253,
+    "broken_references": 3247,
     "malformed_redirects": 0,
     "broken_redirect_targets": 5,
     "missing_sitemap_targets": 4,
@@ -3272,13 +3272,6 @@
     },
     {
       "source": "factory/QA/playwright/SITE_RUNTIME_AUDIT.json",
-      "reference": "/articles/irs-tax-refund-status.html",
-      "expected": [
-        "articles/irs-tax-refund-status.html"
-      ]
-    },
-    {
-      "source": "factory/QA/playwright/SITE_RUNTIME_AUDIT.json",
       "reference": "/articles/local-tax-refund-claim.html",
       "expected": [
         "articles/local-tax-refund-claim.html"
@@ -3293,44 +3286,9 @@
     },
     {
       "source": "factory/QA/playwright/SITE_RUNTIME_AUDIT.json",
-      "reference": "/articles/small-business-policy-fund-search.html",
-      "expected": [
-        "articles/small-business-policy-fund-search.html"
-      ]
-    },
-    {
-      "source": "factory/QA/playwright/SITE_RUNTIME_AUDIT.json",
       "reference": "/articles/subscription-audit-checklist.html",
       "expected": [
         "articles/subscription-audit-checklist.html"
-      ]
-    },
-    {
-      "source": "factory/QA/playwright/SITE_RUNTIME_AUDIT.json",
-      "reference": "/articles/subsidy24-benefit-search.html",
-      "expected": [
-        "articles/subsidy24-benefit-search.html"
-      ]
-    },
-    {
-      "source": "factory/QA/playwright/SITE_RUNTIME_AUDIT.json",
-      "reference": "/js/article-layout-dna.js?v=1",
-      "expected": [
-        "js/article-layout-dna.js"
-      ]
-    },
-    {
-      "source": "factory/QA/playwright/SITE_RUNTIME_AUDIT.json",
-      "reference": "/js/savingio-article-unified-v3036.js?v=3038",
-      "expected": [
-        "js/savingio-article-unified-v3036.js"
-      ]
-    },
-    {
-      "source": "factory/QA/playwright/SITE_RUNTIME_AUDIT.json",
-      "reference": "/js/savingio-brain-navigation-data.js?v=12",
-      "expected": [
-        "js/savingio-brain-navigation-data.js"
       ]
     },
     {
