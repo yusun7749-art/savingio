@@ -1,8 +1,8 @@
 # Savingio MASTER CONTENT MAP — 전체 주제 그룹 분류
 
-- 전체 본문: **158개**
+- 전체 본문: **157개**
 - 2개 이상 주제 그룹: **25개**
-- 그룹 내부 중복·통합 후보 관계: **2개**
+- 그룹 내부 중복·통합 후보 관계: **1개**
 - 단독 주제 글: **3개**
 
 > 삭제나 통합을 실행하지 않은 선분류 단계입니다. 각 그룹 전체를 한 번에 놓고 대표글·유지·흡수·삭제를 결정합니다.
@@ -99,22 +99,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G006 · 소상공인·사업자 · 7개
-
-- `articles/business-card-hometax-registration.html` — 사업용 신용카드 홈택스 등록 방법, 등록 뒤 매입내역까지 확인하는 순서 (5,223자)
-- `articles/business-phone-expense-deduction.html` — 사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리 (7,291자)
-- `articles/business-vehicle-expense-basics.html` — 사업용 차량 비용처리, 증빙부터 운행기록부까지 확인하는 순서 (6,017자)
-- `articles/small-business-closure-support.html` — 폐업 소상공인 원스톱 지원 확인 2026 (6,465자)
-- `articles/small-business-delivery-support.html` — 소상공인 배달비 지원사업 찾는 방법 (7,596자)
-- `articles/small-business-policy-fund-search.html` — 소상공인 정책자금 안내 | Savingio (44자)
-- `articles/small-business-policy-fund.html` — 소상공인 정책자금 확인·신청 순서 2026 (6,441자)
-
-중복·통합 우선 검토 관계:
-- **title_overlap_review** · 제목 0.60 · 본문 0.12 — `articles/small-business-policy-fund-search.html` ↔ `articles/small-business-policy-fund.html`
-
-**그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
-
-## G007 · 실업·고용·급여 · 7개
+## G006 · 실업·고용·급여 · 7개
 
 - `articles/four-major-insurance-deduction-guide.html` — 4대보험 공제액 확인 방법, 월급에서 얼마가 빠지는지 보는 기준 (4,948자)
 - `articles/national-employment-support-eligibility.html` — 국민취업지원제도 신청 자격 (5,731자)
@@ -128,7 +113,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G008 · 자동차세·교통 · 7개
+## G007 · 자동차세·교통 · 7개
 
 - `articles/car-aircon-fuel-saving.html` — 여름철 자동차 에어컨 연비 절약법, 차 안을 빨리 식히는 순서 (7,309자)
 - `articles/car-tax-annual-payment.html` — 2026 자동차세 연납, 신청 시기·5% 공제·환급 확인 가이드 (4,513자)
@@ -142,7 +127,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G009 · 정부지원 조회 · 7개
+## G008 · 정부지원 조회 · 7개
 
 - `articles/benefit-scam-warning-2026.html` — 지원금 문자 사기 구별 방법, 링크 누르기 전 확인할 7가지 (9,295자)
 - `articles/government-benefit-alert-2026.html` — “남들은 받았다는데 나는 왜 몰랐을까?” 정부24 혜택알리미 확인 순서 (7,585자)
@@ -156,7 +141,7 @@
 
 **그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
 
-## G010 · 주거·임대차 · 7개
+## G009 · 주거·임대차 · 7개
 
 - `articles/apartment-leak-emergency-response.html` — 아랫집 누수 연락을 받았을 때, 윗집이 바로 할 일 (6,730자)
 - `articles/deposit-return-guarantee-checklist.html` — 전세보증금 반환보증 가입 전 체크리스트 (7,761자)
@@ -165,6 +150,19 @@
 - `articles/long-term-repair-reserve-refund-guide.html` — 장기수선충당금 반환, 세입자가 이사할 때 돌려받는 순서 (5,844자)
 - `articles/monthly-rent-tax-credit-documents.html` — 월세 세액공제 준비서류와 확인 순서 (7,629자)
 - `articles/rental-contract-reporting-guide.html` — 전월세 신고제 신고 방법과 준비서류 (3,293자)
+
+중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
+
+**그룹 결정:** 미검토 — 대표글 / 독립 유지 / 흡수 후 삭제 / 완전 삭제로 판정 예정
+
+## G010 · 소상공인·사업자 · 6개
+
+- `articles/business-card-hometax-registration.html` — 사업용 신용카드 홈택스 등록 방법, 등록 뒤 매입내역까지 확인하는 순서 (5,223자)
+- `articles/business-phone-expense-deduction.html` — 사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리 (7,291자)
+- `articles/business-vehicle-expense-basics.html` — 사업용 차량 비용처리, 증빙부터 운행기록부까지 확인하는 순서 (6,017자)
+- `articles/small-business-closure-support.html` — 폐업 소상공인 원스톱 지원 확인 2026 (6,465자)
+- `articles/small-business-delivery-support.html` — 소상공인 배달비 지원사업 찾는 방법 (7,596자)
+- `articles/small-business-policy-fund.html` — 소상공인 정책자금 확인·신청 순서 2026 (6,441자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
 

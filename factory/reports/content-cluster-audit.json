@@ -1,7 +1,7 @@
 {
-  "article_count": 158,
+  "article_count": 157,
   "topic_group_count": 25,
-  "candidate_pair_count": 2,
+  "candidate_pair_count": 1,
   "method": "topic-first grouping; title/body similarity only ranks articles inside the same topic group",
   "groups": [
     {
@@ -425,71 +425,6 @@
     },
     {
       "group_id": "G006",
-      "topic": "소상공인·사업자",
-      "size": 7,
-      "articles": [
-        {
-          "path": "articles/business-card-hometax-registration.html",
-          "title": "사업용 신용카드 홈택스 등록 방법, 등록 뒤 매입내역까지 확인하는 순서 | Savingio",
-          "h1": "사업용 신용카드 홈택스 등록 방법, 등록 뒤 매입내역까지 확인하는 순서",
-          "char_count": 5223
-        },
-        {
-          "path": "articles/business-phone-expense-deduction.html",
-          "title": "사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리 | Savingio",
-          "h1": "사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리",
-          "char_count": 7291
-        },
-        {
-          "path": "articles/business-vehicle-expense-basics.html",
-          "title": "사업용 차량 비용처리, 증빙부터 운행기록부까지 확인하는 순서 | Savingio",
-          "h1": "사업용 차량 비용처리, 증빙부터 운행기록부까지 확인하는 순서",
-          "char_count": 6017
-        },
-        {
-          "path": "articles/small-business-closure-support.html",
-          "title": "폐업 소상공인 원스톱 지원 확인 2026 | Savingio",
-          "h1": "폐업 소상공인 원스톱 지원 확인 2026",
-          "char_count": 6465
-        },
-        {
-          "path": "articles/small-business-delivery-support.html",
-          "title": "소상공인 배달비 지원사업 찾는 방법 | 세이빙이오(Savingio)",
-          "h1": "소상공인 배달비 지원사업 찾는 방법",
-          "char_count": 7596
-        },
-        {
-          "path": "articles/small-business-policy-fund-search.html",
-          "title": "소상공인 정책자금 안내 | Savingio",
-          "h1": "",
-          "char_count": 44
-        },
-        {
-          "path": "articles/small-business-policy-fund.html",
-          "title": "소상공인 정책자금 확인·신청 순서 2026 | Savingio",
-          "h1": "소상공인 정책자금 확인·신청 순서 2026",
-          "char_count": 6441
-        }
-      ],
-      "relationships": [
-        {
-          "a": "articles/small-business-policy-fund-search.html",
-          "b": "articles/small-business-policy-fund.html",
-          "classification": "title_overlap_review",
-          "title_similarity": 0.6,
-          "body_similarity": 0.1156
-        }
-      ],
-      "decision_status": "pending_group_review",
-      "decision_options": [
-        "대표글 통합",
-        "검색의도 분리 유지",
-        "내용 흡수 후 삭제",
-        "완전 중복 삭제"
-      ]
-    },
-    {
-      "group_id": "G007",
       "topic": "실업·고용·급여",
       "size": 7,
       "articles": [
@@ -546,7 +481,7 @@
       ]
     },
     {
-      "group_id": "G008",
+      "group_id": "G007",
       "topic": "자동차세·교통",
       "size": 7,
       "articles": [
@@ -603,7 +538,7 @@
       ]
     },
     {
-      "group_id": "G009",
+      "group_id": "G008",
       "topic": "정부지원 조회",
       "size": 7,
       "articles": [
@@ -660,7 +595,7 @@
       ]
     },
     {
-      "group_id": "G010",
+      "group_id": "G009",
       "topic": "주거·임대차",
       "size": 7,
       "articles": [
@@ -705,6 +640,57 @@
           "title": "전월세 신고제 신고 방법과 준비서류 | Savingio",
           "h1": "전월세 신고제 신고 방법과 준비서류",
           "char_count": 3293
+        }
+      ],
+      "relationships": [],
+      "decision_status": "pending_group_review",
+      "decision_options": [
+        "대표글 통합",
+        "검색의도 분리 유지",
+        "내용 흡수 후 삭제",
+        "완전 중복 삭제"
+      ]
+    },
+    {
+      "group_id": "G010",
+      "topic": "소상공인·사업자",
+      "size": 6,
+      "articles": [
+        {
+          "path": "articles/business-card-hometax-registration.html",
+          "title": "사업용 신용카드 홈택스 등록 방법, 등록 뒤 매입내역까지 확인하는 순서 | Savingio",
+          "h1": "사업용 신용카드 홈택스 등록 방법, 등록 뒤 매입내역까지 확인하는 순서",
+          "char_count": 5223
+        },
+        {
+          "path": "articles/business-phone-expense-deduction.html",
+          "title": "사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리 | Savingio",
+          "h1": "사업자 통신비 비용처리 기준, 휴대전화 요금과 단말기 증빙 정리",
+          "char_count": 7291
+        },
+        {
+          "path": "articles/business-vehicle-expense-basics.html",
+          "title": "사업용 차량 비용처리, 증빙부터 운행기록부까지 확인하는 순서 | Savingio",
+          "h1": "사업용 차량 비용처리, 증빙부터 운행기록부까지 확인하는 순서",
+          "char_count": 6017
+        },
+        {
+          "path": "articles/small-business-closure-support.html",
+          "title": "폐업 소상공인 원스톱 지원 확인 2026 | Savingio",
+          "h1": "폐업 소상공인 원스톱 지원 확인 2026",
+          "char_count": 6465
+        },
+        {
+          "path": "articles/small-business-delivery-support.html",
+          "title": "소상공인 배달비 지원사업 찾는 방법 | 세이빙이오(Savingio)",
+          "h1": "소상공인 배달비 지원사업 찾는 방법",
+          "char_count": 7596
+        },
+        {
+          "path": "articles/small-business-policy-fund.html",
+          "title": "소상공인 정책자금 확인·신청 순서 2026 | Savingio",
+          "h1": "소상공인 정책자금 확인·신청 순서 2026",
+          "char_count": 6441
         }
       ],
       "relationships": [],
