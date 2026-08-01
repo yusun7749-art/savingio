@@ -17,13 +17,13 @@
     "vat",
     "weekly"
   ],
-  "normalized": 21,
-  "unchanged": 0,
+  "normalized": 0,
+  "unchanged": 21,
   "skipped": 7,
   "files": [
     {
       "file": "annual-leave.html",
-      "status": "normalized",
+      "status": "unchanged",
       "key": "leave"
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "file": "bmi.html",
-      "status": "normalized",
+      "status": "unchanged",
       "key": "bmi"
     },
     {
@@ -41,27 +41,27 @@
     },
     {
       "file": "cost-rate.html",
-      "status": "normalized",
+      "status": "unchanged",
       "key": "costRate"
     },
     {
       "file": "dday.html",
-      "status": "normalized",
+      "status": "unchanged",
       "key": "dday"
     },
     {
       "file": "discount.html",
-      "status": "normalized",
+      "status": "unchanged",
       "key": "discount"
     },
     {
       "file": "electricity-cost.html",
-      "status": "normalized",
+      "status": "unchanged",
       "key": "electricity"
     },
     {
       "file": "electricity.html",
-      "status": "normalized",
+      "status": "unchanged",
       "key": "electricity"
     },
     {
@@ -70,7 +70,7 @@
     },
     {
       "file": "fuel-efficiency.html",
-      "status": "normalized",
+      "status": "unchanged",
       "key": "fuel"
     },
     {
@@ -83,52 +83,52 @@
     },
     {
       "file": "leave.html",
-      "status": "normalized",
+      "status": "unchanged",
       "key": "leave"
     },
     {
       "file": "loan-payment.html",
-      "status": "normalized",
+      "status": "unchanged",
       "key": "loan"
     },
     {
       "file": "loan.html",
-      "status": "normalized",
+      "status": "unchanged",
       "key": "loan"
     },
     {
       "file": "margin.html",
-      "status": "normalized",
+      "status": "unchanged",
       "key": "margin"
     },
     {
       "file": "ovulation.html",
-      "status": "normalized",
+      "status": "unchanged",
       "key": "ovulation"
     },
     {
       "file": "percentage.html",
-      "status": "normalized",
+      "status": "unchanged",
       "key": "percentage"
     },
     {
       "file": "salary-net-pay.html",
-      "status": "normalized",
+      "status": "unchanged",
       "key": "salary"
     },
     {
       "file": "salary.html",
-      "status": "normalized",
+      "status": "unchanged",
       "key": "salary"
     },
     {
       "file": "severance-pay.html",
-      "status": "normalized",
+      "status": "unchanged",
       "key": "severance"
     },
     {
       "file": "severance.html",
-      "status": "normalized",
+      "status": "unchanged",
       "key": "severance"
     },
     {
@@ -137,17 +137,17 @@
     },
     {
       "file": "unit-converter.html",
-      "status": "normalized",
+      "status": "unchanged",
       "key": "unit"
     },
     {
       "file": "vat.html",
-      "status": "normalized",
+      "status": "unchanged",
       "key": "vat"
     },
     {
       "file": "weekly-pay.html",
-      "status": "normalized",
+      "status": "unchanged",
       "key": "weekly"
     },
     {
