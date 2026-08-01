@@ -20,14 +20,14 @@
 
 | Score | Status | Article | Main findings |
 |---:|---|---|---|
-| 26 | FAIL | `articles/irs-tax-refund-status.html` | META_DESCRIPTION_MISSING, NOINDEX, H1_COUNT:0, THIN_CONTENT_KO:25, CANONICAL_PATH_MISMATCH |
 | 26 | FAIL | `articles/small-business-policy-fund-search.html` | META_DESCRIPTION_MISSING, NOINDEX, H1_COUNT:0, THIN_CONTENT_KO:26, CANONICAL_PATH_MISMATCH |
+| 26 | FAIL | `articles/subsidy24-benefit-search.html` | META_DESCRIPTION_MISSING, NOINDEX, H1_COUNT:0, THIN_CONTENT_KO:22, CANONICAL_PATH_MISMATCH |
 | 80 | WARNING | `articles/rental-contract-reporting-guide.html` | THIN_CONTENT_KO:2341, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/salary-take-home-easy-calculator-guide.html` | THIN_CONTENT_KO:2244, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
+| 82 | WARNING | `articles/government24-benefit-check.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3743, DUPLICATE_SEO_SIGNAL |
 | 82 | WARNING | `articles/small-business-policy-fund.html` | BREADCRUMB_SCHEMA_MISSING, INTERNAL_ARTICLE_LINKS_LOW:2, CONTENT_SHORT_KO:4468, DUPLICATE_SEO_SIGNAL |
 | 84 | WARNING | `articles/fan-aircon-combination-saving.html` | META_DESCRIPTION_LENGTH:37, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3006 |
 | 84 | WARNING | `articles/national-employment-support-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, INTERNAL_ARTICLE_LINKS_LOW:2, CONTENT_SHORT_KO:4082 |
-| 86 | WARNING | `articles/hometax-refund-status.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3387, DUPLICATE_SEO_SIGNAL |
 | 88 | PASS | `articles/aircon-optimal-temperature-savings.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2943 |
 | 88 | PASS | `articles/apartment-management-fee-summer.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4248 |
 | 88 | PASS | `articles/automatic-payment-saving.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4458 |
@@ -46,7 +46,6 @@
 | 88 | PASS | `articles/general-vat-common-mistakes.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3570 |
 | 88 | PASS | `articles/government-benefits-warning.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4151 |
 | 88 | PASS | `articles/government-support-calendar.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2663 |
-| 88 | PASS | `articles/government24-benefit-check.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3743 |
 | 88 | PASS | `articles/hometax-vat-sales-check.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3314 |
 | 88 | PASS | `articles/insurance-auto-pay-discount.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4384 |
 | 88 | PASS | `articles/lifelong-education-voucher-application.html` | BREADCRUMB_SCHEMA_MISSING, INTERNAL_ARTICLE_LINKS_LOW:2, CONTENT_SHORT_KO:2947 |
@@ -100,3 +99,4 @@
 | 92 | PASS | `articles/government-benefit-alert-setup.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3954 |
 | 92 | PASS | `articles/health-insurance-refund-guide.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3639 |
 | 92 | PASS | `articles/heating-bill-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3156 |
+| 92 | PASS | `articles/home-water-leak-self-check.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
