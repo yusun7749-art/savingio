@@ -1,0 +1,53 @@
+name: Production Playwright QA
+on:
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: '운영 사이트 주소'
+        required: false
+        default: 'https://savingio.com'
+  schedule:
+    - cron: '15 20 * * *'
+permissions:
+  contents: write
+jobs:
+  production-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - name: Install dependencies
+        run: npm install
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Run production browser audit
+        id: qa
+        continue-on-error: true
+        env:
+          BASE_URL: ${{ github.event.inputs.base_url || 'https://savingio.com' }}
+          MAX_PAGES: '260'
+        run: npm run qa:site
+      - name: Commit QA reports
+        run: |
+          git config user.name 'savingio-playwright-bot'
+          git config user.email 'savingio-playwright-bot@users.noreply.github.com'
+          git add factory/QA/playwright/SITE_RUNTIME_AUDIT.json factory/QA/playwright/SITE_RUNTIME_AUDIT.md
+          if git diff --cached --quiet; then
+            echo 'No QA report changes'
+          else
+            git commit -m 'Publish production Playwright QA report [skip ci]'
+            git push
+          fi
+      - name: Upload browser QA report
+        uses: actions/upload-artifact@v4
+        with:
+          name: savingio-production-qa
+          path: factory/QA/playwright/
+          retention-days: 14
+      - name: Fail when QA found runtime problems
+        if: steps.qa.outcome == 'failure'
+        run: exit 1
