@@ -64,3 +64,4 @@ jobs:
       - name: Fail when QA found runtime problems
         if: steps.qa.outcome == 'failure'
         run: exit 1
+# retrigger: 2026-08-01T18:00+09:00
