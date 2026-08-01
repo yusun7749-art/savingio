@@ -210,7 +210,7 @@
 - `articles/check-hidden-refunds.html` — 미수령 환급금 조회 방법 (8,394자)
 - `articles/education-expense-vs-benefit.html` — 교육비 지원과 교육급여 차이 (4,921자)
 - `articles/index.html` — 돈이 되는 생활 정보 (163자)
-- `articles/salary-take-home-easy-calculator-guide.html` — 세전 월급만 입력해 예상 실수령액 확인하는 방법 (4,387자)
+- `articles/salary-take-home-easy-calculator-guide.html` — 세전 월급만 입력해 예상 실수령액 확인하는 방법 (3,245자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
 
@@ -269,7 +269,7 @@
 - `articles/apartment-management-fee-summer.html` — 아파트 관리비가 갑자기 많이 나왔을 때 확인할 항목과 줄이는 방법 (5,983자)
 - `articles/gas-bill-checklist.html` — 도시가스 요금 절약과 고지서 점검 방법 (4,624자)
 - `articles/heating-bill-saving.html` — 난방비 절약 방법 12가지, 보일러 설정부터 창문 단열까지 (4,481자)
-- `articles/water-bill-saving.html` — 수도요금 절약 방법, 누수 확인부터 사용량 줄이기까지 (5,456자)
+- `articles/water-bill-saving.html` — 수도요금 절약 방법, 누수 확인부터 사용량 줄이기까지 (4,040자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
 
@@ -311,7 +311,7 @@
 
 - `articles/national-scholarship-application.html` — 국가장학금 신청 방법과 확인사항 (5,465자)
 - `articles/student-loan-repayment-guide.html` — 학자금대출 상환 방법과 부담 줄이는 순서 (5,217자)
-- `articles/youth-housing-benefit-separate-payment.html` — 청년 주거급여 분리지급 확인 방법 (5,367자)
+- `articles/youth-housing-benefit-separate-payment.html` — 청년 주거급여 분리지급 확인 방법 (4,389자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
 
