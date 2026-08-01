@@ -6,6 +6,12 @@ on:
         description: '운영 사이트 주소'
         required: false
         default: 'https://savingio.com'
+  push:
+    branches: [main]
+    paths:
+      - 'qa/playwright/**'
+      - 'package.json'
+      - '.github/workflows/playwright-production-qa.yml'
   schedule:
     - cron: '15 20 * * *'
 permissions:
