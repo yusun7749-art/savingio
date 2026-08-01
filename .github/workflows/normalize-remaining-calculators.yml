@@ -1,0 +1,32 @@
+name: Normalize remaining calculators
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'factory/normalize_remaining_calculators.py'
+      - 'js/calculator-extra-configs.js'
+      - '.github/workflows/normalize-remaining-calculators.yml'
+permissions:
+  contents: write
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Normalize remaining calculator pages
+        run: python factory/normalize_remaining_calculators.py
+      - name: Commit remaining calculators and report
+        run: |
+          git config user.name 'savingio-calculator-bot'
+          git config user.email 'savingio-calculator-bot@users.noreply.github.com'
+          git add calculators js/calculator-extra-configs.js factory/QA/CALCULATOR_REMAINING_NORMALIZATION.json
+          if git diff --cached --quiet; then
+            echo 'No remaining calculator changes'
+            exit 0
+          fi
+          git commit -m 'Normalize remaining calculators to shared DNA [skip ci]'
+          git push
