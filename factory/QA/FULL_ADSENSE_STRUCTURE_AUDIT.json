@@ -4,10 +4,10 @@
     "articles_scanned": 155,
     "article_problem_pages": 155,
     "explorer_missing_pages": 0,
-    "blue_ui_pages": 8,
-    "card_ui_pages": 9,
+    "blue_ui_pages": 0,
+    "card_ui_pages": 0,
     "generic_template_pages": 0,
-    "article_dna_problem_pages": 58,
+    "article_dna_problem_pages": 49,
     "right_rail_problem_pages": 155,
     "canonical_problem_pages": 0,
     "figure_thumb_pages": 0,
@@ -16,7 +16,7 @@
     "topic_problem_pages": 1,
     "calculators_scanned": 28,
     "calculator_problem_pages": 28,
-    "missing_internal_links": 116
+    "missing_internal_links": 109
   },
   "article_problems": [
     {
@@ -3265,41 +3265,25 @@
     {
       "path": "articles/regional-development-bond-refund-guide.html",
       "h1": "자동차 채권 환급금 조회 방법, 지역개발채권 만기상환 확인 순서",
-      "visible_chars": 4342,
+      "visible_chars": 4803,
       "explorer": {
         "data": true,
         "js": true,
         "css": true
       },
       "explorer_missing": [],
-      "blue_reasons": [
-        "blue-hex",
-        "old-blue-gradient",
-        "blue-brand-var"
-      ],
-      "card_reasons": [
-        "summary-grid",
-        "hero-actions"
-      ],
+      "blue_reasons": [],
+      "card_reasons": [],
       "generic_reasons": [],
-      "missing_dna": [
-        "editorial",
-        "summary",
-        "situation",
-        "related"
-      ],
-      "right_rail_missing": [
-        "지금 해야 할 행동",
-        "같은 카테고리 글",
-        "함께 볼 관련 글"
-      ],
+      "missing_dna": [],
+      "right_rail_missing": [],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/regional-development-bond-refund-guide.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
       "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 0
+      "duplicate_editorial_count": 2
     },
     {
       "path": "articles/rental-car-vacation-saving.html",
@@ -3334,42 +3318,25 @@
     {
       "path": "articles/rental-contract-reporting-guide.html",
       "h1": "전월세 신고제 신고 방법과 준비서류",
-      "visible_chars": 4984,
+      "visible_chars": 3308,
       "explorer": {
         "data": true,
         "js": true,
         "css": true
       },
       "explorer_missing": [],
-      "blue_reasons": [
-        "blue-hex",
-        "old-blue-gradient",
-        "blue-brand-var"
-      ],
-      "card_reasons": [
-        "summary-grid",
-        "hero-actions"
-      ],
+      "blue_reasons": [],
+      "card_reasons": [],
       "generic_reasons": [],
-      "missing_dna": [
-        "editorial",
-        "summary",
-        "situation",
-        "related"
-      ],
-      "right_rail_missing": [
-        "지금 해야 할 행동",
-        "같은 카테고리 글",
-        "함께 볼 관련 글",
-        "다음 단계"
-      ],
+      "missing_dna": [],
+      "right_rail_missing": [],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/rental-contract-reporting-guide.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
       "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 0
+      "duplicate_editorial_count": 2
     },
     {
       "path": "articles/salary-slip-check-guide.html",
@@ -3397,7 +3364,7 @@
     {
       "path": "articles/salary-take-home-easy-calculator-guide.html",
       "h1": "세전 월급만 입력해 예상 실수령액 확인하는 방법",
-      "visible_chars": 4387,
+      "visible_chars": 3245,
       "explorer": {
         "data": true,
         "js": true,
@@ -3405,111 +3372,63 @@
       },
       "explorer_missing": [],
       "blue_reasons": [],
-      "card_reasons": [
-        "summary-grid",
-        "related-card",
-        "hero-actions"
-      ],
+      "card_reasons": [],
       "generic_reasons": [],
-      "missing_dna": [
-        "editorial",
-        "summary",
-        "related"
-      ],
-      "right_rail_missing": [
-        "지금 해야 할 행동",
-        "같은 카테고리 글",
-        "함께 볼 관련 글",
-        "다음 단계"
-      ],
+      "missing_dna": [],
+      "right_rail_missing": [],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/salary-take-home-easy-calculator-guide.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
-      "duplicate_toc_count": 3,
-      "duplicate_editorial_count": 0
+      "duplicate_toc_count": 1,
+      "duplicate_editorial_count": 2
     },
     {
       "path": "articles/self-employed-income-tax-refund-check.html",
       "h1": "종합소득세 신고 대상 확인 방법",
-      "visible_chars": 6603,
+      "visible_chars": 4785,
       "explorer": {
         "data": true,
         "js": true,
         "css": true
       },
       "explorer_missing": [],
-      "blue_reasons": [
-        "blue-hex",
-        "old-blue-gradient",
-        "blue-brand-var"
-      ],
-      "card_reasons": [
-        "summary-grid",
-        "related-card",
-        "hero-actions",
-        "info-card",
-        "three-second-summary"
-      ],
+      "blue_reasons": [],
+      "card_reasons": [],
       "generic_reasons": [],
-      "missing_dna": [
-        "summary",
-        "situation"
-      ],
-      "right_rail_missing": [
-        "지금 해야 할 행동",
-        "같은 카테고리 글",
-        "함께 볼 관련 글",
-        "다음 단계"
-      ],
+      "missing_dna": [],
+      "right_rail_missing": [],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/self-employed-income-tax-refund-check.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
-      "duplicate_toc_count": 2,
-      "duplicate_editorial_count": 1
+      "duplicate_toc_count": 1,
+      "duplicate_editorial_count": 2
     },
     {
       "path": "articles/senior-job-application-guide.html",
       "h1": "노인일자리 신청 방법, 모집 시기와 사업 유형을 비교하는 체크리스트",
-      "visible_chars": 4276,
+      "visible_chars": 4778,
       "explorer": {
         "data": true,
         "js": true,
         "css": true
       },
       "explorer_missing": [],
-      "blue_reasons": [
-        "blue-hex",
-        "old-blue-gradient",
-        "blue-brand-var"
-      ],
-      "card_reasons": [
-        "summary-grid",
-        "hero-actions"
-      ],
+      "blue_reasons": [],
+      "card_reasons": [],
       "generic_reasons": [],
-      "missing_dna": [
-        "editorial",
-        "summary",
-        "situation",
-        "related"
-      ],
-      "right_rail_missing": [
-        "지금 해야 할 행동",
-        "같은 카테고리 글",
-        "함께 볼 관련 글",
-        "다음 단계"
-      ],
+      "missing_dna": [],
+      "right_rail_missing": [],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/senior-job-application-guide.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
       "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 0
+      "duplicate_editorial_count": 2
     },
     {
       "path": "articles/severance-pay-calculation-guide.html",
@@ -3537,7 +3456,7 @@
     {
       "path": "articles/severance-pay-easy-calculator-guide.html",
       "h1": "퇴직금, 입사일과 월급만으로 빠르게 확인하는 방법",
-      "visible_chars": 4702,
+      "visible_chars": 4130,
       "explorer": {
         "data": true,
         "js": true,
@@ -3545,30 +3464,17 @@
       },
       "explorer_missing": [],
       "blue_reasons": [],
-      "card_reasons": [
-        "summary-grid",
-        "related-card",
-        "hero-actions"
-      ],
+      "card_reasons": [],
       "generic_reasons": [],
-      "missing_dna": [
-        "editorial",
-        "summary",
-        "related"
-      ],
-      "right_rail_missing": [
-        "지금 해야 할 행동",
-        "같은 카테고리 글",
-        "함께 볼 관련 글",
-        "다음 단계"
-      ],
+      "missing_dna": [],
+      "right_rail_missing": [],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/severance-pay-easy-calculator-guide.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
-      "duplicate_toc_count": 3,
-      "duplicate_editorial_count": 0
+      "duplicate_toc_count": 1,
+      "duplicate_editorial_count": 2
     },
     {
       "path": "articles/simple-receipt-expense-rules.html",
@@ -3665,18 +3571,14 @@
     {
       "path": "articles/small-business-electricity-support.html",
       "h1": "소상공인 전기요금 지원 확인법",
-      "visible_chars": 6155,
+      "visible_chars": 4160,
       "explorer": {
         "data": true,
         "js": true,
         "css": true
       },
       "explorer_missing": [],
-      "blue_reasons": [
-        "blue-hex",
-        "old-blue-gradient",
-        "blue-brand-var"
-      ],
+      "blue_reasons": [],
       "card_reasons": [],
       "generic_reasons": [],
       "missing_dna": [],
@@ -3687,7 +3589,7 @@
       "figure_thumb": false,
       "duplicate_h1_count": 1,
       "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 1
+      "duplicate_editorial_count": 2
     },
     {
       "path": "articles/small-business-policy-fund.html",
@@ -4017,81 +3919,48 @@
     {
       "path": "articles/vehicle-inspection-reservation-guide.html",
       "h1": "자동차 검사 예약·검사기간 확인 방법, 과태료 전에 준비할 순서",
-      "visible_chars": 5180,
+      "visible_chars": 4209,
       "explorer": {
         "data": true,
         "js": true,
         "css": true
       },
       "explorer_missing": [],
-      "blue_reasons": [
-        "blue-hex",
-        "old-blue-gradient",
-        "blue-brand-var"
-      ],
-      "card_reasons": [
-        "summary-grid",
-        "hero-actions"
-      ],
+      "blue_reasons": [],
+      "card_reasons": [],
       "generic_reasons": [],
-      "missing_dna": [
-        "editorial",
-        "summary",
-        "situation",
-        "related"
-      ],
-      "right_rail_missing": [
-        "지금 해야 할 행동",
-        "같은 카테고리 글",
-        "함께 볼 관련 글"
-      ],
+      "missing_dna": [],
+      "right_rail_missing": [],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/vehicle-inspection-reservation-guide.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
       "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 0
+      "duplicate_editorial_count": 2
     },
     {
       "path": "articles/water-bill-saving.html",
       "h1": "수도요금 절약 방법, 누수 확인부터 사용량 줄이기까지",
-      "visible_chars": 5456,
+      "visible_chars": 4040,
       "explorer": {
         "data": true,
         "js": true,
         "css": true
       },
       "explorer_missing": [],
-      "blue_reasons": [
-        "blue-hex",
-        "old-blue-gradient",
-        "blue-brand-var"
-      ],
-      "card_reasons": [
-        "summary-grid",
-        "related-card",
-        "hero-actions",
-        "three-second-summary"
-      ],
+      "blue_reasons": [],
+      "card_reasons": [],
       "generic_reasons": [],
-      "missing_dna": [
-        "summary",
-        "related"
-      ],
-      "right_rail_missing": [
-        "지금 해야 할 행동",
-        "같은 카테고리 글",
-        "함께 볼 관련 글",
-        "다음 단계"
-      ],
+      "missing_dna": [],
+      "right_rail_missing": [],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/water-bill-saving.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
       "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 3
+      "duplicate_editorial_count": 2
     },
     {
       "path": "articles/weekly-holiday-pay-guide.html",
@@ -4119,42 +3988,25 @@
     {
       "path": "articles/youth-housing-benefit-separate-payment.html",
       "h1": "청년 주거급여 분리지급 확인 방법",
-      "visible_chars": 5367,
+      "visible_chars": 4389,
       "explorer": {
         "data": true,
         "js": true,
         "css": true
       },
       "explorer_missing": [],
-      "blue_reasons": [
-        "blue-hex",
-        "old-blue-gradient",
-        "blue-brand-var"
-      ],
-      "card_reasons": [
-        "summary-grid",
-        "hero-actions"
-      ],
+      "blue_reasons": [],
+      "card_reasons": [],
       "generic_reasons": [],
-      "missing_dna": [
-        "editorial",
-        "summary",
-        "situation",
-        "related"
-      ],
-      "right_rail_missing": [
-        "지금 해야 할 행동",
-        "같은 카테고리 글",
-        "함께 볼 관련 글",
-        "다음 단계"
-      ],
+      "missing_dna": [],
+      "right_rail_missing": [],
       "right_rail_order_ok": false,
       "canonical": "https://savingio.com/articles/youth-housing-benefit-separate-payment.html",
       "canonical_problem": false,
       "figure_thumb": false,
       "duplicate_h1_count": 1,
       "duplicate_toc_count": 1,
-      "duplicate_editorial_count": 0
+      "duplicate_editorial_count": 2
     }
   ],
   "topic_problems": [
@@ -4642,31 +4494,27 @@
     },
     {
       "source": "articles/regional-development-bond-refund-guide.html",
-      "href": "/articles/subsidy24-benefit-search.html"
+      "href": "/categories/car.html"
     },
     {
       "source": "articles/regional-development-bond-refund-guide.html",
-      "href": "/articles/hidden-money-search.html"
+      "href": "/calculators/car-tax.html"
+    },
+    {
+      "source": "articles/rental-contract-reporting-guide.html",
+      "href": "/articles/rental-contract-special-clauses.html"
+    },
+    {
+      "source": "articles/rental-contract-reporting-guide.html",
+      "href": "/articles/moving-address-change-checklist.html"
     },
     {
       "source": "articles/salary-take-home-easy-calculator-guide.html",
-      "href": "/articles/salary-management-guide.html"
+      "href": "/calculators/freelancer-withholding.html"
     },
     {
-      "source": "articles/self-employed-income-tax-refund-check.html",
-      "href": "/articles/vat-final-return-july-2026.html"
-    },
-    {
-      "source": "articles/self-employed-income-tax-refund-check.html",
-      "href": "/articles/vat-zero-sales-filing.html"
-    },
-    {
-      "source": "articles/self-employed-income-tax-refund-check.html",
-      "href": "/articles/energy-voucher-eligibility-2026.html"
-    },
-    {
-      "source": "articles/small-business-electricity-support.html",
-      "href": "/articles/subsidy24-benefit-search.html"
+      "source": "articles/severance-pay-easy-calculator-guide.html",
+      "href": "/categories/work-income.html"
     },
     {
       "source": "articles/small-business-policy-fund.html",
@@ -4702,15 +4550,15 @@
     },
     {
       "source": "articles/vehicle-inspection-reservation-guide.html",
-      "href": "/articles/vat-final-return-july-2026.html"
-    },
-    {
-      "source": "articles/vehicle-inspection-reservation-guide.html",
-      "href": "/articles/vat-zero-sales-filing.html"
+      "href": "/categories/car.html"
     },
     {
       "source": "articles/water-bill-saving.html",
-      "href": "/articles/water-bill-guide.html"
+      "href": "/categories/living-expense.html"
+    },
+    {
+      "source": "articles/water-bill-saving.html",
+      "href": "/articles/upstairs-water-leak-response.html"
     },
     {
       "source": "articles/weekly-holiday-pay-guide.html",
@@ -4722,31 +4570,7 @@
     },
     {
       "source": "articles/youth-housing-benefit-separate-payment.html",
-      "href": "/articles/energy-voucher-eligibility-2026.html"
-    },
-    {
-      "source": "articles/youth-housing-benefit-separate-payment.html",
-      "href": "/articles/energy-voucher-application-2026.html"
-    },
-    {
-      "source": "articles/youth-housing-benefit-separate-payment.html",
-      "href": "/articles/energy-voucher-balance-check-2026.html"
-    },
-    {
-      "source": "articles/youth-housing-benefit-separate-payment.html",
-      "href": "/articles/energy-voucher-application.html"
-    },
-    {
-      "source": "articles/youth-housing-benefit-separate-payment.html",
-      "href": "/articles/energy-voucher-online-application.html"
-    },
-    {
-      "source": "articles/youth-housing-benefit-separate-payment.html",
-      "href": "/articles/energy-voucher-balance-use.html"
-    },
-    {
-      "source": "articles/youth-housing-benefit-separate-payment.html",
-      "href": "/articles/energy-voucher-documents.html"
+      "href": "/articles/youth-support-programs.html"
     },
     {
       "source": "calculators/hourly-to-monthly.html",

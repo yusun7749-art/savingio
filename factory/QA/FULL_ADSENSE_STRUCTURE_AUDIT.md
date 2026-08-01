@@ -5,10 +5,10 @@
 - articles_scanned: **155**
 - article_problem_pages: **155**
 - explorer_missing_pages: **0**
-- blue_ui_pages: **8**
-- card_ui_pages: **9**
+- blue_ui_pages: **0**
+- card_ui_pages: **0**
 - generic_template_pages: **0**
-- article_dna_problem_pages: **58**
+- article_dna_problem_pages: **49**
 - right_rail_problem_pages: **155**
 - canonical_problem_pages: **0**
 - figure_thumb_pages: **0**
@@ -17,7 +17,7 @@
 - topic_problem_pages: **1**
 - calculators_scanned: **28**
 - calculator_problem_pages: **28**
-- missing_internal_links: **116**
+- missing_internal_links: **109**
 
 ## Article 문제 페이지
 
@@ -146,20 +146,20 @@
 | `articles/property-tax-july-september-difference.html` | - | - | - | - | 순서 오류 | - |
 | `articles/property-tax-objection-guide.html` | - | - | - | - | 순서 오류 | - |
 | `articles/property-tax-payment-certificate.html` | - | - | - | - | 순서 오류 | - |
-| `articles/regional-development-bond-refund-guide.html` | - | blue-hex, old-blue-gradient, blue-brand-var | summary-grid, hero-actions | editorial, summary, situation, related | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글 | - |
+| `articles/regional-development-bond-refund-guide.html` | - | - | - | - | 순서 오류 | - |
 | `articles/rental-car-vacation-saving.html` | - | - | - | related | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계 | - |
-| `articles/rental-contract-reporting-guide.html` | - | blue-hex, old-blue-gradient, blue-brand-var | summary-grid, hero-actions | editorial, summary, situation, related | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계 | - |
+| `articles/rental-contract-reporting-guide.html` | - | - | - | - | 순서 오류 | - |
 | `articles/salary-slip-check-guide.html` | - | - | - | - | 순서 오류 | - |
-| `articles/salary-take-home-easy-calculator-guide.html` | - | - | summary-grid, related-card, hero-actions | editorial, summary, related | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계 | - |
-| `articles/self-employed-income-tax-refund-check.html` | - | blue-hex, old-blue-gradient, blue-brand-var | summary-grid, related-card, hero-actions, info-card, three-second-summary | summary, situation | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계 | - |
-| `articles/senior-job-application-guide.html` | - | blue-hex, old-blue-gradient, blue-brand-var | summary-grid, hero-actions | editorial, summary, situation, related | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계 | - |
+| `articles/salary-take-home-easy-calculator-guide.html` | - | - | - | - | 순서 오류 | - |
+| `articles/self-employed-income-tax-refund-check.html` | - | - | - | - | 순서 오류 | - |
+| `articles/senior-job-application-guide.html` | - | - | - | - | 순서 오류 | - |
 | `articles/severance-pay-calculation-guide.html` | - | - | - | - | 순서 오류 | - |
-| `articles/severance-pay-easy-calculator-guide.html` | - | - | summary-grid, related-card, hero-actions | editorial, summary, related | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계 | - |
+| `articles/severance-pay-easy-calculator-guide.html` | - | - | - | - | 순서 오류 | - |
 | `articles/simple-receipt-expense-rules.html` | - | - | - | - | 순서 오류 | - |
 | `articles/simplified-vat-checklist.html` | - | - | - | - | 순서 오류 | - |
 | `articles/small-business-closure-support.html` | - | - | - | - | 순서 오류 | - |
 | `articles/small-business-delivery-support.html` | - | - | - | - | 순서 오류 | - |
-| `articles/small-business-electricity-support.html` | - | blue-hex, old-blue-gradient, blue-brand-var | - | - | 순서 오류 | - |
+| `articles/small-business-electricity-support.html` | - | - | - | - | 순서 오류 | - |
 | `articles/small-business-policy-fund.html` | - | - | - | - | 순서 오류 | - |
 | `articles/spending-habits-change.html` | - | - | - | - | 순서 오류 | - |
 | `articles/student-loan-repayment-guide.html` | - | - | - | - | 순서 오류 | - |
@@ -174,10 +174,10 @@
 | `articles/vat-payment-extension-guide.html` | - | - | - | - | 순서 오류 | - |
 | `articles/vat-sales-omission-check-2026.html` | - | - | - | - | 순서 오류 | - |
 | `articles/vat-zero-sales-filing-2026.html` | - | - | - | - | 순서 오류 | - |
-| `articles/vehicle-inspection-reservation-guide.html` | - | blue-hex, old-blue-gradient, blue-brand-var | summary-grid, hero-actions | editorial, summary, situation, related | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글 | - |
-| `articles/water-bill-saving.html` | - | blue-hex, old-blue-gradient, blue-brand-var | summary-grid, related-card, hero-actions, three-second-summary | summary, related | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계 | - |
+| `articles/vehicle-inspection-reservation-guide.html` | - | - | - | - | 순서 오류 | - |
+| `articles/water-bill-saving.html` | - | - | - | - | 순서 오류 | - |
 | `articles/weekly-holiday-pay-guide.html` | - | - | - | - | 순서 오류 | - |
-| `articles/youth-housing-benefit-separate-payment.html` | - | blue-hex, old-blue-gradient, blue-brand-var | summary-grid, hero-actions | editorial, summary, situation, related | 지금 해야 할 행동, 같은 카테고리 글, 함께 볼 관련 글, 다음 단계 | - |
+| `articles/youth-housing-benefit-separate-payment.html` | - | - | - | - | 순서 오류 | - |
 
 ## Topic 문제 페이지
 
@@ -262,13 +262,12 @@
 | `articles/national-tax-refund.html` | `/articles/local-tax-refund.html` |
 | `articles/overdraft-account-guide.html` | `/articles/credit-score-management.html` |
 | `articles/overdraft-account-guide.html` | `/articles/bank-fees-to-avoid.html` |
-| `articles/regional-development-bond-refund-guide.html` | `/articles/subsidy24-benefit-search.html` |
-| `articles/regional-development-bond-refund-guide.html` | `/articles/hidden-money-search.html` |
-| `articles/salary-take-home-easy-calculator-guide.html` | `/articles/salary-management-guide.html` |
-| `articles/self-employed-income-tax-refund-check.html` | `/articles/vat-final-return-july-2026.html` |
-| `articles/self-employed-income-tax-refund-check.html` | `/articles/vat-zero-sales-filing.html` |
-| `articles/self-employed-income-tax-refund-check.html` | `/articles/energy-voucher-eligibility-2026.html` |
-| `articles/small-business-electricity-support.html` | `/articles/subsidy24-benefit-search.html` |
+| `articles/regional-development-bond-refund-guide.html` | `/categories/car.html` |
+| `articles/regional-development-bond-refund-guide.html` | `/calculators/car-tax.html` |
+| `articles/rental-contract-reporting-guide.html` | `/articles/rental-contract-special-clauses.html` |
+| `articles/rental-contract-reporting-guide.html` | `/articles/moving-address-change-checklist.html` |
+| `articles/salary-take-home-easy-calculator-guide.html` | `/calculators/freelancer-withholding.html` |
+| `articles/severance-pay-easy-calculator-guide.html` | `/categories/work-income.html` |
 | `articles/small-business-policy-fund.html` | `/articles/government-support-scam-warning-2026.html` |
 | `articles/spending-habits-change.html` | `/categories/household-budget.html` |
 | `articles/spending-habits-change.html` | `/calculators/monthly-budget.html` |
@@ -277,18 +276,12 @@
 | `articles/student-loan-repayment-guide.html` | `/articles/credit-score-recovery.html` |
 | `articles/student-loan-repayment-guide.html` | `/articles/monthly-budget-plan.html` |
 | `articles/summer-electricity-tier-check-2026.html` | `/articles/summer-electricity-tier-check.html` |
-| `articles/vehicle-inspection-reservation-guide.html` | `/articles/vat-final-return-july-2026.html` |
-| `articles/vehicle-inspection-reservation-guide.html` | `/articles/vat-zero-sales-filing.html` |
-| `articles/water-bill-saving.html` | `/articles/water-bill-guide.html` |
+| `articles/vehicle-inspection-reservation-guide.html` | `/categories/car.html` |
+| `articles/water-bill-saving.html` | `/categories/living-expense.html` |
+| `articles/water-bill-saving.html` | `/articles/upstairs-water-leak-response.html` |
 | `articles/weekly-holiday-pay-guide.html` | `/articles/minimum-wage-guide.html` |
 | `articles/weekly-holiday-pay-guide.html` | `/articles/overtime-pay-calculation.html` |
-| `articles/youth-housing-benefit-separate-payment.html` | `/articles/energy-voucher-eligibility-2026.html` |
-| `articles/youth-housing-benefit-separate-payment.html` | `/articles/energy-voucher-application-2026.html` |
-| `articles/youth-housing-benefit-separate-payment.html` | `/articles/energy-voucher-balance-check-2026.html` |
-| `articles/youth-housing-benefit-separate-payment.html` | `/articles/energy-voucher-application.html` |
-| `articles/youth-housing-benefit-separate-payment.html` | `/articles/energy-voucher-online-application.html` |
-| `articles/youth-housing-benefit-separate-payment.html` | `/articles/energy-voucher-balance-use.html` |
-| `articles/youth-housing-benefit-separate-payment.html` | `/articles/energy-voucher-documents.html` |
+| `articles/youth-housing-benefit-separate-payment.html` | `/articles/youth-support-programs.html` |
 | `calculators/hourly-to-monthly.html` | `/articles/salary-budget-guide.html` |
 | `categories/finance-credit.html` | `/articles/bank-fees-to-avoid.html` |
 | `categories/finance-credit.html` | `/articles/beginner-ai-side-hustles.html` |
