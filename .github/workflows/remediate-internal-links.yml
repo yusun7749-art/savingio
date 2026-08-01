@@ -1,0 +1,30 @@
+name: Remediate internal links and stale registry
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'factory/remediate_internal_links_and_registry.py'
+permissions:
+  contents: write
+jobs:
+  remediate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Repair broken internal routes and stale search records
+        run: python factory/remediate_internal_links_and_registry.py
+      - name: Commit remediation
+        run: |
+          git config user.name 'savingio-remediation-bot'
+          git config user.email 'savingio-remediation-bot@users.noreply.github.com'
+          git add articles topics calculators categories data index.html search.html factory/QA/INTERNAL_LINK_REMEDIATION.json
+          if git diff --cached --quiet; then
+            echo 'No remediation changes'
+            exit 0
+          fi
+          git commit -m 'Repair broken internal links and remove stale search records [skip ci]'
+          git push
