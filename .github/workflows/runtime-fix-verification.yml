@@ -29,11 +29,16 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+
       - name: Verify production fixes
+        id: verify
+        continue-on-error: true
         run: |
+          mkdir -p factory/QA/runtime-fix
           node <<'NODE'
           const fs = require('fs');
 
@@ -96,7 +101,6 @@ jobs:
               failures++;
             }
 
-            fs.mkdirSync('factory/QA/runtime-fix', { recursive: true });
             fs.writeFileSync(
               'factory/QA/runtime-fix/RESULT.md',
               `# Runtime Fix Verification\n\n- generated: ${new Date().toISOString()}\n- failures: ${failures}\n- verdict: ${failures === 0 ? 'PASS' : 'FAIL'}\n\n${rows.map((x) => '- ' + x).join('\n')}\n`
@@ -104,17 +108,36 @@ jobs:
 
             if (failures) process.exitCode = 1;
           })().catch((error) => {
-            console.error(error);
+            fs.writeFileSync(
+              'factory/QA/runtime-fix/RESULT.md',
+              `# Runtime Fix Verification\n\n- generated: ${new Date().toISOString()}\n- failures: 1\n- verdict: FAIL\n\n- runner error=${error.stack || error.message}\n`
+            );
             process.exitCode = 1;
           });
           NODE
+
+      - name: Ensure report exists
+        if: always()
+        run: |
+          mkdir -p factory/QA/runtime-fix
+          if [ ! -f factory/QA/runtime-fix/RESULT.md ]; then
+            printf '# Runtime Fix Verification\n\n- generated: %s\n- failures: 1\n- verdict: FAIL\n\n- runner stopped before producing a report\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" > factory/QA/runtime-fix/RESULT.md
+          fi
+
       - name: Commit verification report
         if: always()
         run: |
           git config user.name 'savingio-runtime-qa-bot'
           git config user.email 'savingio-runtime-qa-bot@users.noreply.github.com'
-          git add factory/QA/runtime-fix/RESULT.md || true
-          if git diff --cached --quiet; then exit 0; fi
+          git add factory/QA/runtime-fix/RESULT.md
+          if git diff --cached --quiet; then
+            echo 'No report changes'
+            exit 0
+          fi
           git commit -m 'Publish targeted runtime verification report [skip ci]'
           git pull --rebase origin main
           git push origin HEAD:main
+
+      - name: Fail when verification found problems
+        if: steps.verify.outcome == 'failure'
+        run: exit 1
