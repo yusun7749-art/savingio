@@ -45,7 +45,7 @@
     "/articles/housing-benefit-eligibility.html",
     "/articles/how-to-check-hidden-refunds.html",
     "/articles/insurance-surrender-value-check.html",
-    "/articles/irs-tax-refund-status.html",
+    "/articles/hometax-refund-status.html",
     "/articles/lifelong-education-voucher-application.html",
     "/articles/local-tax-refund-claim.html",
     "/articles/local-tax-refund-guide.html",
@@ -74,10 +74,10 @@
     "/articles/simple-receipt-expense-rules.html",
     "/articles/small-business-closure-support.html",
     "/articles/small-business-delivery-support.html",
-    "/articles/small-business-policy-fund-search.html",
+    "/articles/small-business-policy-fund.html",
     "/articles/small-business-policy-fund.html",
     "/articles/student-loan-repayment-guide.html",
-    "/articles/subsidy24-benefit-search.html",
+    "/articles/government24-benefit-check.html",
     "/articles/youth-housing-benefit-separate-payment.html",
     "/calculators/cost-rate.html",
     "/calculators/margin.html"
@@ -293,7 +293,7 @@
       "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
       "reason": "label terms absent from article: 전체, 보완"
     },
-    "/articles/irs-tax-refund-status.html": {
+    "/articles/hometax-refund-status.html": {
       "title": "세금 환급 진행상태 확인 방법",
       "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
       "reason": "label terms absent from article: 전체, 보완"
@@ -442,7 +442,7 @@
       "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
       "reason": "label terms absent from article: 전체, 보완"
     },
-    "/articles/small-business-policy-fund-search.html": {
+    "/articles/small-business-policy-fund.html": {
       "title": "소상공인 정책자금 확인 방법",
       "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
       "reason": "label terms absent from article: 전체, 보완"
@@ -457,7 +457,7 @@
       "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
       "reason": "label terms absent from article: 전체, 보완"
     },
-    "/articles/subsidy24-benefit-search.html": {
+    "/articles/government24-benefit-check.html": {
       "title": "보조금24에서 받을 수 있는 지원금 찾기",
       "path": "생활 문제 해결 > 기타 연결 글 > 전체 글 보완",
       "reason": "label terms absent from article: 전체, 보완"
