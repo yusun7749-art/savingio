@@ -1,11 +1,11 @@
 {
   "summary": {
     "article_count": 155,
-    "pass": 152,
-    "warning": 3,
+    "pass": 151,
+    "warning": 4,
     "fail": 0,
-    "average_score": 92.0,
-    "thin_under_2500_ko": 1,
+    "average_score": 91.9,
+    "thin_under_2500_ko": 2,
     "short_under_4500_ko": 94,
     "missing_meta": 0,
     "missing_canonical": 0,
@@ -3592,29 +3592,32 @@
     {
       "path": "articles/salary-take-home-easy-calculator-guide.html",
       "url": "https://savingio.com/articles/salary-take-home-easy-calculator-guide.html",
-      "title": "세전 월급만 입력해 예상 실수령액 확인하는 방법 | 세이빙이오(Savingio)",
-      "meta_description": "월급이 생각보다 적게 들어왔을 때 세전 월급만으로 예상 실수령액과 공제 항목을 확인하고 급여명세서를 비교하는 방법입니다.",
+      "title": "세전 월급만 입력해 예상 실수령액 확인하는 방법 | Savingio",
+      "meta_description": "세전 월급으로 예상 실수령액을 확인하고 국민연금·건강보험·고용보험·소득세·비과세 항목을 급여명세서와 비교하는 순서를 정리했습니다.",
       "canonical": "https://savingio.com/articles/salary-take-home-easy-calculator-guide.html",
       "h1": [
         "세전 월급만 입력해 예상 실수령액 확인하는 방법"
       ],
-      "h2_count": 17,
-      "h3_count": 2,
-      "korean_chars": 3083,
-      "words": 1018,
-      "internal_article_links": 11,
+      "h2_count": 16,
+      "h3_count": 3,
+      "korean_chars": 2244,
+      "words": 742,
+      "internal_article_links": 9,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 1,
       "article_schema": true,
-      "breadcrumb_schema": true,
-      "faq_schema": true,
-      "issues": [],
-      "warnings": [
-        "CONTENT_SHORT_KO:3083"
+      "breadcrumb_schema": false,
+      "faq_schema": false,
+      "issues": [
+        "THIN_CONTENT_KO:2244"
       ],
-      "score": 96,
-      "status": "PASS"
+      "warnings": [
+        "BREADCRUMB_SCHEMA_MISSING",
+        "FAQ_SCHEMA_MISSING"
+      ],
+      "score": 80,
+      "status": "WARNING"
     },
     {
       "path": "articles/self-employed-income-tax-refund-check.html",

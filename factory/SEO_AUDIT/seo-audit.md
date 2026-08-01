@@ -1,11 +1,11 @@
 # Savingio Full SEO Audit
 
 - Articles: 155
-- PASS: 152
-- WARNING: 3
+- PASS: 151
+- WARNING: 4
 - FAIL: 0
-- Average score: 92.0
-- Thin content (<2500 Korean chars): 1
+- Average score: 91.9
+- Thin content (<2500 Korean chars): 2
 - Short content (<4500 Korean chars): 94
 - Missing meta: 0
 - Missing canonical: 0
@@ -21,6 +21,7 @@
 | Score | Status | Article | Main findings |
 |---:|---|---|---|
 | 80 | WARNING | `articles/rental-contract-reporting-guide.html` | THIN_CONTENT_KO:2341, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
+| 80 | WARNING | `articles/salary-take-home-easy-calculator-guide.html` | THIN_CONTENT_KO:2244, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 84 | WARNING | `articles/fan-aircon-combination-saving.html` | META_DESCRIPTION_LENGTH:37, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2929 |
 | 84 | WARNING | `articles/national-employment-support-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, INTERNAL_ARTICLE_LINKS_LOW:2, CONTENT_SHORT_KO:4077 |
 | 88 | PASS | `articles/aircon-optimal-temperature-savings.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2908 |
@@ -99,4 +100,3 @@
 | 92 | PASS | `articles/income-tax-filing-missed-consequences.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/insurance-surrender-value-check.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:4478 |
 | 92 | PASS | `articles/internet-bill-discount.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
-| 92 | PASS | `articles/inverter-aircon-saving-guide.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
