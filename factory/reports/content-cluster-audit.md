@@ -186,7 +186,7 @@
 - `articles/income-tax-filing-missed-consequences.html` — 종합소득세 신고 안 하면 생기는 불이익과 기한후신고 방법 (8,342자)
 - `articles/national-tax-refund-account.html` — 국세환급금 지급계좌 등록 방법 (4,953자)
 - `articles/national-tax-refund.html` — 국세 환급금 조회 방법 (5,499자)
-- `articles/self-employed-income-tax-refund-check.html` — 종합소득세 신고 대상 확인 방법 (6,603자)
+- `articles/self-employed-income-tax-refund-check.html` — 종합소득세 신고 대상 확인 방법 (4,785자)
 
 중복도 자동 경고 없음 — 검색 의도 기준으로 분리 유지 여부 검토
 
