@@ -158,3 +158,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+# remediation-trigger: 2026-08-01T15:22+09:00
