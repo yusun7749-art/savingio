@@ -30,7 +30,7 @@ jobs:
           node-version: '20'
       - name: Wait for Cloudflare deployment
         run: sleep 90
-      - name: Verify redirect responses
+      - name: Verify redirect chains
         id: verify
         continue-on-error: true
         run: |
@@ -42,25 +42,55 @@ jobs:
             ['https://savingio.com/articles/small-business-policy-fund-search.html', '/articles/small-business-policy-fund.html'],
             ['https://savingio.com/articles/subsidy24-benefit-search.html', '/articles/government24-benefit-check.html']
           ];
+
+          const absolute = (base, location) => new URL(location, base).toString();
+
           (async () => {
             const rows = [];
             let failures = 0;
-            for (const [url, expected] of checks) {
+
+            for (const [startUrl, expectedPath] of checks) {
               try {
-                const response = await fetch(url, { redirect: 'manual' });
-                const location = response.headers.get('location') || '';
-                const ok = response.status === 301 && location.includes(expected);
-                rows.push(`${url} status=${response.status} location=${location} ok=${ok}`);
-                if (!ok) failures++;
+                let currentUrl = startUrl;
+                const hops = [];
+                let finalOk = false;
+
+                for (let hop = 0; hop < 5; hop++) {
+                  const response = await fetch(currentUrl, { redirect: 'manual' });
+                  const location = response.headers.get('location') || '';
+                  hops.push(`${response.status}:${location || currentUrl}`);
+
+                  if (location && location.includes(expectedPath)) {
+                    finalOk = [301, 302, 307, 308].includes(response.status);
+                    break;
+                  }
+
+                  if (![301, 302, 307, 308].includes(response.status) || !location) {
+                    break;
+                  }
+
+                  currentUrl = absolute(currentUrl, location);
+                }
+
+                rows.push(`${startUrl} expected=${expectedPath} hops=${hops.join(' -> ')} ok=${finalOk}`);
+                if (!finalOk) failures++;
               } catch (error) {
-                rows.push(`${url} error=${error.message} ok=false`);
+                rows.push(`${startUrl} error=${error.message} ok=false`);
                 failures++;
               }
             }
-            fs.writeFileSync('factory/QA/legacy-edge-redirects/RESULT.md', `# Legacy Edge Redirect Verification\n\n- generated: ${new Date().toISOString()}\n- failures: ${failures}\n- verdict: ${failures === 0 ? 'PASS' : 'FAIL'}\n\n${rows.map(row => '- ' + row).join('\n')}\n`);
+
+            fs.writeFileSync(
+              'factory/QA/legacy-edge-redirects/RESULT.md',
+              `# Legacy Edge Redirect Verification\n\n- generated: ${new Date().toISOString()}\n- failures: ${failures}\n- verdict: ${failures === 0 ? 'PASS' : 'FAIL'}\n\n${rows.map(row => '- ' + row).join('\n')}\n`
+            );
+
             if (failures) process.exitCode = 1;
           })().catch(error => {
-            fs.writeFileSync('factory/QA/legacy-edge-redirects/RESULT.md', `# Legacy Edge Redirect Verification\n\n- generated: ${new Date().toISOString()}\n- failures: 1\n- verdict: FAIL\n\n- runner error=${error.stack || error.message}\n`);
+            fs.writeFileSync(
+              'factory/QA/legacy-edge-redirects/RESULT.md',
+              `# Legacy Edge Redirect Verification\n\n- generated: ${new Date().toISOString()}\n- failures: 1\n- verdict: FAIL\n\n- runner error=${error.stack || error.message}\n`
+            );
             process.exitCode = 1;
           });
           NODE
