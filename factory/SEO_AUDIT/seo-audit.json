@@ -1,36 +1,26 @@
 {
   "summary": {
-    "article_count": 156,
-    "pass": 150,
-    "warning": 5,
-    "fail": 1,
-    "average_score": 91.3,
-    "thin_under_2500_ko": 3,
-    "short_under_4500_ko": 94,
-    "missing_meta": 1,
+    "article_count": 155,
+    "pass": 151,
+    "warning": 4,
+    "fail": 0,
+    "average_score": 91.8,
+    "thin_under_2500_ko": 2,
+    "short_under_4500_ko": 93,
+    "missing_meta": 0,
     "missing_canonical": 0,
-    "bad_h1": 1,
-    "low_internal_links": 10,
+    "bad_h1": 0,
+    "low_internal_links": 9,
     "duplicate_title_groups": 0,
     "duplicate_description_groups": 0,
-    "duplicate_canonical_groups": 1,
-    "duplicate_normalized_url_groups": 1
+    "duplicate_canonical_groups": 0,
+    "duplicate_normalized_url_groups": 0
   },
   "duplicates": {
     "titles": {},
     "descriptions": {},
-    "canonicals": {
-      "https://savingio.com/articles/government24-benefit-check.html": [
-        "articles/government24-benefit-check.html",
-        "articles/subsidy24-benefit-search.html"
-      ]
-    },
-    "normalized_urls": {
-      "savingio.com/articles/government24-benefit-check": [
-        "articles/government24-benefit-check.html",
-        "articles/subsidy24-benefit-search.html"
-      ]
-    }
+    "canonicals": {},
+    "normalized_urls": {}
   },
   "articles": [
     {
@@ -2155,11 +2145,10 @@
       "warnings": [
         "BREADCRUMB_SCHEMA_MISSING",
         "FAQ_SCHEMA_MISSING",
-        "CONTENT_SHORT_KO:3743",
-        "DUPLICATE_SEO_SIGNAL"
+        "CONTENT_SHORT_KO:3743"
       ],
-      "score": 82,
-      "status": "WARNING"
+      "score": 88,
+      "status": "PASS"
     },
     {
       "path": "articles/grocery-saving-tips.html",
@@ -3962,41 +3951,6 @@
       ],
       "score": 92,
       "status": "PASS"
-    },
-    {
-      "path": "articles/subsidy24-benefit-search.html",
-      "url": "https://savingio.com/articles/government24-benefit-check.html",
-      "title": "정부24 혜택 조회 안내 | Savingio",
-      "meta_description": "",
-      "canonical": "https://savingio.com/articles/government24-benefit-check.html",
-      "h1": [],
-      "h2_count": 0,
-      "h3_count": 0,
-      "korean_chars": 22,
-      "words": 11,
-      "internal_article_links": 1,
-      "images": 0,
-      "missing_alt": 0,
-      "jsonld_count": 0,
-      "article_schema": false,
-      "breadcrumb_schema": false,
-      "faq_schema": false,
-      "issues": [
-        "META_DESCRIPTION_MISSING",
-        "NOINDEX",
-        "H1_COUNT:0",
-        "THIN_CONTENT_KO:22"
-      ],
-      "warnings": [
-        "CANONICAL_PATH_MISMATCH",
-        "H2_TOO_FEW:0",
-        "ARTICLE_SCHEMA_MISSING",
-        "BREADCRUMB_SCHEMA_MISSING",
-        "INTERNAL_ARTICLE_LINKS_LOW:1",
-        "DUPLICATE_SEO_SIGNAL"
-      ],
-      "score": 26,
-      "status": "FAIL"
     },
     {
       "path": "articles/summer-electricity-tier-check-2026.html",

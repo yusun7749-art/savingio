@@ -1,29 +1,27 @@
 # Savingio Full SEO Audit
 
-- Articles: 156
-- PASS: 150
-- WARNING: 5
-- FAIL: 1
-- Average score: 91.3
-- Thin content (<2500 Korean chars): 3
-- Short content (<4500 Korean chars): 94
-- Missing meta: 1
+- Articles: 155
+- PASS: 151
+- WARNING: 4
+- FAIL: 0
+- Average score: 91.8
+- Thin content (<2500 Korean chars): 2
+- Short content (<4500 Korean chars): 93
+- Missing meta: 0
 - Missing canonical: 0
-- Bad H1 count: 1
-- Low internal article links: 10
+- Bad H1 count: 0
+- Low internal article links: 9
 - Duplicate title groups: 0
 - Duplicate description groups: 0
-- Duplicate canonical groups: 1
-- Duplicate normalized URL groups: 1
+- Duplicate canonical groups: 0
+- Duplicate normalized URL groups: 0
 
 ## Lowest-scoring articles
 
 | Score | Status | Article | Main findings |
 |---:|---|---|---|
-| 26 | FAIL | `articles/subsidy24-benefit-search.html` | META_DESCRIPTION_MISSING, NOINDEX, H1_COUNT:0, THIN_CONTENT_KO:22, CANONICAL_PATH_MISMATCH |
 | 80 | WARNING | `articles/rental-contract-reporting-guide.html` | THIN_CONTENT_KO:2341, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 80 | WARNING | `articles/salary-take-home-easy-calculator-guide.html` | THIN_CONTENT_KO:2244, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
-| 82 | WARNING | `articles/government24-benefit-check.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3743, DUPLICATE_SEO_SIGNAL |
 | 84 | WARNING | `articles/fan-aircon-combination-saving.html` | META_DESCRIPTION_LENGTH:37, BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3006 |
 | 84 | WARNING | `articles/national-employment-support-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, INTERNAL_ARTICLE_LINKS_LOW:2, CONTENT_SHORT_KO:4082 |
 | 88 | PASS | `articles/aircon-optimal-temperature-savings.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2943 |
@@ -44,6 +42,7 @@
 | 88 | PASS | `articles/general-vat-common-mistakes.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3570 |
 | 88 | PASS | `articles/government-benefits-warning.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4151 |
 | 88 | PASS | `articles/government-support-calendar.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:2663 |
+| 88 | PASS | `articles/government24-benefit-check.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3743 |
 | 88 | PASS | `articles/hometax-vat-sales-check.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:3314 |
 | 88 | PASS | `articles/insurance-auto-pay-discount.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING, CONTENT_SHORT_KO:4384 |
 | 88 | PASS | `articles/lifelong-education-voucher-application.html` | BREADCRUMB_SCHEMA_MISSING, INTERNAL_ARTICLE_LINKS_LOW:2, CONTENT_SHORT_KO:2947 |
@@ -100,3 +99,4 @@
 | 92 | PASS | `articles/heating-bill-saving.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3156 |
 | 92 | PASS | `articles/home-water-leak-self-check.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
 | 92 | PASS | `articles/hometax-refund-status.html` | BREADCRUMB_SCHEMA_MISSING, CONTENT_SHORT_KO:3387 |
+| 92 | PASS | `articles/housing-benefit-eligibility.html` | BREADCRUMB_SCHEMA_MISSING, FAQ_SCHEMA_MISSING |
