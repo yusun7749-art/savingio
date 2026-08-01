@@ -1,10 +1,10 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3334,
-  "references_scanned": 60324,
+  "files_scanned": 3341,
+  "references_scanned": 60504,
   "counts": {
-    "broken_references": 3255,
+    "broken_references": 3248,
     "malformed_redirects": 0,
     "broken_redirect_targets": 5,
     "missing_sitemap_targets": 7,
@@ -1364,55 +1364,6 @@
       "reference": "/articles/energy-voucher-application-2026.html",
       "expected": [
         "articles/energy-voucher-application-2026.html"
-      ]
-    },
-    {
-      "source": "calculators/electricity-cost.html",
-      "reference": "/articles/summer-electricity-usage-check-2026.html",
-      "expected": [
-        "articles/summer-electricity-usage-check-2026.html"
-      ]
-    },
-    {
-      "source": "calculators/hourly-to-monthly.html",
-      "reference": "/articles/salary-budget-guide.html",
-      "expected": [
-        "articles/salary-budget-guide.html"
-      ]
-    },
-    {
-      "source": "calculators/loan-payment.html",
-      "reference": "/articles/credit-score-management.html",
-      "expected": [
-        "articles/credit-score-management.html"
-      ]
-    },
-    {
-      "source": "calculators/salary-net-pay.html",
-      "reference": "/articles/credit-score-management.html",
-      "expected": [
-        "articles/credit-score-management.html"
-      ]
-    },
-    {
-      "source": "calculators/salary-net-pay.html",
-      "reference": "/articles/salary-budget-guide.html",
-      "expected": [
-        "articles/salary-budget-guide.html"
-      ]
-    },
-    {
-      "source": "calculators/salary-net-pay.html",
-      "reference": "/articles/salary-management-guide.html",
-      "expected": [
-        "articles/salary-management-guide.html"
-      ]
-    },
-    {
-      "source": "calculators/salary-net-pay.html",
-      "reference": "/articles/subscription-cleanup.html",
-      "expected": [
-        "articles/subscription-cleanup.html"
       ]
     },
     {
