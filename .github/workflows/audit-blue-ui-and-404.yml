@@ -25,6 +25,26 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Repair right rail parser
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('factory/audit_blue_ui_and_missing_pages.py')
+          text = path.read_text(encoding='utf-8')
+          start = text.index('def rail_section(text: str) -> str:')
+          end = text.index('\n\ndef scan_rail', start)
+          replacement = '''def rail_section(text: str) -> str:
+              # Keep opening and closing tags paired. The old mixed-tag pattern
+              # stopped an aside at the first nested div and produced false errors.
+              aside = re.search(r"<aside[^>]+class=[\\\"'][^\\\"']*(?:right-rail|right\\b|sidebar)[^\\\"']*[\\\"'][^>]*>(.*?)</aside>", text, re.I | re.S)
+              if aside:
+                  return aside.group(1)
+              div = re.search(r"<div[^>]+class=[\\\"'][^\\\"']*(?:right-rail|right\\b|sidebar)[^\\\"']*[\\\"'][^>]*>(.*?)</div>", text, re.I | re.S)
+              return div.group(1) if div else ""
+          '''
+          path.write_text(text[:start] + replacement.rstrip() + text[end:], encoding='utf-8')
+          PY
       - name: Run full audit and capture status
         id: audit
         shell: bash
@@ -47,6 +67,7 @@ jobs:
         run: |
           git config user.name 'savingio-audit-bot'
           git config user.email 'savingio-audit-bot@users.noreply.github.com'
+          git add factory/audit_blue_ui_and_missing_pages.py
           git add factory/QA/FULL_AUDIT_RUN_STATUS.txt
           test -f factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json && git add factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.json
           test -f factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.md && git add factory/QA/FULL_ADSENSE_STRUCTURE_AUDIT.md
@@ -54,6 +75,6 @@ jobs:
             echo 'No audit output changes'
             exit 0
           fi
-          git commit -m 'Publish full AdSense audit results and diagnostics [skip ci]'
+          git commit -m 'Fix right rail audit parser and publish refreshed results [skip ci]'
           git push
-# audit-trigger: 2026-08-01T15:10+09:00
+# audit-trigger: 2026-08-01T15:40+09:00
