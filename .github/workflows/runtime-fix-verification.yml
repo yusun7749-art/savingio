@@ -1,0 +1,86 @@
+name: Runtime Fix Verification
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/runtime-fix-verification.yml'
+      - '_redirects'
+      - 'sitemap.xml'
+      - 'search.html'
+      - 'benefits/**'
+      - 'articles/earned-income-credit-status-check.html'
+      - 'articles/gas-bill-checklist.html'
+      - 'articles/vat-zero-sales-filing-2026.html'
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Verify production fixes
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const base = 'https://savingio.com';
+          const checks = [
+            ['/articles/irs-tax-refund-status.html', '/articles/hometax-refund-status.html'],
+            ['/articles/small-business-policy-fund-search.html', '/articles/small-business-policy-fund.html'],
+            ['/articles/subsidy24-benefit-search.html', '/articles/government24-benefit-check.html']
+          ];
+          const pages = [
+            '/articles/earned-income-credit-status-check.html',
+            '/articles/gas-bill-checklist.html',
+            '/articles/vat-zero-sales-filing-2026.html',
+            '/search.html',
+            '/benefits/basic-livelihood.html',
+            '/benefits/over-60.html'
+          ];
+          const rows = [];
+          let failures = 0;
+          for (const [from, expected] of checks) {
+            const r = await fetch(base + from, {redirect:'manual'});
+            const location = r.headers.get('location') || '';
+            const ok = [301,302,307,308].includes(r.status) && location.includes(expected);
+            rows.push(`redirect ${from} status=${r.status} location=${location} ok=${ok}`);
+            if (!ok) failures++;
+          }
+          for (const path of pages) {
+            const r = await fetch(base + path);
+            const html = await r.text();
+            const hasFooter = /<footer[\s>]/i.test(html);
+            const badLegacy = /article-layout-dna\.js|savingio-brain-navigation-data\.js|savingio-article-unified-v3036\.js/i.test(html);
+            const ok = r.status === 200 && hasFooter && !badLegacy;
+            rows.push(`page ${path} status=${r.status} footer=${hasFooter} legacyJs=${badLegacy} ok=${ok}`);
+            if (!ok) failures++;
+          }
+          const sitemap = await (await fetch(base + '/sitemap.xml')).text();
+          for (const [from] of checks) {
+            const absent = !sitemap.includes(base + from);
+            rows.push(`sitemap ${from} absent=${absent}`);
+            if (!absent) failures++;
+          }
+          fs.mkdirSync('factory/QA/runtime-fix', {recursive:true});
+          fs.writeFileSync('factory/QA/runtime-fix/RESULT.md', `# Runtime Fix Verification\n\n- generated: ${new Date().toISOString()}\n- failures: ${failures}\n- verdict: ${failures === 0 ? 'PASS' : 'FAIL'}\n\n${rows.map(x=>'- '+x).join('\n')}\n`);
+          if (failures) process.exitCode = 1;
+          NODE
+      - name: Commit verification report
+        if: always()
+        run: |
+          git config user.name 'savingio-runtime-qa-bot'
+          git config user.email 'savingio-runtime-qa-bot@users.noreply.github.com'
+          git add factory/QA/runtime-fix/RESULT.md || true
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Publish targeted runtime verification report [skip ci]'
+          git pull --rebase origin main
+          git push origin HEAD:main
