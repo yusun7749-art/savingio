@@ -4338,28 +4338,29 @@
     {
       "path": "articles/youth-housing-benefit-separate-payment.html",
       "url": "https://savingio.com/articles/youth-housing-benefit-separate-payment.html",
-      "title": "청년 주거급여 분리지급 확인 방법 | 세이빙이오(Savingio)",
-      "meta_description": "주거급여 수급가구의 청년이 부모와 떨어져 거주할 때 연령·거주·임대차 조건과 신청 절차를 확인하는 방법을 정리했습니다.",
+      "title": "청년 주거급여 분리지급 확인 방법 | Savingio",
+      "meta_description": "주거급여 수급가구의 청년이 부모와 떨어져 살 때 분리지급 대상 여부, 주소·임대차계약·전입·납부 증빙·신청 순서와 변경신고까지 실제 확인 순서로 정리했습니다.",
       "canonical": "https://savingio.com/articles/youth-housing-benefit-separate-payment.html",
       "h1": [
         "청년 주거급여 분리지급 확인 방법"
       ],
-      "h2_count": 12,
-      "h3_count": 1,
-      "korean_chars": 3759,
-      "words": 1282,
-      "internal_article_links": 20,
+      "h2_count": 17,
+      "h3_count": 3,
+      "korean_chars": 3103,
+      "words": 1032,
+      "internal_article_links": 10,
       "images": 0,
       "missing_alt": 0,
-      "jsonld_count": 3,
+      "jsonld_count": 2,
       "article_schema": true,
-      "breadcrumb_schema": true,
+      "breadcrumb_schema": false,
       "faq_schema": true,
       "issues": [],
       "warnings": [
-        "CONTENT_SHORT_KO:3759"
+        "BREADCRUMB_SCHEMA_MISSING",
+        "CONTENT_SHORT_KO:3103"
       ],
-      "score": 96,
+      "score": 92,
       "status": "PASS"
     }
   ]
