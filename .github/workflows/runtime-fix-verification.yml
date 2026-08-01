@@ -17,6 +17,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: savingio-runtime-fix-verification
+  cancel-in-progress: true
+
 jobs:
   verify:
     runs-on: ubuntu-latest
@@ -32,47 +36,77 @@ jobs:
         run: |
           node <<'NODE'
           const fs = require('fs');
-          const base = 'https://savingio.com';
-          const checks = [
-            ['/articles/irs-tax-refund-status.html', '/articles/hometax-refund-status.html'],
-            ['/articles/small-business-policy-fund-search.html', '/articles/small-business-policy-fund.html'],
-            ['/articles/subsidy24-benefit-search.html', '/articles/government24-benefit-check.html']
-          ];
-          const pages = [
-            '/articles/earned-income-credit-status-check.html',
-            '/articles/gas-bill-checklist.html',
-            '/articles/vat-zero-sales-filing-2026.html',
-            '/search.html',
-            '/benefits/basic-livelihood.html',
-            '/benefits/over-60.html'
-          ];
-          const rows = [];
-          let failures = 0;
-          for (const [from, expected] of checks) {
-            const r = await fetch(base + from, {redirect:'manual'});
-            const location = r.headers.get('location') || '';
-            const ok = [301,302,307,308].includes(r.status) && location.includes(expected);
-            rows.push(`redirect ${from} status=${r.status} location=${location} ok=${ok}`);
-            if (!ok) failures++;
-          }
-          for (const path of pages) {
-            const r = await fetch(base + path);
-            const html = await r.text();
-            const hasFooter = /<footer[\s>]/i.test(html);
-            const badLegacy = /article-layout-dna\.js|savingio-brain-navigation-data\.js|savingio-article-unified-v3036\.js/i.test(html);
-            const ok = r.status === 200 && hasFooter && !badLegacy;
-            rows.push(`page ${path} status=${r.status} footer=${hasFooter} legacyJs=${badLegacy} ok=${ok}`);
-            if (!ok) failures++;
-          }
-          const sitemap = await (await fetch(base + '/sitemap.xml')).text();
-          for (const [from] of checks) {
-            const absent = !sitemap.includes(base + from);
-            rows.push(`sitemap ${from} absent=${absent}`);
-            if (!absent) failures++;
-          }
-          fs.mkdirSync('factory/QA/runtime-fix', {recursive:true});
-          fs.writeFileSync('factory/QA/runtime-fix/RESULT.md', `# Runtime Fix Verification\n\n- generated: ${new Date().toISOString()}\n- failures: ${failures}\n- verdict: ${failures === 0 ? 'PASS' : 'FAIL'}\n\n${rows.map(x=>'- '+x).join('\n')}\n`);
-          if (failures) process.exitCode = 1;
+
+          (async () => {
+            const base = 'https://savingio.com';
+            const checks = [
+              ['/articles/irs-tax-refund-status.html', '/articles/hometax-refund-status.html'],
+              ['/articles/small-business-policy-fund-search.html', '/articles/small-business-policy-fund.html'],
+              ['/articles/subsidy24-benefit-search.html', '/articles/government24-benefit-check.html']
+            ];
+            const pages = [
+              '/articles/earned-income-credit-status-check.html',
+              '/articles/gas-bill-checklist.html',
+              '/articles/vat-zero-sales-filing-2026.html',
+              '/search.html',
+              '/benefits/basic-livelihood.html',
+              '/benefits/over-60.html'
+            ];
+            const rows = [];
+            let failures = 0;
+
+            for (const [from, expected] of checks) {
+              try {
+                const r = await fetch(base + from, { redirect: 'manual' });
+                const location = r.headers.get('location') || '';
+                const ok = [301, 302, 307, 308].includes(r.status) && location.includes(expected);
+                rows.push(`redirect ${from} status=${r.status} location=${location} ok=${ok}`);
+                if (!ok) failures++;
+              } catch (error) {
+                rows.push(`redirect ${from} error=${error.message} ok=false`);
+                failures++;
+              }
+            }
+
+            for (const path of pages) {
+              try {
+                const r = await fetch(base + path);
+                const html = await r.text();
+                const hasFooter = /<footer[\s>]/i.test(html);
+                const badLegacy = /article-layout-dna\.js|savingio-brain-navigation-data\.js|savingio-article-unified-v3036\.js/i.test(html);
+                const ok = r.status === 200 && hasFooter && !badLegacy;
+                rows.push(`page ${path} status=${r.status} footer=${hasFooter} legacyJs=${badLegacy} ok=${ok}`);
+                if (!ok) failures++;
+              } catch (error) {
+                rows.push(`page ${path} error=${error.message} ok=false`);
+                failures++;
+              }
+            }
+
+            try {
+              const sitemapResponse = await fetch(base + '/sitemap.xml');
+              const sitemap = await sitemapResponse.text();
+              for (const [from] of checks) {
+                const absent = !sitemap.includes(base + from);
+                rows.push(`sitemap ${from} absent=${absent}`);
+                if (!absent) failures++;
+              }
+            } catch (error) {
+              rows.push(`sitemap error=${error.message}`);
+              failures++;
+            }
+
+            fs.mkdirSync('factory/QA/runtime-fix', { recursive: true });
+            fs.writeFileSync(
+              'factory/QA/runtime-fix/RESULT.md',
+              `# Runtime Fix Verification\n\n- generated: ${new Date().toISOString()}\n- failures: ${failures}\n- verdict: ${failures === 0 ? 'PASS' : 'FAIL'}\n\n${rows.map((x) => '- ' + x).join('\n')}\n`
+            );
+
+            if (failures) process.exitCode = 1;
+          })().catch((error) => {
+            console.error(error);
+            process.exitCode = 1;
+          });
           NODE
       - name: Commit verification report
         if: always()
