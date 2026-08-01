@@ -77,13 +77,21 @@ def prune_tree(node, removed: list[dict]):
                 if href and is_missing_local(str(href)):
                     removed.append({"title": item.get("title", item.get("name", "")), "href": href})
                     continue
-            cleaned.append(prune_tree(item, removed))
+            child = prune_tree(item, removed)
+            if child is not None:
+                cleaned.append(child)
         return cleaned
     if isinstance(node, dict):
         href = node.get("href") or node.get("url")
         if href and is_missing_local(str(href)):
+            removed.append({"title": node.get("title", node.get("name", "")), "href": href})
             return None
-        return {key: prune_tree(value, removed) for key, value in node.items() if prune_tree(value, removed) is not None}
+        cleaned_dict = {}
+        for key, value in node.items():
+            child = prune_tree(value, removed)
+            if child is not None:
+                cleaned_dict[key] = child
+        return cleaned_dict
     return node
 
 
