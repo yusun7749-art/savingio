@@ -1,6 +1,6 @@
 exit_code=0
-commit=8c24120ac9ae6709f9fdad574fcb9285df2d6f69
-run_id=30684522703
-generated_at=2026-08-01T04:44:43Z
+commit=49908ba03c28dc784b08cacbf12e336dee4124f7
+run_id=30684944361
+generated_at=2026-08-01T04:58:42Z
 --- output ---
 {"articles_scanned": 155, "article_problem_pages": 155, "explorer_missing_pages": 0, "blue_ui_pages": 0, "card_ui_pages": 0, "generic_template_pages": 0, "article_dna_problem_pages": 49, "right_rail_problem_pages": 155, "canonical_problem_pages": 0, "figure_thumb_pages": 0, "duplicate_h1_values": 0, "topics_scanned": 1, "topic_problem_pages": 1, "calculators_scanned": 28, "calculator_problem_pages": 28, "missing_internal_links": 109}
