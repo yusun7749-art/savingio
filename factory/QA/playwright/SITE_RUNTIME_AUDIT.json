@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T21:15:50.035Z",
+  "generatedAt": "2026-08-02T21:16:23.362Z",
   "baseUrl": "https://savingio.com",
   "pagesScanned": 199,
   "pageProblems": 0,
@@ -157,9 +157,9 @@
     {
       "url": "https://savingio.com/categories/",
       "status": 200,
-      "title": "전기요금 절약 방법, 고지서부터 가전 사용량까지 확인하는 순서 | 세이빙이오(Savingio)",
+      "title": "생활비 절약 카테고리 | 세이빙이오(Savingio)",
       "h1Count": 1,
-      "canonical": "https://savingio.com/articles/electricity-bill-saving.html",
+      "canonical": "https://savingio.com/categories/",
       "hasHeader": true,
       "hasFooter": true,
       "hasExplorer": false,
