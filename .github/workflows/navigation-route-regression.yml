@@ -1,0 +1,115 @@
+name: Navigation Route Regression
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '_redirects'
+      - 'js/savingio-platform-navigation.js'
+      - 'index.html'
+      - 'articles/index.html'
+      - 'calculators/index.html'
+      - 'categories/index.html'
+      - '.github/workflows/navigation-route-regression.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: savingio-navigation-route-regression
+  cancel-in-progress: true
+
+jobs:
+  verify-navigation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Playwright
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+
+      - name: Wait for Cloudflare deployment
+        run: sleep 90
+
+      - name: Verify navigation click destinations
+        env:
+          BASE_URL: https://savingio.com
+        run: |
+          mkdir -p factory/QA/navigation-route
+          node <<'NODE'
+          const { chromium } = require('playwright');
+          const fs = require('fs');
+          const base = process.env.BASE_URL;
+          const cases = [
+            {source:'/', label:'사이트 탐색', expected:'/categories/'},
+            {source:'/calculators/', label:'전체 글', expected:'/articles/'},
+            {source:'/calculators/', label:'카테고리', expected:'/categories/'},
+            {source:'/categories/', label:'사이트 탐색', expected:'/categories/'},
+            {source:'/articles/electricity-bill-saving.html', label:'사이트 탐색', expected:'/categories/'},
+            {source:'/articles/electricity-bill-saving.html', label:'계산기', expected:'/calculators/'}
+          ];
+          const browser = await chromium.launch({headless:true});
+          const page = await browser.newPage();
+          const results = [];
+          for (const test of cases) {
+            try {
+              await page.goto(base + test.source, {waitUntil:'networkidle', timeout:45000});
+              const link = page.getByRole('link', {name:test.label, exact:true}).first();
+              await link.waitFor({state:'visible', timeout:15000});
+              await Promise.all([
+                page.waitForLoadState('domcontentloaded').catch(()=>{}),
+                link.click()
+              ]);
+              await page.waitForTimeout(800);
+              const pathname = new URL(page.url()).pathname;
+              const normalize = p => p.replace(/index\.html$/,'').replace(/\/+$/,'/') || '/';
+              const pass = normalize(pathname) === normalize(test.expected);
+              results.push({...test, actual:pathname, pass});
+            } catch (error) {
+              results.push({...test, actual:'ERROR', pass:false, error:String(error.message||error)});
+            }
+          }
+          await browser.close();
+          const failures = results.filter(r=>!r.pass);
+          const report = {
+            generatedAt:new Date().toISOString(),
+            failures:failures.length,
+            verdict:failures.length ? 'FAIL' : 'PASS',
+            results
+          };
+          fs.writeFileSync('factory/QA/navigation-route/RESULT.json', JSON.stringify(report,null,2));
+          fs.writeFileSync('factory/QA/navigation-route/RESULT.md', [
+            '# Navigation Route Regression',
+            '',
+            `- verdict: **${report.verdict}**`,
+            `- failures: **${report.failures}**`,
+            '',
+            '| 출발 | 클릭 | 기대 경로 | 실제 경로 | 결과 |',
+            '|---|---|---|---|---|',
+            ...results.map(r=>`| ${r.source} | ${r.label} | ${r.expected} | ${r.actual} | ${r.pass?'PASS':'FAIL'} |`)
+          ].join('\n'));
+          if (failures.length) process.exitCode = 1;
+          NODE
+
+      - name: Commit regression report
+        if: always()
+        run: |
+          git config user.name 'savingio-navigation-qa-bot'
+          git config user.email 'savingio-navigation-qa-bot@users.noreply.github.com'
+          git add factory/QA/navigation-route/RESULT.json factory/QA/navigation-route/RESULT.md || true
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'Publish navigation route regression report [skip ci]'
+          git pull --rebase origin main
+          git push origin HEAD:main
