@@ -1,0 +1,147 @@
+name: Fix navigation destinations on all pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fix-navigation-destinations-all-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: savingio-navigation-destination-fix
+  cancel-in-progress: true
+
+jobs:
+  fix-navigation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Patch only navigation anchors and shared navigation scripts
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          root = Path('.')
+          changed = []
+
+          # Only anchor href values are changed. canonical, CSS, content and article links are untouched.
+          anchor_routes = {
+              '/articles/': '/search.html',
+              '/articles/index.html': '/search.html',
+              '/categories/': '/categories/index.html',
+              '/categories/home': '/categories/index.html',
+              '/categories/home.html': '/categories/index.html',
+              '/calculators/': '/calculators/index.html',
+          }
+
+          anchor_pattern = re.compile(r'(<a\b[^>]*?\bhref=["\'])([^"\']+)(["\'])', re.I)
+
+          for path in list(root.rglob('*.html')):
+              if any(part in {'.git', 'node_modules', 'factory', 'backups'} for part in path.parts):
+                  continue
+              text = path.read_text(encoding='utf-8', errors='ignore')
+              def replace_anchor(match):
+                  href = match.group(2)
+                  return match.group(1) + anchor_routes.get(href, href) + match.group(3)
+              new = anchor_pattern.sub(replace_anchor, text)
+              if new != text:
+                  path.write_text(new, encoding='utf-8')
+                  changed.append(str(path))
+
+          # Shared navigation engines: explicit destinations only.
+          js_targets = [
+              Path('js/savingio-platform-navigation.js'),
+              Path('js/savingio-brain-navigation.js'),
+              Path('js/savingio-template-engine.js'),
+          ]
+          js_replacements = {
+              "href:'/articles/'": "href:'/search.html'",
+              'href="/articles/"': 'href="/search.html"',
+              "href:'/categories/'": "href:'/categories/index.html'",
+              'href="/categories/"': 'href="/categories/index.html"',
+              "href:'/calculators/'": "href:'/calculators/index.html'",
+              'href="/calculators/"': 'href="/calculators/index.html"',
+          }
+          for path in js_targets:
+              if not path.exists():
+                  continue
+              text = path.read_text(encoding='utf-8', errors='ignore')
+              new = text
+              for old, replacement in js_replacements.items():
+                  new = new.replace(old, replacement)
+              if new != text:
+                  path.write_text(new, encoding='utf-8')
+                  changed.append(str(path))
+
+          # Main portal links are explicit so cached legacy 301 responses cannot interfere.
+          main = Path('index.html')
+          if main.exists():
+              text = main.read_text(encoding='utf-8', errors='ignore')
+              new = text.replace('href="/categories/"', 'href="/categories/index.html"')
+              new = new.replace('href="/calculators/"', 'href="/calculators/index.html"')
+              if new != text:
+                  main.write_text(new, encoding='utf-8')
+                  changed.append(str(main))
+
+          print('\n'.join(sorted(set(changed))) if changed else 'No files changed')
+          PY
+
+      - name: Verify forbidden top-navigation destinations are gone
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re, sys
+
+          failures = []
+          checks = {
+              'index.html': ['/categories/index.html', '/calculators/index.html'],
+              'calculators/index.html': ['/search.html', '/categories/index.html'],
+              'categories/index.html': ['/search.html', '/categories/index.html', '/calculators/index.html'],
+              'articles/index.html': ['/search.html', '/categories/index.html', '/calculators/index.html'],
+              'js/savingio-platform-navigation.js': ['/search.html', '/categories/index.html', '/calculators/index.html'],
+              'js/savingio-brain-navigation.js': ['/categories/index.html', '/calculators/index.html'],
+          }
+          for name, required in checks.items():
+              path = Path(name)
+              if not path.exists():
+                  failures.append(f'missing file: {name}')
+                  continue
+              text = path.read_text(encoding='utf-8', errors='ignore')
+              for value in required:
+                  if value not in text:
+                      failures.append(f'{name}: missing {value}')
+
+          # The old redirect that forced categories to articles must never return.
+          redirects = Path('_redirects').read_text(encoding='utf-8', errors='ignore')
+          for old in ['/categories/ /articles/ 301', '/categories/home /articles/ 301', '/categories/home.html /articles/ 301']:
+              if old in redirects:
+                  failures.append(f'_redirects still contains: {old}')
+
+          if failures:
+              print('\n'.join(failures))
+              sys.exit(1)
+          print('Navigation destination verification PASS')
+          PY
+
+      - name: Commit navigation corrections
+        shell: bash
+        run: |
+          git config user.name 'savingio-navigation-bot'
+          git config user.email 'savingio-navigation-bot@users.noreply.github.com'
+          git add index.html articles calculators categories js _redirects
+          if git diff --cached --quiet; then
+            echo 'No navigation changes to commit'
+            exit 0
+          fi
+          git commit -m 'Fix all visible navigation destinations [skip ci]'
+          git pull --rebase origin main
+          git push origin HEAD:main
