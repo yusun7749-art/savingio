@@ -1,8 +1,8 @@
 {
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
-  "files_scanned": 3357,
-  "references_scanned": 60703,
+  "files_scanned": 3360,
+  "references_scanned": 60705,
   "counts": {
     "broken_references": 3238,
     "malformed_redirects": 0,
@@ -23035,12 +23035,12 @@
     },
     {
       "file": "_redirects",
-      "line": 88,
+      "line": 85,
       "target": "/articles/telecom-discount-guide.html"
     },
     {
       "file": "_redirects",
-      "line": 89,
+      "line": 86,
       "target": "/articles/telecom-discount-guide.html"
     }
   ],
