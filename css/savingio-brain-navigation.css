@@ -1,9 +1,23 @@
-@import url('/css/savingio-platform-navigation.css?v=20260803-layout-final3');
-@import url('/css/savingio-prepaint-lock.css?v=20260803-layout-final3');
-@import url('/css/savingio-explorer-lock.css?v=20260803-layout-final3');
-/*
- Savingio Explorer compatibility entry point.
- All pages load one locked Explorer/search/tree design.
- The prepaint lock reserves the approved header and columns before JS initializes,
- preventing the legacy layout from flashing during page transitions.
-*/
+/* Savingio critical first-paint shell. Kept inline here so browsers apply it before imported navigation CSS. */
+:root{--sv-header-h:78px;--sv-explorer-w:286px}
+body.savingio-article-dna,body.savingio-calculator-page,body.savingio-main-background{padding-left:calc(var(--sv-explorer-w) + 42px)!important;padding-top:var(--sv-header-h)!important}
+body.savingio-article-dna>header.site-header,body.savingio-calculator-page>header.site-header,body.savingio-main-background>header.site-header{position:fixed!important;inset:0 0 auto 0!important;width:100vw!important;height:var(--sv-header-h)!important;min-height:var(--sv-header-h)!important;margin:0!important;padding:0!important;transform:none!important;z-index:10000!important;background:#faf6ef!important;border-bottom:1px solid rgba(19,39,68,.11)!important}
+body.savingio-article-dna>header.site-header>.header-inner,body.savingio-calculator-page>header.site-header>.header-inner,body.savingio-main-background>header.site-header>.header-inner{box-sizing:border-box!important;width:100%!important;max-width:none!important;height:var(--sv-header-h)!important;min-height:var(--sv-header-h)!important;margin:0!important;padding:0 24px!important;display:flex!important;align-items:center!important;justify-content:flex-start!important}
+body.savingio-article-dna>header.site-header .logo,body.savingio-calculator-page>header.site-header .logo,body.savingio-main-background>header.site-header .logo{display:inline-block!important;margin:0!important;padding:0!important}
+body.savingio-article-dna>header.site-header nav,body.savingio-calculator-page>header.site-header nav,body.savingio-main-background>header.site-header nav{display:none!important}
+body.savingio-article-dna>.page-shell{box-sizing:border-box!important;width:min(1232px,calc(100vw - var(--sv-explorer-w) - 90px))!important;max-width:1232px!important;margin:0 auto!important;padding:0 24px 80px!important;display:grid!important;grid-template-columns:minmax(0,760px) minmax(260px,280px)!important;column-gap:92px!important;align-items:start!important;justify-content:center!important}
+body.savingio-article-dna>.page-shell>.article-column{grid-column:1!important;width:100%!important;max-width:760px!important;min-width:0!important;margin:0!important}
+body.savingio-article-dna>.page-shell>.right-rail{grid-column:2!important;width:100%!important;max-width:280px!important;margin:0!important;padding:118px 0 0 32px!important;border-left:1px solid rgba(16,37,66,.11)!important;position:sticky!important;top:calc(var(--sv-header-h) + 20px)!important}
+body.savingio-article-dna>.pension-shell,body.savingio-article-dna>.education-shell,body.savingio-article-dna>.emergency-shell,body.savingio-article-dna>.impulse-shell,body.savingio-article-dna>.money-shell{box-sizing:border-box!important;width:min(1232px,calc(100vw - var(--sv-explorer-w) - 90px))!important;max-width:1232px!important;margin:0 auto!important;padding:0 24px 80px!important;display:grid!important;grid-template-columns:minmax(0,760px) minmax(260px,280px)!important;column-gap:92px!important;align-items:start!important;justify-content:center!important}
+body.savingio-article-dna>.pension-shell>.left-explorer,body.savingio-article-dna>.education-shell>.left-explorer,body.savingio-article-dna>.emergency-shell>.left-explorer,body.savingio-article-dna>.impulse-shell>.left-explorer,body.savingio-article-dna>.money-shell>.left-explorer{display:none!important}
+body.savingio-article-dna>.pension-shell>.article-column,body.savingio-article-dna>.education-shell>.article-column,body.savingio-article-dna>.emergency-shell>.article-column,body.savingio-article-dna>.impulse-shell>.article-column,body.savingio-article-dna>.money-shell>.article-column{grid-column:1!important;width:100%!important;max-width:760px!important;min-width:0!important;margin:0!important}
+body.savingio-article-dna>.pension-shell>.right-rail,body.savingio-article-dna>.education-shell>.right-rail,body.savingio-article-dna>.emergency-shell>.right-rail,body.savingio-article-dna>.impulse-shell>.right-rail,body.savingio-article-dna>.money-shell>.right-rail{grid-column:2!important;width:100%!important;max-width:280px!important;margin:0!important;padding:118px 0 0 32px!important;border-left:1px solid rgba(16,37,66,.11)!important;position:sticky!important;top:calc(var(--sv-header-h) + 20px)!important}
+body.savingio-calculator-page>.sv2-calculator-layout{width:min(1232px,calc(100vw - var(--sv-explorer-w) - 90px))!important;max-width:1232px!important;margin:0 auto!important;padding:30px 24px 70px!important;display:grid!important;grid-template-columns:minmax(0,760px) minmax(260px,280px)!important;column-gap:92px!important;justify-content:center!important}
+body.savingio-calculator-page>.sv2-calculator-layout>.sv2-shell{width:100%!important;max-width:760px!important;margin:0!important;justify-self:stretch!important}
+body.savingio-calculator-page>.sv2-calculator-layout>.sv2-calculator-tree{width:100%!important;max-width:280px!important;margin:0!important;padding-left:32px!important;border-left:1px solid rgba(16,37,66,.11)!important}
+@media(max-width:1180px){body.savingio-article-dna>.page-shell,body.savingio-article-dna>.pension-shell,body.savingio-article-dna>.education-shell,body.savingio-article-dna>.emergency-shell,body.savingio-article-dna>.impulse-shell,body.savingio-article-dna>.money-shell,body.savingio-calculator-page>.sv2-calculator-layout{width:min(820px,calc(100vw - 32px))!important;grid-template-columns:1fr!important;column-gap:0!important}}
+@media(max-width:820px){body.savingio-article-dna,body.savingio-calculator-page,body.savingio-main-background{padding-left:0!important}}
+
+@import url('/css/savingio-platform-navigation.css?v=20260803-layout-final4');
+@import url('/css/savingio-explorer-lock.css?v=20260803-layout-final4');
+/* Savingio Explorer compatibility entry point. All pages load one locked Explorer/search/tree design. */
