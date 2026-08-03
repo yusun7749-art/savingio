@@ -1,12 +1,12 @@
 # Runtime Fix Verification
 
-- generated: 2026-08-02T13:50:30.084Z
-- failures: 3
+- generated: 2026-08-03T03:03:46.050Z
+- failures: 1
 - verdict: FAIL
 
 - redirect /articles/irs-tax-refund-status.html status=404 location= ok=false
-- redirect /articles/small-business-policy-fund-search.html status=404 location= ok=false
-- redirect /articles/subsidy24-benefit-search.html status=404 location= ok=false
+- redirect /articles/small-business-policy-fund-search.html status=301 location=/articles/small-business-policy-fund.html ok=true
+- redirect /articles/subsidy24-benefit-search.html status=301 location=/articles/government24-benefit-check.html ok=true
 - page /articles/earned-income-credit-status-check.html status=200 footer=true legacyJs=false ok=true
 - page /articles/gas-bill-checklist.html status=200 footer=true legacyJs=false ok=true
 - page /articles/vat-zero-sales-filing-2026.html status=200 footer=true legacyJs=false ok=true
