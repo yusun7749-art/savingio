@@ -1,6 +1,9 @@
-@import url('/css/savingio-platform-navigation.css?v=20260723-master23');
-@import url('/css/savingio-explorer-lock.css?v=20260723-master23');
+@import url('/css/savingio-platform-navigation.css?v=20260803-layout-final3');
+@import url('/css/savingio-prepaint-lock.css?v=20260803-layout-final3');
+@import url('/css/savingio-explorer-lock.css?v=20260803-layout-final3');
 /*
  Savingio Explorer compatibility entry point.
  All pages load one locked Explorer/search/tree design.
+ The prepaint lock reserves the approved header and columns before JS initializes,
+ preventing the legacy layout from flashing during page transitions.
 */
