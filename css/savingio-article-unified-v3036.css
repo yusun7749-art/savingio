@@ -6,26 +6,38 @@ body:before,body:after{display:none!important}
 .info-shell{padding:56px 28px 80px!important}
 .info-hero{padding:22px 0 20px!important;background:transparent!important;border:0!important}
 .info-hero p{font-size:16px!important;line-height:1.72!important;color:#5f646a!important;margin:0!important}
-/* Category navigation is provided by the fixed left Explorer. Remove the duplicated top chip row. */
 .category-row{display:none!important}
 .article-content,.article-main,article,.content-card,.post-content{background:transparent!important;border:0!important;box-shadow:none!important;border-radius:0!important}
 .toc,.table-of-contents,.summary-box,.quick-summary,.faq-item,.related-box,.author-box,.tip-box,.notice-box,.checklist,.step-card,.info-box,.callout{border-color:var(--sv-line)!important;box-shadow:none!important}
-/* Performance lock: skip layout/paint work for content that is still below the viewport. */
-.article-grid>.article-card,
-.article-content>section,
-.article-main>section,
-.post-content>section,
-.faq-item,
-.related-box,
-.checklist,
-.step-card{
-  content-visibility:auto;
-  contain-intrinsic-size:auto 260px;
+.article-grid>.article-card,.article-content>section,.article-main>section,.post-content>section,.faq-item,.related-box,.checklist,.step-card{content-visibility:auto;contain-intrinsic-size:auto 260px}
+.article-grid{contain:layout style paint}.article-card{contain:layout style paint}img{content-visibility:auto}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+/* ADSENSE STABILITY LOCK — article pages only */
+body.savingio-article-dna .site-header .nav,
+body.savingio-article-dna .savingio-platform-nav,
+body.savingio-article-dna .savingio-dna-nav{display:none!important}
+body.savingio-article-dna .site-header .header-inner{justify-content:flex-start!important;max-width:1200px!important}
+body.savingio-article-dna .page-shell{
+ width:calc(100% - 48px)!important;
+ max-width:1200px!important;
+ margin-left:auto!important;
+ margin-right:auto!important;
+ padding-left:24px!important;
+ padding-right:24px!important;
+ display:grid!important;
+ grid-template-columns:minmax(0,760px) minmax(250px,280px)!important;
+ column-gap:72px!important;
+ justify-content:center!important;
+ align-items:start!important;
 }
-.article-grid{contain:layout style paint}
-.article-card{contain:layout style paint}
-img{content-visibility:auto}
-@media(prefers-reduced-motion:reduce){
-  *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+body.savingio-article-dna .article-column{width:100%!important;max-width:760px!important}
+body.savingio-article-dna .right-rail{
+ width:100%!important;
+ max-width:280px!important;
+ margin:0!important;
+ padding-left:28px!important;
+ border-left:1px solid var(--sv-line)!important;
 }
-@media(max-width:760px){.info-shell{padding:36px 16px 58px!important}}
+@media(max-width:1180px){body.savingio-article-dna .page-shell{grid-template-columns:1fr!important;max-width:820px!important}body.savingio-article-dna .right-rail{position:static!important;max-width:none!important;padding-left:0!important;border-left:0!important;border-top:1px solid var(--sv-line)!important}}
+@media(max-width:760px){.info-shell{padding:36px 16px 58px!important}body.savingio-article-dna .page-shell{width:100%!important;padding-left:18px!important;padding-right:18px!important}}
