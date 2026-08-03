@@ -4,7 +4,7 @@
   "files_scanned": 3361,
   "references_scanned": 60699,
   "counts": {
-    "broken_references": 3237,
+    "broken_references": 3235,
     "malformed_redirects": 0,
     "broken_redirect_targets": 5,
     "missing_sitemap_targets": 4,
@@ -22644,13 +22644,6 @@
       ]
     },
     {
-      "source": "js/savingio-directory-search-v2.js",
-      "reference": "location.href",
-      "expected": [
-        "js/location.href"
-      ]
-    },
-    {
       "source": "js/savingio-lab-framework.js",
       "reference": "${esc(result.ctaUrl)}",
       "expected": [
@@ -22676,13 +22669,6 @@
       "reference": "href,location.origin",
       "expected": [
         "js/href,location.origin"
-      ]
-    },
-    {
-      "source": "js/savingio-platform-navigation.js",
-      "reference": "${esc(i.href)}",
-      "expected": [
-        "js/${esc(i.href)}"
       ]
     },
     {
