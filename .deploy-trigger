@@ -1,3 +1,4 @@
 Savingio Cloudflare redeploy trigger
-Target: articles/parental-benefit-guide.html
-Triggered: 2026-07-22
+Reason: force production deployment after navigation workflow disable and stable header restore
+Target commits: e03ec8ca0ae8fe063c233132c1450de3c16e23b7, f8ee4ba082ef57f8836860d765311014c580cee9
+Triggered: 2026-08-03T18:02:00+09:00
