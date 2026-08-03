@@ -2,9 +2,9 @@
   "status": "FAIL",
   "root": "/home/runner/work/savingio/savingio",
   "files_scanned": 3362,
-  "references_scanned": 60703,
+  "references_scanned": 60702,
   "counts": {
-    "broken_references": 3238,
+    "broken_references": 3237,
     "malformed_redirects": 0,
     "broken_redirect_targets": 5,
     "missing_sitemap_targets": 4,
@@ -22709,13 +22709,6 @@
       ]
     },
     {
-      "source": "js/savingio-search-lock.js",
-      "reference": "href,location.href",
-      "expected": [
-        "js/href,location.href"
-      ]
-    },
-    {
       "source": "js/savingio-site-doctor.js",
       "reference": "a.href",
       "expected": [
@@ -23020,27 +23013,27 @@
   "broken_redirect_targets": [
     {
       "file": "_redirects",
-      "line": 34,
+      "line": 37,
       "target": "/articles/irs-tax-refund-status.html"
     },
     {
       "file": "_redirects",
-      "line": 40,
+      "line": 43,
       "target": "/articles/telecom-discount-guide.html"
     },
     {
       "file": "_redirects",
-      "line": 45,
+      "line": 48,
       "target": "/articles/youth-support-programs.html"
     },
     {
       "file": "_redirects",
-      "line": 85,
+      "line": 88,
       "target": "/articles/telecom-discount-guide.html"
     },
     {
       "file": "_redirects",
-      "line": 86,
+      "line": 89,
       "target": "/articles/telecom-discount-guide.html"
     }
   ],
