@@ -1,3 +1,6 @@
+/articles/ /articles/index.html 200
+/categories/ /categories/index.html 200
+
 /admin /404.html 404
 /admin/ /404.html 404
 /admin/* /404.html 404
