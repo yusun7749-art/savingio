@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T21:16:23.362Z",
+  "generatedAt": "2026-08-03T21:35:57.376Z",
   "baseUrl": "https://savingio.com",
   "pagesScanned": 199,
   "pageProblems": 0,
@@ -99,7 +99,7 @@
       "type": "calculator",
       "url": "https://savingio.com/calculators/salary.html",
       "pass": true,
-      "resultText": "2예상 결과예상 실수령액은 일반 보험료율과 단순 추정 세액을 적용한 참고 금액입니다. 실제 급여명세서와 차이가 날 수 있습니다.공식기관 기준 확인하기 →퇴직금 계산기입사일·퇴사일·월급으로 계산주휴수당 계산기시급과 근무일만 입력3.3%·초과수당프리랜서 실수령액 확인"
+      "resultText": "2\n예상 결과\n예상 월 실수령액\n2,694,353원\n빠른 계산\n세전 월급\n3,000,000원\n국민연금\n126,000원\n건강보험\n100,660원\n장기요양보험\n13,227원\n고용보험\n25,200원\n소득세·지방소득세\n40,560원\n예상 공제 합계\n305,647원\n세전 월급에서 비과세 금액을 제외한 보수에 일반적인 근로자 부담 "
     }
   ],
   "pages": [
@@ -140,9 +140,9 @@
     {
       "url": "https://savingio.com/articles/",
       "status": 200,
-      "title": "전기요금 절약 방법, 고지서부터 가전 사용량까지 확인하는 순서 | 세이빙이오(Savingio)",
+      "title": "Savingio 전체 검색",
       "h1Count": 1,
-      "canonical": "https://savingio.com/articles/electricity-bill-saving.html",
+      "canonical": "https://savingio.com/search.html",
       "hasHeader": true,
       "hasFooter": true,
       "hasExplorer": false,
