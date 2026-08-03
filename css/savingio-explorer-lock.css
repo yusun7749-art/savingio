@@ -26,6 +26,8 @@ html.savingio-brain-ready body>header.site-header{position:fixed!important;inset
 html.savingio-brain-ready body>header.site-header>.header-inner{box-sizing:border-box!important;width:100%!important;max-width:none!important;height:var(--sv-header-h,78px)!important;min-height:var(--sv-header-h,78px)!important;margin:0!important;padding:0 24px!important;display:flex!important;align-items:center!important;justify-content:flex-start!important}
 html.savingio-brain-ready body>header.site-header .logo{margin:0!important;padding:0!important;display:inline-block!important}
 html.savingio-brain-ready body>header.site-header .nav,
+html.savingio-brain-ready body>header.site-header .top-nav,
+html.savingio-brain-ready body>header.site-header nav,
 html.savingio-brain-ready body>header.site-header .savingio-platform-nav,
 html.savingio-brain-ready body>header.site-header .savingio-dna-nav{display:none!important}
 
