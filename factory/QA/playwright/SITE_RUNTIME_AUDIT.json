@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-03T21:35:57.376Z",
+  "generatedAt": "2026-08-04T21:43:27.553Z",
   "baseUrl": "https://savingio.com",
   "pagesScanned": 199,
   "pageProblems": 0,
   "mobilePagesScanned": 9,
   "mobileProblems": [],
   "interactionChecks": 12,
-  "interactionFailures": 0,
-  "pass": true,
+  "interactionFailures": 7,
+  "pass": false,
   "problems": [],
   "interactions": [
     {
@@ -35,49 +35,49 @@
       "type": "search",
       "query": "누수",
       "expectedText": "누수",
-      "firstText": "공과금\n수도 누수 자가진단 방법\n\n관련 내용을 확인합니다.\n\n읽기 →",
-      "firstHref": "/articles/home-water-leak-self-check.html",
-      "pass": true
+      "firstText": "전기요금\n전기요금 절약하는 가장 효과적인 방법\n\n관련 내용을 확인합니다.\n\n읽기 →",
+      "firstHref": "/articles/electricity-bill-saving.html",
+      "pass": false
     },
     {
       "type": "search",
       "query": "물샘",
       "expectedText": "누수",
-      "firstText": "공과금\n수도 누수 자가진단 방법\n\n관련 내용을 확인합니다.\n\n읽기 →",
-      "firstHref": "/articles/home-water-leak-self-check.html",
-      "pass": true
+      "firstText": "전기요금\n전기요금 절약하는 가장 효과적인 방법\n\n관련 내용을 확인합니다.\n\n읽기 →",
+      "firstHref": "/articles/electricity-bill-saving.html",
+      "pass": false
     },
     {
       "type": "search",
       "query": "자동차보험",
       "expectedText": "보험",
-      "firstText": "자동차 비용\n자동차보험 마일리지 특약 환급\n\n관련 내용을 확인합니다.\n\n읽기 →",
-      "firstHref": "/articles/car-insurance-mileage-refund.html",
-      "pass": true
+      "firstText": "전기요금\n전기요금 절약하는 가장 효과적인 방법\n\n관련 내용을 확인합니다.\n\n읽기 →",
+      "firstHref": "/articles/electricity-bill-saving.html",
+      "pass": false
     },
     {
       "type": "search",
       "query": "차보험",
       "expectedText": "보험",
-      "firstText": "자동차 비용\n자동차보험 마일리지 특약 환급\n\n관련 내용을 확인합니다.\n\n읽기 →",
-      "firstHref": "/articles/car-insurance-mileage-refund.html",
-      "pass": true
+      "firstText": "전기요금\n전기요금 절약하는 가장 효과적인 방법\n\n관련 내용을 확인합니다.\n\n읽기 →",
+      "firstHref": "/articles/electricity-bill-saving.html",
+      "pass": false
     },
     {
       "type": "search",
       "query": "환급",
       "expectedText": "환급",
-      "firstText": "기타 연결 글\n지방세 환급금 조회와 신청 방법\n\n관련 내용을 확인합니다.\n\n읽기 →",
-      "firstHref": "/articles/local-tax-refund-claim.html",
-      "pass": true
+      "firstText": "전기요금\n전기요금 절약하는 가장 효과적인 방법\n\n관련 내용을 확인합니다.\n\n읽기 →",
+      "firstHref": "/articles/electricity-bill-saving.html",
+      "pass": false
     },
     {
       "type": "search",
       "query": "돌려받을 돈",
       "expectedText": "환급",
-      "firstText": "기타 연결 글\n지방세 환급금 조회와 신청 방법\n\n관련 내용을 확인합니다.\n\n읽기 →",
-      "firstHref": "/articles/local-tax-refund-claim.html",
-      "pass": true
+      "firstText": "전기요금\n전기요금 절약하는 가장 효과적인 방법\n\n관련 내용을 확인합니다.\n\n읽기 →",
+      "firstHref": "/articles/electricity-bill-saving.html",
+      "pass": false
     },
     {
       "type": "search",
@@ -91,9 +91,9 @@
       "type": "search",
       "query": "통신비",
       "expectedText": "통신",
-      "firstText": "통신·구독\n통신비 미환급금 조회 방법\n\n관련 내용을 확인합니다.\n\n읽기 →",
-      "firstHref": "/articles/telecom-unclaimed-refund.html",
-      "pass": true
+      "firstText": "전기요금\n전기요금 절약하는 가장 효과적인 방법\n\n관련 내용을 확인합니다.\n\n읽기 →",
+      "firstHref": "/articles/electricity-bill-saving.html",
+      "pass": false
     },
     {
       "type": "calculator",
