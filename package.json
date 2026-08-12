@@ -3,9 +3,12 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
+    "preview:dev": "wrangler pages dev REBUILD_V2/site",
+    "preview:deploy": "wrangler pages deploy REBUILD_V2/site --project-name savingio-rebuild-v2-preview --branch rebuild-savingio-2-private",
     "qa:site": "node qa/playwright/site-audit.mjs"
   },
   "devDependencies": {
-    "playwright": "^1.54.0"
+    "playwright": "^1.54.0",
+    "wrangler": "^4.0.0"
   }
 }

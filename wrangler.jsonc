@@ -1,0 +1,6 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "savingio-rebuild-v2-preview",
+  "pages_build_output_dir": "./REBUILD_V2/site",
+  "compatibility_date": "2026-08-12"
+}
