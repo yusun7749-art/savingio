@@ -1,37 +1,10 @@
 {
-  "generatedAt": "2026-08-20T20:53:41.113Z",
+  "generatedAt": "2026-08-21T20:47:43.630Z",
   "baseUrl": "https://savingio.com",
   "pagesScanned": 199,
   "pageProblems": 0,
   "mobilePagesScanned": 9,
-  "mobileProblems": [
-    {
-      "url": "https://savingio.com/",
-      "status": 200,
-      "title": "세이빙이오(Savingio) | 생활 문제 해결 플랫폼",
-      "h1Count": 1,
-      "canonical": "https://savingio.com/",
-      "hasHeader": true,
-      "hasFooter": true,
-      "hasExplorer": false,
-      "horizontalOverflow": false,
-      "emptyMain": false,
-      "brokenImages": [],
-      "consoleErrors": [],
-      "failedRequests": [
-        {
-          "url": "https://pagead2.googlesyndication.com/pagead/ping?e=1",
-          "error": "net::ERR_ABORTED"
-        },
-        {
-          "url": "https://pagead2.googlesyndication.com/pagead/ping?e=1",
-          "error": "net::ERR_ABORTED"
-        }
-      ],
-      "badResponses": [],
-      "error": null
-    }
-  ],
+  "mobileProblems": [],
   "interactionChecks": 12,
   "interactionFailures": 7,
   "pass": false,
