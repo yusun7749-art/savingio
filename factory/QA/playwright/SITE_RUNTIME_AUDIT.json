@@ -1,37 +1,14 @@
 {
-  "generatedAt": "2026-09-13T22:31:32.313Z",
+  "generatedAt": "2026-09-14T23:14:46.620Z",
   "baseUrl": "https://savingio.com",
   "pagesScanned": 199,
-  "pageProblems": 1,
+  "pageProblems": 0,
   "mobilePagesScanned": 9,
   "mobileProblems": [],
   "interactionChecks": 12,
   "interactionFailures": 7,
   "pass": false,
-  "problems": [
-    {
-      "url": "https://savingio.com/",
-      "status": 200,
-      "title": "세이빙이오(Savingio) | 생활 문제 해결 플랫폼",
-      "h1Count": 1,
-      "canonical": "https://savingio.com/",
-      "hasHeader": true,
-      "hasFooter": true,
-      "hasExplorer": false,
-      "horizontalOverflow": false,
-      "emptyMain": false,
-      "brokenImages": [],
-      "consoleErrors": [],
-      "failedRequests": [
-        {
-          "url": "https://www.google.com/recaptcha/api2/aframe",
-          "error": "net::ERR_ABORTED"
-        }
-      ],
-      "badResponses": [],
-      "error": null
-    }
-  ],
+  "problems": [],
   "interactions": [
     {
       "type": "home-link",
@@ -139,12 +116,7 @@
       "emptyMain": false,
       "brokenImages": [],
       "consoleErrors": [],
-      "failedRequests": [
-        {
-          "url": "https://www.google.com/recaptcha/api2/aframe",
-          "error": "net::ERR_ABORTED"
-        }
-      ],
+      "failedRequests": [],
       "badResponses": [],
       "error": null
     },
